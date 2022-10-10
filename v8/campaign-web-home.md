@@ -11,4 +11,4 @@ title: Adobe Campaign Web v8 product documentation
 >abstract="To be Completed"
 
 
-TBC Test buikd
+TBC Test build
