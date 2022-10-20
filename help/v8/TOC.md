@@ -11,3 +11,5 @@ hide: yes
 # Adobe Campaign v8 Web documentation {#campaign-web-v8}
 
 + [Campaign v8 Web documentation](campaign-web-home.md)
++ Email {#email}
+  + [Delivery settings](email/delivery-settings.md)
