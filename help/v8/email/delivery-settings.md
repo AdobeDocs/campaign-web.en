@@ -61,12 +61,12 @@ Documentation on this part is targeted for december 2022
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery_duration"
 >title="Delivery duration"
->abstract="TBC"
+>abstract="The Delivery duration field lets you enter the limit for global delivery retries. This means that Adobe Campaign sends the messages beginning on the start date, and then, for messages returning an error only, regular, configurable retries are performed until the validity limit is reached."
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_resources_validity"
 >title="Resources validity limit"
->abstract="TBC"
+>abstract="The Validity limit field is used for uploaded resources, mainly for the mirror page and images. The resources on this page are valid for a limited time."
 
 
 ### Tracking {#tracking}
@@ -74,7 +74,7 @@ Documentation on this part is targeted for december 2022
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_tracking_validity"
 >title="Validity period"
->abstract="TBC"
+>abstract="This option defines the duration for which the tracking will be activated on the URLs."
 
 
 
