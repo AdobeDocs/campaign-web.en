@@ -10,21 +10,23 @@ October 2022
 
 Note that this page is for now a placeholder to host Contextualhelp blocks
 
-Do not delete these blocks
+Do not delete these blocks 
+
+Documentation on this part is targeted for december 2022
 
 ## Typology {#typology}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="Typology"
->abstract="TBC"
+>abstract="Typology lets you control, filter and monitor the sending of deliveries."
 
 ### Pressure parameter {#pressure-parameter}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery_weight"
 >title="Delivery weight"
->abstract="TBC"
+>abstract="Delivery weights let you identify top-priority deliveries within the framework of pressure management. Messages with the highest weight have priority."
 
 ### Capacity settings {#capacity-settings}
 
@@ -43,14 +45,14 @@ Do not delete these blocks
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_retries"
 >title="Maximum number of retries"
->abstract="TBC"
+>abstract="If a message fails due to a temporary error, retries will be performed during the delivery duration."
 
 ## Approval {#approval}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
 >title="Approval mode"
->abstract="TBC"
+>abstract="Each step of a delivery can be subject to approval in order to ensure full monitoring and control of the various processes."
 
 ## Validity {#validity}
 
