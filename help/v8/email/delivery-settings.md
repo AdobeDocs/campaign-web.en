@@ -3,7 +3,6 @@ audience: end-user
 title: Delivery Settings
 description: Campaign v8 Web documentation
 hide: yes
-hidefromtoc: yes
 ---
 # Email delivery settings {#email-delivery-settings}
 
