@@ -20,8 +20,9 @@ hide: yes
   + [Add an audience](audience/add-audience.md)
   + [Set a control group](audience/control-group.md)
   + [Work with the Segment Builder](audience/segment-builder.md)
-+ [Preview, test and send your email](preview-test-send/preview-test-send.md) 
-+ Monitor the email sending {#monitor}
-  + [Access KPIs and logs](monitor/kpis-logs.md)
++ [Preview and test your email](preview-test/preview-test.md) 
++ Send and monitor the email {#monitor}
+  + [Prepare and send an email](monitor/prepare-send.md)
+  + [Monitor delivery logs](monitor/delivery-logs.md)
   + [Access delivery reports](monitor/reports.md)
 + [Delivery settings](email/delivery-settings.md)

@@ -3,7 +3,6 @@ audience: end-user
 title: WOrk with the Email Designer
 description: Campaign v8 Web documentation
 hide: yes
-hidefromtoc: yes
 ---
 # Work with the Email Designer {#email-designer}
 
