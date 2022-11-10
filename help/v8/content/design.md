@@ -11,4 +11,4 @@ email designer generic principles
 
 show basic use case with : perso blocks, personalization using profile attributes, add image, unsubscription link
 
-document email designer ? scope TBD
+document email designer ? scope TBD 
