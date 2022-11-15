@@ -7,11 +7,12 @@ description: Campaign v8 Web documentation
 
 ## Adobe Campaign V8 Web
 
+Para concept Adobe Campaign
 V8 web overview
-context, scope
-
+context, scope, limitations
 
 ## Connect to Campaign
 
 login/IMS > lands on homepage (show global KPIs, recent items + left menu to access features)
 
+![](assets/connect.png)
