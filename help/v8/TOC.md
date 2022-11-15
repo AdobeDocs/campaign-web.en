@@ -12,6 +12,7 @@ hide: yes
 
 + [Campaign v8 Web documentation](campaign-web-home.md)
 + [Get started](get-started/get-started.md)
++ [Discover the interface](get-started/user-interface.md)
 + [Create your first email](email/create-email.md)
 + Create email content {#content}
   + [Configure the email content](content/edit-content.md)
