@@ -9,6 +9,8 @@ use case overview (+ E2E process schema?)
 
 E2E steps:
 
+![](assets/delivery-list.png)
+
 ## Create your email
 
 1. Deliveries menu / create

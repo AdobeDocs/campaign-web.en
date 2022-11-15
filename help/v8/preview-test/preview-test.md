@@ -7,6 +7,8 @@ description: Campaign v8 Web documentation
 
 ## Preview your content
 
+![](assets/preview.png)
+
 1. select profiles to test (targeted profiles / test profiles / audience)
 1. preview content
 
