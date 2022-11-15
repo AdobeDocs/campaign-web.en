@@ -2,7 +2,6 @@
 audience: end-user
 title: Get started
 description: Campaign v8 Web documentation
-hide: yes
 ---
 # Get started {#get-started}
 

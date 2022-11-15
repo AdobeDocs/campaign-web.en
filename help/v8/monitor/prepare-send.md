@@ -2,7 +2,6 @@
 audience: end-user
 title: Prepare and send an email
 description: Campaign v8 Web documentation
-hide: yes
 ---
 # Prepare and send your email {#prepare-send}
 

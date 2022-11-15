@@ -2,7 +2,6 @@
 audience: end-user
 title: Add an audience
 description: Campaign v8 Web documentation
-hide: yes
 ---
 # Add an audience {#add-audience}
 

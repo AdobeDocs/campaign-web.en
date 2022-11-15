@@ -2,7 +2,6 @@
 audience: end-user
 title: Configure the email content
 description: Campaign v8 Web documentation
-hide: yes
 ---
 # Configure the email content {#configure-content}
 

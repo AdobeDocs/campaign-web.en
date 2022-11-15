@@ -2,7 +2,6 @@
 audience: end-user
 title: Create your first email
 description: Campaign v8 Web documentation
-hide: yes
 ---
 # Create your first email {#create-email}
 

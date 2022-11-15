@@ -2,7 +2,6 @@
 audience: end-user
 title: Preview and test your email 
 description: Campaign v8 Web documentation
-hide: yes
 ---
 # Preview and test your email {#preview-test-send}
 
