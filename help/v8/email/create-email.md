@@ -10,11 +10,12 @@ use case overview (+ E2E process schema?)
 E2E steps:
 
 1. Deliveries menu / create
-1. Configure email general properties (label, additional options)
+1. Configure email general properties (label, additional options) -> ref to Delivery settings
 1. Create content: 
 
-    show basic content example 
-    ref to Create content section
+   show basic use case with : perso blocks, personalization using profile attributes, add image, unsubscription link
+
+   ref to Create content section
 
 
 1. Define audience: 
