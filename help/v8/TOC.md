@@ -24,7 +24,7 @@ hide: yes
       + [Work with templates](using/design/email-templates.md)
     + Structure and design your email {#design-content}
       + [Use content components](using/design/content-components.md)
-      + [Add images](using/design/add-assets.md)
+      + [Add assets](using/design/add-assets.md)
       + [Generate the text version](using/design/text-version-email.md)
       + [Add a preheader](using/design/preheader.md)
       + [Add links and track messages](using/design/message-tracking.md)
