@@ -41,5 +41,5 @@ hide: yes
 + Send and monitor the email {#monitor}
   + [Prepare and send an email](monitor/prepare-send.md)
   + [Monitor delivery logs](monitor/delivery-logs.md)
-  + [Access delivery reports](monitor/reports.md)
++ [Reporting](reporting/reports.md)
 + [Advanced settings](advanced-settings/delivery-settings.md)
