@@ -16,7 +16,7 @@ You can choose from:
 
 ## Save as template {#save-as-template}
 
-Once you designed your [email content](design-emails.md), you can save it for future reuse. To do this, follow the steps below.
+Once you designed your email content, you can save it for future reuse. To do this, follow the steps below.
 
 1. Click the ellipsis on top right of the screen.
 

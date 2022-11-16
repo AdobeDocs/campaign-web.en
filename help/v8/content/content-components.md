@@ -54,12 +54,12 @@ Use the **[!UICONTROL Text]** component to insert text in your email. You can ad
     * **[!UICONTROL Create list]**: add bullet or number list to your text.
     * **[!UICONTROL Set heading]**: add up to six heading levels to your text.
     * **Font size**: select the font size of your text in pixels.
-    * **[!UICONTROL Edit image]**: add an image or an asset to your text component. [Learn more about asset management](assets-essentials.md).
+    * **[!UICONTROL Edit image]**: add an image or an asset to your text component.
     * **[!UICONTROL Show the source code]**: display the source code of your text. It cannot be modified.
     * **[!UICONTROL Duplicate]**: add a copy of your text component.
     * **[!UICONTROL Delete]**: delete the selected text component from your email.
     * **[!UICONTROL Add personalization]**: add personalization fields to customize the content from your profiles data. [Learn more about content personalization](../personalization/personalize.md).
-    * **[!UICONTROL Enable conditional content]**: add conditional content to adapt the content of the component to the targeted profiles. [Learn more about dynamic content](../personalization/get-started-dynamic-content.md).
+    * **[!UICONTROL Enable conditional content]**: add conditional content to adapt the content of the component to the targeted profiles.
 
 1. Adjust the **[!UICONTROL Text color]**, **[!UICONTROL Font family]** and **[!UICONTROL Size]** in the **[!UICONTROL Components Settings]**.
 
@@ -158,8 +158,3 @@ Use the **[!UICONTROL Social]** component to insert links to social media pages 
 ## Offer Decision {#offer-decision}
 
 Use the **[!UICONTROL Offer decision]** component to insert decisions (previously known as offer activities) into your messages. Decisions will leverage Decision Management to pick the best offer to deliver to your customers.
-
-Related topics:
-
-* [Get started with Decision Management](../offers/get-started/starting-offer-decisioning.md)
-* [Add personalized offers into emails](deliver-personalized-offers.md)

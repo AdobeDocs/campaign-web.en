@@ -10,7 +10,7 @@ Use [!DNL Journey Optimizer] to add links to your content and track the messages
 
 ## Enable tracking {#enable-tracking}
 
-You can enable tracking at the email message level by checking the **[!UICONTROL Email opens]** and/or **[!UICONTROL Click on email]** options when [creating your message](../messages/get-started-content.md).
+You can enable tracking at the email message level by checking the **[!UICONTROL Email opens]** and/or **[!UICONTROL Click on email]** options when creating your message.
 
 ![](assets/message-tracking.png)
 
@@ -41,19 +41,19 @@ To insert links into your email content, follow the steps below:
 
     * **[!UICONTROL External link]**: Insert a link to an external URL.
 
-    * **[!UICONTROL Landing page]**: Insert a link to a landing page. Learn more in [this section](../landing-pages/get-started-lp.md)
+    * **[!UICONTROL Landing page]**: Insert a link to a landing page.
 
-    * **[!UICONTROL One click Opt-out]**: Insert a link to enable users to quickly unsubscribe from your communications without the need to confirm opting out. Learn more in [this section](../privacy/opt-out.md#one-click-opt-out).
+    * **[!UICONTROL One click Opt-out]**: Insert a link to enable users to quickly unsubscribe from your communications without the need to confirm opting out.
 
     * **[!UICONTROL External Opt-in/Subscription]**: Insert a link to accept receiving communications from your brand.
 
-    * **[!UICONTROL External Opt-out/Unsubscription]**: Insert a link to unsubscribe from receiving communications from your brand. Learn more on opt-out management in [this section](../privacy/opt-out.md#opt-out-management).
+    * **[!UICONTROL External Opt-out/Unsubscription]**: Insert a link to unsubscribe from receiving communications from your brand.
 
     * **[!UICONTROL Mirror page]**: Insert a link to display the email content in a web browser. Learn more in [this section](#mirror-page).
 
     ![](assets/message-tracking-links.png)
 
-1. You can personalize your links. Learn more on personalized URLs in [this section](../personalization/personalization-syntax.md#perso-urls).
+1. You can personalize your links.
 
 1. Save your changes.
 
@@ -66,7 +66,7 @@ To insert links into your email content, follow the steps below:
 
 >[!NOTE]
 >
->Marketing-type email messages must include an [opt-out link](../privacy/opt-out.md#opt-out-management), which is not required for transactional messages. The message category (**[!UICONTROL Marketing]** or **[!UICONTROL Transactional]**) is defined at the [channel surface](../configuration/channel-surfaces.md#email-type) (i.e. message preset) level and when [creating the message](../messages/get-started-content.md#create-new-message).
+>Marketing-type email messages must include an opt-out link, which is not required for transactional messages. The message category (**[!UICONTROL Marketing]** or **[!UICONTROL Transactional]**) is defined at the channel surface (i.e. message preset) level and when creating the message.
 
 ## Link to a mirror page {#mirror-page}
 
@@ -86,7 +86,7 @@ Once the email is sent, when the recipients click the mirror page link, the cont
 
 >[!NOTE]
 >
->In the [proof](preview.md#send-proofs) sent to the test profiles, the link to the mirror page is not active. It is only activated in the final messages.
+>In the proof sent to the test profiles, the link to the mirror page is not active. It is only activated in the final messages.
 
 The retention period for a mirror page is 60 days. After that delay, the mirror page will no longer be available.
 
@@ -113,4 +113,4 @@ The [Email Designer](create-email-content.md) allows you to manage the tracked U
     * **[!UICONTROL Mirror page]**: Considers this URL is a mirror page URL.
     * **[!UICONTROL Never]**: Never activates tracking of this URL. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
-Reporting on openings and clicks is available in the [Live report](../reports/live-report.md) and in the [Global report](../reports/global-report.md).
+Reporting on openings and clicks is available in the Live report and in the Global report].

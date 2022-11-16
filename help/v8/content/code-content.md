@@ -12,7 +12,7 @@ Use the **[!UICONTROL Code your own]** mode to import raw HTML and/or code your 
 
 >[!CAUTION]
 >
-> Images from [Adobe Experience Manager Assets Essentials](assets-essentials.md) cannot be referenced when using this method. The images referenced in your HTML code must be stored into a public location. 
+> Images from Adobe Experience Manager Assets Essentials cannot be referenced when using this method. The images referenced in your HTML code must be stored into a public location. 
 
 1. In the Email Designer home page, select **[!UICONTROL Code your own]**.
 
@@ -20,7 +20,7 @@ Use the **[!UICONTROL Code your own]** mode to import raw HTML and/or code your 
 
 1. Enter or paste your raw HTML code. 
 
-1. Use the left pane to leverage [!DNL Journey Optimizer] personalization capabilities. For more on this, refer to [this section](../personalization/personalize.md).
+1. Use the left pane to leverage [!DNL Journey Optimizer] personalization capabilities.
 
     ![](assets/code-editor.png)
 
@@ -28,7 +28,7 @@ Use the **[!UICONTROL Code your own]** mode to import raw HTML and/or code your 
     
     ![](assets/code-editor-change-design.png)
 
-1. Click the **[!UICONTROL Preview]** button to check the message design and personalization using test profiles. For more on this, refer to [this section](preview.md).
+1. Click the **[!UICONTROL Preview]** button to check the message design and personalization using test profiles.
 
     ![](assets/code-editor-preview.png)
 

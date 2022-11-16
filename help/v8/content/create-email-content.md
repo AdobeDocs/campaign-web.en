@@ -2,6 +2,7 @@
 audience: end-user
 title: Design emails in Journey Optimizer
 description: Learn how to design your emails content from scratch
+
 ---
 
 # Start from scratch {#create-email-content}
@@ -40,17 +41,17 @@ To start building your email content with the email designer, follow the steps b
 
     ![](assets/email_designer_4.png)
 
-1. From the **[!UICONTROL Assets picker]**, you can directly add assets stored in the **[!UICONTROL Assets library]** to your email. [Learn more about asset management](assets-essentials.md).
+1. From the **[!UICONTROL Assets picker]**, you can directly add assets stored in the **[!UICONTROL Assets library]** to your email.
 
     Double-click the folder which contained your assets and drag and drop the asset you want to add to your email.
 
     ![](assets/email_designer_5.png)
 
-1. Add personalization fields to customize the content from your profiles data. [Learn more about content personalization](../personalization/personalize.md).
+1. Add personalization fields to customize the content from your profiles data.
 
     ![](assets/email_designer_6.png)
 
-1. Add dynamic content to adapt the content to the targeted profiles based on conditional rules. [Get started with dynamic content](../personalization/get-started-dynamic-content.md).
+1. Add dynamic content to adapt the content to the targeted profiles based on conditional rules.
 
     ![](assets/email_designer_dynamic-content.png)
 
@@ -71,8 +72,6 @@ To start building your email content with the email designer, follow the steps b
     ![](assets/email_designer_26.png)
 
 1. Click **[!UICONTROL Show preview]** to check your email rendering. You can choose the desktop or mobile view.
-
-    For more information on how preview your email, refer to [this page](preview.md).
 
     ![](assets/email_designer_8.png)
 
