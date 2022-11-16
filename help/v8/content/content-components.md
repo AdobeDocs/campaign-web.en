@@ -58,7 +58,7 @@ Use the **[!UICONTROL Text]** component to insert text in your email. You can ad
     * **[!UICONTROL Show the source code]**: display the source code of your text. It cannot be modified.
     * **[!UICONTROL Duplicate]**: add a copy of your text component.
     * **[!UICONTROL Delete]**: delete the selected text component from your email.
-    * **[!UICONTROL Add personalization]**: add personalization fields to customize the content from your profiles data. [Learn more about content personalization](../personalization/personalize.md).
+    * **[!UICONTROL Add personalization]**: add personalization fields to customize the content from your profiles data.
     * **[!UICONTROL Enable conditional content]**: add conditional content to adapt the content of the component to the targeted profiles.
 
 1. Adjust the **[!UICONTROL Text color]**, **[!UICONTROL Font family]** and **[!UICONTROL Size]** in the **[!UICONTROL Components Settings]**.
