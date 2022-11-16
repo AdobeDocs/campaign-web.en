@@ -23,19 +23,11 @@ hide: yes
       + [Code your own content](content/code-content.md)
       + [Work with templates](content/email-templates.md)
     + Structure and design your email {#design-content}
-<<<<<<< Updated upstream
-      + [Use content components](using/design/content-components.md)
-      + [Add assets](using/design/add-assets.md)
-      + [Generate the text version](using/design/text-version-email.md)
-      + [Add a preheader](using/design/preheader.md)
-      + [Add links and track messages](using/design/message-tracking.md)
-=======
       + [Use content components](content/content-components.md)
       + [Add images](content/add-assets.md)
       + [Generate the text version](content/text-version-email.md)
       + [Add a preheader](content/preheader.md)
       + [Add links and track messages](content/message-tracking.md)
->>>>>>> Stashed changes
     + Style your content {#style}
       + [Background settings](content/backgrounds.md)
       + [Adjust vertical alignment and padding](content/adjusting-vertical-alignment-and-padding.md)
