@@ -113,4 +113,4 @@ The [Email Designer](create-email-content.md) allows you to manage the tracked U
     * **[!UICONTROL Mirror page]**: Considers this URL is a mirror page URL.
     * **[!UICONTROL Never]**: Never activates tracking of this URL. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
-Reporting on openings and clicks is available in the Live report and in the Global report].
+Reporting on openings and clicks is available in the Live report and in the Global report.
