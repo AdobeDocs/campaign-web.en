@@ -18,7 +18,7 @@ E2E steps:
 
 ## Create content
 
-   show basic use case with : perso blocks, personalization using profile attributes, add image, unsubscription link
+   show basic use case with : import content, add personalization using profile attributes
 
    ref to Create content section
 

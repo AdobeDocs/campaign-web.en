@@ -10,7 +10,7 @@ description: Campaign v8 Web user interface
 ![](assets/home.png)
 
 * console + web interface (overview, why use each of them)
-* web UI made up of read-only lists that can be configured
+* web UI made up of read-only lists that can be configured, show how to add columns
 
 ## Left navigation menu
 

@@ -1,9 +1,11 @@
 ---
 audience: end-user
-title: Delivery Settings
+title: Advanced Settings
 description: Campaign v8 Web documentation
 ---
-# Email delivery settings {#email-delivery-settings}
+# Advanced settings {#advanced-settings}
+
+## Email delivery settings {#email-delivery-settings}
 
 October 2022 
 
