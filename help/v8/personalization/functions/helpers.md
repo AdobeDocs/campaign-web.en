@@ -108,11 +108,6 @@ The `elseif` statement will specify a new condition to test if the first stateme
     {%/if%}
     ```
 
->[!NOTE]
->
->To learn more about segmentation and segmentation service, refer to this [section](../../segment/about-segments.md).
-
-
 ## Unless{#unless}
 
 The `unless` helper is used to define a conditional block. By opposition to the The `if`  helper, if the expression evaluation returns false, the block is rendered.
