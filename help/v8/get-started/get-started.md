@@ -7,16 +7,44 @@ description: Campaign v8 Web documentation
 
 ## Adobe Campaign V8 Web
 
-Para concept Adobe Campaign
+<!--
 V8 web overview
 context, scope (targets cross-channel practitioners), limitations
+-->
 
+Adobe Campaign provides a platform for designing cross-channel customer experiences and an environment for visual campaign orchestration, real-time interaction management and cross channel execution.
+
+In addition to all the existing features available with the console, we've built a web interface for practionners which offers an integrated, intuitive and consistent user experience. This modern web-based UI is currently only available to Alpha customers with the following capabilities:
+
+**Modern, intuitive and unified experience**
+
+* Access to the new interface and other applications with a single and shared user session
+* Access to community learnings, help center
+* Experience the new navigation
+
+**Create, launch and measure your single email campaign**
+
+* Design personalized email content with the email editor
+* Define Audiences with the segment builder
+* Preview, test and send your email messages
+* Monitor sending and measure results with built-in reports 
+
+<!--
 add info somewhere to remind users that
 * they still have access to their console (+ link to v8 console doc)
 * they keep their existing data (example: will be able to use their existing delivery templates to create deliveries)
+-->
 
 ## Connect to Campaign
 
-login/IMS > lands on homepage (show global KPIs, recent items + left menu to access features)
-
 ![](assets/connect.png)
+
+Experience Cloud, Adobe ID, password 
+-> experience cloud home: "Campaign" -> home campaign v8
+-> or Campaign v8 web if direct URL
+
+<!--
+Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance.
+-->
+
+login/IMS > lands on homepage (show global KPIs, recent items + left menu to access features)
