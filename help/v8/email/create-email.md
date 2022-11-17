@@ -31,6 +31,11 @@ E2E steps:
 
 1. Schedule?
 
+<!--
+no Schedule -> send immediately
+or schedule, date, hour, confirmation
+-->
+
 ## Preview and test
 
 1. Preview test and send + ref to preview test send section

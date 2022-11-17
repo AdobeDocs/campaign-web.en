@@ -20,3 +20,7 @@ query like AEP segment builder (same component with campaign data)
 * import from file
 
 show use case with a new audience creation (or import from file?)
+
+<!--
+control groups like acc: exract, random, based on attribute
+-->
