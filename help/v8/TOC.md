@@ -16,23 +16,43 @@ hide: yes
 + [Create your first email](email/create-email.md)
 + Create email content {#content}
   + [Configure the email content](content/edit-content.md)
-  + Work with the Email Designer {#email-designer}
-    + Get started with email design {#start-design}
-      + [Start from scratch ](content/create-email-content.md)
-      + [Import your email content](content/existing-content.md)
-      + [Code your own content](content/code-content.md)
-      + [Work with templates](content/email-templates.md)
-    + Structure and design your email {#design-content}
-      + [Use content components](content/content-components.md)
-      + [Add images](content/add-assets.md)
-      + [Generate the text version](content/text-version-email.md)
-      + [Add a preheader](content/preheader.md)
-      + [Add links and track messages](content/message-tracking.md)
-    + Style your content {#style}
-      + [Background settings](content/backgrounds.md)
-      + [Adjust vertical alignment and padding](content/adjusting-vertical-alignment-and-padding.md)
-      + [Define a style for links](content/styling-links.md)
-      + [Add inline styling attributes](content/adding-inline-styling-attributes.md)
+  + Start creating your content {#start-design}
+    + [Start from scratch ](content/create-email-content.md)
+    + [Import your email content](content/existing-content.md)
+    + [Code your own content](content/code-content.md)
+    + [Work with templates](content/email-templates.md)
+  + Structure and design your email {#design-content}
+    + [Use content components](content/content-components.md)
+    + [Add images](content/add-assets.md)
+    + [Generate the text version](content/text-version-email.md)
+    + [Add a preheader](content/preheader.md)
+    + [Add links and track messages](content/message-tracking.md)
+  + Style your content {#style}
+    + [Background settings](content/backgrounds.md)
+    + [Adjust vertical alignment and padding](content/adjusting-vertical-alignment-and-padding.md)
+    + [Define a style for links](content/styling-links.md)
+    + [Add inline styling attributes](content/adding-inline-styling-attributes.md)
+  + Personalize your content {#personalize}
+    + [Get started with personalization](personalization/personalize.md)
+    + [Personalization contexts](personalization/personalization-contexts.md)
+    + Build expressions {#build-expressions}
+      + [Personalization syntax](personalization/personalization-syntax.md)
+      + Work with the Expression Editor {#expression-editor}
+        + [About the Expression Editor](personalization/personalization-build-expressions.md)
+        + [Add attributes to favorites](personalization/personalization-favorites.md)   
+        + [Work with saved expressions](personalization/personalization-library.md)  
+        + [Personalization validation](personalization/personalization-validation.md)
+      + Helper functions{#functions}
+        + [Get started with helper functions](personalization/functions/functions.md)
+        + [Aggregation functions](personalization/functions/aggregation.md)
+        + [Arithmetic functions](personalization/functions/arithmetic-functions.md)
+        + [Arrays and list functions](personalization/functions/arrays-list.md)
+        + [Date functions](personalization/functions/dates.md)
+        + [Boolean and comparison functions](personalization/functions/operators.md)
+        + [Helpers](personalization/functions/helpers.md)
+        + [Map functions](personalization/functions/maps.md)
+        + [Object functions](personalization/functions/objects.md)
+        + [String functions](personalization/functions/string.md) 
 + Select the email audience {#audience}
   + [Add an audience](audience/add-audience.md)
   + [Set a control group](audience/control-group.md)
