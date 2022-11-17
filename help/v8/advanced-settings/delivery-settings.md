@@ -6,7 +6,7 @@ description: Campaign v8 Web documentation
 # Advanced settings {#advanced-settings}
 
 ## Email delivery settings {#email-delivery-settings}
-
+<!--
 October 2022 
 
 Note that this page is for now a placeholder to host Contextualhelp blocks
@@ -14,6 +14,12 @@ Note that this page is for now a placeholder to host Contextualhelp blocks
 Do not delete these blocks 
 
 Documentation on this part is targeted for december 2022
+-->
+
+All the technical delivery parameters from the template.
+Only change parameters, no creation here. 
+According to permissions
+Practionners should not modify this, caution. Only check and change typology rule -> rest defined in template
 
 ## Typology {#typology}
 

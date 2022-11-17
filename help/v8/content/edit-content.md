@@ -9,3 +9,8 @@ description: Campaign v8 Web documentation
 Edit content button : show use case with subject line, attachment, add an offer, tracking enabled (+ note on simulate content button with link to preview proof section)
 
 ![](assets/content-dashboard.png)
+
+<!--
+Offers same as campaign (no design, only selection)
+Diff from AJO:  attachement
+-->

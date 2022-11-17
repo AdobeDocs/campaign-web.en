@@ -7,6 +7,11 @@ description: Campaign v8 Web documentation
 
 ## Preview your content
 
+<!--
+Diff from AJO: 
+preview: more features than AJO: preview using target population, test profiles or audience
+-->
+
 ![](assets/preview.png)
 
 1. select profiles to test (targeted profiles / test profiles / audience)
@@ -15,3 +20,8 @@ description: Campaign v8 Web documentation
 ## Send proofs 
 
 detailed steps to send a proof
+
+<!--
+Diff from AJO: 
+substitution, test profile
+-->

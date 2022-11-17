@@ -14,6 +14,7 @@ E2E steps:
 ## Create your email
 
 1. Deliveries menu / create
+1. Choose Email channel and template
 1. Configure email general properties (label, additional options) -> ref to Delivery settings
 
 ## Create content
