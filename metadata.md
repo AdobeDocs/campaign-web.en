@@ -1,8 +1,8 @@
 ---
 cloud: Experience Cloud
 version: v8
-solution: Campaign
-product: adobe campaign-web
+solution: Campaign, Campaign v8
+product: adobe campaign
 feature-set: Campaign
 type: Documentation
 hide: yes
