@@ -1,6 +1,4 @@
 ---
-solution: Journey Optimizer
-product: journey optimizer
 title: Work with saved expressions
 description: Learn how to work with saved expressions from the [!DNL Journey Optimizer] library.
 feature: Personalization

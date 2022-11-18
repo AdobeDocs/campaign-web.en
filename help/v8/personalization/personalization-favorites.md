@@ -1,6 +1,4 @@
 ---
-solution: Journey Optimizer
-product: journey optimizer
 title: Add attributes to favorites
 description: Learn how to add attributes to favorites.
 feature: Personalization

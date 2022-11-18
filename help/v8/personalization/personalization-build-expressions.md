@@ -1,6 +1,4 @@
 ---
-solution: Journey Optimizer
-product: journey optimizer
 title: About the Expression editor
 description: Learn how to work with the Expression editor.
 feature: Personalization

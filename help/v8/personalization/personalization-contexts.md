@@ -1,6 +1,4 @@
 ---
-solution: Journey Optimizer
-product: journey optimizer
 title: Personalization contexts
 description: Learn more about the ways you can personalize the content and display of your messages. 
 feature: Personalization

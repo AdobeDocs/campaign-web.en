@@ -1,6 +1,4 @@
 ---
-solution: Journey Optimizer
-product: journey optimizer
 title: Personalization syntax
 description: Learn how to use personalization syntax.
 feature: Personalization
