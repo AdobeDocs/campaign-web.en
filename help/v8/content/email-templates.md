@@ -1,6 +1,6 @@
 ---
 audience: end-user
-product: journey optimizer
+product: campaign
 title: Work with email templates
 ---
 
