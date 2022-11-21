@@ -35,7 +35,7 @@ The syntax is case sensitive.
 
 The words **true**, **false**, **null** and **undefined** are only allowed in the first part of a path expression.
 
-In Handlebars, the values returned by the {{expression}} are **HTML-escaped**. If the expression contains `&`, then the returned HTML-escaped output is generated as `&amp;`. If you don't want Handlebars to escape a value, use the "triple-stash".
+In Handlebars, the values returned by the `{{expression}}` are **HTML-escaped**. If the expression contains `&`, then the returned HTML-escaped output is generated as `&amp;`. If you don't want Handlebars to escape a value, use the "triple-stash".
 
 Regarding literal functions arguments, the templating language parser does not support single unescaped backslash (`\`) symbol. This character must be escaped with an additionnal backslash (`\`) symbol. Example :
 
@@ -114,7 +114,7 @@ A Handlebars helper is a simple identifier that may be followed by parameters.
 Each parameter is a Handlebars expression. These helpers can be accessed from any context in a template.
 
 These block helpers are identified by a # preceding the helper name and require a matching closing /, of the same name. 
-Blocks are expressions that have a block opening ({{# }}) and closing ({{/}}).
+Blocks are expressions that have a block opening (`{{# }}`) and closing (`{{/}}`).
 
 
 >[!NOTE]

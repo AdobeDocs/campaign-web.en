@@ -133,8 +133,8 @@ Some edu specific content Content
 ## Each{#each}
 
 The `each` helper is used to iterate over an array.
-The syntax of the helper is ```{{#each ArrayName}}``` YourContent {{/each}} 
-We can refer to the individual array items by using the keyword **this** inside the block. The index of the array’s element can be rendered by using {{@index}}. 
+The syntax of the helper is `{{#each ArrayName}}` YourContent `{{/each}}` 
+We can refer to the individual array items by using the keyword **this** inside the block. The index of the array’s element can be rendered by using `{{@index}}`. 
 
 **Syntax**
 
