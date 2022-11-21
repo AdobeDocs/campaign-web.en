@@ -15,7 +15,7 @@ Discover [!DNL Adobe Journey Optimizer] personalization capabilities to adapt yo
 
 ## Build personalization expressions using a dedicated syntax {#syntax}
 
-[!DNL Journey Optimizer] uses an **inline** simple personalization syntax based on Handlebars which allows you to create expressions with contents enclosed by double curly braces **`{{}}`**. You can add multiple expressions in the same content or field without restrictions. Learn more in [Personalization syntax](personalization-syntax.md).
+[!DNL Journey Optimizer] uses an **inline** simple personalization syntax based on Handlebars which allows you to create expressions with contents enclosed by double curly braces **`{{ }}`**. You can add multiple expressions in the same content or field without restrictions. Learn more in [Personalization syntax](personalization-syntax.md).
 
 **Examples:**
 

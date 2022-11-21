@@ -114,7 +114,7 @@ A Handlebars helper is a simple identifier that may be followed by parameters.
 Each parameter is a Handlebars expression. These helpers can be accessed from any context in a template.
 
 These block helpers are identified by a # preceding the helper name and require a matching closing /, of the same name. 
-Blocks are expressions that have a block opening (`{{# }}`) and closing (`{{/}}`).
+Blocks are expressions that have a block opening (`{{# }}`) and closing (`{{/ }}`).
 
 
 >[!NOTE]

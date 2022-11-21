@@ -53,7 +53,7 @@ In this case **firstName1** is not defined as attribute in the profile schema:
 
  When invalid handlebars syntax is used.
 
-  Handlebars expressions are surrounded with **`{{expression}}`**
+  Handlebars expressions are surrounded with `{{expression}}`
 
  ```
     {{[profile.person.name.firstName}}
