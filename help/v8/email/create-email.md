@@ -3,7 +3,7 @@ audience: end-user
 title: Create your first email
 description: Campaign v8 Web documentation
 ---
-# Send your first email {#create-email}
+# Send your first email {#first-email}
 
 
 This use case presents how to create your first email 
