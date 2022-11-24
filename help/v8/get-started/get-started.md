@@ -13,6 +13,10 @@ context, scope (targets cross-channel practitioners), limitations
 only existing customers
 -->
 
+>[!NOTE]
+>
+>[!DNL Campaign v8 web] is currently in Alpha version. Access is restricted to a small set of Alpha customers. Please be aware that both product interface, capabilities and usage flows can change without notice.
+
 Adobe Campaign provides a platform for designing cross-channel customer experiences and an environment for visual campaign orchestration, real-time interaction management and cross channel execution.
 
 In addition to all the existing features available with the console, we've built a web interface for practionners which offers an integrated, intuitive and consistent user experience. This modern web-based UI is currently only available to Alpha customers with the following capabilities:
@@ -45,6 +49,11 @@ add info somewhere to remind users that
 
 ![](assets/connect.png)
 
-Experience Cloud, Adobe ID, password 
+1. Connect to [Adobe Experience Cloud](http://experience.adobe.com)
+1. Log in with your Adobe IMS credentials
+1. In the **Quick access** section, click **Campaign**.
+
+<!--
 -> experience cloud home: "Campaign" -> home campaign v8
 -> or Campaign v8 web if direct URL
+-->
