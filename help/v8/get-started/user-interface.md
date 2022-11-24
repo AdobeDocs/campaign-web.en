@@ -9,8 +9,19 @@ description: Campaign v8 Web user interface
 
 ![](assets/home.png)
 
+The new Campaign v8 web interface offers an integrated, intuitive and consistent user experience.
+
+Key concepts when browsing the user interface are common with Adobe Experience Platform. Refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide) for more details.
+
+>[!NOTE]
+>
+>This documentation is frequently updated to reflect latest changes in the product user interface. However, some screenshots can slightly differ from your user interface.
+
+
+<!--
 * console + web interface (overview, why use each of them)
 * web UI made up of read-only lists that can be configured, show how to add columns
+-->
 
 ## Unified Shell
 
@@ -32,6 +43,8 @@ list screens
 template tab
 
 ## Left navigation menu
+
+Browse the links on the left to access Campaign v8 web capabilities.
 
 **Home page**
 
@@ -72,5 +85,17 @@ Navtree view depends on permissions (same as console).
 
 * **Offers** - Your list of Offers. No edition/creation.
 
+## Filter lists{#filter-lists}
 
+List screens
+
+## Find help and support {#find-help}
+
+Access Adobe Journey Optimizer key help pages from the lower section of the home page.
+
+Use the **Help** icon to access help pages, contact support and share feedback. You can search help articles and videos from the search field.
+
+## Supported browsers {#browsers}
+
+Adobe [!DNL Journey Optimizer] interface is designed to work optimally in the latest version of Google Chrome. You might have trouble using certain features on older versions or other browsers.
 
