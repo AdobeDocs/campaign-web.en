@@ -14,4 +14,4 @@ title: Adobe Campaign Web v8 product documentation
 
 ![](assets/do-not-localize/badge.png) 
 
->[!DNL Campaign v8 web] is currently in Alpha version. Access is restricted to a small set of Alpha customers. Please be aware that both product interface, capabilities and usage flows can change without notice.
+>[!DNL Campaign v8 web] is currently in Alpha version. Access is restricted to a small set of Alpha customers. Please be aware that product interface, capabilities and usage flows can change without notice.
