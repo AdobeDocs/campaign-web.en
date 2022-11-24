@@ -41,7 +41,6 @@ add info somewhere to remind users that
 
 ## Limitations
 
-
 ## Connect to Campaign
 
 ![](assets/connect.png)
