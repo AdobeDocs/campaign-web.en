@@ -59,7 +59,7 @@ In this example, we will schedule the sending of an email on a specific date to 
 
     ![](assets/subject-line.png)
 
-1. Add an attached file to your email if necessary. [Learn how to edit email content]()
+1. Add an attached file to your email if necessary. Learn how to edit email content
 
 1. Click the **[!UICONTROL Edit email body]** button to create and design the content of your email.
 
