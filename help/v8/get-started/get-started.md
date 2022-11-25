@@ -15,7 +15,7 @@ only existing customers
 
 >[!NOTE]
 >
->[!DNL Campaign v8 web] is currently in Alpha version. Access is restricted to a small set of Alpha customers. Please be aware that both product interface, capabilities and usage flows can change without notice.
+>Campaign v8 web is currently in Alpha version. Access is restricted to a small set of Alpha customers. Please be aware that both product interface, capabilities and usage flows can change without notice.
 
 Adobe Campaign provides a platform for designing cross-channel customer experiences and an environment for visual campaign orchestration, real-time interaction management and cross channel execution.
 
