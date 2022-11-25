@@ -8,25 +8,14 @@ description: Campaign v8 Web documentation
 
 This use case presents how to create your first email 
 
-In this example, we will schedule the sending of an email on a specific date to silver and gold loyalty customers. This email will be designed using a predefined HTML template and inform the customers of upcoming limited edition products.
-
-To do this, the main steps are as follows:
-
-1. Create the email 
-1. Design and personalize the email 
-1. Define the audience
-1. Schedule the sending
-1. Preview the email and send proofs
-1. Prepare and send the meial
-1. Check the sending
-1. Access delivery reports
+In this example, we will schedule the sending of an email on a specific date to silver and gold loyalty customers. This email will be designed using a predefined HTML template from a ZIP file and will include personalization using profile's attributes.
 
 ![](assets/delivery-list.png)
 
-## Create your email {#create-email}
+## Create the email {#create-email}
 
-1. Access the **[!UICONTROL Deliveries]** menu then click **[!UICONTROL Create]**.
-1. Select the **[!UICONTROL Email]** channel and the template to use for the delivery then click **[!UICONTROL Create]**.
+1. Create a new delivery from the **[!UICONTROL Deliveries]** menu.
+1. Select the **[!UICONTROL Email]** channel and the template to use then click **[!UICONTROL Create]**.
 
     >[!NOTE]
     >
@@ -36,31 +25,33 @@ To do this, the main steps are as follows:
 
 1. Provide a label for the delivery and configure additional options depending on your needs:
 
-    check which settings are defined in the template and mention them(description? folder?, nature?)
-
     * Internal name: 
     * Folder: 
     * Delivery code: 
     * Description: 
     * Nature: 
     
+    check which settings are defined in the template and mention them(description? folder?, nature?)
+
+    ![](assets/email-properties.png)
+
     >[!NOTE]
     >
     >info on delivery settings button + link to doc
 
-    ![](assets/email-properties.png)
+## Create the email content {#create-content}
 
-## Create content {#create-content}
+1. Click the **[!UICONTROL Edit content]** button to start creating the content of your email. 
 
-1. Click the **[!UICONTROL Edit content]** button to configure the content of your email. 
+   This screen allows you to configure the email content and design it using the Email Designer.
 
     ![](assets/edit-content.png)
 
     >[!NOTE]
     >
-    >info on from name and email: say that they are predefined the selected template and cannot be modified.
+    >The From name and From email information are predefined in the selected email template.
     >
-    >info on offers with link to content doc
+    >By default, email tracking is enabled for opens and clicks. To disable these options, unselect them from the Optional features section.
 
 1. Specify the subject of your email using the Expression Editor. [Learn how to personalize your content](../personalization/personalize.md)
 
@@ -68,7 +59,7 @@ To do this, the main steps are as follows:
 
     ![](assets/subject-line.png)
 
-1. Add an attached file to your email if necessary. Accepted file formats are xxxx.
+1. Add an attached file to your email if necessary. [Learn how to edit email content]()
 
 1. Click the **[!UICONTROL Edit email body]** button to create and design the content of your email.
 
@@ -76,7 +67,7 @@ To do this, the main steps are as follows:
 
     ![](assets/import-html.png)
 
-1. Select the html or zip file to import then click **[!UICONTROL Next]**.
+1. Select the HTML or ZIP file to import then click **[!UICONTROL Next]**.
 
     If your folder contains assets, choose the instance and folder where they should be stored then click **[!UICONTROL Import]**. (+ link to doc on assets?)
 
@@ -88,30 +79,35 @@ To do this, the main steps are as follows:
 
     ![](assets/add-perso.png)
 
-1. Once your content is ready, click Save then click the arrow to go back to the email creation screen.
+1. Once your content is ready, save it then click the arrow to go back to the email creation screen.
 
     ![](assets/save-content.png)
 
-1. Select the audience to target.
+## Define the audience {#define-audience}
+
+1. Click the **[!UICONTROL Select audience]** button then choose an existing audience or create a new one.
+
+    In this example, we want to use an existing audience targeting customers belonging to the silver and gold loyalty points levels.
+
+    ![](assets/create-audience.png)
 
     >[!NOTE]
     >
-    >info on tracking options. activated by default, can be disabled depdending on needs.
+    >Audiences available in the list originate either from your Campaign V8 instance or from Adobe Experience Platform if the Destination / Sources intgeration has been implemented on your instance. Learn how to select the email audience 
 
-## Define audience {#define-audience}
+1. Once your audience has been selected, you can edit the rules if necessary. You can also set a control group in order to xxxxx
 
-    Show audience creation example using the segment builder
+## Schedule the sending {#schedule}
 
-    ref to Audience section
+xxxx
 
-1. Schedule?
 
 <!--
 no Schedule -> send immediately
 or schedule, date, hour, confirmation
 -->
 
-## Preview and test {#preview-test}
+## Preview and test the email {#preview-test}
 
 1. Preview test and send + ref to preview test send section
 
@@ -119,6 +115,7 @@ or schedule, date, hour, confirmation
 
 1. Monitor + ref to monitor section
 
-## Access delivery reports {#reports}
+## Access reports {#reports}
 
 1. access deliver reports
+
