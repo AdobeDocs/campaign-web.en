@@ -4,7 +4,7 @@ product: campaign
 title: Work with email templates
 ---
 
-# Work with email templates {#email-templates}
+# Work with email content templates {#email-content-templates}
 
 Use the **[!UICONTROL Select design template]** section to start building your content from a template.
 

@@ -5,7 +5,6 @@ description: Campaign v8 Web documentation
 ---
 # Send your first email {#first-email}
 
-
 This use case presents how to create your first email 
 
 In this example, we will schedule the sending of an email on a specific date to silver and gold loyalty customers. This email will be designed using a predefined HTML template from a ZIP file and will include personalization using profile's attributes.

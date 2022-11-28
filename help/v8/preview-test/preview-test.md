@@ -5,6 +5,8 @@ description: Campaign v8 Web documentation
 ---
 # Preview and test your email {#preview-test-send}
 
+== Simulate content if so..preview is not the appropriate term
+
 ## Preview your content
 
 <!--
