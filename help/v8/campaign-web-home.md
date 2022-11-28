@@ -5,11 +5,6 @@ title: Adobe Campaign Web v8 product documentation
 ---
 # Adobe Campaign Web v8 Documentation {#campaign-documentation}
 
->[!CONTEXTUALHELP]
->id="acw-crazyid"
->title="This is the test ID"
->abstract="To be Completed"
-
 ![](assets/do-not-localize/banner-documentationv8.png) 
 
 ![](assets/do-not-localize/badge.png) 

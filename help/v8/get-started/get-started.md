@@ -12,6 +12,30 @@ V8 web overview
 context, scope (targets cross-channel practitioners), limitations
 only existing customers
 -->
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card1"
+>title="Get started"
+>abstract="Discover key capabilities, user interface and global guidelines."
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card2"
+>title="Get started with marketing campaign"
+>abstract="Discover how to create marketing plan, programs and campaigns."
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card3"
+>title="Design and execute marketing campaigns"
+>abstract="Discover more about Campaign core concepts, campaigns, programs, plans, workflows, objectives and delivery outlines."
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card4"
+>title="Create and manage tasks"
+>abstract="Adobe Campaign lets you create tasks and manage their complete life cycle directly within the application."
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card5"
+>title="Design and execute marketing campaign"
+>abstract="Discover key capabilities, user interface and global guidelines."
 
 >[!NOTE]
 >

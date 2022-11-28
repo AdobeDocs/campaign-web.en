@@ -46,7 +46,7 @@ template tab
 
 Browse the links on the left to access Campaign v8 web capabilities.
 
-**Home page**
+### Home page
 
 * Banner
 * KPIs on email channel (cross-deliveries): open rate, delivery rate, etc
@@ -59,7 +59,12 @@ CONTROL PANEL not alpha
 Global report not alpha
 -->
 
-**Explorer**
+### Explorer
+
+>[!CONTEXTUALHELP]
+>id="acw_explorer"
+>title="Explorer"
+>abstract="TBC"
 
 Explorer' menu in web UI to navigate through console content: console navtree second view in addition to the left menu lists with filters. The Explorer gives the real folder hierarchy from the console. Make sure you find your deliveries in sub-folders. All lists can be accessed in read-only. No Create/Edit. You can configure lists (colums). All schema fields, linked tables are available. 
 
@@ -69,19 +74,54 @@ If you need to view your lists of recipients (age, gender), transactions or live
 
 Navtree view depends on permissions (same as console).
 
-### CAMPAIGN MANAGEMENT
+### Campaign Management
+
+>[!CONTEXTUALHELP]
+>id="acw_campaigns_list"
+>title="Campaigns"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_list"
+>title="Deliveries"
+>abstract="TBC"
 
 * **Campaigns** - Your list of Campaigns. No edition/creation.
 * **Deliveries** - Your list of deliveries. Creation/edition.
 
-### CUSTOMER MANAGEMENT
+### Customer Management
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_list"
+>title="Recipients"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_list"
+>title="Audiences"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_list"
+>title="Subscriptions lists"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_targeting_workflow_list"
+>title="Targeting workflows"
+>abstract="TBC"
 
 * **Recipients** - Your list of recipients. No edition/creation.
 * **Audiences** - Your list of audiences. No edition/creation.
 * **Subscriptions lists** - Your list of Subscriptions lists. No edition/creation.
 * **Targeting workflows** - Your list of Targeting workflows. No edition/creation.
 
-### DECISION MANAGEMENT
+### Decision Management
+
+>[!CONTEXTUALHELP]
+>id="acw_offers_list"
+>title="Offers"
+>abstract="TBC"
 
 * **Offers** - Your list of Offers. No edition/creation.
 
