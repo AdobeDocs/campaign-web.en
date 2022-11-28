@@ -97,7 +97,7 @@ Navtree view depends on permissions (same as console).
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
->id="acw_recipients_list"
+>id="acw_audiences_list"
 >title="Audiences"
 >abstract="TBC"
 
