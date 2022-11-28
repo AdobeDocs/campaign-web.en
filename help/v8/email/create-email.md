@@ -41,6 +41,11 @@ In this example, we will schedule the sending of an email on a specific date to 
 
 ## Create the email content {#create-content}
 
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_content"
+>title="Create the email content"
+>abstract="TBC"
+
 1. Click the **[!UICONTROL Edit content]** button to start creating the content of your email. 
 
    This screen allows you to configure the email content and design it using the Email Designer.
@@ -85,6 +90,11 @@ In this example, we will schedule the sending of an email on a specific date to 
 
 ## Define the audience {#define-audience}
 
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_audience"
+>title="Define the audience"
+>abstract="TBC"
+
 1. Click the **[!UICONTROL Select audience]** button then choose an existing audience or create a new one.
 
     In this example, we want to use an existing audience targeting customers belonging to the silver and gold loyalty points levels.
@@ -98,6 +108,11 @@ In this example, we will schedule the sending of an email on a specific date to 
 1. Once your audience has been selected, you can edit the rules if necessary. You can also set a control group in order to xxxxx
 
 ## Schedule the sending {#schedule}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_schedule"
+>title="Schedule the sending"
+>abstract="TBC"
 
 xxxx
 
