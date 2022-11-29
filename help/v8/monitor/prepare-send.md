@@ -5,6 +5,24 @@ description: Campaign v8 Web documentation
 ---
 # Prepare and send your email {#prepare-send}
 
+show how to prepare and send the email + the live kpis in the dashboard
+
+<!--
+like acc when preparation, target calculated then send
+real time KPIs, not in AJO. similar to ACS.
+exclusion logs, causes
+-->
+
+<!--
+send also KPIs
+-->
+---
+audience: end-user
+title: Prepare and send an email
+description: Campaign v8 Web documentation
+---
+# Prepare and send your email {#prepare-send}
+
 
 <!--
 
@@ -25,11 +43,9 @@ During preparation, the target population is calcultated and the message content
 
 1. To start preparing the send, click the **Prepare** button located in the top right corner.
 
+1. The preparation progress is displayed alongside with three KPIs: number of targeted messages, number of messages to send, etc.
 
-
-The Deployment block shows the preparation progress, then the preparation statistics: number of targeted messages, number of messages to send, etc.
-
-Depending on the size of the targeted population, this operation may take some time.
+1. Depending on the size of the targeted population, this operation may take some time.
 
 
 
