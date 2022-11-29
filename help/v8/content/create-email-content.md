@@ -7,6 +7,47 @@ description: Learn how to design your emails content from scratch
 
 # Start from scratch {#create-email-content}
 
+>[!CONTEXTUALHELP]
+>id="ac_structure_components_email"
+>title="About Structure components"
+>abstract="Structure components define the layout of the email."
+
+>[!CONTEXTUALHELP]
+>id="ac_structure_components_landing_page"
+>title="About Structure components"
+>abstract="Structure components define the layout of the landing page."
+
+>[!CONTEXTUALHELP]
+>id="ac_structure_components_fragment"
+>title="About Structure components"
+>abstract="Structure components define the layout of the fragment."
+
+>[!CONTEXTUALHELP]
+>id="ac_structure_components_template"
+>title="About Structure components"
+>abstract="Structure components define the layout of the template."
+
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_columns_email"
+>title="Defining email columns"
+>abstract="The Email Designer allows you to easily define the layout of your email by defining column structure."
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_columns_landing_page"
+>title="Defining landing page columns"
+>abstract="The Email Designer allows you to easily define the layout of your landing page by defining column structure."
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_columns_fragment"
+>title="Defining fragment columns"
+>abstract="The Email Designer allows you to easily define the layout of your fragment by defining column structure."
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_columns_template"
+>title="Defining template columns"
+>abstract="The Email Designer allows you to easily define the layout of your template by defining column structure."
+
 The Email Designer allows you to easily define the structure of your email. By adding and moving structural elements with simple drag-and-drop actions, you can design the shape of your email within seconds.
 
 To start building your email content with the email designer, follow the steps below:

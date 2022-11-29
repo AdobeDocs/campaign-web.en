@@ -6,6 +6,28 @@ description: Learn how to use content components in your emails
 
 # Use the Email designer content components {#content-components}
 
+>[!CONTEXTUALHELP]
+>id="ac_content_components_email"
+>title="About Content components"
+>abstract="Content components are empty content placeholders that you can use to create the layout of an email."
+
+>[!CONTEXTUALHELP]
+>id="ac_content_components_landing_page"
+>title="About Content components"
+>abstract="Content components are empty content placeholders that you can use to create the layout of a landing page."
+
+>[!CONTEXTUALHELP]
+>id="ac_content_components_fragment"
+>title="About Content components"
+>abstract="Content components are empty content placeholders that you can use to create the layout of a fragment."
+
+>[!CONTEXTUALHELP]
+>id="ac_content_components_template"
+>title="About Content components"
+>abstract="Content components are empty content placeholders that you can use to create the layout of a template."
+
+
+
 When creating your email content from scratch, **[!UICONTROL Content components]** allows you to further personalize your email with raw, empty components that you can use once placed in an email.
 You can add as many **[!UICONTROL Content components]** as you need inside a **[!UICONTROL Structure component]** which defines the layout of your email.
 
@@ -114,6 +136,28 @@ Use the **[!UICONTROL Image]** component to insert an image file from your compu
 1. You can now further personalize your image by changing the **[!UICONTROL Style]**, **[!UICONTROL Margin]** and **[!UICONTROL Border]** for example or adding a link to redirect your audience to another content.
 
 ## Video {#Video}
+
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_video_email"
+>title="Video settings"
+>abstract="Use this component to insert a video in your email. Note that videos do not work on all email clients. We advise to set a fallback image."
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_video_landing_page"
+>title="Video settings"
+>abstract="Use this component to insert a video in your landing page. Note that videos do not work on all message clients. We advise to set a fallback image."
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_video_fragment"
+>title="Video settings"
+>abstract="Use this component to insert a video in your fragment. Note that videos do not work on all message clients. We advise to set a fallback image."
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_video_template"
+>title="Video settings"
+>abstract="Use this component to insert a video in your template. Note that videos do not work on all message clients. We advise to set a fallback image."
+
 
 Use the **[!UICONTROL Video]** component to insert a video in your email through an URL link.
 

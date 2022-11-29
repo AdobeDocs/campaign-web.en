@@ -8,6 +8,13 @@ description: Campaign v8 Web documentation
 <!--
 Audience only created for the delivery, not available later-->
 
+## Select an existing audience {#audience-select}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_audience_select"
+>title="Select an existing audience"
+>abstract="TBC"
+
 Three ways:
 * existing audience
 <!--
