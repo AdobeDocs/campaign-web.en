@@ -5,6 +5,11 @@ description: Campaign v8 Web user interface
 ---
 # Discover the interface {#user-interface}
 
+>[!CONTEXTUALHELP]
+>id="acw_homepage_learnmore"
+>title="Interface"
+>abstract="TBC"
+
 ## Interface overview
 
 ![](assets/home.png)
