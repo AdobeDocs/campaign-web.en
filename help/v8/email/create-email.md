@@ -121,13 +121,32 @@ To schedule the sending of the email, click Enable then specify the desired date
 
 ## Preview and test the email {#preview-test}
 
-Once your email is ready, you can preview and test it before launching sending.
+Once your email is ready, you can preview and test it before launching its sending.
 
 1. Click **[!UICONTROL Review to send]**. A preview of your email displays, along with all the configured properties, audience and schedule. You can edit any of these elements using the modify button.
 
+    ![](assets/review-email.png)
+
 1. Click the **[!UICONTROL Simulate content]** button to preview the email and send proofs.
 
-1. 
+1. Add profiles to use to preview the email. To do thisSelect profiles. in this example: targeted profile (profiles tab)
+
+    ![](assets/preview.png)
+
+1. choose to profile to preview on the right
+
+1. render to test rendering (desktop, web, mobile...). rendering on gmail
+
+1. send proof: click test + choose substitute from main target mode
+
+1. add address + specify email address, and targeted profile to use
+
+1. click send test email and confirm
+
+1. view test email log
+
+
+
 
 ## Prepare and send {#prepare-send}
 
