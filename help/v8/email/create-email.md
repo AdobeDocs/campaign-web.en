@@ -104,7 +104,7 @@ In this example, we will schedule the sending of an email on a specific date to 
     >
     >Audiences available in the list originate either from your Campaign V8 instance or from Adobe Experience Platform if the Destination / Sources intgeration has been implemented on your instance. Learn how to select the email audience 
 
-1. Once your audience has been selected, you can edit the rules if necessary. You can also set a control group in order to xxxxx
+1. Once your audience has been selected, you can edit the rules if necessary. You can also set a control group to analyse the behavior of the email recipients compared to the behavior of profiles which were not targeted. Learn how to work with control groups
 
 ## Schedule the sending {#schedule}
 
@@ -113,19 +113,30 @@ In this example, we will schedule the sending of an email on a specific date to 
 >title="Schedule the sending"
 >abstract="TBC"
 
-xxxx
+To schedule the sending of the email, click Enable then specify the desired date and time. 
 
+= confirm before sending option : what happens at scheduled date: notification to confirm the sending of the message?
 
-<!--
-no Schedule -> send immediately
-or schedule, date, hour, confirmation
--->
+![](assets/schedule.png)
 
 ## Preview and test the email {#preview-test}
 
-1. Preview test and send + ref to preview test send section
+Once your email is ready, you can preview and test it before launching sending.
+
+1. Click **[!UICONTROL Review to send]**. A preview of your email displays, along with all the configured properties, audience and schedule. You can edit any of these elements using the modify button.
+
+1. Click the **[!UICONTROL Simulate content]** button to preview the email and send proofs.
+
+1. 
 
 ## Prepare and send {#prepare-send}
+
+1. Click **[!UICONTROL Prepare]** to launch the preparation of the message.
+    
+    ![](assets/prepare-sending.png)
+ 
+1. Once the preparation is completed, you can access logs
+
 
 1. Monitor + ref to monitor section
 
