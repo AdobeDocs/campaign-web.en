@@ -23,6 +23,7 @@ send also KPIs
 
 During preparation, the target population is calcultated and the message content generated for each profile included in the target. Once the preparation is finished, the messages are ready to be sent, either immediately or at the scheduled date and time.
 
+
 1. To start preparing the send, click the **Prepare** button located in the top right corner.
 
 1. The preparation progress is displayed alongside with three KPIs: number of targeted messages, number of messages to send, etc.
