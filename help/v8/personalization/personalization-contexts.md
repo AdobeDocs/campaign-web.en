@@ -5,7 +5,6 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
 ---
 # Personalization contexts{#personalization-areas}
 
@@ -55,5 +54,4 @@ You can also access the personalization editor when adding text-type content to 
 
 Personalized URLs take recipients to specific pages of a website, or to a personalized microsite, depending on the profile attributes. In Adobe Journey Optimizer, you can add personalization to URLs in your message content. URL personalization can be applied to text and images, and use profile data or contextual data.
 
-Learn how to insert a personalized URL in [this section](personalization-syntax.md#perso-urls).
 
