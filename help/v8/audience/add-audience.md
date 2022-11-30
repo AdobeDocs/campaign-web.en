@@ -5,6 +5,10 @@ description: Campaign v8 Web documentation
 ---
 # Add an audience {#add-audience}
 
+>[!NOTE]
+>
+>This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
+
 <!--
 Audience only created for the delivery, not available later-->
 

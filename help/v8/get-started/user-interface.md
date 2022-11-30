@@ -5,6 +5,10 @@ description: Campaign v8 Web user interface
 ---
 # Discover the interface {#user-interface}
 
+>[!NOTE]
+>
+>This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
+
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
 >title="Interface"

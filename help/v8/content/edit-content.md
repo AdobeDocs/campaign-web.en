@@ -6,6 +6,10 @@ description: Campaign v8 Web documentation
 
 # Configure the email content {#configure-content}
 
+>[!NOTE]
+>
+>This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
+
 Edit content button : show use case with subject line, attachment, add an offer, tracking enabled (+ note on simulate content button with link to preview proof section)
 
 ![](assets/content-dashboard.png)

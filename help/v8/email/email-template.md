@@ -10,6 +10,9 @@ description: Campaign v8 Web documentation
 >title="Select an Email template"
 >abstract="TBC"
 
+>[!NOTE]
+>
+>This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
 
 Email Template + implications sur delivery settings + properties
 

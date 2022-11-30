@@ -6,6 +6,10 @@ description: Learn how to design your emails content
 
 # Add a preheader {#preheader}
 
+>[!NOTE]
+>
+>This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
+
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
 >title="Adding a preheader"

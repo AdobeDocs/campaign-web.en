@@ -6,6 +6,10 @@ description: Learn how to adjust vertical alignment and padding
 
 # Adjust vertical alignment and padding {#adjusting-vertical-alignment-and-padding}
 
+>[!NOTE]
+>
+>This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
+
 In this example, we will adjust padding and vertical alignment inside a structure component composed of three columns.
 
 1. Select the structure component directly in the email or using the **[!UICONTROL Navigation tree]** available in the left-hand menu.

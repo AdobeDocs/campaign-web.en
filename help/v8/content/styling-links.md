@@ -6,6 +6,10 @@ description: Learn how to define a style for links
 
 # Define a style for links {#styling-links}
 
+>[!NOTE]
+>
+>This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
+
 You can underline a link and select its color and target in the Email Designer.
 
 1. In a Text **[!UICONTROL Content component]** where a link is inserted, select your link.

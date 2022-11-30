@@ -6,6 +6,10 @@ title: Work with email templates
 
 # Work with email content templates {#email-content-templates}
 
+>[!NOTE]
+>
+>This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
+
 Use the **[!UICONTROL Select design template]** section to start building your content from a template.
 
 ![](assets/email_designer-templates.png)

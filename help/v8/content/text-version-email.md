@@ -6,6 +6,10 @@ description: Learn how to create the text version of an email
 
 # Create the text version of an email {#text-version-email}
 
+>[!NOTE]
+>
+>This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
+
 It is recommended to create a text version of your email body, which is used when HTML content cannot be displayed. 
 
 By default, the Email Designer creates a **[!UICONTROL Plain text]** version of your email, including personalization fields. This  version is automatically generated and synchronized with the HTML version of your content.

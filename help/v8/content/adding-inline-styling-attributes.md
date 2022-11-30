@@ -6,6 +6,10 @@ description: Learn how to add inline styling attributes
 
 # Add inline styling attributes {#adding-inline-styling-attributes}
 
+>[!NOTE]
+>
+>This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
+
 In the Email Designer interface, when you select an element and display its settings on the side panel, you can customize the inline attributes and their value for that specific element.
 
 1. Select an element in your content.

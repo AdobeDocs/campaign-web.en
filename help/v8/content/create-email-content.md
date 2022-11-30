@@ -7,6 +7,10 @@ description: Learn how to design your emails content from scratch
 
 # Start from scratch {#create-email-content}
 
+>[!NOTE]
+>
+>This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
+
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"
 >title="About Structure components"

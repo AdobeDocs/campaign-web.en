@@ -6,6 +6,10 @@ description: Learn how to add links and track sent messages
 
 # Add links and track messages {#tracking}
 
+>[!NOTE]
+>
+>This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
+
 Use [!DNL Journey Optimizer] to add links to your content and track the messages sent in order to monitor the behavior of your recipients.
 
 ## Enable tracking {#enable-tracking}

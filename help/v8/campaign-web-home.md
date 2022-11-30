@@ -5,6 +5,10 @@ title: Adobe Campaign Web v8 product documentation
 ---
 # Adobe Campaign Web v8 Documentation {#campaign-documentation}
 
+>[!NOTE]
+>
+>This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
+
 ![](assets/do-not-localize/banner-documentationv8.png) 
 
 ![](assets/do-not-localize/badge.png) 

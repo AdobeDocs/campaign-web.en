@@ -5,6 +5,10 @@ description: Campaign v8 Web documentation
 ---
 # Send your first email {#first-email}
 
+>[!NOTE]
+>
+>This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
+
 This use case presents how to create your first email 
 
 In this example, we will schedule the sending of an email on a specific date to silver and gold loyalty customers. This email will be designed using a predefined HTML template from a ZIP file and will include personalization using profile's attributes.
