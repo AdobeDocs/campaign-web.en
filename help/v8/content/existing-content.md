@@ -6,6 +6,10 @@ description: Learn how to import email content
 
 # Import your email content {#existing-content}
 
+>[!NOTE]
+>
+>This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
+
 Journey Optimizer allows you to import existing HTML content to design your emails. his content can be:
 
 * An **HTML file** with an incorporated style sheet,

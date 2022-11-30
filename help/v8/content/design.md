@@ -1,13 +1,15 @@
 ---
 audience: end-user
-title: WOrk with the Email Designer
+title: Work with the Email Designer
 description: Campaign v8 Web documentation
 ---
 # Work with the Email Designer {#email-designer}
 
-email designer generic principles
+>[!NOTE]
+>
+>This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
 
-document email designer ? scope TBD 
+
 
 ![](assets/content-dashboard.png)
 

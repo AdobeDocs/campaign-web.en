@@ -7,6 +7,10 @@ description: Learn how to personalize your email background
 
 # Personalize your email background {#backgrounds}
 
+>[!NOTE]
+>
+>This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
+
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
 >title="Background settings"

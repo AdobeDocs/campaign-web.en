@@ -6,6 +6,10 @@ description: Learn how to use content components in your emails
 
 # Use the Email designer content components {#content-components}
 
+>[!NOTE]
+>
+>This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
+
 >[!CONTEXTUALHELP]
 >id="ac_content_components_email"
 >title="About Content components"

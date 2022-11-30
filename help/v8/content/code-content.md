@@ -6,6 +6,10 @@ description: Learn how to code your own email content
 
 # Code your own content {#code-content}
 
+>[!NOTE]
+>
+>This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
+
 Use the **[!UICONTROL Code your own]** mode to import raw HTML and/or code your email content. This method requires HTML skills.
 
 ➡️ [Discover this feature in video](#video)
