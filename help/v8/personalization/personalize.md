@@ -5,7 +5,6 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Beginner
-exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
 ---
 # Get started with personalization{#add-personalization}
 
@@ -15,7 +14,7 @@ Discover [!DNL Adobe Journey Optimizer] personalization capabilities to adapt yo
 
 ## Build personalization expressions using a dedicated syntax {#syntax}
 
-[!DNL Journey Optimizer] uses an **inline** simple personalization syntax based on Handlebars which allows you to create expressions with contents enclosed by double curly braces **`{{ }}`**. You can add multiple expressions in the same content or field without restrictions. Learn more in [Personalization syntax](personalization-syntax.md).
+[!DNL Journey Optimizer] uses an **inline** simple personalization syntax based on Handlebars which allows you to create expressions with contents enclosed by double curly braces **`{{ }}`**. You can add multiple expressions in the same content or field without restrictions.
 
 **Examples:**
 
@@ -26,14 +25,14 @@ When processing the message (email and push), Journey Optimizer replaces the exp
 
 ## Leverage profile data to personalize your messages {#data}
 
-The personalization is based on the profile data that are managed by the **XDM Individual Profile** schema defined in Adobe Experience Platform. Learn more in [Adobe Experience Platform Data Model (XDM) documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}.
+The personalization is based on the profile data that are managed by the **XDM Individual Profile** schema defined in Adobe Experience Platform. 
 
 >[!CAUTION]
 >The **XDM Individual Profile** schema is the only schema you can use to personalize content in [!DNL Journey Optimizer].
 
 ## Add personalization in different contexts {#contexts}
 
-[!DNL Journey Optimizer] allows you to personalize the content and display of messages in several different ways. Learn more about the contexts where you can perform personalization in [this section](personalization-contexts.md).
+[!DNL Journey Optimizer] allows you to personalize the content and display of messages in several different ways. Learn more about the contexts where you can perform personalization in
 
 ## Work with the expression editor {#editor}
 
@@ -41,7 +40,7 @@ The personalization is based on the profile data that are managed by the **XDM I
 
 Several tools are available to help build your personalization content (helper functions, pre-defined expressions library, attributes favouriting...)
 
-Learn more about [!DNL Journey Optimizer] expression editor in [this section](personalization-build-expressions.md)
+Learn more about [!DNL Journey Optimizer] expression editor in 
 
 ## How-to videos{#video-perso}
 
