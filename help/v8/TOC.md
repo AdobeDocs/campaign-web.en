@@ -8,7 +8,7 @@ title: Campaign v8 Web docs
 hide: yes
 ---
 
-# Adobe Campaign v8 Web documentation {#campaign-web-v8}
+# Adobe Campaign v8 Web documentation {#v8}
 
 + [Campaign v8 Web documentation](campaign-web-home.md)
 + What's new? {#whats-new}

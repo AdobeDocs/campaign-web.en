@@ -47,7 +47,11 @@ only existing customers
 
 Adobe Campaign provides a platform for designing cross-channel customer experiences and an environment for visual campaign orchestration, real-time interaction management and cross channel execution.
 
-In addition to all the existing features available with the console, we've built a web interface for practionners which offers an integrated, intuitive and consistent user experience. This modern web-based UI is currently only available to Alpha customers with the following capabilities:
+In addition to all the existing features available with the console, we've built a web interface for practionners which offers an integrated, intuitive and consistent user experience. 
+
+## Alpha features
+
+This modern web-based UI is currently only available to Alpha practionners with the following capabilities:
 
 **Modern, intuitive and unified experience**
 
@@ -70,6 +74,12 @@ add info somewhere to remind users that
 * they still have access to their console (+ link to v8 console doc)
 * they keep their existing data (example: will be able to use their existing delivery templates to create deliveries)
 -->
+
+## The client console
+
+If you need to use a Campaign v8 feature that is not available in the web UI, you can use the client console.  are accessible via the client console. For more information on how to use Campaign v8, refer to the [documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=en#validation-process-with-typologies).
+
+The data is shared between the console and the web UI. For example,  You will have access to the client console to perform advanced use cases. 
 
 ## Limitations
 

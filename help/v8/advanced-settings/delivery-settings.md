@@ -9,6 +9,8 @@ description: Campaign v8 Web documentation
 >
 >This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
 
+These settings are technical delivery parameters that are defined in the email template. If you want to modify any of them for a specific delivery, proceed with caution.
+
 ## Email delivery settings {#email-delivery-settings}
 
 <!--
