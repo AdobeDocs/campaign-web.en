@@ -5,15 +5,6 @@ description: Campaign v8 Web documentation
 ---
 # Preview and test your email {#preview-test-send}
 
-<<<<<<< Updated upstream
->[!NOTE]
->
->This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
-
-== Simulate content if so..preview is not the appropriate term
-
-=======
->>>>>>> Stashed changes
 ## Preview your content
 
 <!--
