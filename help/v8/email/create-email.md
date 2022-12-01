@@ -46,7 +46,7 @@ In this example, we will schedule the sending of an email on a specific date to 
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card3"
->title="Create your first email content"
+>title="Create your first email content by using the Email Designer."
 >abstract="Create your first email content"
 
 >[!CONTEXTUALHELP]
