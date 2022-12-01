@@ -15,10 +15,9 @@ detail delivery reports and how to access them
 same content as in v7 (excepted for the navigation that is similar to AJO
 -->
 
-Adobe Campaign offers several types of reports, accessible for each delivery. These reports allow you can track the execution of deliveries and measure the impact and performances of your messages in a built-in dashboard.
+Adobe Campaign offers several types of reports, accessible for each delivery. These reports allow you to measure and visualize the impact and performances of your messages in a built-in dashboard.
 
 To display reports, follow these steps:
-
 
 1. Access your email delivery and click the **Report** button.
 1. From the left menu, select a report from the list:
