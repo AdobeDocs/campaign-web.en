@@ -2,6 +2,7 @@
 audience: end-user
 title: Set a control group
 description: Campaign v8 Web documentation
+exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 ---
 # Set a control group {#control-group}
 

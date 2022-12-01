@@ -2,6 +2,7 @@
 audience: end-user
 title: Monitor delivery logs
 description: Campaign v8 Web documentation
+exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
 ---
 # Monitor delivery logs {#delivery-logs}
 
@@ -57,6 +58,3 @@ The **Tracking** tab lists the tracking history for this delivery. This tab disp
 >If tracking is not enabled for a delivery, this tab is not displayed.
 
 Tracking data is interpreted in the delivery reports. See this section.
-
-
-

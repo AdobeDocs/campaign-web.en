@@ -2,6 +2,7 @@
 audience: end-user
 title: Prepare and send an email
 description: Campaign v8 Web documentation
+exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 ---
 # Prepare and send your email {#prepare-send}
 
@@ -67,4 +68,3 @@ LOGS
 >[!NOTE]
 >
 >If the message is scheduled, it is sent when sending time is reached. For more on scheduling messages, refer to this section.
-

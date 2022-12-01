@@ -2,8 +2,8 @@
 audience: end-user
 title: Code your own email content
 description: Learn how to code your own email content
+exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
 ---
-
 # Code your own content {#code-content}
 
 >[!NOTE]
