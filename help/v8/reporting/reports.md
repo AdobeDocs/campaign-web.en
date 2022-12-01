@@ -20,7 +20,9 @@ Adobe Campaign offers several types of reports, accessible for each delivery. Th
 To display reports, follow these steps:
 
 1. Access your email delivery and click the **Report** button.
-1. From the left menu, select a report from the list:
+1. From the left menu, select a report from the list.
+
+![](assets/reporting.png)
 
 **Sending**
 
