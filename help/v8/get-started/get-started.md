@@ -9,7 +9,7 @@ description: Campaign v8 Web documentation
 >
 >This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
 
-## Adobe Campaign V8 Web
+## Adobe Campaign V8 Web {#web-interface}
 
 <!--
 V8 web overview
@@ -22,24 +22,9 @@ only existing customers
 >abstract="Discover key capabilities, user interface and global guidelines."
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_card2"
->title="Get started with marketing campaign"
->abstract="Discover how to create marketing plan, programs and campaigns."
-
->[!CONTEXTUALHELP]
->id="acw_homepage_card3"
->title="Design and execute marketing campaigns"
->abstract="Discover more about Campaign core concepts, campaigns, programs, plans, workflows, objectives and delivery outlines."
-
->[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
 >title="Create and manage tasks"
 >abstract="Adobe Campaign lets you create tasks and manage their complete life cycle directly within the application."
-
->[!CONTEXTUALHELP]
->id="acw_homepage_card5"
->title="Design and execute marketing campaign"
->abstract="Discover key capabilities, user interface and global guidelines."
 
 >[!NOTE]
 >
