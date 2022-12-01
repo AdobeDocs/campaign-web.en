@@ -77,11 +77,9 @@ add info somewhere to remind users that
 
 ## The client console
 
-If you need to use a Campaign v8 feature that is not available in the web UI, you can use the client console.  are accessible via the client console. For more information on how to use Campaign v8, refer to the [documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=en#validation-process-with-typologies).
+If you need to use a Campaign v8 feature that is not available in the web UI, you can use the client console. For more information on how to use Campaign v8, refer to the [documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=en).
 
-The data is shared between the console and the web UI. For example,  You will have access to the client console to perform advanced use cases. 
-
-## Limitations
+The data is shared between the console and the web UI. For example, if you created a delivery template using the console, it will be available in the web interface.
 
 ## Connect to Campaign
 
