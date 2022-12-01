@@ -133,37 +133,44 @@ Once your email is ready, you can preview and test it before launching its sendi
 
 1. Click the **[!UICONTROL Simulate content]** button to preview the email and send proofs.
 
-1. Add profiles to use to preview the email. To do thisSelect profiles. in this example: targeted profile (profiles tab)
+1. In the left-hand side area, select the profiles to use to preview the email. You can use targeted profiles or dedicated test profiles.
+
+1. A preview of the email displays in the right hand-side area based on the selected profile. If you have added multiple profiles, you can switch between each of them to preview the corresponding email.
 
     ![](assets/preview.png)
 
-1. choose to profile to preview on the right
+    >[!NOTE]
+    >
+    >Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering
 
-1. render to test rendering (desktop, web, mobile...). rendering on gmail
+1. To send proofs of your email, click the **[!UICONTROL Test]** button then select the profiles that will receive the proof. In this example, we want to send the proofs to a specific test profile.
 
-1. send proof: click test + choose substitute from main target mode
+    ![](assets/proof-test-profile.png)
 
-1. add address + specify email address, and targeted profile to use
+    >[!NOTE]
+    >
+    >You can also test your messages by impersonating some of the targeted profiles and sending the proof message to the email address of your choice. Learn how to use Substitute from target mode
 
-1. click send test email and confirm
+1. Click **[!UICONTROL Send test email ]** then confirm the sending.
 
-1. view test email log
+    Once the proofs have been sent, you can then check their status by clicking the **[!UICONTROL View test email log]** button.
 
+## Send and monitor the email {#prepare-send}
 
-
-
-## Prepare and send {#prepare-send}
+Once you have reviewed and tested your email, you can launch its preparation and send it.
 
 1. Click **[!UICONTROL Prepare]** to launch the preparation of the message.
     
-    ![](assets/prepare-sending.png)
+    You can track the preparation progress in real-time, along with statistics. Once the preparation is completed, you can access detailed logs for further analysis. Learn how to monitor deliveries
+    
+    ![](assets/preparation.png)
  
-1. Once the preparation is completed, you can access logs
+1. Once your email is ready to be sent, click **[!UICONTROL Send]** then confirm the sending.
 
+    You can track the sending in real-time, along with statistics. Additionally, the **[!UICONTROL Logs]** button allows you to access detailed information on the email sending. Learn how to monitor deliveries
 
-1. Monitor + ref to monitor section
+    ![](assets/logs.png)     
 
-## Access reports {#reports}
+1. After the email has been sent, you can access dedicated reports for further analysis purposes. 
 
-1. access deliver reports
-
+    ![](assets/reports.png)     
