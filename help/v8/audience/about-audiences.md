@@ -41,3 +41,5 @@ You have two possibilities:
 
 * use an existing audience defined in the Adobe Campaign console.
 * create a new audience that will be used for the email. 
+
+You can also define control groups to avoid sending messages to a portion of your audience in order to measure the impact of your campaigns.
