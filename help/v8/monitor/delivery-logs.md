@@ -16,13 +16,13 @@ description: Campaign v8 Web documentation
 
 After preparing and sending an email, the delivery logs allow you to verify that there is no error. These logs can be accessed directly from the message dashboard. They show the detail of the sending, which target has been excluded and why, as well as the tracking information such as opens and clicks.
 
-To view the logs, click the **Logs** button.
+To view the logs, access your delivery and click the **Logs** button.
 
 ![](assets/logs.png)
 
-Several tabs contain information (if it exists) regarding the Sending logs, Exclusion logs, Exclusion causes, Tracking logs and Tracked URLs. 
+Several tabs are available:
 
-**Los** tab
+**Logs** tab
 
 The **Logs** tab contains all messages relating to the delivery and the proofs. Specific icons allow you to identify errors or warnings. 
 
@@ -38,7 +38,7 @@ The **Deliveries** tab offers a history of every occurrence of this delivery. Th
 
 **Exclusions** tab
 
-The Exclusion logs tab lists all the messages that have been excluded from the target sent and specifies the reason for the send failure.
+The **Exclusion logs** tab lists all the messages that have been excluded from the target sent and specifies the reason for the send failure.
 
 **Exclusion causes** tab
 
@@ -46,11 +46,11 @@ The **Exclusion causes** tab displays the volume (in number of messages) of mess
 
 **Tracked URLs** tab
 
-The **Tracked URLs** tab displays
+The **Tracked URLs** tab regroups the URLs contained in the sent message, including their URL type and their source URL.
 
 **Tracking** tab
 
-The **Tracking** tab lists the tracking history for this delivery. This tab displays tracking data for the messages sent, i.e. all URLs subject to tracking by Adobe Campaign. The tracking data is updated hourly.
+The **Tracking** tab lists the tracking history for this delivery. This tab displays tracking data for the messages sent, i.e. all URLs subject to tracking by Adobe Campaign.
 
 >[!NOTE]
 >

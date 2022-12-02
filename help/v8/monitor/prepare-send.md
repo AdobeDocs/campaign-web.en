@@ -5,11 +5,6 @@ description: Campaign v8 Web documentation
 ---
 # Prepare and send your email {#prepare-send}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_card5"
->title="Prepare and send your email"
->abstract="Discover how to prepare your email and learn more about sending KPIs."
-
 >[!NOTE]
 >
 >This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
@@ -41,11 +36,11 @@ During the preparation, the target population is calcultated and the message con
 
 1. When the preparation is finished, check the **Targeted**, **To deliver** and **To exclude** KPIs. If the number of messages to send does not match your expectations, modify your audience and restart the preparation.
 
-1. Click the **Logs** button and check that there is no error. All the validation steps, warnings and errors are listed. Colored icons show the message type:
+    * Targeted: 
+    * To deliver: 
+    * To exclude: 
 
-    * The grey icon indicates an informative message.
-    * The yellow icon indicates a non-critical processing error.
-    * The red icon indicates a critical error that prevents sending the delivery. 
+1. Click the **Logs** button and check that there is no error. 
 
 1. After making the changes, restart the preparation.
 
@@ -60,9 +55,13 @@ Once the preparation is complete, follow the steps below to send your message.
 
 1. The sending progress is displayed alongside with three KPIs: Delivered, Opens, Clicks.
 
+   You can pause the sending at any time and then resume. If you stop the delivery while it is being sent, you will not be able to resume.
+
 1. Finalize the send by clicking the OK button.
 
-LOGS
+* Delivered: the number of messages successfully sent. The pourcentage is based on the total number of target recipients.
+* Opens: the number of opened messages. The percentage is based on the number of delivered messages.
+* Clicks: 
 
 >[!NOTE]
 >
