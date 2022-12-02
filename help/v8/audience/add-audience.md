@@ -28,6 +28,4 @@ Here is how you select an existing audience.
 
     In this example, we want to use an existing audience targeting customers belonging to the silver and gold loyalty points levels.
 
-    ![](assets/create-audience.png)
-
 1. Once your audience has been selected, you can edit the rules if necessary. You can also set a control group.
