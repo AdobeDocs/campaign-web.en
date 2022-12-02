@@ -49,9 +49,9 @@ Then define the **Size limit**: you must set how you are going to limit the numb
 >title="Extra population"
 >abstract="TBC"
 
-Another way to define a control group is to exclude a specific population from the target using an aucience.
+Another way to define a control group is to exclude a specific population from the target using an audience.
 
-To do this, from the **Extra population** exclusion section, click **Select audience**.
+To do this, from the **Extra population** section, click **Select audience**.
 
 Define the exclusion criteria using the segment builder. You can also select an audience that was previously created.
 
