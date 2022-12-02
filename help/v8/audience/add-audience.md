@@ -15,9 +15,6 @@ exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 >
 >This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
 
-<!--
-Audience only created for the delivery, not available later-->
-
 ## Select an existing audience {#audience-select}
 
 >[!CONTEXTUALHELP]
@@ -25,19 +22,12 @@ Audience only created for the delivery, not available later-->
 >title="Select an existing audience"
 >abstract="TBC"
 
-Three ways:
-* existing audience
-<!--
-Campaign or AEP Audiences
--->
-* create new on the fly
-<!--
-query like AEP segment builder (same component with campaign data)
--->
-* import from file
+Here is how you select an existing audience.
 
-show use case with a new audience creation (or import from file?)
+1. In the delivery creation assistant,  click the **[!UICONTROL Select audience]** button then choose an existing audience.
 
-<!--
-control groups like acc: exract, random, based on attribute
--->
+    In this example, we want to use an existing audience targeting customers belonging to the silver and gold loyalty points levels.
+
+    ![](assets/create-audience.png)
+
+1. Once your audience has been selected, you can edit the rules if necessary. You can also set a control group.
