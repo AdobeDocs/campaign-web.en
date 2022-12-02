@@ -6,11 +6,6 @@ exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 ---
 # Add an audience {#add-audience}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_card2"
->title="Get started with marketing campaign"
->abstract="Learn how to manage audience for your email content."
-
 >[!NOTE]
 >
 >This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.

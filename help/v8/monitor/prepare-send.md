@@ -11,7 +11,6 @@ exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 >title="Prepare and send your email"
 >abstract="Discover how to prepare your email and learn more about sending KPIs."
 
-
 >[!NOTE]
 >
 >This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
