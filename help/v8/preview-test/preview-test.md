@@ -1,7 +1,8 @@
 ---
 audience: end-user
-title: Preview and test your email 
+title: Preview and test your email
 description: Campaign v8 Web documentation
+exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 ---
 # Preview and test your email {#preview-test-send}
 

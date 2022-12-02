@@ -2,6 +2,7 @@
 audience: end-user
 title: Advanced Settings
 description: Campaign v8 Web documentation
+exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 ---
 # Advanced settings {#advanced-settings}
 
@@ -89,17 +90,3 @@ Practionners should not modify this, caution. Only check and change typology rul
 >id="acw_email_settings_tracking_validity"
 >title="Validity period"
 >abstract="This option defines the duration for which the tracking will be activated on the URLs."
-
-
-
-
-
-
-
-
-
-
-
-
-
-

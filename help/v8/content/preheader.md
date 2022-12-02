@@ -2,8 +2,8 @@
 audience: end-user
 title: Add a preheader in Journey Optimizer
 description: Learn how to design your emails content
+exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
 ---
-
 # Add a preheader {#preheader}
 
 >[!NOTE]

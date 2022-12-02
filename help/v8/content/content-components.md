@@ -2,8 +2,8 @@
 audience: end-user
 title: Use email designer content components
 description: Learn how to use content components in your emails
+exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 ---
-
 # Use the Email designer content components {#content-components}
 
 >[!NOTE]

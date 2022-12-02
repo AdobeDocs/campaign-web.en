@@ -2,6 +2,7 @@
 audience: end-user
 title: Reporting
 description: Campaign v8 Web documentation
+exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 ---
 # Reporting {#reports}
 
@@ -48,6 +49,3 @@ Non-deliverables and bounces: This report shows the breakdown of non-deliverable
 **Hotclicks**
 
 This report shows the message content (HTML and/or text) with, on each link, the percentage of clicks on links. Personalization blocks unsubscription links, mirror page links and offer links are taken into account in the total cumulated clicks but are not displayed in the report.
-
-
-

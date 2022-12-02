@@ -2,8 +2,8 @@
 audience: end-user
 title: Configure the email content
 description: Campaign v8 Web documentation
+exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 ---
-
 # Configure the email content {#configure-content}
 
 >[!NOTE]

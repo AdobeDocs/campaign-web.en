@@ -2,9 +2,8 @@
 audience: end-user
 title: Design emails in Journey Optimizer
 description: Learn how to design your emails content from scratch
-
+exl-id: 23e71da3-434d-4619-a48a-334281592d85
 ---
-
 # Start from scratch {#create-email-content}
 
 >[!NOTE]
@@ -121,4 +120,3 @@ To start building your email content with the email designer, follow the steps b
     ![](assets/email_designer_8.png)
 
 1. When your email is ready, click **[!UICONTROL Save & Close]**.
-

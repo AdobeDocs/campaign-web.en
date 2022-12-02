@@ -2,6 +2,7 @@
 keywords: Campaign Web;home;popular topics
 description: Campaign Web v8 help center
 title: Adobe Campaign Web v8 product documentation
+exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 ---
 # Adobe Campaign Web v8 Documentation {#campaign-documentation}
 

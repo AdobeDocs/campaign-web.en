@@ -2,8 +2,8 @@
 audience: end-user
 product: campaign
 title: Work with email templates
+exl-id: 114c482f-8291-418a-bd81-667f40267a7d
 ---
-
 # Work with email content templates {#email-content-templates}
 
 >[!NOTE]

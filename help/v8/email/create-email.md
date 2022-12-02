@@ -2,6 +2,7 @@
 audience: end-user
 title: Create your first email
 description: Campaign v8 Web documentation
+exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 ---
 # Send your first email {#first-email}
 
@@ -178,4 +179,4 @@ Once you have reviewed and tested your email, you can launch its preparation and
 
 1. After the email has been sent, you can access dedicated reports for further analysis purposes. 
 
-    ![](assets/reports.png)     
+    ![](assets/reports.png)
