@@ -43,7 +43,7 @@ To preview the content of your email, follow these steps:
 
     ![](assets/preview.png)
 
-## Rendering {#rendering}
+## Test the email rendering {#rendering}
 
 Before sending your email, make sure that your message will be displayed to the recipients in an optimal way on a variety of web clients, web mails and devices.
 
@@ -76,7 +76,7 @@ Proofs can be sent to two types of recipients:
  
 To send proofs, follow these steps:
 
-## Select the proofs recipients {#recipients}
+### Select the proofs recipients {#recipients}
 
 Click the **[!UICONTROL Test]** button then use the **[!UICONTROL Mode]** drop-down list to choose the type of recipients that will receive the proofs:
 
@@ -104,48 +104,19 @@ Click the **[!UICONTROL Test]** button then use the **[!UICONTROL Mode]** drop-d
 
 >[!ENDTABS]
 
-<!--
+### Send the proofs {#send}
 
-### Send proofs to test profiles {#proofs-test-profiles}
+Once the proofs recipients have been selected, click **[!UICONTROL Send test email]** then confirm the sending.
 
-1. Click the **[!UICONTROL Test]** button then choose the **[!UICONTROL Use test profiles]** mode.
+>[!NOTE]
+>
+>The **[!UICONTROL Include test population in the main target]** allows you to send the final email message to the recipients of the proofs.
 
-1. Add the test profiles that will receive the test emails.
+After the proofs have been sent, you can access dedicated logs from the **[!UICONTROL View test email log]** button. These logs allow you to access the sent proofs, and specific statistics related to the proof sending.
 
-    You can also build your own audience to select test profiles based on your own criteria using the **[!UICONTROL Add test audience]** button.
+![](assets/proof-log.png)
 
-    ![](assets/test-profiles-audience.png)
-
-### Send proofs to substitution profiles {#proofs-substitution}
-
-1. Click the **[!UICONTROL Test]** button then choose the **[!UICONTROL Substitution from target]** mode.
-
-1. Add the email address(es) that will receive the proofs.
-
-    For each email address, select the profile from the target to use. You can also let Adobe Campaign select a random profile from the target.
-
-    ![](assets/substitution.png)
-
-    -->
-
-## Send the proofs {#send}
-
-1. Once the proofs recipients have been selected, click **[!UICONTROL Send test email]** then confirm the sending.
-
-    >[!NOTE]
-    >
-    >The **[!UICONTROL Include test population in the main target]** allows you to send the final email message to the recipients of the proofs.
-
-1. After the proofs have been sent, you can access dedicated logs from the **[!UICONTROL View test email log]** button. 
-
-    These logs allow you to access the sent proofs, and specific statistics related to the proof sending.
-
-    ![](assets/proof-log.png)
-
-
-1. Send as many proofs as necessary until you have finalized the content of your delivery. Once this is done, you can send the delivery to the main target.
-
-
+Send as many proofs as necessary until you have finalized the content of your delivery. Once this is done, you can send the delivery to the main target.
 
 
 <!--
