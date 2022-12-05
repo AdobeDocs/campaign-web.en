@@ -78,7 +78,7 @@ Click the **[!UICONTROL Test]** button then use the **[!UICONTROL Mode]** drop-d
 
 >[!TAB Send proofs to test profiles]
 
-1. Click the **[!UICONTROL Test]** button then choose the **[!UICONTROL Use test profiles]** mode.
+1. Choose the **[!UICONTROL Use test profiles]** mode.
 
 1. Add the test profiles that will receive the test emails.
 
@@ -88,7 +88,7 @@ Click the **[!UICONTROL Test]** button then use the **[!UICONTROL Mode]** drop-d
 
 >[!TAB Send proofs to substitution profiles]
 
-1. Click the **[!UICONTROL Test]** button then choose the **[!UICONTROL Substitution from target]** mode.
+1. Choose the **[!UICONTROL Substitution from target]** mode.
 
 1. Add the email address(es) that will receive the proofs.
 
@@ -98,15 +98,13 @@ Click the **[!UICONTROL Test]** button then use the **[!UICONTROL Mode]** drop-d
 
 >[!ENDTABS]
 
+If you want to send the final email message to the recipients of the proofs, enable the **[!UICONTROL Include test population in the main target]** option on.
+
 ### Send the proofs {#send}
 
 Once the proofs recipients have been selected, click **[!UICONTROL Send test email]** then confirm the sending.
 
 ![](assets/send-proof.png)
-
->[!NOTE]
->
->The **[!UICONTROL Include test population in the main target]** allows you to send the final email message to the recipients of the proofs.
 
 Once the proofs have been sent, you can access dedicated logs from the **[!UICONTROL View test email log]** button. These logs allow you to access the sent proofs, and specific statistics related to the proof sending.
 
