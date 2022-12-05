@@ -50,19 +50,15 @@ Before sending your email, make sure that your message will be displayed to the 
 To do this, Adobe Campaign allows you to preview the sent message in the different contexts in which it may be received and check the compatibility in major desktops and applications (webmail, message 
 service, mobile, etc.).
 
-To test your email rendering, follow these steps:
+Email rendering is accesible from the **[!UICONTROL Render email]** button.
 
-1. Click the **[!UICONTROL Render email]** button.
+The left pane provides various desktop, mobile and web-based email clients. Select the desired email client to display a preview of your email in the right pane. 
 
-    ![](assets/render.png)
+![](assets/render-context.png)
 
-1. The left pane provides various desktop, mobile and web-based email clients. Select the desired email client to display a preview of your email in the right pane. 
-
-    ![](assets/render-context.png)
-
-    >[!NOTE]
-    >
-    >The email clients list provides a sample of the major mail clients. Additional email clients are available from the filter button next to the top search bar.
+>[!NOTE]
+>
+>The email clients list provides a sample of the major mail clients. Additional email clients are available from the filter button next to the top search bar.
 
 ## Send proofs {#send-proofs}
 
@@ -73,8 +69,6 @@ Proofs can be sent to two types of recipients:
 * Test profiles / audiences: send proofs to additional recipients in the database that are not part of the email target,
 
 * Substitution profiles: send proofs to a specific email address using a profile from the email audience. This allows you to place yourself in the position of one of the targeted profiles and get an exact representation of the message that the profile will receive.
- 
-To send proofs, follow these steps:
 
 ### Select the proofs recipients {#recipients}
 
@@ -108,42 +102,14 @@ Click the **[!UICONTROL Test]** button then use the **[!UICONTROL Mode]** drop-d
 
 Once the proofs recipients have been selected, click **[!UICONTROL Send test email]** then confirm the sending.
 
+![](assets/send-proof.png)
+
 >[!NOTE]
 >
 >The **[!UICONTROL Include test population in the main target]** allows you to send the final email message to the recipients of the proofs.
 
-After the proofs have been sent, you can access dedicated logs from the **[!UICONTROL View test email log]** button. These logs allow you to access the sent proofs, and specific statistics related to the proof sending.
+Once the proofs have been sent, you can access dedicated logs from the **[!UICONTROL View test email log]** button. These logs allow you to access the sent proofs, and specific statistics related to the proof sending.
 
 ![](assets/proof-log.png)
 
 Send as many proofs as necessary until you have finalized the content of your delivery. Once this is done, you can send the delivery to the main target.
-
-
-<!--
-By default, the subject of the proof is prefixed by ‘Proof #’, where # is the number of the proof. You can change this prefix in the Label prefix field.
-
-Use address substitution in proof
-Instead of selecting dedicated recipients in the database, you can use the Substitution of the address option.
-This option lets you use the recipient profiles of the delivery and replace their email addresses with one or more other addresses that will receive the proof.
-When this option is selected, the proof addresses will be filled in via a special editor that lets you configure the substitution(s).
-Configuration is performed as follows:
-Click the Add icon to define a substitution.
-Enter the recipient address to be used, or select it from the list.
-Select the profile to use in the proof: save the Random value in the Profile to use column to use the data of any profile of the target in the proof.
-Click the Detail icon to select a profile from the main target, as in the following example:
-You can define as many substitution addresses as necessary.
-
-
-
-Click the profile selection button to display the list of profiles targeted by the message.
-Select the profile to use for testing, then enter in the Address field the desired substitution address, then click Confirm. All proofs targeting the profile will be sent to this email address, rather than to the one defined in the database for this profile.
-If you want to add a specific prefix to the proofs’ subject line, fill in the Subject line prefix field.
-The profile is added to the list, with its associated substitution address and prefix. Repeat the above steps for all the profiles that you want to use for testing, then click Confirm.
-f you want to send a proof to multiple substitution addresses for a same profile, you must add this profile as many times as required.
-In the example below, the proof based on the profile John Smith will be sent to two different substitution addresses:
-Once all profiles and substitution addresses are defined, you can send a proof to test the message. To do this, click the Test button, then select the type of test to perform.
-Note that if no test profile has been added to the message target, the Email rendering and Proof + Email rendering options are not available. For more information on proofs sending, refer to this section.
-
--->
-
-
