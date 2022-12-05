@@ -44,7 +44,11 @@ hide: yes
   + [Add an audience](audience/add-audience.md)
   + [Set a control group](audience/control-group.md)
   + [Work with the Segment Builder](audience/segment-builder.md)
-+ [Preview and test your email](preview-test/preview-test.md) 
++ Preview and test your email {#preview-test}
+  + [About preview and proofs](preview-test/preview-test.md) 
+  + [Preview email content](preview-test/preview-content.md)
+  + [Test email rendering](preview-test/rendering.md)
+  + [Send proofs](preview-test/proofs.md)
 + Send and monitor the email {#monitor}
   + [Prepare and send an email](monitor/prepare-send.md)
   + [Monitor delivery logs](monitor/delivery-logs.md)
