@@ -141,7 +141,7 @@ Once your email is ready, you can preview and test it before launching its sendi
 
 1. In the left-hand side area, select the profiles to use to preview the email. You can use targeted profiles or dedicated test profiles.
 
-1. A preview of the email displays in the right hand-side area based on the selected profile. If you have added multiple profiles, you can switch between each of them to preview the corresponding email.
+1. A preview of the email displays in the right pane based on the selected profile. If you have added multiple profiles, you can switch between each of them to preview the corresponding email.
 
     ![](assets/preview.png)
 
