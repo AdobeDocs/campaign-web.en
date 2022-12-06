@@ -2,6 +2,7 @@
 audience: end-user
 title: Test email rendering
 description: Campaign v8 Web documentation
+exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
 ---
 # Test the email rendering {#rendering}
 
