@@ -18,6 +18,16 @@ In this example, we will schedule the sending of an email on a specific date to 
 
 ## Create the email {#create-email}
 
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_template_selection"
+>title="Select an email template"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_properties"
+>title="Email Properties"
+>abstract="TBC"
+
 1. Create a new delivery from the **[!UICONTROL Deliveries]** menu.
 1. Select the **[!UICONTROL Email]** channel and the template to use then click **[!UICONTROL Create]**.
 
