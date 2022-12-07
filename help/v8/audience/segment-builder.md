@@ -19,7 +19,7 @@ For more information on the Segment Builder, refer to the [Segmentation Service 
 ## The palette
 
 The palette, located on the left side contains all the elements that you can filter on to create your audience. The tiles contained in the palette must be moved into the center canvas in order to be configured and taken into account. The palette is divided into two tabs:
-	
+
 * **Attributes**: this tab allows you to access all available fields from the schema. The list of fields depends on the targeting schema defined in the email template.
 
 * **Audiences**: this tab allows you to filter using one of the existing audiences defined in the Campaign Classic console.
