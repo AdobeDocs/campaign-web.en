@@ -44,3 +44,5 @@ To define the audience, you can:
 * create a new audience that will be used for the email. See this [section](segment-builder.md).
 
 You can also define control groups to avoid sending messages to a portion of your audience in order to measure the impact of your campaigns. See this [section](control-group.md).
+
+![](assets/about-audience.png)
