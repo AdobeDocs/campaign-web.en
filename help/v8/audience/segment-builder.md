@@ -16,6 +16,8 @@ This section describes how to create an audience when designing a new email. The
 
 For more information on the Segment Builder, refer to the [Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en).
 
+![](assets/segment-builder.png)
+
 ## The palette
 
 The palette, located on the left side contains all the elements that you can filter on to create your audience. The tiles contained in the palette must be moved into the center canvas in order to be configured and taken into account. The palette is divided into two tabs:

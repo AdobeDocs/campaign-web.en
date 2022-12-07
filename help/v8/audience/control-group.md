@@ -14,6 +14,8 @@ You can use control groups to avoid sending messages to a portion of your audien
 
 To do this, create a control group when defining the audience of your delivery. Profiles are added to the control group randomly, filtered or not, or based on criteria. You will then be able to compare the behavior of the target population which did receive the message with the behavior of contacts which were not targeted. 
 
+![](assets/control-group.png)
+
 The control group can be extracted randomly from the main target and/or selected from a specific population. Consequently, there are two main ways you can define a control group:
 
 * Extract a number of profiles from the main target.
