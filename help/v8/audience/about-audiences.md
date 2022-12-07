@@ -36,9 +36,9 @@ show use case with a new audience creation (or import from file?)
 control groups like acc: exract, random, based on attribute
 -->
 
-Once your content is designed, you need to define the email's audience. This is the targer of your delivery, the profiles who will receive the email.
+Once your content is designed, you need to define the email's audience. This is the target of your delivery, the profiles who will receive the email.
 
-You have two possibilities:
+To define the audience, you can:
 
 * use an existing audience defined in the Adobe Campaign console. See this [section](add-audience.md).
 * create a new audience that will be used for the email. See this [section](segment-builder.md).
