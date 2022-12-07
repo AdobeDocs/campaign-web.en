@@ -10,27 +10,39 @@ exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 >
 >This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
 
-In this example, we will build a segment to target all customers living in Atlanta, San Francisco, or Seattle and born after 1980.
+This section describes how to create an audience when designing a new email. The segment builder allows you to define the population targeted by your message by filtering data contained in the Adobe Campaign database.
 
-Access the Segments menu, then click the Create segment button.
+## The palette
 
-The segment definition screen allows you to configure all the required fields to define your segment. Learn how to configure segments in the Segmentation Service documentation.
+The palette, located on the left side contains all the elements that you can filter on to create your audience. The tiles contained in the palette must be moved into the center canvas in order to be configured and taken into account. The palette is divided into two tabs:
 
-In the Segment properties pane, provide a name and a description (optional) for the segment.
+* The **Attributes**: this tab allows you to access all available fields from the schema. The list of fields depends on the targeting schema defined in the email template.
+
+* The **Audiences**: this tab allows you to filter using one of the existing audiences defined in the Campaign Classic console.
+
+You can use the search bar to find elements quickly.
+
+## The canvas
+
+The canvas is the central zone in which you can configure and combine rules based on the elements added from the palette. To add a new rule, drag a tile from the palette and drop it onto the canvas. You will then be presented with context-specific options according to the type of data being added. 
+
+## The rule properties pane
+
+On the right side, the **Rule properties** pane allows you to perform the following actions
+
+* View results: displays the list of recipients targeted by the audience
+* Code view: displays a code-based version of the audience in PQL.
+* Display advanced attributes: check this option if you want to view the complete list of attributes: nodes, groupings, 1-1 links, 1-N links.
+* Attributes: displays a description of the created audience.
+
+## Example
+
+In this example, we will build an audience to target all customers living in Atlanta, San Francisco, or Seattle and born after 1980. 
 
 Drag and drop the desired fields from the left pane into the center workspace, then configure them according to your needs.
 
-NOTE
-Note that the fields available in the left pane vary depending on how the XDM Individual Profile and XDM ExperienceEvent schemas have been configured for your organization. Learn more in the Experience Data Model (XDM) documentation.
-
-In this example, we need to rely on Attributes and Events fields to build the segment:
+In this example, we need to rely on Attributes to build the segment:
 
 Attributes: profiles living in Atlanta, San Francisco or Seattle born after 1980
 
-Events: profiles who opened the Luma application within the last 7 days, then made a purchase within 2 hours after opening the application.
-
 As you are adding and configuring new fields in the workspace, the Segment Properties pane is automatically updated with information on the estimated profiles belonging to the segment.
-
-Once the segment is ready, click Save. It displays in the list of Adobe Experience Platform segments. Note that a search bar is available to help you search a specific segment in the list.
-
-The segment can now be used in your journeys. For more on this, refer to this section.

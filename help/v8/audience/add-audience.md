@@ -19,8 +19,16 @@ exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 
 Here is how you select an existing audience.
 
-1. In the delivery creation assistant,  click the **[!UICONTROL Select audience]** button then choose an existing audience.
+1. In the delivery creation assistant, click the **[!UICONTROL Select audience]** button.
 
-    In this example, we want to use an existing audience targeting customers belonging to the silver and gold loyalty points levels.
+    This screen displays all existing audiences defined in the Adobe Campaign console.
 
-1. Once your audience has been selected, you can edit the rules if necessary. You can also set a control group.
+1. Choose an audience and click **Select**.
+
+1. Click **Edit rules** if you want to refine your audience b
+
+1. Using the segment builder, you can enrich your audience with additional filters or by combining different audiences. See XX. 
+
+1. Click **Save**. 
+
+You can also set a control group to measure the impact of your campaigns. The control group will not receive the message. This allows you to compare the behavior of the population which received the message with the behavior of contacts which did not. See XX.

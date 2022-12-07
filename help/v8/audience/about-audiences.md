@@ -40,7 +40,7 @@ Once your content is designed, you need to define the email's audience. This is 
 
 You have two possibilities:
 
-* use an existing audience defined in the Adobe Campaign console.
-* create a new audience that will be used for the email. 
+* use an existing audience defined in the Adobe Campaign console. See XX.
+* create a new audience that will be used for the email. See XX.
 
-You can also define control groups to avoid sending messages to a portion of your audience in order to measure the impact of your campaigns.
+You can also define control groups to avoid sending messages to a portion of your audience in order to measure the impact of your campaigns. See XX.
