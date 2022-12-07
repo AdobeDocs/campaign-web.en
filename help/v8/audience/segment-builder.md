@@ -10,15 +10,19 @@ exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 >
 >This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
 
-This section describes how to create an audience when designing a new email. The segment builder allows you to define the population targeted by your message by filtering data contained in the Adobe Campaign database.
+This section explains how to select an existing audience, when defining the target population of an email delivery. If you want to create a new audience, refer to this [section](segment-builder.md).
+
+This section describes how to create an audience when designing a new email. The segment builder allows you to define the population targeted by your message by filtering data contained in the Adobe Campaign database. If you want to select an existing audience, refer to this [section](add-audience.md). 
+
+For more information on the Segment Builder, refer to the [Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en).
 
 ## The palette
 
 The palette, located on the left side contains all the elements that you can filter on to create your audience. The tiles contained in the palette must be moved into the center canvas in order to be configured and taken into account. The palette is divided into two tabs:
+	
+* **Attributes**: this tab allows you to access all available fields from the schema. The list of fields depends on the targeting schema defined in the email template.
 
-* The **Attributes**: this tab allows you to access all available fields from the schema. The list of fields depends on the targeting schema defined in the email template.
-
-* The **Audiences**: this tab allows you to filter using one of the existing audiences defined in the Campaign Classic console.
+* **Audiences**: this tab allows you to filter using one of the existing audiences defined in the Campaign Classic console.
 
 You can use the search bar to find elements quickly.
 
