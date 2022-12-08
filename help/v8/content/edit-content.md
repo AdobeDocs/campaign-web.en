@@ -1,10 +1,10 @@
 ---
 audience: end-user
-title: Configure the email content
+title: Edit the email content
 description: Campaign v8 Web documentation
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 ---
-# Configure the email content {#configure-content}
+# Edit the email content {#configure-content}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
@@ -38,9 +38,9 @@ The steps to define the content of your email are as follows:
 
 1. Check the **[!UICONTROL From name]** and **[!UICONTROL From email]** information. These fields are read-only, they are configured in the email template selected when creating the email.
 
-1. Define the email **[!UICONTROL Subject line]**. To do this, open the Expression Editor to define its content and add personalization using various attributes and content blocks or offers. Learn how to personalize content
+1. Define the email **[!UICONTROL Subject line]**. To do this, open the Expression Editor to define its content and add personalization using various attributes and content blocks or offers. [Learn how to personalize content](../personalization/personalize.md)
 
-1. If you want to send offers with your email, select them using the **[!UICONTROL Offers]** button. You will then be able to insert them into the email using personalization fields. [Learn how to porpose offers into emails](offers.md)
+1. If you want to send offers with your email, select them using the **[!UICONTROL Offers]** button. You will then be able to insert them into the email using personalization fields. [Learn how to send offers into emails](offers.md)
 
 1. Click the **[!UICONTROL Email Designer]** button to structure and design the content of the email. Learn how to design emails
 
