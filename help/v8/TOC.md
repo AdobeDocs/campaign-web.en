@@ -18,14 +18,13 @@ hide: yes
 + [Discover the interface](get-started/user-interface.md)
 + [Create your first email](email/create-email.md)
 + Create email content {#content}
-  + [Configure the email content](content/edit-content.md)
-  + Start creating your content {#start-design}
-    + [Start from scratch ](content/create-email-content.md)
-    + [Import your email content](content/existing-content.md)
-    + [Code your own content](content/code-content.md)
-    + [Work with templates](content/email-templates.md)
-    + [Work with offers](content/offers.md)
-  + Structure and design your email {#design-content}
+  + [Edit the email content](content/edit-content.md)
+  + Design your email {#design-content}
+    + Start designing your content {#start-design}
+      + [Start from scratch ](content/create-email-content.md)
+      + [Import your email content](content/existing-content.md)
+      + [Code your own content](content/code-content.md)
+      + [Work with templates](content/email-templates.md)
     + [Use content components](content/content-components.md)
     + [Add images](content/add-assets.md)
     + [Generate the text version](content/text-version-email.md)
@@ -39,6 +38,7 @@ hide: yes
   + Personalize your content {#personalize}
     + [Get started with personalization](personalization/personalize.md)
     + [Personalization contexts](personalization/personalization-contexts.md)
+  + [Send offers](content/offers.md)
 + Select the email audience {#audience}
   + [About audiences](audience/about-audiences.md)
   + [Add an audience](audience/add-audience.md)
