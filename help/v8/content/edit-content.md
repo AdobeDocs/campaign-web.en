@@ -7,6 +7,11 @@ exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 # Configure the email content {#configure-content}
 
 >[!CONTEXTUALHELP]
+>id="acw_deliveries_email_content"
+>title="Create the email content"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
 >title="Email Header"
 >abstract="TBC"
