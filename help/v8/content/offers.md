@@ -6,6 +6,16 @@ exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 ---
 # Send offers {#offers-content}
 
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_offers_settings"
+>title="Offers settings"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_offers_advanced_settings"
+>title="Offers Advanced Settings"
+>abstract="TBC"
+
 >[!NOTE]
 >
 >This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
