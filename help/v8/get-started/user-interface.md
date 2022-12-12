@@ -35,13 +35,20 @@ Key concepts when browsing the user interface are common with Adobe Experience P
 
 ## Unified Shell
 
-access to community learnings, help center, org switcher, solution switcher
+In the top bar, on the right side, several buttons allow you to:
+
+* switch between IMS organizations 
+* switch between your Adobe Experience Cloud applications
+* use the **Help** icon to access help pages, contact support and share feedback. You can search help articles and videos from the search field.
+
+
 
 <!--
 Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
 -->
 
-## Contextual help? 
+## Contextual help and on-boarding guides
+
 
 Context help and Gainsight: on-boarding/in-product guide
 
@@ -76,13 +83,19 @@ Global report not alpha
 >title="Explorer"
 >abstract="TBC"
 
-Explorer' menu in web UI to navigate through console content: console navtree second view in addition to the left menu lists with filters. The Explorer gives the real folder hierarchy from the console. Make sure you find your deliveries in sub-folders. All lists can be accessed in read-only. No Create/Edit. You can configure lists (colums). All schema fields, linked tables are available. 
+The **Explorer** menu diaplays the same folder hierarchy as the one in the client console. Browse all your Campaign v8 components, folders and schemas. For the moment, all lists are read-only, except the delivery list. 
 
-Only deliveries can be opened.
+The items displayed in the explore depend on your user permissions. 
+
+Like in any list screen, you can configure columns to display all the information you need. 
+
+<!--
+Explorer' menu in web UI to navigate through console content: console navtree second view in addition to the left menu lists with filters. The Explorer gives the real folder hierarchy from the console. Make sure you find your deliveries in sub-folders. All lists can be accessed in read-only. No Create/Edit. You can configure lists (colums). All schema fields, linked tables are available. 
 
 If you need to view your lists of recipients (age, gender), transactions or live transactional messages. To view each/edit -> console.
 
 Navtree view depends on permissions (same as console).
+-->
 
 ### Campaign Management
 
