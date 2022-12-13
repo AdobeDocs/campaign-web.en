@@ -15,10 +15,6 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 >title="Interface"
 >abstract="TBC"
 
-## Interface overview
-
-![](assets/home.png)
-
 The new Campaign v8 web interface offers an integrated, intuitive and consistent user experience.
 
 Key concepts when browsing the user interface are common with Adobe Experience Platform. Refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide) for more details.
