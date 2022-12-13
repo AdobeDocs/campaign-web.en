@@ -28,7 +28,7 @@ To create a control group, click the **[!UICONTROL Set Control Group]** button, 
 ![](assets/control-group1.png)
 
 ## Extract from target {#extract-target}
-	
+
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_target"
 >title="Extract from target"
