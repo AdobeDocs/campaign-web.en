@@ -40,7 +40,7 @@ This modern web-based interface is currently only available to Alpha practionner
 **Modern, intuitive and unified experience**
 
 * Access to the new interface and other applications with a single and shared user session
-* Unified Shell intgration: access to community learnings, help center, solution switcher
+* Unified Shell intgeration: access to community learnings, help center, solution switcher
 <!--
 No search and pulse notifications in Alpha
 -->

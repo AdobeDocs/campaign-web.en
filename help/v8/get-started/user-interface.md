@@ -86,7 +86,7 @@ Navtree view depends on permissions (same as console).
 >title="Deliveries"
 >abstract="TBC"
 
-* **Campaigns** - This is the list of your campaigns. You can view useful information such as their start/end/last modification dates, was well as their status. You can filter the list by status or start/end dates. Campaign templates are also available. These lists are read-only. 
+* **Campaigns** - This is the list of your campaigns. You can view useful information such as their start/end/last modification dates, as well as their status. You can filter the list by status or start/end dates. Campaign templates are also available. These lists are read-only. 
 
 * **Deliveries** - Browse through your list of deliveries. You can view their state, last modification date as well as key KPIs. You can filter the list by state, contact date or channel. Click an email delivery to open its dashboard. Other items are read-only. Delivery templates are also available.
 
@@ -155,9 +155,9 @@ An on-boarding guide is also available to help you get started with Campaign v8 
 
 ## Configure list screens {#list-screens}
 
-For the moment, all list screens are read-only, except the delivery list. 
+All list screens are read-only, except the email delivery list. 
 
-To find items quicker, you can use the search bar or filter. 
+To find items quicker, you can use the search bar or filter the list based on contextual criteria. 
 
 ![](assets/filter.png){width="70%" align="left"}
 
