@@ -41,8 +41,6 @@ In the top bar, on the right side, the buttons allow you to:
 * switch between your Adobe Experience Cloud applications
 * use the **Help** icon to access help pages, contact support and share feedback. You can search help articles and videos from the search field.
 
-
-
 <!--
 Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
 -->
@@ -154,6 +152,8 @@ Navtree view depends on permissions (same as console).
 
 * **Offers** - Browse through your list of Interaction offers. You can view their status, start/end dates and environment. You can filter the list by state and start/end dates. Offer templates are also available. These lists are read-only. 
 
+<!--
 ## Supported browsers {#browsers}
 
 Adobe [!DNL Journey Optimizer] interface is designed to work optimally in the latest version of Google Chrome. You might have trouble using certain features on older versions or other browsers.
+-->
