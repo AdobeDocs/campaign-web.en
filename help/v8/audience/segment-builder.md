@@ -20,11 +20,11 @@ To create a new audience when designing an email, follow these steps:
 
 1. From the **Audience** section of the delivery creation assistant, click the **[!UICONTROL Select audience]** button.
 
-![](assets/segment-builder0.png)
+    ![](assets/segment-builder0.png)
 
 1. Select **Create your own**. The Segment Builder is displayed.
 
-![](assets/segment-builder.png)
+    ![](assets/segment-builder.png)
 
 ## The palette
 
@@ -53,7 +53,7 @@ On the right side, the **Rule properties** pane allows you to perform the follow
 ![](assets/segment-builder5.png){width="70%" align="left"}
 
 * **View results:** displays the list of recipients targeted by the audience
-* **Code view**: displays a code-based version of the audience in PQL.
+* **Code view**: displays a code-based version of the audience in SQL.
 * **Display advanced attributes**: check this option if you want to view the complete list of attributes in the left palette: nodes, groupings, 1-1 links, 1-N links.
 * **Attributes**: displays a description of the created audience.
 
