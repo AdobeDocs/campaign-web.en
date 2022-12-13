@@ -19,17 +19,23 @@ exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 
 This section explains how to select an existing audience, when defining the target population of an email delivery. If you want to create a new audience, refer to this [section](segment-builder.md).
 
-![](../email/assets/create-audience.png)
-
 1. In the delivery creation assistant, click the **[!UICONTROL Select audience]** button.
 
     This screen displays all existing audiences defined in the Adobe Campaign console.
 
+   ![](assets/create-audience.png)
+
 1. Choose an audience and click **Select**.
 
-1. Click **Edit rules** if you want to refine your audience b
+   ![](assets/create-audience2.png)
+
+1. Click **Edit rules** if you want to refine your audience.
+
+   ![](assets/create-audience3.png)
 
 1. Using the segment builder, you can enrich your audience with additional filters or by combining different audiences. See this [section](segment-builder.md).
+
+   ![](assets/create-audience4.png)
 
 1. Click **Save**. 
 

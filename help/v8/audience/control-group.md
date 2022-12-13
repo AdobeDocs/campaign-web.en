@@ -14,8 +14,6 @@ You can use control groups to avoid sending messages to a portion of your audien
 
 To do this, create a control group when defining the audience of your delivery. Profiles are added to the control group randomly, filtered or not, or based on criteria. You will then be able to compare the behavior of the target population which did receive the message with the behavior of contacts which were not targeted. 
 
-![](assets/control-group.png)
-
 The control group can be extracted randomly from the main target and/or selected from a specific population. Consequently, there are two main ways you can define a control group:
 
 * Extract a number of profiles from the main target.
@@ -26,7 +24,7 @@ You can use both methods when defining a control group.
 All profiles being part of the control group at the delivery preparation step will be removed from the main target. They will not receive the message once it is sent.
 
 ## Extract from target {#extract-target}
-
+	
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_target"
 >title="Extract from target"
@@ -40,7 +38,11 @@ Under the **Extract from target** section, choose an **Exclusion type**:
 
 * **Random**: when preparing the delivery, Adobe Campaign will randomly extract a number of profiles corresponding to the percentage or to the maximum number that you will set as the size limit.
 
+    ![](assets/control-group.png)
+
 * **Ranked by attribute(s)**: this option enables you to define a limitation based on one or more sorting orders.
+
+    ![](assets/control-group2.png)
 
 Then define the **Size limit**: you must set how you are going to limit the number of profiles that you extract from the main target. 
 
@@ -51,10 +53,10 @@ Then define the **Size limit**: you must set how you are going to limit the numb
 >title="Extra population"
 >abstract="TBC"
 
-Another way to define a control group is to exclude a specific population from the target using an audience.
+Another way to define a control group is to exclude a specific population from the target using an existing audience or by defining a query.
 
-To do this, from the **Extra population** section, click **Select audience**.
+* To use an existing audience, click **Select audience** from the **Extra population** section.
 
-Define the exclusion criteria using the segment builder. You can also select an audience that was previously created.
+* To define a new query, select **Create your own** and define the exclusion criteria using the segment builder. refer to this [section](segment-builder.md). 
 
-The profiles matching the result of the query will be excluded from the target.
+The profiles included in the audience or matching the result of the query will be excluded from the target.
