@@ -56,8 +56,8 @@ This use case presents how to create your first email. We are going to schedule 
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card3"
->title="Create your first email content by using the Email Designer."
->abstract="Create your first email content"
+>title="Learn how to design your email content by using the Email Designer."
+>abstract="Learn how to design your content"
 
 In this use case, we are going to design the email using a predefined template. Detailed information on how to configure email content are available in [this section](../content/edit-content.md).
 
@@ -98,7 +98,7 @@ In this use case, we are going to design the email using a predefined template. 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="Define the audience"
->abstract="TBC"
+>abstract="Select the best audience for your marketing message. You can choose an existing audience already defined in a Campaign v8 instance or from Adobe Experience Platform or you can choose to create a new audience with the segment builder."
 
 In this use case we are going to send the email to an existing audience. Additional information on how to work with audiences are available in [this section](../audience/about-audiences.md).
 
@@ -121,7 +121,7 @@ In this use case we are going to send the email to an existing audience. Additio
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_schedule"
 >title="Schedule the sending"
->abstract="TBC"
+>abstract="Define the date and the exact time for your sending. By choosing the most appropriate time for your marketing message, you will maximise clicks and open rates."
 
 To schedule the sending of the email, click **[!UICONTROL Enable]** then specify the desired date and time for the sending. 
 
