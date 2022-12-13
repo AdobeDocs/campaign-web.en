@@ -29,45 +29,6 @@ Key concepts when browsing the user interface are common with Adobe Experience P
 * web UI made up of read-only lists that can be configured, show how to add columns
 -->
 
-## Unified Shell
-
-Campaign v8 web is integrated with Unified Shell. In the top bar, on the right side, several buttons are available. 
-
-![](assets/unified-shell.png)
-
-These buttons allow you to:
-
-* share your feedback as an Alpha customer
-* switch between IMS organizations 
-* switch between your Adobe Experience Cloud applications
-* access help pages, contact support and share feedback. You can search help articles and videos from the search field.
-
-<!--
-Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
--->
-
-## Contextual help and on-boarding guides
-
-A contextual help is available in the interface. When available, click on the **?** icon to display help information and related documentation links. 
-
-![](assets/context-help.png)
-
-An on-boarding guide is also available to help you get started with Campaign v8 web. Click the icon in the top right corner, choose one of the available step-by-step scenarios, and simply follow the intructions.
-
-![](assets/onboarding.png)
-
-## General
-
-For the moment, all list screens are read-only, except the delivery list. 
-
-To find items quicker, you can use the search bar or filter. 
-
-![](assets/filter.png)
-
-The lists are displayed in columns. Each column can be sorted in ascending or descending order one at a time. You can also display additional information by changing the column configuration. To do this, click the icon in the top right corner. You can add or remove columns. You can also change the order in which they are displayed.
-
-![](assets/columns.png)
-
 ## Left navigation menu
 
 Browse the links on the left to access Campaign v8 web capabilities.
@@ -84,6 +45,8 @@ The Campaign v8 web home page contains key links and resources to start. The Rec
 -->
 
 Access Campaign v8 web key help pages from the lower section of the home page.
+
+![](assets/home.png)
 
 <!--
 show global KPIs, recent items + left menu to access features)
@@ -162,6 +125,45 @@ Navtree view depends on permissions (same as console).
 >abstract="TBC"
 
 * **Offers** - Browse through your list of Interaction offers. You can view their status, start/end dates and environment. You can filter the list by state and start/end dates. Offer templates are also available. These lists are read-only. 
+
+## Unified Shell
+
+Campaign v8 web is integrated with Unified Shell. In the top bar, on the right side, several buttons are available. 
+
+![](assets/unified-shell.png)
+
+These buttons allow you to:
+
+* share your feedback as an Alpha customer
+* switch between IMS organizations 
+* switch between your Adobe Experience Cloud applications
+* access help pages, contact support and share feedback. You can search help articles and videos from the search field.
+
+<!--
+Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
+-->
+
+## Contextual help and on-boarding guides
+
+A contextual help is available in the interface. When available, click on the **?** icon to display help information and related documentation links. 
+
+![](assets/context-help.png)
+
+An on-boarding guide is also available to help you get started with Campaign v8 web. Click the icon in the bottom right corner, choose one of the available step-by-step scenarios, and simply follow the intructions.
+
+![](assets/onboarding.png)
+
+## List screens
+
+For the moment, all list screens are read-only, except the delivery list. 
+
+To find items quicker, you can use the search bar or filter. 
+
+![](assets/filter.png)
+
+The lists are displayed in columns. Each column can be sorted in ascending or descending order one at a time. You can also display additional information by changing the column configuration. To do this, click the icon in the top right corner of the list. You can add or remove columns and change the order in which they are displayed.
+
+![](assets/columns.png)
 
 <!--
 ## Supported browsers {#browsers}
