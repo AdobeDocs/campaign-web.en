@@ -30,7 +30,7 @@ send also KPIs
 
 ## Prepare the send
 
-During the preparation, the target population is calcultated and the message content generated for each profile included in the target. Once the preparation is finished, the messages are ready to be sent, either immediately or at the scheduled date and time. The validation rules used during analysis are described in this [section](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=en#validation-process-with-typologies).
+During the preparation, the target population is calculated and the message content generated for each profile included in the target. Once the preparation is finished, the messages are ready to be sent, either immediately or at the scheduled date and time. The validation rules used during analysis are described in this [section](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=en#validation-process-with-typologies).
 
 1. Click the **Prepare** button located in the top right corner.
 
@@ -65,7 +65,7 @@ Once the preparation is complete, follow the steps below to send your message.
 
 1. Finalize the send by clicking the OK button.
 
-* Delivered: the number of messages successfully sent. The pourcentage is based on the total number of target recipients.
+* Delivered: the number of messages successfully sent. The percentage is based on the total number of target recipients.
 * Opens: the number of opened messages. The percentage is based on the number of delivered messages.
 * Clicks: 
 

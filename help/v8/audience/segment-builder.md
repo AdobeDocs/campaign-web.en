@@ -65,7 +65,7 @@ In this example, we will build an audience to target all customers living in Atl
 
     ![](assets/segment-builder6.png)
 
-1. In the canvas, choose the **After** operator and enter the derired date.
+1. In the canvas, choose the **After** operator and enter the desired date.
 
     ![](assets/segment-builder7.png)
 
