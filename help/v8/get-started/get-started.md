@@ -10,8 +10,6 @@ exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 >
 >This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
 
-## Adobe Campaign V8 Web {#web-interface}
-
 <!--
 V8 web overview
 context, scope (targets cross-channel practitioners), limitations
@@ -29,15 +27,15 @@ only existing customers
 
 >[!NOTE]
 >
->Campaign v8 web is currently in Alpha version. Access is restricted to a small set of Alpha customers. Please be aware that both product interface, capabilities and usage flows can change without notice.
+>Campaign v8 web is currently in Alpha version. Access is restricted to a small set of Alpha customers. Please be aware that product interface, capabilities and usage flows can change without notice.
 
 Adobe Campaign provides a platform for designing cross-channel customer experiences and an environment for visual campaign orchestration, real-time interaction management and cross channel execution.
 
-In addition to all the existing features available with the console, we've built a web interface for practionners which offers an integrated, intuitive and consistent user experience. 
+In addition to all the existing features available with the console, we've built a web interface to provide practionners with an integrated, intuitive and consistent user experience. 
 
 ## Alpha features
 
-This modern web-based UI is currently only available to Alpha practionners with the following capabilities:
+This modern web-based interface is currently only available to Alpha practionners with the following capabilities:
 
 **Modern, intuitive and unified experience**
 
@@ -48,12 +46,12 @@ No search and pulse notifications in Alpha
 -->
 * Experience the new navigation with left menus and folders
 
-**Create, launch and measure your single email campaign**
+**Create, launch and measure your email campaign**
 
 * Design personalized email content with the email editor
-* Define Audiences with the segment builder
+* Define audiences with the segment builder
 * Preview, test and send your email messages
-* Monitor sending and measure results with built-in reports 
+* Monitor send and measure results with built-in reports 
 
 <!--
 add info somewhere to remind users that

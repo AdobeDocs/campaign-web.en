@@ -35,11 +35,16 @@ Key concepts when browsing the user interface are common with Adobe Experience P
 
 ## Unified Shell
 
-In the top bar, on the right side, the buttons allow you to:
+Campaign v8 web is integrated with Unified Shell. In the top bar, on the right side, several buttons are available. 
 
+![](assets/unified-shell.png)
+
+These buttons allow you to:
+
+* share your feedback as an Alpha customer
 * switch between IMS organizations 
 * switch between your Adobe Experience Cloud applications
-* use the **Help** icon to access help pages, contact support and share feedback. You can search help articles and videos from the search field.
+* access help pages, contact support and share feedback. You can search help articles and videos from the search field.
 
 <!--
 Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
@@ -47,15 +52,25 @@ Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: i
 
 ## Contextual help and on-boarding guides
 
-A contextual help is available in the interface. Click on the ? icon to display help information and related documentation links. 
+A contextual help is available in the interface. When available, click on the **?** icon to display help information and related documentation links. 
+
+![](assets/context-help.png)
 
 An on-boarding guide is also available to help you get started with Campaign v8 web. Click the icon in the top right corner, choose one of the available step-by-step scenarios, and simply follow the intructions.
+
+![](assets/onboarding.png)
 
 ## General
 
 For the moment, all list screens are read-only, except the delivery list. 
 
-To find items quicker, you can use the search bar or filter. You can also display additional information by changing the column configuration.
+To find items quicker, you can use the search bar or filter. 
+
+![](assets/filter.png)
+
+The lists are displayed in columns. Each column can be sorted in ascending or descending order one at a time. You can also display additional information by changing the column configuration. To do this, click the icon in the top right corner. You can add or remove columns. You can also change the order in which they are displayed.
+
+![](assets/columns.png)
 
 ## Left navigation menu
 
@@ -87,7 +102,7 @@ Global report not alpha
 >title="Explorer"
 >abstract="TBC"
 
-The **Explorer** menu diaplays the same folder hierarchy as the one in the client console. Browse all your Campaign v8 components, folders and schemas. For the moment, all lists are read-only, except the delivery list. 
+The **Explorer** menu displays the same folder hierarchy as the one in the client console. Browse all your Campaign v8 components, folders and schemas. For the moment, all lists are read-only, except the delivery list. 
 
 The items displayed in the Explorer depend on your user permissions. 
 
@@ -114,7 +129,7 @@ Navtree view depends on permissions (same as console).
 
 * **Campaigns** - This is the list of your campaigns. You can view useful information such as their start/end/last modification dates, was well as their status. You can filter the list by status or start/end dates. Campaign templates are also available. These lists are read-only. 
 
-* **Deliveries** - Browse through your list of deliveries. You can view their state, last modifiction data as well as key KPIs. You can filter the list by state, contact date or channel. Click an email delivery to open its dashboard. Other items are read-only. Delivery templates are also available.
+* **Deliveries** - Browse through your list of deliveries. You can view their state, last modification date as well as key KPIs. You can filter the list by state, contact date or channel. Click an email delivery to open its dashboard. Other items are read-only. Delivery templates are also available.
 
 ### Customer Management
 
@@ -140,8 +155,8 @@ Navtree view depends on permissions (same as console).
 
 * **Recipients** - Access your recipient database. You can view useful information such as their email address, first name and last name. This list is read-only. 
 * **Audiences** - This is your list of audiences. You can view their type, origin, creation/last modification dates and label. You can filter the list by origin. This list is read-only. 
-* **Subscriptions lists** - Browse through your subscriptions lists. You can view type, mode and label. This list is read-only. 
-* **Targeting workflows** - Access your list of Campaign workflows  You can view their state, last/next processing dates and environment. You can filter the list by state, last processing date and workflow type. Workflow templates are also available. These lists are read-only. 
+* **Subscriptions lists** - Browse through your subscriptions lists. You can view their type, mode and label. This list is read-only. 
+* **Targeting workflows** - Access your list of Campaign workflows. You can view their state, last/next processing dates and environment. You can filter the list by state, last processing date and workflow type. Workflow templates are also available. These lists are read-only. 
 
 ### Decision Management
 
