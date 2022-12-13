@@ -14,8 +14,8 @@ Adobe Campaign allows you to use profiles to preview the content of your email b
 
 Messages can be previewed using:
 
-* **Test profiles**: send proofs to additional recipients in the database that are not part of the email target,
-* **Profiles from the email audience**: test the email by placing yourself in the position of one of the targeted profiles. This allows you to get an exact representation of the message that the profile will receive like custom fields, personalized information...
+* **Test profiles**: preview the email using seed addresses, which are additional recipients in the database that are not part of the email target,
+* **Profiles**: preview the email using an existing profile.
 
 To preview the content of your email, follow these steps:
 

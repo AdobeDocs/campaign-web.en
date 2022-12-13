@@ -14,9 +14,9 @@ Sending proofs allows you to validate your email and check various elements like
 
 Proofs can be sent to two types of recipients:
 
-* Test profiles / audiences: send proofs to additional recipients in the database that are not part of the email target,
+* **Test profiles / audiences**: send proofs to seed addresses, which are additional recipients in the database that are not part of the email target,
 
-* Substitution profiles: send proofs to a specific email address using a profile from the email audience. This allows you to place yourself in the position of one of the targeted profiles and get an exact representation of the message that the profile will receive.
+* **Substitution profiles**: send proofs to a specific email address using an existing profile. This allows you to place yourself in the position of the profiles and get an exact representation of the message that the profile will receive.
 
 ## Select the proofs recipients {#recipients}
 

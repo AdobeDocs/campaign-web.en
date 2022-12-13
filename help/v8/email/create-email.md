@@ -12,7 +12,7 @@ exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 
 This use case presents how to create your first email 
 
-In this example, we will schedule the sending of an email on a specific date to silver and gold loyalty customers. This email will be designed using a predefined HTML template from a ZIP file and will include personalization using profile's attributes.
+In this example, we will schedule the sending of an email on a specific date to silver and gold loyalty customers. This email will be designed using a predefined template and will include personalization using profile's attributes.
 
 ![](assets/delivery-list.png)
 
@@ -29,29 +29,30 @@ In this example, we will schedule the sending of an email on a specific date to 
 >abstract="TBC"
 
 1. Create a new delivery from the **[!UICONTROL Deliveries]** menu.
+
 1. Select the **[!UICONTROL Email]** channel and the template to use then click **[!UICONTROL Create]**.
 
     >[!NOTE]
     >
-    >info on templates. check info in V7 doc
+    >A template is a specific delivery configuration that has been saved as a template in order to be re-used. Delivery templates are configured by admin users in Adobe Campaign console. [Learn how to work with delivery templates](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html){target="_blank"}
 
     ![](assets/channel-template.png)
 
-1. Provide a label for the delivery and configure additional options depending on your needs:
+1. Provide a label for the email and configure additional options based on your needs:
 
-    * Internal name: 
-    * Folder: 
-    * Delivery code: 
-    * Description: 
-    * Nature: 
-    
-    check which settings are defined in the template and mention them(description? folder?, nature?)
-
-    ![](assets/email-properties.png)
+    * **[!UICONTROL Internal name]**: assign a unique identifier to the delivery,
+    * **[!UICONTROL Folder]**: store the delivery in a specific folder,
+    * **[!UICONTROL Delivery code]**: use this field to organize your deliveries based on your own naming convention,
+    * **[!UICONTROL Description]**: specify a description for the delivery,
+    * **[!UICONTROL Nature]**: specify the nature of the email for classification purposes.<!--The content of the list is defined in the delivery template selected when creating the email.-->
 
     >[!NOTE]
     >
-    >info on delivery settings button + link to doc
+    >If you have extended your schema with specific custom fields, you can access them from the **[!UICONTROL Custom options]** section.
+
+    ![](assets/email-properties.png)
+
+    Additionally, advanced settings (typology rule, target mappings, etc.) are available from the button located next to the delivery name. They are predefined in the template selected when creating the email. You can edit them if necessary.
 
 ## Create the email content {#create-content}
 
@@ -60,17 +61,13 @@ In this example, we will schedule the sending of an email on a specific date to 
 >title="Create your first email content by using the Email Designer."
 >abstract="Create your first email content"
 
+In this example, we are going to design the email using a predefined template. Detailed information on how to configure email content are available in [this section](../content/edit-content.md).
+
 1. Click the **[!UICONTROL Edit content]** button to start creating the content of your email. 
 
-   This screen allows you to configure the email content and design it using the Email Designer.
+   This screen allows you to configure the email content and design it using the Email Designer. 
 
     ![](assets/edit-content.png)
-
-    >[!NOTE]
-    >
-    >The From name and From email information are predefined in the selected email template.
-    >
-    >By default, email tracking is enabled for opens and clicks. To disable these options, unselect them from the Optional features section.
 
 1. Specify the subject of your email using the Expression Editor. [Learn how to personalize your content](../personalization/personalize.md)
 
@@ -78,21 +75,19 @@ In this example, we will schedule the sending of an email on a specific date to 
 
     ![](assets/subject-line.png)
 
-1. Add an attached file to your email if necessary. Learn how to edit email content
-
 1. Click the **[!UICONTROL Edit email body]** button to create and design the content of your email.
 
-    Choose the method to use to create your email content. In this example, we want to import an existing HTML content.
+    Choose the method to use to create your email content. In this example, we want to use an existing design template.
 
     ![](assets/import-html.png)
 
-1. Select the HTML or ZIP file to import then click **[!UICONTROL Next]**.
+<!--1. Select the HTML or ZIP file to import then click **[!UICONTROL Next]**.
 
     If your folder contains assets, choose the instance and folder where they should be stored then click **[!UICONTROL Import]**. (+ link to doc on assets?)
 
-    ![](assets/import-folder.png)
+    ![](assets/import-folder.png)-->
 
-1. Once your content has been imported, it displays in the Email Designer, allowing you to edit it if needed and to add personalization.
+1. Once you have selected the template, it displays in the Email Designer, allowing you to edit it if needed and to add personalization.
 
     In this example, we want to add personalization in the email title. To do this, select the component block then click **[!UICONTROL Add Personalization]**.
 
@@ -109,7 +104,9 @@ In this example, we will schedule the sending of an email on a specific date to 
 >title="Define the audience"
 >abstract="TBC"
 
-1. Click the **[!UICONTROL Select audience]** button then choose an existing audience or create a new one.
+In this example we are going to send the email to an existing audience. Additional information on how to work with audiences are available in [this section](../audience/about-audiences.md).
+
+1. Click the **[!UICONTROL Select audience]** button then choose an existing audience to target.
 
     In this example, we want to use an existing audience targeting customers belonging to the silver and gold loyalty points levels.
 
@@ -117,9 +114,11 @@ In this example, we will schedule the sending of an email on a specific date to 
 
     >[!NOTE]
     >
-    >Audiences available in the list originate either from your Campaign V8 instance or from Adobe Experience Platform if the Destination / Sources intgeration has been implemented on your instance. Learn how to select the email audience 
+    >Audiences available in the list originate either from your Campaign V8 instance or from Adobe Experience Platform if the Destination / Sources inegration has been implemented on your instance.
 
-1. Once your audience has been selected, you can edit the rules if necessary. You can also set a control group to analyse the behavior of the email recipients compared to the behavior of profiles which were not targeted. Learn how to work with control groups
+1. Once your audience has been selected, you can edit its rule if necessary.
+
+    You can also set a control group to analyse the behavior of the email recipients compared to the behavior of profiles which were not targeted. [Learn how to work with control groups](../audience/control-group.md)
 
 ## Schedule the sending {#schedule}
 
@@ -128,9 +127,9 @@ In this example, we will schedule the sending of an email on a specific date to 
 >title="Schedule the sending"
 >abstract="TBC"
 
-To schedule the sending of the email, click Enable then specify the desired date and time. 
+To schedule the sending of the email, click **[!UICONTROL Enable]** then specify the desired date and time for the sending. 
 
-= confirm before sending option : what happens at scheduled date: notification to confirm the sending of the message?
+By default, the **[!UICONTROL Confirm before sending]** option is enabled, meaning that you will need to confirm the sending at the specified date and time to send the email. Disable this option to allow the email to be sent at the scheduled date and time with no confirmation needed.
 
 ![](assets/schedule.png)
 
@@ -138,29 +137,35 @@ To schedule the sending of the email, click Enable then specify the desired date
 
 Once your email is ready, you can preview and test it before launching its sending.
 
-1. Click **[!UICONTROL Review to send]**. A preview of your email displays, along with all the configured properties, audience and schedule. You can edit any of these elements using the modify button.
+In this example, we are going to preview the email using existing profiles and send a proof to a test profile that is not part of the target.
 
-    ![](assets/review-email.png)
+Additional information on how to preview and test emails are available in [this section](../preview-test/preview-test.md).
+
+1. Click **[!UICONTROL Review to send]**. A preview of your email displays, along with all the configured properties, audience and schedule. You can edit any of these elements using the modify button.
 
 1. Click the **[!UICONTROL Simulate content]** button to preview the email and send proofs.
 
-1. In the left-hand side area, select the profiles to use to preview the email. You can use targeted profiles or dedicated test profiles.
+    ![](assets/review-email.png)
+
+1. In the left-hand side area, select the profile(s) to use to preview the email.
 
 1. A preview of the email displays in the right pane based on the selected profile. If you have added multiple profiles, you can switch between each of them to preview the corresponding email.
 
     ![](assets/preview.png)
 
-    >[!NOTE]
+   <!-- !NOTE
     >
-    >Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering
+    >Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering-->
 
-1. To send proofs of your email, click the **[!UICONTROL Test]** button then select the profiles that will receive the proof. In this example, we want to send the proofs to a specific test profile.
+1. To send proofs of your email, click the **[!UICONTROL Test]** button then select the profiles that will receive the proof.
+
+    In this example, we want to send the proofs to a specific test profile, which is a seed address that is not part of the target. [Learn how to work with seed addresses](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}
 
     ![](assets/proof-test-profile.png)
 
     >[!NOTE]
     >
-    >You can also test your messages by impersonating some of the targeted profiles and sending the proof message to the email address of your choice. Learn how to use Substitute from target mode
+    >You can also test your messages by impersonating some of the targeted profiles and sending the proof message to the email address of your choice. [Learn how to send proofs](../preview-test/preview-test.md)
 
 1. Click **[!UICONTROL Send test email ]** then confirm the sending.
 
@@ -170,18 +175,15 @@ Once your email is ready, you can preview and test it before launching its sendi
 
 Once you have reviewed and tested your email, you can launch its preparation and send it.
 
-1. Click **[!UICONTROL Prepare]** to launch the preparation of the message.
-    
-    You can track the preparation progress in real-time, along with statistics. Once the preparation is completed, you can access detailed logs for further analysis. Learn how to monitor deliveries
+1. Click **[!UICONTROL Prepare]** to launch the preparation of the message. [Learn how to prepare an email](../monitor/prepare-send.md)
     
     ![](assets/preparation.png)
  
 1. Once your email is ready to be sent, click **[!UICONTROL Send]** then confirm the sending.
 
-    You can track the sending in real-time, along with statistics. Additionally, the **[!UICONTROL Logs]** button allows you to access detailed information on the email sending. Learn how to monitor deliveries
-
+    You can track the sending in real-time, along with statistics. Additionally, the **[!UICONTROL Logs]** button allows you to access detailed information on the email sending. [Learn how to monitor delivery logs](../monitor/delivery-logs.md)
     ![](assets/logs.png)     
 
-1. After the email has been sent, you can access dedicated reports for further analysis purposes. 
+1. After the email has been sent, you can access dedicated [reports](../reporting/reports.md) for further analysis purposes. 
 
     ![](assets/reports.png)
