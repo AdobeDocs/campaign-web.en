@@ -61,11 +61,11 @@ Global report not alpha
 >title="Explorer"
 >abstract="TBC"
 
-The **Explorer** menu displays the same folder hierarchy as the one in the client console. Browse all your Campaign v8 components, folders and schemas. For the moment, all lists are read-only, except the delivery list. 
+The **Explorer** menu displays the same folder hierarchy as the one in the client console. Browse all your Campaign v8 components, folders and schemas. All list screens are read-only, except the email delivery list. 
 
 The items displayed in the Explorer depend on your user permissions. 
 
-Like in any list screen, you can configure columns to display all the information you need. 
+Like in any list screen, you can configure columns to display all the information you need. See this [section](#list-screens)
 <!--
 Explorer' menu in web UI to navigate through console content: console navtree second view in addition to the left menu lists with filters. The Explorer gives the real folder hierarchy from the console. Make sure you find your deliveries in sub-folders. All lists can be accessed in read-only. No Create/Edit. You can configure lists (colums). All schema fields, linked tables are available. 
 
@@ -153,7 +153,7 @@ An on-boarding guide is also available to help you get started with Campaign v8 
 
 ![](assets/onboarding.png){width="70%" align="left"}
 
-## List screens
+## Configure list screens {#list-screens}
 
 For the moment, all list screens are read-only, except the delivery list. 
 
