@@ -10,9 +10,9 @@ exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 >
 >This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
 
-This section explains how to select an existing audience, when defining the target population of an email delivery. If you want to create a new audience, refer to this [section](segment-builder.md).
+This section describes how to create an audience when designing a new email. The created audience can only be used in this email. 
 
-This section describes how to create an audience when designing a new email. The segment builder allows you to define the population targeted by your message by filtering data contained in the Adobe Campaign database. If you want to select an existing audience, refer to this [section](add-audience.md). 
+The segment builder allows you to define the population targeted by your message by filtering data contained in the Adobe Campaign database. If you want to select an existing audience, refer to this [section](add-audience.md). 
 
 For more information on the Segment Builder, refer to the [Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en).
 
@@ -24,7 +24,11 @@ The palette, located on the left side contains all the elements that you can fil
 
 * **Attributes**: this tab allows you to access all available fields from the schema. The list of fields depends on the targeting schema defined in the email template.
 
+    ![](assets/segment-builder2.png){width="70%" align="left"}
+
 * **Audiences**: this tab allows you to filter using one of the existing audiences defined in the Campaign Classic console.
+
+    ![](assets/segment-builder3.png){width="70%" align="left"}
 
 You can use the search bar to find elements quickly.
 
@@ -32,23 +36,47 @@ You can use the search bar to find elements quickly.
 
 The canvas is the central zone in which you can configure and combine rules based on the elements added from the palette. To add a new rule, drag a tile from the palette and drop it onto the canvas. You will then be presented with context-specific options according to the type of data being added. 
 
+![](assets/segment-builder4.png){width="70%" align="left"}
+
 ## The rule properties pane
 
-On the right side, the **Rule properties** pane allows you to perform the following actions
+On the right side, the **Rule properties** pane allows you to perform the following actions:
 
-* View results: displays the list of recipients targeted by the audience
-* Code view: displays a code-based version of the audience in PQL.
-* Display advanced attributes: check this option if you want to view the complete list of attributes: nodes, groupings, 1-1 links, 1-N links.
-* Attributes: displays a description of the created audience.
+![](assets/segment-builder4.png){width="70%" align="left"}
+
+* **View results:** displays the list of recipients targeted by the audience
+* **Code view**: displays a code-based version of the audience in PQL.
+* **Display advanced attributes**: check this option if you want to view the complete list of attributes in the left palette: nodes, groupings, 1-1 links, 1-N links.
+* **Attributes**: displays a description of the created audience.
 
 ## Example
 
-In this example, we will build an audience to target all customers living in Atlanta, San Francisco, or Seattle and born after 1980. 
+In this example, we will build an audience to target all customers living in Atlanta or Seattle and born after 1980. 
 
-Drag and drop the desired fields from the left pane into the center workspace, then configure them according to your needs.
+1. In the **Attributes** tab of the palette, search for the **Date of birth** field. Drag the tile and drop it onto the canvas. 
 
-In this example, we need to rely on Attributes to build the segment:
+    ![](assets/segment-builder6.png)
 
-Attributes: profiles living in Atlanta, San Francisco or Seattle born after 1980
+1. In the canvas, choose the **After** operator and enter the derired date.
 
-As you are adding and configuring new fields in the workspace, the Segment Properties pane is automatically updated with information on the estimated profiles belonging to the segment.
+    ![](assets/segment-builder7.png)
+
+1. In the palette, search for the **City** field and add it to the canvas below the first rule. 
+
+    ![](assets/segment-builder8.png)
+
+1. In the text field, enter the first city name, then press enter. 
+
+    ![](assets/segment-builder9.png)
+
+1. Repeat this action for the second city name.
+
+    ![](assets/segment-builder10.png)
+
+1. Click **View results** to display the list and number of recipients matching the query.
+
+    ![](assets/segment-builder11.png)
+
+1. Click **Confirm**.
+
+Your audience is defined and ready to be used in your email.

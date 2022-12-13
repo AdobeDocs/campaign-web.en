@@ -23,6 +23,10 @@ You can use both methods when defining a control group.
 
 All profiles being part of the control group at the delivery preparation step will be removed from the main target. They will not receive the message once it is sent.
 
+To create a control group, click the **[!UICONTROL Set Control Group]** button, from the **Audience** section of the delivery creation assistant.
+
+![](assets/control-group1.png)
+
 ## Extract from target {#extract-target}
 	
 >[!CONTEXTUALHELP]
@@ -55,8 +59,12 @@ Then define the **Size limit**: you must set how you are going to limit the numb
 
 Another way to define a control group is to exclude a specific population from the target using an existing audience or by defining a query.
 
-* To use an existing audience, click **Select audience** from the **Extra population** section.
+From the **Extra population** section of **Control Group** definition screen, click the **[!UICONTROL Select Audience]** button.
 
-* To define a new query, select **Create your own** and define the exclusion criteria using the segment builder. refer to this [section](segment-builder.md). 
+![](assets/control-group3.png)
+
+* To use an existing audience, click **Select audience**. Refer to this [section](add-audience.md). 
+
+* To define a new query, select **Create your own** and define the exclusion criteria using the segment builder. Refer to this [section](segment-builder.md). 
 
 The profiles included in the audience or matching the result of the query will be excluded from the target.
