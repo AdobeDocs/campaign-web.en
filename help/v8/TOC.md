@@ -41,7 +41,7 @@ hide: yes
   + [Send offers](content/offers.md)
 + Select the email audience {#audience}
   + [About audiences](audience/about-audiences.md)
-  + [Add an audience](audience/add-audience.md)
+  + [Select an audience](audience/add-audience.md)
   + [Set a control group](audience/control-group.md)
   + [Work with the Segment Builder](audience/segment-builder.md)
 + Preview and test your email {#preview-test}

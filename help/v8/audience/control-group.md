@@ -59,7 +59,7 @@ Then define the **Size limit**: you must set how you are going to limit the numb
 
 Another way to define a control group is to exclude a specific population from the target using an existing audience or by defining a query.
 
-From the **Extra population** section of **Control Group** definition screen, click the **[!UICONTROL Select Audience]** button.
+From the **Extra population** section of the **Control Group** definition screen, click the **[!UICONTROL Select Audience]** button.
 
 ![](assets/control-group3.png)
 

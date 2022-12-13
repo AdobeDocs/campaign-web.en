@@ -16,6 +16,14 @@ The segment builder allows you to define the population targeted by your message
 
 For more information on the Segment Builder, refer to the [Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en).
 
+To create a new audience when designing an email, follow these steps: 
+
+1. From the **Audience** section of the delivery creation assistant, click the **[!UICONTROL Select audience]** button.
+
+![](assets/segment-builder0.png)
+
+1. Select **Create your own**. The Segment Builder is displayed.
+
 ![](assets/segment-builder.png)
 
 ## The palette
@@ -42,7 +50,7 @@ The canvas is the central zone in which you can configure and combine rules base
 
 On the right side, the **Rule properties** pane allows you to perform the following actions:
 
-![](assets/segment-builder4.png){width="70%" align="left"}
+![](assets/segment-builder5.png){width="70%" align="left"}
 
 * **View results:** displays the list of recipients targeted by the audience
 * **Code view**: displays a code-based version of the audience in PQL.

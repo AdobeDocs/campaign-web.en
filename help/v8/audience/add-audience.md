@@ -6,16 +6,14 @@ exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 ---
 # Add an audience {#add-audience}
 
->[!NOTE]
->
->This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
-
-## Select an existing audience {#audience-select}
-
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"
 >title="Select an existing audience"
 >abstract="TBC"
+
+>[!NOTE]
+>
+>This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
 
 This section explains how to select an existing audience, when defining the target population of an email delivery. If you want to create a new audience, refer to this [section](segment-builder.md).
 
