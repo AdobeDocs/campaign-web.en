@@ -21,13 +21,15 @@ This section explains how to select an existing audience, when defining the targ
 
 1. In the delivery creation assistant, click the **[!UICONTROL Select audience]** button.
 
-    This screen displays all existing audiences defined in the Adobe Campaign console.
-
    ![](assets/create-audience.png)
 
-1. Choose an audience and click **Select**.
+1. Choose **[!UICONTROL Select audience]** to use an existing audience. To create a new audience to be used in this email, choose **Create your own**. Refer to this [section](segment-builder.md).
 
-   ![](assets/create-audience2.png)
+    This screen displays all existing audiences defined in the Adobe Campaign console.
+
+    ![](assets/create-audience2.png)
+
+1. Choose an audience and click **Select**.
 
 1. Click **Edit rules** if you want to refine your audience.
 
