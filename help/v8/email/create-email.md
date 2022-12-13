@@ -10,9 +10,7 @@ exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 >
 >This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
 
-This use case presents how to create your first email 
-
-In this example, we will schedule the sending of an email on a specific date to silver and gold loyalty customers. This email will be designed using a predefined template and will include personalization using profile's attributes.
+This use case presents how to create your first email. We are going to schedule the sending of an email on a specific date to silver and gold loyalty customers. This email will be designed using a predefined template and will include personalization using profile's attributes.
 
 ![](assets/delivery-list.png)
 
@@ -61,7 +59,7 @@ In this example, we will schedule the sending of an email on a specific date to 
 >title="Create your first email content by using the Email Designer."
 >abstract="Create your first email content"
 
-In this example, we are going to design the email using a predefined template. Detailed information on how to configure email content are available in [this section](../content/edit-content.md).
+In this use case, we are going to design the email using a predefined template. Detailed information on how to configure email content are available in [this section](../content/edit-content.md).
 
 1. Click the **[!UICONTROL Edit content]** button to start creating the content of your email. 
 
@@ -69,9 +67,7 @@ In this example, we are going to design the email using a predefined template. D
 
     ![](assets/edit-content.png)
 
-1. Specify the subject of your email using the Expression Editor. [Learn how to personalize your content](../personalization/personalize.md)
-
-    In this example, we want to personalize the subject line using the profiles' first name.
+1. Specify the subject of your email and personalize it using the Expression Editor. [Learn how to personalize your content](../personalization/personalize.md)
 
     ![](assets/subject-line.png)
 
@@ -104,7 +100,7 @@ In this example, we are going to design the email using a predefined template. D
 >title="Define the audience"
 >abstract="TBC"
 
-In this example we are going to send the email to an existing audience. Additional information on how to work with audiences are available in [this section](../audience/about-audiences.md).
+In this use case we are going to send the email to an existing audience. Additional information on how to work with audiences are available in [this section](../audience/about-audiences.md).
 
 1. Click the **[!UICONTROL Select audience]** button then choose an existing audience to target.
 
@@ -137,7 +133,7 @@ By default, the **[!UICONTROL Confirm before sending]** option is enabled, meani
 
 Once your email is ready, you can preview and test it before launching its sending.
 
-In this example, we are going to preview the email using existing profiles and send a proof to a test profile that is not part of the target.
+In this use case, we are going to preview the email using existing profiles and send a proof to a test profile that is not part of the target.
 
 Additional information on how to preview and test emails are available in [this section](../preview-test/preview-test.md).
 
