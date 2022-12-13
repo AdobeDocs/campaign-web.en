@@ -69,8 +69,8 @@ The data is shared between the console and the web UI. For example, if you creat
 
 ![](assets/connect.png)
 
-1. Connect to [Adobe Experience Cloud](http://experience.adobe.com)
-1. Log in with your Adobe IMS credentials
+1. Connect to [Adobe Experience Cloud](http://experience.adobe.com).
+1. Log in with your Adobe IMS credentials.
 1. In the **Quick access** section, click **Campaign**.
 
 <!--

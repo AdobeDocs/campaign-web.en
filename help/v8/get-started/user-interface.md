@@ -65,7 +65,7 @@ The **Explorer** menu displays the same folder hierarchy as the one in the clien
 
 The items displayed in the Explorer depend on your user permissions. 
 
-Like in any list screen, you can configure columns to display all the information you need. See this [section](#list-screens)
+Like in any list screen, you can configure columns to display all the information you need. See this [section](#list-screens).
 <!--
 Explorer' menu in web UI to navigate through console content: console navtree second view in addition to the left menu lists with filters. The Explorer gives the real folder hierarchy from the console. Make sure you find your deliveries in sub-folders. All lists can be accessed in read-only. No Create/Edit. You can configure lists (colums). All schema fields, linked tables are available. 
 
@@ -143,7 +143,7 @@ These buttons allow you to:
 Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
 -->
 
-## Contextual help and on-boarding guides
+## Contextual help and on-boarding guide
 
 A contextual help is available in the interface. When available, click on the **?** icon to display help information and related documentation links. 
 
