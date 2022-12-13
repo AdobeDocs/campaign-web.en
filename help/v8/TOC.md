@@ -29,10 +29,11 @@ hide: yes
     + [Add a preheader](content/preheader.md)
     + [Add links and track messages](content/message-tracking.md)    
   + Style your content {#style}
-    + [Background settings](content/backgrounds.md)
-    + [Adjust vertical alignment and padding](content/adjusting-vertical-alignment-and-padding.md)
+    + [Get started with email style](content/get-started-email-style.md)
+    + [Edit background settings](content/backgrounds.md)
+    + [Adjust vertical alignment and padding](content/alignment-and-padding.md)
     + [Define a style for links](content/styling-links.md)
-    + [Add inline styling attributes](content/adding-inline-styling-attributes.md)
+    + [Add inline styling attributes](content/inline-styling.md)
   + Personalize your content {#personalize}
     + [Get started with personalization](personalization/personalize.md)
     + [Personalization contexts](personalization/personalization-contexts.md)

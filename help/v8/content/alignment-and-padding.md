@@ -4,7 +4,7 @@ title: Adjust vertical alignment and padding in Journey Optimizer
 description: Learn how to adjust vertical alignment and padding
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
 ---
-# Adjust vertical alignment and padding {#adjusting-vertical-alignment-and-padding}
+# Adjust vertical alignment and padding {#alignment-and-padding}
 
 >[!NOTE]
 >

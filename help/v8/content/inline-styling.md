@@ -13,6 +13,7 @@ exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
 In the Email Designer interface, when you select an element and display its settings on the side panel, you can customize the inline attributes and their value for that specific element.
 
 1. Select an element in your content.
+
 1. On the side panel, look for the **[!UICONTROL Styles Inline]** settings.
 
    ![](assets/styles_1.png)
