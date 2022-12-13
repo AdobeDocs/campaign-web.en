@@ -37,7 +37,7 @@ Browse the links on the left to access Campaign v8 web capabilities.
 
 ### Home page
 
-The Campaign v8 web home page contains key links and resources to start. The Recents list provides shortcuts to the recently created deliveries. This list shows their creation and modification dates and status.
+The Campaign v8 web home page contains key links and resources to start. The **Recents** list provides shortcuts to the recently created deliveries. This list shows their creation and modification dates and status.
 
 <!--
 * Banner
@@ -130,7 +130,7 @@ Navtree view depends on permissions (same as console).
 
 Campaign v8 web is integrated with Unified Shell. In the top bar, on the right side, several buttons are available. 
 
-![](assets/unified-shell.png){width="250" align="center"}
+![](assets/unified-shell.png){width="600" align="center"}
 
 These buttons allow you to:
 
@@ -147,11 +147,11 @@ Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: i
 
 A contextual help is available in the interface. When available, click on the **?** icon to display help information and related documentation links. 
 
-![](assets/context-help.png){width="250" align="center"}
+![](assets/context-help.png){width="600" align="center"}
 
 An on-boarding guide is also available to help you get started with Campaign v8 web. Click the icon in the bottom right corner, choose one of the available step-by-step scenarios, and simply follow the intructions.
 
-![](assets/onboarding.png){width="250" align="center"}
+![](assets/onboarding.png){width="600" align="center"}
 
 ## List screens
 
@@ -159,11 +159,11 @@ For the moment, all list screens are read-only, except the delivery list.
 
 To find items quicker, you can use the search bar or filter. 
 
-![](assets/filter.png){width="250" align="center"}
+![](assets/filter.png){width="600" align="center"}
 
 The lists are displayed in columns. Each column can be sorted in ascending or descending order one at a time. You can also display additional information by changing the column configuration. To do this, click the icon in the top right corner of the list. You can add or remove columns and change the order in which they are displayed.
 
-![](assets/columns.png){width="250" align="center"}
+![](assets/columns.png){width="600" align="center"}
 
 <!--
 ## Supported browsers {#browsers}
