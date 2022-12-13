@@ -4,7 +4,7 @@ title: Add an audience
 description: Campaign v8 Web documentation
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 ---
-# Add an audience {#add-audience}
+# Select an audience {#add-audience}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"

@@ -31,16 +31,16 @@ only existing customers
 
 Adobe Campaign provides a platform for designing cross-channel customer experiences and an environment for visual campaign orchestration, real-time interaction management and cross channel execution.
 
-In addition to all the existing features available with the console, we've built a web interface to provide practionners with an integrated, intuitive and consistent user experience. 
+In addition to all the existing features available with the console, we've built a web interface to provide practitioners with an integrated, intuitive and consistent user experience. 
 
 ## Alpha features
 
-This modern web-based interface is currently only available to Alpha practionners with the following capabilities:
+This modern web-based interface is currently only available to Alpha practitioners with the following capabilities:
 
 **Modern, intuitive and unified experience**
 
 * Access to the new interface and other applications with a single and shared user session
-* Unified Shell intgeration: access to community learnings, help center, solution switcher
+* Unified Shell integration: access to community learnings, help center, solution switcher
 <!--
 No search and pulse notifications in Alpha
 -->

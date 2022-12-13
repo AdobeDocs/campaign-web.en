@@ -149,7 +149,7 @@ A contextual help is available in the interface. When available, click on the **
 
 ![](assets/context-help.png){width="70%" align="left"}
 
-An on-boarding guide is also available to help you get started with Campaign v8 web. Click the icon in the bottom right corner, choose one of the available step-by-step scenarios, and simply follow the intructions.
+An on-boarding guide is also available to help you get started with Campaign v8 web. Click the icon in the bottom right corner, choose one of the available step-by-step scenarios, and simply follow the instructions.
 
 ![](assets/onboarding.png){width="70%" align="left"}
 
