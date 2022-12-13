@@ -45,9 +45,15 @@ To insert links into your email content, follow the steps below:
 
 The mirror page is an HTML page accessible online via a web browser. Its content is identical to the content of your email.
 
-To add a link to a mirror page in your email, [insert a link](#insert-links) and select **[!UICONTROL Mirror page]** as the type of link.
+To add a link to a mirror page in your email:
 
-![](assets/message-tracking-mirror-page.png)
+1. Select an element and click **[!UICONTROL Insert link]** from the contextual toolbar.
+
+    ![](assets/message-tracking-mirror-page.png)
+
+1. Select the **[!UICONTROL Insert link]** icon to access the personalization menu.
+
+    ![](assets/message-tracking-mirror-page_2.png)
 
 The mirror page is automatically created.
 

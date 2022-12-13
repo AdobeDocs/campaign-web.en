@@ -43,8 +43,6 @@ To define the email preheader, follow the steps below:
 
 1. Click **[!UICONTROL Validate]** to check your personalization syntax.
 
-    ![](assets/preheader_4.png)
-
 1. Click **[!UICONTROL Save]**.
 
 Your preheader is now configured for your email.
