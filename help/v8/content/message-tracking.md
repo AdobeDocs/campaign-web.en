@@ -18,7 +18,7 @@ When designing a message, you can add links to your content.
 
 >[!NOTE]
 >
->When [tracking is enabled](#enable-tracking), all links included in the message content are tracked.
+>When tracking is enabled, all links included in the message content are tracked.
 
 To insert links into your email content, follow the steps below:
 
@@ -32,7 +32,7 @@ To insert links into your email content, follow the steps below:
 
 1. Once the link is created, you can still modify it from the **[!UICONTROL Component settings]** pane on the right. 
 
-    * You can edit the link and change its Target.
+    * You can edit the link and change its **[!UICONTROL Target]**.
     * You can choose to underline the link or not by checking the corresponding option.
 
     ![](assets/message-tracking-link-settings.png)
@@ -54,6 +54,10 @@ To add a link to a mirror page in your email:
 1. Select the **[!UICONTROL Insert link]** icon to access the personalization menu.
 
     ![](assets/message-tracking-mirror-page_2.png)
+
+1. From the **[!UICONTROL Content block]** menu, select **[!UICONTROL Mirror page URL]** and click **[!UICONTROL Add]**.
+
+    ![](assets/message-tracking-mirror-page_3.png)
 
 The mirror page is automatically created.
 
