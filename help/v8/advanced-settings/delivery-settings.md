@@ -48,7 +48,7 @@ Practionners should not modify this, caution. Only check and change typology rul
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_recipient_importance"
 >title="Importance of the recipient"
->abstract="TBC"
+>abstract="The importance of the recipient is a formula used to determine which recipients are kept when the capacity typology rules are exceeded."
 
 
 ## Audience {#audience}
