@@ -12,9 +12,9 @@ exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
 
 You can underline a link and select its color and target in the Email Designer.
 
-1. In a Text **[!UICONTROL Content component]** where a link is inserted, select your link.
+1. In a **[!UICONTROL Text]** component where a link is inserted, select your link.
 
-1. In the **[!UICONTROL Component settings]** menu, check **[!UICONTROL Underline link]** to underline the label text of your link.
+1. In the **[!UICONTROL Component settings]** menu, check **[!UICONTROL Underline link]** to have the label underlined.
 
    ![](assets/link_1.png)
 
@@ -28,10 +28,8 @@ You can underline a link and select its color and target in the Email Designer.
 
    ![](assets/link_2.png)
 
-1. To change the color of your link, click on **[!UICONTROL Link color]**.
+1. To change the color of your link, click on **[!UICONTROL Link color]** from the right pane.
 
    ![](assets/link_3.png)
-
-1. Pick the color you need.
 
 1. Save your changes.
