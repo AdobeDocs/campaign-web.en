@@ -12,25 +12,25 @@ exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
 
 In this example, we will adjust padding and vertical alignment inside a structure component composed of three columns.
 
-1. Select the structure component directly in the email or using the **[!UICONTROL Navigation tree]** available in the left-hand menu.
+1. Select the structure component directly in the email or using the **[!UICONTROL Navigation tree]** available in the left pane.
 
    ![](assets/alignment_1.png)
 
-1. From the toolbar, click **[!UICONTROL Select a column]** and choose the one that you want to edit. You can also select it from the structure tree.
-
-   The editable parameters for that column are displayed in the **[!UICONTROL Column settings]** menu.
+1. From the contextual toolbar, click **[!UICONTROL Select a column]** and choose the one that you want to edit. You can also select it from the structure tree on the left.
 
    ![](assets/alignment_2.png)
 
-1. Under **[!UICONTROL Vertical alignment]**, select **[!UICONTROL Bottom]**.
-
-   The content component moves to the bottom of the column.
+1. The editable parameters for that column are displayed in the **[!UICONTROL Column settings]** menu on the right. Adjust the **[!UICONTROL Vertical alignment]** using the dedicated section.
 
    ![](assets/alignment_3.png)
 
-1. Under **[!UICONTROL Padding]**, define the top padding inside the column. Click the lock icon to break synchronization with the bottom padding.
+   For example, select **[!UICONTROL Bottom]**. The content component moves to the bottom of the column.
 
-   Define the left and right padding for that column.
+1. Under **[!UICONTROL Padding]**, define the top padding inside the column, and set the left and right padding for that column.
+
+   >[!NOTE]
+   >
+   >Click the lock icon to break synchronization between the top/bottom or left/right padding.
 
    ![](assets/alignment_4.png)
 
