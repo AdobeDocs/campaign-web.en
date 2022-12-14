@@ -28,11 +28,15 @@ exclusion logs, causes
 send also KPIs
 -->
 
-## Prepare the send
+## Prepare the send{#prepare}
 
-During the preparation, the target population is calculated and the message content generated for each profile included in the target. Once the preparation is finished, the messages are ready to be sent, either immediately or at the scheduled date and time. The validation rules used during analysis are described in this [section](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=en#validation-process-with-typologies).
+When you have defined your content, audience and schedule, you're ready to prepare your message. During the preparation, the target population is calculated and the message content generated for each profile included in the target. Once the preparation is finished, the messages are ready to be sent, either immediately or at the scheduled date and time. The validation rules used during analysis are described in this [section](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=en#validation-process-with-typologies).
 
-1. Click the **Prepare** button located in the top right corner.
+Follow the steps below: 
+
+1. From the delivery dashboard, click the **Prepare** button located in the top right corner and confirm.
+
+    ![](assets/prepare.png)
 
 1. The preparation progress is displayed. Depending on the size of the targeted population, this operation may take some time.
 
@@ -42,18 +46,21 @@ During the preparation, the target population is calculated and the message cont
 
 1. When the preparation is finished, check the **Targeted**, **To deliver** and **To exclude** KPIs. If the number of messages to send does not match your expectations, modify your audience and restart the preparation.
 
-    * Targeted: 
-    * To deliver: 
-    * To exclude: 
+    ![](assets/prepare2.png)
 
-1. Click the **Logs** button and check that there is no error. 
+1. Click the **Logs** button and check that there is no error. The last log message displays any error messages and the number of errors. A specific icon shows the encountered error type: the yellow icon indicates a non-critical processing error, the red icon indicates a critical error that prevents the delivery from being started.
 
-1. After making the changes, restart the preparation.
+    ![](assets/prepare-logs.png)
 
-Once the preparation has been completed, your message is ready to be sent. For more on this, see Confirming send.
+If the preparation detects a critical error preventing the delivery from being sent, the preparation status appears as failed in the delivery dashboard.
 
+![](assets/prepare-error.png)
 
-## Send the message
+If you need to make any changes to your delivery after the preparation, you will need to make sure that you click the **Prepare** button again for those changes to be taken into account. 
+
+Once the preparation is complete with no error, your message is ready to be sent. For more on this, see this [section](#send).
+
+## Send the message{#send}
 
 Once the preparation is complete, follow the steps below to send your message.
 
