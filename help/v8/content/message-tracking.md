@@ -10,22 +10,7 @@ exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
 >
 >This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
 
-Use [!DNL Journey Optimizer] to add links to your content and track the messages sent in order to monitor the behavior of your recipients.
-
-## Enable tracking {#enable-tracking}
-
-You can enable tracking at the email message level by checking the **[!UICONTROL Email opens]** and/or **[!UICONTROL Click on email]** options when creating your message.
-
-![](assets/message-tracking.png)
-
->[!NOTE]
->
->Both options are enabled by default.
-
-This will let you track the behavior of your recipients through:
-
-* **[!UICONTROL Email opens]**: Messages that have been opened.
-* **[!UICONTROL Click on email]**: Clicks on links in an email.
+Use the Email designer to add links to your content and track the messages sent in order to monitor the behavior of your recipients.
 
 ## Insert links {#insert-links}
 
@@ -33,7 +18,7 @@ When designing a message, you can add links to your content.
 
 >[!NOTE]
 >
->When [tracking is enabled](#enable-tracking), all links included in the message content are tracked.
+>When tracking is enabled, all links included in the message content are tracked.
 
 To insert links into your email content, follow the steps below:
 
@@ -41,29 +26,13 @@ To insert links into your email content, follow the steps below:
 
     ![](assets/message-tracking-insert-link.png)
 
-1. Choose the type of link you want to create:
-
-    * **[!UICONTROL External link]**: Insert a link to an external URL.
-
-    * **[!UICONTROL Landing page]**: Insert a link to a landing page.
-
-    * **[!UICONTROL One click Opt-out]**: Insert a link to enable users to quickly unsubscribe from your communications without the need to confirm opting out.
-
-    * **[!UICONTROL External Opt-in/Subscription]**: Insert a link to accept receiving communications from your brand.
-
-    * **[!UICONTROL External Opt-out/Unsubscription]**: Insert a link to unsubscribe from receiving communications from your brand.
-
-    * **[!UICONTROL Mirror page]**: Insert a link to display the email content in a web browser. Learn more in [this section](#mirror-page).
-
-    ![](assets/message-tracking-links.png)
-
-1. You can personalize your links.
+1. Add a **[!UICONTROL Label]** and a **[!UICONTROL Link]**.
 
 1. Save your changes.
 
 1. Once the link is created, you can still modify it from the **[!UICONTROL Component settings]** pane on the right. 
 
-    * You can edit the link and change its type.
+    * You can edit the link and change its **[!UICONTROL Target]**.
     * You can choose to underline the link or not by checking the corresponding option.
 
     ![](assets/message-tracking-link-settings.png)
@@ -76,9 +45,19 @@ To insert links into your email content, follow the steps below:
 
 The mirror page is an HTML page accessible online via a web browser. Its content is identical to the content of your email.
 
-To add a link to a mirror page in your email, [insert a link](#insert-links) and select **[!UICONTROL Mirror page]** as the type of link.
+To add a link to a mirror page in your email:
 
-![](assets/message-tracking-mirror-page.png)
+1. Select an element and click **[!UICONTROL Insert link]** from the contextual toolbar.
+
+    ![](assets/message-tracking-mirror-page.png)
+
+1. Select the **[!UICONTROL Insert link]** icon to access the personalization menu.
+
+    ![](assets/message-tracking-mirror-page_2.png)
+
+1. From the **[!UICONTROL Content block]** menu, select **[!UICONTROL Mirror page URL]** and click **[!UICONTROL Add]**.
+
+    ![](assets/message-tracking-mirror-page_3.png)
 
 The mirror page is automatically created.
 
@@ -117,4 +96,3 @@ The [Email Designer](create-email-content.md) allows you to manage the tracked U
     * **[!UICONTROL Mirror page]**: Considers this URL is a mirror page URL.
     * **[!UICONTROL Never]**: Never activates tracking of this URL. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
-Reporting on openings and clicks is available in the Live report and in the Global report.

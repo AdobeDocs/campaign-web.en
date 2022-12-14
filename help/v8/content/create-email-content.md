@@ -53,70 +53,53 @@ exl-id: 23e71da3-434d-4619-a48a-334281592d85
 
 The Email Designer allows you to easily define the structure of your email. By adding and moving structural elements with simple drag-and-drop actions, you can design the shape of your email within seconds.
 
-To start building your email content with the email designer, follow the steps below:
+To start building your email content, follow the steps below:
 
 1. From the Email Designer home page, select the **[!UICONTROL Design from scratch]** option.
 
     ![](assets/email_designer.png)
 
-1. Start designing your email content by drag and dropping **[!UICONTROL Structure components]** to define the layout of your email.
+1. Start designing your email content by drag and dropping **[!UICONTROL Structure components]** into the canvas to define the layout of your email.
 
    >[!NOTE]
    >
-   >Note that stack of columns are not compatible with all email programs. When not supported, columns will not be stacked.
-   >
-   >Once placed in the email, you cannot move nor remove your components unless there is already a content component or a fragment placed inside.
+   >Stacking columns is not compatible with all email programs. When not supported, columns will not be stacked.
+
+    <!--Once placed in the email, you cannot move nor remove your components unless there is already a content component or a fragment placed inside. This is not true in AJO - TBC?-->
 
     ![](assets/email_designer_2.png)
 
-1. Add as many **[!UICONTROL Structure components]** as needed.
+1. Add as many **[!UICONTROL Structure components]** as needed and edit their settings in the dedicated pane on the right.
 
-   Select the **[!UICONTROL n:n column]** component to define the number of columns of your choice (between 3 and 10). You can also define the width of each column by moving the arrows at the bottom of each column.
+    Select the **[!UICONTROL n:n column]** component to define the number of columns of your choice (between 3 and 10). You can also define the width of each column by moving the arrows at the bottom of each column.
 
    >[!NOTE]
    >
    >Each column size cannot be under 10% of the total width of the structure component. You cannot remove a column that is not empty.
 
-1. From the **[!UICONTROL Content components]** drop-down, you can add as many **[!UICONTROL Content components]** as you need in your structure component. [Learn more about Content components](content-components.md).
+1. Expand the **[!UICONTROL Content components]** section and add as many elements as you need into one or more structure components. [Learn more about content components](content-components.md)
 
-    ![](assets/email_designer_3.png)
-
-1. Each component can be further customized with the **[!UICONTROL Component settings]** section. For example, you can change your text style, the padding or margin of your component. [Learn more about alignment and padding](adjusting-vertical-alignment-and-padding.md).
-
-    ![](assets/email_designer_4.png)
-
-1. From the **[!UICONTROL Assets picker]**, you can directly add assets stored in the **[!UICONTROL Assets library]** to your email.
-
-    Double-click the folder which contained your assets and drag and drop the asset you want to add to your email.
+1. Each component can be further customized using the **[!UICONTROL Component settings]** pane on the right. For example, you can change the text style, padding or margin of each component. [Learn more about alignment and padding](alignment-and-padding.md)
 
     ![](assets/email_designer_5.png)
 
-1. Add personalization fields to customize the content from your profiles data.
+1. Insert personalization fields to customize your email content from profiles data. [Learn more about content personalization](../personalization/personalize.md)
+
+1. Add dynamic content to adapt the content to the targeted profiles based on conditional rules. <!-- Add link to Get started with dynamic content-->
 
     ![](assets/email_designer_6.png)
 
-1. Add dynamic content to adapt the content to the targeted profiles based on conditional rules.
-
-    ![](assets/email_designer_dynamic-content.png)
-
-1. In the **[!UICONTROL Links]** tab in the left pane, check the list of all the URLs of your content that will be tracked. You can modify their **[!UICONTROL Tracking Type]**, **[!UICONTROL Label]** and **[!UICONTROL Tags]** if needed.
+1. Click the **[!UICONTROL Links]** tab from the left pane to display all the URLs of your content that will be tracked. You can modify their **[!UICONTROL Tracking Type]** or **[!UICONTROL Label]** and add **[!UICONTROL Tags]** if needed. [Learn more about links and message tracking](message-tracking.md)
 
     ![](assets/email_designer_7.png)
 
-    >[!NOTE]
+1. If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. [Learn more about the code editor](code-content.md)
+
+    >[!CAUTION]
     >
-    >Learn more about links and message tracking in [this page](message-tracking.md).
+    >You will not be able to revert back to the visual designer for this email after switching to the code editor.
 
-1. If needed, you can switch to code editor to further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. For more information on the code editor, refer to [this page](code-content.md#).
+1. Once your content is ready, click **[!UICONTROL Simulate content]** to check your email rendering. You can choose the desktop or mobile view. [Learn more about previewing your email](../preview-test/preview-test.md)
 
-    >[!NOTE]
-    >
-    >You will not be able to use the visual designer for this email after switching to the code editor.
+1. When your email is ready, click **[!UICONTROL Save]**.
 
-    ![](assets/email_designer_26.png)
-
-1. Click **[!UICONTROL Show preview]** to check your email rendering. You can choose the desktop or mobile view.
-
-    ![](assets/email_designer_8.png)
-
-1. When your email is ready, click **[!UICONTROL Save & Close]**.

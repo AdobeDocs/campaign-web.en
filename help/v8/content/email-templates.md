@@ -14,10 +14,6 @@ Use the **[!UICONTROL Select design template]** section to start building your c
 
 ![](assets/email_designer-templates.png)
 
-You can choose from:
-* 20 out-of-the-box email templates.
-* Saved templates. [Learn more](#save-as-template)
-
 ## Save as template {#save-as-template}
 
 Once you designed your email content, you can save it for future reuse. To do this, follow the steps below.

@@ -30,26 +30,54 @@ exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 >title="About Content components"
 >abstract="Content components are empty content placeholders that you can use to create the layout of a template."
 
+## Add content components {#add-content-components}
 
+To add content components to your email and adjust them to your needs, follow the steps below.
+
+1. In the Email Designer, use an existing content or drag and drop **[!UICONTROL Structure components]** into your empty content to define the layout of your email. [Learn how](create-email-content.md)
+
+1. To access the **[!UICONTROL Content components]** section, select the corresponding button from the Email Designer left pane.
+
+    ![](assets/email_designer_content_components.png)
+
+1. Drag and drop the content components of your choice inside the relevant structure components.
+
+    ![](assets/email_designer_add_content_components.png)
+
+    >[!NOTE]
+    >
+    >You can add several components into a single structure component and into each column of a structure component.
+
+1. Adjust the styling attributes for each component using the **[!UICONTROL Component settings]** pane on the right. For example, you can change the text style, padding or margin of each component. [Learn more about alignment and padding](alignment-and-padding.md)
+
+    ![](assets/email_designer_content_components_settings.png)
 
 When creating your email content from scratch, **[!UICONTROL Content components]** allows you to further personalize your email with raw, empty components that you can use once placed in an email.
 You can add as many **[!UICONTROL Content components]** as you need inside a **[!UICONTROL Structure component]** which defines the layout of your email.
 
+## Container {#container}
+
+You can add a simple container inside which you will be able to add another content component. This allows you to apply a specific styling to the container, which will be different from the component used inside.
+
+For example, add a **[!UICONTROL Container]** component and then add a [Button](#button) component inside that container. You can use a specific background for the container, and another one for the button.
+
+![](assets/email_designer_container_component.png)
+
 ## Button {#buttons}
 
-Use the **[!UICONTROL Button]** component to insert multiple buttons in your email and redirect your email audience to another page.
+Use the **[!UICONTROL Button]** component to insert one or multiple buttons into your email and redirect your email audience to another page.
 
-1. From **[!UICONTROL Content components]**, drag and drop **[!UICONTROL Button]** in a **[!UICONTROL Structure component]**.
+1. From **[!UICONTROL Content components]**, drag and drop the **[!UICONTROL Button]** component into a **[!UICONTROL Structure component]**.
 
     ![](assets/email_designer_13.png)
 
-1. Click on your newly added button to personalize the text and to have access to the **[!UICONTROL Components Settings]** in the right pane of the email designer.
+1. Click your newly added button to personalize the text and to have access to the **[!UICONTROL Components settings]** in the Email Designer right pane.
 
     ![](assets/email_designer_14.png)
 
-1. In the **[!UICONTROL Link]** field of the **[!UICONTROL Components Settings]**, add the URL you want your audience to be redirected to when clicking the button.
+1. In the **[!UICONTROL Link]** field, add the URL you want to redirect to when clicking the button.
 
-1. Choose how your audience will be redirected with the **[!UICONTROL Target]** drop-down:
+1. Choose how your audience will be redirected with the **[!UICONTROL Target]** drop-down list:
 
     * **[!UICONTROL None]**: opens the link in the same frame as it was clicked (default).
     * **[!UICONTROL Blank]**: opens the link in a new window or tab.
@@ -59,13 +87,13 @@ Use the **[!UICONTROL Button]** component to insert multiple buttons in your ema
 
     ![](assets/email_designer_15.png)
 
-1. You can now further personalize your button by changing the **[!UICONTROL Style]**, **[!UICONTROL Margin]** and **[!UICONTROL Border]** for example.
+1. You can further personalize your button by changing styling attributes such as **[!UICONTROL Border]**, **[!UICONTROL Size]**, **[!UICONTROL Margin]**, etc. from the **[!UICONTROL Component settings]** pane.
 
 ## Text {#text}
 
-Use the **[!UICONTROL Text]** component to insert text in your email. You can adjust the color, style and size of your text in **[!UICONTROL Component Settings]**.
+Use the **[!UICONTROL Text]** component to insert text into your email, and adjust the style (border, size, padding, etc.) using the **[!UICONTROL Component settings]** pane.
 
-1. In **[!UICONTROL Content Components]**, drag and drop **[!UICONTROL Text]** in a **[!UICONTROL Structure component]**.
+1. From **[!UICONTROL Content Components]**, drag and drop **[!UICONTROL Text]** in a **[!UICONTROL Structure component]**.
 
     ![](assets/email_designer_11.png)
 
@@ -87,34 +115,33 @@ Use the **[!UICONTROL Text]** component to insert text in your email. You can ad
     * **[!UICONTROL Add personalization]**: add personalization fields to customize the content from your profiles data.
     * **[!UICONTROL Enable conditional content]**: add conditional content to adapt the content of the component to the targeted profiles.
 
-1. Adjust the **[!UICONTROL Text color]**, **[!UICONTROL Font family]** and **[!UICONTROL Size]** in the **[!UICONTROL Components Settings]**.
+1. Adjust the other styling attributes such as text color, font family, border, padding, margin, etc. from the **[!UICONTROL Component settings]** pane.
 
     ![](assets/email_designer_12.png)
 
 ## Divider {#divider}
 
 Use the **[!UICONTROL Divider]** component to insert a dividing line to organize the layout and content of your email.
-You can select the color, style and size of the breaking line in **[!UICONTROL Component Settings]**.
+
+You can adjust styling attributes such as the line color, style and height from the **[!UICONTROL Component settings]** pane.
 
 ![](assets/email_designer_16.png)
 
 ## HTML {#HTML}
 
-Use the **[!UICONTROL HTML]** to copy-paste the different parts of your existing HTML. This enables you to create free modular HTML components.
+Use the **[!UICONTROL HTML]** component to copy-paste the different parts of your existing HTML. This enables you to create free modular HTML components to reuse some external content.
 
-To simply make an external content compliant with the Email Designer, Adobe recommends creating a message from scratch and copy the content from your existing email into components.
-
-1. In **[!UICONTROL Content Components]**, drag and drop **[!UICONTROL HTML]** in a **[!UICONTROL Structure component]**.
+1. From **[!UICONTROL Content Components]**, drag and drop the **[!UICONTROL HTML]** component into a **[!UICONTROL Structure component]**.
 
     ![](assets/email_designer_22.png)
 
-1. Click on your newly added component then **[!UICONTROL Show the source code]** to add your HTML.
+1. Click on your newly added component, then select **[!UICONTROL Show the source code]** from the contextual toolbar to add your HTML.
 
     ![](assets/email_designer_23.png)
 
-1. Copy-paste the HTML code you want to add to your email and click **[!UICONTROL Save]**.
-
-1. You can now further personalize your HTML by changing the **[!UICONTROL Style]**, **[!UICONTROL Margin]** and **[!UICONTROL Border]** for example or adding a link to redirect your audience to another content.
+>[!NOTE]
+>
+>To simply make an external content compliant with the Email Designer, Adobe recommends creating a message from scratch and copy the content from your existing email into components.
 
 ## Image {#image}
 
@@ -126,21 +153,16 @@ Use the **[!UICONTROL Image]** component to insert an image file from your compu
 
 1. Click **[!UICONTROL Browse]** to choose an image file from your assets.
 
-   To learn more on [!DNL Assets Essentials], refer to [Adobe Experience Manager Assets Essentials documentation](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
+1. Click your newly added component and set up your image properties using the **[!UICONTROL Components settings]** pane:
 
-1. Click on your newly added component to start configuring your **[!UICONTROL Content Components]** and to have access to the **[!UICONTROL Components Settings]** in the right pane of the email designer.
-
-1. Set up your image properties:
-
-    * **[!UICONTROL Image Title]** lets you define a title to your image.
+    * **[!UICONTROL Image title]** lets you define a title to your image.
     * **[!UICONTROL Alt text]** lets you define the caption linked to your image. This corresponds to the alt HTML attribute.
 
     ![](assets/email_designer_10.png)
 
-1. You can now further personalize your image by changing the **[!UICONTROL Style]**, **[!UICONTROL Margin]** and **[!UICONTROL Border]** for example or adding a link to redirect your audience to another content.
+1. Adjust the other styling attributes such as margin, border, etc. or adding a link to redirect your audience to another content from the **[!UICONTROL Component settings]** pane.
 
 ## Video {#Video}
-
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_video_email"
@@ -175,21 +197,19 @@ Use the **[!UICONTROL Video]** component to insert a video in your email through
 
     ![](assets/email_designer_18.png)
 
-1. You can add a **[!UICONTROL Poster image]** to your video to specify an image to be shown until your audience click the play button.
+1. You can add a **[!UICONTROL Poster image]** to your video in order to specify an image to be shown until your audience click the play button.
 
-1. You can now further personalize your image by changing the **[!UICONTROL Style]**, **[!UICONTROL Margin]** and **[!UICONTROL Border]** for example.
+1. Adjust the other styling attributes such as style, margin, border, etc. from the **[!UICONTROL Component settings]** pane.
 
 ## Social {#social}
 
-Use the **[!UICONTROL Social]** component to insert links to social media pages in your email.
+Use the **[!UICONTROL Social]** component to insert links to social media pages into your email content.
 
-1. In **[!UICONTROL Content Components]**, drag and drop **[!UICONTROL Social]** in a **[!UICONTROL Structure component]**.
+1. From **[!UICONTROL Content Components]**, drag and drop the **[!UICONTROL Social]** component into a **[!UICONTROL Structure component]**.
 
-    ![](assets/email_designer_19.png)
+1. Click your newly added component.
 
-1. Click on your newly added component to start configuring your **[!UICONTROL Content Components]** and to have access to the **[!UICONTROL Components Settings]** in the right pane of the email designer.
-
-1. In the **[!UICONTROL Social]** field of the **[!UICONTROL Components Settings]**, choose which social media you want to add or remove.
+1. In the **[!UICONTROL Social]** field of the **[!UICONTROL Components settings]** pane, choose which social media you want to add or remove.
 
     ![](assets/email_designer_20.png)
 
@@ -201,8 +221,16 @@ Use the **[!UICONTROL Social]** component to insert links to social media pages 
 
 1. You can also change the icons of each of your social media if needed in the **[!UICONTROL Image]** field.
 
-1. You can now further personalize your social media icons by changing the **[!UICONTROL Style]**, **[!UICONTROL Margin]** and **[!UICONTROL Border]**.
+1. Adjust the other styling attributes such as style, margin, border, etc. from the **[!UICONTROL Component settings]** pane.
 
-## Offer Decision {#offer-decision}
+## Carousel {#carousel-settings}
 
-Use the **[!UICONTROL Offer decision]** component to insert decisions (previously known as offer activities) into your messages. Decisions will leverage Decision Management to pick the best offer to deliver to your customers.
+1. Drag and drop the **[!UICONTROL Carousel]** component inside a structure component.
+
+1. Browse to select images from your computer.
+
+1. From the **[!UICONTROL Settings]** pane, set the number of thumbnails that you want in the carousel.
+
+1. Select a fallback image from your computer.
+
+The carousel component is not compatible with all email programs. Upload a fallback to display an image instead when the carousel is not supported in the email.
