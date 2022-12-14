@@ -79,13 +79,13 @@ To start building your email content, follow the steps below:
 
 1. Expand the **[!UICONTROL Content components]** section and add as many elements as you need into one or more structure components. [Learn more about content components](content-components.md)
 
-1. Each component can be further customized using the **[!UICONTROL Component settings]** pane on the right. For example, you can change the text style, padding or margin of each component. [Learn more about alignment and padding](adjusting-vertical-alignment-and-padding.md)
+1. Each component can be further customized using the **[!UICONTROL Component settings]** pane on the right. For example, you can change the text style, padding or margin of each component. [Learn more about alignment and padding](alignment-and-padding.md)
 
     ![](assets/email_designer_5.png)
 
-1. Insert personalization fields to customize your email content from profiles data. [Learn more about content personalization](personalize.md)
+1. Insert personalization fields to customize your email content from profiles data. [Learn more about content personalization](../personalization/personalize.md)
 
-1. Add dynamic content to adapt the content to the targeted profiles based on conditional rules. [Get started with dynamic content](../personalization/get-started-dynamic-content.md)
+1. Add dynamic content to adapt the content to the targeted profiles based on conditional rules. <!-- Add link to Get started with dynamic content-->
 
     ![](assets/email_designer_6.png)
 

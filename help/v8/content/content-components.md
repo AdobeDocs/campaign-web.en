@@ -34,7 +34,7 @@ exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 
 To add content components to your email and adjust them to your needs, follow the steps below.
 
-1. In the Email Designer, use an existing content or drag and drop **[!UICONTROL Structure components]** into your empty content to define the layout of your email. [Learn how](content-from-scratch.md)
+1. In the Email Designer, use an existing content or drag and drop **[!UICONTROL Structure components]** into your empty content to define the layout of your email. [Learn how](create-email-content.md)
 
 1. To access the **[!UICONTROL Content components]** section, select the corresponding button from the Email Designer left pane.
 
