@@ -9,7 +9,7 @@ exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"
 >title="Select an existing audience"
->abstract="TBC"
+>abstract="The audiences are defined in the Adobe Campaign v8 Console. If you have an Adobe Experience Platform integration available, you should be able to see Platform defined audiences too."
 
 >[!NOTE]
 >
@@ -23,7 +23,7 @@ This section explains how to select an existing audience, when defining the targ
 
 1. Choose **[!UICONTROL Select audience]** to use an existing audience. To create a new audience to be used in this email, choose **Create your own**. Refer to this [section](segment-builder.md).
 
-    This screen displays all existing audiences defined in the Adobe Campaign console.
+    This screen displays all existing audiences defined in the Adobe Campaign console or from Adobe Experience Platform.
 
     ![](assets/create-audience2.png)
 

@@ -19,12 +19,12 @@ This use case presents how to create your first email. We are going to schedule 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_template_selection"
 >title="Select an email template"
->abstract="TBC"
+>abstract="A template is defined in the Adobe Campaign v8 console. This is a specific delivery configuration that contains predifined parameters like typology rules, personnalization or routing parameters."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_properties"
 >title="Email Properties"
->abstract="TBC"
+>abstract="The properties are the common delivery parameters that helps you to name and classify your delivery. If your delivery is based on an extended schema defined in the Adobe Campaign v8 console, some specific **Custom Options** fields are available."
 
 1. Create a new delivery from the **[!UICONTROL Deliveries]** menu.
 
@@ -110,7 +110,7 @@ In this use case we are going to send the email to an existing audience. Additio
 
     >[!NOTE]
     >
-    >Audiences available in the list originate either from your Campaign V8 instance or from Adobe Experience Platform if the Destination / Sources inegration has been implemented on your instance.
+    >Audiences available in the list originate either from your Campaign V8 instance or from Adobe Experience Platform if the Destination / Sources integration has been implemented on your instance.
 
 1. Once your audience has been selected, you can edit its rule if necessary.
 
