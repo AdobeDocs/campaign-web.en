@@ -21,7 +21,7 @@ To view the logs, access your delivery dashboard and click the **Logs** button.
 
 Several tabs are available:
 
-**Logs** tab
+## Logs
 
 The **Logs** tab contains all messages relating to the delivery and the proofs. Specific icons allow you to identify errors or warnings. 
 
@@ -33,31 +33,31 @@ All the validation steps, warnings and errors are listed. Colored icons show the
 
 ![](assets/logs.png)
 
-**Deliveries** tab
+## Deliveries
 
 The **Deliveries** tab offers a history of every occurrence of this delivery. The list of sent messages and their statuses is stored here. It allows you to view the delivery status for each recipient.
 
 ![](assets/logs2.png)
 
-**Exclusions** tab
+## Exclusions
 
 The **Exclusion logs** tab lists all the messages that have been excluded from the target sent and specifies the reason for the send failure.
 
 ![](assets/logs3.png)
 
-**Exclusion causes** tab
+## Exclusion causes
 
 The **Exclusion causes** tab displays the volume (in number of messages) of messages that were excluded from the target send.
 
 ![](assets/logs4.png)
 
-**Tracked URLs** tab
+## Tracked URLs
 
 The **Tracked URLs** tab regroups the URLs contained in the sent message, including their URL type and their source URL.
 
 ![](assets/logs5.png)
 
-**Tracking** tab
+## Tracking
 
 The **Tracking** tab lists the tracking history for this delivery. This tab displays tracking data for the messages sent, i.e. all URLs subject to tracking by Adobe Campaign.
 
