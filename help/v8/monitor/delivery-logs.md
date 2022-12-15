@@ -17,9 +17,7 @@ exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
 
 After preparing and sending an email, the delivery logs allow you to verify that there is no error. These logs can be accessed directly from the message dashboard. They show the detail of the sending, which target has been excluded and why, as well as the tracking information such as opens and clicks.
 
-To view the logs, access your delivery and click the **Logs** button.
-
-![](assets/logs.png)
+To view the logs, access your delivery dashboard and click the **Logs** button.
 
 Several tabs are available:
 
@@ -33,21 +31,31 @@ All the validation steps, warnings and errors are listed. Colored icons show the
 * The yellow icon indicates a non-critical processing error.
 * The red icon indicates a critical error that prevents sending the delivery. 
 
+![](assets/logs.png)
+
 **Deliveries** tab
 
 The **Deliveries** tab offers a history of every occurrence of this delivery. The list of sent messages and their statuses is stored here. It allows you to view the delivery status for each recipient.
+
+![](assets/logs2.png)
 
 **Exclusions** tab
 
 The **Exclusion logs** tab lists all the messages that have been excluded from the target sent and specifies the reason for the send failure.
 
+![](assets/logs3.png)
+
 **Exclusion causes** tab
 
 The **Exclusion causes** tab displays the volume (in number of messages) of messages that were excluded from the target send.
 
+![](assets/logs4.png)
+
 **Tracked URLs** tab
 
 The **Tracked URLs** tab regroups the URLs contained in the sent message, including their URL type and their source URL.
+
+![](assets/logs5.png)
 
 **Tracking** tab
 
@@ -57,3 +65,4 @@ The **Tracking** tab lists the tracking history for this delivery. This tab disp
 >
 >If tracking is not enabled for a delivery, this tab is not displayed.
 
+![](assets/logs6.png)

@@ -38,7 +38,7 @@ Follow the steps below:
 
     ![](assets/prepare.png)
 
-1. The preparation progress is displayed. Depending on the size of the targeted population, this operation may take some time.
+   The preparation progress is displayed. Depending on the size of the targeted population, this operation may take some time.
 
     >[!NOTE]
     >
@@ -50,9 +50,9 @@ Follow the steps below:
     
     Here are the different KPIs displayed:
 
-    * Targeted: the number of recipients targeted
-    * To deliver: the number of messages that will be sent 
-    * To exclude: the number of messages excluded by a typology rule
+    * **Targeted**: the number of recipients targeted
+    * **To deliver**: the number of messages that will be sent 
+    * **To exclude**: the number of messages excluded by a typology rule
 
 1. Click the **Logs** button and check that there is no error. The last log message displays any error messages and the number of errors. For more on this, see this [section](#send).
 
@@ -76,7 +76,7 @@ Follow these steps:
 
     ![](assets/send.png)
 
-1. The sending progress is displayed alongside with three KPIs.
+1. The sending progress is displayed. Check the KPIs displayed. You can also check the logs. For more on this, see this [section](#send).
 
     ![](assets/send2.png)
 
