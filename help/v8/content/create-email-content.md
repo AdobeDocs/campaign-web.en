@@ -85,10 +85,6 @@ To start building your email content, follow the steps below:
 
 1. Insert personalization fields to customize your email content from profiles data. [Learn more about content personalization](../personalization/personalize.md)
 
-1. Add dynamic content to adapt the content to the targeted profiles based on conditional rules. <!-- Add link to Get started with dynamic content-->
-
-    ![](assets/email_designer_6.png)
-
 1. Click the **[!UICONTROL Links]** tab from the left pane to display all the URLs of your content that will be tracked. You can modify their **[!UICONTROL Tracking Type]** or **[!UICONTROL Label]** and add **[!UICONTROL Tags]** if needed. [Learn more about links and message tracking](message-tracking.md)
 
     ![](assets/email_designer_7.png)
