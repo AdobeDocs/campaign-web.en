@@ -19,11 +19,15 @@ Messages can be previewed using:
 
 To preview the content of your email, follow these steps:
 
-1. Choose the profile(s) to use to preview your email content. To do this, click the **[!UICONTROL Select profile(s)]** button then use the **[!UICONTROL Test profiles]** and **[!UICONTROL Profiles]** tab to select one or multiple profile(s). 
+1. Access the email content creation screen, then click **[!UICONTROL Simulate content]**.
+
+1. Click the **[!UICONTROL Select profile(s)]** button then use the **[!UICONTROL Test profiles]** and **[!UICONTROL Profiles]** tab to select one or multiple profile(s).
+
+    You can combine both test profiles and profiles to preview your email.
 
     ![](assets/preview-profile.png)
 
-1. Once your profiles have been selected, a preview of the email displays in the right pane. Personalized elements are replaced by the data from the selected profile.
+1. Once profiles have been selected, a preview of the email displays in the right pane. Personalized elements are replaced by the data from the profile selected in the left pane.
 
     If you have added multiple profiles, you can switch between each of them in the list to preview the corresponding email.
 

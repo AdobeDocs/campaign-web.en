@@ -15,12 +15,16 @@ Before sending your email, make sure that your message will be displayed to the 
 To do this, Adobe Campaign allows you to preview the sent message in the different contexts in which it may be received and check the compatibility in major desktops and applications (webmail, message 
 service, mobile, etc.).
 
-Email rendering is accesible from the **[!UICONTROL Render email]** button.
+To test the email rendering, follow these steps:
 
-The left pane provides various desktop, mobile and web-based email clients. Select the desired email client to display a preview of your email in the right pane. 
+1. Access the email content creation screen, then click **[!UICONTROL Simulate content]**.
 
-![](assets/render-context.png)
+1. Click the **[!UICONTROL Render email]** button.
 
->[!NOTE]
->
->The email clients list provides a sample of the major mail clients. Additional email clients are available from the filter button next to the top search bar.
+    The left pane provides various desktop, mobile and web-based email clients. Select the desired email client to display a preview of your email in the right pane. 
+
+    ![](assets/render-context.png)
+
+    >[!NOTE]
+    >
+    >The email clients list provides a sample of the major mail clients. Additional email clients are available from the filter button next to the top search bar.
