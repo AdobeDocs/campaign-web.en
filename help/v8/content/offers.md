@@ -76,8 +76,10 @@ To insert an offer using the Expression Editor, follow these steps:
 
 1. Open the Expression Editor, then select the **[!UICONTROL Propositions]** menu.
 
+    Available propositions display in the list. The number of propositions is defined when configuring the offers to propose.
+
     ![](assets/offer-insertion.png)
 
-1. Available propositions display in the list. The number of propositions is defined when configuring the offers to propose.
+1. Add the propositions into the email subject or body using the personalization fields, rendering functions or offer attributes available for each proposition.
 
-    Add the propositions into the email subject or body using the personalization fields, rendering functions or offer attributes available for each proposition.
+    ![](assets/offer-inserted.png)
