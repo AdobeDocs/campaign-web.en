@@ -82,9 +82,9 @@ Follow these steps:
 
     Here are the different KPIs displayed:
 
-    * Delivered: the number of messages successfully sent. The percentage is based on the total number of targeted recipients.
-    * Opens: the number of opened messages. The percentage is based on the number of delivered messages.
-    * Clicks: the number of recipient who clicked at least once in the email. The percentage is based on the number of delivered messages.
+    * **Delivered**: the number of messages successfully sent. The percentage is based on the total number of targeted recipients.
+    * **Opens**: the number of opened messages. The percentage is based on the number of delivered messages.
+    * **Clicks**: the number of recipient who clicked at least once in the email. The percentage is based on the number of delivered messages.
 
     >[!NOTE]
     >
