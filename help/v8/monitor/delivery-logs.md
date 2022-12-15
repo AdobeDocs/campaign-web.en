@@ -57,4 +57,3 @@ The **Tracking** tab lists the tracking history for this delivery. This tab disp
 >
 >If tracking is not enabled for a delivery, this tab is not displayed.
 
-Tracking data is interpreted in the delivery reports. See this section.
