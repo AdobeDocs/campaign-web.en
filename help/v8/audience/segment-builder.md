@@ -14,7 +14,7 @@ This section describes how to create an audience when designing a new email. The
 
 The segment builder allows you to define the population targeted by your message by filtering data contained in the Adobe Campaign database. If you want to select an existing audience, refer to this [section](add-audience.md). 
 
-For more information on the Segment Builder, refer to the [Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en).
+For more information on the Segment Builder, refer to the [Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
 
 To create a new audience when designing an email, follow these steps: 
 
