@@ -121,7 +121,7 @@ In this use case we are going to send the email to an existing audience. Additio
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_schedule"
 >title="Schedule the sending"
->abstract="Define the date and the exact time for your sending. By choosing the most appropriate time for your marketing message, you will maximise clicks and open rates."
+>abstract="Define the date and the exact time for your sending. By choosing the most appropriate time for your marketing message, you will maximise open rates."
 
 To schedule the sending of the email, click **[!UICONTROL Enable]** then specify the desired date and time for the sending. 
 
