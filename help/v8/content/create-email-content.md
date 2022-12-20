@@ -97,5 +97,7 @@ To start building your email content, follow the steps below:
 
 1. Once your content is ready, click **[!UICONTROL Simulate content]** to check your email rendering. You can choose the desktop or mobile view. [Learn more about previewing your email](../preview-test/preview-test.md)
 
+    ![](assets/email_designer_28.png)
+
 1. When your email is ready, click **[!UICONTROL Save]**.
 
