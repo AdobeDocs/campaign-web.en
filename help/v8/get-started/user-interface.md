@@ -13,7 +13,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
 >title="Interface"
->abstract="TBC"
+>abstract="The new Campaign v8 web interface offers an integrated, intuitive and consistent user experience."
 
 The new Campaign v8 web interface offers an integrated, intuitive and consistent user experience.
 
