@@ -30,7 +30,7 @@ send also KPIs
 
 ## Prepare the send{#prepare}
 
-When you have defined your content, audience and schedule, you're ready to prepare your message. During the preparation, the target population is calculated and the message content generated for each profile included in the target. Once the preparation is finished, the messages are ready to be sent, either immediately or at the scheduled date and time. The validation rules used during analysis are described in this [section](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=en#validation-process-with-typologies).
+When you have defined your content, audience and schedule, you're ready to prepare your message. During the preparation, the target population is calculated and the message content generated for each profile included in the target. Once the preparation is finished, the messages are ready to be sent, either immediately or at the scheduled date and time. The validation rules used during analysis are described in this [section](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html#validation-process-with-typologies).
 
 Follow the steps below: 
 
@@ -38,17 +38,23 @@ Follow the steps below:
 
     ![](assets/prepare.png)
 
-1. The preparation progress is displayed. Depending on the size of the targeted population, this operation may take some time.
+   The preparation progress is displayed. Depending on the size of the targeted population, this operation may take some time.
 
     >[!NOTE]
     >
     >You can stop the preparation at any time using the **Stop preparation** button. During the preparation phase, no messages are sent. You can therefore start or stop this without risk of impacting anything.
 
-1. When the preparation is finished, check the **Targeted**, **To deliver** and **To exclude** KPIs. If the number of messages to send does not match your expectations, modify your audience and restart the preparation.
+1. When the preparation is finished, check the KPIs. If the number of messages to send does not match your expectations, modify your audience and restart the preparation. 
 
     ![](assets/prepare2.png)
+    
+    Here are the different KPIs displayed:
 
-1. Click the **Logs** button and check that there is no error. The last log message displays any error messages and the number of errors. A specific icon shows the encountered error type: the yellow icon indicates a non-critical processing error, the red icon indicates a critical error that prevents the delivery from being started.
+    * **Targeted**: the number of recipients targeted
+    * **To deliver**: the number of messages that will be sent 
+    * **To exclude**: the number of messages excluded by a typology rule
+
+1. Click the **Logs** button and check that there is no error. The last log message displays any error messages and the number of errors. For more on this, see this [section](#send).
 
     ![](assets/prepare-logs.png)
 
@@ -56,26 +62,32 @@ If the preparation detects a critical error preventing the delivery from being s
 
 ![](assets/prepare-error.png)
 
-If you need to make any changes to your delivery after the preparation, you will need to make sure that you click the **Prepare** button again for those changes to be taken into account. 
+If you need to make any changes to your delivery after the preparation, you need to restart the preparation for those changes to be taken into account. 
 
 Once the preparation is complete with no error, your message is ready to be sent. For more on this, see this [section](#send).
 
 ## Send the message{#send}
 
-Once the preparation is complete, follow the steps below to send your message.
+Once the preparation is complete, you can now send your message. This step is only required for messages sent immediately. If the message is scheduled, it is sent at the defined date. 
 
-1. Click the **Send button** in the top right corner and confirm. 
+Follow these steps:
 
-1. The sending progress is displayed alongside with three KPIs: Delivered, Opens, Clicks.
+1. From the delivery dashboard, click the **Send** button in the top right corner and confirm.
+
+    ![](assets/send.png)
+
+1. The sending progress is displayed. Check the KPIs displayed. You can also check the logs. For more on this, see this [section](#send).
+
+    ![](assets/send2.png)
+
+    Here are the different KPIs displayed:
+
+    * **Delivered**: the number of messages successfully sent. The percentage is based on the total number of targeted recipients.
+    * **Opens**: the number of opened messages. The percentage is based on the number of delivered messages.
+    * **Clicks**: the number of recipient who clicked at least once in the email. The percentage is based on the number of delivered messages.
+
+    >[!NOTE]
+    >
+    >The **Opens** and **Clicks** indicators will be updated in real-time.  
 
    You can pause the sending at any time and then resume. If you stop the delivery while it is being sent, you will not be able to resume.
-
-1. Finalize the send by clicking the OK button.
-
-* Delivered: the number of messages successfully sent. The percentage is based on the total number of target recipients.
-* Opens: the number of opened messages. The percentage is based on the number of delivered messages.
-* Clicks: 
-
->[!NOTE]
->
->If the message is scheduled, it is sent when sending time is reached. For more on scheduling messages, refer to this section.

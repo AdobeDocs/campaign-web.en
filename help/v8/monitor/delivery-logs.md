@@ -17,13 +17,11 @@ exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
 
 After preparing and sending an email, the delivery logs allow you to verify that there is no error. These logs can be accessed directly from the message dashboard. They show the detail of the sending, which target has been excluded and why, as well as the tracking information such as opens and clicks.
 
-To view the logs, access your delivery and click the **Logs** button.
-
-![](assets/logs.png)
+To view the logs, access your delivery dashboard and click the **Logs** button.
 
 Several tabs are available:
 
-**Logs** tab
+## Logs
 
 The **Logs** tab contains all messages relating to the delivery and the proofs. Specific icons allow you to identify errors or warnings. 
 
@@ -33,23 +31,33 @@ All the validation steps, warnings and errors are listed. Colored icons show the
 * The yellow icon indicates a non-critical processing error.
 * The red icon indicates a critical error that prevents sending the delivery. 
 
-**Deliveries** tab
+![](assets/logs.png)
+
+## Deliveries
 
 The **Deliveries** tab offers a history of every occurrence of this delivery. The list of sent messages and their statuses is stored here. It allows you to view the delivery status for each recipient.
 
-**Exclusions** tab
+![](assets/logs2.png)
+
+## Exclusions
 
 The **Exclusion logs** tab lists all the messages that have been excluded from the target sent and specifies the reason for the send failure.
 
-**Exclusion causes** tab
+![](assets/logs3.png)
+
+## Exclusion causes
 
 The **Exclusion causes** tab displays the volume (in number of messages) of messages that were excluded from the target send.
 
-**Tracked URLs** tab
+![](assets/logs4.png)
+
+## Tracked URLs
 
 The **Tracked URLs** tab regroups the URLs contained in the sent message, including their URL type and their source URL.
 
-**Tracking** tab
+![](assets/logs5.png)
+
+## Tracking
 
 The **Tracking** tab lists the tracking history for this delivery. This tab displays tracking data for the messages sent, i.e. all URLs subject to tracking by Adobe Campaign.
 
@@ -57,4 +65,4 @@ The **Tracking** tab lists the tracking history for this delivery. This tab disp
 >
 >If tracking is not enabled for a delivery, this tab is not displayed.
 
-Tracking data is interpreted in the delivery reports. See this section.
+![](assets/logs6.png)

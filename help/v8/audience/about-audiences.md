@@ -8,7 +8,7 @@ exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
->title="Get started with marketing campaign"
+>title="Get started with audiences"
 >abstract="Learn how to manage audience for your email content."
 
 >[!NOTE]
