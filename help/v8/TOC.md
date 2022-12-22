@@ -36,7 +36,6 @@ hide: yes
     + [Add inline styling attributes](content/inline-styling.md)
   + Personalize your content {#personalize}
     + [Get started with personalization](personalization/personalize.md)
-    + [Personalization contexts](personalization/personalization-contexts.md)
   + [Send offers](content/offers.md)
 + Select the email audience {#audience}
   + [About audiences](audience/about-audiences.md)
