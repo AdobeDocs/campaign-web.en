@@ -2,6 +2,7 @@
 audience: end-user
 title: Get started with email style
 description: Discover the different ways you can adjust your email content style
+exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
 ---
 # Get started with email style {#get-started-email-style}
 
