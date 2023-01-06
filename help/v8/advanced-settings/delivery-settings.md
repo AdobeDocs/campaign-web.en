@@ -141,7 +141,7 @@ You can also choose to specify dates. To do this, select **Explicitly set validi
 
 **Tracking validity limit**: This option defines the duration for which the tracking will be activated on the URLs.
 
-**Substitution URL for expired URLs**: TBC
+**Substitution URL for expired URLs**: TBC  
 
 
 ## Test Settings {#test-setttings}
