@@ -131,7 +131,6 @@ You can also choose to specify dates. To do this, select **Explicitly set validi
 
 **Mirror page management** contains four options :
 
-* 
 
 ### Tracking {#tracking}
 
