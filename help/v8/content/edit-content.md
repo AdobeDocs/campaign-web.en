@@ -9,7 +9,7 @@ exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
 >title="Create the email content"
->abstract="TBC"
+>abstract="With this section, you can create the content for your email and use the Email Designer to give it a polished look."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"

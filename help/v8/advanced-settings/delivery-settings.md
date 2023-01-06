@@ -25,9 +25,14 @@ Documentation on this part is targeted for december 2022
 -->
 
 All the technical delivery parameters from the template.
-Only change parameters, no creation here. 
-According to permissions
-Practionners should not modify this, caution. Only check and change typology rule -> rest defined in template
+
+>[!NOTE]
+>
+> Only change parameters, no creation here. According to permissions.
+
+>[!NOTE]
+>
+> Practionners should not modify this, caution. Only check and change typology rule.
 
 ## Typology {#typology}
 
@@ -51,11 +56,11 @@ In this section, pressure parameters let you define a threshold. This is the max
 
 Threshold values can be either constant or variable. This means that for a given period, thresholds can vary from one profile to another, or even for the same profile.
 
-In the **Weight type** field, three options are available:
+In the **Weight type** field, three options are available: (missing formula depending option..)
 
-The **Delivery weight** field lets you
+The **Delivery weight** field : Each delivery has a weight which represents its level of priority. By default, the weight of a delivery is set to 5. Pressure rules let you define the weight of the deliveries which they will be applied to.Weights can be either set or calculated via a formula to suit recipients. For example, you can define the weight of a delivery based on recipient interests.
 
-The **Delivery mode** field..
+The **Delivery mode** field.. ??
 
 ### Capacity settings {#capacity-settings}
 
@@ -70,13 +75,15 @@ The **importance of the recipient** field is a formula used to determine which r
 
 ## Audience {#audience}
 
-In this section, you can choose a target mapping defined in the Adobe Campaign v8 console. Target mapping creation is necessary in the case you use a recipient table other than the one provided by Adobe Campaign.
+In this section, you can choose a **target mapping** defined in the Adobe Campaign v8 console. Target mapping creation is necessary in the case you use a recipient table other than the one provided by Adobe Campaign.
 
 ## Delivery {#delivery}
 
-Test SMTP delivery: use this option to test sending via SMTP. The delivery is processed up to connection to the SMTP server but is not sent: for every recipient of the delivery, Campaign connects to the SMTP provider server, executes the SMTP RCPT TO command, and closes the connection before the SMTP DATA command.
+**Routing** selection: select the external account....
 
-Email BCC: use this option to store emails on an external system through BCC by simply adding a BCC email address to your message target.
+**Test SMTP delivery**: use this option to test sending via SMTP. The delivery is processed up to connection to the SMTP server but is not sent: for every recipient of the delivery, Campaign connects to the SMTP provider server, executes the SMTP RCPT TO command, and closes the connection before the SMTP DATA command.
+
+**Email BCC**: use this option to store emails on an external system through BCC by simply adding a BCC email address to your message target.
 
 ### Retries {#retries}
 
@@ -89,16 +96,17 @@ Temporarily undelivered messages due to a Soft or Ignored error are subject to a
 
 ## Approval {#approval}
 
-**Manual**
-
-**Semi-Automatic**
-
-**Automatic**
-
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
 >title="Approval mode"
 >abstract="Each step of a delivery can be subject to approval in order to ensure full monitoring and control of the various processes."
+
+**Manual**: At the end of the analysis phase, the user must confirm delivery to start sending. 
+
+**Semi-Automatic**: Sending begins automatically if the analysis phase generates no warning messages.
+
+**Automatic**: Sending begins automatically at the end of the analysis phase irrespective of its result.
+
 
 ## Validity {#validity}
 
@@ -113,15 +121,16 @@ Temporarily undelivered messages due to a Soft or Ignored error are subject to a
 >abstract="The Validity limit field is used for uploaded resources, mainly for the mirror page and images. The resources on this page are valid for a limited time."
 
 
-The Delivery duration field lets you enter the limit for global delivery retries. This means that Adobe Campaign sends the messages beginning on the start date, and then, for messages returning an error only, regular, configurable retries are performed until the validity limit is reached.
+The **Delivery duration** field lets you enter the limit for global delivery retries. This means that Adobe Campaign sends the messages beginning on the start date, and then, for messages returning an error only, regular, configurable retries are performed until the validity limit is reached.
 
-You can also choose to specify dates. To do this, select Explicitly set validity dates. In this case, the delivery and validity limit dates also let you specify the time. The current time is used by default, but you can modify this directly in the input field.
+You can also choose to specify dates. To do this, select **Explicitly set validity dates**. In this case, the delivery and validity limit dates also let you specify the time. The current time is used by default, but you can modify this directly in the input field.
 
-Validity limit of resources: The Validity limit field is used for uploaded resources, mainly for the mirror page and images. The resources on this page are valid for a limited time (to save disk space).
+**Resources Validity limit** is used for uploaded resources, mainly for the mirror page and images. The resources on this page are valid for a limited time (to save disk space).
 
 ### Mirror page management {#mirror}
 
-**Mirror page management**
+**Mirror page management** contains four options :
+
 
 ### Tracking {#tracking}
 
@@ -132,17 +141,17 @@ Validity limit of resources: The Validity limit field is used for uploaded resou
 
 **Tracking validity limit**: This option defines the duration for which the tracking will be activated on the URLs.
 
-**Substitution URL for expired URLs**: TBC
+**Substitution URL for expired URLs**: TBC  
 
 
-## Test Settings{#test-setttings}
+## Test Settings {#test-setttings}
 
-**Keep double**
+**Keep double** lets you authorize multiple deliveries to recipients who satisfy several targeting criteria.
 
 **Keep denylisted addresses**
 
-**Keep quarantined addresses**
+**Keep quarantined addresses** lets you keep from the target any profiles with an address that does not respond. 
 
-**Keep the delivery code for the proof**
+**Keep the delivery code for the proof** lets you give the proof the same delivery code as the one defined for the delivery to which it relates.
 
-**Label prefix**
+By default, the subject of the proof is prefixed by ‘Proof #’, where # is the number of the proof. You can change this prefix in the **Label prefix** field.
