@@ -10,12 +10,11 @@ exl-id: b2677579-c95d-443d-b207-466af364c208
 >
 >This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
 
-Sending proofs allows you to validate your email and check various elements like links, opt-out links and mirror pages, images and detect possible errors.
+Sending test emails allows you to validate your email and check various elements like links, opt-out links and mirror pages, images and detect possible errors.
 
 Proofs can be sent to two types of recipients:
 
-* **Test profiles / audiences**: send proofs to seed addresses, which are additional recipients in the database that are not part of the email target,
-
+* **Test profiles**: send proofs to seed addresses, which are additional and fictitious recipients in the database,
 * **Substitution profiles**: send proofs to a specific email address using an existing profile. This allows you to place yourself in the position of the profiles and get an exact representation of the message that the profile will receive.
 
 ## Select the proofs recipients {#recipients}
@@ -32,7 +31,7 @@ Proofs can be sent to two types of recipients:
 
 1. Add the test profiles that will receive the test emails.
 
-    You can also build an audience to select test profiles based on your own criteria using the **[!UICONTROL Add test audience]** button.
+    <!--FOR BETA: You can also build an audience to select test profiles based on your own criteria using the **[!UICONTROL Add test audience]** button.-->
 
     ![](assets/test-profiles-audience.png)
 
@@ -62,8 +61,14 @@ To send the proofs to the selected recipients, click **[!UICONTROL Send test ema
 
 ![](assets/send-proof.png)
 
-Once the proofs have been sent, you can access dedicated logs from the **[!UICONTROL View test email log]** button. These logs allow you to access the sent proofs, and specific statistics related to the proof sending.
+Send as many proofs as necessary until you have finalized the content of your delivery. Once this is done, you can send the email to the main target. [Learn how to prepare and send your email](../monitor/prepare-send.md)
+
+## Access sent proofs {#access-proofs}
+
+Once the proofs have been sent, you can access dedicated logs from the **[!UICONTROL View test email log]** button. These logs allow you to access all the proofs sent for the selected delivery, and to visualize specific statistics related to their sending.
 
 ![](assets/proof-log.png)
 
-Send as many proofs as necessary until you have finalized the content of your delivery. Once this is done, you can send the email to the main target. [Learn how to prepare and send your email](../monitor/prepare-send.md)
+You can also access proofs from the deliveries list, like any delivery.
+
+![](assets/delivery-list.png)

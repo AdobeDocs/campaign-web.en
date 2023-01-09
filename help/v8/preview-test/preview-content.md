@@ -14,7 +14,7 @@ Adobe Campaign allows you to use profiles to preview the content of your email b
 
 Messages can be previewed using:
 
-* **Test profiles**: preview the email using seed addresses, which are additional recipients in the database that are not part of the email target,
+* **Test profiles**: preview the email using seed addresses, which are additional and fictitious recipients in the database,
 * **Profiles**: preview the email using an existing profile.
 
 To preview the content of your email, follow these steps:
@@ -30,5 +30,7 @@ To preview the content of your email, follow these steps:
 1. Once profiles have been selected, a preview of the email displays in the right pane. Personalized elements are replaced by the data from the profile selected in the left pane.
 
     If you have added multiple profiles, you can switch between each of them in the list to preview the corresponding email.
+
+    You can also preview the rendering of your content on different devices (desktop, mobile, tablet...).
 
     ![](assets/preview.png)

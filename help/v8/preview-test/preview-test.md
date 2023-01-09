@@ -14,10 +14,14 @@ Once the email content has been defined, you can check how it will display befor
 
 To do this, Adobe Campaign allows you to:
 
-* [Preview the email content and personalization](#preview) using profile data,
+* [Preview the email content and personalization](#preview),
 <!--* [Check the email rendering](#rendering) in popular desktop, mobile and web-based clients,-->
 * [Send proofs](#send-proofs) to specific recipients in order to test and validate the email.
 
 These actions are performed from the **[!UICONTROL Simulate content]** button which is accessible when creating the content of your email of from the Email Designer:
 
 ![](assets/simulate.png)
+
+>[!NOTE]
+>
+>Content simulation is also available from the delivery summary page after clicking the **[!UICONTROL Review and send]** button.
