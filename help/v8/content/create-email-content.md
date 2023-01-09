@@ -51,7 +51,7 @@ exl-id: 23e71da3-434d-4619-a48a-334281592d85
 >title="Defining template columns"
 >abstract="The Email Designer allows you to easily define the layout of your template by defining column structure."
 
-The Email Designer allows you to easily define the structure of your email. By adding and moving structural elements with simple drag-and-drop actions, you can design the shape of your email within seconds.
+The Email Designer allows you to easily define the structure of your email. By adding and moving structural elements with simple drag-and-drop actions, you can design the body of your email within seconds.
 
 To start building your email content, follow the steps below:
 
@@ -85,7 +85,7 @@ To start building your email content, follow the steps below:
 
 1. Insert personalization fields to customize your email content from profiles data. [Learn more about content personalization](../personalization/personalize.md)
 
-1. Click the **[!UICONTROL Links]** tab from the left pane to display all the URLs of your content that will be tracked. You can modify their **[!UICONTROL Tracking Type]** or **[!UICONTROL Label]** and add **[!UICONTROL Tags]** if needed. [Learn more about links and message tracking](message-tracking.md)
+1. Click the **[!UICONTROL Links]** tab from the left pane to display all the URLs of your content that will be tracked. You can modify their **[!UICONTROL Tracking Type]** or **[!UICONTROL Label]** and add **[!UICONTROL Categories]** if needed. [Learn more about links and message tracking](message-tracking.md)
 
     ![](assets/email_designer_7.png)
 
