@@ -30,7 +30,11 @@ exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 >
 >This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
 
-To start creating the content of an email, click the **[!UICONTROL Edit content]** button. This screen allows you to define the content of your email and access the Email Designer to design it.
+To start creating the content of an email, click the **[!UICONTROL Edit content]** button from the email creation screen.
+
+![](assets/edit-content.png)
+
+This screen allows you to define the content of your email and access the Email Designer to design it.
 
 ![](assets/content-dashboard.png)
 
@@ -38,7 +42,7 @@ The steps to define the content of your email are as follows:
 
 1. Check the **[!UICONTROL From name]** and **[!UICONTROL From email]** information. These fields are read-only, they are configured in the email template selected when creating the email.
 
-1. Define the email **[!UICONTROL Subject line]**. To do this, open the Expression Editor to define its content and add personalization using various attributes and content blocks or offers. [Learn how to personalize content](../personalization/personalize.md)
+1. Define the email **[!UICONTROL Subject line]**. To do this, type your subject directly into the dedicated field, or open the Expression Editor to define to add personalization using various attributes and content blocks or offers. [Learn how to personalize content](../personalization/personalize.md)
 
 1. If you want to send offers with your email, select them using the **[!UICONTROL Offers]** button. You will then be able to insert them into the email using personalization fields. [Learn how to send offers](offers.md)
 
