@@ -110,9 +110,11 @@ In this use case we are going to send the email to an existing audience. Additio
 
     >[!NOTE]
     >
-    >Audiences available in the list originate either from your Campaign V8 instance or from Adobe Experience Platform if the Destination / Sources integration has been implemented on your instance.
+    >Audiences available in the list originate either from your Campaign V8 instance or from Adobe Experience Platform if the Destination / Sources integration has been configured on your instance.
+    >
+    >The Destination / Sources integration allows you to send Experience Platform segments to Adobe Campaign, and to send Campaign delivery and tracking logs over to Adobe Experience Platform. [Learn how work with Campaign and Adobe Experience Platform](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html)
 
-1. Once your audience has been selected, you can edit its rule if necessary.
+1. Once your audience has been selected, you can refine the target using additional rules.
 
     You can also set a control group to analyse the behavior of the email recipients compared to the behavior of profiles which were not targeted. [Learn how to work with control groups](../audience/control-group.md)
 
@@ -125,7 +127,7 @@ In this use case we are going to send the email to an existing audience. Additio
 
 To schedule the sending of the email, click **[!UICONTROL Enable]** then specify the desired date and time for the sending. 
 
-By default, the **[!UICONTROL Confirm before sending]** option is enabled, meaning that you will need to confirm the sending at the specified date and time to send the email. Disable this option to allow the email to be sent at the scheduled date and time with no confirmation needed.
+By default, the **[!UICONTROL Confirm before sending]** option is enabled, meaning that you will need to confirm the sending to allow the email to be sent at the specified date and time. Disable this option to allow the email to be sent at the scheduled date and time with no confirmation needed.
 
 ![](assets/schedule.png)
 
@@ -133,7 +135,7 @@ By default, the **[!UICONTROL Confirm before sending]** option is enabled, meani
 
 Once your email is ready, you can preview and test it before launching its sending.
 
-In this use case, we are going to preview the email using existing profiles and send a proof to a test profile that is not part of the target.
+In this use case, we are going to preview the email and send a proof using existing profiles.
 
 Additional information on how to preview and test emails are available in [this section](../preview-test/preview-test.md).
 
@@ -155,7 +157,7 @@ Additional information on how to preview and test emails are available in [this 
 
 1. To send proofs of your email, click the **[!UICONTROL Test]** button then select the profiles that will receive the proof.
 
-    In this example, we want to send the proofs to a specific test profile, which is a seed address that is not part of the target. [Learn how to work with seed addresses](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}
+    <!--TO REPLACE WITH SUBSTITUTION PROFILE-->In this example, we want to send the proofs to a specific test profile, which is a seed address that is not part of the target. [Learn how to work with seed addresses](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}
 
     ![](assets/proof-test-profile.png)
 
