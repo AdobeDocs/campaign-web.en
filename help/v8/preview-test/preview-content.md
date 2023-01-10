@@ -6,6 +6,11 @@ exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 ---
 # Preview email content {#preview}
 
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card4"
+>title="Smart preview of your content"
+>abstract="Adobe Campaign lets you use profiles to preview the content of your email before sending in order to check personalization and how your recipients will see them."
+
 >[!NOTE]
 >
 >This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.

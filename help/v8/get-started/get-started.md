@@ -20,11 +20,6 @@ only existing customers
 >title="Get started"
 >abstract="Discover key capabilities, user interface and global guidelines."
 
->[!CONTEXTUALHELP]
->id="acw_homepage_card4"
->title="Create and manage tasks"
->abstract="Adobe Campaign lets you create tasks and manage their complete life cycle directly within the application."
-
 >[!NOTE]
 >
 >Campaign v8 web is currently in Alpha version. Access is restricted to a small set of Alpha customers. Please be aware that product interface, capabilities and usage flows can change without notice.
