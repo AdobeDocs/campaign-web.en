@@ -42,6 +42,4 @@ In both cases, you access the personalization editor.
 
 You can also access the personalization editor when adding text-type content to your offers' representations.
 
-## Create personalized URLs{#personalize-urls}
 
-Personalized URLs take recipients to specific pages of a website, or to a personalized microsite, depending on the profile attributes. In Adobe Journey Optimizer, you can add personalization to URLs in your message content. URL personalization can be applied to text and images, and use profile data or contextual data.

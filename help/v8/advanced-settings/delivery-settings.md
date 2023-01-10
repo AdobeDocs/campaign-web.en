@@ -10,29 +10,13 @@ exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 >
 >This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
 
-These settings are technical delivery parameters that are defined in the email template. If you want to modify any of them for a specific delivery, proceed with caution.
+These settings are **technical delivery parameters** that are defined in the email template. If you want to modify any of them for a specific delivery, proceed with caution.
 
 ## Email delivery settings {#email-delivery-settings}
 
-<!--
-October 2022 
-
-Note that this page is for now a placeholder to host Contextualhelp blocks
-
-Do not delete these blocks 
-
-Documentation on this part is targeted for december 2022
--->
-
-All the technical delivery parameters from the template.
-
 >[!NOTE]
 >
-> Only change parameters, no creation here. According to permissions.
-
->[!NOTE]
->
-> Practionners should not modify this, caution. Only check and change typology rule.
+> Modify settings only, no new creation allowed. Subject to access rights.
 
 ## Typology {#typology}
 
@@ -41,7 +25,7 @@ All the technical delivery parameters from the template.
 >title="Typology"
 >abstract="Typology lets you control, filter and monitor the sending of deliveries."
 
-Typologies are sets of typology rules, that are executed during the message analysis phase. They allow you to make sure your emails always contain certain elements (such as an unsubscription link or a subject line) or filtering rules to exclude groups from your intended target (like unsubscribers, competitors, or non-loyalty customers).
+Typologies are sets of **typology rules**, that are executed during the message analysis phase. They allow you to make sure your emails always contain certain elements (such as an unsubscription link or a subject line) or filtering rules to exclude groups from your intended target (like unsubscribers, competitors, or non-loyalty customers).
 
 When associating a typology with a message or message template, the typology rules included in the typology will be executed to check the message validity.
 
@@ -52,15 +36,23 @@ When associating a typology with a message or message template, the typology rul
 >title="Delivery weight"
 >abstract="Delivery weights let you identify top-priority deliveries within the framework of pressure management. Messages with the highest weight have priority."
 
-In this section, pressure parameters let you define a threshold. This is the maximum number of messages that can be sent to one profile over a given period. Once this threshold has been reached, no more deliveries can take place until the end of the period considered. This process lets you automatically exclude a profile from a delivery if a message exceeds the set threshold, thus avoiding over-solicitation.
+In this section, pressure parameters let you define a **threshold**. This is the maximum number of messages that can be sent to one profile over a given period. Once this threshold has been reached, no more deliveries can take place until the end of the period considered. This process lets you automatically exclude a profile from a delivery if a message exceeds the set threshold, thus avoiding over-solicitation.
 
 Threshold values can be either constant or variable. This means that for a given period, thresholds can vary from one profile to another, or even for the same profile.
 
 In the **Weight type** field, three options are available: (missing formula depending option..)
 
+* **Constant**
+* **Depends on the recipient**
+* **Defined in each rule**
+
 The **Delivery weight** field : Each delivery has a weight which represents its level of priority. By default, the weight of a delivery is set to 5. Pressure rules let you define the weight of the deliveries which they will be applied to.Weights can be either set or calculated via a formula to suit recipients. For example, you can define the weight of a delivery based on recipient interests.
 
 The **Delivery mode** field.. ??
+
+* **Target estimation and message personalization**
+* **Estimation and approval of the provisional target**
+* **Target evaluation**
 
 ### Capacity settings {#capacity-settings}
 
@@ -79,7 +71,7 @@ In this section, you can choose a **target mapping** defined in the Adobe Campai
 
 ## Delivery {#delivery}
 
-**Routing** selection: select the external account....
+**Routing** selection: The Integrated email routing external account is provided by default. It contains the technical parameters that allow the application to send emails.
 
 **Test SMTP delivery**: use this option to test sending via SMTP. The delivery is processed up to connection to the SMTP server but is not sent: for every recipient of the delivery, Campaign connects to the SMTP provider server, executes the SMTP RCPT TO command, and closes the connection before the SMTP DATA command.
 
@@ -131,6 +123,11 @@ You can also choose to specify dates. To do this, select **Explicitly set validi
 
 **Mirror page management** contains four options :
 
+* **Generate the mirror page if a mirror link appears in the email content**: the mirror page is generated if the link is inserted in the mail content.
+* **Force the generation of the mirror page**: even if no link to the mirror page is inserted into the messages, the mirror page will be created.
+* **Do not generate the mirror page**: no mirror page is generated, even if the link is in the messages.
+* **Generates a mirror page accessible using only the message identifier**: this option lets you access the content of the mirror page, with personalization information, in the delivery log window.
+
 
 ### Tracking {#tracking}
 
@@ -141,14 +138,14 @@ You can also choose to specify dates. To do this, select **Explicitly set validi
 
 **Tracking validity limit**: This option defines the duration for which the tracking will be activated on the URLs.
 
-**Substitution URL for expired URLs**: TBC  
+**Substitution URL for expired URLs**: use this option to enter a URL to a fall-back web page: it is displayed once the tracking has expired.
 
 
 ## Test Settings {#test-setttings}
 
 **Keep double** lets you authorize multiple deliveries to recipients who satisfy several targeting criteria.
 
-**Keep denylisted addresses**
+**Keep denylisted addresses** lets you keep from the target any profiles no longer being targeted by the delivery, such as after an unsubscription (opt-out).
 
 **Keep quarantined addresses** lets you keep from the target any profiles with an address that does not respond. 
 
