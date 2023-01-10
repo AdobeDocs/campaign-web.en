@@ -96,3 +96,8 @@ The [Email Designer](create-email-content.md) allows you to manage the tracked U
     * **[!UICONTROL Mirror page]**: Considers this URL is a mirror page URL.
     * **[!UICONTROL Never]**: Never activates tracking of this URL. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
+1. Add a **[!UICONTROL Category]** to your link to group tracked links and click **[!UICONTROL Save]**.
+
+    ![](assets/message-tracking-edit-a-link_2.png)
+
+1. After sending your delivery, access your delivery report. Under the **[!UICONTROL Tracking]** menu, the **[!UICONTROL URLs and click streams]** report displays which URLs from your delivery are the most visited. [Learn more](../reporting/reports.md)
