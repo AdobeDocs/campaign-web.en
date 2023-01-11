@@ -36,7 +36,7 @@ show use case with a new audience creation (or import from file?)
 control groups like acc: exract, random, based on attribute
 -->
 
-Once your content is designed, you need to define the email's audience. This is the target of your delivery, the profiles who will receive the email.
+Once your content is designed, you need to define the email's audience. This is the target of your delivery, the recipients who will receive the email. The type of audience depends on the target mapping.
 
 To define the audience, you can:
 

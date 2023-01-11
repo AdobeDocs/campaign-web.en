@@ -15,7 +15,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 >title="Interface"
 >abstract="The new Campaign v8 web interface offers an integrated, intuitive and consistent user experience."
 
-The new Campaign v8 web interface offers an integrated, intuitive, and consistent user experience.
+The new Campaign v8 web interface offers a modern, integrated and intuitive user experience to simplify workflows, marketing campaigns design and delivery, and consistent with Adobe Experience Platform native applications experience. 
 
 <!--
 Key concepts when browsing the user interface are common with Adobe Experience Platform. Refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide) for more details.

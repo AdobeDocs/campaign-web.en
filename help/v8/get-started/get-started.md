@@ -26,11 +26,11 @@ only existing customers
 
 Adobe Campaign provides a platform for designing cross-channel customer experiences and an environment for visual campaign orchestration, real-time interaction management and cross channel execution.
 
-In addition to all the existing features available with the console, we've built a web interface to provide practitioners with an integrated, intuitive and consistent user experience. 
+In addition to all the existing features available with the console, we've built a new modern web-based user interface to simplify marketing campaign design and delivery, and consistent with Adobe Experience Platform native applications experience.
 
 ## Alpha features
 
-This modern web-based interface is currently only available to Alpha practitioners with the following capabilities:
+This web interface is currently only available to Alpha practitioners with the following capabilities:
 
 **Modern, intuitive and unified experience**
 
@@ -44,7 +44,7 @@ No search and pulse notifications in Alpha
 **Create, launch and measure your email campaign**
 
 * Design personalized email content with the email editor
-* Define audiences with the segment builder
+* Define target audiences with the segment builder
 * Preview, test and send your email messages
 * Monitor send and measure results with built-in reports 
 
