@@ -6,9 +6,7 @@ exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
 ---
 # Get started with email style {#get-started-email-style}
 
->[!NOTE]
->
->This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
+![](../assets/do-not-localize/badge.png)
 
 Once you started creating your email content in [!DNL Journey Optimizer], you can adjust a number of styling parameters and attributes from the Email Designer settings pane.
 

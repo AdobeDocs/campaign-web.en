@@ -6,9 +6,7 @@ exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 ---
 # Send your first email {#first-email}
 
->[!NOTE]
->
->This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
+![](../assets/do-not-localize/badge.png)
 
 This use case presents how to create your first email. We are going to schedule the sending of an email on a specific date to silver and gold loyalty customers. This email will be designed using a predefined template and will include personalization using profile's attributes.
 

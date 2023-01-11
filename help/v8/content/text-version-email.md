@@ -6,9 +6,7 @@ exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
 ---
 # Create the text version of an email {#text-version-email}
 
->[!NOTE]
->
->This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
+![](../assets/do-not-localize/badge.png)
 
 It is recommended to create a text version of your email body, which is used when HTML content cannot be displayed. 
 

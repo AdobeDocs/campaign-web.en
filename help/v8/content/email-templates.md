@@ -6,9 +6,7 @@ exl-id: 114c482f-8291-418a-bd81-667f40267a7d
 ---
 # Work with email content templates {#email-content-templates}
 
->[!NOTE]
->
->This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
+![](../assets/do-not-localize/badge.png)
 
 Use the **[!UICONTROL Select design template]** section to start building your content from a template.
 

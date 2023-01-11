@@ -6,9 +6,7 @@ exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 ---
 # About preview and proofs {#about-preview-proofs}
 
->[!NOTE]
->
->This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
+![](../assets/do-not-localize/badge.png)
 
 Once the email content has been defined, you can check how it will display before sending it. This allows you to test the email in order to detect possible errors in content or personalization settings.
 

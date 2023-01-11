@@ -6,9 +6,7 @@ exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
 ---
 # Add inline styling attributes {#adding-inline-styling-attributes}
 
->[!NOTE]
->
->This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
+![](../assets/do-not-localize/badge.png)
 
 In the Email Designer interface, when you select an element and display its settings on the right pane, you can customize the inline attributes and their value for that specific element.
 

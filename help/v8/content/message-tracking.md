@@ -6,9 +6,7 @@ exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
 ---
 # Add links and track messages {#tracking}
 
->[!NOTE]
->
->This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
+![](../assets/do-not-localize/badge.png)
 
 Use the Email designer to add links to your content and track the messages sent in order to monitor the behavior of your recipients.
 

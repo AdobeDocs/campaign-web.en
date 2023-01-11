@@ -6,9 +6,7 @@ exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
 ---
 # Adjust vertical alignment and padding {#alignment-and-padding}
 
->[!NOTE]
->
->This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
+![](../assets/do-not-localize/badge.png)
 
 In this example, we will adjust padding and vertical alignment inside a structure component composed of three columns.
 

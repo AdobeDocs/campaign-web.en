@@ -6,6 +6,8 @@ exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 ---
 # Edit the email content {#configure-content}
 
+![](../assets/do-not-localize/badge.png)
+
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
 >title="Create the email content"
@@ -25,10 +27,6 @@ exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 >id="acw_deliveries_email_options"
 >title="Tracking options"
 >abstract="TBC"
-
->[!NOTE]
->
->This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
 
 To start creating the content of an email, click the **[!UICONTROL Edit content]** button from the email creation screen.
 

@@ -6,9 +6,7 @@ exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 ---
 # Define an audience with the rule builder {#segment-builder}
 
->[!NOTE]
->
->This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
+![](../assets/do-not-localize/badge.png)
 
 This section describes how to create an audience when designing a new email. The created audience can only be used in this email. 
 

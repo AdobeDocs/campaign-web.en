@@ -6,9 +6,7 @@ exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 ---
 # Get started {#get-started}
 
->[!NOTE]
->
->This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
+![](../assets/do-not-localize/badge.png)
 
 <!--
 V8 web overview

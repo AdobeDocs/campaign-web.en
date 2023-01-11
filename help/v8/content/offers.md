@@ -6,6 +6,8 @@ exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 ---
 # Send offers {#offers-content}
 
+![](../assets/do-not-localize/badge.png)
+
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_settings"
 >title="Offers settings"
@@ -15,10 +17,6 @@ exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 >id="acw_deliveries_email_offers_advanced_settings"
 >title="Offers Advanced Settings"
 >abstract="TBC"
-
->[!NOTE]
->
->This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
 
 Adobe Campaign v8 Web allows you to send with your emails offers that have been created in the console using the **[!UICONTROL Interaction]** module. For more information on Interaction and how to manage an offer catalog in the console, refer to the [Campaign V8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html)
 

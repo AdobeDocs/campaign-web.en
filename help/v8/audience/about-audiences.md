@@ -6,14 +6,12 @@ exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
 ---
 # About audiences {#about-audiences}
 
+![](../assets/do-not-localize/badge.png)
+
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
 >title="Get started with audiences"
 >abstract="Learn how to manage audience for your email content."
-
->[!NOTE]
->
->This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
 
 <!--
 Audience only created for the delivery, not available later-->

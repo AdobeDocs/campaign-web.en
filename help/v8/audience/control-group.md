@@ -6,10 +6,6 @@ exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 ---
 # Set a control group {#control-group}
 
->[!NOTE]
->
->This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
-
 You can use control groups to avoid sending messages to a portion of your audience in order to measure the impact of your campaigns.
 
 To do this, create a control group when defining the audience of your delivery. Profiles are added to the control group randomly, filtered or not, or based on criteria. You will then be able to compare the behavior of the target population which did receive the message with the behavior of contacts which were not targeted. 

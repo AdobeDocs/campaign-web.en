@@ -6,9 +6,7 @@ exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
 ---
 # Code your own content {#code-content}
 
->[!NOTE]
->
->This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
+![](../assets/do-not-localize/badge.png)
 
 Use the **[!UICONTROL Code your own]** mode to import raw HTML and/or code your email content. This method requires HTML skills.
 

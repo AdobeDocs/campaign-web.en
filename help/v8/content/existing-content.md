@@ -6,9 +6,7 @@ exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
 ---
 # Import your email content {#existing-content}
 
->[!NOTE]
->
->This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
+![](../assets/do-not-localize/badge.png)
 
 The Email designer allows you to import existing HTML content. This content can be:
 

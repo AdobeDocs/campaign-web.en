@@ -6,8 +6,6 @@ exl-id: d65fcd92-ce3c-49ff-9dce-16a41d0558bf
 ---
 # Documentation updates {#latest-updates}
 
->[!NOTE]
->
->This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
+![](../assets/do-not-localize/badge.png)
 
 This page lists all the documentation updates for Campaign v8 Web.

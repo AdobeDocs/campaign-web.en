@@ -6,9 +6,7 @@ exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
 ---
 # Define a style for links {#styling-links}
 
->[!NOTE]
->
->This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
+![](../assets/do-not-localize/badge.png)
 
 You can underline a link and select its color and target in the Email Designer.
 

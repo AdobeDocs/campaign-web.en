@@ -6,9 +6,7 @@ exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
 ---
 # Test the email rendering {#rendering}
 
->[!NOTE]
->
->This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
+![](../assets/do-not-localize/badge.png)
 
 Before sending your email, make sure that your message will be displayed to the recipients in an optimal way on a variety of web clients, web mails and devices.
 

@@ -6,10 +6,6 @@ exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 ---
 # Adobe Campaign v8 Web Documentation {#campaign-documentation}
 
->[!NOTE]
->
->This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
-
 ![](assets/do-not-localize/banner-documentationv8.png) 
 
 ![](assets/do-not-localize/badge.png) 

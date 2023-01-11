@@ -6,9 +6,7 @@ exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 ---
 # Reporting {#reports}
 
->[!NOTE]
->
->This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
+![](../assets/do-not-localize/badge.png)
 
 <!--
 detail delivery reports and how to access them

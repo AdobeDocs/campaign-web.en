@@ -6,9 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 ---
 # Discover the interface {#user-interface}
 
->[!NOTE]
->
->This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
+![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"

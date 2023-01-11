@@ -6,9 +6,7 @@ exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
 ---
 # Personalize your email background {#backgrounds}
 
->[!NOTE]
->
->This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
+![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"

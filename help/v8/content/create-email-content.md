@@ -6,9 +6,7 @@ exl-id: 23e71da3-434d-4619-a48a-334281592d85
 ---
 # Start from scratch {#create-email-content}
 
->[!NOTE]
->
->This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
+![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"

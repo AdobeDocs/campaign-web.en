@@ -6,9 +6,7 @@ exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 ---
 # Use the Email designer content components {#content-components}
 
->[!NOTE]
->
->This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
+![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_email"

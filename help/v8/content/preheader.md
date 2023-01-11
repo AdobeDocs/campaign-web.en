@@ -6,9 +6,7 @@ exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
 ---
 # Add a preheader {#preheader}
 
->[!NOTE]
->
->This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
+![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
