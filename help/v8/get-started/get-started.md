@@ -26,7 +26,7 @@ only existing customers
 
 Adobe Campaign provides a platform for designing cross-channel customer experiences and an environment for visual campaign orchestration, real-time interaction management and cross channel execution.
 
-In addition to all the existing features available with the console, we've built a new modern web-based user interface to simplify marketing campaign design and delivery, and consistent with Adobe Experience Platform native applications experience.
+In addition to all the existing features available with the console, we've built a new modern web-based user interface to simplify marketing campaign design and delivery, and consistent with Adobe Experience Platform.
 
 ## Alpha features
 
@@ -43,8 +43,8 @@ No search and pulse notifications in Alpha
 
 **Create, launch and measure your email campaign**
 
-* Design personalized email content with the email editor
-* Define target audiences with the segment builder
+* Design personalized email content with the email designer
+* Define target audiences with the rule builder
 * Preview, test and send your email messages
 * Monitor send and measure results with built-in reports 
 
@@ -53,6 +53,10 @@ add info somewhere to remind users that
 * they still have access to their console (+ link to v8 console doc)
 * they keep their existing data (example: will be able to use their existing delivery templates to create deliveries)
 -->
+
+>[!NOTE]
+>
+>Please note that cross-channel campaigns and workflow management capabilities will be available in the beta program. 
 
 ## The client console
 
@@ -65,7 +69,7 @@ The data is shared between the console and the web UI. For example, if you creat
 ![](assets/connect.png)
 
 1. Connect to [Adobe Experience Cloud](http://experience.adobe.com).
-1. Log in with your Adobe IMS credentials.
+1. Log in with your Adobe credentials.
 1. In the **Quick access** section, click **Campaign**.
 
 <!--

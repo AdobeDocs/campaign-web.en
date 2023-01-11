@@ -15,7 +15,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 >title="Interface"
 >abstract="The new Campaign v8 web interface offers an integrated, intuitive and consistent user experience."
 
-The new Campaign v8 web interface offers a modern, integrated and intuitive user experience to simplify workflows, marketing campaigns design and delivery, and consistent with Adobe Experience Platform native applications experience. 
+The new Campaign v8 web interface offers a modern and intuitive user experience to simplify marketing campaign design and delivery. This new interface is integrated with Adobe Experience Platform. 
 
 <!--
 Key concepts when browsing the user interface are common with Adobe Experience Platform. Refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide) for more details.
@@ -33,13 +33,13 @@ Key concepts when browsing the user interface are common with Adobe Experience P
 
 ## Left navigation menu
 
-Browse the links on the left to access Campaign v8 web capabilities. Several links display lists of objects which can be sorted and filtered. You can also configure columns to display all the information you need. See this [section](#list-screens). All list screens are read-only, except the email delivery list. Clicking on any list item for edition/viewing is not available in Alpha.
+Browse the links on the left to access Campaign v8 web capabilities. Several links display lists of objects which can be sorted and filtered. You can also configure columns to display all the information you need. See this [section](#list-screens). All list screens are read-only, except the email delivery list. Clicking on any list item for edition/viewing is not available in Alpha. All lists will be editable in Beta and GA versions. The items displayed in the left navigation menu depend on your user permissions.
 
 ![](assets/home.png)
 
 ### Home
 
-This screen includes key links and resources for a quick access to the main Campaign v8 web features. The **Recents** list provides shortcuts to the recently created deliveries. This list shows their creation and modification dates and status.
+This screen includes key links and resources for a quick access to the main Campaign v8 web features. The **Recents** list provides shortcuts to the recently created and modified deliveries. This list shows their creation and modification dates and status.
 
 <!--
 * Banner
@@ -134,8 +134,8 @@ Navtree view depends on permissions (same as console).
 
 The top bar of the interface allows you to:
 
-* share your feedback as an Alpha customer
-* switch between IMS organizations 
+* share your feedback as an Alpha tester
+* switch between organizations and instances
 * switch between your Adobe Experience Cloud applications
 * access help pages, contact support and share feedback. You can search help articles and videos from the search field.
 
