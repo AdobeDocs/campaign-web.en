@@ -37,7 +37,7 @@ This section explains how to select an existing audience, when defining the targ
 
    ![](assets/create-audience3.png)
 
-1. Using the segment builder, you can enrich your audience with additional filters or by combining different audiences. See this [section](segment-builder.md).
+1. Using the rule builder, you can enrich your audience with additional filters or by combining different audiences. See this [section](segment-builder.md).
 
    ![](assets/create-audience4.png)
 

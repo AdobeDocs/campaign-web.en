@@ -98,7 +98,7 @@ In this use case, we are going to design the email using a predefined template. 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="Define the audience"
->abstract="Select the best audience for your marketing message. You can choose an existing audience already defined in a Campaign v8 instance or from Adobe Experience Platform or you can choose to create a new audience with the segment builder."
+>abstract="Select the best audience for your marketing message. You can choose an existing audience already defined in a Campaign v8 instance or from Adobe Experience Platform or you can choose to create a new audience with the rule builder."
 
 In this use case we are going to send the email to an existing audience. Additional information on how to work with audiences are available in [this section](../audience/about-audiences.md).
 

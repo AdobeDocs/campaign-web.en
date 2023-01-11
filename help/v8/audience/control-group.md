@@ -50,6 +50,28 @@ Under the **Extract from target** section, choose an **Exclusion type**:
 
 Then define the **Size limit**: you must set how you are going to limit the number of profiles that you extract from the main target. 
 
+**Example**
+
+You can view the logs to check and identify the exluded profiles. Let's take the example of a random exclusion on five profiles.
+
+![](assets/control-group4.png)
+
+After the delivery preparation, you can view the exclusions on the following screens:
+
+* The **To exclude** KPI in the delivery dashboard, before the sending.
+
+    ![](assets/control-group5.png)
+
+* The **Exclusion logs** display each profile and the related excusion **Reason**.
+
+    ![](assets/control-group6.png)
+
+* The **Exclusion causes** display the number of excuded profile for each typology rule.
+
+    ![](assets/control-group7.png)
+
+For more information on delivery logs, refer to this [section](../monitor/delivery-logs.md).
+
 ## Extra population {#extra-population}
 
 >[!CONTEXTUALHELP]
@@ -65,6 +87,6 @@ From the **Extra population** section of the **Control Group** definition screen
 
 * To use an existing audience, click **Select audience**. Refer to this [section](add-audience.md). 
 
-* To define a new query, select **Create your own** and define the exclusion criteria using the segment builder. Refer to this [section](segment-builder.md). 
+* To define a new query, select **Create your own** and define the exclusion criteria using the rule builder. Refer to this [section](segment-builder.md). 
 
 The profiles included in the audience or matching the result of the query will be excluded from the target.

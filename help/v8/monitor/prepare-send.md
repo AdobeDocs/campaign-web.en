@@ -54,7 +54,7 @@ Follow the steps below:
     * **To deliver**: the number of messages that will be sent 
     * **To exclude**: the number of messages excluded by a typology rule
 
-1. Click the **Logs** button and check that there is no error. The last log message displays any error messages and the number of errors. For more on this, see this [section](#send).
+1. Click the **Logs** button and check that there is no error. The last log message displays any error messages and the number of errors. For more on this, see this [section](delivery-logs.md).
 
     ![](assets/prepare-logs.png)
 
@@ -76,7 +76,7 @@ Follow these steps:
 
     ![](assets/send.png)
 
-1. The sending progress is displayed. Check the KPIs displayed. You can also check the logs. For more on this, see this [section](#send).
+1. The sending progress is displayed. Check the KPIs displayed. You can also check the logs. For more on this, see this [section](delivery-logs.md).
 
     ![](assets/send2.png)
 
