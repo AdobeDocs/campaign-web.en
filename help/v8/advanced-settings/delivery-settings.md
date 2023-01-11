@@ -6,6 +6,8 @@ exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 ---
 # Advanced settings {#advanced-settings}
 
+![](../assets/do-not-localize/badge.png)
+
 >[!NOTE]
 >
 >This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
