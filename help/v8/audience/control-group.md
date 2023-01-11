@@ -44,7 +44,7 @@ Under the **Extract from target** section, choose an **Exclusion type**:
 
     ![](assets/control-group.png)
 
-* **Ranked by attribute(s)**: this option enables you to define a limitation based on one or more sorting orders.
+* **Ranked by attribute(s)**: this option enables you to exclude a set of profiles based on specific attribute(s) in a specific sorting order(s).
 
     ![](assets/control-group2.png)
 

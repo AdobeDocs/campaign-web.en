@@ -41,7 +41,7 @@ hide: yes
   + [About audiences](audience/about-audiences.md)
   + [Select an audience](audience/add-audience.md)
   + [Set a control group](audience/control-group.md)
-  + [Work with the Segment Builder](audience/segment-builder.md)
+  + [Define an audience with the rule builder](audience/segment-builder.md)
 + Preview and test your email {#preview-test}
   + [About preview and proofs](preview-test/preview-test.md) 
   + [Preview email content](preview-test/preview-content.md)

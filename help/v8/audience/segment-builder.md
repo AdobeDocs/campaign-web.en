@@ -4,7 +4,7 @@ title: Work with the Segment Buidler
 description: Campaign v8 Web documentation
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 ---
-# Work with the Segment Builder {#segment-builder}
+# Define an audience with the rule builder {#segment-builder}
 
 >[!NOTE]
 >
@@ -12,9 +12,9 @@ exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 
 This section describes how to create an audience when designing a new email. The created audience can only be used in this email. 
 
-The segment builder allows you to define the population targeted by your message by filtering data contained in the Adobe Campaign database. If you want to select an existing audience, refer to this [section](add-audience.md). 
+The rule builder allows you to define the population targeted by your message by filtering data contained in the database. If you want to select an existing audience, refer to this [section](add-audience.md). 
 
-For more information on the Segment Builder, refer to the [Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
+For more information on the rule builder, refer to the [Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
 
 To create a new audience when designing an email, follow these steps: 
 
@@ -22,7 +22,7 @@ To create a new audience when designing an email, follow these steps:
 
     ![](assets/segment-builder0.png)
 
-1. Select **Create your own**. The Segment Builder is displayed.
+1. Select **Create your own**. The rule builder is displayed.
 
     ![](assets/segment-builder.png)
 
@@ -34,9 +34,13 @@ The palette, located on the left side contains all the elements that you can fil
 
     ![](assets/segment-builder2.png){width="70%" align="left"}
 
-* **Audiences**: this tab allows you to filter using one of the existing audiences defined in the Campaign Classic console.
+* **Audiences**: this tab allows you to filter using one of the existing audiences defined in the Campaign Classic console or from Adobe Experience Platform.
 
     ![](assets/segment-builder3.png){width="70%" align="left"}
+
+    >[!NOTE]
+    >
+    >To leverage Adobe Experience Platform audiences, you need to configure the integration with Destinations. Refer to the [Destinations documentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html).
 
 You can use the search bar to find elements quickly.
 
@@ -81,7 +85,7 @@ In this example, we will build an audience to target all customers living in Atl
 
     ![](assets/segment-builder10.png)
 
-1. Click **View results** to display the list and number of recipients matching the query.
+1. Click **View results** to display the list and number of recipients matching the query. You can also add columns to visualize and check the data. In our example, add the **City** column and should see Atlanta and Seattle.
 
     ![](assets/segment-builder11.png)
 

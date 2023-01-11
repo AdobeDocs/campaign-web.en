@@ -27,6 +27,10 @@ This section explains how to select an existing audience, when defining the targ
 
     ![](assets/create-audience2.png)
 
+    >[!NOTE]
+    >
+    >To leverage Adobe Experience Platform audiences, you need to configure the integration with Destinations. Refer to the [Destinations documentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html).
+
 1. Choose an audience and click **Select**.
 
 1. Click **Edit rules** if you want to refine your audience.

@@ -36,11 +36,11 @@ show use case with a new audience creation (or import from file?)
 control groups like acc: exract, random, based on attribute
 -->
 
-Once your content is designed, you need to define the email's audience. This is the target of your delivery, the recipients who will receive the email. The type of audience depends on the target mapping.
+In this section, you will learn how to define the email's audience. This is the target of your delivery, the recipients who will receive the email. The type of audience depends on the target mapping.
 
 To define the audience, you can:
 
-* use an existing audience defined in the Adobe Campaign console. See this [section](add-audience.md).
+* use an existing audience, see this [section](add-audience.md).
 * create a new audience that will be used for the email. See this [section](segment-builder.md).
 
 You can also define control groups to avoid sending messages to a portion of your audience in order to measure the impact of your campaigns. See this [section](control-group.md).
