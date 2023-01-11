@@ -13,9 +13,9 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
 >title="Interface"
->abstract="The new Campaign v8 web interface offers an integrated, intuitive and consistent user experience."
+>abstract="The new Campaign v8 Web interface offers an integrated, intuitive and consistent user experience."
 
-The new Campaign v8 web interface offers a modern and intuitive user experience to simplify marketing campaign design and delivery. This new interface is integrated with Adobe Experience Platform. 
+The new Campaign v8 Web interface offers a modern and intuitive user experience to simplify marketing campaign design and delivery. This new interface is integrated with Adobe Experience Platform. 
 
 <!--
 Key concepts when browsing the user interface are common with Adobe Experience Platform. Refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide) for more details.
@@ -33,13 +33,13 @@ Key concepts when browsing the user interface are common with Adobe Experience P
 
 ## Left navigation menu
 
-Browse the links on the left to access Campaign v8 web capabilities. Several links display lists of objects which can be sorted and filtered. You can also configure columns to display all the information you need. See this [section](#list-screens). All list screens are read-only, except the email delivery list. Clicking on any list item for edition/viewing is not available in Alpha. All lists will be editable in Beta and GA versions. The items displayed in the left navigation menu depend on your user permissions.
+Browse the links on the left to access Campaign v8 Web capabilities. Several links display lists of objects which can be sorted and filtered. You can also configure columns to display all the information you need. See this [section](#list-screens). All list screens are read-only, except the email delivery list. Clicking on any list item for edition/viewing is not available in Alpha. All lists will be editable in Beta and GA versions. The items displayed in the left navigation menu depend on your user permissions.
 
 ![](assets/home.png)
 
 ### Home
 
-This screen includes key links and resources for a quick access to the main Campaign v8 web features. The **Recents** list provides shortcuts to the recently created and modified deliveries. This list shows their creation and modification dates and status.
+This screen includes key links and resources for a quick access to the main Campaign v8 Web features. The **Recents** list provides shortcuts to the recently created and modified deliveries. This list shows their creation and modification dates and status.
 
 <!--
 * Banner
@@ -48,7 +48,7 @@ This screen includes key links and resources for a quick access to the main Camp
 * Learning cards
 -->
 
-Access Campaign v8 web key help pages from the lower section of the home page.
+Access Campaign v8 Web key help pages from the lower section of the home page.
 
 <!--
 show global KPIs, recent items + left menu to access features)
@@ -150,7 +150,7 @@ A contextual help is available in the interface. When available, click on the **
 
 ![](assets/context-help.png){width="70%" align="left"}
 
-An on-boarding guide is also available to help you get started with Campaign v8 web. Click the icon in the bottom right corner, choose one of the available step-by-step scenarios, and simply follow the instructions.
+An on-boarding guide is also available to help you get started with Campaign v8 Web. Click the icon in the bottom right corner, choose one of the available step-by-step scenarios, and simply follow the instructions.
 
 ![](assets/onboarding.png){width="70%" align="left"}
 

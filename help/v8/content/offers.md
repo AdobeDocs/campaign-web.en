@@ -20,7 +20,7 @@ exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 >
 >This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
 
-Adobe Campaign v8 web allows you to send with your emails offers that have been created in the console using the **[!UICONTROL Interaction]** module. For more information on Interaction and how to manage an offer catalog in the console, refer to the [Campaign V8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html)
+Adobe Campaign v8 Web allows you to send with your emails offers that have been created in the console using the **[!UICONTROL Interaction]** module. For more information on Interaction and how to manage an offer catalog in the console, refer to the [Campaign V8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html)
 
 The steps to send offers with an email are as follows:
 

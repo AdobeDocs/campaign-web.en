@@ -36,7 +36,7 @@ show use case with a new audience creation (or import from file?)
 control groups like acc: exract, random, based on attribute
 -->
 
-In this section, you will learn how to define the email's audience. This is the target of your delivery, the recipients who will receive the email. The type of audience depends on the target mapping.
+In this section, you will learn how to define the email's audience. This is the target of your delivery, the recipients who will receive the email. The type of audience depends on the target mapping defined in the delivery template. See this [section](../email/create-email.md). 
 
 To define the audience, you can:
 

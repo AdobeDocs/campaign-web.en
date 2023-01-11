@@ -10,4 +10,4 @@ exl-id: d65fcd92-ce3c-49ff-9dce-16a41d0558bf
 >
 >This documentation is under construction and frequently updated. The final version of this content will be ready in January 2023.
 
-This page lists all the documentation updates for Campaign Web v8.
+This page lists all the documentation updates for Campaign v8 Web.
