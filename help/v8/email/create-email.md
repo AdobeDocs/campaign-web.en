@@ -30,7 +30,7 @@ This use case presents how to create your first email. We are going to schedule 
 
     >[!NOTE]
     >
-    >A template is a specific delivery configuration that has been saved as a template in order to be re-used. Delivery templates are configured by admin users in Adobe Campaign console. [Learn how to work with delivery templates](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html){target="_blank"}
+    >A template is a specific delivery configuration that has been saved as a template in order to be re-used. Delivery templates are configured by admin users in Adobe Campaign console. [Learn how to work with delivery templates](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
 
     ![](assets/channel-template.png)
 
@@ -110,7 +110,7 @@ In this use case we are going to send the email to an existing audience. Additio
     >
     >Audiences available in the list originate either from your Campaign V8 instance or from Adobe Experience Platform if the Destination / Sources integration has been configured on your instance.
     >
-    >The Destination / Sources integration allows you to send Experience Platform segments to Adobe Campaign, and to send Campaign delivery and tracking logs over to Adobe Experience Platform. [Learn how work with Campaign and Adobe Experience Platform](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html)
+    >The Destination / Sources integration allows you to send Experience Platform segments to Adobe Campaign, and to send Campaign delivery and tracking logs over to Adobe Experience Platform. [Learn how work with Campaign and Adobe Experience Platform](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
 
 1. Once your audience has been selected, you can refine the target using additional rules.
 
@@ -155,7 +155,7 @@ Additional information on how to preview and test emails are available in [this 
 
 1. To send proofs of your email, click the **[!UICONTROL Test]** button then select the profiles that will receive the proof.
 
-    <!--TO REPLACE WITH SUBSTITUTION PROFILE-->In this example, we want to send the proofs to a specific test profile, which is a seed address that is not part of the target. [Learn how to work with seed addresses](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}
+    <!--TO REPLACE WITH SUBSTITUTION PROFILE-->In this example, we want to send the proofs to a specific test profile, which is a seed address that is not part of the target. [Learn how to work with seed addresses](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}.
 
     ![](assets/proof-test-profile.png)
 

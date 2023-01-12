@@ -50,8 +50,9 @@ Campaign data is stored in the application server. Data is available both from t
 1. Log in with your Adobe credentials.
 1. In the **Quick access** section, click **Campaign**.
     ![](assets/connect.png)
-    
+
 1. In the next page, click the **Launch** button of your Campaign instance.
+    You are now connected to Campaign. Learn how to start using the user interface in [this page](user-interface.md).
 
 <!--
 -> experience cloud home: "Campaign" -> home campaign v8
