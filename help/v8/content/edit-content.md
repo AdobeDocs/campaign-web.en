@@ -53,7 +53,7 @@ The steps to define the content of your email are as follows:
 
     <!--limitation on size + number of files?-->
 
-1. By default, email tracking is enabled for opens and clicks. To disable these options, unselect them from the **[!UICONTROL Optional features]** section. [Learn how to add links and manage tracking](message-tracking.md)
+1. By default, tracking is enabled for the delivery. You can disable this option from from the **[!UICONTROL Optional features]** section. [Learn how to add links and manage tracking](message-tracking.md)
 
 Once the content of your email has been defined, use the **[!UICONTROL Simulate content]** button to check how it will display before sending it. [Learn how to preview and test your email](../preview-test/preview-test.md)
 
