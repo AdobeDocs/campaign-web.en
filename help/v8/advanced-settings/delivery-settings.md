@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: Advanced Settings
+title: Email Delivery Settings
 description: Campaign v8 Web documentation
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 ---
@@ -8,13 +8,13 @@ exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 
 ![](../assets/do-not-localize/badge.png)
 
-These settings are **technical delivery parameters** that are defined in the email template. If you want to modify any of them for a specific delivery, proceed with caution.
+These settings are **technical delivery parameters** that are defined in the email template. 
 
 ## Email delivery settings {#email-delivery-settings}
 
->[!NOTE]
+>[!CAUTION]
 >
-> Modify settings only, no new creation allowed. Subject to access rights.
+> These settings are described for your information only. Some of them depend on your configuration and permissions. They must not be modified in this version of the product. 
 
 ## Typology {#typology}
 
