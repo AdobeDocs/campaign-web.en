@@ -4,7 +4,7 @@ title: Advanced Settings
 description: Campaign v8 Web documentation
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 ---
-# Advanced settings {#advanced-settings}
+# Email delivery settings {#email-del-settings}
 
 ![](../assets/do-not-localize/badge.png)
 
@@ -25,7 +25,10 @@ These settings are **technical delivery parameters** that are defined in the ema
 
 Typologies are sets of **typology rules**, that are executed during the message analysis phase. They allow you to make sure your emails always contain certain elements (such as an unsubscription link or a subject line) or filtering rules to exclude groups from your intended target (like unsubscribers, competitors, or non-loyalty customers).
 
-When associating a typology with a message or message template, the typology rules included in the typology will be executed to check the message validity.
+When associating a typology with a message or message template, the typology rules included in the typology are executed to check the message validity during message preparation.
+
+![](assets/delivery-settings-1.png)
+
 
 ### Pressure parameters {#pressure-parameters}
 
@@ -38,19 +41,22 @@ In this section, pressure parameters let you define a **threshold**. This is the
 
 Threshold values can be either constant or variable. This means that for a given period, thresholds can vary from one profile to another, or even for the same profile.
 
-In the **Weight type** field, three options are available: (missing formula depending option..)
+In the **Weight type** field, three options are available:
 
 * **Constant**
 * **Depends on the recipient**
 * **Defined in each rule**
 
-The **Delivery weight** field : Each delivery has a weight which represents its level of priority. By default, the weight of a delivery is set to 5. Pressure rules let you define the weight of the deliveries which they will be applied to.Weights can be either set or calculated via a formula to suit recipients. For example, you can define the weight of a delivery based on recipient interests.
+Use the **Delivery weight** field to define the delivery priority. Each delivery has a weight which represents its level of priority. By default, the weight of a delivery is set to 5. Pressure rules let you define the weight of the deliveries which they will be applied to.Weights can be either set or calculated via a formula to suit recipients. For example, you can define the weight of a delivery based on recipient interests.
 
-The **Delivery mode** field.. ??
+
+Use the **Delivery mode** field to select the target evaluation mode. Three modes are available:
 
 * **Target estimation and message personalization**
 * **Estimation and approval of the provisional target**
 * **Target evaluation**
+
+Fatigue management comes with the **Campaign Optimization** add-on. Learn more about pressure rules and how to configure fatigue management in [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}.
 
 ### Capacity settings {#capacity-settings}
 
@@ -63,17 +69,26 @@ In this section, you can select a capacity rule defined in the Adobe Campaign v8
 
 The **importance of the recipient** field is a formula used to determine which recipients are kept when the capacity typology rules are exceeded.
 
+Learn more about consistency and capacity rules and how to configure them in [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}.
+
+
 ## Audience {#audience}
 
-In this section, you can choose a **target mapping** defined in the Adobe Campaign v8 console. Target mapping creation is necessary in the case you use a recipient table other than the one provided by Adobe Campaign.
+In this section, you can select a **target mapping** among those available. Target mappings are defined in the Adobe Campaign v8 console. 
+
+Learn more about target mappings in [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
 
 ## Delivery {#delivery}
 
-**Routing** selection: The Integrated email routing external account is provided by default. It contains the technical parameters that allow the application to send emails.
+Delivery parameters are technical settings which apply to your delivery. 
 
-**Test SMTP delivery**: use this option to test sending via SMTP. The delivery is processed up to connection to the SMTP server but is not sent: for every recipient of the delivery, Campaign connects to the SMTP provider server, executes the SMTP RCPT TO command, and closes the connection before the SMTP DATA command.
+* **Routing**: the integrated email routing external account is provided by default. It contains the technical parameters that allow the application to send emails.
 
-**Email BCC**: use this option to store emails on an external system through BCC by simply adding a BCC email address to your message target.
+* **Test SMTP delivery**: this option is used to test sending via SMTP. The delivery is processed up to connection to the SMTP server but is not sent: for every recipient of the delivery, Campaign connects to the SMTP provider server, executes the SMTP RCPT TO command, and closes the connection before the SMTP DATA command.
+
+* **Email BCC**: this option is used to store emails on an external system through BCC by simply adding a BCC email address to your message target. Learn more about Email BCC in [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
+
+
 
 ### Retries {#retries}
 
@@ -82,7 +97,9 @@ In this section, you can choose a **target mapping** defined in the Adobe Campai
 >title="Maximum number of retries"
 >abstract="If a message fails due to a temporary error, retries will be performed during the delivery duration."
 
-Temporarily undelivered messages due to a Soft or Ignored error are subject to an automatic retry. By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the Validity tab.
+<!--Temporarily undelivered messages due to a Soft or Ignored error are subject to an automatic retry. By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. -->
+
+Learn more about retry management in [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
 ## Approval {#approval}
 
@@ -91,11 +108,15 @@ Temporarily undelivered messages due to a Soft or Ignored error are subject to a
 >title="Approval mode"
 >abstract="Each step of a delivery can be subject to approval in order to ensure full monitoring and control of the various processes."
 
-**Manual**: At the end of the analysis phase, the user must confirm delivery to start sending. 
+If warnings are generated during the delivery preparation, you can configure the delivery to define whether or not it should still be executed. By default, the user must confirm the sending of messages at the end of the analysis phase: this is **manual** validation.
 
-**Semi-Automatic**: Sending begins automatically if the analysis phase generates no warning messages.
+You can select another approval mode in the appropriate field. Available modes are: 
 
-**Automatic**: Sending begins automatically at the end of the analysis phase irrespective of its result.
+* **Manual**: At the end of the analysis phase, the user must confirm delivery to start sending. 
+
+* **Semi-Automatic**: Sending begins automatically if the analysis phase generates no warning messages.
+
+* **Automatic**: Sending begins automatically at the end of the analysis phase, irrespective of its result.
 
 
 ## Validity {#validity}
@@ -117,14 +138,20 @@ You can also choose to specify dates. To do this, select **Explicitly set validi
 
 **Resources Validity limit** is used for uploaded resources, mainly for the mirror page and images. The resources on this page are valid for a limited time (to save disk space).
 
+![](assets/delivery-settings-2.png)
+
+
+Learn more about delivery validity period in [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html#validity-period){target="_blank"}.
+
 ### Mirror page management {#mirror}
 
-**Mirror page management** contains four options :
+The mirror page is an HTML page accessible online via a web browser. Its content is identical to the email. By default, the mirror page is generated if the link is inserted in the content of the mail. 
 
-* **Generate the mirror page if a mirror link appears in the email content**: the mirror page is generated if the link is inserted in the mail content.
-* **Force the generation of the mirror page**: even if no link to the mirror page is inserted into the messages, the mirror page will be created.
-* **Do not generate the mirror page**: no mirror page is generated, even if the link is in the messages.
-* **Generates a mirror page accessible using only the message identifier**: this option lets you access the content of the mirror page, with personalization information, in the delivery log window.
+In addition to the default mode, the following options are also available:
+
+* **[!UICONTROL Force the generation of the mirror page]**: even if no link to the mirror page is inserted in the delivery, the mirror page will be created.
+* **[!UICONTROL Do not generate the mirror page]**: no mirror page is generated, even if the link is present in the delivery.
+* **[!UICONTROL Generates a mirror page accessible using only the message identifier]**: this option lets you access the content of the mirror page, with personalization information, in the delivery log window. To do this, after the end of the delivery, click the **[!UICONTROL Delivery]** tab and select the line of the recipient whose mirror page you wish to view. Click the **[!UICONTROL Display the mirror page for this message...]** link.
 
 
 ### Tracking {#tracking}
@@ -134,19 +161,24 @@ You can also choose to specify dates. To do this, select **Explicitly set validi
 >title="Validity period"
 >abstract="This option defines the duration for which the tracking will be activated on the URLs."
 
-**Tracking validity limit**: This option defines the duration for which the tracking will be activated on the URLs.
+Tracking parameters are defined in the related section. Possible options are:
+
+**Tracking validity limit**: use this option to change the duration for which the tracking will be activated on the URLs.
 
 **Substitution URL for expired URLs**: use this option to enter a URL to a fall-back web page: it is displayed once the tracking has expired.
 
-
 ## Test Settings {#test-setttings}
 
-**Keep double** lets you authorize multiple deliveries to recipients who satisfy several targeting criteria.
+You can set the exclusion parameters in this section. Available options are:
 
-**Keep denylisted addresses** lets you keep from the target any profiles no longer being targeted by the delivery, such as after an unsubscription (opt-out).
+* **Keep double** lets you authorize multiple deliveries to recipients who satisfy several targeting criteria.
 
-**Keep quarantined addresses** lets you keep from the target any profiles with an address that does not respond. 
+* **Keep denylisted addresses** lets you keep from the target any profiles no longer being targeted by the delivery, such as after an unsubscription (opt-out).
 
-**Keep the delivery code for the proof** lets you give the proof the same delivery code as the one defined for the delivery to which it relates.
+* **Keep quarantined addresses** lets you keep from the target any profiles with an address that does not respond. 
 
-By default, the subject of the proof is prefixed by ‘Proof #’, where # is the number of the proof. You can change this prefix in the **Label prefix** field.
+You can also customize the name of the proofs.
+
+Use the **Keep the delivery code for the proof** to associate to the proof the same delivery code as the one defined for the delivery to which it relates.
+
+By default, the subject of the proof is prefixed by ‘PROOF #’, where # is the number of the proof. You can change this prefix in the **Label prefix** field.
