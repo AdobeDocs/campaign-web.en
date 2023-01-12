@@ -24,53 +24,36 @@ only existing customers
 
 Adobe Campaign provides a platform for designing cross-channel customer experiences and an environment for visual campaign orchestration, real-time interaction management and cross channel execution.
 
-In addition to all the existing features available with the console, we've built a new modern web-based user interface to simplify marketing campaign design and delivery, and consistent with Adobe Experience Platform.
+Initialy only available through a rich [client console](#ac-client), Campaign now provides a new web user interface with enhanced usability, accessibility, and a new design to significantly improve your user experience. This new modern UI simplifies marketing campaign design and delivery, and brings consistency consistent with other Adobe solutions, including Adobe Experience Platform.
 
-## Alpha features
 
-This web interface is currently only available to Alpha practitioners with the following capabilities:
+![](assets/home.png)
 
-**Modern, intuitive and unified experience**
+This new UI first serve the needs of the **business practitioner** – all typical administration tasks are not available in this first version, but will be addressed in subsequent versions. Note that not every single functionality or option available in the client console is available for now in the new UI. New use-cases, options and features will be available in future releases.
 
-* Access to the new interface and other applications with a single and shared user session
-* Unified Shell integration: access to community learnings, help center, solution switcher
-<!--
-No search and pulse notifications in Alpha
--->
-* Experience the new navigation with left menus and folders
+If you need to access Campaign v8 capabilities which are not available in the web UI, you can use the [client console](#ac-client). 
 
-**Create, launch and measure your email campaign**
+## About Campaign client console{#ac-client}
 
-* Design personalized email content with the email designer
-* Define target audiences with the rule builder
-* Preview, test and send your email messages
-* Monitor send and measure results with built-in reports 
+The Campaign client console is a browser-based application which is installed on your system. It uses the web services API to connect to your Campaign application server.
 
-<!--
-add info somewhere to remind users that
-* they still have access to their console (+ link to v8 console doc)
-* they keep their existing data (example: will be able to use their existing delivery templates to create deliveries)
--->
+Learn how to download and install the client console in [this section](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/connect.html){target="_blank"}.
 
->[!NOTE]
->
->Please note that cross-channel campaigns and workflow management capabilities will be available in the beta program. 
+For more information on how to use Campaign v8, refer to the [documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html){target="_blank"}.
 
-## The client console
-
-If you need to use a Campaign v8 feature that is not available in the web UI, you can use the client console. For more information on how to use Campaign v8, refer to the [documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html).
-
-The data is shared between the console and the web UI. For example, if you created a delivery template using the console, it will be available in the web interface.
+Campaign data is stored in the application server. Data is available both from the client console and from the web UI. For example, if you create a delivery template using the client console, it is also available in the web UI. And if you create an email delivery in the web UI, this delivery is also accessible from the client console.
 
 ## Connect to Campaign
 
 ![](assets/connect.png)
 
-1. Connect to [Adobe Experience Cloud](http://experience.adobe.com).
+1. Connect to [Adobe Experience Cloud](http://experience.adobe.com){target="_blank"}.
 1. Log in with your Adobe credentials.
 1. In the **Quick access** section, click **Campaign**.
+1. In the next page, click the **Launch** button of your Campaign instance.
 
 <!--
 -> experience cloud home: "Campaign" -> home campaign v8
 -> or Campaign v8 web if direct URL
 -->
+
