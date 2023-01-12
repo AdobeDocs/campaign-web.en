@@ -155,7 +155,9 @@ Additional information on how to preview and test emails are available in [this 
 
 1. To send proofs of your email, click the **[!UICONTROL Test]** button then select the profiles that will receive the proof.
 
-    <!--TO REPLACE WITH SUBSTITUTION PROFILE-->In this example, we want to send the proofs to a specific test profile, which is a seed address that is not part of the target. [Learn how to work with seed addresses](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}.
+    <!--TO REPLACE WITH SUBSTITUTION PROFILE-->
+    
+    In this example, we want to send the proofs to a specific test profile, which is a seed address that is not part of the target. Learn how to work with seed addresses in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}.
 
     ![](assets/proof-test-profile.png)
 
