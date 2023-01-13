@@ -1,7 +1,7 @@
 ---
 audience: end-user
 title: Preview email content
-description: Campaign v8 Web documentation
+description: Learn how to preview your email content with Campaign Web UI
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 ---
 # Preview email content {#preview}

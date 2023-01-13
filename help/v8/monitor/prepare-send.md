@@ -1,7 +1,7 @@
 ---
 audience: end-user
 title: Prepare and send an email
-description: Campaign v8 Web documentation
+description: Learn how to prepare and send an email with Campaign Web UI
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 ---
 # Prepare and send your email {#prepare-send}

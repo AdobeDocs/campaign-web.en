@@ -1,10 +1,10 @@
 ---
 audience: end-user
-title: Get started
-description: Campaign v8 Web documentation
+title: Get started with Campaign v8 Web
+description: Get started with Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 ---
-# Get started {#get-started}
+# Get started with Campaign v8 Web {#get-started}
 
 ![](../assets/do-not-localize/badge.png)
 

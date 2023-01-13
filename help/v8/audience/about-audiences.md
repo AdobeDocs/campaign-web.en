@@ -1,10 +1,10 @@
 ---
 audience: end-user
-title: About audiences
-description: About audiences
+title: Get started with audiences
+description: Learn how to use audiences in Campaign Web UI
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
 ---
-# About audiences {#about-audiences}
+# Get started with audiences {#about-audiences}
 
 ![](../assets/do-not-localize/badge.png)
 

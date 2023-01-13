@@ -1,7 +1,7 @@
 ---
 audience: end-user
-title: Add an audience
-description: Campaign v8 Web documentation
+title: Select an audience
+description: Learn how to select an audience
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 ---
 # Select an audience {#add-audience}

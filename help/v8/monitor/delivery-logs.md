@@ -1,7 +1,7 @@
 ---
 audience: end-user
 title: Monitor delivery logs
-description: Campaign v8 Web documentation
+description: Learn how to monitor delivery logs
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
 ---
 # Monitor delivery logs {#delivery-logs}

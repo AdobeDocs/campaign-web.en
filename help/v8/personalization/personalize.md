@@ -38,7 +38,7 @@ To add personalization in the **[!UICONTROL Subject line]** field of the message
 
 1. Click the **Open personalization dialog** icon on the right of the **Subject line** field.
 1. Enter the subject line content and select the personalization attributes to add.
-1. Click Confirm to validate. The personalization attributes are added to the subject line.
+1. Click **Confirm** to validate. The personalization attributes are added to the subject line.
 
 ![](assets/perso-subject.png)
 
@@ -75,4 +75,4 @@ To personalize a **link**:
 
 ## Personalize your offers {#personalize-offers}
 
-You can also access the personalization editor when adding text-type content to your offers' representations.
+You can also access the personalization editor when adding text-type content to your offers' representations. Learn more in [this section](../content/offers.md).

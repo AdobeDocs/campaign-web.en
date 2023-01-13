@@ -1,10 +1,10 @@
 ---
 audience: end-user
-title: Reporting
-description: Campaign v8 Web documentation
+title: Delivery reports
+description: Learn how to access and use delivery reports
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 ---
-# Reporting {#reports}
+# Delivery reports {#reports}
 
 ![](../assets/do-not-localize/badge.png)
 

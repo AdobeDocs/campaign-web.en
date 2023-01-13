@@ -1,7 +1,7 @@
 ---
 audience: end-user
 title: Send proofs
-description: Campaign v8 Web documentation
+description: Learn how to define and send proof messages
 exl-id: b2677579-c95d-443d-b207-466af364c208
 ---
 # Send proofs {#send-proofs}

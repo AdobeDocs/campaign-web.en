@@ -1,7 +1,7 @@
 ---
 audience: end-user
-title: Work with the Segment Buidler
-description: Campaign v8 Web documentation
+title: Define an audience with the rule builder
+description: Learn how to work with the Segment Buidler
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 ---
 # Define an audience with the rule builder {#segment-builder}

@@ -38,7 +38,7 @@ hide: yes
     + [Add personalization](personalization/personalize.md)
   + [Send offers](content/offers.md)
 + Select the email audience {#audience}
-  + [About audiences](audience/about-audiences.md)
+  + [Get started with audiences](audience/about-audiences.md)
   + [Select an audience](audience/add-audience.md)
   + [Set a control group](audience/control-group.md)
   + [Define an audience with the rule builder](audience/segment-builder.md)

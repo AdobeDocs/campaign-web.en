@@ -1,7 +1,7 @@
 ---
 audience: end-user
 title: About preview and proofs
-description: Campaign v8 Web documentation
+description: Learn how to preview messages and send proofs
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 ---
 # About preview and proofs {#about-preview-proofs}
