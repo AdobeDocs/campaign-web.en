@@ -34,8 +34,7 @@ hide: yes
     + [Adjust vertical alignment and padding](content/alignment-and-padding.md)
     + [Define a style for links](content/styling-links.md)
     + [Add inline styling attributes](content/inline-styling.md)
-  + Personalize your content {#personalize}
-    + [Add personalization](personalization/personalize.md)
+  + [Add personalization](personalization/personalize.md)
   + [Send offers](content/offers.md)
 + Select the email audience {#audience}
   + [Get started with audiences](audience/about-audiences.md)
