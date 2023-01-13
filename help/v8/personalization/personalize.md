@@ -15,11 +15,11 @@ You can personalize the message content by:
 
 * Inserting dynamic **personalization fields**
 
-    Personalization fields are used for first-level personalization of your messages. You can select any field available in the database from the personalization editor. For a delivery, you can select any field related to the recipient, the message or the delivery. These personalization attributes can be inserted in the subject line or body of your messages.
+    Personalization fields are used for first-level personalization of your messages. You can select any field available in the database from the personalization editor. For a delivery, you can select any field related to the recipient, the message or the delivery. These personalization attributes can be inserted in the subject line or the body of your messages.
 
     ![](assets/perso-subject-line.png)
 
-    The syntax above inserts the city of the recipient in your content: <%= recipient.location.city %>.
+    The following syntax inserts the city of the recipient in your content: <%= recipient.location.city %>.
     
 * Inserting pre-defined **content blocks**
     
