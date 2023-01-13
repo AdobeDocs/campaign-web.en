@@ -8,13 +8,11 @@ exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 
 ![](../assets/do-not-localize/badge.png)
 
-This page lists all the new features and improvements for Campaign Web v8. You can also consult the [latest documentation updates](documentation-updates.md) page for more changes.
+This page lists all the latest features and improvements for Campaign Web v8. 
 
+## Alpha release{#alpha-release}
 
-
-## Alpha features
-
-This web interface is currently only available to Alpha practitioners with the following capabilities:
+This new Campaign web interface is currently only available to **Alpha practitioners** with the following capabilities:
 
 **Modern, intuitive and unified experience**
 
@@ -25,12 +23,14 @@ No search and pulse notifications in Alpha
 -->
 * Experience the new navigation with left menus and folders
 
+Learn more about the new UI in [this page](../get-started/user-interface.md).
+
 **Create, launch and measure your email campaign**
 
-* Design personalized email content with the email designer
-* Define target audiences with the rule builder
-* Preview, test and send your email messages
-* Monitor send and measure results with built-in reports 
+* Design personalized email content with the email designer - [Learn more](../content/edit-content.md)
+* Define target audiences with the rule builder - [Learn more](../audience/about-audiences.md)
+* Preview, test and send your email messages - [Learn more](../monitor/prepare-send.md)
+* Monitor send and measure results with built-in reports - [Learn more](../reporting/reports.md)
 
 <!--
 add info somewhere to remind users that
