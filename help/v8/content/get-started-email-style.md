@@ -8,7 +8,7 @@ exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
 
 ![](../assets/do-not-localize/badge.png)
 
-Once you started creating your email content in [!DNL Journey Optimizer], you can adjust a number of styling parameters and attributes from the Email Designer settings pane.
+Once you started creating your email content in [!DNL Adobe Campaign], you can adjust a number of styling parameters and attributes from the Email Designer settings pane.
 
 You can either apply your changes to the email body, to a structure component or to a content component.
 

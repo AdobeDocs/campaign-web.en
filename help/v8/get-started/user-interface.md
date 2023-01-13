@@ -169,5 +169,5 @@ You can sort items in the list by clicking any column header. An arrow is displa
 <!--
 ## Supported browsers {#browsers}
 
-Adobe [!DNL Journey Optimizer] interface is designed to work optimally in the latest version of Google Chrome. You might have trouble using certain features on older versions or other browsers.
+Adobe Campaign interface is designed to work optimally in the latest version of Google Chrome. You might have trouble using certain features on older versions or other browsers.
 -->
