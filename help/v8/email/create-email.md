@@ -26,7 +26,7 @@ This use case presents how to create your first email. We are going to schedule 
 
 1. Create a new delivery from the **[!UICONTROL Deliveries]** menu.
 
-1. Select the **[!UICONTROL Email]** channel and the template to use then click **[!UICONTROL Create]**.
+1. Select the **[!UICONTROL Email]** channel and the template to use then click **[!UICONTROL Create delivery]**.
 
     >[!NOTE]
     >
@@ -73,7 +73,7 @@ In this use case, we are going to design the email using a predefined template. 
 
     Choose the method to use to create your email content. In this example, we want to use an existing design template.
 
-    ![](assets/import-html.png)
+    ![](assets/select-template.png)
 
 <!--1. Select the HTML or ZIP file to import then click **[!UICONTROL Next]**.
 
@@ -87,7 +87,7 @@ In this use case, we are going to design the email using a predefined template. 
 
     ![](assets/add-perso.png)
 
-1. Once your content is ready, save it then click the arrow to go back to the email creation screen.
+1. When your content is ready, save and close your design, then click **[!UICONTROL Save]** to go back to the email creation screen.
 
     ![](assets/save-content.png)
 
@@ -116,6 +116,8 @@ In this use case we are going to send the email to an existing audience. Additio
 
     You can also set a control group to analyse the behavior of the email recipients compared to the behavior of profiles which were not targeted. [Learn how to work with control groups](../audience/control-group.md)
 
+    ![](assets/audience-selected.png)
+
 ## Schedule the sending {#schedule}
 
 >[!CONTEXTUALHELP]
@@ -133,11 +135,11 @@ By default, the **[!UICONTROL Confirm before sending]** option is enabled, meani
 
 Once your email is ready, you can preview and test it before launching its sending.
 
-In this use case, we are going to preview the email and send a proof using existing profiles.
+In this use case, we are going to preview the email and send proofs to specific email addresses while impersonating some of the targeted profiles.
 
 Additional information on how to preview and test emails are available in [this section](../preview-test/preview-test.md).
 
-1. Click **[!UICONTROL Review to send]**. A preview of your email displays, along with all the configured properties, audience and schedule. You can edit any of these elements using the modify button.
+1. Click **[!UICONTROL Review and send]**. A preview of your email displays, along with all the configured properties, audience and schedule. You can edit any of these elements using the modify button.
 
 1. Click the **[!UICONTROL Simulate content]** button to preview the email and send proofs.
 
@@ -153,35 +155,43 @@ Additional information on how to preview and test emails are available in [this 
     >
     >Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering-->
 
-1. To send proofs of your email, click the **[!UICONTROL Test]** button then select the profiles that will receive the proof.
+1. To send proofs of your email, click the **[!UICONTROL Test]** button then choose the mode to use to send your proofs.
 
-    <!--TO REPLACE WITH SUBSTITUTION PROFILE-->
-    
-    In this example, we want to send the proofs to a specific test profile, which is a seed address that is not part of the target. Learn how to work with seed addresses in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}.
+    In this example, we are going to use the Substitute from main target mode, meaning that we will send proofs to specific email addresses while impersonating some of the profiles targeted by the delivery.
+
+    ![](assets/proof-mode.png)
+
+1. Click Add address, then specify the email address(es) that will receive the proofs.
+
+    For each email address, select the profile from the target to impersonate. You can also let Adobe Campaign select a random profile from the target.
 
     ![](assets/proof-test-profile.png)
 
-    >[!NOTE]
-    >
-    >You can also test your messages by impersonating some of the targeted profiles and sending the proof message to the email address of your choice. [Learn how to send proofs](../preview-test/preview-test.md)
-
 1. Click **[!UICONTROL Send test email ]** then confirm the sending.
 
-    Once the proofs have been sent, you can then check their status by clicking the **[!UICONTROL View test email log]** button.
+    Proofs are sent to the specified email addresses using the selected profile, with the **[Proof x]** prefix.
+
+    ![](assets/proof-sent.png)
+
+    You can check the status of the sending and access the sent proofs at any time by clicking the **[!UICONTROL View test email log]** button in the simulate content screen.
 
 ## Send and monitor the email {#prepare-send}
 
 Once you have reviewed and tested your email, you can launch its preparation and send it.
 
 1. Click **[!UICONTROL Prepare]** to launch the preparation of the message. [Learn how to prepare an email](../monitor/prepare-send.md)
-    
+
     ![](assets/preparation.png)
  
-1. Once your email is ready to be sent, click **[!UICONTROL Send]** then confirm the sending.
+1. Once your email is ready to be sent, click **[!UICONTROL Send]** or **[!UICONTROL Send as scheduled]** then confirm the sending.
 
-    You can track the sending in real-time, along with statistics. Additionally, the **[!UICONTROL Logs]** button allows you to access detailed information on the email sending. [Learn how to monitor delivery logs](../monitor/delivery-logs.md)
-    ![](assets/logs.png)     
+1. Once the sending of your email has begun, either immediately or at the scheduled date, you can track its sending in real-time in this screen, along with statistics.
 
-1. After the email has been sent, you can access dedicated [reports](../reporting/reports.md) for further analysis purposes. 
+    ![](assets/sent-mail.png)
+    
+    >[!NOTE]
+    >
+    >Additionally, the **[!UICONTROL Logs]** button allows you to access detailed information on the email sending. [Learn how to monitor delivery logs](../monitor/delivery-logs.md)    
 
+1. After the email has been sent, you can access dedicated reports for further analysis purposes. [Learn how to work with reports](../reporting/reports.md)
     ![](assets/reports.png)
