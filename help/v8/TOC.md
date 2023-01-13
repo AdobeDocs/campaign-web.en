@@ -10,7 +10,7 @@ hide: yes
 
 # Adobe Campaign v8 Web documentation {#v8}
 
-+ [Campaign Web v8 documentation](campaign-web-home.md)
++ [Campaign v8 Web documentation](campaign-web-home.md)
 + What's new? {#whats-new}
   + [Latest release notes](rn/release-notes.md)
   + [Documentation updates](rn/documentation-updates.md)
