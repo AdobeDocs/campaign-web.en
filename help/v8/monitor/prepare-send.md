@@ -80,12 +80,12 @@ Follow these steps:
 
     Here are the different KPIs displayed:
 
-    * **Delivered**: the number of messages successfully sent. The percentage is based on the total number of targeted recipients.
-    * **Opens**: the number of opened messages. The percentage is based on the number of delivered messages.
-    * **Clicks**: the number of recipient who clicked at least once in the email. The percentage is based on the number of delivered messages.
+    * **Delivered**: the number of messages successfully delivered. The percentage displayed is based on the total number of sent messages.
+    * **Opens**: the number of opened messages. The percentage displayed is the ratio of the number of distinct opens compared with the number of delivered messages.
+    * **Clicks**: the number of recipient who clicked at least once in the email. The percentage displayed is the ratio of the number of distinct clicks compared with the number of delivered messages.
 
     >[!NOTE]
     >
-    >The **Opens** and **Clicks** indicators will be updated in real-time.  
+    >The **Opens** and **Clicks** indicators will be updated after 5 minutes.  
 
    You can pause the sending at any time and then resume. If you stop the delivery while it is being sent, you will not be able to resume.
