@@ -6,7 +6,7 @@ exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 ---
 # Email delivery settings {#email-del-settings}
 
-![](../assets/do-not-localize/badge.png)
+![Alpha version](../assets/do-not-localize/badge.png)
 
 These settings are **technical delivery parameters** that are defined in the email template. 
 
