@@ -56,8 +56,8 @@ Utilizing a predefined design template, the email will also feature personalized
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card3"
->title="Learn how to design your email content by using the Email Designer."
->abstract="Learn how to design your content"
+>title="Learn how to design your email content"
+>abstract="Learn how to use the Email Designer."
 
 In this use case, we will use a predefined template to design our email.
 
