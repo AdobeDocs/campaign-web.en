@@ -16,16 +16,21 @@ This new Campaign web interface is currently only available to **Alpha practitio
 
 **Modern, intuitive and unified experience**
 
+Campaign new Web UI offers a new user experience, aligned with all Adobe Experience Cloud solutions ans apps. It offers:
+
 * Access to the new interface and other Adobe solutions with a single and shared user session
-* Unified Shell integration: access to community learnings, help center, solution switcher
+* New navigation experience, with all menus and folders available from the left rail
+* Solution and organization switchers from the top bar
+* Unified Shell integration, with a direct access to community, help center, and support
 <!--
 No search and pulse notifications in Alpha
 -->
-* Experience the new navigation with left menus and folders
 
 Learn more about the new UI in [this page](../get-started/user-interface.md).
 
 **Create, launch and measure your email campaign**
+
+Use the new Campaign Web UI to:
 
 * Design personalized email content with the email designer - [Learn more](../content/edit-content.md)
 * Define target audiences with the rule builder - [Learn more](../audience/about-audiences.md)
@@ -40,4 +45,4 @@ add info somewhere to remind users that
 
 >[!NOTE]
 >
->Please note that cross-channel campaigns and workflow management capabilities will be available in the beta program. 
+>Please note that cross-channel campaigns and workflow management capabilities will be available with the beta release. 
