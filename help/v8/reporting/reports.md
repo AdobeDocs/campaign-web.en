@@ -38,9 +38,9 @@ Non-deliverables and bounces: This report shows the breakdown of non-deliverable
 
 * **URLs and click streams**: This report shows the list of pages visited following a delivery.
 
-* **User Activities**: This report shows the breakdown of opens, clicks and transactions per half-hour, hour or day, in the form of a chart.
+* **User Activities**: This report shows the breakdown of opens and clicks per half-hour, hour or day, in the form of a chart.
 
-* **Tracking Statistics**: This report provides statistics on opens, clicks and transactions.
+* **Tracking Statistics**: This report provides statistics on opens and clicks.
 
 * **Breakdown of opens**: This report shows the breakdown of opens by operating system, device and browser for the period concerned. For each category, two charts are used. The first displays statistics regarding opens on a computer and mobile devices. The second displays statistics relating only to opens on mobile devices.
 
