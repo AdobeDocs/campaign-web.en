@@ -33,7 +33,7 @@ All the validation steps, warnings and errors are listed. Colored icons show the
 
 ## Deliveries
 
-The **Deliveries** tab offers a history of every occurrence of this delivery. The list of sent messages and their statuses is stored here. It allows you to view the delivery status for each recipient.
+The **Sending logs** tab offers a history of every occurrence of this delivery. The list of sent messages and their statuses is stored here. It allows you to view the delivery status for each recipient.
 
 ![](assets/logs2.png)
 

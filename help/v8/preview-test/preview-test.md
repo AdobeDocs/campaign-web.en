@@ -1,10 +1,10 @@
 ---
 audience: end-user
-title: About preview and proofs
-description: Learn how to preview messages and send proofs
+title: About preview and test
+description: Learn how to preview messages and test emails
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 ---
-# About preview and proofs {#about-preview-proofs}
+# About preview and test emails {#about-preview-proofs}
 
 ![](../assets/do-not-localize/badge.png)
 
@@ -14,7 +14,7 @@ To do this, Adobe Campaign allows you to:
 
 * [Preview the email content and personalization](#preview),
 <!--* [Check the email rendering](#rendering) in popular desktop, mobile and web-based clients,-->
-* [Send proofs](#send-proofs) to specific recipients for testing and validation.
+* [Send test emails](#send-proofs) to specific recipients for testing and validation.
 
 These actions can be performed from the **[!UICONTROL Simulate content]** button which is accessible when creating the content of your email of from the Email Designer:
 
