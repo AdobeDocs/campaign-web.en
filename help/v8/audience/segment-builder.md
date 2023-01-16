@@ -54,7 +54,7 @@ On the right side, the **Rule properties** pane allows you to perform the follow
 
 ![](assets/segment-builder5.png){width="70%" align="left"}
 
-* **View results:** displays the list of recipients targeted by the audience
+* **View results:** displays the list of recipients targeted by the audience.
 * **Code view**: displays a code-based version of the audience in SQL.
 * **Display advanced attributes**: check this option if you want to view the complete list of attributes in the left palette: nodes, groupings, 1-1 links, 1-N links.
 * **Attributes**: displays a description of the created audience.

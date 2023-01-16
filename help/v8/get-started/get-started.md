@@ -24,12 +24,12 @@ only existing customers
 
 Adobe Campaign provides a platform for designing cross-channel customer experiences and an environment for visual campaign orchestration, real-time interaction management and cross channel execution.
 
-Initialy only available through a rich [client console](#ac-client), Campaign now provides a new web user interface with enhanced usability, accessibility, and a new design to significantly improve your user experience. This new modern UI simplifies marketing campaign design and delivery, and brings consistency, along with other Adobe solutions, including Adobe Experience Platform.
+Initially only available through a rich [client console](#ac-client), Campaign now provides a new web user interface with enhanced usability, accessibility, and a new design to significantly improve your user experience. This new modern UI simplifies marketing campaign design and delivery, and brings consistency, along with other Adobe solutions, including Adobe Experience Platform.
 
 
 ![](assets/home.png)
 
-This new UI first serve the needs of the **business practitioner** – all typical administration tasks are not available in this first version, but will be addressed in subsequent versions. Note that not every single functionality or option available in the client console is available for now in the new UI. New use-cases, options and features will be available in future releases.
+This new UI first serves the needs of the **business practitioner** – all typical administration tasks are not available in this first version, but will be addressed in subsequent versions. Note that not every single functionality or option available in the client console is available for now in the new UI. New use-cases, options and features will be available in future releases.
 
 If you need to access Campaign v8 capabilities which are not available in the web UI, you can use the [client console](#ac-client). 
 

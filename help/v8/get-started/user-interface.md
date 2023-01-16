@@ -92,6 +92,10 @@ Navtree view depends on permissions (same as console).
 
 * **Deliveries** - Browse through your list of deliveries. By default, you can view their state, last modification date as well as key KPIs. You can filter the list by state, contact date or channel. Click an email delivery to open its dashboard to get an overview of the delivery details. Deliveries on other channels are read-only. Delivery templates are also available in read-only mode. You can use the Client Console to edit them. See this [documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
 
+    Use the **More actions** button to delete or duplicate a delivery.
+
+    ![](assets/more-actions.png){width="70%" align="left"}
+
 ### Customer Management
 
 >[!CONTEXTUALHELP]

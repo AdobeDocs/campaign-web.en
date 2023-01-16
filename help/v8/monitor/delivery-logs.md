@@ -39,13 +39,13 @@ The **Deliveries** tab offers a history of every occurrence of this delivery. Th
 
 ## Exclusions
 
-The **Exclusion logs** tab lists all the messages that have been excluded from the target sent and specifies the reason for the send failure.
+The **Exclusion logs** tab lists all the messages that have been excluded from the target and specifies the reason for the send failure.
 
 ![](assets/logs3.png)
 
 ## Exclusion causes
 
-The **Exclusion causes** tab displays the volume (in number of messages) of messages that were excluded from the target send.
+The **Exclusion causes** tab displays the volume (in number of messages) of messages that were excluded from the target.
 
 ![](assets/logs4.png)
 

@@ -58,11 +58,11 @@ After the delivery preparation, you can view the exclusions on the following scr
 
     ![](assets/control-group5.png)
 
-* The **Exclusion logs** display each profile and the related excusion **Reason**.
+* The **Exclusion logs** display each profile and the related exclusion **Reason**.
 
     ![](assets/control-group6.png)
 
-* The **Exclusion causes** display the number of excuded profile for each typology rule.
+* The **Exclusion causes** display the number of excluded profile for each typology rule.
 
     ![](assets/control-group7.png)
 
