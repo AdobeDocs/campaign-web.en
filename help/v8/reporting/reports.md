@@ -26,7 +26,7 @@ To display reports, follow these steps:
 
     ![](assets/reporting2.png){width="70%" align="left"}
 
-**Sending**
+## Sending
 
 * **Delivery summary**: This report provides all the main information on the delivery. Target population, Causes of exclusion, Delivery statistics.
 
@@ -44,7 +44,7 @@ To display reports, follow these steps:
 
     ![](assets/reporting5.png)
 
-**Tracking**
+## Tracking
 
 * **Tracking indicators**: This report combines the key indicators for tracking the behavior of recipients upon receiving the delivery. It gives access to delivery and reception statistics, open and click-through rates, generated click streams, web tracking as well as sharing activities to social networks.
 
@@ -66,7 +66,7 @@ To display reports, follow these steps:
 
     ![](assets/reporting10.png)
 
-**Hotclicks**
+## Hotclicks
 
 This report shows the message content (HTML and/or text) with, on each link, the percentage of clicks on links. Personalization blocks unsubscription links, mirror page links and offer links are taken into account in the total cumulated clicks but are not displayed in the report.
 
