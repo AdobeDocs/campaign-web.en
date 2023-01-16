@@ -1,19 +1,19 @@
 ---
 audience: end-user
-title: Send proofs
-description: Learn how to define and send proof messages
+title: Send test emails
+description: Learn how to define and send test emails
 exl-id: b2677579-c95d-443d-b207-466af364c208
 ---
-# Send proofs {#send-proofs}
+# Send test emails {#send-proofs}
 
 ![](../assets/do-not-localize/badge.png)
 
-Sending test emails allows you to validate your email and check various elements like links, opt-out links and mirror pages, images and detect possible errors.
+Sending test emails is an important step in validating your email campaign and identifying potential issues. By sending test emails, you can check various elements such as links, opt-out links, images, and mirror pages, as well as detect any errors.
 
-Proofs can be sent to two types of recipients:
+Test emails can be sent to two types of recipients:
 
-* **Test profiles**: send proofs to seed addresses, which are additional and fictitious recipients in the database,
-* **Substitution profiles**: send proofs to a specific email address using an existing profile. This allows you to place yourself in the position of the profiles and get an exact representation of the message that the profile will receive.
+* **Test profiles**: send test emails to seed addresses, which are additional and fictitious recipients in the database,
+* **Substitution profiles**: send test emails to a specific email address while impersonating an existing profile. This allows you to experience the email as the recipients would, giving you an accurate representation of the message that the profile will receive.
 
 ## Select the proofs recipients {#recipients}
 

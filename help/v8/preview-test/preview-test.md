@@ -8,18 +8,18 @@ exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 
 ![](../assets/do-not-localize/badge.png)
 
-Once the email content has been defined, you can check how it will display before sending it. This allows you to test the email in order to detect possible errors in content or personalization settings.
+Before sending an email, it is important to review and test its content to ensure that it is accurate and free of errors in content or personalization settings.
 
 To do this, Adobe Campaign allows you to:
 
 * [Preview the email content and personalization](#preview),
 <!--* [Check the email rendering](#rendering) in popular desktop, mobile and web-based clients,-->
-* [Send proofs](#send-proofs) to specific recipients in order to test and validate the email.
+* [Send proofs](#send-proofs) to specific recipients for testing and validation.
 
-These actions are performed from the **[!UICONTROL Simulate content]** button which is accessible when creating the content of your email of from the Email Designer:
+These actions can be performed from the **[!UICONTROL Simulate content]** button which is accessible when creating the content of your email of from the Email Designer:
 
 ![](assets/simulate.png)
 
 >[!NOTE]
 >
->Content simulation is also available from the delivery summary page after clicking the **[!UICONTROL Review and send]** button.
+>Content simulation is also available from the delivery summary after clicking the **[!UICONTROL Review and send]** button.
