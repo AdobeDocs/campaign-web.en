@@ -16,7 +16,7 @@ This new Campaign web interface is currently only available to **Alpha practitio
 
 **Modern, intuitive and unified experience**
 
-Campaign new Web UI offers a new user experience, aligned with all Adobe Experience Cloud solutions ans apps. It offers:
+Campaign new Web UI offers a new user experience, aligned with all Adobe Experience Cloud solutions and apps. It offers:
 
 * Access to the new interface and other Adobe solutions with a single and shared user session
 * New navigation experience, with all menus and folders available from the left rail
