@@ -61,17 +61,49 @@ To personalize the email content, open the message in the Email designer and:
 
     ![](assets/perso-rendering.png)
 
+To add a content block to your email, apply the same steps and select a content block from the last icon:
+
+![](assets/perso-insert-block.png)
+
+Once inserted, the content block is added to the email content, as shown below. It is automatically adapted to the recipient profile when personalization is generated, at the delivery preparation step.
+
+![](assets/perso-content-block-in-email.png)
+
+
+Built-in content blocks are:
+* **[!UICONTROL Enabled by Adobe Campaign]** : inserts the "Enabled by Adobe Campaign" logo.
+* **[!UICONTROL Formatting function for proper nouns]** : generates the **[!UICONTROL toSmartCase]** Javascript function, which changes the first letter of each word to uppercase. 
+* **[!UICONTROL Greetings]** : inserts greetings with the recipient's name. Example: "Hello John Doe,".
+* **[!UICONTROL Insert logo]** : inserts an out-of-the-box logo that has been defined when configuring the instance.
+* **[!UICONTROL Link to mirror page]** : inserts a link to the mirror page: "If you are unable to view this message correctly, click here".
+* **[!UICONTROL Mirror page URL]** : inserts the mirror page URL, enabling Delivery Designers to check the link.
+* **[!UICONTROL Offer acceptance URL in unitary mode]** : inserts an URL enabling to set an Interaction offer to **[!UICONTROL Accepted]**.
+* **[!UICONTROL Registration page URL]** : inserts a subscription URL.
+* **[!UICONTROL Registration link]** : inserts a subscription link. This link must be defined when configuring the instance. The default content is: "To register click here."
+* **[!UICONTROL Registration link (with referrer)]** : inserts a subscription link, enabling to identify the visitor and delivery. The link has been defined when configuring the instance.
+* **[!UICONTROL Registration confirmation]** : inserts a link enabling to confirm subscription.
+* **[!UICONTROL Social network sharing links]** : inserts buttons that enable the recipient to share a link to the mirror page content.
+* **[!UICONTROL Style of content emails]** and **[!UICONTROL Notification style]** : generate code that format an email with predefined HTML styles. 
+* **[!UICONTROL Unsubscription link]** : inserts a link enabling to unsubscribe from all deliveries (denylist). The default associated content is: "You are receiving this message because you have been in contact with `<your rganization name>` or an affiliate. To no longer receive messages from `<your rganization name>` click here."
+
 
 ## Personalize links in your emails {#personalize-links}
 
 To personalize a **link**:
 
 1. Select a text block or an image.
-1. In the contextual toolbar, select **Add personalization**.
+1. In the contextual toolbar, select **Insert link**.
 
     ![](assets/perso-link.png)
 
-1. Use the personalization editor to define and personalize the link.
+1. Enter the link label and use the **Insert link** button to personalize the link.
+
+    ![](assets/perso-link-insert-icon.png)
+
+1. Use the personalization editor to define and personalize the link, and confirm.
+
+    ![](assets/perso-link-edit.png)
+
 
 ## Personalize your offers {#personalize-offers}
 

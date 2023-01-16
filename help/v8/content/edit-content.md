@@ -50,6 +50,8 @@ The steps to define the content of your email are as follows:
     * [Style your content](get-started-email-style.md)
 
 1. If you want to attach a file to the email, click the **[!UICONTROL Add attachment]** button then select one or multiple file(s).
+    
+    To avoid performance issue, it is recommended not to include more than one attachment per email. 
 
     <!--limitation on size + number of files?-->
 
