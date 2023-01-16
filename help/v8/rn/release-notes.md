@@ -51,7 +51,7 @@ add info somewhere to remind users that
 
 As an existing Campaign user, note that some concepts have been renamed to align with the latest terminology standards. These changes only apply to Campaign Web UI and are not reflected in the Client Console. They are summarized below.
 
-* Proofs are now **Test emails**. To send a proof, use the **Test** button in the email delivery UI
+* Proofs are now **Test emails**: to send a proof, use the **Test** button in the email delivery UI. The proof target is now refered as **Test profiles**
 * Delivery analysis is now the **delivery preparation**. When you need to launch the analysis, click the **Prepare** button
 * Email Preview is now available throught the **Simulate content** button
 * Lists are now **Audiences**
