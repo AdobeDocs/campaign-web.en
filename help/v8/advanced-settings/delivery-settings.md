@@ -177,8 +177,8 @@ You can set the exclusion parameters in this section. Available options are:
 
 * **Keep quarantined addresses** lets you keep from the target any profiles with an address that does not respond. 
 
-You can also customize the name of the proofs.
+You can also customize the name of the test emails.
 
-Use the **Keep the delivery code for the proof** to associate to the proof the same delivery code as the one defined for the delivery to which it relates.
+Use the **Keep the delivery code for the proof** to associate to the test email the same delivery code as the one defined for the delivery to which it relates.
 
-By default, the subject of the proof is prefixed by ‘PROOF #’, where # is the number of the proof. You can change this prefix in the **Label prefix** field.
+By default, the subject of the test email is prefixed by ‘PROOF #’, where # is the number of the test email. You can change this prefix in the **Label prefix** field.

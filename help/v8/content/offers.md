@@ -27,11 +27,13 @@ The steps to send offers with an email are as follows:
 
 ## Configure the offers to propose {#configure}
 
-To select the offers to propose in your email, click the **[!UICONTROL Offers]** button from the email content edition screen, then configure the offers to propose.
+1. To select the offers to propose in your email, click the **[!UICONTROL Offers]** button from the email content edition screen.
 
-![](assets/create-content-offers.png)
+    ![](assets/setup-offers.png)
 
-1. Select the **[!UICONTROL Offer space]** that matches your offer environment.
+1. Configure which offers should be proposed to the recipients. First select the **[!UICONTROL Offer space]** that matches your offer environment.
+
+    ![](assets/create-content-offers.png)
 
 1. To refine the engine's choice of offers, select a specific **[!UICONTROL Offer category]** in which offers are sorted.
 
@@ -61,10 +63,10 @@ Once you have configured the offers to propose into your email, you can insert t
 
 ## Insert offers into the email {#insert}
 
-Offers are added to an email using the Expression Editor. They can be inserted either:
+Offers can be added into the email using the Expression Editor. They can be inserted either:
 
-* in the email subject line,
-* in the email body by allowing personalization in any content component. [Learn how to add content components](content-components.md)
+* In the email subject line,
+* In the email body by allowing personalization in any content component. [Learn how to add content components](content-components.md)
 
 >[!NOTE]
 >

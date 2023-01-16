@@ -24,6 +24,8 @@ To preview the content of your email, follow these steps:
 
 1. Access the email content creation screen and click the **[!UICONTROL Simulate content]** button.
 
+    ![](assets/simulate.png)
+
 1. Select one or multiple profiles by clicking the **[!UICONTROL Select profile(s)]** button, then use the **[!UICONTROL Test profiles]** and **[!UICONTROL Profiles]** tabs to choose from.
 
     You can combine both test profiles and profiles to preview your email.
@@ -34,6 +36,10 @@ To preview the content of your email, follow these steps:
 
     If you have added multiple profiles, you can switch between them in the list to preview the corresponding email.
 
-    You can also preview the rendering of your content on different devices (desktop, mobile, tablet), by clicking the dedicated icon in the top right corner.
+    >[!NOTE]
+    >
+    >You can preview the rendering of your content on different devices (desktop, mobile, tablet), by clicking the dedicated icon in the top right corner.
 
     ![](assets/preview.png)
+
+

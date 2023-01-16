@@ -47,7 +47,7 @@ Campaign now provides a new web user interface with enhanced usability, accessib
 <img alt="Validation" src="assets/do-not-localize/email-config.jpg">
 </a>
 <div>
-<a href="preview-test/proofs.md"><strong>Test and send proofs</strong></a>
+<a href="preview-test/proofs.md"><strong>Preview and test an email</strong></a>
 </div>
 <p>
 </td>

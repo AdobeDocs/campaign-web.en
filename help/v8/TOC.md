@@ -42,9 +42,9 @@ hide: yes
   + [Set a control group](audience/control-group.md)
   + [Define an audience with the rule builder](audience/segment-builder.md)
 + Preview and test your email {#preview-test}
-  + [About preview and proofs](preview-test/preview-test.md) 
+  + [About preview and test](preview-test/preview-test.md) 
   + [Preview email content](preview-test/preview-content.md)
-  + [Send proofs](preview-test/proofs.md)
+  + [Send test emails](preview-test/proofs.md)
 + Send and monitor the email {#monitor}
   + [Prepare and send an email](monitor/prepare-send.md)
   + [Monitor delivery logs](monitor/delivery-logs.md)
