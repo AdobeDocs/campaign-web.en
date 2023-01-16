@@ -42,9 +42,9 @@ The steps to define the content of your email are as follows:
 
 1. Define the email **[!UICONTROL Subject line]**. To do this, type your subject directly into the dedicated field, or open the Expression Editor to define to add personalization using various attributes and content blocks or offers. [Learn how to personalize content](../personalization/personalize.md)
 
-1. If you want to send offers with your email, select them using the **[!UICONTROL Offers]** button. You will then be able to insert them into the email using personalization fields. [Learn how to send offers](offers.md)
+1. If you want to send offers with your email, select them using the **[!UICONTROL Set up offers]** button. You will then be able to insert them into the email using personalization fields. [Learn how to send offers](offers.md)
 
-1. Click the **[!UICONTROL Email Designer]** button to structure and design the content of the email. Additional information on how to design email content are available in these sections:
+1. Click the **[!UICONTROL Edit email body]** button to structure and design the content of the email. Additional information on how to design email content are available in these sections:
 
     * [Learn how to design emails](create-email-content.md)
     * [Style your content](get-started-email-style.md)
@@ -58,5 +58,3 @@ The steps to define the content of your email are as follows:
 1. By default, tracking is enabled for the delivery. You can disable this option from from the **[!UICONTROL Optional features]** section. [Learn how to add links and manage tracking](message-tracking.md)
 
 Once the content of your email has been defined, use the **[!UICONTROL Simulate content]** button to check how it will display before sending it. [Learn how to preview and test your email](../preview-test/preview-test.md)
-
-<!-- show screenshot showing an email fully configured + highlight the simulate content button-->
