@@ -49,7 +49,7 @@ add info somewhere to remind users that
 
 ## Terminology updates
 
-As an existing Campaign user, note that some concepts have been renamed to align with the latest terminology standards in the industry. These changes only apply to Web UI and are not reflected in the Client Console. They are summarized below.
+As an existing Campaign user, note that some concepts have been renamed to align with the latest terminology standards. These changes only apply to Campaign Web UI and are not reflected in the Client Console. They are summarized below.
 
 * Proofs are now **Test emails**. To send a proof, use the **Test** button in the email delivery UI
 * Delivery analysis is now the **delivery preparation**. When you need to launch the analysis, click the **Prepare** button
