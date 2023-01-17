@@ -1,10 +1,10 @@
 ---
 audience: end-user
-title: About preview and test
-description: Learn how to preview messages and test emails
+title: About email preview and test
+description: Learn how to preview and test emails
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 ---
-# About preview and test emails {#about-preview-proofs}
+# About email preview and test {#about-preview-proofs}
 
 ![](../assets/do-not-localize/badge.png)
 

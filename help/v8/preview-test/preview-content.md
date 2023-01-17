@@ -15,18 +15,16 @@ exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 
 Adobe Campaign allows you to preview the content of your email before sending it to check personalization and how it will appear to your recipients.
 
-You can preview an email using:
-
-* **Test profiles**: Preview the email using seed addresses, which are additional and fictitious recipients in the database,
-* **Profiles**: Preview the email using an existing profile.
-
 To preview the content of your email, follow these steps:
 
 1. Access the email content creation screen and click the **[!UICONTROL Simulate content]** button.
 
     ![](assets/simulate.png)
 
-1. Select one or multiple profiles by clicking the **[!UICONTROL Select profile(s)]** button, then use the **[!UICONTROL Test profiles]** and **[!UICONTROL Profiles]** tabs to choose from.
+1. Select one or multiple profiles by clicking the **[!UICONTROL Select profile(s)]** button, then use the **[!UICONTROL Test profiles]** and **[!UICONTROL Profiles]** tabs to choose from:
+
+    * The **Test profiles** tab contains seed addresses, which are additional and fictitious recipients in the database. They can be created in Adobe Campaign console into the **[!UICONTROL Resources]** / **[!UICONTROL Campaign Management]** / **[!UICONTROL Seed addresses]** folder.
+    * The **Profiles** tab lists all the recipients stored into the **[!UICONTROL Profiles and Targets]** folder from the Campaign console.
 
     You can combine both test profiles and profiles to preview your email.
 
