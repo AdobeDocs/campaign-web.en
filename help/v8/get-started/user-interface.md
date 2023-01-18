@@ -178,14 +178,16 @@ Campaign v8 Web is designed to work optimally in the latest version of Google Ch
 
 User interface is currently available in the following languages:
 
-* English
-* French
-* German
-* Italian
-* Spanish
-* Portuguese (Brazilian)
-* Japanese
-* Korean
+* English (US) - EN-US
+* French - FR
+* German - DE
+* Italian - IT
+* Spanish - ES
+* Portuguese (Brazilian) - PTBR
+* Japanese - JP
+* Korean - KR
+* Simplified Chinese - CHS
+* Traditional Chinese - CHT
 
 Your default interface language is determined by the preferred language specified in your user profile.
 
