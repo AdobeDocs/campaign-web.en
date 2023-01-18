@@ -199,9 +199,6 @@ Campaign v8 Web is currently available in the following languages:
 </tr>
 </table>
 
-|--- |--- |--- |
-| English (US)<br>French - FR<br>German - DE<br>Italian - IT | Spanish - ES<br>Portuguese (Brazilian) - PTBR<br>Japanese - JP | Korean - KR<br>Simplified Chinese - CHS<br>Traditional Chinese - CHT |
-
 Your default interface language is determined by the preferred language specified in your user profile.
 
 To change your language:
