@@ -47,7 +47,7 @@ In the **Weight type** field, three options are available:
 * **Depends on the recipient**
 * **Defined in each rule**
 
-Use the **Delivery weight** field to define the delivery priority. Each delivery has a weight which represents its level of priority. By default, the weight of a delivery is set to 5. Pressure rules let you define the weight of the deliveries which they will be applied to.Weights can be either set or calculated via a formula to suit recipients. For example, you can define the weight of a delivery based on recipient interests.
+Use the **Delivery weight** field to define the delivery priority. Each delivery has a weight which represents its level of priority. By default, the weight of a delivery is set to 5. Pressure rules let you define the weight of the deliveries which they are applied to. Weights can be either set or calculated via a formula to suit recipients. For example, you can define the weight of a delivery based on recipient interests.
 
 
 Use the **Delivery mode** field to select the target evaluation mode. Three modes are available:
@@ -95,7 +95,7 @@ Delivery parameters are technical settings which apply to your delivery.
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_retries"
 >title="Maximum number of retries"
->abstract="If a message fails due to a temporary error, retries will be performed during the delivery duration."
+>abstract="If a message fails due to a temporary error, retries are performed until the end of the delivery duration."
 
 <!--Temporarily undelivered messages due to a Soft or Ignored error are subject to an automatic retry. By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. -->
 
@@ -149,7 +149,7 @@ The mirror page is an HTML page accessible online via a web browser. Its content
 
 In addition to the default mode, the following options are also available:
 
-* **[!UICONTROL Force the generation of the mirror page]**: even if no link to the mirror page is inserted in the delivery, the mirror page will be created.
+* **[!UICONTROL Force the generation of the mirror page]**: even if no link to the mirror page is inserted in the delivery, the mirror page is created.
 * **[!UICONTROL Do not generate the mirror page]**: no mirror page is generated, even if the link is present in the delivery.
 * **[!UICONTROL Generates a mirror page accessible using only the message identifier]**: this option lets you access the content of the mirror page, with personalization information, in the delivery log window. To do this, after the end of the delivery, click the **[!UICONTROL Delivery]** tab and select the line of the recipient whose mirror page you wish to view. Click the **[!UICONTROL Display the mirror page for this message...]** link.
 
@@ -159,11 +159,11 @@ In addition to the default mode, the following options are also available:
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_tracking_validity"
 >title="Validity period"
->abstract="This option defines the duration for which the tracking will be activated on the URLs."
+>abstract="This option defines the duration for which the tracking is activated on the URLs."
 
 Tracking parameters are defined in the related section. Possible options are:
 
-**Tracking validity limit**: use this option to change the duration for which the tracking will be activated on the URLs.
+**Tracking validity limit**: use this option to change the duration for which the tracking is activated on the URLs.
 
 **Substitution URL for expired URLs**: use this option to enter a URL to a fall-back web page: it is displayed once the tracking has expired.
 

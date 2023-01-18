@@ -14,7 +14,7 @@ Test emails can be sent to two types of recipients:
 
 * **Test profiles**: send test emails to seed addresses, which are additional and fictitious recipients in the database. They can be created in Adobe Campaign console into the **[!UICONTROL Resources]** / **[!UICONTROL Campaign Management]** / **[!UICONTROL Seed addresses]** folder.
     
-* **Substitution from main target**: send test emails to a specific email address while impersonating an existing profile. This allows you to experience the email as the recipients would, giving you an accurate representation of the message that the profile will receive.
+* **Substitution from main target**: send test emails to a specific email address while impersonating an existing profile. This allows you to experience the email as the recipients would, giving you an accurate representation of the message that the profile receives.
 
 ## Select the test recipients {#recipients}
 
@@ -22,7 +22,7 @@ Test emails can be sent to two types of recipients:
 
     ![](assets/test-button.png)
 
-1. Use the **[!UICONTROL Mode]** drop-down list to choose the type of recipients that will receive the test email:
+1. Use the **[!UICONTROL Mode]** drop-down list to choose the type of recipients that receive the test email:
 
     * **Test profiles**: send the test email to seed addresses, which are additional and fictitious recipients in the database,
     
@@ -36,7 +36,7 @@ Test emails can be sent to two types of recipients:
 
 1. To send test emails to substitution profiles, choose the **[!UICONTROL Substitution from target]** mode then follow these steps:
 
-    1. Click the **[!UICONTROL Add address]** button and specify the email address that will receive the test email.
+    1. Click the **[!UICONTROL Add address]** button and specify the email address that receives the test email.
 
         You can enter any email address. This allows you to send test emails to any users, even if they are not users of Adobe Campaign V8.
 

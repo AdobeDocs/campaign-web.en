@@ -11,9 +11,9 @@ exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
 >title="Smart preview of your content"
->abstract="Adobe Campaign lets you use profiles to preview the content of your email before sending in order to check personalization and how your recipients will see them."
+>abstract="Adobe Campaign lets you use profiles to preview the content of your email before sending, check personalization and how your recipients will see it."
 
-Adobe Campaign allows you to preview the content of your email before sending it to check personalization and how it will appear to your recipients.
+Adobe Campaign allows you to preview the content of your email before sending it, to check personalization, and how it is displayed to your recipients.
 
 To preview the content of your email, follow these steps:
 
@@ -30,7 +30,7 @@ To preview the content of your email, follow these steps:
 
     ![](assets/preview-profile.png)
 
-1. Once profiles have been selected, a preview of the email will be displayed in the right pane. Personalized elements will be replaced by the data from the profile selected in the left pane.
+1. Once profiles have been selected, a preview of the email is displayed in the right pane. Personalized elements are replaced by the data from the profile selected in the left pane.
 
     If you have added multiple profiles, you can switch between them in the list to preview the corresponding email.
 

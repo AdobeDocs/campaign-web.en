@@ -69,13 +69,13 @@ Once the email is sent, when the recipients click the mirror page link, the cont
 >
 >In the test email sent to the test profiles, the link to the mirror page is not active. It is only activated in the final messages.
 
-The retention period for a mirror page is 60 days. After that delay, the mirror page will no longer be available.
+The retention period for a mirror page is 60 days. After that delay, the mirror page is no longer available.
 
 ## Manage tracking {#manage-tracking}
 
 The [Email Designer](create-email-content.md) allows you to manage the tracked URLs, such as editing the tracking type for each link.
 
-1. Click the **[!UICONTROL Links]** icon from the left pane to display the list of all the URLs of your content that will be tracked.
+1. Click the **[!UICONTROL Links]** icon from the left pane to display the list of all the URLs of your content to be tracked.
 
     This list enables you to have a centralized view and to locate each URL in the email content.
 

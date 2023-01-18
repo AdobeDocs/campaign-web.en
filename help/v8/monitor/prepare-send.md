@@ -86,6 +86,6 @@ Follow these steps:
 
     >[!NOTE]
     >
-    >The **Opens** and **Clicks** indicators will be updated after 5 minutes.  
+    >The **Opens** and **Clicks** indicators are updated after 5 minutes.  
 
-   You can pause the sending at any time and then resume. If you stop the delivery while it is being sent, you will not be able to resume.
+   You can pause the sending at any time and then resume. If you stop the delivery while it is being sent, you cannot resume.

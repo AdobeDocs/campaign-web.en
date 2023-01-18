@@ -37,7 +37,7 @@ The steps to send offers with an email are as follows:
 
 1. To refine the engine's choice of offers, select a specific **[!UICONTROL Offer category]** in which offers are sorted.
 
-    If no category is specified, all the offers contained in the environment will be taken into account by the Offer engine, unless an **[!UICONTROL Offer theme]** is selected.
+    If no category is specified, all the offers contained in the environment are taken into account by the Offer engine, unless an **[!UICONTROL Offer theme]** is selected.
 
     >[!NOTE]
     >
@@ -49,15 +49,15 @@ The steps to send offers with an email are as follows:
 
     This option lets you activate or deactivate the exclusion of recipients for whom there are not enough eligible offers.
     
-    * If the option is enabled, recipients who don't have enough propositions will be excluded from the delivery.
-    * If the option is disabled, these recipients will not be excluded but they won't have the requested number of propositions.
+    * If the option is enabled, recipients who do not have enough propositions are excluded from the delivery.
+    * If the option is disabled, these recipients are not excluded but they cannot have the requested number of propositions.
 
 1. If necessary, select the **[!UICONTROL Hide everything if no offer is selected]** option.
 
-    This option lets you choose how the message will be processed in case one of the propositions does not exist.
+    This option lets you choose how the message is processed in case one of the propositions does not exist.
     
-    * If the option is enabled, the representation of the missing proposition is not displayed and no content will appear in the message for this proposition.
-    * If the option is disabled, the message itself is cancelled during sending and recipients will no longer receive any messages.
+    * If the option is enabled, the representation of the missing proposition is not displayed and no content appears in the message for this proposition.
+    * If the option is disabled, the message itself is cancelled during sending and recipients can no longer receive any messages.
 
 Once you have configured the offers to propose into your email, you can insert them into the email using the Expression Editor. [Learn how to insert offers into the email](#insert)
 

@@ -8,7 +8,7 @@ exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 
 You can use control groups to avoid sending messages to a portion of your audience in order to measure the impact of your campaigns.
 
-To do this, create a control group when defining the audience of your delivery. Profiles are added to the control group randomly, filtered or not, or based on criteria. You will then be able to compare the behavior of the target population which did receive the message with the behavior of contacts which were not targeted. 
+To do this, create a control group when defining the audience of your delivery. Profiles are added to the control group randomly, filtered or not, or based on criteria. You can then compare the behavior of the target population which did receive the message with the behavior of contacts which were not targeted. 
 
 The control group can be extracted randomly from the main target and/or selected from a specific population. Consequently, there are two main ways you can define a control group:
 
@@ -17,7 +17,7 @@ The control group can be extracted randomly from the main target and/or selected
 
 You can use both methods when defining a control group.
 
-All profiles being part of the control group at the delivery preparation step will be removed from the main target. They will not receive the message once it is sent.
+All profiles being part of the control group at the delivery preparation step are removed from the main target. They do not receive the message.
 
 To create a control group, click the **[!UICONTROL Set Control Group]** button, from the **Audience** section of the delivery creation assistant.
 
@@ -32,11 +32,11 @@ To create a control group, click the **[!UICONTROL Set Control Group]** button, 
 
 To define a control group, you can choose to extract, randomly or based on a sorting, a percentage or a fixed number of profiles from the target population.
 
-First, define the way the profiles will be extracted from the target: randomly or based on a sorting.
+First, define the way the profiles are e extracted from the target: randomly or based on a sorting.
 
 Under the **Extract from target** section, choose an **Exclusion type**:
 
-* **Random**: when preparing the delivery, Adobe Campaign will randomly extract a number of profiles corresponding to the percentage or to the maximum number that you will set as the size limit.
+* **Random**: when preparing the delivery, Adobe Campaign  randomly extracts a number of profiles corresponding to the percentage or to the maximum number that is set as the size limit.
 
     ![](assets/control-group.png)
 
@@ -85,4 +85,4 @@ From the **Extra population** section of the **Control Group** definition screen
 
 * To define a new query, select **Create your own** and define the exclusion criteria using the rule builder. Refer to this [section](segment-builder.md). 
 
-The profiles included in the audience or matching the result of the query will be excluded from the target.
+The profiles included in the audience or matching the result of the query are excluded from the target.

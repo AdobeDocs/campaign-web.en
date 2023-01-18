@@ -55,7 +55,7 @@ You can add as many **[!UICONTROL Content components]** as you need inside a **[
 
 ## Container {#container}
 
-You can add a simple container inside which you will be able to add another content component. This allows you to apply a specific styling to the container, which will be different from the component used inside.
+You can add a simple container inside which you add another content component. This allows you to apply a specific styling to the container, which is different from the component used inside.
 
 For example, add a **[!UICONTROL Container]** component and then add a [Button](#button) component inside that container. You can use a specific background for the container, and another one for the button.
 
@@ -75,7 +75,7 @@ Use the **[!UICONTROL Button]** component to insert one or multiple buttons into
 
 1. In the **[!UICONTROL Link]** field, add the URL you want to redirect to when clicking the button.
 
-1. Choose how your audience will be redirected with the **[!UICONTROL Target]** drop-down list:
+1. Choose how your the content is displayed with the **[!UICONTROL Target]** drop-down list:
 
     * **[!UICONTROL None]**: opens the link in the same frame as it was clicked (default).
     * **[!UICONTROL Blank]**: opens the link in a new window or tab.
@@ -174,7 +174,7 @@ Use the **[!UICONTROL Social]** component to insert links to social media pages 
 
 1. Choose the size of your icons in the **[!UICONTROL Size of images]** field.
 
-1. Click on each of your social media icons to configure the **[!UICONTROL URL]** to which your audience will be redirected.
+1. Click on each of your social media icons to configure the **[!UICONTROL URL]** to which your audience is redirected.
 
     ![](assets/email_designer_21.png)
 

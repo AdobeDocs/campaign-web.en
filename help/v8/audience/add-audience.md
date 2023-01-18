@@ -41,4 +41,4 @@ This section explains how to select an existing audience, when defining the targ
 
 1. Click **Save**. 
 
-You can also set a control group to measure the impact of your campaigns. The control group will not receive the message. This allows you to compare the behavior of the population which received the message with the behavior of contacts which did not. See [section](control-group.md).
+You can also set a control group to measure the impact of your campaigns. The control group do not receive the message. This allows you to compare the behavior of the population which received the message with the behavior of contacts which did not. See [section](control-group.md).

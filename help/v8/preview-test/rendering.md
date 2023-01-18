@@ -8,10 +8,9 @@ exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
 
 ![](../assets/do-not-localize/badge.png)
 
-Before sending your email, make sure that your message will be displayed to the recipients in an optimal way on a variety of web clients, web mails and devices.
+Before sending your email, make sure that your message is displayed to the recipients in an optimal way on a variety of web clients, web mails and devices.
 
-To do this, Adobe Campaign allows you to preview the sent message in the different contexts in which it may be received and check the compatibility in major desktops and applications (webmail, message 
-service, mobile, etc.).
+To do this, Adobe Campaign allows you to preview the sent message in the different contexts in which it may be received and check the compatibility in major desktops and applications (webmail, message service, mobile, etc.).
 
 To test the email rendering, follow these steps:
 

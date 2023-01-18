@@ -61,7 +61,7 @@ To start building your email content, follow the steps below:
 
    >[!NOTE]
    >
-   >Stacking columns is not compatible with all email programs. When not supported, columns will not be stacked.
+   >Stacking columns is not compatible with all email programs. When not supported, columns are not stacked.
 
     <!--Once placed in the email, you cannot move nor remove your components unless there is already a content component or a fragment placed inside. This is not true in AJO - TBC?-->
 
@@ -83,7 +83,7 @@ To start building your email content, follow the steps below:
 
 1. Insert personalization fields to customize your email content from profiles data. [Learn more about content personalization](../personalization/personalize.md)
 
-1. Click the **[!UICONTROL Links]** tab from the left pane to display all the URLs of your content that will be tracked. You can modify their **[!UICONTROL Tracking Type]** or **[!UICONTROL Label]** and add **[!UICONTROL Categories]** if needed. [Learn more about links and message tracking](message-tracking.md)
+1. Click the **[!UICONTROL Links]** tab from the left pane to display all the URLs of your content that must be tracked. You can modify their **[!UICONTROL Tracking Type]** or **[!UICONTROL Label]** and add **[!UICONTROL Categories]** if needed. [Learn more about links and message tracking](message-tracking.md)
 
     ![](assets/email_designer_7.png)
 
@@ -91,7 +91,7 @@ To start building your email content, follow the steps below:
 
     >[!CAUTION]
     >
-    >You will not be able to revert back to the visual designer for this email after switching to the code editor.
+    >You cannot revert back to the visual designer for this email after switching to the code editor.
 
 1. Once your content is ready, click **[!UICONTROL Simulate content]** to check your email rendering. You can choose the desktop or mobile view. [Learn more about previewing your email](../preview-test/preview-test.md)
 

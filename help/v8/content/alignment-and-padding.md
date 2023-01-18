@@ -8,7 +8,7 @@ exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
 
 ![](../assets/do-not-localize/badge.png)
 
-In this example, we will adjust padding and vertical alignment inside a structure component composed of three columns.
+In this example, we adjust padding and vertical alignment inside a structure component composed of three columns.
 
 1. Select the structure component directly in the email or using the **[!UICONTROL Navigation tree]** available in the left pane.
 

@@ -8,9 +8,9 @@ exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 
 ![](../assets/do-not-localize/badge.png)
 
-Learn how to create your first targeted email in this use case. We will schedule the sending of an email to silver and gold loyalty customers on a specific date.
+Learn how to create your first targeted email. In this use case, you schedule the sending of an email to Silver and Gold loyalty members on a specific date.
 
-Utilizing a predefined design template, the email will also feature personalized content based on customer profile attributes.
+Based on a predefined design template, the email also features personalized content based on customer profile attributes.
 
 ![](assets/delivery-list.png)
 
@@ -19,7 +19,7 @@ Utilizing a predefined design template, the email will also feature personalized
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_template_selection"
 >title="Select an email template"
->abstract="A template is defined in the Adobe Campaign v8 console. This is a specific delivery configuration that contains predifined parameters like typology rules, personnalization or routing parameters."
+>abstract="An email template is a specific delivery configuration that contains predefined settings, such as typology rules, personnalization or routing parameters. Templates are defined in the Campaign client console."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_properties"
@@ -59,23 +59,23 @@ Utilizing a predefined design template, the email will also feature personalized
 >title="Learn how to design your email content"
 >abstract="Learn how to use the Email Designer."
 
-In this use case, we will use a predefined template to design our email.
+In this use case, you use a predefined template to design our email.
 
-are going to design the email using a predefined template. Detailed instructions on configurinhg email content are available in [this section](../content/edit-content.md).
+Detailed instructions on how to configure the email content are available in [this section](../content/edit-content.md).
 
 1. To start creating the email content, click the **[!UICONTROL Edit content]** button. 
 
-   This will bring you to a dedicated interface where you can configure the email content and design it using the Email Designer. 
+   This brings you to a dedicated interface where you can configure the email content and design it using the Email Designer. 
 
     ![](assets/edit-content.png)
 
-1. Type the subject line of your email and personalize it using the Expression Editor. [Learn how to personalize your content](../personalization/personalize.md)
+1. Enter the subject line of your email and personalize it using the Expression Editor. [Learn how to personalize your content](../personalization/personalize.md)
 
     ![](assets/subject-line.png)
 
 1. To design the body of the email, click the **[!UICONTROL Edit email body]** button.
 
-    Choose the method to use to create your email content. In this example, we will use a predefined design template.
+    Choose the method to use to create your email content. In this example, use a predefined design template.
 
     ![](assets/select-template.png)
 
@@ -85,7 +85,7 @@ are going to design the email using a predefined template. Detailed instructions
 
     ![](assets/import-folder.png)-->
 
-1. Once you have selected the template, it will be displayed in the Email Designer, where you can make any necessary edits and add personalization.
+1. Once you have selected the template, it is displayed in the Email Designer, where you can make any necessary edits and add personalization.
 
     For example, to add personalization to the email title, select the component block and click **[!UICONTROL Add Personalization]**.
 
@@ -100,9 +100,9 @@ are going to design the email using a predefined template. Detailed instructions
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="Define the audience"
->abstract="Select the best audience for your marketing message. You can choose an existing audience already defined in a Campaign v8 instance or from Adobe Experience Platform or you can choose to create a new audience with the rule builder."
+>abstract="Select the best audience for your marketing message. You can choose an existing audience already defined in a Campaign v8 instance or from Adobe Experience Platform, or you can create a new audience with the rule builder."
 
-In this use case, we will send the email to an existing audience. Additional instructions on how to work with audiences are available in [this section](../audience/about-audiences.md).
+In this use case, you send the email to an existing audience. Additional instructions on how to work with audiences are available in [this section](../audience/about-audiences.md).
 
 1. To select the audience for the email, click the **[!UICONTROL Select audience]** button and choose an existing audience from the list.
 
@@ -112,7 +112,7 @@ In this use case, we will send the email to an existing audience. Additional ins
 
     >[!NOTE]
     >
-    >Audiences available in the list originate either from your Campaign V8 instance or from Adobe Experience Platform if the Destination / Sources integration has been configured on your instance.
+    >Audiences available in the list originate either from your Campaign v8 instance or from Adobe Experience Platform if the Destination / Sources integration has been configured on your instance.
     >
     >The Destination / Sources integration allows you to send Experience Platform segments to Adobe Campaign, and to send Campaign delivery and tracking logs over to Adobe Experience Platform. [Learn how work with Campaign and Adobe Experience Platform](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
 
@@ -127,7 +127,7 @@ In this use case, we will send the email to an existing audience. Additional ins
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_schedule"
 >title="Schedule the sending"
->abstract="Define the date and the exact time for your sending. By choosing the most appropriate time for your marketing message, you will maximise open rates."
+>abstract="Define the date and the exact time for your sending. By choosing the most appropriate time for your marketing message, you can maximise open rates."
 
 To schedule the sending of the email, click **[!UICONTROL Enable]** and set the desired date and time for sending. 
 
@@ -139,19 +139,19 @@ By default, the **[!UICONTROL Confirm before sending]** option is enabled, requi
 
 Before sending your email, you can preview and test it to ensure it meets your expectations.
 
-In this use case, we will preview the email and send test versions to specific email addresses while impersonating some of the targeted profiles.
+In this use case, you preview the email and send test versions to specific email addresses while impersonating some of the targeted profiles.
 
 Additional information on how to preview and test emails are available in [this section](../preview-test/preview-test.md).
 
-1. To review and send the email, click **[!UICONTROL Review and send]**. This will display a preview of your email, along with al the configured properties, audience and schedule. You can edit any of these elements by clicking the modify button.
+1. To review and send the email, click **[!UICONTROL Review and send]**. This displays a preview of your email, along with al the configured properties, audience and schedule. You can edit any of these elements by clicking the modify button.
 
-1. To preview the email and send test verrsions, click the **[!UICONTROL Simulate content]** button. This will open the preview interface.
+1. To preview the email and send test verrsions, click the **[!UICONTROL Simulate content]** button. 
 
     ![](assets/review-email.png)
 
 1. On the left-hand side, select the profile(s) you want to use to preview the email.
 
-    The right pane will display a preview of the email based on the selected profile. If you have added multiple profiles, you can switch between them to preview the corresponding email.
+    The right pane displays a preview of the email based on the selected profile. If you have added multiple profiles, you can switch between them to preview the corresponding email.
 
     ![](assets/preview.png)
 
@@ -161,11 +161,11 @@ Additional information on how to preview and test emails are available in [this 
 
 1. To send test versions of your email, click the **[!UICONTROL Test]** button then choose the mode you want to use.
 
-    In this example, we will use the **[!UICONTROL Substitute from main target]** mode, which sends test versions to specific email addresses while impersonating some of the profiles targeted by the email.
+    In this example, use the **[!UICONTROL Substitute from main target]** mode, which sends test versions to specific email addresses while impersonating some of the profiles targeted by the email.
 
     ![](assets/proof-mode.png)
 
-1. Click **[!UICONTROL Add address]** and specify the email address(es) that will receive the test versions.
+1. Click **[!UICONTROL Add address]** and specify the email address(es) which receive the test versions.
 
     For each email address, select the profile to impersonate. You can also let Adobe Campaign select a random profile from the target.
 
@@ -173,7 +173,7 @@ Additional information on how to preview and test emails are available in [this 
 
 1. Click **[!UICONTROL Send test email ]** and confirm the sending.
 
-    Test versions will be sent to the specified email addresses using the selected profile with the **[Proof x]** prefix.
+    Test versions are sent to the specified email addresses using the selected profile with the **[Proof x]** prefix.
 
     ![](assets/proof-sent.png)
 

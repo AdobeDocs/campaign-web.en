@@ -44,7 +44,7 @@ You can use the search bar to find elements quickly.
 
 ## The canvas
 
-The canvas is the central zone in which you can configure and combine rules based on the elements added from the palette. To add a new rule, drag a tile from the palette and drop it onto the canvas. You will then be presented with context-specific options according to the type of data being added. 
+The canvas is the central zone in which you can configure and combine rules based on the elements added from the palette. To add a new rule, drag a tile from the palette and drop it onto the canvas. You can then be presented with context-specific options according to the type of data being added. 
 
 ![](assets/segment-builder4.png){width="70%" align="left"}
 
@@ -61,7 +61,7 @@ On the right side, the **Rule properties** pane allows you to perform the follow
 
 ## Example
 
-In this example, we will build an audience to target all customers living in Atlanta or Seattle and born after 1980. 
+In this example, we build an audience to target all customers living in Atlanta or Seattle and born after 1980. 
 
 1. In the **Attributes** tab of the palette, search for the **Date of birth** field. Drag the tile and drop it onto the canvas. 
 

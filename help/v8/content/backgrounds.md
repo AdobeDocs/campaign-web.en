@@ -43,7 +43,7 @@ Below are the available background settings that you can use.
 
   >[!NOTE]
   >
-  >Some email programs do not support background images. When not supported, the row background color will be used instead. Make sure you select an appropriate fallback background color in case the image cannot be displayed.
+  >Some email programs do not support background images. When not supported, the row background color is used instead. Make sure you select an appropriate fallback background color in case the image cannot be displayed.
 
 * Set a background color at the column level.
 
