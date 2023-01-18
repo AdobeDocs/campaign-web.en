@@ -146,16 +146,6 @@ The top bar of the interface allows you to:
 Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
 -->
 
-## Contextual help and on-boarding guide
-
-A contextual help is available in the interface. When available, click on the **?** icon to display help information and related documentation links. 
-
-![](assets/context-help.png){width="70%" align="left"}
-
-An on-boarding guide is also available to help you get started with Campaign v8 Web. Click the icon in the bottom right corner, choose one of the available step-by-step scenarios, and simply follow the instructions.
-
-![](assets/onboarding.png){width="70%" align="left"}
-
 ## Configure list screens {#list-screens}
 
 Several links from the left navigation menu, for example **Deliveries** or **Campaigns**, display lists of objects. These list screens are read-only, except the email delivery list. 
@@ -169,6 +159,43 @@ The lists are displayed in columns. You can display additional information by ch
 ![](assets/columns.png){width="70%" align="left"}
 
 You can sort items in the list by clicking any column header. An arrow is displayed (Up or Down) indicating that the list is sorted on that column. For numeric or date columns, the Up arrow indicates that the list is sorted in ascending order while the Down arrow indicates a descending order. For string or alphanumeric columns, values are listed in alphabetical order.
+
+## Contextual help and on-boarding guide
+
+A contextual help is available in the interface. When available, click on the **?** icon to display help information and related documentation links. 
+
+![](assets/context-help.png){width="70%" align="left"}
+
+An on-boarding guide is also available to help you get started with Campaign v8 Web. Click the icon in the bottom right corner, choose one of the available step-by-step scenarios, and simply follow the instructions.
+
+![](assets/onboarding.png){width="70%" align="left"}
+
+## Supported browsers {#browsers}
+
+Campaign v8 Web is designed to work optimally in the latest version of Google Chrome, Safari and Microsoft Edge. You might have trouble using certain features on older versions or other browsers.
+
+## Language preferences {#language-pref}
+
+User interface is currently available in the following languages:
+
+* English
+* French
+* German
+* Italian
+* Spanish
+* Portuguese (Brazilian)
+* Japanese
+* Korean
+
+Your default interface language is determined by the preferred language specified in your user profile.
+
+To change your language:
+
+* Click **Preferences** from your avatar, on the top right.
+    ![](assets/preferences.png)
+* Then click the language displayed under your email address
+* Select your preferred language and click **Save**. You can select a second language in case the component you are using is not localized in your first language.
+    ![](assets/select-language.png)
 
 <!--
 ## Supported browsers {#browsers}
