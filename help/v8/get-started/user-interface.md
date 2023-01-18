@@ -178,23 +178,47 @@ Campaign v8 Web is designed to work optimally in the latest version of Google Ch
 
 Campaign v8 Web is currently available in the following languages:
 
-<table style="table-layout:fixed">
-<tr style="border: 1;">
-<td valign="top">
+<table>
+<tr>
+<td>
 <p>English (US) - EN-US</p>
-<p>French - FR</p>
-<p>German - DE</p>
-<p>Italian - IT</p>
 </td>
-<td valign="top">
+<td>
 <p>Spanish - ES</p>
+</td>
+<td>
+<p>Korean - KR</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>French - FR</p>
+</td>
+<td>
 <p>Portuguese (Brazilian) - PTBR</p>
+</td>
+<td>
+<p>Simplified Chinese - CHS</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>German - DE</p>
+</td>
+<td>
 <p>Japanese - JP</p>
 </td>
-<td valign="top">
-<p>Korean - KR</p>
-<p>Simplified Chinese - CHS</p>
+<td>
 <p>Traditional Chinese - CHT</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Italian - IT</p>
+</td>
+<td>
+</td>
+<td>
 </td>
 </tr>
 </table>
