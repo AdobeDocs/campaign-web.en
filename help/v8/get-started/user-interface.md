@@ -182,46 +182,25 @@ Campaign v8 Web is currently available in the following languages:
 <tr>
 <td>
 <p>English (US) - EN-US</p>
-</td>
-<td>
-<p>Spanish - ES</p>
-</td>
-<td>
-<p>Korean - KR</p>
-</td>
-</tr>
-<tr>
-<td>
 <p>French - FR</p>
-</td>
-<td>
-<p>Portuguese (Brazilian) - PTBR</p>
-</td>
-<td>
-<p>Simplified Chinese - CHS</p>
-</td>
-</tr>
-<tr>
-<td>
 <p>German - DE</p>
-</td>
-<td>
-<p>Japanese - JP</p>
-</td>
-<td>
-<p>Traditional Chinese - CHT</p>
-</td>
-</tr>
-<tr>
-<td>
 <p>Italian - IT</p>
 </td>
 <td>
+<p>Spanish - ES</p>
+<p>Portuguese (Brazilian) - PTBR</p>
+<p>Japanese - JP</p>
 </td>
 <td>
+<p>Korean - KR</p>
+<p>Simplified Chinese - CHS</p>
+<p>Traditional Chinese - CHT</p>
 </td>
 </tr>
 </table>
+
+|--- |--- |--- |
+| English (US)<br>French - FR<br>German - DE<br>Italian - IT | Spanish - ES<br>Portuguese (Brazilian) - PTBR<br>Japanese - JP | Korean - KR<br>Simplified Chinese - CHS<br>Traditional Chinese - CHT |
 
 Your default interface language is determined by the preferred language specified in your user profile.
 
