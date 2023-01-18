@@ -176,7 +176,7 @@ Campaign v8 Web is designed to work optimally in the latest version of Google Ch
 
 ## Language preferences {#language-pref}
 
-User interface is currently available in the following languages:
+Campaign v8 Web is currently available in the following languages:
 
 * English (US) - EN-US
 * French - FR
@@ -193,10 +193,16 @@ Your default interface language is determined by the preferred language specifie
 
 To change your language:
 
-* Click **Preferences** from your avatar, on the top right.
-    ![](assets/preferences.png)
-* Then click the language displayed under your email address
-* Select your preferred language and click **Save**. You can select a second language in case the component you are using is not localized in your first language.
+1. Click on your profile icon, on the top right, then select **Preferences**.
+
+    ![](assets/preferences.png){width="70%" align="left"}
+
+1. Then click the language displayed under your email address.
+
+    ![](assets/preferences2.png)
+
+1. Select your preferred language and click **Save**. You can select a second language in case the component you are using is not localized in your first language.
+
     ![](assets/select-language.png)
 
 <!--
