@@ -43,11 +43,8 @@ add info somewhere to remind users that
 * they keep their existing data (example: will be able to use their existing delivery templates to create deliveries)
 -->
 
->[!NOTE]
->
->Please note that cross-channel campaigns and workflow management capabilities will be available with the beta release. 
 
-## Terminology updates
+## Terminology updates{#terminology-updates}
 
 As an existing Campaign user, note that some concepts have been renamed to align with the latest terminology standards. These changes only apply to Campaign Web UI and are not reflected in the Client Console. They are summarized below.
 
@@ -56,3 +53,17 @@ As an existing Campaign user, note that some concepts have been renamed to align
 * Delivery analysis is now the **delivery preparation**. When you need to launch the analysis, click the **Prepare** button
 * Email Preview is now available throught the **Simulate content** button
 * Lists are now **Audiences**
+
+## Limitations{#limitations-alpha}
+
+Some Campaign key capabilities, such as cross-channel campaigns and workflow management, will be available with the Beta release. 
+
+The limitations below apply to this Alpha version:
+
+* The only editable objects are Deliveries. The others are read-only. Use filters to browse them all.
+* This version is designed for one off email campaigns. Other channels are not yet supported.
+* The Administration user interface is not available.
+* Reporting metrics (such as opens and tracking data) are updated every hour.
+* Delivery dashboard KPIs are updated every 5 min. - but the Delivery preparation is real-time.
+* Adobe Experience Cloud Notifications and Unified Help available in the top bar are not yet integrated.
+
