@@ -66,6 +66,22 @@ Once the preparation is complete with no error, your message is ready to be sent
 
 ## Send the message{#send}
 
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_delivered"
+>title="Delivered"
+>abstract="The number of messages successfully delivered. This indicator is updated every 5 minutes. The percentage displayed is based on the total number of sent messages."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_opens"
+>title="Opens"
+>abstract="The number of opened messages. This indicator is updated every 5 minutes. The percentage displayed is the ratio of the number of distinct opens compared with the number of delivered messages."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_clicks"
+>title="Clicks"
+>abstract="The number of recipient who clicked at least once in the email. This indicator is updated every 5 minutes. The percentage displayed is the ratio of the number of distinct clicks compared with the number of delivered messages."
+
+
 Once the preparation is complete, you can now send your message. This step is only required for messages sent immediately. If the message is scheduled, it is sent at the defined date. 
 
 Follow these steps:
@@ -86,6 +102,6 @@ Follow these steps:
 
     >[!NOTE]
     >
-    >The **Opens** and **Clicks** indicators are updated after 5 minutes.  
+    >All the indicators are updated every 5 minutes after the delivery start. The Delivery preparation indicators are real-time.
 
    You can pause the sending at any time and then resume. If you stop the delivery while it is being sent, you cannot resume.
