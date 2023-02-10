@@ -35,7 +35,7 @@ Campaign now provides a new web user interface with enhanced usability, accessib
 <p></td>
 <td>
 <a href="audience/about-audiences.md">
-<img alt="Audiences" src="assets/do-not-localize/email-opt-out.jpg">
+<img alt="Audiences" src="assets/do-not-localize/email-audience.jpg">
 </a>
 <div>
 <a href="audience/about-audiences.md"><strong>Select an audience</strong></a>
@@ -44,7 +44,7 @@ Campaign now provides a new web user interface with enhanced usability, accessib
 </td>
 <td>
 <a href="preview-test/proofs.md">
-<img alt="Validation" src="assets/do-not-localize/email-config.jpg">
+<img alt="Validation" src="assets/do-not-localize/email-preview.jpg">
 </a>
 <div>
 <a href="preview-test/proofs.md"><strong>Preview and test an email</strong></a>
