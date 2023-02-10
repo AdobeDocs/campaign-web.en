@@ -171,7 +171,7 @@ Additional information on how to preview and test emails are available in [this 
 
     ![](assets/proof-test-profile.png)
 
-1. Click **[!UICONTROL Send test email ]** and confirm the sending.
+1. Click **[!UICONTROL Send test email]** and confirm the sending.
 
     Test versions are sent to the specified email addresses using the selected profile with the **[Proof x]** prefix.
 
