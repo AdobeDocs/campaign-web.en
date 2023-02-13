@@ -220,3 +220,22 @@ To change your language:
 
 Adobe Campaign interface is designed to work optimally in the latest version of Google Chrome. You might have trouble using certain features on older versions or other browsers.
 -->
+
+
+
+<!--
+######## This part stores the contextualHelp definition for WebUI BETA ###########
+######## These blocks should be dispatched in the appropriate pages when available ###########
+######## PLEASE DO NOT DELETE ###########
+-->
+
+>[!CONTEXTUALHELP]
+>id="acw_sms_report_overview"
+>title="SMS report summary"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_push_report_overview"
+>title="Push report summary"
+>abstract="TBC"
+
