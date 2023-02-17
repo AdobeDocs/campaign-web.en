@@ -232,10 +232,24 @@ Adobe Campaign interface is designed to work optimally in the latest version of 
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
 >title="SMS report summary"
->abstract="TBC"
+>abstract="TBD"
 
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
 >title="Push report summary"
->abstract="TBC"
+>abstract="TBD"
 
+>[!CONTEXTUALHELP]
+>id="acw_import_from_a_file"
+>title="Import an audience from a file"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_import_from_a_file_formatting"
+>title="Format settings"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_import_from_a_file_columns"
+>title="Columns settings"
+>abstract="TBD"
