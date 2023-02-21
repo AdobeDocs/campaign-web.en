@@ -253,3 +253,8 @@ Adobe Campaign interface is designed to work optimally in the latest version of 
 >id="acw_import_from_a_file_columns"
 >title="Columns settings"
 >abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_push_notification_template"
+>title="Push Notification template"
+>abstract="TBD"
