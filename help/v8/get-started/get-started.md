@@ -16,7 +16,7 @@ only existing customers
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="Get started"
->abstract="Discover key capabilities, user interface and global guidelines."
+>abstract="Discover key capabilities, user interface, and global guidelines."
 
 >[!NOTE]
 >
