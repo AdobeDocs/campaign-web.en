@@ -26,9 +26,9 @@ Based on a predefined design template, the email also features personalized cont
 >title="Email Properties"
 >abstract="The properties are the common delivery parameters that helps you to name and classify your delivery. If your delivery is based on an extended schema defined in the Adobe Campaign v8 console, some specific **Custom Options** fields are available."
 
-1. To create a new delivery, go to the **[!UICONTROL Deliveries]** menu and select **[!UICONTROL Email]** as the channel.
+1. To create a new delivery, browse to the **[!UICONTROL Deliveries]** menu on the left rail, and click the  **[!UICONTROL Create delivery]** button.
 
-1. Select the template you want to use and click **[!UICONTROL Create delivery]**.
+1. Select **[!UICONTROL Email]** as the channel and choose a template.
 
     >[!NOTE]
     >
@@ -36,7 +36,8 @@ Based on a predefined design template, the email also features personalized cont
 
     ![](assets/channel-template.png)
 
-1. Provide a label for the email and configure additional options based on your needs:
+1. Click the **[!UICONTROL Create delivery]** button to confirm.
+1. Enter a label for the delivery and configure additional options based on your needs:
 
     * **[!UICONTROL Internal name]**: assign a unique identifier to the delivery,
     * **[!UICONTROL Folder]**: store the delivery in a specific folder,
@@ -59,11 +60,11 @@ Based on a predefined design template, the email also features personalized cont
 >title="Learn how to design your email content"
 >abstract="Learn how to use the Email Designer."
 
-In this use case, you use a predefined template to design our email.
-
 Detailed instructions on how to configure the email content are available in [this section](../content/edit-content.md).
 
-1. To start creating the email content, click the **[!UICONTROL Edit content]** button. 
+In this use case, you use a predefined template to design our email.
+
+1. To start creating the email content, open your email delivery and click the **[!UICONTROL Edit content]** button. 
 
    This brings you to a dedicated interface where you can configure the email content and design it using the Email Designer. 
 
@@ -73,7 +74,7 @@ Detailed instructions on how to configure the email content are available in [th
 
     ![](assets/subject-line.png)
 
-1. To design the body of the email, click the **[!UICONTROL Edit email body]** button.
+1. To design the content of the email, click the **[!UICONTROL Edit email body]** button.
 
     Choose the method to use to create your email content. In this example, use a predefined design template.
 
@@ -129,9 +130,9 @@ In this use case, you send the email to an existing audience. Additional instruc
 >title="Schedule the sending"
 >abstract="Define the date and the exact time for your sending. By choosing the most appropriate time for your marketing message, you can maximise open rates."
 
-To schedule the sending of the email, click **[!UICONTROL Enable]** and set the desired date and time for sending. 
+To schedule the sending of the email, open your email delivery and browse to the **Schedule** section. Use the **[!UICONTROL Enable scheduling]** toggle to activate it and set the desired date and time for sending. Once you send the delivery, the actual sending will start on the contact date you have defined.
 
-By default, the **[!UICONTROL Confirm before sending]** option is enabled, requiring you to confirm the sending before the email is sent at the scheduled date and time. If you wish to send the email automatically on the scheduled date and time, you can disable this option.
+By default, the **[!UICONTROL Enable confirmation before sending]** option is enabled. This option requires you to confirm the sending before the email is sent at the scheduled date and time. If you need to send the email automatically on the scheduled date and time, you can disable this option.
 
 ![](assets/schedule.png)
 
@@ -143,7 +144,7 @@ In this use case, you preview the email and send test versions to specific email
 
 Additional information on how to preview and test emails are available in [this section](../preview-test/preview-test.md).
 
-1. To review and send the email, click **[!UICONTROL Review and send]**. This displays a preview of your email, along with al the configured properties, audience and schedule. You can edit any of these elements by clicking the modify button.
+1. To review your email, click **[!UICONTROL Review and send]**. This displays a preview of your email, along with al the configured properties, audience and schedule. You can edit any of these elements by clicking the modify button.
 
 1. To preview the email and send test verrsions, click the **[!UICONTROL Simulate content]** button. 
 
