@@ -258,3 +258,18 @@ Adobe Campaign interface is designed to work optimally in the latest version of 
 >id="acw_push_notification_template"
 >title="Push Notification template"
 >abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_properties"
+>title="Campaign creation properties"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_schedule"
+>title="Campaign creation schedule"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_rulebuilder_properties_advanced"
+>title="Rule Builder Advanced attributes"
+>abstract="TBD"
