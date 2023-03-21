@@ -273,3 +273,13 @@ Adobe Campaign interface is designed to work optimally in the latest version of 
 >id="acw_rulebuilder_properties_advanced"
 >title="Rule Builder Advanced attributes"
 >abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_sent"
+>title="Sent Metrics"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_errors"
+>title="Errors Metrics"
+>abstract="TBD"
