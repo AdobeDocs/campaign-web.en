@@ -16,17 +16,17 @@ exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
 >title="Email Header"
->abstract="TBC"
+>abstract="In this section, you can control the From Name and From Email values that are defined in the email template. The Subject Line field can be customized using the expression editor."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
 >title="Email attachment"
->abstract="TBC"
+>abstract="Select one or multiples files to insert in your message."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
 >title="Tracking options"
->abstract="TBC"
+>abstract="By default, tracking is enabled for the delivery. You can disable this option from here."
 
 To start creating the content of an email, click the **[!UICONTROL Edit content]** button from the email creation screen.
 
@@ -55,6 +55,6 @@ The steps to define the content of your email are as follows:
 
     <!--limitation on size + number of files?-->
 
-1. By default, tracking is enabled for the delivery. You can disable this option from from the **[!UICONTROL Optional features]** section. [Learn how to add links and manage tracking](message-tracking.md)
+1. By default, tracking is enabled for the delivery. You can disable this option from the **[!UICONTROL Optional features]** section. [Learn how to add links and manage tracking](message-tracking.md)
 
 Once the content of your email has been defined, use the **[!UICONTROL Simulate content]** button to check how it displays before sending it. [Learn how to preview and test your email](../preview-test/preview-test.md)

@@ -28,7 +28,7 @@ To create a control group, click the **[!UICONTROL Set Control Group]** button, 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_target"
 >title="Extract from target"
->abstract="TBC"
+>abstract="To define a control group, you can choose to extract, randomly or based on a sorting, a percentage or a fixed number of profiles from the target population."
 
 To define a control group, you can choose to extract, randomly or based on a sorting, a percentage or a fixed number of profiles from the target population.
 
@@ -73,7 +73,7 @@ For more information on delivery logs, refer to this [section](../monitor/delive
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
 >title="Extra population"
->abstract="TBC"
+>abstract="Another way to define a control group is to exclude a specific population from the target using an existing audience or by defining a query."
 
 Another way to define a control group is to exclude a specific population from the target using an existing audience or by defining a query.
 

@@ -8,16 +8,6 @@ exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 
 ![](../assets/do-not-localize/badge.png)
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_offers_settings"
->title="Offers settings"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_offers_advanced_settings"
->title="Offers Advanced Settings"
->abstract="TBC"
-
 Adobe Campaign v8 Web allows you to send with your emails offers that have been created in the console using the **[!UICONTROL Interaction]** module. For more information on Interaction and how to manage an offer catalog in the console, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
 
 The steps to send offers with an email are as follows:
@@ -26,6 +16,16 @@ The steps to send offers with an email are as follows:
 1. [Insert the offers into the email](#insert).
 
 ## Configure the offers to propose {#configure}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_offers_settings"
+>title="Offers settings"
+>abstract="Configure which offers should be proposed to the recipients."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_offers_advanced_settings"
+>title="Offers Advanced Settings"
+>abstract="Configure advanced options on offers."
 
 1. To select the offers to propose in your email, click the **[!UICONTROL Offers]** button from the email content edition screen.
 

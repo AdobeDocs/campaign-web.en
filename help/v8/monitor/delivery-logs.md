@@ -11,7 +11,7 @@ exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_preparation_logs"
 >title="Delivery logs"
->abstract="TBC"
+>abstract="The delivery logs allow you to verify that there is no error."
 
 After preparing and sending an email, the delivery logs allow you to verify that there is no error. These logs can be accessed directly from the message dashboard. They show the detail of the sending, which target has been excluded and why, as well as the tracking information such as opens and clicks.
 
