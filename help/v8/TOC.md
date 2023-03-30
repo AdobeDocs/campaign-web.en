@@ -26,6 +26,7 @@ hide: yes
       + [Code your own content](content/code-content.md)
     + [Use content components](content/content-components.md)
     + [Generate the text version](content/text-version-email.md)
+    + [Add a link to the mirror page](content/mirror-page.md)
     + [Add a preheader](content/preheader.md)
     + [Add links and track messages](content/message-tracking.md)    
   + Style your content {#style}

@@ -39,37 +39,7 @@ To insert links into your email content, follow the steps below:
 >
 >Marketing-type email messages must include an opt-out link, which is not required for transactional messages. The message category (**[!UICONTROL Marketing]** or **[!UICONTROL Transactional]**) is defined at the channel surface (i.e. message preset) level and when creating the message.
 
-## Link to a mirror page {#mirror-page}
-
-The mirror page is an HTML page accessible online via a web browser. Its content is identical to the content of your email.
-
-To add a link to a mirror page in your email:
-
-1. Select an element and click **[!UICONTROL Insert link]** from the contextual toolbar.
-
-    ![](assets/message-tracking-mirror-page.png)
-
-1. Select the **[!UICONTROL Insert link]** icon to access the personalization menu.
-
-    ![](assets/message-tracking-mirror-page_2.png)
-
-1. From the **[!UICONTROL Content block]** menu, select **[!UICONTROL Mirror page URL]** and click **[!UICONTROL Add]**.
-
-    ![](assets/message-tracking-mirror-page_3.png)
-
-The mirror page is automatically created.
-
->[!IMPORTANT]
->
->Mirror pages links are auto-generated and cannot be edited. They contain all the encrypted personalized data that is required to render the original email. As a result, using personalised attributes with large values may generate lengthy mirror pages URLs, which can prevent the link from working in web browsers that have a maximum URLs length.
-
-Once the email is sent, when the recipients click the mirror page link, the content of the email is displayed in their default web browser.
-
->[!NOTE]
->
->In the test email sent to the test profiles, the link to the mirror page is not active. It is only activated in the final messages.
-
-The retention period for a mirror page is 60 days. After that delay, the mirror page is no longer available.
+A specific link to the mirror page should be added in all your email messages. Learn more about the mirror page in [this section](mirror-page.md).
 
 ## Manage tracking {#manage-tracking}
 

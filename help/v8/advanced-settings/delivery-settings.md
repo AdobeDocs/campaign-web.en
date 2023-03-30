@@ -129,14 +129,14 @@ You can select another approval mode in the appropriate field. Available modes a
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_resources_validity"
 >title="Resources validity limit"
->abstract="The Validity limit field is used for uploaded resources, mainly for the mirror page and images. The resources on this page are valid for a limited time."
+>abstract="The Validity limit field is used for uploaded resources, such as the mirror page or images. These resources are valid for a limited time: once the limit is reached, resources are no longer available."
 
 
 The **Delivery duration** field lets you enter the limit for global delivery retries. This means that Adobe Campaign sends the messages beginning on the start date, and then, for messages returning an error only, regular, configurable retries are performed until the validity limit is reached.
 
 You can also choose to specify dates. To do this, select **Explicitly set validity dates**. In this case, the delivery and validity limit dates also let you specify the time. The current time is used by default, but you can modify this directly in the input field.
 
-**Resources Validity limit** is used for uploaded resources, mainly for the mirror page and images. The resources on this page are valid for a limited time (to save disk space).
+**Resources Validity limit** is used for uploaded resources, mainly for the mirror page and images. The resources on this page are valid for a limited time (to save disk space). After this limit, these resources are no longer available.
 
 ![](assets/delivery-settings-2.png)
 
@@ -149,9 +149,10 @@ The mirror page is an HTML page accessible online via a web browser. Its content
 
 In addition to the default mode, the following options are also available:
 
-* **[!UICONTROL Force the generation of the mirror page]**: even if no link to the mirror page is inserted in the delivery, the mirror page is created.
-* **[!UICONTROL Do not generate the mirror page]**: no mirror page is generated, even if the link is present in the delivery.
-* **[!UICONTROL Generates a mirror page accessible using only the message identifier]**: this option lets you access the content of the mirror page, with personalization information, in the delivery log window. To do this, after the end of the delivery, click the **[!UICONTROL Delivery]** tab and select the line of the recipient whose mirror page you wish to view. Click the **[!UICONTROL Display the mirror page for this message...]** link.
+
+* **[!UICONTROL Force the generation of the mirror page]**: use this mode to generate the mirror page even if no link to the mirror page is inserted in the delivery.
+* **[!UICONTROL Do not generate the mirror page]**: use this mode to avoid generating a mirror page, even if the link is present in the delivery.
+* **[!UICONTROL Generates a mirror page accessible using only the message identifier]**: when the mirror page link is not present in the email content, use this option to enable access the content of the mirror page, in the delivery log window, from the Client Console. 
 
 
 ### Tracking {#tracking}

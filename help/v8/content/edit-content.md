@@ -15,8 +15,8 @@ exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
->title="Email Header"
->abstract="In this section, you can control the From Name and From Email values that are defined in the email template. The Subject Line field can be customized using the expression editor."
+>title="Email parameters"
+>abstract="The From Name and From Email values are defined in the email template. The Subject Line can be personalized using the expression editor."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
