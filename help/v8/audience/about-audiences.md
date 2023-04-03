@@ -38,9 +38,11 @@ In this section, learn how to define the audience of email. The audience is the 
 
 To define the audience, you can:
 
-* use an existing audience, see this [section](add-audience.md).
-* create a new audience. See this [section](segment-builder.md).
+* Use an existing audience. [Learn more](add-audience.md)
+* Create a new audience. [Learn more](segment-builder.md)
+* Import an audience from a file. [Learn more](import-audience.md)
+* Use an Adobe Experience Platform audience. [Learn more](aep-audience.md)
 
-You can also define control groups to avoid sending messages to a portion of your audience in order to measure the impact of your campaigns. See this [section](control-group.md).
+In addition, you can define control groups to avoid sending messages to a portion of your audience, and measure the impact of your campaigns. [Learn more](control-group.md)
 
 ![](assets/about-audience.png)
