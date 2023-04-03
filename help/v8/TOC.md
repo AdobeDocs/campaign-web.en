@@ -18,6 +18,7 @@ hide: yes
   + [Get started](get-started/get-started.md)
   + [Discover the interface](get-started/user-interface.md)
 + Messages & deliveries {#msg}
+  + [Get started with messages](email/gs-messages.md)
   + Emails {#email}
     + [Create your first email](email/create-email.md)
     + Create email content {#content}
@@ -54,11 +55,10 @@ hide: yes
   + SMS {#sms}
     + [Get started with SMS deliveries](sms/gs-sms.md)
 + Audiences & recipients {#audiences}
-  + Select audience of an email {#target}
-    + [Get started with audiences](audience/about-audiences.md)
-    + [Select an audience](audience/add-audience.md)
-    + [Set a control group](audience/control-group.md)
-    + [Define an audience with the rule builder](audience/segment-builder.md)
+  + [Get started with audiences](audience/about-audiences.md)
+  + [Select an audience](audience/add-audience.md)
+  + [Set a control group](audience/control-group.md)
+  + [Define an audience with the rule builder](audience/segment-builder.md)
 + Cross channel campaigns {#campaigns}
   + [Get started with campaigns](campaigns/gs-campaigns.md)
   + [Create your first campaign](campaigns/create-campaigns.md)
