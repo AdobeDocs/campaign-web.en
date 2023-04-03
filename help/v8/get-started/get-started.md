@@ -3,16 +3,10 @@ audience: end-user
 title: Get started with Campaign v8 Web
 description: Get started with Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
+badge: label="Alpha" type="Informative"
 ---
 # Get started with Campaign v8 Web {#get-started}
 
-![](../assets/do-not-localize/badge.png)
-
-<!--
-V8 web overview
-context, scope (targets cross-channel practitioners), limitations
-only existing customers
--->
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="Get started"

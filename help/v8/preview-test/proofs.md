@@ -3,10 +3,9 @@ audience: end-user
 title: Send test emails
 description: Learn how to define and send test emails
 exl-id: b2677579-c95d-443d-b207-466af364c208
+badge: label="Alpha" type="Informative"
 ---
 # Send test emails {#send-proofs}
-
-![](../assets/do-not-localize/badge.png)
 
 Sending test emails is an important step in validating your email campaign and identifying potential issues. By sending test emails, you can check various elements such as links, opt-out links, images, and mirror pages, as well as detect any errors.
 

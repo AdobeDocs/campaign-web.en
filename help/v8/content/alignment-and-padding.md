@@ -3,10 +3,10 @@ audience: end-user
 title: Adjust vertical alignment and padding in Email Designer
 description: Learn how to adjust vertical alignment and padding
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
+badge: label="Alpha" type="Informative"
 ---
-# Adjust vertical alignment and padding {#alignment-and-padding}
 
-![](../assets/do-not-localize/badge.png)
+# Adjust vertical alignment and padding {#alignment-and-padding}
 
 In this example, we adjust padding and vertical alignment inside a structure component composed of three columns.
 

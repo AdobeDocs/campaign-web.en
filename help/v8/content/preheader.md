@@ -3,10 +3,9 @@ audience: end-user
 title: Add a preheader in the Email Designer
 description: Learn how to design your emails content
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
+badge: label="Alpha" type="Informative"
 ---
-# Add a preheader {#preheader}
-
-![](../assets/do-not-localize/badge.png)
+# Add a preheader to an email {#preheader}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"

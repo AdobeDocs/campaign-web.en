@@ -3,10 +3,9 @@ audience: end-user
 title: Code your own email content
 description: Learn how to code your own email content
 exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
+badge: label="Alpha" type="Informative"
 ---
-# Code your own content {#code-content}
-
-![](../assets/do-not-localize/badge.png)
+# Code your own email content {#code-content}
 
 Use the **[!UICONTROL Code your own]** mode to import raw HTML and/or code your email content. This method requires HTML skills.
 

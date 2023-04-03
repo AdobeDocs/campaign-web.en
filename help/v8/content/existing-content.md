@@ -3,10 +3,9 @@ audience: end-user
 title: Import your email content
 description: Learn how to import email content
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
+badge: label="Alpha" type="Informative"
 ---
 # Import your email content {#existing-content}
-
-![](../assets/do-not-localize/badge.png)
 
 The Email designer allows you to import existing HTML content. This content can be:
 

@@ -3,10 +3,9 @@ audience: end-user
 title: Monitor delivery logs
 description: Learn how to monitor delivery logs
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
+badge: label="Alpha" type="Informative"
 ---
 # Monitor delivery logs {#delivery-logs}
-
-![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_preparation_logs"

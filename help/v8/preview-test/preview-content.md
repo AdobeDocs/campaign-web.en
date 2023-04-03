@@ -3,10 +3,10 @@ audience: end-user
 title: Preview email content
 description: Learn how to preview your email content with Campaign Web UI
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
+badge: label="Alpha" type="Informative"
 ---
-# Preview email content {#preview}
 
-![](../assets/do-not-localize/badge.png)
+# Preview email content {#preview} 
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"

@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign Web v8 Release Notes
 description: Campaign Web v8 Release Notes
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
+badge: label="Alpha" type="Informative"
 ---
-# Release Notes {#release-notes}
 
-![](../assets/do-not-localize/badge.png)
+# Release Notes {#release-notes}
 
 This page lists all the latest features and improvements for Campaign Web v8. 
 

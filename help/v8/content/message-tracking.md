@@ -3,10 +3,9 @@ audience: end-user
 title: Track your messages
 description: Learn how to add links and track sent messages
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
+badge: label="Alpha" type="Informative"
 ---
 # Add links and track messages {#tracking}
-
-![](../assets/do-not-localize/badge.png)
 
 Use the Email designer to add links to your content and track the messages sent in order to monitor the behavior of your recipients.
 

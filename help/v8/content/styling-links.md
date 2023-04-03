@@ -3,10 +3,10 @@ audience: end-user
 title: Define a style for links
 description: Learn how to define a style for links
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
+badge: label="Alpha" type="Informative"
 ---
-# Define a style for links {#styling-links}
 
-![](../assets/do-not-localize/badge.png)
+# Define a style for links {#styling-links}
 
 You can underline a link and select its color and target in the Email Designer.
 

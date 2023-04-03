@@ -3,10 +3,10 @@ audience: end-user
 title: Prepare and send an email
 description: Learn how to prepare and send an email with Campaign Web UI
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
+badge: label="Alpha" type="Informative"
 ---
-# Prepare and send your email {#prepare-send}
 
-![](../assets/do-not-localize/badge.png)
+# Prepare and send your email {#prepare-send}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"

@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
+badge: label="Alpha" type="Informative"
 ---
-# Personalize your content{#add-personalization}
 
-![](../assets/do-not-localize/badge.png)
+# Personalize your content{#add-personalization}
 
 You can personalize the message content by:
 

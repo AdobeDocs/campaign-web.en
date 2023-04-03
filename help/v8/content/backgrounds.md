@@ -3,10 +3,9 @@ audience: end-user
 title: Personalize your email background
 description: Learn how to personalize your email background
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
+badge: label="Alpha" type="Informative"
 ---
 # Personalize your email background {#backgrounds}
-
-![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"

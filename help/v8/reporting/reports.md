@@ -3,16 +3,10 @@ audience: end-user
 title: Delivery reports
 description: Learn how to access and use delivery reports
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
+badge: label="Alpha" type="Informative"
 ---
 # Delivery reports {#reports}
 
-![](../assets/do-not-localize/badge.png)
-
-<!--
-detail delivery reports and how to access them
-
-same content as in v7 (excepted for the navigation that is similar to AJO
--->
 
 Adobe Campaign offers several types of reports, accessible for each delivery. These reports allow you to measure and visualize the impact and performances of your messages in a built-in dashboard.
 

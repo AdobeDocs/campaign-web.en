@@ -3,11 +3,11 @@ audience: end-user
 title: Select an audience
 description: Learn how to select an audience
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
+badge: label="Alpha" type="Informative"
 ---
+
 # Select an audience {#add-audience}
-
-![](../assets/do-not-localize/badge.png)
-
+ 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"
 >title="Select an existing audience"

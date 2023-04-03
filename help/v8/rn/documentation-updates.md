@@ -7,6 +7,4 @@ hidefromtoc: yes
 ---
 # Documentation updates {#latest-updates}
 
-![](../assets/do-not-localize/badge.png)
-
 This page lists all the documentation updates for Campaign v8 Web.

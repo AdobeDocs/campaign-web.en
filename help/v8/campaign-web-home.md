@@ -3,13 +3,11 @@ keywords: Campaign Web;home;popular topics
 description: Campaign Web v8 help center
 title: Adobe Campaign Web v8 product documentation
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
+badge: label="Alpha" type="Informative"
 ---
 # Adobe Campaign v8 Web Documentation {#campaign-documentation}
 
 ![](assets/do-not-localize/banner-documentationv8.png) 
-
-![](assets/do-not-localize/badge.png) 
-
 
 Campaign now provides a new web user interface with enhanced usability, accessibility, and a new design to significantly improve your user experience. This new modern UI simplifies marketing campaign design and delivery, and brings consistency, along with other Adobe solutions, including Adobe Experience Platform. [Learn more](get-started/get-started.md)
 

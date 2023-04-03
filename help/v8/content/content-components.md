@@ -3,10 +3,9 @@ audience: end-user
 title: Use email designer content components
 description: Learn how to use content components in your emails
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
+badge: label="Alpha" type="Informative"
 ---
 # Use the Email designer content components {#content-components}
-
-![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_email"
