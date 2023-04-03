@@ -8,8 +8,6 @@ badge: label="Alpha" type="Informative"
 
 # Email delivery settings {#email-del-settings}
 
-![Alpha version](../assets/do-not-localize/badge.png)
-
 These settings are **technical delivery parameters** that are defined in the email template. They are available from the **Configure delivery settings** icon available when editing an email delivery.
 
 ## Email delivery settings {#email-delivery-settings}
