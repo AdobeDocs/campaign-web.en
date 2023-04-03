@@ -57,8 +57,9 @@ hide: yes
 + Audiences & recipients {#audiences}
   + [Get started with audiences](audience/about-audiences.md)
   + [Select an audience](audience/add-audience.md)
+  + [Create an audience with the rule builder](audience/segment-builder.md)
+  + [Import an audience](audience/import-audience.md)
   + [Set a control group](audience/control-group.md)
-  + [Define an audience with the rule builder](audience/segment-builder.md)
 + Cross channel campaigns {#campaigns}
   + [Get started with campaigns](campaigns/gs-campaigns.md)
   + [Create your first campaign](campaigns/create-campaigns.md)
