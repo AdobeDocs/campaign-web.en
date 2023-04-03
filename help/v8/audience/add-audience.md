@@ -3,7 +3,7 @@ audience: end-user
 title: Select an audience
 description: Learn how to select an audience
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
- badge: label="Alpha" type="Positive"
+badge: label="Alpha" type="Positive"
 ---
 
 # Select an audience {#add-audience}

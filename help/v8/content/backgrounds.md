@@ -3,7 +3,7 @@ audience: end-user
 title: Personalize your email background
 description: Learn how to personalize your email background
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
- badge: label="Alpha" type="Positive"
+badge: label="Alpha" type="Positive"
 ---
 # Personalize your email background {#backgrounds}
 

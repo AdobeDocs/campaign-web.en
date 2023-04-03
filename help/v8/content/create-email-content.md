@@ -3,7 +3,7 @@ audience: end-user
 title: Design emails in the Email Designer
 description: Learn how to design your emails content from scratch
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
- badge: label="Alpha" type="Positive"
+badge: label="Alpha" type="Positive"
 ---
 # Start your email content from scratch {#create-email-content}
 

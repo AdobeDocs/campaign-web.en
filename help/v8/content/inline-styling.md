@@ -3,7 +3,7 @@ audience: end-user
 title: Add inline styling attributes
 description: Learn how to add inline styling attributes
 exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
- badge: label="Alpha" type="Positive"
+badge: label="Alpha" type="Positive"
 ---
 
 # Add inline styling attributes {#adding-inline-styling-attributes}
