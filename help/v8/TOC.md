@@ -24,6 +24,7 @@ hide: yes
       + [Start from scratch ](content/create-email-content.md)
       + [Import your email content](content/existing-content.md)
       + [Code your own content](content/code-content.md)
+      + [Use email templates](content/email-templates.md)
     + [Use content components](content/content-components.md)
     + [Generate the text version](content/text-version-email.md)
     + [Add a link to the mirror page](content/mirror-page.md)
