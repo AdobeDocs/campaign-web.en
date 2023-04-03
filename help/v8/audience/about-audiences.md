@@ -2,7 +2,7 @@
 audience: end-user
 title: Get started with audiences
 description: Learn how to use audiences in Campaign Web UI
-badge: label="Alpha" type="Informative"
+ badge: label="Alpha" type="Positive"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
 ---
 

@@ -3,7 +3,7 @@ audience: end-user
 title: Track your messages
 description: Learn how to add links and track sent messages
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-badge: label="Alpha" type="Informative"
+ badge: label="Alpha" type="Positive"
 ---
 # Add links and track messages {#tracking}
 

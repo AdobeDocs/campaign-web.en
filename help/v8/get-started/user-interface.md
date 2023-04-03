@@ -3,7 +3,7 @@ audience: end-user
 title: Discover the interface
 description: Campaign v8 Web user interface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-badge: label="Alpha" type="Informative"
+ badge: label="Alpha" type="Positive"
 ---
 # Discover the interface {#user-interface}
 
