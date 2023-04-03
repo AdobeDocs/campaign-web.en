@@ -56,9 +56,10 @@ hide: yes
     + [Get started with SMS deliveries](sms/gs-sms.md)
 + Audiences & recipients {#audiences}
   + [Get started with audiences](audience/about-audiences.md)
-  + [Select an audience](audience/add-audience.md)
+  + [Select an existing audience](audience/add-audience.md)
   + [Create an audience with the rule builder](audience/segment-builder.md)
   + [Import an audience](audience/import-audience.md)
+  + [Use an Adobe Experience Platform audience](audience/aep-audience.md)
   + [Set a control group](audience/control-group.md)
 + Cross channel campaigns {#campaigns}
   + [Get started with campaigns](campaigns/gs-campaigns.md)

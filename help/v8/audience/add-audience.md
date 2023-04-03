@@ -6,14 +6,23 @@ exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Alpha" type="Positive"
 ---
 
-# Select an audience {#add-audience}
+# Select an existing audience {#add-audience}
  
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"
 >title="Select an existing audience"
 >abstract="The audiences are defined in the Adobe Campaign v8 Console. If you have an Adobe Experience Platform integration available, you should be able to see Platform defined audiences too."
 
-This section explains how to select an existing audience, when defining the target population of an email delivery. If you want to create a new audience, refer to this [section](segment-builder.md).
+This section explains how to select an existing audience, when defining the target population of an email delivery.
+
+You can also:
+
+* Create a new audience. [Learn more](segment-builder.md)
+* Import an audience from a file. [Learn more](import-audience.md)
+* Use an Adobe Experience Platform audience. [Learn more](aep-audience.md).
+
+
+To select an existing audience for your message, follow the steps below:
 
 1. From the **Audience** section of the delivery creation assistant, click the **[!UICONTROL Select audience]** button.
 
