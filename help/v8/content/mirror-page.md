@@ -2,7 +2,7 @@
 audience: end-user
 title: Add a link to the mirror page
 description: Learn how to add and manage the link to the mirror page
-badge: label="Alpha" type="Informative"
+badge: label="Alpha" type="Positive"
 ---
 
 # Add a link to the mirror page{#mirror-page}

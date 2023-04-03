@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-badge: label="Alpha" type="Informative"
+badge: label="Alpha" type="Positive"
 ---
 
 # Personalize your content{#add-personalization}

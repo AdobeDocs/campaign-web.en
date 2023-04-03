@@ -3,7 +3,7 @@ audience: end-user
 product: campaign
 title: Work with email templates
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
-badge: label="Alpha" type="Informative"
+badge: label="Alpha" type="Positive"
 ---
 # Work with email templates {#email-content-templates}
 

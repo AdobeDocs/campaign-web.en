@@ -3,7 +3,7 @@ audience: end-user
 title: Send test emails
 description: Learn how to define and send test emails
 exl-id: b2677579-c95d-443d-b207-466af364c208
-badge: label="Alpha" type="Informative"
+badge: label="Alpha" type="Positive"
 ---
 # Send test emails {#send-proofs}
 
