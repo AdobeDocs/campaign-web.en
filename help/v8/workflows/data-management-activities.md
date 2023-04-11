@@ -34,8 +34,8 @@ To add an Enrichement activity into your workflow, follow these steps:
 1. add activity
 1. select attribute to use as enrichment data
 
-    - display advanced fields option
-    - i button
+    display advanced fields option
+    i button
 
     note: attributes from the target dimension
 
@@ -43,9 +43,9 @@ To add an Enrichement activity into your workflow, follow these steps:
 1. number of records to retrieve if want to retrieve a collection of multiple records
 1. Apply filters and build rule
 
-    - select an existing filter
-    - save the filter for reuse
-    - view results of the filter visually or in code view
+    select an existing filter
+    save the filter for reuse
+    view results of the filter visually or in code view
 
 1. sort records using an attribute
 
