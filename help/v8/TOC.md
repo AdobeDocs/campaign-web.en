@@ -68,7 +68,7 @@ hide: yes
   + [Get started with workflows](workflows/gs-workflows.md)
   + [Create your first workflow](workflows/create-workflows.md)
   + Work with worklow activites {#activities}
-    + [Get started with workflow activities](workflows/get-started-activities)
+    + [Get started with workflow activities](workflows/get-started-activities.md)
     + [Targeting activites](workflows/targeting-activities.md)
     + [Channel activites](workflows/channel-activities.md)
     + [Data management activities](workflows/data-management-activities.md)
