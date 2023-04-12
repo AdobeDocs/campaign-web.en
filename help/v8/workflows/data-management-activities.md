@@ -3,6 +3,7 @@ audience: end-user
 title: Work with workflows data management activities
 description: Learn how to use data management activities into Adobe Campaign Web workflows
 badge: label="Alpha" type="Positive"
+exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
 ---
 # Data management activities {#data-management}
 

@@ -3,6 +3,7 @@ audience: end-user
 title: Import recipients from a file
 description: Learn how to import recipients from an external file
 badge: label="Alpha" type="Positive"
+exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 ---
 # Import recipients from a file {#audience-from-file}
 
