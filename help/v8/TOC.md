@@ -66,11 +66,15 @@ hide: yes
   + [Create your first campaign](campaigns/create-campaigns.md)
 + Workflows {#wf}
   + [Get started with workflows](workflows/gs-workflows.md)
-  + [Create your first workflow](workflows/create-workflows.md)
-  + Work with worklow activites {#activities}
-    + [Get started with workflow activities](workflows/get-started-activities.md)
+  + Create your first workflow {#create-workflow}
+    + [Get started with workflow creation](workflows/gs-workflow-creation.md)
+    + [Create a workflow](workflows/create-workflow.md)
+    + [Start & monitor workflow execution](workflows/start-monitor-workflows.md)
+  + Design workflows {#design-workflows}
+    + [Get started with the workflow canvas](workflows/gs-canvas.md)
     + [Targeting activites](workflows/targeting-activities.md)
     + [Channel activites](workflows/channel-activities.md)
     + [Data management activities](workflows/data-management-activities.md)
+  + [Access & monitor workflows](workflows/access-monitor.md)
 + [Reporting](reporting/reports.md)
 
