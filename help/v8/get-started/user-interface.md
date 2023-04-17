@@ -282,3 +282,18 @@ Adobe Campaign interface is designed to work optimally in the latest version of 
 >id="acw_deliveries_email_metrics_errors"
 >title="Errors Metrics"
 >abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_android_content"
+>title="Push Android content"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_iOS_content"
+>title="Push iOS content"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_sms_content"
+>title="SMS Content"
+>abstract="TBD"
