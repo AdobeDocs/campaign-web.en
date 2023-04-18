@@ -112,11 +112,6 @@ Navtree view depends on permissions (same as console).
 >title="Subscriptions lists"
 >abstract="Browse through your subscriptions lists. You can view their type, mode and label. This list is read-only."
 
->[!CONTEXTUALHELP]
->id="acw_targeting_workflow_list"
->title="Targeting workflows"
->abstract="Access your list of Campaign workflows. You can view their state, last/next processing dates and environment. You can filter the list by state, last processing date and workflow type. Workflow templates are also available. These lists are read-only."
-
 * **Recipients** - Access your recipient database. By default, you can view their email address, first name and last name. This list is read-only. 
 * **Audiences** - This is your list of audiences. By default, you can view their type, origin, creation/last modification dates and label. You can filter the list by origin. This list is read-only. 
 * **Subscriptions lists** - Browse through your subscriptions lists. By default, you can view their type, mode and label. This list is read-only. 

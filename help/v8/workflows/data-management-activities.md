@@ -14,7 +14,12 @@ list available activites + short description + ref to section
 
 ## Enrichment {#enrichment}
 
-The Enrichment activity is commonly used in a workflow after targeting activities. It allows you to enhance the targeted data with additional information from the database.
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_data"
+>title="Enrichment activity"
+>abstract="The Enrichment activity allows you to enhance the targeted data with additional information from the database. Itis commonly used in a workflow after targeting activities.<br/>Once enrichment data has been added to the workflow, it can be used in the activities added after the Enrichment activity to segment customers into distinct groups based on their behaviors, preferences, and needs, or to create personalized marketing messages and campaigns that are more likely to resonate with your target audience."
+
+The Enrichment activity allows you to enhance the targeted data with additional information from the database. Itis commonly used in a workflow after targeting activities.
 
 Enrichment data can come either:
 
