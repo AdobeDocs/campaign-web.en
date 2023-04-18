@@ -12,7 +12,7 @@ A workflow is a process definition: the workflow diagram, which is a representat
 
 The workflow template describes the various tasks to be performed and how they are linked together. The task templates are called activities and are represented by icons. They are linked together by transitions.
 
-screenshot TBD
+screenshot TBD 
 
 ## What's inside a workflow?
 
