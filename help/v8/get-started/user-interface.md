@@ -221,6 +221,8 @@ Adobe Campaign interface is designed to work optimally in the latest version of 
 ######## This part stores the contextualHelp definition for WebUI BETA ###########
 ######## These blocks should be dispatched in the appropriate pages when available ###########
 ######## PLEASE DO NOT DELETE ###########
+REFER TO 
+https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
 
 >[!CONTEXTUALHELP]
@@ -284,11 +286,123 @@ Adobe Campaign interface is designed to work optimally in the latest version of 
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]
->id="acw_deliveries_push_iOS_content"
+>id="acw_deliveries_push_ios_content"
 >title="Push iOS content"
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
 >title="SMS Content"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_sms_preview_option_app_target"
+>title="App subscribers"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_email_preview_option_test_target"
+>title="Test poulation"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_email_preview_mode"
+>title="Preview mode"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_targetdata_personalization_enrichmentdata"
+>title="Enrichment data"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_targetdata_personalization_dashboard"
+>title="Personalization"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_select"
+>title="File selection"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_columns"
+>title="Columns definition"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_formatting"
+>title="Formatting parameters"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_sending"
+>title="Reporting Sending"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_tracking"
+>title="Reporting tracking"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_deliveries_overview"
+>title="Reporting overview"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_deliveries_target"
+>title="Reporting target statistics"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_deliveries_selection"
+>title="Reporting aggregated select a delivery"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_properties"
+>title="Campaign properties"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_schedule"
+>title="Campaign schedule"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_workflow"
+>title="Workflow list"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_properties"
+>title="Campaign creation"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_schedule"
+>title="Campaign schedule"
+>abstract="TBD"
+
+
+<!--BETA-->
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_deduplication_fields"
+>title="Deduplication fields"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_deduplication_settings"
+>title="Deduplication settings"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_deduplication_complement"
+>title="Deduplication complement"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_dimension_complement"
+>title="Dimension complement"
 >abstract="TBD"
