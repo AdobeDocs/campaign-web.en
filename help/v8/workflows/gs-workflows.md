@@ -7,7 +7,7 @@ exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
 ---
 # Get started with workflows {#workflows}
 
-## What are Adobe Campaign workflows?
+## What is a workflow?
 
 Cross-channel marketing is essential for any business looking to reach its customers effectively. Adobe Campaign provides a comprehensive graphical environment that empowers you to design complex processes that can help you manage your marketing campaigns with ease.
 
