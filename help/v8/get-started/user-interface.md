@@ -311,11 +311,6 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]
->id="acw_audience_fromfile_samplefile"
->title="Sample file"
->abstract="Supported file formats: txt, csv, xls. Use first line as column header."
-
->[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_columns"
 >title="Columns definition"
 >abstract="TBD"
