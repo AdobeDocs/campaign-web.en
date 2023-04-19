@@ -236,21 +236,6 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]
->id="acw_import_from_a_file"
->title="Import an audience from a file"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
->id="acw_import_from_a_file_formatting"
->title="Format settings"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
->id="acw_import_from_a_file_columns"
->title="Columns settings"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
 >id="acw_push_notification_template"
 >title="Push Notification template"
 >abstract="TBD"
@@ -326,6 +311,11 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_samplefile"
+>title="Sample file"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_columns"
 >title="Columns definition"
 >abstract="TBD"
@@ -366,18 +356,8 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]
->id="acw_campaign_schedule"
->title="Campaign schedule"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"
 >title="Workflow list"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_properties"
->title="Campaign creation"
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]
