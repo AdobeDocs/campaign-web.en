@@ -360,12 +360,6 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >title="Workflow list"
 >abstract="TBD"
 
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_schedule"
->title="Campaign schedule"
->abstract="TBD"
-
-
 <!--BETA-->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
