@@ -17,10 +17,14 @@ Use the **[!UICONTROL Code your own]** mode to import raw HTML and/or code your 
 
 1. Use the left pane to leverage personalization capabilities.
 
-1. If you want to open the Email Designer to start your email from a new design, select **[!UICONTROL Change your design]** from the options menu.
+1. If you want to clear your email content and start your email from a new design, select **[!UICONTROL Change your design]** from the options menu.
     
     ![](assets/code-editor-change-design.png)
 
+    >[!NOTE]
+    >
+    >This action opens the selected template in the Email Designer. From there, you can either complete the design of your email, or go back to the code editor using the **[!UICONTROL Switch to code editor]** option.
+    
 1. Click the **[!UICONTROL Simulate content]** button to check the message design and personalization using test profiles.
 
 1. Once your code is ready, click **[!UICONTROL Save]** then go back to the message creation screen to finalize your message.
