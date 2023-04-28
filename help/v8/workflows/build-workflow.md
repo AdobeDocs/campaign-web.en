@@ -3,10 +3,9 @@ audience: end-user
 title: Design workflows with Adobe Campaign Web
 description: Learn how to build workflows with Adobe Campaign Web
 badge: label="Alpha" type="Positive"
-exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
 ---
 
-# Orchestrate the workflow activities {#build}
+# Orchestrate workflow activities {#build}
 
 content TBC
 
