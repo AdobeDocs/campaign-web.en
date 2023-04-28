@@ -13,26 +13,6 @@ exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
 >title="Workflow properties"
 >abstract="TBD"
 
->[!CONTEXTUALHELP]
->id="acw_workflow_settings_properties"
->title="Workflow properties"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
->id="acw_workflow_settings_segmentation"
->title="Segmentation settings"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
->id="acw_workflow_settings_execution"
->title="Execution settings"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
->id="acw_workflow_settings_error"
->title="Error management settings"
->abstract="TBD"
-
 content TBD
 
 * create the workflow from workflows or campaigns
