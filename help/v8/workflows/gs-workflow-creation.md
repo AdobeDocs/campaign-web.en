@@ -8,6 +8,8 @@ exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
 
 # Key principles of workflow creation {#gs-workflow-creation}
 
+content TBD
+
 A workflow is a process definition: the workflow diagram, which is a representation of what is supposed to happen. A workflow is also an instance of this process: a workflow instance, which is a representation of what is actually happening.
 
 The workflow template describes the various tasks to be performed and how they are linked together. The task templates are called activities and are represented by icons. They are linked together by transitions.
@@ -37,3 +39,5 @@ TBD: detail specificities between standalone & campaign workflows.
 The main steps to create workflows are as follows:
 
 TBD: graphic showing the whole process with explanation and ref to doc pages
+
+create and define properties > orchestrate activities in the canvas > configure settings if needed > start the execution and monitor

@@ -86,7 +86,7 @@ To start building your email content, follow the steps below:
 
     ![](assets/email_designer_7.png)
 
-1. If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu, in order to work directly on the source code of your email. [Learn more about the code editor](code-content.md)
+1. If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. This allows you to edit the email source code, for example to add tracking or custom HTML tags. [Learn more about the code editor](code-content.md)
 
     >[!CAUTION]
     >

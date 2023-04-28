@@ -68,13 +68,14 @@ hide: yes
   + [Get started with workflows](workflows/gs-workflows.md)
   + Create your first workflow {#create-workflow}
     + [Key principles of workflow creation](workflows/gs-workflow-creation.md)
-    + [Create a workflow](workflows/create-workflow.md)
-    + [Start & monitor workflow execution](workflows/start-monitor-workflows.md)
-  + Design workflows {#design-workflows}
-    + [Get started with the workflow canvas](workflows/gs-canvas.md)
+    + [Create the workflow](workflows/create-workflow.md)
+    + [Orchestrate the workflow activities](workflows/build-workflow.md)
+    + [Configure the workflow settings](workflows/workflow-settings.md)
+    + [Start & monitor the workflow](workflows/start-monitor-workflows.md)
+  + [Access & manage your workflows](workflows/access-monitor.md)
+  + Work with workflow activities {#design-workflows}
     + [Targeting activites](workflows/targeting-activities.md)
     + [Channel activites](workflows/channel-activities.md)
     + [Data management activities](workflows/data-management-activities.md)
-  + [Access & monitor workflows](workflows/access-monitor.md)
 + [Reporting](reporting/reports.md)
 

@@ -34,3 +34,6 @@ exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
 >abstract="TBD"
 
 content TBD
+
+* create the workflow from workflows or campaigns
+* define its properties
