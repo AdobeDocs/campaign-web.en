@@ -28,7 +28,7 @@ Here are some examples of how you can use workflows with Adobe Campaign:
 
 ## Let's dive deeper
 
-Now that you have an understanding of what workflows are and what you can do with them in Adobe Campaign, it's time to dive deeper into the documentation sections to start working with the feature.
+Now that you have an understanding of what workflows are and what you can do with them in Adobe Campaign, it's time to dive deeper into these documentation sections to start working with the feature.
 
 * Create your first workflow
 * Design workflows
