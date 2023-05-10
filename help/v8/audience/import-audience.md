@@ -29,7 +29,7 @@ When creating and personalizing the message content, you can select fields from 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_samplefile"
 >title="Sample file"
->abstract="Supported file formats: txt, csv, xls. Use first line as column header."
+>abstract="Supported file formats: txt, csv. Use first line as column header."
 
 
 ```json

@@ -385,3 +385,13 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >id="acw_push_overview_edit"
 >title="Permission required"
 >abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_attributepicker_advancedfields"
+>title="Attribute picker advanced fields"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_rulebuilder_advancedfields"
+>title="Rule builder advanced fields"
+>abstract="TBD"
