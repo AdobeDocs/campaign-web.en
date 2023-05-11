@@ -355,7 +355,6 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >title="Workflow list"
 >abstract="TBD"
 
-<!--BETA-->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
 >title="Deduplication fields"
@@ -394,4 +393,14 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
 >title="Rule builder advanced fields"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_sms_properties"
+>title="SMS delivery properties"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_properties"
+>title="Push delivery properties"
 >abstract="TBD"
