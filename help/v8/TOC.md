@@ -65,13 +65,13 @@ hide: yes
   + [Create your first campaign](campaigns/create-campaigns.md)
 + Workflows {#wf}
   + [Get started with workflows](workflows/gs-workflows.md)
+  + [Access & manage workflows](workflows/access-monitor.md)
   + Create your first workflow {#create-workflow}
     + [Key principles of workflow creation](workflows/gs-workflow-creation.md)
-    + [Create a workflow](workflows/create-workflow.md)
-    + [Orchestrate workflow activities](workflows/build-workflow.md)
+    + [Create the workflow](workflows/create-workflow.md)
+    + [Add and cofnigure workflow activites](workflows/build-workflow.md)
     + [Configure workflow settings](workflows/workflow-settings.md)
     + [Start & monitor a workflow](workflows/start-monitor-workflows.md)
-  + [Access & manage your workflows](workflows/access-monitor.md)
   + Work with workflow activities {#design-workflows}
     + [Targeting activites](workflows/targeting-activities.md)
     + [Channel activites](workflows/channel-activities.md)
