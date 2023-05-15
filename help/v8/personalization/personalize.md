@@ -32,43 +32,6 @@ You can personalize the message content by:
     Configure conditional content to add dynamic personalization based on the recipient’s profile for example. Text blocks and/or images are inserted when a particular condition is true.
 -->
 
-## Personalize the email subject line {#personalize-subject-line}
-
-To add personalization in the **[!UICONTROL Subject line]** field of the message, follow the steps below:
-
-1. Click the **Open personalization dialog** icon on the right of the **Subject line** field.
-1. Enter the subject line content and select the personalization attributes to add.
-1. Click **Confirm** to validate. The personalization attributes are added to the subject line.
-
-![](assets/perso-subject.png)
-
-## Personalize your email content {#personalize-emails}
-
-To personalize the email content, open the message in the Email designer and:
-
-1. Click inside a text block.
-1. In the contextual toolbar, select **Add personalization**.
-
-    ![](assets/perso-add-to-content.png)
-
-1. Insert the name of the recipient in the personalization editor and confirm.
-
-    ![](assets/perso-add-name.png)
-
-    The personalization attribute is added to the email content. 
-    
-    You can simulate the content to check rendering. [Learn more](../preview-test/preview-content.md)
-
-    ![](assets/perso-rendering.png)
-
-To add a content block to your email, apply the same steps and select a content block from the last icon:
-
-![](assets/perso-insert-block.png)
-
-Once inserted, the content block is added to the email content, as shown below. It is automatically adapted to the recipient profile when personalization is generated, at the delivery preparation step.
-
-![](assets/perso-content-block-in-email.png)
-
 
 Built-in content blocks are:
 
@@ -86,7 +49,44 @@ Built-in content blocks are:
 * **[!UICONTROL Style of content emails]** and **[!UICONTROL Notification style]**: generate code which format an email with predefined HTML styles. 
 * **[!UICONTROL Unsubscription link]**: inserts a link enabling to unsubscribe from all deliveries (denylist). The default associated content is: "You are receiving this message because you have been in contact with ***your organization name*** or an affiliate. To no longer receive messages from ***your organization name*** click here."
 
+## Personalize the email subject line {#personalize-subject-line}
 
+To add personalization in the **[!UICONTROL Subject line]** field of the message, follow the steps below:
+
+1. Click the **[!UICONTROL Open personalization dialog]** icon on the right of the **[!UICONTROL Subject line]** field.
+
+    ![](assets/perso-subject.png){width="600"}
+
+1. Enter the subject line content and select the personalization attributes to add.
+
+1. Click **[!UICONTROL Confirm]**** to validate. The personalization attributes are added to the subject line.
+
+## Personalize your email content {#personalize-emails}
+
+To personalize the email content, open the message in the Email designer and:
+
+1. Click inside a text block.
+1. In the contextual toolbar, select **[!UICONTROL Add personalization]**.
+
+    ![](assets/perso-add-to-content.png)
+
+1. Insert the name of the recipient in the personalization editor and confirm.
+
+    ![](assets/perso-add-name.png)
+
+    The personalization attribute is added to the email content. 
+    
+    You can simulate the content to check rendering. [Learn more](../preview-test/preview-content.md)
+
+    ![](assets/perso-rendering.png)
+
+1. To add a content block to your email, apply the same steps and select a content block from the last icon:
+
+    ![](assets/perso-insert-block.png)
+
+1. Once inserted, the content block is added to the email content It is automatically adapted to the recipient profile when personalization is generated, at the delivery preparation step.
+
+    ![](assets/perso-content-block-in-email.png)
 
 ## Personalize links in your emails {#personalize-links}
 
