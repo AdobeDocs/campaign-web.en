@@ -12,7 +12,7 @@ In the Email Designer interface, when you select an element and display its sett
 
 1. Select an component directly in your content or using the **[!UICONTROL Navigation tree]** available in the left pane.
 
-1. From the **[!UICONTROL Component settings]** menu on the right, look for the **[!UICONTROL Styles Inline]** section.
+1. From the **[!UICONTROL Styles]** tab, click the **[!UICONTROL Advanced]** drop-down.
 
    ![](assets/styles_1.png)
 

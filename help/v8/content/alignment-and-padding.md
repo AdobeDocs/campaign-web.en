@@ -18,7 +18,7 @@ In this example, we adjust padding and vertical alignment inside a structure com
 
    ![](assets/alignment_2.png)
 
-1. The editable parameters for that column are displayed in the **[!UICONTROL Column settings]** menu on the right. Adjust the **[!UICONTROL Vertical alignment]** using the dedicated section.
+1. The editable parameters for that column are displayed in the **[!UICONTROL Styles]** tab. Adjust the **[!UICONTROL Alignment]** using the dedicated section.
 
    ![](assets/alignment_3.png)
 

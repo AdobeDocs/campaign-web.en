@@ -27,7 +27,7 @@ To insert links into your email content, follow the steps below:
 
 1. Save your changes.
 
-1. Once the link is created, you can still modify it from the **[!UICONTROL Component settings]** pane on the right. 
+1. Once the link is created, you can still modify it from the **[!UICONTROL Settings]** tab. 
 
     * You can edit the link and change its **[!UICONTROL Target]**.
     * You can choose to underline the link or not by checking the corresponding option.

@@ -27,7 +27,7 @@ To add a link to a mirror page in your email:
 
     ![](assets/message-tracking-mirror-page.png)
 
-1. Select the **[!UICONTROL Insert link]** icon to access the personalization menu.
+1. Select the **[!UICONTROL Add personalization]** icon to access the personalization menu.
 
     ![](assets/message-tracking-mirror-page_2.png)
 
