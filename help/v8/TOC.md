@@ -66,10 +66,10 @@ hide: yes
 + Workflows {#wf}
   + [Get started with workflows](workflows/gs-workflows.md)
   + [Access & manage workflows](workflows/access-monitor.md)
-  + Create your first workflow {#create-workflow}
+  + Create & run your first workflow {#create-workflow}
     + [Key principles of workflow creation](workflows/gs-workflow-creation.md)
     + [Create the workflow](workflows/create-workflow.md)
-    + [Add and cofnigure workflow activites](workflows/build-workflow.md)
+    + [Add & orchestrate workflow activites](workflows/build-workflow.md)
     + [Configure workflow settings](workflows/workflow-settings.md)
     + [Start & monitor a workflow](workflows/start-monitor-workflows.md)
   + Work with workflow activities {#design-workflows}
