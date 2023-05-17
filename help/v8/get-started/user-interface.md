@@ -222,7 +222,7 @@ Adobe Campaign interface is designed to work optimally in the latest version of 
 ######## These blocks should be dispatched in the appropriate pages when available ###########
 ######## PLEASE DO NOT DELETE ###########
 REFER TO 
-https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
+https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
 
 >[!CONTEXTUALHELP]
@@ -243,12 +243,12 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
 >title="Campaign creation properties"
->abstract="TBD"
+>abstract="Define properties and metadata for the campaign."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_schedule"
 >title="Campaign creation schedule"
->abstract="TBD"
+>abstract="Define the schedule for the campaign."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
@@ -258,12 +258,12 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
 >title="Sent Metrics"
->abstract="TBD"
+>abstract="Number of email delivered."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
 >title="Errors Metrics"
->abstract="TBD"
+>abstract="Number of emails with the error status."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
@@ -278,22 +278,22 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
 >title="SMS Content"
->abstract="TBD"
+>abstract="Define the SMS content."
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_preview_option_app_target"
 >title="App subscribers"
->abstract="TBD"
+>abstract="Preview and test the message by adding app subscribers to the main target. "
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
->title="Test poulation"
->abstract="TBD"
+>title="Test population"
+>abstract="Select a test population mode."
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_mode"
 >title="Preview mode"
->abstract="TBD"
+>abstract="Preview and test the message by including the test population to the main target."
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_enrichmentdata"
