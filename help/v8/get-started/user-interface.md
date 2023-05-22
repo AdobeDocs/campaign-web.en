@@ -240,15 +240,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Push Notification template"
 >abstract="TBD"
 
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_properties"
->title="Campaign creation properties"
->abstract="Define properties and metadata for the campaign."
-
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_schedule"
->title="Campaign creation schedule"
->abstract="Define the schedule for the campaign."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
