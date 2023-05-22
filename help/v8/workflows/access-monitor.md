@@ -10,9 +10,8 @@ exl-id: 51648665-8400-426c-85cf-dbf5f4f81d20
 >[!CONTEXTUALHELP]
 >id="acw_targeting_workflow_list"
 >title="Workflows"
->abstract="Access your list of Campaign workflows. You can view their state, last/next processing dates and environment. You can filter the list by state, last processing date and workflow type. Workflow templates are also available. These lists are read-only."
+>abstract="In this screen, you can access the list of workflows, check their status, last/next execution dates, and create a new workflow. Browse to the 'Templates' tab to access workflow templates."
 
-content TBD
 
 ## Access created workflows
 
