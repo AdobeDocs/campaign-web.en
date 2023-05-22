@@ -337,11 +337,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]
->id="acw_campaign_properties"
->title="Campaign properties"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"
 >title="Workflow list"
 >abstract="TBD"

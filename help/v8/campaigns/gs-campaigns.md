@@ -23,6 +23,11 @@ In a cross-channel campaign, a single marketing communication uses different cha
 >title="Campaign creation properties"
 >abstract="Define properties and metadata for the campaign."
 
+>[!CONTEXTUALHELP]
+>id="acw_campaign_properties"
+>title="Campaign properties"
+>abstract="Define your campaign settings and metadata."
+
 Campaign properties are displayed with creating a new campaign.
 
 ![Define your campaign properties](assets/campaign-properties.png)
