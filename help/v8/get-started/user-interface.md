@@ -336,10 +336,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Aggregated reporting for deliveries"
 >abstract="Select at least two deliveries for displaying an aggregated data report."
 
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_workflow"
->title="Workflow list"
->abstract="List of workflows available for your campaign."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"

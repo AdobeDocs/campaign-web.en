@@ -14,6 +14,14 @@ Design and execute un high-volume email campaigns to deliver personalized messag
 
 ## Create a cross-channel campaign {#cross-channel-campaign}
 
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_workflow"
+>title="Workflow list"
+>abstract="List of workflows available for your campaign. Use the 'Create workflow' button to add a workflow in your campaign."
+
+
+
 In a cross-channel campaign, a single marketing communication uses different channels. Data is passed between the channels. The customer receives communication through multiple channels based on, for example, their interaction with the previous communication.
 
 ## Define your campaign properties {#campaign-properties}
