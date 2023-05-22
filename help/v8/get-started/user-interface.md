@@ -228,12 +228,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
 >title="SMS report summary"
->abstract="TBD"
+>abstract="Discover the reporting metrics for your SMS delivery."
 
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
 >title="Push report summary"
->abstract="TBD"
+>abstract="Discover the reporting metrics for your Push delivery."
 
 >[!CONTEXTUALHELP]
 >id="acw_push_notification_template"
@@ -244,7 +244,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
 >title="Rule Builder Advanced attributes"
->abstract="TBD"
+>abstract="Use an advanced attributes to define your rule."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
@@ -259,12 +259,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
 >title="Push Android content"
->abstract="TBD"
+>abstract="Define the push Android content."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_content"
 >title="Push iOS content"
->abstract="TBD"
+>abstract="Define the push iOS content."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
@@ -314,32 +314,32 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sending"
 >title="Reporting Sending"
->abstract="TBD"
+>abstract="Consult the sending indicators for the campaign reporting."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_tracking"
 >title="Reporting tracking"
->abstract="TBD"
+>abstract="Consult the tracking indicators for the campaign reporting."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
 >title="Reporting overview"
->abstract="TBD"
+>abstract="Key metrics for your delivery."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_target"
 >title="Reporting target statistics"
->abstract="TBD"
+>abstract="This section displays specific metrics according to audiences."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_selection"
->title="Reporting aggregated select a delivery"
->abstract="TBD"
+>title="Aggregated reporting for deliveries"
+>abstract="Select at least two deliveries for displaying an aggregated data report."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"
 >title="Workflow list"
->abstract="TBD"
+>abstract="List of workflows available for your campaign."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
@@ -364,12 +364,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_push_permission_for_segment"
 >title="Permission required"
->abstract="TBD"
+>abstract="Your administrator must grant you permission before you can create a segment."
 
 >[!CONTEXTUALHELP]
 >id="acw_push_overview_edit"
 >title="Permission required"
->abstract="TBD"
+>abstract="Your administrator must grant you permission before you can create a segment."
 
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
@@ -396,3 +396,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="New quarantines metric"
 >abstract="New quarantine metric."
 
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_sms_template_selection"
+>title="SMS template selection"
+>abstract="Select a predefined template to start your SMS delivery."
