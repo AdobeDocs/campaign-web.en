@@ -304,12 +304,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_columns"
 >title="Columns definition"
->abstract="TBD"
+>abstract="Select the columns to insert from your file."
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_formatting"
 >title="Formatting parameters"
->abstract="TBD"
+>abstract="Define the formatting parameters for your file."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sending"
@@ -379,25 +379,25 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
 >title="Attribute picker advanced fields"
->abstract="TBD"
+>abstract="Configure columns with advanced fields."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
 >title="Rule builder advanced fields"
->abstract="TBD"
+>abstract="Configure columns with advanced fields."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_properties"
 >title="SMS delivery properties"
->abstract="TBD"
+>abstract="Manage the SMS delivery properties."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
 >title="Push delivery properties"
->abstract="TBD"
+>abstract="Manage the Push delivery properties."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_metrics_newquarantines"
 >title="New quarantines metric"
->abstract="TBD"
+>abstract="New quarantine metric."
 
