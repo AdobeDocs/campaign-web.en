@@ -6,3 +6,43 @@ badge: label="Alpha" type="Positive"
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
 ---
 # Get started with SMS deliveries {#sms}
+
+SMS deliveries provide a practical and efficient way to send text messages to your customers' mobile devices. With this feature, you can create, personalize, and preview text-based messages for effective communication.
+
+The SMS channel offers three methods for creating SMS deliveries:
+
+* Workflows: Add an SMS activity, define basic settings, and compose your SMS content within a larger automation sequence.
+
+* Campaigns: Incorporate SMS deliveries into dedicated campaigns, setting parameters such as target audience and delivery schedule.
+
+* Stand-alone deliveries: Create individual SMS deliveries for quick and direct communication with your customers, without the need for workflows or campaigns.
+
+<!--
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="create-sms.md">
+<img alt="Lead" src="">
+</a>
+<div><a href="create-sms.md"><strong>Create an SMS message</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="">
+<img alt="Infrequent" src="">
+</a>
+<div>
+<a href=""><strong>Send an SMS message</strong></a>
+</div>
+<p></td>
+<td>
+<a href="">
+<img alt="Validation" src="">
+</a>
+<div>
+<a href=""><strong>SMS opt-out management</strong></a>
+</div>
+<p>
+</td>
+</tr></table>
+-->

@@ -53,6 +53,8 @@ hide: yes
     + [Get started with push notifications](push/gs-push.md)
   + SMS {#sms}
     + [Get started with SMS deliveries](sms/gs-sms.md)
+    + [Create a SMS delivery](sms/create-sms.md)
+    + [Design a SMS delivery ](sms/content-sms.md)
 + Audiences & recipients {#audiences}
   + [Get started with audiences](audience/about-audiences.md)
   + [Select an existing audience](audience/add-audience.md)

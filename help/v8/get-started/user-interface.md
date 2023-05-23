@@ -267,11 +267,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Define the push iOS content."
 
 >[!CONTEXTUALHELP]
->id="acw_deliveries_sms_content"
->title="SMS Content"
->abstract="Define the SMS content."
-
->[!CONTEXTUALHELP]
 >id="acw_sms_preview_option_app_target"
 >title="App subscribers"
 >abstract="Preview and test the message by adding app subscribers to the main target. "
@@ -362,11 +357,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_rulebuilder_advancedfields"
 >title="Rule builder advanced fields"
 >abstract="Configure columns with advanced fields."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_sms_properties"
->title="SMS delivery properties"
->abstract="Manage the SMS delivery properties."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
