@@ -5,7 +5,7 @@ description: Learn how to use recipients from an external file to build your ema
 badge: label="Alpha" type="Positive"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 ---
-# Target recipients from a file {#audience-from-file}
+# Load recipients from a file {#audience-from-file}
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_select"
