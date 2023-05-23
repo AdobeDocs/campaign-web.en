@@ -7,23 +7,38 @@ exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 ---
 # Target recipients from a file {#audience-from-file}
 
-You can upload contacts from an external file. This capability is only available for email deliveries.Supported formats are: text file (TXT) or a comma-separated value file (CSV). They will then be added to the database. 
+>[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_select"
+>title="File selection"
+>abstract="Select the local file to upload. Supported formats are TXT and CSV. Align your file format with the sample file linked below."
+
+>[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_columns"
+>title="Columns definition"
+>abstract="Check the format of the columns to insert from your local file."
+
+>[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_formatting"
+>title="Formatting parameters"
+>abstract="Check the formatting parameters for your file."
+
+You can upload contacts from an external file. This capability is only available for email deliveries. Supported file formats are: text (TXT) and comma-separated value (CSV). Profiles are not added to the database, but all fields in the input file are available for personalization.
 
 >[!NOTE]
 >
->You can build an import workflow to add or update multiple profiles.  Learn more
+>You can build an import workflow to add or update multiple profiles in the database. Learn more
 
 
 To target profiles from a local file directly from the interface, follow these steps:
 
-1. In the email delivery creation window, click the **Select audience** button and select the **Select from file** option.
+1. In the email delivery creation window, from the **Audience** section, click the **Select audience** button and choose the **Select from file** option.
 
     ![](assets/select-from-file.png)
 
 1. Select the local file to upload.
-1. Preview how data is mapped in the central section of the screen.
-1. Choose the column which contains the email address from the **Address Field** drop-down.
-1. Adjust the column settings and how to format data from the available options.
+1. Preview and check how data is mapped in the central section of the screen.
+1. Choose the column which contains the email address from the **Address Field** drop-down. You can also select the denylist colum if you have such information in the input file.
+1. Adjust the column settings, and how to format data from the available options.
 1. Click **Confirm** once settings are correct.
 
 When creating and personalizing the message content, you can select fields from the input file in the Personalization editor.

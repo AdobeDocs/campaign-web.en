@@ -296,20 +296,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Personalization"
 >abstract="TBD"
 
->[!CONTEXTUALHELP]
->id="acw_audience_fromfile_select"
->title="File selection"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
->id="acw_audience_fromfile_columns"
->title="Columns definition"
->abstract="Select the columns to insert from your file."
-
->[!CONTEXTUALHELP]
->id="acw_audience_fromfile_formatting"
->title="Formatting parameters"
->abstract="Define the formatting parameters for your file."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sending"
