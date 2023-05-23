@@ -40,7 +40,7 @@ To define the audience, you can:
 
 * Use an existing audience. [Learn more](add-audience.md)
 * Create a new audience. [Learn more](segment-builder.md)
-* Import an audience from a file. [Learn more](import-audience.md)
+* Use an audience from an external file. [Learn more](file-audience.md)
 * Use an Adobe Experience Platform audience. [Learn more](aep-audience.md)
 
 In addition, you can define control groups to avoid sending messages to a portion of your audience, and measure the impact of your campaigns. [Learn more](control-group.md)
