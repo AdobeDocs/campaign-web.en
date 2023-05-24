@@ -80,7 +80,7 @@ Navtree view depends on permissions (same as console).
 >[!CONTEXTUALHELP]
 >id="acw_campaigns_list"
 >title="Campaigns"
->abstract="This is the list of your campaigns. You can view useful information such as their start/end/last modification dates, as well as their status. You can filter the list by status or start/end dates. Campaign templates are also available. These lists are read-only."
+>abstract="This is the list of your campaigns. You can view useful information such as their start/end/last modification dates, as well as their status. You can filter the list by status or start/end dates. Click the 'Create campaign' button to add a new campaign. Select a campaign to view its content, deliveries, and details. Browse to the 'Templates' tab to view and create templates."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
