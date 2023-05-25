@@ -40,6 +40,7 @@ hide: yes
         + [Define a style for links](content/styling-links.md)
         + [Add inline styling attributes](content/inline-styling.md)
       + [Add personalization](personalization/personalize.md)
+      + [Add conditional content](personalization/conditions.md)
       + [Send offers](content/offers.md)
     + Preview and test your email {#preview-test}
       + [About preview and test](preview-test/preview-test.md) 
