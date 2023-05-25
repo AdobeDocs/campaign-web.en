@@ -238,7 +238,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_push_notification_template"
 >title="Push Notification template"
->abstract="TBD"
+>abstract="Select a push notification template to start your push delivery."
 
 
 >[!CONTEXTUALHELP]
