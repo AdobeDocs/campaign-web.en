@@ -28,6 +28,9 @@ You can create standalone deliveries from the **[!UICONTROL Deliveries]** left m
 To create a standalone delivery, follow these steps:
 
 1. Browse to the **[!UICONTROL Deliveries]** menu on the left navigation, and click the **[!UICONTROL Create delivery]** button.
+
+    ![](assets/create-a-delivery.png)
+    
 1. Choose a channel for the delivery. Learn more about delivery channels and how to define a delivery content in these sections: 
 
     * [Email channel](../email/create-email.md)
