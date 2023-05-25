@@ -102,3 +102,21 @@ Once your message content has been defined, you can preview it to control the re
 ## Delivery and tracking logs{#gs-tracking-logs}
 
 Monitoring your deliveries after they have been sent is a key step to ensure your maketing campaigns are efficient and reach out to your customers. You can monitor after sending a delivery, as well as understand how delivery failures and quarantines are managed.
+
+## Duplicate a delivery{#delivery-duplicate}
+
+You can create a copy of an existing delivery, either from the delivery list or from the delivery dashboard. 
+
+To duplicate a delivery from the list of deliveries, follow these steps:
+
+1. Click the three dots button on the right, next to the name of the delivery to duplicate.
+1. Select  **[!UICONTROL Duplicate]**.
+1. Confirm duplication: the new delivery dashboard opens in the central screen.
+
+
+To duplicate a delivery from its dashboard, follow these steps:
+
+1. Open the delivery and click the  **[!UICONTROL ...More]** button on the top section of the screen. 
+1. Select  **[!UICONTROL Duplicate]**. 
+1. Confirm duplication: the new delivery replaces the current delivery in the central screen.
+
