@@ -48,7 +48,6 @@ To create a standalone delivery, follow these steps:
 To create a delivery in a campaign, follow these steps:
 
 1. Create a campaign or open an existing campaign.
-1.  
 
 For more information on how to configure a campaign,
 
