@@ -96,7 +96,7 @@ You can personalize the message content by:
 
 ## Preview and test your deliveries
 
-Once your message content has been defined, you can preview it to control the rendering of your messages, and check personalization settings with test profiles. [Learn more](preview.md)
+Once your message content has been defined, you can preview it to control the rendering of your messages, and check personalization settings with test profiles. [Learn more](../preview-test/preview-test.md)
 
 
 ## Delivery and tracking logs{#gs-tracking-logs}
