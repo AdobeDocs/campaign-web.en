@@ -45,6 +45,10 @@ When creating and personalizing the message content, you can select fields from 
 
 ![](assets/select-external-perso.png)
 
+>[!CAUTION]
+>
+>You cannot use [control groups](control-group.md) when loading the target population from an external file.
+
 ## Sample file {#sample-file}
 
 >[!CONTEXTUALHELP]

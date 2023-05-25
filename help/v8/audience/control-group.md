@@ -24,6 +24,11 @@ To create a control group, click the **[!UICONTROL Set Control Group]** button, 
 
 ![](assets/control-group1.png)
 
+>[!CAUTION]
+>
+>You cannot use control groups when loading the target population [from an external file](file-audience.md).
+
+
 ## Extract from target {#extract-target}
 
 >[!CONTEXTUALHELP]
