@@ -19,7 +19,7 @@ Adobe Campaign v8 comes with the following delivery channels:
 
 ## Create a delivery
 
-You can create standalone deliveries from the **Delivery** main menu, or create deliveries in the context of a marketing campaign. 
+You can create standalone deliveries from the **Deliveries** left menu, or create deliveries in the context of a marketing campaign, from the **Campaigns** left menu. 
 
 >[!BEGINTABS]
 
@@ -48,6 +48,16 @@ To create a standalone delivery, follow these steps:
 To create a delivery in a campaign, follow these steps:
 
 1. Create a campaign or open an existing campaign.
+1. Create a workflow or open an existing workflow.
+1. Add and configure a **Build audience** activity, and click the `+`button.
+    ![](assets/add-delivery-in-wf.png)
+1. Select a delivery activity: Email, SMS, Push notification (Android) or Push notification (iOS). Learn more about delivery channels and how to define a delivery content in these sections: 
+
+    * [Email channel](../email/create-email.md)
+    * [Push notification channel](../push/gs-push.md)
+    * [SMS channel](../sms/create-sms.md)
+
+1. Start the workflow, and check logs.
 
 For more information on how to configure a campaign,
 
