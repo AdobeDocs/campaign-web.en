@@ -3,6 +3,7 @@ audience: end-user
 title: Create a SMS delivery
 description: Learn how to create and send SMS with Adobe Campaign Web
 badge: label="Alpha" type="Positive"
+exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
 ---
 # Create a SMS delivery {#create-sms}
 
@@ -36,4 +37,3 @@ badge: label="Alpha" type="Positive"
 1. Click **[!UICONTROL Edit content]** to start designing the content of your SMS message.
 
 1. To schedule your delivery to a specific date and time, switch on the **[!UICONTROL Enable scheduling]** option. After you initiate the delivery, the message will be automatically sent on the exact date and time that you have defined for the recipient.
-

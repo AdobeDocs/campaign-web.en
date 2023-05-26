@@ -5,6 +5,7 @@ description: Learn how to create and use delivery templates in Campaign
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
+exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
 ---
 # Work with delivery template{#work-with-delivery-template}
 
@@ -64,5 +65,3 @@ To configure a delivery template from scratch, follow the steps below:
 1. Define the template name and settings. 
 1. Click the **[!UICONTROL Review]** button to define the template content and change its properties.
 1. Save the new template.
-
-

@@ -3,6 +3,7 @@ audience: end-user
 title: Design a SMS delivery
 description: Learn how to design your SMS delivery
 badge: label="Alpha" type="Positive"
+exl-id: 1a70d033-6f1b-482b-9948-59ef75871750
 ---
 # Design a SMS delivery {#design-sms}
 
@@ -33,4 +34,4 @@ badge: label="Alpha" type="Positive"
 
 1. In the right pane, you will find a preview of the email, where personalized elements are dynamically replaced with data from the selected profile.
 
-You can now review and send your SMS message to your audience. 
+You can now review and send your SMS message to your audience.
