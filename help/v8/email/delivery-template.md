@@ -11,6 +11,8 @@ exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
 
 For an accelerated and improved design process, you can create standalone delivery templates to easily reuse custom content across your campaigns. This functionality enables you to standardize the creative look and feel, in order to be quicker in executing and launching campaigns.
 
+Say goodbye to the tedious task of starting from scratch every time, and hello to template management on web UI. With our built-in feature, you can effortlessly create and save your existing campaigns for future use. This streamlined process will save you time and increase efficiency, giving you more freedom to focus on creating and executing winning campaigns.
+
 A template can include:
 
 * Typologies
@@ -79,6 +81,26 @@ To convert a delivery to a template, follow the steps below:
     ![](assets/templates-delivery-copy-as.png)
     
 1. Confirm duplication: the new template opens in the central screen.
+
+### Save content as template {#save-as-template}
+
+Once you designed your email content, you can save as a template it for future reuse. Saved templates are available to all users of your Adobe Campaign environment.
+
+To save an email content as a template, follow the steps below:
+
+1. From the Email designer, click the ellipsis on top right of the screen.
+
+1. Select **[!UICONTROL Save design template]** from the drop-down menu.
+
+    ![](assets/email_designer-save-template.png)
+
+1. Enter a name for this template, and save
+
+    ![](assets/email_designer-template-name.png)
+
+You can now [use this template](#use-saved-template) to build a new content: it is available in the Saved templates tab of the Email designer.
+
+![](assets/email_designer-saved-template.png)
 
 ### Create a new template {#create-a-new-template}
 
