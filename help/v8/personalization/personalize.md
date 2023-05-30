@@ -11,6 +11,10 @@ badge: label="Alpha" type="Positive"
 
 # Personalize your content{#add-personalization}
 
+To get the most out of every marketing campaign, Adobe Campaign gives you a way to deliver custom content that speaks to customers on their level. Based on profile data, use personalization capabilities to create a custom experience for different groups and individuals: you can adapt your messages to each specific recipient by leveraging the data and information you have about them. It can be their first name, interests, where they live, what they bought, and much more.
+
+Use Campaign to create dynamic content and send personalized messages. Personalization capabilities can be combined to improve your messages and create a custom user experience.
+
 You can personalize the message content by:
 
 * Inserting dynamic **personalization fields**
@@ -23,26 +27,27 @@ You can personalize the message content by:
     
 * Inserting pre-defined **content blocks**
     
-    Campaign comes with a set of personalization blocks which contain a specific rendering that you can insert into your deliveries. For example, you can add a logo, a greeting message, or a link to the mirror page of the message. Content blocks are available from a dedicated entry un the personalization editor.
+    Campaign comes with a set of personalization blocks which contain a specific rendering that you can insert into your deliveries. For example, you can add a logo, a greeting message, or a link to the mirror page of an email message. Content blocks are available from a dedicated entry in the personalization editor.
 
     ![](assets/perso-content-blocks.png)
 
 * Create **conditional content**
 
-    Configure conditional content to add dynamic personalization based on the recipient’s profile for example. Text blocks and/or images are inserted when a particular condition is true.
+    Configure conditional content to add dynamic personalization based on the recipient’s profile for example. Text blocks and/or images are inserted when a particular condition is true. You can define the alternative version of the content when the condition is not true.
 
 
-## Personalize the email subject line {#personalize-subject-line}
+## Personalize the subject line of a message {#personalize-subject-line}
 
 To add personalization in the **[!UICONTROL Subject line]** field of the message, follow the steps below:
 
-1. Click the **[!UICONTROL Open personalization dialog]** icon on the right of the **[!UICONTROL Subject line]** field.
+1. Open a delivery and click **[!UICONTROL Edit content]**.
+1. Click the **[!UICONTROL Open personalization dialog]** icon on the right of the **[!UICONTROL Subject line]** field for emails, or the **[!UICONTROL Title]** fields for push/SMS deliveries.
 
     ![](assets/perso-subject.png){width="600"}
 
-1. Enter the subject line content and select the personalization attributes to add.
+1. Enter the subject line or title, and select the personalization attributes to add.
 
-1. Click **[!UICONTROL Confirm]**** to validate. The personalization attributes are added to the subject line.
+1. Click **[!UICONTROL Confirm]** to validate. The personalization attributes are added to the content.
 
 ## Personalize your email content {#personalize-emails}
 
