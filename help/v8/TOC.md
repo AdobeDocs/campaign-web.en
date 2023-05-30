@@ -80,5 +80,7 @@ hide: yes
     + [Targeting activites](workflows/targeting-activities.md)
     + [Channel activites](workflows/channel-activities.md)
     + [Data management activities](workflows/data-management-activities.md)
-+ [Reporting](reporting/reports.md)
++ Reporting {#reports}
+  + [Get started with reports](reporting/gs-reports.md)
+  + [Access delivery reports](reporting/delivery-reports.md)
 

@@ -18,24 +18,29 @@ This new Campaign web interface is currently only available to **Alpha practitio
 
 Campaign new Web UI offers a new user experience, aligned with all Adobe Experience Cloud solutions and apps. It offers:
 
-* Access to the new interface and other Adobe solutions with a single and shared user session
+* Access to the new interface, and your other Adobe solutions with a single and shared user session
 * New navigation experience, with all menus and folders available from the left rail
 * Solution and organization switchers from the top bar
 * Unified Shell integration, with a direct access to community, help center, and support
-<!--
-No search and pulse notifications in Alpha
--->
+
+**New powerful capabilities and seamless processses**
+
+* Reimagined workflow canvas interface to design and manage your processes
+* Dynamic content to deliver highly targeted and personalized experiences to your audience
+* Native integration with Adobe Experience Platform audiences
+* Template management for workflows, deliveries, campaigns and content
 
 Learn more about the new UI in [this page](../get-started/user-interface.md).
 
-**Create, launch and measure your email campaign**
+**Create, launch and measure your campaign**
 
 Use the new Campaign Web UI to:
 
 * Design personalized email content with the email designer - [Learn more](../content/edit-content.md)
+* Send cross cannel campaigns, including SMS and push notifications.
 * Define target audiences with the rule builder - [Learn more](../audience/about-audiences.md)
 * Preview, test and send your email messages - [Learn more](../monitor/prepare-send.md)
-* Monitor send and measure results with built-in reports - [Learn more](../reporting/reports.md)
+* Monitor send and measure results with built-in reports - [Learn more](../reporting/delivery-reports.md)
 
 <!--
 add info somewhere to remind users that
@@ -56,12 +61,9 @@ As an existing Campaign user, note that some concepts have been renamed to align
 
 ## Limitations{#limitations-alpha}
 
-Some Campaign key capabilities, such as cross-channel campaigns and workflow management, will be available with the Beta release. 
-
 The limitations below apply to this Alpha version:
 
-* The only editable objects are Deliveries. The others are read-only. Use filters to browse them all.
-* This version is designed for one off email campaigns. Other channels are not yet supported.
+* The only editable objects are Deliveries, Campaigns, Workflows, Audiences, and Templates. The others are read-only. Use filters to browse them all.
 * The Administration user interface is not available.
 * Reporting metrics (such as opens and tracking data) are updated every hour.
 * Delivery dashboard KPIs are updated every 5 min. - but the Delivery preparation is real-time.
