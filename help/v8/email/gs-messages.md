@@ -5,7 +5,8 @@ description: Learn how to work with deliveries and send messages with Campaign W
 badge: label="Alpha" type="Positive"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 ---
-# Get started with messages in Campaign Web {#gs-messages}
+# Get started with messages{#gs-messages}
+
 
 With Adobe Campaign, you can send cross-channel campaigns including emails, SMS, and Push notifications, and measure their effectiveness using various dedicated reports. These messages are designed and sent though deliveries, and can be personalized for each recipient. These deliveries can be standalone or included in the context of a marketing campaign.
 

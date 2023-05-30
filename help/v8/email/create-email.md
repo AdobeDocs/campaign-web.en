@@ -8,13 +8,18 @@ badge: label="Alpha" type="Positive"
 
 # Send your first email {#first-email}
 
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card3"
+>title="Send your first email with Adobe Campaign"
+>abstract="Learn how to use the Email Designer to create your content, preview and test it, and send an email to an existing audience in a end-to-end use case."
+
 Learn how to create your first targeted email. In this use case, you schedule the sending of an email to Silver and Gold loyalty members on a specific date.
 
 Based on a predefined design template, the email also features personalized content based on customer profile attributes.
 
 ![](assets/delivery-list.png)
 
-## Create the email {#create-email}
+## Create the email delivery {#create-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_template_selection"
@@ -26,7 +31,9 @@ Based on a predefined design template, the email also features personalized cont
 >title="Email Properties"
 >abstract="The properties are the common delivery parameters that helps you to name and classify your delivery. If your delivery is based on an extended schema defined in the Adobe Campaign v8 console, some specific **Custom Options** fields are available."
 
-1. To create a new delivery, browse to the **[!UICONTROL Deliveries]** menu on the left rail, and click the  **[!UICONTROL Create delivery]** button.
+To create a new delivery, follow these steps:
+
+1. Browse to the **[!UICONTROL Deliveries]** menu on the left rail, and click the  **[!UICONTROL Create delivery]** button.
 
 1. Select **[!UICONTROL Email]** as the channel and choose a template.
 
@@ -54,11 +61,6 @@ Based on a predefined design template, the email also features personalized cont
     Additionally, advanced settings, such as typology rules and target mappings, can be accessed by clicking the button located next to the delivery name. These settings are pre-configured in the selected template, but can be edited as needed for this specific email.
 
 ## Create the email content {#create-content}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_card3"
->title="Learn how to design your email content"
->abstract="Learn how to use the Email Designer."
 
 Detailed instructions on how to configure the email content are available in [this section](../content/edit-content.md).
 

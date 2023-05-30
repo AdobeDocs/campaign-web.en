@@ -7,7 +7,12 @@ exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
 ---
 # Get started with campaigns {#campaigns}
 
-Use Adobe Campaign to create cross-channel campaigns. With its marketing campaign orchestration capabilities, you can manage and centralize customer data, design customer communications and campaigns, to create personalized experiences across different channels. Email, Push and SMS channels are available. 
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card5"
+>title="Design and send cross-channel campaigns"
+>abstract="With its marketing campaign orchestration capabilities, you can manage and centralize customer data, design customer communications and campaigns, and create personalized experiences across different channels. Email, Push and SMS channels are available."
+
+Use Adobe Campaign to create cross-channel campaigns. With its marketing campaign orchestration capabilities, you can manage and centralize customer data, design customer communications and campaigns, and create personalized experiences across different channels. Email, Push and SMS channels are available. 
 
 Design and execute un high-volume email campaigns to deliver personalized messages, for all platforms and screen sizes. 
 <!--Measure the effectiveness of your deliveries with detailed reports including thecounts of opens, clicks, forwards, and more.--> With Adobe Campaign segmentation capabilities, you can run queries against a high-volume database, and easily define dynamic marketing segments which perfectly target your campaigns. 
@@ -19,8 +24,6 @@ Design and execute un high-volume email campaigns to deliver personalized messag
 >id="acw_campaign_creation_workflow"
 >title="Workflow list"
 >abstract="List of workflows available for your campaign. Use the 'Create workflow' button to add a workflow in your campaign."
-
-
 
 In a cross-channel campaign, a single marketing communication uses different channels. Data is passed between the channels. The customer receives communication through multiple channels based on, for example, their interaction with the previous communication.
 
