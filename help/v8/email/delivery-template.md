@@ -110,9 +110,40 @@ You can now [use this template](#use-saved-template) to build a new content: it 
 
 To configure a delivery template from scratch, follow the steps below:
 
-1. Browse to the **Templates** tab, from the **Deliveries** left menu.
+1. Browse to the **[!UICONTROL Templates]** tab, from the **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]** left menu.
 1. Click the  **[!UICONTROL Create template]** button.
 1. Select the channel for the template.
-1. Define the template name and settings. 
+1. For each channel, you can also select an existing template to start building your own template on. Use the dedicated button to choose a template from the current list for that channel.
+
+    ![](assets/templates-channel-browse.png)
+
+1. Define the template properties, audience and content.
+
+    ![](assets/templates-create-properties.png)
+
 1. Click the **[!UICONTROL Review]** button to define the template content and change its properties.
 1. Save the new template.
+
+## Test your content template {#test-template}
+
+You can test the rendering of any email content template, whether created from scratch or from an email. To do so, follow the steps below.
+
+>[!CAUTION]
+>
+>To simulate content, you must have the **[!DNL Manage Simulate Content]** permission included in the **[!DNL Content Library Manager]** product profile. [Learn more](../administration/ootb-product-profiles.md#content-library-manager)
+
+1. Access the content template list through the **[!UICONTROL Content Management]** > **[!UICONTROL Content Templates]** menu and select any template.
+
+1. Click **[!UICONTROL Edit content]** from the **[!UICONTROL Template properties]**.
+
+1. Click **[!UICONTROL Simulate Content]** and select a test profile to check your email rendering. You can choose the desktop or mobile view. [Learn more](preview.md)
+
+    ![](assets/content-template-stimulate.png)
+
+1. You can send a proof to test your content and have it approved by some internal users before using it in a journey or a campaign.
+
+    * To do so, click the **[!UICONTROL Send proof]** button and follow the steps described in [this section](preview.md#send-proofs).
+    
+    * Before sending the proof, you must select the [email surface](../configuration/channel-surfaces.md) that will be used to test your content.
+
+        ![](assets/content-template-stimulate-proof-surface.png)
