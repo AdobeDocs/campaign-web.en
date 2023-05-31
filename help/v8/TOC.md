@@ -72,9 +72,6 @@ hide: yes
     + [Add & orchestrate workflow activites](workflows/build-workflow.md)
     + [Configure workflow settings](workflows/workflow-settings.md)
     + [Start & monitor a workflow](workflows/start-monitor-workflows.md)
-  + Work with workflow activities {#design-workflows}
-    + [Targeting activites](workflows/targeting-activities.md)
-    + [Channel activites](workflows/channel-activities.md)
-    + [Data management activities](workflows/data-management-activities.md)
+  + [Workflow activities](workflows/workflow-activities.md)
 + [Reporting](reporting/reports.md)
 
