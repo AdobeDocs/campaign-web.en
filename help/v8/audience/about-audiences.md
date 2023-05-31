@@ -11,7 +11,7 @@ exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
 >title="Get started with audiences"
->abstract="Learn how to use Campaign rule builder and define filtering criteria to build audiences for your messages."
+>abstract="Learn how to use Campaign rule builder and define filtering criteria to build audiences for your messages. You can also easily use data from an external file, or target Adobe Experience Platform audiences."
 
 <!--
 Audience only created for the delivery, not available later-->
