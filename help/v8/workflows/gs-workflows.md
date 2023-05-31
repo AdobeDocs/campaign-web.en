@@ -7,6 +7,12 @@ exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
 ---
 # Get started with workflows {#workflows}
 
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card4"
+>title="Reimagined workflow canvas interface"
+>abstract="Our comprehensive graphical canvas makes it easy for you to design processes such as segmentation, campaign execution, and more."
+
+
 ## What is a workflow?
 
 Cross-channel marketing is essential for any business looking to reach its customers effectively. Adobe Campaign provides a comprehensive graphical environment that empowers you to design complex processes that can help you manage your marketing campaigns with ease.

@@ -12,7 +12,7 @@ Before sending an email, it is important to review and test its content to ensur
 To do this, Adobe Campaign allows you to:
 
 * [Preview the email content and personalization](preview-content.md),
-<!--* [Check the email rendering](#rendering) in popular desktop, mobile and web-based clients,-->
+* [Check the email rendering](#rendering) in popular desktop, mobile and web-based clients,
 * [Send test emails](proofs.md) to specific recipients for testing and validation.
 
 These actions can be performed from the **[!UICONTROL Simulate content]** button which is accessible when creating the content of your email of from the Email Designer:

@@ -8,10 +8,6 @@ badge: label="Alpha" type="Positive"
 
 # Preview email content {#preview} 
 
->[!CONTEXTUALHELP]
->id="acw_homepage_card4"
->title="Smart preview of your content"
->abstract="Use profile data to preview the content of your email before sending, control personalization attributes, and check how your recipients can see the message content."
 
 Use content simulation capability in Adobe Campaign to preview the content of your email before sending it, to control personalization, and check how it is displayed to your recipients.
 

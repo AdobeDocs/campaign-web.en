@@ -60,7 +60,7 @@ Global report not alpha
 >title="Explorer"
 >abstract="The **Explorer** menu displays the same folder hierarchy as the one in the client console. Browse all your Campaign v8 components, folders and schemas. All list screens are read-only, except the email delivery list."
 
-The **Explorer** menu displays the same folder hierarchy as the one in the client console. Browse all your Campaign v8 components, folders and schemas. All list screens are read-only, except the email delivery list. 
+The **Explorer** menu displays the same folder hierarchy as the one in the client console. Browse all your Campaign v8 components, folders and schemas. 
 
 The items displayed in the Explorer depend on your user permissions. 
 
@@ -80,20 +80,25 @@ Navtree view depends on permissions (same as console).
 >[!CONTEXTUALHELP]
 >id="acw_campaigns_list"
 >title="Campaigns"
->abstract="This is the list of your campaigns. You can view useful information such as their start/end/last modification dates, as well as their status. You can filter the list by status or start/end dates. Campaign templates are also available. These lists are read-only."
+>abstract="This is the list of your campaigns. You can view useful information such as their start/end/last modification dates, as well as their status. You can filter the list by status or start/end dates. Click the 'Create campaign' button to add a new campaign. Select a campaign to view its content, deliveries, and details. Browse to the 'Templates' tab to view and create templates."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="Deliveries"
->abstract="Browse through your list of deliveries. You can view their state, last modification date as well as key KPIs. You can filter the list by state, contact date or channel. Click an email delivery to open its dashboard. Other items are read-only. Delivery templates are also available."
+>abstract="Browse through your list of deliveries. You can view their status, contact and modification dates, key KPIs. You can filter the list by state, contact date or channel. Click the 'Create delivery' button to add a new delivery. Select a delivery to view its content, audience, and details."
 
-* **Campaigns** - This is the list of your campaigns. By default, you can view their start/end/last modification dates, as well as their status. You can filter the list by status or start/end dates. Campaign templates are also available. These lists are read-only. 
+In the CAMPAIGN MANAGEMENT section, you can access marketing campaigns, deliveries and workflows.
 
-* **Deliveries** - Browse through your list of deliveries. By default, you can view their state, last modification date as well as key KPIs. You can filter the list by state, contact date or channel. Click an email delivery to open its dashboard to get an overview of the delivery details. Deliveries on other channels are read-only. Delivery templates are also available in read-only mode. You can use the Client Console to edit them. See this [documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
+* **Campaigns** - This is the list of your campaigns, and campaign templates. By default, for each campaign you can view the start/end/creation/last modification dates, the current status, and the name of the Campaign operator who created it. You can filter the list by status, start/end dates, folder, or create an advanced filter to define your own filtering criteria. Learn more about campaigns [in this section](../campaigns/gs-campaigns.md).
+
+* **Deliveries** - Browse through your list of deliveries. By default, you can view their state, last modification date as well as key KPIs. You can filter the list by state, contact date or channel. Click an email delivery to open its dashboard to get an overview of the delivery details. Deliveries on other channels are read-only. Learn more about deliveries [in this section](../email/gs-messages.md).
 
     Use the **More actions** button to delete or duplicate a delivery.
 
     ![](assets/more-actions.png){width="70%" align="left"}
+
+* **Workflows** - In this screen, you can access the full list of workflows and workflow templates. You can check their status, last/next execution dates, and create a new workflow or a new workflow template. You can filter the list with the same criteria as for other objects. In addition, you can filter workflows which belong to a campaign, or not. Learn more about workflows [in this section](../workflows/gs-workflows.md).
+
 
 ### Customer Management
 
@@ -115,7 +120,6 @@ Navtree view depends on permissions (same as console).
 * **Recipients** - Access your recipient database. By default, you can view their email address, first name and last name. This list is read-only. 
 * **Audiences** - This is your list of audiences. By default, you can view their type, origin, creation/last modification dates and label. You can filter the list by origin. This list is read-only. 
 * **Subscriptions lists** - Browse through your subscriptions lists. By default, you can view their type, mode and label. This list is read-only. 
-* **Targeting workflows** - Access your list of Campaign workflows. By default, you can view their state, last/next processing dates and environment. You can filter the list by state, last processing date and workflow type. Workflow templates are also available. These lists are read-only. 
 
 ### Decision Management
 
@@ -226,6 +230,16 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 -->
 
 >[!CONTEXTUALHELP]
+>id="acw_deliveries_sms_audience"
+>title="Define the SMS audience"
+>abstract="Select the best audience for your SMS message."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_audience"
+>title="Define the Push audience"
+>abstract="Select the best audience for your Push message."
+
+>[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
 >title="SMS report summary"
 >abstract="Discover the reporting metrics for your SMS delivery."
@@ -238,7 +252,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_push_notification_template"
 >title="Push Notification template"
->abstract="TBD"
+>abstract="Select a push notification template to start your push delivery."
 
 
 >[!CONTEXTUALHELP]
@@ -267,11 +281,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Define the push iOS content."
 
 >[!CONTEXTUALHELP]
->id="acw_deliveries_sms_content"
->title="SMS Content"
->abstract="Define the SMS content."
-
->[!CONTEXTUALHELP]
 >id="acw_sms_preview_option_app_target"
 >title="App subscribers"
 >abstract="Preview and test the message by adding app subscribers to the main target. "
@@ -296,20 +305,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Personalization"
 >abstract="TBD"
 
->[!CONTEXTUALHELP]
->id="acw_audience_fromfile_select"
->title="File selection"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
->id="acw_audience_fromfile_columns"
->title="Columns definition"
->abstract="Select the columns to insert from your file."
-
->[!CONTEXTUALHELP]
->id="acw_audience_fromfile_formatting"
->title="Formatting parameters"
->abstract="Define the formatting parameters for your file."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sending"
@@ -378,11 +373,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Configure columns with advanced fields."
 
 >[!CONTEXTUALHELP]
->id="acw_deliveries_sms_properties"
->title="SMS delivery properties"
->abstract="Manage the SMS delivery properties."
-
->[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
 >title="Push delivery properties"
 >abstract="Manage the Push delivery properties."
@@ -396,3 +386,28 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_deliveries_sms_template_selection"
 >title="SMS template selection"
 >abstract="Select a predefined template to start your SMS delivery."
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_delivered"
+>title="Delivered"
+>abstract="Delivered KPI"
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_opens"
+>title="Opens"
+>abstract="Opens KPI"
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_clicks"
+>title="Clicks"
+>abstract="Clicks KPI"
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_unsubscriptions"
+>title="Unsubscriptions"
+>abstract="Unsubscriptions KPI"
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_spam"
+>title="Spam"
+>abstract="Spam KPI"

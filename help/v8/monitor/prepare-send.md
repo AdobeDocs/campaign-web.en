@@ -8,10 +8,6 @@ badge: label="Alpha" type="Positive"
 
 # Prepare and send your email {#prepare-send}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_card5"
->title="Prepare and send your email"
->abstract="Discover how to prepare your email and learn more about sending KPIs."
 
 <!--
 

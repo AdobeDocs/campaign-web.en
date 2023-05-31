@@ -18,6 +18,7 @@ hide: yes
   + [Discover the interface](get-started/user-interface.md)
 + Messages & deliveries {#msg}
   + [Get started with messages](email/gs-messages.md)
+  + [Work with delivery templates](email/delivery-template.md)
   + Emails {#email}
     + [Create your first email](email/create-email.md)
     + Create email content {#content}
@@ -40,6 +41,7 @@ hide: yes
         + [Define a style for links](content/styling-links.md)
         + [Add inline styling attributes](content/inline-styling.md)
       + [Add personalization](personalization/personalize.md)
+      + [Add conditional content](personalization/conditions.md)
       + [Send offers](content/offers.md)
     + Preview and test your email {#preview-test}
       + [About preview and test](preview-test/preview-test.md) 
@@ -53,11 +55,13 @@ hide: yes
     + [Get started with push notifications](push/gs-push.md)
   + SMS {#sms}
     + [Get started with SMS deliveries](sms/gs-sms.md)
+    + [Create a SMS delivery](sms/create-sms.md)
+    + [Design a SMS delivery ](sms/content-sms.md)
 + Audiences & recipients {#audiences}
   + [Get started with audiences](audience/about-audiences.md)
   + [Select an existing audience](audience/add-audience.md)
   + [Create an audience with the rule builder](audience/segment-builder.md)
-  + [Import an audience](audience/import-audience.md)
+  + [Load an audience from a file](audience/file-audience.md)
   + [Use an Adobe Experience Platform audience](audience/aep-audience.md)
   + [Set a control group](audience/control-group.md)
 + Cross channel campaigns {#campaigns}
@@ -73,5 +77,7 @@ hide: yes
     + [Configure workflow settings](workflows/workflow-settings.md)
     + [Start & monitor a workflow](workflows/start-monitor-workflows.md)
   + [Workflow activities](workflows/workflow-activities.md)
-+ [Reporting](reporting/reports.md)
++ Reporting {#reports}
+  + [Get started with reports](reporting/gs-reports.md)
+  + [Access delivery reports](reporting/delivery-reports.md)
 

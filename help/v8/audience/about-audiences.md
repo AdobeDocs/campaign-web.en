@@ -11,7 +11,7 @@ exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
 >title="Get started with audiences"
->abstract="Learn how to manage audience for your email content."
+>abstract="Learn how to use Campaign rule builder and define filtering criteria to build audiences for your messages."
 
 <!--
 Audience only created for the delivery, not available later-->
@@ -40,7 +40,7 @@ To define the audience, you can:
 
 * Use an existing audience. [Learn more](add-audience.md)
 * Create a new audience. [Learn more](segment-builder.md)
-* Import an audience from a file. [Learn more](import-audience.md)
+* Use an audience from an external file. [Learn more](file-audience.md)
 * Use an Adobe Experience Platform audience. [Learn more](aep-audience.md)
 
 In addition, you can define control groups to avoid sending messages to a portion of your audience, and measure the impact of your campaigns. [Learn more](control-group.md)
