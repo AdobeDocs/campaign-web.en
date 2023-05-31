@@ -15,27 +15,12 @@ exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
 
 ## Create the workflow {#create-workflow}
 
-The first step to create your workflow in Campaign v8 Web is to create the it either as a standalone workflow or directly within a campaign, and to define its properties.
+The first step to create your workflow in Campaign v8 Web is to create it either as a standalone workflow or directly within a campaign and to define its general properties. To do so, follow these steps:
 
-To do so, follow these steps:
+1. Start by deciding whether you want to create a standalone workflow or integrate it directly within a campaign:
 
-1. Start by deciding whether you want to create a standalone workflow or integrate it directly within a campaign.
-
->[!BEGINTABS]
-
->[!TAB Create a standalone workflow]
-
-Navigate to the Worklows menu and click the Create workflow button in the upper-right corner.
-
-![](assets/workflow-create-standalone.png)
-
->[!TAB Create a campaign workflow]
-
-Navigate to the Campaigns menu and open the campaign where you want to create a new workflow. Click the Create workflow button in the upper-right corner of the Workflows tab.
-
-![](assets/workflow-create-campaign.png)
-
->[!ENDTABS]
+    * **Standalone workflow**: Navigate to the Worklows menu and click the Create workflow button in the upper-right corner.
+    * **Campaign workflow:** Navigate to the Campaigns menu and open the campaign where you want to create a new workflow. Click the Create workflow button in the upper-right corner of the Workflows tab.
 
 1. The workflow Properties dialog box appears. Select the template to use for creating the workflow and provide a name for it.
 
@@ -45,7 +30,7 @@ Navigate to the Campaigns menu and open the campaign where you want to create a 
 
     >[!NOTE]
     >
-    >Whenn creating a workflow within a campaign, you will find an additional Campaign field, which allows you to easily identify and access the  campaign associated to the workflow.
+    >When creating a workflow within a campaign, you will find an additional Campaign field, which allows you to easily identify and access the  campaign associated to the workflow.
 
 1. Click the Create workflow button to confirm the creation of your workflow.
 
@@ -55,15 +40,13 @@ With your workflow created, you can now start orchestrating the various tasks it
 
 ## Orchestrate workflow activities {#build}
 
-Once that you have [created a workflow](create-workflow.md), wether from the workflow menu or within a campaign, you can start orchestrating the differents tasks it will perform.
-
-To do this, a visual canvas is provided, allowing you to construct a workflow diagram. Within this diagram, you can add various activities and connect them in a sequential order.
+Once that you have [created a workflow](create-workflow.md), wether from the workflow menu or within a campaign, you can start orchestrating the differents tasks it will perform. To do this, a visual canvas is provided, allowing you to construct a workflow diagram. Within this diagram, you can add various activities and connect them in a sequential order.
 
 At this stage of the configuration, the diagram is displayed with a start icon, representing the beginning of your workflow. To add your first activity, click the + button connected to the start icon.
 
-![](assets/workflow-start.png)
+A list of activities that can be added to the diagram appears. The available activities depend on your position within the workflow diagram. For example, when adding your first activity, you can start your workflow by targeting an audience, splitting the workflow path, or setting a Wait activity to delay the workflow execution. On the other hand, after a Build audience activity, you can refine your target with targeting activites, send a delivery to your audience with channel activites, or organize the workflow process with flow control activities.
 
-A list of activities that can be added to the diagram appears. The available activities depend on your position within the workflow diagram. For example, when adding your first activity, you can start your workflow by targeting an audience, splitting the workflow path, or setting a Wait activity to delay the workflow execution. On the other hand, if when adding an activity after a Build audience activity, you can refine your target with targeting activites, send a delivery to your audience with channel activites, or organize the workflow process with flow control activities.
+![](assets/workflow-start.png)
 
 Once an activity has been added to the diagram, a right pane appears, allowing you to configure the newly added activity with specific settings. Detailed information on how to configure each activity is available in [this section](workflow-activities.md).
 
