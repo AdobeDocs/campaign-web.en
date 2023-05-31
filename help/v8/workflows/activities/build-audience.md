@@ -7,7 +7,7 @@ badge: label="Alpha" type="Positive"
 
 # Build audience {#build-audience}
 
-This activity allows you to define an audience. You can either select an existing Campaign andience or use the rule builder to define your own query. 
+This activity allows you to define an audience. You can either select an existing audience or use the rule builder to define your own query. 
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.

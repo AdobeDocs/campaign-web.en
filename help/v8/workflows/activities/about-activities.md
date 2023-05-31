@@ -8,23 +8,29 @@ exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
 
 # About workflow activities {#workflow-activities}
 
+Workflow activities are grouped into three categories. Depending on the context, available activities may differ. 
+
+All activities are detailed in the sections below:
+
+* [Targeting activities](#targeting)
+* [Channel activities](#channel)
+* [Flow control activities](#flow-control)
+
 ## Targeting activities {#targeting}
 
-These activities let you build one or more targets by defining sets and splitting or combining these sets using intersection, union, or exclusion operations.
+These activities are specific to targeting, manipulating and enriching population data. They let you build one or more targets by defining an audience and splitting or combining these audiences using intersection, union or exclusion operations.
 
-* [Build audience](build-audience.md)
-* [Combine](combine.md)
-* [Enrichment](enrichment.md)
+* The [Build audience](build-audience.md) activity allows you define your target population. You can either select an existing audience or use the rule builder to define your own query. 
+* The [Combine](combine.md) activity allows to perform segmentation on your inbound population. You can use a union, an intersection or an exclusion.
+* The [Enrichment](enrichment.md) activity allows you to define additional data to process in your workflow. With this activity, you can leverage the inbound transition and configure the activity to complete the output transition with additional data.
 
 ## Channel activities {#channel}
 
-Adobe Campaign Web enables you to automate and execute marketing campaigns across multiple channels, such as email, SMS, or push. With Adobe Campaign  workflows, you can combine channel activities into the canvas to create cross-channel workflows that can trigger actions based on customer behavior. 
+Adobe Campaign Web enables you to automate and execute marketing campaigns across multiple channels, such as email, SMS, or push. With Adobe Campaign workflows, you can combine channel activities into the canvas to create cross-channel workflows that can trigger actions based on customer behavior. 
 
 For example, you can create a welcome email campaign that includes a series of messages across different channels, such as email, SMS, and push. You can also send a follow-up email after a customer has completed a purchase or send a personalized birthday message to a customer via SMS. 
 
 By using channel activities, you can create comprehensive, personalized campaigns that engage customers across multiple touchpoints and drive conversions.
-
-Channel activities are available from the palette, on the left-hand side of the screen, in the Channels section.
 
 * [Email](email.md)
 * [Push](push.md)
@@ -32,18 +38,12 @@ Channel activities are available from the palette, on the left-hand side of the 
 
 ## Flow control activities {#flow-control}
 
-content TBD
+The following activities are specific to organizing and executing workflows. Their main task is to coordinate the other activities:
 
-<!--à reformuler-->These activities let you build one or more targets by defining sets and splitting or combining these sets using intersection, union, or exclusion operations.
-
-Flow control activities are used to coordinate the workflow activities.
-
- 
-* [And-join](and-join.md)
-* [End](end.md)
-* [Fork](fork.md)
-* [Wait](wait.md)
-
+* The [And-join](and-join.md) activity allows you to synchronize multiple execution branches of a workflow.
+* The [End](end.md) activity is optional. You can use for 
+* The [Fork](fork.md) activity allows you to create outbound transitions to start several activities at the same time.
+* The [Wait](wait.md) activity momentarily suspends executing a part of a workflow.
 
 <!--
 ## Data management activities {#data-management}
