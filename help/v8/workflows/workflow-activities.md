@@ -20,14 +20,20 @@ This activity allows you to define an audience. You can either select an existin
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
 -->
 
-To create your own query:
+Follow these steps to configure the **Build audience** activity:
+
+1. Add a Build audience activity. 
+1. Define a label.
+1. Define the audience type: **Create your own** or **Read audience**. 
+
+To create your own query, follow these extra steps:
 
 1. Select **Create your own (query)**.
 1. Choose the **Targeting dimension**. The targeting dimension lets you define the population targeted by the operation: recipients, contract beneficiaries, operator, subscribers, etc. By default, the target is selected from the recipients. Refer to the [v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html#targeting-and-filtering-dimensions){target="_blank"}.
 1. Click **Continue**.
 1. Use the rule builder to define your query, the same way you create an audience when designing a new email. Refer to this [section](../audience/segment-builder.md).
 
-To select an existing audience,
+To select an existing audience, follow these steps:
 
 1. Select **Read audience**.
 1. Click **Continue**.
@@ -45,43 +51,21 @@ The **Combine** activity can be placed after any other activity, but not at the 
 * The **Intersection** allows you to keep only the elements common to the different inbound populations in the activity.
 * The **Exclusion** allows you to exclude elements from one population according to certain criteria. 
 
-Follow these steps to configured the **Combine** activity:
+Follow these steps to configure the **Combine** activity:
 
 1. Add your **Combine** activity to any of the previous segmentation transitions.
 1. Select the segmentation type: union, intersection or exclusion.
 1. Click **Continue**.
 1. In the **Sets to join** section, check all the previous activities you wish you join. 
 
-For the **Union**, follow these steps:
+For the **Union** and **Intersection**, you need to select the **Reconciliation type** to define how duplicates are handled:
 
-1. Select the Reconciliation type to define how duplicates are handled:
     * Keys only: this is the default mode. The activity only keeps one element when elements from the different inbound transitions have the same key. This option can only be used if the inbound populations are homogeneous.
     * A selection of columns: select this option to define the list of columns on which the data reconciliation will be applied. You must first select the primary set (that which contains the source data), then the columns to use for the join.
 
-For the **Intersection** follow these steps:
+For the **Intersection** and **Exclusion**, you can check the **Generate completement** option if you wish to process the remaining population. The complement will contain the union of the results of all inbound activities minus the intersection. An additional outbound transition will then be added to the activity.
 
-1. Select the Reconciliation type to define how duplicates are handled. Refer to the **Union** section above.
-1. Check the Generate completement option.
-
-For the **Exclusion**, follow these steps:
-
-1. In the **Sets to join** section, select the **Primary set** from the inbound transitions. This is the set from which elements are excluded. The other sets match elements before being excluded from the primary set.
-1. Check the Generate completement option.
-
-
-
-
-
-
-
-
-
-
-
-
-Intersection: allows you to keep only the elements common to the different inbound populations in the activity.
-
-Exclusion: allows you to exclude elements from one population according to certain criteria.
+For the **Exclusion**, select the **Primary set** from the inbound transitions, in the **Sets to join** section. This is the set from which elements are excluded. The other sets match elements before being excluded from the primary set.
 
 ### Enrichment {#enrichment}
 
@@ -129,7 +113,6 @@ To add an Enrichement activity into your workflow, follow these steps:
 leverage enrichment data in campaign
 
 where we can use the enrichment data: personalize email, other use cases?
-
 
 ## Channel activities {#channel}
 
