@@ -22,13 +22,15 @@ The first step to create your workflow in Campaign v8 Web is to create it either
     * **Standalone workflow**: Navigate to the Worklows menu and click the Create workflow button in the upper-right corner.
     * **Campaign workflow:** Navigate to the Campaigns menu and open the campaign where you want to create a new workflow. Click the Create workflow button in the upper-right corner of the Workflows tab.
 
-1. The workflow Properties dialog box appears. Select the template to use for creating the workflow and provide a name for it.
-
-    Workflow templates contain pre-configured activities and overall property configurations that can be reused for creating new workflows. They are created from the client console. [Learn how to work with templates](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html#workflow-templates)
+    The workflow Properties dialog box appears.
 
     ![](assets/workflow-create.png)
 
-1. In the Additional options section, configure specific settings for the workflow, such as the storing folder and timezone. [Learn how to configure worklow properties](workflow-settings.md)
+1. Select the template to use to create the workflow and provide a label for the workflow.
+
+    Workflow templates contain pre-configured activities and overall property configurations that can be reused for creating new workflows. They are created from the client console. [Learn how to work with templates](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html#workflow-templates)
+
+1. Expand the Additional options section if you want to configure specific settings for the workflow, such as the storing folder and timezone. [Learn how to configure worklow properties](workflow-settings.md)
 
 1. Click the Create workflow button to confirm the creation of your workflow.
 
