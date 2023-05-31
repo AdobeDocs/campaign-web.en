@@ -24,25 +24,23 @@ A template can include:
 
 ## Access and manage templates {#access-manage-templates}
 
-To access the content template list, select **[!UICONTROL Campaign Management]** > **[!UICONTROL Deliveries]** from the left menu, and browse to the **Templates** tab
+To access the content template list, select **[!UICONTROL Campaign Management]** > **[!UICONTROL Deliveries]** from the left menu, and browse to the **Templates** tab.
 
 ![](assets/templates-tab.png)
 
 All the templates that were [created](#create-a-delivery-template) on the current environment are displayed.
 
-You can sort content templates by channels or folders.
-
-You can set advanced filters by building a rule using delivery attributes.
+You can filter content templates on channels and folders. You can also set advanced filters by building a rule using delivery attributes. [Learn more on the rule builder](../audience/segment-builder.md)
 
 ![](assets/templates-filters.png)
 
-To edit a template, click the desired item from the list. From there, you can modify its content, properties, audience rules or offers.
+To edit a template, click the desired item from the list. From there, you can modify its content, properties, audience and any offers attached to it. You can also test your template. [Learn more](#test-template)
 
 ![](assets/templates-edition.png)
 
-To delete a template, select the trash icon next to the desired template.
+To delete or [duplicate](#copy-an-existing-template) a template, select the corresponding action from the **[!UICONTROL More actions]** menu, either from the **[!UICONTROL Templates]** list or the template edition screen.
 
-![](assets/templates-delete.png)
+![](assets/templates-more-actions.png)
 
 >[!NOTE]
 >
@@ -60,15 +58,20 @@ The easiest way to create a delivery template is to duplicate and customize a bu
 
 To duplicate a delivery template, follow the steps below:
 
-1. Browse to the **Templates** tab, from the **Deliveries** left menu.
-1. Click the three dots button on the right, next to the name of the template to duplicate.
+1. Browse to the **Templates** tab, from the **Deliveries** left menu. [Learn more](#access-manage-templates)
+1. Click the **[!UICONTROL More actions]** button on the right, next to the name of the desired template.
 1. Select  **[!UICONTROL Duplicate]**.
-1. Confirm duplication: the new template dashboard opens in the central screen.
-1. Define the template settings and save the new template.
+1. Confirm duplication.
+
+    ![](assets/templates-duplicate-item.png)
+    
+1. The new template dashboard opens in the central screen. Define the template settings and save the new template.
+
+    ![](assets/templates-duplicated-item.png)
 
 The template is added to the list of delivery templates. You can now select it when creating a new delivery.
 
-### Convert an existing delivery to a template {#convert-an-existing-delivery}
+### Convert a delivery to a template {#convert-an-existing-delivery}
 
 Any delivery can be converted to a template for new repeated delivery actions. 
 
@@ -113,24 +116,17 @@ To configure a delivery template from scratch, follow the steps below:
 
 ## Test your content template {#test-template}
 
-You can test the rendering of any email content template, whether created from scratch or from an email. To do so, follow the steps below.
+You can test the rendering of any email content template, whether created from scratch or from an existing content. To do so, follow the steps below.
 
->[!CAUTION]
->
->To simulate content, you must have the **[!DNL Manage Simulate Content]** permission included in the **[!DNL Content Library Manager]** product profile. [Learn more](../administration/ootb-product-profiles.md#content-library-manager)
-
-1. Access the content template list through the **[!UICONTROL Content Management]** > **[!UICONTROL Content Templates]** menu and select any template.
+1. Access the template list through the **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]** menu and select any template.
 
 1. Click **[!UICONTROL Edit content]** from the **[!UICONTROL Template properties]**.
 
-1. Click **[!UICONTROL Simulate Content]** and select a test profile to check your email rendering. You can choose the desktop or mobile view. [Learn more](preview.md)
+1. Click **[!UICONTROL Simulate Content]** and select a test profile to check your email rendering. You can choose the desktop or mobile view. [Learn more](../preview-test/preview-content.md)
 
-    ![](assets/content-template-stimulate.png)
+    ![](assets/templates-stimulate.png)
 
-1. You can send a proof to test your content and have it approved by some internal users before using it in a journey or a campaign.
+>[!NOTE]
+>
+>You cannot use email rendering or send proofs.
 
-    * To do so, click the **[!UICONTROL Send proof]** button and follow the steps described in [this section](preview.md#send-proofs).
-    
-    * Before sending the proof, you must select the [email surface](../configuration/channel-surfaces.md) that will be used to test your content.
-
-        ![](assets/content-template-stimulate-proof-surface.png)

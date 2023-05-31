@@ -13,6 +13,10 @@ Before sending your email, make sure that your message is displayed to the recip
 
 To do this, Adobe Campaign allows you to preview the sent message in the different contexts in which it may be received and check the compatibility in major desktops and applications (webmail, message service, mobile, etc.).
 
+>[!CAUTION]
+>
+>Using email rendering in Campaign sends a test email to a third-party system that is not under the control of Adobe. To access or delete such data, you will need to contact that third party directly. By using email rendering, you acknowledge Adobe is not responsible for any data you may send to that third-party system.
+
 To test the email rendering, follow these steps:
 
 1. Access the email content creation screen, then click **[!UICONTROL Simulate content]**.
@@ -26,3 +30,4 @@ To test the email rendering, follow these steps:
     >[!NOTE]
     >
     >The email clients list provides a sample of the major mail clients. Additional email clients are available from the filter button next to the top search bar.
+
