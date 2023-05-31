@@ -26,6 +26,9 @@ define settings available from the button in the workflow canvas
 * Internal name
 * Folder
 * Linked campaign > can change it. If so, workflow will disappear from the current campaign and appear in the new linked one
+
+    When creating a workflow within a campaign, you will find an additional Campaign field, which allows you to easily identify and access the  campaign associated to the workflow.
+
 * Timezone: define a specific time zone to use by default in all the workflow's activities. By default, the workflow's time zone is the one defined for the current Campaign operator.
 * Supervisor: When a workflow is in error, the operator(s) belonging to the workflow supervision group are notified by email, as long as their email address is listed in their profile. This group is selected in the **[!UICONTROL Supervisor(s)]** field of the workflow properties.
 * description 
