@@ -386,3 +386,28 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_deliveries_sms_template_selection"
 >title="SMS template selection"
 >abstract="Select a predefined template to start your SMS delivery."
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_delivered"
+>title="Delivered"
+>abstract="Delivered KPI"
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_opens"
+>title="Opens"
+>abstract="Opens KPI"
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_clicks"
+>title="Clicks"
+>abstract="Clicks KPI"
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_unsubscriptions"
+>title="Unsubscriptions"
+>abstract="Unsubscriptions KPI"
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_spam"
+>title="Spam"
+>abstract="Spam KPI"
