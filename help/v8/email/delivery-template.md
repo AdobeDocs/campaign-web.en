@@ -82,26 +82,6 @@ To convert a delivery to a template, follow the steps below:
     
 1. Confirm duplication: the new template opens in the central screen.
 
-### Save content as template {#save-as-template}
-
-Once you designed your email content, you can save as a template it for future reuse. Saved templates are available to all users of your Adobe Campaign environment.
-
-To save an email content as a template, follow the steps below:
-
-1. From the Email designer, click the ellipsis on top right of the screen.
-
-1. Select **[!UICONTROL Save design template]** from the drop-down menu.
-
-    ![](assets/email_designer-save-template.png)
-
-1. Enter a name for this template, and save
-
-    ![](assets/email_designer-template-name.png)
-
-You can now [use this template](#use-saved-template) to build a new content: it is available in the Saved templates tab of the Email designer.
-
-![](assets/email_designer-saved-template.png)
-
 ### Create a new template {#create-a-new-template}
 
 >[!NOTE]
@@ -117,12 +97,19 @@ To configure a delivery template from scratch, follow the steps below:
 
     ![](assets/templates-channel-browse.png)
 
-1. Define the template properties, audience and content.
+1. Define the template properties, [audience](../audience/add-audience.md) and content according to the selected channel.
 
     ![](assets/templates-create-properties.png)
 
-1. Click the **[!UICONTROL Review]** button to define the template content and change its properties.
-1. Save the new template.
+    >[!NOTE]
+    >
+    >Learn more about delivery channels and how to define a delivery content in these sections:
+    >
+    > * [Email channel](../email/create-email.md)
+    > * [Push notification channel](../push/gs-push.md)
+    > * [SMS channel](../sms/create-sms.md)
+
+1. Click the **[!UICONTROL Review]** button to save and review the new template. You can still edit all its settings, delete and duplicate it.
 
 ## Test your content template {#test-template}
 
