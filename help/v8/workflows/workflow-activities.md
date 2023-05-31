@@ -10,13 +10,30 @@ exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
 
 ## Targeting activities {#targeting}
 
-content TBD
-
-<!--à reformuler-->These activities let you build one or more targets by defining sets and splitting or combining these sets using intersection, union, or exclusion operations.
+These activities let you build one or more targets by defining sets and splitting or combining these sets using intersection, union, or exclusion operations.
 
 ### Build audience {#build-audience}
 
+This activity allows you to define an audience. You can either select an existing Campaign andience or use the rule builder to define your own query. 
+
+The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
+
+To create your own query:
+
+1. Select **Create your own (query)**.
+1. Choose the **Targeting dimension**. The targeting dimension lets you define the population targeted by the operation: recipients, contract beneficiaries, operator, subscribers, etc. By default, the target is selected from the recipients. Refer to the [v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html#targeting-and-filtering-dimensions){target="_blank"}.
+1. Click **Continue**.
+1. Use the rule builder to define your query, the same way you create an audience when designing a new email. Refer to this [section](../audience/segment-builder.md).
+
+To select an existing audience,
+
+1. Select **Read audience**.
+1. Click **Continue**.
+1. Select your audience, the same way you use an audience when designing a new email. Refer to this [section](../audience/add-audience.md).
+
 ### Combine {#combine}
+
+The **Combine** activity can be placed after any other activity, but not at the beginning of the workflow. Any activity can be placed after the **Combine**.
 
 ### Enrichment {#enrichment}
 
