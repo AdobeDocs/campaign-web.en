@@ -1,18 +1,36 @@
 ---
 audience: end-user
-title: Work with workflows data management activities
-description: Learn how to use data management activities into Adobe Campaign Web workflows
+title: Work with workflows activities
+description: Learn how to workflow activities
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
 ---
-# Data management activities {#data-management}
+
+# Workflow activities {#workflow-activities}
+
+## Targeting activities {#targeting}
+
+content TBD
+
+<!--à reformuler-->These activities let you build one or more targets by defining sets and splitting or combining these sets using intersection, union, or exclusion operations.
+
+
+## Flow control activities {#flow-control}
+
+content TBD
+
+<!--à reformuler-->These activities let you build one or more targets by defining sets and splitting or combining these sets using intersection, union, or exclusion operations.
+
+Flow control activities are used to coordinate the workflow activities.
+
+## Data management activities {#data-management}
 
 overview: what they're used for
 which use case you can perform with them
 
 list available activites + short description + ref to section
 
-## Enrichment {#enrichment}
+### Enrichment {#enrichment}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_data"
