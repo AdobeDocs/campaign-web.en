@@ -54,7 +54,7 @@ To save an email content as a template, follow the steps below:
 
 1. From the email designer, click the ellipsis on top right of the screen.
 
-1. Select **[!UICONTROL Save as template]** from the drop-down menu.
+1. Select **[!UICONTROL Save as content template]** from the drop-down menu.
 
     ![](assets/email_designer-save-template.png)
 
