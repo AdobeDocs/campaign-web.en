@@ -51,7 +51,7 @@ Navigate to the Campaigns menu and open the campaign where you want to create a 
 
     ![](assets/workflow-create.png)
 
-With your workflow created, you can now start orchestrating the various tasks it will perform using a dedicated visual canvas. [Learn how to orchestrate workflow activities](build-workflow.md)
+With your workflow created, you can now start orchestrating the various tasks it will perform using a dedicated visual canvas. [Learn how to orchestrate workflow activities](#build)
 
 ## Orchestrate workflow activities {#build}
 
