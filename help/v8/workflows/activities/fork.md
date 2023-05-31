@@ -7,3 +7,4 @@ badge: label="Alpha" type="Positive"
 
 # Fork {#fork}
 
+The **Fork** activity allows you to create outbound transitions to start several activities at the same time.

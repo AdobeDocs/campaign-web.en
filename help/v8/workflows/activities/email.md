@@ -7,11 +7,14 @@ badge: label="Alpha" type="Positive"
 
 # Email {#email}
 
+<!--
 description, which use case you can perform (common other activities that you can link before of after the activity)
 
 how to add and configure the activity
 
 example of a configured activity within a workflow
+
+-->
 
 
 The Email delivery activity allows you to configure the sending an email in a workflow. 

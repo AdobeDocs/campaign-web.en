@@ -7,3 +7,6 @@ badge: label="Alpha" type="Positive"
 
 # SMS {#sms}
 
+The **SMS** delivery activity allows you to configure the sending an SMS in a workflow. 
+
+

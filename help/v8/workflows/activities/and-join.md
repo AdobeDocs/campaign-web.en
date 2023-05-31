@@ -7,3 +7,4 @@ badge: label="Alpha" type="Positive"
 
 # AND-join {#join}
 
+The **And-join** activity allows you to synchronize multiple execution branches of a workflow.
