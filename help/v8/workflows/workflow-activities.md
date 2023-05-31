@@ -16,7 +16,9 @@ These activities let you build one or more targets by defining sets and splittin
 
 This activity allows you to define an audience. You can either select an existing Campaign andience or use the rule builder to define your own query. 
 
+<!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
+-->
 
 To create your own query:
 
@@ -33,13 +35,53 @@ To select an existing audience,
 
 ### Combine {#combine}
 
+This activity allows you to process sets on inbound data. You can thus combine several populations, exclude part of it or only keep data common to several targets. Here are the available segmentation types:
+
+<!--
 The **Combine** activity can be placed after any other activity, but not at the beginning of the workflow. Any activity can be placed after the **Combine**.
+-->
 
-Union: lets you group the result of several activities into a single target. Refer to the Union section.
+* The **Union** allows you to regroup the result of multiple activities into a single target.
+* The **Intersection** allows you to keep only the elements common to the different inbound populations in the activity.
+* The **Exclusion** allows you to exclude elements from one population according to certain criteria. 
 
-Intersection: lets you extract only the population with the same inbound activity results
+Follow these steps to configured the **Combine** activity:
 
-Exclusion: lets you create a target based on a main target from which one or more other targets are extracted.
+1. Add your **Combine** activity to any of the previous segmentation transitions.
+1. Select the segmentation type: union, intersection or exclusion.
+1. Click **Continue**.
+1. In the **Sets to join** section, check all the previous activities you wish you join. 
+
+For the **Union**, follow these steps:
+
+1. Select the Reconciliation type to define how duplicates are handled:
+    * Keys only: this is the default mode. The activity only keeps one element when elements from the different inbound transitions have the same key. This option can only be used if the inbound populations are homogeneous.
+    * A selection of columns: select this option to define the list of columns on which the data reconciliation will be applied. You must first select the primary set (that which contains the source data), then the columns to use for the join.
+
+For the **Intersection** follow these steps:
+
+1. Select the Reconciliation type to define how duplicates are handled. Refer to the **Union** section above.
+1. Check the Generate completement option.
+
+For the **Exclusion**, follow these steps:
+
+1. In the **Sets to join** section, select the **Primary set** from the inbound transitions. This is the set from which elements are excluded. The other sets match elements before being excluded from the primary set.
+1. Check the Generate completement option.
+
+
+
+
+
+
+
+
+
+
+
+
+Intersection: allows you to keep only the elements common to the different inbound populations in the activity.
+
+Exclusion: allows you to exclude elements from one population according to certain criteria.
 
 ### Enrichment {#enrichment}
 
