@@ -1,0 +1,34 @@
+---
+audience: end-user
+title: Use the Combine workflow activity
+description: Learn how to use the Combine workflow activity
+badge: label="Alpha" type="Positive"
+---
+
+# Combine {#combine}
+
+This activity allows you to process sets on inbound data. You can thus combine several populations, exclude part of it or only keep data common to several targets. Here are the available segmentation types:
+
+<!--
+The **Combine** activity can be placed after any other activity, but not at the beginning of the workflow. Any activity can be placed after the **Combine**.
+-->
+
+* The **Union** allows you to regroup the result of multiple activities into a single target.
+* The **Intersection** allows you to keep only the elements common to the different inbound populations in the activity.
+* The **Exclusion** allows you to exclude elements from one population according to certain criteria. 
+
+Follow these steps to configure the **Combine** activity:
+
+1. Add your **Combine** activity to any of the previous segmentation transitions.
+1. Select the segmentation type: union, intersection or exclusion.
+1. Click **Continue**.
+1. In the **Sets to join** section, check all the previous activities you wish you join. 
+
+For the **Union** and **Intersection**, you need to select the **Reconciliation type** to define how duplicates are handled:
+
+    * Keys only: this is the default mode. The activity only keeps one element when elements from the different inbound transitions have the same key. This option can only be used if the inbound populations are homogeneous.
+    * A selection of columns: select this option to define the list of columns on which the data reconciliation will be applied. You must first select the primary set (that which contains the source data), then the columns to use for the join.
+
+For the **Intersection** and **Exclusion**, you can check the **Generate completement** option if you wish to process the remaining population. The complement will contain the union of the results of all inbound activities minus the intersection. An additional outbound transition will then be added to the activity.
+
+For the **Exclusion**, select the **Primary set** from the inbound transitions, in the **Sets to join** section. This is the set from which elements are excluded. The other sets match elements before being excluded from the primary set.
