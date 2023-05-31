@@ -65,7 +65,7 @@ At this stage of the configuration, the diagram is displayed with a start icon, 
 
 A list of activities that can be added to the diagram appears. The available activities depend on your position within the workflow diagram. For example, when adding your first activity, you can start your workflow by targeting an audience, splitting the workflow path, or setting a Wait activity to delay the workflow execution. On the other hand, if when adding an activity after a Build audience activity, you can refine your target with targeting activites, send a delivery to your audience with channel activites, or organize the workflow process with flow control activities.
 
-Once an activity has been added to the diagram, a right pane appears, allowing you to configure the newly added activity with specific settings. Detailed information on how to configure each activity is available in [this section](get-started-activities.md).
+Once an activity has been added to the diagram, a right pane appears, allowing you to configure the newly added activity with specific settings. Detailed information on how to configure each activity is available in [this section](workflow-activities.md).
 
 ![](assets/workflow-configure-activities.png)
 
