@@ -35,6 +35,12 @@ To select an existing audience,
 
 The **Combine** activity can be placed after any other activity, but not at the beginning of the workflow. Any activity can be placed after the **Combine**.
 
+Union: lets you group the result of several activities into a single target. Refer to the Union section.
+
+Intersection: lets you extract only the population with the same inbound activity results
+
+Exclusion: lets you create a target based on a main target from which one or more other targets are extracted.
+
 ### Enrichment {#enrichment}
 
 >[!CONTEXTUALHELP]
