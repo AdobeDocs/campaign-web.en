@@ -7,20 +7,33 @@ exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
 ---
 # Start & monitor workflow execution {#start-monitor}
 
-Once that you have created your workflow and designed the tasks to perform in the workflow canvas, you can launch its execution and monitor how it is being executed. 
+Once that you have created your workflow and designed the tasks to perform in the canvas, you can launch it and monitor how it is being executed. 
 
-* how to run the workflow
+## Start the workflow {#start}
 
-* track its execution in real-time. 
+To start the workflow, open it from the Workflows menu or the associated campaign and click the Start button in the upper-right corner of the canvas.
 
-    By default: activity status display + result in transitions. Hide progression button to hide
+Once the workflow is running, each activity in the canvas is being executed in a sequential order, until the end of the workflow is reached.
 
-    blue visual flow
+You can track in real-time the progress of the targeted profiles in the workflow thanks to a visual flow. This allows you to quickly identify the status of each activity and how many profiles are navigating on each transition.
+
+>[!NOTE]
+>
+>You can disable the visual flow using the Hide progression button in the top toolbar of the canvas.
+
+## Monitor activities execution {#activities}
+
+Visual indicators in the upper-right corner of each activity allows you to check their execution:
+
+|Visual indicator | Description | 
+|-----|------------|
+|![](assets/activity-status-pending.png) | The activity is being executed. |
+|![](assets/activity-status-orange.png)| The activity requires your attention. Some action may be required like for example confirming the sending of a delivery. |
+|![](assets/activity-status-red.png)| The activty has encountered an error. Open the workflow logs to get more information and resolve the issue.|
+|![](assets/activity-status-green.png)| The activity has been succesfully executed. | 
+
+## Monitor logs and tasks
+
+## Pause & stop a workflow
 
 * pause/stop the workflow. resume a workflow after being paused.
-
-* access logs and tasks
-
-* what happens in case of error: visual indicators + status
-
-    <!--to reformulate-->You can configure the workflow so that it does not pause and continues execution in case of errors. To do this, edit workflow Properties and, in the Error management section, select the Ignore option in the In case of error field. You may then specify the number of consecutive errors that can be ignored before the process is paused.
