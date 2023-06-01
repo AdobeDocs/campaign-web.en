@@ -61,11 +61,11 @@ Now that you have an understanding of what workflows are and what you can do wit
 <p>
 </td>
 <td>
-<a href="get-started-activities.md">
+<a href="activities/about-activities.md">
 <img alt="Infrequent" src="assets/do-not-localize/workflow-activities.jpeg">
 </a>
 <div>
-<a href="get-started-activities.md"><strong>Work with workflow activities</strong></a>
+<a href="activities/about-activities.md"><strong>Work with workflow activities</strong></a>
 </div>
 <p></td>
 </tr></table>
