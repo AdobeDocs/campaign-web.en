@@ -13,12 +13,14 @@ For an accelerated and improved design process, you can create delivery template
 
 A template can include:
 
-* Typologies
-* Sender and reply-to addresses
-* Basic personalization blocks
-* Links to mirror page and unsubscription links
-* Content, company logo, or signature
-* Other delivery properties, such as resource validity, retry parameters, or quarantine settings.
+<!--[Typologies](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html)?
+Sender and reply-to addresses?-->
+* An [audience](../audience/about-audiences.md), including [control groups](../audience/control-group.md)
+* Custom [content](../content/edit-content.md)<!--company logo, or signature-->
+* [Personalized fields](../personalization/personalize.md) and [conditional content](../personalization/conditions.md) <!--basic [personalization blocks](../personalization/personalize.md#ootb-content-blocks)-->
+* Links to [mirror page](../content/mirror-page.md) and unsubscription [links](../content/message-tracking.md)
+
+<!--Other delivery properties, such as resource validity, retry parameters, or quarantine settings.-->
 
 ## Access and manage templates {#access-manage-templates}
 
