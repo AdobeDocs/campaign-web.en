@@ -46,7 +46,7 @@ A list of activities that can be added to the diagram appears. The available act
 
 ![](assets/workflow-start.png)
 
-Once an activity has been added to the diagram, a right pane appears, allowing you to configure the newly added activity with specific settings. Detailed information on how to configure each activity is available in [this section](workflow-activities.md).
+Once an activity has been added to the diagram, a right pane appears, allowing you to configure the newly added activity with specific settings. Detailed information on how to configure each activity is available in [this section](activities/about-activities.md).
 
 ![](assets/workflow-configure-activities.png)
 

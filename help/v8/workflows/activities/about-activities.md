@@ -16,6 +16,8 @@ All activities are detailed in the sections below:
 * [Channel activities](#channel)
 * [Flow control activities](#flow-control)
 
+![](../assets/wokflow-activities.png)
+
 ## Targeting activities {#targeting}
 
 These activities are specific to targeting, manipulating and enriching population data. They let you build one or more targets by defining an audience and splitting or combining these audiences using intersection, union or exclusion operations.

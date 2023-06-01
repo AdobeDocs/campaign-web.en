@@ -57,9 +57,9 @@ To create a delivery in a campaign, follow these steps:
 
     ![](assets/add-delivery-in-wf.png)
 
-    The **[!UICONTROL Build audience]** activity is detailed in [this section](../workflows/workflow-activities.md#targeting).
+    The **[!UICONTROL Build audience]** activity is detailed in [this section](../workflows/activities/build-audience.md).
 
-1. Select a delivery activity: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification (Android)]** or **[!UICONTROL Push notification (iOS)]**. Learn more about delivery channel activities in a workflow, and how to define a delivery content in this [section](../workflows/workflow-activities.md#channel).
+1. Select a delivery activity: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification (Android)]** or **[!UICONTROL Push notification (iOS)]**. Learn more about delivery channel activities in a workflow, and how to define a delivery content in this [section](../workflows/activities/about-activities.md#channel).
 1. Start the workflow, and check logs.
 
 You can also add deliveries in a campaign without creating a workflow. To achieve this, browse to the **[!UICONTROL Deliveries]** tab of your campaign and click the **[!UICONTROL Create delivery]** button.
