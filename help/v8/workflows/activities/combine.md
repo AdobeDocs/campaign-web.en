@@ -17,9 +17,12 @@ The **Combine** activity can be placed after any other activity, but not at the 
 * The **Intersection** allows you to keep only the elements common to the different inbound populations in the activity.
 * The **Exclusion** allows you to exclude elements from one population according to certain criteria. 
 
+## Configuration
+
 Follow these steps to configure the **Combine** activity:
 
-1. Add your **Combine** activity to any of the previous segmentation transitions.
+1. Add multiple activities such as **Build audience** activities to form at least two different execution branches.
+1. Add a **Combine** activity to any of the previous segmentation transitions.
 1. Select the segmentation type: union, intersection or exclusion.
 1. Click **Continue**.
 1. In the **Sets to join** section, check all the previous activities you wish you join. 
@@ -32,3 +35,22 @@ For the **Union** and **Intersection**, you need to select the **Reconciliation 
 For the **Intersection** and **Exclusion**, you can check the **Generate completement** option if you wish to process the remaining population. The complement will contain the union of the results of all inbound activities minus the intersection. An additional outbound transition will then be added to the activity.
 
 For the **Exclusion**, select the **Primary set** from the inbound transitions, in the **Sets to join** section. This is the set from which elements are excluded. The other sets match elements before being excluded from the primary set.
+
+## Examples
+
+In the following example, we added a **union** that retrieves all the profiles of the two queries: persons between 18 and 27 years old and persons between 34 and 40 years old.
+
+![](../assets/wokflow-union-example.png)
+
+The following example shows the **intersection** between two query activities. It is being used here to retrieve profiles who are between 18 to 27 years old and whose email address has been provided.
+
+![](../assets/wokflow-intersection-example.png)
+
+The following **exclusion** example shows two queries configured to filter profiles who are between 18 and 27 years old and have an invalid email address. The profiles with invalid email addresses are then excluded from the first set. This allows you to then send an email for example.
+
+![](../assets/wokflow-exclusion-example.png)
+
+
+
+
+
