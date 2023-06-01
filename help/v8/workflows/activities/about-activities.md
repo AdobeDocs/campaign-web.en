@@ -16,7 +16,7 @@ All activities are detailed in the sections below:
 * [Channel activities](#channel)
 * [Flow control activities](#flow-control)
 
-![](../assets/wokflow-activities.png)
+![](../assets/workflow-activities.png)
 
 ## Targeting activities {#targeting}
 

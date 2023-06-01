@@ -40,15 +40,15 @@ For the **Exclusion**, select the **Primary set** from the inbound transitions, 
 
 In the following example, we added a **union** that retrieves all the profiles of the two queries: persons between 18 and 27 years old and persons between 34 and 40 years old.
 
-![](../assets/wokflow-union-example.png)
+![](../assets/workflow-union-example.png)
 
 The following example shows the **intersection** between two query activities. It is being used here to retrieve profiles who are between 18 to 27 years old and whose email address has been provided.
 
-![](../assets/wokflow-intersection-example.png)
+![](../assets/workflow-intersection-example.png)
 
-The following **exclusion** example shows two queries configured to filter profiles who are between 18 and 27 years old and have an invalid email address. The profiles with invalid email addresses are then excluded from the first set. This allows you to then send an email for example.
+The following **exclusion** example shows two queries configured to filter profiles who are between 18 and 27 years old and have an adobe email email domain. The profiles with an adobe email domain are then excluded from the first set. 
 
-![](../assets/wokflow-exclusion-example.png)
+![](../assets/workflow-exclusion-example.png)
 
 
 
