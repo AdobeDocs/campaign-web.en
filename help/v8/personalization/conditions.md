@@ -35,7 +35,7 @@ To define a conditional content for a delivery:
 
 1. In the personalization editor, browse to **[!UICONTROL Helper functions]**.
 1. Click the '+' icon next to the **If** function. The following line is added to the central screen:
-    `<% if (<FIELD>==<VALUE>) { %>Insert content here<% } %>``
+    `<% if (<FIELD>==<VALUE>) { %>Insert content here<% } %>`
 1. Replace `<FIELD>` by a personalization field. For example, the recipient's company: `recipient.company`.
 1. Replace `<VALUE>` by a the value to satisfy. For example, `ADOBE`.
 
@@ -49,7 +49,7 @@ To create a conditional subject line for a SMS message, follow the steps below:
 1. Open a delivery and edit the content.
 1. Click the Open personalization dialog icon, on the right of the subject line.
 1. In the personalization editor, browse to
-1. 
+
 
 ```sql
 <% if 
