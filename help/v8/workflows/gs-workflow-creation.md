@@ -35,7 +35,7 @@ The main steps to create workflows are as follows:
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-workflow.md#create">
-<img alt="Lead" src="assets/do-not-localize/workflow-process-1.jpeg">
+<img alt="Lead" src="assets/do-not-localize/workflow-process-1 .jpeg">
 </a>
 <div><a href="create-workflow.md#create"><strong>Create the workflow</strong>
 </div>
