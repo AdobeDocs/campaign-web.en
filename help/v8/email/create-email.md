@@ -10,7 +10,7 @@ badge: label="Alpha" type="Positive"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
->title="Send your first email with Adobe Campaign"
+>title="Get started with emails"
 >abstract="Start from a template, or use Adobe Campaign's new Email Designer to create emails without having to write a single line of code. Learn how to use the Email Designer to create your content, preview and test it, and send an email to an existing audience in an end-to-end use case."
 
 

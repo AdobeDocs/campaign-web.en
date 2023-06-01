@@ -10,7 +10,7 @@ badge: label="Alpha" type="Positive"
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="What's new?"
->abstract="Discover Campaign Web new user interface, latest improvements, key capabilities, and learn how to use them to build cross-channel campaigns for your audiences. With its user-friendly features, Campaign helps you streamline personalized cross-channel campaign creation process, drive results, and gain a competitive edge. "
+>abstract="Discover Campaign Web new user interface, latest improvements, key capabilities. Learn how to use them to build cross-channel campaigns for your audiences. With its user-friendly features, Campaign helps you streamline personalized cross-channel campaign creation process, drive results, and gain a competitive edge. "
 
 
 
