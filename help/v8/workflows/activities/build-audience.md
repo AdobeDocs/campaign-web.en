@@ -35,3 +35,7 @@ To select an existing audience, follow these steps:
 1. Select your audience, the same way you use an audience when designing a new email. Refer to this [section](../../audience/add-audience.md).
 
 ## Example
+
+Here is an exemple of a worflow with two **Build audience** activities. The first one targets the poker players audience, followed by an email delivery. The second one targets the VIP clients audience, followed by an SMS delivery.
+
+![](../assets/workflow-audience-example.png)
