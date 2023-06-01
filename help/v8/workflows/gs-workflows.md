@@ -10,7 +10,7 @@ exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
 >title="Reimagined workflow canvas interface"
->abstract="Our comprehensive graphical canvas makes it easy for you to design processes such as segmentation, campaign execution, and more."
+>abstract="Our comprehensive graphical canvas makes it easy for you to design processes such as segmentation, campaign execution, and more. With this advanced tool at your fingertips, you can streamline your workflow and elevate your campaigns."
 
 
 ## What is a workflow?
