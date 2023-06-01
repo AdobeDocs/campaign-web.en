@@ -1,11 +1,11 @@
 ---
 audience: end-user
-title: Build an audience with the rule builder
-description: Learn how to work with the Segment Buidler
+title: Build an audience with Campaign rule builder
+description: Learn how to work with the rule buidler
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Alpha" type="Positive"
 ---
-# Build an audience with the rule builder {#segment-builder}
+# Define an audience with the rule builder {#segment-builder}
 
 This section describes how to create an audience when designing a new email. The created audience can only be used in this email. 
 
