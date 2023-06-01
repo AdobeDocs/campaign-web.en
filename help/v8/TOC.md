@@ -60,7 +60,7 @@ hide: yes
 + Audiences & recipients {#audiences}
   + [Get started with audiences](audience/about-audiences.md)
   + [Select an existing audience](audience/add-audience.md)
-  + [Create an audience with the rule builder](audience/segment-builder.md)
+  + [Define an audience with the rule builder](audience/segment-builder.md)
   + [Load an audience from a file](audience/file-audience.md)
   + [Use an Adobe Experience Platform audience](audience/aep-audience.md)
   + [Set a control group](audience/control-group.md)
@@ -73,8 +73,9 @@ hide: yes
   + Create & run your first workflow {#create-workflow}
     + [Key principles of workflow creation](workflows/gs-workflow-creation.md)
     + [Create the workflow](workflows/create-workflow.md)
-    + [Configure workflow settings](workflows/workflow-settings.md)
-    + [Start & monitor a workflow](workflows/start-monitor-workflows.md)
+    + [Orchestrate activities](workflows/orchestrate-activities.md)
+    + [Configure advanced settings](workflows/workflow-settings.md)
+    + [Start & monitor the workflow](workflows/start-monitor-workflows.md)
   + Work with workflow activities {#design-workflows}
     + [About workflow activites](workflows/activities/about-activities.md)
     + [And-join](workflows/activities/and-join.md)

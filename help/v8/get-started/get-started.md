@@ -9,8 +9,9 @@ badge: label="Alpha" type="Positive"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
->title="What's new"
->abstract="Discover Campaign Web new user interface, latest improvements, key capabilities, and how to use them to build cross-channel campaigns for your audiences."
+>title="What's new?"
+>abstract="Discover Campaign Web new user interface, latest improvements, key capabilities. Learn how to use them to build cross-channel campaigns for your audiences. With its user-friendly features, Campaign helps you streamline personalized cross-channel campaign creation process, drive results, and gain a competitive edge. "
+
 
 
 Adobe Campaign provides a platform for designing cross-channel customer experiences and an environment for visual campaign orchestration, real-time interaction management and cross channel execution.

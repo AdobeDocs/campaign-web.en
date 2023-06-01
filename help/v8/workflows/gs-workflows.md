@@ -10,7 +10,7 @@ exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
 >title="Reimagined workflow canvas interface"
->abstract="Our comprehensive graphical canvas makes it easy for you to design processes such as segmentation, campaign execution, and more."
+>abstract="Our comprehensive graphical canvas makes it easy for you to design processes such as segmentation, campaign execution, and more. With this advanced tool at your fingertips, you can streamline your workflow and elevate your campaigns."
 
 
 ## What is a workflow?
@@ -36,8 +36,30 @@ Here are some examples of how you can use workflows with Adobe Campaign:
 
 Now that you have an understanding of what workflows are and what you can do with them in Adobe Campaign, it's time to dive deeper into these documentation sections to start working with the feature.
 
-* Create your first workflow
-* Design workflows
-* Access & monitor 
-
-(link to sub-section TBD)
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="access-monitor.md">
+<img alt="Access and manage workflows" src="assets/do-not-localize/workflow-access.jpeg">
+</a>
+<div>
+<a href="access-monitor.md"><strong>Access & manage workflows</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="create-workflow.md">
+<img alt="Lead" src="assets/do-not-localize/workflow-create.jpeg">
+</a>
+<div><a href="create-workflow.md"><strong>Create & run your first workflow</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="activities/about-activities.md">
+<img alt="Infrequent" src="assets/do-not-localize/workflow-activities.jpeg">
+</a>
+<div>
+<a href="activities/about-activities.md"><strong>Work with workflow activities</strong></a>
+</div>
+<p></td>
+</tr></table>

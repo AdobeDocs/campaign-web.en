@@ -64,6 +64,7 @@ As an existing Campaign user, note that some concepts have been renamed to align
 The limitations below apply to this Alpha version:
 
 * The only editable objects are Deliveries, Campaigns, Workflows, Audiences, and Templates. The others are read-only. Use filters to browse them all.
+* Audiences cannot be saved for future use.
 * The Administration user interface is not available.
 * Reporting metrics (such as opens and tracking data) are updated every hour.
 * Delivery dashboard KPIs are updated every 5 min. - but the Delivery preparation is real-time.

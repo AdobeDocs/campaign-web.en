@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: Select an audience
+title: Select an existing audience
 description: Learn how to select an audience
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Alpha" type="Positive"
@@ -17,8 +17,8 @@ This section explains how to select an existing audience, when defining the targ
 
 You can also:
 
-* Create a new audience. [Learn more](segment-builder.md)
-* Use an audience from an external file. [Learn more](file-audience.md)
+* Build a new audience. [Learn more](segment-builder.md)
+* Load an audience from an external file. [Learn more](file-audience.md)
 * Use an Adobe Experience Platform audience. [Learn more](aep-audience.md).
 
 
