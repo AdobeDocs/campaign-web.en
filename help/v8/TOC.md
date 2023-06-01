@@ -73,8 +73,9 @@ hide: yes
   + Create & run your first workflow {#create-workflow}
     + [Key principles of workflow creation](workflows/gs-workflow-creation.md)
     + [Create the workflow](workflows/create-workflow.md)
-    + [Configure workflow settings](workflows/workflow-settings.md)
-    + [Start & monitor a workflow](workflows/start-monitor-workflows.md)
+    + [Orchestrate activities](workflows/orchestrate-activities.md)
+    + [Configure advanced settings](workflows/workflow-settings.md)
+    + [Start & monitor the workflow](workflows/start-monitor-workflows.md)
   + Work with workflow activities {#design-workflows}
     + [About workflow activites](workflows/activities/about-activities.md)
     + [And-join](workflows/activities/and-join.md)
