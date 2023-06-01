@@ -5,12 +5,13 @@ description: Learn how to build workflows with Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
 ---
-# Configure the workflow settings {#workflow-settings}
+# Configure advanced workflow settings {#workflow-settings}
 
-content TBD
+When orchestrating workflow activities in the canvas, you can access advanced settings related to the workflow. For example, you can set a specific timezone for the workflow, manage how the workflow should behave in case of error, or manage the delay after which the workflow history should be purged.
 
-define settings available from the button in the workflow canvas
-<!--à reformuler-->
+To do this, click the **[!UICONTROL Workflow settings]** icon  in the upper-left corner of the canvas, next to the workflow label.
+
+![](assets/workflow-settings.png)
 
 ## Workflow properties {#properties}
 
@@ -19,19 +20,15 @@ define settings available from the button in the workflow canvas
 >title="Workflow properties"
 >abstract="TBD"
 
-(= same as when creating the workflow ? to check)
+The workflow properties section provides generic properties that are also accessible when creating the workflow.
 
-* Label
-* Additional options
-* Internal name
-* Folder
-* Linked campaign > can change it. If so, workflow will disappear from the current campaign and appear in the new linked one
-
-    When creating a workflow within a campaign, you will find an additional Campaign field, which allows you to easily identify and access the  campaign associated to the workflow.
-
-* Timezone: define a specific time zone to use by default in all the workflow's activities. By default, the workflow's time zone is the one defined for the current Campaign operator.
-* Supervisor: When a workflow is in error, the operator(s) belonging to the workflow supervision group are notified by email, as long as their email address is listed in their profile. This group is selected in the **[!UICONTROL Supervisor(s)]** field of the workflow properties.
-* description 
+* **[!UICONTROL Label]**: The label of the workflow that displays in the list.
+* **[!UICONTROL Internal name]**: The internal name of the workflow.
+* **[!UICONTROL Folder]**: The folder where the workflow should be saved.
+* **[!UICONTROL Linked campaign]**: This field display if the workflow has been created within a campaign. It allows you to open the associated campaign.
+* **[!UICONTROL Timezone]**: Define a specific time zone to use by default in all the workflow's activities. By default, the workflow's time zone is the one defined for the current Campaign operator.
+* **[!UICONTROL Supervisor]**: When a workflow is in error, the operator(s) belonging to the workflow supervision group are notified by email, as long as their email address is listed in their profile.
+* **[!UICONTROL Description]**: Use this field to provide a description of your workflow.
 
 ## Segmentation settings
 
@@ -40,17 +37,10 @@ define settings available from the button in the workflow canvas
 >title="Segmentation settings"
 >abstract="TBD"
 
-* targeting dimension: 
+* **[!UICONTROL Targeting dimension]**: Select the targeting dimension to use to target profiles: recipients, contract beneficiaries, operator, subscribers, etc.
+* **[!UICONTROL Keep the result of interim populations between two executions]**: By default, only the working tables of the last execution of the workflow are kept. Working tables from previous executions are purged by a technical workflow, which runs on a daily basis.
 
-    During data segmentation operations, the targeting key is mapped to a filtering dimension. The targeting dimension lets you define the population targeted by the operation: recipients, contract beneficiaries, operator, subscribers, etc. The filtering dimension lets you select the population based on certain criteria: contract holders, newsletter subscribers, etc.
-
-* keep results: The **Keep the result of interim populations between two executions** option keeps temporary tables between two executions of a workflow.  It is available in the workflow properties' **[!UICONTROL General]** tab, and can be used for development and test purpose to monitor data and check results. You can use this option in development environments, but never use it on production environments. Keeping temporary tables could result in the size of the database increasing significantly and eventually the size limit being reached. Moreover, it will slow down the backup.
-
-    Only the working tables of the last execution of the workflow are kept. Working tables from previous executions are purged by the **[!UICONTROL cleanup]** workflow, which runs on a daily basis.
-
-    >[!CAUTION]
-    >
-    >This option must **never** be checked in a **production** workflow. This option is used to analyze the results and is designed only for testing purposes and hence must be used only on development or staging environments.
+    If this option is enabled, working tables will be kept even after the workflow has been executed. You can use it for testing purposes and hence must be used only on development or staging environments. It must never be checked in a production workflow,
 
 ## Workflow execution settings
 
