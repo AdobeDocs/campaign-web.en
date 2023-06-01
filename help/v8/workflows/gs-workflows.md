@@ -41,3 +41,31 @@ Now that you have an understanding of what workflows are and what you can do wit
 * Access & monitor 
 
 (link to sub-section TBD)
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="access-monitor.md">
+<img alt="Access and manage workflows" src="assets/do-not-localize/workflow-access.jpeg">
+</a>
+<div>
+<a href="access-monitor.md"><strong>Access & manage workflows</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="create-workflow.md">
+<img alt="Lead" src="assets/do-not-localize/workflow-create.jpeg">
+</a>
+<div><a href="create-workflow.md"><strong>Create & run your first workflow</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="get-started-activities.md">
+<img alt="Infrequent" src="assets/do-not-localize/workflow-activities.jpeg">
+</a>
+<div>
+<a href="get-started-activities.md"><strong>Work with workflow activities</strong></a>
+</div>
+<p></td>
+</tr></table>
