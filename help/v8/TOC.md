@@ -60,7 +60,7 @@ hide: yes
 + Audiences & recipients {#audiences}
   + [Get started with audiences](audience/about-audiences.md)
   + [Select an existing audience](audience/add-audience.md)
-  + [Create an audience with the rule builder](audience/segment-builder.md)
+  + [Define an audience with the rule builder](audience/segment-builder.md)
   + [Load an audience from a file](audience/file-audience.md)
   + [Use an Adobe Experience Platform audience](audience/aep-audience.md)
   + [Set a control group](audience/control-group.md)
