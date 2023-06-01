@@ -13,6 +13,8 @@ This activity allows you to define an audience. You can either select an existin
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
 -->
 
+## Configuration
+
 Follow these steps to configure the **Build audience** activity:
 
 1. Add a Build audience activity. 
@@ -31,3 +33,5 @@ To select an existing audience, follow these steps:
 1. Select **Read audience**.
 1. Click **Continue**.
 1. Select your audience, the same way you use an audience when designing a new email. Refer to this [section](../../audience/add-audience.md).
+
+## Example

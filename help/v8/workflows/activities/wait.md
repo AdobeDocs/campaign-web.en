@@ -11,6 +11,8 @@ The **Wait** activity momentarily suspends executing a part of a workflow. It ac
 
 The **Wait** activity is used to allow a certain amount of time to pass between two activities being executed. For example, to wait several days after an email delivery activity then analyze the opens and clicks generated during this period before performing any follow-up operations (reminder email, creating an audience, etc.).
 
+## Configuration
+
 Follow these steps to configure the **Wait** activity:
 
 1. Add a **Wait** activity into your workflow.
@@ -19,7 +21,6 @@ Follow these steps to configure the **Wait** activity:
 
 1. Select the time unit **Period**: seconds, minutes, hours. 
 
-
-
+## Example
 
 

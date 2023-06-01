@@ -13,9 +13,9 @@ This activity allows you to process sets on inbound data. You can thus combine s
 The **Combine** activity can be placed after any other activity, but not at the beginning of the workflow. Any activity can be placed after the **Combine**.
 -->
 
-* The **Union** allows you to regroup the result of multiple activities into a single target.
-* The **Intersection** allows you to keep only the elements common to the different inbound populations in the activity.
-* The **Exclusion** allows you to exclude elements from one population according to certain criteria. 
+   * The **Union** allows you to regroup the result of multiple activities into a single target.
+   * The **Intersection** allows you to keep only the elements common to the different inbound populations in the activity.
+   * The **Exclusion** allows you to exclude elements from one population according to certain criteria. 
 
 ## Configuration
 
