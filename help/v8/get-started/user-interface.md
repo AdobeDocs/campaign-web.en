@@ -235,11 +235,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Select the best audience for your SMS message."
 
 >[!CONTEXTUALHELP]
->id="acw_deliveries_push_audience"
->title="Define the Push audience"
->abstract="Select the best audience for your Push message."
-
->[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
 >title="SMS report summary"
 >abstract="Discover the reporting metrics for your SMS delivery."
@@ -248,12 +243,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_push_report_overview"
 >title="Push report summary"
 >abstract="Discover the reporting metrics for your Push delivery."
-
->[!CONTEXTUALHELP]
->id="acw_push_notification_template"
->title="Push Notification template"
->abstract="Select a push notification template to start your push delivery."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"

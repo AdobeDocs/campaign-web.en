@@ -53,10 +53,14 @@ hide: yes
       + [Email delivery settings](advanced-settings/delivery-settings.md)
   + Push notifications {#push}
     + [Get started with push notifications](push/gs-push.md)
+    + [Create a push notification delivery](push/create-push.md)
+    + [Design a push delivery](push/content-push.md)
+    + [Send a push notification delivery](push/send-push.md)
   + SMS {#sms}
     + [Get started with SMS deliveries](sms/gs-sms.md)
-    + [Create a SMS delivery](sms/create-sms.md)
-    + [Design a SMS delivery ](sms/content-sms.md)
+    + [Create an SMS delivery](sms/create-sms.md)
+    + [Design an SMS delivery ](sms/content-sms.md)
+    + [Send an SMS delivery ](sms/send-sms.md)
 + Audiences & recipients {#audiences}
   + [Get started with audiences](audience/about-audiences.md)
   + [Select an existing audience](audience/add-audience.md)

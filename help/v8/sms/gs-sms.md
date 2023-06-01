@@ -17,32 +17,30 @@ The SMS channel offers three methods for creating SMS deliveries:
 
 * Stand-alone deliveries: Create individual SMS deliveries for quick and direct communication with your customers, without the need for workflows or campaigns.
 
-<!--
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-sms.md">
-<img alt="Lead" src="">
+<img alt="Lead" src="assets/do-not-localize/create_sms.png">
 </a>
-<div><a href="create-sms.md"><strong>Create an SMS message</strong>
+<div><a href="create-sms.md"><strong>Create an SMS delivery</strong>
 </div>
 <p>
 </td>
 <td>
-<a href="">
-<img alt="Infrequent" src="">
+<a href="content-sms.md">
+<img alt="Infrequent" src="assets/do-not-localize/design_sms.png">
 </a>
 <div>
-<a href=""><strong>Send an SMS message</strong></a>
+<a href="content-sms.md">Design an SMS delivery<strong></strong></a>
 </div>
 <p></td>
 <td>
-<a href="">
-<img alt="Validation" src="">
+<a href="send-sms.md">
+<img alt="Validation" src="assets/do-not-localize/send_sms.png">
 </a>
 <div>
-<a href=""><strong>SMS opt-out management</strong></a>
+<a href="send-sms.md"><strong>Send an SMS delivery</strong></a>
 </div>
 <p>
 </td>
 </tr></table>
--->

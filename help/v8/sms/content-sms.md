@@ -5,7 +5,7 @@ description: Learn how to design your SMS delivery
 badge: label="Alpha" type="Positive"
 exl-id: 1a70d033-6f1b-482b-9948-59ef75871750
 ---
-# Design a SMS delivery {#design-sms}
+# Design an SMS delivery {#design-sms}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
