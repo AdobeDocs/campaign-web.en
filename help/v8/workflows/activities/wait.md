@@ -23,4 +23,6 @@ Follow these steps to configure the **Wait** activity:
 
 ## Example
 
+The following example illustrates the **Wait** activity in a typical use case. An email invitation to an event is sent. 24 hours after it was sent, an SMS delivery is sent to the same population.
 
+![](../assets/workflow-wait-example.png)
