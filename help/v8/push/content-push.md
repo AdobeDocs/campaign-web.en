@@ -24,8 +24,6 @@ With Firebase Cloud Messaging, you can choose between two types of messages:
     
     To further personalize your push notification, you can choose an image to add to your push notification, the notification’s icon to display on your profiles’ devices and its color.
 
->[!BEGINTABS]
-
 >[!TAB iOS]
 
 To compose your message, click the **[!UICONTROL Title]** and **[!UICONTROL Body]** fields. Use the Expression editor to define content, personalize data and add dynamic content.
@@ -40,6 +38,7 @@ The Silent Push mode allows a “silent” notification to be sent to a mobile a
 
 >[!BEGINTABS]
 
+>[!TAB Android]
 
 * **[!UICONTROL Sound]**: Set the sound to play when the device receives your notification.
 
@@ -56,8 +55,6 @@ The Silent Push mode allows a “silent” notification to be sent to a mobile a
 * **[!UICONTROL Visibility]**: Set the visibility levels of your notification to public, private or secret. For more on this, refer to FCM documentation.
 
 * **[!UICONTROL Sticky]**: If deactivated, the notification is automatically dismissed when the user clicks it. If activated, the notification is still displayed even when the user clicks it.
-
->[!BEGINTABS]
 
 >[!TAB iOS]
 
