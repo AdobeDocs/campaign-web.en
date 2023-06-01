@@ -22,6 +22,6 @@ Follow these steps to configure the **AND-join** activity:
 
 ## Example
 
-The following example shows two workflow branches with an email and SMS delivery. The AND-join will trigger when both deliveries are finished. The push notifications will then be sent.
+The following example shows two workflow branches with an email and SMS delivery. The AND-join will trigger when both inbound transitions are enabled. The push notifications will then be sent only after both deliveries are finished. 
 
 ![](../assets/workflow-andjoin-example.png)
