@@ -6,14 +6,14 @@ badge: label="Alpha" type="Positive"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
 ---
 
-# Create a workflow {#create}
+# Create your first workflow {#create-first-workflow}
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_creation_properties"
 >title="Workflow properties"
 >abstract="TBD"
 
-## Create the workflow {#create-workflow}
+## Create the workflow {#create}
 
 The first step to create your workflow in Campaign v8 Web is to create it either as a standalone workflow or directly within a campaign and to define its general properties. To do so, follow these steps:
 
