@@ -29,8 +29,8 @@ Follow these steps to configure the **Combine** activity:
 
 For the **Union** and **Intersection**, you need to select the **Reconciliation type** to define how duplicates are handled:
 
-    * Keys only: this is the default mode. The activity only keeps one element when elements from the different inbound transitions have the same key. This option can only be used if the inbound populations are homogeneous.
-    * A selection of columns: select this option to define the list of columns on which the data reconciliation will be applied. You must first select the primary set (that which contains the source data), then the columns to use for the join.
+* Keys only: this is the default mode. The activity only keeps one element when elements from the different inbound transitions have the same key. This option can only be used if the inbound populations are homogeneous.
+* A selection of columns: select this option to define the list of columns on which the data reconciliation will be applied. You must first select the primary set (that which contains the source data), then the columns to use for the join.
 
 For the **Intersection** and **Exclusion**, you can check the **Generate completement** option if you wish to process the remaining population. The complement will contain the union of the results of all inbound activities minus the intersection. An additional outbound transition will then be added to the activity.
 
