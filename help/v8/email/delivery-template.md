@@ -148,17 +148,30 @@ You can test the rendering of any delivery template, whether created from scratc
 
 1. Browse to the **Templates** tab through the **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]** menu and select any template. [Learn more](#access-manage-templates)
 
-1. Click the **[!UICONTROL Simulate Content]** button on right top of the screen.
+1. Click the **[!UICONTROL Simulate Content]** button on top right of the screen.
 
     ![](assets/templates-simulate-button.png)
 
-1. Select a test profile to check your email rendering. [Learn more]()
+1. Select one or more test profiles to check your email rendering. You can also select real profiles from your database.
 
-1. You can choose the desktop or mobile view. [Learn more](../preview-test/preview-content.md)
+1. Toggle between the different profiles to get a personalized representation of the message according to the selected profile.
+
+    <!--[Learn moreon test profiles](../preview-test/proofs.md#recipients)-->
+
+    You can also adjust the zoom level and choose the desktop or mobile view.
 
     ![](assets/templates-stimulate.png)
 
+1. Close the window to go back to the template edition screen.
+
 >[!NOTE]
 >
->You cannot use email rendering or send proofs.
+>You cannot use email rendering or send proofs in a delivery template.
+
+* [Learn more on previewing email content](../preview-test/preview-content.md)
+
+* [Learn more on previewing SMS content](../sms/content-sms.md)
+
+* [Learn more on previewing push content](../push/gs-push.md)
+
 
