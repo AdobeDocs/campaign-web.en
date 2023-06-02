@@ -22,7 +22,7 @@ To do this, click the **[!UICONTROL Workflow settings]** icon  in the upper-left
 >title="Workflow properties"
 >abstract="TBD"
 
-The **[!UCONTROL Properties]** section provides generic settings that are also accessible when creating the workflow.
+The **[!UICONTROL Properties]** section provides generic settings that are also accessible when creating the workflow.
 
 * **[!UICONTROL Label]**: The label of the workflow that displays in the list.
 * **[!UICONTROL Name]**: The internal name of the workflow.
