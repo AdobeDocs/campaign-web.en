@@ -7,6 +7,13 @@ badge: label="Alpha" type="Positive"
 ---
 # About email preview and test {#about-preview-proofs}
 
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate"
+>title="Preview and test your messages"
+>abstract="Once your message content has been defined, you can use test profiles to preview and test it."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/preview-content.html?lang=en" text="Preview email content"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/proofs.html?lang=en" text="Send test emails"
+
 Before sending an email, it is important to review and test its content to ensure that it is accurate and free of errors in content or personalization settings.
 
 To do this, Adobe Campaign allows you to:
