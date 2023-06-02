@@ -33,7 +33,6 @@ To start building your content with one of the sample or saved templates, follow
 
 1.  The list of all [saved templates](#save-as-template) displays. You can sort them **[!UICONTROL By name]**, **[!UICONTROL Last modified]** and **[!UICONTROL Last created]**.
 
-    ![](assets/email_designer-saved-templates-filter.png)
     ![](assets/email_designer-saved-templates.png)
 
 1. Select a template from the list to display its content.
