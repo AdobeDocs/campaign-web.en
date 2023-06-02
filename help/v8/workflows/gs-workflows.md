@@ -12,7 +12,6 @@ exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
 >title="Reimagined workflow canvas interface"
 >abstract="Our comprehensive graphical canvas makes it easy for you to design processes such as segmentation, campaign execution, and more. With this advanced tool at your fingertips, you can streamline your workflow and elevate your campaigns."
 
-
 ## What is a workflow?
 
 Cross-channel marketing is essential for any business looking to reach its customers effectively. Adobe Campaign provides a comprehensive graphical environment that empowers you to design complex processes that can help you manage your marketing campaigns with ease.
@@ -29,8 +28,9 @@ With the comprehensive graphical environment of Adobe Campaign, you can design p
 
 Here are some examples of how you can use workflows with Adobe Campaign:
 
-* Download a file from a server, decompress it, and then import records contained within into the Adobe Campaign database.
-* Create a delivery action, assign a task to one or more operators to work on content, specify targets, and approve proofs before starting the delivery.
+* Launch a follow-up campaign for inactive customers,
+* Send a welcome email to all new subscribers to a service,
+* Personalize cross-channel deliveries based on customers' loyalty program status or points of interest.
 
 ## Let's dive deeper
 

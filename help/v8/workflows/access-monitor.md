@@ -45,8 +45,6 @@ Detailed information on how to start and monitor workflow execution is available
 
 ## Workflow templates {#templates}
 
-The **[!UICONTROL Templates]** tab contains all the workflows templates available.
+The **[!UICONTROL Templates]** tab lists all available workflows templates.
 
-Workflow templates contain pre-configured activities and overall property configurations that can be reused for creating new workflows.
-
-They are created from the client console. [Learn how to work with templates](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html#workflow-templates)
+Workflow templates contain pre-configured activities and overall property configurations that can be reused for creating new workflows. They are created from the client console. [Learn how to work with templates](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html#workflow-templates)

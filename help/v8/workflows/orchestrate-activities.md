@@ -27,6 +27,23 @@ To remove an activity, select it in the canvas and click the Delete icon in the 
 >
 >You have the option to personalize the name of the transitions between each activity. To do this, select the transition and change its label in the right pane.
 
-Once you have completed the workflow, add en End activity at the end of the diagram. This activity allow you to visually mark the end of a workflow and has no functional impact.
+Here is a workflow example designed to send an email to all customers (other than VIP customers) with an email who are interested in coffee machines.
+
+![](assets/workflow-example.png)
+
+To achieve this, activities below have been added:
+
+* A **[!UICONTROL Fork]** activity that divides the workflow into three paths (one for each set of customer),
+* **[!UICONTROL Build audience]** activities to target the three sets of customers:
+
+    * Customers with an email,
+    * Customers belonging to the pre-existing "Interrested in Coffee Machine(s)" audience,
+    * Customers belonging to the pre-existing "VIP ro reward" audience.
+
+* A **[!UICONTROL Combine]** activity that groups together customers with an email and those interested in coffee machines,
+* A **[!UICONTROL Combine]** activity that excludes VIP customers,
+* An **[!UICONTROL Email delivery]** activity that sends an email to the resulting customers. 
+
+Once you have completed the workflow, add en **[!UICONTROL End]** activity at the end of the diagram. This activity allow you to visually mark the end of a workflow and has no functional impact.
 
 After successfully designing the workflow diagram, you can execute the workflow and track the progress of its various tasks. [Learn how to start a workflow and monitor its execution](start-monitor-workflows.md)
