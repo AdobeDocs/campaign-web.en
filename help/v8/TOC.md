@@ -78,7 +78,7 @@ hide: yes
     + [Key principles of workflow creation](workflows/gs-workflow-creation.md)
     + [Create the workflow](workflows/create-workflow.md)
     + [Orchestrate activities](workflows/orchestrate-activities.md)
-    + [Configure advanced settings](workflows/workflow-settings.md)
+    + [Configure workflow settings](workflows/workflow-settings.md)
     + [Start & monitor the workflow](workflows/start-monitor-workflows.md)
   + Work with workflow activities {#design-workflows}
     + [About workflow activites](workflows/activities/about-activities.md)
