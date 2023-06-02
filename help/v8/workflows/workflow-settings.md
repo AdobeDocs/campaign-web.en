@@ -20,7 +20,7 @@ To do this, click the **[!UICONTROL Workflow settings]** icon  in the upper-left
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_properties"
 >title="Workflow properties"
->abstract="TBD"
+>abstract="This section provides generic workflow properties that are also accessible when creating the workflow. You can choose the template to use to create the workflow and specify a label. Expand the Additional options section to configure specific settings such as the workflow storing folder or timezone."
 
 The **[!UICONTROL Properties]** section provides generic settings that are also accessible when creating the workflow.
 
@@ -37,7 +37,7 @@ The **[!UICONTROL Properties]** section provides generic settings that are also 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_segmentation"
 >title="Segmentation settings"
->abstract="TBD"
+>abstract="In this section, you can select the targeting dimension to target profiles in the workflow, and choose to keep the worklow results between two executions. This option should be used for testing purposes only and must never be enabled in a production workflow. 
 
 * **[!UICONTROL Targeting dimension]**: Select the targeting dimension to use to target profiles: recipients, contract beneficiaries, operator, subscribers, etc.
 * **[!UICONTROL Keep the result of interim populations between two executions]**: By default, only the working tables of the last execution of the workflow are kept. Working tables from previous executions are purged by a technical workflow, which runs on a daily basis.
@@ -49,7 +49,7 @@ The **[!UICONTROL Properties]** section provides generic settings that are also 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_execution"
 >title="Execution settings"
->abstract="TBD"
+>abstract="In this section, you can configure settings related to the execution of the worklow, such the number of days the workflow history is kept."
 
 * **[!UICONTROL History in days]**: Specifies the number of days after which the history must be purged. The history contains elements related to the workflow: logs, tasks, events (technical objects linked to the workflow operation). Default value is 30 days for out-of-the-box workflow templates. Purge of the history is performed by the Database cleanup technical workflow, which is executed by default everyday
 
@@ -68,7 +68,7 @@ The **[!UICONTROL Properties]** section provides generic settings that are also 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_error"
 >title="Error management settings"
->abstract="TBD"
+>abstract="In this section, you can manage how the workflow should behave when an error occurs during its execution (pause/stop its execution or ignore errors).
 
 * **[!UICONTROL Error management]**: This field lets you define the actions to be taken if a workflow task has errors. There are two possible options:
     

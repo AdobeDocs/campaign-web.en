@@ -11,7 +11,7 @@ exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
 >[!CONTEXTUALHELP]
 >id="acw_workflow_creation_properties"
 >title="Workflow properties"
->abstract="TBD"
+>abstract="In this screen, choose the template to use to create the workflow and specify a label. Expand the Additional options section to configure specific settings such as the workflow storing folder or timezone."
 
 The first step to create your workflow in Campaign v8 Web is to create it either as a standalone workflow or directly within a campaign and to define its general properties. To do so, follow these steps:
 
