@@ -37,7 +37,7 @@ The **[!UICONTROL Properties]** section provides generic settings that are also 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_segmentation"
 >title="Segmentation settings"
->abstract="In this section, you can select the targeting dimension to target profiles in the workflow, and choose to keep the worklow results between two executions. This option should be used for testing purposes only and must never be enabled in a production workflow. 
+>abstract="In this section, you can select the targeting dimension to target profiles in the workflow, and choose to keep the worklow results between two executions. This option should be used for testing purposes only and must never be enabled in a production workflow."
 
 * **[!UICONTROL Targeting dimension]**: Select the targeting dimension to use to target profiles: recipients, contract beneficiaries, operator, subscribers, etc.
 * **[!UICONTROL Keep the result of interim populations between two executions]**: By default, only the working tables of the last execution of the workflow are kept. Working tables from previous executions are purged by a technical workflow, which runs on a daily basis.
@@ -68,7 +68,7 @@ The **[!UICONTROL Properties]** section provides generic settings that are also 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_error"
 >title="Error management settings"
->abstract="In this section, you can manage how the workflow should behave when an error occurs during its execution (pause/stop its execution or ignore errors).
+>abstract="In this section, you can manage how the workflow should behave when an error occurs during its execution (pause/stop its execution or ignore errors)."
 
 * **[!UICONTROL Error management]**: This field lets you define the actions to be taken if a workflow task has errors. There are two possible options:
     
