@@ -24,6 +24,13 @@ Sender and reply-to addresses?-->
 
 ## Access and manage templates {#access-manage-templates}
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_templates"
+>title="Work with delivery templates"
+>abstract="Use delivery templates to effortlessly create and save your existing deliveries for future use."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html#copy-an-existing-template" text="Duplicate an existing template"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html#convert-an-existing-delivery" text="Convert a delivery to a template"
+
 To access the content template list, select **[!UICONTROL Campaign Management]** > **[!UICONTROL Deliveries]** from the left menu, and browse to the **Templates** tab.
 
 ![](assets/templates-tab.png)
