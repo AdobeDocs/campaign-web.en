@@ -41,7 +41,7 @@ Workflows can have multiple statuses:
 * **[!UICONTROL Paused]**: The workflow has been paused.
 * **[!UICONTROL Erroneous]**: The workflow encountered an error. Open the workflow and access the logs and tasks to identify the error and resolve it. [Learn how to monitor logs and tasks](start-monitor-workflows.md#logs-tasks)
 
-Detailed information on how to start and monitor workflow execution is available in [this page](start-monitor-workflow.md).
+Detailed information on how to start and monitor workflow execution is available in [this page](start-monitor-workflows.md).
 
 ## Workflow templates {#templates}
 
