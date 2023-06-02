@@ -59,9 +59,7 @@ The **[!UICONTROL Properties]** section provides generic settings that are also 
 
 * **[!UICONTROL Default affinity]**: If your installation includes several workflow servers, use this field to choose the machine which the workflow will be executed on. If the value defined in this field does not exist on any server, the workflow will remain pending.
     
-* **[!UICONTROL Save SQL queries in log]**: allows you to save the SQL queries from the workflow into the logs. This functionality is reserved for advanced users. It applies to workflows that contain targeting activities like **[!UICONTROL Build audience]**. When this option is enabled, the SQL queries sent to the database during workflow execution are displayed in Adobe Campaign, allowing you to analyze them to optimize queries or diagnose issues.
-
-    Queries are displayed in an **[!UICONTROL SQL logs]** tab which is added to the workflow (except campaign workflows) and to the **[!UICONTROL Properties]** activity when the option is enabled. <!-- where?-->
+* **[!UICONTROL Save SQL queries in log]**: allows you to save the SQL queries from the workflow into the logs. This functionality is reserved for advanced users. It applies to workflows that contain targeting activities like **[!UICONTROL Build audience]**. When this option is enabled, the SQL queries sent to the database during workflow execution are displayed in the workflow's logs, allowing you to analyze them to optimize queries or diagnose issues.
 
 ## Error management settings
 
