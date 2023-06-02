@@ -5,7 +5,7 @@ description: Learn how to build workflows with Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
 ---
-# Start & monitor workflow execution {#start-monitor}
+# Start & monitor the workflow {#start-monitor}
 
 Once that you have created your workflow and designed the tasks to perform in the canvas, you can launch it and monitor how it is being executed. 
 
@@ -34,7 +34,7 @@ Visual indicators in the upper-right corner of each activity box allows you to c
 |![](assets/activity-status-red.png)| The activty has encountered an error. To resolve the issue, open the workflow logs for more information.|
 |![](assets/activity-status-green.png)| The activity has been succesfully executed. | 
 
-## Monitor logs and tasks
+## Monitor logs and tasks {#logs-tasks}
 
 Monitoring workflows logs and tasks is a key step to analyze your workflows and make sure they are running properly. They are accessible from the **[!UICONTROL Logs]** icon which is available in the action tool bar, and in each activity's properties pane.
 
