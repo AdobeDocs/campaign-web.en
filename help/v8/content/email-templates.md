@@ -48,7 +48,7 @@ To start building your content with one of the sample or saved templates, follow
 
 ## Save email content as template {#save-as-template}
 
-Once you [designed an email]((create-email-content.md)), you can save this content as a template for future reuse. Saved templates are available to all users of your Adobe Campaign environment.
+Once you [designed an email](create-email-content.md), you can save this content as a template for future reuse. Saved templates are available to all users of your Adobe Campaign environment.
 
 To save an email content as a template, follow the steps below:
 
