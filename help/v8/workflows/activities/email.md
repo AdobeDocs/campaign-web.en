@@ -21,12 +21,12 @@ Here are the steps to add a **Channel** activity in a workflow:
 
 1. Select a delivery activity: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification (Android)]** or **[!UICONTROL Push notification (iOS)]**.
 
+1. Select a **Template**. Templates are pre-configured delivery settings saved for future use. [Learn more](../../msg/delivery-template.md)
+
+1. Click **Create delivery** and define your message the same way you create a standalone delivery. [Learn more](../../msg/gs-message.md)
+
+
 1. Start the workflow, and check logs.
-
-
-
-
-
 
 <!--
 description, which use case you can perform (common other activities that you can link before of after the activity)
