@@ -17,7 +17,7 @@ To define the audience population, you can:
 
 >[!NOTE]
 >
->In this context, you cannot load an audience from a file. For this, you need to create a standalone delivery. [Learn more](../../audience/about-audience.md)
+>In this context, you cannot load an audience from a file. For this, you need to create a standalone delivery. [Learn more](../../audience/about-audiences.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.

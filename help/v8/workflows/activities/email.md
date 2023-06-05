@@ -5,7 +5,28 @@ description: Learn how to use the Email workflow activity
 badge: label="Alpha" type="Positive"
 ---
 
-# Email {#email}
+# Email, SMS, Push {#email}
+
+Adobe Campaign Web allows you to automate and execute marketing campaigns across multiple channels, such as email, SMS, or push. You can combine channel activities into the canvas to create cross-channel workflows that can trigger actions based on customer behavior. 
+
+For example, you can create a welcome email campaign that includes a series of messages across different channels, such as email, SMS, and push. You can also send a follow-up email after a customer has completed a purchase or send a personalized birthday message to a customer via SMS. 
+
+By using channel activities, you can create comprehensive and personalized campaigns that engage customers across multiple touchpoints and drive conversions.
+
+Here are the steps to configure a **Channel** activity in a workflow:
+
+1. Make sure you have added a **Build audience** activity. The audience is the main target of your delivery: the recipients who receive the messages. When sending messages in the context of a campaign workflow, the message audience is not defined in the channel activity, but in the **Build audience** activity. See [this section](build-audience.md).
+
+    ![](assets/add-delivery-in-wf.png)
+
+1. Select a delivery activity: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification (Android)]** or **[!UICONTROL Push notification (iOS)]**.
+
+1. Start the workflow, and check logs.
+
+
+
+
+
 
 <!--
 description, which use case you can perform (common other activities that you can link before of after the activity)
@@ -13,11 +34,11 @@ description, which use case you can perform (common other activities that you ca
 how to add and configure the activity
 
 example of a configured activity within a workflow
+The Email delivery activity allows you to configure the sending an email in a workflow. 
 
 -->
 
 
-The Email delivery activity allows you to configure the sending an email in a workflow. 
 
 <!-- Scheduled emails available?
 

@@ -30,9 +30,7 @@ These activities are specific to targeting, manipulating and enriching populatio
 
 Adobe Campaign Web allows you to automate and execute marketing campaigns across multiple channels, such as email, SMS, or push. You can combine channel activities into the canvas to create cross-channel workflows that can trigger actions based on customer behavior. 
 
-For example, you can create a welcome email campaign that includes a series of messages across different channels, such as email, SMS, and push. You can also send a follow-up email after a customer has completed a purchase or send a personalized birthday message to a customer via SMS. 
-
-By using channel activities, you can create comprehensive and personalized campaigns that engage customers across multiple touchpoints and drive conversions.
+The following **Channel** activities are available:
 
 * [Email](email.md)
 * [Push](push.md)
