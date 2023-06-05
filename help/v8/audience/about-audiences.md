@@ -29,14 +29,16 @@ show use case with a new audience creation (or import from file?)
 control groups like acc: exract, random, based on attribute
 -->
 
+
+The audience is the main target of your delivery: the recipients who receive the messages. The type of audience depends on the target mapping defined in the delivery template. See this [section](../msg/delivery-template.md). 
+
 Learn how to use Campaign rule builder and define filtering criteria to select the audience of your messages. You can easily use data from an external file, or target Adobe Experience Platform audiences. 
 
-The audience is the main target of your delivery: the recipients who receive the email. The type of audience depends on the target mapping defined in the delivery template. See this [section](../email/create-email.md). 
 
 To define the audience, you can:
 
-* Use an existing audience. [Learn more](add-audience.md)
-* Build a new audience. [Learn more](segment-builder.md)
+* Select an existing audience, created in the Client Console. [Learn more](add-audience.md)
+* Build a new audience with the rule builder. [Learn more](segment-builder.md)
 * Use an audience from an external file. [Learn more](file-audience.md)
 * Use an Adobe Experience Platform audience. [Learn more](aep-audience.md)
 

@@ -17,8 +17,8 @@ hide: yes
   + [Get started](get-started/get-started.md)
   + [Discover the interface](get-started/user-interface.md)
 + Messages & deliveries {#msg}
-  + [Get started with messages](email/gs-messages.md)
-  + [Work with delivery templates](email/delivery-template.md)
+  + [Get started with messages](msg/gs-messages.md)
+  + [Work with delivery templates](msg/delivery-template.md)
   + Emails {#email}
     + [Create your first email](email/create-email.md)
     + Create email content {#content}
