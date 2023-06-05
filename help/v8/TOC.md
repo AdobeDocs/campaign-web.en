@@ -23,12 +23,12 @@ hide: yes
     + [Create your first email](email/create-email.md)
     + Create email content {#content}
       + [Edit the email content](content/edit-content.md)
-      + Design your email {#design-content}
-        + Start designing your content {#start-design}
-          + [Start from scratch ](content/create-email-content.md)
-          + [Import your email content](content/existing-content.md)
-          + [Code your own content](content/code-content.md)
-          + [Use email content templates](content/email-templates.md)
+      + Start designing your email {#start-design}
+        + [Start from scratch ](content/create-email-content.md)
+        + [Import your email content](content/existing-content.md)
+        + [Code your own content](content/code-content.md)
+        + [Use email content templates](content/email-templates.md)
+      + Design your content {#design-content}
         + [Use content components](content/content-components.md)
         + [Generate the text version](content/text-version-email.md)
         + [Add a link to the mirror page](content/mirror-page.md)
