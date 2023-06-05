@@ -21,9 +21,10 @@ hide: yes
   + [Work with delivery templates](msg/delivery-template.md)
   + Emails {#email}
     + [Create your first email](email/create-email.md)
-    + Create email content {#content}
-      + [Edit the email content](content/edit-content.md)
-      + Start designing your email {#start-design}
+    + Define email content {#content}
+      + [Configure your email content](content/edit-content.md)
+      + Start shaping your email {#start-design}
+        + [Get started with the Email Designer](content/get-started-email-designer.md)
         + [Start from scratch ](content/create-email-content.md)
         + [Import your email content](content/existing-content.md)
         + [Code your own content](content/code-content.md)
