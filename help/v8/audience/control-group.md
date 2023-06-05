@@ -47,9 +47,17 @@ Under the **Control group** section, choose an **Extraction mode**:
 
 * **Ranked by attribute(s)**: this option enables you to exclude a set of profiles based on specific attribute(s) in a specific sorting order(s).
 
+Then use the **Size limit** section to set the number of profiles that you need to extract from the main target. It can be a raw number or a percentage of your initial audience.
+
+For example, to create a control group with the 100 new youngest recipients, follow these steps:
+
+1. Select the **Age** field as a sorting criterion. Leave the **Ascending** sort option. 
+1. Add the **Creation Date** field. Change to the **Descending** sort option.
+1. Define 100 as the threshold in the **Size limit** section.
+
     ![](assets/control-group2.png)
 
-Then use the **Size limit** section to set the number of profiles that you need to extract from the main target. It can be a raw number or a percentage of your initial audience.
+These 100 new youngest recipients are then excluded from the main target. 
 
 ### Check your control group {#check-extract-target}
 
