@@ -5,7 +5,7 @@ description: Learn how to edit the email content in Campaign Web UI
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Alpha" type="Positive"
 ---
-# Edit the email content {#configure-content}
+# Get started with email content edition {#configure-content}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
@@ -26,6 +26,26 @@ badge: label="Alpha" type="Positive"
 >id="acw_deliveries_email_options"
 >title="Tracking options"
 >abstract="By default, tracking is enabled for the delivery. You can disable this option from here."
+
+You can import an existing content in [!DNL Journey Optimizer] or leverage content design capabilities:
+
+* Use [!DNL Campaign] **email designing capabilities** to design or import responsive emails. [Learn more](content-from-scratch.md)
+
+* Leverage **Adobe Experience Manager Assets Essentials** to enrich your emails, build and manage your own assets database. [Learn more](assets-essentials.md)
+
+* Find **Adobe Stock photos** to build your content and improve your email design. [Learn more](stock.md)
+
+* Enhance customers' experience by creating personalized and dynamic messages based on their profile attributes. Learn more about [personalization](../personalization/personalize.md) and [dynamic content](../personalization/get-started-dynamic-content.md).
+
+➡️ [Discover this feature in video](#video)
+
+## Email design best practices {#best-practices}
+
+When sending emails, it's important to consider that recipients may forward them, which can sometimes cause issues with the email's rendering. This is particularly true when using CSS classes that may not be supported by the email provider used for forwarding, for example, if you're using the "is-desktop-hidden" CSS class to hide an image on mobile devices.
+
+To minimize these rendering issues, we recommend keeping your email design structure as simple as possible. Try to use a single design that works well for both desktop and mobile devices, and avoid using complex CSS classes or other design elements that may not be fully supported by all email clients. By following these best practices, you can help ensure that your emails are consistently rendered correctly, regardless of how they are viewed or forwarded by recipients.
+
+## Key steps to create email content {#key-steps}
 
 To start creating the content of an email, click the **[!UICONTROL Edit content]** button from the [email creation](../email/create-email.md) screen.
 
