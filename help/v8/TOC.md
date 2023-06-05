@@ -40,8 +40,6 @@ hide: yes
         + [Adjust vertical alignment and padding](content/alignment-and-padding.md)
         + [Define a style for links](content/styling-links.md)
         + [Add inline styling attributes](content/inline-styling.md)
-      + [Add personalization](personalization/personalize.md)
-      + [Add conditional content](personalization/conditions.md)
       + [Send offers](content/offers.md)
     + Preview and test your email {#preview-test}
       + [About preview and test](preview-test/preview-test.md) 
@@ -61,6 +59,10 @@ hide: yes
     + [Create an SMS delivery](sms/create-sms.md)
     + [Design an SMS delivery ](sms/content-sms.md)
     + [Send an SMS delivery ](sms/send-sms.md)
+  + Make your content dynamic {#dynamic-content}
+    + [Get started with dynamic content](personalization/gs-personalization.md)
+    + [Add personalization](personalization/personalize.md)
+    + [Add conditional content](personalization/conditions.md)
 + Audiences & recipients {#audiences}
   + [Get started with audiences](audience/about-audiences.md)
   + [Select an existing audience](audience/add-audience.md)
