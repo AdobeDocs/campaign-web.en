@@ -13,11 +13,11 @@ For example, you can create a welcome email campaign that includes a series of m
 
 By using channel activities, you can create comprehensive and personalized campaigns that engage customers across multiple touchpoints and drive conversions.
 
-Here are the steps to configure a **Channel** activity in a workflow:
+Here are the steps to add a **Channel** activity in a workflow:
 
 1. Make sure you have added a **Build audience** activity. The audience is the main target of your delivery: the recipients who receive the messages. When sending messages in the context of a campaign workflow, the message audience is not defined in the channel activity, but in the **Build audience** activity. See [this section](build-audience.md).
 
-    ![](assets/add-delivery-in-wf.png)
+    ![](../../msg/assets/add-delivery-in-wf.png)
 
 1. Select a delivery activity: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification (Android)]** or **[!UICONTROL Push notification (iOS)]**.
 
