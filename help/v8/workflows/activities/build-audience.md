@@ -7,7 +7,17 @@ badge: label="Alpha" type="Positive"
 
 # Build audience {#build-audience}
 
-This activity allows you to define an audience. You can either select an existing audience or use the rule builder to define your own query. 
+The **Build audience** activity is a **Targeting** activity. This activity allows you to define the audience that will enter the workflow. When sending messages in the context of a campaign workflow, the message audience is not defined in the channel activity, but in the **Build audience** activity.
+
+To define the audience population, you can:
+
+* Select an existing audience, created as a list in the Client Console.
+* Select an Adobe Experience Platform audience. 
+* Build a new audience with the rule builder by defining and combining filtering criteria.
+
+>[!NOTE]
+>
+>In this context, you cannot load an audience from a file. For this, you need to create a standalone delivery. [Learn more](../../audience/about-audience.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
@@ -17,7 +27,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 Follow these steps to configure the **Build audience** activity:
 
-1. Add a Build audience activity. 
+1. Add a **Build audience** activity. 
 1. Define a label.
 1. Define the audience type: **Create your own** or **Read audience**. 
 

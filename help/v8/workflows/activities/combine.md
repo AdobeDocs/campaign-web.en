@@ -7,7 +7,7 @@ badge: label="Alpha" type="Positive"
 
 # Combine {#combine}
 
-This activity allows you to process sets on inbound data. You can thus combine several populations, exclude part of it or only keep data common to several targets. Here are the available segmentation types:
+This activity allows you to perform segmentation on your inbound population. You can thus combine several populations, exclude part of it or only keep data common to several targets. Here are the available segmentation types:
 
 <!--
 The **Combine** activity can be placed after any other activity, but not at the beginning of the workflow. Any activity can be placed after the **Combine**.
@@ -17,24 +17,37 @@ The **Combine** activity can be placed after any other activity, but not at the 
 * The **Intersection** allows you to keep only the elements common to the different inbound populations in the activity.
 * The **Exclusion** allows you to exclude elements from one population according to certain criteria. 
 
-## Configuration
+## General configuration {#general}
 
-Follow these steps to configure the **Combine** activity:
+Follow these common steps to start configuring the **Combine** activity:
 
 1. Add multiple activities such as **Build audience** activities to form at least two different execution branches.
-1. Add a **Combine** activity to any of the previous segmentation transitions.
-1. Select the segmentation type: union, intersection or exclusion.
+1. Add a **Combine** activity to any of the previous branches.
+1. Select the segmentation type: [union](#union), [intersection](#intersection) or [exclusion](#exclusion).
 1. Click **Continue**.
 1. In the **Sets to join** section, check all the previous activities you wish you join. 
 
-For the **Union** and **Intersection**, you need to select the **Reconciliation type** to define how duplicates are handled:
+## Union {#union}
 
-* Keys only: this is the default mode. The activity only keeps one element when elements from the different inbound transitions have the same key. This option can only be used if the inbound populations are homogeneous.
-* A selection of columns: select this option to define the list of columns on which the data reconciliation will be applied. You must first select the primary set (that which contains the source data), then the columns to use for the join.
+For the **Union**, you need to select the **Reconciliation type** to define how duplicates are handled:
 
-For the **Intersection** and **Exclusion**, you can check the **Generate completement** option if you wish to process the remaining population. The complement will contain the union of the results of all inbound activities minus the intersection. An additional outbound transition will then be added to the activity.
+* **Keys only**: this is the default mode. The activity only keeps one element when elements from the different inbound transitions have the same key. This option can only be used if the inbound populations are homogeneous.
+* **A selection of columns**: select this option to define the list of columns on which the data reconciliation will be applied. You must first select the primary set (that which contains the source data), then the columns to use for the join.
 
-For the **Exclusion**, select the **Primary set** from the inbound transitions, in the **Sets to join** section. This is the set from which elements are excluded. The other sets match elements before being excluded from the primary set.
+## Intersection {#intersection}
+
+For the **Intersection**, you need to follow these extra steps:
+
+1. Select the **Reconciliation type** to define how duplicates are handled. See the [Union](#union) section.
+1. You can check the **Generate completement** option if you wish to process the remaining population. The complement will contain the union of the results of all inbound activities minus the intersection. An additional outbound transition will then be added to the activity.
+
+## Exclusion {#exclusion}
+
+For the **Exclusion**, you need to follow these extra steps:
+
+1. In the **Sets to join** section, select the **Primary set** from the inbound transitions. This is the set from which elements are excluded. The other sets match elements before being excluded from the primary set.
+1. When necessary, you can manipulate inbound tables. Indeed, to exclude a target from another dimension, this target has to be returned to the same targeting dimension as the main target. To do this, click **Add a rule** in the **Exclusion rules** section and specify the dimension change conditions. Data reconciliation is carried out either via an attribute or a join.
+1. You can check the **Generate completement** option if you wish to process the remaining population. See the [Intersection](#intersection) section.
 
 ## Examples
 

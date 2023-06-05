@@ -28,11 +28,11 @@ These activities are specific to targeting, manipulating and enriching populatio
 
 ## Channel activities {#channel}
 
-Adobe Campaign Web enables you to automate and execute marketing campaigns across multiple channels, such as email, SMS, or push. With Adobe Campaign workflows, you can combine channel activities into the canvas to create cross-channel workflows that can trigger actions based on customer behavior. 
+Adobe Campaign Web allows you to automate and execute marketing campaigns across multiple channels, such as email, SMS, or push. You can combine channel activities into the canvas to create cross-channel workflows that can trigger actions based on customer behavior. 
 
 For example, you can create a welcome email campaign that includes a series of messages across different channels, such as email, SMS, and push. You can also send a follow-up email after a customer has completed a purchase or send a personalized birthday message to a customer via SMS. 
 
-By using channel activities, you can create comprehensive, personalized campaigns that engage customers across multiple touchpoints and drive conversions.
+By using channel activities, you can create comprehensive and personalized campaigns that engage customers across multiple touchpoints and drive conversions.
 
 * [Email](email.md)
 * [Push](push.md)
@@ -43,7 +43,7 @@ By using channel activities, you can create comprehensive, personalized campaign
 The following activities are specific to organizing and executing workflows. Their main task is to coordinate the other activities:
 
 * The [And-join](and-join.md) activity allows you to synchronize multiple execution branches of a workflow.
-* The [End](end.md) activity allows you to graphically mark the end of a workflow. This activities have no functional impact and is therefore optional.
+* The [End](end.md) activity allows you to graphically mark the end of a workflow. This activity has no functional impact and is therefore optional.
 * The [Fork](fork.md) activity allows you to create outbound transitions to start several activities at the same time.
 * The [Wait](wait.md) activity momentarily suspends executing a part of a workflow.
 
