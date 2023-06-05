@@ -72,20 +72,3 @@ The steps to edit the content of your email are as follows:
 
 1. Once the content of your email has been defined, use the **[!UICONTROL Simulate content]** button to check how it displays before sending it. [Learn how to preview and test your email](../preview-test/preview-test.md)
 
-On the Email Designer home page, choose how you want to design your email from the following options:
-
-* **Design your email from scratch** through the email designer's interface. Learn how to design your email content in [this section](create-email-content.md).
-
-* **Code or paste raw HTML** directly in the email designer. Learn how to code your own content in [this section](code-content.md).
-
-* **Import existing HTML content** from a file or a .zip folder. Learn how to import an email content in [this section](existing-content.md).
-
-* **Select an existing content** from a list of built-in or custom templates. Learn how to work with email templates [this section](email-templates.md).
-
-    ![](assets/email_designer_create_options.png)
-
-### Email design best practices {#best-practices}
-
-When sending emails, it's important to consider that recipients may forward them, which can sometimes cause issues with the email's rendering. This is particularly true when using CSS classes that may not be supported by the email provider used for forwarding, for example, if you're using the "is-desktop-hidden" CSS class to hide an image on mobile devices.
-
-To minimize these rendering issues, we recommend keeping your email design structure as simple as possible. Try to use a single design that works well for both desktop and mobile devices, and avoid using complex CSS classes or other design elements that may not be fully supported by all email clients. By following these best practices, you can help ensure that your emails are consistently rendered correctly, regardless of how they are viewed or forwarded by recipients.
