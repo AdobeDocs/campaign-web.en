@@ -23,7 +23,7 @@ Here are the steps to add a **Channel** activity in a workflow:
 
 1. Select a **Template**. Templates are pre-configured delivery settings saved for future use. [Learn more](../../msg/delivery-template.md)
 
-1. Click **Create delivery** and define your message the same way you create a standalone delivery. [Learn more](../../msg/gs-message.md)
+1. Click **Create delivery** and define your message the same way you create a standalone delivery. [Learn more](../../msg/gs-messages.md)
 
 
 1. Start the workflow, and check logs.
