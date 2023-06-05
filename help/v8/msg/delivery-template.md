@@ -13,7 +13,7 @@ For an accelerated and improved design process, you can create delivery template
 
 A template can include:
 
-* [Typologies](v8/advanced-settings/delivery-settings.md#typology)
+* [Typologies](../advanced-settings/delivery-settings.md#typology)
 * The sender address
 * An [audience](../audience/about-audiences.md), including [control groups](../audience/control-group.md)
 * Custom [content](../content/edit-content.md)
