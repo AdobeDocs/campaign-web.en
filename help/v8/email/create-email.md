@@ -40,7 +40,7 @@ To create a new delivery, follow these steps:
 
     >[!NOTE]
     >
-    >Templates are pre-configured delivery settings saved for future use. They can be created by admin users in Adobe Campaign console. [Learn how to work with delivery templates](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
+    >Templates are pre-configured delivery settings saved for future use. [Learn more](../msg/delivery-template.md)
 
     ![](assets/channel-template.png)
 
@@ -83,7 +83,7 @@ In this use case, you use a predefined template to design our email.
 
     ![](assets/select-template.png)
 
-<!--1. Select the HTML or ZIP file to import then click **[!UICONTROL Next]**.
+    <!--1. Select the HTML or ZIP file to import then click **[!UICONTROL Next]**.
 
     If your folder contains assets, choose the instance and folder where they should be stored then click **[!UICONTROL Import]**. (+ link to doc on assets?)
 
