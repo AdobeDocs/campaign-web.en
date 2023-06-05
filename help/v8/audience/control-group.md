@@ -47,7 +47,11 @@ Under the **Control group** section, choose an **Extraction mode**:
 
 * **Ranked by attribute(s)**: this option enables you to exclude a set of profiles based on specific attribute(s) in a specific sorting order(s).
 
-Then use the **Size limit** section to set the number of profiles that you need to extract from the main target. It can be a raw number or a percentage of your initial audience.
+
+Then use the **Size limit** section to set the number of profiles that you need to extract from the main target. It can be a raw number (for example 50 profiles to exclude) or a percentage of your initial audience (for example 5% of the main target).
+
+
+### Sample of control group
 
 For example, to create a control group with the 100 new youngest recipients, follow these steps:
 
@@ -91,7 +95,7 @@ For more information on delivery logs, refer to this [section](../monitor/delive
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
 >title="Extra population"
->abstract="Another way to define a control group is to exclude a specific population from the target using an existing audience or by defining a query."
+>abstract="You can exclude a specific population from the target by selecting an existing audience, or by defining a query."
 
 Another way to define a control group is to exclude a specific population from the target using an existing audience or by defining a query.
 
@@ -104,3 +108,8 @@ From the **Extra population** section of the **Control Group** definition screen
 * To define a new query, select **Create your own** and define the exclusion criteria using the rule builder. Refer to this [section](segment-builder.md). 
 
 The profiles included in the audience or matching the result of the query are excluded from the target.
+
+## Compare the results{#control-group-results}
+
+Once the delivery is sent, you can extract the sending logs to compare behavior between the profiles which did not receive the communication and the effective target. You can also use the delivery logs to build a new targeting.
+
