@@ -36,7 +36,7 @@ To create a new delivery, follow these steps:
 
 1. Browse to the **[!UICONTROL Deliveries]** menu on the left rail, and click the  **[!UICONTROL Create delivery]** button.
 
-1. Select **[!UICONTROL Email]** as the channel and choose a template.
+1. Select **[!UICONTROL Email]** as the channel and choose an email delivery template from the list.
 
     >[!NOTE]
     >
@@ -61,15 +61,19 @@ To create a new delivery, follow these steps:
 
     Additionally, advanced settings, such as typology rules and target mappings, can be accessed by clicking the button located next to the delivery name. These settings are pre-configured in the selected template, but can be edited as needed for this specific email.
 
-## Create the email content {#create-content}
+## Define the email content {#create-content}
 
-Detailed instructions on how to configure the email content are available in [this section](../content/edit-content.md).
+To start creating your email content, follow the steps below.
 
-In this use case, you use a predefined template to design our email.
+<!--Detailed instructions on how to configure the email content are available in [this section](../content/edit-content.md).-->
 
-1. To start creating the email content, open your email delivery and click the **[!UICONTROL Edit content]** button. 
+In this use case, you use a predefined email [delivery template](../msg/delivery-template.md) to design your email.
 
-   This brings you to a dedicated interface where you can configure the email content and design it using the Email Designer. 
+1. From the email delivery dashboard, click the **[!UICONTROL Edit content]** button.
+
+    ![](assets/email-edit-content.png)
+
+   This brings you to a dedicated interface where you can configure the email content and access the Email Designer. [Learn more](../content/edit-content.md)
 
     ![](assets/edit-content.png)
 
@@ -79,7 +83,7 @@ In this use case, you use a predefined template to design our email.
 
 1. To design the content of the email, click the **[!UICONTROL Edit email body]** button.
 
-    Choose the method to use to create your email content. In this example, use a predefined design template.
+    Choose the method to use to create your email content. In this example, use a [predefined content template](../msg/delivery-template.md).
 
     ![](assets/select-template.png)
 
@@ -89,7 +93,7 @@ In this use case, you use a predefined template to design our email.
 
     ![](assets/import-folder.png)-->
 
-1. Once you have selected the template, it is displayed in the Email Designer, where you can make any necessary edits and add personalization.
+1. Once you have selected the template, it is displayed in the [Email Designer](../content/create-email-content.md), where you can make any necessary edits and add personalization.
 
     For example, to add personalization to the email title, select the component block and click **[!UICONTROL Add Personalization]**.
 

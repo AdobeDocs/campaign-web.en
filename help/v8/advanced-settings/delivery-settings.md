@@ -168,7 +168,7 @@ Tracking parameters are defined in the related section. Possible options are:
 
 **Substitution URL for expired URLs**: use this option to enter a URL to a fall-back web page: it is displayed once the tracking has expired.
 
-## Test Settings {#test-setttings}
+## Test settings {#test-setttings}
 
 You can set the exclusion parameters in this section. Available options are:
 
@@ -182,4 +182,4 @@ You can also customize the name of the test emails.
 
 Use the **Keep the delivery code for the proof** to associate to the test email the same delivery code as the one defined for the delivery to which it relates.
 
-By default, the subject of the test email is prefixed by ‘PROOF #’, where # is the number of the test email. You can change this prefix in the **Label prefix** field.
+By default, the subject of the test email is prefixed by 'PROOF #', where # is the number of the test email. You can change this prefix in the **Label prefix** field.
