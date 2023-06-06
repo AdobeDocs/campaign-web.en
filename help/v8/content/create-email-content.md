@@ -66,13 +66,13 @@ To start building your email content, follow the steps below.
 
     ![](assets/email_designer_structure_components.png)
 
-    Select the **[!UICONTROL n:n column]** component to define the number of columns of your choice (between 3 and 10). You can also define the width of each column by moving the arrows at the bottom of each column.
+1. You can select the **[!UICONTROL n:n column]** component to define the number of columns of your choice (between 3 and 10). You can also define the width of each column by moving the arrows at the bottom of each column.
 
    >[!NOTE]
    >
    >Each column size cannot be under 10% of the total width of the structure component. You cannot remove a column that is not empty.
 
-1. From the **[!UICONTROL Components]** section, drag and drop as many elements as you need into one or more structure components. [Learn more about content components](content-components.md)
+1. From the **[!UICONTROL Components]** section, drag and drop as many elements as you need into one or more structures. [Learn more about content components](content-components.md)
 
 1. Each component can be further customized using the **[!UICONTROL Settings]** or **[!UICONTROL Style]** tabs on the right. For example, you can change the text style, padding or margin of each component. [Learn more about alignment and padding](alignment-and-padding.md)
 
@@ -80,7 +80,11 @@ To start building your email content, follow the steps below.
 
 1. Insert personalization fields to customize your email content based on profiles data. [Learn more about content personalization](../personalization/personalize.md)
 
-1. Add links to your content. Click the **[!UICONTROL Links]** tab from the left pane to display all the URLs of your content that will be tracked. You can modify their **[!UICONTROL Tracking Type]** or **[!UICONTROL Label]** and add **[!UICONTROL Categories]** if needed. [Learn more about links and message tracking](message-tracking.md)
+1. Add links to your content.
+
+    Click the **[!UICONTROL Links]** tab from the left pane to display all the URLs of your content that will be tracked. You can modify their **[!UICONTROL Tracking Type]** or **[!UICONTROL Label]** and add **[!UICONTROL Categories]** if needed.
+    
+    [Learn more about links and message tracking](message-tracking.md)
 
     ![](assets/email_designer-links.png)
 
