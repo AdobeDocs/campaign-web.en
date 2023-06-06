@@ -12,7 +12,7 @@ Use the [!DNL Campaign] content simulation capability to preview the content of 
 
 To preview the content of your email, follow the steps below.
 
-1. Browse to the email [Edit content](../content/edit-content.md) screen.
+1. Browse to the email [Edit content](../content/edit-content.md) screen or to the [Email Designer](../content/get-started-email-designer.md).
 
 1. Click the **[!UICONTROL Simulate content]** button.
 
