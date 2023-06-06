@@ -22,7 +22,7 @@ exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 >title="Formatting parameters"
 >abstract="Check the formatting parameters for your file."
 
-You can upload contacts from an external file. Supported file formats are: text (TXT) and comma-separated value (CSV). Profiles are not added to the database, but all fields in the input file are available for [personalization](../personalization/gs-personalization.md).
+You can upload contacts from an external file. Profiles are not added to the database, but all fields in the input file are available for [personalization](../personalization/gs-personalization.md). Supported file formats are: text (TXT) and comma-separated value (CSV). 
 
 >[!CAUTION]
 >
@@ -38,7 +38,7 @@ To target profiles from a local file directly from the email interface, follow t
 
     ![](assets/select-from-file.png)
 
-1. Select the local file to upload.
+1. Select the local file to upload. The format must align with the [sample file](#sample-file). 
 1. Preview and check how data is mapped in the central section of the screen.
 1. Choose the column which contains the email address from the **Address Field** drop-down. You can also select the denylist colum if you have such information in the input file.
 1. Adjust the column settings, and how to format data from the available options.
