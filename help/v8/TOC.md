@@ -21,14 +21,15 @@ hide: yes
   + [Work with delivery templates](msg/delivery-template.md)
   + Emails {#email}
     + [Create your first email](email/create-email.md)
-    + Create email content {#content}
-      + [Edit the email content](content/edit-content.md)
-      + Design your email {#design-content}
-        + Start designing your content {#start-design}
-          + [Start from scratch ](content/create-email-content.md)
-          + [Import your email content](content/existing-content.md)
-          + [Code your own content](content/code-content.md)
-          + [Use email content templates](content/email-sample-templates.md)
+    + Define email content {#content}
+      + [Configure your email content](content/edit-content.md)
+      + Start shaping your email {#start-design}
+        + [Get started with the Email Designer](content/get-started-email-designer.md)
+        + [Start from scratch ](content/create-email-content.md)
+        + [Import your email content](content/existing-content.md)
+        + [Code your own content](content/code-content.md)
+        + [Use email content templates](content/email-templates.md)
+      + Design your content {#design-content}
         + [Use content components](content/content-components.md)
         + [Generate the text version](content/text-version-email.md)
         + [Add a link to the mirror page](content/mirror-page.md)
@@ -67,7 +68,7 @@ hide: yes
   + [Get started with audiences](audience/about-audiences.md)
   + [Select an existing audience](audience/add-audience.md)
   + [Define an audience with the rule builder](audience/segment-builder.md)
-  + [Load an audience from a file](audience/file-audience.md)
+  + [Load an email audience from a file](audience/file-audience.md)
   + [Use an Adobe Experience Platform audience](audience/aep-audience.md)
   + [Set a control group](audience/control-group.md)
 + Cross channel campaigns {#campaigns}

@@ -399,3 +399,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_keyindicators_spam"
 >title="Spam"
 >abstract="Spam KPI"
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_errors"
+>title="Errors"
+>abstract="Errors KPI"

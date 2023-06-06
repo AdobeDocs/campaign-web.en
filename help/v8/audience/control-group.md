@@ -9,6 +9,8 @@ badge: label="Alpha" type="Positive"
 
 A control group is a sub-population excluded from the delivery. You can define a control group to avoid sending messages to a portion of your audience, and compare post-delivery behavior with the main target. This option helps you measure the impact of your campaign.
 
+## Enable control group{#add-a-control-group}
+
 To add a control group, enable the option when defining the audience of your delivery. The control group can be extracted randomly from the main target and/or selected from a specific population. Consequently, there are two main ways you can define a control group:
 
 * Extract a number of profiles from the main target.
@@ -51,7 +53,7 @@ Under the **Control group** section, choose an **Extraction mode**:
 Then use the **Size limit** section to set the number of profiles that you need to extract from the main target. It can be a raw number (for example 50 profiles to exclude) or a percentage of your initial audience (for example 5% of the main target).
 
 
-### Sample of control group
+### Sample of control group{#control-group-sample}
 
 For example, to create a control group with the 100 new youngest recipients, follow these steps:
 
@@ -63,7 +65,7 @@ For example, to create a control group with the 100 new youngest recipients, fol
 
 These 100 new youngest recipients are then excluded from the main target. 
 
-### Check your control group {#check-extract-target}
+### Check your control group {#check-control-group}
 
 You can view the logs to check and identify the exluded profiles. Let's take the example of a random exclusion on five profiles.
 
@@ -112,4 +114,7 @@ The profiles included in the audience or matching the result of the query are ex
 ## Compare the results{#control-group-results}
 
 Once the delivery is sent, you can extract the sending logs to compare behavior between the profiles which did not receive the communication and the effective target. You can also use the delivery logs to build a new targeting.
+
+To see which profiles were removed from the target, check the **Delivery logs**. Learn more [in this section](#check-control-group).
+
 
