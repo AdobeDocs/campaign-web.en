@@ -229,20 +229,6 @@ REFER TO
 https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_sms_audience"
->title="Define the SMS audience"
->abstract="Select the best audience for your SMS message."
-
->[!CONTEXTUALHELP]
->id="acw_sms_report_overview"
->title="SMS report summary"
->abstract="Discover the reporting metrics for your SMS delivery."
-
->[!CONTEXTUALHELP]
->id="acw_push_report_overview"
->title="Push report summary"
->abstract="Discover the reporting metrics for your Push delivery."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
@@ -258,21 +244,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_deliveries_email_metrics_errors"
 >title="Errors Metrics"
 >abstract="Number of emails with the error status."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_push_android_content"
->title="Push Android content"
->abstract="Define the push Android content."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_push_ios_content"
->title="Push iOS content"
->abstract="Define the push iOS content."
-
->[!CONTEXTUALHELP]
->id="acw_sms_preview_option_app_target"
->title="App subscribers"
->abstract="Preview and test the message by adding app subscribers to the main target. "
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
@@ -360,20 +331,13 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Rule builder advanced fields"
 >abstract="Configure columns with advanced fields."
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_push_properties"
->title="Push delivery properties"
->abstract="Manage the Push delivery properties."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_metrics_newquarantines"
 >title="New quarantines metric"
 >abstract="New quarantine metric."
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_sms_template_selection"
->title="SMS template selection"
->abstract="Select a predefined template to start your SMS delivery."
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_delivered"

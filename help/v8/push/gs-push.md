@@ -31,7 +31,7 @@ To create push notifications, you have three options:
 <img alt="Infrequent" src="assets/do-not-localize/push_design.jpeg">
 </a>
 <div>
-<a href="content-push.md">Design a push delivery<strong></strong></a>
+<a href="content-push.md"><strong>Design a push delivery<strong></strong></a>
 </div>
 <p></td>
 <td>
@@ -40,6 +40,15 @@ To create push notifications, you have three options:
 </a>
 <div>
 <a href="send-push.md"><strong>Send a push delivery</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="send-push.md">
+<img alt="Validation" src="assets/do-not-localize/push_report.jpeg">
+</a>
+<div>
+<a href="send-push.md"><strong>Push delivery report</strong></a>
 </div>
 <p>
 </td>

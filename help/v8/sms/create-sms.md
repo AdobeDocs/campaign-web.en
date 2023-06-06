@@ -12,6 +12,16 @@ exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
 >title="SMS delivery properties"
 >abstract="The properties encompass the common delivery parameters that assist you in both naming and classifying your delivery. If your delivery is based on an extended schema, specific Custom options fields are available."
 
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_sms_audience"
+>title="Define the SMS audience"
+>abstract="Select the best audience for your SMS message."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_sms_template_selection"
+>title="SMS template selection"
+>abstract="Select a predefined template to start your SMS delivery."
+
 1. From the **[!UICONTROL Deliveries]** homepage, click **[!UICONTROL Create delivery]**.
 
 1. Under the **[!UICONTROL Channel]** section, choose SMS as the channel and select a template. Learn more about templates

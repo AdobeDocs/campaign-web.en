@@ -12,6 +12,11 @@ exl-id: 1a70d033-6f1b-482b-9948-59ef75871750
 >title="SMS Content"
 >abstract="Create the content of your SMS deliveries and personalize it with personalization fields, content blocks and dynamic content."
 
+>[!CONTEXTUALHELP]
+>id="acw_sms_preview_option_app_target"
+>title="App subscribers"
+>abstract="Preview and test the message by adding app subscribers to the main target."
+
 1. From your delivery page, click the **[!UICONTROL Edit content]** button to design your SMS content.
 
 1. In the **[!UICONTROL Edit content]** page, you can change the sender name from the **[!UICONTROL Sender field]**. Enter the name you would like to use. You can also click the **[!UICONTROL Open personalization dialog]** to add personalization fields, content blocks and dynamic content.

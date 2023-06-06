@@ -6,6 +6,16 @@ badge: label="Alpha" type="Positive"
 ---
 # Design a push delivery {#content-push}
 
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_android_content"
+>title="Push Android content"
+>abstract="Define the push Android content."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_ios_content"
+>title="Push iOS content"
+>abstract="Define the push iOS content."
+
 ## Message {#push-message}
 
 >[!BEGINTABS]

@@ -31,7 +31,7 @@ The SMS channel offers three methods for creating SMS deliveries:
 <img alt="Infrequent" src="assets/do-not-localize/design_sms.png">
 </a>
 <div>
-<a href="content-sms.md">Design an SMS delivery<strong></strong></a>
+<a href="content-sms.md"><strong>Design an SMS delivery<strong></strong></a>
 </div>
 <p></td>
 <td>
@@ -40,6 +40,15 @@ The SMS channel offers three methods for creating SMS deliveries:
 </a>
 <div>
 <a href="send-sms.md"><strong>Send an SMS delivery</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="send-sms.md">
+<img alt="Validation" src="assets/do-not-localize/report_sms.jpeg">
+</a>
+<div>
+<a href="send-sms.md"><strong>SMS delivery report</strong></a>
 </div>
 <p>
 </td>

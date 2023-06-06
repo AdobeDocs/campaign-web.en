@@ -16,6 +16,11 @@ badge: label="Alpha" type="Positive"
 >title="Push Notification template"
 >abstract="Select a push notification template to start your push delivery."
 
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_properties"
+>title="Push delivery properties"
+>abstract="Manage the Push delivery properties."
+
 1. From the **[!UICONTROL Deliveries]** homepage, click **[!UICONTROL Create delivery]**.
 
 1. Under the **[!UICONTROL Channel]** section, choose Push notification as the channel and select a template. Learn more about templates
