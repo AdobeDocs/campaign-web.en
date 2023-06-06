@@ -9,23 +9,23 @@ badge: label="Alpha" type="Positive"
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"
->title="About Structure components"
->abstract="Structure components define the layout of the email."
+>title="Add structures"
+>abstract="Structures define the layout of the email. Drag and drop a **Structure** component into the canvas to start designing your email content."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_landing_page"
->title="About Structure components"
->abstract="Structure components define the layout of the landing page."
+>title="Add structures"
+>abstract="Structures define the layout of the landing page. Drag and drop a **Structure** component into the canvas to start designing your landing page."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_fragment"
->title="About Structure components"
->abstract="Structure components define the layout of the fragment."
+>title="Add structures"
+>abstract="Structures define the layout of the fragment. Drag and drop a **Structure** component into the canvas to start designing your fragment content."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_template"
->title="About Structure components"
->abstract="Structure components define the layout of the template."
+>title="Add structures"
+>abstract="Structures define the layout of the template. Drag and drop a **Structure** component into the canvas to start designing your template content."
 
 
 >[!CONTEXTUALHELP]
@@ -50,23 +50,21 @@ badge: label="Alpha" type="Positive"
 
 The Email Designer allows you to easily define the structure of your email. By adding and moving structural elements with simple drag-and-drop actions, you can design the body of your email within seconds.
 
-To start building your email content, follow the steps below:
+To start building your email content, follow the steps below.
 
-1. From the Email Designer home page, select the **[!UICONTROL Design from scratch]** option.
+1. From the [Email Designer](get-started-email-designer.md#start-authoring) home page, select the **[!UICONTROL Design from scratch]** option.
 
-    ![](assets/email_designer.png)
+    ![](assets/email_designer-from-scratch.png)
 
-1. Start designing your email content by drag and dropping **[!UICONTROL Structure components]** into the canvas to define the layout of your email.
+1. Start designing your email content by drag and dropping **[!UICONTROL Structures]** into the canvas to define the layout of your email.
 
    >[!NOTE]
    >
    >Stacking columns is not compatible with all email programs. When not supported, columns are not stacked.
 
-    <!--Once placed in the email, you cannot move nor remove your components unless there is already a content component or a fragment placed inside. This is not true in AJO - TBC?-->
+1. Add as many **[!UICONTROL Structures]** as needed and edit their settings in the dedicated pane on the right.
 
-    ![](assets/email_designer_2.png)
-
-1. Add as many **[!UICONTROL Structure components]** as needed and edit their settings in the dedicated pane on the right.
+    ![](assets/email_designer_structure_components.png)
 
     Select the **[!UICONTROL n:n column]** component to define the number of columns of your choice (between 3 and 10). You can also define the width of each column by moving the arrows at the bottom of each column.
 
@@ -74,17 +72,17 @@ To start building your email content, follow the steps below:
    >
    >Each column size cannot be under 10% of the total width of the structure component. You cannot remove a column that is not empty.
 
-1. Expand the **[!UICONTROL Content components]** section and add as many elements as you need into one or more structure components. [Learn more about content components](content-components.md)
+1. From the **[!UICONTROL Components]** section, drag and drop as many elements as you need into one or more structure components. [Learn more about content components](content-components.md)
 
-1. Each component can be further customized using the **[!UICONTROL Component settings]** pane on the right. For example, you can change the text style, padding or margin of each component. [Learn more about alignment and padding](alignment-and-padding.md)
+1. Each component can be further customized using the **[!UICONTROL Settings]** or **[!UICONTROL Style]** tabs on the right. For example, you can change the text style, padding or margin of each component. [Learn more about alignment and padding](alignment-and-padding.md)
 
-    ![](assets/email_designer_5.png)
+    ![](assets/email_designer-styles.png)
 
-1. Insert personalization fields to customize your email content from profiles data. [Learn more about content personalization](../personalization/personalize.md)
+1. Insert personalization fields to customize your email content based on profiles data. [Learn more about content personalization](../personalization/personalize.md)
 
-1. Click the **[!UICONTROL Links]** tab from the left pane to display all the URLs of your content that must be tracked. You can modify their **[!UICONTROL Tracking Type]** or **[!UICONTROL Label]** and add **[!UICONTROL Categories]** if needed. [Learn more about links and message tracking](message-tracking.md)
+1. Add links to your content. Click the **[!UICONTROL Links]** tab from the left pane to display all the URLs of your content that will be tracked. You can modify their **[!UICONTROL Tracking Type]** or **[!UICONTROL Label]** and add **[!UICONTROL Categories]** if needed. [Learn more about links and message tracking](message-tracking.md)
 
-    ![](assets/email_designer_7.png)
+    ![](assets/email_designer-links.png)
 
 1. If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. This allows you to edit the email source code, for example to add tracking or custom HTML tags. [Learn more about the code editor](code-content.md)
 
@@ -94,7 +92,7 @@ To start building your email content, follow the steps below:
 
 1. Once your content is ready, click **[!UICONTROL Simulate content]** to check your email rendering. You can choose the desktop or mobile view. [Learn more about previewing your email](../preview-test/preview-test.md)
 
-    ![](assets/email_designer_28.png)
+    ![](assets/email_designer-simulate.png)
 
 1. When your email is ready, click **[!UICONTROL Save]**.
 

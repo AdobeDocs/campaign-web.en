@@ -30,29 +30,33 @@ badge: label="Alpha" type="Positive"
 The email **[!UICONTROL Edit content]** screen allows you to:
 * Define basic elements of your message such as the sender's address and the subject line
 * Perform additional actions such as adding attachments or setting up offers
-* Access the [Email Designer](get-started-email-designer.md) to start building the proper content of your email
+* Access the [Email Designer](get-started-email-designer.md#start-authoring) to start building the proper content of your email
 
 To configure or edit the content of an email, follow the steps below.
 
 1. Click the **[!UICONTROL Edit content]** button from the [email delivery dashboard](../email/create-email.md) screen.
 
-    ![](assets/email-edit-content.png)
+    ![](assets/email-edit-content-button.png)
 
-1. The email content edition screen opens. If your are configuring a new email, the **[!UICONTROL From name]** and **[!UICONTROL From email]** fields are already populated.
+1. The email content edition screen opens.
 
     ![](assets/email-edit-content-dashboard.png)
+
+    >[!NOTE]
+    >
+    >If your are configuring a new email, the **[!UICONTROL From name]** and **[!UICONTROL From email]** fields are already populated.
 
 1. The **[!UICONTROL From name]** field is defined in the email template. If you want to modify it, use a name that is easily identifiable by the recipients, such as your brand's name, to increase the opening rate of your deliveries.
 
     >[!NOTE]
     >
-    >    To further improve the recipient's experience, you can add a person's name, for example "Emma from Megastore".
+    >To further improve the recipient's experience, you can add a person's name, for example "Eve from Luma".
 
 1. The **[!UICONTROL From email]** address field is also defined in the email template. Make sure the address domain is the same as the subdomain that you delegated to Adobe.
 
     >[!NOTE]
     >
-    >    You can change the part preceding the '@', but not the domain address.
+    >You can change the part preceding the '@', but not the domain address.
 
     <!--In the Reply address text fields, the sender's address is used by default for replies. However, Adobe recommends using an existing real address such as your brand's customer care. In this case, if a recipient sends a reply, the customer care will be able to handle it.-->
 
@@ -74,6 +78,10 @@ To configure or edit the content of an email, follow the steps below.
 
     * [Author emails from scratch](create-email-content.md)
     * [Style your content](get-started-email-style.md)
+
+    >[!NOTE]
+    >
+    >You can also hover over the email preview and select **[!UICONTROL Open email designer]**.
 
 1. By default, tracking is enabled for the delivery. You can disable this option from the **[!UICONTROL Optional features]** section. [Learn how to add links and manage tracking](message-tracking.md)
 
