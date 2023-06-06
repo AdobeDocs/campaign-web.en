@@ -35,7 +35,9 @@ Here are the steps to add a **Channel** activity in a workflow:
 
 ## Example
 
+Here is a cross-channel workflow example with a segmentation and two deliveries. The workflow targets all customers who have an email address and who are interested in coffee machines. Among this population, an email is sent to the regular customers and an SMS is sent to the VIP clients.
 
+![](../assets/workflow-channel-example.png)
 <!--
 description, which use case you can perform (common other activities that you can link before of after the activity)
 
