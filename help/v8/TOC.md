@@ -88,12 +88,10 @@ hide: yes
     + [And-join](workflows/activities/and-join.md)
     + [Build audience](workflows/activities/build-audience.md)
     + [Combine](workflows/activities/combine.md)
-    + [Email](workflows/activities/email.md)
+    + [Email, SMS, Push](workflows/activities/email.md)
     + [End](workflows/activities/end.md)
     + [Enrichment](workflows/activities/enrichment.md)
     + [Fork](workflows/activities/fork.md)
-    + [Push](workflows/activities/push.md)
-    + [SMS](workflows/activities/sms.md)
     + [Wait](workflows/activities/wait.md)
 + Reporting {#reports}
   + [Get started with reports](reporting/gs-reports.md)
