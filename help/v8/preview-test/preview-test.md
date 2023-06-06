@@ -5,7 +5,7 @@ description: Learn how to preview and test emails
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Alpha" type="Positive"
 ---
-# About email preview and test {#about-preview-proofs}
+# About email preview and test {#about-preview-test}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate"
@@ -14,17 +14,19 @@ badge: label="Alpha" type="Positive"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/preview-content.html?lang=en" text="Preview email content"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/proofs.html?lang=en" text="Send test emails"
 
-Before sending an email, it is important to review and test its content to ensure that it is accurate and free of errors in content or personalization settings.
+Once your email content has been defined, you can use test profiles to preview and test it before sending the message.
 
-To do this, Adobe Campaign allows you to:
+This is an crucial step to ensure that it is accurate but also free of errors both in content and personalization settings.
 
-* [Preview the email content and personalization](preview-content.md),
-* [Check the email rendering](#rendering) in popular desktop, mobile and web-based clients,
-* [Send test emails](proofs.md) to specific recipients for testing and validation.
+To do this, [!DNL Adobe Campaign] allows you to:
 
-These actions can be performed from the **[!UICONTROL Simulate content]** button which is accessible when creating the content of your email of from the Email Designer:
+* [Preview the email content and personalization](preview-content.md)
+* [Check the email rendering](#rendering) in popular desktop, mobile and web-based clients
+* [Send test emails](proofs.md) to specific recipients for testing and validation
 
-![](assets/simulate.png)
+These actions can be performed from the **[!UICONTROL Simulate content]** button which is accessible from the [Edit content](../content/edit-content.md) screen or from the [Email Designer](../content/get-started-email-designer.md).
+
+![](assets/simulate-button.png)
 
 >[!NOTE]
 >
