@@ -32,9 +32,11 @@ Adobe Campaign Web allows you to automate and execute marketing campaigns across
 
 The following **Channel** activities are available:
 
-* [Email](email.md)
-* [Push](push.md)
-* [SMS](sms.md)
+* Email
+* Push
+* SMS
+
+Refer to this [section](enrichment.md).
 
 ## Flow control activities {#flow-control}
 

@@ -5,7 +5,7 @@ description: Learn how to use the Email workflow activity
 badge: label="Alpha" type="Positive"
 ---
 
-# Email, SMS, Push {#email}
+# Email, SMS, Push {#channel}
 
 Adobe Campaign Web allows you to automate and execute marketing campaigns across multiple channels, such as email, SMS, or push. You can combine channel activities into the canvas to create cross-channel workflows that can trigger actions based on customer behavior. 
 
@@ -23,11 +23,15 @@ Here are the steps to add a **Channel** activity in a workflow:
 
 1. Select a **Template**. Templates are pre-configured delivery settings saved for future use. [Learn more](../../msg/delivery-template.md)
 
-1. Click **Create delivery** and define your message the same way you create a standalone delivery. [Learn more](../../msg/gs-message.md)
+1. Click **Create delivery** and define your message the same way you create a standalone delivery. This is also where you will define the delivery settings, schedule and simulate the content. [Learn more](../../msg/gs-message.md)
 
+1. Navigate back to your workflow and click **Start** to launch your workflow.
 
-1. Start the workflow, and check logs.
+    By default, initiating a delivery workflow triggers the message preparation stage, without immediately sending the message.
+    
+1. Click **Review & send** from the channel activity to confirm the sending.
 
+1. From your delivery dashboard, click **Send**.
 <!--
 description, which use case you can perform (common other activities that you can link before of after the activity)
 
