@@ -27,21 +27,28 @@ badge: label="Alpha" type="Positive"
 >title="Tracking options"
 >abstract="By default, tracking is enabled for the delivery. You can disable this option from here."
 
-To start creating the content of an email, click the **[!UICONTROL Edit content]** button from the [email delivery dashboard](../email/create-email.md) screen.
+The email **[!UICONTROL Edit content]** screen allows you to:
+* Define basic elements of your message such as the sender's address and the subject line
+* Perform additional actions such as adding attachments or setting up offers
+* Access the [Email Designer](get-started-email-designer.md) to start building the proper content of your email
 
-![](assets/email-edit-content.png)
+To configure or edit the content of an email, follow the steps below.
 
-The screen that opens allows you to define basic details, perform some additional actions such as adding attachments or setting up offers, and access the [Email Designer](#start-authoring) to build your content.
+1. Click the **[!UICONTROL Edit content]** button from the [email delivery dashboard](../email/create-email.md) screen.
 
-![](assets/email-edit-content-dashboard.png)
+    ![](assets/email-edit-content.png)
 
-The steps to edit the content of your email are as follows:
+1. The email content edition screen opens. If your are configuring a new email, the **[!UICONTROL From name]** and **[!UICONTROL From email]** fields are already populated.
 
-1. In the **[!UICONTROL From name]** field, use a name that is easily identifiable by the recipients, such as your brand's name, to increase the opening rate of your deliveries.
+    ![](assets/email-edit-content-dashboard.png)
 
-    To further improve the recipient's experience, you can add a person's name, for example "Emma from Megastore".
+1. The **[!UICONTROL From name]** field is defined in the email template. If you want to modify it, use a name that is easily identifiable by the recipients, such as your brand's name, to increase the opening rate of your deliveries.
 
-1. In the **[!UICONTROL From email]** address field, make sure the address domain is the same as the subdomain that you delegated to Adobe.
+    >[!NOTE]
+    >
+    >    To further improve the recipient's experience, you can add a person's name, for example "Emma from Megastore".
+
+1. The **[!UICONTROL From email]** address field is also defined in the email template. Make sure the address domain is the same as the subdomain that you delegated to Adobe.
 
     >[!NOTE]
     >
@@ -65,7 +72,7 @@ The steps to edit the content of your email are as follows:
 
 1. Click the **[!UICONTROL Edit email body]** button to structure and design the content of the email using the [Email Designer](#start-authoring). Additional information on how to design email content are available in these sections:
 
-    * [Learn how to design emails](create-email-content.md)
+    * [Author emails from scratch](create-email-content.md)
     * [Style your content](get-started-email-style.md)
 
 1. By default, tracking is enabled for the delivery. You can disable this option from the **[!UICONTROL Optional features]** section. [Learn how to add links and manage tracking](message-tracking.md)
