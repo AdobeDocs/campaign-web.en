@@ -5,7 +5,7 @@ description: Learn how to define and send test emails
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha" type="Positive"
 ---
-# Send test emails {#send-test}
+# Send test emails {#send-test-emails}
 
 **[!UICONTROL Adobe Campaign]** allows you to test a message before sending it to the main audience.
 
