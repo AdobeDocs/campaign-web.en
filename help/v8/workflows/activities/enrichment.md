@@ -42,7 +42,7 @@ You can select two types of data: a single attribute from the target dimension, 
 
 ## Single attribute
 
-Here, we are just adding a single enrichment attribute, for example, the data of birth. Follow these steps:
+Here, we are just adding a single enrichment attribute, for example, the date of birth. Follow these steps:
 
 1. Click inside the **Attribute** field.
 1. Select a simple field from the targeting dimension, the date of birth in our example. 

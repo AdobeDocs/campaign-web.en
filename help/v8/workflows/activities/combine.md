@@ -59,11 +59,8 @@ The following example shows the **intersection** between two query activities. I
 
 ![](../assets/workflow-intersection-example.png)
 
-The following **exclusion** example shows two queries configured to filter profiles who are between 18 and 27 years old and have an adobe email email domain. The profiles with an adobe email domain are then excluded from the first set. 
+The following **exclusion** example shows two queries configured to filter profiles who are between 18 and 27 years old and have an Adobe email domain. The profiles with an Adobe email domain are then excluded from the first set. 
 
 ![](../assets/workflow-exclusion-example.png)
-
-
-
 
 
