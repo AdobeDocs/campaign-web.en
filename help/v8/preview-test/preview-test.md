@@ -21,13 +21,13 @@ This is an crucial step to ensure that it is accurate but also free of errors bo
 To do this, [!DNL Adobe Campaign] allows you to:
 
 * [Preview the email content and personalization](preview-content.md)
-* [Check the email rendering](#rendering) in popular desktop, mobile and web-based clients
+* [Check the email rendering](email-rendering.md) in popular desktop, mobile and web-based clients
 * [Send test emails](proofs.md) to specific recipients for testing and validation
 
-These actions can be performed from the **[!UICONTROL Simulate content]** button which is accessible from the [Edit content](../content/edit-content.md) screen or from the [Email Designer](../content/get-started-email-designer.md).
+These actions can be performed from the **[!UICONTROL Simulate content]** button, which is accessible from the [Edit content](../content/edit-content.md) screen or from the [Email Designer](../content/get-started-email-designer.md).
 
 ![](assets/simulate-button.png)
 
 >[!NOTE]
 >
->Content simulation is also available from the delivery summary after clicking the **[!UICONTROL Review and send]** button.
+>Content simulation is also available from the [delivery summary](../monitor/prepare-send.md) after clicking the **[!UICONTROL Review and send]** button.
