@@ -5,7 +5,7 @@ description: Learn how to define and send test emails
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha" type="Positive"
 ---
-# Send test emails {#send-proofs}
+# Send test emails {#send-test}
 
 **[!UICONTROL Adobe Campaign]** allows you to test a message before sending it to the main audience.
 
@@ -47,7 +47,7 @@ To select the recipients of the email test, follow the steps below.
 
         You can enter any email address. This allows you to send test emails to any users, even if they are not users of [!DNL Adobe Campaign].
 
-    1. Select the profile from the target to use to substitute. You can also let [!DNL Adobe Campaign] select a random profile from the target. The profile data from the selected profile will be displayed in the test email.
+    1. Select the profile from the target to use as substitute. You can also let [!DNL Adobe Campaign] select a random profile from the target. The profile data from the selected profile will be displayed in the test email.
 
     1. Confirm the recipient and repeat the operation to add as many addresses as needed.
 
