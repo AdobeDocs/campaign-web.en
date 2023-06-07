@@ -45,6 +45,7 @@ hide: yes
     + Preview and test your email {#preview-test}
       + [About preview and test](preview-test/preview-test.md) 
       + [Preview email content](preview-test/preview-content.md)
+      + [Render your email](preview-test/email-rendering.md)
       + [Send test emails](preview-test/proofs.md)
     + Send and monitor the email {#monitor}
       + [Prepare and send an email](monitor/prepare-send.md)
