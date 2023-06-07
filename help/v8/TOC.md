@@ -64,6 +64,7 @@ hide: yes
     + [Get started with dynamic content](personalization/gs-personalization.md)
     + [Add personalization](personalization/personalize.md)
     + [Add conditional content](personalization/conditions.md)
+    + [Workf with built-in content blocks](personalization/content-blocks.md)
 + Audiences & recipients {#audiences}
   + [Get started with audiences](audience/about-audiences.md)
   + [Select an existing audience](audience/add-audience.md)
