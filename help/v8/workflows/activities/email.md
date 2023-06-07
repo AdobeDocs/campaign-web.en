@@ -35,7 +35,7 @@ Here are the steps to add a **Channel** activity in a workflow:
 
 ## Example
 
-Here is a cross-channel workflow example with a segmentation and two deliveries. The workflow targets all customers who have an email address and who are interested in coffee machines. Among this population, an email is sent to the regular customers and an SMS is sent to the VIP clients.
+Here is a cross-channel workflow example with a segmentation and two deliveries. The workflow targets all customers who live in Paris and who are interested in coffee machines. Among this population, an email is sent to the regular customers and an SMS is sent to the VIP clients.
 
 ![](../assets/workflow-channel-example.png)
 <!--
@@ -56,8 +56,10 @@ This can be a single send email and sent just once, or it can be a recurring ema
 * Single send emails are standard emails, sent once.
 * Recurring emails allow you to send the same email multiple times to different targets over a defined period. You can aggregate the deliveries per period in order to get reports that correspond to your needs.
 
-When linked to a scheduler, you can define recurring emails.-->
-
+When linked to a scheduler, you can define recurring emails.
 Email recipients are defined upstream of the activity in the same workflow, via an Audience targeting activity.
+
+-->
+
 
 <!--The message preparation is triggered according to the workflow execution parameters. From the message dashboard, you can select whether to request or not a manual confirmation to send the message (required by default). You can start the workflow manually or place a scheduler activity in the workflow to automate execution.-->

@@ -7,9 +7,7 @@ badge: label="Alpha" type="Positive"
 
 # Fork {#fork}
 
-The **Fork** activity allows you to create outbound transitions to start several activities at the same time.
-
-The **Fork** activity allows you to carry out several different activities independently within the same workflow.
+The **Fork** activity is a **Flow control** activity. It allows you to create outbound transitions to start several activities at the same time.
 
 ## Configuration
 
