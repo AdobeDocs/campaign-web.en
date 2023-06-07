@@ -14,7 +14,7 @@ To do this, you can leverage your **Litmus** account into [!DNL Adobe Campaign] 
 
 >[!CAUTION]
 >
->Using email rendering in Campaign sends a test email to a third-party system (Litmus) that is not under the control of Adobe. To access or delete such data, you will need to contact that third party directly. By using email rendering, you acknowledge Adobe is not responsible for any data you may send to that third-party system.
+>Using email rendering in Campaign sends a test email to a third-party system. By connecting your Litmus account with [!DNL Campaign], you acknowledge that Adobe is not responsible for any data you may send to that third party. Litmus data retention email policy applies to these emails, including personalization data that may be included in these test messages. To access or delete such data, you will need to contact Litmus directly.
 
 To access email rendering capabilities, you need to:
 
@@ -42,10 +42,6 @@ Then, follow the steps below.
 1. Check your email content in popular desktop, mobile and web-based clients.
 
     ![](assets/simulate-rendering-previews.png)
-
->[!CAUTION]
->
->When connecting your Litmus account with [!DNL Campaign], you agree that test messages are sent to Litmus. Once sent, these emails are no longer managed by Adobe. As a consequence, Litmus data retention email policy applies to these emails, including personalization data that may be included in these test messages.
 
 <!--
 TO CHECK IF user is directed to Litmus or if the email rendering is shown directly in the Campaign UI.
