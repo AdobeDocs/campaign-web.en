@@ -17,7 +17,7 @@ The recipients of a test can check various elements such as links, opt-out links
 
 Test emails can be sent to two types of recipients: 
 
-* **Test profiles** - send test emails to seed addresses, which are additional and fictitious recipients in the database. They can be created in the [!DNL Campaign] console into the **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** folder.
+* **Test profiles** - send test emails to seed addresses, which are additional and fictitious recipients in the database. They can be created in the [!DNL Campaign] console into the **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** folder. [Learn more](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/creating-seed-addresses.html){target="_blank"}
     
 * **Substitute from main target** - send test emails to a specific email address while impersonating an existing profile. This allows you to experience the email as the recipients would, giving you an accurate representation of the message that the profile will receive.
 
@@ -33,13 +33,13 @@ To select the recipients of the email test, follow the steps below.
 
     * **Test profiles** to target fictitious recipients
     
-    * **Substitute from main target** to send a test to a specific email address displaying data from an existing profile.
+    * **Substitute from main target** to send a test to a specific email address while displaying data from an existing profile.
 
     ![](assets/simulate-profile-mode.png)
 
     >[!NOTE]
     >
-    >By default, the **[!UICONTROL Test profiles]** mode is selected. If you have already selected profiles to preview the email in the content simulation screen, those profiles are pre-selected as test recipients. You can clear your selection and/or add additional recipients.
+    >By default, the **[!UICONTROL Use test profiles]** mode is selected. If you have already selected profiles to preview the email in the content simulation screen, those profiles are pre-selected as test recipients. You can clear your selection and/or add additional recipients.
 
 1. To send test emails to substitution profiles, choose the **[!UICONTROL Substitute from target]** mode, then follow these steps:
 
@@ -57,7 +57,7 @@ To select the recipients of the email test, follow the steps below.
 
     >[!NOTE]
     >
-    >If you want to send the final email message to the recipients of the test email, select the **[!UICONTROL Include test population in the main target]** option.
+    >To also send the final email message to the recipients of the test email, select the **[!UICONTROL Include test population in the main target]** option.
 
 ## Send the test email {#send-test}
 
@@ -71,7 +71,7 @@ To send the test email to the selected recipients, follow the steps below.
 
 1. Send as many test emails as necessary until you have finalized the content of your delivery.
 
-Once this is done, you can send the email to the main target. [Learn how to prepare and send your email](../monitor/prepare-send.md)
+Once this is done, you can [prepare and send your email](../monitor/prepare-send.md) to the main target.
 
 ## Access sent test emails {#access-proofs}
 
@@ -81,6 +81,6 @@ These logs allow you to access all the test emails sent for the selected deliver
 
 ![](assets/simulate-test-log.png)
 
-You can also access sent test emails from the [deliveries list](), like any delivery.
+You can also access sent test emails from the [deliveries list](../msg/gs-messages.md), like any delivery.
 
 ![](assets/simulate-deliveries-list.png)

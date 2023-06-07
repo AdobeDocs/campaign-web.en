@@ -8,40 +8,20 @@ badge: label="Alpha" type="Positive"
 
 # Test the email rendering {#email-rendering}
 
-Before sending your email, make sure that your message is displayed to the recipients in an optimal way on a variety of web clients and devices.
+Before sending your email, make sure your message is displayed to the recipients in an optimal way on a variety of web clients and devices.
 
-To do this, [!DNL Adobe Campaign] allows you to preview the sent message in the different contexts in which it may be received and check the compatibility in major desktops and applications (webmail, message service, mobile, etc.).
+To do this, you can leverage your **Litmus** account into [!DNL Adobe Campaign] to instantly preview your email rendering in different contexts and check compatibility in major desktops and applications (webmail, message service, mobile, etc.).
 
 >[!CAUTION]
 >
->Using email rendering in Campaign sends a test email to a third-party system that is not under the control of Adobe. To access or delete such data, you will need to contact that third party directly. By using email rendering, you acknowledge Adobe is not responsible for any data you may send to that third-party system.
+>Using email rendering in Campaign sends a test email to a third-party system (Litmus) that is not under the control of Adobe. To access or delete such data, you will need to contact that third party directly. By using email rendering, you acknowledge Adobe is not responsible for any data you may send to that third-party system.
 
-<!--To test the email rendering, follow these steps:
-
-1. Access the email content creation screen, then click **[!UICONTROL Simulate content]**.
-
-1. Click the **[!UICONTROL Render email]** button.
-
-    The left pane provides various desktop, mobile and web-based email clients. Select the desired email client to display a preview of your email in the right pane. 
-
-    ![](assets/render-context.png)
-
-    >[!NOTE]
-    >
-    >The email clients list provides a sample of the major mail clients. Additional email clients are available from the filter button next to the top search bar.
-
-TO CHECK IF user is directed to Litmus or if the email rendering is shown directly in the Campaign UI.
-
-CONTENT COPIED FROM AJO -->
-
-You can leverage your **Litmus** account into [!DNL Journey Optimizer] to instantly preview your **email rendering** in popular email clients.
-
-To access Email rendering capabilities, you need to:
+To access email rendering capabilities, you need to:
 
 * Have a Litmus account
-* [Select test profiles](#select-test-profiles)
+* Select test profiles - Learn how in [this section](preview-content.md)
 
-Then, follow the steps below:
+Then, follow the steps below.
 
 1. In the [Edit content](../content/edit-content.md) screen or in the [Email Designer](../content/get-started-email-designer.md), click the **[!UICONTROL Simulate content]** button.
 
@@ -65,4 +45,27 @@ Then, follow the steps below:
 
 >[!CAUTION]
 >
->When connecting your **Litmus** account with [!DNL Journey Optimizer], you agree that test messages are sent to Litmus. Once sent, these emails are no longer managed by Adobe. As a consequence, Litmus data retention email policy applies to these emails, including personalization data that may be included in these test messages.
+>When connecting your Litmus account with [!DNL Campaign], you agree that test messages are sent to Litmus. Once sent, these emails are no longer managed by Adobe. As a consequence, Litmus data retention email policy applies to these emails, including personalization data that may be included in these test messages.
+
+<!--
+TO CHECK IF user is directed to Litmus or if the email rendering is shown directly in the Campaign UI.
+
+CONTENT ABOVE COPIED FROM AJO
+
+If not redirecting to Litmus:
+
+To test the email rendering, follow these steps:
+
+1. Access the email content creation screen, then click **[!UICONTROL Simulate content]**.
+
+1. Click the **[!UICONTROL Render email]** button.
+
+    The left pane provides various desktop, mobile and web-based email clients. Select the desired email client to display a preview of your email in the right pane. 
+
+    ![](assets/render-context.png)
+
+    >[!NOTE]
+    >
+    >The email clients list provides a sample of the major mail clients. Additional email clients are available from the filter button next to the top search bar.
+
+ -->

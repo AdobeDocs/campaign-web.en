@@ -18,26 +18,33 @@ To preview the content of your email, follow the steps below.
 
     ![](assets/simulate-button.png)
 
-1. Use the **[!UICONTROL Add test profile(s)]** button to select the profiles that will be used to preview your personalized content. 
-
-    ![](assets/simulate-add-profiles.png)
+1. Use the **[!UICONTROL Add test profile(s)]** button to select the profiles that will be used to preview your personalized content.
 
 1. You can combine test profiles and profiles to preview your email. 
 
-    * The **[!UICONTROL Test profiles]** tab lists all seed addresses, which are additional and fictitious recipients in the database. They can be created in the [!DNL Campaign] console into the **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** folder.
-    * The **[!UICONTROL Profiles]** tab lists all the recipients stored into the **[!UICONTROL Profiles and Targets]** folder from the [!DNL Campaign] console.
+    * The **[!UICONTROL Test profiles]** tab lists all seed addresses, which are additional and fictitious recipients in the database.
+    
+        >[!NOTE]
+        >
+        >Test profiles can be created in the [!DNL Campaign] console into the **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** folder. [Learn more](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/creating-seed-addresses.html){target="_blank"}
+
+    * The **[!UICONTROL Profiles]** tab lists all the recipients stored into the **[!UICONTROL Profiles and Targets]** folder from the [!DNL Campaign] console. [Learn more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html){target="_blank"}
 
     ![](assets/simulate-select-profiles.png)
 
-1. Click **[!UICONTROL Select]** to confirm your selection.
+1. Click **[!UICONTROL Select]** to confirm your selection in both tabs.
 
     A preview of the email is displayed in the right pane of the **[!UICONTROL Simulate]** screen. Personalized elements are replaced with the data from the profile selected in the left pane.
 
     ![](assets/simulate-preview.png)
 
-1. If you have added multiple profiles, you can switch between them in the list to preview the corresponding email content.
+1. If you have added multiple profiles, you can switch between them in the list to preview the corresponding email content. You can also add more test profiles and clear your selection using the corresponding buttons on the left pane.
 
-1. You can preview the rendering of your content on different devices (desktop or mobile) by clicking the dedicated icon in the top right corner.
+1. You can adjust the **[!UICONTROL Zoom level]** and preview your content on desktop or mobile device using the dedicated icon in the top right corner.
+
+1. From the **[!UICONTROL Simulate]** screen you can also:
+    * Check the email rendering in popular email clients - [Learn more](email-rendering.md)
+    * Send test emails to specific recipients for validation - [Learn more](proofs.md)
 
 
 
