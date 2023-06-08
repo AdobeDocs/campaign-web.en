@@ -80,11 +80,12 @@ After the delivery preparation, you can review how the exclusions were applied:
 * In the delivery logs, the Logs tab shows the exclusion step.
 
     ![](assets/control-group-sample-logs.png)
-
+<!--
 
  * The **Exclusion logs** tab displays each profile and the related exclusion **Reason**.
 
     ![](assets/control-group6.png)
+-->
 
 * The **Exclusion causes** tab displays the number of excluded profile for each typology rule.
 
