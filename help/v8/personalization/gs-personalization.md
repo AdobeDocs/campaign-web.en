@@ -25,13 +25,13 @@ line or the body of your messages.
 
     The following syntax inserts the city of the recipient in your content: <%= recipient.location.city %>.
 
-    ![](assets/perso-subject-line.png)
+    ![](assets/perso-subject-line.png){width="800" align="center"}
 
 * **Conditional content**: Configure conditional content to add content based on the recipient’s profile for example. Text blocks and/or images are inserted when a particular condition is true. You can define the alternative version of the content when the condition is not true.
 
 * **Built-in content blocks**: Campaign comes with a set of personalization blocks which contain a specific rendering that you can insert into your deliveries. For example, you can add a logo, a greeting message, or a link to the mirror page of an email message. Content blocks are available from a dedicated entry in the personalization editor.
 
-    ![](assets/perso-content-blocks.png)
+    ![](assets/perso-content-blocks.png){width="800" align="center"}
 
 ## Access the expression editor {#access}
 
@@ -43,15 +43,15 @@ Adobe Campaign V8 Web provides an expression editor where you can select, arrang
 
 *Accessing the expression editor from the Sender name field*
 
-![](assets/expression-editor-access.png)
+![](assets/expression-editor-access.png){width="800" align="center"}
 
 *Accessing the expression editor from an email text component*
 
-![](assets/expression-editor-access-email.png)
+![](assets/expression-editor-access-email.png){width="800" align="center"}
 
 *Accessing the expression editor from a link in an email*
 
-![](assets/perso-link-insert-icon.png){width="500" align="center"}
+![](assets/perso-link-insert-icon.png){width="800" align="center"}
 
 
 ## Let's dive deeper
