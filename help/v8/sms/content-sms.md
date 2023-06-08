@@ -29,14 +29,8 @@ exl-id: 1a70d033-6f1b-482b-9948-59ef75871750
 
 1. By default, tracking is enabled for deliveries. You can disable this option from the **[!UICONTROL Optional features section]**.
 
+1. Access the **[!UICONTROL Simulate content]** menu to preview your personalized content.
+
 1. Click **[!UICONTROL Save]** and check your message in the preview. 
-
-1. You can use **[!UICONTROL Simulate content]** to preview your personalized content.
-
-1. Click **[!UICONTROL Add test profile(s)]** to select one or several test profiles or profiles.
-
-1. Once your test profiles are selected, click **[!UICONTROL Select]**.
-
-1. In the right pane, you will find a preview of the email, where personalized elements are dynamically replaced with data from the selected profile.
 
 You can now review and send your SMS message to your audience.

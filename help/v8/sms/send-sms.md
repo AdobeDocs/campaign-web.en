@@ -4,7 +4,23 @@ title: Send an SMS delivery
 description: Learn how to send SMS with Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 ---
-# Send an SMS delivery {#send-sms}
+# Preview and send an SMS delivery {#send-sms}
+
+## Preview your SMS delivery{#preview-push}
+
+Once you have defined your message content, you can utilize test profiles to preview and test it. If you have included personalized content, you can examine how this content is displayed in the message by utilizing test profile data. This allows you to ensure that the message appears as intended and that any personalized information is correctly presented.
+
+1. From your delivery content page, you can use **[!UICONTROL Simulate content]** to preview your personalized content.
+
+1. Click **[!UICONTROL Add test profile(s)]** to select one or several test profiles or profiles.
+
+1. Once your test profiles are selected, click **[!UICONTROL Select]**.
+
+1. In the right pane, you will find a preview of the email, where personalized elements are dynamically replaced with data from the selected profile.
+
+You can now review and send your SMS message to your audience.
+
+## Send your SMS delivery {#preview-send-push}
 
 1. After personalizing your SMS content, click **[!UICONTROL Review & send]** from your **[!UICONTROL Delivery]** page.
 
