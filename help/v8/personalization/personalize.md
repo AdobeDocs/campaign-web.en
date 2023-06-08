@@ -11,18 +11,31 @@ badge: label="Alpha" type="Positive"
 
 # Personalize your content{#add-personalization}
 
-## Personalize the subject line of a message {#personalize-subject-line}
+Personalization can be added to any delivery using the expression editor. 
 
-To add personalization in the **[!UICONTROL Subject line]** field of the message, follow the steps below:
+A personalization tag always uses the following syntax: `<%=table.field%>`.For example, to insert the name of the recipient, stored in the recipient table, the personalization tag uses the <%= recipient.lastName %> syntax.
 
-1. Open a delivery and click **[!UICONTROL Edit content]**.
-1. Click the **[!UICONTROL Open personalization dialog]** icon on the right of the **[!UICONTROL Subject line]** field for emails, or the **[!UICONTROL Title]** fields for push/SMS deliveries.
+When a delivery is prepared, these tags are automatically interpreted by Adobe Campaign and replaced by the value of the field for a given recipient. The physical replacement can then be viewed when simulating your content.
 
-    ![](assets/perso-subject.png){width="600"}
+To add personalization tags into a delivery, click the Open personalization dialog icon that is accessible from text-type editing fields, such as the subject line or the SMS body.
 
-1. Enter the subject line or title, and select the personalization attributes to add.
+![](assets/perso-access.png)
 
-1. Click **[!UICONTROL Confirm]** to validate. The personalization attributes are added to the content.
+The expression editor displays. Personalization fields are organized into three menus, located to the left of the screen. These menus give access to all fields available in the Adobe Campaign database.
+
+|Menu | Description | 
+|-----|------------|
+|![](assets/do-not-localize/perso-recipients-menu.png) | The **[!UICONTROL Recipient]** menu lists all the fields defined in the recipients table, such as the recipients' name, age, or address. | 
+|![](assets/do-not-localize/perso-message-menu.png)| The **[!UICONTROL Message]** menu lists all the fields related to the delivery logs, i.e. all messages sent to recipients or devices across all channelsk, such as the date of the last event with a a given recipient |
+|![](assets/do-not-localize/perso-delivery-menu.png)| The **[!UICONTROL Delivery]** menu lists all the fields related to the parameters required for performing deliveries such as the delivery channel, label, etc.|
+
+>[!NOTE]
+>
+>By default, the list shows all fields within the selected table (Recipients, / Message / Delivery). If you want to include fields from tables linked to the selected table, enable the **[!UICONTROL Display advanced attributes]** option located below the list.
+
+To add a personalization field, place your cursor at the desired location within your content and click the + button to insert it.
+
+![](assets/perso-insert-field.png)
 
 ## Personalize your email content {#personalize-emails}
 
@@ -50,23 +63,6 @@ To personalize the email content, open the message in the Email designer and:
 1. Once inserted, the content block is added to the email content It is automatically adapted to the recipient profile when personalization is generated, at the delivery preparation step.
 
     ![](assets/perso-content-block-in-email.png)
-
-## Personalize links in your emails {#personalize-links}
-
-To personalize a **link**:
-
-1. Select a text block or an image.
-1. In the contextual toolbar, select **Insert link**.
-
-    ![](assets/perso-link.png)
-
-1. Enter the link label and use the **Insert link** button to personalize the link.
-
-    ![](assets/perso-link-insert-icon.png)
-
-1. Use the personalization editor to define and personalize the link, and confirm.
-
-    ![](assets/perso-link-edit.png)
 
 
 ## Personalize your offers {#personalize-offers}

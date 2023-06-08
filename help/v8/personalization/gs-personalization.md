@@ -28,7 +28,7 @@ You can make your message content dynamic by inserting:
 
 * **Conditional content**
 
-    Configure conditional content to add dynamic personalization based on the recipient’s profile for example. Text blocks and/or images are inserted when a particular condition is true. You can define the alternative version of the content when the condition is not true.
+    Configure conditional content to add content based on the recipient’s profile for example. Text blocks and/or images are inserted when a particular condition is true. You can define the alternative version of the content when the condition is not true.
 
 * **Built-in content blocks**
     
@@ -40,11 +40,13 @@ You can make your message content dynamic by inserting:
 
 Adobe Campaign V8 Web provides an expression editor where you can select, arrange, customize and validate all the data to create a customized experience for your content.
 
-The expression editor is available for all channels, in every fields with the Open personalization dialog icon, such as the subject line field, or text and button content components in emails.
+The expression editor is available for all channels, in every fields with the Open personalization dialog icon, such as the subject line field, or email links and text/button content components.
 
 ![](assets/expression-editor-access.png)
 
 ![](assets/expression-editor-access-email.png)
+
+![](assets/perso-link-insert-icon.png)
 
 In addition, a dedicated conditional content builder is accessible when designing an email. [Learn how to build conditional content in emails](conditions.md)
 
