@@ -31,6 +31,7 @@ The expression editor displays. Personalization fields are organized into three 
 
 |Menu | Description | 
 |-----|------------|
+|![](assets/do-not-localize/perso-subscribers-menu.png) | The **[!UICONTROL Subscribers application]** menu lists all the fields related to the subscribers of an application, such as the terminal or the operating system useds. *This menu is available for push notifications only* | 
 |![](assets/do-not-localize/perso-recipients-menu.png) | The **[!UICONTROL Recipient]** menu lists all the fields defined in the recipients table, such as the recipients' name, age, or address. | 
 |![](assets/do-not-localize/perso-message-menu.png)| The **[!UICONTROL Message]** menu lists all the fields related to the delivery logs, i.e. all messages sent to recipients or devices across all channelsk, such as the date of the last event with a a given recipient |
 |![](assets/do-not-localize/perso-delivery-menu.png)| The **[!UICONTROL Delivery]** menu lists all the fields related to the parameters required for performing deliveries such as the delivery channel, label, etc.|
