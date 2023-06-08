@@ -18,37 +18,38 @@ Use Campaign to create dynamic content and send personalized messages. Personali
 
 You can make your message content dynamic by inserting:
 
-* **Personalization fields**
-
-    Personalization fields are used for first-level personalization of your messages. You can select any field available in the database from the personalization editor. For a delivery, you can select any field related to the recipient, the message or the delivery. These personalization attributes can be inserted in the subject line or the body of your messages.
-
-    ![](assets/perso-subject-line.png)
+* **Personalization fields**: Personalization fields are used for first-level personalization of your messages. You can select any field available in the database from the personalization editor. For a delivery, you can select any field related to the recipient, the message or the delivery. These personalization attributes can be inserted in the subject 
+line or the body of your messages.
 
     The following syntax inserts the city of the recipient in your content: <%= recipient.location.city %>.
 
-* **Conditional content**
+    ![](assets/perso-subject-line.png)
 
-    Configure conditional content to add content based on the recipient’s profile for example. Text blocks and/or images are inserted when a particular condition is true. You can define the alternative version of the content when the condition is not true.
+* **Conditional content**: Configure conditional content to add content based on the recipient’s profile for example. Text blocks and/or images are inserted when a particular condition is true. You can define the alternative version of the content when the condition is not true.
 
-* **Built-in content blocks**
-    
-    Campaign comes with a set of personalization blocks which contain a specific rendering that you can insert into your deliveries. For example, you can add a logo, a greeting message, or a link to the mirror page of an email message. Content blocks are available from a dedicated entry in the personalization editor.
+* **Built-in content blocks**: Campaign comes with a set of personalization blocks which contain a specific rendering that you can insert into your deliveries. For example, you can add a logo, a greeting message, or a link to the mirror page of an email message. Content blocks are available from a dedicated entry in the personalization editor.
 
     ![](assets/perso-content-blocks.png)
 
 ## Where can I add dynamic content?
 
-Adobe Campaign V8 Web provides an expression editor where you can select, arrange, customize and validate all the data to create a customized experience for your content.
+Adobe Campaign V8 Web provides an expression editor where you can select, arrange, customize and validate all the data to create a customized experience for your content. The expression editor is available for all channels, in every fields with the **[!UICONTROL Open personalization dialog]** icon, such as the subject line field, or email links and text/button content components.
 
-The expression editor is available for all channels, in every fields with the Open personalization dialog icon, such as the subject line field, or email links and text/button content components.
+>[!NOTE]
+>
+>In addition to the expression editor, you can also leverage a dedicated conditional content builder when designing an email. [Learn how to build conditional content in emails](conditions.md)
+
+*Accessing the expression editor from the Sender name field*
 
 ![](assets/expression-editor-access.png)
 
+*Accessing the expression editor from an email text component*
+
 ![](assets/expression-editor-access-email.png)
 
-![](assets/perso-link-insert-icon.png)
+*Accessing the expression editor from a link in an email*
 
-In addition, a dedicated conditional content builder is accessible when designing an email. [Learn how to build conditional content in emails](conditions.md)
+![](assets/perso-link-insert-icon.png)
 
 ## Let's dive deeper
 
