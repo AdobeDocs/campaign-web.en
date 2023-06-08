@@ -51,7 +51,8 @@ Adobe Campaign V8 Web provides an expression editor where you can select, arrang
 
 *Accessing the expression editor from a link in an email*
 
-![](assets/perso-link-insert-icon.png)
+![](assets/perso-link-insert-icon.png){width="500" align="center"}
+
 
 ## Let's dive deeper
 
