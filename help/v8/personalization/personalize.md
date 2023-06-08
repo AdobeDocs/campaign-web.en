@@ -25,7 +25,7 @@ To add personalization tags into a delivery, open the expression editor using th
 
 ![](assets/perso-access.png)
 
-The expression editor displays. Personalization fields are organized into three menus, located to the left of the screen. These menus give access to all fields available in the Adobe Campaign database.
+The expression editor displays. Personalization fields are organized into several menus, located to the left of the screen. These menus give access to all fields available in the Adobe Campaign database.
 
 ![](assets/perso-insert-field.png)
 
