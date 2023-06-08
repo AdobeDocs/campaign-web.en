@@ -43,15 +43,15 @@ Adobe Campaign V8 Web provides an expression editor where you can select, arrang
 
 *Accessing the expression editor from the Sender name field*
 
-![](assets/expression-editor-access.png){width="800"}
+![](assets/expression-editor-access.png){width="800" align="center"}
 
 *Accessing the expression editor from an email text component*
 
-![](assets/expression-editor-access-email.png){width="800"}
+![](assets/expression-editor-access-email.png){width="800" align="center"}
 
 *Accessing the expression editor from a link in an email*
 
-![](assets/perso-link-insert-icon.png){width="800"}
+![](assets/perso-link-insert-icon.png){width="800" align="center"}
 
 
 ## Let's dive deeper
