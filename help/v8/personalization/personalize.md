@@ -9,19 +9,25 @@ exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positive"
 ---
 
-# Personalize your content{#add-personalization}
+# Personalize your content {#add-personalization}
 
-Personalization can be added to any delivery using the expression editor. 
+Personalization can be added to any delivery using the expression editor, which is accessible  in every fields with the **[!UICONTROL Open personalization dialog]** icon, such as the subject line field, or email links and text/button content components. [Learn where to add dynamic content](gs-personalization.md/#access)
 
-A personalization tag always uses the following syntax: `<%=table.field%>`.For example, to insert the name of the recipient, stored in the recipient table, the personalization tag uses the <%= recipient.lastName %> syntax.
+## Personalization syntax {#syntax}
+
+A personalization tag always uses the following syntax: `<%=table.field%>`. For example, to insert the name of the recipient, stored in the recipient table, the personalization tag uses the <%= recipient.lastName %> syntax.
 
 When a delivery is prepared, these tags are automatically interpreted by Adobe Campaign and replaced by the value of the field for a given recipient. The physical replacement can then be viewed when simulating your content.
 
-To add personalization tags into a delivery, click the Open personalization dialog icon that is accessible from text-type editing fields, such as the subject line or the SMS body.
+## Add personalization tags {#add}
+
+To add personalization tags into a delivery, open the expression editor using the **[!UICONTROL Open personalization dialog]** icon that is accessible from text-type editing fields, such as the subject line or the SMS body. [Learn where to add dynamic content](gs-personalization.md/#access)
 
 ![](assets/perso-access.png)
 
 The expression editor displays. Personalization fields are organized into three menus, located to the left of the screen. These menus give access to all fields available in the Adobe Campaign database.
+
+![](assets/perso-insert-field.png)
 
 |Menu | Description | 
 |-----|------------|
@@ -31,8 +37,16 @@ The expression editor displays. Personalization fields are organized into three 
 
 >[!NOTE]
 >
->By default, the list shows all fields within the selected table (Recipients, / Message / Delivery). If you want to include fields from tables linked to the selected table, enable the **[!UICONTROL Display advanced attributes]** option located below the list.
+>By default, each menu shows all fields within the selected table (Recipients, / Message / Delivery). If you want to include fields from tables linked to the selected table, enable the **[!UICONTROL Display advanced attributes]** option located below the list.
 
 To add a personalization field, place your cursor at the desired location within your content and click the + button to insert it.
 
-![](assets/perso-insert-field.png)
+Once your content is ready, you can save it and test the rendering of the personalization by simulating your content. In the example below, we are personalizing an SMS message with the targeted profiles' first names.
+
+*Add the personalization tag in the message content*
+
+![](assets/perso-preview1.png)
+
+*Simulate the rendering of the personalization for a given test profile*
+
+![](assets/perso-preview2.png)

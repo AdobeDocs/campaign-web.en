@@ -16,6 +16,8 @@ To get the most out of every marketing campaign, Adobe Campaign gives you a way 
 
 Use Campaign to create dynamic content and send personalized messages. Personalization capabilities can be combined to improve your messages and create a custom user experience.
 
+## How to make your content dynamic ?
+
 You can make your message content dynamic by inserting:
 
 * **Personalization fields**: Personalization fields are used for first-level personalization of your messages. You can select any field available in the database from the personalization editor. For a delivery, you can select any field related to the recipient, the message or the delivery. These personalization attributes can be inserted in the subject 
@@ -31,7 +33,7 @@ line or the body of your messages.
 
     ![](assets/perso-content-blocks.png)
 
-## Where can I add dynamic content?
+## Access the expression editor {#access}
 
 Adobe Campaign V8 Web provides an expression editor where you can select, arrange, customize and validate all the data to create a customized experience for your content. The expression editor is available for all channels, in every fields with the **[!UICONTROL Open personalization dialog]** icon, such as the subject line field, or email links and text/button content components.
 
