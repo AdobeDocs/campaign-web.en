@@ -19,49 +19,88 @@ Conditional content is a powerful feature that allows you to create dynamic pers
 
 By configuring conditional content fields, you can create advanced dynamic personalization based on the recipient’s profile for example. Text blocks, links, subject line, and/or images are replaced in the message content when a particular condition is satisfied. For example, you can display 'Mr' or 'Mrs' according to the value of the Gender field in Adobe Campaign database, or include a different link based on the recipient preferred language.
 
-## Personalization syntax{#perso-syntax}
+## How to build conditional content
 
-## Work with conditions in the personalization editor{#condition-perso-editor}
+To create conditional content, you need to create conditions in the expression editor using a specific helper function. This method is available for all delivery channels, in any field where you can access the expression editor, such as the subject line field, or email links and text/button content components. [Learn where to add dynamic content](gs-personalization.md/#access)
 
-To define a conditional content for a delivery:
+In addition to the expression editor, you can leverage a dedicated conditional content builder when designing an email that allows you to build conditions using profile attributes.
+
+## Create conditions in the expression editor {#condition-perso-editor}
+
+To define a conditional content for a delivery;, follow the steps below. In this example, we want to create conditional content based on the recipients' language (French or English).
 
 1. Open a delivery and edit the content.
-1. Click the **[!UICONTROL Open personalization dialog]** icon, for example, for SMS, on the right of the Message field.
+
+1. Locate the field where you want to add conditional content and click the **[!UICONTROL Open personalization dialog]** icon to open the expression editor. In this example, we want to add conditional content into an SMS message:
 
     ![](assets/open-perso-editor-sms.png)
 
-1. In the personalization editor, browse to **[!UICONTROL Helper functions]**.
-1. Click the '+' icon next to the **If** function. The following line is added to the central screen:
+1. In the personalization editor, browse to the **[!UICONTROL Helper functions]** left menu.
+
+1. Click the '+' icon next to the **If** function to start your condition. The following line is added to the central screen:
     `<% if (<FIELD>==<VALUE>) { %>Insert content here<% } %>`
-1. Replace `<FIELD>` by a personalization field. For example, the recipient's company: `recipient.company`.
-1. Replace `<VALUE>` by a the value to satisfy. For example, `ADOBE`.
 
-## Sample: conditional SMS subject line{#condition-subject-line}
+    * Replace `<FIELD>` by a personalization field. For example, the recipient's language: `recipient.language`.
+    * Replace `<VALUE>` by the value to satisfy. For example, `'French'`.
+    * Replace `Ìnsert content here` by the content that you want to display to the profiles that meet the condition specified above.
 
-To create a conditional subject line for a SMS message, follow the steps below:
+        ![](assets/condition-sample1.png)
 
-1. Open a delivery and edit the content.
-1. Click the Open personalization dialog icon, on the right of the subject line.
-1. In the personalization editor, browse to
+1. Specify the content that should be displayed if the recipients do not meet the condition. To do this:
 
+    1. Add an **else** helper function: Place your cursor before the expression closing tag `%>` and click the `+` next to the **Else** function.
 
-```sql
-<% if 
-(recipient.email == 'recipient@domain.com' ) 
-{ % >
-<table>
-    <tr>
-        <td>variant A</td>
-    </tr>
-</table>
-< % } 
-else 
-{ % >
-<table>
-    <tr>
-        <td>variant B< td>
-    </tr>
-</table>
-< % } 
-%>
-```
+        >[!NOTE]
+        >
+        >Each time a helper function is added, opening (`<%`) and closing (`%>`) tags are automatically added before and after the function. Example after adding an "Else" helper function inside an expression: 
+        >
+        >`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } <% else { %> Insert content here<% } %>%>`
+        >
+        >Make sure you remove these tags to avoid any syntax error. In this example, corrected expression after removing the **Else** function tags is:
+        >
+        >`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } else { %> Insert content here<% } %>`
+
+    1. Replace `Ìnsert content here` by the content that you want to display to the profiles that do not meet the condition.
+
+        ![](assets/condition-sample2.png)
+
+    You can also use the **else if** helper function to build conditions with multiple content variants. For example, the expression below displays three variants of a message depending on the recipients' language:
+
+     ![](assets/condition-sample3.png)
+
+1. Once your condition is ready, you can save your content and check its rendering by simulating your content.
+
+## Create conditional content in emails  {#condition-condition-builder}
+
+Conditional content in emails can be created in two ways:
+* In the expression editor by building a condition using helper functions,
+* In a dedicated conditional content builder that is accessible when designing an email.
+
+Detailed information on how to create conditions using the expression editor is available [here](#condition-perso-editor).
+
+The section below will guide you through the steps to create conditions using the email designer conditional content builder. In this example, we will create an email message will multiple variants depending on the recipients' language. To do this, follow these steps:
+
+1. Create or open an email delivery, edit its content, and click the **[!UICONTROL Edit email body]** button to open the email designing workspace.
+
+1. Select a content component and click **[!UICONTROL Enable conditional content]**.
+
+    ![](assets/condition-email-enable.png)
+
+1. The **[!UICONTROL Conditional Content]** pane opens on the left-hand side of the screen. In this pane, you can create multiple variants of the selected content component using conditions.
+
+1. Configure your first variant. To do this, hover over **[!UICONTROL Variant - 1]** in the **[!UICONTROL Conditional Content]** pane and click the **[!UICONTROL Add condition]** icon.
+
+1. A rule builder appears. Use the profile attributes to create the condition for the first variant of the message and click **[!UICONTROL Confirm]**. In this example, we are creating a rule targeting recipients whose language is 'French'.
+
+    ![](assets/condition-email-rule.png)
+
+1. The rule is now associated to the variant. For better readability, we recommend renaming the variant by clicking the ellipse menu.
+
+    Now configure how the component should display if the rule is met when sending the message. In this example, we want to display the text in French if it is the recipient's preferred language.
+
+    ![](assets/condition-email-variant1.png)
+
+1. Add as many variants as needed for the content component. You can switch at any time between the different variants to check how the content component will display depending on the conditional rules.
+
+    >[!NOTE]
+    >If none of the rules defined in the variants are met when sending the message, the content component will display the content defined in the **[!UICONTROL Default variant]** from the **[!UICONTROL Conditional Content]** pane.
