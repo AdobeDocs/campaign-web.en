@@ -36,36 +36,3 @@ The expression editor displays. Personalization fields are organized into three 
 To add a personalization field, place your cursor at the desired location within your content and click the + button to insert it.
 
 ![](assets/perso-insert-field.png)
-
-## Personalize your email content {#personalize-emails}
-
-To personalize the email content, open the message in the Email designer and:
-
-1. Click inside a text block.
-1. In the contextual toolbar, select **[!UICONTROL Add personalization]**.
-
-    ![](assets/perso-add-to-content.png)
-
-1. Insert the name of the recipient in the personalization editor and confirm.
-
-    ![](assets/perso-add-name.png)
-
-    The personalization attribute is added to the email content. 
-    
-    You can simulate the content to check rendering. [Learn more](../preview-test/preview-content.md)
-
-    ![](assets/perso-rendering.png)
-
-1. To add a content block to your email, apply the same steps and select a content block from the last icon:
-
-    ![](assets/perso-insert-block.png)
-
-1. Once inserted, the content block is added to the email content It is automatically adapted to the recipient profile when personalization is generated, at the delivery preparation step.
-
-    ![](assets/perso-content-block-in-email.png)
-
-
-## Personalize your offers {#personalize-offers}
-
-You can also access the personalization editor when adding text-type content to your offers' representations. Learn more in [this section](../content/offers.md).
-
