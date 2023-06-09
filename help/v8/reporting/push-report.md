@@ -15,7 +15,7 @@ badge: label="Alpha" type="Positive"
 
 * **[!UICONTROL Delivery overview]** provides key performance indicators (KPIs) that give detailed information about how your visitors engage with your Push messages.
     
-    +++Learn more on metrics.
+    +++Learn more on Push delivery report metrics.
 
     * **[!UICONTROL Total sent]**: Total number of messages processed during the delivery analysis.
 
@@ -31,7 +31,7 @@ badge: label="Alpha" type="Positive"
 
 * **Targeted population** graph and table display data relative to your audience:
 
-    +++Learn more on metrics.
+    +++Learn more on Push delivery report metrics.
 
     * **[!UICONTROL To deliver]**: Total number of messages processed during the delivery analysis.
 
@@ -43,7 +43,7 @@ badge: label="Alpha" type="Positive"
 
 * **Overall statistics** presents data for the sent push notifications, including:
 
-    +++Learn more on metrics.
+    +++Learn more on Push delivery report metrics.
 
     * **[!UICONTROL Success]**: Number of messages processed successfully.
 

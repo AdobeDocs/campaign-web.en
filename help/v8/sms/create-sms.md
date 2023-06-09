@@ -24,9 +24,11 @@ exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
 
 1. From the **[!UICONTROL Deliveries]** homepage, click **[!UICONTROL Create delivery]**.
 
-1. Under the **[!UICONTROL Channel]** section, choose SMS as the channel and select a template. Learn more about templates
+1. Under the **[!UICONTROL Channel]** section, choose SMS as the channel and select a template. [Learn more about templates](../msg/delivery-template.md)
 
 1. Click the **[!UICONTROL Create delivery]** button to confirm.
+
+    ![](assets/sms_create_1.png)
 
 1. Enter a **[!UICONTROL Label]** for the delivery and access the **[!UICONTROL Additional options]** drop-down.
 
@@ -38,11 +40,11 @@ exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
     * **[!UICONTROL Nature]**: Specify the email's nature for classification purposes.
     +++
 
-1. From the **[!UICONTROL Custom options]** drop-down, you can access your extended schema with specific custom fields. 
+1. Click the **[!UICONTROL Select audience]** button to target an existing audience or create your own. [Learn more](../audience/about-audiences.md).
 
-1. Click the **[!UICONTROL Select audience]** button to target an existing audience or create your own. Learn more.
+    ![](assets/sms_create_2.png)
 
-1. Switch on the **[!UICONTROL Enable control]** group option to set a control group to measure the impact of your delivery allowing you to compare the behavior of the population which received the message with the behavior of contacts which did not. Learn more
+1. Switch on the **[!UICONTROL Enable control]** group option to set a control group to measure the impact of your delivery allowing you to compare the behavior of the population which received the message with the behavior of contacts which did not. [Learn more](../audience/control-group.md)
 
 1. Click **[!UICONTROL Edit content]** to start designing the content of your SMS message.
 

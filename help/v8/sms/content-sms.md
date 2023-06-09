@@ -19,17 +19,19 @@ exl-id: 1a70d033-6f1b-482b-9948-59ef75871750
 
 1. From your delivery page, click the **[!UICONTROL Edit content]** button to design your SMS content.
 
-1. In the **[!UICONTROL Edit content]** page, you can change the sender name from the **[!UICONTROL Sender field]**. Enter the name you would like to use. You can also click the **[!UICONTROL Open personalization dialog]** to add personalization fields, content blocks and dynamic content.
-
 1. On the **[!UICONTROL Edit content]** page, you can customize the sender name by accessing the **[!UICONTROL Sender field]** and entering the preferred name. 
 
     Additionally, by clicking **[!UICONTROL Open personalization dialog]**, you can include personalization fields, content blocks, and dynamic content in your message.
 
-1. Type-in your text message in the **[!UICONTROL Message]** field or click the **[!UICONTROL Open personalization dialog]** option to define content and add dynamic content.
+    ![](assets/sms_content_1.png)
+
+1. Type-in your text message in the **[!UICONTROL Message]** field or click the **[!UICONTROL Open personalization dialog]** option to define content and add dynamic content. [Learn more](../personalization/gs-personalization.md)
+
+    ![](assets/sms_content_2.png)
 
 1. By default, tracking is enabled for deliveries. You can disable this option from the **[!UICONTROL Optional features section]**.
 
-1. Access the **[!UICONTROL Simulate content]** menu to preview your personalized content.
+1. Access the **[!UICONTROL Simulate content]** menu to preview your personalized content. [Learn more](send-sms.md#preview-sms)
 
 1. Click **[!UICONTROL Save]** and check your message in the preview. 
 

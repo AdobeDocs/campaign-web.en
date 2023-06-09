@@ -10,10 +10,6 @@ badge: label="Alpha" type="Positive"
 
 * **Delivery summary**: This report provides all the main information on the delivery. Target population, Causes of exclusion, Delivery statistics.
 
-    +++Configure the following settings based on your requirements.
-    Test
-    +++
-
     ![](assets/reporting3.png)
 
 * **Delivery throughput**: This report contains information on the delivery throughput for a given period. To measure the speed at which the messages are delivered, the criteria are the number of messages sent per hour and the size of the messages (in bits per second). In the example below, the first graph shows the successful deliveries in blue, and the number of erroneous deliveries in orange.

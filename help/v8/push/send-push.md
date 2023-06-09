@@ -12,9 +12,13 @@ Once you have defined your message content, you can utilize test profiles to pre
 
 1. From your delivery content page, you can use **[!UICONTROL Simulate content]** to preview your personalized content.
 
+    ![](assets/push_send_1.png)
+
 1. Click **[!UICONTROL Add test profile(s)]** to select one or several test profiles or profiles.
 
 1. Once your test profiles are selected, click **[!UICONTROL Select]**.
+
+    ![](assets/push_send_5.png)
 
 1. In the right pane, you will find a preview of the email, where personalized elements are dynamically replaced with data from the selected profile.
 
@@ -24,13 +28,19 @@ You can now review and send your SMS message to your audience.
 
 1. After personalizing your push notification content, click **[!UICONTROL Review & send]** from your **[!UICONTROL Delivery]** page.
 
+    ![](assets/push_send_2.png)
+
 1. Click **[!UICONTROL Prepare]**and monitor the progress and statistics provided. 
 
     If any errors occur, refer to the Logs menu for detailed information about the failure.
 
+    ![](assets/push_send_3.png)
+
 1. Send the messages by clicking on **[!UICONTROL Send]** to proceed with the final sending process. 
 
-1. Confirm the send action by clicking the **[!UICONTROL Send]** button.
+1. Confirm the send action by clicking the **[!UICONTROL Send]** or **[!UICONTROL Send as scheduled]** button.
+
+    ![](assets/push_send_4.png)
 
 Once your delivery is sent, you can track your KPIs (Key Performance Indicator) data from your delivery page and data from the Logs menu.
 
