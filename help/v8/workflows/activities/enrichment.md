@@ -28,7 +28,7 @@ Once the enrichment data has been added to the workflow, it can then be used in 
 
 For instance, you can add to the workflow working table information related to customers' purchases and use this data to personalize emails with their latest purchase or the amount spent on these purchases.
 
-## General Configuration
+## General Configuration {#general}
 
 Follow these steps to configure the **Enrichment** activity:
 
@@ -38,9 +38,9 @@ Follow these steps to configure the **Enrichment** activity:
 
 ![](../assets/workflow-enrichment1.png)
 
-You can select two types of data: a single attribute from the target dimension, or a collection link.
+You can select two types of enrichment data: a [single enrichment attribute](#single-attribute) from the target dimension, or a [collection link](collection-link).
 
-## Single attribute
+## Single enrichment attribute {#single-attribute}
 
 Here, we are just adding a single enrichment attribute, for example, the date of birth. Follow these steps:
 
@@ -50,16 +50,14 @@ Here, we are just adding a single enrichment attribute, for example, the date of
 
 ![](../assets/workflow-enrichment2.png)
 
-## Collection link
+## Collection link {#collection-link}
 
 In this more complex use case, we will select a collection link which is a link with a 1-N cardinality between tables. Let's retrieve the three latest purchases that are less than 100$. For this you need to define:
 
-* an attribute: the **Total amount** field
+* an enrichment attribute: the **Total amount** field
 * the number of lines to retrieve: 3
 * a filter: filter out items that are greater than 100$
 * a sorting: descendant sorting on the **Order date** field. 
-
-Follow these steps:
 
 ### Add the attribute 
 
@@ -86,7 +84,7 @@ If you want, for example, to get the average amount of purchases for a customer,
 
 ### Define the filters
 
-Here, we define the maximum value for the attribute. We filter out items that are greater than 100$.
+Here, we define the maximum value for the enrichment attribute. We filter out items that are greater than 100$.
 
 1. Click **Edit filters**.
 1. Add the two following filters: **Total amount** exists AND **Total amount** is less than 100. The first one filters NULL values as they would appear as the greatest value.
@@ -105,6 +103,11 @@ We now need to apply sorting in order to retrieve the three **latest** purchases
 1. Select **Descending** from the **Sort** drop-down.
 
 ![](../assets/workflow-enrichment7.png)
+
+
+
+Add other fields
+use it in delivery
 
 <!--
 cardinality between the tables (1-N)
