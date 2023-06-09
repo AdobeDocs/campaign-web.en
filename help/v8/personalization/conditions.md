@@ -21,9 +21,9 @@ By configuring conditional content fields, you can create advanced dynamic perso
 
 ## How to build conditional content
 
-To create conditional content, you need to create conditions in the **expression editor** using a specific helper function. This method is available for all delivery channels, in any field where you can access the expression editor, such as the subject line, or email links and text/button content components. [Learn where to add dynamic content](gs-personalization.md/#access)
+To create conditional content, you need to create conditions in the **expression editor** using specific helper functions. This method is available for all delivery channels, in any field where you can access the expression editor, such as the subject line, or email links and text/button content components. [Learn how to access the expression editor](gs-personalization.md/#access)
 
-In addition to the expression editor, you can leverage a dedicated **conditional content builder** when designing an email that allows you to build conditions using profile attributes only.
+In addition to the expression editor, you can leverage a dedicated **conditional content builder** when designing an email that allows you to build conditions using profile attributes only. [Learn how to create conditional content in emails](#condition-condition-builder)
 
 ## Create conditions in the expression editor {#condition-perso-editor}
 
@@ -37,55 +37,55 @@ To define conditional content for a delivery using the expression editor, follow
 
     ![](assets/open-perso-editor-sms.png)
 
-1. In the personalization editor, browse to the **[!UICONTROL Helper functions]** menu on the left. 
+1. In the personalization editor, browse to the **[!UICONTROL Helper functions]** menu on the left.
 
-* To start building your condition, click the '+' icon next to the **If** function. The following line is added to the central screen:`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } %>`
+1. To start building your condition, click the '+' icon next to the **If** function. The following line is added to the central screen:`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } %>`
 
     * Replace `<FIELD>` with a personalization field, such as the recipient's language: `recipient.language`.
     * Replace `<VALUE>` with the value to satisfy. For example, `'French'`.
     * Replace `Ìnsert content here` with the content that you want to display to the profiles that meet the specified condition.
 
-        ![](assets/condition-sample1.png)
+        ![](assets/condition-sample1.png){width="800" align="center"}
 
-1. Specify the content that should be displayed if the recipients do not meet the condition. To do this:
+1. Specify the content that should be displayed if the recipients do not meet the condition. To do this use an **else** helper function:
 
-    1. Add an **else** helper function: Place your cursor before the expression closing tag `%>` and click the `+` next to the **Else** function.
-
-        >[!NOTE]
-        >
-        >Each time a helper function is added, opening (`<%`) and closing (`%>`) tags are automatically added before and after the function. Example after adding an "Else" helper function inside an expression: 
-        >
-        >`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } <% else { %> Insert content here<% } %>%>`
-        >
-        >Make sure you remove these tags to avoid any syntax errors. In this example, the corrected expression after removing the **else** function tags is:
-        >
-        >`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } else { %> Insert content here<% } %>`
+    1. Place your cursor before the expression closing tag `%>` and click the `+` next to the **Else** function.
 
     1. Replace `Ìnsert content here` with the content you want to display to the profiles that do not meet the if function's condition.
 
-        ![](assets/condition-sample2.png)
+        ![](assets/condition-sample2.png){width="800" align="center"}
 
-    You can also use the **else if** helper function to build conditions with multiple content variants. For example, the expression below displays three variants of a message depending on the recipients' language:
+        You can also use the **else if** helper function to build conditions with multiple content variants. For example, the expression below displays three variants of a message depending on the recipients' language:
 
-     ![](assets/condition-sample3.png)
+        ![](assets/condition-sample3.png){width="800" align="center"}
+
+    >[!NOTE]
+    >
+    >Each time a helper function is added, opening (`<%`) and closing (`%>`) tags are automatically added before and after the function.
+    >
+    >Example after adding an "Else" helper function inside an expression: >
+    >
+    >`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } <% else { %> Insert content here<% } %>%>`
+    >
+    >Make sure you remove these tags to avoid any syntax errors. In this example, the corrected expression after removing the **else** function tags is:
+    >
+    >`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } else { %> Insert content here<% } %>`
 
 1. Once your condition is ready, you can save your content and check its rendering by simulating your content.
 
-## Create conditional content in emails  {#condition-condition-builder}
+## Create conditional content in emails {#condition-condition-builder}
 
 Conditional content in emails can be created in two ways:
 * In the expression editor by building a condition with helper functions,
 * In a dedicated conditional content builder that is accessible when designing an email.
 
-Detailed information on how to create conditions using the expression editor is available [here](#condition-perso-editor).
-
-The following section provides step-by-step instructions on how to create conditions using the email designer's conditional content capability. In this example, we want to create an email message with multiple variants based on the recipients' language. Follow these steps:
+Detailed information on how to create conditions using the expression editor is available [here](#condition-perso-editor). The following section provides step-by-step instructions on how to create conditions using the email designer's conditional content capability. In this example, we want to create an email message with multiple variants based on the recipients' language. Follow these steps:
 
 1. Create or open an email delivery, edit its content, and click the **[!UICONTROL Edit email body]** button to open the email designing workspace.
 
 1. Select a content component and click the **[!UICONTROL Enable conditional content]** icon.
 
-    ![](assets/condition-email-enable.png)
+    ![](assets/condition-email-enable.png){width="800" align="center"}
 
 1. The **[!UICONTROL Conditional Content]** pane opens on the left-hand side of the screen. In this pane, you can create multiple variants of the selected content component using conditions.
 
@@ -93,13 +93,13 @@ The following section provides step-by-step instructions on how to create condit
 
 1. A rule builder appears. Use profile attributes to create the condition for the first variant of the message and click **[!UICONTROL Confirm]**. In this example, we are creating a rule targeting recipients whose language is 'French'.
 
-    ![](assets/condition-email-rule.png)
+    ![](assets/condition-email-rule.png){width="800" align="center"}
 
 1. The rule is now associated to the variant. For better readability, we recommend renaming the variant by clicking the ellipsis menu.
 
 1. Configure how the component should display if the rule is met when sending the message. In this example, we want to display the text in French if it is the recipient's preferred language.
 
-    ![](assets/condition-email-variant1.png)
+    ![](assets/condition-email-variant1.png){width="800" align="center"}
 
 1. Add as many variants as needed for the content component. You can switch between the variants at any time to check how the content component will display based on their conditional rules.
 

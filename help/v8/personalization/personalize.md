@@ -25,31 +25,27 @@ To add personalization tags into a delivery, follow these steps:
 
 1. Open the expression editor using the **[!UICONTROL Open personalization dialog]** icon that is accessible from text-type editing fields, such as the subject line or the SMS body. [Learn how to access the expression editor](gs-personalization.md/#access)
 
-    ![](assets/perso-access.png)
+    ![](assets/perso-access.png){width="800" align="center"}
 
 1. The expression editor opens. Personalization fields available in the Adobe Campaign database are organized into several menus on the left side of the screen:
 
-![](assets/perso-insert-field.png)
+    ![](assets/perso-insert-field.png){width="800" align="center"}
 
-|Menu | Description | 
-|-----|------------|
-|![](assets/do-not-localize/perso-subscribers-menu.png) | The **[!UICONTROL Subscribers application]** menu lists fields related to the subscribers of an application, such as the used terminal or the operating system. *This menu is available for push notifications only* | 
-|![](assets/do-not-localize/perso-recipients-menu.png) | The **[!UICONTROL Recipient]** menu lists fields defined in the recipients table, such as recipients' names, ages, or addresses. | 
-|![](assets/do-not-localize/perso-message-menu.png)| The **[!UICONTROL Message]** menu lists fields related to the delivery logs, including all messages sent to recipients or devices across all channels, such as the date of the last event with a a given recipient |
-|![](assets/do-not-localize/perso-delivery-menu.png)| The **[!UICONTROL Delivery]** menu lists fields related to the parameters required for performing deliveries such as the delivery channel or label.|
+    |Menu | Description | 
+    |-----|------------|
+    |![](assets/do-not-localize/perso-subscribers-menu.png) | The **[!UICONTROL Subscribers application]** menu lists fields related to the subscribers of an application, such as the used terminal or the operating system. *This menu is available for push notifications only* | 
+    |![](assets/do-not-localize/perso-recipients-menu.png) | The **[!UICONTROL Recipient]** menu lists fields defined in the recipients table, such as recipients' names, ages, or addresses. | 
+    |![](assets/do-not-localize/perso-message-menu.png)| The **[!UICONTROL Message]** menu lists fields related to the delivery logs, including all messages sent to recipients or devices across all channels, such as the date of the last event with a a given recipient |
+    |![](assets/do-not-localize/perso-delivery-menu.png)| The **[!UICONTROL Delivery]** menu lists fields related to the parameters required for performing deliveries such as the delivery channel or label.|
 
->[!NOTE]
->
->By default, each menu lists all fields within the selected table (Recipients, / Message / Delivery). If you want to include fields from tables linked to the selected table, enable the **[!UICONTROL Display advanced attributes]** option located below the list.
+    >[!NOTE]
+    >
+    >By default, each menu lists all fields within the selected table (Recipients, / Message / Delivery). If you want to include fields from tables linked to the selected table, enable the **[!UICONTROL Display advanced attributes]** option located below the list.
 
 1. To add a personalization field, position your cursor at the desired location within your content and click the `+` button to insert it.
 
 1. Once your content is ready, you can save it and test the rendering of the personalization by simulating your content. The example below shows the personalization of an SMS message with recipients' first names.
 
-    *Add the personalization tag in the message content*
+    ![](assets/perso-preview1.png){width="800" align="center"}
 
-    ![](assets/perso-preview1.png)
-
-    *Simulate the rendering of the personalization for a given test profile*
-
-    ![](assets/perso-preview2.png)
+    ![](assets/perso-preview2.png){width="800" align="center"}

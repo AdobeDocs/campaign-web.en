@@ -20,10 +20,7 @@ Use Campaign to create dynamic content and send personalized messages. Personali
 
 You can make your message content dynamic by inserting:
 
-* **Personalization fields**: Personalization fields are used for first-level personalization of your messages. You can select any field available in the database from the personalization editor. For a delivery, you can select any field related to the recipient, the message or the delivery. These personalization attributes can be inserted in the subject 
-line or the body of your messages.
-
-    The following syntax inserts the city of the recipient in your content: <%= recipient.location.city %>.
+* **Personalization fields**: Personalization fields are used for first-level personalization of your messages. You can select any field available in the database from the personalization editor. For a delivery, you can select any field related to the recipient, the message or the delivery. These personalization attributes can be inserted in the subject line or the body of your messages. The following syntax inserts the city of the recipient in your content: <%= recipient.location.city %>.
 
     ![](assets/perso-subject-line.png){width="800" align="center"}
 
@@ -37,22 +34,23 @@ line or the body of your messages.
 
 Adobe Campaign V8 Web provides an expression editor where you can select, arrange, customize and validate all the data to create a customized experience for your content. The expression editor is available for all channels, in every fields with the **[!UICONTROL Open personalization dialog]** icon, such as the subject line field, or email links and text/button content components.
 
+Here are some examples on how to access the expression editor depending on the content that you want make dynamic
+
+* *Accessing the expression editor from the Sender name field*
+
+    ![](assets/expression-editor-access.png){width="800" align="center"}
+
+* *Accessing the expression editor from an email text component*
+
+    ![](assets/expression-editor-access-email.png){width="800" align="center"}
+
+* *Accessing the expression editor from a link in an email*
+
+    ![](assets/perso-link-insert-icon.png){width="800" align="center"}
+
 >[!NOTE]
 >
 >In addition to the expression editor, you can also leverage a dedicated conditional content builder when designing an email. [Learn how to build conditional content in emails](conditions.md)
-
-*Accessing the expression editor from the Sender name field*
-
-![](assets/expression-editor-access.png){width="800" align="center"}
-
-*Accessing the expression editor from an email text component*
-
-![](assets/expression-editor-access-email.png){width="800" align="center"}
-
-*Accessing the expression editor from a link in an email*
-
-![](assets/perso-link-insert-icon.png){width="800" align="center"}
-
 
 ## Let's dive deeper
 
