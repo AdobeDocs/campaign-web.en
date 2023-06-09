@@ -7,7 +7,10 @@ badge: label="Alpha" type="Positive"
 
 # Fork {#fork}
 
-The **Fork** activity is a **Flow control** activity. It allows you to create outbound transitions to start several activities at the same time.
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_fork_transitions"
+>title="Fork activity"
+>abstract="The Fork activity allows you to create outbound transitions to start several activities at the same time."
 
 ## Configuration
 

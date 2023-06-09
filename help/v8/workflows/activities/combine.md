@@ -19,6 +19,16 @@ The **Combine** activity can be placed after any other activity, but not at the 
 
 ## General configuration {#general}
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_intersection_merging_options"
+>title="Intersection merging options"
+>abstract="The intersection allows you to keep only the elements common to the different inbound populations in the activity. In the Sets to join section, check all the previous activities you wish you join."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_exclusion_merging_options"
+>title="Exclusion merging options"
+>abstract="The exclusion allows you to exclude elements from one population according to certain criteria. In the Sets to join section, check all the previous activities you wish you join."
+
 Follow these common steps to start configuring the **Combine** activity:
 
 1. Add multiple activities such as **Build audience** activities to form at least two different execution branches.
@@ -28,6 +38,11 @@ Follow these common steps to start configuring the **Combine** activity:
 1. In the **Sets to join** section, check all the previous activities you wish you join. 
 
 ## Union {#union}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_intersection_reconciliation_options"
+>title="Intersection reconciliation options"
+>abstract="Select the reconciliation type to define how duplicates are handled."
 
 For the **Union**, you need to select the **Reconciliation type** to define how duplicates are handled:
 
@@ -42,6 +57,11 @@ For the **Intersection**, you need to follow these extra steps:
 1. You can check the **Generate completement** option if you wish to process the remaining population. The complement will contain the union of the results of all inbound activities minus the intersection. An additional outbound transition will then be added to the activity.
 
 ## Exclusion {#exclusion}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_exclusion_options"
+>title="Exclusion rules"
+>abstract="When necessary, you can manipulate inbound tables. Indeed, to exclude a target from another dimension, this target has to be returned to the same targeting dimension as the main target. To do this, click Add a rule in the Exclusion rules section and specify the dimension change conditions. Data reconciliation is carried out either via an attribute or a join."
 
 For the **Exclusion**, you need to follow these extra steps:
 
