@@ -38,7 +38,7 @@ Follow these steps to configure the **Enrichment** activity:
 
 ![](../assets/workflow-enrichment1.png)
 
-You can select two types of enrichment data: a [single enrichment attribute](#single-attribute) from the target dimension, or a [collection link](collection-link).
+You can select two types of enrichment data: a [single enrichment attribute](#single-attribute) from the target dimension, or a [collection link](#collection-link).
 
 ## Single enrichment attribute {#single-attribute}
 
@@ -104,12 +104,12 @@ We now need to apply sorting in order to retrieve the three **latest** purchases
 
 ![](../assets/workflow-enrichment7.png)
 
-
+<!--
 
 Add other fields
 use it in delivery
 
-<!--
+
 cardinality between the tables (1-N)
 1. select attribute to use as enrichment data
 
