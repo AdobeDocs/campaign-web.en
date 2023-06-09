@@ -40,3 +40,10 @@ badge: label="Alpha" type="Positive"
     * **[!UICONTROL New quarantine]**:  Number of profiles that have been excluded and added to the quarantine.
 
 * **[!UICONTROL Exclusions]** graph and table display the various reasons that prevented user profiles, which were excluded from the targeted profiles, from receiving the message.
+
+## Delivery throughput {#delivery-throughput}
+
+This report presents detailed information regarding the delivery throughput of the entire platform within a specified timeframe. The primary metric used to measure the speed of message delivery is the number of messages sent per hour.
+
+![](assets/reporting_sms_2.png)
+

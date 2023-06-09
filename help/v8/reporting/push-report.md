@@ -13,9 +13,9 @@ badge: label="Alpha" type="Positive"
 
 ## Push summary {#push-summary}
 
-![](assets/reporting_push.png)
-
-* **[!UICONTROL Delivery overview]** provides key performance indicators (KPIs) that give detailed information about how your visitors engage with your Push messages. These KPIs include:
+* **[!UICONTROL Delivery overview]** provides key performance indicators (KPIs) that give detailed information about how your visitors engage with your Push messages.
+    
+    +++Learn more on metrics.
 
     * **[!UICONTROL Total sent]**: Total number of messages processed during the delivery analysis.
 
@@ -25,13 +25,25 @@ badge: label="Alpha" type="Positive"
 
     * **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
 
+    +++
+
+    ![](assets/reporting_push_3.png) 
+
 * **Targeted population** graph and table display data relative to your audience:
+
+    +++Learn more on metrics.
 
     * **[!UICONTROL To deliver]**: Total number of messages processed during the delivery analysis.
 
     * **[!UICONTROL Exclusions]**: Number of profiles that have been excluded from the analysis.
 
+    +++
+
+    ![](assets/reporting_push_4.png) 
+
 * **Overall statistics** presents data for the sent push notifications, including:
+
+    +++Learn more on metrics.
 
     * **[!UICONTROL Success]**: Number of messages processed successfully.
 
@@ -39,4 +51,16 @@ badge: label="Alpha" type="Positive"
 
     * **[!UICONTROL New quarantine]**:  Number of profiles that have been excluded and added to the quarantine.
 
+    +++
+
+    ![](assets/reporting_push_5.png) 
+
 * **[!UICONTROL Exclusions]** graph and table display the various reasons that prevented user profiles, which were excluded from the targeted profiles, from receiving the message.
+
+    ![](assets/reporting_push_6.png) 
+
+## Delivery throughput {#delivery-throughput}
+
+This report presents detailed information regarding the delivery throughput of the entire platform within a specified timeframe. The primary metric used to measure the speed of message delivery is the number of messages sent per hour.
+
+![](assets/reporting_push_2.png)
