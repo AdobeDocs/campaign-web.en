@@ -11,43 +11,45 @@ badge: label="Alpha" type="Positive"
 
 # Personalize your content {#add-personalization}
 
-Personalization can be added to any delivery using the expression editor, which is accessible  in every fields with the **[!UICONTROL Open personalization dialog]** icon, such as the subject line field, or email links and text/button content components. [Learn where to add dynamic content](gs-personalization.md/#access)
+You can personalize any delivery by using the expression editor, which is accessible in fields with the **[!UICONTROL Open personalization dialog]** icon, such as the subject line, email links, and text/button content components. [Learn how to access the expression editor](gs-personalization.md/#access)
 
 ## Personalization syntax {#syntax}
 
-A personalization tag always uses the following syntax: `<%=table.field%>`. For example, to insert the name of the recipient, stored in the recipient table, the personalization tag uses the <%= recipient.lastName %> syntax.
+Personalization tags follow a specific syntax: `<%=table.field%>`. For example, to insert the recipient's last name from the recipient table, use the `<%= recipient.lastName %>` syntax.
 
-When a delivery is prepared, these tags are automatically interpreted by Adobe Campaign and replaced by the value of the field for a given recipient. The physical replacement can then be viewed when simulating your content.
+During the delivery preparation process, Adobe Campaign automatically interprets these tags and replaces them with the corresponding field values for each recipient. You can view the actual replacement by simulating your content.
 
 ## Add personalization tags {#add}
 
-To add personalization tags into a delivery, open the expression editor using the **[!UICONTROL Open personalization dialog]** icon that is accessible from text-type editing fields, such as the subject line or the SMS body. [Learn where to add dynamic content](gs-personalization.md/#access)
+To add personalization tags into a delivery, follow these steps:
 
-![](assets/perso-access.png)
+1. Open the expression editor using the **[!UICONTROL Open personalization dialog]** icon that is accessible from text-type editing fields, such as the subject line or the SMS body. [Learn how to access the expression editor](gs-personalization.md/#access)
 
-The expression editor displays. Personalization fields are organized into several menus, located to the left of the screen. These menus give access to all fields available in the Adobe Campaign database.
+    ![](assets/perso-access.png)
+
+1. The expression editor opens. Personalization fields available in the Adobe Campaign database are organized into several menus on the left side of the screen:
 
 ![](assets/perso-insert-field.png)
 
 |Menu | Description | 
 |-----|------------|
-|![](assets/do-not-localize/perso-subscribers-menu.png) | The **[!UICONTROL Subscribers application]** menu lists all the fields related to the subscribers of an application, such as the terminal or the operating system useds. *This menu is available for push notifications only* | 
-|![](assets/do-not-localize/perso-recipients-menu.png) | The **[!UICONTROL Recipient]** menu lists all the fields defined in the recipients table, such as the recipients' name, age, or address. | 
-|![](assets/do-not-localize/perso-message-menu.png)| The **[!UICONTROL Message]** menu lists all the fields related to the delivery logs, i.e. all messages sent to recipients or devices across all channelsk, such as the date of the last event with a a given recipient |
-|![](assets/do-not-localize/perso-delivery-menu.png)| The **[!UICONTROL Delivery]** menu lists all the fields related to the parameters required for performing deliveries such as the delivery channel, label, etc.|
+|![](assets/do-not-localize/perso-subscribers-menu.png) | The **[!UICONTROL Subscribers application]** menu lists fields related to the subscribers of an application, such as the used terminal or the operating system. *This menu is available for push notifications only* | 
+|![](assets/do-not-localize/perso-recipients-menu.png) | The **[!UICONTROL Recipient]** menu lists fields defined in the recipients table, such as recipients' names, ages, or addresses. | 
+|![](assets/do-not-localize/perso-message-menu.png)| The **[!UICONTROL Message]** menu lists fields related to the delivery logs, including all messages sent to recipients or devices across all channels, such as the date of the last event with a a given recipient |
+|![](assets/do-not-localize/perso-delivery-menu.png)| The **[!UICONTROL Delivery]** menu lists fields related to the parameters required for performing deliveries such as the delivery channel or label.|
 
 >[!NOTE]
 >
->By default, each menu shows all fields within the selected table (Recipients, / Message / Delivery). If you want to include fields from tables linked to the selected table, enable the **[!UICONTROL Display advanced attributes]** option located below the list.
+>By default, each menu lists all fields within the selected table (Recipients, / Message / Delivery). If you want to include fields from tables linked to the selected table, enable the **[!UICONTROL Display advanced attributes]** option located below the list.
 
-To add a personalization field, place your cursor at the desired location within your content and click the + button to insert it.
+1. To add a personalization field, position your cursor at the desired location within your content and click the `+` button to insert it.
 
-Once your content is ready, you can save it and test the rendering of the personalization by simulating your content. In the example below, we are personalizing an SMS message with the targeted profiles' first names.
+1. Once your content is ready, you can save it and test the rendering of the personalization by simulating your content. The example below shows the personalization of an SMS message with recipients' first names.
 
-*Add the personalization tag in the message content*
+    *Add the personalization tag in the message content*
 
-![](assets/perso-preview1.png)
+    ![](assets/perso-preview1.png)
 
-*Simulate the rendering of the personalization for a given test profile*
+    *Simulate the rendering of the personalization for a given test profile*
 
-![](assets/perso-preview2.png)
+    ![](assets/perso-preview2.png)
