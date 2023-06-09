@@ -53,6 +53,8 @@ badge: label="Alpha" type="Positive"
 
 1. To schedule your delivery to a specific date and time, switch on the **[!UICONTROL Enable scheduling]** option. After you initiate the delivery, the message will be automatically sent on the exact date and time that you have defined for the recipient.
 
+    ![](assets/push_create_3.png)
+
 1. Click **[!UICONTROL Configure delivery settings]** to access advanced options related to your delivery template. [Learn more](../advanced-settings/delivery-settings.md)
 
-    ![](assets/push_create_3.png)
+    ![](assets/push_create_4.png)

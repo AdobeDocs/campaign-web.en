@@ -13,8 +13,6 @@ badge: label="Alpha" type="Positive"
 
 ## Delivery summary {#delivery-summary}
 
-![](assets/reporting_sms.png)
-
 * **[!UICONTROL Delivery overview]** provides key performance indicators (KPIs) that give detailed information about how your visitors engage with your SMS messages. 
 
     +++Learn more on SMS delivery report metrics.
