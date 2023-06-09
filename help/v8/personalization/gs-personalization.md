@@ -34,7 +34,7 @@ You can make your message content dynamic by inserting:
 
 Adobe Campaign V8 Web provides an expression editor where you can select, arrange, customize and validate all the data to create a customized experience for your content. The expression editor is available for all channels, in every fields with the **[!UICONTROL Open personalization dialog]** icon, such as the subject line field, or email links and text/button content components.
 
-Here are some examples on how to access the expression editor depending on the content that you want make dynamic
+Here are some examples on how to access the expression editor depending on the content that you want make dynamic:
 
 * *Accessing the expression editor from the Sender name field*
 

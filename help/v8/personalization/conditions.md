@@ -53,11 +53,11 @@ To define conditional content for a delivery using the expression editor, follow
 
     1. Replace `Ìnsert content here` with the content you want to display to the profiles that do not meet the if function's condition.
 
-        ![](assets/condition-sample2.png){width="800" align="center"}
+    ![](assets/condition-sample2.png){width="800" align="center"}
 
-        You can also use the **else if** helper function to build conditions with multiple content variants. For example, the expression below displays three variants of a message depending on the recipients' language:
+    You can also use the **else if** helper function to build conditions with multiple content variants. For example, the expression below displays three variants of a message depending on the recipients' language:
 
-        ![](assets/condition-sample3.png){width="800" align="center"}
+    ![](assets/condition-sample3.png){width="800" align="center"}
 
     >[!NOTE]
     >
