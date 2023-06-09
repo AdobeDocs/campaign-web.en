@@ -7,7 +7,7 @@ badge: label="Alpha" type="Positive"
 ---
 # Work with email templates {#email-saved-content-templates}
 
-When [creating an email](edit-content.md), use the **[!UICONTROL Select design template]** section of the **[!UICONTROL Create your email]** interface to start building your content from a template.
+When [creating an email](../email/create-email.md), use the **[!UICONTROL Select design template]** section of the **[!UICONTROL Create your email]** interface to start building your content from a template.
 
 ![](assets/email_designer-sample-templates.png)
 
