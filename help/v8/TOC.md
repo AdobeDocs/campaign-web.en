@@ -31,10 +31,10 @@ hide: yes
         + [Use email content templates](content/email-templates.md)
       + Design your content {#design-content}
         + [Use content components](content/content-components.md)
-        + [Generate the text version](content/text-version-email.md)
+        + [Add links and track messages](content/message-tracking.md)
         + [Add a link to the mirror page](content/mirror-page.md)
         + [Add a preheader](content/preheader.md)
-        + [Add links and track messages](content/message-tracking.md)    
+        + [Generate the text version](content/text-version-email.md)
       + Style your content {#style}
         + [Get started with email style](content/get-started-email-style.md)
         + [Edit background settings](content/backgrounds.md)
