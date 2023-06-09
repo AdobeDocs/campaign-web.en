@@ -5,48 +5,53 @@ description: Learn how to use content components in your emails
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 badge: label="Alpha" type="Positive"
 ---
-# Use the Email designer content components {#content-components}
+# Use the Email designer Contents {#content-components}
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_email"
->title="About Content components"
->abstract="Content components are empty content placeholders that you can use to create the layout of an email."
+>title="About Contents"
+>abstract="Contents components are empty content placeholders that you can use to create the layout of an email."
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_landing_page"
->title="About Content components"
+>title="About Contents"
 >abstract="Content components are empty content placeholders that you can use to create the layout of a landing page."
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_fragment"
->title="About Content components"
+>title="About Contents"
 >abstract="Content components are empty content placeholders that you can use to create the layout of a fragment."
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_template"
->title="About Content components"
+>title="About Contents"
 >abstract="Content components are empty content placeholders that you can use to create the layout of a template."
 
-## Add content components {#add-content-components}
+When creating your email content, **[!UICONTROL Content]** components allows you to further personalize your email with raw, empty components that you can use once placed in an email.
+
+You can add as many **[!UICONTROL Contents]** as you need inside a **[!UICONTROL Structure]**, which defines the layout of your email.
+
+## Add Content components {#add-content-components}
 
 To add content components to your email and adjust them to your needs, follow the steps below.
 
-1. In the Email Designer, use an existing content or drag and drop a **[!UICONTROL Structure]** into your empty content to define the layout of your email. [Learn how](create-email-content.md)
+1. In the Email Designer, use an [existing content](existing-content.md) or drag and drop a **[!UICONTROL Structure]** into your empty content to define the layout of your email. [Learn how](create-email-content.md)
 
-1. Drag and drop the **[!UICONTROL Content]** of your choice inside the relevant structure components.
+1. Drag and drop the **[!UICONTROL Content]** of your choice inside the relevant structures.
 
     ![](assets/email_designer_add_content_components.png)
 
     >[!NOTE]
     >
-    >You can add several components into a single structure component and into each column of a structure component.
+    >You can add several components into a single structure and into each column of a structure.
 
-1. Adjust the styling attributes for each component using the **[!UICONTROL Settings]** and **[!UICONTROL Style]** tabs. For example, you can change the text style, padding or margin of each component. [Learn more about alignment and padding](alignment-and-padding.md)
+1. Adjust the options for each component using the contextual **[!UICONTROL Settings]** tab. For example, you can choose to display it on desktop or mobile devices only, or both. You can also manage link options from this tab. [Learn more on managing links](message-tracking.md)
+
+1. Adjust the styling attributes for each component using the **[!UICONTROL Style]** tab. For example, you can change the text style, padding or margin of each component. [Learn more about alignment and padding](alignment-and-padding.md)
 
     ![](assets/email_designer_content_components_settings.png)
 
-When creating your email content from scratch, **[!UICONTROL Content]**  components allows you to further personalize your email with raw, empty components that you can use once placed in an email.
-You can add as many **[!UICONTROL Content]** components as you need inside a **[!UICONTROL Structure]** component which defines the layout of your email.
+1. From the advanced menu of your **[!UICONTROL Content]** on the right pane, you can easily delete or duplicate any content component as needed.
 
 ## Container {#container}
 
@@ -80,19 +85,19 @@ Use the **[!UICONTROL Button]** component to insert one or multiple buttons into
 
     ![](assets/email_designer_15.png)
 
-1. You can further personalize your button by changing styling attributes such as **[!UICONTROL Border]**, **[!UICONTROL Size]**, **[!UICONTROL Margin]**, etc. from **[!UICONTROL Settings]** and **[!UICONTROL Styles]** tabs.
+1. You can further personalize your button by changing styling attributes such as **[!UICONTROL Border]**, **[!UICONTROL Size]**, **[!UICONTROL Margin]**, etc. from the **[!UICONTROL Styles]** tab.
 
 ## Text {#text}
 
 Use the **[!UICONTROL Text]** component to insert text into your email, and adjust the style (border, size, padding, etc.) using the **[!UICONTROL Settings]** and **[!UICONTROL Styles]** tabs.
 
-1. From the **[!UICONTROL Contents]** menu, drag and drop **[!UICONTROL Text]** in a **[!UICONTROL Structure]** component.
+1. From the **[!UICONTROL Contents]** menu, drag and drop **[!UICONTROL Text]** into a **[!UICONTROL Structure]** component.
 
     ![](assets/email_designer_11.png)
 
 1. Click on your newly added component to personalize the text and to have access to the **[!UICONTROL Settings]** and **[!UICONTROL Styles]** tabs.
 
-1. Change your text with the following options available in the toolbar:
+1. Change your text with the following options available from the contextual toolbar:
 
     ![](assets/email_designer_27.png)
 
@@ -108,7 +113,7 @@ Use the **[!UICONTROL Text]** component to insert text into your email, and adju
     * **[!UICONTROL Add personalization]**: add personalization fields to customize the content from your profiles data.
     * **[!UICONTROL Enable conditional content]**: add conditional content to adapt the content of the component to the targeted profiles.
 
-1. Adjust the other styling attributes such as text color, font family, border, padding, margin, etc. from the **[!UICONTROL Settings]** and **[!UICONTROL Styles]** tabs.
+1. Adjust the other styling attributes such as text color, font family, border, padding, margin, etc. from the **[!UICONTROL Styles]** tab.
 
     ![](assets/email_designer_12.png)
 
@@ -116,7 +121,7 @@ Use the **[!UICONTROL Text]** component to insert text into your email, and adju
 
 Use the **[!UICONTROL Divider]** component to insert a dividing line to organize the layout and content of your email.
 
-You can adjust styling attributes such as the line color, style and height from the **[!UICONTROL Settings]** and **[!UICONTROL Styles]** tabs.
+You can adjust styling attributes such as the line color, style and height from the **[!UICONTROL Styles]** tab.
 
 ![](assets/email_designer_16.png)
 
@@ -134,7 +139,7 @@ Use the **[!UICONTROL HTML]** component to copy-paste the different parts of you
 
 >[!NOTE]
 >
->To simply make an external content compliant with the Email Designer, Adobe recommends creating a message from scratch and copy the content from your existing email into components.
+>To simply make an external content compliant with the Email Designer, Adobe recommends [creating a message from scratch](create-email-content.md) and copy the content from your existing email into components.
 
 ## Image {#image}
 
@@ -146,14 +151,16 @@ Use the **[!UICONTROL Image]** component to insert an image file from your compu
 
 1. Click **[!UICONTROL Browse]** to choose an image file from your assets.
 
-1. Click your newly added component and set up your image properties using the **[!UICONTROL Settings]** and **[!UICONTROL Styles]** tabs:
+1. Click your newly added component and set up your image properties using the **[!UICONTROL Settings]** tab:
 
     * **[!UICONTROL Image title]** lets you define a title to your image.
     * **[!UICONTROL Alt text]** lets you define the caption linked to your image. This corresponds to the alt HTML attribute.
 
     ![](assets/email_designer_10.png)
 
-1. Adjust the other styling attributes such as margin, border, etc. or adding a link to redirect your audience to another content.
+1. You can add a link to redirect your audience to another content. [Learn more](message-tracking.md)
+
+1. Adjust the other styling attributes such as margin, border, etc. using the **[!UICONTROL Styles]** tab.
 
 ## Social {#social}
 
@@ -173,6 +180,6 @@ Use the **[!UICONTROL Social]** component to insert links to social media pages 
 
     ![](assets/email_designer_21.png)
 
-1. You can also change the icons of each of your social media if needed in the **[!UICONTROL Image]** field.
+1. You can also change the icons of each of your social media if needed in the **[!UICONTROL Source]** field.
 
-1. Adjust the other styling attributes such as style, margin, border, etc. from the **[!UICONTROL Settings]** and **[!UICONTROL Styles]** tabs.
+1. Adjust the other styling attributes such as style, margin, border, etc. from the **[!UICONTROL Styles]** tab.
