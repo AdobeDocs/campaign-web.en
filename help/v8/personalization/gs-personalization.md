@@ -12,13 +12,15 @@ level: Intermediate
 
 # Get started with dynamic content
 
-Delivering relevant content to your customers is key to ensure that you appeal to a variety of customers and you play their interest so that your marketing content is read.
+As a marketer, it is crucial to target customers who are genuinely interested in your offerings and to engage themby providing effective and relevant content. Given the diverse range of recipients you encounter, creating multiple pieces of marketing content to appeal to different people can be time-consuming and wasteful. This is where dynamic content comes into play.
 
-To get the most out of every marketing campaign, Adobe Campaign gives you a way to create a custom experience for different groups and individuals by delivering custom dynamic content that speaks to customers on their level by leveraging the information you have gathered about them.
+Adobe Campaign web dynamic content capabilities allows you to customize your content based on the information you have gathered about your recipients. By utilizing dynamic content, you ensure that your marketing efforts are more relevant, avoiding marketing unwanted or unnecessary products or services. This approach makes your content more appealing and increases the likelihood of it being read. Moreover, it enables you to personalize your content, making recipients feel like they are receiving information from a person rather than a machine.
 
-* **Personalize your messages** to each specific recipient by leveraging profile data such as their first name, interests, where they live, what they bought, and much more.
+## How to make your content dynamic ?
 
-     You can select any field available in the database from the personalization editor related to the recipient, the message or the delivery. These personalization attributes can be inserted in the subject line or the body of your messages. The following syntax inserts the city of the recipient in your content: <%= recipient.location.city %>.
+You can make your message content dynamic by inserting JavaScript constructs in Campaign Web expression editor. At message sending, those expressions are interpreted by Adobe Campaign in order to deliver the correct content to each of your recipients:
+
+* **Personalize your messages** to each specific recipient by leveraging profile data such as their first name, interests, where they live, what they bought, and much more. You can select any field available in the database from the personalization editor related to the recipient, the message or the delivery. These personalization attributes can be inserted in the subject line or the body of your messages. The following syntax inserts the city of the recipient in your content: <%= recipient.location.city %>.
 
     ![](assets/perso-subject-line.png){width="800" align="center"}
 
