@@ -66,7 +66,7 @@ The items displayed in the Explorer depend on your user permissions.
 
 Like in any list screen, you can configure columns to personalize the display to view all the information you need. See this [section](#list-screens).
 
-For more information about the Campaign explorer, refer to this [Campaign v8 Console documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui){target="_blank"}.
+For more information about the Campaign explorer, refer to this [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui){target="_blank"}.
 <!--
 Explorer' menu in web UI to navigate through console content: console navtree second view in addition to the left menu lists with filters. The Explorer gives the real folder hierarchy from the console. Make sure you find your deliveries in sub-folders. All lists can be accessed in read-only. No Create/Edit. You can configure lists (colums). All schema fields, linked tables are available. 
 
@@ -158,7 +158,7 @@ The lists are displayed in columns. You can display additional information by ch
 
 You can sort items in the list by clicking any column header. An arrow is displayed (Up or Down) indicating that the list is sorted on that column. For numeric or date columns, the Up arrow indicates that the list is sorted in ascending order while the Down arrow indicates a descending order. For string or alphanumeric columns, values are listed in alphabetical order.
 
-## Contextual help and on-boarding guide
+## Contextual help and on-boarding guide {#contextual-help}
 
 A contextual help is available in the interface. When available, click on the **?** icon to display help information and related documentation links. 
 
@@ -212,12 +212,6 @@ To change your language:
 1. Select your preferred language and click **Save**. You can select a second language in case the component you are using is not localized in your first language.
 
     ![](assets/select-language.png)
-
-<!--
-## Supported browsers {#browsers}
-
-Adobe Campaign interface is designed to work optimally in the latest version of Google Chrome. You might have trouble using certain features on older versions or other browsers.
--->
 
 
 

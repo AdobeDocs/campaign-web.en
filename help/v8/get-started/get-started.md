@@ -28,19 +28,6 @@ If you need to access Campaign v8 capabilities which are not available in the we
 >
 >Campaign v8 Web is currently in Alpha version. Access is restricted to a small set of Alpha customers. Please be aware that product interface, capabilities and usage flows can change without notice.
 
-## About Campaign client console{#ac-client}
-
-The Campaign client console is a browser-based application which is installed on your system. It uses the web services API to connect to your Campaign application server.
-
-Learn how to download and install the client console in [this section](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/connect.html){target="_blank"}.
-
-For more information on how to use Campaign v8, refer to [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html){target="_blank"}.
-
-Campaign data is stored in the application server. Data is available both from the client console and from the web UI. For example, if you create a delivery template using the client console, it is also available in the web UI. And if you create an email delivery in the web UI, this delivery is also accessible from the client console.
-
-
-Some objects can only be created and managed in the client console. They can be visible and used in Campaign Web UI, but cannot be created nor modified from this environment. All Campaign objects and components are available from the Explorer view, available from the left navigation.
-
 ## Connect to Campaign
 
 
@@ -57,3 +44,13 @@ Some objects can only be created and managed in the client console. They can be 
 -> or Campaign v8 web if direct URL
 -->
 
+
+## About Campaign client console{#ac-client}
+
+The Campaign client console is a browser-based application which is installed on your system. It uses the web services API to connect to your Campaign application server.
+
+Campaign data is stored in the application server. Data is available both from the client console and from the web UI. For example, if you create a delivery template using the client console, it is also available in the web UI. And if you create an email delivery in the web UI, this delivery is also accessible from the client console.
+
+Some objects can only be created and managed in the client console. They can be visible and used in Campaign Web UI, but cannot be created nor modified from this environment. All Campaign objects and components are available from the Explorer view, available from the left navigation.
+
+For more information on how to use Campaign v8, refer to [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html){target="_blank"}.
