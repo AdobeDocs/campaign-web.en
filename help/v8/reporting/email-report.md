@@ -6,45 +6,161 @@ badge: label="Alpha" type="Positive"
 ---
 # Email delivery report {#email-report}
 
-## Sending
+## Delivery summary {#delivery-summary-email}
 
-* **Delivery summary**: This report provides all the main information on the delivery. Target population, Causes of exclusion, Delivery statistics.
+* **[!UICONTROL Initial target audience statistics]** table displays data relative to your recipients:
 
-    ![](assets/reporting3.png)
+    +++Learn more on Email delivery report metrics.
 
-* **Delivery throughput**: This report contains information on the delivery throughput for a given period. To measure the speed at which the messages are delivered, the criteria are the number of messages sent per hour and the size of the messages (in bits per second). In the example below, the first graph shows the successful deliveries in blue, and the number of erroneous deliveries in orange.
+    * **[!UICONTROL Initial audience]**: Total number of targeted recipients.
 
-    ![](assets/reporting3bis.png)
+    * **[!UICONTROL To deliver]**: Total number of messages to be delivered after delivery analysis.
 
-* **Broadcast statistics**: This report shows the breakdown by internet domain, of all messages processed and sent, of hard and soft bounces, opens, clicks and unsubscriptions.
+    * **[!UICONTROL Exclusion]**: Total number of messages excluded from the target sent.
+    +++
 
-    ![](assets/reporting4.png)
+* **[!UICONTROL Delivery statistics]** table details the success of your delivery.
 
-* **Non-deliverables and bounces**: This report shows the breakdown of non-deliverables as well as a breakdown of bounces per internet domain.
+    +++Learn more on Email campaign report metrics.
 
-    ![](assets/reporting5.png)
+    * **[!UICONTROL Message sent]**: Total number of messages to be delivered after delivery analysis.
 
-## Tracking
+    * **[!UICONTROL Success]**: Number of messages processed successfully in relation to the number of messages to be delivered.
 
-* **Tracking indicators**: This report combines the key indicators for tracking the behavior of recipients upon receiving the delivery. It gives access to delivery and reception statistics, open and click-through rates, generated click streams, web tracking as well as sharing activities to social networks.
+    * **[!UICONTROL Errors]**: Total number of errors cumulated during deliveries and automatic rebound processing in relation to the number of messages to be delivered.
 
-    ![](assets/reporting6.png)
+    * **[!UICONTROL New quarantines]**: Total number of addresses quarantined following a failed delivery (user unknown, invalid domain) in relation to the number of messages to be delivered.
 
-* **URLs and click streams**: This report shows the list of pages visited following a delivery.
+    +++
 
-    ![](assets/reporting7.png)
+* **[!UICONTROL Causes of exclusion]** graph and table show the breakdown per rule of messages rejected during the analysis.
 
-* **User Activities**: This report shows the breakdown of opens and clicks per half-hour, hour or day, in the form of a chart.
+## Delivery throughput {#delivery-throughtput}
 
-    ![](assets/reporting8.png)
+This report presents detailed information regarding the delivery throughput of the entire platform within a specified timeframe. The primary metric used to measure the speed of message delivery is the number of messages sent per hour.
 
-* **Tracking Statistics**: This report provides statistics on opens and clicks.
+## Broadcast statistics {#broadcast-statistics}
 
-    ![](assets/reporting9.png)
+* **[!UICONTROL Broadcast statistics]** table contains the available data for possible errors encountered with each domain.
 
-* **Breakdown of opens**: This report shows the breakdown of opens by operating system, device and browser for the period concerned. For each category, two charts are used. The first displays statistics regarding opens on a computer and mobile devices. The second displays statistics relating only to opens on mobile devices.
+    +++Learn more on Email delivery report metrics.
 
-    ![](assets/reporting10.png)
+    * **[!UICONTROL Processed emails]**: Total number of messages processed by the delivery server.
+
+    * **[!UICONTROL Delivered]**: Percentage of the number of messages successfully processed compared to the total number of messages processed.
+
+    * **[!UICONTROL Hard bounces]**: Percentage of the number of “hard” bounces, permanent errors, such as a wrong email address, compared to the total number of messages processed.
+
+    * **[!UICONTROL Soft bounces]**: Percentage of the number of “soft” bounces, temporary errors such as a full inbox, compared to the total number of messages processed
+
+    * **[!UICONTROL Opens]**: Percentage of the number of targeted recipients who opened a message at least once compared to the number of messages processed successfully.
+
+    * **[!UICONTROL Clicks]**: Percentage of the number of people who clicked in a delivery at least once compared to the number of messages processed successfully.
+
+    * **[!UICONTROL Unsubscriptions]**: Percentage of the number of clicks on an unsubscription link compared to the number of messages processed successfully.
+    +++
+
+## Non-deliverables and bounces {#non-deliverables-email}
+
+* **[!UICONTROL Breakdown of errors per type]** and **[!UICONTROL Breakdown of errors per domain]** tables and graphs contain the available data for possible errors encountered with each domain.
+
+    +++Learn more on Email delivery report metrics.
+
+    * **[!UICONTROL Errors]**: Total number of errors cumulated during deliveries and automatic rebound processing, in relation to the number of messages to be delivered.
+
+    * **[!UICONTROL Contribution]**: 
+
+    * **[!UICONTROL Breakdown]**: 
+
+    +++
+
+## Tracking indicators {#tracking-indicators-email}
+
+* **[!UICONTROL Delivery statistics]** provides key performance indicators (KPIs) that give detailed information about data available for sent emails.
+
+    +++Learn more on Email delivery report metrics.
+
+    * **[!UICONTROL Success]**: Number of messages processed successfully in relation to the number of messages to be delivered.
+
+    * **[!UICONTROL Distinct opens]**: Total number of targeted recipients who opened a message at least once.
+
+    * **[!UICONTROL Opens]**: Number of distinct targeted recipients for this domain who have opened a message at least once.
+
+    * **[!UICONTROL Clicks on the opt-out link]**:  Number of clicks on the unsubscription link.
+
+    * **[!UICONTROL Clicks on the mirror link]**: Number of clicks on the link to the mirror page.
+
+    * **[!UICONTROL Estimation of forwards]**: Estimation of the number of emails forwarded by the targeted recipients. 
+    +++
+
+* **[!UICONTROL Open and click-through rate]** table displays data relative to your recipients.
+
+    +++Learn more on Email delivery report metrics.
+
+    * **[!UICONTROL Sent]**: Total number of messages sent.
+
+    * **[!UICONTROL Complaints]**: Number of messages for this domain that have been reported as undesirable by the recipient.
+
+    * **[!UICONTROL Opens]**: Number of distinct targeted recipients for this domain who have opened a message at least once.
+
+    * **[!UICONTROL Clicks]**: Number of distinct targeted recipients who clicked in the same delivery at least once. 
+
+    * **[!UICONTROL Raw reactivity]**: Percentage of the number of recipient who clicked in a delivery at least once compared to the number of recipients who opened a delivery at least once.
+    +++
+
+## URLs and click streams {#url-email}
+
+* **[!UICONTROL URLs and click streams]** provides key performance indicators (KPIs) that give detailed information about the URLs that were clicked the most during a delivery.
+
+    +++Learn more on Email delivery report metrics.
+
+    * **[!UICONTROL Reactivity]**: Ratio of the number of targeted recipients having clicked in a delivery, in relation to the estimated number of targeted recipients having opened a delivery.
+
+    * **[!UICONTROL Distinct clicks]**: Total number of distinct recipients who clicked in a delivery at least once.
+
+    * **[!UICONTROL Clicks]**: Total number of clicks on links in deliveries.
+
+    +++
+
+* **[!UICONTROL Top 10 most visited links]** graph and table contain the available data for recipient behavior per link.
+
+    +++Learn more on Email delivery report metrics.
+
+    * **[!UICONTROL Clicks]**: Total number of clicks on links in deliveries.
+
+    * **[!UICONTROL Percentage]**: Percentage of users who interacted with the delivery.
+
+    +++
+
+* **[!UICONTROL Breakdown of clicks over time]** graph contains the available data for recipient behavior per link.
+
+## User Activities {#user-activities-email}
+
+* **[!UICONTROL User activities]** shows the breakdown of opens and clicks in the form of a chart.
+
+    +++Learn more on Email delivery report metrics.
+
+    * **[!UICONTROL Clicks]**: Total number of clicks on links in deliveries.
+
+    * **[!UICONTROL Opens]**: Number of distinct targeted recipients for this domain who have opened a message at least once.
+
+    +++
+
+## Tracking Statistics {#tracking-statistics}
+
+* **[!UICONTROL Tracking Statistics]** graph provides statistics on opens and clicks.
+
+    +++Learn more on Email delivery report metrics.
+
+    * **[!UICONTROL Clicks]**: Total number of clicks on links in deliveries.
+
+    * **[!UICONTROL Opens]**: Number of distinct targeted recipients for this domain who have opened a message at least once.
+
+    +++
+
+## Breakdown of opens {#breakdown-opens}
+
+This report shows the breakdown of opens by operating system, device and browser for the period concerned. For each category, two charts are used. The first displays statistics regarding opens on a computer and mobile devices. The second displays statistics relating only to opens on mobile devices.
 
 ## Hotclicks
 

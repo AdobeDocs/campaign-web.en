@@ -11,7 +11,9 @@ badge: label="Alpha" type="Positive"
 ### Delivery summary {#delivery-summary-email}
 
 * **[!UICONTROL Delivery Overview]** provides key performance indicators (KPIs) that give detailed information about how your visitors engage with your email delivery.
-    
+
+    ![](assets/campaign_report_email_1.png) 
+
     +++Learn more on Email campaign report metrics.
 
     * **[!UICONTROL Total sent]**: Total number of messages processed during the delivery analysis.
@@ -26,9 +28,9 @@ badge: label="Alpha" type="Positive"
 
     +++
 
-    ![](assets/campaign_report_email_1.png) 
-    
-* **[!UICONTROL Initial target audience statistics]**
+* **[!UICONTROL Initial target audience statistics]** table displays data relative to your recipients:
+
+    ![](assets/campaign_report_email_2.png)
 
     +++Learn more on Email campaign report metrics.
 
@@ -40,9 +42,9 @@ badge: label="Alpha" type="Positive"
 
     +++
 
-    ![](assets/campaign_report_email_2.png) 
+* **[!UICONTROL Execution statistics]** table details the success of your delivery.
 
-* **[!UICONTROL Execution statistics]**
+    ![](assets/campaign_report_email_3.png)
 
     +++Learn more on Email campaign report metrics.
 
@@ -56,9 +58,9 @@ badge: label="Alpha" type="Positive"
 
     +++
 
-    ![](assets/campaign_report_email_3.png) 
+* **[!UICONTROL Reaction statistics]** table contains the available data for recipient activity for your delivery.
 
-* **[!UICONTROL Reaction statistics]**
+    ![](assets/campaign_report_email_4.png)
 
     +++Learn more on Email campaign report metrics.
 
@@ -71,11 +73,9 @@ badge: label="Alpha" type="Positive"
     * **[!UICONTROL Mirror page]**: Number of recipients who clicked on the mirror page link.
 
     * **[!UICONTROL Forwards]**:  Number of recipients who clicked who forwarded the email. 
-
-    ![](assets/campaign_report_email_4.png)
     +++
 
-* **[!UICONTROL Generated click streams]**
+* **[!UICONTROL Generated click streams]** table displays data relative to how your recipients interacted with your delivery.
 
     ![](assets/campaign_report_email_5.png) 
 
@@ -91,7 +91,9 @@ badge: label="Alpha" type="Positive"
 
 ### Non-deliverables {#non-deliverables-email}
 
-* **[!UICONTROL Breakdown of errors per type]** and **[!UICONTROL Breakdown of errors per browsers]**
+* **[!UICONTROL Breakdown of errors per type]** and **[!UICONTROL Breakdown of errors per domain]** tables and graphs contain the available data for possible errors encountered with each domain.
+
+    ![](assets/campaign_report_email_6.png)
 
     +++Learn more on Email campaign report metrics.
 
@@ -103,11 +105,11 @@ badge: label="Alpha" type="Positive"
 
     +++
 
-    ![](assets/campaign_report_email_6.png) 
-
 ### Tracking indicators {#tracking-indicators-email}
 
-* **[!UICONTROL Delivery statistics]**
+* **[!UICONTROL Delivery statistics]** provides key performance indicators (KPIs) that give detailed information about data available for sent emails.
+
+    ![](assets/campaign_report_email_7.png)
 
     +++Learn more on Email campaign report metrics.
 
@@ -124,9 +126,9 @@ badge: label="Alpha" type="Positive"
     * **[!UICONTROL Estimation of forwards]**: Estimation of the number of emails forwarded by the targeted recipients. 
     +++
 
-    ![](assets/campaign_report_email_7.png) 
+* **[!UICONTROL Initial target audience statistics]** table displays data relative to your recipients.
 
-* **[!UICONTROL Open and click-through rate]**
+    ![](assets/campaign_report_email_8.png) 
 
     +++Learn more on Email campaign report metrics.
 
@@ -141,11 +143,11 @@ badge: label="Alpha" type="Positive"
     * **[!UICONTROL Raw reactivity]**: Percentage of the number of recipient who clicked in a delivery at least once compared to the number of recipients who opened a delivery at least once.
     +++
 
-    ![](assets/campaign_report_email_8.png) 
-
 ### URLs and click streams {#url-email}
 
-* **[!UICONTROL URLs and click streams]**
+* **[!UICONTROL URLs and click streams]** provides key performance indicators (KPIs) that give detailed information about the URLs that were clicked the most during a delivery.
+
+    ![](assets/campaign_report_email_9.png)
 
     +++Learn more on Email campaign report metrics.
 
@@ -157,9 +159,9 @@ badge: label="Alpha" type="Positive"
 
     +++
 
-    ![](assets/campaign_report_email_9.png) 
+* **[!UICONTROL Top 10 most visited links]** graph and table contain the available data for recipient behavior per link.
 
-* **[!UICONTROL Top 10 most visited links]**
+    ![](assets/campaign_report_email_10.png)
 
     +++Learn more on Email campaign report metrics.
 
@@ -169,23 +171,23 @@ badge: label="Alpha" type="Positive"
 
     +++
 
-    ![](assets/campaign_report_email_10.png)
-
-* **[!UICONTROL Breakdown of clicks over time]**, number of clicks
+* **[!UICONTROL Breakdown of clicks over time]** graph contains the available data for recipient behavior per link.
 
     ![](assets/campaign_report_email_11.png)
 
 ### User Activities {#user-activities-email}
 
-* **[!UICONTROL User activities]**
+* **[!UICONTROL User activities]** shows the breakdown of opens and clicks in the form of a chart.
+
+    ![](assets/campaign_report_email_12.png)
+
+    +++Learn more on Email campaign report metrics.
 
     * **[!UICONTROL Clicks]**: Total number of clicks on links in deliveries.
 
     * **[!UICONTROL Opens]**: Number of distinct targeted recipients for this domain who have opened a message at least once.
 
     +++
-
-    ![](assets/campaign_report_email_12.png)
 
 ## SMS channel {#sms-channel}
 
@@ -205,7 +207,7 @@ badge: label="Alpha" type="Positive"
 
     +++
 
-* **[!UICONTROL Initial target audience statistics]**
+* **[!UICONTROL Initial target audience statistics]** table displays data relative to your recipients:
 
     +++Learn more on SMS campaign report metrics.
 
@@ -217,7 +219,7 @@ badge: label="Alpha" type="Positive"
 
     +++
 
-* **[!UICONTROL Execution statistics]**
+* **[!UICONTROL Execution statistics]** table details the success of your delivery:
 
     +++Learn more on SMS campaign report metrics.
 
@@ -231,7 +233,7 @@ badge: label="Alpha" type="Positive"
 
     +++
 
-* **[!UICONTROL Generated click streams]**
+* **[!UICONTROL Generated click streams]** table displays data relative to how your recipients interacted with your delivery:
 
     +++Learn more on SMS campaign report metrics.
 
@@ -261,7 +263,7 @@ badge: label="Alpha" type="Positive"
 
     +++
 
-* **[!UICONTROL Initial target audience statistics]**
+* **[!UICONTROL Initial target audience statistics]** table displays data relative to your recipients:
 
     +++Learn more on Push campaign report metrics.
 
@@ -273,7 +275,7 @@ badge: label="Alpha" type="Positive"
 
     +++
 
-* **[!UICONTROL Execution statistics]**
+* **[!UICONTROL Execution statistics]** table details the success of your delivery:
 
     +++Learn more on Push campaign report metrics.
 
@@ -287,7 +289,7 @@ badge: label="Alpha" type="Positive"
 
     +++
 
-* **[!UICONTROL Generated click streams]**
+* **[!UICONTROL Generated click streams]** table displays data relative to how your recipients interacted with your delivery:
 
     +++Learn more on Push campaign report metrics.
 
