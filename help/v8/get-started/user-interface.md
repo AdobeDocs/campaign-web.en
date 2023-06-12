@@ -123,29 +123,75 @@ Use the top bar of the interface to:
 Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
 -->
 
-## Configure list screens {#list-screens}
+## Browse and filter lists {#list-screens}
 
-Several links from the left navigation menu, for example **Deliveries** or **Campaigns**, display lists of objects. These list screens are read-only, except the email delivery list. 
+Most of the links from the left navigation menu display lists of objects, such as the list of **Deliveries** or **Campaigns**. Some of these list screens are read-only. You can customize the list display, and filter these lists, as detailed below.
 
-To find items quicker, you can use the search bar or filter the list based on contextual criteria. 
+To remove a filter, click the **Clear all** button.
 
-![](assets/filter.png){width="70%" align="left"}
+### Customize list screens {#custom-lists}
 
-The lists are displayed in columns. You can display additional information by changing the column configuration. To do this, click the icon in the top right corner of the list. You can add or remove columns and change the order in which they are displayed.
+The lists are displayed in columns. You can display additional information by changing the column configuration. To do this, click the **Configure column for a custom layout** icon in the top right corner of the list. 
+
+![](assets/config-columns.png){width="70%" align="left"}
+
+In the **Configure columns** screen, add or remove columns, and change the order in which they are displayed.
+
+For example, for these settings:
 
 ![](assets/columns.png){width="70%" align="left"}
 
-You can sort items in the list by clicking any column header. An arrow is displayed (Up or Down) indicating that the list is sorted on that column. For numeric or date columns, the Up arrow indicates that the list is sorted in ascending order while the Down arrow indicates a descending order. For string or alphanumeric columns, values are listed in alphabetical order.
+The list shows the following columns:
 
-## Contextual help and on-boarding guide {#contextual-help}
+![](assets/column-sample.png){width="70%" align="left"}
 
-A contextual help is available in the interface. When available, click on the **?** icon to display help information and related documentation links. 
+Use the **Display advanced attributes** toggle to see all attributes for the current list. [Learn more](#adv-attributes)
+
+### Sort data {#sort-lists}
+
+You can also sort items in the list by clicking any column header. An arrow is displayed (Up or Down) indicating that the list is sorted on that column. 
+
+For numeric or date columns, the **Up** arrow indicates that the list is sorted in ascending order while the **Down** arrow indicates a descending order. For string or alphanumeric columns, values are listed in alphabetical order.
+
+### Built-in filters {#list-built-in-filters}
+
+To find items quicker, you can use the search bar, or filter the list based on contextual criteria. 
+
+![](assets/filter.png){width="70%" align="left"}
+
+For example, you can filter deliveries on their status, channel, contact date, or folder. You can also hide tests.
+
+### Custom filters{#list-custom-filters}
+
+To create custom filters on data, browse to the bottom of the filters and click the **Add rules** button. 
+
+Drag and drop attributes to build your filter criteria in the **Advanced filters** screen. 
+
+![](assets/custom-filter.png){width="70%" align="left"}
+
+Use the **Display advanced attributes** toggle to see all attributes for the current list. [Learn more](#adv-attributes)
+
+### Use advanced attributes {#adv-attributes}
+
+>[!CONTEXTUALHELP]
+>id="acw_attributepicker_advancedfields"
+>title="Display advanced attributes"
+>abstract="Only most common attributes are displayed by default in the attribute list. Use this toggle to build a filter with advanced attributes."
+
+Only most common attributes are displayed by default in the attribute list and filter configuration screens. 
+
+Use the **Display advanced attributes** toggle under the list to see all available attributes for the current list.
+
+
+## Contextual help {#contextual-help}
+
+A contextual help is available in the interface. When available, click on the `?` icon to display help information and related documentation links. 
 
 ![](assets/context-help.png){width="70%" align="left"}
 
-An on-boarding guide is also available to help you get started with Campaign v8 Web. Click the icon in the bottom right corner, choose one of the available step-by-step scenarios, and simply follow the instructions.
+<!--An on-boarding guide is also available to help you get started with Campaign v8 Web. Click the icon in the bottom right corner, choose one of the available step-by-step scenarios, and simply follow the instructions.
 
-![](assets/onboarding.png){width="70%" align="left"}
+![](assets/onboarding.png){width="70%" align="left"}-->
 
 ## Supported browsers {#browsers}
 
@@ -181,17 +227,8 @@ Your default interface language is determined by the preferred language specifie
 To change your language:
 
 1. Click on your profile icon, on the top right, then select **Preferences**.
-
-    ![](assets/preferences.png){width="70%" align="left"}
-
-1. Then click the language displayed under your email address.
-
-    ![](assets/preferences2.png)
-
+1. Then click the language link displayed under your email address.
 1. Select your preferred language and click **Save**. You can select a second language in case the component you are using is not localized in your first language.
-
-    ![](assets/select-language.png)
-
 
 
 <!--
@@ -202,6 +239,11 @@ REFER TO
 https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
 
+
+>[!CONTEXTUALHELP]
+>id="acw_rulebuilder_advancedfields"
+>title="Rule builder advanced fields"
+>abstract="Configure columns with advanced fields."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
@@ -294,15 +336,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Permission required"
 >abstract="Your administrator must grant you permission before you can create a segment."
 
->[!CONTEXTUALHELP]
->id="acw_attributepicker_advancedfields"
->title="Attribute picker advanced fields"
->abstract="Configure columns with advanced fields."
 
->[!CONTEXTUALHELP]
->id="acw_rulebuilder_advancedfields"
->title="Rule builder advanced fields"
->abstract="Configure columns with advanced fields."
+
 
 
 
