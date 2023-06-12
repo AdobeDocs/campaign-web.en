@@ -49,4 +49,5 @@ Built-in content blocks are:
 
 >[!NOTE]
 >
->You have the ability to define new blocks from Adobe Campaign V8 console that will enable you to optimize your deliveries personalization. [Learn more in the console documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-blocks.html)
+>You can define new blocks from Adobe Campaign v8 console that enables you to optimize your deliveries personalization. Learn more in [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}.
+
