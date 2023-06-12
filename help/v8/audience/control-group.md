@@ -98,19 +98,19 @@ For more information on delivery logs, refer to this [section](../monitor/delive
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
 >title="Extra population"
->abstract="You can exclude a specific population from the target by selecting an existing audience, or by defining a query."
+>abstract="You can exclude a specific population from the delivery audience by selecting an existing audience, or by defining a query."
 
-Another way to define a control group is to exclude a specific population from the target using an existing audience or by defining a query.
+Another way to define a control group is to select a specific population in an existing audience or by defining a query.
 
 From the **Extra population** section of the **Control Group** definition screen, click the **[!UICONTROL Select Audience]** button.
 
 ![](assets/control-group3.png)
 
-* To use an existing audience, click **Select audience**. Refer to this [section](add-audience.md). 
+* To use an existing audience, click **Select audience**. Learn more in [this section](add-audience.md). 
 
-* To define a new query, select **Create your own** and define the exclusion criteria using the rule builder. Refer to this [section](segment-builder.md). 
+* To define a new query, select **Create your own** and define the exclusion criteria using the rule builder. Learn more in [this section](segment-builder.md). 
 
-The profiles included in the audience or matching the result of the query are excluded from the target.
+The profiles included in the audience or matching the result of the query are **excluded** from the delivery target: they do not receive any message.
 
 ## Compare the results{#control-group-results}
 

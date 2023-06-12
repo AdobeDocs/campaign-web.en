@@ -7,16 +7,43 @@ exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 ---
 # Get started with messages{#gs-messages}
 
+With Adobe Campaign, you can send cross-channel campaigns including emails, SMS, and Push notifications, and measure their effectiveness using various dedicated reports. 
 
-With Adobe Campaign, you can send cross-channel campaigns including emails, SMS, and Push notifications, and measure their effectiveness using various dedicated reports. These messages are designed and sent though deliveries, and can be personalized for each recipient. These deliveries can be standalone or included in the context of a marketing campaign.
+These messages are designed and sent though deliveries, and can be personalized for each recipient. These deliveries can be standalone or included in the context of a marketing campaign.
 
-Adobe Campaign v8 comes with the following delivery channels:
+Adobe Campaign v8 comes with the following delivery channels: Email, SMS and Mobile apps.
 
-* **Email channel**: email deliveries let you send personalized emails to the target population. Learn how to create and send an email in [this page](../email/create-email.md).
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+    <td>
+    <a href="../email/create-email.md">
+    <img alt="Email" src="assets/do-not-localize/email.jpg">
+    </a>
+    <div><a href="../email/create-email.md"><strong>Create emails</strong>
+    </div>
+    <p>
+    </td>
+    <td>
+    <a href="../push/create-push.md">
+      <img alt="Push" src="assets/do-not-localize/push.jpg">
+    </a>
+    <div>
+    <a href="../push/gs-push.md"><strong>Create push notifications</strong></a>
+    </div>
+    <p>
+    </td>
+    <td>
+    <a href="../sms/create-sms.md">
+      <img alt="SMS" src="assets/do-not-localize/sms.jpg">
+    </a>
+    <div>
+    <a href="../sms/create-sms.md"><strong>Create SMS messages</strong></a>
+    </div>
+    <p>
+    </td>
+    </tr>
+    </table>
 
-* **SMS channel**: deliveries on mobile channels let you send personalized SMS to the target population.  Learn how to create and send SMS in [this page](../sms/create-sms.md).
-
-* **Mobile application channel**: mobile app deliveries let you send notifications to iOS and Android systems.  Learn how to create and send push notifications in [this page](../push/gs-push.md).
 
 ## Create a delivery {#create-delivery}
 
@@ -77,7 +104,7 @@ For more information on how to configure a campaign and manage deliveries which 
 
 ## Add personalization{#personalization}
 
-Messages delivered by Adobe Campaign can be personalized in various ways. [Learn more about personalization capabilities](../personalization/personalize.md).
+Messages delivered by Adobe Campaign can be personalized in various ways. [Learn more about personalization capabilities](../personalization/gs-personalization.md).
 
 Use Campaign to create dynamic content and send personalized messages. Personalization capabilities can be combined to improve your messages and create a custom user experience.
 
@@ -105,9 +132,13 @@ You can personalize the message content by:
 Once your message content has been defined, you can preview it to control the rendering of your messages, and check personalization settings with test profiles. [Learn more](../preview-test/preview-test.md)
 
 
-## Delivery and tracking logs{#gs-tracking-logs}
+## Monitoring and tracking logs{#gs-tracking-logs}
 
-Monitoring your deliveries after they have been sent is a key step to ensure your maketing campaigns are efficient and reach out to your customers. You can monitor after sending a delivery, as well as understand how delivery failures and quarantines are managed.
+Monitoring your deliveries after they have been sent is a key step to ensure your maketing campaigns are efficient and reach out to your customers. 
+
+You can monitor after sending a delivery, as well as understand how delivery failures and quarantines are managed.
+
+Learn more about monitoring and tracking capabilities in [this section](../reporting/gs-reports.md).
 
 ## Duplicate a delivery {#delivery-duplicate}
 
@@ -119,12 +150,30 @@ To duplicate a delivery from the list of deliveries, follow these steps:
 1. Select  **[!UICONTROL Duplicate]**.
 1. Confirm duplication: the new delivery dashboard opens in the central screen.
 
-
 To duplicate a delivery from its dashboard, follow these steps:
 
 1. Open the delivery and click the  **[!UICONTROL ...More]** button on the top section of the screen. 
-1. Select  **[!UICONTROL Duplicate]**. 
+1. Select **[!UICONTROL Duplicate]**. 
 1. Confirm duplication: the new delivery replaces the current delivery in the central screen.
 
+## Delete a delivery {#delivery-delete}
 
+Deliveries are deleted from the delivery list - either from the main delivery entry in the left rail, or from the delivery list of a campaign. 
 
+To delete a delivery from the list of deliveries, follow these steps:
+
+1. Click the three dots button on the right, next to the name of the delivery to duplicate.
+1. Select  **[!UICONTROL Delete]**.
+1. Confirm deletion.
+
+![Delete a delivery from the delivery list](assets/delete-delivery-from-list.png)
+
+All deliveries are available in these lists, but deliveries created in a workflow cannot be deleted from there. To delete a delivery created in the context of a workflow, you must delete the delivery activity from the workflow.
+
+To delete a delivery from a workflow, follow these steps:
+
+1. Select the delivery activity .
+1. Click the  **[!UICONTROL Delete]** icon on the right panel.
+1. Confirm deletion. If the delivery has child nodes, you can choose to delete them as well, or to keep them.
+
+![Delete a delivery in a workflow](assets/delete-delivery-from-wf.png)
