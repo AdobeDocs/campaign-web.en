@@ -17,6 +17,7 @@ exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
 >id="acw_campaign_properties"
 >title="Campaign properties"
 >abstract="Define your campaign settings and metadata."
+
 To create a new campaign, follow these steps:
 
 1. Click the **[!UICONTROL Campaigns]** menu, and click the **[!UICONTROL Create campaign]** button.
