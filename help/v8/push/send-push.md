@@ -44,4 +44,4 @@ You can now review and send your SMS message to your audience.
 
 Once your delivery is sent, you can track your KPIs (Key Performance Indicator) data from your delivery page and data from the Logs menu.
 
-You can now start measuring the impact of your message with built-in reports.
+You can now start measuring the impact of your message with built-in reports. [Learn more](../reporting/push-report.md)
