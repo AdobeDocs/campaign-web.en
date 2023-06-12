@@ -12,23 +12,25 @@ level: Intermediate
 
 # Get started with dynamic content
 
-To get the most out of every marketing campaign, Adobe Campaign gives you a way to deliver custom dynamic content that speaks to customers on their level. Based on profile data, use personalization capabilities to create a custom experience for different groups and individuals: you can adapt your messages to each specific recipient by leveraging the data and information you have about them. It can be their first name, interests, where they live, what they bought, and much more.
+As a marketer, it is crucial to target customers who are genuinely interested in your offerings and to engage themby providing effective and relevant content. Given the diverse range of recipients you encounter, creating multiple pieces of marketing content to appeal to different people can be time-consuming and wasteful. This is where dynamic content comes into play.
 
-Use Campaign to create dynamic content and send personalized messages. Personalization capabilities can be combined to improve your messages and create a custom user experience.
+Adobe Campaign web dynamic content capabilities allows you to customize your content based on the information you have gathered about your recipients. By utilizing dynamic content, you ensure that your marketing efforts are more relevant, avoiding marketing unwanted or unnecessary products or services. This approach makes your content more appealing and increases the likelihood of it being read. Moreover, it enables you to personalize your content, making recipients feel like they are receiving information from a person rather than a machine.
 
 ## How to make your content dynamic ?
 
-You can make your message content dynamic by inserting:
+You can make your message content dynamic by inserting JavaScript constructs in Campaign Web expression editor. At message sending, those expressions are interpreted by Adobe Campaign in order to deliver the correct content to each of your recipients:
 
-* **Personalization fields**: Personalization fields are used for first-level personalization of your messages. You can select any field available in the database from the personalization editor. For a delivery, you can select any field related to the recipient, the message or the delivery. These personalization attributes can be inserted in the subject line or the body of your messages. The following syntax inserts the city of the recipient in your content: <%= recipient.location.city %>.
+* **Personalize your messages** to each specific recipient by leveraging profile data such as their first name, interests, where they live, what they bought, and much more. You can select any field available in the database from the personalization editor related to the recipient, the message or the delivery. These personalization attributes can be inserted in the subject line or the body of your messages. The following syntax inserts the city of the recipient in your content: <%= recipient.location.city %>.
 
     ![](assets/perso-subject-line.png){width="800" align="center"}
 
-* **Conditional content**: Configure conditional content to add content based on the recipient’s profile for example. Text blocks and/or images are inserted when a particular condition is true. You can define the alternative version of the content when the condition is not true.
+* **Create conditional content** to adapt your deliveries to each recipient and only show the content that is relevant for a given customer based on the information you have about them. This allows you to display specific text blocks and/or images based on conditions. For example, adapt an email banner based on the recipients' subscription to a specific service. 
 
-* **Built-in content blocks**: Campaign comes with a set of personalization blocks which contain a specific rendering that you can insert into your deliveries. For example, you can add a logo, a greeting message, or a link to the mirror page of an email message. Content blocks are available from a dedicated entry in the personalization editor.
+    ![](assets/condition-sample.png){width="800" align="center"}
+    
+* **Use personalization blocks** to save time and leverage easily reusable personalizated content into your messages. Campaign comes with a set of personalization blocks which contain a specific rendering that you can insert into your deliveries. For example, you can add a logo, a greeting message, or a link to the mirror page of an email message. Content blocks are available from a dedicated entry in the personalization editor.
 
-    ![](assets/perso-content-blocks.png){width="800" align="center"}
+    ![](assets/content-blocks.png){width="800" align="center"}
 
 ## Access the expression editor {#access}
 
