@@ -72,9 +72,12 @@ badge: label="Alpha" type="Positive"
 
     * **[!UICONTROL Forwards]**:  Number of recipients who clicked who forwarded the email. 
 
-    ![](assets/campaign_report_email_4.png) 
+    ![](assets/campaign_report_email_4.png)
+    +++
 
 * **[!UICONTROL Generated click streams]**
+
+    ![](assets/campaign_report_email_5.png) 
 
     +++Learn more on Email campaign report metrics.
 
@@ -85,8 +88,6 @@ badge: label="Alpha" type="Positive"
     * **[!UICONTROL Reactivity]**: Ratio of the number of targeted recipients having clicked in a delivery, in relation to the estimated number of targeted recipients having opened a delivery.
 
     +++
-
-    ![](assets/campaign_report_email_5.png) 
 
 ### Non-deliverables {#non-deliverables-email}
 
