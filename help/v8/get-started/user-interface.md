@@ -118,7 +118,7 @@ Use the top bar of the interface to:
 * switch between your Adobe Experience Cloud applications
 * access help pages, contact support and share feedback. You can search help articles and videos from the search field.
 
-![](assets/unified-shell.png){width="70%" align="left"}
+![](assets/unified-shell.png){width="50%" align="left"}
 <!--
 Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
 -->
@@ -186,7 +186,7 @@ Use the **Display advanced attributes** toggle to see all available attributes f
 
 A contextual help is available in the interface. When available, click on the `?` icon to display help information and related documentation links. 
 
-![](assets/context-help.png){width="70%" align="left"}
+![](assets/context-help.png){width="40%" align="left"}
 
 <!--An on-boarding guide is also available to help you get started with Campaign v8 Web. Click the icon in the bottom right corner, choose one of the available step-by-step scenarios, and simply follow the instructions.
 
