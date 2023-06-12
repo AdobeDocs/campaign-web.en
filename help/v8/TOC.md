@@ -28,7 +28,7 @@ hide: yes
         + [Start from scratch ](content/create-email-content.md)
         + [Import your email content](content/existing-content.md)
         + [Code your own content](content/code-content.md)
-        + [Use email content templates](content/email-templates.md)
+        + [Use email content templates](content/email-sample-templates.md)
       + Design your content {#design-content}
         + [Use content components](content/content-components.md)
         + [Add links and track messages](content/message-tracking.md)
