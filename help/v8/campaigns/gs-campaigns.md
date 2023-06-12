@@ -50,7 +50,7 @@ In the **Browse** tab, click a campaign to display its dashboard. Two tabs are a
 
 The **Configure campaign settings** icon allows you to modify the campaign's properties that were defined when creating the campaign. See this [section](create-campaigns.md#create-campaigns) 
 
-## Monitoring and tracking longs{#campaign-monitoring}
+## Monitoring and tracking logs{#campaign-monitoring}
 
 Campaign monitoring is a key step to analyze your campaigns. They are accessible from the **Logs** button.
 
