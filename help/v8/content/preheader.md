@@ -34,8 +34,6 @@ To define the email preheader, follow the steps below.
 
 1. From the **[!UICONTROL Edit Personalization]** window, you can add [content blocks](../personalization/content-blocks.md), [dynamic content](../personalization/conditions.md) or [personalization fields](../personalization/personalize.md).
 
-1. Click **[!UICONTROL Validate]** to check your personalization syntax.
-
-1. Click **[!UICONTROL Save]**.
+1. Click **[!UICONTROL Confirm]**.
 
 Your preheader is now configured for your email.
