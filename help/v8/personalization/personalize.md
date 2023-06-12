@@ -15,9 +15,11 @@ You can personalize any delivery by using the expression editor, which is access
 
 ## Personalization syntax {#syntax}
 
-Personalization tags follow a specific syntax: `<%=table.field%>`. For example, to insert the recipient's last name from the recipient table, use the `<%= recipient.lastName %>` syntax.
+Personalization tags follow a specific syntax: `<%= table.field %>`. For example, to insert the recipient's last name from the recipient table, use the `<%= recipient.lastName %>` syntax.
 
 During the delivery preparation process, Adobe Campaign automatically interprets these tags and replaces them with the corresponding field values for each recipient. You can view the actual replacement by simulating your content.
+
+When uploading contacts from an external file for a standalone email delivery, all fields in the input file are available for personalization. The syntax is as follows: `<%= dataSource.field %>`. 
 
 ## Add personalization tags {#add}
 
@@ -34,7 +36,7 @@ To add personalization tags into a delivery, follow these steps:
     |Menu | Description | 
     |-----|------------|
     |![](assets/do-not-localize/perso-subscribers-menu.png) | The **[!UICONTROL Subscribers application]** menu lists fields related to the subscribers of an application, such as the used terminal or the operating system. *This menu is available for push notifications only* | 
-    |![](assets/do-not-localize/perso-recipients-menu.png) | The **[!UICONTROL Recipient]** menu lists fields defined in the recipients table, such as recipients' names, ages, or addresses. | 
+    |![](assets/do-not-localize/perso-recipients-menu.png) | The **[!UICONTROL Recipient]** menu lists fields defined in the recipients table, such as recipients' names, ages, or addresses. When [uploading contacts from an external file](../audience/file-audience.md) for a standalone email delivery, this menu lists all fields available in the input file. | 
     |![](assets/do-not-localize/perso-message-menu.png)| The **[!UICONTROL Message]** menu lists fields related to the delivery logs, including all messages sent to recipients or devices across all channels, such as the date of the last event with a a given recipient |
     |![](assets/do-not-localize/perso-delivery-menu.png)| The **[!UICONTROL Delivery]** menu lists fields related to the parameters required for performing deliveries such as the delivery channel or label.|
 
