@@ -16,7 +16,7 @@ exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
 Use Adobe Campaign to create cross-channel campaigns. With its marketing campaign orchestration capabilities, you can manage and centralize customer data, design customer communications and campaigns, and create personalized experiences across different channels. In this version, email, push and SMS channels are available. 
 
 Design and execute high-volume email campaigns to deliver personalized messages, for all platforms and screen sizes. 
-Measure the effectiveness of your deliveries with detailed reports including thecounts of opens, clicks, forwards, and more. With Adobe Campaign segmentation capabilities, you can run queries against a high-volume database, and easily define dynamic marketing segments which perfectly target your campaigns. 
+Measure the effectiveness of your deliveries with detailed reports including the counts of opens, clicks, forwards, and more. With Adobe Campaign segmentation capabilities, you can run queries against a high-volume database, and easily define dynamic marketing segments which perfectly target your campaigns. 
 
 <!--
 Get Started with campaigns
@@ -31,7 +31,7 @@ To create a new campaign or manage your existing campaigns, click the **[!UICONT
 
 * The **Browse** tab lists all existing campaigns. You can click a campaign to open its dashboard or create a new campaign by clicking the **Create campaign** button. See this [section](create-campaigns.md#create-campaigns) 
 
-* The **Templates** tab lists all available campaign templates. Campaign templates are pre-configued so that they can be reused for creating new campaigns. They are created from the client console. [Read more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html).
+* The **Templates** tab lists all available campaign templates. Campaign templates are pre-configured so that they can be reused for creating new campaigns. They are created from the client console. [Read more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html).
 
 You can customize the displayed columns by clicking the **Configure column for a custom layout** icon located in the upper-right corner of the list. This allows you to add additional information to the list. In addition, a search bar and filters are available to facilitate easy searching within the list. [Learn more](../get-started/user-interface.md#list-screens)
 
