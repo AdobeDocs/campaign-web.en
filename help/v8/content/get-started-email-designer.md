@@ -36,7 +36,7 @@ From the email delivery dashboard, go through the [Edit content](edit-content.md
 
 * **Import existing HTML content** from a file or a .zip folder. Learn how to import an email content in [this section](existing-content.md).
 
-* **Select an existing content** from a list of built-in or custom templates. Learn how to work with email templates [this section](email-templates.md).
+* **Select an existing content** from a list of built-in or custom templates. Learn how to work with email templates [this section](email-sample-templates.md).
 
     ![](assets/email_designer_create_options.png)
 
