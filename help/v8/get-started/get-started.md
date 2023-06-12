@@ -30,20 +30,19 @@ If you need to access Campaign v8 capabilities which are not available in the we
 
 ## Connect to Campaign
 
+To connect to Adobe Campaign web, follow these steps:
 
-1. Connect to [Adobe Experience Cloud](https://experience.adobe.com){target="_blank"}.
+1. Browse to [Adobe Experience Cloud](https://experience.adobe.com){target="_blank"}.
 1. Log in with your Adobe credentials.
 1. In the **Quick access** section, click **Campaign**.
+
     ![](assets/connect.png)
 
 1. In the next page, click the **Launch** button of your Campaign instance.
+    
     You are now connected to Campaign. Learn how to start using the user interface in [this page](user-interface.md).
 
-<!--
--> experience cloud home: "Campaign" -> home campaign v8
--> or Campaign v8 web if direct URL
--->
-
+If you are already connected to another Adobe Experience Cloud solution, you can also browse to your Campaign environment from the solution switcher on the top right of your screen.
 
 ## About Campaign client console{#ac-client}
 
