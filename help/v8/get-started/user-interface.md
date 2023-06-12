@@ -180,8 +180,7 @@ Use the **Display advanced attributes** toggle to see all attributes for the cur
 
 Only most common attributes are displayed by default in the attribute list and filter configuration screens. 
 
-Use the **Display advanced attributes** toggle under the list to see all available attributes for the current list.
-
+Use the **Display advanced attributes** toggle to see all available attributes for the current list.
 
 ## Contextual help {#contextual-help}
 
