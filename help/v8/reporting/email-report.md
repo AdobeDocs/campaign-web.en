@@ -12,7 +12,7 @@ The **Email delivery report** offers comprehensive insights and data specific to
 
 * **[!UICONTROL Initial target audience statistics]** table displays data relative to your recipients:
 
-    ![](assets/reporting_email_1.png){align="left"}
+    ![](assets/reporting_email_1.png){align="left" zoomable="yes"}
 
     +++Learn more on Email delivery report metrics.
 
