@@ -11,6 +11,8 @@ badge: label="Alpha" type="Positive"
 >title="SMS report summary"
 >abstract="Discover the reporting metrics for your SMS delivery."
 
+The **SMS delivery report** offers a comprehensive overview of the SMS channel, providing extensive insights and specific data. It furnishes comprehensive information about the performance, effectiveness, and outcomes of each delivery.
+
 ## Delivery summary {#delivery-summary}
 
 * **[!UICONTROL Delivery overview]** provides key performance indicators (KPIs) that give detailed information about how your visitors engage with your SMS messages.

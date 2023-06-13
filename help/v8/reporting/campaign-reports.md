@@ -104,6 +104,8 @@ To access your Campaign report, click Reports from your campaign's dashboard.
 ### Non-deliverables {#non-deliverables-email}
 
 * **[!UICONTROL Breakdown of errors per type]** and **[!UICONTROL Breakdown of errors per domain]** tables and graphs contain the available data for possible errors encountered with each domain.
+    
+    The errors shown in this report trigger the quarantine process. For more on quarantine management, refer to [Quarantine management](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html).
 
     ![](assets/campaign_report_email_6.png)
 
@@ -177,6 +179,7 @@ To access your Campaign report, click Reports from your campaign's dashboard.
 
     * **[!UICONTROL Clicks]**: Total number of clicks on links in deliveries.
 
+    * **[!UICONTROL Platform average]** : This average rate, displayed under each rate (reactivity, distinct clicks, and cumulated clicks), is calculated for deliveries sent over the previous six months. Only deliveries with the same typology and on the same channel are taken into account. Proofs are excluded.
     +++
 
 * **[!UICONTROL Top 10 most visited links]** graph and table contain the available data for recipient behavior per link.
