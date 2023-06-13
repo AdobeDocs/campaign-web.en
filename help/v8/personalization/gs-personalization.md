@@ -10,7 +10,7 @@ role: Data Architect
 level: Intermediate
 ---
 
-# Get started with dynamic content
+# Get started with dynamic content {#gs-dynamic-content}
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_dashboard"
@@ -21,7 +21,7 @@ As a marketer, it is crucial to target customers who are genuinely interested in
 
 Adobe Campaign web dynamic content capabilities allows you to customize your content based on the information you have gathered about your recipients. By utilizing dynamic content, you ensure that your marketing efforts are more relevant, avoiding marketing unwanted or unnecessary products or services. This approach makes your content more appealing and increases the likelihood of it being read. Moreover, it enables you to personalize your content, making recipients feel like they are receiving information from a person rather than a machine.
 
-## How to make your content dynamic ?
+## How to make your content dynamic? {#make-content-dyn}
 
 You can make your message content dynamic by inserting JavaScript constructs in Campaign Web expression editor. At message sending, those expressions are interpreted by Adobe Campaign in order to deliver the correct content to each of your recipients:
 
@@ -59,7 +59,7 @@ Here are some examples on how to access the expression editor depending on the c
 >
 >In addition to the expression editor, you can also leverage a dedicated conditional content builder when designing an email. [Learn how to build conditional content in emails](conditions.md)
 
-## Let's dive deeper
+## Let's dive deeper {#dive-deeper}
 
 Now that you have an understanding of how to make your content dynamic, it's time to dive deeper into these documentation sections to start working with the feature.
 
