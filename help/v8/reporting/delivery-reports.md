@@ -3,7 +3,7 @@ audience: end-user
 title: Delivery reports
 description: Learn how to access and use delivery reports
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-badge: label="Alpha" type="Positive"
+badge: label="Alpha" 
 ---
 # Access Delivery reports {#reports}
 

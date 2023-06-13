@@ -2,7 +2,7 @@
 audience: end-user
 title: Send a push notification delivery
 description: Learn how to send a push notification delivery with Adobe Campaign Web
-badge: label="Alpha" type="Positive"
+badge: label="Alpha" 
 ---
 # Preview and send a push notification delivery {#send-push}
 

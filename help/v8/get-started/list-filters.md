@@ -2,7 +2,7 @@
 audience: end-user
 title: Browse, search and filter lists
 description: Discover how to browse and filter lists Campaign Web v8
-badge: label="Alpha" type="Positive"
+badge: label="Alpha" 
 ---
 
 # Browse, search, and filter lists {#list-screens}
@@ -59,6 +59,17 @@ Use the **Display advanced attributes** toggle to see all attributes for the cur
 >id="acw_attributepicker_advancedfields"
 >title="Display advanced attributes"
 >abstract="Only most common attributes are displayed by default in the attribute list. Use this toggle to build a filter with advanced attributes."
+
+>[!CONTEXTUALHELP]
+>id="acw_rulebuilder_advancedfields"
+>title="Rule builder advanced fields"
+>abstract="Configure columns with advanced fields."
+
+>[!CONTEXTUALHELP]
+>id="acw_rulebuilder_properties_advanced"
+>title="Rule Builder Advanced attributes"
+>abstract="Use an advanced attributes to define your rule."
+
 
 Only most common attributes are displayed by default in the attribute list and filter configuration screens. Attributes which were set as `advanced` attributes in the data schema are hidden from the configuration screens.
 

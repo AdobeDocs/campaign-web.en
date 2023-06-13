@@ -3,7 +3,7 @@ audience: end-user
 title: Get started with Campaign v8 Web
 description: Get started with Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-badge: label="Alpha" type="Positive"
+badge: label="Alpha" 
 ---
 # Get started with Campaign Web {#get-started}
 

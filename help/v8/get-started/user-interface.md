@@ -3,7 +3,7 @@ audience: end-user
 title: Discover the interface
 description: Campaign v8 Web user interface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-badge: label="Alpha" type="Positive"
+badge: label="Alpha" 
 ---
 # Discover the interface {#user-interface}
 
@@ -179,16 +179,6 @@ REFER TO
 https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
 
-
->[!CONTEXTUALHELP]
->id="acw_rulebuilder_advancedfields"
->title="Rule builder advanced fields"
->abstract="Configure columns with advanced fields."
-
->[!CONTEXTUALHELP]
->id="acw_rulebuilder_properties_advanced"
->title="Rule Builder Advanced attributes"
->abstract="Use an advanced attributes to define your rule."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"

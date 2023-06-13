@@ -2,7 +2,7 @@
 audience: end-user
 title: Get started with reports
 description: Learn how to access and manage reports in Campaign Web
-badge: label="Alpha" type="Positive"
+badge: label="Alpha" 
 ---
 # Get started with reports {#get-started-reports}
 

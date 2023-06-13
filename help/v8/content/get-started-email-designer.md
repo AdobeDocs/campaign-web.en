@@ -2,7 +2,7 @@
 audience: end-user
 title: Edit the email content
 description: Learn how to start building your content using the Email Designer in Campaign Web UI
-badge: label="Alpha" type="Positive"
+badge: label="Alpha" 
 ---
 # Get started with the Email Designer {#get-started-email-designer}
 

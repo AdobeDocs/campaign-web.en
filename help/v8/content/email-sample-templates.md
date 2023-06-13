@@ -3,7 +3,7 @@ audience: end-user
 product: campaign
 title: Work with email templates
 
-badge: label="Alpha" type="Positive"
+badge: label="Alpha" 
 ---
 # Work with email templates {#email-saved-content-templates}
 
@@ -15,7 +15,7 @@ Campaign comes with a set of built-in templates that you can choose from.
 
 To start building your content with one of the sample templates, follow the steps below.
 
-1. Open the [Email Designer](create-email-content.md).
+1. Open the [Email Designer](get-started-email-designer.md).
 
 1. On the **[!UICONTROL Create your email]** screen, the list of **[!UICONTROL Sample templates]**  displays.
 

@@ -2,7 +2,7 @@
 audience: end-user
 title: Email delivery reports
 description: Learn how to access and use email delivery reports
-badge: label="Alpha" type="Positive"
+badge: label="Alpha" 
 ---
 # Email delivery report {#email-report}
 

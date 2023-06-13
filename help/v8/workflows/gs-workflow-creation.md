@@ -2,7 +2,7 @@
 audience: end-user
 title: Create workflows with Adobe Campaign Web
 description: Learn how to build workflows with Adobe Campaign Web
-badge: label="Alpha" type="Positive"
+badge: label="Alpha" 
 exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
 ---
 
