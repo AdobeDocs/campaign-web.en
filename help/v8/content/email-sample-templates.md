@@ -3,7 +3,7 @@ audience: end-user
 product: campaign
 title: Work with email templates
 
-badge: label="Alpha" type="Positive"
+badge: label="Alpha" 
 ---
 # Work with email templates {#email-saved-content-templates}
 

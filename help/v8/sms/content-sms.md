@@ -2,7 +2,7 @@
 audience: end-user
 title: Design a SMS delivery
 description: Learn how to design your SMS delivery
-badge: label="Alpha" type="Positive"
+badge: label="Alpha" 
 exl-id: 1a70d033-6f1b-482b-9948-59ef75871750
 ---
 # Design an SMS delivery {#design-sms}

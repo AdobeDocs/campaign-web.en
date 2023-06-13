@@ -2,7 +2,7 @@
 audience: end-user
 title: Use the Build audience workflow activity
 description: Learn how to use the Build audience workflow activity
-badge: label="Alpha" type="Positive"
+badge: label="Alpha" 
 ---
 
 # Build audience {#build-audience}

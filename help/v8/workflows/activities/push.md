@@ -2,7 +2,7 @@
 audience: end-user
 title: Use the Push notification workflow activity
 description: Learn how to use the Push notification workflow activity
-badge: label="Alpha" type="Positive"
+badge: label="Alpha" 
 ---
 
 # Push notification {#push-activity}

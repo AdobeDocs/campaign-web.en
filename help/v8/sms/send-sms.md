@@ -2,7 +2,7 @@
 audience: end-user
 title: Send an SMS delivery
 description: Learn how to send SMS with Adobe Campaign Web
-badge: label="Alpha" type="Positive"
+badge: label="Alpha" 
 ---
 # Preview and send an SMS delivery {#send-sms}
 

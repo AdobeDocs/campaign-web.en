@@ -2,7 +2,7 @@
 audience: end-user
 title: Use the Email workflow activity
 description: Learn how to use the Email workflow activity
-badge: label="Alpha" type="Positive"
+badge: label="Alpha" 
 ---
 
 # Email, SMS, Push {#channel}

@@ -5,7 +5,7 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Beginner
-badge: label="Alpha" type="Positive"
+badge: label="Alpha" 
 ---
 
 # Built-in content blocks {#ootb-content-blocks}
