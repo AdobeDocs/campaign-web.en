@@ -41,8 +41,6 @@ badge: label="Alpha" type="Positive"
 
     +++
 
-
-
 * **Overall statistics** presents data for the sent push notifications, including:
 
     ![](assets/reporting_push_5.png) 

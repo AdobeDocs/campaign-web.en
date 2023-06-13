@@ -109,11 +109,19 @@ To access your Campaign report, click Reports from your campaign's dashboard.
 
     +++Learn more on Email campaign report metrics.
 
-    * **[!UICONTROL Errors]**: Total number of errors cumulated during deliveries and automatic rebound processing, in relation to the number of messages to be delivered.
+    * **[!UICONTROL User unknown]**: Error type generated during delivery to indicate that the email address is invalid.
 
-    * **[!UICONTROL Contribution]**: 
+    * **[!UICONTROL Invalid domain]**: Error type generated when sending a delivery to indicate that the domain of the email address is wrong or does not exist.
 
-    * **[!UICONTROL Breakdown]**: 
+    * **[!UICONTROL Mailbox full]**: Error type generated after five delivery attempts to indicate that the recipients’ inbox contains too many messages.
+
+    * **[!UICONTROL Account disabled]**: Error type generated when sending a delivery to indicate that the address no longer exists.
+
+    * **[!UICONTROL Refused]**: Error type generated when an address is rejected by the IAP (Internet Access Provider), for instance following the application of a security rule (anti-spam software).
+
+    * **[!UICONTROL Unreachable]**: Error type which occurs in the message distribution string: incident on the SMTP relay, domain temporarily unreachable, etc
+
+    * **[!UICONTROL Not connected]**: Error type to indicate that the recipients’ mobile phone is switched off or disconnected from the network at the time of sending.
 
     +++
 
@@ -207,6 +215,8 @@ To access your Campaign report, click Reports from your campaign's dashboard.
 
 * **[!UICONTROL Delivery Overview]** provides key performance indicators (KPIs) that give detailed information about how your visitors engage with your SMS delivery.
     
+    ![](assets/campaign_report_sms_1.png)
+
     +++Learn more on SMS campaign report metrics.
 
     * **[!UICONTROL Total sent]**: Total number of messages processed during the delivery analysis.
@@ -221,6 +231,8 @@ To access your Campaign report, click Reports from your campaign's dashboard.
 
 * **[!UICONTROL Initial target audience statistics]** table displays data relative to your recipients:
 
+    ![](assets/campaign_report_sms_2.png)
+
     +++Learn more on SMS campaign report metrics.
 
     * **[!UICONTROL Initial audience]**: Total number of targeted recipients.
@@ -232,6 +244,8 @@ To access your Campaign report, click Reports from your campaign's dashboard.
     +++
 
 * **[!UICONTROL Execution statistics]** table details the success of your delivery:
+
+    ![](assets/campaign_report_sms_3.png)
 
     +++Learn more on SMS campaign report metrics.
 
@@ -246,6 +260,8 @@ To access your Campaign report, click Reports from your campaign's dashboard.
     +++
 
 * **[!UICONTROL Generated click streams]** table displays data relative to how your recipients interacted with your delivery:
+
+    ![](assets/campaign_report_sms_4.png)
 
     +++Learn more on SMS campaign report metrics.
 

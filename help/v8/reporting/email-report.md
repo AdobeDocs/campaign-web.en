@@ -10,7 +10,7 @@ badge: label="Alpha" type="Positive"
 
 * **[!UICONTROL Initial target audience statistics]** table displays data relative to your recipients:
 
-    ![](assets/reporting_email_1.png){align="center"}
+    ![](assets/reporting_email_1.png){align="left"}
 
     +++Learn more on Email delivery report metrics.
 
@@ -23,7 +23,7 @@ badge: label="Alpha" type="Positive"
 
 * **[!UICONTROL Delivery statistics]** table details the success of your delivery.
 
-    ![](assets/reporting_email_2.png){align="center"}
+    ![](assets/reporting_email_2.png){align="left"}
 
     +++Learn more on Email campaign report metrics.
 
@@ -40,6 +40,24 @@ badge: label="Alpha" type="Positive"
 * **[!UICONTROL Causes of exclusion]** graph and table show the breakdown per rule of messages rejected during the analysis.
 
     ![](assets/reporting_email_3.png){align="center"}
+
+    +++Learn more on Email delivery report metrics.
+
+    * **[!UICONTROL User unknown]**: Error type generated during delivery to indicate that the email address is invalid.
+
+    * **[!UICONTROL Invalid domain]**: Error type generated when sending a delivery to indicate that the domain of the email address is wrong or does not exist.
+
+    * **[!UICONTROL Mailbox full]**: Error type generated after five delivery attempts to indicate that the recipients’ inbox contains too many messages.
+
+    * **[!UICONTROL Account disabled]**: Error type generated when sending a delivery to indicate that the address no longer exists.
+
+    * **[!UICONTROL Refused]**: Error type generated when an address is rejected by the IAP (Internet Access Provider), for instance following the application of a security rule (anti-spam software).
+
+    * **[!UICONTROL Unreachable]**: Error type which occurs in the message distribution string: incident on the SMTP relay, domain temporarily unreachable, etc
+
+    * **[!UICONTROL Not connected]**: Error type to indicate that the recipients’ mobile phone is switched off or disconnected from the network at the time of sending.
+
+    +++
 
 ## Delivery throughput {#delivery-throughtput}
 
@@ -72,13 +90,23 @@ This report presents detailed information regarding the delivery throughput of t
 
 * **[!UICONTROL Breakdown of errors per type]** and **[!UICONTROL Breakdown of errors per domain]** tables and graphs contain the available data for possible errors encountered with each domain.
 
+    ![](assets/campaign_report_email_6.png)
+
     +++Learn more on Email delivery report metrics.
 
-    * **[!UICONTROL Errors]**: Total number of errors cumulated during deliveries and automatic rebound processing, in relation to the number of messages to be delivered.
+    * **[!UICONTROL User unknown]**: Error type generated during delivery to indicate that the email address is invalid.
 
-    * **[!UICONTROL Contribution]**: 
+    * **[!UICONTROL Invalid domain]**: Error type generated when sending a delivery to indicate that the domain of the email address is wrong or does not exist.
 
-    * **[!UICONTROL Breakdown]**: 
+    * **[!UICONTROL Mailbox full]**: Error type generated after five delivery attempts to indicate that the recipients’ inbox contains too many messages.
+
+    * **[!UICONTROL Account disabled]**: Error type generated when sending a delivery to indicate that the address no longer exists.
+
+    * **[!UICONTROL Refused]**: Error type generated when an address is rejected by the IAP (Internet Access Provider), for instance following the application of a security rule (anti-spam software).
+
+    * **[!UICONTROL Unreachable]**: Error type which occurs in the message distribution string: incident on the SMTP relay, domain temporarily unreachable, etc
+
+    * **[!UICONTROL Not connected]**: Error type to indicate that the recipients’ mobile phone is switched off or disconnected from the network at the time of sending.
 
     +++
 
