@@ -30,7 +30,7 @@ To select an existing audience for your message, follow the steps below:
 
 1. Choose **[!UICONTROL Select audience]** to use an existing audience. To create a new audience to be used in this email, choose **Create your own**. Refer to this [section](segment-builder.md).
 
-    This screen displays all existing audiences defined in the Adobe Campaign console or from Adobe Experience Platform.
+    This screen displays all existing audiences defined in the Adobe Campaign client console, for the current folder.
 
     ![](assets/create-audience2.png)
 
