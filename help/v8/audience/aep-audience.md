@@ -48,5 +48,4 @@ To select an Adobe Experience Platform audience for your delivery, follow the st
 
 1. Click **Save**. 
 
-You can also set a control group to measure the impact of your campaigns. The control group do not receive the message. This allows you to compare the behavior of the population which received the message with the behavior of contacts which did not. See [section](control-group.md).
 
