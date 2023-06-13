@@ -18,36 +18,46 @@ exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
 >title="Campaign properties"
 >abstract="Define your campaign settings and metadata."
 
+Campaigns can include workflows and standalone deliveries. 
+
 To create a new campaign, follow these steps:
 
 1. Click the **[!UICONTROL Campaigns]** menu, and click the **[!UICONTROL Create campaign]** button.
 1. Select the **Template** to use and provide a label for the campaign. Campaign templates are pre-configured so that they can be reused for creating new campaigns. They are created from the client console.
 [Read more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html).
-1. If needed, you can change the **Additional options**. See this [section](#campaign-options).
+1. If needed, you can change the following **Additional options**: internal name, foler, assignee, description and nature.
 1. Define the **Schedule** of your campaign. The campaign starts when the start date is reached. Start and end dates are displayed in the campaign list, and can be used as a filter. See this [section](gs-campaigns.md#access-campaigns).
 
     ![Define your campaign properties](assets/campaign-properties.png)
 
     >[!NOTE]
     >
-    >You can also access the campaign properties from the **Configure campaign settings** icon, next to the campaign label. See this [section](gs-campaigns.md#campaign-dashboard)
+    >You can always modify these properties later, from the **Configure campaign settings** icon, next to the campaign label. See this [section](gs-campaigns.md#campaign-dashboard)
 
 1. Click **Create**.
-1. Add a workflow or stand-alone delivery to your campaign.
+1. Add a workflows and deliveries to your campaign.
+
      * From the **Workflows** tab, click **Create workflow**. A default workflow is automatically added when you create your campaign. Lean more on how to [create a workflow](../workflows/create-workflow.md)
      * From the **Deliveries** tab, click **Create delivery**. [Learn more](../msg/gs-messages.md)
+1. Use the **Logs** and **Reporting** buttons to analyze your campaign.
+ 
+## Monitoring and tracking logs{#campaign-monitoring}
 
-## Additional options {#campaign-options}
+Campaign monitoring is a key step to analyze your campaigns. Open your campaign, and click the **Logs** button.
 
-Campaign properties are displayed when creating a new campaign.
+You can also view the dedicated reports by clicking the **Reports** button. See this [section](../reporting/campaign-reports.md).
 
-Under **Additional options**, you can configure the following settings:
+## Duplicate and delete a campaign
 
-* Internal name: 
-* Folder: select the folder where the campaign will be stored
-* Assigned to: 
-* Description: 
-* Nature: specify the nature of the campaign for classification purposes
+You can duplicate or delete a campaign:
+
+* from the list of campaigns, click the ellipsis button then select **Duplicate** or **Delete**.
+* from the campaign itself, click the **More** button then select **Duplicate** or **Delete**.
+
+>[!NOTE]
+>
+>The **Delivery** tab displays all deliveries linked to the campaign, but deliveries created in a workflow cannot be deleted from there. To delete a delivery created in the context of a workflow, you must delete the delivery activity from the workflow.
+
 
 <!--
 ## Create a cross-channel campaign {#cross-channel-campaign}
