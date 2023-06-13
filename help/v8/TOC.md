@@ -73,8 +73,9 @@ hide: yes
   + [Load an email audience from a file](audience/file-audience.md)
   + [Use an Adobe Experience Platform audience](audience/aep-audience.md)
   + [Set a control group](audience/control-group.md)
-+ Cross channel campaigns {#campaigns}
++ Cross-channel campaigns {#campaigns}
   + [Get started with campaigns](campaigns/gs-campaigns.md)
+  + [Manage your campaigns](campaigns/manage-campaigns.md)
   + [Create your first campaign](campaigns/create-campaigns.md)
 + Workflows {#wf}
   + [Get started with workflows](workflows/gs-workflows.md)
@@ -91,7 +92,6 @@ hide: yes
     + [Build audience](workflows/activities/build-audience.md)
     + [Combine](workflows/activities/combine.md)
     + [Email, SMS, Push](workflows/activities/email.md)
-    + [End](workflows/activities/end.md)
     + [Enrichment](workflows/activities/enrichment.md)
     + [Fork](workflows/activities/fork.md)
     + [Wait](workflows/activities/wait.md)
