@@ -1,16 +1,14 @@
 ---
 audience: end-user
-title: Campaign Web v8 Release Notes
-description: Campaign Web v8 Release Notes
+title: What's new in Campaign Web v8
+description: Discover new feature coming with Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Alpha" type="Positive"
 ---
 
-# Release Notes {#release-notes}
+# What's new? {#new}
 
-This page lists all the latest features and improvements for Campaign Web v8. 
-
-## Alpha release{#alpha-release}
+## Alpha 2.0 release{#alpha-release}
 
 This new Campaign web interface is currently only available to **Alpha practitioners** with the following capabilities:
 

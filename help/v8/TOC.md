@@ -10,9 +10,8 @@ hide: yes
 # Adobe Campaign v8 Web documentation {#v8}
 
 + [Campaign v8 Web documentation](campaign-web-home.md)
-+ What's new? {#whats-new}
-  + [Release notes](rn/release-notes.md)
-  + [Documentation updates](rn/documentation-updates.md)
++ [What's new?](rn/whats-new.md)
++ [Documentation updates](rn/documentation-updates.md)
 + Get started with Adobe Campaign {#start}
   + [Get started](get-started/get-started.md)
   + [Discover the interface](get-started/user-interface.md)
