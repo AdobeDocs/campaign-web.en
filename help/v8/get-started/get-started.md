@@ -44,7 +44,7 @@ To connect to Adobe Campaign web, follow these steps:
 
 If you are already connected to another Adobe Experience Cloud solution, you can also browse to your Campaign environment from the solution switcher on the top right of your screen.
 
-## About Campaign client console{#ac-client}
+## About Campaign client console {#ac-client}
 
 The Campaign client console is a browser-based application which is installed on your system. It uses the web services API to connect to your Campaign application server.
 
