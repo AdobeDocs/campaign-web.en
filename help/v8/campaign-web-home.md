@@ -21,7 +21,7 @@ The new Campaign v8 Web interface offers a modern and intuitive user experience 
 
 **Reimagined workflow canvas interface**
 
-Our comprehensive graphical canvas makes it easy for you to design processes such as segmentation, campaign execution, and more. With this advanced tool at your fingertips, you can streamline your workflow and elevate your campaigns.
+Our comprehensive graphical environment that empowers you to design complex processes that can help you manage your marketing campaigns with ease. With workflows, you can orchestrate the full range of processes and tasks, improve the speed and scale of every aspect of your marketing campaigns, from creating segments and preparing messages to delivery. Plus, you can get your channels in sync with a single, easy-to-use interface for campaign orchestration.
 
 **Meet the Email Designer**
 
@@ -29,11 +29,11 @@ Start from a template, or use Adobe Campaign's new Email Designer to create emai
 
 **Make your content dynamic**
 
-Create conditional content to define dynamic personalization based on the recipient's profile, automatically replacing text blocks and images when certain conditions are met. This feature can take your campaigns to new heights and deliver highly targeted, personalized experiences to your audience
+Customize your content based on the information you have gathered about your recipients. Utilizing dynamic content makes your content more appealing and increases the likelihood of it being read. Personalize your messages to each specific recipient by leveraging profile data such as their first name, interests, where they live, what they bought, and much more. Create conditional content to adapt your deliveries to each recipient and only show the content that is relevant for a given customer based on the information you have about them.
 
 **Send cross-channel deliveries**
 
-Adobe Campaign capabilities help you manage centralized customer data, design customer communications and campaigns, and create personalized experiences across different channels: Email, Push and SMS.
+Use Adobe Campaign to create cross-channel campaigns. With its marketing campaign orchestration capabilities, you can manage and centralize customer data, design customer communications and campaigns, and create personalized experiences across different channels. In this version, email, push and SMS channels are available. Measure the effectiveness of your deliveries with detailed reports including the counts of opens, clicks, forwards, and more.
 
 ## Let's dive deeper
 
