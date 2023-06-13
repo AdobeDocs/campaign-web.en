@@ -40,14 +40,15 @@ Use the new Campaign Web UI to:
 * Preview, test and send your email messages - [Learn more](../monitor/prepare-send.md)
 * Monitor send and measure results with built-in reports - [Learn more](../reporting/delivery-reports.md)
 
-<!--
-add info somewhere to remind users that
-* they still have access to their console (+ link to v8 console doc)
-* they keep their existing data (example: will be able to use their existing delivery templates to create deliveries)
--->
+
+## Transition to Campaign Web UI
+
+As a Campaign user, you can still access the client console to build and manage Campaign resources and components. Data and settings are synchronized from an environment to another. Learn more in [this section](../get-started/get-started.md#about-campaign-client-consoleac-client).
+
+In addition, all your data and settings already available in the client console are visible in the Campaign Web UI, from the Explorer left navigation. Learn more about the Explorer view in [this section](../get-started/user-interface.md#explorer-user-interface-explorer).
 
 
-## Terminology updates{#terminology-updates}
+## Terminology updates {#terminology-updates}
 
 As an existing Campaign user, note that some concepts have been renamed to align with the latest terminology standards. These changes only apply to Campaign Web UI and are not reflected in the Client Console. They are summarized below.
 
