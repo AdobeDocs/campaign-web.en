@@ -6,21 +6,27 @@ exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Alpha" 
 ---
 
-# Preview email content {#preview-content} 
+# Preview delivery content {#preview-content} 
 
-Use the [!DNL Campaign] content simulation capability to preview the content of your email before sending it. This allows you to control personalization and check how it is displayed to your recipients.
+Use the [!DNL Campaign] content simulation capability to preview the content of your message before sending it. This allows you to control personalization and check how it is displayed to your recipients.
 
-To preview the content of your email, follow the steps below.
+To preview the content of your delivery, follow the steps below.
 
-1. Browse to the email [Edit content](../content/edit-content.md) screen or to the [Email Designer](../content/get-started-email-designer.md).
+1. Browse to the edit content screen of your delivery.
+
+    <!--email [Edit content](../content/edit-content.md) screen or to the [Email Designer](../content/get-started-email-designer.md).-->
 
 1. Click the **[!UICONTROL Simulate content]** button.
 
     ![](assets/simulate-button.png)
 
-1. Use the **[!UICONTROL Add test profile(s)]** button to select the profiles that will be used to preview your personalized content.
+1. To select the profiles that will be used to preview your personalized content, use:
 
-1. You can combine test profiles and profiles to preview your email. 
+    * the **[!UICONTROL Add test profile(s)]** button for previewing email and SMS messages
+
+    * the **[!UICONTROL Add subscribers]** button for previewing push deliveries
+
+1. You can combine test profiles and profiles to preview your email or SMS message. 
 
     * The **[!UICONTROL Test profiles]** tab lists all seed addresses, which are additional and fictitious recipients in the database.
     
@@ -32,9 +38,9 @@ To preview the content of your email, follow the steps below.
 
     ![](assets/simulate-select-profiles.png)
 
-1. Click **[!UICONTROL Select]** to confirm your selection in both tabs.
+1. Click **[!UICONTROL Select]** to confirm your selection.
 
-    A preview of the email is displayed in the right pane of the **[!UICONTROL Simulate]** screen. Personalized elements are replaced with the data from the profile selected in the left pane.
+    A preview of the delivery content is displayed in the right pane of the **[!UICONTROL Simulate]** screen. Personalized elements are replaced with the data from the profile selected in the left pane.
 
     ![](assets/simulate-preview.png)
 
@@ -43,8 +49,8 @@ To preview the content of your email, follow the steps below.
 1. You can adjust the **[!UICONTROL Zoom level]** and preview your content on desktop or mobile device using the dedicated icon in the top right corner.
 
 1. From the **[!UICONTROL Simulate]** screen you can also:
-    * Check the email rendering in popular email clients - [Learn more](email-rendering.md)
     * Send test emails to specific recipients for validation - [Learn more](proofs.md)
+    * For email only, check the message rendering in popular email clients - [Learn more](email-rendering.md)
 
 
 
