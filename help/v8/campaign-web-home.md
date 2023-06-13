@@ -31,7 +31,7 @@ Start from a template, or use Adobe Campaign's new Email Designer to create emai
 
 Customize your content based on the information you have gathered about your recipients. Utilizing dynamic content makes your content more appealing and increases the likelihood of it being read. Personalize your messages to each specific recipient by leveraging profile data such as their first name, interests, where they live, what they bought, and much more. Create conditional content to adapt your deliveries to each recipient and only show the content that is relevant for a given customer based on the information you have about them.
 
-**Send cross-channel deliveries**
+**Create cross-channel campaigns**
 
 Use Adobe Campaign to create cross-channel campaigns. With its marketing campaign orchestration capabilities, you can manage and centralize customer data, design customer communications and campaigns, and create personalized experiences across different channels. In this version, email, push and SMS channels are available. Measure the effectiveness of your deliveries with detailed reports including the counts of opens, clicks, forwards, and more.
 
@@ -58,11 +58,11 @@ Now that you have an understanding of what you can do in Adobe Campaign Web, it'
 <p>
 </td>
 <td>
-<a href="content/create-email-content.md">
+<a href="content/get-started-email-designer.md">
 <img alt="Infrequent" src="assets/do-not-localize/menu-design.jpg">
 </a>
 <div>
-<a href="content/create-email-content.md"><strong>Meet the Email Designer</strong></a>
+<a href="content/get-started-email-designer.md"><strong>Meet the Email Designer</strong></a>
 </div>
 <p></td>
 <td>
@@ -79,7 +79,7 @@ Now that you have an understanding of what you can do in Adobe Campaign Web, it'
 <img alt="Validation" src="assets/do-not-localize/menu-campaign.jpeg">
 </a>
 <div>
-<a href="campaigns/gs-campaigns.md"><strong>Send cross-channel deliveries</strong></a>
+<a href="campaigns/gs-campaigns.md"><strong>Create cross-channel campaigns</strong></a>
 </div>
 <p>
 </td>
