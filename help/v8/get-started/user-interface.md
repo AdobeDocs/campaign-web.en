@@ -181,16 +181,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 >[!CONTEXTUALHELP]
->id="acw_rulebuilder_advancedfields"
->title="Rule builder advanced fields"
->abstract="Configure columns with advanced fields."
-
->[!CONTEXTUALHELP]
->id="acw_rulebuilder_properties_advanced"
->title="Rule Builder Advanced attributes"
->abstract="Use an advanced attributes to define your rule."
-
->[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
 >title="Sent Metrics"
 >abstract="Number of email delivered."

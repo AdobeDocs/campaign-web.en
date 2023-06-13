@@ -60,6 +60,17 @@ Use the **Display advanced attributes** toggle to see all attributes for the cur
 >title="Display advanced attributes"
 >abstract="Only most common attributes are displayed by default in the attribute list. Use this toggle to build a filter with advanced attributes."
 
+>[!CONTEXTUALHELP]
+>id="acw_rulebuilder_advancedfields"
+>title="Rule builder advanced fields"
+>abstract="Configure columns with advanced fields."
+
+>[!CONTEXTUALHELP]
+>id="acw_rulebuilder_properties_advanced"
+>title="Rule Builder Advanced attributes"
+>abstract="Use an advanced attributes to define your rule."
+
+
 Only most common attributes are displayed by default in the attribute list and filter configuration screens. Attributes which were set as `advanced` attributes in the data schema are hidden from the configuration screens.
 
 Activate the **Display advanced attributes** toggle to see all available attributes for the current list: the attribute list is updated instantly.
