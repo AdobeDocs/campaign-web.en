@@ -5,7 +5,7 @@ description: Discover how to browse and filter lists Campaign Web v8
 badge: label="Alpha" type="Positive"
 ---
 
-# Browse, search and filter lists {#list-screens}
+# Browse, search, and filter lists {#list-screens}
 
 Most of the links from the left navigation menu display lists of objects, such as the list of **Deliveries** or **Campaigns**. Some of these list screens are read-only. You can customize the list display, and filter these lists, as detailed below.
 
@@ -15,7 +15,7 @@ To remove a filter, click the **Clear all** button.
 
 The lists are displayed in columns. You can display additional information by changing the column configuration. To do this, click the **Configure column for a custom layout** icon in the top right corner of the list. 
 
-![](assets/config-columns.png){width="70%" align="left"}
+![](assets/config-columns.png){width="70%" align="left" zoomable="yes"}
 
 In the **Configure columns** screen, add or remove columns, and change the order in which they are displayed.
 
