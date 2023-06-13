@@ -23,7 +23,7 @@ The new Campaign v8 Web interface offers a modern and intuitive user experience 
 
 Our comprehensive graphical canvas makes it easy for you to design processes such as segmentation, campaign execution, and more. With this advanced tool at your fingertips, you can streamline your workflow and elevate your campaigns.
 
-**Design emails**
+**Meet the Email Designer**
 
 Start from a template, or use Adobe Campaign's new Email Designer to create emails without having to write a single line of code. Learn how to use the Email Designer to create your content, preview and test it, and send an email to an existing audience in an end-to-end use case.
 
@@ -45,6 +45,15 @@ Now that you have an understanding of what you can do in Adobe Campaign Web, it'
 <img alt="new UI" src="assets/do-not-localize/menu-ui.jpeg">
 </a>
 <div><a href="get-started/user-interface.md"><strong>Discover the new user interface</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="preview-test/proofs.md">
+<img alt="Validation" src="assets/do-not-localize/menu-workflows.jpeg">
+</a>
+<div>
+<a href="preview-test/proofs.md"><strong>Reimagined workflow canvas interface</strong></a>
 </div>
 <p>
 </td>
@@ -71,15 +80,6 @@ Now that you have an understanding of what you can do in Adobe Campaign Web, it'
 </a>
 <div>
 <a href="preview-test/proofs.md"><strong>Send cross-channel deliveries</strong></a>
-</div>
-<p>
-</td>
-<td>
-<a href="preview-test/proofs.md">
-<img alt="Validation" src="assets/do-not-localize/menu-workflows.jpeg">
-</a>
-<div>
-<a href="preview-test/proofs.md"><strong>Reimagined workflow canvas interface</strong></a>
 </div>
 <p>
 </td>
