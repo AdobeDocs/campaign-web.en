@@ -41,9 +41,9 @@ To create a new campaign or manage your existing campaigns, click the **[!UICONT
 
 Two tabs are available:
 
-* The **Browse** tab lists all existing campaigns. You can click a campaign to open its dashboard or create a new campaign by clicking the **Create campaign** button. See this [section](create-campaigns.md#create-campaigns) 
+* The **Browse** tab lists all existing campaigns. You can click a campaign to open its dashboard or create a new campaign by clicking the **Create campaign** button. See this [section](create-campaigns.md#create-campaigns).
 
-* The **Templates** tab lists all available campaign templates. Campaign templates are pre-configured so that they can be reused for creating new campaigns. They are created from the client console. [Read more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html).
+* The **Templates** tab lists all available campaign templates. Campaign templates are pre-configured so that they can be reused for creating new campaigns. They are created from the client console. [Read more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html)
 
 Each campaign in the list displays information about its current status, creation date, the last time it was modified, etc.
 
