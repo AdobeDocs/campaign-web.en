@@ -62,4 +62,4 @@ Use the **Display advanced attributes** toggle to see all attributes for the cur
 
 Only most common attributes are displayed by default in the attribute list and filter configuration screens. Attributes which were set as `advanced` attributes in the data schema are hidden from the configuration screens.
 
-Use the **Display advanced attributes** toggle to see all available attributes for the current list.
+Activate the **Display advanced attributes** toggle to see all available attributes for the current list: the attribute list is updated instantly.
