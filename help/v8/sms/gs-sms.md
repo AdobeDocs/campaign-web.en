@@ -11,11 +11,11 @@ SMS deliveries provide a practical and efficient way to send text messages to yo
 
 The SMS channel offers three methods for creating SMS deliveries:
 
-* Workflows: Add an SMS activity, define basic settings, and compose your SMS content within a larger automation sequence.
+* **[!UICONTROL Workflows]**: Add an SMS activity, define basic settings, and compose your SMS content within a larger automation sequence.
 
-* Campaigns: Incorporate SMS deliveries into dedicated campaigns, setting parameters such as target audience and delivery schedule.
+* **[!UICONTROL Campaigns]**: Incorporate SMS deliveries into dedicated campaigns, setting parameters such as target audience and delivery schedule.
 
-* Stand-alone deliveries: Create individual SMS deliveries for quick and direct communication with your customers, without the need for workflows or campaigns.
+* **Stand-alone deliveries**: Create individual SMS deliveries for quick and direct communication with your customers, without the need for workflows or campaigns.
 
 ![](../assets/do-not-localize/book.png) Learn how to configure SMS channel in this [page](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/sms.html?lang=en).
 

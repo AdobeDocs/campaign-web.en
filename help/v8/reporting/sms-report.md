@@ -13,7 +13,9 @@ badge: label="Alpha" type="Positive"
 
 ## Delivery summary {#delivery-summary}
 
-* **[!UICONTROL Delivery overview]** provides key performance indicators (KPIs) that give detailed information about how your visitors engage with your SMS messages. 
+* **[!UICONTROL Delivery overview]** provides key performance indicators (KPIs) that give detailed information about how your visitors engage with your SMS messages.
+
+    ![](assets/reporting_sms_3.png)
 
     +++Learn more on SMS delivery report metrics.
 
@@ -26,9 +28,9 @@ badge: label="Alpha" type="Positive"
     * **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
     +++
 
-    ![](assets/reporting_sms_3.png)
-
 * **Targeted population** graph and table display data relative to your audience.
+
+    ![](assets/reporting_sms_4.png)
 
     +++Learn more on SMS delivery report metrics.
 
@@ -37,9 +39,10 @@ badge: label="Alpha" type="Positive"
     * **[!UICONTROL Exclusions]**: Number of profiles that have been excluded from the analysis.
     +++
 
-    ![](assets/reporting_sms_4.png)
 
 * **Overall statistics** presents data for the sent SMS messages, including:
+
+    ![](assets/reporting_sms_5.png)
 
     +++Learn more on SMS delivery report metrics.
 
@@ -49,8 +52,6 @@ badge: label="Alpha" type="Positive"
 
     * **[!UICONTROL New quarantine]**:  Number of profiles that have been excluded and added to the quarantine.
     +++
-
-    ![](assets/reporting_sms_5.png)
 
 * **[!UICONTROL Exclusions]** graph and table display the various reasons that prevented user profiles, which were excluded from the targeted profiles, from receiving the message.
 
