@@ -22,20 +22,22 @@ In many cases, it provides a short summary of the content, and is typically one 
 
 To define the email preheader, follow the steps below.
 
-1. From the Email Designer, add at least a **[!UICONTROL Structure]** component to start designing your email.
+1. From the [Email Designer](create-email-content.md), add at least a **[!UICONTROL Structure]** component to start designing your email.
 
 1. Click the **[!UICONTROL Navigation tree]** icon from the left pane and select **[!UICONTROL Body]**.
 
     ![](assets/preheader_body.png)
 
-1. From the **[!UICONTROL Settings]** tab, add your preheader. You can further personalize it by clicking the **[!UICONTROL Add personalization]** icon.
+1. From the **[!UICONTROL Settings]** tab, enter some text for your preheader.
+
+1. To further personalize it, click the **[!UICONTROL Add personalization]** icon to the left of the **[!UICONTROL Preheader]** field.
 
     ![](assets/preheader_body_settings.png)
 
-1. From the **[!UICONTROL Edit Personalization]** window, you can add **[!UICONTROL Content blocks]**, **[!UICONTROL Dynamic content]** or **[!UICONTROL Personalization fields]**.
+1. From the **[!UICONTROL Edit Personalization]** window, you can add [personalization fields](../personalization/personalize.md), [content blocks](../personalization/content-blocks.md) and [conditional content](../personalization/conditions.md) using the dedicated entries on the left.
 
-1. Click **[!UICONTROL Validate]** to check your personalization syntax.
+    ![](assets/preheader_body_personalization.png)
 
-1. Click **[!UICONTROL Save]**.
+1. Click **[!UICONTROL Confirm]**.
 
 Your preheader is now configured for your email.
