@@ -49,11 +49,11 @@ Now that you have an understanding of what you can do in Adobe Campaign Web, it'
 <p>
 </td>
 <td>
-<a href="preview-test/proofs.md">
+<a href="workflows/gs-workflows.md">
 <img alt="Validation" src="assets/do-not-localize/menu-workflows.jpeg">
 </a>
 <div>
-<a href="preview-test/proofs.md"><strong>Reimagined workflow canvas interface</strong></a>
+<a href="workflows/gs-workflows.md"><strong>Reimagined workflow canvas interface</strong></a>
 </div>
 <p>
 </td>
@@ -66,20 +66,20 @@ Now that you have an understanding of what you can do in Adobe Campaign Web, it'
 </div>
 <p></td>
 <td>
-<a href="audience/about-audiences.md">
+<a href="personalization/gs-personalization.md">
 <img alt="Audiences" src="assets/do-not-localize/menu-dynamic.jpg">
 </a>
 <div>
-<a href="audience/about-audiences.md"><strong>Make your content dynamic</strong></a>
+<a href="personalization/gs-personalization.md"><strong>Make your content dynamic</strong></a>
 </div>
 <p>
 </td>
 <td>
-<a href="preview-test/proofs.md">
+<a href="campaigns/gs-campaigns.md">
 <img alt="Validation" src="assets/do-not-localize/menu-campaign.jpeg">
 </a>
 <div>
-<a href="preview-test/proofs.md"><strong>Send cross-channel deliveries</strong></a>
+<a href="campaigns/gs-campaigns.md"><strong>Send cross-channel deliveries</strong></a>
 </div>
 <p>
 </td>
