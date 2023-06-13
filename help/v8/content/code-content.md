@@ -7,15 +7,21 @@ badge: label="Alpha" type="Positive"
 ---
 # Code your own email content {#code-content}
 
-Use the **[!UICONTROL Code your own]** mode to import raw HTML and/or code your email content. This method requires HTML skills.
+Use the **[!UICONTROL Code your own]** mode to import raw HTML and/or code your email content.
 
-1. In the Email Designer home page, select **[!UICONTROL Code your own]**.
+>[!CAUTION]
+>
+>This method requires HTML skills.
+
+1. On the [Email Designer](get-started-email-designer.md) home page, select **[!UICONTROL Code your own]**.
 
     ![](assets/code-your-own.png)
 
-1. Enter or paste your raw HTML code. 
+1. Enter or paste your raw HTML code into the main canvas. 
 
-1. Use the left pane to leverage personalization capabilities.
+1. Use the left pane to leverage personalization capabilities. [Learn more](../personalization/gs-personalization.md)
+
+    ![](assets/code-editor-personalization.png)
 
 1. If you want to clear your email content and start your email from a new design, select **[!UICONTROL Change your design]** from the options menu.
     
