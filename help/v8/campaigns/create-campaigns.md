@@ -25,7 +25,7 @@ To create a new campaign, follow these steps:
 1. Click the **[!UICONTROL Campaigns]** menu, and click the **[!UICONTROL Create campaign]** button.
 1. Select the **Template** to use and provide a label for the campaign. Campaign templates are pre-configured so that they can be reused for creating new campaigns. They are created from the client console.
 [Read more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html).
-1. If needed, you can change the following **Additional options**: internal name, foler, assignee, description and nature.
+1. If needed, you can change the following **Additional options**: internal name, folder, assignee, description and nature.
 1. Define the **Schedule** of your campaign. The campaign starts when the start date is reached. Start and end dates are displayed in the campaign list, and can be used as a filter. See this [section](gs-campaigns.md#access-campaigns).
 
     ![Define your campaign properties](assets/campaign-properties.png)
@@ -35,12 +35,12 @@ To create a new campaign, follow these steps:
     >You can always modify these properties later, from the **Configure campaign settings** icon, next to the campaign label. See this [section](gs-campaigns.md#campaign-dashboard)
 
 1. Click **Create**.
-1. Add a workflows and deliveries to your campaign.
+1. Add workflows and deliveries to your campaign:
 
      * From the **Workflows** tab, click **Create workflow**. A default workflow is automatically added when you create your campaign. Lean more on how to [create a workflow](../workflows/create-workflow.md)
      * From the **Deliveries** tab, click **Create delivery**. [Learn more](../msg/gs-messages.md)
-     
-1. Use the **Logs** and **Reporting** buttons to analyze your campaign.
+
+1. Use the **Logs** and **Reporting** buttons to analyze your campaign's performance.
 
 ## Monitoring and tracking logs{#campaign-monitoring}
 
@@ -57,7 +57,7 @@ You can duplicate or delete a campaign:
 
 >[!NOTE]
 >
->The **Delivery** tab displays all deliveries linked to the campaign. However, deliveries created in a workflow cannot be deleted from there. To delete a delivery created in the context of a workflow, you must delete the delivery activity from the workflow.
+>The **Deliveries** tab displays all deliveries linked to the campaign. However, deliveries created in a workflow cannot be deleted from there. To delete a delivery created in the context of a workflow, you must delete the delivery activity from the workflow.
 
 
 <!--

@@ -16,13 +16,13 @@ Once you have created an Adobe Experience Platform audience and it is available 
 >To use Adobe Experience Platform audiences in Campaign, you need to configure the integration with Adobe Sources and Destinations. Refer to [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
 
 
-You can also:
+To select the audience of a delivery, you can also:
 
 * Build a new audience. [Learn more](segment-builder.md)
 * Load an audience from an external file. [Learn more](file-audience.md)
 * Use an existing Campaign audience. [Learn more](add-audience.md).
 
-To select an Adobe Experience Platform audience for your message, follow the steps below:
+To select an Adobe Experience Platform audience for your delivery, follow the steps below:
 
 1. From the **Audience** section of the delivery creation assistant, click the **[!UICONTROL Select audience]** button.
 
@@ -48,5 +48,4 @@ To select an Adobe Experience Platform audience for your message, follow the ste
 
 1. Click **Save**. 
 
-You can also set a control group to measure the impact of your campaigns. The control group do not receive the message. This allows you to compare the behavior of the population which received the message with the behavior of contacts which did not. See [section](control-group.md).
 
