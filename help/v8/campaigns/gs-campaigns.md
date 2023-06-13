@@ -35,7 +35,11 @@ Campaigns include actions (deliveries) and processes (importing or extracting fi
 
 ## Access and manage your campaigns{#access-campaigns}
 
-To create a new campaign or manage your existing campaigns, click the **[!UICONTROL Campaigns]** menu. Two tabs are available:
+To create a new campaign or manage your existing campaigns, click the **[!UICONTROL Campaigns]** menu. 
+
+![Campaign list](assets/campaign-list.png)
+
+Two tabs are available:
 
 * The **Browse** tab lists all existing campaigns. You can click a campaign to open its dashboard or create a new campaign by clicking the **Create campaign** button. See this [section](create-campaigns.md#create-campaigns) 
 
@@ -47,14 +51,18 @@ You can customize the displayed columns by clicking the **Configure column for a
 
 For example, you can filter on your campaign schedule. Open the filters panel and use the **Start - End Date** section:
 
-![Campaign list](assets/campaign-filter-on-dates.png)
+![Campaign filter](assets/campaign-filter-on-dates.png)
 
 ## The campaign dashboard{#campaign-dashboard}
 
-In the **Browse** tab of the campaign list, click a campaign to display its dashboard. Two tabs are available:
+In the **Browse** tab of the campaign list, click a campaign to display its dashboard. 
+
+![Campaign dashboard](assets/campaign-dashboard.png)
+
+The status and schedule of the campaign is displayed at the top of the screen. You can use the **Configure campaign settings** icon to modify the campaign's properties that were defined when creating the campaign. Three buttons are available that allow you to view logs, reporting, duplicate or delete the campaign. See this [section](create-campaigns.md#create-campaigns) 
+
+Two tabs are available:
 
 * The **Workflows** tab lists all workflows linked to the campaign. This tab also allows you to create a new workflow inside the campaign. See this [section](create-campaigns.md#create-campaigns) 
 * The **Deliveries** tab lists all deliveries linked to the campaign. You can also create a new delivery inside the campaign. See this [section](create-campaigns.md#create-campaigns) 
-
-The **Configure campaign settings** icon allows you to modify the campaign's properties that were defined when creating the campaign. See this [section](create-campaigns.md#create-campaigns) 
 

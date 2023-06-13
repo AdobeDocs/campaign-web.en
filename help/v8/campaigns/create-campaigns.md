@@ -39,8 +39,9 @@ To create a new campaign, follow these steps:
 
      * From the **Workflows** tab, click **Create workflow**. A default workflow is automatically added when you create your campaign. Lean more on how to [create a workflow](../workflows/create-workflow.md)
      * From the **Deliveries** tab, click **Create delivery**. [Learn more](../msg/gs-messages.md)
+     
 1. Use the **Logs** and **Reporting** buttons to analyze your campaign.
- 
+
 ## Monitoring and tracking logs{#campaign-monitoring}
 
 Campaign monitoring is a key step to analyze your campaigns. Open your campaign, and click the **Logs** button.
@@ -56,7 +57,7 @@ You can duplicate or delete a campaign:
 
 >[!NOTE]
 >
->The **Delivery** tab displays all deliveries linked to the campaign, but deliveries created in a workflow cannot be deleted from there. To delete a delivery created in the context of a workflow, you must delete the delivery activity from the workflow.
+>The **Delivery** tab displays all deliveries linked to the campaign. However, deliveries created in a workflow cannot be deleted from there. To delete a delivery created in the context of a workflow, you must delete the delivery activity from the workflow.
 
 
 <!--
