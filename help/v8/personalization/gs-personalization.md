@@ -12,6 +12,11 @@ level: Intermediate
 
 # Get started with dynamic content
 
+>[!CONTEXTUALHELP]
+>id="acw_targetdata_personalization_dashboard"
+>title="Personalization"
+>abstract="The expression editor allows you to select, arrange, customize and validate all the data to create a customized experience for your content. YOu can personalize your messages to each recipient by leveraging profile data, and create conditional content to adapt your message to each recipient and only show the content that is relevant. In addition, personalization blocks are available to add pre-defined personalized content into your deliveries."
+
 As a marketer, it is crucial to target customers who are genuinely interested in your offerings and to engage themby providing effective and relevant content. Given the diverse range of recipients you encounter, creating multiple pieces of marketing content to appeal to different people can be time-consuming and wasteful. This is where dynamic content comes into play.
 
 Adobe Campaign web dynamic content capabilities allows you to customize your content based on the information you have gathered about your recipients. By utilizing dynamic content, you ensure that your marketing efforts are more relevant, avoiding marketing unwanted or unnecessary products or services. This approach makes your content more appealing and increases the likelihood of it being read. Moreover, it enables you to personalize your content, making recipients feel like they are receiving information from a person rather than a machine.
