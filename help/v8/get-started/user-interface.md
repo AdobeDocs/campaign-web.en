@@ -10,72 +10,46 @@ badge: label="Alpha" type="Positive"
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
 >title="Discover the interface"
->abstract="The new Campaign v8 Web interface offers an integrated, intuitive and consistent user experience."
+>abstract="The new Campaign v8 Web interface offers an integrated, intuitive, and consistent user experience."
 
 The new Campaign v8 Web interface offers a modern and intuitive user experience to simplify marketing campaign design and delivery. This new interface is integrated with Adobe Experience Platform. 
 
-<!--
-Key concepts when browsing the user interface are common with Adobe Experience Platform. Refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide) for more details.
--->
 
 >[!NOTE]
 >
 >This documentation is frequently updated to reflect latest changes in the product user interface. However, some screenshots can slightly differ from your user interface.
 
 
-<!--
-* console + web interface (overview, why use each of them)
-* web UI made up of read-only lists that can be configured, show how to add columns
--->
-
-## Left navigation menu
+## Left navigation menu {#user-interface-left-nav}
 
 Browse the links on the left to access Campaign v8 Web capabilities. Several links display lists of objects which can be sorted and filtered. You can also configure columns to display all the information you need. See this [section](#list-screens). All list screens are read-only, except the email delivery list. Clicking on any list item for edition/viewing is not available in Alpha. All lists will be editable in future versions. The items displayed in the left navigation menu depend on your user permissions.
 
 ![](assets/home.png)
 
-### Home
+### Home {#user-interface-home}
 
-This screen includes key links and resources for a quick access to the main Campaign v8 Web features. The **Recents** list provides shortcuts to the recently created and modified deliveries. This list shows their creation and modification dates and status.
+This screen includes key links and resources for a quick access to the main Campaign v8 Web features. 
 
-<!--
-* Banner
-* KPIs on email channel (cross-deliveries): open rate, delivery rate, etc
-* Recent items
-* Learning cards
--->
+The **Recents** list provides shortcuts to the recently created and modified deliveries. This list shows their channel, status, owner, creation and modification dates.
 
-Access Campaign v8 Web key help pages from the lower section of the home page.
+Access Campaign v8 Web key help pages from the **Learning** section of the home page.
 
-<!--
-show global KPIs, recent items + left menu to access features)
-CONTROL PANEL not alpha
-Global report not alpha
--->
-
-### Explorer
+### Explorer {#user-interface-explorer} 
 
 >[!CONTEXTUALHELP]
 >id="acw_explorer"
 >title="Explorer"
->abstract="The **Explorer** menu displays the same folder hierarchy as the one in the client console. Browse all your Campaign v8 components, folders and schemas. All list screens are read-only, except the email delivery list."
+>abstract="The **Explorer** menu displays all Campaign components and objects with the same folder hierarchy as the one in the client console. Browse all your Campaign v8 components, folders and schemas, and create deliveries, workflows and campaigns. All other lists are read-only."
 
-The **Explorer** menu displays the same folder hierarchy as the one in the client console. Browse all your Campaign v8 components, folders and schemas. 
+The **Explorer** menu displays all Campaign resources and objects with the same folder hierarchy as the one in the client console. Browse all your Campaign v8 components, folders and schemas, and create deliveries, workflows and campaigns. All other lists are read-only.
 
 The items displayed in the Explorer depend on your user permissions. 
 
 Like in any list screen, you can configure columns to personalize the display to view all the information you need. See this [section](#list-screens).
 
-For more information about the Campaign explorer, refer to this [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui){target="_blank"}.
-<!--
-Explorer' menu in web UI to navigate through console content: console navtree second view in addition to the left menu lists with filters. The Explorer gives the real folder hierarchy from the console. Make sure you find your deliveries in sub-folders. All lists can be accessed in read-only. No Create/Edit. You can configure lists (colums). All schema fields, linked tables are available. 
+For more information about the Campaign explorer, folder hierarchy and resources, refer to this [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui){target="_blank"}.
 
-If you need to view your lists of recipients (age, gender), transactions or live transactional messages. To view each/edit -> console.
-
-Navtree view depends on permissions (same as console).
--->
-
-### Campaign Management
+### Campaign Management {#user-interface-campaign-management}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaigns_list"
@@ -87,7 +61,7 @@ Navtree view depends on permissions (same as console).
 >title="Deliveries"
 >abstract="Browse through your list of deliveries. You can view their status, contact and modification dates, key KPIs. You can filter the list by state, contact date or channel. Click the 'Create delivery' button to add a new delivery. Select a delivery to view its content, audience, and details."
 
-In the CAMPAIGN MANAGEMENT section, you can access marketing campaigns, deliveries and workflows.
+In the CAMPAIGN MANAGEMENT section, you can access marketing campaigns, deliveries, and workflows.
 
 * **Campaigns** - This is the list of your campaigns, and campaign templates. By default, for each campaign you can view the start/end/creation/last modification dates, the current status, and the name of the Campaign operator who created it. You can filter the list by status, start/end dates, folder, or create an advanced filter to define your own filtering criteria. Learn more about campaigns [in this section](../campaigns/gs-campaigns.md).
 
@@ -100,7 +74,7 @@ In the CAMPAIGN MANAGEMENT section, you can access marketing campaigns, deliveri
 * **Workflows** - In this screen, you can access the full list of workflows and workflow templates. You can check their status, last/next execution dates, and create a new workflow or a new workflow template. You can filter the list with the same criteria as for other objects. In addition, you can filter workflows which belong to a campaign, or not. Learn more about workflows [in this section](../workflows/gs-workflows.md).
 
 
-### Customer Management
+### Customer Management {#user-interface-customer-management}
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
@@ -117,9 +91,12 @@ In the CAMPAIGN MANAGEMENT section, you can access marketing campaigns, deliveri
 >title="Subscriptions lists"
 >abstract="Browse through your subscriptions lists. You can view their type, mode and label. This list is read-only."
 
-* **Recipients** - Access your recipient database. By default, you can view their email address, first name and last name. This list is read-only. 
-* **Audiences** - This is your list of audiences. By default, you can view their type, origin, creation/last modification dates and label. You can filter the list by origin. This list is read-only. 
-* **Subscriptions lists** - Browse through your subscriptions lists. By default, you can view their type, mode and label. This list is read-only. 
+
+In the CUSTOMER MANAGEMENT section, you can view your recipients, audiences, and subscriptions. These lists are rea-only.
+
+* **Recipients** - Access your recipient database. By default, you can view their email address, first name and last name. Learn more about recipients in [Adobe Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/gs-audiences.html){target="_blank"}.
+* **Audiences** - This is your list of audiences. By default, you can view their type, origin, creation/last modification dates and label. You can filter the list by origin. Learn more about audiences and lists in [Adobe Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html){target="_blank"}.
+* **Subscriptions** - Browse through your subscriptions lists. By default, you can view their type, mode and label. Learn how to manage subscriptions and unsubscriptions in [Adobe Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html){target="_blank"}. 
 
 ### Decision Management
 
@@ -130,43 +107,90 @@ In the CAMPAIGN MANAGEMENT section, you can access marketing campaigns, deliveri
 
 * **Offers** - Browse through your list of Interaction offers. By default, you can view their status, start/end dates and environment. You can filter the list by state and start/end dates. Offer templates are also available. These lists are read-only. 
 
+Learn how to create manage offers in [Adobe Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}. 
+
 ## Top bar
 
-The top bar of the interface allows you to:
+Use the top bar of the interface to:
 
 * share your feedback as an Alpha tester
 * switch between organizations and instances
 * switch between your Adobe Experience Cloud applications
 * access help pages, contact support and share feedback. You can search help articles and videos from the search field.
 
-![](assets/unified-shell.png){width="70%" align="left"}
+![](assets/unified-shell.png){width="50%" align="left"}
 <!--
 Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
 -->
 
-## Configure list screens {#list-screens}
+## Browse and filter lists {#list-screens}
 
-Several links from the left navigation menu, for example **Deliveries** or **Campaigns**, display lists of objects. These list screens are read-only, except the email delivery list. 
+Most of the links from the left navigation menu display lists of objects, such as the list of **Deliveries** or **Campaigns**. Some of these list screens are read-only. You can customize the list display, and filter these lists, as detailed below.
 
-To find items quicker, you can use the search bar or filter the list based on contextual criteria. 
+To remove a filter, click the **Clear all** button.
 
-![](assets/filter.png){width="70%" align="left"}
+### Customize list screens {#custom-lists}
 
-The lists are displayed in columns. You can display additional information by changing the column configuration. To do this, click the icon in the top right corner of the list. You can add or remove columns and change the order in which they are displayed.
+The lists are displayed in columns. You can display additional information by changing the column configuration. To do this, click the **Configure column for a custom layout** icon in the top right corner of the list. 
+
+![](assets/config-columns.png){width="70%" align="left"}
+
+In the **Configure columns** screen, add or remove columns, and change the order in which they are displayed.
+
+For example, for these settings:
 
 ![](assets/columns.png){width="70%" align="left"}
 
-You can sort items in the list by clicking any column header. An arrow is displayed (Up or Down) indicating that the list is sorted on that column. For numeric or date columns, the Up arrow indicates that the list is sorted in ascending order while the Down arrow indicates a descending order. For string or alphanumeric columns, values are listed in alphabetical order.
+The list shows the following columns:
 
-## Contextual help and on-boarding guide {#contextual-help}
+![](assets/column-sample.png){width="70%" align="left"}
 
-A contextual help is available in the interface. When available, click on the **?** icon to display help information and related documentation links. 
+Use the **Display advanced attributes** toggle to see all attributes for the current list. [Learn more](#adv-attributes)
 
-![](assets/context-help.png){width="70%" align="left"}
+### Sort data {#sort-lists}
 
-An on-boarding guide is also available to help you get started with Campaign v8 Web. Click the icon in the bottom right corner, choose one of the available step-by-step scenarios, and simply follow the instructions.
+You can also sort items in the list by clicking any column header. An arrow is displayed (Up or Down) indicating that the list is sorted on that column. 
 
-![](assets/onboarding.png){width="70%" align="left"}
+For numeric or date columns, the **Up** arrow indicates that the list is sorted in ascending order while the **Down** arrow indicates a descending order. For string or alphanumeric columns, values are listed in alphabetical order.
+
+### Built-in filters {#list-built-in-filters}
+
+To find items quicker, you can use the search bar, or filter the list based on contextual criteria. 
+
+![](assets/filter.png){width="70%" align="left"}
+
+For example, you can filter deliveries on their status, channel, contact date, or folder. You can also hide tests.
+
+### Custom filters{#list-custom-filters}
+
+To create custom filters on data, browse to the bottom of the filters and click the **Add rules** button. 
+
+Drag and drop attributes to build your filter criteria in the **Advanced filters** screen. 
+
+![](assets/custom-filter.png){width="70%" align="left"}
+
+Use the **Display advanced attributes** toggle to see all attributes for the current list. [Learn more](#adv-attributes)
+
+### Use advanced attributes {#adv-attributes}
+
+>[!CONTEXTUALHELP]
+>id="acw_attributepicker_advancedfields"
+>title="Display advanced attributes"
+>abstract="Only most common attributes are displayed by default in the attribute list. Use this toggle to build a filter with advanced attributes."
+
+Only most common attributes are displayed by default in the attribute list and filter configuration screens. 
+
+Use the **Display advanced attributes** toggle to see all available attributes for the current list.
+
+## Contextual help {#contextual-help}
+
+A contextual help is available in the interface. When available, click on the `?` icon to display help information and related documentation links. 
+
+![](assets/context-help.png){width="40%" align="left"}
+
+<!--An on-boarding guide is also available to help you get started with Campaign v8 Web. Click the icon in the bottom right corner, choose one of the available step-by-step scenarios, and simply follow the instructions.
+
+![](assets/onboarding.png){width="70%" align="left"}-->
 
 ## Supported browsers {#browsers}
 
@@ -202,17 +226,8 @@ Your default interface language is determined by the preferred language specifie
 To change your language:
 
 1. Click on your profile icon, on the top right, then select **Preferences**.
-
-    ![](assets/preferences.png){width="70%" align="left"}
-
-1. Then click the language displayed under your email address.
-
-    ![](assets/preferences2.png)
-
+1. Then click the language link displayed under your email address.
 1. Select your preferred language and click **Save**. You can select a second language in case the component you are using is not localized in your first language.
-
-    ![](assets/select-language.png)
-
 
 
 <!--
@@ -223,6 +238,11 @@ REFER TO
 https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
 
+
+>[!CONTEXTUALHELP]
+>id="acw_rulebuilder_advancedfields"
+>title="Rule builder advanced fields"
+>abstract="Configure columns with advanced fields."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
@@ -315,15 +335,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Permission required"
 >abstract="Your administrator must grant you permission before you can create a segment."
 
->[!CONTEXTUALHELP]
->id="acw_attributepicker_advancedfields"
->title="Attribute picker advanced fields"
->abstract="Configure columns with advanced fields."
 
->[!CONTEXTUALHELP]
->id="acw_rulebuilder_advancedfields"
->title="Rule builder advanced fields"
->abstract="Configure columns with advanced fields."
+
 
 
 
