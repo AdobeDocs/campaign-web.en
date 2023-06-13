@@ -22,7 +22,16 @@ Once you have defined your message content, you can utilize test profiles to pre
 
 1. In the right pane, you will find a preview of the email, where personalized elements are dynamically replaced with data from the selected profile.
 
-You can now review and send your SMS message to your audience.
+You can now review and send your push notification to your audience.
+
+## Test your push notification delivery {#test-send-sms}
+
+Using **Adobe Campaign**, you have the ability to test push notifications before sending them to your main audience. This step is important in validating your delivery and identifying any issues. 
+Test recipients can review elements such as links, images, and personalization settings, ensuring optimal performance and detecting any errors. This process helps you refine and optimize your push notifications before reaching your main audience.
+
+![](../assets/do-not-localize/book.png) Learn how to send test push notification in this [page](../preview-test/proofs.md).
+
+![](assets/push_send_6.png)
 
 ## Send your push notification delivery {#preview-send-push}
 

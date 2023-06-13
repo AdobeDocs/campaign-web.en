@@ -15,7 +15,7 @@ hide: yes
 + Get started with Adobe Campaign {#start}
   + [Get started](get-started/get-started.md)
   + [Discover the interface](get-started/user-interface.md)
-  + [Browse, search and filter lists](get-started/list-filters.md)
+  + [Browse, search, and filter lists](get-started/list-filters.md)
 + Messages & deliveries {#msg}
   + [Get started with messages](msg/gs-messages.md)
   + [Work with delivery templates](msg/delivery-template.md)
@@ -55,12 +55,12 @@ hide: yes
     + [Get started with push notifications](push/gs-push.md)
     + [Create a push notification delivery](push/create-push.md)
     + [Design a push delivery](push/content-push.md)
-    + [Send a push notification delivery](push/send-push.md)
+    + [Preview and send a push notification delivery](push/send-push.md)
   + SMS {#sms}
     + [Get started with SMS deliveries](sms/gs-sms.md)
     + [Create an SMS delivery](sms/create-sms.md)
     + [Design an SMS delivery ](sms/content-sms.md)
-    + [Send an SMS delivery ](sms/send-sms.md)
+    + [Preview and send an SMS delivery ](sms/send-sms.md)
   + Make your content dynamic {#dynamic-content}
     + [Get started with dynamic content](personalization/gs-personalization.md)
     + [Add personalization](personalization/personalize.md)

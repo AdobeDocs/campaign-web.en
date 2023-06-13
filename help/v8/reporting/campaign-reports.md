@@ -104,16 +104,26 @@ To access your Campaign report, click Reports from your campaign's dashboard.
 ### Non-deliverables {#non-deliverables-email}
 
 * **[!UICONTROL Breakdown of errors per type]** and **[!UICONTROL Breakdown of errors per domain]** tables and graphs contain the available data for possible errors encountered with each domain.
+    
+    The errors shown in this report trigger the quarantine process. For more on quarantine management, refer to [Quarantine management](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html).
 
     ![](assets/campaign_report_email_6.png)
 
     +++Learn more on Email campaign report metrics.
 
-    * **[!UICONTROL Errors]**: Total number of errors cumulated during deliveries and automatic rebound processing, in relation to the number of messages to be delivered.
+    * **[!UICONTROL User unknown]**: Error type generated during delivery to indicate that the email address is invalid.
 
-    * **[!UICONTROL Contribution]**: 
+    * **[!UICONTROL Invalid domain]**: Error type generated when sending a delivery to indicate that the domain of the email address is wrong or does not exist.
 
-    * **[!UICONTROL Breakdown]**: 
+    * **[!UICONTROL Mailbox full]**: Error type generated after five delivery attempts to indicate that the recipients’ inbox contains too many messages.
+
+    * **[!UICONTROL Account disabled]**: Error type generated when sending a delivery to indicate that the address no longer exists.
+
+    * **[!UICONTROL Refused]**: Error type generated when an address is rejected by the IAP (Internet Access Provider), for instance following the application of a security rule (anti-spam software).
+
+    * **[!UICONTROL Unreachable]**: Error type which occurs in the message distribution string: incident on the SMTP relay, domain temporarily unreachable, etc
+
+    * **[!UICONTROL Not connected]**: Error type to indicate that the recipients’ mobile phone is switched off or disconnected from the network at the time of sending.
 
     +++
 
@@ -169,6 +179,7 @@ To access your Campaign report, click Reports from your campaign's dashboard.
 
     * **[!UICONTROL Clicks]**: Total number of clicks on links in deliveries.
 
+    * **[!UICONTROL Platform average]** : This average rate, displayed under each rate (reactivity, distinct clicks, and cumulated clicks), is calculated for deliveries sent over the previous six months. Only deliveries with the same typology and on the same channel are taken into account. Proofs are excluded.
     +++
 
 * **[!UICONTROL Top 10 most visited links]** graph and table contain the available data for recipient behavior per link.
@@ -207,6 +218,8 @@ To access your Campaign report, click Reports from your campaign's dashboard.
 
 * **[!UICONTROL Delivery Overview]** provides key performance indicators (KPIs) that give detailed information about how your visitors engage with your SMS delivery.
     
+    ![](assets/campaign_report_sms_1.png)
+
     +++Learn more on SMS campaign report metrics.
 
     * **[!UICONTROL Total sent]**: Total number of messages processed during the delivery analysis.
@@ -221,6 +234,8 @@ To access your Campaign report, click Reports from your campaign's dashboard.
 
 * **[!UICONTROL Initial target audience statistics]** table displays data relative to your recipients:
 
+    ![](assets/campaign_report_sms_2.png)
+
     +++Learn more on SMS campaign report metrics.
 
     * **[!UICONTROL Initial audience]**: Total number of targeted recipients.
@@ -232,6 +247,8 @@ To access your Campaign report, click Reports from your campaign's dashboard.
     +++
 
 * **[!UICONTROL Execution statistics]** table details the success of your delivery:
+
+    ![](assets/campaign_report_sms_3.png)
 
     +++Learn more on SMS campaign report metrics.
 
@@ -246,6 +263,8 @@ To access your Campaign report, click Reports from your campaign's dashboard.
     +++
 
 * **[!UICONTROL Generated click streams]** table displays data relative to how your recipients interacted with your delivery:
+
+    ![](assets/campaign_report_sms_4.png)
 
     +++Learn more on SMS campaign report metrics.
 

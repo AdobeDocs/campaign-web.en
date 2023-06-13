@@ -11,6 +11,8 @@ badge: label="Alpha" type="Positive"
 >title="Push report summary"
 >abstract="Discover the reporting metrics for your Push delivery."
 
+The **Push delivery report** provides a thorough overview of the push channel, offering extensive insights and specific data. It offers comprehensive information regarding the performance, effectiveness, and results of each delivery.
+
 ## Push summary {#push-summary}
 
 * **[!UICONTROL Delivery overview]** provides key performance indicators (KPIs) that give detailed information about how your visitors engage with your Push messages.
@@ -40,8 +42,6 @@ badge: label="Alpha" type="Positive"
     * **[!UICONTROL Exclusions]**: Number of profiles that have been excluded from the analysis.
 
     +++
-
-
 
 * **Overall statistics** presents data for the sent push notifications, including:
 
