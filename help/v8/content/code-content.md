@@ -25,4 +25,4 @@ Use the **[!UICONTROL Code your own]** mode to import raw HTML and/or code your 
 
 1. Click the **[!UICONTROL Simulate content]** button to check the message design and personalization using test profiles. [Learn more](../preview-test/preview-test.md)
 
-
+1. Once your code is ready, click **[!UICONTROL Save & close]** to go back to the message creation screen and finalize your message.
