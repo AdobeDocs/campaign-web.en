@@ -6,7 +6,7 @@ badge: label="Alpha" type="Positive"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
 ---
 
-# Create your first campaign {#create-campaigns}
+# Create your first campaign {#create-first-campaigns}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
@@ -18,9 +18,9 @@ exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
 >title="Campaign properties"
 >abstract="Define your campaign settings and metadata."
 
-Campaigns can include workflows and standalone deliveries. Properties, schedule, work, deliv plus rien a faire schedule
+To create a new campaign, you need to define its properties, schedule and include workflows and deliveries.
 
-## Create the campaign
+## Create the campaign{#campaign-create}
 
 To create a new campaign, follow these steps:
 
@@ -50,10 +50,11 @@ Campaign monitoring is a key step to analyze your campaigns. Open your campaign,
 
 You can also view the dedicated reports by clicking the **Reports** button. See this [section](../reporting/campaign-reports.md).
 
-+++WORKF
-++screen
+
 
 <!--
+	+++WORKF
+++screen
 ## Create a cross-channel campaign {#cross-channel-campaign}
 
 

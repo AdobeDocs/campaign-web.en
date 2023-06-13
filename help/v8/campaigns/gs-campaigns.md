@@ -21,6 +21,12 @@ Campaigns offer dedicated reporting metrics to gain comprehensive insights into 
 
 ![Campaign flow](assets/campaign-flow.png)
 
+Refer to the following sections:
+
+* [Access and manage your campaigns](manage-campaigns.md).
+* [Create your first campaign](create-campaigns.md).
+
+
 
 <!--
 Use Adobe Campaign to create cross-channel campaigns. With its marketing campaign orchestration capabilities, you can manage and centralize customer data, design customer communications and campaigns, and create personalized experiences across different channels. In this version, email, push and SMS channels are available.
