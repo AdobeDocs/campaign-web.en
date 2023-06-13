@@ -14,7 +14,9 @@ badge: label="Alpha" type="Positive"
 ## Push summary {#push-summary}
 
 * **[!UICONTROL Delivery overview]** provides key performance indicators (KPIs) that give detailed information about how your visitors engage with your Push messages.
-    
+
+    ![](assets/reporting_push_3.png)
+
     +++Learn more on Push delivery report metrics.
 
     * **[!UICONTROL Total sent]**: Total number of messages processed during the delivery analysis.
@@ -27,9 +29,9 @@ badge: label="Alpha" type="Positive"
 
     +++
 
-    ![](assets/reporting_push_3.png) 
-
 * **Targeted population** graph and table display data relative to your audience:
+
+    ![](assets/reporting_push_4.png)
 
     +++Learn more on Push delivery report metrics.
 
@@ -39,9 +41,11 @@ badge: label="Alpha" type="Positive"
 
     +++
 
-    ![](assets/reporting_push_4.png) 
+
 
 * **Overall statistics** presents data for the sent push notifications, including:
+
+    ![](assets/reporting_push_5.png) 
 
     +++Learn more on Push delivery report metrics.
 
@@ -52,8 +56,6 @@ badge: label="Alpha" type="Positive"
     * **[!UICONTROL New quarantine]**:  Number of profiles that have been excluded and added to the quarantine.
 
     +++
-
-    ![](assets/reporting_push_5.png) 
 
 * **[!UICONTROL Exclusions]** graph and table display the various reasons that prevented user profiles, which were excluded from the targeted profiles, from receiving the message.
 

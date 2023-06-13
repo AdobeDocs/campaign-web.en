@@ -6,6 +6,18 @@ badge: label="Alpha" type="Positive"
 ---
 # Campaign reports {#campaign-reports}
 
+The Campaign report is divided into different widgets detailing your campaign’s success and errors.
+
+The Campaign report page will be displayed with the following tabs:
+
+* [Email channel](#email-channel) 
+* [SMS channel](#sms-channel)
+* [Push channel](#push-channel)
+
+To access your Campaign report, click Reports from your campaign's dashboard.
+
+![](assets/campaign_report_email_13.png) 
+
 ## Email channel {#email-channel}
 
 ### Delivery summary {#delivery-summary-email}
