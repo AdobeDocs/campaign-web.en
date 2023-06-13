@@ -19,6 +19,9 @@ By adding multiple workflows and deliveries specific to the campaign, you can cr
 
 Campaigns offer dedicated reporting metrics to gain comprehensive insights into the performance of your entire campaign, enabling you to assess its effectiveness, identify trends, and make data-driven decisions to optimize future efforts.
 
+![Campaign flow](assets/campaign-flow.png)
+
+
 <!--
 Use Adobe Campaign to create cross-channel campaigns. With its marketing campaign orchestration capabilities, you can manage and centralize customer data, design customer communications and campaigns, and create personalized experiences across different channels. In this version, email, push and SMS channels are available.
 
@@ -32,38 +35,3 @@ Adobe Campaign offers a set of solutions that help you personalize and deliver c
 
 Campaigns include actions (deliveries) and processes (importing or extracting files), as well as resources (marketing documents, delivery outlines). They are used in marketing campaigns. Campaigns are part of a program, and programs are included in a campaign plan.
 -->
-
-## Access and manage your campaigns{#access-campaigns}
-
-To create a new campaign or manage your existing campaigns, click the **[!UICONTROL Campaigns]** menu. 
-
-![Campaign list](assets/campaign-list.png)
-
-Two tabs are available:
-
-* The **Browse** tab lists all existing campaigns. You can click a campaign to open its dashboard or create a new campaign by clicking the **Create campaign** button. See this [section](create-campaigns.md#create-campaigns).
-
-* The **Templates** tab lists all available campaign templates. Campaign templates are pre-configured so that they can be reused when creating new campaigns. They are created from the client console. [Read more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html)
-
-Each campaign in the list displays information about its current status, creation date, the last time it was modified, etc.
-
-You can customize the displayed columns by clicking the **Configure column for a custom layout** icon located in the upper-right corner of the list. This allows you to add additional information to the list. In addition, a search bar and filters are available to facilitate easy searching within the list. [Learn more](../get-started/user-interface.md#list-screens)
-
-For example, you can filter on your campaign schedule. Open the filter panel and use the **Start - End Date** section:
-
-![Campaign filter](assets/campaign-filter-on-dates.png)
-
-## The campaign dashboard{#campaign-dashboard}
-
-In the **Browse** tab of the campaign list, click a campaign to display its dashboard. 
-
-![Campaign dashboard](assets/campaign-dashboard.png)
-
-The status and schedule of the campaign is displayed at the top of the screen. You can use the **Configure campaign settings** icon to modify the campaign's properties that were defined when creating the campaign. Three buttons are available that allow you to view logs, reporting, duplicate or delete the campaign. See this [section](create-campaigns.md#create-campaigns) 
-
-Two tabs are available:
-
-* The **Workflows** tab lists all workflows linked to the campaign. This tab also allows you to create a new workflow inside the campaign. See this [section](create-campaigns.md#create-campaigns) 
-
-* The **Deliveries** tab lists all deliveries linked to the campaign. You can also create a new delivery inside the campaign. See this [section](create-campaigns.md#create-campaigns) 
-

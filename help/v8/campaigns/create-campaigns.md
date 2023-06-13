@@ -6,7 +6,7 @@ badge: label="Alpha" type="Positive"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
 ---
 
-# Create cross-channel campaigns {#create-campaigns}
+# Create your first campaign {#create-campaigns}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
@@ -18,7 +18,9 @@ exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
 >title="Campaign properties"
 >abstract="Define your campaign settings and metadata."
 
-Campaigns can include workflows and standalone deliveries. 
+Campaigns can include workflows and standalone deliveries. Properties, schedule, work, deliv plus rien a faire schedule
+
+## Create the campaign
 
 To create a new campaign, follow these steps:
 
@@ -26,7 +28,7 @@ To create a new campaign, follow these steps:
 1. Select the **Template** to use and provide a label for the campaign. Campaign templates are pre-configured so that they can be reused for creating new campaigns. They are created from the client console.
 [Read more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html).
 1. If needed, you can change the following **Additional options**: internal name, folder, assignee, description and nature.
-1. Define the **Schedule** of your campaign. The campaign starts when the start date is reached. Start and end dates are displayed in the campaign list, and can be used as a filter. See this [section](gs-campaigns.md#access-campaigns).
+1. Define the **Schedule** of your campaign. The campaign starts when the start date is reached. Start and end dates are displayed in the campaign list, and can be used as a filter. See this [section](manage-campaigns.md#access-campaigns).
 
     ![Define your campaign properties](assets/campaign-properties.png)
 
@@ -42,23 +44,14 @@ To create a new campaign, follow these steps:
 
 1. Use the **Logs** and **Reporting** buttons to analyze your campaign's performance.
 
-## Monitoring and tracking logs{#campaign-monitoring}
+## Monitor and track your campaign{#campaign-monitoring}
 
 Campaign monitoring is a key step to analyze your campaigns. Open your campaign, and click the **Logs** button.
 
 You can also view the dedicated reports by clicking the **Reports** button. See this [section](../reporting/campaign-reports.md).
 
-## Duplicate and delete a campaign
-
-You can duplicate or delete a campaign:
-
-* from the list of campaigns, click the ellipsis button then select **Duplicate** or **Delete**.
-* from the campaign itself, click the **More** button then select **Duplicate** or **Delete**.
-
->[!NOTE]
->
->The **Deliveries** tab displays all deliveries linked to the campaign. However, deliveries created in a workflow cannot be deleted from there. To delete a delivery created in the context of a workflow, you must delete the delivery activity from the workflow.
-
++++WORKF
+++screen
 
 <!--
 ## Create a cross-channel campaign {#cross-channel-campaign}
