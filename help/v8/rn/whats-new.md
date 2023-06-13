@@ -50,7 +50,7 @@ In addition, all your data and settings already available in the client console 
 
 ## Terminology updates {#terminology-updates}
 
-As an existing Campaign user, note that some concepts have been renamed to align with the latest terminology standards. These changes only apply to Campaign Web UI and are not reflected in the Client Console. They are summarized below.
+As an existing Campaign user, note that some concepts have been renamed to align with the latest terminology standards. These changes only apply to Campaign Web UI and are not reflected in the client console. They are summarized below.
 
 * Proofs are now **Test emails**: to send a proof, use the **Test** button in the email delivery UI. The target of the proofs target is now refered as **Test profiles**.
 * Seed addresses are now used as **Test profiles**: send the test email to seed addresses, which are additional and fictitious recipients in the database.

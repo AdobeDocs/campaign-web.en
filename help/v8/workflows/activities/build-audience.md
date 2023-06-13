@@ -11,7 +11,7 @@ The **Build audience** activity is a **Targeting** activity. This activity allow
 
 To define the audience population, you can:
 
-* Select an existing audience, created as a list in the Client Console.
+* Select an existing audience, created as a list in the client console.
 * Select an Adobe Experience Platform audience. 
 * Build a new audience with the rule builder by defining and combining filtering criteria.
 
