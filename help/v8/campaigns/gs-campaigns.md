@@ -43,13 +43,13 @@ Two tabs are available:
 
 * The **Browse** tab lists all existing campaigns. You can click a campaign to open its dashboard or create a new campaign by clicking the **Create campaign** button. See this [section](create-campaigns.md#create-campaigns).
 
-* The **Templates** tab lists all available campaign templates. Campaign templates are pre-configured so that they can be reused for creating new campaigns. They are created from the client console. [Read more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html)
+* The **Templates** tab lists all available campaign templates. Campaign templates are pre-configured so that they can be reused when creating new campaigns. They are created from the client console. [Read more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html)
 
 Each campaign in the list displays information about its current status, creation date, the last time it was modified, etc.
 
 You can customize the displayed columns by clicking the **Configure column for a custom layout** icon located in the upper-right corner of the list. This allows you to add additional information to the list. In addition, a search bar and filters are available to facilitate easy searching within the list. [Learn more](../get-started/user-interface.md#list-screens)
 
-For example, you can filter on your campaign schedule. Open the filters panel and use the **Start - End Date** section:
+For example, you can filter on your campaign schedule. Open the filter panel and use the **Start - End Date** section:
 
 ![Campaign filter](assets/campaign-filter-on-dates.png)
 
@@ -64,5 +64,6 @@ The status and schedule of the campaign is displayed at the top of the screen. Y
 Two tabs are available:
 
 * The **Workflows** tab lists all workflows linked to the campaign. This tab also allows you to create a new workflow inside the campaign. See this [section](create-campaigns.md#create-campaigns) 
+
 * The **Deliveries** tab lists all deliveries linked to the campaign. You can also create a new delivery inside the campaign. See this [section](create-campaigns.md#create-campaigns) 
 
