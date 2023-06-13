@@ -13,10 +13,18 @@ exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
 >title="Design and send cross-channel campaigns"
 >abstract="Adobe Campaign capabilities help you manage centralized customer data, design customer communications and campaigns, and create personalized experiences across different channels: Email, Push and SMS."
 
-Use Adobe Campaign to create cross-channel campaigns. With its marketing campaign orchestration capabilities, you can manage and centralize customer data, design customer communications and campaigns, and create personalized experiences across different channels. In this version, email, push and SMS channels are available. 
+Adobe Campaign allows you to easily orchestrate your targeted marketing initiatives, using the built-in campaign management capability. With the ability to define a schedule, you can plan the duration and timing of your campaigns to align with strategic objectives and maximize audience engagement.
+
+By adding multiple workflows and deliveries specific to the campaign, you can create personalized experiences across various channels, ensuring that each touchpoint resonates with the intended audience.
+
+Campaigns offer dedicated reporting metrics to gain comprehensive insights into the performance of your entire campaign, enabling you to assess its effectiveness, identify trends, and make data-driven decisions to optimize future efforts.
+
+<!--
+Use Adobe Campaign to create cross-channel campaigns. With its marketing campaign orchestration capabilities, you can manage and centralize customer data, design customer communications and campaigns, and create personalized experiences across different channels. In this version, email, push and SMS channels are available.
 
 Design and execute high-volume email campaigns to deliver personalized messages, for all platforms and screen sizes. 
-Measure the effectiveness of your deliveries with detailed reports including the counts of opens, clicks, forwards, and more. With Adobe Campaign segmentation capabilities, you can run queries against a high-volume database, and easily define dynamic marketing segments which perfectly target your campaigns. 
+Measure the effectiveness of your deliveries with detailed reports including the counts of opens, clicks, forwards, and more. With Adobe Campaign segmentation capabilities, you can run queries against a high-volume database, and easily define dynamic marketing segments which perfectly target your campaigns.
+-->
 
 <!--
 Get Started with campaigns
@@ -33,34 +41,20 @@ To create a new campaign or manage your existing campaigns, click the **[!UICONT
 
 * The **Templates** tab lists all available campaign templates. Campaign templates are pre-configured so that they can be reused for creating new campaigns. They are created from the client console. [Read more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html).
 
+Each campaign in the list displays information about its current status, creation date, the last time it was modified, etc.
+
 You can customize the displayed columns by clicking the **Configure column for a custom layout** icon located in the upper-right corner of the list. This allows you to add additional information to the list. In addition, a search bar and filters are available to facilitate easy searching within the list. [Learn more](../get-started/user-interface.md#list-screens)
 
 For example, you can filter on your campaign schedule. Open the filters panel and use the **Start - End Date** section:
 
 ![Campaign list](assets/campaign-filter-on-dates.png)
 
-Each campaign in the list displays information about its current status, creation date, the last time it was modified, etc.
-
 ## The campaign dashboard{#campaign-dashboard}
 
-In the **Browse** tab, click a campaign to display its dashboard. Two tabs are available:
+In the **Browse** tab of the campaign list, click a campaign to display its dashboard. Two tabs are available:
 
 * The **Workflows** tab lists all workflows linked to the campaign. This tab also allows you to create a new workflow inside the campaign. See this [section](create-campaigns.md#create-campaigns) 
-* The **Deliveries** tab lists all deliveries linked to the campaign. This tab also allows you to create a new delivery inside the campaign. See this [section](create-campaigns.md#create-campaigns) 
+* The **Deliveries** tab lists all deliveries linked to the campaign. You can also create a new delivery inside the campaign. See this [section](create-campaigns.md#create-campaigns) 
 
 The **Configure campaign settings** icon allows you to modify the campaign's properties that were defined when creating the campaign. See this [section](create-campaigns.md#create-campaigns) 
-
-## Monitoring and tracking logs{#campaign-monitoring}
-
-Campaign monitoring is a key step to analyze your campaigns. They are accessible from the **Logs** button.
-
-You also view the dedicated reports by clicking the **Reports** button . See this [section](../reporting/campaign-reports.md)  
-
-## Duplicate and delete
-
-To duplicate or delete a campaign, click the ellipsis button then select **Duplicate** or **Delete**. You can also duplicate or delete a workflow or a delivery from the dashboard of a campaign. 
-
->[!NOTE]
->
->To delete a delivery that is inside a workflow, you need to delete it from the workflow.
 
