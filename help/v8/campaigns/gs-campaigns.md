@@ -23,8 +23,8 @@ Campaigns offer dedicated reporting metrics to gain comprehensive insights into 
 
 Refer to the following sections:
 
-* [Access and manage your campaigns](manage-campaigns.md).
-* [Create your first campaign](create-campaigns.md).
+* [Access and manage your campaigns](manage-campaigns.md)
+* [Create your first campaign](create-campaigns.md)
 
 
 

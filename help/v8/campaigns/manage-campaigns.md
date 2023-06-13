@@ -13,11 +13,11 @@ To create a new campaign or manage your existing campaigns, click the **[!UICONT
 
 In the campaign list, two tabs are available:
 
-![Campaign list](assets/campaign-list.png)
-
 * The **Browse** tab lists all existing campaigns. You can click a campaign to open its dashboard or create a new campaign by clicking the **Create campaign** button. See this [section](create-campaigns.md#create-campaigns).
 
 * The **Templates** tab lists all available campaign templates. Campaign templates are pre-configured so that they can be reused when creating new campaigns. They are created from the client console. [Read more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html)
+
+![Campaign list](assets/campaign-list.png)
 
 Each campaign in the list displays information about its current status, creation date, the last time it was modified, etc.
 
@@ -37,10 +37,9 @@ The status and schedule of the campaign is displayed at the top of the screen. Y
 
 Two tabs are available:
 
-* The **Workflows** tab lists all workflows linked to the campaign. This tab also allows you to create a new workflow inside the campaign. See this [section](create-campaigns.md#create-campaigns) 
+* The **Workflows** tab lists all workflows linked to the campaign. This tab also allows you to create a new workflow inside the campaign. See this [section](create-campaigns.md#create-campaigns).
 
-* The **Deliveries** tab lists all deliveries linked to the campaign. You can also create a new delivery inside the campaign. See this [section](create-campaigns.md#create-campaigns) 
-
+* The **Deliveries** tab lists all deliveries linked to the campaign. You can also create a new delivery inside the campaign. See this [section](create-campaigns.md#create-campaigns) .
 ## Duplicate and delete a campaign
 
 You can duplicate or delete a campaign:

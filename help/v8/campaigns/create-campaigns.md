@@ -34,19 +34,19 @@ To create a new campaign, follow these steps:
 
     >[!NOTE]
     >
-    >You can always modify these properties later, from the **Configure campaign settings** icon, next to the campaign label. See this [section](gs-campaigns.md#campaign-dashboard)
+    >You can always modify these properties later, from the **Configure campaign settings** icon, next to the campaign label. See this [section](gs-campaigns.md#campaign-dashboard).
 
 1. Click **Create**.
 1. Add workflows and deliveries to your campaign:
 
-     * From the **Workflows** tab, click **Create workflow**. A default workflow is automatically added when you create your campaign. Lean more on how to [create a workflow](../workflows/create-workflow.md)
+     * From the **Workflows** tab, click **Create workflow**. A default workflow is automatically added when you create your campaign. Lean more on how to [create a workflow](../workflows/create-workflow.md).
      * From the **Deliveries** tab, click **Create delivery**. [Learn more](../msg/gs-messages.md)
 
 1. Use the **Logs** and **Reporting** buttons to analyze your campaign's performance.
 
 ## Monitor and track your campaign{#campaign-monitoring}
 
-Campaign monitoring is a key step to analyze your campaigns. Open your campaign, and click the **Logs** button.
+Campaign monitoring is a key step to analyze your campaign's effectiveness. Open your campaign, and click the **Logs** button.
 
 You can also view the dedicated reports by clicking the **Reports** button. See this [section](../reporting/campaign-reports.md).
 
