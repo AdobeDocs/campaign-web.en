@@ -9,19 +9,21 @@ badge: label="Alpha"
 
 **[!UICONTROL Adobe Campaign]** allows you to test a message before sending it to the main audience.
 
-Sending test emails is an important step in validating your email campaign and identifying potential issues.
+Sending test deliveries is an important step in validating your campaign and identifying potential issues.
 
 The recipients of a test can check various elements such as links, opt-out links, images, and mirror pages, as well as detect any errors in the rendering, content, personalization settings and email configuration.
 
 ## Select the test recipients {#test-recipients}
 
-Test emails can be sent to two types of recipients: 
+Test messages can be sent to two types of recipients: 
 
-* **Test profiles** - send test emails to seed addresses, which are additional and fictitious recipients in the database. They can be created in the [!DNL Campaign] console into the **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** folder. Learn more in [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+* **Test profiles** - send test emails and SMS messages to seed addresses, which are additional and fictitious recipients in the database. They can be created in the [!DNL Campaign] console into the **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** folder. Learn more in [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
     
-* **Substitute from main target** - send test emails to a specific email address while impersonating an existing profile. This allows you to experience the email as the recipients would, giving you an accurate representation of the message that the profile will receive.
+* **Substitute from main target** - send test emails and SMS messages to a specific email address while impersonating an existing profile. This allows you to experience the email as the recipients would, giving you an accurate representation of the message that the profile will receive.
 
-To select the recipients of the email test, follow the steps below.
+* **Subscribers** - send test push notifications to specific subscribers
+
+To select the recipients of the delivery test, follow the steps below.
 
 1. Access the email [Edit content](../content/edit-content.md) screen or to the [Email Designer](../content/get-started-email-designer.md), then click the **[!UICONTROL Simulate content]** button.
 
