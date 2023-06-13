@@ -15,7 +15,7 @@ hide: yes
 + Get started with Adobe Campaign {#start}
   + [Get started](get-started/get-started.md)
   + [Discover the interface](get-started/user-interface.md)
-  + [Browse, search and filter lists](get-started/list-filters.md)
+  + [Browse, search, and filter lists](get-started/list-filters.md)
 + Messages & deliveries {#msg}
   + [Get started with messages](msg/gs-messages.md)
   + [Work with delivery templates](msg/delivery-template.md)

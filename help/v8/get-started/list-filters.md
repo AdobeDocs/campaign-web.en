@@ -21,11 +21,11 @@ In the **Configure columns** screen, add or remove columns, and change the order
 
 For example, for these settings:
 
-![](assets/columns.png){width="70%" align="left"}
+![](assets/columns.png){width="70%" align="left" zoomable="yes"}
 
 The list shows the following columns:
 
-![](assets/column-sample.png){width="70%" align="left"}
+![](assets/column-sample.png){width="70%" align="left" zoomable="yes"}
 
 Use the **Display advanced attributes** toggle to see all attributes for the current list. [Learn more](#adv-attributes)
 
@@ -39,7 +39,7 @@ For numeric or date columns, the **Up** arrow indicates that the list is sorted 
 
 To find items quicker, you can use the search bar, or filter the list based on contextual criteria. 
 
-![](assets/filter.png){width="70%" align="left"}
+![](assets/filter.png){width="70%" align="left" zoomable="yes"}
 
 For example, you can filter deliveries on their status, channel, contact date, or folder. You can also hide tests.
 
@@ -49,7 +49,7 @@ To create custom filters on data, browse to the bottom of the filters and click 
 
 Drag and drop attributes to build your filter criteria in the **Advanced filters** screen. 
 
-![](assets/custom-filter.png){width="70%" align="left"}
+![](assets/custom-filter.png){width="70%" align="left" zoomable="yes"}
 
 Use the **Display advanced attributes** toggle to see all attributes for the current list. [Learn more](#adv-attributes)
 
