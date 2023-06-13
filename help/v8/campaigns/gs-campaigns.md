@@ -51,27 +51,10 @@ For example, you can filter on your campaign schedule. Open the filters panel an
 
 ## The campaign dashboard{#campaign-dashboard}
 
-In the **Browse** tab, click a campaign to display its dashboard. Two tabs are available:
+In the **Browse** tab of the campaign list, click a campaign to display its dashboard. Two tabs are available:
 
 * The **Workflows** tab lists all workflows linked to the campaign. This tab also allows you to create a new workflow inside the campaign. See this [section](create-campaigns.md#create-campaigns) 
-* The **Deliveries** tab lists all deliveries linked to the campaign. This tab also allows you to create a new delivery inside the campaign. See this [section](create-campaigns.md#create-campaigns) 
+* The **Deliveries** tab lists all deliveries linked to the campaign. You can also create a new delivery inside the campaign. See this [section](create-campaigns.md#create-campaigns) 
 
 The **Configure campaign settings** icon allows you to modify the campaign's properties that were defined when creating the campaign. See this [section](create-campaigns.md#create-campaigns) 
-
-## Monitoring and tracking logs{#campaign-monitoring}
-
-Campaign monitoring is a key step to analyze your campaigns. Open your campaign, and click the **Logs** button.
-
-You can also view the dedicated reports by clicking the **Reports** button. See this [section](../reporting/campaign-reports.md).
-
-## Duplicate and delete
-
-You can duplicate or delete a campaign:
-
-* from the list of campaigns, click the ellipsis button then select **Duplicate** or **Delete**.
-* from the campaign itself, click the **More** button then select **Duplicate** or **Delete**.
-
->[!NOTE]
->
->The **Delivery** tab dispplays all deliveries linked to the campaign, but deliveries created in a workflow cannot be deleted from there. To delete a delivery created in the context of a workflow, you must delete the delivery activity from the workflow.
 
