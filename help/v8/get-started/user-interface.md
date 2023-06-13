@@ -275,12 +275,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]
->id="acw_targetdata_personalization_dashboard"
->title="Personalization"
->abstract="TBD"
-
-
->[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sending"
 >title="Reporting Sending"
 >abstract="Consult the sending indicators for the campaign reporting."
