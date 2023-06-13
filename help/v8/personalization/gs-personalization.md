@@ -10,7 +10,7 @@ role: Data Architect
 level: Intermediate
 ---
 
-# Get started with dynamic content
+# Get started with dynamic content {#start-dynamic-content}
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_dashboard"
