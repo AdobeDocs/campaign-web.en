@@ -18,27 +18,27 @@ Adobe Campaign offers two different reports:
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
-<a href="create-sms.md">
+<a href="email-report.md">
 <img alt="Lead" src="assets/do-not-localize/email_report.jpeg">
 </a>
-<div><a href="create-sms.md"><strong>Email delivery report</strong>
+<div><a href="email-report.md"><strong>Email delivery report</strong>
 </div>
 <p>
 </td>
 <td>
-<a href="push-reports.md">
+<a href="push-report.md">
 <img alt="Infrequent" src="assets/do-not-localize/push_report.jpeg">
 </a>
 <div>
-<a href="push-reports.md"><strong> Push delivery reporty<strong></strong></a>
+<a href="push-report.md"><strong> Push delivery reporty<strong></strong></a>
 </div>
 <p></td>
 <td>
-<a href="sms-reports.md">
+<a href="sms-report.md">
 <img alt="Validation" src="assets/do-not-localize/sms_report.png">
 </a>
 <div>
-<a href="sms-reports.md"><strong> SMS delivery report</strong></a>
+<a href="sms-report.md"><strong> SMS delivery report</strong></a>
 </div>
 <p>
 </td>
