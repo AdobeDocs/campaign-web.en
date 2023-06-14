@@ -22,9 +22,9 @@ To preview the content of your delivery, follow the steps below.
 
 1. To select the profiles that will be used to preview your personalized content, use:
 
-    * **[!UICONTROL Add test profile(s)]** for previewing email and SMS messages
+    * **[!UICONTROL Add test profile(s)]** for previewing email and SMS deliveries
 
-    * **[!UICONTROL Add subscribers]** for previewing push deliveries
+    * **[!UICONTROL Add subscriber(s)]** for previewing push notifications
 
 1. You can combine test profiles and profiles to preview your email or SMS message. 
 
