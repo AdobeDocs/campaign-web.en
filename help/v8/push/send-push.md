@@ -8,19 +8,19 @@ badge: label="Alpha"
 
 ## Preview your push notification delivery {#preview-push}
 
-Once you have defined your message content, you can utilize test profiles to preview and test the message. If you have included personalized content, you can examine how this content is displayed in the message by utilizing test profile data. This allows you to ensure that the message is being rendered correctly and that the personalized elements are being appropriately incorporated.
+Once you have defined your message content, you can utilize test subscribers to preview and test the message. If you have included personalized content, you can examine how this content is displayed in the message by utilizing test profile data. This allows you to ensure that the message is being rendered correctly and that the personalized elements are being appropriately incorporated.
 
 1. From your delivery content page, you can use **[!UICONTROL Simulate content]** to preview your personalized content.
 
     ![](assets/push_send_1.png)
 
-1. Click **[!UICONTROL Add test profile(s)]** to select one or several test profiles or profiles.
+1. Click **[!UICONTROL Add subscribers(s)]** to select one or several subscribers that you are going to use to display personalized data.
 
-1. Once your test profiles are selected, click **[!UICONTROL Select]**.
+1. Once your test subscribers are selected, click **[!UICONTROL Select]**.
 
     ![](assets/push_send_5.png)
 
-1. In the right pane, you will find a preview of the email, where personalized elements are dynamically replaced with data from the selected profile.
+1. In the right pane, you will find a preview of the push notification, where personalized elements are dynamically replaced with data from the selected profile. [Learn more on previewing deliveries](../preview-test/preview-content.md)
 
 You can now review and send your push notification to your audience.
 
