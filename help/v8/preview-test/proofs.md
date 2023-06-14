@@ -21,11 +21,11 @@ According to the channel you are using, test messages can be sent to three types
 
     They can be created in the [!DNL Campaign] console into the **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** folder. Learn more in [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
     
-* **[Substitute from main target](#substitution-profiles)** - Send **test emails and SMS** to a specific email address or phone number while impersonating an existing profile.
+* [Substitute from main target](#substitution-profiles) - Send **test emails and SMS** to a specific email address or phone number while impersonating an existing profile.
 
     This allows you to experience the message as the recipients would, giving you an accurate representation of the content that the profile will receive.
 
-* **[Subscribers](#subscribers)** - Send **test push notifications** to fictitious subscribers added to the database.
+* [Subscribers](#subscribers) - Send **test push notifications** to fictitious subscribers added to the database.
 
     Just as test profiles, they can be created in the [!DNL Campaign] console into the **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** folder. Learn more in [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
