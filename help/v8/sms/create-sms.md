@@ -46,7 +46,11 @@ exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
 
 1. Switch on the **[!UICONTROL Enable control]** group option to set a control group to measure the impact of your delivery allowing you to compare the behavior of the population which received the message with the behavior of contacts which did not. [Learn more](../audience/control-group.md)
 
-1. Click **[!UICONTROL Edit content]** to start designing the content of your SMS message.
+1. Click **[!UICONTROL Edit content]** to start designing the content of your SMS message. [Learn more](content-sms.md)
+
+    ![](assets/sms_create_4.png)
+
+    From this screen, you can also [simulate your content](../preview-test/preview-test.md) and [set up offers](../content/offers.md).
 
 1. To schedule your delivery to a specific date and time, switch on the **[!UICONTROL Enable scheduling]** option. After you initiate the delivery, the message will be automatically sent on the exact date and time that you have defined for the recipient.
 

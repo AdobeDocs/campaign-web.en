@@ -41,7 +41,6 @@ hide: yes
         + [Adjust vertical alignment and padding](content/alignment-and-padding.md)
         + [Define a style for links](content/styling-links.md)
         + [Add inline styling attributes](content/inline-styling.md)
-      + [Send offers](content/offers.md)
     + Send and monitor the email {#monitor}
       + [Prepare and send an email](monitor/prepare-send.md)
       + [Monitor delivery logs](monitor/delivery-logs.md)
@@ -61,6 +60,7 @@ hide: yes
     + [Add personalization](personalization/personalize.md)
     + [Add conditional content](personalization/conditions.md)
     + [Add built-in content blocks](personalization/content-blocks.md)
+  + [Send offers](content/offers.md)
   + Preview and test your delivery {#preview-test}
     + [About preview and test](preview-test/preview-test.md) 
     + [Preview the message content](preview-test/preview-content.md)
