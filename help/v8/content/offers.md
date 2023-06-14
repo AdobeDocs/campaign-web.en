@@ -67,7 +67,7 @@ Once you have configured the offers to propose into your delivery, you can inser
 
 ## Insert offers into the delivery {#insert}
 
-Offers can be added into the delivery using the [Expression Editor](v8/personalization/gs-personalization.md#access). They can be inserted either in the subject line or in the delivery body.
+Offers can be added into the delivery using the [Expression Editor](../personalization/gs-personalization.md#access). They can be inserted either in the subject line or in the delivery body.
 
 >[!CAUTION]
 >
