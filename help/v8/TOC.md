@@ -42,11 +42,6 @@ hide: yes
         + [Define a style for links](content/styling-links.md)
         + [Add inline styling attributes](content/inline-styling.md)
       + [Send offers](content/offers.md)
-    + Preview and test your email {#preview-test}
-      + [About preview and test](preview-test/preview-test.md) 
-      + [Preview email content](preview-test/preview-content.md)
-      + [Render your email](preview-test/email-rendering.md)
-      + [Send test emails](preview-test/proofs.md)
     + Send and monitor the email {#monitor}
       + [Prepare and send an email](monitor/prepare-send.md)
       + [Monitor delivery logs](monitor/delivery-logs.md)
@@ -66,6 +61,11 @@ hide: yes
     + [Add personalization](personalization/personalize.md)
     + [Add conditional content](personalization/conditions.md)
     + [Add built-in content blocks](personalization/content-blocks.md)
+  + Preview and test your delivery {#preview-test}
+    + [About preview and test](preview-test/preview-test.md) 
+    + [Preview the message content](preview-test/preview-content.md)
+    + [Send test deliveries](preview-test/proofs.md)
+    + [Render your email](preview-test/email-rendering.md)
 + Audiences & recipients {#audiences}
   + [Get started with audiences](audience/about-audiences.md)
   + [Select an existing audience](audience/add-audience.md)
