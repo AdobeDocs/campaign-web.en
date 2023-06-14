@@ -39,7 +39,7 @@ The steps to send offers with an email are as follows:
 
     If no category is specified, all the offers contained in the environment are taken into account by the Offer engine, unless an **[!UICONTROL Offer theme]** is selected.
 
-1. (optional) Enter a theme to filter categoroes. Themes are key words defined upstream in the categories. They act as a filter and let you refine the number of offers to be presented by selecting them in a set of categories. 
+1. (optional) Enter a theme to filter categories. Themes are key words defined upstream in the categories. They act as a filter and let you refine the number of offers to be presented by selecting them in a set of categories. 
 
 1. Use the **[!UICONTROL Propositions]** field to specify the number of offers you want to insert into the email.
 
