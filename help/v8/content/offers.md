@@ -35,7 +35,7 @@ The steps to send offers with an email are as follows:
 
     ![](assets/create-content-offers.png)
 
-1. To refine the engine's choice of offers, select a specific **[!UICONTROL Offer category]** in which offers are sorted.
+1. To refine the engine's choice of offers, select a specific **[!UICONTROL Offer category]** in which offers are sorted. When selecting a folder, all sub-folders are automatically included, and cannot be removed. Note that the UI does not reflect this behavior.
 
     If no category is specified, all the offers contained in the environment are taken into account by the Offer engine, unless an **[!UICONTROL Offer theme]** is selected.
 
