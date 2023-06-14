@@ -4,7 +4,7 @@ title: Send an SMS delivery
 description: Learn how to send SMS with Adobe Campaign Web
 badge: label="Alpha" 
 ---
-# Preview and send an SMS delivery {#send-sms}
+# Preview and send an SMS delivery {#send-sms-delivery}
 
 ## Preview your SMS delivery{#preview-sms}
 

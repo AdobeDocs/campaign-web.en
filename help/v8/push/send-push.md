@@ -4,7 +4,7 @@ title: Send a push notification delivery
 description: Learn how to send a push notification delivery with Adobe Campaign Web
 badge: label="Alpha" 
 ---
-# Preview and send a push notification delivery {#send-push}
+# Preview and send a push notification delivery {#send-push-delivery}
 
 ## Preview your push notification delivery {#preview-push}
 
