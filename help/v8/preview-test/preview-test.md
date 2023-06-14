@@ -5,7 +5,7 @@ description: Learn how to preview and test emails
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Alpha" 
 ---
-# About email preview and test {#about-preview-test}
+# About delivery preview and test {#about-preview-test}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate"

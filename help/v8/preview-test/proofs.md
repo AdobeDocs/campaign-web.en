@@ -1,73 +1,89 @@
 ---
 audience: end-user
-title: Send test emails
-description: Learn how to define and send test emails
+title: Send test deliveries
+description: Learn how to define and send test deliveries
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha" 
 ---
-# Send test emails {#send-test-emails}
+# Send test deliveries {#send-test-deliveries}
 
 **[!UICONTROL Adobe Campaign]** allows you to test a message before sending it to the main audience.
 
 Sending test deliveries is an important step in validating your campaign and identifying potential issues.
 
-The recipients of a test can check various elements such as links, opt-out links, images, or mirror pages, as well as detect any errors in the rendering, content, personalization settings and email configuration.
+The recipients of a test can check various elements such as links, opt-out links, images, or mirror pages, as well as detect any errors in the rendering, content, personalization settings and delivery configuration.
 
 ## Select the test recipients {#test-recipients}
 
-### For emails and SMS deliveries
+According to the channel you are using, test messages can be sent to three types of recipients: 
 
-When working with emails or SMS deliveries, test messages can be sent to two types of recipients: 
+* [Test profiles](#test-profiles) - Send **test emails and SMS** to seed addresses, which are additional and fictitious recipients in the database.
 
-* **Test profiles** - send test emails and SMS messages to seed addresses, which are additional and fictitious recipients in the database. They can be created in the [!DNL Campaign] console into the **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** folder. Learn more in [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+    They can be created in the [!DNL Campaign] console into the **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** folder. Learn more in [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
     
-* **Substitute from main target** - send test emails and SMS messages to a specific email address or phone number while impersonating an existing profile. This allows you to experience the message as the recipients would, giving you an accurate representation of the content that the profile will receive.
+* **[Substitute from main target](#substitution-profiles)** - Send **test emails and SMS** to a specific email address or phone number while impersonating an existing profile.
 
-To select the recipients of the test delivery, follow the steps below.
+    This allows you to experience the message as the recipients would, giving you an accurate representation of the content that the profile will receive.
 
-<!--Access the email [Edit content](../content/edit-content.md) screen or to the [Email Designer](../content/get-started-email-designer.md)-->
+* **[Subscribers](#subscribers)** - Send **test push notifications** to fictitious subscribers added to the database.
 
-1. Browse to the edit content screen of your delivery, then click the **[!UICONTROL Simulate content]** button.
+    Just as test profiles, they can be created in the [!DNL Campaign] console into the **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** folder. Learn more in [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+
+To select the recipients of a test delivery, follow the steps below according to the type of profiles you want to use.
+
+### Test profiles {#test-profiles}
+
+1. Browse to the edit content screen of your email or SMS delivery, then click the **[!UICONTROL Simulate content]** button.
 
 1. Click the **[!UICONTROL Test]** button.
+
+    >[!NOTE]
+    >
+    >If you have already selected profiles to [preview your delivery](preview-content.md), they are listed on the left pane.
 
     ![](assets/simulate-test-button-email.png)
 
 1. Use the **[!UICONTROL Mode]** drop-down list to choose the type of recipients that receive the test email or SMS delivery:
 
     * **Test profiles** to target fictitious recipients
+
+    If you have already selected profiles to [preview the message](preview-content.md) in the content simulation screen, those profiles are pre-selected as test recipients. You can clear your selection and/or add additional recipients using the **[!UICONTROL Add test profile(s)]** button.
     
-    * **Substitute from main target** to send a test to a specific email address while displaying data from an existing profile.
+    * **Substitute from main target** to send a test to a specific email address or phone number while displaying data from an existing profile. [Learn more](#substitution-profiles)
 
     ![](assets/simulate-profile-mode.png)
 
     >[!NOTE]
     >
-    >By default, the **[!UICONTROL Use test profiles]** mode is selected. If you have already selected profiles to preview the email in the content simulation screen, those profiles are pre-selected as test recipients. You can clear your selection and/or add additional recipients.
+    >By default, the **[!UICONTROL Use test profiles]** mode is selected.
 
-1. To send test emails or SMS deliveries to substitution profiles, choose the **[!UICONTROL Substitute from target]** mode, then follow these steps:
+1. To also send the final message to the recipients of the test delivery, select the **[!UICONTROL Include test population in the main target]** option.
 
-    1. Click the **[!UICONTROL Add address]** button and specify the email address or phone number that receives the test delivery.
+1. Once the test profiles are selected, you can [send the test delivery](#send-test).
 
-        You can enter any email address or phone number. This allows you to send test deliveries to any users, even if they are not users of [!DNL Adobe Campaign].
+### Substitution profiles {#substitution-profiles}
 
-    1. Select the profile from the target to use as substitute. You can also let [!DNL Adobe Campaign] select a random profile from the target. The profile data from the selected profile will be displayed in the test delivery.
+To send a test email or SMS to a specific email address or phone number while displaying data from an existing profile of the Campaign database, use substitution profiles.
 
-    1. Confirm the recipient and repeat the operation to add as many addresses or phone numbers as needed.
+To do so, the first steps are the same as when selecting [test profiles](#test-profiles), but choose the **[!UICONTROL Substitute from target]** mode and follow the steps below.
 
-        ![](assets/simulate-profile-substitute.png)
+1. Click the **[!UICONTROL Add address]** button and specify the email address or phone number that will receive the test delivery.
 
-1. Once the test recipients have been selected, you can [send the test delivery](#send-test).
+    You can enter any email address or phone number. This allows you to send test deliveries to any recipients, even if they are not users of [!DNL Adobe Campaign].
 
-    >[!NOTE]
-    >
-    >To also send the final email message to the recipients of the test email, select the **[!UICONTROL Include test population in the main target]** option.
+1. Select the profile from the database to use as substitute. You can also let [!DNL Adobe Campaign] select a random profile. The profile data from the selected profile will be displayed in the test delivery.
 
-### For push notifications {#push-notifications}
+1. Confirm the recipient and repeat the operation to add as many email addresses or phone numbers as needed.
 
-When working with push notifications, test messages can be sent to only one type of recipient: **Subscribers**, which are fictitious subscribers added to the database. Just as test profiles, they can be created in the [!DNL Campaign] console into the **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** folder. Learn more in [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+    ![](assets/simulate-profile-substitute.png)
 
-To select the recipients of the test push notification, follow the steps below.
+1. To also send the final message to the recipients of the test delivery, select the **[!UICONTROL Include test population in the main target]** option.
+
+1. Once the substitution profiles are selected, you can [send the test delivery](#send-test).
+
+### Subscribers {#subscribers}
+
+When working with push notifications, test deliveries can be only sent to subscribers. To select them, follow the steps below.
 
 1. Browse to the edit content screen of your delivery, then click the **[!UICONTROL Simulate content]** button.
 
@@ -75,11 +91,13 @@ To select the recipients of the test push notification, follow the steps below.
 
     ![](assets/simulate-test-button-push.png)
 
-1. If you have already selected subscribers to preview the email in the content simulation screen, those profiles are pre-selected as test subscribers. You can clear your selection and/or add additional subscribers.
+1. If you have already selected subscribers to [preview the delivery](preview-content.md) in the content simulation screen, those profiles are pre-selected as test subscribers. You can clear your selection and/or add additional subscribers using the dedicated button.
 
     ![](assets/simulate-test-subscribers.png)
 
 1. To also send the final push notification to the test subscribers, select the **[!UICONTROL Include test population in the main target]** option.
+
+1. Once the subscribers are selected, you can [send the test delivery](#send-test).
 
 ## Send the test delivery {#send-test}
 
@@ -93,11 +111,15 @@ To send the test delivery to the selected recipients, follow the steps below.
 
 1. Send as many tests as necessary until you have finalized the content of your delivery.
 
-Once this is done, you can [prepare and send your delivery](../monitor/prepare-send.md) to the main target.
+Once done, you can prepare and send your delivery to the main target. Learn how in the dedicated sections below:
 
-## Access sent test emails {#access-proofs}
+* [Send your email](../monitor/prepare-send.md)
+* [Send your push notification](../push/send-push.md#send-push)
+* [Send your SMS delivery](../sms/send-sms.md#send-sms)
 
-Once the test emails have been sent, you can access dedicated logs from the **[!UICONTROL View test log]** button.
+## Access sent test deliveries {#access-proofs}
+
+Once the test deliveries have been sent, you can access dedicated logs from the **[!UICONTROL View test log]** button.
 
 These logs allow you to access all the tests sent for the selected delivery, and to visualize specific statistics related to their sending. [Learn how to monitor delivery logs](../monitor/delivery-logs.md)
 

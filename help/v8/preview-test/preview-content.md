@@ -1,7 +1,7 @@
 ---
 audience: end-user
-title: Preview email content
-description: Learn how to preview your email content with Campaign Web UI
+title: Preview delivery content
+description: Learn how to preview your delivery content with Campaign Web UI
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Alpha" 
 ---
@@ -22,9 +22,9 @@ To preview the content of your delivery, follow the steps below.
 
 1. To select the profiles that will be used to preview your personalized content, use:
 
-    * the **[!UICONTROL Add test profile(s)]** button for previewing email and SMS messages
+    * **[!UICONTROL Add test profile(s)]** for previewing email and SMS messages
 
-    * the **[!UICONTROL Add subscribers]** button for previewing push deliveries
+    * **[!UICONTROL Add subscribers]** for previewing push deliveries
 
 1. You can combine test profiles and profiles to preview your email or SMS message. 
 
@@ -44,13 +44,14 @@ To preview the content of your delivery, follow the steps below.
 
     ![](assets/simulate-preview.png)
 
-1. If you have added multiple profiles, you can switch between them in the list to preview the corresponding email content. You can also add more test profiles and clear your selection using the corresponding buttons on the left pane.
+1. If you have added multiple profiles, you can switch between them in the list to preview the corresponding delivery content. You can also add more test profiles and clear your selection using the corresponding buttons on the left pane.
 
-1. You can adjust the **[!UICONTROL Zoom level]** and preview your content on desktop or mobile device using the dedicated icon in the top right corner.
+1. For email deliveries, you can adjust the **[!UICONTROL Zoom level]** and preview your content on desktop or mobile device using the dedicated icon in the top right corner.
 
 1. From the **[!UICONTROL Simulate]** screen you can also:
-    * Send test emails to specific recipients for validation - [Learn more](proofs.md)
-    * For email only, check the message rendering in popular email clients - [Learn more](email-rendering.md)
+    * Send test deliveries to specific recipients for validation - [Learn more](proofs.md)
+    * Access the logs of the sent test deliveries - [Learn more](proofs.md#access-proofs)
+    * For email only, check the message content rendering in popular email clients - [Learn more](email-rendering.md)
 
 
 
