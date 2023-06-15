@@ -50,4 +50,4 @@ You can duplicate or delete a campaign:
 
 >[!NOTE]
 >
->The **Deliveries** tab displays all deliveries linked to the campaign. However, deliveries created in a workflow cannot be deleted from there. To delete a delivery created in the context of a workflow, you must delete the delivery activity from the workflow.
+>The **Deliveries** tab displays all deliveries linked to the campaign. However, deliveries created in a workflow cannot be deleted from there. To delete a delivery created in the context of a workflow, you must delete the delivery activity from the workflow. [Learn more](../msg/gs-messages.md#delivery-delete).
