@@ -43,13 +43,9 @@ To select the recipients of a test delivery, follow the steps below according to
 
     ![](assets/simulate-test-button-email.png)
 
-1. Use the **[!UICONTROL Mode]** drop-down list to choose the type of recipients that receive the test email or SMS delivery:
+1. From the **[!UICONTROL Mode]** drop-down list, choose **Test profiles** to target fictitious recipients that will receive the test email or SMS delivery.
 
-    * **Test profiles** to target fictitious recipients
-
-    If you have already selected profiles to [preview the message](preview-content.md) in the content simulation screen, those profiles are pre-selected as test recipients. You can clear your selection and/or add additional recipients using the **[!UICONTROL Add test profile(s)]** button.
-    
-    * **Substitute from main target** to send a test to a specific email address or phone number while displaying data from an existing profile. [Learn more](#substitution-profiles)
+1. If you have already selected profiles to [preview the message](preview-content.md) in the content simulation screen, those profiles are pre-selected as test recipients. You can clear your selection and/or add additional recipients using the **[!UICONTROL Add test profile(s)]** button.
 
     ![](assets/simulate-profile-mode.png)
 
@@ -63,9 +59,21 @@ To select the recipients of a test delivery, follow the steps below according to
 
 ### Substitution profiles {#substitution-profiles}
 
-To send a test email or SMS to a specific email address or phone number while displaying data from an existing profile of the Campaign database, use substitution profiles.
+To send a test email or SMS to a specific email address or phone number while displaying data from an existing profile of the [!DNL Campaign] database, use substitution profiles.
 
-To do so, the first steps are the same as when selecting [test profiles](#test-profiles), but choose the **[!UICONTROL Substitute from target]** mode and follow the steps below.
+1. Before sending a test, make sure you define an audience for you delivery. [Learn more](../audience/about-audiences.md)
+
+1. Browse to the edit content screen of your email or SMS delivery, then click the **[!UICONTROL Simulate content]** button.
+
+1. Click the **[!UICONTROL Test]** button.
+
+    >[!NOTE]
+    >
+    >If you have already selected profiles to [preview your delivery](preview-content.md), they are listed on the left pane.
+
+    ![](assets/simulate-test-button-email.png)
+
+1. From the **[!UICONTROL Mode]** drop-down list, choose **Substitute from main target** to send a test to a specific email address or phone number while displaying data from an existing profile.
 
 1. Click the **[!UICONTROL Add address]** button and specify the email address or phone number that will receive the test delivery.
 
