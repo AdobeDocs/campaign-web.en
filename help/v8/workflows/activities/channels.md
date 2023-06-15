@@ -1,15 +1,15 @@
 ---
 audience: end-user
-title: Use the Email workflow activity
-description: Learn how to use the Email workflow activity
+title: Use a delivery workflow activity
+description: Learn how to add a delivery workflow activity (Email, Push, SMS)
 badge: label="Alpha" 
 ---
 
 # Email, SMS, Push {#channel}
 
-Adobe Campaign Web allows you to automate and execute marketing campaigns across multiple channels, such as email, SMS, or push. You can combine channel activities into the canvas to create cross-channel workflows that can trigger actions based on customer behavior. 
+Adobe Campaign Web allows you to automate and execute marketing campaigns across email, SMS and push channels. You can combine channel activities into the workflow canvas to create cross-channel workflows that can trigger actions based on customer behavior and data. 
 
-For example, you can create a welcome email campaign that includes a series of messages across different channels, such as email, SMS, and push. You can also send a follow-up email after a customer has completed a purchase or send a personalized birthday message to a customer via SMS. 
+For example, you can create a welcome email campaign that includes a series of messages across different channels, such as email, SMS, and push. You can also send a follow-up email after a customer has completed a purchase, or send a personalized birthday message to a customer via SMS. 
 
 By using channel activities, you can create comprehensive and personalized campaigns that engage customers across multiple touchpoints and drive conversions.
 
@@ -21,15 +21,24 @@ Here are the steps to add a **Channel** activity in a workflow:
 
 1. Select a delivery activity: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification (Android)]** or **[!UICONTROL Push notification (iOS)]**.
 
-1. Select a **Template**. Templates are pre-configured delivery settings saved for future use. [Learn more](../../msg/delivery-template.md)
+1. Select a delivery **Template**. Templates are pre-configured delivery settings, specific to a channel. A built-in template is available for each channel, and pre-filled by default. [Learn more](../../msg/delivery-template.md)
 
-1. Click **Create delivery** and define your message the same way you create a standalone delivery. This is also where you will define the delivery settings, schedule and simulate the content. [Learn more](../../msg/gs-messages.md)
+    ![](../assets/delivery-activity-in-wf.png)
+   
 
-1. Navigate back to your workflow and click **Start** to launch your workflow.
+    You can select another template from the channel activity configuration left pane. If the previously selected audience is not compatible with the channel, then you cannot select a template. To solve this, update the **Build audience** activity to select an audience with the correct target mapping. Learn more about target mappings in [Adobe Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
 
-    By default, initiating a delivery workflow triggers the message preparation stage, without immediately sending the message.
+1. Click **Create delivery**. Your delivery is now available in the delivery list. 
+
+1. Define your message settings and content the same way you create a standalone delivery. You can also schedule and simulate the content. [Learn more](../../msg/gs-messages.md)
+
+1. Navigate back to your workflow and save your changes.
+
+1. Click **Start** to launch your workflow.
+
+    By default, starting a workflow triggers the message preparation stage, without immediately sending the message.
     
-1. Click **Review & send** from the channel activity to confirm the sending.
+1. Open your delivery activity to confirm the sending from the **Review & send** button.
 
 1. From your delivery dashboard, click **Send**.
 

@@ -8,7 +8,7 @@ badge: label="Alpha"
 
 # Send offers {#offers-content}
 
-Adobe Campaign v8 Web allows you to send with your deliveries offers that have been created in the console using the **[!UICONTROL Interaction]** module. For more information on Interaction and how to manage an offer catalog in the console, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
+Adobe Campaign v8 Web allows you to send with your deliveries offers that have been created in the console using the **[!UICONTROL Interaction]** module. For more information on Interaction and how to manage an offer catalog in the console, refer to the [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
 
 The steps to send offers with an delivery are as follows:
 
@@ -33,7 +33,7 @@ The steps to send offers with an delivery are as follows:
 
 1. Configure which offers should be proposed to the recipients.
 
-    First select the **[!UICONTROL Offer space]** that matches your offer environment. Learn how to create an offer space in the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html){target="_blank"}
+    First select the **[!UICONTROL Offer space]** that matches your offer environment. Learn how to create an offer space in the [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html){target="_blank"}
 
     ![](assets/create-content-offers.png)
 

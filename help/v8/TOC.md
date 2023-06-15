@@ -91,7 +91,7 @@ hide: yes
     + [And-join](workflows/activities/and-join.md)
     + [Build audience](workflows/activities/build-audience.md)
     + [Combine](workflows/activities/combine.md)
-    + [Email, SMS, Push](workflows/activities/email.md)
+    + [Email, SMS, Push](workflows/activities/channels.md)
     + [Enrichment](workflows/activities/enrichment.md)
     + [Fork](workflows/activities/fork.md)
     + [Wait](workflows/activities/wait.md)

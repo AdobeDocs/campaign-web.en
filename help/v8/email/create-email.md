@@ -122,7 +122,7 @@ In this use case, you send the email to an existing audience. Additional instruc
     >
     >Audiences available in the list originate either from your Campaign v8 instance or from Adobe Experience Platform if the Destination / Sources integration has been configured on your instance.
     >
-    >The Destination / Sources integration allows you to send Experience Platform segments to Adobe Campaign, and to send Campaign delivery and tracking logs over to Adobe Experience Platform. [Learn how work with Campaign and Adobe Experience Platform](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
+    >The Destination / Sources integration allows you to send Experience Platform segments to Adobe Campaign, and to send Campaign delivery and tracking logs over to Adobe Experience Platform. Learn how work with Campaign and Adobe Experience Platform in [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
 
 1. Once the audience is selected, you can further refine the target by applying additional rules.
 

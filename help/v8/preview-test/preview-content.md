@@ -32,9 +32,9 @@ To preview the content of your delivery, follow the steps below.
     
         >[!NOTE]
         >
-        >Test profiles can be created in the [!DNL Campaign] console into the **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** folder. Learn more in [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+        >Test profiles can be created in the [!DNL Campaign] console into the **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** folder. Learn more in [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.
 
-    * The **[!UICONTROL Profiles]** tab lists all the recipients stored into the **[!UICONTROL Profiles and Targets]** folder from the [!DNL Campaign] console. [Learn more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html){target="_blank"}
+    * The **[!UICONTROL Profiles]** tab lists all the recipients stored into the **[!UICONTROL Profiles and Targets]** folder from the [!DNL Campaign] console. Learn more in [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html){target="_blank"}.
 
     ![](assets/simulate-select-profiles.png)
 
