@@ -11,8 +11,8 @@ badge: label="Alpha"
 >id="acw_deliveries_simulate"
 >title="Preview and test your messages"
 >abstract="Once your message content has been defined, you can use test profiles to preview and test it."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/preview-content.html" text="Preview the delivery content"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/proofs.html" text="Send test messages"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-content.html" text="Preview the delivery content"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-test.html" text="Send test messages"
 
 Once your delivery content has been defined, you can use test profiles to preview and test it before sending the message.
 
