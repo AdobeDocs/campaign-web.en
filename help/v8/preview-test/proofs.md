@@ -43,11 +43,11 @@ To select the recipients of a test delivery, follow the steps below according to
 
     ![](assets/simulate-test-button-email.png)
 
-1. From the **[!UICONTROL Mode]** drop-down list, choose **Test profiles** to target fictitious recipients that will receive the test email or SMS delivery.
-
-1. If you have already selected profiles to [preview the message](preview-content.md) in the content simulation screen, those profiles are pre-selected as test recipients. You can clear your selection and/or add additional recipients using the **[!UICONTROL Add test profile(s)]** button.
+1. From the **[!UICONTROL Mode]** drop-down list, choose **[!UICONTROL Test profiles]** to target fictitious recipients that will receive the test email or SMS delivery.
 
     ![](assets/simulate-profile-mode.png)
+
+1. If you have already selected profiles to [preview the message](preview-content.md) in the content simulation screen, those profiles are pre-selected as test recipients. You can clear your selection and/or add additional recipients using the **[!UICONTROL Add test profile(s)]** button.
 
     >[!NOTE]
     >
@@ -67,17 +67,21 @@ To send a test email or SMS to a specific email address or phone number while di
 
 1. Click the **[!UICONTROL Test]** button.
 
-    >[!NOTE]
-    >
-    >If you have already selected profiles to [preview your delivery](preview-content.md), they are listed on the left pane.
-
     ![](assets/simulate-test-button-email.png)
 
-1. From the **[!UICONTROL Mode]** drop-down list, choose **Substitute from main target** to send a test to a specific email address or phone number while displaying data from an existing profile.
+1. From the **[!UICONTROL Mode]** drop-down list, choose **[!UICONTROL Substitute from main target]** to send a test to a specific email address or phone number while displaying data from an existing profile.
+
+    >[!CAUTION]
+    >
+    >If you have not selected an [audience](../audience/about-audiences.md) for your delivery, the **[!UICONTROL Substitute from main target]** option will be greyed out and you will not be able to select substitution profiles.
 
 1. Click the **[!UICONTROL Add address]** button and specify the email address or phone number that will receive the test delivery.
 
-    You can enter any email address or phone number. This allows you to send test deliveries to any recipients, even if they are not users of [!DNL Adobe Campaign].
+    ![](assets/simulate-add-substitution-address.png)
+
+    >[!NOTE]
+    >
+    >You can enter any email address or phone number. This allows you to send test deliveries to any recipients, even if they are not users of [!DNL Adobe Campaign].
 
 1. Select the profile from the database to use as substitute. You can also let [!DNL Adobe Campaign] select a random profile. The profile data from the selected profile will be displayed in the test delivery.
 
@@ -99,7 +103,9 @@ When working with push notifications, test deliveries can be only sent to subscr
 
     ![](assets/simulate-test-button-push.png)
 
-1. If you have already selected subscribers to [preview the delivery](preview-content.md) in the content simulation screen, those profiles are pre-selected as test subscribers. You can clear your selection and/or add additional subscribers using the dedicated button.
+1. If you have already selected subscribers to [preview the delivery](preview-content.md) in the content simulation screen, those profiles are pre-selected as test subscribers.
+
+    You can clear your selection and/or add additional subscribers using the dedicated button.
 
     ![](assets/simulate-test-subscribers.png)
 
