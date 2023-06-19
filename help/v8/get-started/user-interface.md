@@ -56,10 +56,7 @@ For more information about the Campaign explorer, folder hierarchy and resources
 >title="Campaigns"
 >abstract="This is the list of your campaigns. You can view useful information such as their start/end/last modification dates, as well as their status. You can filter the list by status or start/end dates. Click the 'Create campaign' button to add a new campaign. Select a campaign to view its content, deliveries, and details. Browse to the 'Templates' tab to view and create templates."
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_list"
->title="Deliveries"
->abstract="Browse through your list of deliveries. You can view their status, contact and modification dates, key KPIs. You can filter the list by state, contact date or channel. Click the 'Create delivery' button to add a new delivery. Select a delivery to view its content, audience, and details."
+
 
 In the CAMPAIGN MANAGEMENT section, you can access marketing campaigns, deliveries, and workflows.
 
@@ -190,15 +187,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Errors Metrics"
 >abstract="Number of emails with the error status."
 
->[!CONTEXTUALHELP]
->id="acw_email_preview_option_test_target"
->title="Test population"
->abstract="Select a test population mode."
 
->[!CONTEXTUALHELP]
->id="acw_email_preview_mode"
->title="Preview mode"
->abstract="Preview and test the message by including the test population to the main target."
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_enrichmentdata"

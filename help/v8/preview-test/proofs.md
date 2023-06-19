@@ -7,6 +7,11 @@ badge: label="Alpha"
 ---
 # Send test deliveries {#send-test-deliveries}
 
+>[!CONTEXTUALHELP]
+>id="acw_email_preview_mode"
+>title="Preview mode"
+>abstract="Preview and test the message by including the test population to the main target."
+
 **[!UICONTROL Adobe Campaign]** allows you to test a message before sending it to the main audience.
 
 Sending test deliveries is an important step in validating your campaign and identifying potential issues.
@@ -14,6 +19,15 @@ Sending test deliveries is an important step in validating your campaign and ide
 The recipients of a test can check various elements such as links, opt-out links, images, or mirror pages, as well as detect any errors in the rendering, content, personalization settings and delivery configuration.
 
 ## Select the test recipients {#test-recipients}
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_email_preview_option_test_target"
+>title="Test population"
+>abstract="Select a test population mode."
+
+
 
 According to the channel you are using, test messages can be sent to three types of recipients: 
 
@@ -32,6 +46,7 @@ According to the channel you are using, test messages can be sent to three types
 To select the recipients of a test delivery, follow the steps below according to the type of profiles you want to use.
 
 ### Test profiles {#test-profiles}
+
 
 1. Browse to the edit content screen of your email or SMS delivery, then click the **[!UICONTROL Simulate content]** button.
 

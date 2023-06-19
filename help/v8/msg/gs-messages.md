@@ -7,6 +7,10 @@ exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 ---
 # Get started with messages{#gs-messages}
 
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_list"
+>title="Deliveries"
+>abstract="Browse through your list of deliveries. You can view their status, contact and modification dates, key KPIs. You can filter the list by state, contact date or channel. Click the 'Create delivery' button to add a new delivery. Select a delivery to view its content, audience, and details."
 With Adobe Campaign, you can send cross-channel campaigns including emails, SMS, and Push notifications, and measure their effectiveness using various dedicated reports. 
 
 These messages are designed and sent though deliveries, and can be personalized for each recipient. These deliveries can be standalone or included in the context of a marketing campaign.
@@ -46,6 +50,7 @@ Adobe Campaign v8 comes with the following delivery channels: Email, SMS and Mob
 
 
 ## Create a delivery {#create-delivery}
+
 
 You can create standalone deliveries from the **[!UICONTROL Deliveries]** left menu, or create deliveries in the context of a marketing campaign, from the **[!UICONTROL Campaigns]** left menu. 
 
