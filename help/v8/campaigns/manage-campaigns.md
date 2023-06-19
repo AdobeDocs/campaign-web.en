@@ -7,7 +7,7 @@ badge: label="Alpha"
 
 # Access and manage your campaigns{#manage-campaigns}
 
-To create a new campaign or manage your existing campaigns, click the **[!UICONTROL Campaigns]** menu. 
+To create a new campaign, or manage your existing campaigns, click the **[!UICONTROL Campaigns]** menu on the left navigation. 
 
 ## The campaign list{#access-campaigns}
 
@@ -19,9 +19,9 @@ In the campaign list, two tabs are available:
 
 ![Campaign list](assets/campaign-list.png)
 
-Each campaign in the list displays information about its current status, creation date, the last time it was modified, etc.
+By default, each campaign in the list displays information about its current status, creation date, the last time it was modified, etc.
 
-You can customize the displayed columns by clicking the **Configure column for a custom layout** icon located in the upper-right corner of the list. This allows you to add additional information to the list. In addition, a search bar and filters are available to facilitate easy searching within the list. [Learn more](../get-started/user-interface.md#list-screens)
+You can customize the displayed columns by clicking the **Configure column for a custom layout** icon located in the upper-right corner of the list. This allows you to add additional information to the list. In addition, a search bar and filters are available to facilitate easy searching within the list. [Learn more](../get-started/user-interface.md#list-screens).
 
 For example, you can filter on your campaign schedule. Open the filter panel and use the **Start - End Date** section:
 
@@ -39,7 +39,7 @@ Two tabs are available:
 
 * The **Workflows** tab lists all workflows linked to the campaign. This tab also allows you to create a new workflow inside the campaign. See this [section](create-campaigns.md#create-campaigns).
 
-* The **Deliveries** tab lists all deliveries linked to the campaign. You can also create a new delivery inside the campaign. See this [section](create-campaigns.md#create-campaigns).
+* The **Deliveries** tab lists all deliveries linked to the current campaign. You can also create a new delivery inside the campaign. See this [section](create-campaigns.md#create-campaigns).
 
 ## Duplicate and delete a campaign
 

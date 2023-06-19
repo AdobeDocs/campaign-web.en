@@ -17,11 +17,11 @@ Adobe Campaign allows you to easily orchestrate your targeted marketing initiati
 
 By adding multiple workflows and deliveries specific to the campaign, you can create personalized experiences across various channels, ensuring that each touchpoint resonates with the intended audience.
 
-Campaigns offer dedicated reporting metrics to gain comprehensive insights into the performance of your entire campaign, enabling you to assess its effectiveness, identify trends, and make data-driven decisions to optimize future efforts.
+Campaigns offer dedicated reporting metrics to gain comprehensive insights into the performance of your entire campaign, enabling you to assess its effectiveness, identify trends, and make data-driven decisions to optimize future efforts. Discover how to access and understand campaign reports in [this section](../reporting/campaign-reports.md).
 
 ![Campaign flow](assets/campaign-flow.png)
 
-Refer to the following sections:
+Learn how to create and manage campaigns in the following sections:
 
 * [Access and manage your campaigns](manage-campaigns.md)
 * [Create your first campaign](create-campaigns.md)

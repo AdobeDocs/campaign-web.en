@@ -75,7 +75,7 @@ hide: yes
   + [Set a control group](audience/control-group.md)
 + Cross-channel campaigns {#campaigns}
   + [Get started with campaigns](campaigns/gs-campaigns.md)
-  + [Manage your campaigns](campaigns/manage-campaigns.md)
+  + [Access & manage campaigns](campaigns/manage-campaigns.md)
   + [Create your first campaign](campaigns/create-campaigns.md)
 + Workflows {#wf}
   + [Get started with workflows](workflows/gs-workflows.md)
