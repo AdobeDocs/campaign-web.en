@@ -13,7 +13,6 @@ badge: label="Alpha"
 >title="Get started with emails"
 >abstract="Start from a template, or use Adobe Campaign's new Email Designer to create emails without having to write a single line of code. Learn how to use the Email Designer to create your content, preview and test it, and send an email to an existing audience in an end-to-end use case."
 
-
 Learn how to create your first targeted email. In this use case, you schedule the sending of an email to Silver and Gold loyalty members on a specific date.
 
 Based on a predefined design template, the email also features personalized content based on customer profile attributes.
@@ -87,12 +86,6 @@ In this use case, you use a predefined email [delivery template](../msg/delivery
 
     ![](assets/select-template.png)
 
-    <!--1. Select the HTML or ZIP file to import then click **[!UICONTROL Next]**.
-
-    If your folder contains assets, choose the instance and folder where they should be stored then click **[!UICONTROL Import]**. (+ link to doc on assets?)
-
-    ![](assets/import-folder.png)-->
-
 1. Once you have selected the template, it is displayed in the [Email Designer](../content/create-email-content.md), where you can make any necessary edits and add personalization.
 
     For example, to add personalization to the email title, select the component block and click **[!UICONTROL Add Personalization]**.
@@ -163,9 +156,8 @@ Additional information on how to preview and test emails are available in [this 
 
     ![](assets/preview.png)
 
-   <!-- !NOTE
-    >
-    >Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering-->
+    <!--Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering
+    -->
 
 1. To send test versions of your email, click the **[!UICONTROL Test]** button then choose the mode you want to use.
 
