@@ -14,7 +14,7 @@ badge: label="Alpha"
 
 **[!UICONTROL Adobe Campaign]** allows you to test a message before sending it to the main audience.
 
-Sending test deliveries is an important step in validating your campaign and identifying potential issues.
+Sending test deliveries (previously known as 'proofs') is an important step in validating your campaign and identifying potential issues.
 
 The recipients of a test can check various elements such as links, opt-out links, images, or mirror pages, as well as detect any errors in the rendering, content, personalization settings and delivery configuration.
 

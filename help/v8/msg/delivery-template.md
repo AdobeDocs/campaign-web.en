@@ -164,7 +164,7 @@ You can test the rendering of any delivery template, whether created from scratc
 
 1. Toggle between the different profiles to get a personalized representation of the message according to the selected profile.
 
-    <!--[Learn moreon test profiles](../preview-test/proofs.md#recipients)-->
+    <!--[Learn moreon test profiles](../preview-test/test-deliveries.md#recipients)-->
 
     You can also adjust the zoom level and choose the desktop or mobile view.
 

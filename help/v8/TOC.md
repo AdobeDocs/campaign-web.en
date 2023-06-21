@@ -64,7 +64,7 @@ hide: yes
   + Preview and test your delivery {#preview-test}
     + [About preview and test](preview-test/preview-test.md) 
     + [Preview the message content](preview-test/preview-content.md)
-    + [Send test deliveries](preview-test/proofs.md)
+    + [Send test deliveries](preview-test/test-deliveries.md)
     + [Render your email](preview-test/email-rendering.md)
 + Audiences & recipients {#audiences}
   + [Get started with audiences](audience/about-audiences.md)
