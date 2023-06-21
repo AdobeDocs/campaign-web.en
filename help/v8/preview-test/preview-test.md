@@ -21,7 +21,7 @@ This is an crucial step to ensure that it is accurate but also free of errors bo
 To do this, [!DNL Adobe Campaign] allows you to:
 
 * [Preview the message content and personalization](preview-content.md)
-* [Send test deliveries](proofs.md) to specific recipients or subscribers for testing and validation
+* [Send test deliveries](test-deliveries.md) (proofs) to specific recipients or subscribers for testing and validation
 * [Check the email rendering](email-rendering.md) in popular desktop, mobile and web-based clients
 
 These actions can be performed using the **[!UICONTROL Simulate content]** button, which is accessible from the edit content screen of your delivery.

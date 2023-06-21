@@ -52,11 +52,11 @@ In addition, all your data and settings already available in the client console 
 
 As an existing Campaign user, note that some concepts have been renamed to align with the latest terminology standards. These changes only apply to Campaign Web UI and are not reflected in the client console. They are summarized below.
 
-* Proofs are now **Test emails**: to send a proof, use the **Test** button in the email delivery UI. The target of the proofs target is now refered as **Test profiles**.
-* Seed addresses are now used as **Test profiles**: send the test email to seed addresses, which are additional and fictitious recipients in the database.
-* Delivery analysis is now the **delivery preparation**. When you need to launch the analysis, click the **Prepare** button.
-* Email Preview is now available throught the **Simulate content** button.
-* Lists are now **Audiences**.
+* Proofs are now **Test emails**: to send a proof, use the **Test** button in the email delivery UI. The target of the proofs is now refered as **Test profiles**. [Learn more](../preview-test/test-deliveries.md).
+* Seed addresses are now used as **Test profiles**: send the test email to seed addresses, which are additional recipients in the database. [Learn more](../preview-test/test-deliveries.md).
+* Delivery analysis is now the **delivery preparation**. When you need to launch the analysis, click the **Prepare** button. [Learn more](../monitor/prepare-send.md).
+* Email Preview is now available throught the **Simulate content** button. [Learn more](../preview-test/preview-test.md)
+* Lists are now **Audiences**. [Learn more](../audience/about-audiences.md).
 
 ## Limitations{#limitations-alpha}
 

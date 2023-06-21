@@ -14,7 +14,7 @@ badge: label="Alpha"
 
 **[!UICONTROL Adobe Campaign]** allows you to test a message before sending it to the main audience.
 
-Sending test deliveries is an important step in validating your campaign and identifying potential issues.
+Sending test deliveries (previously known as 'proofs') is an important step in validating your campaign and identifying potential issues.
 
 The recipients of a test can check various elements such as links, opt-out links, images, or mirror pages, as well as detect any errors in the rendering, content, personalization settings and delivery configuration.
 
@@ -31,7 +31,7 @@ The recipients of a test can check various elements such as links, opt-out links
 
 According to the channel you are using, test messages can be sent to three types of recipients: 
 
-* [Test profiles](#test-profiles) - Send **test emails and SMS** to seed addresses, which are additional and fictitious recipients in the database.
+* [Test profiles](#test-profiles) - Send **test emails and SMS** to seed addresses, which are additional recipients in the database.
 
     They can be created in the [!DNL Campaign] console into the **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** folder. Learn more in [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
     

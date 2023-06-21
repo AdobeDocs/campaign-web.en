@@ -35,7 +35,7 @@ With **Adobe Campaign**, you have the ability to test a message before sending i
 
 Sending test SMS is an important step in ensuring the quality and effectiveness of your delivery. Test recipients can review various elements such as links, opt-out links and images, as well as identify any errors in rendering, content, personalization settings, and SMS configuration. This process helps you thoroughly evaluate and optimize your SMS before reaching your main audience.
 
-![](../assets/do-not-localize/book.png) Learn how to send test SMS in [this section](../preview-test/proofs.md).
+![](../assets/do-not-localize/book.png) Learn how to send test SMS in [this section](../preview-test/test-deliveries.md).
 
 ![](assets/sms_send_6.png)
 
