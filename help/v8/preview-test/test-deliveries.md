@@ -31,7 +31,7 @@ The recipients of a test can check various elements such as links, opt-out links
 
 According to the channel you are using, test messages can be sent to three types of recipients: 
 
-* [Test profiles](#test-profiles) - Send **test emails and SMS** to seed addresses, which are additional and fictitious recipients in the database.
+* [Test profiles](#test-profiles) - Send **test emails and SMS** to seed addresses, which are additional recipients in the database.
 
     They can be created in the [!DNL Campaign] console into the **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** folder. Learn more in [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
     
