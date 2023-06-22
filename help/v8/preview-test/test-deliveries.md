@@ -76,7 +76,7 @@ To select the recipients of a test delivery, follow the steps below according to
 
 To send a test email or SMS to a specific email address or phone number while displaying data from an existing profile of the [!DNL Campaign] database, use substitution profiles.
 
-1. Before sending a test, make sure you define an audience for you delivery. [Learn more](../audience/about-audiences.md)
+1. Before sending a test, make sure you define a target audience for you delivery. [Learn more](../audience/about-audiences.md)
 
 1. Browse to the edit content screen of your email or SMS delivery, then click the **[!UICONTROL Simulate content]** button.
 
@@ -98,7 +98,7 @@ To send a test email or SMS to a specific email address or phone number while di
     >
     >You can enter any email address or phone number. This allows you to send test deliveries to any recipients, even if they are not users of [!DNL Adobe Campaign].
 
-1. Select the profile from the database to use as substitute. You can also let [!DNL Adobe Campaign] select a random profile. The profile data from the selected profile will be displayed in the test delivery.
+1. Select the profile from the target you defined for your delivery to use as substitute. You can also let [!DNL Adobe Campaign] select a random profile from the target. The profile data from the selected profile will be displayed in the test delivery.
 
 1. Confirm the recipient and repeat the operation to add as many email addresses or phone numbers as needed.
 

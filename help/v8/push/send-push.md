@@ -43,7 +43,7 @@ Test recipients can review elements such as links, images, and personalization s
 
     ![](assets/push_send_2.png)
 
-1. Click **[!UICONTROL Prepare]**and monitor the progress and statistics provided. 
+1. Click **[!UICONTROL Prepare]** and monitor the progress and statistics provided. 
 
     If any errors occur, refer to the Logs menu for detailed information about the failure.
 
