@@ -28,10 +28,8 @@ To add a content block into a delivery follow these steps:
 
 Built-in content blocks are:
 
-* **[!UICONTROL Approval of Purl personalization]**
 * **[!UICONTROL Default opt-out banner]**
 * **[!UICONTROL Enabled by Adobe Campaign]**: inserts the "Enabled by Adobe Campaign" logo.
-* **[!UICONTROL Facebook pre-entering]**
 * **[!UICONTROL Formatting function for proper nouns]**: generates the **[!UICONTROL toSmartCase]** Javascript function, which changes the first letter of each word to uppercase. 
 * **[!UICONTROL Greetings]**: inserts greetings with the recipient's full name, followed by a comma. Example: "Hello John Doe,".
 * **[!UICONTROL Insert Logo]**: inserts a logo which is is defined in the instance settings.
