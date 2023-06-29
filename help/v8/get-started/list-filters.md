@@ -63,7 +63,7 @@ Use the **Display advanced attributes** toggle to see all attributes for the cur
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
 >title="Rule builder advanced fields"
->abstract="Configure columns with advanced fields."
+>abstract="Configure advanced filters with advanced fields."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
