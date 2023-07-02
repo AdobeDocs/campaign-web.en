@@ -1,18 +1,18 @@
 ---
 audience: end-user
-title: About email preview and test
-description: Learn how to preview and test emails
+title: About delivery preview and test
+description: Learn how to preview and test deliveries
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Alpha" 
 ---
-# About delivery preview and test {#about-preview-test}
+# About preview and test {#about-preview-test}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate"
 >title="Preview and test your messages"
 >abstract="Once your message content has been defined, you can use test profiles to preview and test it."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-content.html" text="Preview the delivery content"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-test.html" text="Send test messages"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-content.html" text="Preview the message content"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html" text="Send test deliveries"
 
 Once your delivery content has been defined, you can use test profiles to preview and test it before sending the message.
 
