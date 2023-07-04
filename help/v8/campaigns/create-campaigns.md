@@ -22,6 +22,11 @@ To create a new campaign, you need to define its properties, schedule and includ
 
 ## Create the campaign{#campaign-create}
 
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_schedule"
+>title="Campaign schedule"
+>abstract="Define your campaign schedule during campaign creation."
+
 To create a new campaign, follow these steps:
 
 1. Click the **[!UICONTROL Campaigns]** menu, and click the **[!UICONTROL Create campaign]** button.
@@ -53,7 +58,7 @@ You can also view the dedicated reports by clicking the **Reports** button. See 
 
 
 <!--
-	+++WORKF
+    +++WORKF
 ++screen
 ## Create a cross-channel campaign {#cross-channel-campaign}
 
