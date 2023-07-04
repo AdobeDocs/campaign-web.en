@@ -10,7 +10,7 @@ badge: label="Alpha"
 
 Once you have defined your message content, you can utilize test subscribers to preview and test the message. If you have included personalized content, you can examine how this content is displayed in the message by using test profile data. This allows you to ensure that the message is being rendered correctly and that the personalized elements are being appropriately incorporated.
 
-The main steps to preview your SMS delivery are as follows. More details on how to preview deliveries are available in [this section](../preview-test/preview-content.md).
+The main steps to preview your push notification are as follows. More details on how to preview deliveries are available in [this section](../preview-test/preview-content.md).
 
 1. From your delivery content page, use **[!UICONTROL Simulate content]** to preview your personalized content.
 
