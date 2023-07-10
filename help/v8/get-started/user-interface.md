@@ -291,7 +291,10 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Errors KPI"
 
 
-
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_workflow"
+>title="Workflow list"
+>abstract="List of workflows available for your campaign. Use the 'Create workflow' button to add a workflow in your campaign."
 
 <!-- delivery template settings-->
 
