@@ -177,15 +177,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 -->
 
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_metrics_sent"
->title="Sent Metrics"
->abstract="Number of email delivered."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_metrics_errors"
->title="Errors Metrics"
->abstract="Number of emails with the error status."
 
 
 
