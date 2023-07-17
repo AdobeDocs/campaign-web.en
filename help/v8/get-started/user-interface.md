@@ -240,17 +240,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Permission required"
 >abstract="Your administrator must grant you permission before you can create a segment."
 
-
-
-
-
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_metrics_newquarantines"
->title="New quarantines metric"
->abstract="New quarantine metric."
-
-
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_delivered"
 >title="Delivered"

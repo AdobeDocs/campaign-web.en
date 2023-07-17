@@ -6,6 +6,11 @@ badge: label="Alpha"
 ---
 # Preview and send an SMS delivery {#send-sms-delivery}
 
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_metrics_newquarantines"
+>title="New quarantines metric"
+>abstract="Total number of addresses quarantined following a failed delivery (user unknown, invalid domain) in relation to the number of messages to be delivered."
+
 ## Preview your SMS delivery{#preview-sms}
 
 Once you have defined your message content, you can utilize test profiles to preview and test it. If you have included personalized content, you can examine how this content is displayed in the message by using test profile data. This allows you to ensure that the message appears as intended and that any personalized information is correctly presented.
