@@ -7,6 +7,11 @@ badge: label="Alpha"
 
 # Access and manage your campaigns{#manage-campaigns}
 
+>[!CONTEXTUALHELP]
+>id="acw_campaign_schedule"
+>title="Campaign schedule"
+>abstract="Set or modify your campaign schedule."
+
 To create a new campaign, or manage your existing campaigns, click the **[!UICONTROL Campaigns]** menu on the left navigation. 
 
 ## The campaign list{#access-campaigns}

@@ -123,6 +123,16 @@ Whether your delivery is scheduled or not, two actions can be performed at any t
 
 ## Check the KPIs {#check-kpis}
 
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_sent"
+>title="Sent Metrics"
+>abstract="Total number of messages processed during the delivery analysis."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_errors"
+>title="Errors Metrics"
+>abstract="Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages."
+
 Once the send is complete, you can check the KPIs displayed:
 
 ![](assets/email-send-kpis.png)
