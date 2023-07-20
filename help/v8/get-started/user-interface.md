@@ -62,7 +62,7 @@ In the CAMPAIGN MANAGEMENT section, you can access marketing campaigns, deliveri
 
 * **Campaigns** - This is the list of your campaigns, and campaign templates. By default, for each campaign you can view the start/end/creation/last modification dates, the current status, and the name of the Campaign operator who created it. You can filter the list by status, start/end dates, folder, or create an advanced filter to define your own filtering criteria. Learn more about campaigns [in this section](../campaigns/gs-campaigns.md).
 
-* **Deliveries** - Browse through your list of deliveries. By default, you can view their state, last modification date as well as key KPIs. You can filter the list by state, contact date or channel. Click an email delivery to open its dashboard to get an overview of the delivery details. Deliveries on other channels are read-only. Learn more about deliveries [in this section](../msg/gs-messages.md).
+* **Deliveries** - Browse through your list of deliveries. By default, you can view their state, last modification date as well as key KPIs. You can filter the list by status, contact date or channel. Click an email delivery to open its dashboard to get an overview of the delivery details. Deliveries on other channels are read-only. Learn more about deliveries [in this section](../msg/gs-messages.md).
 
     Use the **More actions** button to delete or duplicate a delivery.
 
@@ -100,9 +100,9 @@ In the CUSTOMER MANAGEMENT section, you can view your recipients, audiences, and
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
 >title="Offers"
->abstract="Browse through your list of Interaction offers. By default, you can view their status, start/end dates and environment. You can filter the list by state and start/end dates. Offer templates are also available. These lists are read-only."
+>abstract="Browse through your list of Interaction offers. By default, you can view their status, start/end dates and environment. You can filter the list by status and start/end dates. Offer templates are also available. These lists are read-only."
 
-* **Offers** - Browse through your list of Interaction offers. By default, you can view their status, start/end dates and environment. You can filter the list by state and start/end dates. Offer templates are also available. These lists are read-only. 
+* **Offers** - Browse through your list of Interaction offers. By default, you can view their status, start/end dates and environment. You can filter the list by status and start/end dates. Offer templates are also available. These lists are read-only. 
 
 Learn how to create manage offers in [Adobe Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}. 
 
