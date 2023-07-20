@@ -94,6 +94,7 @@ hide: yes
     + [Email, SMS, Push](workflows/activities/channels.md)
     + [Enrichment](workflows/activities/enrichment.md)
     + [Fork](workflows/activities/fork.md)
+    + [Split](workflows/activities/split.md)
     + [Wait](workflows/activities/wait.md)
 + Reporting {#reports}
   + [Get started with reports](reporting/gs-reports.md)
