@@ -25,6 +25,7 @@ These activities are specific to targeting, manipulating and enriching populatio
 * The [Build audience](build-audience.md) activity allows you define your target population. You can either select an existing audience or use the rule builder to define your own query. 
 * The [Combine](combine.md) activity allows to perform segmentation on your inbound population. You can use a union, an intersection or an exclusion.
 * The [Enrichment](enrichment.md) activity allows you to define additional data to process in your workflow. With this activity, you can leverage the inbound transition and configure the activity to complete the output transition with additional data.
+* The [Split](split.md) activity allows you to segment incoming population into several subsets.
 
 ## Channel activities {#channel}
 

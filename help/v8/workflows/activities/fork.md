@@ -22,7 +22,7 @@ Follow these steps to configure the **Fork** activity:
 
 ## Example
 
-The following example, we're using two **Fork** activities:
+In the following example, we're using two **Fork** activities:
 
 * One before the two queries, to execute them at the same time.
 * One after the intersection, to send an email and an SMS simultaneously to the targeted population.
