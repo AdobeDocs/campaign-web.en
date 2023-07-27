@@ -7,6 +7,12 @@ badge: label="Alpha"
 ---
 # Import your email content {#existing-content}
 
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_import_content"
+>title="Use an existing email content"
+>abstract="The Email Designer allows you to import existing HTML content. This content can be an HTML file with an incorporated style sheet, or a .zip folder with the HTML file, the style sheet (.css), and images."
+
 The Email Designer allows you to import existing HTML content. This content can be:
 
 * An **HTML file** with an incorporated style sheet,
