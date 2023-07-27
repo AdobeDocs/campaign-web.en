@@ -65,6 +65,13 @@ The Silent Push mode allows a "silent" notification to be sent to a mobile appli
 
 ## Push nootification advanced settings {#push-advanced}
 
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings"
+>title="Advanced settings for push notifications"
+>abstract="Define advanced settings for your push notification, such as its priority, the associated notification count, application variables, and more."
+    
+
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_critical"
 >title="Critical alert mode for iOS"
