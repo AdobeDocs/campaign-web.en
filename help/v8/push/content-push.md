@@ -101,6 +101,11 @@ The Silent Push mode allows a "silent" notification to be sent to a mobile appli
 >abstract="Use application variables to define notification behavior. These variables are fully customizable and are included as part of the message payload sent to the mobile device."
 
 
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings_category"
+>title="Category ID for iOS"
+>abstract="Specify the name of the category ID associated with the notification. This enables the display of action buttons, allowing the user to perform various tasks directly from the notification without opening the application."
+
 
 >[!BEGINTABS]
 
