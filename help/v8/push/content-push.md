@@ -4,7 +4,7 @@ title: Design a push notification delivery
 description: Learn how to design a push notification delivery with Adobe Campaign Web
 badge: label="Alpha" 
 ---
-# Design a push delivery {#content-push}
+# Design a push messsaging delivery {#content-push}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
@@ -63,7 +63,7 @@ The Silent Push mode allows a "silent" notification to be sent to a mobile appli
 
 >[!ENDTABS]
 
-## Push nootification advanced settings {#push-advanced}
+## Push notification advanced settings {#push-advanced}
 
 
 >[!CONTEXTUALHELP]
