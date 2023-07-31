@@ -20,14 +20,10 @@ The recipients of a test can check various elements such as links, opt-out links
 
 ## Select the test recipients {#test-recipients}
 
-
-
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
 >title="Test population"
 >abstract="Select a test population mode."
-
-
 
 According to the channel you are using, test messages can be sent to three types of recipients: 
 
@@ -47,6 +43,15 @@ To select the recipients of a test delivery, follow the steps below according to
 
 ### Test profiles {#test-profiles}
 
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_test_mode"
+>title="Target of the proof"
+>abstract="You can upload a second file as 'target of the proof', if you wish to test your delivery before sending to the main target."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_test_upload"
+>title="Upload profiles"
+>abstract="You can upload a second file with additional profiles if you like to test your delivery with a different set from the set you have used for the main target."
 
 1. Browse to the edit content screen of your email or SMS delivery, then click the **[!UICONTROL Simulate content]** button.
 
