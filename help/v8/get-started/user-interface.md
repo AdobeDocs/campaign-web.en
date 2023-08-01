@@ -272,6 +272,16 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Errors"
 >abstract="Errors KPI"
 
+>[!CONTEXTUALHELP]
+>id="acw_campaign_read_only"
+>title="This campaign is read only"
+>abstract="You do not have permissions to edit this campaign. If needed, contact your administrator to grant you access."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_read_only"
+>title="This delivery is read only"
+>abstract="You do not have permissions to edit this delivery. If needed, contact your administrator to grant you access."
+
 <!-- Workflows-->
 
 >[!CONTEXTUALHELP]
