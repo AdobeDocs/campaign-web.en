@@ -53,6 +53,11 @@ To select the recipients of a test delivery, follow the steps below according to
 >title="Upload profiles"
 >abstract="You can upload a second file with additional profiles if you like to test your delivery with a different set from the set you have used for the main target."
 
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_test_sample"
+>title="Template file"
+>abstract="The formatting of the file must be the same as the original file.<br/>Supported file formats: txt, csv. Maximum file size: 15MB. Use first line as column header."
+
 1. Browse to the edit content screen of your email or SMS delivery, then click the **[!UICONTROL Simulate content]** button.
 
 1. Click the **[!UICONTROL Test]** button.
