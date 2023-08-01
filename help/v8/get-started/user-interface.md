@@ -282,6 +282,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="This delivery is read only"
 >abstract="You do not have permissions to edit this delivery. If needed, contact your administrator to grant you access."
 
+>[!CONTEXTUALHELP]
+>id="acw_subscription_services_read_only"
+>title="This service is read only"
+>abstract="You do not have permissions to edit this service. If needed, contact your administrator to grant you access."
+
 <!-- Workflows-->
 
 >[!CONTEXTUALHELP]
@@ -304,6 +309,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_wf_read_only"
 >title="This workflow is read only"
 >abstract="You do not have permissions to edit this workflow. If needed, contact your administrator to grant you access."
+
+>[!CONTEXTUALHELP]
+>id="acw_wf_read_only_canvas"
+>title="This workflow is read only"
+>abstract="You cannot edit this workflow due to unsupported or incompatible canvas."
 
 <!-- delivery template settings-->
 
