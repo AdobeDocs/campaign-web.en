@@ -356,3 +356,9 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_delivery_template_settings_typology"
 >title="Typology"
 >abstract="Typology lets you control, filter and monitor the sending of deliveries."
+
+>[!CONTEXTUALHELP]
+>id="acw_reporting_email_exportation"
+>title="Exportation"
+>abstract="You can only export the selected page."
+
