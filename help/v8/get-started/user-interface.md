@@ -32,10 +32,12 @@ This screen includes key links and resources for a quick access to the main Camp
 
 The **Recents** list provides shortcuts to the recently created and modified deliveries. This list shows their channel, status, owner, creation and modification dates.
 
+The **Key performance indicators** lets you check your platform effectiveness through common KPIs. 
+
 Access Campaign v8 Web key help pages from the **Learning** section of the home page.
 
 
-#### Key performance indicators {#user-interface-key-indicators}
+### Key performance indicators {#user-interface-key-indicators}
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_spam"
