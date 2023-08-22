@@ -42,20 +42,10 @@ Browse to the home page to check key performance indicators for your platform. T
 
 
 
->[!CONTEXTUALHELP]
->id="acw_keyindicators_opens"
->title="Opens"
->abstract="Opens KPI"
 
->[!CONTEXTUALHELP]
->id="acw_keyindicators_clicks"
->title="Clicks"
->abstract="Clicks KPI"
 
->[!CONTEXTUALHELP]
->id="acw_keyindicators_unsubscriptions"
->title="Unsubscriptions"
->abstract="Unsubscriptions KPI"
+
+
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_spam"
@@ -68,28 +58,63 @@ Browse to the home page to check key performance indicators for your platform. T
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_delivered"
 >title="Delivered"
->abstract="Number of messages processed with success."
+>abstract="This metric shows, for the selected channel, the sum of all messages processed with success, and the percentage of message delivered with success compared to the total number of messages sent."
 
+
+The **Delivered** indicator shows the following KPIs, for each channel:
+
+* Percentage of the number of message delivered with success compared to the total number of messages sent.
+
+* Sum of all messages delivered with success.
+
+In Adobe Campaign, the rule to mark a message as 'Delivered' is:
+
+Count of messages for which the "seed address" field equals "No" and with a status equal to "Taken into account by the service provider" (for SMS) or "Sent" (for Emails) or "Received on the mobile" (for Push notifications).
 
 
 ### Total opens {#ui-open-kpi} 
 
-* Percentage of the number of message opened compared to the total number of messages delivered.
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_opens"
+>title="Opens"
+>abstract="This metric shows, for the selected channel, the sum of all messages opened, and the percentage of message opened compared to the total number of messages delivered with success."
+
+The **Opens** indicator shows the following KPIs, for each channel:
+
+* Percentage of the number of message opened compared to the total number of messages delivered with success.
 
 * Sum of all messages opened, per channel.
 
-
-In order for Adobe Campaign to detect message opens, the recipient must download the images in the email. HTML and Multipart/Alternative emails include a 0 pixel image, which enable you to detect messages which have been opened. Since messages in text format do not include any images, it is impossible to detect whether they have been opened or not. Values calculated based on message opens are always estimates, due to the error margin linked to image display.
+Adobe Campaign detects message opens when the recipient downloads the images in the email. HTML and Multipart/Alternative emails include a 0 pixel image, which enable you to detect messages which have been opened. Since messages in text format do not include any images, it is impossible to detect whether they have been opened or not. Values calculated based on message opens are always estimates, due to the error margin linked to image display.
 
 ### Click rates {#ui-click-kpi} 
 
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_clicks"
+>title="Clicks"
+>abstract="This metric shows, for the selected channel, the sum of all URL clicked in messages, and the percentage of clicks compared to the total number of messages delivered with success."
+
+The **Clicks** indicator shows the following KPIs, for each channel:
+
 * Percentage of the number of clicks compared to the total number of messages delivered.
 
-* Sum of all clicks with a URL type equal to "Email click", or "SMS click", or "Push click".
+* Sum of all clicks with a URL type equals to "Email click", or "SMS click", or "Push click".
+
+This metrics are based on the Consolidated tracking table (`nms:trackingStats`). This aggregate table is used for performance reasons when displaying reports, in the place of the Recipient tracking logs table (`nms:trackingLogRcp`) and it is not calculated in real-time. The table is generated a few minutes after the tracking logs are retrieved.
 
 
 ### Unsubscription rates {#ui-unsub-kpi} 
 
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_unsubscriptions"
+>title="Unsubscriptions"
+>abstract="This metric shows, for the selected channel, the sum of all unsubscriptions from a service, and the percentage of unsubscriptions compared to the total number of messages delivered with success."
+
+The **Unsubscriptions** indicator shows the following KPIs, for each channel:
+
+* Percentage of the number of unsubscriptions compared to the total number of messages delivered with success.
+
+* Sum of all clicks to an unsubscription link, i.e. with a URL category equals to "Opt-out".
 
 
 ### Error rates {#ui-error-kpi} 
