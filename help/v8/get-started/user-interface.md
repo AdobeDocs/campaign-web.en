@@ -34,6 +34,72 @@ The **Recents** list provides shortcuts to the recently created and modified del
 
 Access Campaign v8 Web key help pages from the **Learning** section of the home page.
 
+
+
+## Key performance indicators {#user-interface-key-indicators}
+
+Browse to the home page to check key performance indicators for your platform. These indicators show the number and percentage of messages delivered, opened, clicked, and the unsubscription and error rates.
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_opens"
+>title="Opens"
+>abstract="Opens KPI"
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_clicks"
+>title="Clicks"
+>abstract="Clicks KPI"
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_unsubscriptions"
+>title="Unsubscriptions"
+>abstract="Unsubscriptions KPI"
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_spam"
+>title="Spam"
+>abstract="Spam KPI"
+
+
+### Message delivered {#ui-delivered-kpi} 
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_delivered"
+>title="Delivered"
+>abstract="Number of messages processed with success."
+
+
+
+### Total opens {#ui-open-kpi} 
+
+* Percentage of the number of message opened compared to the total number of messages delivered.
+
+* Sum of all messages opened, per channel.
+
+
+In order for Adobe Campaign to detect message opens, the recipient must download the images in the email. HTML and Multipart/Alternative emails include a 0 pixel image, which enable you to detect messages which have been opened. Since messages in text format do not include any images, it is impossible to detect whether they have been opened or not. Values calculated based on message opens are always estimates, due to the error margin linked to image display.
+
+### Click rates {#ui-click-kpi} 
+
+* Percentage of the number of clicks compared to the total number of messages delivered.
+
+* Sum of all clicks with a URL type equal to "Email click", or "SMS click", or "Push click".
+
+
+### Unsubscription rates {#ui-unsub-kpi} 
+
+
+
+### Error rates {#ui-error-kpi} 
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_errors"
+>title="Errors"
+>abstract="Total number of errors cumulated during deliveries and automatic bounce processing."
+
+
 ### Explorer {#user-interface-explorer} 
 
 >[!CONTEXTUALHELP]
@@ -242,35 +308,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Permission required"
 >abstract="Your administrator must grant you permission before you can create a segment."
 
->[!CONTEXTUALHELP]
->id="acw_keyindicators_delivered"
->title="Delivered"
->abstract="Delivered KPI"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_opens"
->title="Opens"
->abstract="Opens KPI"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_clicks"
->title="Clicks"
->abstract="Clicks KPI"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_unsubscriptions"
->title="Unsubscriptions"
->abstract="Unsubscriptions KPI"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_spam"
->title="Spam"
->abstract="Spam KPI"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_errors"
->title="Errors"
->abstract="Errors KPI"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_read_only"
