@@ -35,25 +35,22 @@ The **Recents** list provides shortcuts to the recently created and modified del
 Access Campaign v8 Web key help pages from the **Learning** section of the home page.
 
 
-
-## Key performance indicators {#user-interface-key-indicators}
-
-Browse to the home page to check key performance indicators for your platform. These indicators show the number and percentage of messages delivered, opened, clicked, and the unsubscription and error rates.
-
-
-
-
-
-
-
+#### Key performance indicators {#user-interface-key-indicators}
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_spam"
 >title="Spam"
 >abstract="Spam KPI"
 
+Browse to the home page to check key performance indicators for your platform. These indicators show the number and percentage of messages delivered, opened, clicked, unsubscription, and error rates.
 
-### Message delivered {#ui-delivered-kpi} 
+Metrics are calculated for deliveries sent over the previous 7 days by default. You can change the period from the drop-down list on the upper right section of the card. Messages sent to test profiles are excluded.
+
+You can select the channel to display. By default, these indicators reflect metrics for the email channel.
+
+![](assets/kpi.png)
+
+#### Message delivered {#ui-delivered-kpi} 
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_delivered"
@@ -63,16 +60,16 @@ Browse to the home page to check key performance indicators for your platform. T
 
 The **Delivered** indicator shows the following KPIs, for each channel:
 
-* Percentage of the number of message delivered with success compared to the total number of messages sent.
+* Percentage of the number of message delivered with success compared to the total number of messages to be sent.
 
-* Sum of all messages delivered with success.
+* Sum of all messages processed with success.
 
 In Adobe Campaign, the rule to mark a message as 'Delivered' is:
 
 Count of messages for which the "seed address" field equals "No" and with a status equal to "Taken into account by the service provider" (for SMS) or "Sent" (for Emails) or "Received on the mobile" (for Push notifications).
 
 
-### Total opens {#ui-open-kpi} 
+#### Total opens {#ui-open-kpi} 
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_opens"
@@ -87,7 +84,7 @@ The **Opens** indicator shows the following KPIs, for each channel:
 
 Adobe Campaign detects message opens when the recipient downloads the images in the email. HTML and Multipart/Alternative emails include a 0 pixel image, which enable you to detect messages which have been opened. Since messages in text format do not include any images, it is impossible to detect whether they have been opened or not. Values calculated based on message opens are always estimates, due to the error margin linked to image display.
 
-### Click rates {#ui-click-kpi} 
+#### Click rates {#ui-click-kpi} 
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_clicks"
@@ -96,14 +93,14 @@ Adobe Campaign detects message opens when the recipient downloads the images in 
 
 The **Clicks** indicator shows the following KPIs, for each channel:
 
-* Percentage of the number of clicks compared to the total number of messages delivered.
+* Percentage of the number of clicks compared to the total number of messages delivered with success. 
 
-* Sum of all clicks with a URL type equals to "Email click", or "SMS click", or "Push click".
+* Number of distinct people having clicked at least once in a delivery. Unsubscription links and links to mirror page are excluded.
 
 This metrics are based on the Consolidated tracking table (`nms:trackingStats`). This aggregate table is used for performance reasons when displaying reports, in the place of the Recipient tracking logs table (`nms:trackingLogRcp`) and it is not calculated in real-time. The table is generated a few minutes after the tracking logs are retrieved.
 
 
-### Unsubscription rates {#ui-unsub-kpi} 
+#### Unsubscription rates {#ui-unsub-kpi} 
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_unsubscriptions"
@@ -117,12 +114,16 @@ The **Unsubscriptions** indicator shows the following KPIs, for each channel:
 * Sum of all clicks to an unsubscription link, i.e. with a URL category equals to "Opt-out".
 
 
-### Error rates {#ui-error-kpi} 
+#### Error rates {#ui-error-kpi} 
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_errors"
 >title="Errors"
->abstract="Total number of errors cumulated during deliveries and automatic bounce processing."
+>abstract="Total number of errors cumulated during deliveries and automatic bounce processing. The associated rate is the ratio with the number of messages to be delivered."
+
+* Percentage of the number of errors compared to the total number of messages to be delivered.
+
+* Total number of errors cumulated during deliveries and automatic rebound processing. 
 
 
 ### Explorer {#user-interface-explorer} 
