@@ -123,6 +123,8 @@ The **Unsubscriptions** indicator shows the following KPIs, for each channel:
 >title="Errors"
 >abstract="Total number of errors cumulated during deliveries and automatic bounce processing. The associated rate is the ratio with the number of messages to be delivered."
 
+The **Errors** indicator shows the following KPIs, for each channel:
+
 * Percentage of the number of errors compared to the total number of messages to be delivered.
 
 * Total number of errors cumulated during deliveries and automatic rebound processing. 
