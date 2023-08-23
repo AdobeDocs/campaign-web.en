@@ -132,6 +132,10 @@ The **Unsubscriptions** indicator shows the following KPIs, for each channel:
 >title="Errors"
 >abstract="Total number of errors cumulated during deliveries and automatic bounce processing. The associated rate is the ratio with the number of messages to be delivered."
 
+Some messages sent by your Adobe Campaign platform might not reach their destination. It can happen when the user address or phone has typos, or if the recipient changed their email address, or if their mailbox is full. If a message cannot be sent to a profile, the remote server automatically sends an error message to Adobe Campaign. This error is qualified to determine whether the email address, phone number or device should be quarantined. See Bounce mail management.
+
+As a consequence, you should always check and update your database, and make sure all profiles are active and real. Delivery errors can be temporary or permanent - soft or hard bounce - depending why the message was not delivered.
+
 The **Errors** indicator shows the following KPIs, for each channel:
 
 * Percentage of the number of errors compared to the total number of messages to be delivered.
