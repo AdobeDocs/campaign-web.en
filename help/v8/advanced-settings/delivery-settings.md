@@ -31,12 +31,12 @@ When associating a typology with a message or message template, the typology rul
 
 
 ### Pressure parameters {#pressure-parameters}
-
+<!--
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery_weight"
 >title="Delivery weight"
 >abstract="Delivery weights let you identify top-priority deliveries within the framework of pressure management. Messages with the highest weight have priority."
-
+-->
 In this section, pressure parameters let you define a **threshold**. This is the maximum number of messages that can be sent to one profile over a given period. Once this threshold has been reached, no more deliveries can take place until the end of the period considered. This process lets you automatically exclude a profile from a delivery if a message exceeds the set threshold, thus avoiding over-solicitation.
 
 Threshold values can be either constant or variable. This means that for a given period, thresholds can vary from one profile to another, or even for the same profile.
@@ -61,9 +61,9 @@ Fatigue management comes with the **Campaign Optimization** add-on. Learn more a
 ### Capacity settings {#capacity-settings}
 
 >[!CONTEXTUALHELP]
->id="acw_email_settings_recipient_importance"
->title="Importance of the recipient"
->abstract="The importance of the recipient is a formula used to determine which recipients are kept when the capacity typology rules are exceeded."
+>id="acw_email_settings_capacity_settings"
+>title="Capacity settings"
+>abstract="Select a capacity rule defined in the Adobe Campaign v8 Console. This rule is associated to the email channel."
 
 In this section, you can select a capacity rule defined in the Adobe Campaign v8 Console. This rule is associated to the email channel.
 
@@ -80,6 +80,11 @@ Learn more about target mappings in [Campaign v8 (console) documentation](https:
 
 ## Delivery {#delivery}
 
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_delivery"
+>title="Delivery settings"
+>abstract="Delivery parameters are technical settings which apply to your delivery."
+
 Delivery parameters are technical settings which apply to your delivery. 
 
 * **Routing**: the integrated email routing external account is provided by default. It contains the technical parameters that allow the application to send emails.
@@ -92,21 +97,18 @@ Delivery parameters are technical settings which apply to your delivery.
 
 ### Retries {#retries}
 
->[!CONTEXTUALHELP]
->id="acw_email_settings_retries"
->title="Maximum number of retries"
->abstract="If a message fails due to a temporary error, retries are performed until the end of the delivery duration."
-
 <!--Temporarily undelivered messages due to a Soft or Ignored error are subject to an automatic retry. By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. -->
 
 Learn more about retry management in [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
 ## Approval {#approval}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
 >title="Approval mode"
 >abstract="Each step of a delivery can be subject to approval in order to ensure full monitoring and control of the various processes."
+-->
 
 If warnings are generated during the delivery preparation, you can configure the delivery to define whether or not it should still be executed. By default, the user must confirm the sending of messages at the end of the analysis phase: this is **manual** validation.
 
@@ -122,15 +124,16 @@ You can select another approval mode in the appropriate field. Available modes a
 ## Validity {#validity}
 
 >[!CONTEXTUALHELP]
->id="acw_email_settings_delivery_duration"
->title="Delivery duration"
->abstract="The Delivery duration field lets you enter the limit for global delivery retries. This means that Adobe Campaign sends the messages beginning on the start date, and then, for messages returning an error only, regular, configurable retries are performed until the validity limit is reached."
+>id="acw_email_settings_validity"
+>title="Settings validity"
+>abstract="The Delivery duration field lets you enter the limit for global delivery retries. This means that Adobe Campaign sends the messages beginning on the start date, and then, for messages returning an error only, regular, configurable retries are performed until the validity limit is reached.The Validity limit field is used for uploaded resources, such as the mirror page or images. These resources are valid for a limited time: once the limit is reached, resources are no longer available."
 
+<!--
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_resources_validity"
 >title="Resources validity limit"
 >abstract="The Validity limit field is used for uploaded resources, such as the mirror page or images. These resources are valid for a limited time: once the limit is reached, resources are no longer available."
-
+-->
 
 The **Delivery duration** field lets you enter the limit for global delivery retries. This means that Adobe Campaign sends the messages beginning on the start date, and then, for messages returning an error only, regular, configurable retries are performed until the validity limit is reached.
 
@@ -157,10 +160,12 @@ In addition to the default mode, the following options are also available:
 
 ### Tracking {#tracking}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_tracking_validity"
 >title="Validity period"
 >abstract="This option defines the duration for which the tracking is activated on the URLs."
+-->
 
 Tracking parameters are defined in the related section. Possible options are:
 
