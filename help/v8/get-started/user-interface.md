@@ -442,3 +442,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Exportation"
 >abstract="You can only export the selected page."
 
+>[!CONTEXTUALHELP]
+>id="acw_campaign_delivery_list"
+>title="Delivery list in a Campaign"
+>abstract="Delivery list in a Campaign"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_workflow_list"
+>title="Workflow list in a campaign"
+>abstract="Workflow list in a campaign"
