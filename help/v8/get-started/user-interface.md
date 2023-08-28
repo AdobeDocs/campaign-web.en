@@ -473,3 +473,13 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_email_settings_webanalytics"
 >title="Delivery settings web analytics"
 >abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_for_campaign"
+>title="Delivery template in Campaign"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_template_for_campaign"
+>title="Workflow template in Campaign"
+>abstract="TBC"
