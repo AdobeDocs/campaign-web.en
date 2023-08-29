@@ -3,7 +3,7 @@ audience: end-user
 title: Email Delivery Settings
 description: Learn more about email delivery settings in Campaign Web UI
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-badge: label="Alpha" 
+badge: label="Beta" 
 ---
 
 # Email delivery settings {#email-del-settings}

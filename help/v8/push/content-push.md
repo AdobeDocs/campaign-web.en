@@ -2,7 +2,7 @@
 audience: end-user
 title: Design a push notification delivery
 description: Learn how to design a push notification delivery with Adobe Campaign Web
-badge: label="Alpha" 
+badge: label="Beta" 
 ---
 # Design a push messsaging delivery {#content-push}
 

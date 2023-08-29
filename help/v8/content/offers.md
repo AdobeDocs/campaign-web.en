@@ -3,7 +3,7 @@ audience: end-user
 title: Send offers
 description: Send offers
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-badge: label="Alpha" 
+badge: label="Beta" 
 ---
 
 # Send offers {#offers-content}

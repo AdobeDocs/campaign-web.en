@@ -2,7 +2,7 @@
 audience: end-user
 title: Get started with campaigns
 description: Learn how to start with cross-channel campaigns
-badge: label="Alpha" 
+badge: label="Beta" 
 ---
 
 # Access and manage your campaigns{#manage-campaigns}

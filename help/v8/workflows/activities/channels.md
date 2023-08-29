@@ -2,7 +2,7 @@
 audience: end-user
 title: Use a delivery workflow activity
 description: Learn how to add a delivery workflow activity (Email, Push, SMS)
-badge: label="Alpha" 
+badge: label="Beta" 
 ---
 
 # Email, SMS, Push {#channel}

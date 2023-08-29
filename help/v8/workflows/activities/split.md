@@ -2,7 +2,7 @@
 audience: end-user
 title: Use the Split workflow activity
 description: Learn how to use the Split workflow activity
-badge: label="Alpha" 
+badge: label="Beta" 
 ---
 
 # Split {#split}

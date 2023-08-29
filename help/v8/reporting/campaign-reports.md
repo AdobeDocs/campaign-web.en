@@ -2,7 +2,7 @@
 audience: end-user
 title: Campaign reports
 description: Learn how to access and use campaign reports
-badge: label="Alpha" 
+badge: label="Beta" 
 ---
 # Campaign reports {#campaign-reports}
 

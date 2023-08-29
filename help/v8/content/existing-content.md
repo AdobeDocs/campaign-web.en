@@ -3,7 +3,7 @@ audience: end-user
 title: Import your email content
 description: Learn how to import email content
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
-badge: label="Alpha" 
+badge: label="Beta" 
 ---
 # Import your email content {#existing-content}
 

@@ -2,7 +2,7 @@
 audience: end-user
 title: Use the Enrichment workflow activity
 description: Learn how to use the Enrichment workflow activity
-badge: label="Alpha" 
+badge: label="Beta" 
 ---
 
 # Enrichment {#enrichment}

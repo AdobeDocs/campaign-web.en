@@ -5,7 +5,7 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Beginner
-badge: label="Alpha" 
+badge: label="Beta" 
 exl-id: b650a859-e27d-4a36-a725-a1f5bb31e014
 ---
 # Build conditional content{#add-conditions}
