@@ -98,6 +98,7 @@ hide: yes
     + [Wait](workflows/activities/wait.md)
 + Reporting {#reports}
   + [Get started with reports](reporting/gs-reports.md)
+  + [Key performance indicators](reporting/kpis.md)
   + Delivery reports {#delivery-report}  
     + [Access delivery reports](reporting/delivery-reports.md)
     + [Email delivery report](reporting/email-report.md)
