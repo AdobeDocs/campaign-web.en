@@ -49,7 +49,7 @@ The items displayed in the Explorer depend on your user permissions.
 
 Like in any list screen, you can configure columns to personalize the display to view all the information you need. See this [section](#list-screens).
 
-For more information about the Campaign explorer, folder hierarchy and resources, refer to this [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui){target="_blank"}.
+For more information about the Campaign explorer, folder hierarchy and resources, refer to this [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui){target="_blank"}.
 
 ### Campaign Management {#user-interface-campaign-management}
 
@@ -93,9 +93,9 @@ In the CAMPAIGN MANAGEMENT section, you can access marketing campaigns, deliveri
 
 In the CUSTOMER MANAGEMENT section, you can view your recipients, audiences, and subscriptions. These lists are rea-only.
 
-* **Recipients** - Access your recipient database. By default, you can view their email address, first name and last name. Learn more about recipients in [Adobe Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/gs-audiences.html){target="_blank"}.
-* **Audiences** - This is your list of audiences. By default, you can view their type, origin, creation/last modification dates and label. You can filter the list by origin. Learn more about audiences and lists in [Adobe Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html){target="_blank"}.
-* **Subscriptions** - Browse through your subscriptions lists. By default, you can view their type, mode and label. Learn how to manage subscriptions and unsubscriptions in [Adobe Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html){target="_blank"}. 
+* **Recipients** - Access your recipient database. By default, you can view their email address, first name and last name. Learn more about recipients in [Adobe Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/gs-audiences.html){target="_blank"}.
+* **Audiences** - This is your list of audiences. By default, you can view their type, origin, creation/last modification dates and label. You can filter the list by origin. Learn more about audiences and lists in [Adobe Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html){target="_blank"}.
+* **Subscriptions** - Browse through your subscriptions lists. By default, you can view their type, mode and label. Learn how to manage subscriptions and unsubscriptions in [Adobe Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html){target="_blank"}. 
 
 ### Decision Management
 
@@ -106,7 +106,7 @@ In the CUSTOMER MANAGEMENT section, you can view your recipients, audiences, and
 
 * **Offers** - Browse through your list of Interaction offers. By default, you can view their status, start/end dates and environment. You can filter the list by status and start/end dates. Offer templates are also available. These lists are read-only. 
 
-Learn how to create manage offers in [Adobe Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}. 
+Learn how to create manage offers in [Adobe Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}. 
 
 ## Top bar
 

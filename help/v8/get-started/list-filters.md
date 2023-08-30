@@ -2,7 +2,7 @@
 audience: end-user
 title: Browse, search and filter lists
 description: Discover how to browse and filter lists Campaign Web v8
-badge: label="Beta" 
+badge: label="Alpha" 
 ---
 
 # Browse, search, and filter lists {#list-screens}

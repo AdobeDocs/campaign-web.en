@@ -8,9 +8,9 @@ badge: label="Beta"
 
 # What's new? {#new}
 
-## Alpha 2.0 release{#alpha-release}
+## Beta release{#beta-release}
 
-This new Campaign web interface is currently only available to **Alpha practitioners** with the following capabilities:
+This new Campaign web interface is currently only available to **Beta practitioners** with the following capabilities:
 
 **Modern, intuitive and unified experience**
 
@@ -47,6 +47,7 @@ As a Campaign user, you can still access the client console to build and manage 
 
 In addition, all your data and settings already available in the client console are visible in the Campaign Web UI, from the Explorer left navigation. Learn more about the Explorer view in [this section](../get-started/user-interface.md#explorer-user-interface-explorer).
 
+With Campaign Web Beta release, the user interface reflects the user's permissions. Learn more about permissions in [this page](../get-started/permissions.md)
 
 ## Terminology updates {#terminology-updates}
 
@@ -62,7 +63,7 @@ As an existing Campaign user, note that some concepts have been renamed to align
 
 The limitations below apply to this Alpha version:
 
-* The only editable objects are Deliveries, Campaigns, Workflows, Audiences, and Templates. The others are read-only. Use filters to browse them all.
+* Editable objects are: Deliveries, Campaigns, Workflows, Audiences, Subscription Services, Predefined Filters, and Templates. The others are read-only. Use filters to browse them all.
 * Audiences cannot be saved for future use.
 * The Administration user interface is not available.
 * Reporting metrics (such as opens and tracking data) are updated every hour.

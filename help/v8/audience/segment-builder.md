@@ -37,7 +37,7 @@ The palette, located on the left side contains all the elements that you can fil
 
     >[!NOTE]
     >
-    >To leverage Adobe Experience Platform audiences, you need to configure the integration with Destinations. Refer to the [Destinations documentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html){target="_blank"}.
+    >To leverage Adobe Experience Platform audiences, you need to configure the integration with Destinations. Refer to the [Adobe Experience Platform Destinations documentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html){target="_blank"}.
 
 You can use the search bar to find elements quickly.
 

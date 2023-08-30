@@ -17,7 +17,7 @@ To create push notifications, you have three options:
 
 * Stand-alone deliveries: Engage customers directly and instantly with individual push notification delivery, without the need for workflows or campaigns.
 
-![](../assets/do-not-localize/book.png) Learn how to configure Push notification channel in [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html){target="_blank"}.
+![](../assets/do-not-localize/book.png) Learn how to configure Push notification channel in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html){target="_blank"}.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

@@ -29,7 +29,7 @@ According to the channel you are using, test messages can be sent to three types
 
 * [Test profiles](#test-profiles) - Send **test emails and SMS** to seed addresses, which are additional recipients in the database.
 
-    They can be created in the [!DNL Campaign] console into the **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** folder. Learn more in [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+    They can be created in the [!DNL Campaign] console into the **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** folder. Learn more in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
     
 * [Substitute from main target](#substitution-profiles) - Send **test emails and SMS** to a specific email address or phone number while impersonating an existing profile.
 
@@ -37,7 +37,7 @@ According to the channel you are using, test messages can be sent to three types
 
 * [Subscribers](#subscribers) - Send **test push notifications** to fictitious subscribers added to the database.
 
-    Just as test profiles, they can be created in the [!DNL Campaign] console into the **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** folder. Learn more in [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+    Just as test profiles, they can be created in the [!DNL Campaign] console into the **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** folder. Learn more in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
 To select the recipients of a test delivery, follow the steps below according to the type of profiles you want to use.
 

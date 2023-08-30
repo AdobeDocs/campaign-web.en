@@ -52,4 +52,4 @@ Campaign data is stored in the application server. Data is available both from t
 
 Some objects can only be created and managed in the client console. They can be visible and used in Campaign Web UI, but cannot be created nor modified from this environment. All Campaign objects and components are available from the Explorer view, available from the left navigation.
 
-For more information on how to use Campaign v8, refer to [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html){target="_blank"}.
+For more information on how to use Campaign v8, refer to [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html){target="_blank"}.
