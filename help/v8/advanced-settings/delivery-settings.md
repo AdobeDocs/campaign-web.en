@@ -21,7 +21,7 @@ These settings are **technical delivery parameters** that are defined in the ema
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="Typology"
->abstract="Typology lets you control, filter and monitor the sending of deliveries."
+>abstract="Typologies are sets of rules which are executed during the message preparation. They let you control, filter and monitor the sending of deliveries."
 
 Typologies are sets of **typology rules**, that are executed during the message analysis phase. They allow you to make sure your emails always contain certain elements (such as an unsubscription link or a subject line) or filtering rules to exclude groups from your intended target (like unsubscribers, competitors, or non-loyalty customers).
 
@@ -65,7 +65,7 @@ Fatigue management comes with the **Campaign Optimization** add-on. Learn more a
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_capacity_settings"
 >title="Capacity settings"
->abstract="Select a capacity rule defined in the Adobe Campaign v8 Console. This rule is associated to the email channel."
+>abstract="Before delivering messages, use capacity rules to make sure your organization can process the delivery, the inbound messages which the delivery may generate, and the number of calls to be made to contact subscribers for example. Capacity rules are defined in the Adobe Campaign v8 Console. In this screen, select a rule associated to the email channel."
 
 In this section, you can select a capacity rule defined in the Adobe Campaign v8 Console. This rule is associated to the email channel.
 
@@ -85,7 +85,7 @@ Learn more about target mappings in [Campaign v8 (client console) documentation]
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
 >title="Delivery settings"
->abstract="Delivery parameters are technical settings which apply to your delivery."
+>abstract="Delivery parameters are technical settings which apply to your delivery. You can activate BCC for the delivery, and change the delivery and routine modes. These options are restricted to expert users only."
 
 Delivery parameters are technical settings which apply to your delivery. 
 
