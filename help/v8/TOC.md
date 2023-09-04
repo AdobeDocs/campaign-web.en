@@ -17,6 +17,7 @@ hide: yes
   + [Discover the interface](get-started/user-interface.md)
   + [Browse, search, and filter lists](get-started/list-filters.md)
   + [Access and permissions](get-started/permissions.md)
+  + [Unsupported capabilites](get-started/unsupported.md)
 + Messages & deliveries {#msg}
   + [Get started with messages](msg/gs-messages.md)
   + [Work with delivery templates](msg/delivery-template.md)
