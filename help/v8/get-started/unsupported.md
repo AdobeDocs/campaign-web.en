@@ -7,7 +7,7 @@ hide: yes
 hidefromtoc: yes
 ---
 
-# Unsupported features in Campaign Web UI {#unsupported-capabilities}
+# Unsupported features in Campaign Web {#unsupported-capabilities}
 
 The following capabilities are accessible in Campaign Client Console, but not yet available in the Web User Interface. Some will be available in a later version, but some not. 
 
@@ -16,17 +16,13 @@ The following capabilities are accessible in Campaign Client Console, but not ye
 * Home page dashboard
 * Home page customization
 
-
 **Campaign Management**
 
 * Marketing calendar / timeline
 * Budget and cost management
 * Task management
-* Distributed marketing
+* Distributed marketing (Central/Local marketing)
 * Response management
-
-**Campaign optimization**
-
 * A/B testing
 * Marketing Resource Management (MRM), goals, simulations, budget, and costs
 
@@ -40,6 +36,7 @@ The following capabilities are accessible in Campaign Client Console, but not ye
 **Web content**
 
 * Landing page creation and publication
+* Web apps, web forms
 * Survey management
 
 **Profiles and recipients**
@@ -60,16 +57,16 @@ The following capabilities are accessible in Campaign Client Console, but not ye
 
 * Content from public resources
 * Loops / Collection management
-* Save an HTML content as a template `*`
+* Save an HTML content as a template`*`
 * Email template synchronization from Adobe Experience Manager
 * Assets from Adobe Experience Manager 6.5 in an email content
 * Content block creation
 * Content from custom forms
-* Content from a URL `*`
+* Content from a URL`*`
 * Email fragments
 * AMP for emails
-* Email fragments `*`
-* Multivariant / Multilingual use case `*`
+* Email fragments`*`
+* Multivariant / Multilingual use case`*`
 
 **Typology rules**
 
