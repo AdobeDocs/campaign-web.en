@@ -60,16 +60,16 @@ The following capabilities are accessible in Campaign Client Console, but not ye
 
 * Content from public resources
 * Loops / Collection management
-* Save an HTML content as a template (not available in the Client Console)
+* Save an HTML content as a template `*`
 * Email template synchronization from Adobe Experience Manager
 * Assets from Adobe Experience Manager 6.5 in an email content
 * Content block creation
 * Content from custom forms
-* Content from a URL (not available in the Client Console)
+* Content from a URL `*`
 * Email fragments
 * AMP for emails
-* Email fragments (not available in the Client Console)
-* Multivariant / Multilingual use case (not available in the Client Console)
+* Email fragments `*`
+* Multivariant / Multilingual use case `*`
 
 **Typology rules**
 
@@ -119,3 +119,4 @@ The following capabilities are accessible in Campaign Client Console, but not ye
 * Target approval
 
 
+`*` Not available in the Client Console
