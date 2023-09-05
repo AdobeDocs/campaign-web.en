@@ -21,13 +21,24 @@ These settings are **technical delivery parameters** that are defined in the ema
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="Typology"
->abstract="Typologies are sets of rules which are executed during the message preparation. They let you control, filter and monitor the sending of deliveries."
+>abstract="Typology rules allow marketers to standardize business practices, across all deliveries. A typology is a collection of typology rules which lets you control, filter, and prioritize the sending of deliveries. Profiles which match criteria within a typology rule are excluded from the delivery audiences at the preparation phase."
 
-Typologies are sets of **typology rules**, that are executed during the message analysis phase. They allow you to make sure your emails always contain certain elements (such as an unsubscription link or a subject line) or filtering rules to exclude groups from your intended target (like unsubscribers, competitors, or non-loyalty customers).
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_typology"
+>title="Typology"
+>abstract="Typology rules allow marketers to standardize business practices, across all deliveries. A typology is a collection of typology rules which lets you control, filter, and prioritize the sending of deliveries. Profiles which match criteria within a typology rule are excluded from the delivery audiences at the preparation phase."
+
+
+Typologies are sets of **typology rules**, that are executed during the preparation phase. Typology rules allow marketers to standardize business practices, across all deliveries. A typology is a collection of typology rules which lets you control, filter, and prioritize the sending of deliveries. Profiles which match criteria within a typology rule are excluded from the delivery audiences at the delivery preparation phase.  They allow you to make sure your emails always contain certain elements (such as an unsubscription link or a subject line) or filtering rules to exclude groups from your intended target (like unsubscribers, competitors, or non-loyalty customers).
+
+Typology rules are grouped together within a typology in order to easily apply multiple filtering rules to a delivery at once.
 
 When associating a typology with a message or message template, the typology rules included in the typology are executed to check the message validity during message preparation.
 
 ![](assets/delivery-settings-1.png)
+
+
 
 
 ### Pressure parameters {#pressure-parameters}
@@ -36,10 +47,10 @@ When associating a typology with a message or message template, the typology rul
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_pressure_parameters"
 >title="Pressure parameters"
->abstract="Delivery weights let you identify top-priority deliveries within the framework of pressure management. Messages with the highest weight have priority."
+>abstract="Delivery weights let you identify top-priority deliveries within the framework of fatigue management. Messages with the highest weight have priority."
 
 
-In this section, pressure parameters let you define a **threshold**. This is the maximum number of messages that can be sent to one profile over a given period. Once this threshold has been reached, no more deliveries can take place until the end of the period considered. This process lets you automatically exclude a profile from a delivery if a message exceeds the set threshold, thus avoiding over-solicitation.
+In this section, pressure parameters let you define a **threshold** to set up fatigue management rules. This is the maximum number of messages that can be sent to one profile over a given period. Once this threshold has been reached, no more deliveries can take place until the end of the period considered. This process lets you automatically exclude a profile from a delivery if a message exceeds the set threshold, thus avoiding over-solicitation.
 
 Threshold values can be either constant or variable. This means that for a given period, thresholds can vary from one profile to another, or even for the same profile.
 

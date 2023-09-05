@@ -32,7 +32,7 @@ This screen includes key links and resources for a quick access to the main Camp
 
 The **Recents** list provides shortcuts to the recently created and modified deliveries. This list shows their channel, status, owner, creation and modification dates.
 
-The **Key performance indicators** lets you check your platform effectiveness through common KPIs. 
+The **Key performance indicators** lets you check your platform effectiveness through common KPIs. Learn more about these KPIs in [this page](../reporting/kpis.md).
 
 Access Campaign v8 Web key help pages from the **Learning** section of the home page.
 
@@ -293,7 +293,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_tracking_validity"
 >title="Validity period"
->abstract="This option defines the duration for which the tracking is activated on the URLs."
+>abstract="The validity period sets the duration for which the tracking is activated on the message URLs."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_delivery_duration"
@@ -324,11 +324,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_delivery_template_settings_delivery_weight"
 >title="Delivery weight"
 >abstract="Delivery weights let you identify top-priority deliveries within the framework of pressure management. Messages with the highest weight have priority."
-
->[!CONTEXTUALHELP]
->id="acw_delivery_template_settings_typology"
->title="Typology"
->abstract="Typology lets you control, filter and monitor the sending of deliveries."
 
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
