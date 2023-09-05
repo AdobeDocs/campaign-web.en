@@ -10,8 +10,8 @@ badge: label="Beta"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
->title="Get started with emails"
->abstract="Start from a template, or use Adobe Campaign's new Email Designer to create emails without having to write a single line of code. Learn how to use the Email Designer to create your content, preview and test it, and send an email to an existing audience in an end-to-end use case."
+>title="Gen AI for email content"
+>abstract="Our Gen AI technology utilizes advanced algorithms to generate highly engaging and personalized content. Drive higher open rates, click-through rates, and conversions with Gen AI's intelligent content generation. Stay ahead of the competition and elevate your email marketing game with Gen AI on email content."
 
 Learn how to create your first targeted email. In this use case, you schedule the sending of an email to Silver and Gold loyalty members on a specific date.
 

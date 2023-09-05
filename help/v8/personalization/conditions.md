@@ -11,13 +11,6 @@ exl-id: b650a859-e27d-4a36-a725-a1f5bb31e014
 # Build conditional content{#add-conditions}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_card3"
->title="Create conditional content"
->abstract="Create conditional content to define dynamic personalization based on the recipient's profile, automatically replacing text blocks and images when certain conditions are met. This feature can take your campaigns to new heights and deliver highly targeted, personalized experiences to your audience."
-
-
-
->[!CONTEXTUALHELP]
 >id="acw_conditional_content"
 >title="Add conditional content"
 >abstract="Configure conditional content fields to create advanced dynamic personalization based on the recipient's profile data. Text blocks, links, subject line, and/or images are replaced in the message content when a particular condition is satisfied."
