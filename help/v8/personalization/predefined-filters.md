@@ -25,7 +25,7 @@ badge: label="Beta"
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-creation"
 >title="Create a predefined filter"
->abstract="Enter a label for the predefined filter, and select the table it applies to. Open the additional options to add a description and set this filter as a favorite.Then use the 'Create rule' button to define the filtering conditions. "
+>abstract="Enter a label for the predefined filter, and select the table it applies to. Open the additional options to add a description and set this filter as a favorite. Then use the 'Create rule' button to define the filtering conditions. "
 
 ## Use a predefined filter {#use-predefined-filter}
 
