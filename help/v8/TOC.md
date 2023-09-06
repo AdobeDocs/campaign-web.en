@@ -62,7 +62,7 @@ hide: yes
     + [Add personalization](personalization/personalize.md)
     + [Add conditional content](personalization/conditions.md)
     + [Add built-in content blocks](personalization/content-blocks.md)
-    + [Create and use predefined filters](personalization/predefined-filters.md)
+    + [Work with predefined filters](personalization/predefined-filters.md)
   + [Send offers](content/offers.md)
   + Preview and test your delivery {#preview-test}
     + [About preview and test](preview-test/preview-test.md) 
