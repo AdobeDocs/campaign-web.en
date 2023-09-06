@@ -19,7 +19,7 @@ badge: label="Beta"
 >title="Predefined filters"
 >abstract="Campaign web now offers you an user-friendly interface to effortlessly manage and customize predefined filters to meet your specific needs. Create once and save for future use."
 
-Predefined filters are custom filters which are available for future use. They can be used as shortcuts during filtering operations with the rule builder.
+Predefined filters are custom filters which are available for future use. They can be used as shortcuts during filtering operations with the rule builder. You can use existing built-in filters to access a specific sub-set of your data, or create your own predefined filter.
 
 
 ## Create a predefined filter {#create-predefined-filter}
@@ -59,3 +59,5 @@ Your custom filter is now available in the **Predefined Filters** list and acces
 
 ## Manage your predefined filters {#manage-predefined-filter}
 
+
+## Built-in predefined filters {#ootb-predefined-filter}
