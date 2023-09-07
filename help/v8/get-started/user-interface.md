@@ -260,6 +260,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="This service is read only"
 >abstract="You do not have permissions to edit this service. If needed, contact your administrator to grant you access."
 
+>[!CONTEXTUALHELP]
+>id="acw_audiences_read_only"
+>title="This audience is read only"
+>abstract="You do not have permissions to edit this audience. If needed, contact your administrator to grant you access."
+
 <!-- Workflows-->
 
 >[!CONTEXTUALHELP]
