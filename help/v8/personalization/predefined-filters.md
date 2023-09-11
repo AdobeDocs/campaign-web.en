@@ -23,6 +23,8 @@ Predefined filters are custom filters which are created and saved to be availabl
 
 You can use existing built-in filters to access a specific sub-set of your data, or create your own predefined filters and save them.
 
+![](assets/predefined-filters-menu.png)
+
 
 ## Create a predefined filter {#create-predefined-filter}
 
@@ -31,9 +33,12 @@ You can use existing built-in filters to access a specific sub-set of your data,
 >title="Create a predefined filter"
 >abstract="Enter a label for the predefined filter, and select the table it applies to. Open the additional options to add a description and set this filter as a favorite. Then use the 'Create rule' button to define the filtering conditions."
 
-When creating a filter with the rule builder, you can save it for a future use. When saved as a custom filter, it is available for future use. You can also create and edit predefined filter from the dedicated menu in the left navigation.
 
-![](assets/predefined-filters-menu.png)
+>[!CONTEXTUALHELP]
+>id="acw_predefined-filters-rules"
+>title="Create the predefined filter rules"
+>abstract="To define the filtering conditions of your custom filter, click the 'Create rule' button."
+
 
 To save a custom filter in the rule builder, follow the steps below:
 
@@ -76,7 +81,6 @@ Predefined filters are available when defining rule properties. To access predef
 You can then access the full list of predefined filters available for the current context.
 
 You can also use the filter shortcuts available in the **Favorite filters** section of the drop-down.
-
 
 For example, to build an audience from a predefined filter, follow these steps:
 
