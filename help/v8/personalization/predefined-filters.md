@@ -19,7 +19,9 @@ badge: label="Beta"
 >title="Predefined filters"
 >abstract="Campaign web now offers you an user-friendly interface to effortlessly manage and customize predefined filters to meet your specific needs. Create once and save for future use."
 
-Predefined filters are custom filters which are available for future use. They can be used as shortcuts during filtering operations with the rule builder. You can use existing built-in filters to access a specific sub-set of your data, or create your own predefined filter.
+Predefined filters are custom filters which are created and saved to be available for future use. They can be used as shortcuts during any filtering operations with the rule builder, for example when filtering a list of data, or creating the audience of a delivery. 
+
+You can use existing built-in filters to access a specific sub-set of your data, or create your own predefined filters and save them.
 
 
 ## Create a predefined filter {#create-predefined-filter}
@@ -46,18 +48,73 @@ To save a custom filter in the rule builder, follow the steps below:
 
 1. (optional) Enable the **Save as favorite** option if you want to see this predefined filter in your favorites.
 
+
+    When a filter is saved as a favorite, it is available to all users in the **Favorite filters** section of the filter creation list, as shown below:
+
     ![](assets/predefined-filters-favorite.png)
+
 
 1. Click **Confirm** to save your changes.
 
 Your custom filter is now available in the **Predefined Filters** list and accessible to all Campaign users.
 
+You can also create a filter from the **Predefined filters** entry in the left menu. To perform this, follow the steps below:
+
+1. Browse the the **Predefined filters** entry in the left menu.
+1. Click the **Create filter** button.
+1. Enter the filter name and, from the **Document type** field, select the schema it applies to. The default schema is `Recipients(nms)`.
+1. Define the rule for the filter. For example, profiles older than 30.
+
+    ![](assets/filter-30+.png)
+
+1. Save your changes. The filter is added to the predefined filter list.
 
 ## Use a predefined filter {#use-predefined-filter}
 
+Predefined filters are available when defining rule properties. To access predefined filters, choose the **Select custom filter** option in the drop down of the rule builder.
 
+You can then access the full list of predefined filters available for the current context.
+
+You can also use the filter shortcuts available in the **Favorite filters** section of the drop-down.
+
+
+For example, to build an audience from a predefined filter, follow these steps:
+
+1. Browse the the **Audiences** entry in the left menu.
+1. Click the **Create Audience** button.
+1. Enter the audience name, and click the **Create Audience** button.
+1. Select the **Query** activity, and, from the right pane, click **Create audience** button.
+
+    ![](assets//build-audience-from-filter.png)
+
+1. From the **Select or save filter button**, choose the **Select custom filter** option. 
+
+    ![](assets/build-audience-select-custom-filter.png)
+
+1. Browse to the predefined filter to use to create the audience, select it, and confirm.
+
+    ![](assets/build-audience-filter-list.png)
+
+1. Check the rule properties for this filter and confirm.
+
+    ![](assets/build-audience-check.png)
+
+    The filter is now used as a query in the **Query** activity.
+
+    ![](assets/build-audience-confirm.png)
+
+1. Save your changes and click the **Start** button to build the audience and make it available in the audience list.
 
 ## Manage your predefined filters {#manage-predefined-filter}
 
+Predefined filters are all grouped in the dedicated entry of the left navigation menu.
+
+From this list, you can create a new filter as detailed above, and:
+
+* edit an existing filter, and change it rules and properties
+* duplicate a predefined filter
+* delete a predefined filter
 
 ## Built-in predefined filters {#ootb-predefined-filter}
+
+Campaign comes with a set of predefined filters, built from the client console. These filters can be used to define your audiences, and rules. They must not be modified.
