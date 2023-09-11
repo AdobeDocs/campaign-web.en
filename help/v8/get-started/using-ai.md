@@ -5,7 +5,7 @@ badge: label="Beta"
 hide: yes
 hidefromtoc: yes
 ---
-# Using AI-powered knowledge assistant in Campaign Web {#using-ai}
+# Using the AI-powered knowledge assistant {#using-ai}
 
 Get fast, AI-generated answers based on the product documentation, and your current product context, with the AI-powered knowkedge assistant available in the product contextual help boxes.
 
