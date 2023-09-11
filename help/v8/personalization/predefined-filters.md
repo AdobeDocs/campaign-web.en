@@ -33,14 +33,14 @@ You can use existing built-in filters to access a specific sub-set of your data,
 >title="Create a predefined filter"
 >abstract="Enter a label for the predefined filter, and select the table it applies to. Open the additional options to add a description and set this filter as a favorite. Then use the 'Create rule' button to define the filtering conditions."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-rules"
 >title="Create the predefined filter rules"
 >abstract="To define the filtering conditions of your custom filter, click the 'Create rule' button."
 
+### Create a filter from the rule builder {#create-from-rule-builder}
 
-To save a custom filter in the rule builder, follow the steps below:
+You can save a custom filter from the rule builder to have it available for future use. Follow these steps:
 
 1. Open the rule builder and define your filtering conditions. In the example below, you filter recipients who live in Madrid.
 1. Click the **Select or save filter** button, and select **Save as a filter**.
@@ -51,28 +51,40 @@ To save a custom filter in the rule builder, follow the steps below:
     
     ![](assets/predefined-filters-save-filter.png)
 
-1. (optional) Enable the **Save as favorite** option if you want to see this predefined filter in your favorites.
-
-
-    When a filter is saved as a favorite, it is available to all users in the **Favorite filters** section of the filter creation list, as shown below:
-
-    ![](assets/predefined-filters-favorite.png)
-
+    You can save the filter as a favorite if needed. Learn more in [this section](#fav-filter).
 
 1. Click **Confirm** to save your changes.
 
 Your custom filter is now available in the **Predefined Filters** list and accessible to all Campaign users.
 
-You can also create a filter from the **Predefined filters** entry in the left menu. To perform this, follow the steps below:
+
+### Create a filter from the filter list {#create-filter-from-list}
+
+
+You can create a filter from the **Predefined filters** entry in the left menu. To perform this, follow the steps below:
 
 1. Browse the the **Predefined filters** entry in the left menu.
 1. Click the **Create filter** button.
 1. Enter the filter name and, from the **Document type** field, select the schema it applies to. The default schema is `Recipients(nms)`.
+
+    You can save the filter as a favorite if needed. Learn more in [this section](#fav-filter).
+    
 1. Define the rule for the filter. For example, profiles older than 30.
 
     ![](assets/filter-30+.png)
 
 1. Save your changes. The filter is added to the predefined filter list.
+
+
+## Save your filter as a favorite {#fav-filter}
+
+When creating a predefined filter, you can enable the **Save as favorite** option if you want to see this predefined filter in your favorites.
+
+
+When a filter is saved as a favorite, it is available to all users in the **Favorite filters** section of the filter creation list, as shown below:
+
+![](assets/predefined-filters-favorite.png)
+
 
 ## Use a predefined filter {#use-predefined-filter}
 
@@ -80,7 +92,7 @@ Predefined filters are available when defining rule properties. To access predef
 
 You can then access the full list of predefined filters available for the current context.
 
-You can also use the filter shortcuts available in the **Favorite filters** section of the drop-down.
+You can also use the filter shortcuts available in the **Favorite filters** section of the drop-down. Learn more about favorites in [this section](#fav-filter).
 
 For example, to build an audience from a predefined filter, follow these steps:
 
@@ -119,7 +131,7 @@ From this list, you can create a new filter as detailed above, and:
 * duplicate a predefined filter
 * delete a predefined filter
 
-You can add a predefined filter as a favorite for a quick access when building your rules. This capability is described in [this section](#create-predefined-filter).
+You can add a predefined filter as a favorite for a quick access when building your rules. Learn more in [this section](#fav-filter).
 
 ## Built-in predefined filters {#ootb-predefined-filter}
 
