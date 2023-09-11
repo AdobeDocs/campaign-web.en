@@ -119,6 +119,8 @@ From this list, you can create a new filter as detailed above, and:
 * duplicate a predefined filter
 * delete a predefined filter
 
+You can add a predefined filter as a favorite for a quick access when building your rules. This capability is described in [this section](#create-predefined-filter).
+
 ## Built-in predefined filters {#ootb-predefined-filter}
 
 Campaign comes with a set of predefined filters, built from the client console. These filters can be used to define your audiences, and rules. They must not be modified.
