@@ -3,7 +3,7 @@ audience: end-user
 title: Preview delivery content
 description: Learn how to preview your delivery content with Campaign Web UI
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-badge: label="Alpha" 
+badge: label="Beta" 
 ---
 
 # Preview delivery content {#preview-content} 
@@ -32,9 +32,9 @@ To preview the content of your delivery, follow the steps below.
     
         >[!NOTE]
         >
-        >Test profiles can be created in the [!DNL Campaign] console into the **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** folder. Learn more in [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.
+        >Test profiles can be created in the [!DNL Campaign] console into the **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** folder. Learn more in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.
 
-    * The **[!UICONTROL Profiles]** tab lists all the recipients stored into the **[!UICONTROL Profiles and Targets]** folder from the [!DNL Campaign] console. Learn more in [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html){target="_blank"}.
+    * The **[!UICONTROL Profiles]** tab lists all the recipients stored into the **[!UICONTROL Profiles and Targets]** folder from the [!DNL Campaign] console. Learn more in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html){target="_blank"}.
 
     ![](assets/simulate-select-profiles.png)
 

@@ -2,7 +2,7 @@
 audience: end-user
 title: Get started with messages and deliveries in Campaign v8 Web
 description: Learn how to work with deliveries and send messages with Campaign Web
-badge: label="Alpha" 
+badge: label="Beta" 
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 ---
 # Get started with messages{#gs-messages}
@@ -10,7 +10,7 @@ exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="Deliveries"
->abstract="Browse through your list of deliveries. You can view their status, contact and modification dates, key KPIs. You can filter the list by state, contact date or channel. Click the 'Create delivery' button to add a new delivery. Select a delivery to view its content, audience, and details."
+>abstract="A delivery is a marketing communication which is sent to an audience on a specific channel: email, SMS, or Push notification. In your list of deliveries, you can edit existing deliveries, and check their status, contact and modification dates, KPIs. Click the 'Create delivery' button to add a new delivery. Select a delivery to view its content, schedule, audience, and details."
 
 
 With Adobe Campaign, you can send cross-channel campaigns including emails, SMS, and Push notifications, and measure their effectiveness using various dedicated reports. 
@@ -127,7 +127,7 @@ You can personalize the message content by:
 
 * Create **conditional content**
 
-    Configure conditional content to add dynamic personalization based on the recipient’s profile for example. Text blocks and/or images are inserted when a particular condition is true. [Learn more](../personalization/conditions.md)
+    Configure conditional content to add dynamic personalization based on the recipient's profile for example. Text blocks and/or images are inserted when a particular condition is true. [Learn more](../personalization/conditions.md)
 
 * Add **personalized offers**
     

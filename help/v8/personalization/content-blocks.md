@@ -5,7 +5,7 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Beginner
-badge: label="Alpha" 
+badge: label="Beta" 
 ---
 
 # Built-in content blocks {#ootb-content-blocks}
@@ -47,5 +47,5 @@ Built-in content blocks are:
 
 >[!NOTE]
 >
->You can define new blocks from Adobe Campaign v8 console that enables you to optimize your deliveries personalization. Learn more in [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}.
+>You can define new blocks from Adobe Campaign v8 console that enables you to optimize your deliveries personalization. Learn more in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}.
 

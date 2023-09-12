@@ -2,7 +2,7 @@
 audience: end-user
 title: Use the SMS workflow activity
 description: Learn how to use the SMS workflow activity
-badge: label="Alpha" 
+badge: label="Beta" 
 ---
 
 # SMS {#sms}

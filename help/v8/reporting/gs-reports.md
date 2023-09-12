@@ -2,7 +2,7 @@
 audience: end-user
 title: Get started with reports
 description: Learn how to access and manage reports in Campaign Web
-badge: label="Alpha" 
+badge: label="Beta" 
 ---
 # Get started with reports {#get-started-reports}
 
@@ -12,7 +12,7 @@ Adobe Campaign offers two different reports:
 
 * **Delivery report**: The **Delivery report** offers comprehensive insights and data specific to each channel. It provides detailed information on the performance, effectiveness, and outcomes of your individual deliveries, providing you with a comprehensive overview.
 
-* **Campaign report**: The **Campaign report** provides a comprehensive overview of your campaign,  incorporating all pertinent information regarding the different deliveries included. This report offers a thorough analysis of each delivery's performance, success rates, audience engagement, and other essential metrics, allowing you to evaluate the overall effectiveness and impact of your campaign. 
+* **Campaign report**: The **Campaign report** provides a comprehensive overview of your campaign, incorporating all pertinent information regarding the different deliveries included. This report offers a thorough analysis of each delivery's performance, success rates, audience engagement, and other essential metrics, allowing you to evaluate the overall effectiveness and impact of your campaign. 
 
 
 

@@ -2,15 +2,15 @@
 audience: end-user
 title: Get started with workflows
 description: Learn how to start with workflows
-badge: label="Alpha" 
+badge: label="Beta" 
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
 ---
 # Get started with workflows {#workflows}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
->title="Reimagined workflow canvas interface"
->abstract="Our comprehensive graphical canvas makes it easy for you to design processes such as segmentation, campaign execution, and more. With this advanced tool at your fingertips, you can streamline your workflow and elevate your campaigns."
+>title="More campaign workflow activities"
+>abstract="Unlock new possibilities for automation and optimization, allowing you to create more dynamic and personalized customer journeys. From advanced segmentation to conditional triggers, our additional workflow activities empower you to deliver targeted messages and drive better campaign performance."
 
 ## What is a workflow?
 

@@ -2,16 +2,12 @@
 audience: end-user
 title: Get started with campaigns
 description: Learn how to start with cross-channel campaigns
-badge: label="Alpha" 
+badge: label="Beta" 
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
 ---
 
 # Get started with campaigns {#campaigns}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_card5"
->title="Design and send cross-channel campaigns"
->abstract="Adobe Campaign capabilities help you manage centralized customer data, design customer communications and campaigns, and create personalized experiences across different channels: Email, Push and SMS."
 
 Adobe Campaign allows you to easily orchestrate your targeted marketing initiatives, using the built-in campaign management capability. With the ability to define a schedule, you can plan the duration and timing of your campaigns to align with strategic objectives and maximize audience engagement.
 

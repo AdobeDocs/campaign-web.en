@@ -2,7 +2,7 @@
 audience: end-user
 title: Create campaigns with Adobe Campaign Web
 description: Learn how to build cross-channel campaigns with Adobe Campaign Web
-badge: label="Alpha" 
+badge: label="Beta" 
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
 ---
 
@@ -11,21 +11,16 @@ exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
 >title="Campaign creation properties"
->abstract="Define properties and metadata for the campaign."
+>abstract="In this screen, define your campaign settings: select a template, and enter a label for your campaign. Browse to the additional settings to change the default internal name, folder, add a description, and select the assignee."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_properties"
 >title="Campaign properties"
->abstract="Define your campaign settings and metadata."
+>abstract="In this screen, you can check and update your campaign settings: its label, internal name, folder, and description. You can also view which user it is assigned to."
 
-To create a new campaign, you need to define its properties, schedule and include workflows and deliveries.
+To create a new campaign, you need to define its properties, schedule, and include workflows and deliveries.
 
 ## Create the campaign{#campaign-create}
-
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_schedule"
->title="Campaign schedule"
->abstract="Define your campaign schedule during campaign creation."
 
 To create a new campaign, follow these steps:
 
@@ -33,14 +28,7 @@ To create a new campaign, follow these steps:
 1. Select the **Template** to use and provide a label for the campaign. Campaign templates are pre-configured so that they can be reused for creating new campaigns. They are created from the client console.
 [Read more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html).
 1. If needed, you can change the following **Additional options**: internal name, folder, assignee, description and nature.
-1. Define the **Schedule** of your campaign. The campaign starts when the start date is reached. Start and end dates are displayed in the campaign list, and can be used as a filter. See this [section](manage-campaigns.md#access-campaigns).
-
-    ![Define your campaign properties](assets/campaign-properties.png)
-
-    >[!NOTE]
-    >
-    >You can always modify these properties later, from the **Configure campaign settings** icon, next to the campaign label. See this [section](gs-campaigns.md#campaign-dashboard).
-
+1. Define the **Schedule** of your campaign. Learn how to set your campaign schedule in [this section](#campaign-schedule)
 1. Click **Create**.
 1. Add workflows and deliveries to your campaign:
 
@@ -56,6 +44,27 @@ Campaign monitoring is a key step to analyze your campaign's effectiveness. Open
 You can also view the dedicated reports by clicking the **Reports** button. See this [section](../reporting/campaign-reports.md).
 
 
+## Define the campaign schedule {#campaign-schedule}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_schedule"
+>title="Campaign schedule"
+>abstract="Select the campaign schedule. You can create the campaign, and it starts when the start date is reached. By default, the campaign start date is the creation date, and it lasts for 5 days. Start and end dates are displayed in the campaign list, and can be used as a filter."
+
+
+The campaign starts when the start date is reached. As long as the start date is not reached, the campaign has the **[!UICONTROL Draft]** status. Then when the start date is reached, it turns to **[!UICONTROL In progress]**. Once the end date is reached, the campaign is set to **[!UICONTROL Completed]**.
+   
+Start and end dates are displayed in the campaign list, and can be used as a filter. See this [section](manage-campaigns.md#access-campaigns).
+
+![Define your campaign properties](assets/campaign-properties.png)
+
+>[!NOTE]
+>
+>You can always modify these properties later, from the **Configure campaign settings** icon, next to the campaign label. See this [section](gs-campaigns.md#campaign-dashboard).
+
+Once the date is reached, deliveries created in that campaign in the context of a workflow which are ready to be sent are actually sent. For this, the workflow must have been started.
+ 
 
 <!--
     +++WORKF

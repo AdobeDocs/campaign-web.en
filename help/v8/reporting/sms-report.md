@@ -2,7 +2,7 @@
 audience: end-user
 title: SMS delivery reports
 description: Learn how to access and use sms delivery reports
-badge: label="Alpha" 
+badge: label="Beta" 
 ---
 # SMS delivery report {#report}
 

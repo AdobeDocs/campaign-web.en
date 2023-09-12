@@ -2,7 +2,7 @@
 audience: end-user
 title: Get started with SMS deliveries
 description: Learn how to create and send SMS with Adobe Campaign Web
-badge: label="Alpha" 
+badge: label="Beta" 
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
 ---
 # Get started with SMS deliveries {#sms}
@@ -17,7 +17,7 @@ The SMS channel offers three methods for creating SMS deliveries:
 
 * **Stand-alone deliveries**: Create individual SMS deliveries for quick and direct communication with your customers, without the need for workflows or campaigns.
 
-![](../assets/do-not-localize/book.png) Learn how to configure SMS channel in [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/sms.html){target="_blank"}.
+![](../assets/do-not-localize/book.png) Learn how to configure SMS channel in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/sms.html){target="_blank"}.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

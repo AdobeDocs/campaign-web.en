@@ -3,7 +3,7 @@ audience: end-user
 title: Send test deliveries
 description: Learn how to define and send test deliveries
 exl-id: b2677579-c95d-443d-b207-466af364c208
-badge: label="Alpha" 
+badge: label="Beta" 
 ---
 # Send test deliveries {#send-test-deliveries}
 
@@ -20,20 +20,16 @@ The recipients of a test can check various elements such as links, opt-out links
 
 ## Select the test recipients {#test-recipients}
 
-
-
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
 >title="Test population"
 >abstract="Select a test population mode."
 
-
-
 According to the channel you are using, test messages can be sent to three types of recipients: 
 
 * [Test profiles](#test-profiles) - Send **test emails and SMS** to seed addresses, which are additional recipients in the database.
 
-    They can be created in the [!DNL Campaign] console into the **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** folder. Learn more in [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+    They can be created in the [!DNL Campaign] console into the **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** folder. Learn more in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
     
 * [Substitute from main target](#substitution-profiles) - Send **test emails and SMS** to a specific email address or phone number while impersonating an existing profile.
 
@@ -41,12 +37,26 @@ According to the channel you are using, test messages can be sent to three types
 
 * [Subscribers](#subscribers) - Send **test push notifications** to fictitious subscribers added to the database.
 
-    Just as test profiles, they can be created in the [!DNL Campaign] console into the **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** folder. Learn more in [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+    Just as test profiles, they can be created in the [!DNL Campaign] console into the **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** folder. Learn more in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
 To select the recipients of a test delivery, follow the steps below according to the type of profiles you want to use.
 
 ### Test profiles {#test-profiles}
 
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_test_mode"
+>title="Target of the proof"
+>abstract="You can upload a second file as 'target of the proof', if you wish to test your delivery before sending to the main target."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_test_upload"
+>title="Upload profiles"
+>abstract="You can upload a second file with additional profiles if you like to test your delivery with a different set from the set you have used for the main target."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_test_sample"
+>title="Template file"
+>abstract="The formatting of the file must be the same as the original file.<br/>Supported file formats: txt, csv. Maximum file size: 15MB. Use first line as column header."
 
 1. Browse to the edit content screen of your email or SMS delivery, then click the **[!UICONTROL Simulate content]** button.
 

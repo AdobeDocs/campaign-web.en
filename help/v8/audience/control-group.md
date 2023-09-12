@@ -3,7 +3,7 @@ audience: end-user
 title: Set a control group
 description: Learn how to set a control group for your messages in Campaign Web UI
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-badge: label="Alpha" 
+badge: label="Beta" 
 ---
 # Set a control group {#control-group}
 
@@ -34,7 +34,7 @@ To add a control group to a delivery, activate the **[!UICONTROL Enable control 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_target"
 >title="Extraction mode"
->abstract="To define a control group, you can choose to extract, randomly or based on a sorting, a percentage or a fixed number of profiles from the target population."
+>abstract="A control group is a set of profiles excluded from the delivery. To define a control group, you can choose to extract, randomly or based on a sorting, a percentage or a fixed number of profiles from the target population."
 
 
 ### Build a control group {#build-extract-target}
@@ -98,7 +98,7 @@ For more information on delivery logs, refer to this [section](../monitor/delive
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
 >title="Extra population"
->abstract="You can exclude a specific population from the delivery audience by selecting an existing audience, or by defining a query."
+>abstract="A control group is a set of profiles excluded from the delivery. You can exclude a specific population from the delivery audience by selecting an existing audience, or by defining a query."
 
 Another way to define a control group is to select a specific population in an existing audience or by defining a query.
 

@@ -3,7 +3,7 @@ audience: end-user
 title: Delivery reports
 description: Learn how to access and use delivery reports
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-badge: label="Alpha" 
+badge: label="Beta" 
 ---
 # Access Delivery reports {#reports}
 
@@ -21,4 +21,8 @@ To display reports, follow these steps:
 
     ![](assets/reporting.png)
 
+1. If your delivery is recurring, you can select a specific delivery to report on by clicking **[!UICONTROL Select deliveries]**. 
 
+    You can also apply a time period to your report by selecting the **[!UICONTROL Contact date]**.
+
+    ![](assets/delivery-recurring.png)

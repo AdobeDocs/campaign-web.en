@@ -2,7 +2,7 @@
 audience: end-user
 title: Campaign reports
 description: Learn how to access and use campaign reports
-badge: label="Alpha" 
+badge: label="Beta" 
 ---
 # Campaign reports {#campaign-reports}
 
@@ -105,7 +105,7 @@ To access your Campaign report, click Reports from your campaign's dashboard.
 
 * **[!UICONTROL Breakdown of errors per type]** and **[!UICONTROL Breakdown of errors per domain]** tables and graphs contain the available data for possible errors encountered with each domain.
     
-    The errors shown in this report trigger the quarantine process. For more on quarantine management, refer to [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
+    The errors shown in this report trigger the quarantine process. For more on quarantine management, refer to [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
 
     ![](assets/campaign_report_email_6.png)
 

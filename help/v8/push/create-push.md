@@ -2,7 +2,7 @@
 audience: end-user
 title: Create a push notification delivery
 description: Learn how to create a push notification delivery with Adobe Campaign Web
-badge: label="Alpha" 
+badge: label="Beta" 
 ---
 # Create a push notification delivery {#create-push}
 

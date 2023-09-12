@@ -2,7 +2,7 @@
 audience: end-user
 title: Get started with push notifications
 description: Learn how to create and send push notifications with Adobe Campaign Web
-badge: label="Alpha" 
+badge: label="Beta" 
 exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
 ---
 # Get started with push notifications {#push}
@@ -17,7 +17,7 @@ To create push notifications, you have three options:
 
 * Stand-alone deliveries: Engage customers directly and instantly with individual push notification delivery, without the need for workflows or campaigns.
 
-![](../assets/do-not-localize/book.png) Learn how to configure Push notification channel in [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html){target="_blank"}.
+![](../assets/do-not-localize/book.png) Learn how to configure Push notification channel in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html){target="_blank"}.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

@@ -3,7 +3,7 @@ audience: end-user
 title: Prepare and send an email
 description: Learn how to prepare and send an email with Campaign Web UI
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-badge: label="Alpha" 
+badge: label="Beta" 
 ---
 
 # Prepare and send your email {#prepare-send}
@@ -14,7 +14,7 @@ When you have defined your [content](../content/edit-content.md), [audience](../
 
 During the preparation, the target population is calculated and the message content generated for each profile included in the target. Once the preparation is finished, the messages are ready to be sent, either immediately or at the scheduled date and time. 
 
-The validation rules used during delivery preparation are described in the [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/validate/delivery-analysis.html){target="_blank"}.
+The validation rules used during delivery preparation are described in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/validate/delivery-analysis.html){target="_blank"}.
 
 The main steps to prepare the send are listed below.
 

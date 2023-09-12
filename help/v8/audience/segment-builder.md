@@ -3,9 +3,15 @@ audience: end-user
 title: Build an audience with Campaign rule builder
 description: Learn how to work with the rule builder
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-badge: label="Alpha" 
+badge: label="Beta" 
 ---
 # Define an audience with the rule builder {#segment-builder}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card5"
+>title="Target audiences"
+>abstract="Building a delivery target has never been easier! With our latest rule builder, you now have the ability to define filtering criteria for recipients or any other targeting dimension from the database. Take advantage of your Adobe Experience Platform audience to further refine your target audience and maximize your campaign's impact."
 
 This section describes how to create an audience when designing a new email. The created audience can only be used in this email. 
 
@@ -37,7 +43,7 @@ The palette, located on the left side contains all the elements that you can fil
 
     >[!NOTE]
     >
-    >To leverage Adobe Experience Platform audiences, you need to configure the integration with Destinations. Refer to the [Destinations documentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html){target="_blank"}.
+    >To leverage Adobe Experience Platform audiences, you need to configure the integration with Destinations. Refer to the [Adobe Experience Platform Destinations documentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html){target="_blank"}.
 
 You can use the search bar to find elements quickly.
 

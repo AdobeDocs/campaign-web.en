@@ -22,7 +22,7 @@ The new Campaign v8 Web interface offers a modern and intuitive user experience 
 
 ## Left navigation menu {#user-interface-left-nav}
 
-Browse the links on the left to access Campaign v8 Web capabilities. Several links display lists of objects which can be sorted and filtered. You can also configure columns to display all the information you need. See this [section](#list-screens). All list screens are read-only, except the email delivery list. Clicking on any list item for edition/viewing is not available in Alpha. All lists will be editable in future versions. The items displayed in the left navigation menu depend on your user permissions.
+Browse the links on the left to access Campaign v8 Web capabilities. Several links display lists of objects which can be sorted and filtered. You can also configure columns to display all the information you need. See this [section](#list-screens). Some list screens are read-only. The items displayed in the left navigation menu and in the lists depend on your user permissions. Learn more about permissions in [this section](permissions.md).
 
 ![](assets/home.png)
 
@@ -32,6 +32,8 @@ This screen includes key links and resources for a quick access to the main Camp
 
 The **Recents** list provides shortcuts to the recently created and modified deliveries. This list shows their channel, status, owner, creation and modification dates.
 
+The **Key performance indicators** lets you check your platform effectiveness through common KPIs. Learn more about these KPIs in [this page](../reporting/kpis.md).
+
 Access Campaign v8 Web key help pages from the **Learning** section of the home page.
 
 ### Explorer {#user-interface-explorer} 
@@ -39,11 +41,11 @@ Access Campaign v8 Web key help pages from the **Learning** section of the home 
 >[!CONTEXTUALHELP]
 >id="acw_explorer"
 >title="Explorer"
->abstract="The **Explorer** menu displays all Campaign components and objects with the same folder hierarchy as the one in the client console. Browse all your Campaign v8 components, folders and schemas, and create deliveries, workflows and campaigns. All other lists are read-only."
+>abstract="The **Explorer** menu displays all Campaign components and objects with the same folder hierarchy as the one in the client console. Browse all your Campaign v8 components, folders and schemas, check associated permissions, and create folders and sub-folders from this menu."
 
-The **Explorer** menu displays all Campaign resources and objects with the same folder hierarchy as the one in the client console. Browse all your Campaign v8 components, folders and schemas, and create deliveries, workflows and campaigns. All other lists are read-only.
+The **Explorer** menu displays all Campaign resources and objects with the same folder hierarchy as the one in the client console. Browse all your Campaign v8 components, folders and schemas, and create deliveries, workflows and campaigns.
 
-The items displayed in the Explorer depend on your user permissions. 
+The items displayed in the **Explorer** depend on your user permissions.  You can also add folders and sub-folders, if you have proper permissions. Learn more about permissions in [this section](permissions.md).
 
 Like in any list screen, you can configure columns to personalize the display to view all the information you need. See this [section](#list-screens).
 
@@ -62,7 +64,7 @@ In the CAMPAIGN MANAGEMENT section, you can access marketing campaigns, deliveri
 
 * **Campaigns** - This is the list of your campaigns, and campaign templates. By default, for each campaign you can view the start/end/creation/last modification dates, the current status, and the name of the Campaign operator who created it. You can filter the list by status, start/end dates, folder, or create an advanced filter to define your own filtering criteria. Learn more about campaigns [in this section](../campaigns/gs-campaigns.md).
 
-* **Deliveries** - Browse through your list of deliveries. By default, you can view their state, last modification date as well as key KPIs. You can filter the list by state, contact date or channel. Click an email delivery to open its dashboard to get an overview of the delivery details. Deliveries on other channels are read-only. Learn more about deliveries [in this section](../msg/gs-messages.md).
+* **Deliveries** - Browse through your list of deliveries. By default, you can view their state, last modification date as well as key KPIs. You can filter the list by status, contact date or channel. Click an email delivery to open its dashboard to get an overview of the delivery details. Deliveries on other channels are read-only. Learn more about deliveries [in this section](../msg/gs-messages.md).
 
     Use the **More actions** button to delete or duplicate a delivery.
 
@@ -73,10 +75,6 @@ In the CAMPAIGN MANAGEMENT section, you can access marketing campaigns, deliveri
 
 ### Customer Management {#user-interface-customer-management}
 
->[!CONTEXTUALHELP]
->id="acw_recipients_list"
->title="Recipients"
->abstract="Access your recipient database. You can view useful information such as their email address, first name and last name. This list is read-only."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
@@ -91,8 +89,8 @@ In the CAMPAIGN MANAGEMENT section, you can access marketing campaigns, deliveri
 
 In the CUSTOMER MANAGEMENT section, you can view your recipients, audiences, and subscriptions. These lists are rea-only.
 
-* **Recipients** - Access your recipient database. By default, you can view their email address, first name and last name. Learn more about recipients in [Adobe Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/gs-audiences.html){target="_blank"}.
-* **Audiences** - This is your list of audiences. By default, you can view their type, origin, creation/last modification dates and label. You can filter the list by origin. Learn more about audiences and lists in [Adobe Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html){target="_blank"}.
+* **Recipients** - Access your recipient database. By default, you can view their email address, first name and last name. Learn more about recipients in [this section](../audience/about-recipients.md).
+* **Audiences** - This is your list of audiences. By default, you can view their type, origin, creation/last modification dates and label. You can filter the list by origin. Learn more about audiences and lists in [this section](../audience/about-audiences.md).
 * **Subscriptions** - Browse through your subscriptions lists. By default, you can view their type, mode and label. Learn how to manage subscriptions and unsubscriptions in [Adobe Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html){target="_blank"}. 
 
 ### Decision Management
@@ -100,9 +98,9 @@ In the CUSTOMER MANAGEMENT section, you can view your recipients, audiences, and
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
 >title="Offers"
->abstract="Browse through your list of Interaction offers. By default, you can view their status, start/end dates and environment. You can filter the list by state and start/end dates. Offer templates are also available. These lists are read-only."
+>abstract="Browse through your list of Interaction offers. By default, you can view their status, start/end dates and environment. You can filter the list by status and start/end dates. Offer templates are also available. These lists are read-only."
 
-* **Offers** - Browse through your list of Interaction offers. By default, you can view their status, start/end dates and environment. You can filter the list by state and start/end dates. Offer templates are also available. These lists are read-only. 
+* **Offers** - Browse through your list of Interaction offers. By default, you can view their status, start/end dates and environment. You can filter the list by status and start/end dates. Offer templates are also available. These lists are read-only. 
 
 Learn how to create manage offers in [Adobe Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}. 
 
@@ -168,6 +166,11 @@ To change your language:
 1. Select your preferred language and click **Save**. You can select a second language in case the component you are using is not localized in your first language.
 
 
+## Learn more {#learn-more}
+
+Learn how to browse, search, and filter lists available in your Campaign environment [in this page](list-filters.md).
+
+
 <!--
 ######## This part stores the contextualHelp definition for WebUI BETA ###########
 ######## These blocks should be dispatched in the appropriate pages when available ###########
@@ -175,9 +178,6 @@ To change your language:
 REFER TO 
 https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
-
-
-
 
 
 >[!CONTEXTUALHELP]
@@ -240,36 +240,28 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Permission required"
 >abstract="Your administrator must grant you permission before you can create a segment."
 
->[!CONTEXTUALHELP]
->id="acw_keyindicators_delivered"
->title="Delivered"
->abstract="Delivered KPI"
 
 >[!CONTEXTUALHELP]
->id="acw_keyindicators_opens"
->title="Opens"
->abstract="Opens KPI"
+>id="acw_campaign_read_only"
+>title="This campaign is read only"
+>abstract="You do not have permissions to edit this campaign. If needed, contact your administrator to grant you access."
 
 >[!CONTEXTUALHELP]
->id="acw_keyindicators_clicks"
->title="Clicks"
->abstract="Clicks KPI"
+>id="acw_deliveries_read_only"
+>title="This delivery is read only"
+>abstract="You do not have permissions to edit this delivery. If needed, contact your administrator to grant you access."
 
 >[!CONTEXTUALHELP]
->id="acw_keyindicators_unsubscriptions"
->title="Unsubscriptions"
->abstract="Unsubscriptions KPI"
+>id="acw_subscription_services_read_only"
+>title="This service is read only"
+>abstract="You do not have permissions to edit this service. If needed, contact your administrator to grant you access."
 
 >[!CONTEXTUALHELP]
->id="acw_keyindicators_spam"
->title="Spam"
->abstract="Spam KPI"
+>id="acw_audiences_read_only"
+>title="This audience is read only"
+>abstract="You do not have permissions to edit this audience. If needed, contact your administrator to grant you access."
 
->[!CONTEXTUALHELP]
->id="acw_keyindicators_errors"
->title="Errors"
->abstract="Errors KPI"
-
+<!-- Workflows-->
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"
@@ -281,13 +273,28 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Outbound transition for save audience"
 >abstract="tbc"
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_saveaudience_activity"
+>title="Save an audience"
+>abstract="Use this activity to save the workflow audience."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_wf_read_only"
+>title="This workflow is read only"
+>abstract="You do not have permissions to edit this workflow. If needed, contact your administrator to grant you access."
+
+>[!CONTEXTUALHELP]
+>id="acw_wf_read_only_canvas"
+>title="This workflow is read only"
+>abstract="You cannot edit this workflow due to unsupported or incompatible canvas."
 
 <!-- delivery template settings-->
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_tracking_validity"
 >title="Validity period"
->abstract="This option defines the duration for which the tracking is activated on the URLs."
+>abstract="The validity period sets the duration for which the tracking is activated on the message URLs."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_delivery_duration"
@@ -320,6 +327,58 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Delivery weights let you identify top-priority deliveries within the framework of pressure management. Messages with the highest weight have priority."
 
 >[!CONTEXTUALHELP]
->id="acw_delivery_template_settings_typology"
->title="Typology"
->abstract="Typology lets you control, filter and monitor the sending of deliveries."
+>id="acw_reporting_email_exportation"
+>title="Exportation"
+>abstract="You can only export the selected page."
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_sending"
+>title="Global reports sending"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_tracking"
+>title="Global reports tracking"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_delivery_list"
+>title="Delivery list in a Campaign"
+>abstract="Delivery list in a Campaign"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_workflow_list"
+>title="Workflow list in a campaign"
+>abstract="Workflow list in a campaign"
+
+<!-- delivery settings-->
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_audience"
+>title="Delivery settings audience"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_approval"
+>title="Delivery settings approval"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_testsettings"
+>title="Delivery settings test settings"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_webanalytics"
+>title="Delivery settings web analytics"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_for_campaign"
+>title="Delivery template in Campaign"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_template_for_campaign"
+>title="Workflow template in Campaign"
+>abstract="TBC"

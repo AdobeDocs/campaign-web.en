@@ -2,7 +2,7 @@
 audience: end-user
 title: Push delivery reports
 description: Learn how to access and use push delivery reports
-badge: label="Alpha" 
+badge: label="Beta" 
 ---
 # Push delivery report {#push-report}
 

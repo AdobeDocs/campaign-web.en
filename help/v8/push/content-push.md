@@ -2,9 +2,9 @@
 audience: end-user
 title: Design a push notification delivery
 description: Learn how to design a push notification delivery with Adobe Campaign Web
-badge: label="Alpha" 
+badge: label="Beta" 
 ---
-# Design a push delivery {#content-push}
+# Design a push messsaging delivery {#content-push}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
@@ -16,7 +16,19 @@ badge: label="Alpha"
 >title="Push iOS content"
 >abstract="Define the push iOS content."
 
-## Message {#push-message}
+## Define the content of the notification {#push-message}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_ios_msg"
+>title="Push iOS message"
+>abstract="Define the title and content of your push iOS message. Use the personalization dialog to personalize content and add conditions."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_ios_silent"
+>title="Silent notification for iOS"
+>abstract="The Silent Push mode allows a "silent" notification to be sent to a mobile application. The user is not made aware of the notification's arrival. It is transferred directly to the application."
+
+
 
 >[!BEGINTABS]
 
@@ -24,18 +36,18 @@ badge: label="Alpha"
 
 With Firebase Cloud Messaging, you can choose between two types of messages:
 
-* The **[!UICONTROL Data messag]e** is handled by the client app. These messages are sent directly to the mobile application, which generates and displays an Android notification on the device. Data messages contain only your custom application variables.
+* The **[!UICONTROL Data message]** is handled by the client app. These messages are sent directly to the mobile application, which generates and displays an Android notification on the device. Data messages contain only your custom application variables.
     
-    To define the content, personalize data, and add dynamic content, click on the **[!UICONTROL Message]** field and use the Expression editor. You can access this editor to customize your messages
+    To define the content, personalize data, and add dynamic content, click on the **[!UICONTROL Message]** field and use the Expression editor. You can access this editor to customize your messages.
     In the **[!UICONTROL Application variables]** menu, your Application variables are automatically added. These variables allow you to define notification behavior. For example, you can configure a specific application screen to be displayed when the user activates the notification.
     
     ![](assets/push_content_4.png)
 
-* The **[!UICONTROL Notification message]**, handled automatically by the FCM SDK. FCM automatically displays the message on your users’ devices on behalf of the client app. Notification messages contain a predefined set of parameters and options but can still be further personalized with custom application variables.
+* The **[!UICONTROL Notification message]**, handled automatically by the FCM SDK. FCM automatically displays the message on your users' devices on behalf of the client app. Notification messages contain a predefined set of parameters and options but can still be further personalized with custom application variables.
 
     To compose your message, click the **[!UICONTROL Title]** and **[!UICONTROL Body]** fields. Use the Expression editor to define content, personalize data and add dynamic content.
     
-    To further personalize your push notification, you can choose an image to add to your push notification, the notification’s icon to display on your profiles’ devices and its color.
+    To further personalize your push notification, you can choose an image to add to your push notification, the notification's icon to display on your profiles' devices and its color.
 
     ![](assets/push_content_3.png)
 
@@ -45,13 +57,55 @@ To compose your message, click the **[!UICONTROL Title]** and **[!UICONTROL Body
 
 You can add a **[!UICONTROL Subtitle]**, value of the subtitle parameter of the iOS notification payload. Refer to the this section.
 
-The Silent Push mode allows a “silent” notification to be sent to a mobile application. The user is not made aware of the notification’s arrival. It is transferred directly to the application.
+The Silent Push mode allows a "silent" notification to be sent to a mobile application. The user is not made aware of the notification's arrival. It is transferred directly to the application.
 
 ![](assets/push_content_1.png)
 
 >[!ENDTABS]
 
-## Advanced settings {#push-advanced}
+## Push notification advanced settings {#push-advanced}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings"
+>title="Advanced settings for push notifications"
+>abstract="Define advanced settings for your push notification, such as its priority, the associated notification count, application variables, and more."
+    
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings_critical"
+>title="Critical alert mode for iOS"
+>abstract="Enable this option to add sound to your notification, even when the user's phone is set to focus mode or if the device is muted. This ensures that users are notified of important alerts in any case."
+    
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings_count"
+>title="Badge number for iOS"
+>abstract="Use this option to set the number of new unread information to be displayed directly on the app icon. This allows the user to quickly see the number of pending notifications."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings_mutable"
+>title="Mutable content for iOS"
+>abstract="Use this option to allow the mobile application to download media content associated with the notification."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings_score"
+>title="Relevance score for iOS"
+>abstract="Set a relevance score from 0 to 100 to prioritize the order of notifications in the notification summary. Higher scores indicate more important notifications."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings_app_variables"
+>title="Application variables for iOS"
+>abstract="Use application variables to define notification behavior. These variables are fully customizable and are included as part of the message payload sent to the mobile device."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings_category"
+>title="Category ID for iOS"
+>abstract="Specify the name of the category ID associated with the notification. This enables the display of action buttons, allowing the user to perform various tasks directly from the notification without opening the application."
+
 
 >[!BEGINTABS]
 
@@ -63,7 +117,7 @@ The Silent Push mode allows a “silent” notification to be sent to a mobile a
 |---------|---------|
 |**[!UICONTROL Sound]** | Set the sound to play when the device receives your notification.|
 |**[!UICONTROL Notification Count]**|Set the number of new unread information to be displayed directly on the application icon. This allows the user to quickly see the number of pending notifications. |
-|**[!UICONTROL Channel ID]** |Set your notification’s channel ID. The app must create a channel with this channel ID before any notification with this channel ID is received. |
+|**[!UICONTROL Channel ID]** |Set your notification's channel ID. The app must create a channel with this channel ID before any notification with this channel ID is received. |
 | **[!UICONTROL Click action]**| Define the action associated with a user click on your notification. This determines the behavior when the user interacts with the notification, such as opening a specific screen or performing a specific action in your app.|
 |**[!UICONTROL Tag]**| Set an identifier used to replace existing notifications in the notification drawer. This helps prevent the accumulation of multiple notifications and ensures that only the latest relevant notification is displayed. |
 |**[!UICONTROL Priority]**| Set the priority level of your notification, which can be default, minimum, low, or high. The priority level determines the importance and urgency of the notification, influencing how it is displayed and whether it can bypass certain system settings. For more on this, refer to [FCM documentation](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#notificationpriority). |
@@ -77,7 +131,7 @@ The Silent Push mode allows a “silent” notification to be sent to a mobile a
 
 |Parameter | Description |
 |---------|---------|
-|**[!UICONTROL Critical alert mode]**| Enable this option to add sound to your notification, even when the user's phone is set to focus mode or if the iPhone is muted. This ensures that important alerts are noticed by the user. |
+|**[!UICONTROL Critical alert mode]**| Enable this option to add sound to your notification, even when the user's phone is set to focus mode or if the device is muted. This ensures that important alerts are noticed by the user. |
 |**[!UICONTROL Clean Badge]**| Enable this option to refresh the badge value displayed on the application icon. It ensures that the badge accurately reflects the number of new unread information.|
 |**[!UICONTROL Notification count]**| Set a number that will be displayed directly on the application icon, indicating the number of new unread information. This provides a quick visual reference for the user.|
 |**[!UICONTROL Volume]**| Volume of your sound from 0 to 100. |

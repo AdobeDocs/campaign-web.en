@@ -3,15 +3,15 @@ audience: end-user
 title: Send your first email
 description: Learn how to send your first email with Campaign Web UI
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-badge: label="Alpha" 
+badge: label="Beta" 
 ---
 
 # Send your first email {#first-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
->title="Get started with emails"
->abstract="Start from a template, or use Adobe Campaign's new Email Designer to create emails without having to write a single line of code. Learn how to use the Email Designer to create your content, preview and test it, and send an email to an existing audience in an end-to-end use case."
+>title="Gen AI for email content"
+>abstract="Our Gen AI technology utilizes advanced algorithms to generate highly engaging and personalized content. Drive higher open rates, click-through rates, and conversions with Gen AI's intelligent content generation. Stay ahead of the competition and elevate your email marketing game with Gen AI on email content."
 
 Learn how to create your first targeted email. In this use case, you schedule the sending of an email to Silver and Gold loyalty members on a specific date.
 
@@ -115,7 +115,7 @@ In this use case, you send the email to an existing audience. Additional instruc
     >
     >Audiences available in the list originate either from your Campaign v8 instance or from Adobe Experience Platform if the Destination / Sources integration has been configured on your instance.
     >
-    >The Destination / Sources integration allows you to send Experience Platform segments to Adobe Campaign, and to send Campaign delivery and tracking logs over to Adobe Experience Platform. Learn how work with Campaign and Adobe Experience Platform in [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
+    >The Destination / Sources integration allows you to send Experience Platform segments to Adobe Campaign, and to send Campaign delivery and tracking logs over to Adobe Experience Platform. Learn how work with Campaign and Adobe Experience Platform in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
 
 1. Once the audience is selected, you can further refine the target by applying additional rules.
 

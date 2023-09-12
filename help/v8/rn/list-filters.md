@@ -3,7 +3,7 @@ audience: end-user
 title: What's new in Campaign Web v8
 description: Discover new feature coming with Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-badge: label="Alpha" 
+badge: label="Beta" 
 ---
 
 # What's new? {#new}

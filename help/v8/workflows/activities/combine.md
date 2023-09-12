@@ -2,7 +2,7 @@
 audience: end-user
 title: Use the Combine workflow activity
 description: Learn how to use the Combine workflow activity
-badge: label="Alpha" 
+badge: label="Beta" 
 ---
 
 # Combine {#combine}

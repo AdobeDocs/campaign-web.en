@@ -16,6 +16,9 @@ hide: yes
   + [Get started](get-started/get-started.md)
   + [Discover the interface](get-started/user-interface.md)
   + [Browse, search, and filter lists](get-started/list-filters.md)
+  + [Access and permissions](get-started/permissions.md)
+  + [Unsupported capabilites](get-started/unsupported.md)
+  + [Using AI](get-started/using-ai.md)
 + Messages & deliveries {#msg}
   + [Get started with messages](msg/gs-messages.md)
   + [Work with delivery templates](msg/delivery-template.md)
@@ -60,6 +63,7 @@ hide: yes
     + [Add personalization](personalization/personalize.md)
     + [Add conditional content](personalization/conditions.md)
     + [Add built-in content blocks](personalization/content-blocks.md)
+    + [Work with predefined filters](personalization/predefined-filters.md)
   + [Send offers](content/offers.md)
   + Preview and test your delivery {#preview-test}
     + [About preview and test](preview-test/preview-test.md) 
@@ -68,10 +72,13 @@ hide: yes
     + [Render your email](preview-test/email-rendering.md)
 + Audiences & recipients {#audiences}
   + [Get started with audiences](audience/about-audiences.md)
-  + [Select an existing audience](audience/add-audience.md)
-  + [Define an audience with the rule builder](audience/segment-builder.md)
-  + [Load an email audience from a file](audience/file-audience.md)
-  + [Use an Adobe Experience Platform audience](audience/aep-audience.md)
+  + [Work with recipients](audience/about-recipients.md)
+  + [Create audiences](audience/create-audience.md)
+  + Target audiences {#target-audiences}
+    + [Select an existing audience](audience/add-audience.md)
+    + [Define an audience with the rule builder](audience/segment-builder.md)
+    + [Load an email audience from a file](audience/file-audience.md)
+    + [Use an Adobe Experience Platform audience](audience/aep-audience.md)
   + [Set a control group](audience/control-group.md)
 + Cross-channel campaigns {#campaigns}
   + [Get started with campaigns](campaigns/gs-campaigns.md)
@@ -98,6 +105,7 @@ hide: yes
     + [Wait](workflows/activities/wait.md)
 + Reporting {#reports}
   + [Get started with reports](reporting/gs-reports.md)
+  + [Key performance indicators](reporting/kpis.md)
   + Delivery reports {#delivery-report}  
     + [Access delivery reports](reporting/delivery-reports.md)
     + [Email delivery report](reporting/email-report.md)
