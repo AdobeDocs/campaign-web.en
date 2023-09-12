@@ -30,6 +30,19 @@ To import a file containing HTML content, follow the steps below:
 
 1. Drag and drop the HTML or .zip file containing your HTML content and click **[!UICONTROL Import]**.
 
-1. Once the HTML content is uploaded, you can leverage the Email Designer capabilities to edit and preview your email. [Learn more ](create-email-content.md)
+1. Once the HTML content is uploaded, your content will be in **[!UICONTROL Compatibility mode]**. 
+
+    In this mode, you can only personalize your text, add links, or include assets to your content.
 
     ![](assets/html-imported.png)
+
+1. To be able to leverage the Email Designer content components, access the **[!UICONTROL HTML converter]** tab and click **[!UICONTROL Convert]**.
+
+    ![](assets/html-imported-2.png)
+
+    >[!NOTE]
+    >
+    > Using a `<table>` tag as the first layer in an HTML file can cause style loss, including background and width settings in the top layer tag.
+
+1. You can now personalize your imported file as needed with the Email Designer functionalities [Learn more](content-from-scratch.md).
+

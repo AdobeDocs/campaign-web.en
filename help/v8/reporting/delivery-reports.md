@@ -21,4 +21,8 @@ To display reports, follow these steps:
 
     ![](assets/reporting.png)
 
+1. If your delivery is recurring, you can select a specific delivery to report on by clicking **[!UICONTROL Select deliveries]**. 
 
+    You can also apply a time period to your report by selecting the **[!UICONTROL Contact date]**.
+
+    ![](assets/delivery-recurring.png)
