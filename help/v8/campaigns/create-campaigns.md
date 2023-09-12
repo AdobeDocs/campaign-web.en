@@ -63,8 +63,6 @@ Start and end dates are displayed in the campaign list, and can be used as a fil
 >
 >You can always modify these properties later, from the **Configure campaign settings** icon, next to the campaign label. See this [section](gs-campaigns.md#campaign-dashboard).
 
-
-
 Once the date is reached, deliveries created in that campaign in the context of a workflow which are ready to be sent are actually sent. For this, the workflow must have been started.
  
 

@@ -75,10 +75,6 @@ In the CAMPAIGN MANAGEMENT section, you can access marketing campaigns, deliveri
 
 ### Customer Management {#user-interface-customer-management}
 
->[!CONTEXTUALHELP]
->id="acw_recipients_list"
->title="Recipients"
->abstract="Access your recipient database. You can view useful information such as their email address, first name and last name. This list is read-only."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
