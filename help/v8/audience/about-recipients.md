@@ -23,6 +23,10 @@ You can update a limited set of attributes, which are: its first name, last name
 
 ![Update a recipient profile](assets/recipient-update.png)
 
+>[!NOTE]
+>
+>This limited profile editing form is provided for Beta program testing only. It will be improved in the future release. It allows the user to quickly add an email address and a phone number to any profile so that he/she can test the email and SMS channels and receive the messages sent.
+
 You can filter the recipients using the search field, from the **Show filters** button.
 
 You can also access recipients from the **Explorer** view, browse and create folders and subfolders, and check associated permissions.
@@ -32,3 +36,4 @@ You can also access recipients from the **Explorer** view, browse and create fol
 >[!NOTE]
 >
 >Depending on your permissions, you might not have access to the full list of recipients stored in the database. Learn more about permissions in [this section](../get-started/permissions.md).
+
