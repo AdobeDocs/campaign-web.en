@@ -30,6 +30,7 @@ You can upload contacts from an external file. Profiles are not added to the dat
 >
 >* You cannot use [control groups](control-group.md) when loading the target population from an external file.
 
+## Upload your file {#upload}
 
 To target profiles from a local file directly from the email interface, follow these steps:
 
@@ -48,6 +49,22 @@ When creating and personalizing the message content, you can select fields from 
 
 ![](assets/select-external-perso.png)
 
+## Preview & test your email {#test}
+
+Campaign Web allows you to preview and send test emails when using an audience uploaded from a file. To do this, follow these steps:
+
+1. Simulate content
+1. Opens preview. Click select profile(s): select profiles from the file to use
+1. to send test email, click test
+1. test mode: Define target of the proofs
+1. Upload target of the test email from a second file (or use same). file formatting follow the same as uploaded file
+1. Checks performed on file format
+1. click send
+
+add link to preview & test section
+
+**questions:**
+* no substitution from file available?
 
 ## Sample file {#sample-file}
 
