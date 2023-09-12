@@ -53,8 +53,8 @@ When creating and personalizing the message content, you can select fields from 
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_samplefile"
->title="Sample file"
->abstract="Supported file formats: txt, csv. Use first line as column header."
+>title="Load an audience from a file"
+>abstract="Supported file formats are TXT and CSV. Use first line as column header. Align your file format with the sample file provided in the link below."
 
 Supported formats are TXT and CSV. The first line is the column header.
 
