@@ -73,10 +73,12 @@ hide: yes
 + Audiences & recipients {#audiences}
   + [Get started with audiences](audience/about-audiences.md)
   + [Work with recipients](audience/about-recipients.md)
-  + [Select an existing audience](audience/add-audience.md)
-  + [Define an audience with the rule builder](audience/segment-builder.md)
-  + [Load an email audience from a file](audience/file-audience.md)
-  + [Use an Adobe Experience Platform audience](audience/aep-audience.md)
+  + [Create audiences](audience/create-audience.md)
+  + Target audiences {#target-audiences}
+    + [Select an existing audience](audience/add-audience.md)
+    + [Define an audience with the rule builder](audience/segment-builder.md)
+    + [Load an email audience from a file](audience/file-audience.md)
+    + [Use an Adobe Experience Platform audience](audience/aep-audience.md)
   + [Set a control group](audience/control-group.md)
 + Cross-channel campaigns {#campaigns}
   + [Get started with campaigns](campaigns/gs-campaigns.md)
