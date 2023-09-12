@@ -61,7 +61,7 @@ Campaign Web allows you to preview and send test emails when using an audience u
 1. Checks performed on file format
 1. click send
 
-+ link to preview & test section
+add link to preview & test section
 
 **questions:**
 * no substitution from file available?
