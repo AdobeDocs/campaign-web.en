@@ -386,3 +386,9 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_workflow_template_for_campaign"
 >title="Workflow template in Campaign"
 >abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_explorer_permissions_create"
+>title="Permission required"
+>abstract="Your admin must grant you permission before you can create this object."
+
