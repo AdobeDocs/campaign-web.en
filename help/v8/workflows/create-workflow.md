@@ -1,7 +1,7 @@
 ---
 audience: end-user
 title: Create workflows with Adobe Campaign Web
-description: Learn how to build workflows with Adobe Campaign Web
+description: Learn how to create a workflow with Adobe Campaign Web
 badge: label="Beta" 
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
 ---
@@ -11,25 +11,36 @@ exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
 >[!CONTEXTUALHELP]
 >id="acw_workflow_creation_properties"
 >title="Workflow properties"
->abstract="In this screen, choose the template to use to create the workflow and specify a label. Expand the Additional options section to configure specific settings such as the workflow storing folder or timezone."
+>abstract="In this screen, choose the template to use to create the workflow and specify a label. Expand the ADDITIONAL OPTIONS section to configure more settings such as the workflow internal name, its folder, timezone, and supervisor group. It is highly recommended to select a supervisor group so that operators are alerted if an error occurs."
 
-The first step to create your workflow in Campaign v8 Web is to create it either as a standalone workflow or directly within a campaign and to define its general properties. To do so, follow these steps:
+You can create standalone workflows, or workflows within a campaign. The first step is to select a template and define its general properties. You can then configure additional settings as needed.
 
-1. Start by deciding whether you want to create a standalone workflow or integrate it directly within a campaign:
+To do so, follow these steps:
 
-    * **Standalone workflow**: Navigate to the Worklows menu and click the Create workflow button in the upper-right corner.
-    * **Campaign workflow:** Navigate to the Campaigns menu and open the campaign where you want to create a new workflow. Click the Create workflow button in the upper-right corner of the Workflows tab.
+1. To create a **Standalone workflow**, browse to the **Worklows** menu.
+    
+    To create a **Campaign workflow**, browse to the **Campaigns** menu, and open the campaign for which you want to create a new workflow. 
 
-    The workflow Properties dialog box appears.
+1. Click the **[!UICONTROL Create workflow]** button in the upper-right corner of the screen.
 
     ![](assets/workflow-create.png)
 
-1. Select the template to use to create the workflow and provide a label for the workflow.
+1. In workflow **Properties** dialog, select the template to use to create the workflow (you can also use the default built-in template). Learn more about templates in [the section below](#work-with-workflow-templates-workflow-templates).
 
-    Workflow templates contain pre-configured activities and overall property configurations that can be reused for creating new workflows. They are created from the client console. [Learn how to work with templates](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html#workflow-templates)
+1. Enter a label for the workflow. In addition, we strongly recommend you to add a description to your workflow, in the dedicated field of the **[!UICONTROL Additional options]** section of the screen.
 
-1. Expand the **[!UICONTROL Additional options]** section if you want to configure specific settings for the workflow, such as the storing folder and timezone. [Learn how to configure worklow properties](workflow-settings.md)
+1. Expand the **[!UICONTROL Additional options]** section to configure more settings for the workflow. Learn how to configure the worklow properties in [this page](workflow-settings.md#properties)
+
+    ![](assets/workflow-additional-options.png)
 
 1. Click the **[!UICONTROL Create workflow]** button to confirm the creation of your workflow.
 
-With your workflow created, you can now start orchestrating the various tasks it will perform using a dedicated visual canvas. [Learn how to orchestrate workflow activities](orchestrate-activities.md)
+Your workflow is now created and available in the list of worklows. You can now access its visual canvas and start adding, configuring, and orchestrating the tasks it will perform. Learn how to orchestrate workflow activities in [this page](orchestrate-activities.md).
+
+## Work with workflow templates {#workflow-templates}
+
+Workflow templates contain pre-configured activities and overall settings that can be reused for creating new workflows. Templates are created from Campaign client console. 
+
+In Campaign v8 Web, you can select the template of your workflow from the workflow properties. An emplty template is provided by default.
+
+Learn how to work with templates in [Campaign (client console) v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html#workflow-templates){target="_blank"}.
