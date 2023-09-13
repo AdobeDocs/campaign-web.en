@@ -16,6 +16,7 @@ hide: yes
   + [Get started](get-started/get-started.md)
   + [Discover the interface](get-started/user-interface.md)
   + [Browse, search, and filter lists](get-started/list-filters.md)
+  + [Work with predefined filters](get-started/predefined-filters.md)
   + [Access and permissions](get-started/permissions.md)
   + [Guardrails and limitations](get-started/guardrails.md)
   + [Unsupported capabilites](get-started/unsupported.md)
@@ -64,7 +65,6 @@ hide: yes
     + [Add personalization](personalization/personalize.md)
     + [Add conditional content](personalization/conditions.md)
     + [Add built-in content blocks](personalization/content-blocks.md)
-    + [Work with predefined filters](personalization/predefined-filters.md)
   + [Send offers](content/offers.md)
   + Preview and test your delivery {#preview-test}
     + [About preview and test](preview-test/preview-test.md) 

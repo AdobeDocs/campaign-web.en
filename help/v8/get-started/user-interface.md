@@ -3,7 +3,7 @@ audience: end-user
 title: Discover the interface
 description: Campaign v8 Web user interface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-badge: label="Alpha" 
+badge: label="Beta" 
 ---
 # Discover the interface {#user-interface}
 
@@ -12,7 +12,7 @@ badge: label="Alpha"
 >title="Discover the interface"
 >abstract="The new Campaign v8 Web interface offers an integrated, intuitive, and consistent user experience."
 
-The new Campaign v8 Web interface offers a modern and intuitive user experience to simplify marketing campaign design and delivery. This new interface is integrated with Adobe Experience Platform. 
+The new Campaign v8 Web interface offers a modern and intuitive user experience to simplify marketing campaign design and delivery. This new interface is integrated with Adobe Experience Cloud apps and solutions. 
 
 
 >[!NOTE]
@@ -108,13 +108,13 @@ In the CUSTOMER MANAGEMENT section, you can view your recipients, audiences, and
 
 * **Offers** - Browse through your list of Interaction offers. By default, you can view their status, start/end dates and environment. You can filter the list by status and start/end dates. Offer templates are also available. These lists are read-only. 
 
-Learn how to create manage offers in [Adobe Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}. 
+Learn how to create and send offers in emails and SMS in [this section](../content/offers.md).
 
 ## Top bar
 
 Use the top bar of the interface to:
 
-* share your feedback as an Alpha tester
+* share your feedback as a Beta tester
 * switch between organizations and instances
 * switch between your Adobe Experience Cloud applications
 * access help pages, contact support and share feedback. You can search help articles and videos from the search field.
