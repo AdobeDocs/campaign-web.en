@@ -46,15 +46,13 @@ Use the new Campaign Web UI to:
 
 ## Latest updates
 
-
 **Beta Summary**
 
-* Enable data composition (federated) for Audiences & Personalization.
-* Utilize AI technology to enhance email content generation.
-* Seamlessly sync assets and full HTML templates.
-* Efficiently organize and manage your folders and resources.
-* Create engaging and effective landing pages.
-* More Workflow Activities: Access additional activities such as change dimension, deduplication, and recurring deliveries to enhance campaign workflows.
+* Enable data composition (federated) for Audiences & Personalization
+* Utilize AI technology to enhance email content generation
+* Seamlessly sync assets and full HTML templates
+* Efficiently organize and manage your folders and resources
+* Access additional activities such as change dimension, deduplication, and recurring deliveries to enhance campaign workflows
 
 **Key new capabilities** 
 
@@ -85,12 +83,15 @@ Use the new Campaign Web UI to:
     The new web UI now enables you to integrate offers with SMS and Push notifications in addition to Email. Reach your audience on their mobile devices, delivering promotions and timely notifications. 
     
     Elevate your marketing efforts by harnessing the power of integrated offers through SMS and push notifications on our advanced web platform.
-
+    
+<!--
 * Adobe Experience Manager (AEM) Integration
     
     With our AEM integration extended to web UI, you can easily manage assets and synchronize full HTML templates, empowering you to create captivating digital experiences without any hassle. 
     
     Elevate and streamline your content management capabilities on the web UI with this integration to boost productivity.
+-->
+
 
 ## Transition to Campaign Web UI
 

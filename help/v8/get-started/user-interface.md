@@ -51,6 +51,12 @@ Like in any list screen, you can configure columns to personalize the display to
 
 For more information about the Campaign explorer, folder hierarchy and resources, refer to this [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui){target="_blank"}.
 
+
+### Contextual Help {#user-interface-help} 
+
+Ask questions and find guidance directly from the product user interface. The new AI-powered knowledge assistant, embedded in the contextual help popovers, helps you learn and grow your expertise on new Campaign features. Based on the latest product documentation, it assists you to find help and get step-by-step guidance instantly, as you are building your use cases. 
+
+
 ### Campaign Management {#user-interface-campaign-management}
 
 >[!CONTEXTUALHELP]
