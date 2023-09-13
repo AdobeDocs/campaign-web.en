@@ -5,7 +5,7 @@ description: Learn how to create services in Adobe Campaign Web
 badge: label="Beta" 
 ---
 
-# Create services {#create-service}
+# Create services {#create-services}
 
 Use Adobe Campaign to create and monitor your information services such as newsletters and to check the subscriptions/unsubscriptions to these services.
 
