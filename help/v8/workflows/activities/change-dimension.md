@@ -12,8 +12,6 @@ badge: label="Beta"
 >title="Fork activity"
 >abstract="The Fork activity allows you to create outbound transitions to start several activities at the same time."
 
-The Fork activity allows you to create outbound transitions to start several activities at the same time.
-
 ## Configuration
 
 Follow these steps to configure the **Fork** activity:
