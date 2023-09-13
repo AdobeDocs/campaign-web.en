@@ -58,6 +58,12 @@ To create a workflow template from an existing workflow, follow these steps:
 1. In the popup window, confirm the template creation.
 1. In the workflow template canvas, check, add, and configure the activities as needed.
 1. Browse to the settings to change the name of the workflow template, and enter a description.
+1. Select the folder and execution folder of the template. The folder is the location where the workflow template is saved. The execution folder is the folder where workflows created based on this template are saved.
+
+    ![](assets/wf-settings-template.png)
+
+    The other properties are common with workflows. Learn more in [this page](workflow-settings.md#properties)
+
 1. Save your changes. 
 
 The workflow template is now available in the template list. You can create a workflow based on this template. This workflow will be pre-configured with the settings and activities defined in the template.
@@ -73,9 +79,9 @@ To create a workflow template from scratch, follow these steps:
 1. Enter the label and open the additional options to enter a description of your workflow template.
 1. Select the folder and execution folder of the template. The folder is the location where the workflow template is saved. The execution folder is the folder where workflows created based on this template are saved.
 
-    The other properties are common with workflows. Learn more in [this page](workflow-settings.md#properties)
-
     ![](assets/new-wf-template.png)
+    
+    The other properties are common with workflows. Learn more in [this page](workflow-settings.md#properties)
 
 1. Click the **Create** button to confirm your settings.
 1. In the workflow template canvas, add and configure the activities as needed.
