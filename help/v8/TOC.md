@@ -81,6 +81,7 @@ hide: yes
     + [Load an email audience from a file](audience/file-audience.md)
     + [Use an Adobe Experience Platform audience](audience/aep-audience.md)
   + [Set a control group](audience/control-group.md)
+  + [Create subscription services](audience/create-service.md)
 + Cross-channel campaigns {#campaigns}
   + [Get started with campaigns](campaigns/gs-campaigns.md)
   + [Access & manage campaigns](campaigns/manage-campaigns.md)
