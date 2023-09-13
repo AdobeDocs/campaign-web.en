@@ -71,7 +71,7 @@ Use the new Campaign Web UI to:
 
 * Predefined Filter Management
     
-    Introducing Predefined Filter Management. Campaign web UI now offers you an user-friendly interface to effortlessly manage and customize predefined filters to meet your specific needs. Create once and save for future use. [Learn more](predefined-filters.md)
+    Introducing Predefined Filter Management. Campaign web UI now offers you an user-friendly interface to effortlessly manage and customize predefined filters to meet your specific needs. Create once and save for future use. [Learn more](../get-started/predefined-filters.md)
 
 
 * Target Audience
