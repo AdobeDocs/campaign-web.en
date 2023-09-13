@@ -125,16 +125,11 @@ In this use case, you send the email to an existing audience. Additional instruc
 
 ## Schedule the sending {#schedule}
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_schedule"
->title="Schedule the sending"
->abstract="Define the date and the exact time for your sending. By choosing the most appropriate time for your marketing message, you can maximise open rates."
-
-To schedule the sending of the email, open your email delivery and browse to the **Schedule** section. Use the **[!UICONTROL Enable scheduling]** toggle to activate it and set the desired date and time for sending. Once you send the delivery, the actual sending will start on the contact date you have defined.
-
-By default, the **[!UICONTROL Enable confirmation before sending]** option is enabled. This option requires you to confirm the sending before the email is sent at the scheduled date and time. If you need to send the email automatically on the scheduled date and time, you can disable this option.
+To schedule the sending of the email, open your email delivery and browse to the **Schedule** section.
 
 ![](assets/schedule.png)
+
+Learn how to schedule the delivery sending in [this section](../msg/gs-messages.md#gs-schedule)
 
 ## Preview and test the email {#preview-test}
 

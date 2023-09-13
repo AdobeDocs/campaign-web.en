@@ -29,7 +29,7 @@ The main steps to prepare the send are listed below.
 
     >[!NOTE]
     >
-    >If you scheduled your delivery and disabled the **[!UICONTROL Enable confirmation before sending]** option, the preparation and sending steps are grouped together under the **[!UICONTROL Prepare and send]** button. [Learn more on scheduling](../email/create-email.md#schedule)
+    >If you scheduled your delivery and disabled the **[!UICONTROL Enable confirmation before sending]** option, the preparation and sending steps are grouped together under the **[!UICONTROL Prepare and send]** button. [Learn more on scheduling](../msg/gs-messages.md#gs-schedule)
 
 1. The preparation progress is displayed. Depending on the size of the targeted population, this operation may take some time.
 
@@ -81,7 +81,7 @@ Once the preparation is complete with no error, your message is ready to be sent
 
 Once the [preparation](#prepare) is complete, you can now send your email.
 
-If the message is scheduled, it will be sent at the defined date and time. [Learn more](#schedule-the-send)
+If the message is scheduled, it will be sent at the defined date and time. [Learn more](../msg/gs-messages.md#gs-schedule)
 
 ### Send immediately {#send-immediately}
 
@@ -99,7 +99,7 @@ To immediately send an email, follow the steps below.
 
 If you scheduled your email to send it at a later date and time, follow the steps below.
 
-1. Before you hit the **[!UICONTROL Review and send]** button, make sure you defined a schedule for your email. [Learn more](../email/create-email.md#schedule)
+1. Before you hit the **[!UICONTROL Review and send]** button, make sure you defined a schedule for your email. [Learn more](../msg/gs-messages.md#gs-schedule)
 
 1. From the delivery dashboard, click the **[!UICONTROL Send as scheduled button]** button in the top right corner.
 
@@ -109,7 +109,7 @@ If you scheduled your email to send it at a later date and time, follow the step
 
     >[!NOTE]
     >
-    >If you disabled the **[!UICONTROL Enable confirmation before sending]** option, the preparation and sending steps are grouped together under the **[!UICONTROL Prepare and send]** button. [Learn more on scheduling](../email/create-email.md#schedule)
+    >If you disabled the **[!UICONTROL Enable confirmation before sending]** option, the preparation and sending steps are grouped together under the **[!UICONTROL Prepare and send]** button. [Learn more on scheduling](../msg/gs-messages.md#gs-schedule)
 
 ## Pause or stop the sending {#pause-stop-sending}
 

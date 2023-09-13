@@ -76,7 +76,7 @@ To create a standalone delivery, follow these steps:
 
 1. Define the delivery audience, for the main target and the control group. Learn more about audiences in [this section](../audience/about-audiences.md).
 1. Define the message content.
-1. (optional) Define the delivery schedule. If no schedule is defined, messages are sent immediatly after clicking the **[!UICONTROL Send]** button.
+1. (optional) Define the delivery [schedule](#gs-schedule). If no schedule is defined, messages are sent immediatly after clicking the **[!UICONTROL Send]** button.
 1. Click the  **[!UICONTROL Review and send]** button to check your settings.
 1. Use the  **[!UICONTROL Simulate content]** button to test your delivery, and personalization settings. Learn more about message simulation in [this section](../preview-test/preview-test.md).
 1. Click the  **[!UICONTROL Prepare]** button to compute the target population and generate the messages. Preparation step can take a few minutes. When preparation is complete, messages are ready for sending. In case of an error, browse to the **Logs** to check alerts and warning.
@@ -138,8 +138,24 @@ You can personalize the message content by:
 
 Once your message content has been defined, you can preview it to control the rendering of your messages, and check personalization settings with test profiles. [Learn more](../preview-test/preview-test.md)
 
+## Schedule the delivery sending {#gs-schedule}
 
-## Monitoring and tracking logs{#gs-tracking-logs}
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_schedule"
+>title="Schedule the sending"
+>abstract="Define the date and the exact time for sending messages. By choosing the most appropriate time for your marketing message, you can maximise open rates."
+
+You can set the date and the exact time for sending your messages. By choosing the most appropriate time for your marketing message, you can maximise open rates.
+
+To schedule the sending of the a delivery, open your delivery and browse to the **Schedule** section. Use the **[!UICONTROL Enable scheduling]** toggle to activate it, and set the desired date and time for sending. Once you send the delivery, the actual sending will start on the contact date you have defined.
+
+![](assets/schedule.png)
+
+By default, the **[!UICONTROL Enable confirmation before sending]** option is enabled. This option requires you to confirm the sending before the delivery is sent at the scheduled date and time. If you need to send the delivery automatically on the scheduled date and time, you can disable this option.
+
+Learn steps to send a scheduled delivery in [this section](../monitor/prepare-send.md#schedule-the-send).
+
+## Monitoring and tracking logs {#gs-tracking-logs}
 
 Monitoring your deliveries after they have been sent is a key step to ensure your maketing campaigns are efficient and reach out to your customers. 
 
