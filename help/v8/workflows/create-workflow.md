@@ -39,8 +39,42 @@ Your workflow is now created and available in the list of worklows. You can now 
 
 ## Work with workflow templates {#workflow-templates}
 
-Workflow templates contain pre-configured activities and overall settings that can be reused for creating new workflows. Templates are created from Campaign client console. 
+Workflow templates contain pre-configured settings and activities which can be reused for creating new workflows. You can select the template of your workflow from the workflow properties, when creating a workflow. An empty template is provided by default.
 
-In Campaign v8 Web, you can select the template of your workflow from the workflow properties. An emplty template is provided by default.
+You can create a template from an existing workflow, or create a new template from scratch. Both methods are detailed below.
 
-Learn how to work with templates in [Campaign (client console) v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html#workflow-templates){target="_blank"}.
+
+To create a workflow template from an existing workflow, follow these steps:
+
+1. Open to the **Workflows** menu and browse to the workflow to save as a template.
+1. Click the three dots on the right of the name of the workflow, and choose **Copy as template**.
+
+    ![](assets/wf-copy-as-template.png)
+
+1. In the popup window, confirm the template creation.
+1. In the workflow template canvas, check, add, and configure the activities as needed.
+1. Browse to the settings to change the name of the workflow template, and enter a description.
+1. Save your changes. 
+
+The workflow template is now available in the template list. You can create a workflow based on this template. This workflow will be pre-configured with the settings and activities defined in the template.
+
+
+To create a workflow template from scratch, follow these steps:
+
+1. Open to the **Workflows** menu and browse to the **Templates** tab. You can see the list of available workflow templates.
+1. Click the **[!UICONTROL Create template]** button in the upper-right corner of the screen.
+1. Enter the label and open the additional options to enter a description of your workflow template.
+1. Select the folder and execution folder of the template. The folder is the location where the workflow template is saved. The execution folder is the folder where workflows created based on this template are saved.
+
+    The other properties are common with workflows. Learn more in [this page](workflow-settings.md#properties)
+
+    ![](assets/new-wf-template.png)
+
+1. Click the **Create** button to confirm your settings.
+1. In the workflow template canvas, add and configure the activities as needed.
+
+     ![](assets/wf-template-activities.png)
+
+1. Save your changes. 
+
+The workflow template is now available in the template list. You can create a workflow based on this template. This workflow will be pre-configured with the settings and activities defined in the template.
