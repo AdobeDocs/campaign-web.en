@@ -51,7 +51,9 @@ Test recipients can review elements such as links, images, and personalization s
 
 1. Send the messages by clicking on **[!UICONTROL Send]** to proceed with the final sending process. 
 
-1. Confirm the send action by clicking the **[!UICONTROL Send]** or **[!UICONTROL Send as scheduled]** button.
+1. Confirm the send action by clicking the **[!UICONTROL Send]**. 
+
+    If the push delivery has been scheduled, click the **[!UICONTROL Send as scheduled]** button. Learn more about delivery scheduling in [this section](../msg/gs-messages.md#schedule-the-delivery-sending).
 
     ![](assets/push_send_4.png)
 
