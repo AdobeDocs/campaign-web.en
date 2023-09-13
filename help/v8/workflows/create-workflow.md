@@ -44,6 +44,10 @@ Workflow templates contain pre-configured settings and activities which can be r
 You can create a template from an existing workflow, or create a new template from scratch. Both methods are detailed below.
 
 
+>[!BEGINTABS]
+
+>[!TAB Create a template from an existing workflow]
+
 To create a workflow template from an existing workflow, follow these steps:
 
 1. Open to the **Workflows** menu and browse to the workflow to save as a template.
@@ -57,6 +61,9 @@ To create a workflow template from an existing workflow, follow these steps:
 1. Save your changes. 
 
 The workflow template is now available in the template list. You can create a workflow based on this template. This workflow will be pre-configured with the settings and activities defined in the template.
+
+
+>[!TAB Create a template from scratch]
 
 
 To create a workflow template from scratch, follow these steps:
@@ -78,3 +85,5 @@ To create a workflow template from scratch, follow these steps:
 1. Save your changes. 
 
 The workflow template is now available in the template list. You can create a workflow based on this template. This workflow will be pre-configured with the settings and activities defined in the template.
+
+>[!ENDTABS]
