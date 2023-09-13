@@ -17,6 +17,7 @@ hide: yes
   + [Discover the interface](get-started/user-interface.md)
   + [Browse, search, and filter lists](get-started/list-filters.md)
   + [Access and permissions](get-started/permissions.md)
+  + [Guardrails and limitations](get-started/guardrails.md)
   + [Unsupported capabilites](get-started/unsupported.md)
   + [Using AI](get-started/using-ai.md)
 + Messages & deliveries {#msg}
