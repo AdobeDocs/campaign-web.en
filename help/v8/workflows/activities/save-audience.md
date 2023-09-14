@@ -9,10 +9,28 @@ badge: label="Beta"
 
 <!--
 >[!CONTEXTUALHELP]
->id="???"
->title="Save audience activity"
->abstract="The Save audience activity allows you to..."
--->
+>id="acw_orchestration_saveaudience_activity"
+>title="Save an audience"
+>abstract="Use this activity to save the workflow audience."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_saveaudience_outbound"
+>title="Outbound transition for save audience"
+>abstract="tbc"
+
+Mode
+Audience label
+Adobe Campaign is going to match this label against existing audiences. If it finds a match, it will update that audience, otherwise it will create a new audience.
+Update method
+
+Replace audience with new data
+
+Complete audience with new data
+Folder
+Lists (/Profiles and Targets/Lists/)
+
+Generate an outbound transition
+
 
 The **Save audience** activity is a **Targeting** activity. This activity allows you to update an existing audience or create a new audience from the population computed upstream in a workflow. The audiences created are added to the list of application audiences, and are made available via the **Audiences** menu.
 
@@ -47,3 +65,4 @@ The content of the saved audience is then available in the detail view of the au
 
 
 
+-->
