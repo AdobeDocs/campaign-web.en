@@ -16,7 +16,7 @@ badge: label="Beta"
 
 The **Scheduler** activity is a **Flow control** activity. It allows you to schedule when the workflow gets started. This activity should be considered as a scheduled start. It can only be used as the first activity of the workflow. 
 
-## Best pratctices
+## Best practices
 
 Do not schedule a workflow to run more than every 15 minutes as it may impede overall system performance and create blocks in the database.
 
@@ -49,6 +49,13 @@ Follow these steps to configure the **Scheduler** activity:
    * **Permanent (never expires)**: the workflow is executed, according to the frequency specified, without any limits to the time frame or number of iterations.
 
    * **Validity period**: the workflow is executed according to the frequency specified, up until a specific date. You need to specify start and end dates. 
+
+>[!NOTE]
+>
+>If you want to start the workflow right away, you can click the **Execute pending task** in the Scheduler's top action bar. This button is only available when you have started the workflow.
+
+Notes: 
+
 
 ## Example
 
