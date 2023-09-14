@@ -40,3 +40,8 @@ In the Campaign client console, the **Enrichment** activity can perform both rec
    * If the **Enrichment** activity in the console only performs a reconciliation, an incompatible activity is displayed. 
 
 ## Predefined filters {#filters-guardrails-limitations}
+
+
+When selecting the audience of a delivery, or when building an audience in a workflow, some predefined filters are not available. A specific error message is displayed. You can still use the query, and see: the filtering condition and the results, but you cannot view the exact query in the rule builder, and cannot edit the filter. 
+
+![](assets/filter-unavailable.png)
