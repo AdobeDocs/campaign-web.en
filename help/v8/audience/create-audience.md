@@ -7,30 +7,37 @@ badge: label="Beta"
 
 # Create audiences {#create-audiences}
 
-audiences menu
+Campaign Web allows you to create create workflows where you can combine existing audiences into a visual canvas and leverage various activites (split, exclude…) to create new audiences.
 
-can create and target them in standalone deliveries or campaigns
+Once done, the resulting audiences are saved backed into Campaign Web along with existing audiences and can be leveraged in standalone deliveries or campaigns to target individuals.
 
 ## Create your first audience {#create}
 
-1. Audience > menu
-1. Create audience
-1. Properties : label and additional options
-1. Workflow canvas with a build audience activity
-1. Edit activity, edit workflow flow depending on his needs
-1. start the workflow (can add targeting activities only? No channel activities?) = Creates the audience and the workflow
+To create an audience, follow these steps:
 
-## Monitor and manage your audiences {#monitor}
+1. Navigate to the **[!UICONTROL Audiences]** menu and click **[!UICONTROL Create Audience]** button in the top-right corner.
+1. Provide a label for the audience.
+1. Expand the Additional options section to configure advancer parameters for the audience.
 
-In audience created, dashboard with two tabs:
-* overview: properties + workflow status and number of recipient part of this audience by cling calculate + can access and edit workflow from here
-* data: view data profiles part of the audience. Can add new columns if needed. See enriched data
+    >[!NOTE]
+    >
+    >By default, audiences are created into the Profiles and Targets / Lists explrer menu. You can change the default storage location in the **[!UICONTROL Folder]** field.
 
-audience list: duplicate, delete
+1. Once the audience settings are configured, click **[!UICONTROL Create Audience]** button.
 
-**questions:**
+1. A workflow canvas displays, with two default activites:
 
-Workflow in "audience mode" => sending channel activities not available
+    * **[!UICONTROL Build audience]**: the starting point of your workflow. This activity allows you to select one or multiple audiences as a basis for your workflow,
+    * **[!UICONTROL Save audience]**: the last step of your workflow. This activity allows you to save the result of your workflow into a new audience.
 
-* on stage instance: we can remove the last qsave activity and add a channel activity instead
-* how do we recognize a workflow in 'audience' mode?
+1. Configure your workflow by adding as many activites as needed activities. For more information on how the configure the various activites, refer to the [workflows documentation](../workflows/activities/about-activities.md). 
+
+    >[!NOTE]
+    >
+    >Channel activities are not available for use in audience workflows.
+
+    ![](assets/audience-creation-canvas.png)
+
+1. When your workflow is ready, click **[!UICONTROL Start]** to execute it.
+
+1. The workflow is saved into the **[!UICONTROL Workflows]** list, and the resulting audience(s) into the **[!UICONTROL Audiences]** list. [Learn how to access audiences](access-audiences.md)
