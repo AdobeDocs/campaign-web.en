@@ -24,7 +24,7 @@ Follow these steps to configure the **Scheduler** activity:
 
 1. Add a **Scheduler** activity to your workflow.
 
-   <!--![](../assets/workflow-scheduler.png)-->
+   ![](../assets/workflow-scheduler.png)
 
 1. Configure the **Execution frequency**:
 
@@ -52,7 +52,7 @@ Follow these steps to configure the **Scheduler** activity:
 
 In the following example, the activity is configured so that starts the workflow several times a day at 9 and 12 AM, every day of the week from October 1st, 2023 to January 1st, 2024.
 
-   <!--![](../assets/workflow-scheduler2.png)-->
+   ![](../assets/workflow-scheduler2.png)
 
 
 

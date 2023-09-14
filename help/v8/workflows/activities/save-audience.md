@@ -36,7 +36,7 @@ Follow these steps to configure the **Save audience** activity:
 
 1. Add a **Save audience** activity to your workflow.
 
-   <!--![](../assets/workflow-save-audience.png)-->
+   ![](../assets/workflow-save-audience.png)
 
 1. In the **Mode** drop-down, select the action that you would like to carry out:
 
