@@ -22,7 +22,7 @@ exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
 >title="SMS template selection"
 >abstract="Select a predefined template to start your SMS delivery."
 
-You can create a standalone SMS delivery, or create a SMS in the context of a campaign workflow. The steps below detail the procedure for a standalone (one-shot) SMS delivery. If you are working in the context of a campaign worrkflow, creation steps are details in [this section](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+You can create a standalone SMS delivery, or create a SMS in the context of a campaign workflow. The steps below detail the procedure for a standalone (one-shot) SMS delivery. If you are working in the context of a campaign workflow, creation steps are details in [this section](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
 
 To create a new standalone SMS delivery, follow these steps:
