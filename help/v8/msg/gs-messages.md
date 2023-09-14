@@ -82,11 +82,10 @@ To create a standalone delivery, follow these steps:
 1. Check results, and click the  **[!UICONTROL Send]** button to start sending messages.
 1. Once messages are sent, browse to the **Reports** section to access key metrics. Learn more about delivery reports in [this section](../reporting/delivery-reports.md).
 
->[!TAB Create a delivery in a campaign workflow]
+>[!TAB Create a delivery in a workflow]
 
-To create a delivery in a campaign, follow these steps:
+To create a delivery in a workflow, follow these steps:
 
-1. Create a campaign or open an existing campaign. Learn more about [marketing campaigns](../campaigns/gs-campaigns.md).
 1. Create a workflow or open an existing workflow.
 1. Add and configure a **[!UICONTROL Build audience]** activity, and click the `+`button.
 
@@ -94,7 +93,7 @@ To create a delivery in a campaign, follow these steps:
 
     The **[!UICONTROL Build audience]** activity is detailed in [this section](../workflows/activities/build-audience.md).
 
-1. Select a delivery activity: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification (Android)]** or **[!UICONTROL Push notification (iOS)]**. Learn more about delivery channel activities in a workflow, and how to define a delivery content in this [section](../workflows/activities/about-activities.md#channel).
+1. Select a delivery activity: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification (Android)]** or **[!UICONTROL Push notification (iOS)]**. Learn more about delivery channel activities in a workflow, and how to define a delivery content in this [section](../workflows/activities/channels.md).
 1. Start the workflow, and check logs.
 
 You can also add deliveries in a campaign without creating a workflow. To achieve this, browse to the **[!UICONTROL Deliveries]** tab of your campaign and click the **[!UICONTROL Create delivery]** button.
