@@ -15,7 +15,7 @@ Audiences can originate from multiple sources. The **[!UICONTROL Origin]** colum
 
 * **[!UICONTROL Adobe Experience Platform:]** These audiences have been created into Adobe Experience Platform and made available into Campaign Web using the integration with Adobe Sources and Destinations. Learn how to setup this integration in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html)
 
-* **[!UICONTROL Adobe Campaign]**: These audiences have been created using a Campaign Web workflow. [Learn how to create audiences](create-audiences.md)
+* **[!UICONTROL Adobe Campaign]**: These audiences have been created using a Campaign Web workflow. [Learn how to create audiences](create-audience.md)
 
 *what are the other origins ? Are they custom ? Where do we define them ?*
 
