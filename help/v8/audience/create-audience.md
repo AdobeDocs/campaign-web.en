@@ -11,8 +11,6 @@ Campaign Web allows you to create workflows where you can combine existing audie
 
 Once you've crafted your workflow, the resulting audiences are automatically stored within Campaign Web alongside your existing ones. These audiences can then be targeted in campaigns or standalone deliveries.
 
-## Create your first audience {#create}
-
 To create an audience, follow these steps:
 
 1. Navigate to the **[!UICONTROL Audiences]** menu and click the **[!UICONTROL Create Audience]** button located in the top-right corner.
