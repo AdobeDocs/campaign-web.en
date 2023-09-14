@@ -49,23 +49,6 @@ When creating and personalizing the message content, you can select fields from 
 
 ![](assets/select-external-perso.png)
 
-## Preview & test your email {#test}
-
-Campaign Web allows you to preview and send test emails when using an audience uploaded from a file. To do this, follow these steps:
-
-1. Simulate content
-1. Opens preview. Click select profile(s): select profiles from the file to use
-1. to send test email, click test
-1. test mode: Define target of the proofs
-1. Upload target of the test email from a second file (or use same). file formatting follow the same as uploaded file
-1. Checks performed on file format
-1. click send
-
-add link to preview & test section
-
-**questions:**
-* no substitution from file available?
-
 ## Sample file {#sample-file}
 
 >[!CONTEXTUALHELP]
@@ -86,3 +69,29 @@ Smith,Clara,Roma,08/02/1979,clara.smith@example.com,0
 Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
 }
 ```
+
+## Preview & test your email {#test}
+
+Campaign Web allows you to preview and send test emails when using an audience uploaded from a file. To do this, follow these steps:
+
+1. Click the **[!UICONTROL Simulate content button]** from your delivery content editing screen and click the **[!UICONTROL Add test profile(s)]** button. 
+
+1. The profiles contained in the uploaded file display. Select the profile(s) that you want to use for previewing your content and click **[!UICONTROL Select]**.
+
+1. A preview of the delivery content displays in the right pane of the screen. Personalized elements are replaced with the data from the profile selected in the left pane. [Learn more on delivery content preview](../preview-test/preview-content.md) 
+
+    ![](assets/file-upload-preview.png)
+
+1. To send test emails, click the **[!UICONTROL Test]** button.
+
+1. Click the **[!UICONTROL Upload proof profiles]** button and select the .txt or .csv file that contains your proof recipients.
+
+    >[!CAUTION]
+    >
+    >Ensure that the file format matches the one used for uploading your audience. Any format errors will display an alert.
+
+1. When the proof recipients are added and you are ready to send the proofs, click the **[!UICONTROL Send test email]** button and confirm the sending.
+
+    ![](assets/file-upload-test.png)
+
+1. You can monitor the sending of the test email using the View test email log button at any time. [Learn more on test emails monitoring](../preview-test/test-deliveries.md#access-sent-test-deliveries-access-proofs)
