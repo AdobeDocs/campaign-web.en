@@ -8,9 +8,14 @@ badge: label="Beta"
 # Save audience {#save-audience}
 
 >[!CONTEXTUALHELP]
->id="???"
->title="Save audience activity"
->abstract="The Save audience activity allows you to..."
+>id="acw_orchestration_saveaudience_activity"
+>title="Save an audience"
+>abstract="Use this activity to save the workflow audience."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_saveaudience_outbound"
+>title="Outbound transition for save audience"
+>abstract="tbc"
 
 Mode
 Audience label
