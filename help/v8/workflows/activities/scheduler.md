@@ -52,7 +52,7 @@ Follow these steps to configure the **Scheduler** activity:
 
 >[!NOTE]
 >
->If you want to start the workflow right away, you can click the **Execute pending task** in the Scheduler's top action bar. This button is only available when you have started the workflow.
+>If you want to start the workflow right away, you can click the **Execute pending task** in the scheduler's top action bar. This button is only available when you have started the workflow.
 
 Notes: 
 
