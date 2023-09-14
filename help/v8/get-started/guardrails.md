@@ -41,7 +41,48 @@ In the Campaign client console, the **Enrichment** activity can perform both rec
 
 ## Predefined filters {#filters-guardrails-limitations}
 
-
 When selecting the audience of a delivery, or when building an audience in a workflow, some predefined filters are not available. A specific error message is displayed. You can still use the query, and see: the filtering condition and the results, but you cannot view the exact query in the rule builder, and cannot edit the filter. 
 
 ![](assets/filter-unavailable.png)
+ 
+
+### Unsupported data types {#unsupported-data-type}
+
+The following data types available in the client console are not supported when displaying a filter or a rule in the Web interface:
+
+* datetime
+* time
+* timespan
+* double
+* float
+
+### Unsupported filtering capabilities {#unsupported-filtering-capabilities}
+
+When a filter is built with complex expressions and functions in the client console, it cannot be edited in the Web interface.
+
+In addition, the following operators are not supported:
+
+* Numeric type
+    * is included in
+    * no in
+
+* String type
+    * greater than
+    * less than
+    * greater than or equals to
+    * less than or equals to
+    * like
+    * not like
+
+* Date type
+    * on or after
+    * on or before
+    * not equals to
+    * is empty
+    * is not empty
+    * is included in
+    * not in
+    * in last
+
+* 1-N links
+    * COUNT, SUM, AVG, MIN, MAX
