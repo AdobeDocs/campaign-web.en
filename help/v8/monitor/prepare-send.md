@@ -10,9 +10,9 @@ badge: label="Beta"
 
 ## Prepare the send {#prepare}
 
-When you have defined your [content](../content/edit-content.md), [audience](../audience/add-audience.md) and schedule, you're ready to prepare your email delivery.
+When you have defined your [content](../content/edit-content.md), [audience](../audience/add-audience.md), and [schedule](../msg/gs-messages.md#schedule-the-delivery-sending-gs-schedule), you're ready to prepare your email delivery.
 
-During the preparation, the target population is calculated and the message content generated for each profile included in the target. Once the preparation is finished, the messages are ready to be sent, either immediately or at the scheduled date and time. 
+During the delivery preparation, the target population is calculated and the message content generated for each profile included in the target. Once the preparation is finished, the messages are ready to be sent, either immediately or at the scheduled date and time. 
 
 The validation rules used during delivery preparation are described in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/validate/delivery-analysis.html){target="_blank"}.
 
@@ -64,20 +64,6 @@ Once the preparation is complete with no error, your message is ready to be sent
 
 ## Send the message {#send}
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_metrics_delivered"
->title="Delivered"
->abstract="The number of messages successfully delivered. This indicator is updated every 5 minutes. The percentage displayed is based on the total number of sent messages."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_metrics_opens"
->title="Opens"
->abstract="The number of opened messages. This indicator is updated every 5 minutes. The percentage displayed is the ratio of the number of distinct opens compared with the number of delivered messages."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_metrics_clicks"
->title="Clicks"
->abstract="The number of recipient who clicked at least once in the email. This indicator is updated every 5 minutes. The percentage displayed is the ratio of the number of distinct clicks compared with the number of delivered messages."
 
 Once the [preparation](#prepare) is complete, you can now send your email.
 
@@ -124,14 +110,38 @@ Whether your delivery is scheduled or not, two actions can be performed at any t
 ## Check the KPIs {#check-kpis}
 
 >[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_delivered"
+>title="Delivered"
+>abstract="The number of messages successfully delivered. This indicator is updated every 5 minutes. The percentage displayed is based on the total number of sent messages."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="Understand KPIs"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_opens"
+>title="Opens"
+>abstract="The number of opened messages. This indicator is updated every 5 minutes. The percentage displayed is the ratio of the number of distinct opens compared with the number of delivered messages."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="Understand KPIs"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_clicks"
+>title="Clicks"
+>abstract="The number of recipient who clicked at least once in the email. This indicator is updated every 5 minutes. The percentage displayed is the ratio of the number of distinct clicks compared with the number of delivered messages."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="Understand KPIs"
+
+
+>[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
 >title="Sent Metrics"
 >abstract="Total number of messages processed during the delivery analysis."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="Understand KPIs"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
 >title="Errors Metrics"
 >abstract="Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="Understand KPIs"
+
 
 Once the send is complete, you can check the KPIs displayed:
 
@@ -150,5 +160,7 @@ Once the send is complete, you can check the KPIs displayed:
 >[!NOTE]
 >
 >All the indicators are updated every 5 minutes after the delivery start. The delivery preparation indicators are real-time.
+
+Learn more about KPIs in [this page](../reporting/kpis.md).
 
 You can also check the logs. [Learn more](delivery-logs.md)

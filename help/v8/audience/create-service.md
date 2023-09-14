@@ -7,6 +7,11 @@ badge: label="Beta"
 
 # Create services {#create-services}
 
+>[!CONTEXTUALHELP]
+>id="acw_subscription_services_read_only"
+>title="This service is read only"
+>abstract="You do not have permissions to edit this service. If needed, contact your administrator to grant you access."
+
 Use Adobe Campaign to create and monitor your information services such as newsletters and to check the subscriptions/unsubscriptions to these services.
 
 Several services can be defined in parallel, for example: specialist newsletters for certain product categories, themes or areas of a web site, subscriptions to various types of alert messages and real-time notifications.

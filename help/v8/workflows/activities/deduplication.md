@@ -14,6 +14,16 @@ badge: label="Beta"
 >abstract="The Deduplication activity allows you to..."
 -->
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_deduplication_complement"
+>title="Deduplication complement"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_deduplication_settings"
+>title="Deduplication settings"
+>abstract="TBD"
+
 The **Deduplication** activity is a **Targeting** activity. This activity allows you to delete duplicates in the result(s) of the inbound activities. The **Deduplication** activity is generally used following targeting activities and before activities that allow the use of targeted data.
 
 ## Configuration

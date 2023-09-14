@@ -217,16 +217,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Select at least two deliveries for displaying an aggregated data report."
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_deduplication_settings"
->title="Deduplication settings"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_deduplication_complement"
->title="Deduplication complement"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
 >id="acw_push_permission_for_segment"
 >title="Permission required"
 >abstract="Your administrator must grant you permission before you can create a segment."
@@ -235,7 +225,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_push_overview_edit"
 >title="Permission required"
 >abstract="Your administrator must grant you permission before you can create a segment."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_read_only"
@@ -247,33 +236,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="This delivery is read only"
 >abstract="You do not have permissions to edit this delivery. If needed, contact your administrator to grant you access."
 
->[!CONTEXTUALHELP]
->id="acw_subscription_services_read_only"
->title="This service is read only"
->abstract="You do not have permissions to edit this service. If needed, contact your administrator to grant you access."
-
->[!CONTEXTUALHELP]
->id="acw_audiences_read_only"
->title="This audience is read only"
->abstract="You do not have permissions to edit this audience. If needed, contact your administrator to grant you access."
-
 <!-- Workflows-->
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"
 >title="Workflow list"
 >abstract="List of workflows available for your campaign. Use the 'Create workflow' button to add a workflow in your campaign."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_saveaudience_outbound"
->title="Outbound transition for save audience"
->abstract="tbc"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_saveaudience_activity"
->title="Save an audience"
->abstract="Use this activity to save the workflow audience."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_wf_read_only"
