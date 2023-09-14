@@ -1,11 +1,11 @@
 ---
 audience: end-user
-title: Access audiences
-description: Learn how to access audiences in Adobe Campaign Web
+title: Monitor & manage audiences
+description: Learn how to monitor & manage audiences in Adobe Campaign Web
 badge: label="Beta" 
 ---
 
-# Access audiences {#create-audiences}
+# Monitor & manage audiences {#create-audiences}
 
 The list of audiences available for use in Campaign Web is accessible from the **[!UICONTROL Audiences]** menu.
 

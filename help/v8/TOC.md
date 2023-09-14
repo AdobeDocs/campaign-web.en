@@ -75,6 +75,7 @@ hide: yes
   + [Get started with audiences](audience/about-audiences.md)
   + [Work with recipients](audience/about-recipients.md)
   + [Create audiences](audience/create-audience.md)
+  + [Monitor & manage audiences](audience/access-audiences.md)
   + Target audiences {#target-audiences}
     + [Select an existing audience](audience/add-audience.md)
     + [Define an audience with the rule builder](audience/segment-builder.md)
@@ -101,7 +102,7 @@ hide: yes
     + [Build audience](workflows/activities/build-audience.md)
     + [Change dimension](workflows/activities/change-dimension.md)
     + [Combine](workflows/activities/combine.md)
-    + [Depuplication](workflows/activities/depuplication.md)
+    + [Deduplication](workflows/activities/deduplication.md)
     + [Email, SMS, Push](workflows/activities/channels.md)
     + [Enrichment](workflows/activities/enrichment.md)
     + [Fork](workflows/activities/fork.md)
