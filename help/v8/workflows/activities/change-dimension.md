@@ -7,10 +7,12 @@ badge: label="Beta"
 
 # Change dimension {#change-dimension}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_dimension_complement"
 >title="Change dimension activity"
 >abstract="The Change dimension activity allows you to..."
+-->
 
 The **Change dimension** activity is a **Targeting** activity. This activity allows you to change the targeting dimension as you are building an audience. This activity shifts the axis depending on the data template and the input dimension. For example, you can switch from the "contracts" dimension to the "clients" dimension.
 
@@ -22,7 +24,7 @@ Follow these steps to configure the **hange dimension** activity:
 
 1. Add a **Change dimension** activity to your workflow.
 
-       <!--![](../assets/workflow-change-dimension.png)-->
+   ![](../assets/workflow-change-dimension.png)
 
 1. Select the new targeting dimension via the Change dimension field.
 

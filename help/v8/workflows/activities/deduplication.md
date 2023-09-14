@@ -7,10 +7,12 @@ badge: label="Beta"
 
 # Deduplication {#deduplication}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
 >title="Fork activity"
 >abstract="The Deduplication activity allows you to..."
+-->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"
@@ -30,7 +32,7 @@ Follow these steps to configure the **Scheduler** activity:
 
 1. Add a **Deduplication** activity to your workflow.
 
-      <!--![](../assets/workflow-deduplication.png)-->
+      ![](../assets/workflow-deduplication.png)
 
 1. In the **Fields to identify duplicates** section, click the **Add attribute** button to specify the fields for which the identical values allow the duplicates to be identified: email address, first name, last name, etc. The order of the fields allows you to specify those to process first.
 
