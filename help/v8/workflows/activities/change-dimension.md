@@ -26,6 +26,6 @@ Follow these steps to configure the **hange dimension** activity:
 
    ![](../assets/workflow-change-dimension.png)
 
-1. Select the new targeting dimension via the Change dimension field.
+1. Define the **New target dimension**.
 
-Nothing else??
+During dimension change, all records are kept.
