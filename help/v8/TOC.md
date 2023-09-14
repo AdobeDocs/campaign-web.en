@@ -40,6 +40,10 @@ hide: yes
         + [Add a link to the mirror page](content/mirror-page.md)
         + [Add a preheader](content/preheader.md)
         + [Generate the text version](content/text-version-email.md)
+      + Content assistant {#content-assistant}
+        + [Text generation with the Content assistant](content/generative-content.md)
+        + [Image generation with the Content assistant](content/generative-image.md)
+        + [Email generation with the Content assistant](content/generative-email.md)
       + Style your content {#style}
         + [Get started with email style](content/get-started-email-style.md)
         + [Edit background settings](content/backgrounds.md)
