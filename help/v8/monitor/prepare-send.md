@@ -64,20 +64,6 @@ Once the preparation is complete with no error, your message is ready to be sent
 
 ## Send the message {#send}
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_metrics_delivered"
->title="Delivered"
->abstract="The number of messages successfully delivered. This indicator is updated every 5 minutes. The percentage displayed is based on the total number of sent messages."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_metrics_opens"
->title="Opens"
->abstract="The number of opened messages. This indicator is updated every 5 minutes. The percentage displayed is the ratio of the number of distinct opens compared with the number of delivered messages."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_metrics_clicks"
->title="Clicks"
->abstract="The number of recipient who clicked at least once in the email. This indicator is updated every 5 minutes. The percentage displayed is the ratio of the number of distinct clicks compared with the number of delivered messages."
 
 Once the [preparation](#prepare) is complete, you can now send your email.
 
@@ -124,6 +110,21 @@ Whether your delivery is scheduled or not, two actions can be performed at any t
 ## Check the KPIs {#check-kpis}
 
 >[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_delivered"
+>title="Delivered"
+>abstract="The number of messages successfully delivered. This indicator is updated every 5 minutes. The percentage displayed is based on the total number of sent messages."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_opens"
+>title="Opens"
+>abstract="The number of opened messages. This indicator is updated every 5 minutes. The percentage displayed is the ratio of the number of distinct opens compared with the number of delivered messages."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_clicks"
+>title="Clicks"
+>abstract="The number of recipient who clicked at least once in the email. This indicator is updated every 5 minutes. The percentage displayed is the ratio of the number of distinct clicks compared with the number of delivered messages."
+
+>[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
 >title="Sent Metrics"
 >abstract="Total number of messages processed during the delivery analysis."
@@ -150,5 +151,7 @@ Once the send is complete, you can check the KPIs displayed:
 >[!NOTE]
 >
 >All the indicators are updated every 5 minutes after the delivery start. The delivery preparation indicators are real-time.
+
+Learn more about KPIs in [this page](../reporting/kpis.md).
 
 You can also check the logs. [Learn more](delivery-logs.md)
