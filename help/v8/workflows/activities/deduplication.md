@@ -7,10 +7,12 @@ badge: label="Beta"
 
 # Deduplication {#deduplication}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
 >title="Fork activity"
 >abstract="The Deduplication activity allows you to..."
+-->
 
 The **Deduplication** activity is a **Targeting** activity. This activity allows you to delete duplicates in the result(s) of the inbound activities. The **Deduplication** activity is generally used following targeting activities and before activities that allow the use of targeted data.
 

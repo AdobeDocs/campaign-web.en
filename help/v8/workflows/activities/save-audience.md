@@ -7,10 +7,12 @@ badge: label="Beta"
 
 # Save audience {#save-audience}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="???"
 >title="Save audience activity"
 >abstract="The Save audience activity allows you to..."
+-->
 
 The **Save audience** activity is a **Targeting** activity. This activity allows you to update an existing audience or create a new audience from the population computed upstream in a workflow. The audiences created are added to the list of application audiences, and are made available via the **Audiences** menu.
 

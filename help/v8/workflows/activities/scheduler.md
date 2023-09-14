@@ -7,10 +7,12 @@ badge: label="Beta"
 
 # Scheduler {#scheduler}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_options"
 >title="Scheduler activity"
 >abstract="The Scheduler activity allows you..."
+-->
 
 The **Scheduler** activity is a **Flow control** activity. It allows you to schedule when the workflow gets started. This activity should be considered as a scheduled start. It can only be used as the first activity of the workflow. 
 
