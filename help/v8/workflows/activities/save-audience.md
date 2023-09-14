@@ -12,20 +12,6 @@ badge: label="Beta"
 >title="Save audience activity"
 >abstract="The Save audience activity allows you to..."
 
-Mode
-Audience label
-Adobe Campaign is going to match this label against existing audiences. If it finds a match, it will update that audience, otherwise it will create a new audience.
-Update method
-
-Replace audience with new data
-
-Complete audience with new data
-Folder
-Lists (/Profiles and Targets/Lists/)
-
-Generate an outbound transition
-
-
 The **Save audience** activity is a **Targeting** activity. This activity allows you to update an existing audience or create a new audience from the population computed upstream in a workflow. The audiences created are added to the list of application audiences, and are made available via the **Audiences** menu.
 
 This activity is essentially used to keep population groups computed in the same workflow, by converting them into reusable audiences. Connect it to other targeting activities such as a **Build audience** or a **Combine** activity. 
