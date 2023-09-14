@@ -21,7 +21,7 @@ A template can include:
 * Links to [mirror page](../content/mirror-page.md) and unsubscription [links](../content/message-tracking.md)
 * Other delivery properties, such as resource validity, retry parameters, or quarantine settings.
 
-## Access and manage templates {#access-manage-templates}
+## Access and manage delivery templates {#access-manage-templates}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_templates"
@@ -55,14 +55,14 @@ To delete or [duplicate](#copy-an-existing-template) a template, select the corr
 >
 >When a template is edited or deleted, deliveries created using this template are not impacted.
 
-## Create a template {#create-a-delivery-template}
+## Create a delivery template {#create-a-delivery-template}
 
 To create a delivery template, you can:
 * Duplicate an existing template - [Learn more](#copy-an-existing-template)
 * Convert an existing delivery into a template - [Learn more](#convert-an-existing-delivery)
 * Create a delivery template from scratch - [Learn more](#create-a-new-template)
 
-### Duplicate an existing template {#copy-an-existing-template}
+### Duplicate an existing delivery template {#copy-an-existing-template}
 
 Campaign comes with a set of built-in templates for each channel: email, push, SMS. The easiest way to create a delivery template is to duplicate and customize a built-in template.
 
@@ -114,7 +114,7 @@ To save a delivery as a template, follow the steps below:
 
 The new template is added to the [**Templates** list](#access-manage-templates). You can now select it when creating a new delivery.
 
-### Create a new template {#create-a-new-template}
+### Create a new delivery template {#create-a-new-template}
 
 >[!NOTE]
 >

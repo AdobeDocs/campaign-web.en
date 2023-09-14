@@ -15,7 +15,7 @@ exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 
 With Adobe Campaign, you can send cross-channel campaigns including emails, SMS, and Push notifications, and measure their effectiveness using various dedicated reports. 
 
-These messages are designed and sent though deliveries, and can be personalized for each recipient. These deliveries can be standalone or included in the context of a marketing campaign.
+These messages are designed and sent though deliveries, and can be personalized for each recipient. These deliveries can be standalone, or included in workflows, in the context of a marketing campaign.
 
 Adobe Campaign v8 comes with the following delivery channels: Email, SMS and Mobile apps.
 
@@ -53,7 +53,6 @@ Adobe Campaign v8 comes with the following delivery channels: Email, SMS and Mob
 
 ## Create a delivery {#create-delivery}
 
-
 You can create standalone deliveries from the **[!UICONTROL Deliveries]** left menu, or create deliveries in the context of a marketing campaign, from the **[!UICONTROL Campaigns]** left menu. 
 
 Browse the tabs below to learn how to create a delivery:
@@ -83,7 +82,7 @@ To create a standalone delivery, follow these steps:
 1. Check results, and click the  **[!UICONTROL Send]** button to start sending messages.
 1. Once messages are sent, browse to the **Reports** section to access key metrics. Learn more about delivery reports in [this section](../reporting/delivery-reports.md).
 
->[!TAB Create a delivery in a campaign]
+>[!TAB Create a delivery in a campaign workflow]
 
 To create a delivery in a campaign, follow these steps:
 
