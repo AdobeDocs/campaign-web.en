@@ -21,9 +21,9 @@ By using channel activities, you can create comprehensive and personalized campa
 >*  [Create standalone push delivery](../../push/create-push.md)
 >
 
-## Create a delivery in a campaign workflow{#create-a-delivery-in-a-workflow}
+## Create a delivery in a workflow{#create-a-delivery-in-a-workflow}
 
-To create an email, a SMS, or a push delivery in the context of a campaign workflow, follow the steps below:
+To create an email, a SMS, or a push delivery in the context of a workflow, follow the steps below:
 
 1. Make sure you have added a **Build audience** activity. The audience is the main target of your delivery: the recipients who receive the messages. When sending messages in the context of a campaign workflow, the message audience is not defined in the channel activity, but in the **Build audience** activity. See [this section](build-audience.md).
 
@@ -50,7 +50,7 @@ To create an email, a SMS, or a push delivery in the context of a campaign workf
 
 1. From your delivery dashboard, click **Send**.
 
-## Example{#cross-channel-workflow-sample}
+## Example {#cross-channel-workflow-sample}
 
 Here is a cross-channel workflow example with a segmentation and two deliveries. The workflow targets all customers who live in Paris and who are interested in coffee machines. Among this population, an email is sent to the regular customers and an SMS is sent to the VIP clients.
 

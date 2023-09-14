@@ -31,7 +31,7 @@ Based on a predefined design template, the email also features personalized cont
 >title="Email Properties"
 >abstract="The properties are the common delivery parameters that helps you to name and classify your delivery. If your delivery is based on an extended schema defined in the Adobe Campaign v8 console, some specific **Custom Options** fields are available."
 
-You can create a standalone email delivery, or create an email in the context of a campaign workflow. The steps below detail the procedure for a standalone (one-shot) email delivery. If you are working in the context of a campaign worrkflow, creation steps are details in [this section](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+You can create a standalone email delivery, or create an email in the context of a campaign workflow. The steps below detail the procedure for a standalone (one-shot) email delivery. If you are working in the context of a campaign workflow, creation steps are details in [this section](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
 To create a new standalone email delivery, follow these steps:
 
