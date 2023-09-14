@@ -83,7 +83,7 @@ When creating a predefined filter, you can enable the **Save as favorite** optio
 
 When a filter is saved as a favorite, it is available to all users in the **Favorite filters** section of the filter creation list, as shown below:
 
-![](assets/predefined-filters-favorite.png)
+![](assets/predefined-filters-favorite.png){width="70%" align="left"}
 
 
 ## Use a predefined filter {#use-predefined-filter}
