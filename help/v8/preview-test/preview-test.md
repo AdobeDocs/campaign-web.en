@@ -33,3 +33,5 @@ These actions can be performed using the **[!UICONTROL Simulate content]** butto
 >[!NOTE]
 >
 >Content simulation is also available from the [delivery summary](../monitor/prepare-send.md) after clicking the **[!UICONTROL Review and send]** button.
+>
+>If you are targeting an audience uploaded from a file, refer to [this section](../audience/file-audience.md#preview--test-your-email-test) to learn how to preview and test your delivery.
