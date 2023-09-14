@@ -12,15 +12,15 @@ badge: label="Beta"
 >title="Fork activity"
 >abstract="The Deduplication activity allows you to..."
 
-The Deduplication activity allows you to delete duplicates in the result(s) of the inbound activities.
-
-The Deduplication activity is generally used following targeting activities and before activities that allow the use of targeted data.
+The **Deduplication** activity is a **Targeting** activity. This activity allows you to delete duplicates in the result(s) of the inbound activities. The **Deduplication** activity is generally used following targeting activities and before activities that allow the use of targeted data.
 
 ## Configuration
 
 Follow these steps to configure the **Scheduler** activity:
 
 1. Add a **Deduplication** activity to your workflow.
+
+      ![](../assets/workflow-deduplication.png)
 
 1. In the **Fields to identify duplicates** section, click the **Add attribute** button to specify the fields for which the identical values allow the duplicates to be identified: email address, first name, last name, etc. The order of the fields allows you to specify those to process first.
 
@@ -42,3 +42,6 @@ Follow these steps to configure the **Scheduler** activity:
     * **Following a list of values**: lets you define a value priority for one or more fields. To define the values, click **Attribute** to select a field or create an expression, then add the value(s) into the appropriate table. To define a new field, click the Add button located above the list of values. ++ Sort
 
 1. Check the **Generate complement** option if you wish to exploit the remaining population. The complement consists of all the duplicates. An additional transition will then be added to the activity.
+
+## Example
+

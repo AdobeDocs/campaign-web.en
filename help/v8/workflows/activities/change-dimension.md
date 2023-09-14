@@ -1,31 +1,29 @@
 ---
 audience: end-user
-title: Use the Fork workflow activity
-description: Learn how to use the Fork workflow activity
+title: Use the Change dimension workflow activity
+description: Learn how to use the Change dimension workflow activity
 badge: label="Beta" 
 ---
 
-# Fork {#fork}
+# Change dimension {#change-dimension}
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_fork_transitions"
->title="Fork activity"
->abstract="The Fork activity allows you to create outbound transitions to start several activities at the same time."
+>id="acw_orchestration_dimension_complement"
+>title="Change dimension activity"
+>abstract="The Change dimension activity allows you to..."
+
+The **Change dimension** activity is a **Targeting** activity. This activity allows you to change the targeting dimension as you are building an audience. This activity shifts the axis depending on the data template and the input dimension. For example, you can switch from the "contracts" dimension to the "clients" dimension.
+
+You can also use this activity to define the additional columns of the new target, and define data deduplication criteria.
 
 ## Configuration
 
-Follow these steps to configure the **Fork** activity:
+Follow these steps to configure the **hange dimension** activity:
 
-1. Add a **Fork** activity to your workflow.
-1. Click **Add transition** to add a new outbound transition. By default two transitions are defined.
-1. Add a label to each of your transitions. 
+1. Add a **Change dimension** activity to your workflow.
 
-## Example
+       ![](../assets/workflow-change-dimension.png)
 
-In the following example, we're using two **Fork** activities:
+1. Select the new targeting dimension via the Change dimension field.
 
-* One before the two queries, to execute them at the same time.
-* One after the intersection, to send an email and an SMS simultaneously to the targeted population.
-
-![](../assets/workflow-fork-example.png)
-
+Nothing else??
