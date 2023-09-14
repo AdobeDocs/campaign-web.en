@@ -22,7 +22,7 @@ Follow these steps to configure the **hange dimension** activity:
 
 1. Add a **Change dimension** activity to your workflow.
 
-       ![](../assets/workflow-change-dimension.png)
+       <!--![](../assets/workflow-change-dimension.png)-->
 
 1. Select the new targeting dimension via the Change dimension field.
 
