@@ -7,7 +7,7 @@ badge: label="Beta"
 
 # Create audiences {#create-audiences}
 
-Campaign Web allows you to create workflows where you can combine existing audiences into a visual canvas. By incorporating various workflow activities such as Split or Excluse, you can generate new and refined audiences.
+Campaign Web allows you to create workflows where you can combine existing audiences into a visual canvas. By incorporating various workflow activities such as Split or Exclude, you can generate new and refined audiences.
 
 Once you've crafted your workflow, the resulting audiences are automatically stored within Campaign Web alongside your existing ones. These audiences can then be targeted in campaigns or standalone deliveries.
 
