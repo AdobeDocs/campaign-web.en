@@ -27,5 +27,15 @@ Answers can be inaccurate or misleading. As a consequence, Adobe knowledge assis
 
 Artificial intelligence and machine learning models improve over time to better address specific use cases. Campaign AI-powered knowledge assistant will continue to get better in the coming months. We strongly advice you to use the 👍 👎 buttons anytime you read an anwser, to flag any inappropriate responses to our engineers.
 
+## Recommendations  {#recommendations-ai}
 
+When asking a question in the contextual help, the current product context is taken into account. 
+
+To get the best of the assistant, when asking a question, we advice you to:
+
+* Be as precise and specific as possible and avoid ambiguity. The answer will be more accurate and helpful. 
+* To help the knowledge assistant find the correct information, add as much details as possible about what you are trying to learn.
+* Rephrase and refine your questions to get better answers. If the answer is not accurate or useful, try different approaches and add context to get better results.
+* Use appropriate terms and wording, with a neutral tone.
+* Rate the answers and provide feedback so that our engineers can learn from your experience, and improve results.
 
