@@ -30,7 +30,7 @@ Here are the steps to add a **Channel** activity in a workflow:
 
 1. Click **Create delivery**. Define your message settings and content the same way you create a standalone delivery. You can also schedule and simulate the content. [Learn more](../../msg/gs-messages.md).
 
-1. Navigate back to your workflow and save your changes.
+1. Navigate back to your workflow. Choose if you want to continue your workflow **Generate an outbound transition** if you want to add a transition after the channel activity.
 
 1. Click **Start** to launch your workflow.
 

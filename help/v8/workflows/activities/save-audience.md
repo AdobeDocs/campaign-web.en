@@ -38,7 +38,7 @@ Follow these steps to configure the **Save audience** activity:
 
     * **Complete audience with new data**: the old audience content is kept and the data from the save audience activity's inbound transition is added to it.
 
-1. Check the **Generate complement** option if you wish to exploit the remaining population. An additional transition will then be added to the activity.
+1. Check the **Generate an outbound transition** option if you wish to add a transition after the **Save audience** activity.
 
 The content of the saved audience is then available in the detail view of the audience, which can be accessed from the **Audiences** menu. The columns available from this view correspond to the columns of the inbound transition of the workflow's **SAve audience** activity. 
 
