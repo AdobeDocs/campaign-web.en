@@ -43,7 +43,7 @@ hide: yes
       + Content assistant {#content-assistant}
         + [Text generation with the Content assistant](content/generative-content.md)
         + [Image generation with the Content assistant](content/generative-image.md)
-        + [Generate an email with the Content assistant](content/generative-email.md)
+        + [Email generation with the Content assistant](content/generative-email.md)
       + Style your content {#style}
         + [Get started with email style](content/get-started-email-style.md)
         + [Edit background settings](content/backgrounds.md)
