@@ -16,7 +16,7 @@ By using channel activities, you can create comprehensive and personalized campa
 >[!NOTE]
 >
 >You can also create a one-shot delivery, outside of the context of a campaign workflow. Learn more in these sections:
->*  [Create standalone email delivery](../../email/create-email.md
+>*  [Create standalone email delivery](../../email/create-email.md)
 >*  [Create standalone SMS delivery](../../sms/create-sms.md)
 >*  [Create standalone push delivery](../../push/create-push.md)
 >
