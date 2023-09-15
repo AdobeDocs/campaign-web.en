@@ -8,10 +8,9 @@ badge: label="Beta"
 
 # What's new? {#new}
 
-
 We are thrilled to introduce the BETA version of Adobe Campaign web UI. Our latest release is packed with intuitive features designed to simplify the creation of personalized cross-channel campaigns, drive exceptional results, and give you a competitive advantage across all channels.
 
-## Beta release{#beta-release}
+## Key capabilities {#key-features}
 
 This new Campaign web interface is currently only available to **Beta practitioners** with the following capabilities:
 
@@ -44,17 +43,9 @@ Use the new Campaign Web UI to:
 * Monitor send and measure results with built-in reports - [Learn more](../reporting/delivery-reports.md)
 
 
-## Latest updates
+## Beta release updates {#beta-release}
 
-**Beta Summary**
-
-* Enable data composition (federated) for Audiences & Personalization
-* Utilize AI technology to enhance email content generation
-* Seamlessly sync assets and full HTML templates
-* Efficiently organize and manage your folders and resources
-* Access additional activities such as change dimension, deduplication, and recurring deliveries to enhance campaign workflows
-
-**Key new capabilities** 
+Key capabiities coming with Campaign Web Beta are listed below.
 
 * More Campaign Workflow activities
 
@@ -62,27 +53,35 @@ Use the new Campaign Web UI to:
     
     From advanced segmentation to conditional triggers, our additional workflow activities empower you to deliver targeted messages and drive better campaign performance.
 
+    Learn more in [this section](../workflows/gs-workflows.md).
+
 * Gen AI for Email content
 
     Say goodbye to manual content creation and hello to efficient, data-driven campaigns with the power of Gen AI.  Our Gen AI technology utilizes advanced algorithms to generate highly engaging and personalized content. Drive higher open rates, click-through rates, and conversions with Gen AI's intelligent content generation. 
 
     Stay ahead of the competition and elevate your email marketing game with Gen AI on email content.
 
+    Learn more in [this section](../content/generative-gs.md).
 
 * Predefined Filter Management
     
-    Introducing Predefined Filter Management. Campaign web UI now offers you an user-friendly interface to effortlessly manage and customize predefined filters to meet your specific needs. Create once and save for future use. [Learn more](../get-started/predefined-filters.md)
+    Introducing Predefined Filter Management. Campaign web UI now offers you an user-friendly interface to effortlessly manage and customize predefined filters to meet your specific needs. Create once and save for future use.
 
+    Learn more in [this section](../get-started/predefined-filters.md).
 
 * Target Audience
 
     Building a delivery target has never been easier! With our latest rule builder, you now have the ability to define filtering criteria for recipients or any other targeting dimension from the database. What's more, you can take advantage of your AEP (Adobe Experience Platform) audience to further refine your target audience and maximize your campaign's impact.
+
+    Learn more in [this section](../audience/segment-builder.md).
 
 * Offers with SMS
 
     The new web UI now enables you to integrate offers with SMS in addition to Email. Reach your audience on their mobile devices, delivering promotions, and timely notifications. 
     
     Elevate your marketing efforts by harnessing the power of integrated offers through SMS on our advanced web platform.
+   
+    Learn more in [this section](../content/offers.md).
 
 <!--
 * Adobe Experience Manager (AEM) Integration
@@ -91,6 +90,12 @@ Use the new Campaign Web UI to:
     
     Elevate and streamline your content management capabilities on the web UI with this integration to boost productivity.
 -->
+
+* Knowledge Assistant with Gen AI
+
+    Ask questions and find guidance directly from the product user interface. The new AI-powered knowledge assistant, embedded in the contextual help popovers, helps you learn and grow your expertise on new Campaign features. Based on the latest product documentation, it assists you to find help and get step-by-step guidance instantly, as you are building your use cases. 
+       
+    Learn more in [this section](../get-started/using-ai.md).
 
 
 ## Transition to Campaign Web UI
@@ -115,8 +120,7 @@ As an existing Campaign user, note that some concepts have been renamed to align
 
 The limitations below apply to this Alpha version:
 
-* Editable objects are: Deliveries, Campaigns, Workflows, Audiences, Subscription Services, Predefined Filters, and Templates. The others are read-only. Use filters to browse them all.
-* Audiences cannot be saved for future use.
+* Editable objects are: Deliveries, Campaigns, Workflows, Audiences, Subscription Services, Predefined Filters, and Templates. The others are read-only. Use filters and create rules to browse them all.
 * The Administration user interface is not available.
 * Reporting metrics (such as opens and tracking data) are updated every hour.
 * Delivery dashboard KPIs are updated every 5 min. - but the Delivery preparation is real-time.

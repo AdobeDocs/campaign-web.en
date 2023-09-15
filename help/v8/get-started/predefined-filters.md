@@ -25,6 +25,10 @@ You can use existing built-in filters to access a specific sub-set of your data,
 
 ![](assets/predefined-filters-menu.png)
 
+>[!CAUTION]
+>
+>In that version of the product, when building rules, selecting the audience of a delivery, or when building an audience in a workflow, some predefined filters are not available in the user interface. You can still use them. [Learn more](guardrails.md#predefined-filters-filters-guardrails-limitations)
+
 
 ## Create a predefined filter {#create-predefined-filter}
 
@@ -49,7 +53,7 @@ You can save a custom filter from the rule builder to have it available for futu
 
 1. Select **Create a new filter**, and enter a name and a description for that filter.
     
-    ![](assets/predefined-filters-save-filter.png)
+    ![](assets/predefined-filters-save-filter.png){width="70%" align="left"}
 
     You can save the filter as a favorite if needed. Learn more in [this section](#fav-filter).
 
@@ -83,7 +87,7 @@ When creating a predefined filter, you can enable the **Save as favorite** optio
 
 When a filter is saved as a favorite, it is available to all users in the **Favorite filters** section of the filter creation list, as shown below:
 
-![](assets/predefined-filters-favorite.png){width="70%" align="left"}
+![](assets/predefined-filters-favorite.png){width="30%" align="left"}
 
 
 ## Use a predefined filter {#use-predefined-filter}
@@ -133,6 +137,8 @@ From this list, you can create a new filter as detailed above, and:
 
 You can add a predefined filter as a favorite for a quick access when building your rules. Learn more in [this section](#fav-filter).
 
+<!--
 ## Built-in predefined filters {#ootb-predefined-filter}
 
 Campaign comes with a set of predefined filters, built from the client console. These filters can be used to define your audiences, and rules. They must not be modified.
+-->
