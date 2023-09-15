@@ -49,7 +49,7 @@ You can save a custom filter from the rule builder to have it available for futu
 
 1. Select **Create a new filter**, and enter a name and a description for that filter.
     
-    ![](assets/predefined-filters-save-filter.png)
+    ![](assets/predefined-filters-save-filter.png){width="70%" align="left"}
 
     You can save the filter as a favorite if needed. Learn more in [this section](#fav-filter).
 
@@ -83,7 +83,7 @@ When creating a predefined filter, you can enable the **Save as favorite** optio
 
 When a filter is saved as a favorite, it is available to all users in the **Favorite filters** section of the filter creation list, as shown below:
 
-![](assets/predefined-filters-favorite.png){width="70%" align="left"}
+![](assets/predefined-filters-favorite.png){width="30%" align="left"}
 
 
 ## Use a predefined filter {#use-predefined-filter}
