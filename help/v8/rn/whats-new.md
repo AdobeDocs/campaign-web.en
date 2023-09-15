@@ -91,6 +91,12 @@ Key capabiities coming with Campaign Web Beta are listed below.
     Elevate and streamline your content management capabilities on the web UI with this integration to boost productivity.
 -->
 
+* Knowledge Assistant with Gen AI
+
+    Ask questions and find guidance directly from the product user interface. The new AI-powered knowledge assistant, embedded in the contextual help popovers, helps you learn and grow your expertise on new Campaign features. Based on the latest product documentation, it assists you to find help and get step-by-step guidance instantly, as you are building your use cases. 
+       
+    Learn more in [this section](../get-started/using-ai.md).
+
 
 ## Transition to Campaign Web UI
 
