@@ -53,7 +53,7 @@ Adobe Campaign v8 comes with the following delivery channels: Email, SMS and Mob
 
 ## Create a delivery {#create-delivery}
 
-You can create standalone deliveries from the **[!UICONTROL Deliveries]** left menu, or create deliveries in the context of a marketing campaign, from the **[!UICONTROL Campaigns]** left menu. 
+You can create standalone deliveries from the **[!UICONTROL Deliveries]** left menu, or create deliveries in the context of a workflow, included or not in a campaign. 
 
 Browse the tabs below to learn how to create a delivery:
 
@@ -86,7 +86,7 @@ To create a standalone delivery, follow these steps:
 
 To create a delivery in a workflow, follow these steps:
 
-1. Create a workflow or open an existing workflow.
+1. Create a workflow or open an existing workflow. Learn more about workflows in [this page](../workflows/gs-workflow-creation.md#gs-workflow-steps)
 1. Add and configure a **[!UICONTROL Build audience]** activity, and click the `+`button.
 
     ![](assets/add-delivery-in-wf.png)
