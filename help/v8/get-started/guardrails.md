@@ -34,7 +34,7 @@ The same workflow can be accessed both in the console and the web UI. However, p
 
 | Console | Web UI |
 | --- | --- |
-| ![](aassets/limitations-loops-console.png) | ![](aassets/limitations-loops-web.png) |
+| ![](assets/limitations-loops-console.png) | ![](assets/limitations-loops-web.png) |
 
 <table>
 <tr>
