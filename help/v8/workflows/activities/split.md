@@ -28,6 +28,12 @@ The **Split** activity is a **Targeting** activity that allows you to segment in
 >abstract="To limit the number of profiles selected by the subset, toggle on the **[!UICONTROL Enable limit]** option, and specify the number or percentages of the population to include."
 
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_sorting"
+>title="Split activity sorting"
+>abstract="When setting a population limit for a subset, you can rank the selected profiles based on a specific profile attribute, in ascending or descending order. To do this, toggle on the **Enable sorting** option. For instance, you can restrict a subset to include only the top 50 profiles with the highest purchase amount."
+
+
 Follow these steps to configure the **Split** activity:
 
 1. Add a **Split** activity to your workflow.
@@ -51,12 +57,14 @@ Follow these steps to configure the **Split** activity:
     1. To apply a filtering condition to the subset, click **[!UICONTROL Create filter]** and configure the desired filtering rule. For example, include profiles from the incoming population whose email address exist in the database.
 
     1. To limit the number of profiles selected by the subset, toggle on the **[!UICONTROL Enable limit]** option, and specify the number or percentages of the population to include.
+
+        ![](../assets/workflow-split-subset.png)
+
     
         >[!NOTE]
         >
         >When setting a population limit for a subset, you can rank the selected profiles based on a specific profile attribute, in ascending or descending order. To do this, toggle on the **[!UICONTROL Enable sorting]** option. For instance, you can restrict a subset to include only the top 50 profiles with the highest purchase amount.
 
-    ![](../assets/workflow-split-subset.png)
 
 1. Once that you have configured all the subsets, you can select the remaining population that did not match any of the subsets and include them into an additional outbound transition. To do this, toggle on the **[!UICONTROL Generate complement]** option.
 

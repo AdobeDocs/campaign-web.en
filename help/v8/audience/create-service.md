@@ -12,6 +12,11 @@ badge: label="Beta"
 >title="This service is read only"
 >abstract="You do not have permissions to edit this service. If needed, contact your administrator to grant you access."
 
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_list"
+>title="Subscriptions services"
+>abstract="Use Adobe Campaign to create and monitor your services such as newsletters, and to check the subscriptions/unsubscriptions to these services. Subscriptions only apply to email and SMS delivery."
+
 Use Adobe Campaign to create and monitor your services such as newsletters, and to check the subscriptions/unsubscriptions to these services. Subscriptions only apply to email and SMS delivery.
 
 Several services can be defined in parallel, for example: newsletters for specific product categories, themes or areas of a web site, subscriptions to various types of alert messages, and real-time notifications.
@@ -30,22 +35,33 @@ The list of all existing subscription services is displayed. You can search the 
 
 ## Create your first subscription service {#create-service}
 
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_list_properties"
+>title="Subscriptions service properties"
+>abstract="Enter the label of the subscription service, and define additional options."
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_list_confirm"
+>title="Subscriptions service confirmation messages"
+>abstract="When a user subscribes to a service or unsubscribes from a service, you can send a confirmation message. Select the templates to use for these messages."
+
+
 To create a subscription service, follow these steps:
 
 1. Select the **[!UICONTROL Create subscription service]** button.
 
     ![](assets/service-create-button.png)
 
-1. Select a channel. **[!UICONTROL Email]** and **[!UICONTROL SMS]** are available.
+1. Select a channel: **[!UICONTROL Email]** or **[!UICONTROL SMS]**.
 
 1. In the service properties, enter a label and define additional options if needed.
 
     ![](assets/service-create-properties.png)
 
-1. Select the confirmation messages.
+1. When a user subscribes to a service or unsubscribes from a service, you can send a confirmation message. Select the templates to use for these messages.
 
     ![](assets/service-create-confirmation-msg.png)
 
-1. Click **[!UICONTROL Save and review]**.
+1. Click **[!UICONTROL Save]**.
 
 

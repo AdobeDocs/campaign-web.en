@@ -84,6 +84,12 @@ In the **Combine** activity, you can configure an **Intersection**. For this, yo
 >title="Select sets to combine"
 >abstract="In the **Sets to join** section, select the **Primary set** from the inbound transitions. This is the set from which elements are excluded. The other sets match elements before being excluded from the primary set."
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine_exclusion"
+>title="Exclusion rules"
+>abstract="When necessary, you can manipulate inbound tables. Indeed, to exclude a target from another dimension, this target has to be returned to the same targeting dimension as the main target. To do this, click Add a rule in the Exclusion rules section and specify the dimension change conditions. Data reconciliation is carried out either via an attribute or a join."
+
+
 
 In the **Combine** activity, you can configure an **Exclusion**. For this, you need to follow the extra steps below:
 
