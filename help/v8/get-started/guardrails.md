@@ -54,10 +54,21 @@ The positioning of the nodes is refreshed everytime an activity is added or remo
 
 When selecting the audience of a delivery, or when building an audience in a workflow, some predefined filters are not available in the user interface, in that version of the product. 
 
-A specific error message is displayed. Even if you cannot view the graphic representation of the query in the rule builder, and cannot edit the filter, you can still use it, and see the filtering conditions, and the results. You can also access the SQL query to check the exact settings. 
+A specific error message is displayed. 
 
 ![](assets/filter-unavailable.png){width="70%" align="left"}
- 
+
+Even if you cannot view the graphic representation of the query in the rule builder, and cannot edit the filter, you can still use it, and see the filtering conditions in the **Attributes** section of the screen. 
+
+![](assets/rule-view-results.png){width="70%" align="left"}
+
+You can also access the SQL query to check the exact settings. To do this, click the **Code view** button.
+
+![](assets/rule-code-view.png){width="70%" align="left"}
+
+Click the **Calculate** button to check how many items meet the criteria of the filter. Use the **View results** button to display those items.
+
+![](assets/rule-view-results.png){width="70%" align="left"}
 
 Note that if you build a filter in the Web interface and modify it in the console with unsupported attributes, the graphic representation can no longer be available in the Web interface. In any cases, you can still use the filter.
 
