@@ -107,7 +107,7 @@ For more information on how to configure a campaign and manage deliveries which 
 >[!ENDTABS]
 
 
-## Add personalization{#personalization}
+## Add personalization {#personalization}
 
 Messages delivered by Adobe Campaign can be personalized in various ways. [Learn more about personalization capabilities](../personalization/gs-personalization.md).
 
@@ -129,8 +129,7 @@ You can personalize the message content by:
 
 * Add **personalized offers**
     
-    Insert personalized offers in your message content, depending on the recipient location, the current weather, or the last purchase order.
-
+    Insert personalized offers in your message content, depending on the recipient location, the current weather, or the last purchase order. [Learn more](../content/offers.md)
 
 ## Preview and test your deliveries
 
@@ -140,12 +139,12 @@ Once your message content has been defined, you can preview it to control the re
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_schedule"
->title="Schedule the sending"
->abstract="Define the date and the exact time for sending messages. By choosing the most appropriate time for your marketing message, you can maximise open rates."
+>title="Set a contact date and time"
+>abstract="Define the date and the exact time for sending your delivery. By choosing the most appropriate time for your marketing message, you can maximise open rates."
 
 You can set the date and the exact time for sending your messages. By choosing the most appropriate time for your marketing message, you can maximise open rates.
 
-To schedule the sending of the a delivery, open your delivery and browse to the **Schedule** section. Use the **[!UICONTROL Enable scheduling]** toggle to activate it, and set the desired date and time for sending. Once you send the delivery, the actual sending will start on the contact date you have defined.
+To schedule the sending of the a delivery, open your delivery and browse to the **[!UICONTROL Schedule]** section. Use the **[!UICONTROL Enable scheduling]** toggle to activate it, and set the desired date and time for sending. Once you send the delivery, the actual sending will start on the contact date you have defined.
 
 ![](assets/schedule.png)
 

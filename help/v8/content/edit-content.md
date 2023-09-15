@@ -9,8 +9,8 @@ badge: label="Beta"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
->title="Create the email content"
->abstract="With this section, you can create the content for your email and use the Email Designer to give it a polished look."
+>title="Define the email content"
+>abstract="The **Edit content** screen allows you to define basic elements of your message like the sender address and subject line, perform additional actions such as adding attachments or offers, and access the Email Designer to give your message a polished look."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
@@ -58,7 +58,9 @@ To configure or edit the content of an email, follow the steps below.
     >
     >You can change the part preceding the '@', but not the domain address.
 
-    <!--In the Reply address text fields, the sender's address is used by default for replies. However, Adobe recommends using an existing real address such as your brand's customer care. In this case, if a recipient sends a reply, the customer care will be able to handle it.-->
+1. Expand the **[!UICONTROL Reply-to fields]** section. The sender's address is used by default for replies. However, Adobe recommends using an existing real address such as your brand's customer care. In this case, if a recipient sends a reply, the customer care will be able to handle it.
+
+    ![](assets/email-edit-content-reply-to.png)
 
 1. Define the email **[!UICONTROL Subject line]**. Type your subject directly into the dedicated field, or open the Expression Editor to add personalization using various attributes and content blocks or offers. [Learn how to personalize content](../personalization/personalize.md)
 

@@ -9,7 +9,7 @@ exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
 ---
 # Work with delivery templates {#work-with-delivery-templates}
 
-For an accelerated and improved design process, you can create delivery templates to easily reuse custom content across your campaigns. This functionality enables you to standardize the creative look and feel, in order to be quicker in executing and launching campaigns.
+For an accelerated and improved design process, you can create delivery templates to easily reuse custom content and settings across your campaigns. This functionality enables you to standardize the creative look and feel, in order to be quicker in executing and launching campaigns.
 
 A template can include:
 
@@ -20,6 +20,10 @@ A template can include:
 * [Personalized fields](../personalization/personalize.md) and [conditional content](../personalization/conditions.md)
 * Links to [mirror page](../content/mirror-page.md) and unsubscription [links](../content/message-tracking.md)
 * Other delivery properties, such as resource validity, retry parameters, or quarantine settings.
+
+>[!NOTE]
+>
+>Delivery templates are different from [email content templates](../content/email-templates.md), which allow you to reuse only the content of your messages.
 
 ## Access and manage delivery templates {#access-manage-templates}
 
@@ -156,7 +160,7 @@ You can test the rendering of any delivery template, whether created from scratc
 
 1. Browse to the **Templates** tab through the **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]** menu and select any template. [Learn more](#access-manage-templates)
 
-1. Click the **[!UICONTROL Simulate Content]** button on top right of the screen.
+1. Click the **[!UICONTROL Simulate content]** button on top right of the screen.
 
     ![](assets/templates-simulate-button.png)
 
@@ -164,7 +168,7 @@ You can test the rendering of any delivery template, whether created from scratc
 
 1. Toggle between the different profiles to get a personalized representation of the message according to the selected profile.
 
-    <!--[Learn moreon test profiles](../preview-test/test-deliveries.md#recipients)-->
+    <!--[Learn more on test profiles](../preview-test/test-deliveries.md#recipients)-->
 
     You can also adjust the zoom level and choose the desktop or mobile view.
 

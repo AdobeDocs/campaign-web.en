@@ -19,6 +19,11 @@ You can choose from:
 
 Learn how to use templates and how to save an email content as a template in the sections below.
 
+>[!NOTE]
+>
+>Email content templates are different from [delivery templates](../msg/delivery-template.md). They allow you to reuse only email content, whereas delivery templates allow use to reuse delivery content but also all the delivery settings and properties such as typologies, sender address, audiences, etc.
+
+
 ## Use a template {#use-templates}
 
 To start building your content with one of the sample or saved templates, follow the steps below.

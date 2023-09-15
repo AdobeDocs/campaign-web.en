@@ -11,7 +11,7 @@ When [creating an email](../email/create-email.md), use the **[!UICONTROL Select
 
 ![](assets/email_designer-sample-templates.png)
 
-Campaign comes with a set of built-in templates that you can choose from.
+Campaign comes with a set of built-in email content templates that you can choose from.
 
 To start building your content with one of the sample templates, follow the steps below.
 
