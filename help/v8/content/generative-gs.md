@@ -31,7 +31,7 @@ This feature saves time and ensures consistent quality by automatically generati
 <a href="generative-image.md">
 <img alt="Image generation" src="assets/do-not-localize/image-genai.jpeg">
 </a>
-<div><a href="generative-image"><strong>Image generation with the Content assistant</strong>
+<div><a href="generative-image.md"><strong>Image generation with the Content assistant</strong>
 </div>
 <p>
 </td>
