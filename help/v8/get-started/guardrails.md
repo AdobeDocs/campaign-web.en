@@ -10,17 +10,29 @@ When working in Campaign web UI with components created or modified in Campaign 
 
 ## Workflows {#wf-guardrails-limitations}
 
-**Activity Edition**
+**Activities**
 
-*  Workflow activities that are not supported yet in the web UI are read-only. You can still execute the workflow, send messages, check the logs, etc.
+*  Workflow activities that are not supported yet in the web UI are read-only. You can still execute the workflow, send messages, check the logs, etc. Workflow activities that are available both in the web UI and the client console are editable. 
 
 | Console | Web UI |
 | --- | --- |
 | ![](assets/limitations-activities-console.png){width="50%" align="left" zoomable="yes"} | ![](assets/limitations-activities-web.png){width="50%" align="left" zoomable="yes"} |
 
-**Canvas edition**
+**Canvas**
 
-* If a console workflow has multiple start nodes/branches or floating activities, you need to add a start activity and a fork to connect start nodes to the main node. You also need to remove floating activities.
+* When creating a new workflow in the web UI, the canvas only supports one entry point. However, if you created a worflow in the console with multiple entry points, 
+
+However, even if your workflow has been created in the client console canvas with multiple entry points, it will be editable in the web UI as well. You can still open and edit 
+
+ 
+
+To try this scenario, create a workflow from the client console with multiple entry points and open it from the web UI to see the result. 
+
+ 
+
+Of course, you can edit the activities and you start and run the workflow as usual. 
+
+ 
 
 **Activity positioning**
 
@@ -32,11 +44,11 @@ When working in Campaign web UI with components created or modified in Campaign 
 
 **Loops**
 
-* Loops are not available yet in the web UI. If you have created a wokflow including a loop using the console, it will not be accessible in the web UI. An error message is displayed.
+* Loops are not available yet in the web UI. If you created a wokflow including a loop using the console, you cannot access it from the web UI. An error message is displayed.
 
 | Console | Web UI |
 | --- | --- |
-| ![](assets/limitations-loops-console.png) | ![](assets/limitations-loops-web.png) |
+| ![](assets/limitations-loops-console.png){width="50%" align="left" zoomable="yes"} | ![](assets/limitations-loops-web.png){width="50%" align="left" zoomable="yes"} |
 
 **Reconciliation and enrichment**
 
