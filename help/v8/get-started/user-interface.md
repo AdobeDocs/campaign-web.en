@@ -164,6 +164,9 @@ To change your language:
 1. Then click the language link displayed under your email address.
 1. Select your preferred language and click **Save**. You can select a second language in case the component you are using is not localized in your first language.
 
+## Dark theme {#dark-theme}
+
+You can switch to the dark theme from your profile icon. Use the **Dark theme** toggle to enable/disable it.
 
 ## Learn more {#learn-more}
 
