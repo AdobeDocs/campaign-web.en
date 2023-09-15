@@ -14,6 +14,10 @@ When working in Campaign web UI with components created or modified in Campaign 
 
 *  Workflow activities that are not supported yet in the web UI are read-only. You can still execute the workflow, send messages, check the logs, etc.
 
+| Console | Web UI |
+| --- | --- |
+| ![](assets/limitations-activities-console.png) | ![](assets/limitations-activities-web.png) |
+
 **Canvas edition**
 
 * If a console workflow has multiple start nodes/branches or floating activities, you need to add a start activity and a fork to connect start nodes to the main node. You also need to remove floating activities.
