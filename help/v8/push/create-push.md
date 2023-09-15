@@ -21,9 +21,14 @@ badge: label="Beta"
 >title="Push delivery properties"
 >abstract="Manage the Push delivery properties."
 
-1. From the **[!UICONTROL Deliveries]** homepage, click **[!UICONTROL Create delivery]**.
+You can create a standalone push notification delivery, or create a push notification in the context of a campaign workflow. The steps below detail the procedure for a standalone (one-shot) push delivery. If you are working in the context of a campaign workflow, creation steps are details in [this section](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
-1. Under the **[!UICONTROL Channel]** section, choose Push notification as the channel and select a template depending on the chosen Operational system: Android or iOS. [Learn more about templates](../msg/delivery-template.md)
+
+To create a new standalone push delivery, follow these steps:
+
+1. Browse to the **[!UICONTROL Deliveries]** menu on the left rail, and click the  **[!UICONTROL Create delivery]** button.
+
+1. Under the **[!UICONTROL Channel]** section, choose **Push notification** as the channel and select a template, depending on the chosen device operational system: Android or iOS. [Learn more about templates](../msg/delivery-template.md)
 
 1. Click the **[!UICONTROL Create delivery]** button to confirm.
 

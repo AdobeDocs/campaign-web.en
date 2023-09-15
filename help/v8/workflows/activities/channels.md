@@ -5,7 +5,7 @@ description: Learn how to add a delivery workflow activity (Email, Push, SMS)
 badge: label="Beta" 
 ---
 
-# Email, SMS, Push {#channel}
+# Email, SMS, Push activities {#channel}
 
 Adobe Campaign Web allows you to automate and execute marketing campaigns across email, SMS and push channels. You can combine channel activities into the workflow canvas to create cross-channel workflows that can trigger actions based on customer behavior and data. 
 
@@ -13,7 +13,17 @@ For example, you can create a welcome email campaign that includes a series of m
 
 By using channel activities, you can create comprehensive and personalized campaigns that engage customers across multiple touchpoints and drive conversions.
 
-Here are the steps to add a **Channel** activity in a workflow:
+>[!NOTE]
+>
+>You can also create a one-shot delivery, outside of the context of a campaign workflow. Learn more in these sections:
+>*  [Create standalone email delivery](../../email/create-email.md)
+>*  [Create standalone SMS delivery](../../sms/create-sms.md)
+>*  [Create standalone push delivery](../../push/create-push.md)
+>
+
+## Create a delivery in a workflow{#create-a-delivery-in-a-workflow}
+
+To create an email, a SMS, or a push delivery in the context of a workflow, follow the steps below:
 
 1. Make sure you have added a **Build audience** activity. The audience is the main target of your delivery: the recipients who receive the messages. When sending messages in the context of a campaign workflow, the message audience is not defined in the channel activity, but in the **Build audience** activity. See [this section](build-audience.md).
 
@@ -40,7 +50,7 @@ Here are the steps to add a **Channel** activity in a workflow:
 
 1. From your delivery dashboard, click **Send**.
 
-## Example
+## Example {#cross-channel-workflow-sample}
 
 Here is a cross-channel workflow example with a segmentation and two deliveries. The workflow targets all customers who live in Paris and who are interested in coffee machines. Among this population, an email is sent to the regular customers and an SMS is sent to the VIP clients.
 

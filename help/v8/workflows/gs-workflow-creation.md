@@ -10,7 +10,6 @@ exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
 
 With Campaign v8 Web, you can build workflows into a visual canvas to design cross-channel processes such as segmentation, campaign execution, file processing.
 
-Workflows can be created either as standalone workflows, from the **Workflows** menu, or directly within a campaign, in which case the workflow will be linked to the campaign and executed along with all the other campaign's workflows.
 
 ## What's inside a workflow? {#gs-workflow-inside}
 
@@ -30,6 +29,18 @@ Each workflow contains:
 
 ## Key steps to create a workflow {#gs-workflow-steps}
 
+
+Campaigns offers two ways to create a workflow:
+
+1. Workflows can be created as standalone workflows, from the **Workflows** menu.
+
+    ![](assets/create-a-standalone-wf.png)
+
+1. Workflows can be created directly within a campaign, from the **Workflow** tab of the campaign. When included in a campaign, the workflow is executed along with all the other campaign's workflows, and the reporting metrics are all grouped at the campaign level.
+
+    ![](assets/create-a-wf-from-a-campaign.png)
+
+    
 Key steps to create workflows are as follows:
 
 ![](assets/workflow-creation-process.png)

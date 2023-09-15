@@ -15,7 +15,7 @@ exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 
 With Adobe Campaign, you can send cross-channel campaigns including emails, SMS, and Push notifications, and measure their effectiveness using various dedicated reports. 
 
-These messages are designed and sent though deliveries, and can be personalized for each recipient. These deliveries can be standalone or included in the context of a marketing campaign.
+These messages are designed and sent though deliveries, and can be personalized for each recipient. These deliveries can be standalone, or included in workflows, in the context of a marketing campaign.
 
 Adobe Campaign v8 comes with the following delivery channels: Email, SMS and Mobile apps.
 
@@ -53,8 +53,7 @@ Adobe Campaign v8 comes with the following delivery channels: Email, SMS and Mob
 
 ## Create a delivery {#create-delivery}
 
-
-You can create standalone deliveries from the **[!UICONTROL Deliveries]** left menu, or create deliveries in the context of a marketing campaign, from the **[!UICONTROL Campaigns]** left menu. 
+You can create standalone deliveries from the **[!UICONTROL Deliveries]** left menu, or create deliveries in the context of a workflow, included or not in a campaign. 
 
 Browse the tabs below to learn how to create a delivery:
 
@@ -83,19 +82,18 @@ To create a standalone delivery, follow these steps:
 1. Check results, and click the  **[!UICONTROL Send]** button to start sending messages.
 1. Once messages are sent, browse to the **Reports** section to access key metrics. Learn more about delivery reports in [this section](../reporting/delivery-reports.md).
 
->[!TAB Create a delivery in a campaign]
+>[!TAB Create a delivery in a workflow]
 
-To create a delivery in a campaign, follow these steps:
+To create a delivery in a workflow, follow these steps:
 
-1. Create a campaign or open an existing campaign. Learn more about [marketing campaigns](../campaigns/gs-campaigns.md).
-1. Create a workflow or open an existing workflow.
+1. Create a workflow or open an existing workflow. Learn more about workflows in [this page](../workflows/gs-workflow-creation.md#gs-workflow-steps)
 1. Add and configure a **[!UICONTROL Build audience]** activity, and click the `+`button.
 
     ![](assets/add-delivery-in-wf.png)
 
     The **[!UICONTROL Build audience]** activity is detailed in [this section](../workflows/activities/build-audience.md).
 
-1. Select a delivery activity: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification (Android)]** or **[!UICONTROL Push notification (iOS)]**. Learn more about delivery channel activities in a workflow, and how to define a delivery content in this [section](../workflows/activities/about-activities.md#channel).
+1. Select a delivery activity: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification (Android)]** or **[!UICONTROL Push notification (iOS)]**. Learn more about delivery channel activities in a workflow, and how to define a delivery content in this [section](../workflows/activities/channels.md).
 1. Start the workflow, and check logs.
 
 You can also add deliveries in a campaign without creating a workflow. To achieve this, browse to the **[!UICONTROL Deliveries]** tab of your campaign and click the **[!UICONTROL Create delivery]** button.

@@ -37,7 +37,7 @@ The following **Channel** activities are available:
 * Push
 * SMS
 
-Refer to this [section](enrichment.md).
+Refer to this [section](channels.md).
 
 ## Flow control activities {#flow-control}
 
