@@ -60,7 +60,7 @@ To create a new standalone email delivery, follow the steps below.
 
     ![](assets/email-properties.png)
 
-5. Additionally, advanced settings, such as typology rules and target mappings, can be accessed via the **[!UICONTROL Settings]** button located on the top right of the screen. These settings are pre-configured in the selected template, but can be edited as needed for this specific email.
+1. Additionally, advanced settings, such as typology rules and target mappings, can be accessed via the **[!UICONTROL Settings]** button located on the top right of the screen. These settings are pre-configured in the selected template, but can be edited as needed for this specific email.
 
 ## Define the audience {#define-audience}
 
