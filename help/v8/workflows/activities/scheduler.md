@@ -24,6 +24,10 @@ The **Scheduler** activity is a **Flow control** activity. It allows you to sche
 
 ## Configuration
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_schedule_validity"
+>title="Scheduler validity"
+>abstract="You can define a validity period for the scheduler. It can be permanent, or can be valid until a specific date."
 
 Follow these steps to configure the **Scheduler** activity:
 
