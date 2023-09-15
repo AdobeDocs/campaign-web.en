@@ -25,6 +25,10 @@ You can use existing built-in filters to access a specific sub-set of your data,
 
 ![](assets/predefined-filters-menu.png)
 
+>[!CAUTION]
+>
+>In that version of the product, when building rules, selecting the audience of a delivery, or when building an audience in a workflow, some predefined filters are not available in the user interface. You can still use them. [Learn more](guardrails.md#predefined-filters-filters-guardrails-limitations)
+
 
 ## Create a predefined filter {#create-predefined-filter}
 
