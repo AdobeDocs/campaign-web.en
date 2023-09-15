@@ -19,17 +19,27 @@ By using channel activities, you can create comprehensive and personalized campa
 >*  [Create standalone email delivery](../../email/create-email.md)
 >*  [Create standalone SMS delivery](../../sms/create-sms.md)
 >*  [Create standalone push delivery](../../push/create-push.md)
->
 
-## Create a delivery in a workflow{#create-a-delivery-in-a-workflow}
+## Build your workflow{#build-your-workflow}
 
-To create an email, a SMS, or a push delivery in the context of a workflow, follow the steps below:
+Start building your workflow with the relevant activities before placing the delivery:
 
-1. Make sure you have added a **Build audience** activity. The audience is the main target of your delivery: the recipients who receive the messages. When sending messages in the context of a campaign workflow, the message audience is not defined in the channel activity, but in the **Build audience** activity. See [this section](build-audience.md).
+* If you want to sent a reccuring delivery, start your workflow with a **Scheduler** activity. If you want to send a one-shot delivery, you can define the contact date using a **Scheduler** activity or define the schedule in the delivery's settings. See [this section](scheduler.md).
+
+* Add a **Build audience** activity. The audience is the main target of your delivery: the recipients who receive the messages. When sending messages in the context of a campaign workflow, the message audience is not defined in the channel activity, but in the **Build audience** activity. See [this section](build-audience.md).
 
     ![](../../msg/assets/add-delivery-in-wf.png)
 
-1. Select a delivery activity: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification (Android)]** or **[!UICONTROL Push notification (iOS)]**.
+## Set up the delivery {#create-a-delivery-in-a-workflow}
+
+To set up a delivery in the context of a workflow, follow the steps below:
+
+1. Add a channel activity: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification (Android)]** or **[!UICONTROL Push notification (iOS)]**.
+
+1. Select the **Type of delivery**: single or recurring. 
+
+   * **Single delivery**: this is a one-shot delivery, sent only once, for example a Black Friday email.
+   * **Recurring delivery**: for this type of delivery, you set up the execution frequency using a [scheduler activity](scheduler.md). Each time the workflow runs, the audience is re-calculated and the delivery is sent with the updated content. This can be a weekly newsletter or a recurring birthday email. 
 
 1. Select a delivery **Template**. Templates are pre-configured delivery settings, specific to a channel. A built-in template is available for each channel, and pre-filled by default. [Learn more](../../msg/delivery-template.md)
 
@@ -50,7 +60,7 @@ To create an email, a SMS, or a push delivery in the context of a workflow, foll
 
 1. From your delivery dashboard, click **Send**.
 
-## Example {#cross-channel-workflow-sample}
+## Examples {#cross-channel-workflow-sample}
 
 Here is a cross-channel workflow example with a segmentation and two deliveries. The workflow targets all customers who live in Paris and who are interested in coffee machines. Among this population, an email is sent to the regular customers and an SMS is sent to the VIP clients.
 
@@ -65,7 +75,7 @@ The Email delivery activity allows you to configure the sending an email in a wo
 
 -->
 
-
+You can also create a recurring workflow to send a personalized push notification every first day of the month at 8 PM to the subscribers of your mobile application depending on their time zones.
 
 <!-- Scheduled emails available?
 

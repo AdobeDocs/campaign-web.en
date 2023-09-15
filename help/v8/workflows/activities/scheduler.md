@@ -18,7 +18,9 @@ The **Scheduler** activity is a **Flow control** activity. It allows you to sche
 
 ## Best practices
 
-Do not schedule a workflow to run more than every 15 minutes as it may impede overall system performance and create blocks in the database.
+* Do not schedule a workflow to run more than every 15 minutes as it may impede overall system performance and create blocks in the database.
+* If you want to send a one-shot delivery in your workflow, you can add a scheduler activity and set it to run **Once**. You can also define the **Schedule** in the delivery's settings.
+* If you want to send a recurring delivery in your workflow, you need to use a **Scheduler** activity and set the execution frequency. The recurring delivery ativity does not allow you to define a schedule.
 
 ## Configuration
 
@@ -59,7 +61,7 @@ Notes:
 
 ## Example
 
-In the following example, the activity is configured so that starts the workflow several times a day at 9 and 12 AM, every day of the week from October 1st, 2023 to January 1st, 2024.
+In the following example, the activity is configured so that the workflow runs several times a day at 9 and 12 AM, every day of the week from October 1st, 2023 to January 1st, 2024.
 
    ![](../assets/workflow-scheduler2.png)
 
