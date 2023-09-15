@@ -32,10 +32,10 @@ The same workflow can be accessed both in the console and the web UI. However, p
 
 * Loops are not available yet in the web UI. If you have created a wokflow including a loop using the console, it will not be accessible in the web UI. An error message is displayed.
 
-table>
+<table>
 <tr>
-<th>Before</th>
-<th>After</th>
+<th>Console</th>
+<th>Web UI</th>
 </tr>
 <tr>
 <td><img src="../assets/limitations-loops-console.png"></td>
