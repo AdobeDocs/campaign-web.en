@@ -10,11 +10,13 @@ When working in Campaign web UI with components created or modified in Campaign 
 
 ## Workflows {#wf-guardrails-limitations}
 
-The same workflow can be accessed both in the console and the web UI. However, please be aware that certain limitations apply.
-
 **Activity Edition**
 
-*  When accessing a console workflow in the web UI, you can only modify activities that are compatible.
+*  Workflow activities that are not supported yet in the web UI are read-only. You can still execute the workflow, send messages, check the logs, etc.
+
+| Console | Web UI |
+| --- | --- |
+| ![](assets/limitations-activities-console.png) | ![](assets/limitations-activities-web.png) |
 
 **Canvas edition**
 
@@ -30,7 +32,11 @@ The same workflow can be accessed both in the console and the web UI. However, p
 
 **Loops**
 
-* Wokflows including loops are not displayed in the web UI. An error message is displayed.
+* Loops are not available yet in the web UI. If you have created a wokflow including a loop using the console, it will not be accessible in the web UI. An error message is displayed.
+
+| Console | Web UI |
+| --- | --- |
+| ![](assets/limitations-loops-console.png) | ![](assets/limitations-loops-web.png) |
 
 **Reconciliation and enrichment**
 

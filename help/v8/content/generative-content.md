@@ -7,7 +7,7 @@ badge: label="Beta"
 
 # Text generation with the Content assistant {#generative-content}
 
-Once you have created and personalized your Emails, use the Content Assistant to take your content to the next level. 
+Once you have created and personalized your Emails, use the Content Assistant powered by generative AI to take your content to the next level.
 
 The Content Assistant can help you optimize the impact of your deliveries by suggesting different content that is more likely to resonate with your audience.
 
