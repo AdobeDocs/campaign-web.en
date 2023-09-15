@@ -16,19 +16,19 @@ Workflow activities that are not supported yet in the web UI are read-only and d
 
 | Console | Web UI |
 | --- | --- |
-| ![](assets/limitations-activities-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-activities-web.png){width="800px" align="left" zoomable="yes"} |
+| ![](assets/limitations-activities-console.png) | ![](assets/limitations-activities-web.png) |
 
 Workflow activity settings that are not supported yet in the web UI are not displayed. However, when the worflow is executed, these settings apply.
 
 | Console | Web UI |
 | --- | --- |
-| ![](assets/limitations-options-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){width="800px" align="left" zoomable="yes"} |
+| ![](assets/limitations-options-console.png) | ![](assets/limitations-options-web.png) |
 
 In the console, the **Enrichment** activity can perform both reconciliation and enrichment. In the web UI, reconciliation capabilities are not available yet. If you have defined, in the console, reconciliation settings in the **Enrichment** activity, it will be displayed as a non-compatible read-only activity in the web UI. 
 
 | Console | Web UI |
 | --- | --- |
-| ![](assets/limitations-options-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){width="800px" align="left" zoomable="yes"} |
+| ![](assets/limitations-options-console.png) | ![](assets/limitations-options-web.png) |
 
 ### Canvas
 
@@ -36,19 +36,19 @@ When creating a new workflow in the web UI, the canvas only supports one entry p
 
 | Console | Web UI |
 | --- | --- |
-| ![](assets/limitations-multiple-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-multiple-web.png){width="800px" align="left" zoomable="yes"} |
+| ![](assets/limitations-multiple-console.png) | ![](assets/limitations-multiple-web.png) |
 
 Loops are not available yet in the web UI. If you created a wokflow including a loop using the console, you cannot access it from the web UI. An error message is displayed.
 
 | Console | Web UI |
 | --- | --- |
-| ![](assets/limitations-loops-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-loops-web.png){width="800px" align="left" zoomable="yes"}
+| ![](assets/limitations-loops-console.png) | ![](assets/limitations-loops-web.png)
 
 The positioning of the nodes is refreshed everytime an activity is added or removed. If you create a workflow in the console, modify it using the web UI and re-open it in the console, you may notice some minor positioning imperfections. This has no impact on the workflow's 
 
 | Initial workflow | Positionning change |
 | --- | --- |
-| ![](assets/limitations-positioning1.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-positioning2.png){width="800px" align="left" zoomable="yes"} |
+| ![](assets/limitations-positioning1.png) | ![](assets/limitations-positioning2.png) |
 
 ## Predefined filters {#filters-guardrails-limitations}
 
