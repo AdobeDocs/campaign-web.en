@@ -7,6 +7,12 @@ badge: label="Beta"
 
 # Build audience {#build-audience}
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_build_audience"
+>title="Build audience"
+>abstract="The **Build audience** activity is a **Targeting** activity. This activity allows you to define the audience that will enter the workflow."
+
+
 The **Build audience** activity is a **Targeting** activity. This activity allows you to define the audience that will enter the workflow. When sending messages in the context of a campaign workflow, the message audience is not defined in the channel activity, but in the **Build audience** activity.
 
 To define the audience population, you can:
@@ -23,7 +29,13 @@ To define the audience population, you can:
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
 -->
 
-## Configuration
+## Configure the Build audience activity
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_build_audience_dimension"
+>title="Select the targeting dimension"
+>abstract="The targeting dimension lets you define the population targeted by the operation: recipients, contract beneficiaries, operator, subscribers, etc. By default, the target is selected from the recipients."
+
 
 Follow these steps to configure the **Build audience** activity:
 

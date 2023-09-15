@@ -41,6 +41,12 @@ Refer to this [section](channels.md).
 
 ## Flow control activities {#flow-control}
 
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_end"
+>title="End activity"
+>abstract="The **End** activity allows you to graphically mark the end of a workflow. This activity has no functional impact and is therefore optional."
+
 The following activities are specific to organizing and executing workflows. Their main task is to coordinate the other activities:
 
 * The [And-join](and-join.md) activity allows you to synchronize multiple execution branches of a workflow.

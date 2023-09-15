@@ -7,6 +7,12 @@ badge: label="Beta"
 
 # Combine {#combine}
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine"
+>title="Combine activity"
+>abstract="The **Combine** activity is a **Targeting** activity. This activity allows you to perform segmentation on your inbound population. You can thus combine several populations, exclude part of it, or only keep data common to several targets."
+
+
 The **Combine** activity is a **Targeting** activity. This activity allows you to perform segmentation on your inbound population. You can thus combine several populations, exclude part of it or only keep data common to several targets. Here are the available segmentation types:
 
 <!--
@@ -29,6 +35,11 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >title="Exclusion merging options"
 >abstract="The exclusion allows you to exclude elements from one population according to certain criteria. In the Sets to join section, check all the previous activities you wish you join."
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine_options"
+>title="Select the segmentation type"
+>abstract="Select how to combine audiences: union, intersection or exclusion."
+
 Follow these common steps to start configuring the **Combine** activity:
 
 1. Add multiple activities such as **Build audience** activities to form at least two different execution branches.
@@ -43,6 +54,11 @@ Follow these common steps to start configuring the **Combine** activity:
 >id="acw_orchestration_intersection_reconciliation_options"
 >title="Intersection reconciliation options"
 >abstract="Select the reconciliation type to define how duplicates are handled."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine_reconciliation"
+>title="Reconciliation options"
+>abstract="Select the **Reconciliation type** to define how to handle duplicates."
 
 In the **Combine** activity, you can configure a **Union**. For this, you need to select the **Reconciliation type** to define how duplicates are handled:
 
@@ -62,6 +78,12 @@ In the **Combine** activity, you can configure an **Intersection**. For this, yo
 >id="acw_orchestration_exclusion_options"
 >title="Exclusion rules"
 >abstract="When necessary, you can manipulate inbound tables. Indeed, to exclude a target from another dimension, this target has to be returned to the same targeting dimension as the main target. To do this, click Add a rule in the Exclusion rules section and specify the dimension change conditions. Data reconciliation is carried out either via an attribute or a join."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine_sets"
+>title="Select sets to combine"
+>abstract="In the **Sets to join** section, select the **Primary set** from the inbound transitions. This is the set from which elements are excluded. The other sets match elements before being excluded from the primary set."
+
 
 In the **Combine** activity, you can configure an **Exclusion**. For this, you need to follow the extra steps below:
 

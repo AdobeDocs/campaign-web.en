@@ -7,9 +7,26 @@ badge: label="Beta"
 
 # Split {#split}
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split"
+>title="Split activity"
+>abstract="The **Split** activity is a **Targeting** activity that allows you to segment incoming populations into multiple subsets based on different selection criteria, such as filtering rules or population size."
+
+
 The **Split** activity is a **Targeting** activity that allows you to segment incoming populations into multiple subsets based on different selection criteria, such as filtering rules or population size.
 
 ## Configuration {#general}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_filter"
+>title="Split activity filter"
+>abstract="To apply a filtering condition to the subset, click **[!UICONTROL Create filter]** and configure the desired filtering rule. For example, include profiles from the incoming population whose email address exist in the database."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_limit"
+>title="Split activity limit"
+>abstract="To limit the number of profiles selected by the subset, toggle on the **[!UICONTROL Enable limit]** option, and specify the number or percentages of the population to include."
+
 
 Follow these steps to configure the **Split** activity:
 

@@ -7,11 +7,24 @@ badge: label="Beta"
 
 # AND-join {#join}
 
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_and-join"
+>title="AND-join activity"
+>abstract="The **And-join** activity is a **Flow control** activity. It allows you to synchronize multiple execution branches of a workflow."
+
+
+
 The **And-join** activity is a **Flow control** activity. It allows you to synchronize multiple execution branches of a workflow.
 
 This activity only triggers its outbound transition once all the inbound transitions are activated, in other words, once all of the preceding activities have finished. This allows you to make sure that certain activities have finished before continuing to execute the workflow.
 
 ## Configuration
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_and-join_merging"
+>title="Configure the AND-join activity"
+>abstract="Select which activities you want to join. In the **Primary set** drop-down, choose which inbound transition population you want to keep."
 
 Follow these steps to configure the **AND-join** activity:
 

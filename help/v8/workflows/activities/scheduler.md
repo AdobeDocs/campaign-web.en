@@ -7,12 +7,12 @@ badge: label="Beta"
 
 # Scheduler {#scheduler}
 
-<!--
+
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_options"
 >title="Scheduler activity"
->abstract="The Scheduler activity allows you..."
--->
+>abstract="The **Scheduler** activity is a **Flow control** activity. It allows you to schedule when the workflow gets started. This activity should be considered as a scheduled start. It can only be used as the first activity of the workflow."
+
 
 The **Scheduler** activity is a **Flow control** activity. It allows you to schedule when the workflow gets started. This activity should be considered as a scheduled start. It can only be used as the first activity of the workflow. 
 
@@ -23,6 +23,7 @@ The **Scheduler** activity is a **Flow control** activity. It allows you to sche
 * If you want to send a recurring delivery in your workflow, you need to use a **Scheduler** activity and set the execution frequency. The recurring delivery ativity does not allow you to define a schedule.
 
 ## Configuration
+
 
 Follow these steps to configure the **Scheduler** activity:
 
