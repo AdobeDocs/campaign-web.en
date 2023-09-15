@@ -54,7 +54,14 @@ For more information about the Campaign explorer, folder hierarchy and resources
 
 ### Contextual Help {#user-interface-help} 
 
-The **Knowledge Assistant with Gen AI** embedded within contextual help revolutionizes documentation searching and answering how-to questions with effortlessly sifting through vast documentation repositories, instantly pinpointing the precise information you need.
+A contextual help is available in the interface. When available, click on the `?` icon to display help information and related documentation links. 
+
+![](assets/context-help.png){width="40%" align="left"}
+
+With the new Beta version, the **Knowledge Assistant with Gen AI** embedded within contextual help revolutionizes documentation searching and answering how-to questions with effortlessly sifting through vast documentation repositories, instantly pinpointing the precise information you need.
+
+![](assets/ask-a-question.png)
+
 
 Thanks to Campaign Gen AI's capabilities, this assistant transforms your experience, making information retrieval and problem-solving a breeze. Whether you're seeking guidance in a complex task or navigating extensive documents, our Knowledge Assistant with Gen AI is your ultimate companion, providing unmatched efficiency and accuracy in every interaction.
 
@@ -127,16 +134,6 @@ Use the top bar of the interface to:
 <!--
 Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
 -->
-
-## Contextual help {#contextual-help}
-
-A contextual help is available in the interface. When available, click on the `?` icon to display help information and related documentation links. 
-
-![](assets/context-help.png){width="40%" align="left"}
-
-<!--An on-boarding guide is also available to help you get started with Campaign v8 Web. Click the icon in the bottom right corner, choose one of the available step-by-step scenarios, and simply follow the instructions.
-
-![](assets/onboarding.png){width="70%" align="left"}-->
 
 ## Supported browsers {#browsers}
 
