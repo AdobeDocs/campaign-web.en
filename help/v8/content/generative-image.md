@@ -7,7 +7,7 @@ badge: label="Beta"
 
 # Image generation with the Content assistant {#generative-image}
 
-After you've crafted and personalized your emails, you can enhance your content using the Content Assistant. This feature simplifies the process of personalization and content improvement.
+After you've crafted and personalized your emails, you can enhance your content using the Content Assistant, powered by generative AI. This feature simplifies the process of personalization and content improvement.
 
 In the example below, learn how to leverage the Content Assistant to optimize and improve your content, ensuring a more user-friendly experience. Follow these steps:
 
