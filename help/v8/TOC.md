@@ -41,6 +41,7 @@ hide: yes
         + [Add a preheader](content/preheader.md)
         + [Generate the text version](content/text-version-email.md)
       + Content assistant {#content-assistant}
+        + [Get started with the Content assistant](content/generative-gs.md)
         + [Text generation with the Content assistant](content/generative-content.md)
         + [Image generation with the Content assistant](content/generative-image.md)
         + [Email generation with the Content assistant](content/generative-email.md)
