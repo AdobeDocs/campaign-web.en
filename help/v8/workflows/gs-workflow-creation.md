@@ -34,8 +34,13 @@ Campaigns offers two ways to create a workflow:
 
 1. Workflows can be created as standalone workflows, from the **Workflows** menu.
 
+    ![](assets/create-a-standalone-wf.png)
+
 1. Workflows can be created directly within a campaign, from the **Workflow** tab of the campaign. When included in a campaign, the workflow is executed along with all the other campaign's workflows, and the reporting metrics are all grouped at the campaign level.
 
+    ![](assets/create-a-wf-from-a-campaign.png)
+
+    
 Key steps to create workflows are as follows:
 
 ![](assets/workflow-creation-process.png)
