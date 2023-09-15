@@ -16,7 +16,7 @@ When working in Campaign web UI with components created or modified in Campaign 
 
 | Console | Web UI |
 | --- | --- |
-| ![](assets/limitations-activities-console.png) | ![](assets/limitations-activities-web.png) |
+| ![](assets/limitations-activities-console.png){width="50%" align="left" zoomable="yes"} | ![](assets/limitations-activities-web.png){width="50%" align="left" zoomable="yes"} |
 
 **Canvas edition**
 
