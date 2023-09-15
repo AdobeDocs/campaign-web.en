@@ -52,21 +52,6 @@ Like in any list screen, you can configure columns to personalize the display to
 For more information about the Campaign explorer, folder hierarchy and resources, refer to this [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui){target="_blank"}.
 
 
-### Contextual Help {#user-interface-help} 
-
-A contextual help is available in the interface. When available, click on the `?` icon to display help information and related documentation links. 
-
-![](assets/context-help.png){width="40%" align="left"}
-
-With the new Beta version, the **Knowledge Assistant with Gen AI** embedded within contextual help revolutionizes documentation searching and answering how-to questions with effortlessly sifting through vast documentation repositories, instantly pinpointing the precise information you need.
-
-![](assets/ask-a-question.png)
-
-
-Thanks to Campaign Gen AI's capabilities, this assistant transforms your experience, making information retrieval and problem-solving a breeze. Whether you're seeking guidance in a complex task or navigating extensive documents, our Knowledge Assistant with Gen AI is your ultimate companion, providing unmatched efficiency and accuracy in every interaction.
-
-Learn more in [this section](using-ai.md).
-
 
 ### Campaign Management {#user-interface-campaign-management}
 
@@ -135,6 +120,22 @@ Use the top bar of the interface to:
 Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
 -->
 
+
+### Contextual Help {#user-interface-help} 
+
+A contextual help is available in the interface. When available, click on the `?` icon to display help information and related documentation links. 
+
+![](assets/context-help.png){width="40%" align="left"}
+
+With the new Beta version, the **Knowledge Assistant with Gen AI** embedded within contextual help revolutionizes documentation searching and answering how-to questions with effortlessly sifting through vast documentation repositories, instantly pinpointing the precise information you need.
+
+![](assets/ask-a-question.png)
+
+
+Thanks to Campaign Gen AI's capabilities, this assistant transforms your experience, making information retrieval and problem-solving a breeze. Whether you're seeking guidance in a complex task or navigating extensive documents, our Knowledge Assistant with Gen AI is your ultimate companion, providing unmatched efficiency and accuracy in every interaction.
+
+Learn more in [this section](using-ai.md).
+
 ## Supported browsers {#browsers}
 
 Campaign v8 Web is designed to work optimally in the latest version of Google Chrome, Safari and Microsoft Edge. You might have trouble using certain features on older versions or other browsers.
@@ -143,28 +144,19 @@ Campaign v8 Web is designed to work optimally in the latest version of Google Ch
 
 Campaign v8 Web is currently available in the following languages:
 
-<table>
-<tr>
-<td>
-<p>English (US) - EN-US</p>
-<p>French - FR</p>
-<p>German - DE</p>
-<p>Italian - IT</p>
-</td>
-<td>
-<p>Spanish - ES</p>
-<p>Portuguese (Brazilian) - PTBR</p>
-<p>Japanese - JP</p>
-</td>
-<td>
-<p>Korean - KR</p>
-<p>Simplified Chinese - CHS</p>
-<p>Traditional Chinese - CHT</p>
-</td>
-</tr>
-</table>
+* English (US) - EN-US
+* French - FR
+* German - DE
+* Italian - IT
+* Spanish - ES
+* Portuguese (Brazilian) - PTBR
+* Japanese - JP
+* Korean - KR
+* Simplified Chinese - CHS
+* Traditional Chinese - CHT
 
-Your default interface language is determined by the preferred language specified in your user profile.
+
+Your default language for Campaign Web is determined by the preferred language specified in your user profile. It does not relate to the language of your Campaign server and client console.
 
 To change your language:
 
