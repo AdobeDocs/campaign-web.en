@@ -38,8 +38,8 @@ The same workflow can be accessed both in the console and the web UI. However, p
 <th>Web UI</th>
 </tr>
 <tr>
-<td><img src="../assets/limitations-loops-console.png"></td>
-<td><img src="../assets/limitations-loops-web.png"></td>
+<td><img src="assets/limitations-loops-console.png"></td>
+<td><img src="assets/limitations-loops-web.png"></td>
 </tr>
 </table>
 
