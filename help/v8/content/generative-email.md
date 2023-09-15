@@ -6,7 +6,9 @@ badge: label="Beta"
 ---
 # Generate an email with the Content assistant {#generative-email}
 
-The Content Assistant enhances your communication's impact by automatically generating complete email content, saving you time and ensuring consistent quality.
+The Content Assistant enhances your communication's impact by automatically generating complete email content, saving you time and ensuring consistent quality. 
+
+Using Generative AI, you can effortlessly craft compelling emails that resonate with your audience, making your communication more effective and efficient.
 
 1. After creating and configuring your Email delivery, click **[!UICONTROL Create content]**.
 
