@@ -28,7 +28,7 @@ The **Deduplication** activity is a **Targeting** activity. This activity allows
 
 ## Configuration
 
-Follow these steps to configure the **Scheduler** activity:
+Follow these steps to configure the **Deduplication** activity:
 
 1. Add a **Deduplication** activity to your workflow.
 
