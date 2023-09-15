@@ -58,9 +58,9 @@ As an existing Campaign user, note that some concepts have been renamed to align
 * Email Preview is now available throught the **Simulate content** button
 * Lists are now **Audiences**
 
-## Limitations{#limitations-alpha}
+## Limitations{#limitations-beta}
 
-The limitations below apply to this Alpha version:
+The limitations below apply to this Beta version:
 
 * The only editable objects are Deliveries, Campaigns, Workflows, Audiences, and Templates. The others are read-only. Use filters to browse them all.
 * Audiences cannot be saved for future use.

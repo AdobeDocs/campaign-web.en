@@ -9,6 +9,12 @@ exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
 ---
 # Work with delivery templates {#work-with-delivery-templates}
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_for_campaign"
+>title="Delivery templates"
+>abstract="Use delivery templates to standardize the creative look and feel, in order to be quicker in executing and launching campaigns"
+
+
 For an accelerated and improved design process, you can create delivery templates to easily reuse custom content and settings across your campaigns. This functionality enables you to standardize the creative look and feel, in order to be quicker in executing and launching campaigns.
 
 A template can include:

@@ -49,7 +49,7 @@ The **Email delivery report** offers comprehensive insights and data specific to
 
     * **[!UICONTROL Invalid domain]**: Error type generated when sending a delivery to indicate that the domain of the email address is wrong or does not exist.
 
-    * **[!UICONTROL Mailbox full]**: Error type generated after five delivery attempts to indicate that the recipients’ inbox contains too many messages.
+    * **[!UICONTROL Mailbox full]**: Error type generated after five delivery attempts to indicate that the recipients' inbox contains too many messages.
 
     * **[!UICONTROL Account disabled]**: Error type generated when sending a delivery to indicate that the address no longer exists.
 
@@ -57,7 +57,7 @@ The **Email delivery report** offers comprehensive insights and data specific to
 
     * **[!UICONTROL Unreachable]**: Error type which occurs in the message distribution string: incident on the SMTP relay, domain temporarily unreachable, etc
 
-    * **[!UICONTROL Not connected]**: Error type to indicate that the recipients’ mobile phone is switched off or disconnected from the network at the time of sending.
+    * **[!UICONTROL Not connected]**: Error type to indicate that the recipients' mobile phone is switched off or disconnected from the network at the time of sending.
 
     +++
 
@@ -77,9 +77,9 @@ This report presents detailed information regarding the delivery throughput of t
 
     * **[!UICONTROL Delivered]**: Percentage of the number of messages successfully processed compared to the total number of messages processed.
 
-    * **[!UICONTROL Hard bounces]**: Percentage of the number of “hard” bounces, permanent errors, such as a wrong email address, compared to the total number of messages processed.
+    * **[!UICONTROL Hard bounces]**: Percentage of the number of "hard" bounces, permanent errors, such as a wrong email address, compared to the total number of messages processed.
 
-    * **[!UICONTROL Soft bounces]**: Percentage of the number of “soft” bounces, temporary errors such as a full inbox, compared to the total number of messages processed
+    * **[!UICONTROL Soft bounces]**: Percentage of the number of "soft" bounces, temporary errors such as a full inbox, compared to the total number of messages processed
 
     * **[!UICONTROL Opens]**: Percentage of the number of targeted recipients who opened a message at least once compared to the number of messages processed successfully.
 
@@ -102,7 +102,7 @@ This report presents detailed information regarding the delivery throughput of t
 
     * **[!UICONTROL Invalid domain]**: Error type generated when sending a delivery to indicate that the domain of the email address is wrong or does not exist.
 
-    * **[!UICONTROL Mailbox full]**: Error type generated after five delivery attempts to indicate that the recipients’ inbox contains too many messages.
+    * **[!UICONTROL Mailbox full]**: Error type generated after five delivery attempts to indicate that the recipients' inbox contains too many messages.
 
     * **[!UICONTROL Account disabled]**: Error type generated when sending a delivery to indicate that the address no longer exists.
 
@@ -110,11 +110,13 @@ This report presents detailed information regarding the delivery throughput of t
 
     * **[!UICONTROL Unreachable]**: Error type which occurs in the message distribution string: incident on the SMTP relay, domain temporarily unreachable, etc
 
-    * **[!UICONTROL Not connected]**: Error type to indicate that the recipients’ mobile phone is switched off or disconnected from the network at the time of sending.
+    * **[!UICONTROL Not connected]**: Error type to indicate that the recipients' mobile phone is switched off or disconnected from the network at the time of sending.
 
     +++
 
 ## Tracking indicators {#tracking-indicators-email}
+
+
 
 * **[!UICONTROL Delivery statistics]** provides key performance indicators (KPIs) that give detailed information about data available for sent emails.
 
@@ -201,6 +203,7 @@ This report presents detailed information regarding the delivery throughput of t
     +++
 
 ## Tracking Statistics {#tracking-statistics}
+
 
 * **[!UICONTROL Tracking Statistics]** graph provides statistics on opens and clicks. You have the option to select the specific time frame for targeting data.
 
