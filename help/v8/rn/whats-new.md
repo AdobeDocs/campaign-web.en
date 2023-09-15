@@ -97,6 +97,12 @@ Key capabiities coming with Campaign Web Beta are listed below.
        
     Learn more in [this section](../get-started/using-ai.md).
 
+* **HTML Converter for email design**
+
+    You can now import and convert any HTML content in Campaign's email editor. Content blocks are automatically identified, and available in the email designer: use its powerful design capabilities to update and personalize it!
+
+    Learn more in [this section](../content/existing-content.md).
+
 
 ## Transition to Campaign Web UI
 
