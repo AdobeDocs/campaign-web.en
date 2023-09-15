@@ -16,7 +16,7 @@ These settings are **technical delivery parameters** that are defined in the ema
 >
 > These settings are described for your information only. Some of them depend on your configuration and permissions. They must not be modified in this version of the product. 
 
-## Typology {#typology}
+## Typology settings {#typology}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
@@ -26,7 +26,7 @@ These settings are **technical delivery parameters** that are defined in the ema
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
->title="Typology"
+>title="Typology settings for the delivery"
 >abstract="Typology rules allow marketers to standardize business practices, across all deliveries. A typology is a collection of typology rules which lets you control, filter, and prioritize the sending of deliveries. Profiles which match criteria within a typology rule are excluded from the delivery audiences at the preparation phase."
 
 
@@ -46,7 +46,7 @@ When associating a typology with a message or message template, the typology rul
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_pressure_parameters"
->title="Pressure parameters"
+>title="Pressure parameters for the delivery"
 >abstract="Delivery weights let you identify top-priority deliveries within the framework of fatigue management. Messages with the highest weight have priority."
 
 
@@ -75,7 +75,7 @@ Fatigue management comes with the **Campaign Optimization** add-on. Learn more a
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_capacity_settings"
->title="Capacity settings"
+>title="Capacity settings for the delivery"
 >abstract="Before delivering messages, use capacity rules to make sure your organization can process the delivery, the inbound messages which the delivery may generate, and the number of calls to be made to contact subscribers for example. Capacity rules are defined in the Adobe Campaign v8 Console. In this screen, select a rule associated to the email channel."
 
 In this section, you can select a capacity rule defined in the Adobe Campaign v8 Console. This rule is associated to the email channel.
@@ -85,7 +85,14 @@ The **importance of the recipient** field is a formula used to determine which r
 Learn more about consistency and capacity rules and how to configure them in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}.
 
 
-## Audience {#audience}
+## Audience settings {#audience}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_audience"
+>title="Audience settings for the delivery"
+>abstract="Select a **target mapping** among those available. Target mappings are defined in the Adobe Campaign v8 console. You can also set the exclusion parameters for the delivery. "
+
 
 In this section, you can select a **target mapping** among those available. Target mappings are defined in the Adobe Campaign v8 console. 
 
@@ -95,7 +102,7 @@ Learn more about target mappings in [Campaign v8 (client console) documentation]
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
->title="Delivery settings"
+>title="Delivery settings for the delivery"
 >abstract="Delivery parameters are technical settings which apply to your delivery. You can activate BCC for the delivery, and change the delivery and routine modes. These options are restricted to expert users only."
 
 Delivery parameters are technical settings which apply to your delivery. 
@@ -106,6 +113,19 @@ Delivery parameters are technical settings which apply to your delivery.
 
 * **Email BCC**: this option is used to store emails on an external system through BCC by simply adding a BCC email address to your message target. Learn more about Email BCC in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
+### Web Analytics {#web-analytics}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_webanalytics"
+>title="Web analytics settings for the delivery"
+>abstract="Select a web analytics account. This account is configured in the Campaign client console. You can also define the tags shared with the analytics tool you are using."
+
+In this section, you can select a web analytics account. This account is configured in the Campaign client console. 
+
+You can also define the tags shared with the analytics tool you are using.
+
+Learn more about Web Analytics and Campaign in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
 
 ### Retries {#retries}
@@ -116,12 +136,10 @@ Learn more about retry management in [Campaign v8 (client console) documentation
 
 ## Approval {#approval}
 
-<!--
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
->title="Approval mode"
->abstract="Each step of a delivery can be subject to approval in order to ensure full monitoring and control of the various processes."
--->
+>title="Approval mode for the delivery"
+>abstract="Select the approval mode. If warnings are generated during the delivery preparation, you can configure the delivery to define whether or not it should still be executed. "
 
 If warnings are generated during the delivery preparation, you can configure the delivery to define whether or not it should still be executed. By default, the user must confirm the sending of messages at the end of the analysis phase: this is **manual** validation.
 
@@ -187,6 +205,11 @@ Tracking parameters are defined in the related section. Possible options are:
 **Substitution URL for expired URLs**: use this option to enter a URL to a fall-back web page: it is displayed once the tracking has expired.
 
 ## Test settings {#test-setttings}
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_testsettings"
+>title="Test settings for the delivery"
+>abstract="Select the exclusion parameters and customize the label of the test emails."
 
 You can set the exclusion parameters in this section. Available options are:
 
