@@ -10,60 +10,54 @@ When working in Campaign web UI with components created or modified in Campaign 
 
 ## Workflows {#wf-guardrails-limitations}
 
-**Activities**
+### Activities
 
-*  Workflow activities that are not supported yet in the web UI are read-only. You can still execute the workflow, send messages, check the logs, etc. Workflow activities that are available both in the web UI and the client console are editable. 
-
-| Console | Web UI |
-| --- | --- |
-| ![](assets/limitations-activities-console.png){width="50%" align="left" zoomable="yes"} | ![](assets/limitations-activities-web.png){width="50%" align="left" zoomable="yes"} |
-
-**Canvas**
-
-* When creating a new workflow in the web UI, the canvas only supports one entry point. However, if you created a worflow in the console with multiple entry points, 
-
-However, even if your workflow has been created in the client console canvas with multiple entry points, it will be editable in the web UI as well. You can still open and edit 
-
- 
-
-To try this scenario, create a workflow from the client console with multiple entry points and open it from the web UI to see the result. 
-
- 
-
-Of course, you can edit the activities and you start and run the workflow as usual. 
-
- 
-
-**Activity positioning**
-
-* The positioning of the nodes will be recalculated (the initial positioning of the activities will therefore be modified) only when an activity has been added or removed (not all the time).
-
-**Un-exposed options**
-
-* Non-compatible options are not displayed in the web UI. 
-
-**Loops**
-
-* Loops are not available yet in the web UI. If you created a wokflow including a loop using the console, you cannot access it from the web UI. An error message is displayed.
+Workflow activities that are not supported yet in the web UI are read-only and displayed as incompatible activities. You can still execute the workflow, send messages, check the logs, etc. Workflow activities that are available both in the web UI and the client console are editable. 
 
 | Console | Web UI |
 | --- | --- |
-| ![](assets/limitations-loops-console.png){width="50%" align="left" zoomable="yes"} | ![](assets/limitations-loops-web.png){width="50%" align="left" zoomable="yes"} |
+| ![](assets/limitations-activities-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-activities-web.png){width="800px" align="left" zoomable="yes"} |
 
-**Reconciliation and enrichment**
+Workflow activity settings that are not supported yet in the web UI are not displayed. However, when the worflow is executed, these settings apply.
 
-In the Campaign client console, the **Enrichment** activity can perform both reconciliation and enrichment. In Campaign web UI, reconciliation capabilities are not available yet. If you have set reconciliation in the console activity, it will be displayed as a non-compatible activity in the web UI. 
+| Console | Web UI |
+| --- | --- |
+| ![](assets/limitations-options-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){width="800px" align="left" zoomable="yes"} |
 
-   * If the **Enrichment** activity in the console only performs an enrichment, the **Enrichment** activity is displayed in the web. 
-   * If the **Enrichment** activity in the console only performs a reconciliation, an incompatible activity is displayed. 
+In the console, the **Enrichment** activity can perform both reconciliation and enrichment. In the web UI, reconciliation capabilities are not available yet. If you have defined, in the console, reconciliation settings in the **Enrichment** activity, it will be displayed as a non-compatible read-only activity in the web UI. 
+
+| Console | Web UI |
+| --- | --- |
+| ![](assets/limitations-options-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){width="800px" align="left" zoomable="yes"} |
+
+### Canvas
+
+When creating a new workflow in the web UI, the canvas only supports one entry point. However, if you created a worflow in the console with multiple entry points, you can open and edit it in the web UI. 
+
+| Console | Web UI |
+| --- | --- |
+| ![](assets/limitations-multiple-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-multiple-web.png){width="800px" align="left" zoomable="yes"} |
+
+Loops are not available yet in the web UI. If you created a wokflow including a loop using the console, you cannot access it from the web UI. An error message is displayed.
+
+| Console | Web UI |
+| --- | --- |
+| ![](assets/limitations-loops-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-loops-web.png){width="800px" align="left" zoomable="yes"}
+
+The positioning of the nodes is refreshed everytime an activity is added or removed. If you create a workflow in the console, modify it using the web UI and re-open it in the console, you may notice some minor positioning imperfections. This has no impact on the workflow's 
+
+| Initial workflow | Positionning change |
+| --- | --- |
+| ![](assets/limitations-positioning1.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-positioning2.png){width="800px" align="left" zoomable="yes"} |
 
 ## Predefined filters {#filters-guardrails-limitations}
 
-In that version of the product, when selecting the audience of a delivery, or when building an audience in a workflow, some predefined filters are not available in the user interface.  
+When selecting the audience of a delivery, or when building an audience in a workflow, some predefined filters are not available in the user interface, in that version of the product. 
 
 A specific error message is displayed. Even if you cannot view the graphic representation of the query in the rule builder, and cannot edit the filter, you can still use it, and see the filtering conditions, and the results. You can also access the SQL query to check the exact settings. 
 
 ![](assets/filter-unavailable.png){width="70%" align="left"}
+ 
 
 Note that if you build a filter in the Web interface and modify it in the console with unsupported attributes, the graphic representation can no longer be available in the Web interface. In any cases, you can still use the filter.
 
