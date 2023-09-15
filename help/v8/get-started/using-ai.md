@@ -2,8 +2,6 @@
 title: Using AI-powered knowlegde assistant in Campaign Web
 description: Using AI-powered knowlegde assistant in Campaign Web
 badge: label="Beta" 
-hide: yes
-hidefromtoc: yes
 ---
 # Using the AI-powered knowledge assistant {#using-ai}
 
@@ -12,7 +10,6 @@ Get fast, AI-generated answers based on the product documentation, and your curr
 The **Knowledge Assistant with Gen AI** embedded within contextual help revolutionizes documentation searching and answering how-to questions with effortlessly sifting through vast documentation repositories, instantly pinpointing the precise information you need.
 
 Thanks to Campaign Gen AI's capabilities, this assistant transforms your experience, making information retrieval and problem-solving a breeze. Whether you're seeking guidance in a complex task or navigating extensive documents, our Knowledge Assistant with Gen AI is your ultimate companion, providing unmatched efficiency and accuracy in every interaction.
-
 
 ## Consent {#consent-ai}
 
