@@ -37,7 +37,7 @@ Learn more about the new UI in [this page](../get-started/user-interface.md).
 Use the new Campaign Web UI to:
 
 * Design personalized email content with the email designer - [Learn more](../content/edit-content.md)
-* Send cross cannel campaigns, including SMS and push notifications.
+* Send cross cannel campaigns, including SMS and push notifications - [Learn more](../workflows/activities/channels.md)
 * Define target audiences with the rule builder - [Learn more](../audience/about-audiences.md)
 * Preview, test and send your email messages - [Learn more](../monitor/prepare-send.md)
 * Monitor send and measure results with built-in reports - [Learn more](../reporting/delivery-reports.md)
@@ -47,7 +47,7 @@ Use the new Campaign Web UI to:
 
 Key capabiities coming with Campaign Web Beta are listed below.
 
-* More Campaign Workflow activities
+* **More Campaign Workflow activities**
 
     Supercharge your marketing campaigns with our expanded set of workflow activities. Unlock new possibilities for automation and optimization, allowing you to create more dynamic and personalized customer journeys. 
     
@@ -55,7 +55,7 @@ Key capabiities coming with Campaign Web Beta are listed below.
 
     Learn more in [this section](../workflows/gs-workflows.md).
 
-* Gen AI for Email content
+* **Gen AI for Email content**
 
     Say goodbye to manual content creation and hello to efficient, data-driven campaigns with the power of Gen AI.  Our Gen AI technology utilizes advanced algorithms to generate highly engaging and personalized content. Drive higher open rates, click-through rates, and conversions with Gen AI's intelligent content generation. 
 
@@ -63,19 +63,19 @@ Key capabiities coming with Campaign Web Beta are listed below.
 
     Learn more in [this section](../content/generative-gs.md).
 
-* Predefined Filter Management
+* **Predefined Filters**
     
     Introducing Predefined Filter Management. Campaign web UI now offers you an user-friendly interface to effortlessly manage and customize predefined filters to meet your specific needs. Create once and save for future use.
 
     Learn more in [this section](../get-started/predefined-filters.md).
 
-* Target Audience
+* **Target Audience with the rule builder**
 
     Building a delivery target has never been easier! With our latest rule builder, you now have the ability to define filtering criteria for recipients or any other targeting dimension from the database. What's more, you can take advantage of your AEP (Adobe Experience Platform) audience to further refine your target audience and maximize your campaign's impact.
 
     Learn more in [this section](../audience/segment-builder.md).
 
-* Offers with SMS
+* **SMS with offers**
 
     The new web UI now enables you to integrate offers with SMS in addition to Email. Reach your audience on their mobile devices, delivering promotions, and timely notifications. 
     
@@ -91,7 +91,7 @@ Key capabiities coming with Campaign Web Beta are listed below.
     Elevate and streamline your content management capabilities on the web UI with this integration to boost productivity.
 -->
 
-* Knowledge Assistant with Gen AI
+* **Knowledge Assistant with Gen AI**
 
     Ask questions and find guidance directly from the product user interface. The new AI-powered knowledge assistant, embedded in the contextual help popovers, helps you learn and grow your expertise on new Campaign features. Based on the latest product documentation, it assists you to find help and get step-by-step guidance instantly, as you are building your use cases. 
        
