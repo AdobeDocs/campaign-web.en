@@ -309,10 +309,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Global reports tracking"
 >abstract="TBC"
 
->[!CONTEXTUALHELP]
->id="acw_campaign_delivery_list"
->title="Delivery list in a Campaign"
->abstract="Delivery list in a Campaign"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_workflow_list"
