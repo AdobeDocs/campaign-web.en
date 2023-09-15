@@ -30,7 +30,18 @@ The same workflow can be accessed both in the console and the web UI. However, p
 
 **Loops**
 
-* Wokflows including loops are not displayed in the web UI. An error message is displayed.
+* Loops are not available yet in the web UI. If you have created a wokflow including a loop using the console, it will not be accessible in the web UI. An error message is displayed.
+
+table>
+<tr>
+<th>Before</th>
+<th>After</th>
+</tr>
+<tr>
+<td><img src="../assets/limitations-loops-console.png"></td>
+<td><img src="../assets/limitations-loops-web.png"></td>
+</tr>
+</table>
 
 **Reconciliation and enrichment**
 
