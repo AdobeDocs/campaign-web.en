@@ -55,13 +55,6 @@ For more information about the Campaign explorer, folder hierarchy and resources
 
 ### Campaign Management {#user-interface-campaign-management}
 
->[!CONTEXTUALHELP]
->id="acw_campaigns_list"
->title="Campaigns"
->abstract="This is the list of your campaigns. You can view useful information such as their start/end/last modification dates, as well as their status. You can filter the list by status or start/end dates. Click the 'Create campaign' button to add a new campaign. Select a campaign to view its content, deliveries, and details. Browse to the 'Templates' tab to view and create templates."
-
-
-
 In the CAMPAIGN MANAGEMENT section, you can access marketing campaigns, deliveries, and workflows.
 
 * **Campaigns** - This is the list of your campaigns, and campaign templates. By default, for each campaign you can view the start/end/creation/last modification dates, the current status, and the name of the Campaign operator who created it. You can filter the list by status, start/end dates, folder, or create an advanced filter to define your own filtering criteria. Learn more about campaigns [in this section](../campaigns/gs-campaigns.md).
@@ -91,6 +84,7 @@ In the CUSTOMER MANAGEMENT section, you can view your recipients, audiences, and
 >id="acw_offers_list"
 >title="Offers"
 >abstract="Browse through your list of Interaction offers. By default, you can view their status, start/end dates and environment. You can filter the list by status and start/end dates. Offer templates are also available. These lists are read-only."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html" text="Add an offer in a delivery"
 
 * **Offers** - Browse through your list of Interaction offers. By default, you can view their status, start/end dates and environment. You can filter the list by status and start/end dates. Offer templates are also available. These lists are read-only. 
 
