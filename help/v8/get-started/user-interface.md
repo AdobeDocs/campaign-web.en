@@ -38,7 +38,7 @@ Access Campaign v8 Web key help pages from the **Learning** section of the home 
 
 ### Explorer {#user-interface-explorer} 
 
->[!CONTEXTUALHELP]
+ >[!CONTEXTUALHELP]
 >id="acw_explorer"
 >title="Explorer"
 >abstract="The **Explorer** menu displays all Campaign components and objects with the same folder hierarchy as the one in the client console. Browse all your Campaign v8 components, folders and schemas, check associated permissions, and create folders and sub-folders from this menu."
@@ -69,8 +69,6 @@ In the CAMPAIGN MANAGEMENT section, you can access marketing campaigns, deliveri
 
 
 ### Customer Management {#user-interface-customer-management}
-
-
 
 In the CUSTOMER MANAGEMENT section, you can view your recipients, audiences, and subscriptions. These lists are rea-only.
 
