@@ -38,7 +38,7 @@ Access Campaign v8 Web key help pages from the **Learning** section of the home 
 
 ### Explorer {#user-interface-explorer} 
 
- >[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
 >id="acw_explorer"
 >title="Explorer"
 >abstract="The **Explorer** menu displays all Campaign components and objects with the same folder hierarchy as the one in the client console. Browse all your Campaign v8 components, folders and schemas, check associated permissions, and create folders and sub-folders from this menu."
@@ -50,8 +50,6 @@ The items displayed in the **Explorer** depend on your user permissions.  You ca
 Like in any list screen, you can configure columns to personalize the display to view all the information you need. See this [section](#list-screens).
 
 For more information about the Campaign explorer, folder hierarchy and resources, refer to this [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui){target="_blank"}.
-
-
 
 ### Campaign Management {#user-interface-campaign-management}
 
