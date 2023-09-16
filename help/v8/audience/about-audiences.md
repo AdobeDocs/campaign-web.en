@@ -34,6 +34,7 @@ The audience is the main target of your delivery: the recipients who receive the
 
 To define the audience population, you can:
 
+* Create and combine audiences. [Learn more](create-audience.md)
 * Select an existing audience, created as a list in the client console. [Learn more](add-audience.md)
 * Select an Adobe Experience Platform audience. [Learn more](aep-audience.md)
 * Build a new audience with the rule builder by defining and combining filtering criteria. [Learn more](segment-builder.md)

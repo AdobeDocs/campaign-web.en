@@ -78,11 +78,6 @@ In the CAMPAIGN MANAGEMENT section, you can access marketing campaigns, deliveri
 ### Customer Management {#user-interface-customer-management}
 
 
->[!CONTEXTUALHELP]
->id="acw_audiences_list"
->title="Audiences"
->abstract="This is your list of audiences. You can view their type, origin, creation/last modification dates and label. You can filter the list by origin. This list is read-only."
-
 
 In the CUSTOMER MANAGEMENT section, you can view your recipients, audiences, and subscriptions. These lists are rea-only.
 

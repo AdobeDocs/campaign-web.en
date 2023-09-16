@@ -7,6 +7,11 @@ badge: label="Beta"
 
 # Create audiences {#create-audiences}
 
+>[!CONTEXTUALHELP]
+>id="acw_audiences_list"
+>title="Audiences"
+>abstract="From this screen, you can create and combine audiences into a visual canvas. Add various workflow activities such as **Split** or **Exclude** to generate new and refined audiences."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_create_settings"
