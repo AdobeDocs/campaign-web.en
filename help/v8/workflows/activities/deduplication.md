@@ -16,13 +16,13 @@ badge: label="Beta"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"
->title="Deduplication complement"
->abstract="TBD"
+>title="Generate a complement"
+>abstract="You can generate an additional outbound transition with the remaining population, which was excluded as a duplicate. To do this, toggle on the **Generate complement** option"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_settings"
 >title="Deduplication settings"
->abstract="TBD"
+>abstract="To delete duplicates in the incoming data, define the deduplication method in the fields below. By default, only one record is kept. You should also select the deduplication mode based on an expression or an attribute. By default, the record to keep out of the duplicates is randomly selected."
 
 The **Deduplication** activity is a **Targeting** activity. This activity allows you to delete duplicates in the result(s) of the inbound activities. The **Deduplication** activity is generally used following targeting activities and before activities that allow the use of targeted data.
 
