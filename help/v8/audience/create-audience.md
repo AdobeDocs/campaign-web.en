@@ -11,7 +11,7 @@ badge: label="Beta"
 >[!CONTEXTUALHELP]
 >id="acw_audiences_create_settings"
 >title="Audience settings"
->abstract="Enter the name of the audience and additional options."
+>abstract="Enter the name of the audience and additional options, then click the **Create Audience** button."
 
 Campaign Web allows you to create workflows where you can combine existing audiences into a visual canvas. By incorporating various workflow activities such as **Split** or **Exclude**, you can generate new and refined audiences.
 
