@@ -58,7 +58,7 @@ Use the **Display advanced attributes** toggle to see all attributes for the cur
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
 >title="Display advanced attributes"
->abstract="Only most common attributes are displayed by default in the attribute list. Use this toggle to build a filter with advanced attributes."
+>abstract="Only most common attributes are displayed by default in the attribute list. Use this toggle to view advanced attributes."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
