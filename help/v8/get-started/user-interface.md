@@ -116,16 +116,13 @@ Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: i
 -->
 
 
-### Contextual Help {#user-interface-help} 
+## Contextual Help {#user-interface-help} 
 
 A contextual help is available in the interface. When available, click on the `?` icon to display help information and related documentation links. 
 
 ![](assets/context-help.png){width="40%" align="left"}
 
 With the new Beta version, the **Knowledge Assistant with Gen AI** embedded within contextual help revolutionizes documentation searching and answering how-to questions with effortlessly sifting through vast documentation repositories, instantly pinpointing the precise information you need.
-
-![](assets/ask-a-question.png)
-
 
 Thanks to Campaign Gen AI's capabilities, this assistant transforms your experience, making information retrieval and problem-solving a breeze. Whether you're seeking guidance in a complex task or navigating extensive documents, our Knowledge Assistant with Gen AI is your ultimate companion, providing unmatched efficiency and accuracy in every interaction.
 
