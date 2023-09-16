@@ -8,11 +8,6 @@ badge: label="Beta"
 # Work with subscription services {#create-services}
 
 >[!CONTEXTUALHELP]
->id="acw_subscription_services_read_only"
->title="This service is read only"
->abstract="You do not have permissions to edit this service. If needed, contact your administrator to grant you access."
-
->[!CONTEXTUALHELP]
 >id="acw_subscriptions_list"
 >title="Subscriptions services"
 >abstract="Use Adobe Campaign to create and monitor your services such as newsletters, and to check the subscriptions/unsubscriptions to these services. Subscriptions only apply to email and SMS delivery."

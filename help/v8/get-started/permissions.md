@@ -7,13 +7,44 @@ badge: label="Beta"
 
 # Access and permissions {#access-and-permissions}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_explorer_permissions_create"
 >title="Permission required"
 >abstract="Your admin must grant you permission before you can create this object."
 
 
+>[!CONTEXTUALHELP]
+>id="acw_audiences_read_only"
+>title="This audience is read only"
+>abstract="You do not have permissions to edit this audience. If needed, contact your administrator to grant you access."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_subscription_services_read_only"
+>title="This service is read only"
+>abstract="You do not have permissions to edit this service. If needed, contact your administrator to grant you access."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_read_only"
+>title="This campaign is read only"
+>abstract="You do not have permissions to edit this campaign. If needed, contact your administrator to grant you access."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_read_only"
+>title="This delivery is read only"
+>abstract="You do not have permissions to edit this delivery. If needed, contact your administrator to grant you access."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_wf_read_only"
+>title="This workflow is read only"
+>abstract="You do not have permissions to edit this workflow. If needed, contact your administrator to grant you access."
+
+>[!CONTEXTUALHELP]
+>id="acw_wf_read_only_canvas"
+>title="This workflow is read only"
+>abstract="You cannot edit this workflow due to unsupported or incompatible canvas."
 
 Access control can restrict access to objects and data from main lists, such as deliveries, recipients, or worklows. These restrictions also apply in the Explorer navigation tree. In addition, you need permissions to create, delete, duplicate, and edit objects from the user interface.
 
@@ -24,7 +55,6 @@ As you are browsing Campaign Web user interface, you can access data, objects an
 ## View permissions {#view-permissions}
 
 From the **Explorer**, you can browse permissions for each folders. These permissions are set in the client console, and are used to organize and control access to Campaign data.
-
 
 To view permissions for a folder, follow these steps:
 
