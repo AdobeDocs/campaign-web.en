@@ -1,7 +1,7 @@
 ---
 audience: end-user
 title: Work with subscription services
-description: Learn how to create services in Adobe Campaign Web
+description: Learn how to create and manage services in Adobe Campaign Web
 badge: label="Beta" 
 ---
 
@@ -38,14 +38,13 @@ To edit an existing service, click its name.
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list_properties"
->title="Subscriptions service properties"
->abstract="Enter the label of the subscription service, and define additional options."
+>title="Define your service properties"
+>abstract="Enter the label of the subscription service, and define additional options, such as a validity period for your service."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list_confirm"
->title="Subscriptions service confirmation messages"
->abstract="When a user subscribes to a service or unsubscribes from a service, you can send a confirmation message. Select the templates to use for these messages."
-
+>title="Select a confirmation message"
+>abstract="When a user subscribes to or unsubscribes from a service, you can send a confirmation message. Select the templates to use for that message."
 
 To create a subscription service, follow these steps:
 
