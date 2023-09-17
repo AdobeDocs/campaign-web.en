@@ -58,7 +58,7 @@ To configure or edit the content of an email, follow the steps below.
     >
     >You can change the part preceding the '@', but not the domain address.
 
-1. Expand the **[!UICONTROL Reply-to fields]** section. The sender's address is used by default for replies. However, Adobe recommends using an existing real address such as your brand's customer care. In this case, if a recipient sends a reply, the customer care will be able to handle it.
+1. Expand the **[!UICONTROL Reply-to fields]** section. The sender's name and addresses are used by default for replies. However, Adobe recommends using an existing real address such as your brand's customer care. In this case, if a recipient sends a reply, the customer care will be able to handle it.
 
     ![](assets/email-edit-content-reply-to.png)
 
