@@ -10,8 +10,8 @@ badge: label="Beta"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_wait"
->title="Wait"
->abstract="The **Wait** activity is a **Flow control** activity. It is used to allow a certain amount of time to pass between two activities being executed."
+>title="Wait activity"
+>abstract="The **Wait** activity is used to delay the transition from an activity to another."
 
 
 The **Wait** activity is a **Flow control** activity. It is used to allow a certain amount of time to pass between two activities being executed. For example, to wait several days after an email delivery activity then analyze the opens and clicks generated during this period before performing any follow-up operations (reminder email, creating an audience, etc.).

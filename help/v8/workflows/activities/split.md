@@ -10,7 +10,7 @@ badge: label="Beta"
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split"
 >title="Split activity"
->abstract="The **Split** activity is a **Targeting** activity that allows you to segment incoming populations into multiple subsets based on different selection criteria, such as filtering rules or population size."
+>abstract="The **Split** activity allows you to segment incoming populations into multiple subsets based on different selection criteria, such as filtering rules or population size."
 
 
 The **Split** activity is a **Targeting** activity that allows you to segment incoming populations into multiple subsets based on different selection criteria, such as filtering rules or population size.

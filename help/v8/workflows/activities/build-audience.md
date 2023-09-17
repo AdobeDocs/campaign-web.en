@@ -9,7 +9,7 @@ badge: label="Beta"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience"
->title="Build audience"
+>title="Build audience activity"
 >abstract="The **Build audience** activity allows you to define the audience that will enter the workflow. When sending messages in the context of a workflow, the message audience is not defined in the channel activity, but in the **Build audience** activity."
 
 

@@ -10,13 +10,13 @@ badge: label="Beta"
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_fork"
 >title="Fork activity"
->abstract="The **Fork** activity is a **Flow control** activity. It allows you to create outbound transitions to start several activities at the same time."
+>abstract="The **Fork** activity allows you to create outbound transitions to start several activities at the same time."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_fork_transitions"
->title="Fork activity"
->abstract="The Fork activity allows you to create outbound transitions to start several activities at the same time."
+>title="Fork activity transitions"
+>abstract="By default, two transitions are created with a **Fork** activity. Click the **Add transition** button to define an additional outbound transition, and enter its label."
 
 The **Fork** activity is a **Flow control** activity. It allows you to create outbound transitions to start several activities at the same time.
 
