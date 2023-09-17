@@ -7,7 +7,6 @@ badge: label="Beta"
 ---
 # Define an audience with the rule builder {#segment-builder}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
 >title="Target audiences"
