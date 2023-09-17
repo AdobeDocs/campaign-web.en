@@ -7,29 +7,6 @@ badge: label="Beta"
 
 # Email, SMS, Push activities {#channel}
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_email"
->title="Email activity"
->abstract="Automate and execute marketing campaigns across email, SMS and push channels. You can combine channel activities into the workflow canvas to create cross-channel workflows that can trigger actions based on customer behavior and data. "
-
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_sms"
->title="Email activity"
->abstract="Automate and execute marketing campaigns across email, SMS and push channels. You can combine channel activities into the workflow canvas to create cross-channel workflows that can trigger actions based on customer behavior and data. "
-
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_push_ios"
->title="Email activity"
->abstract="Automate and execute marketing campaigns across email, SMS and push channels. You can combine channel activities into the workflow canvas to create cross-channel workflows that can trigger actions based on customer behavior and data. "
-
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_push_android"
->title="Email activity"
->abstract="Automate and execute marketing campaigns across email, SMS and push channels. You can combine channel activities into the workflow canvas to create cross-channel workflows that can trigger actions based on customer behavior and data. "
-
 Adobe Campaign Web allows you to automate and execute marketing campaigns across email, SMS and push channels. You can combine channel activities into the workflow canvas to create cross-channel workflows that can trigger actions based on customer behavior and data. 
 
 For example, you can create a welcome email campaign that includes a series of messages across different channels, such as email, SMS, and push. You can also send a follow-up email after a customer has completed a purchase, or send a personalized birthday message to a customer via SMS. 
@@ -54,6 +31,30 @@ Start building your workflow with the relevant activities before placing the del
     ![](../../msg/assets/add-delivery-in-wf.png)
 
 ## Set up the delivery {#create-a-delivery-in-a-workflow}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_email"
+>title="Email activity"
+>abstract="Automate and execute marketing campaigns across email, SMS and push channels. You can combine channel activities into the workflow canvas to create cross-channel workflows that can trigger actions based on customer behavior and data."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_sms"
+>title="SMS activity"
+>abstract="Automate and execute marketing campaigns across email, SMS and push channels. You can combine channel activities into the workflow canvas to create cross-channel workflows that can trigger actions based on customer behavior and data."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_push_ios"
+>title="Push iOS activity"
+>abstract="Automate and execute marketing campaigns across email, SMS and push channels. You can combine channel activities into the workflow canvas to create cross-channel workflows that can trigger actions based on customer behavior and data."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_push_android"
+>title="Push Android activity"
+>abstract="Automate and execute marketing campaigns across email, SMS and push channels. You can combine channel activities into the workflow canvas to create cross-channel workflows that can trigger actions based on customer behavior and data."
 
 To set up a delivery in the context of a workflow, follow the steps below:
 
