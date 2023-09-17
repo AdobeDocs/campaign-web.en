@@ -10,9 +10,15 @@ badge: label="Beta"
 <!--
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_dimension_complement"
->title="Change dimension activity"
->abstract="The Change dimension activity allows you to..."
+>title="Generate Complement"
+>abstract="TBD"
 -->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_change_dimension"
+>title="Change dimension activity"
+>abstract="This activity allows you to change the targeting dimension as you are building an audience. It shifts the axis depending on the data template and the input dimension. For example, you can switch from the "contracts" dimension to the "clients" dimension."
+
 
 The **Change dimension** activity is a **Targeting** activity. This activity allows you to change the targeting dimension as you are building an audience. This activity shifts the axis depending on the data template and the input dimension. For example, you can switch from the "contracts" dimension to the "clients" dimension.
 
@@ -20,7 +26,7 @@ You can also use this activity to define the additional columns of the new targe
 
 ## Configuration
 
-Follow these steps to configure the **hange dimension** activity:
+Follow these steps to configure the **Change dimension** activity:
 
 1. Add a **Change dimension** activity to your workflow.
 

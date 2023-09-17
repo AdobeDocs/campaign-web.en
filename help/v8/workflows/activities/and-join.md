@@ -11,9 +11,7 @@ badge: label="Beta"
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join"
 >title="AND-join activity"
->abstract="The **And-join** activity is a **Flow control** activity. It allows you to synchronize multiple execution branches of a workflow."
-
-
+>abstract="The **And-join** activity allows you to synchronize multiple execution branches of a workflow. It is triggered once all of the preceding activities have finished. This allows you to make sure that certain activities are finished before continuing to execute the workflow."
 
 The **And-join** activity is a **Flow control** activity. It allows you to synchronize multiple execution branches of a workflow.
 

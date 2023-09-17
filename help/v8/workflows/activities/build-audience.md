@@ -10,10 +10,10 @@ badge: label="Beta"
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience"
 >title="Build audience"
->abstract="The **Build audience** activity is a **Targeting** activity. This activity allows you to define the audience that will enter the workflow."
+>abstract="The **Build audience** activity allows you to define the audience that will enter the workflow. When sending messages in the context of a workflow, the message audience is not defined in the channel activity, but in the **Build audience** activity."
 
 
-The **Build audience** activity is a **Targeting** activity. This activity allows you to define the audience that will enter the workflow. When sending messages in the context of a campaign workflow, the message audience is not defined in the channel activity, but in the **Build audience** activity.
+The **Build audience** activity is a **Targeting** activity. This activity allows you to define the audience that will enter the workflow. When sending messages in the context of a workflow, the message audience is not defined in the channel activity, but in the **Build audience** activity.
 
 To define the audience population, you can:
 
@@ -23,7 +23,7 @@ To define the audience population, you can:
 
 >[!NOTE]
 >
->In this context, you cannot load an audience from a file. For this, you need to create a standalone delivery. [Learn more](../../audience/about-audiences.md)
+>In this context, you cannot load an audience from a file. For this, you need to create a standalone email delivery. [Learn more](../../audience/about-audiences.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
