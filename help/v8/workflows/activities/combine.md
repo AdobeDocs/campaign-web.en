@@ -10,7 +10,7 @@ badge: label="Beta"
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine"
 >title="Combine activity"
->abstract="The **Combine** activity is a **Targeting** activity. This activity allows you to perform segmentation on your inbound population. You can thus combine several populations, exclude part of it, or only keep data common to several targets."
+>abstract="The **Combine** activity allows you to perform segmentation on your inbound population. You can thus combine several populations, exclude part of it, or only keep data common to several targets."
 
 
 The **Combine** activity is a **Targeting** activity. This activity allows you to perform segmentation on your inbound population. You can thus combine several populations, exclude part of it or only keep data common to several targets. Here are the available segmentation types:
