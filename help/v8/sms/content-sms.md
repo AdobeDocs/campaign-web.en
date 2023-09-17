@@ -17,6 +17,9 @@ exl-id: 1a70d033-6f1b-482b-9948-59ef75871750
 >title="App subscribers"
 >abstract="Preview and test the message by adding app subscribers to the main target."
 
+
+To design the content of an SMS delivery, follow these steps:
+
 1. From your delivery page, click the **[!UICONTROL Edit content]** button to design your SMS content.
 
 1. On the **[!UICONTROL Edit content]** page, you can customize the sender name by accessing the **[!UICONTROL Sender field]** and entering the preferred name. 
