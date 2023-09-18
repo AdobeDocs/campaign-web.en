@@ -25,7 +25,7 @@ To create a new campaign, you need to define its properties, schedule, and inclu
 To create a new campaign, follow these steps:
 
 1. Click the **[!UICONTROL Campaigns]** menu, and click the **[!UICONTROL Create campaign]** button.
-1. Select the **Template** to use and provide a label for the campaign. [Read more](manage-campaign-templates.md).
+1. Select the **Template** to use and provide a label for the campaign. <!--[Read more] manage-campaign-templates.md-->
 1. If needed, you can change the following **Additional options**: internal name, folder, assignee, description and nature.
 1. Define the **Schedule** of your campaign. Learn how to set your campaign schedule in [this section](#campaign-schedule)
 1. Click **Create**.
