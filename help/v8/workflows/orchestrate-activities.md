@@ -9,7 +9,7 @@ badge: label="Beta"
 
 Once that you have [created a workflow](create-workflow.md), wether from the workflow menu or within a campaign, you can start orchestrating the differents tasks it will perform. To do this, a visual canvas is provided, allowing you to construct a workflow diagram. Within this diagram, you can add various activities and connect them in a sequential order.
 
-##  Add activities {#add}
+## Add activities {#add}
 
 At this stage of the configuration, the diagram is displayed with a start icon, representing the beginning of your workflow. To add your first activity, click the + button connected to the start icon.
 
