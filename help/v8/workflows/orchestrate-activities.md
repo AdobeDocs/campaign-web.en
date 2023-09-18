@@ -9,6 +9,8 @@ badge: label="Beta"
 
 Once that you have [created a workflow](create-workflow.md), wether from the workflow menu or within a campaign, you can start orchestrating the differents tasks it will perform. To do this, a visual canvas is provided, allowing you to construct a workflow diagram. Within this diagram, you can add various activities and connect them in a sequential order.
 
+##  Add activities {#add}
+
 At this stage of the configuration, the diagram is displayed with a start icon, representing the beginning of your workflow. To add your first activity, click the + button connected to the start icon.
 
 A list of activities that can be added to the diagram appears. The available activities depend on your position within the workflow diagram. For example, when adding your first activity, you can start your workflow by targeting an audience, splitting the workflow path, or setting a Wait activity to delay the workflow execution. On the other hand, after a Build audience activity, you can refine your target with targeting activites, send a delivery to your audience with channel activites, or organize the workflow process with flow control activities.
@@ -26,6 +28,20 @@ To remove an activity, select it in the canvas and click the Delete icon in the 
 >[!TIP]
 >
 >You have the option to personalize the name of the transitions between each activity. To do this, select the transition and change its label in the right pane.
+
+## Manage activities {#manage}
+
+When adding activites, action buttons are available in the properties pane, allowing you to perform multiple operations. You can:
+
+* **Delete** the activity from the canvas.
+* **Disable/Enable** the activity. When the workflow is executed, disabled activities won't be executed and the workflow will pause?
+* **Copy** the activity. You can then paste it in any workflow by cliking the "+" button on a transition and select "Paste 1 activity".
+* Access the activity's **Logs and tasks**.
+* **Pause/Resume** the activity. When the workflow is executed, it pauses at the paused activity. The corresponding task as well as all those that follow it in the same path are not executed.
+
+![](assets/activity-action.png){width="70%"}
+
+## Example {#example}
 
 Here is a workflow example designed to send an email to all customers (other than VIP customers) with an email who are interested in coffee machines.
 

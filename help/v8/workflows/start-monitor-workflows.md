@@ -42,7 +42,7 @@ Visual indicators in the upper-right corner of each activity box allows you to c
 |-----|------------|
 |![](assets/activity-status-pending.png){width="70%"}| The activity is currently being executed. |
 |![](assets/activity-status-orange.png){width="70%"}| The activity requires your attention. This may involve confirming the sending of a delivery or taking a necessary action. |
-|![](assets/activity-status-red.png){width="70%"}|The activty has encountered an error. To resolve the issue, open the workflow logs for more information.|
+|![](assets/activity-status-red.png){width="70%"}|The activity has encountered an error. To resolve the issue, open the workflow logs for more information.|
 |![](assets/activity-status-green.png){width="70%"}|The activity has been succesfully executed. | 
 
 ## Monitor logs and tasks {#logs-tasks}
