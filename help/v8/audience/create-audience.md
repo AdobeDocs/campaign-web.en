@@ -57,11 +57,11 @@ The workflow is saved in the **[!UICONTROL Workflows]** list, while the resultin
 
 ## Audience workflow example {#example}
 
-The example below shows an audience workflow configured to target female customers living in New York and create two new audiences depending on their center of interest into Yoga or Running gear. The two audiences are enriched with additional information related to the customers' purchases.
+The example below shows an audience workflow configured to target female customers living in New York and create two new audiences depending on their latest purchase (Yoga or Running gear).
 
-ADD SCREENSHOT
+![](assets/audiences-example.png)
 
-1. The Build audience activity targets all Female profiles living in New York.
-1. The Enrichment activity enriches the audience with attributes from the Purchases table.
-1. The Split activity divides the workflow into two paths based on the customers' centers of interest.
-1. The Save audience activities at the end of each path to save each audience into the database.
+1. The **[!UICONTROL Build audience]** activity targets all female profiles living in New York.
+1. The **[!UICONTROL Enrichment]** activity enriches the audience with information from the Purchases table to identify which type of product the customers purchased.
+1. The **[!UICONTROL Split]** activity divides the workflow into two paths based on the customers' latest purchase.
+1. The **[!UICONTROL Save audience]** activities at the end of each path  create two new audiences into the database including the population computed in each path.
