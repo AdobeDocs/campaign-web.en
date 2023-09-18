@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Work with delivery templates
-description: Learn how to create and use delivery templates in Campaign
+description: Learn how to create and use delivery templates in Campaign Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
@@ -14,17 +14,16 @@ exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
 >title="Delivery templates"
 >abstract="Use delivery templates to standardize the creative look and feel, in order to be quicker in executing and launching campaigns"
 
-
 For an accelerated and improved design process, you can create delivery templates to easily reuse custom content and settings across your campaigns. This functionality enables you to standardize the creative look and feel, in order to be quicker in executing and launching campaigns.
 
 A template can include:
 
-* [Typologies](../advanced-settings/delivery-settings.md#typology)
-* The sender address
-* An [audience](../audience/about-audiences.md), including [control groups](../audience/control-group.md)
-* Custom [content](../content/edit-content.md)
-* [Personalized fields](../personalization/personalize.md) and [conditional content](../personalization/conditions.md)
-* Links to [mirror page](../content/mirror-page.md) and unsubscription [links](../content/message-tracking.md)
+* [Typologies](../advanced-settings/delivery-settings.md#typology),
+* The sender address,
+* An [audience](../audience/about-audiences.md), including [control groups](../audience/control-group.md),
+* Custom [content](../content/edit-content.md),
+* [Personalized fields](../personalization/personalize.md) and [conditional content](../personalization/conditions.md),
+* Links to [mirror page](../content/mirror-page.md) and unsubscription [links](../content/message-tracking.md),
 * Other delivery properties, such as resource validity, retry parameters, or quarantine settings.
 
 >[!NOTE]
@@ -153,6 +152,8 @@ To configure a delivery template from scratch, follow the steps below:
     > * [Email channel](../email/create-email.md)
     > * [Push notification channel](../push/gs-push.md)
     > * [SMS channel](../sms/create-sms.md)
+
+1. Additionally, for email templates, advanced settings, such as typology rules and target mappings, can be accessed via the **[!UICONTROL Settings]** button located on the top right of the screen. [Learn more](../advanced-settings/delivery-settings.md)
 
 1. Click the **[!UICONTROL Review]** button to save and review your template. You can still edit all its settings, delete and duplicate it.
 
