@@ -17,18 +17,9 @@ badge: label="Beta"
 >title="Audience settings"
 >abstract="Enter the name of the audience and additional options, then click the **Create Audience** button."
 
-Campaign Web allows you to create new audiences into a visual workflow canvas. Beyond starting from scratch to create a simple audience, you can also leverage workflow activities to refine your audiences. For instance, you can multiple audiences into a single one, enrich audiences with external attributes, or divide a given audience into multiple ones.
+Campaign Web allows you to create new audiences into a visual workflow canvas. Beyond starting from scratch to create a simple audience, you can also leverage workflow activities to refine your audience. For instance, you can combine multiple audiences into a single one, enrich your audience with external attributes, or divide a it into multiple audiences based on rules of your choice.
 
 Once you've crafted your workflow, the resulting audiences are automatically stored within Campaign database alongside your existing ones. These audiences can then be targeted in campaigns or standalone deliveries.
-
-The main steps to create an audience are as follows:
-
-1. Create an audience workflow.
-1. Configure a Build audience activity to query the database based on your needs.
-1. Add workflow activities to refine your audience (optional).
-1. Configure a Save audience activity.
-1. Run the workflow to save the resulting audience(s) into the database.
-
 
 ## Create your first audience {#create}
 
@@ -42,15 +33,15 @@ To create an audience, follow these steps:
 
     ![](assets/audiences-settings.png)
 
-1. Once you have configured the audience settings, click the **[!UICONTROL Create Audience]** button.
+1. Once you have configured the audience settings, click the **[!UICONTROL Create Audience]** button. A workflow canvas appears, featuring two default activites:
 
-1. A workflow canvas appears, featuring two default activites:
+    * **[!UICONTROL Build audience]**: This is the starting point of your workflow, allowing you to create an audience and use it as a foundation for your workflow.
 
-    * **[!UICONTROL Build audience]**: This is the starting point of your workflow, allowing you to create an audience and use it as a foundation for your workflow. [Learn how to configure a Build audience activity](../workflows/activities/build-audience.md)
+    * **[!UICONTROL Save audience]**: This represents the final step in your workflow, enabling you to save the workflow results as a new audience.
 
-    * **[!UICONTROL Save audience]**: This represents the final step in your workflow, enabling you to save the results as a new audience. [Learn how to configure a Save audience activity](../workflows/activities/save-audience.md)
+1. Open the **[!UICONTROL Build audience]** activity and use the rule builder to define the population to include into your audience by filtering data contained in the database. [Learn how to configure a Build audience activity](../workflows/activities/build-audience.md)
 
-1. If you want to perform additional operation after the **[!UICONTROL Build audience]** activity, add as many activities as required into your workflow. For more information on how the configure workflow activities, refer to the [workflows documentation](../workflows/activities/about-activities.md). 
+1. If you want to perform additional operations on the population targeted into the workflow, add as many activities as required and connect them together. For more information on how the configure workflow activities, refer to the [workflows documentation](../workflows/activities/about-activities.md). 
 
     >[!NOTE]
     >
@@ -58,9 +49,11 @@ To create an audience, follow these steps:
 
     ![](assets/audience-creation-canvas.png)
 
+1. Configure the **[!UICONTROL Save audience]** activity to specify how you want to save the population computed upstream in the workflow. [Learn how to configure a Save audience activity](../workflows/activities/save-audience.md)
+
 1. When your workflow is ready, click **[!UICONTROL Start]** to execute it.
 
-1. The workflow is saved in the **[!UICONTROL Workflows]** list, while the resulting audience(s) are accessible in the **[!UICONTROL Audiences]** list. [Learn how to monitor & manage audiences](access-audiences.md)
+The workflow is saved in the **[!UICONTROL Workflows]** list, while the resulting audience(s) are accessible in the **[!UICONTROL Audiences]** list. [Learn how to monitor & manage audiences](access-audiences.md)
 
 ## Audience workflow example {#example}
 
