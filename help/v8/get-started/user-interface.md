@@ -68,7 +68,7 @@ In the CAMPAIGN MANAGEMENT section, you can access marketing campaigns, deliveri
 
 ### Customer Management {#user-interface-customer-management}
 
-In the CUSTOMER MANAGEMENT section, you can view your recipients, audiences, and subscriptions. These lists are rea-only.
+In the CUSTOMER MANAGEMENT section, you can view your recipients, audiences, and subscriptions. These lists are read-only.
 
 * **Recipients** - Access your recipient database. By default, you can view their email address, first name and last name. Learn more about recipients in [this section](../audience/about-recipients.md).
 * **Audiences** - This is your list of audiences. By default, you can view their type, origin, creation/last modification dates and label. You can filter the list by origin. Learn more about audiences and lists in [this section](../audience/about-audiences.md).
@@ -79,10 +79,12 @@ In the CUSTOMER MANAGEMENT section, you can view your recipients, audiences, and
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
 >title="Offers"
->abstract="Browse through your list of Interaction offers. By default, you can view their status, start/end dates and environment. You can filter the list by status and start/end dates. Offer templates are also available. These lists are read-only."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html" text="Add an offer in a delivery"
+>abstract="Browse through the lists of offers and offer templates that have been created in the console using the **Interaction** module. These lists are read-only."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html" text="Add offers to a delivery"
 
-* **Offers** - Browse through your list of Interaction offers. By default, you can view their status, start/end dates and environment. You can filter the list by status and start/end dates. Offer templates are also available. These lists are read-only. 
+In the CUSTOMER MANAGEMENT section, you can view the offers and offer templates. These lists are read-only.
+
+* **Offers** - Browse through the list of offers and offer templates that have been created in the console using the **Interaction** module. By default, you can view their status, start/end dates and environment. You can filter the list by status and start/end dates. Offer templates are also available.
 
 Learn how to create and send offers in emails and SMS in [this section](../content/offers.md).
 
