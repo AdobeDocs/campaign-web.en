@@ -7,13 +7,10 @@ badge: label="Beta"
 
 # Deduplication {#deduplication}
 
-<!--
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
->title="Fork activity"
->abstract="The Deduplication activity allows you to..."
--->
-
+>title="Deduplication attributes"
+>abstract="This allows you to specify the fields for which the identical values allow the duplicates to be identified: email address, first name, last name, etc. The order of the fields allows you to specify those to process first."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication"
