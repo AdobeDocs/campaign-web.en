@@ -58,7 +58,7 @@ To select an existing audience, follow these steps:
 
 >[!IMPORTANT]
 >
->If you want to combine multiple **[!UICONTROL Build audience]** activities in a workflow including an Experience Platform audience, you need to add a **[!UICONTROL Change dimension]** activity after it, to ensure that all audiences belong to the "Recipient" targeting dimension. A workflow example is available at the bottom of this page.
+>If you want to use a **[!UICONTROL Build audience]** activity targeting an Experience Platform audience, you need to add a **[!UICONTROL Change dimension]** activity after it, to ensure that the audience's targeting dimension is set to "Recipient". A workflow example is available at the bottom of this page.
 
 ## Examples
 

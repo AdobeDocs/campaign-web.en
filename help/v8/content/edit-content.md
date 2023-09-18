@@ -14,18 +14,18 @@ badge: label="Beta"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
->title="Set your email basic properties"
+>title="Set the email properties"
 >abstract="The **Basic details** section allows you to update the sender's address and reply-to address, and define the subject line using the Expression Editor."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
 >title="Attach files to your email"
->abstract="Select one or multiples files to insert into your message."
+>abstract="Select one or multiples files to insert into your message. To avoid performance issue, it is recommended not to include more than one attachment per email."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
 >title="Edit tracking"
->abstract="By default, tracking is enabled for the delivery. You can disable this option from here."
+>abstract="By default, tracking is enabled for the delivery, meaning all links included in the message content are tracked. You can disable this option from here."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/content/design-content/message-tracking.html" text="Add links and track messages"
 
 The email **[!UICONTROL Edit content]** screen allows you to:

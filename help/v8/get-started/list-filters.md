@@ -45,13 +45,15 @@ For example, you can filter deliveries on their status, channel, contact date, o
 
 ## Custom filters{#list-custom-filters}
 
-To create custom filters on data, browse to the bottom of the filters and click the **Add rules** button. 
+To create custom filters on data, browse to the bottom of the filters and click the **Add rules** button to access the rule builder.
 
 Drag and drop attributes to build your filter criteria in the **Advanced filters** screen. 
 
 ![](assets/custom-filter.png){width="70%" align="left" zoomable="yes"}
 
 Use the **Display advanced attributes** toggle to see all attributes for the current list. [Learn more](#adv-attributes)
+
+The rule builder's operating principle for custom filters is similar to the rule builder used to create audiences. Detailed information on how to use it is available in the [Audiences documentation](../audience/segment-builder.md).
 
 ## Use advanced attributes {#adv-attributes}
 
