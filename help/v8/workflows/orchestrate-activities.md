@@ -34,8 +34,8 @@ To remove an activity, select it in the canvas and click the Delete icon in the 
 When adding activites, action buttons are available in the properties pane, allowing you to perform multiple operations. You can:
 
 * **Delete** the activity from the canvas.
-* **Disable/Enable** the activity. When the workflow is executed, disabled activities won't be executed and the workflow will pause?
-* **Copy** the activity. You can then paste it in any workflow by cliking the "+" button on a transition and select "Paste 1 activity".
+* **Disable/Enable** the activity. When the workflow is executed, disabled activities and the following activities on the same path are not executed and the workflow is stopped.
+* **Copy** the activity. You can then paste it in any workflow by cliking the "+" button on a transition and selecting "Paste 1 activity".
 * Access the activity's **Logs and tasks**.
 * **Pause/Resume** the activity. When the workflow is executed, it pauses at the paused activity. The corresponding task as well as all those that follow it in the same path are not executed.
 
