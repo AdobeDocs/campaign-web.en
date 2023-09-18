@@ -111,7 +111,7 @@ To start creating your email content, follow the steps below. In this use case, 
 
 1. To design the content of the email, click the **[!UICONTROL Edit email body]** button.
 
-    Choose the method to use to create your email content. In this example, use a [predefined content template](../msg/delivery-template.md).
+    Choose the method to use to create your email content. In this example, use a [predefined content template](../content/email-sample-templates.md).
 
     ![](assets/select-template.png)
 
@@ -196,7 +196,10 @@ After reviewing and testing your email, you can launch its preparation and send 
 
 1. During the sending process, you can track its progress and view statistics in real-time directly in this screen.
 
-    ![](assets/sent-mail.png)
+    ![](assets/sending-email.png)
+
+    <!--
+    ![](assets/sent-email.png)-->
 
     You can also access detailed information on the sending by clicking the **[!UICONTROL Logs]** button. [Learn how to monitor delivery logs](../monitor/delivery-logs.md)     
 
