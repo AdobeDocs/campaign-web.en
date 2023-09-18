@@ -26,9 +26,15 @@ A template can include:
 * Links to [mirror page](../content/mirror-page.md) and unsubscription [links](../content/message-tracking.md),
 * Other delivery properties, such as resource validity, retry parameters, or quarantine settings.
 
+<!--
 >[!NOTE]
 >
->Delivery templates are different from [email content templates](../content/email-templates.md), which allow you to reuse only the content of your messages.
+>Delivery templates are different from email content templates, which allow you to reuse only the content of your messages.-->
+
+>[!NOTE]
+>
+>Delivery templates are different from [content templates](../content/email-sample-templates.md), which allow you to start building your content with one of the sample email templates provided out-of-the-box.
+
 
 ## Access and manage delivery templates {#access-manage-templates}
 
