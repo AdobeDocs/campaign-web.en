@@ -25,14 +25,18 @@ Using Generative AI, you can effortlessly craft compelling emails that resonate 
     ![](assets/email-genai-1.png)
 
 1. Fine tune the content by describing what you want to generate. 
-    
-    Enable the **[!UICONTROL Enhance with current content]** option for the Content assistant to personalize new content based on your delivery, delivery name, and selected audience.
 
+    Here are some prompt examples:
+
+    * For a Newsletter: Generate a monthly newsletter featuring travel articles, destination highlights, and exclusive subscriber offers.
+    * For Feedbacks and Surveys: Create an email inviting customers to provide feedback on their recent software experience and participate in a product improvement survey.
+    * For Anniversary or Birthday Emails: Generate a birthday email, celebrating the customer's special day and offering them a birthday discount.
+    
     ![](assets/email-genai-2.png)
 
-1. Select **[!UICONTROL Upload file]** if you want to add a Marketing brief to give more context to the Content assistant. 
+1. Select **[!UICONTROL Upload file]** if you want to add any brand asset which contains content that can provide additional context the Content assistant.  
 
-    You can also click **[!UICONTROL Uploaded content]** to find previously updated files.
+    You can also click **[!UICONTROL Uploaded content]** to find previously updated files. Note that the uploaded content is exclusively available for reuse by the current user.
 
 1. Select the **[!UICONTROL Communication strategy]** that best suits your needs. This will affect the tone and style of the generated email.
 
@@ -40,7 +44,7 @@ Using Generative AI, you can effortlessly craft compelling emails that resonate 
 
     ![](assets/email-genai-3.png)  
 
-1. Customize the **[!UICONTROL Content type]** settings to match your desired asset characteristics.
+1. Customize the **[!UICONTROL Content type]** assets settings to match your desired asset characteristics.
 
 1. Once your prompt is ready, click **[!UICONTROL Generate]**.
 

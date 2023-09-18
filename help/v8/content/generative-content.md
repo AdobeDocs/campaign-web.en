@@ -25,13 +25,13 @@ The Content Assistant can help you optimize the impact of your deliveries by sug
 
 1. Fine tune the content by describing what you want to generate. 
     
-    Enable the **[!UICONTROL Enhance with current content]** option for the Content assistant to personalize new content based on your delivery, delivery name, and selected audience.
+    Enable the **[!UICONTROL Enhance with current context]** option for the Content assistant to personalize new content based on your delivery, delivery name, and selected audience.
 
     ![](assets/text-genai-3.png)
 
-1. Select **[!UICONTROL Upload file]** if you want to add a Marketing brief to give more context to the Content assistant. 
+1. Select **[!UICONTROL Upload file]** if you want to add any brand asset which contains content that can provide additional context the Content assistant.  
 
-    You can also click **[!UICONTROL Uploaded content]** to find previously updated files.
+    You can also click **[!UICONTROL Uploaded content]** to find previously updated files. Note that the uploaded content is exclusively available for reuse by the current user.
 
 1. Select the **[!UICONTROL Communication strategy]** that best suits your needs. This will affect the tone and style of the generated text.
 

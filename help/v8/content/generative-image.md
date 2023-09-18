@@ -27,9 +27,9 @@ In the example below, learn how to leverage the Content Assistant to optimize an
 
     ![](assets/image-genai-2.png)
 
-1. Select **[!UICONTROL Upload file]** if you want to add a Marketing brief to give more context to the Content assistant. 
+1. Select **[!UICONTROL Upload file]** if you want to add any brand asset which contains content that can provide additional context the Content assistant.  
 
-    You can also click **[!UICONTROL Uploaded content]** to find previously updated files.
+    You can also click **[!UICONTROL Uploaded content]** to find previously updated files. Note that the uploaded content is exclusively available for reuse by the current user.
 
 1. Select the **[!UICONTROL Aspect ratio]** of your asset. This determines the width and height of the asset. 
 
