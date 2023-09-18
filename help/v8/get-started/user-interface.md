@@ -162,13 +162,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 >[!CONTEXTUALHELP]
->id="acw_targetdata_personalization_enrichmentdata"
->title="Enrichment data"
->abstract="TBD"
-
-
-
->[!CONTEXTUALHELP]
 >id="acw_push_permission_for_segment"
 >title="Permission required"
 >abstract="Your administrator must grant you permission before you can create a segment."
