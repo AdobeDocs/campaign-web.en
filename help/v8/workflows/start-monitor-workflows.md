@@ -23,16 +23,27 @@ You can track the progress of targeted profiles in real-time using a visual flow
 >
 >You can disable the visual flow using the **[!UICONTROL Hide progression]** button in the top action bar of the canvas.
 
+## Workflow transitions {#transitions}
+
+In workflows, data transported from one activity to another through transitions is stored in a temporary work table.
+
+This data can be displayed for each transition. To do this, select a transition to open its properties in the right hand side of the screen.
+
+* Click **[!UICONTROL Preview schema]** to display the schema of the work table.
+* Click **[!UICONTROL Preview results]** to visualize the data transported in the selected transition.
+
+![](assets/transition.png)
+
 ## Monitor activity execution {#activities}
 
 Visual indicators in the upper-right corner of each activity box allows you to check their execution:
 
 |Visual indicator | Description | 
 |-----|------------|
-|![](assets/activity-status-pending.png) | The activity is currently being executed. |
-|![](assets/activity-status-orange.png)| The activity requires your attention. This may involve confirming the sending of a delivery or taking a necessary action. |
-|![](assets/activity-status-red.png)| The activty has encountered an error. To resolve the issue, open the workflow logs for more information.|
-|![](assets/activity-status-green.png)| The activity has been succesfully executed. | 
+|![](assets/activity-status-pending.png){width="70%"}| The activity is currently being executed. |
+|![](assets/activity-status-orange.png){width="70%"}| The activity requires your attention. This may involve confirming the sending of a delivery or taking a necessary action. |
+|![](assets/activity-status-red.png){width="70%"}|The activty has encountered an error. To resolve the issue, open the workflow logs for more information.|
+|![](assets/activity-status-green.png){width="70%"}|The activity has been succesfully executed. | 
 
 ## Monitor logs and tasks {#logs-tasks}
 
