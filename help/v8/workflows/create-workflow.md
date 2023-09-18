@@ -17,7 +17,7 @@ exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"
 >title="List of workflows in the campaign"
->abstract="The **Deliveries** tab lists all workflows linked to the current campaign. Click the name of a workflow to edit it. Use the Create workflow button to add a new workflow for this campaign."
+>abstract="The **Workflows** tab lists all workflows linked to the current campaign. Click the name of a workflow to edit it. Use the **Create workflow** button to add a new workflow for this campaign."
 
 
 You can create standalone workflows, or workflows within a campaign. The first step is to select a template and define its general properties. You can then configure additional settings as needed.
