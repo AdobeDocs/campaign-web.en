@@ -33,6 +33,10 @@ The email **[!UICONTROL Edit content]** screen allows you to:
 * Perform additional actions such as adding attachments or setting up offers
 * Access the [Email Designer](get-started-email-designer.md#start-authoring) to start building the proper content of your email
 
+>[!NOTE]
+>
+>All the editable text fields of this screen can be filled in using personalization fields. [Learn how to personalize content](../personalization/personalize.md)
+
 To configure or edit the content of an email, follow the steps below.
 
 1. Click the **[!UICONTROL Edit content]** button from the [email delivery dashboard](../email/create-email.md) screen.
@@ -63,7 +67,7 @@ To configure or edit the content of an email, follow the steps below.
 
     ![](assets/email-edit-content-reply-to.png)
 
-1. Define the email **[!UICONTROL Subject line]**. Type your subject directly into the dedicated field, or open the Expression Editor to add personalization using various attributes and content blocks or offers. [Learn how to personalize content](../personalization/personalize.md)
+1. Define the email **[!UICONTROL Subject line]**. Type your subject directly into the dedicated field, or open the Expression Editor to add [personalization](../personalization/personalize.md) using various attributes and content blocks, or offers.
 
 1. If you want to attach a file to the email, click the **[!UICONTROL Add attachment]** button then select one or multiple file(s).
     
