@@ -24,7 +24,9 @@ To learn more on managing subscriptions and unsubscriptions, refer to the [Campa
 
 ## Access susbscription services {#access-services}
 
-1. To access subscription services available for your platform, browse to the **[!UICONTROL Subscription services]** menu on the left navigation rail.
+To access subscription services available for your platform, follow the steps below.
+
+1. Browse to the **[!UICONTROL Subscription services]** menu on the left navigation rail.
 
     ![](assets/service-list.png)
 
@@ -48,7 +50,7 @@ To learn more on managing subscriptions and unsubscriptions, refer to the [Campa
 >title="Select a confirmation message"
 >abstract="When a user subscribes to or unsubscribes from a service, you can send a confirmation message. Select the templates to use for that message."
 
-To create a subscription service, follow these steps:
+To create a subscription service, follow the steps below.
 
 1. Select the **[!UICONTROL Create subscription service]** button.
 
@@ -60,7 +62,7 @@ To create a subscription service, follow these steps:
 
     ![](assets/service-create-properties.png)
 
-1. By default, subscriptions are unlimited. You can disable the **[!UICONTROL  Unlimited validity period]** option to define a validity duration for the service. In the example below, after 20 days, nobody will be able to subscribe to this service anymore.
+1. By default, subscriptions are unlimited. You can disable the **[!UICONTROL  Unlimited validity period]** option to define a validity duration for the service. In the example below, after 20 days, no users will be able to subscribe to this service anymore.
 
     ![](assets/service-create-validity-period.png)
 
@@ -70,13 +72,13 @@ To create a subscription service, follow these steps:
 
 1. Click **[!UICONTROL Save and review]**. The new service is added to the **[!UICONTROL Subscription services]** list.
 
-### Create a confirmation message {#create-confirmation-message}
+## Create a confirmation message {#create-confirmation-message}
 
 To send confirmation message to the users who subscribe to or unsubscribe from your service, you must create a delivery template with the **[!UICONTROL Subscriptions]** target mapping, without a defined target. To do so, follow the steps below.
 
 1. Create a delivery template for the susbscription confirmation. [Learn how](../msg/delivery-template.md)
 
-1. Do not select an audience for this delivery. Instead, access the **[!UICONTROL Delivery settings]**, go to the [Audience](../advanced-settings/delivery-settings.md#audience) tab and select the **[!UICONTROL Subscriptions]** target mapping.
+1. Do not select an audience for this delivery. Instead, access the **[!UICONTROL Delivery settings]**, go to the [Audience](../advanced-settings/delivery-settings.md#audience) tab and select the **[!UICONTROL Subscriptions]** target mapping from the list.
 
     ![](assets/service-confirmation-template-mapping.png)
 
@@ -94,9 +96,9 @@ To send confirmation message to the users who subscribe to or unsubscribe from y
 
 1. Repeat the steps above to create a delivery template for the unsusbscription confirmation.
 
-You can now select these messages when [creating a subscription service](#create-service). Users who subscribe to or unsubscribe from that service will receive the selected confirmation message.
+You can now select these messages when [creating a subscription service](#create-service). Users who subscribe to or unsubscribe from that service receive the selected confirmation message.
 
-## Add subscribers to your service
+## Add subscribers to your service {#add-subscribers}
 
 Once you created a service, you can manually add subscribers. Follow the steps below.
 
@@ -110,11 +112,27 @@ Once you created a service, you can manually add subscribers. Follow the steps b
 
     ![](assets/service-subscribers-select-profiles.png)
 
-1. The selected recipients will receive the subscription [confirmation message](#create-confirmation-message) that you selected when [creating the service](#create-service). Click **[!UICONTROL Send]**.
+1. Click **[!UICONTROL Send]**. The selected recipients will receive the subscription [confirmation message](#create-confirmation-message) that you selected when [creating the service](#create-service).
 
     ![](assets/service-subscribers-confirmation-msg.png)
 
 The profiles added are displayed in the **[!UICONTROL Subscribers]** list. They are now subscribed to your service.
+
+## Remove subscribers from your service {#remove-subscribers}
+
+Once you added subscribers to your service, you can remove them. Follow the steps below.
+
+1. Select an existing service from the **[!UICONTROL Subscription services]** list.
+
+1. Click the three dots icon next to the desired recipient name and select **[!UICONTROL Delete]**.
+
+    ![](assets/service-subscribers-delete.png)
+
+1. Confirm deletion and click **[!UICONTROL Send]**. The selected recipients will receive the unsubscription [confirmation message](#create-confirmation-message) that you selected when [creating the service](#create-service).
+
+    ![](assets/service-subscribers-delete-confirmation.png)
+
+The recipient is removed from the **[!UICONTROL Subscribers]** list and is no longer subscribed to your service.
 
 ## Subscription service logs and reports {#logs-and-reports}
 
@@ -136,7 +154,7 @@ To measure the effectiveness of your subscription services for SMS and email cha
 
         ![](assets/service-reports.png)
 
-    * The **[!UICONTROL Overall evolution of subscriptions]** graph shows the breakdown by period, including subscriptions, unsubcriptions, the evolution in numbers and the loyalty percentage.
+    * The **[!UICONTROL Overall evolution of subscriptions]** graph shows the breakdown by period, including subscriptions, unsubcriptions, the evolution in numbers and the loyalty percentage.<!--what is Registered?-->
 
     * Use the **[!UICONTROL Reload]** button to retrieve the last values from the execution and schedule of the tracking workflow.
 
