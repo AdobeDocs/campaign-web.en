@@ -46,5 +46,3 @@ To select an Adobe Experience Platform audience for your delivery, follow the st
 1. Using the rule builder, you can enrich your audience with additional filters or by combining different audiences. See this [section](segment-builder.md).
 
 1. Click **Save**. 
-
-

@@ -56,8 +56,16 @@ To select an existing audience, follow these steps:
 1. Click **Continue**.
 1. Select your audience, the same way you use an audience when designing a new email. Refer to this [section](../../audience/add-audience.md).
 
-## Example
+>[IMPORTANT]
+>
+>If you want to combine multiple **[!UICONTROL Build audience]** activities in a workflow including an Experience Platform audience, you need to add a **[!UICONTROL Change dimension]** activity after it, to ensure that all audiences belong to the "Recipient" targeting dimension. A workflow example is available at the bottom of this page.
+
+## Examples
 
 Here is an example of a workflow with two **Build audience** activities. The first one targets the poker players audience, followed by an email delivery. The second one targets the VIP clients audience, followed by an SMS delivery.
 
 ![](../assets/workflow-audience-example.png)
+
+Here is another example showing where an Adobe Experience Platform audience is combiend with an Adobe Campaign audience. To allow these audiences to be combined, a **[iUICONTROL Change dimension]** activity with the "Recipient" targeting dimension is added after the Adobe Experience Platform audience.
+
+![](../assets/workflow-audience-aep.png)
