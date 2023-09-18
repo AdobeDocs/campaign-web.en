@@ -152,7 +152,15 @@ Once you [created a subscription service](#create-service), your can target its 
 
     ![](assets/service-audience-subscribers.png)
 
-1. Create a campaign and target the audience that you created.
+1. [Create a delivery](../msg/gs-messages.md) and select the audience that you created above.
+
+    ![](assets/service-delivery-targeting-subscribers.png)
+
+1. Edit your message content as wanted and send the delivery.
+
+    ![](assets/service-delivery-ready.png)
+
+Your delivery is sent to the subscribers to that service only.
 
 
 
