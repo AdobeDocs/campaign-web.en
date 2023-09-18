@@ -19,10 +19,6 @@ You can track the progress of targeted profiles in real-time using a visual flow
 
 ![](assets/workflow-execution.png)
 
->[!NOTE]
->
->You can disable the visual flow using the **[!UICONTROL Hide progression]** button in the top action bar of the canvas.
-
 ## Workflow transitions {#transitions}
 
 In workflows, data transported from one activity to another through transitions is stored in a temporary work table.
