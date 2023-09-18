@@ -56,7 +56,7 @@ To select an existing audience, follow these steps:
 1. Click **Continue**.
 1. Select your audience, the same way you use an audience when designing a new email. Refer to this [section](../../audience/add-audience.md).
 
->[IMPORTANT]
+>[!IMPORTANT]
 >
 >If you want to combine multiple **[!UICONTROL Build audience]** activities in a workflow including an Experience Platform audience, you need to add a **[!UICONTROL Change dimension]** activity after it, to ensure that all audiences belong to the "Recipient" targeting dimension. A workflow example is available at the bottom of this page.
 
