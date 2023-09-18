@@ -11,7 +11,7 @@ When orchestrating workflow activities in the canvas, you can access advanced se
 
 These settings are pre-configured in the template selected when creating the workflow, but can be edited as needed for this specific workflow.
 
-To do this, click the **[!UICONTROL Workflow settings]** icon  in the upper-left corner of the canvas, next to the workflow label.
+To do this, click the **[!UICONTROL Settings]** button available in the actions bar above the workflow canvas.
 
 ![](assets/workflow-settings.png)
 
