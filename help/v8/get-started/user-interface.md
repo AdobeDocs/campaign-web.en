@@ -166,30 +166,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Enrichment data"
 >abstract="TBD"
 
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_sending"
->title="Reporting Sending"
->abstract="Consult the sending indicators for the campaign reporting."
 
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_tracking"
->title="Reporting tracking"
->abstract="Consult the tracking indicators for the campaign reporting."
-
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_deliveries_overview"
->title="Reporting overview"
->abstract="Key metrics for your delivery."
-
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_deliveries_target"
->title="Reporting target statistics"
->abstract="This section displays specific metrics according to audiences."
-
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_deliveries_selection"
->title="Aggregated reporting for deliveries"
->abstract="Select at least two deliveries for displaying an aggregated data report."
 
 >[!CONTEXTUALHELP]
 >id="acw_push_permission_for_segment"
@@ -221,8 +198,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_global_reporting_tracking"
 >title="Global reports tracking"
 >abstract="Tracking reporting metrics are visible in this screen"
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_workflow_list"

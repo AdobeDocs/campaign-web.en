@@ -6,6 +6,26 @@ badge: label="Beta"
 ---
 # Campaign reports {#campaign-reports}
 
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_sending"
+>title="Reporting Sending"
+>abstract="The Sending tab within your report provides in-depth insights into your visitors' interactions with your deliveries and any potential errors they may have encountered."
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_tracking"
+>title="Reporting tracking"
+>abstract="The Sending tab within your report offers valuable data, including recipient behavior per link, breakdown of opens and clicks, as well as detailed information about the most frequently clicked URLs during a delivery."
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_deliveries_overview"
+>title="Delivery overview"
+>abstract="The Delivery Overview provides key performance indicators (KPIs) that give detailed information about how your visitors engage with your email delivery."
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_deliveries_target"
+>title="Initial target audience statistics"
+>abstract="The Initial target audience statistics table displays data relative to your recipients"
+
 The Campaign report is divided into different widgets detailing your campaign’s success and errors.
 
 The Campaign report page will be displayed with the following tabs:
