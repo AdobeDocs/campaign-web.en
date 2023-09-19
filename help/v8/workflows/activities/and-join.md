@@ -17,7 +17,7 @@ The **And-join** activity is a **Flow control** activity. It allows you to synch
 
 This activity only triggers its outbound transition once all the inbound transitions are activated, in other words, once all of the preceding activities have finished. This allows you to make sure that certain activities have finished before continuing to execute the workflow.
 
-## Configuration
+## Configure the And-join activity
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join_merging"
@@ -25,6 +25,8 @@ This activity only triggers its outbound transition once all the inbound transit
 >abstract="Select which activities you want to join. In the **Primary set** drop-down, choose which inbound transition population you want to keep."
 
 Follow these steps to configure the **AND-join** activity:
+
+![](../assets/workflow-andjoin.png)
 
 1. Add multiple activities such as channel activities to form at least two different execution branches.
 1. Add an **AND-join** activity to any of the branches.
