@@ -45,7 +45,7 @@ Access Campaign v8 Web key help pages from the **Learning** section of the home 
 
 The **Explorer** menu displays all Campaign resources and objects with the same folder hierarchy as the one in the client console. Browse all your Campaign v8 components, folders and schemas, and create deliveries, workflows and campaigns.
 
-The items displayed in the **Explorer** depend on your user permissions.  You can also add folders and sub-folders, if you have proper permissions. Learn more about permissions in [this section](permissions.md).
+The items displayed in the **Explorer** depend on your user permissions. You can also add folders and sub-folders, if you have proper rights. Learn more about permissions in [this section](permissions.md).
 
 Like in any list screen, you can configure columns to personalize the display to view all the information you need. See this [section](#list-screens).
 
