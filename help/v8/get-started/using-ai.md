@@ -11,7 +11,7 @@ The **Knowledge Assistant with Gen AI** embedded within contextual help revoluti
 
 Thanks to Campaign Gen AI's capabilities, this assistant transforms your experience, making information retrieval and problem-solving a breeze. Whether you're seeking guidance in a complex task or navigating extensive documents, our Knowledge Assistant with Gen AI is your ultimate companion, providing unmatched efficiency and accuracy in every interaction.
 
-![](assets/ask-a-question.png)
+![](assets/ask-a-question.png){width="70%" align="left"}
 
 <!--
 ## Consent {#consent-ai}

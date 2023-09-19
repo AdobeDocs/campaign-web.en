@@ -68,7 +68,7 @@ You can also access the SQL query to check the exact settings. To do this, click
 
 Click the **Calculate** button to check how many items meet the criteria of the filter. 
 
-![](assets/rule-code-calculate.png){width="70%" align="left"}
+![](assets/rule-calculate.png){width="70%" align="left"}
 
 Use the **View results** button to display those items.
 
