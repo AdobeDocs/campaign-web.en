@@ -11,6 +11,11 @@ Once you have created and personalized your Emails, use the Content Assistant po
 
 The Content Assistant can help you optimize the impact of your deliveries by suggesting different content that is more likely to resonate with your audience.
 
+
+>[!AVAILABILITY]
+>
+>This capability will be available early October.
+
 1. After creating and configuring your Email delivery, click **[!UICONTROL Edit content]**.
 
     For more information on how to configure your email delivery, refer to [this page](../content/create-email-content.md).

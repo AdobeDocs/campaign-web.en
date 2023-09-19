@@ -30,13 +30,13 @@ badge: label="Beta"
 
 The **Deduplication** activity is a **Targeting** activity. This activity allows you to delete duplicates in the result(s) of the inbound activities. The **Deduplication** activity is generally used following targeting activities and before activities that allow the use of targeted data.
 
-## Configuration
+## Configure the Deduplication activity{#deduplication-configuration}
 
 Follow these steps to configure the **Deduplication** activity:
 
-1. Add a **Deduplication** activity to your workflow.
+![](../assets/workflow-deduplication.png)
 
-      ![](../assets/workflow-deduplication.png)
+1. Add a **Deduplication** activity to your workflow.
 
 1. In the **Fields to identify duplicates** section, click the **Add attribute** button to specify the fields for which the identical values allow the duplicates to be identified: email address, first name, last name, etc. The order of the fields allows you to specify those to process first.
 
@@ -59,5 +59,5 @@ Follow these steps to configure the **Deduplication** activity:
 
 1. Check the **Generate complement** option if you wish to exploit the remaining population. The complement consists of all the duplicates. An additional transition will then be added to the activity.
 
-## Example
+## Example{#example}
 

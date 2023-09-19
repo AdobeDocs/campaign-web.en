@@ -60,7 +60,7 @@ A specific error message is displayed.
 
 Even if you cannot view the graphic representation of the query in the rule builder, and cannot edit the filter, you can still use it, and see the filtering conditions in the **Attributes** section of the screen. 
 
-![](assets/rule-view-edit.png){width="70%" align="left"}
+![](assets/rule-edit.png){width="70%" align="left"}
 
 You can also access the SQL query to check the exact settings. To do this, click the **Code view** button.
 
@@ -68,7 +68,7 @@ You can also access the SQL query to check the exact settings. To do this, click
 
 Click the **Calculate** button to check how many items meet the criteria of the filter. 
 
-![](assets/rule-code-calculate.png){width="70%" align="left"}
+![](assets/rule-calculate.png){width="70%" align="left"}
 
 Use the **View results** button to display those items.
 

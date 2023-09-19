@@ -16,6 +16,10 @@ The Content Assistant, powered by generative AI, is a valuable tool for improvin
 
 This feature saves time and ensures consistent quality by automatically generating complete email content. By using Generative AI, you can create compelling emails effortlessly, improving your communication's effectiveness and efficiency.
 
+>[!AVAILABILITY]
+>
+>This capability will be available early October.
+
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
