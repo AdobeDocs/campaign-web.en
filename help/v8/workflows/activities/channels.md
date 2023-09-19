@@ -30,7 +30,7 @@ Start building your workflow with the relevant activities before placing the del
 
     ![](../../msg/assets/add-delivery-in-wf.png)
 
-## Set up the delivery {#create-a-delivery-in-a-workflow}
+## Configure the Channel activity {#create-a-delivery-in-a-workflow}
 
 
 >[!CONTEXTUALHELP]
@@ -69,7 +69,6 @@ To set up a delivery in the context of a workflow, follow the steps below:
 
     ![](../assets/delivery-activity-in-wf.png)
    
-
     You can select another template from the channel activity configuration left pane. If the previously selected audience is not compatible with the channel, then you cannot select a template. To solve this, update the **Build audience** activity to select an audience with the correct target mapping. Learn more about target mappings in [Adobe Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
 
 1. Click **Create delivery**. Define your message settings and content the same way you create a standalone delivery. You can also schedule and simulate the content. [Learn more](../../msg/gs-messages.md).
@@ -89,6 +88,7 @@ To set up a delivery in the context of a workflow, follow the steps below:
 Here is a cross-channel workflow example with a segmentation and two deliveries. The workflow targets all customers who live in Paris and who are interested in coffee machines. Among this population, an email is sent to the regular customers and an SMS is sent to the VIP clients.
 
 ![](../assets/workflow-channel-example.png)
+
 <!--
 description, which use case you can perform (common other activities that you can link before of after the activity)
 
@@ -99,7 +99,9 @@ The Email delivery activity allows you to configure the sending an email in a wo
 
 -->
 
-You can also create a recurring workflow to send a personalized push notification every first day of the month at 8 PM to the subscribers of your mobile application depending on their time zones.
+You can also create a recurring workflow to send a personalized SMS every first day of the month at 8 PM to all customers living in Paris.
+
+![](../assets/workflow-channel-example2.png)
 
 <!-- Scheduled emails available?
 

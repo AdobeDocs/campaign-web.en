@@ -13,7 +13,7 @@ Thanks to Campaign Gen AI's capabilities, this assistant transforms your experie
 
 ![](assets/ask-a-question.png)
 
-
+<!--
 ## Consent {#consent-ai}
 
 Campaign knowledge assistant embeeded in the contextual help boxes uses AI. Your use of this capability constitutes consent that the information you provide in your session will be collected, used, disclosed, and retained by Adobe in accordance with the terms of Adobe's Customer Feedback Program. Please do not provide any personal information about yourself or other parties (including your name or contact information) in the knowledge assistant.
@@ -25,6 +25,7 @@ Your data is encrypted and private following our standard data protection practi
 The knowledge assistant AI capability does not use your data to train our models. We do not allow any partners or 3rd parties to use your data for training their models or any other purpose.
 
 For information specific to Adobe AI policies in Experience Cloud apps and solutions, refer to [this page](https://business.adobe.com/products/sensei/adobe-sensei.html){target="_blank"}.
+--> 
 
 ## Answers {#answers-ai}
 
