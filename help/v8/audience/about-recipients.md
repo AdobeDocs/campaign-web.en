@@ -58,3 +58,21 @@ When targeting an audience, you can also define **control groups** to avoid send
 >[!NOTE]
 >
 >When sending messages in the context of a campaign workflow, the audience is defined in a specific **Build audience** workflow activity. In this context, you cannot load an audience from a file for an email delivery, and the audience is defined only in this dedicated activity. Learn how to define the audience of your delivery in a campaign workflow [in this section](../workflows/activities/build-audience.md)
+
+## Targeting dimensions {#targeting-dimensions}
+
+By default, email and SMS delivery templates target **[!UICONTROL Recipients]**. Their target mapping therefore uses the fields of the **nms:recipient** table. For Push notifications, the default target mapping is **Subscriber applications (nms:appSubscriptionRcp)**, which is linked to the recipients table.
+
+You can also use other built-in target mappings for your deliveries that are listed below: 
+
+|  Name  | Use to | Schema  |
+|---|---|---|
+|  Recipients  | Deliver to recipients (built-in recipient table)  | nms:recipient  |
+|  Visitors  | Deliver to visitors whose profiles have been collected via referral (viral marketing) for ex.  | mns:visitor  |
+|  Subscriptions  | Deliver to recipients who are subscribed to an information service such as a newsletter | nms:subscription  |
+|  Visitor subscriptions  | Deliver to visitors who are subscribed to an information service  | nms:visitorSub  |
+|  Operators  | Deliver to Adobe Campaign operators  | nms:operator  |
+|  External file  | Deliver via a file that contains all information needed for delivery  | No linked schema, no target entered  |
+|  Subscriber applications  | Deliver to recipients who are subscribed to an application | nms:appSubscriptionRcp  |
+
+In addition, you can create a new target mapping depending on your needs. This is performed from the client console. Learn more in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping){target="_blank"}.
