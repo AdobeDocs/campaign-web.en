@@ -39,7 +39,7 @@ You can also access recipients from the **Explorer** view, browse and create fol
 >
 >Depending on your permissions, you might not have access to the full list of recipients stored in the database. Learn more about permissions in [this section](../get-started/permissions.md).
 
-In addition, you can manage the subscription and unsubscription of your recipients to services such as newsletters. [Learn how to work with subscription services](create-service.md)
+In addition, you can manage the subscription and unsubscription of your recipients to services such as newsletters. [Learn how to work with subscription services](manage-services.md)
 
 ## What are audiences? {#audiences}
 
