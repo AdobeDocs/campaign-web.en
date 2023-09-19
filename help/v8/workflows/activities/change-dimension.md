@@ -17,10 +17,7 @@ badge: label="Beta"
 >title="Change dimension activity"
 >abstract="This activity allows you to change the targeting dimension as you are building an audience. It shifts the axis depending on the data template and the input dimension. For example, you can switch from the "contracts" dimension to the "clients" dimension."
 
-
 The **Change dimension** activity is a **Targeting** activity. This activity allows you to change the targeting dimension as you are building an audience. This activity shifts the axis depending on the data template and the input dimension. For example, you can switch from the "contracts" dimension to the "clients" dimension.
-
-You can also use this activity to define the additional columns of the new target, and define data deduplication criteria.
 
 ## Configuration
 
@@ -30,6 +27,9 @@ Follow these steps to configure the **Change dimension** activity:
 
    ![](../assets/workflow-change-dimension.png)
 
-1. Define the **New target dimension**.
+1. Define the **New target dimension**. During dimension change, all records are kept. Other options are not available yet. 
 
-During dimension change, all records are kept.
+1. Execute the workflow to view the result. Compare the data in the tables before and after the change dimension activity, and compare the structure of the workflow tables.
+
+
+

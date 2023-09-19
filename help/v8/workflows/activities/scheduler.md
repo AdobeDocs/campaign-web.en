@@ -69,7 +69,6 @@ Follow these steps to configure the **Scheduler** activity:
 
 Notes: 
 
-
 ## Example
 
 In the following example, the activity is configured so that the workflow runs several times a day at 9 and 12 AM, every day of the week from October 1st, 2023 to January 1st, 2024.

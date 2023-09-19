@@ -63,3 +63,22 @@ You can duplicate or delete a campaign:
 >[!NOTE]
 >
 >The **Deliveries** tab displays all deliveries linked to the campaign. However, deliveries created in a workflow cannot be deleted from there. To delete a delivery created in the context of a workflow, you must delete the delivery activity from the workflow. [Learn more](../msg/gs-messages.md#delivery-delete).
+
+## Work with campaign templates{#manage-campaign-templates}
+
+Campaign templates contain pre-configured settings which can be reused for creating new workflows. A set of built-in templates is available to help you get started. You can create and configure your campaign templates and then create campaigns from these templates.
+
+A campaign template can store the following information:
+
+* the campaign's **Properties** and **Schedule** settings 
+* workflow templates
+* delivery templates
+
+To create a campaign template, follow the steps below:
+
+1. Click the **[!UICONTROL Campaigns]** menu, browse to the **Templates** tab, then click the **[!UICONTROL Create template]** button.
+1. Select the **Template** to use and provide a label for the campaign. This allows you to base your new template on a template already created.
+1. If needed, you can change the following **Additional options**: internal name, folder, assignee, description and nature.
+1. Define the **Schedule** of your campaign. Learn how to set your campaign schedule in [this section](create-campaigns.md#campaign-schedule)
+1. Click **Create**.
+1. Add workflows and delivery templates to your campaign.
