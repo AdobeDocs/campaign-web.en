@@ -22,7 +22,7 @@ Several services can be defined in parallel, for example: newsletters for specif
 
 To learn more on managing subscriptions and unsubscriptions, refer to the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/subscriptions.html){target="_blank"}.
 
-## Access susbscription services {#access-services}
+## Access subscription services {#access-services}
 
 To access subscription services available for your platform, follow the steps below.
 

@@ -74,7 +74,7 @@ In the CUSTOMER MANAGEMENT section, you can view your recipients, audiences, and
 * **Audiences** - This is your list of audiences. By default, you can view their type, origin, creation/last modification dates and label. You can filter the list by origin. Learn more about audiences and lists in [this section](../audience/about-audiences.md).
 * **Subscriptions** - Browse through your subscriptions lists. By default, you can view their type, mode and label. Learn how to manage subscriptions and unsubscriptions in [Adobe Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html){target="_blank"}. 
 
-### Decision Management
+### Decision Management {#decision-management}
 
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
@@ -88,7 +88,7 @@ In the CUSTOMER MANAGEMENT section, you can view the offers and offer templates.
 
 Learn how to create and send offers in emails and SMS in [this section](../content/offers.md).
 
-## Top bar
+## Top bar {#top-bar}
 
 Use the top bar of the interface to:
 
