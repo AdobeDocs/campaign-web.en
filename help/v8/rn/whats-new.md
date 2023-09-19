@@ -38,7 +38,7 @@ Use the new Campaign Web UI to:
 
 * Design personalized email content with the email designer - [Learn more](../content/edit-content.md)
 * Send cross cannel campaigns, including SMS and push notifications - [Learn more](../workflows/activities/channels.md)
-* Define target audiences with the rule builder - [Learn more](../audience/about-audiences.md)
+* Define target audiences with the rule builder - [Learn more](../audience/about-recipients.md)
 * Preview, test and send your messages - [Learn more](../monitor/prepare-send.md)
 * Monitor send and measure results with built-in reports - [Learn more](../reporting/delivery-reports.md)
 
@@ -118,7 +118,7 @@ As an existing Campaign user, note that some concepts have been renamed to align
 * Seed addresses are now used as **Test profiles**: send the test email to seed addresses, which are additional recipients in the database. [Learn more](../preview-test/test-deliveries.md).
 * Delivery analysis is now the **delivery preparation**. When you need to launch the message preparation, click the **Prepare** button. [Learn more](../monitor/prepare-send.md).
 * Email Preview is now available throught the **Simulate content** button. [Learn more](../preview-test/preview-test.md)
-* Lists are now **Audiences**. [Learn more](../audience/about-audiences.md).
+* Lists are now **Audiences**. [Learn more](../audience/about-recipients.md).
 
 ## Limitations{#limitations-beta}
 

@@ -20,7 +20,7 @@ A template can include:
 
 * [Typologies](../advanced-settings/delivery-settings.md#typology),
 * The sender address,
-* An [audience](../audience/about-audiences.md), including [control groups](../audience/control-group.md),
+* An [audience](../audience/about-recipients.md), including [control groups](../audience/control-group.md),
 * Custom [content](../content/edit-content.md),
 * [Personalized fields](../personalization/personalize.md) and [conditional content](../personalization/conditions.md),
 * Links to [mirror page](../content/mirror-page.md) and unsubscription [links](../content/message-tracking.md),

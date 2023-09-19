@@ -23,13 +23,13 @@ To define the audience population, you can:
 
 >[!NOTE]
 >
->In this context, you cannot load an audience from a file. For this, you need to create a standalone email delivery. [Learn more](../../audience/about-audiences.md)
+>In this context, you cannot load an audience from a file. For this, you need to create a standalone email delivery. [Learn more](../../audience/about-recipients.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
 -->
 
-## Configure the Build audience activity
+## Configure the Build audience activity{#build-audience-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_dimension"
@@ -38,6 +38,8 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 
 Follow these steps to configure the **Build audience** activity:
+
+![](../assets/workflow-audience.png)
 
 1. Add a **Build audience** activity. 
 1. Define a label.
@@ -60,7 +62,7 @@ To select an existing audience, follow these steps:
 >
 >If you want to use a **[!UICONTROL Build audience]** activity targeting an Experience Platform audience, you need to add a **[!UICONTROL Change dimension]** activity after it, to ensure that the audience's targeting dimension is set to "Recipient". A workflow example is available at the bottom of this page.
 
-## Examples
+## Examples{#build-audience-examples}
 
 Here is an example of a workflow with two **Build audience** activities. The first one targets the poker players audience, followed by an email delivery. The second one targets the VIP clients audience, followed by an SMS delivery.
 

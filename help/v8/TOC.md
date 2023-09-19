@@ -77,8 +77,7 @@ hide: yes
     + [Send test deliveries](preview-test/test-deliveries.md)
     + [Render your email](preview-test/email-rendering.md)
 + Audiences & recipients {#audiences}
-  + [Get started with audiences](audience/about-audiences.md)
-  + [Work with recipients](audience/about-recipients.md)
+  + [Work with recipients & audiences](audience/about-recipients.md)
   + [Create audiences](audience/create-audience.md)
   + [Monitor & manage audiences](audience/access-audiences.md)
   + Target audiences {#target-audiences}
@@ -86,7 +85,7 @@ hide: yes
     + [Define an audience with the rule builder](audience/segment-builder.md)
     + [Load an email audience from a file](audience/file-audience.md)
     + [Use an Adobe Experience Platform audience](audience/aep-audience.md)
-  + [Set a control group](audience/control-group.md)
+    + [Set a control group](audience/control-group.md)
   + [Work with subscription services](audience/create-service.md)
 + Cross-channel campaigns {#campaigns}
   + [Get started with campaigns](campaigns/gs-campaigns.md)
