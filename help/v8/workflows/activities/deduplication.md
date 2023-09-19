@@ -54,10 +54,13 @@ Follow these steps to configure the **Deduplication** activity:
 1. Select the **Deduplication method** to use:
 
     * **Random selection**: randomly selects the record to be kept out of the duplicates.
-    * **Using an expression**: this lets you keep the records in which the value of the expression entered is the smallest or the biggest. ++ Expression ++ Sort
-    * **Following a list of values**: lets you define a value priority for one or more fields. To define the values, click **Attribute** to select a field or create an expression, then add the value(s) into the appropriate table. To define a new field, click the Add button located above the list of values. ++ Sort
+    * **Using an expression**: this lets you keep the records in which the value of the expression entered is the smallest or the biggest.
+    * **Following a list of values**: lets you define a value priority for one or more fields. To define the values, click **Attribute** to select a field or create an expression, then add the value(s) into the appropriate table. To define a new field, click the Add button located above the list of values. 
 
 1. Check the **Generate complement** option if you wish to exploit the remaining population. The complement consists of all the duplicates. An additional transition will then be added to the activity.
 
 ## Example{#example}
 
+In the following example, we use a deduplication activity to exclude duplicates from the target before sending a delivery. The identified duplicates are added to a dedicated duplicates audience that can be reused if necessary. We use the **Email** field to identify the duplicates. We choose to keep 1 entry and select the **Random** deduplication method. 
+
+![](../assets/workflow-deduplication-example.png)
