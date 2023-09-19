@@ -9,6 +9,10 @@ badge: label="Beta"
 
 After you've crafted and personalized your emails, you can enhance your content using the Content Assistant, powered by generative AI. This feature simplifies the process of personalization and content improvement.
 
+>[!AVAILABILITY]
+>
+>This capability will be available early October.
+
 In the example below, learn how to leverage the Content Assistant to optimize and improve your content, ensuring a more user-friendly experience. Follow these steps:
 
 1. After creating and configuring your Email delivery, click **[!UICONTROL Edit content]**.
