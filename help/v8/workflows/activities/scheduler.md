@@ -20,7 +20,7 @@ The **Scheduler** activity is a **Flow control** activity. It allows you to sche
 
 * Do not schedule a workflow to run more than every 15 minutes as it may impede overall system performance and create blocks in the database.
 * If you want to send a one-shot delivery in your workflow, you can add a scheduler activity and set it to run **Once**. You can also define the **Schedule** in the delivery's settings.
-* If you want to send a recurring delivery in your workflow, you need to use a **Scheduler** activity and set the execution frequency. The recurring delivery ativity does not allow you to define a schedule.
+* If you want to send a recurring delivery in your workflow, you need to use a **Scheduler** activity and set the execution frequency. The recurring delivery activity does not allow you to define a schedule.
 
 ## Configuration{#scheduler-configuration}
 
@@ -66,8 +66,6 @@ Follow these steps to configure the **Scheduler** activity:
 >[!NOTE]
 >
 >If you want to start the workflow right away, you can click the **Execute pending task** in the scheduler's top action bar. This button is only available when you have started the workflow.
-
-Notes: 
 
 ## Example{#scheduler-example}
 
