@@ -39,7 +39,7 @@ Artificial intelligence and machine learning models improve over time to better 
 
 ## Recommendations  {#recommendations-ai}
 
-When asking a question in the AI-powered Knowledge Assistant, the current product context, i.e the Campaign screen you are in, is taken into account. 
+When asking a question in the AI-powered Knowledge Assistant, the current product context, i.e the Campaign screen you are in and the content of the current help box, is taken into account. 
 
 To get the best of the AI-powered Knowledge Assistant, when asking a question, we advice you to:
 
