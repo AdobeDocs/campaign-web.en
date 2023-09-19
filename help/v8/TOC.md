@@ -92,7 +92,6 @@ hide: yes
   + [Get started with campaigns](campaigns/gs-campaigns.md)
   + [Access & manage campaigns](campaigns/manage-campaigns.md)
   + [Create your first campaign](campaigns/create-campaigns.md)
-  + [Work with campaign templates](campaigns/manage-campaign-templates.md)
 + Workflows {#wf}
   + [Get started with workflows](workflows/gs-workflows.md)
   + [Access & manage workflows](workflows/access-monitor.md)
