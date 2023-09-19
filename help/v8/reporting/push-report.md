@@ -11,6 +11,11 @@ badge: label="Beta"
 >title="Push report summary"
 >abstract="Discover the reporting metrics for your Push delivery."
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_sending_push"
+>title="Reporting sending"
+>abstract="The Sending tab within your report provides in-depth insights into your visitors' interactions with your deliveries and any potential errors they may have encountered."
+
 The **Push delivery report** provides a thorough overview of the push channel, offering extensive insights and specific data. It offers comprehensive information regarding the performance, effectiveness, and results of each delivery.
 
 ## Push summary {#push-summary}
@@ -62,6 +67,11 @@ The **Push delivery report** provides a thorough overview of the push channel, o
     ![](assets/reporting_push_6.png) 
 
 ## Delivery throughput {#delivery-throughput}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_throughput_push"
+>title="Delivery throughput report"
+>abstract="The Delivery throughput report presents detailed information regarding the delivery throughput of the entire platform within a specified timeframe."
 
 This report presents detailed information regarding the delivery throughput of the entire platform within a specified timeframe. The primary metric used to measure the speed of message delivery is the number of messages sent per hour.
 
