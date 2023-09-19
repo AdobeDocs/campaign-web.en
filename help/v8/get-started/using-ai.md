@@ -3,9 +3,9 @@ title: Using AI-powered knowlegde assistant in Campaign Web
 description: Using AI-powered knowlegde assistant in Campaign Web
 badge: label="Beta" 
 ---
-# Using the AI-powered knowledge assistant {#using-ai}
+# Using the AI-powered Knowledge Assistant {#using-ai}
 
-Get fast, AI-generated answers based on the product documentation, and your current product context, with the AI-powered knowkedge assistant available in the product contextual help boxes.
+Get fast, AI-generated answers based on the product documentation, and your current product context, with the AI-powered Knowkedge Assistant available in the product contextual help boxes.
 
 >[!AVAILABILITY]
 >
@@ -39,12 +39,12 @@ Artificial intelligence and machine learning models improve over time to better 
 
 ## Recommendations  {#recommendations-ai}
 
-When asking a question in the contextual help, the current product context is taken into account. 
+When asking a question in the AI-powered Knowledge Assistant, the current product context, i.e the Campaign screen you are in, is taken into account. 
 
-To get the best of the assistant, when asking a question, we advice you to:
+To get the best of the AI-powered Knowledge Assistant, when asking a question, we advice you to:
 
 * Be as precise and specific as possible and avoid ambiguity. The answer will be more accurate and helpful. 
-* To help the knowledge assistant find the correct information, add as much details as possible about what you are trying to learn.
+* To help the AI-powered Knowledge Assistant find the correct information, add as much details as possible about what you are trying to learn.
 * Rephrase and refine your questions to get better answers. If the answer is not accurate or useful, try different approaches and add context to get better results.
 * Use appropriate terms and wording, with a neutral tone.
 * Rate the answers and provide feedback so that our engineers can learn from your experience, and improve results.

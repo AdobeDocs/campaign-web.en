@@ -49,35 +49,31 @@ Key capabiities coming with Campaign Web Beta are listed below.
 
 * **More Campaign Workflow activities**
 
-    Supercharge your marketing campaigns with our expanded set of workflow activities. Unlock new possibilities for automation and optimization, allowing you to create more dynamic and personalized customer journeys. 
-    
-    From advanced segmentation to conditional triggers, our additional workflow activities empower you to deliver targeted messages and drive better campaign performance.
+    Supercharge your marketing campaigns with our **expanded set of workflow activities**. Unlock new possibilities for automation and optimization, allowing you to create more dynamic and personalized customer journeys. From advanced segmentation to conditional triggers, our additional workflow activities empower you to deliver targeted messages and drive better campaign performance.
 
     Learn more in [this section](../workflows/gs-workflows.md).
 
 * **Gen AI for Email content**
 
-    Say goodbye to manual content creation and hello to efficient, data-driven campaigns with the power of Gen AI.  Our Gen AI technology utilizes advanced algorithms to generate highly engaging and personalized content. Drive higher open rates, click-through rates, and conversions with Gen AI's intelligent content generation. Stay ahead of the competition and elevate your email marketing game with Gen AI on email content. This capability will be available starting early October.
+    Say goodbye to manual content creation and hello to efficient, data-driven campaigns with the power of Gen AI.  Our Gen AI technology utilizes advanced algorithms to **generate highly engaging and personalized content**. Drive higher open rates, click-through rates, and conversions with Gen AI's intelligent content generation. Stay ahead of the competition and elevate your email marketing game with Gen AI on email content. This capability will be available starting early October.
 
     Learn more in [this section](../content/generative-gs.md).
 
 * **Predefined Filters**
     
-    Introducing Predefined Filter Management. Campaign web UI now offers you an user-friendly interface to effortlessly manage and customize predefined filters to meet your specific needs. Create once and save for future use.
+    Introducing Predefined Filter Management. Campaign web UI now offers you an user-friendly interface to effortlessly **manage and customize predefined filters** to meet your specific needs. Create once and save for future use.
 
     Learn more in [this section](../get-started/predefined-filters.md).
 
 * **Target Audience with the rule builder**
 
-    Building a delivery target has never been easier! With our latest rule builder, you now have the ability to define filtering criteria for recipients or any other targeting dimension from the database. What's more, you can take advantage of your AEP (Adobe Experience Platform) audience to further refine your target audience and maximize your campaign's impact.
+    Building a delivery target has never been easier! With our **latest rule builder**, you now have the ability to define filtering criteria for recipients or any other targeting dimension from the database. What's more, you can take advantage of your AEP (Adobe Experience Platform) audience to further refine your target audience and maximize your campaign's impact.
 
     Learn more in [this section](../audience/segment-builder.md).
 
 * **SMS with offers**
 
-    The new web UI now enables you to integrate offers with SMS in addition to Email. Reach your audience on their mobile devices, delivering promotions, and timely notifications. 
-    
-    Elevate your marketing efforts by harnessing the power of integrated offers through SMS on our advanced web platform.
+    The new web UI now enables you to **integrate offers with SMS** in addition to Email. Reach your audience on their mobile devices, delivering promotions, and timely notifications. Elevate your marketing efforts by harnessing the power of integrated offers through SMS on our advanced web platform.
    
     Learn more in [this section](../content/offers.md).
 
@@ -91,13 +87,13 @@ Key capabiities coming with Campaign Web Beta are listed below.
 
 * **Knowledge Assistant with Gen AI**
 
-    Ask questions and find guidance directly from the product user interface. The new AI-powered knowledge assistant, embedded in the contextual help popovers, helps you learn and grow your expertise on new Campaign features. Based on the latest product documentation, it assists you to find help and get step-by-step guidance instantly, as you are building your use cases. This capability will be available starting early October.
+    Ask questions and find guidance directly from the product user interface. The new **AI-powered Knowledge Assistant**, embedded in the contextual help popovers, helps you learn and grow your expertise on new Campaign features. Based on the latest product documentation, it assists you to find help and get step-by-step guidance instantly, as you are building your use cases. This capability will be available starting early October.
        
     Learn more in [this section](../get-started/using-ai.md).
 
 * **HTML Converter for email design**
 
-    You can now import and convert any HTML content in Campaign's email editor. Content blocks are automatically identified, and available in the email designer: use its powerful design capabilities to update and personalize it!
+    You can now **import and convert any HTML content** in Campaign's email editor. Content blocks are automatically identified, and available in the email designer: use its powerful design capabilities to update and personalize it!
 
     Learn more in [this section](../content/existing-content.md).
 
@@ -130,3 +126,4 @@ The limitations below apply to this Beta version:
 * Delivery dashboard KPIs are updated every 5 min. - but the Delivery preparation is real-time.
 * Adobe Experience Cloud Notifications and Unified Help available in the top bar are not yet integrated.
 
+More guardrails and limitations are available in [this page](../get-started/guardrails.md).

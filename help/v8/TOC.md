@@ -18,9 +18,9 @@ hide: yes
   + [Browse, search, and filter lists](get-started/list-filters.md)
   + [Work with predefined filters](get-started/predefined-filters.md)
   + [Access and permissions](get-started/permissions.md)
-  + [Guardrails and limitations](get-started/guardrails.md)
+  + [Guardrails & limitations](get-started/guardrails.md)
   + [Unsupported capabilites](get-started/unsupported.md)
-  + [Find help and guidance](get-started/using-ai.md)
+  + [Find help & guidance](get-started/using-ai.md)
 + Messages & deliveries {#msg}
   + [Get started with messages](msg/gs-messages.md)
   + [Work with delivery templates](msg/delivery-template.md)
