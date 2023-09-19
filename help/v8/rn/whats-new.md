@@ -116,7 +116,7 @@ As an existing Campaign user, note that some concepts have been renamed to align
 
 * Proofs are now **Test emails**: to send a proof, use the **Test** button in the email delivery UI. The target of the proofs is now refered as **Test profiles**. [Learn more](../preview-test/test-deliveries.md).
 * Seed addresses are now used as **Test profiles**: send the test email to seed addresses, which are additional recipients in the database. [Learn more](../preview-test/test-deliveries.md).
-* Delivery analysis is now the **delivery preparation**. When you need to launch the analysis, click the **Prepare** button. [Learn more](../monitor/prepare-send.md).
+* Delivery analysis is now the **delivery preparation**. When you need to launch the message preparation, click the **Prepare** button. [Learn more](../monitor/prepare-send.md).
 * Email Preview is now available throught the **Simulate content** button. [Learn more](../preview-test/preview-test.md)
 * Lists are now **Audiences**. [Learn more](../audience/about-audiences.md).
 
