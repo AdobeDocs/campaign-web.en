@@ -30,7 +30,7 @@ Start building your workflow with the relevant activities before placing the del
 
     ![](../../msg/assets/add-delivery-in-wf.png)
 
-## Set up the delivery {#create-a-delivery-in-a-workflow}
+## Configure the Channel activity {#create-a-delivery-in-a-workflow}
 
 
 >[!CONTEXTUALHELP]
