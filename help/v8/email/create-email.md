@@ -73,7 +73,7 @@ To create a new standalone email delivery, follow the steps below.
 
 In this use case, you send the email to an existing audience.
 
-Additional instructions on how to work with audiences are available in [this section](../audience/about-audiences.md).
+Additional instructions on how to work with audiences are available in [this section](../audience/about-recipients.md).
 
 1. To select the audience for the email, click the **[!UICONTROL Select audience]** button and choose an existing audience from the list.
 

@@ -19,7 +19,7 @@ badge: label="Beta"
 
 The **Change dimension** activity is a **Targeting** activity. This activity allows you to change the targeting dimension as you are building an audience. This activity shifts the axis depending on the data template and the input dimension. For example, you can switch from the "contracts" dimension to the "clients" dimension.
 
-## Configuration
+## Configure the Change dimension activity {#configure}
 
 Follow these steps to configure the **Change dimension** activity:
 
@@ -31,5 +31,6 @@ Follow these steps to configure the **Change dimension** activity:
 
 1. Execute the workflow to view the result. Compare the data in the tables before and after the change dimension activity, and compare the structure of the workflow tables.
 
+## Example {#example}
 
 

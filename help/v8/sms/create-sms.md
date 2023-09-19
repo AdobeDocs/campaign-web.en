@@ -45,7 +45,7 @@ To create a new standalone SMS delivery, follow these steps:
     * **[!UICONTROL Nature]**: Specify the email's nature for classification purposes.
     +++
 
-1. Click the **[!UICONTROL Select audience]** button to target an existing audience or create your own. [Learn more](../audience/about-audiences.md).
+1. Click the **[!UICONTROL Select audience]** button to target an existing audience or create your own. [Learn more](../audience/about-recipients.md).
 
     ![](assets/sms_create_2.png)
 

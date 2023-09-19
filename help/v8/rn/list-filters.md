@@ -36,7 +36,7 @@ Use the new Campaign Web UI to:
 
 * Design personalized email content with the email designer - [Learn more](../content/edit-content.md)
 * Send cross cannel campaigns, including SMS and push notifications.
-* Define target audiences with the rule builder - [Learn more](../audience/about-audiences.md)
+* Define target audiences with the rule builder - [Learn more](../audience/about-recipients.md)
 * Preview, test and send your email messages - [Learn more](../monitor/prepare-send.md)
 * Monitor send and measure results with built-in reports - [Learn more](../reporting/delivery-reports.md)
 

@@ -73,7 +73,7 @@ To create a standalone delivery, follow these steps:
     * [Push notification channel](../push/gs-push.md)
     * [SMS channel](../sms/create-sms.md)
 
-1. Define the delivery audience, for the main target and the control group. Learn more about audiences in [this section](../audience/about-audiences.md).
+1. Define the delivery audience, for the main target and the control group. Learn more about audiences in [this section](../audience/about-recipients.md).
 1. Define the message content.
 1. (optional) Define the delivery [schedule](#gs-schedule). If no schedule is defined, messages are sent immediatly after clicking the **[!UICONTROL Send]** button.
 1. Click the  **[!UICONTROL Review and send]** button to check your settings.

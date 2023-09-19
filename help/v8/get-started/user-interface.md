@@ -71,7 +71,7 @@ In the CAMPAIGN MANAGEMENT section, you can access marketing campaigns, deliveri
 In the CUSTOMER MANAGEMENT section, you can view your recipients, audiences, and subscriptions. These lists are read-only.
 
 * **Recipients** - Access your recipient database. By default, you can view their email address, first name and last name. Learn more about recipients in [this section](../audience/about-recipients.md).
-* **Audiences** - This is your list of audiences. By default, you can view their type, origin, creation/last modification dates and label. You can filter the list by origin. Learn more about audiences and lists in [this section](../audience/about-audiences.md).
+* **Audiences** - This is your list of audiences. By default, you can view their type, origin, creation/last modification dates and label. You can filter the list by origin. Learn more about audiences and lists in [this section](../audience/about-recipients.md).
 * **Subscriptions** - Browse through your subscriptions lists. By default, you can view their type, mode and label. Learn how to manage subscriptions and unsubscriptions in [Adobe Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html){target="_blank"}. 
 
 ### Decision Management {#decision-management}

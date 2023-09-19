@@ -80,7 +80,7 @@ To select the recipients of a test delivery, follow the steps below according to
 
 To send a test email or SMS to a specific email address or phone number while displaying data from an existing profile of the [!DNL Campaign] database, use substitution profiles.
 
-1. Before sending a test, make sure you define a target audience for you delivery. [Learn more](../audience/about-audiences.md)
+1. Before sending a test, make sure you define a target audience for you delivery. [Learn more](../audience/about-recipients.md)
 
 1. Browse to the edit content screen of your email or SMS delivery, then click the **[!UICONTROL Simulate content]** button.
 
@@ -92,7 +92,7 @@ To send a test email or SMS to a specific email address or phone number while di
 
     >[!CAUTION]
     >
-    >If you have not selected an [audience](../audience/about-audiences.md) for your delivery, the **[!UICONTROL Substitute from main target]** option will be greyed out and you will not be able to select substitution profiles.
+    >If you have not selected an [audience](../audience/about-recipients.md) for your delivery, the **[!UICONTROL Substitute from main target]** option will be greyed out and you will not be able to select substitution profiles.
 
 1. Click the **[!UICONTROL Add address]** button and specify the email address or phone number that will receive the test delivery.
 
