@@ -45,7 +45,7 @@ With Firebase Cloud Messaging, you can choose between two types of messages:
 
 * The **[!UICONTROL Notification message]**, handled automatically by the FCM SDK. FCM automatically displays the message on your users' devices on behalf of the client app. Notification messages contain a predefined set of parameters and options but can still be further personalized with custom application variables.
 
-    To compose your message, click the **[!UICONTROL Title]** and **[!UICONTROL Body]** fields. Use the Expression editor to define content, personalize data and add dynamic content.
+    To compose your message, click the **[!UICONTROL Title]** and **[!UICONTROL Message]** fields. Use the Expression editor to define content, personalize data and add dynamic content.
     
     To further personalize your push notification, you can choose an image to add to your push notification, the notification's icon to display on your profiles' devices and its color.
 
@@ -53,7 +53,7 @@ With Firebase Cloud Messaging, you can choose between two types of messages:
 
 >[!TAB iOS]
 
-To compose your message, click the **[!UICONTROL Title]** and **[!UICONTROL Body]** fields. Use the Expression editor to define content, personalize data and add dynamic content.
+To compose your message, click the **[!UICONTROL Title]** and **[!UICONTROL Message]** fields. Use the Expression editor to define content, personalize data and add dynamic content.
 
 You can add a **[!UICONTROL Subtitle]**, value of the subtitle parameter of the iOS notification payload. Refer to the this section.
 
