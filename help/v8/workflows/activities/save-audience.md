@@ -40,7 +40,7 @@ Follow these steps to configure the **Save audience** activity:
 
 1. Check the **Generate an outbound transition** option if you wish to add a transition after the **Save audience** activity.
 
-The content of the saved audience is then available in the detail view of the audience, which can be accessed from the **Audiences** menu. The columns available from this view correspond to the columns of the inbound transition of the workflow's **SAve audience** activity. 
+The content of the saved audience is then available in the detail view of the audience, which can be accessed from the **Audiences** menu. The columns available from this view correspond to the columns of the inbound transition of the workflow's **Save audience** activity. 
 
 
 ## Example{#save-audience-example}

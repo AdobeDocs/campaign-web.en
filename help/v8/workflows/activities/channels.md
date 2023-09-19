@@ -24,7 +24,7 @@ By using channel activities, you can create comprehensive and personalized campa
 
 Start building your workflow with the relevant activities before placing the delivery:
 
-* If you want to sent a reccuring delivery, start your workflow with a **Scheduler** activity. If you want to send a one-shot delivery, you can define the contact date using a **Scheduler** activity or define the schedule in the delivery's settings. See [this section](scheduler.md).
+* If you want to send a recurring delivery, start your workflow with a **Scheduler** activity. If you want to send a one-shot delivery, you can define the contact date using a **Scheduler** activity or define the schedule in the delivery's settings. See [this section](scheduler.md).
 
 * Add a **Build audience** activity. The audience is the main target of your delivery: the recipients who receive the messages. When sending messages in the context of a campaign workflow, the message audience is not defined in the channel activity, but in the **Build audience** activity. See [this section](build-audience.md).
 

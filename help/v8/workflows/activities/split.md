@@ -48,7 +48,7 @@ Follow these steps to configure the **Split** activity:
     >
     > Before configuring your subsets, ensure that you have added them in the correct order, as their position cannot be changed.
 
-1. Once subsets have been added, the activity shows as many output transitions as there are subsets. We strongly recommand changing the label of each subset to identify them easily in the workflow canvas. 
+1. Once subsets have been added, the activity shows as many output transitions as there are subsets. We strongly recommend changing the label of each subset to identify them easily in the workflow canvas. 
 
 1. Configure how each subset should filter the incoming population. To do this, follow these steps:
 

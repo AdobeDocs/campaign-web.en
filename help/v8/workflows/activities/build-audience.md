@@ -68,6 +68,6 @@ Here is an example of a workflow with two **Build audience** activities. The fir
 
 ![](../assets/workflow-audience-example.png)
 
-Here is another workflow example where an Adobe Experience Platform audience is combined with an Adobe Campaign audience. To allow these audiences to be combined, a **[!UICONTROL Change dimension]** activity with the "Recipient" targeting dimension is added after the Adobe Experience Platform audience. [Learn how to configure a Change dimenson activity](change-dimension.md)
+Here is another workflow example where an Adobe Experience Platform audience is combined with an Adobe Campaign audience. To allow these audiences to be combined, a **[!UICONTROL Change dimension]** activity with the "Recipient" targeting dimension is added after the Adobe Experience Platform audience. [Learn how to configure a Change dimension activity](change-dimension.md)
 
 ![](../assets/workflow-audience-aep.png)

@@ -23,7 +23,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 * The **Intersection** allows you to keep only the elements common to the different inbound populations in the activity.
 * The **Exclusion** allows you to exclude elements from one population according to certain criteria. 
 
-## Confifure the Combine activity {#combine-configuration}
+## Configure the Combine activity {#combine-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_intersection_merging_options"
