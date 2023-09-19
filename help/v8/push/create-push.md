@@ -46,7 +46,7 @@ To create a new standalone push delivery, follow these steps:
 
 1. From the **[!UICONTROL Audience]** menu, select the application you want to use for this delivery.
 
-1. Click the **[!UICONTROL Select audience]** button to target an existing audience or create your own. [Learn more](../audience/about-audiences.md)
+1. Click the **[!UICONTROL Select audience]** button to target an existing audience or create your own. [Learn more](../audience/about-recipients.md)
 
     Note that, by default, your push notification will be sent to all subscribers of the application.
 
