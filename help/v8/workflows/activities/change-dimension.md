@@ -17,7 +17,10 @@ badge: label="Beta"
 >title="Change dimension activity"
 >abstract="This activity allows you to change the targeting dimension as you are building an audience. It shifts the axis depending on the data template and the input dimension. For example, you can switch from the "contracts" dimension to the "clients" dimension."
 
-The **Change dimension** activity is a **Targeting** activity. This activity allows you to change the targeting dimension as you are building an audience. This activity shifts the axis depending on the data template and the input dimension. For example, you can switch from the "contracts" dimension to the "clients" dimension.
+The **Change dimension** activity is a **Targeting** activity. This activity allows you to change the targeting dimension as you are building your workflow.
+This activity shifts the axis depending on the data template and the input dimension.
+
+For example, you can switch a workflow's targeting dimension from "Recipients" to "Subbscribers application" in order to send push notifications to the targeted recipients.
 
 ## Configure the Change dimension activity {#configure}
 
@@ -33,4 +36,8 @@ Follow these steps to configure the **Change dimension** activity:
 
 ## Example {#example}
 
+In this example, we want to send an SMS delivery to all the profiles who have made a purchase. To do this, we first use a **[!UICONTROL Build audience]** activity linked to a custom "Purchase" targeting dimension to target all purchases that occured.
 
+We then use a **[!UICONTROL Change dimension]** activity to switch the workflow targeting dimension to "Recipients". This allows us to be able to target the recipients who match the query.
+
+![](assets/workflow-change-dimension-example.png)
