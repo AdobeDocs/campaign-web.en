@@ -10,7 +10,27 @@ The **Email delivery report** offers comprehensive insights and data specific to
 
 ## Delivery summary {#delivery-summary-email}
 
-* **[!UICONTROL Initial target audience statistics]** table displays data relative to your recipients:
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_sending_email"
+>title="Reporting sending"
+>abstract="The Sending menu within your report provides in-depth insights into your visitors' interactions with your deliveries and any potential errors they may have encountered."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_initial_target"
+>title="Initial target population widget"
+>abstract="The Initial target audience population graph displays data relative to your recipients and the success of your delivery."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_delivery_statistics_summary"
+>title="Delivery statistics widget"
+>abstract="The Delivery statistics graph details the success of your delivery and errors that occurred."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_exclusion"
+>title="Delivery statistics widget"
+>abstract="The Causes of exclusion graph and table show the breakdown per rule of messages rejected during the preparation."
+
+* **[!UICONTROL Initial target audience population]** graph displays data relative to your recipients:
 
     ![](assets/reporting_email_1.png){align="left" zoomable="yes"}
 
@@ -23,7 +43,7 @@ The **Email delivery report** offers comprehensive insights and data specific to
     * **[!UICONTROL Exclusion]**: Total number of messages excluded from the target sent.
     +++
 
-* **[!UICONTROL Delivery statistics]** table details the success of your delivery.
+* **[!UICONTROL Delivery statistics]** graph details the success of your delivery.
 
     ![](assets/reporting_email_2.png){align="left"}
 
@@ -63,9 +83,19 @@ The **Email delivery report** offers comprehensive insights and data specific to
 
 ## Delivery throughput {#delivery-throughtput}
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_throughput_email"
+>title="Delivery throughput widget"
+>abstract="The Delivery throughput report presents detailed information regarding the delivery throughput of the entire platform within a specified timeframe."
+
 This report presents detailed information regarding the delivery throughput of the entire platform within a specified timeframe. The primary metric used to measure the speed of message delivery is the number of messages sent per hour.
 
 ## Broadcast statistics {#broadcast-statistics}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_broadcast_statistics"
+>title="Broadcast statistics widget"
+>abstract="The Broadcast statistics table contains the available data for possible errors encountered with each domain."
 
 * **[!UICONTROL Broadcast statistics]** table contains the available data for possible errors encountered with each domain.
 
@@ -89,6 +119,16 @@ This report presents detailed information regarding the delivery throughput of t
     +++
 
 ## Non-deliverables and bounces {#non-deliverables-email}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_error_type"
+>title="Breakdown of errors per type widget"
+>abstract="The Breakdown of errors per type table and graph contain the available data for each error type encountered."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_error_domain"
+>title="Breakdown of errors per domain widget"
+>abstract="The Breakdown of errors per type table and graph contain the available data for each error type encountered depending on each domain."
 
 * **[!UICONTROL Breakdown of errors per type]** and **[!UICONTROL Breakdown of errors per domain]** tables and graphs contain the available data for possible errors encountered with each domain.
 
@@ -116,7 +156,20 @@ This report presents detailed information regarding the delivery throughput of t
 
 ## Tracking indicators {#tracking-indicators-email}
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_tracking_email"
+>title="Reporting tracking"
+>abstract="The Tracking tab within your report offers valuable data, including recipient behavior per link, breakdown of opens and clicks, as well as detailed information about the most frequently clicked URLs during a delivery."
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_delivery_statistics_indicators"
+>title=" Delivery statistics widget"
+>abstract="The Delivery statistics widget provides key performance indicators (KPIs) that give detailed information about data available for sent emails."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_open_clickthrough"
+>title="Open and click-through rate widget"
+>abstract="The Open and click-through rate table displays data relative to your recipients engagement with your delivery."
 
 * **[!UICONTROL Delivery statistics]** provides key performance indicators (KPIs) that give detailed information about data available for sent emails.
 
@@ -156,6 +209,11 @@ This report presents detailed information regarding the delivery throughput of t
 
 ## URLs and click streams {#url-email}
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_urls_clickstreams"
+>title="URLs and click streams widget"
+>abstract="The URLs and click streams provides key performance indicators (KPIs) that give detailed information about the URLs that were clicked the most during a delivery."
+
 * **[!UICONTROL URLs and click streams]** provides key performance indicators (KPIs) that give detailed information about the URLs that were clicked the most during a delivery.
 
     ![](assets/reporting_email_7.png){align="center"}
@@ -190,6 +248,11 @@ This report presents detailed information regarding the delivery throughput of t
 
 ## User Activities {#user-activities-email}
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_user_activities"
+>title="User activities widget"
+>abstract="The User activities graph shows the breakdown of opens and clicks in the form of a chart. You can choose the time period to target data: last day or hour or 30 minutes."
+
 * **[!UICONTROL User activities]** shows the breakdown of opens and clicks in the form of a chart. You can choose the time period to target data: last day or hour or 30 minutes.
 
     ![](assets/reporting_email_10.png){align="center"}
@@ -204,6 +267,10 @@ This report presents detailed information regarding the delivery throughput of t
 
 ## Tracking Statistics {#tracking-statistics}
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_statistics"
+>title="Tracking Statistics widget"
+>abstract="The Tracking Statistics graph provides statistics on opens and clicks. You have the option to select the specific time frame for targeting data."
 
 * **[!UICONTROL Tracking Statistics]** graph provides statistics on opens and clicks. You have the option to select the specific time frame for targeting data.
 
@@ -219,12 +286,27 @@ This report presents detailed information regarding the delivery throughput of t
 
 ## Breakdown of opens {#breakdown-opens}
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_breakdown_device"
+>title="Breakdown by device widget"
+>abstract="The Breakdown by device"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_breakdown_os"
+>title="Breakdown by OS widget"
+>abstract="The Breakdown by OS"
+
 This report shows the breakdown of opens by operating system, device and browser for the period concerned. For each category, two charts are used. The first displays statistics regarding opens on a computer and mobile devices. The second displays statistics relating only to opens on mobile devices.
 You have the flexibility to switch from **[!UICONTROL Fix & mobile]** to exclusively target **[!UICONTROL Mobile only]** for more precise targeting.
 
 ![](assets/reporting_email_13.png){align="center"}
 
 ## Hotclicks {#hotclicks}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_hotclicks"
+>title="Hotclicks report"
+>abstract="The Hotclicks report presents the message content with the percentage of clicks on each link."
 
 This report shows the message content (HTML and/or text) with, on each link, the percentage of clicks on links. Personalization blocks unsubscription links, mirror page links and offer links are taken into account in the total cumulated clicks but are not displayed in the report.
 

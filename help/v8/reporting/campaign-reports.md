@@ -14,7 +14,7 @@ badge: label="Beta"
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_tracking"
 >title="Reporting tracking"
->abstract="The Sending tab within your report offers valuable data, including recipient behavior per link, breakdown of opens and clicks, as well as detailed information about the most frequently clicked URLs during a delivery."
+>abstract="The Tracking tab within your report offers valuable data, including recipient behavior per link, breakdown of opens and clicks, as well as detailed information about the most frequently clicked URLs during a delivery."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
@@ -26,7 +26,7 @@ badge: label="Beta"
 >title="Initial target audience statistics"
 >abstract="The Initial target audience statistics table displays data relative to your recipients"
 
-The Campaign report is divided into different widgets detailing your campaign’s success and errors.
+The Campaign report is divided into different widgets detailing your campaign's success and errors.
 
 The Campaign report page will be displayed with the following tabs:
 
@@ -135,7 +135,7 @@ To access your Campaign report, click Reports from your campaign's dashboard.
 
     * **[!UICONTROL Invalid domain]**: Error type generated when sending a delivery to indicate that the domain of the email address is wrong or does not exist.
 
-    * **[!UICONTROL Mailbox full]**: Error type generated after five delivery attempts to indicate that the recipients’ inbox contains too many messages.
+    * **[!UICONTROL Mailbox full]**: Error type generated after five delivery attempts to indicate that the recipients' inbox contains too many messages.
 
     * **[!UICONTROL Account disabled]**: Error type generated when sending a delivery to indicate that the address no longer exists.
 
@@ -143,7 +143,7 @@ To access your Campaign report, click Reports from your campaign's dashboard.
 
     * **[!UICONTROL Unreachable]**: Error type which occurs in the message distribution string: incident on the SMTP relay, domain temporarily unreachable, etc
 
-    * **[!UICONTROL Not connected]**: Error type to indicate that the recipients’ mobile phone is switched off or disconnected from the network at the time of sending.
+    * **[!UICONTROL Not connected]**: Error type to indicate that the recipients' mobile phone is switched off or disconnected from the network at the time of sending.
 
     +++
 

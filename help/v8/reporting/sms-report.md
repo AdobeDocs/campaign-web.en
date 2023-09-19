@@ -11,6 +11,11 @@ badge: label="Beta"
 >title="SMS report summary"
 >abstract="Discover the reporting metrics for your SMS delivery."
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_sending_sms"
+>title="Reporting sending"
+>abstract="The Sending tab within your report provides in-depth insights into your visitors' interactions with your deliveries and any potential errors they may have encountered."
+
 The **SMS delivery report** offers a comprehensive overview of the SMS channel, providing extensive insights and specific data. It furnishes comprehensive information about the performance, effectiveness, and outcomes of each delivery.
 
 ## Delivery summary {#delivery-summary}
@@ -60,6 +65,11 @@ The **SMS delivery report** offers a comprehensive overview of the SMS channel, 
     ![](assets/reporting_sms_6.png)
 
 ## Delivery throughput {#delivery-throughput}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_throughput_sms"
+>title="Delivery throughput menu"
+>abstract="The Delivery throughput report presents detailed information regarding the delivery throughput of the entire platform within a specified timeframe."
 
 This report presents detailed information regarding the delivery throughput of the entire platform within a specified timeframe. The primary metric used to measure the speed of message delivery is the number of messages sent per hour.
 
