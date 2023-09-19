@@ -39,6 +39,8 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 Follow these steps to configure the **Build audience** activity:
 
+![](../assets/workflow-audience.png)
+
 1. Add a **Build audience** activity. 
 1. Define a label.
 1. Define the audience type: **Create your own** or **Read audience**. 
