@@ -10,6 +10,12 @@ The Content Assistant enhances your communication's impact by automatically gene
 
 Using Generative AI, you can effortlessly craft compelling emails that resonate with your audience, making your communication more effective and efficient.
 
+
+>[!AVAILABILITY]
+>
+>This capability will be available early October.
+
+
 1. After creating and configuring your Email delivery, click **[!UICONTROL Create content]**.
 
     For more information on how to configure your email delivery, refer to [this page](../content/create-email-content.md).
