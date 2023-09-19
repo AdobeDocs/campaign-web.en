@@ -22,10 +22,13 @@ All activities are detailed in the sections below:
 
 These activities are specific to targeting, manipulating and enriching population data. They let you build one or more targets by defining an audience and splitting or combining these audiences using intersection, union or exclusion operations.
 
+* The [Save audience](save-audience.md) activity allows you to update an existing audience or create a new audience from the population computed upstream in a workflow.
 * The [Build audience](build-audience.md) activity allows you define your target population. You can either select an existing audience or use the rule builder to define your own query. 
 * The [Combine](combine.md) activity allows to perform segmentation on your inbound population. You can use a union, an intersection or an exclusion.
-* The [Enrichment](enrichment.md) activity allows you to define additional data to process in your workflow. With this activity, you can leverage the inbound transition and configure the activity to complete the output transition with additional data.
 * The [Split](split.md) activity allows you to segment incoming population into several subsets.
+* The [Enrichment](enrichment.md) activity allows you to define additional data to process in your workflow. With this activity, you can leverage the inbound transition and configure the activity to complete the output transition with additional data.
+* The [Deduplication](deduplication.md) activity allows you to delete duplicates in the result(s) of the inbound activities.
+* The [Change dimension](change-dimension.md) activity allows you to change the targeting dimension as you are building your workflow.
 
 ## Channel activities {#channel}
 
@@ -49,6 +52,7 @@ Refer to this [section](channels.md).
 
 The following activities are specific to organizing and executing workflows. Their main task is to coordinate the other activities:
 
+* The [Scheduler](scheduler.md) activity allows you to schedule when the workflow gets started.
 * The [And-join](and-join.md) activity allows you to synchronize multiple execution branches of a workflow.
 * The **End** activity allows you to graphically mark the end of a workflow. This activity has no functional impact and is therefore optional.
 * The [Fork](fork.md) activity allows you to create outbound transitions to start several activities at the same time.

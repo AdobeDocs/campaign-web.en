@@ -45,10 +45,6 @@ The content of the saved audience is then available in the detail view of the au
 
 ## Example{#save-audience-example}
 
-The following example illustrates a simple audience update from targeting. A scheduler is added to run the workflow once a month. A query recovers all the profiles subscribed to the different application services available. The **Save audience** activity updates the audience by deleting profiles that have unsubscribed from the service since the last workflow execution and by adding the newly subscribed profiles.his example, 
-
-It is automatically executed once a month using a Scheduler.
-You can use a Query to recover all the profiles subscribed to the different application services available.
-The Save audience activity updates the audience by deleting profiles that have unsubscribed from the service since the last workflow execution and by adding the newly subscribed profiles.
+The following example illustrates a simple audience update from targeting. A scheduler is added to run the workflow once a month. A query recovers all the profiles subscribed to the different application services available. The **Save audience** activity updates the audience by deleting profiles that have unsubscribed from the service since the last workflow execution and by adding the newly subscribed profiles.
 
 
