@@ -82,7 +82,7 @@ In the CUSTOMER MANAGEMENT section, you can view your recipients, audiences, and
 >abstract="Browse through the lists of offers and offer templates that have been created in the console using the **Interaction** module. These lists are read-only."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html" text="Add offers to a delivery"
 
-In the CUSTOMER MANAGEMENT section, you can view the offers and offer templates. These lists are read-only.
+In the DECISION MANAGEMENT section, you can view the offers and offer templates. These lists are read-only.
 
 * **Offers** - Browse through the list of offers and offer templates that have been created in the console using the **Interaction** module. By default, you can view their status, start/end dates and environment. You can filter the list by status and start/end dates. Offer templates are also available.
 
