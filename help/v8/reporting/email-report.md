@@ -13,17 +13,17 @@ The **Email delivery report** offers comprehensive insights and data specific to
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_email"
 >title="Reporting sending"
->abstract="The Sending menu within your report provides in-depth insights into your visitors' interactions with your deliveries and any potential errors they may have encountered."
+>abstract="he **Sending** tab within your report provides in-depth insights into your visitors' interactions with your deliveries and any potential errors they may have encountered."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_initial_target"
 >title="Initial target population widget"
->abstract="The Initial target audience population graph displays data relative to your recipients and the success of your delivery."
+>abstract="The **Initial target audience population** graph displays data relative to your recipients and the success of your delivery."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_summary"
 >title="Delivery statistics widget"
->abstract="The Delivery statistics graph details the success of your delivery and errors that occurred."
+>abstract="The **Delivery statistics** graph details the success of your delivery and errors that occurred."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusion"
@@ -86,7 +86,7 @@ The **Email delivery report** offers comprehensive insights and data specific to
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_email"
 >title="Delivery throughput widget"
->abstract="The Delivery throughput report presents detailed information regarding the delivery throughput of the entire platform within a specified timeframe."
+>abstract="The **Delivery throughput** report presents detailed information regarding the delivery throughput of the entire platform within a specified timeframe."
 
 This report presents detailed information regarding the delivery throughput of the entire platform within a specified timeframe. The primary metric used to measure the speed of message delivery is the number of messages sent per hour.
 
@@ -95,7 +95,7 @@ This report presents detailed information regarding the delivery throughput of t
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_broadcast_statistics"
 >title="Broadcast statistics widget"
->abstract="The Broadcast statistics table contains the available data for possible errors encountered with each domain."
+>abstract="The **Broadcast statistics** table contains the available data for possible errors encountered with each domain."
 
 * **[!UICONTROL Broadcast statistics]** table contains the available data for possible errors encountered with each domain.
 
@@ -123,12 +123,12 @@ This report presents detailed information regarding the delivery throughput of t
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type"
 >title="Breakdown of errors per type widget"
->abstract="The Breakdown of errors per type table and graph contain the available data for each error type encountered."
+>abstract="The **Breakdown of errors per type** table and graph contain the available data for each error type encountered."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain"
 >title="Breakdown of errors per domain widget"
->abstract="The Breakdown of errors per type table and graph contain the available data for each error type encountered depending on each domain."
+>abstract="The **Breakdown of errors per domain** table and graph contain the available data for each error type encountered depending on each domain."
 
 * **[!UICONTROL Breakdown of errors per type]** and **[!UICONTROL Breakdown of errors per domain]** tables and graphs contain the available data for possible errors encountered with each domain.
 
@@ -159,17 +159,17 @@ This report presents detailed information regarding the delivery throughput of t
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_tracking_email"
 >title="Reporting tracking"
->abstract="The Tracking tab within your report offers valuable data, including recipient behavior per link, breakdown of opens and clicks, as well as detailed information about the most frequently clicked URLs during a delivery."
+>abstract="The **Tracking** tab within your report offers valuable data, including recipient behavior per link, breakdown of opens and clicks, as well as detailed information about the most frequently clicked URLs during a delivery."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_indicators"
 >title=" Delivery statistics widget"
->abstract="The Delivery statistics widget provides key performance indicators (KPIs) that give detailed information about data available for sent emails."
+>abstract="The **Delivery statistics** widget provides key performance indicators (KPIs) that give detailed information about data available for sent emails."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_open_clickthrough"
 >title="Open and click-through rate widget"
->abstract="The Open and click-through rate table displays data relative to your recipients engagement with your delivery."
+>abstract="The **Open and click-through rate** table displays data relative to your recipients engagement with your delivery."
 
 * **[!UICONTROL Delivery statistics]** provides key performance indicators (KPIs) that give detailed information about data available for sent emails.
 
@@ -212,7 +212,7 @@ This report presents detailed information regarding the delivery throughput of t
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_clickstreams"
 >title="URLs and click streams widget"
->abstract="The URLs and click streams provides key performance indicators (KPIs) that give detailed information about the URLs that were clicked the most during a delivery."
+>abstract="The **URLs and click streams** provides key performance indicators (KPIs) that give detailed information about the URLs that were clicked the most during a delivery."
 
 * **[!UICONTROL URLs and click streams]** provides key performance indicators (KPIs) that give detailed information about the URLs that were clicked the most during a delivery.
 
@@ -251,7 +251,7 @@ This report presents detailed information regarding the delivery throughput of t
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_user_activities"
 >title="User activities widget"
->abstract="The User activities graph shows the breakdown of opens and clicks in the form of a chart. You can choose the time period to target data: last day or hour or 30 minutes."
+>abstract="The **User activities** graph shows the breakdown of opens and clicks in the form of a chart. You can choose the time period to target data: last day or hour or 30 minutes."
 
 * **[!UICONTROL User activities]** shows the breakdown of opens and clicks in the form of a chart. You can choose the time period to target data: last day or hour or 30 minutes.
 
@@ -270,7 +270,7 @@ This report presents detailed information regarding the delivery throughput of t
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_statistics"
 >title="Tracking Statistics widget"
->abstract="The Tracking Statistics graph provides statistics on opens and clicks. You have the option to select the specific time frame for targeting data."
+>abstract="The **Tracking Statistics** graph provides statistics on opens and clicks. You have the option to select the specific time frame for targeting data."
 
 * **[!UICONTROL Tracking Statistics]** graph provides statistics on opens and clicks. You have the option to select the specific time frame for targeting data.
 
@@ -288,15 +288,16 @@ This report presents detailed information regarding the delivery throughput of t
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_device"
->title="Breakdown by device widget"
->abstract="The Breakdown by device"
+>title="Breakdown by device"
+>abstract="The **Breakdown by device** shows the breakdown of opens by type of device for the period concerned. The first chart displays statistics regarding opens on a computer and mobile devices. The second displays statistics relating only to opens on mobile devices."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_os"
->title="Breakdown by OS widget"
->abstract="The Breakdown by OS"
+>title="Breakdown by OS"
+>abstract="The **Breakdown by OS** shows the breakdown of opens by operating system for the period concerned. The first chart displays statistics regarding opens on a computer and mobile devices. The second displays statistics relating only to opens on mobile devices."
 
 This report shows the breakdown of opens by operating system, device and browser for the period concerned. For each category, two charts are used. The first displays statistics regarding opens on a computer and mobile devices. The second displays statistics relating only to opens on mobile devices.
+
 You have the flexibility to switch from **[!UICONTROL Fix & mobile]** to exclusively target **[!UICONTROL Mobile only]** for more precise targeting.
 
 ![](assets/reporting_email_13.png){align="center"}
@@ -306,8 +307,8 @@ You have the flexibility to switch from **[!UICONTROL Fix & mobile]** to exclusi
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_hotclicks"
 >title="Hotclicks report"
->abstract="The Hotclicks report presents the message content with the percentage of clicks on each link."
+>abstract="The **Hotclicks** report presents the email content (HTML and/or text) with, on each link, the percentage of clicks on links. Personalization blocks, unsubscription links, mirror page links, and offer links are taken into account in the total cumulated clicks, but are not displayed in the report."
 
-This report shows the message content (HTML and/or text) with, on each link, the percentage of clicks on links. Personalization blocks unsubscription links, mirror page links and offer links are taken into account in the total cumulated clicks but are not displayed in the report.
+This report shows the message content (HTML and/or text) with, on each link, the percentage of clicks on links. Personalization blocks, unsubscription links, mirror page links, and offer links are taken into account in the total cumulated clicks, but are not displayed in the report.
 
 ![](assets/reporting11.png)

@@ -9,12 +9,12 @@ badge: label="Beta"
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
 >title="Push report summary"
->abstract="Discover the reporting metrics for your Push delivery."
+>abstract="The **Push delivery overview** offers a comprehensive overview of your push delivery, providing extensive insights and specific data. It furnishes comprehensive information about the performance, effectiveness, and results of your delivery."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_push"
 >title="Reporting sending"
->abstract="The Sending tab within your report provides in-depth insights into your visitors' interactions with your deliveries and any potential errors they may have encountered."
+>abstract="he **Sending** tab within your report provides in-depth insights into your visitors' interactions with your deliveries and any potential errors they may have encountered."
 
 The **Push delivery report** provides a thorough overview of the push channel, offering extensive insights and specific data. It offers comprehensive information regarding the performance, effectiveness, and results of each delivery.
 
