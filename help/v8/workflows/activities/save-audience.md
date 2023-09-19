@@ -18,13 +18,13 @@ The **Save audience** activity is a **Targeting** activity. This activity allows
 
 This activity is essentially used to keep population groups computed in the same workflow, by converting them into reusable audiences. Connect it to other targeting activities such as a **Build audience** or a **Combine** activity. 
 
-## Configuration
+## Configure the Save audience activity{#save-audience-configuration}
 
 Follow these steps to configure the **Save audience** activity:
 
-1. Add a **Save audience** activity to your workflow.
+![](../assets/workflow-save-audience.png)
 
-   ![](../assets/workflow-save-audience.png)
+1. Add a **Save audience** activity to your workflow.
 
 1. In the **Mode** drop-down, select the action that you would like to carry out:
 
@@ -43,6 +43,8 @@ Follow these steps to configure the **Save audience** activity:
 The content of the saved audience is then available in the detail view of the audience, which can be accessed from the **Audiences** menu. The columns available from this view correspond to the columns of the inbound transition of the workflow's **SAve audience** activity. 
 
 
-## Example
+## Example{#save-audience-example}
+
+The following example illustrates a simple audience update from targeting. A scheduler is added to run the workflow once a month. A query recovers all the profiles subscribed to the different application services available. The **Save audience** activity updates the audience by deleting profiles that have unsubscribed from the service since the last workflow execution and by adding the newly subscribed profiles.
 
 

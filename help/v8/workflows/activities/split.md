@@ -15,7 +15,7 @@ badge: label="Beta"
 
 The **Split** activity is a **Targeting** activity that allows you to segment incoming populations into multiple subsets based on different selection criteria, such as filtering rules or population size.
 
-## Configuration {#general}
+## Configure the Split activity {#split-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_filter"
@@ -72,7 +72,7 @@ Follow these steps to configure the **Split** activity:
 
 The activity is now configured. At workflow execution, the population will be segmented into the different subsets, in the order they have been added to the activity. 
 
-## Example
+## Example{#split-example}
 
 In the following example, the **[!UICONTROL Split]** activity is used to segment an audience into distinct subsets based on the communication channel that we want to use :
 
