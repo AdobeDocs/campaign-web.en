@@ -20,15 +20,17 @@ badge: label="Beta"
 
 The **Fork** activity is a **Flow control** activity. It allows you to create outbound transitions to start several activities at the same time.
 
-## Configuration
+## Configure the Fork activity{#fork-configuration}
 
 Follow these steps to configure the **Fork** activity:
+
+![](../assets/workflow-fork.png)
 
 1. Add a **Fork** activity to your workflow.
 1. Click **Add transition** to add a new outbound transition. By default two transitions are defined.
 1. Add a label to each of your transitions. 
 
-## Example
+## Example{#fork-example}
 
 In the following example, we're using two **Fork** activities:
 

@@ -59,8 +59,8 @@ Follow these steps to configure the **Deduplication** activity:
 
 1. Check the **Generate complement** option if you wish to exploit the remaining population. The complement consists of all the duplicates. An additional transition will then be added to the activity.
 
-## Example{#example}
+## Example{#deduplication-example}
 
-In the following example, we use a deduplication activity to exclude duplicates from the target before sending a delivery. The identified duplicates are added to a dedicated duplicates audience that can be reused if necessary. We use the **Email** field to identify the duplicates. We choose to keep 1 entry and select the **Random** deduplication method. 
+In the following example, we use a deduplication activity to exclude duplicates from the target before sending a delivery. The identified duplicates are added to a dedicated audience that can be reused if necessary. We use the **Email** field to identify the duplicates. We choose to keep 1 entry and select the **Random** deduplication method. 
 
 ![](../assets/workflow-deduplication-example.png)
