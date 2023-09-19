@@ -6,7 +6,7 @@ badge: label="Beta"
 
 # Work with recipients & audiences {#about-recipients}
 
-## Recipients {#recipients}
+## What are recipients? {#recipients}
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
@@ -41,7 +41,7 @@ You can also access recipients from the **Explorer** view, browse and create fol
 
 In addition, you can manage the subscription and unsubscription of your recipients to services such as newsletters. [Learn how to work with subscription services](create-service.md)
 
-## Audiences {#audiences}
+## What are audiences? {#audiences}
 
 The audience is the main target of your delivery: the recipients who receive the messages. The type of audience depends on the target mapping defined in the delivery template. [Learn what is a delivery template](../msg/delivery-template.md). 
 
@@ -61,7 +61,13 @@ When targeting an audience, you can also define **control groups** to avoid send
 
 ## Targeting dimensions {#targeting-dimensions}
 
-By default, email and SMS delivery templates target **[!UICONTROL Recipients]**. Their target mapping therefore uses the fields of the **nms:recipient** table. For Push notifications, the default target mapping is **Subscriber applications (nms:appSubscriptionRcp)**, which is linked to the recipients table.
+The targeting dimension is the type of data that an operation is handling. It lets you define the targeted population: recipients, contract beneficiaries, operators, subscribers, etc.
+
+The targeting dimension of a workflow is defined by the first **[!UICONTROL Build audience]** activity and is used across all further activities until the end of the workflow. For example, if you perform a query on the recipients from the database, the outbound transition will contain data of type recipient and it will be transmitted to the next activity.
+
+Note that you can switch the targeting dimension in a workflow using a **[!UICONTROL Change dimension]** activity. [Learn more](../workflows/activities/change-dimension.md)
+
+By default, email and SMS delivery templates target **[!UICONTROL Recipients]**. Their target dimension therefore uses the fields of the **nms:recipient** table. For Push notifications, the default target dimension is **Subscriber applications nms:appSubscriptionRcp**, which is linked to the recipients table.
 
 You can also use other built-in target mappings for your deliveries that are listed below: 
 

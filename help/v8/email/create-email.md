@@ -69,7 +69,7 @@ To create a new standalone email delivery, follow the steps below.
 >title="Select an audience for your delivery"
 >abstract="Select the best audience for your marketing message. You can choose an existing audience (already defined in a Campaign v8 instance or from Adobe Experience Platform), create a new audience using the rule builder, or upload a file containing your audience. Control groups are not enabled for the **Select from file** option and vice versa."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html" text="Select the main audiences"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/control-group.html" text="Set a control group"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="Set a control group"
 
 In this use case, you send the email to an existing audience.
 
