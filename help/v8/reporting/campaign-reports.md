@@ -48,7 +48,7 @@ To access your Campaign report, click Reports from your campaign's dashboard.
 
     +++Learn more on Email campaign report metrics.
 
-    * **[!UICONTROL Total sent]**: Total number of messages processed during the delivery analysis.
+    * **[!UICONTROL Total sent]**: Total number of messages processed during the delivery preparation.
 
     * **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
 
@@ -68,7 +68,7 @@ To access your Campaign report, click Reports from your campaign's dashboard.
 
     * **[!UICONTROL Initial audience]**: Total number of targeted recipients.
 
-    * **[!UICONTROL Message to deliver]**: Total number of messages to be delivered after delivery analysis.
+    * **[!UICONTROL Message to deliver]**: Total number of messages to be delivered after delivery preparation.
 
     * **[!UICONTROL Rejected by rules]**: Total number of addresses ignored during the analysis when applying rules: address missing, quarantined, on denylist, etc.
 
@@ -80,7 +80,7 @@ To access your Campaign report, click Reports from your campaign's dashboard.
 
     +++Learn more on Email campaign report metrics.
 
-    * **[!UICONTROL Message to deliver]**: Total number of messages to be delivered after delivery analysis.
+    * **[!UICONTROL Message to deliver]**: Total number of messages to be delivered after delivery preparation.
 
     * **[!UICONTROL Success]**: Number of messages processed successfully in relation to the number of messages to be delivered.
 
@@ -242,7 +242,7 @@ To access your Campaign report, click Reports from your campaign's dashboard.
 
     +++Learn more on SMS campaign report metrics.
 
-    * **[!UICONTROL Total sent]**: Total number of messages processed during the delivery analysis.
+    * **[!UICONTROL Total sent]**: Total number of messages processed during the delivery preparation.
 
     * **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
 
@@ -260,7 +260,7 @@ To access your Campaign report, click Reports from your campaign's dashboard.
 
     * **[!UICONTROL Initial audience]**: Total number of targeted recipients.
 
-    * **[!UICONTROL Message to deliver]**: Total number of messages to be delivered after delivery analysis.
+    * **[!UICONTROL Message to deliver]**: Total number of messages to be delivered after delivery preparation.
 
     * **[!UICONTROL Rejected by rules]**: Total number of addresses ignored during the analysis when applying rules: address missing, quarantined, on denylist, etc.
 
@@ -272,7 +272,7 @@ To access your Campaign report, click Reports from your campaign's dashboard.
 
     +++Learn more on SMS campaign report metrics.
 
-    * **[!UICONTROL Message to deliver]**: Total number of messages to be delivered after delivery analysis.
+    * **[!UICONTROL Message to deliver]**: Total number of messages to be delivered after delivery preparation.
 
     * **[!UICONTROL Success]**: Number of messages processed successfully in relation to the number of messages to be delivered.
 
@@ -304,7 +304,7 @@ To access your Campaign report, click Reports from your campaign's dashboard.
     
     +++Learn more on Push campaign report metrics.
 
-    * **[!UICONTROL Total sent]**: Total number of messages processed during the delivery analysis.
+    * **[!UICONTROL Total sent]**: Total number of messages processed during the delivery preparation.
 
     * **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
 
@@ -320,7 +320,7 @@ To access your Campaign report, click Reports from your campaign's dashboard.
 
     * **[!UICONTROL Initial audience]**: Total number of targeted recipients.
 
-    * **[!UICONTROL Message to deliver]**: Total number of messages to be delivered after delivery analysis.
+    * **[!UICONTROL Message to deliver]**: Total number of messages to be delivered after delivery preparation.
 
     * **[!UICONTROL Rejected by rules]**: Total number of addresses ignored during the analysis when applying rules: address missing, quarantined, on denylist, etc.
 
@@ -330,7 +330,7 @@ To access your Campaign report, click Reports from your campaign's dashboard.
 
     +++Learn more on Push campaign report metrics.
 
-    * **[!UICONTROL Message to deliver]**: Total number of messages to be delivered after delivery analysis.
+    * **[!UICONTROL Message to deliver]**: Total number of messages to be delivered after delivery preparation.
 
     * **[!UICONTROL Success]**: Number of messages processed successfully in relation to the number of messages to be delivered.
 

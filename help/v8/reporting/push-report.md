@@ -21,7 +21,7 @@ The **Push delivery report** provides a thorough overview of the push channel, o
 
     +++Learn more on Push delivery report metrics.
 
-    * **[!UICONTROL Total sent]**: Total number of messages processed during the delivery analysis.
+    * **[!UICONTROL Total sent]**: Total number of messages processed during the delivery preparation.
 
     * **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
 
@@ -37,7 +37,7 @@ The **Push delivery report** provides a thorough overview of the push channel, o
 
     +++Learn more on Push delivery report metrics.
 
-    * **[!UICONTROL To deliver]**: Total number of messages processed during the delivery analysis.
+    * **[!UICONTROL To deliver]**: Total number of messages processed during the delivery preparation.
 
     * **[!UICONTROL Exclusions]**: Number of profiles that have been excluded from the analysis.
 

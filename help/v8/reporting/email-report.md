@@ -18,7 +18,7 @@ The **Email delivery report** offers comprehensive insights and data specific to
 
     * **[!UICONTROL Initial audience]**: Total number of targeted recipients.
 
-    * **[!UICONTROL To deliver]**: Total number of messages to be delivered after delivery analysis.
+    * **[!UICONTROL To deliver]**: Total number of messages to be delivered after delivery preparation.
 
     * **[!UICONTROL Exclusion]**: Total number of messages excluded from the target sent.
     +++
@@ -29,7 +29,7 @@ The **Email delivery report** offers comprehensive insights and data specific to
 
     +++Learn more on Email campaign report metrics.
 
-    * **[!UICONTROL Message sent]**: Total number of messages to be delivered after delivery analysis.
+    * **[!UICONTROL Message sent]**: Total number of messages to be delivered after delivery preparation.
 
     * **[!UICONTROL Success]**: Number of messages processed successfully in relation to the number of messages to be delivered.
 
