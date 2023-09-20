@@ -1,11 +1,11 @@
 ---
 audience: end-user
 title: Work with subscription services
-description: Learn how to create and manage services in Adobe Campaign Web
-badge: label="Beta" 
+description: Learn how to access, create and manage subscription services in Adobe Campaign Web
+badge: label="Beta"
 ---
 
-# Work with subscription services {#create-services}
+# Work with subscription services {#manage-services}
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list"
@@ -102,54 +102,6 @@ To send confirmation messages to the users who subscribe to or unsubscribe from 
 
 You can now select these messages when [creating a subscription service](#create-service). Users who subscribe to or unsubscribe from that service will receive the selected confirmation messages.
 
-## Add subscribers to your service {#add-subscribers}
-
-Once you created a service, you can manually add subscribers. Follow the steps below.
-
-1. Select an existing service from the **[!UICONTROL Subscription services]** list.
-
-1. Select the **[!UICONTROL Subscribers]** tab and click **[!UICONTROL Add profiles]**.
-
-    ![](assets/service-subscribers-tab.png)
-
-1. Select the profiles you want to add from the list and click **[!UICONTROL Confirm]**.
-
-    ![](assets/service-subscribers-select-profiles.png)
-
-1. Click **[!UICONTROL Send]**.<!--if you click cancel, does it mean that no message is sent but recipients are still subscribed, or they are not subscribed? it's 2 different actions in the console)--> The selected recipients will receive the subscription [confirmation message](#create-confirmation-message) that you selected when [creating the service](#create-service).
-
-    ![](assets/service-subscribers-confirmation-msg.png)
-
-The profiles added are displayed in the **[!UICONTROL Subscribers]** list. They are now subscribed to your service.
-
-## Remove subscribers from your service {#remove-subscribers}
-
-### Manually unsubscribe recipients {#manual-unsubscription}
-
-Once you added subscribers to your service, you can manually unsubscribe each of them. Follow the steps below.
-
-1. Select an existing service from the **[!UICONTROL Subscription services]** list.
-
-1. Click the three dots icon next to the desired recipient name and select **[!UICONTROL Delete]**.
-
-    ![](assets/service-subscribers-delete.png)
-
-1. Confirm deletion and click **[!UICONTROL Send]**. The selected recipient will receive the unsubscription [confirmation message](#create-confirmation-message) that you selected when [creating the service](#create-service).
-
-    ![](assets/service-subscribers-delete-confirmation.png)
-
-The recipient is removed from the **[!UICONTROL Subscribers]** list and is no longer subscribed to your service.
-
-### Automatically unsubscribe recipients {#automatic-unsubscription}
-
-A subscription service can have a limited duration. Recipients are automatically unsubscribed when the period of validity expires.
-
-This period is specified when [creating the service](#create-service). From the **[!UICONTROL Additional options]**, disable the **[!UICONTROL  Unlimited validity period]** option and define a validity period for the service.
-
-![](assets/service-create-validity-period.png)
-
-After the specified duration expires, all subscribers are automatically unsubscribed from that service.
-
 ## Subscription service logs and reports {#logs-and-reports}
 
 To measure the effectiveness of your subscription services for SMS and email channels, you can access the logs and reports for a given service.
@@ -174,27 +126,6 @@ To measure the effectiveness of your subscription services for SMS and email cha
 
 1. Use the **[!UICONTROL Reload]** button to retrieve the last values from the execution and schedule of the tracking workflow.
 
-## Deliver to the subscribers of a service
-
-Once you [created a subscription service](#create-service), your can target its subscribers in a delivery. Follow the steps below.
-
-1. [Create an audience](../audience/create-audience.md) including the subscribers to the service you created:
-
-    * In the **[!UICONTROL Build audience]** activity, display the advanced attributes and select **[!UICONTROL Recipient]** > **[!UICONTROL Subscriptions]** > **[!UICONTROL Service]**.
-
-    * In this example, select the users who are subscribed to the service that has the **Luma Newsletter** label.
-
-    ![](assets/service-audience-subscribers.png)
-
-1. [Create a delivery](../msg/gs-messages.md) and select the audience that you created above.
-
-    ![](assets/service-delivery-targeting-subscribers.png)
-
-1. Edit your message content as wanted and send the delivery.
-
-    ![](assets/service-delivery-ready.png)
-
-Your delivery is sent to the subscribers of that service only.
 
 
 

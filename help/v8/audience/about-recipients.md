@@ -39,7 +39,7 @@ You can also access recipients from the **Explorer** view, browse and create fol
 >
 >Depending on your permissions, you might not have access to the full list of recipients stored in the database. Learn more about permissions in [this section](../get-started/permissions.md).
 
-In addition, you can manage the subscription and unsubscription of your recipients to services such as newsletters. [Learn how to work with subscription services](create-service.md)
+In addition, you can manage the subscription and unsubscription of your recipients to services such as newsletters. [Learn how to work with subscription services](manage-services.md)
 
 You can build workflows to deduplicate, enrich, combine profiles, and build audiences. Learn more in [this section](../workflows/gs-workflows.md).
 
@@ -67,11 +67,11 @@ The targeting dimension is the type of data that an operation is handling. It le
 
 The targeting dimension of a workflow is defined by the first **[!UICONTROL Build audience]** activity and is used across all further activities until the end of the workflow. For example, if you perform a query on the recipients from the database, the outbound transition will contain data of type recipient and it will be transmitted to the next activity.
 
-Note that you can switch the targeting dimension in a workflow using a **[!UICONTROL Change dimension]** activity. [Learn more](../workflows/activities/change-dimension.md)
+Note that you can switch the targeting dimension in a workflow using a **[!UICONTROL Change dimension]** activity. [Learn more](../workflows/activities/change-dimension.md). This allows you, for example, to query the database on a specific table such as purchases or subscriptions, and then change the targeting dimension to Recipients in order send deliveries to the corresponding recipients.
 
 By default, email and SMS delivery templates target **[!UICONTROL Recipients]**. Their target dimension therefore uses the fields of the **nms:recipient** table. For Push notifications, the default target dimension is **Subscriber applications nms:appSubscriptionRcp**, which is linked to the recipients table.
 
-You can also use other built-in target mappings for your deliveries that are listed below: 
+You can also use other built-in target mappings in your workflows and deliveries that are listed below: 
 
 |  Name  | Use to | Schema  |
 |---|---|---|
