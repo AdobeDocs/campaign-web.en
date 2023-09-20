@@ -65,7 +65,7 @@ Follow these common steps to start configuring the **Combine** activity:
 In the **Combine** activity, you can configure a **Union**. For this, you need to select the **Reconciliation type** to define how duplicates are handled:
 
 * **Keys only**: this is the default mode. The activity only keeps one element when elements from the different inbound transitions have the same key. This option can only be used if the inbound populations are homogeneous.
-* **A selection of columns**: select this option to define the list of columns on which the data reconciliation will be applied. You must first select the primary set (that which contains the source data), then the columns to use for the join.
+* **A selection of columns**: select this option to define the list of columns on which the data reconciliation is applied. You must first select the primary set (that which contains the source data), then the columns to use for the join.
 
 ## Intersection {#combine-intersection}
 
