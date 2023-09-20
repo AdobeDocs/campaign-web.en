@@ -42,14 +42,11 @@ Follow these steps to configure the **Deduplication** activity:
 
 1. Select the number of unique **Duplicates to keep**. The default value for this field is 1. The value 0 allows you to keep all the duplicates.
 
-<!--
     For example, if records A and B are considered duplicates of record Y, and a record C is considered as a duplicate of record Z:
 
     * If the value of the field is 1: only the Y and Z records are kept.
     * If the value of the field is 0: all the records are kept.
     * If the value of the field is 2: records C and Z are kept and two records from A, B, and Y are kept, by chance or depending on the deduplication method selected thereafter.
-
--->
 
 1. Select the **Deduplication method** to use:
 
