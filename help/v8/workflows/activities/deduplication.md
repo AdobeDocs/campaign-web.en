@@ -9,8 +9,8 @@ badge: label="Beta"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
->title="Deduplication attributes"
->abstract="This allows you to specify the fields for which the identical values allow the duplicates to be identified: email address, first name, last name, etc. The order of the fields allows you to specify those to process first."
+>title="Fields to identify duplicates"
+>abstract="In the **Fields to identify duplicates** section, click the **Add attribute** button to specify the fields for which the identical values allow the duplicates to be identified, such as: email address, first name, last name, etc. The order of the fields allows you to specify those to process first."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication"
