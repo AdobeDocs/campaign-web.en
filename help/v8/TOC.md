@@ -78,8 +78,7 @@ hide: yes
     + [Render your email](preview-test/email-rendering.md)
 + Audiences & recipients {#audiences}
   + [Work with recipients & audiences](audience/about-recipients.md)
-  + [Create audiences](audience/create-audience.md)
-  + [Monitor & manage audiences](audience/access-audiences.md)
+  + [Create and manage audiences](audience/create-audience.md)
   + Target audiences {#target-audiences}
     + [Select an existing audience](audience/add-audience.md)
     + [Define an audience with the rule builder](audience/segment-builder.md)
