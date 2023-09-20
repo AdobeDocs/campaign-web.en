@@ -66,7 +66,7 @@ The example below shows an audience workflow configured to target female custome
 1. The **[!UICONTROL Split]** activity divides the workflow into two paths based on the customers' latest purchase.
 1. The **[!UICONTROL Save audience]** activities at the end of each path  create two new audiences into the database including the population computed in each path.
 
-## Monitor & manage audiences {#create-audiences}
+## Monitor & manage audiences {#monitor}
 
 The list of audiences available for use in Campaign Web is accessible from the **[!UICONTROL Audiences]** menu.
 
