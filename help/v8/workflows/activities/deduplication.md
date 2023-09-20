@@ -28,7 +28,7 @@ badge: label="Beta"
 >title="Deduplication settings"
 >abstract="To delete duplicates in the incoming data, define the deduplication method in the fields below. By default, only one record is kept. You should also select the deduplication mode based on an expression or an attribute. By default, the record to keep out of the duplicates is randomly selected."
 
-The **Deduplication** activity is a **Targeting** activity. This activity allows you to delete duplicates in the result(s) of the inbound activities. The **Deduplication** activity is generally used following targeting activities and before activities that allow the use of targeted data.
+The **Deduplication** activity is a **Targeting** activity. This activity allows you to delete duplicates in the result(s) of the inbound activities, for example duplicated profiles in the recipient list. The **Deduplication** activity is generally used following targeting activities, and before activities that allow the use of targeted data.
 
 ## Configure the Deduplication activity{#deduplication-configuration}
 
@@ -38,7 +38,7 @@ Follow these steps to configure the **Deduplication** activity:
 
 1. Add a **Deduplication** activity to your workflow.
 
-1. In the **Fields to identify duplicates** section, click the **Add attribute** button to specify the fields for which the identical values allow the duplicates to be identified: email address, first name, last name, etc. The order of the fields allows you to specify those to process first.
+1. In the **Fields to identify duplicates** section, click the **Add attribute** button to specify the fields for which the identical values allow the duplicates to be identified, such as: email address, first name, last name, etc. The order of the fields allows you to specify those to process first.
 
 1. Select the number of unique **Duplicates to keep**. The default value for this field is 1. The value 0 allows you to keep all the duplicates.
 
@@ -61,6 +61,6 @@ Follow these steps to configure the **Deduplication** activity:
 
 ## Example{#deduplication-example}
 
-In the following example, we use a deduplication activity to exclude duplicates from the target before sending a delivery. The identified duplicates are added to a dedicated audience that can be reused if necessary. We use the **Email** field to identify the duplicates. We choose to keep 1 entry and select the **Random** deduplication method. 
+In the following example, use a deduplication activity to exclude duplicates from the target before sending a delivery. The identified duplicated recipients are added to a dedicated audience that can be reused if necessary. Choose the **Email** address to identify the duplicates. Keep 1 entry and select the **Random** deduplication method.
 
 ![](../assets/workflow-deduplication-example.png)
