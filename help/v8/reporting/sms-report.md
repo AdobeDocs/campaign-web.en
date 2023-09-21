@@ -8,26 +8,31 @@ badge: label="Beta"
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
->title="SMS report summary"
->abstract="Discover the reporting metrics for your SMS delivery."
+>title="SMS delivery overview"
+>abstract="The **SMS delivery overview** offers a comprehensive overview of your SMS delivery, providing extensive insights and specific data. It furnishes comprehensive information about the performance, effectiveness, and outcomes of your delivery."
 
-The **SMS delivery report** offers a comprehensive overview of the SMS channel, providing extensive insights and specific data. It furnishes comprehensive information about the performance, effectiveness, and outcomes of each delivery.
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_sending_sms"
+>title="Reporting sending"
+>abstract="The **Sending** tab within your report provides in-depth insights into your visitors' interactions with your deliveries and any potential errors they may have encountered."
+
+The **SMS delivery overview** offers a comprehensive overview of your SMS delivery, providing extensive insights and specific data. It furnishes comprehensive information about the performance, effectiveness, and outcomes of your delivery.
 
 ## Delivery summary {#delivery-summary}
 
-* **[!UICONTROL Delivery overview]** provides key performance indicators (KPIs) that give detailed information about how your visitors engage with your SMS messages.
+* **[!UICONTROL Delivery overview]** provides key performance indicators (KPIs) that give detailed information about success and error rates, and how your visitors engage with your SMS messages.
 
     ![](assets/reporting_sms_3.png)
 
     +++Learn more on SMS delivery report metrics.
 
-    * **[!UICONTROL Total sent]**: Total number of messages processed during the delivery analysis.
+    * **[!UICONTROL Total sent]**: Percentage and total number of messages processed during the delivery preparation.
 
-    * **[!UICONTROL Success]**: Number of messages successfully sent, in relation to the total number of sent messages.
+    * **[!UICONTROL Success]**: Percentage and number of messages successfully sent, in relation to the total number of sent messages.
 
-    * **[!UICONTROL Click-through rate]**: Percentage of users who interacted with links included in your SMS delivery.
+    * **[!UICONTROL Click-through rate]**: Percentage and number of users who interacted with links included in your SMS delivery.
 
-    * **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
+    * **[!UICONTROL Errors]**: Percentage and total number of errors that occurred during a delivery preventing it from being sent to profiles.
     +++
 
 * **Targeted population** graph and table display data relative to your audience.
@@ -36,9 +41,9 @@ The **SMS delivery report** offers a comprehensive overview of the SMS channel, 
 
     +++Learn more on SMS delivery report metrics.
 
-    * **[!UICONTROL To deliver]**: Total number of messages processed during the delivery analysis.
+    * **[!UICONTROL To deliver]**: Total number and percentage rate of messages processed during the delivery preparation.
 
-    * **[!UICONTROL Exclusions]**: Number of profiles that have been excluded from the analysis.
+    * **[!UICONTROL Exclusions]**: Number and percentage rate of profiles that have been excluded from the analysis.
     +++
 
 
@@ -48,18 +53,23 @@ The **SMS delivery report** offers a comprehensive overview of the SMS channel, 
 
     +++Learn more on SMS delivery report metrics.
 
-    * **[!UICONTROL Success]**: Number of messages processed successfully.
+    * **[!UICONTROL Success]**: Number and percentage rate of messages processed successfully.
 
-    * **[!UICONTROL Errors]**: Total number of errors that occurred during delivery, preventing the messages from being sent to certain profiles.
+    * **[!UICONTROL Errors]**: Total number and percentage rate of errors that occurred during delivery, preventing the messages from being sent to certain profiles.
 
-    * **[!UICONTROL New quarantine]**:  Number of profiles that have been excluded and added to the quarantine.
+    * **[!UICONTROL New quarantine]**:  Number and percentage rate of profiles that have been excluded and added to the quarantine.
     +++
 
-* **[!UICONTROL Exclusions]** graph and table display the various reasons that prevented user profiles, which were excluded from the targeted profiles, from receiving the message.
+* **[!UICONTROL Exclusions]** graph and table display the reasons that prevented user profiles, which were excluded from the targeted profiles, from receiving the message.
 
     ![](assets/reporting_sms_6.png)
 
 ## Delivery throughput {#delivery-throughput}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_throughput_sms"
+>title="Delivery throughput menu"
+>abstract="The Delivery throughput report presents detailed information regarding the delivery throughput of the entire platform within a specified timeframe."
 
 This report presents detailed information regarding the delivery throughput of the entire platform within a specified timeframe. The primary metric used to measure the speed of message delivery is the number of messages sent per hour.
 

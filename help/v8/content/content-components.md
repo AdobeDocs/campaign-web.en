@@ -149,7 +149,18 @@ Use the **[!UICONTROL Image]** component to insert an image file from your compu
 
     ![](assets/email_designer_9.png)
 
-1. Click **[!UICONTROL Browse]** to choose an image file from your assets.
+1. Click **[!UICONTROL Browse]** to choose an image file from your assets. You can also choose to **[!UICONTROL Import your media]**.
+
+    To learn more on how to upload and add assets in Assets Essentials, refer to [Adobe Experience Manager Assets Essentials documentation](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html).
+
+    ![](assets/email_designer_28.png)
+
+1. Navigate through your folders to locate the specific asset you need, or use the search bar to find it efficiently.
+
+    Once you've found the asset you're looking for, click **[!UICONTROL Select]**.
+
+    ![](assets/email_designer_29.png)
+
 
 1. Click your newly added component and set up your image properties using the **[!UICONTROL Settings]** tab:
 

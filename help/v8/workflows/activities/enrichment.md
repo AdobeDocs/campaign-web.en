@@ -8,9 +8,20 @@ badge: label="Beta"
 # Enrichment {#enrichment}
 
 >[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment"
+>title="Enrichment activity"
+>abstract="The **Enrichment** activity allows you to enhance the targeted data with additional information from the database. It is commonly used in a workflow after segmentation activities."
+
+
+>[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_data"
 >title="Enrichment activity"
->abstract="The Enrichment activity allows you to enhance the targeted data with additional information from the database. It is commonly used in a workflow after targeting activities.<br/>Once enrichment data has been added to the workflow, it can be used in the activities added after the Enrichment activity to segment customers into distinct groups based on their behaviors, preferences, and needs, or to create personalized marketing messages and campaigns that are more likely to resonate with your target audience."
+>abstract="Once enrichment data has been added to the workflow, it can be used in the activities added after the Enrichment activity to segment customers into distinct groups based on their behaviors, preferences, and needs, or to create personalized marketing messages and campaigns that are more likely to resonate with your target audience."
+
+>[!CONTEXTUALHELP]
+>id="acw_targetdata_personalization_enrichmentdata"
+>title="Enrichment data"
+>abstract="Select the data to use to enrich your workflow. You can select two types of enrichment data: a single enrichment attribute from the target dimension, or a collection link, which is a link with a 1-N cardinality between tables."
 
 The **Enrichment** activity is a **Targeting** activity. It allows you to enhance the targeted data with additional information from the database. It is commonly used in a workflow after segmentation activities.
 
@@ -28,7 +39,7 @@ Once the enrichment data has been added to the workflow, it can then be used in 
 
 For instance, you can add to the workflow working table information related to customers' purchases and use this data to personalize emails with their latest purchase or the amount spent on these purchases.
 
-## General Configuration {#general}
+## Configure the Enrichment activity {#enrichment-configuration}
 
 Follow these steps to configure the **Enrichment** activity:
 
@@ -59,7 +70,7 @@ In this more complex use case, we will select a collection link which is a link 
 * a filter: filter out items that are greater than 100$
 * a sorting: descendant sorting on the **Order date** field. 
 
-### Add the attribute 
+### Add the attribute {#add-attribute}
 
 This is where you select the collection link to use as enrichment data.
 
@@ -69,7 +80,7 @@ This is where you select the collection link to use as enrichment data.
 
 ![](../assets/workflow-enrichment3.png)
 
-### Define the collection settings
+### Define the collection settings{#collection-settings}
 
 Then, define how the data is collected and the number of records to retrieve.
 
@@ -82,7 +93,7 @@ If you want, for example, to get the average amount of purchases for a customer,
 
 ![](../assets/workflow-enrichment5.png)
 
-### Define the filters
+### Define the filters{#collection-filters}
 
 Here, we define the maximum value for the enrichment attribute. We filter out items that are greater than 100$.
 
@@ -92,7 +103,7 @@ Here, we define the maximum value for the enrichment attribute. We filter out it
 
 ![](../assets/workflow-enrichment6.png)
 
-### Define the sorting
+### Define the sorting{#collection-sorting}
 
 We now need to apply sorting in order to retrieve the three **latest** purchases.
 

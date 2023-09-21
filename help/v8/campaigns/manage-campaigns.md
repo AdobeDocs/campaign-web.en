@@ -14,13 +14,13 @@ badge: label="Beta"
 
 To create a new campaign, or manage your existing campaigns, click the **[!UICONTROL Campaigns]** menu on the left navigation. 
 
-## The campaign list{#access-campaigns}
+## List of campaigns {#access-campaigns}
 
 In the campaign list, two tabs are available:
 
 * The **Browse** tab lists all existing campaigns. You can click a campaign to open its dashboard or create a new campaign by clicking the **Create campaign** button. See this [section](create-campaigns.md#create-campaigns).
 
-* The **Templates** tab lists all available campaign templates. Campaign templates are pre-configured so that they can be reused when creating new campaigns. They are created from the client console. [Read more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html)
+* The **Templates** tab lists all available campaign templates. You can view an existing template or create a new one. [Read more](#manage-campaign-templates).
 
 ![Campaign list](assets/campaign-list.png)
 
@@ -32,7 +32,12 @@ For example, you can filter on your campaign schedule. Open the filter panel and
 
 ![Campaign filter](assets/campaign-filter-on-dates.png)
 
-## The campaign dashboard{#campaign-dashboard}
+## Campaign dashboard{#campaign-dashboard}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_delivery_list"
+>title="List of deliveries in the campaign"
+>abstract="The **Deliveries** tab lists all deliveries linked to the current campaign. Click the name of a delivery to edit it. Use the Create delivery button to add a new delivery for this campaign."
 
 In the **Browse** tab of the campaign list, click a campaign to display its details. 
 
@@ -56,3 +61,23 @@ You can duplicate or delete a campaign:
 >[!NOTE]
 >
 >The **Deliveries** tab displays all deliveries linked to the campaign. However, deliveries created in a workflow cannot be deleted from there. To delete a delivery created in the context of a workflow, you must delete the delivery activity from the workflow. [Learn more](../msg/gs-messages.md#delivery-delete).
+
+## Work with campaign templates{#manage-campaign-templates}
+
+Campaign templates contain pre-configured settings which can be reused for creating new campaigns. A set of built-in templates is available to help you get started. You can create and configure your campaign templates and then create campaigns from these templates.
+
+A campaign template can store the following information:
+
+* the campaign's **Properties** and **Schedule** settings 
+* workflow templates
+* delivery templates
+
+To create a campaign template, follow the steps below:
+
+1. Click the **[!UICONTROL Campaigns]** menu, browse to the **Templates** tab, then click the **[!UICONTROL Create template]** button.
+1. Select the **Template** to use. This allows you to base your new template on a template previously created. 
+1. Provide a label for your template.
+1. If needed, you can change the following **Additional options**: internal name, folder, assignee, description and nature.
+1. Define the **Schedule** of your campaign. Learn how to set your campaign schedule in [this section](create-campaigns.md#campaign-schedule)
+1. Click **Create**.
+1. Add workflows and delivery templates to your campaign.

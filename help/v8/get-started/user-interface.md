@@ -3,7 +3,7 @@ audience: end-user
 title: Discover the interface
 description: Campaign v8 Web user interface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-badge: label="Alpha" 
+badge: label="Beta" 
 ---
 # Discover the interface {#user-interface}
 
@@ -12,7 +12,7 @@ badge: label="Alpha"
 >title="Discover the interface"
 >abstract="The new Campaign v8 Web interface offers an integrated, intuitive, and consistent user experience."
 
-The new Campaign v8 Web interface offers a modern and intuitive user experience to simplify marketing campaign design and delivery. This new interface is integrated with Adobe Experience Platform. 
+The new Campaign v8 Web interface offers a modern and intuitive user experience to simplify marketing campaign design and delivery. This new interface is integrated with Adobe Experience Cloud apps and solutions. 
 
 
 >[!NOTE]
@@ -45,20 +45,13 @@ Access Campaign v8 Web key help pages from the **Learning** section of the home 
 
 The **Explorer** menu displays all Campaign resources and objects with the same folder hierarchy as the one in the client console. Browse all your Campaign v8 components, folders and schemas, and create deliveries, workflows and campaigns.
 
-The items displayed in the **Explorer** depend on your user permissions.  You can also add folders and sub-folders, if you have proper permissions. Learn more about permissions in [this section](permissions.md).
+The items displayed in the **Explorer** depend on your user permissions. You can also add folders and sub-folders, if you have proper rights. Learn more about permissions in [this section](permissions.md).
 
 Like in any list screen, you can configure columns to personalize the display to view all the information you need. See this [section](#list-screens).
 
 For more information about the Campaign explorer, folder hierarchy and resources, refer to this [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui){target="_blank"}.
 
 ### Campaign Management {#user-interface-campaign-management}
-
->[!CONTEXTUALHELP]
->id="acw_campaigns_list"
->title="Campaigns"
->abstract="This is the list of your campaigns. You can view useful information such as their start/end/last modification dates, as well as their status. You can filter the list by status or start/end dates. Click the 'Create campaign' button to add a new campaign. Select a campaign to view its content, deliveries, and details. Browse to the 'Templates' tab to view and create templates."
-
-
 
 In the CAMPAIGN MANAGEMENT section, you can access marketing campaigns, deliveries, and workflows.
 
@@ -75,40 +68,31 @@ In the CAMPAIGN MANAGEMENT section, you can access marketing campaigns, deliveri
 
 ### Customer Management {#user-interface-customer-management}
 
-
->[!CONTEXTUALHELP]
->id="acw_audiences_list"
->title="Audiences"
->abstract="This is your list of audiences. You can view their type, origin, creation/last modification dates and label. You can filter the list by origin. This list is read-only."
-
->[!CONTEXTUALHELP]
->id="acw_subscriptions_list"
->title="Subscriptions lists"
->abstract="Browse through your subscriptions lists. You can view their type, mode and label. This list is read-only."
-
-
-In the CUSTOMER MANAGEMENT section, you can view your recipients, audiences, and subscriptions. These lists are rea-only.
+In the CUSTOMER MANAGEMENT section, you can view your recipients, audiences, and subscriptions. These lists are read-only.
 
 * **Recipients** - Access your recipient database. By default, you can view their email address, first name and last name. Learn more about recipients in [this section](../audience/about-recipients.md).
-* **Audiences** - This is your list of audiences. By default, you can view their type, origin, creation/last modification dates and label. You can filter the list by origin. Learn more about audiences and lists in [this section](../audience/about-audiences.md).
+* **Audiences** - This is your list of audiences. By default, you can view their type, origin, creation/last modification dates and label. You can filter the list by origin. Learn more about audiences and lists in [this section](../audience/about-recipients.md).
 * **Subscriptions** - Browse through your subscriptions lists. By default, you can view their type, mode and label. Learn how to manage subscriptions and unsubscriptions in [Adobe Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html){target="_blank"}. 
 
-### Decision Management
+### Decision Management {#decision-management}
 
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
 >title="Offers"
->abstract="Browse through your list of Interaction offers. By default, you can view their status, start/end dates and environment. You can filter the list by status and start/end dates. Offer templates are also available. These lists are read-only."
+>abstract="Browse through the lists of offers and offer templates that have been created in the console using the **Interaction** module. These lists are read-only."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html" text="Add offers to a delivery"
 
-* **Offers** - Browse through your list of Interaction offers. By default, you can view their status, start/end dates and environment. You can filter the list by status and start/end dates. Offer templates are also available. These lists are read-only. 
+In the DECISION MANAGEMENT section, you can view the offers and offer templates. These lists are read-only.
 
-Learn how to create manage offers in [Adobe Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}. 
+* **Offers** - Browse through the list of offers and offer templates that have been created in the console using the **Interaction** module. By default, you can view their status, start/end dates and environment. You can filter the list by status and start/end dates. Offer templates are also available.
 
-## Top bar
+Learn how to create and send offers in emails and SMS in [this section](../content/offers.md).
+
+## Top bar {#top-bar}
 
 Use the top bar of the interface to:
 
-* share your feedback as an Alpha tester
+* share your feedback as a Beta tester
 * switch between organizations and instances
 * switch between your Adobe Experience Cloud applications
 * access help pages, contact support and share feedback. You can search help articles and videos from the search field.
@@ -118,15 +102,18 @@ Use the top bar of the interface to:
 Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
 -->
 
-## Contextual help {#contextual-help}
+
+## Contextual Help {#user-interface-help} 
 
 A contextual help is available in the interface. When available, click on the `?` icon to display help information and related documentation links. 
 
 ![](assets/context-help.png){width="40%" align="left"}
 
-<!--An on-boarding guide is also available to help you get started with Campaign v8 Web. Click the icon in the bottom right corner, choose one of the available step-by-step scenarios, and simply follow the instructions.
+With the new Beta version, the **Knowledge Assistant with Gen AI** embedded within contextual help revolutionizes documentation searching and answering how-to questions with effortlessly sifting through vast documentation repositories, instantly pinpointing the precise information you need.
 
-![](assets/onboarding.png){width="70%" align="left"}-->
+Thanks to Campaign Gen AI's capabilities, this assistant transforms your experience, making information retrieval and problem-solving a breeze. Whether you're seeking guidance in a complex task or navigating extensive documents, our Knowledge Assistant with Gen AI is your ultimate companion, providing unmatched efficiency and accuracy in every interaction.
+
+Learn more in [this section](using-ai.md).
 
 ## Supported browsers {#browsers}
 
@@ -136,28 +123,19 @@ Campaign v8 Web is designed to work optimally in the latest version of Google Ch
 
 Campaign v8 Web is currently available in the following languages:
 
-<table>
-<tr>
-<td>
-<p>English (US) - EN-US</p>
-<p>French - FR</p>
-<p>German - DE</p>
-<p>Italian - IT</p>
-</td>
-<td>
-<p>Spanish - ES</p>
-<p>Portuguese (Brazilian) - PTBR</p>
-<p>Japanese - JP</p>
-</td>
-<td>
-<p>Korean - KR</p>
-<p>Simplified Chinese - CHS</p>
-<p>Traditional Chinese - CHT</p>
-</td>
-</tr>
-</table>
+* English (US) - EN-US
+* French - FR
+* German - DE
+* Italian - IT
+* Spanish - ES
+* Portuguese (Brazilian) - PTBR
+* Japanese - JP
+* Korean - KR
+* Simplified Chinese - CHS
+* Traditional Chinese - CHT
 
-Your default interface language is determined by the preferred language specified in your user profile.
+
+Your default language for Campaign Web is determined by the preferred language specified in your user profile. It does not relate to the language of your Campaign server and client console.
 
 To change your language:
 
@@ -165,6 +143,9 @@ To change your language:
 1. Then click the language link displayed under your email address.
 1. Select your preferred language and click **Save**. You can select a second language in case the component you are using is not localized in your first language.
 
+## Dark theme {#dark-theme}
+
+You can switch to the dark theme from your profile icon. Use the **Dark theme** toggle to enable/disable it.
 
 ## Learn more {#learn-more}
 
@@ -181,56 +162,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 >[!CONTEXTUALHELP]
->id="acw_targetdata_personalization_enrichmentdata"
->title="Enrichment data"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_sending"
->title="Reporting Sending"
->abstract="Consult the sending indicators for the campaign reporting."
-
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_tracking"
->title="Reporting tracking"
->abstract="Consult the tracking indicators for the campaign reporting."
-
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_deliveries_overview"
->title="Reporting overview"
->abstract="Key metrics for your delivery."
-
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_deliveries_target"
->title="Reporting target statistics"
->abstract="This section displays specific metrics according to audiences."
-
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_deliveries_selection"
->title="Aggregated reporting for deliveries"
->abstract="Select at least two deliveries for displaying an aggregated data report."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_deduplication_fields"
->title="Deduplication fields"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_deduplication_settings"
->title="Deduplication settings"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_deduplication_complement"
->title="Deduplication complement"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_dimension_complement"
->title="Dimension complement"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
 >id="acw_push_permission_for_segment"
 >title="Permission required"
 >abstract="Your administrator must grant you permission before you can create a segment."
@@ -240,111 +171,21 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Permission required"
 >abstract="Your administrator must grant you permission before you can create a segment."
 
-
->[!CONTEXTUALHELP]
->id="acw_campaign_read_only"
->title="This campaign is read only"
->abstract="You do not have permissions to edit this campaign. If needed, contact your administrator to grant you access."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_read_only"
->title="This delivery is read only"
->abstract="You do not have permissions to edit this delivery. If needed, contact your administrator to grant you access."
-
->[!CONTEXTUALHELP]
->id="acw_subscription_services_read_only"
->title="This service is read only"
->abstract="You do not have permissions to edit this service. If needed, contact your administrator to grant you access."
-
->[!CONTEXTUALHELP]
->id="acw_audiences_read_only"
->title="This audience is read only"
->abstract="You do not have permissions to edit this audience. If needed, contact your administrator to grant you access."
-
 <!-- Workflows-->
 
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_workflow"
->title="Workflow list"
->abstract="List of workflows available for your campaign. Use the 'Create workflow' button to add a workflow in your campaign."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_saveaudience_outbound"
->title="Outbound transition for save audience"
->abstract="tbc"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_saveaudience_activity"
->title="Save an audience"
->abstract="Use this activity to save the workflow audience."
-
-
->[!CONTEXTUALHELP]
->id="acw_wf_read_only"
->title="This workflow is read only"
->abstract="You do not have permissions to edit this workflow. If needed, contact your administrator to grant you access."
-
->[!CONTEXTUALHELP]
->id="acw_wf_read_only_canvas"
->title="This workflow is read only"
->abstract="You cannot edit this workflow due to unsupported or incompatible canvas."
 
 <!-- delivery template settings-->
 
->[!CONTEXTUALHELP]
->id="acw_delivery_template_settings_tracking_validity"
->title="Validity period"
->abstract="The validity period sets the duration for which the tracking is activated on the message URLs."
-
->[!CONTEXTUALHELP]
->id="acw_delivery_template_settings_delivery_duration"
->title="Delivery duration"
->abstract="The Delivery duration field lets you enter the limit for global delivery retries. This means that Adobe Campaign sends the messages beginning on the start date, and then, for messages returning an error only, regular, configurable retries are performed until the validity limit is reached."
-
->[!CONTEXTUALHELP]
->id="acw_delivery_template_settings_resources_validity"
->title="Resources validity limit"
->abstract="The Validity limit field is used for uploaded resources, such as the mirror page or images. These resources are valid for a limited time: once the limit is reached, resources are no longer available."
-
->[!CONTEXTUALHELP]
->id="acw_delivery_template_settings_approval"
->title="Approval mode"
->abstract="Each step of a delivery can be subject to approval in order to ensure full monitoring and control of the various processes."
-
->[!CONTEXTUALHELP]
->id="acw_delivery_template_settings_retries"
->title="Maximum number of retries"
->abstract="If a message fails due to a temporary error, retries are performed until the end of the delivery duration."
-
->[!CONTEXTUALHELP]
->id="acw_delivery_template_settings_recipient_importance"
->title="Importance of the recipient"
->abstract="The importance of the recipient is a formula used to determine which recipients are kept when the capacity typology rules are exceeded."
-
->[!CONTEXTUALHELP]
->id="acw_delivery_template_settings_delivery_weight"
->title="Delivery weight"
->abstract="Delivery weights let you identify top-priority deliveries within the framework of pressure management. Messages with the highest weight have priority."
-
->[!CONTEXTUALHELP]
->id="acw_reporting_email_exportation"
->title="Exportation"
->abstract="You can only export the selected page."
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sending"
 >title="Global reports sending"
->abstract="TBC"
+>abstract="Tracking reporting metrics are visible in this screen"
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_tracking"
 >title="Global reports tracking"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="acw_campaign_delivery_list"
->title="Delivery list in a Campaign"
->abstract="Delivery list in a Campaign"
+>abstract="Tracking reporting metrics are visible in this screen"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_workflow_list"
@@ -353,32 +194,4 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 <!-- delivery settings-->
 
->[!CONTEXTUALHELP]
->id="acw_email_settings_audience"
->title="Delivery settings audience"
->abstract="TBC"
 
->[!CONTEXTUALHELP]
->id="acw_email_settings_approval"
->title="Delivery settings approval"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="acw_email_settings_testsettings"
->title="Delivery settings test settings"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="acw_email_settings_webanalytics"
->title="Delivery settings web analytics"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_template_for_campaign"
->title="Delivery template in Campaign"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="acw_workflow_template_for_campaign"
->title="Workflow template in Campaign"
->abstract="TBC"

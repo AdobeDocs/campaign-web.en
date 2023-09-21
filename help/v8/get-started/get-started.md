@@ -26,7 +26,7 @@ If you need to access Campaign v8 capabilities which are not available in the we
 
 >[!NOTE]
 >
->Campaign v8 Web is currently in Alpha version. Access is restricted to a small set of Alpha customers. Please be aware that product interface, capabilities and usage flows can change without notice.
+>Campaign v8 Web is currently in Beta version. Access is restricted to a small set of Beta customers. Please be aware that product interface, capabilities and usage flows can change without notice.
 
 ## Connect to Campaign
 

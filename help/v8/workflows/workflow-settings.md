@@ -11,7 +11,7 @@ When orchestrating workflow activities in the canvas, you can access advanced se
 
 These settings are pre-configured in the template selected when creating the workflow, but can be edited as needed for this specific workflow.
 
-To do this, click the **[!UICONTROL Workflow settings]** icon  in the upper-left corner of the canvas, next to the workflow label.
+To do this, click the **[!UICONTROL Settings]** button available in the actions bar above the workflow canvas.
 
 ![](assets/workflow-settings.png)
 
@@ -28,8 +28,14 @@ The **[!UICONTROL Properties]** section provides generic settings that are also 
 * **[!UICONTROL Name]**: The internal name of the workflow.
 * **[!UICONTROL Folder]**: The folder where the workflow should be saved.
 * **[!UICONTROL Linked campaign]**: This field display if the workflow has been created within a campaign. It allows you to open the associated campaign.
-* **[!UICONTROL Timezone]**: Define a specific time zone to use by default in all the workflow's activities. By default, the workflow's time zone is the one defined for the current Campaign operator.
-* **[!UICONTROL Supervisor(s)]**: When a workflow is in error, the operator(s) belonging to the workflow supervision group are notified by email, as long as their email address is listed in their profile.
+* **[!UICONTROL Timezone]**: Define a specific time zone to use by default in all the workflow's activities. By default, the workflow's time zone is the one defined for the current Campaign operator. 
+    Other possible values are:
+    * **Server time zone** to use the time zone of the Adobe Campaign application server
+    * **Operator time zone** to uses the time zone of the Adobe Campaign operator who executes the workflow, as defined in the operator's profile, in the client console
+    * **Time zone of the database** to use the time zone of the database server
+    * A specific time zone
+
+* **[!UICONTROL Supervisor(s)]**: When a workflow fails, the operators belonging to the operators group selected in this field are notified by email.
 * **[!UICONTROL Description]**: Use this field to provide a description of your workflow.
 
 ## Segmentation settings

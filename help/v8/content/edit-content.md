@@ -9,28 +9,33 @@ badge: label="Beta"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
->title="Create the email content"
->abstract="With this section, you can create the content for your email and use the Email Designer to give it a polished look."
+>title="Define the email content"
+>abstract="The **Edit content** screen allows you to define basic elements of your message like the sender address and subject line, perform additional actions such as adding attachments or offers, and access the Email Designer to give your message a polished look."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
->title="Email parameters"
->abstract="The From name and From email values are defined in the email template. The Subject line can be personalized using the Expression Editor."
+>title="Set the email properties"
+>abstract="The **Basic details** section allows you to update the sender's address and reply-to address, and define the subject line using the Expression Editor."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
->title="Email attachment"
->abstract="Select one or multiples files to insert into your message."
+>title="Attach files to your email"
+>abstract="Select one or multiples files to insert into your message. To avoid performance issue, it is recommended not to include more than one attachment per email."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
->title="Tracking options"
->abstract="By default, tracking is enabled for the delivery. You can disable this option from here."
+>title="Edit tracking"
+>abstract="By default, tracking is enabled for the delivery, meaning all links included in the message content are tracked. You can disable this option from here."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/content/design-content/message-tracking.html" text="Add links and track messages"
 
 The email **[!UICONTROL Edit content]** screen allows you to:
 * Define basic elements of your message such as the sender's address and the subject line
 * Perform additional actions such as adding attachments or setting up offers
 * Access the [Email Designer](get-started-email-designer.md#start-authoring) to start building the proper content of your email
+
+>[!NOTE]
+>
+>All the editable text fields of this screen can be filled in using personalization fields. [Learn how to personalize content](../personalization/personalize.md)
 
 To configure or edit the content of an email, follow the steps below.
 
@@ -58,9 +63,11 @@ To configure or edit the content of an email, follow the steps below.
     >
     >You can change the part preceding the '@', but not the domain address.
 
-    <!--In the Reply address text fields, the sender's address is used by default for replies. However, Adobe recommends using an existing real address such as your brand's customer care. In this case, if a recipient sends a reply, the customer care will be able to handle it.-->
+1. Expand the **[!UICONTROL Reply-to fields]** section. The sender's name and addresses are used by default for replies. However, Adobe recommends using an existing real address such as your brand's customer care. In this case, if a recipient sends a reply, the customer care will be able to handle it.
 
-1. Define the email **[!UICONTROL Subject line]**. Type your subject directly into the dedicated field, or open the Expression Editor to add personalization using various attributes and content blocks or offers. [Learn how to personalize content](../personalization/personalize.md)
+    ![](assets/email-edit-content-reply-to.png)
+
+1. Define the email **[!UICONTROL Subject line]**. Type your subject directly into the dedicated field, or open the Expression Editor to add [personalization](../personalization/personalize.md) using various attributes and content blocks, or offers.
 
 1. If you want to attach a file to the email, click the **[!UICONTROL Add attachment]** button then select one or multiple file(s).
     

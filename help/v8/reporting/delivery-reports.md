@@ -7,6 +7,17 @@ badge: label="Beta"
 ---
 # Access Delivery reports {#reports}
 
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_deliveries_selection"
+>title="Aggregated reporting for deliveries"
+>abstract="Select at least two deliveries for displaying an aggregated data report."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_reporting_email_exportation"
+>title="Reload"
+>abstract="Click the **Reload** button to retrieve the last metrics, and refresh data."
+
 Adobe Campaign offers several types of reports, accessible for each delivery. These reports allow you to measure and visualize the impact and performances of your messages in a built-in dashboard.
 
 To display reports, follow these steps:

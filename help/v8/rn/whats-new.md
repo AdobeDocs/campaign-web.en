@@ -8,10 +8,9 @@ badge: label="Beta"
 
 # What's new? {#new}
 
-
 We are thrilled to introduce the BETA version of Adobe Campaign web UI. Our latest release is packed with intuitive features designed to simplify the creation of personalized cross-channel campaigns, drive exceptional results, and give you a competitive advantage across all channels.
 
-## Beta release{#beta-release}
+## Key capabilities {#key-features}
 
 This new Campaign web interface is currently only available to **Beta practitioners** with the following capabilities:
 
@@ -38,59 +37,66 @@ Learn more about the new UI in [this page](../get-started/user-interface.md).
 Use the new Campaign Web UI to:
 
 * Design personalized email content with the email designer - [Learn more](../content/edit-content.md)
-* Send cross cannel campaigns, including SMS and push notifications.
-* Define target audiences with the rule builder - [Learn more](../audience/about-audiences.md)
-* Preview, test and send your email messages - [Learn more](../monitor/prepare-send.md)
+* Send cross cannel campaigns, including SMS and push notifications - [Learn more](../workflows/activities/channels.md)
+* Define target audiences with the rule builder - [Learn more](../audience/about-recipients.md)
+* Preview, test and send your messages - [Learn more](../monitor/prepare-send.md)
 * Monitor send and measure results with built-in reports - [Learn more](../reporting/delivery-reports.md)
 
 
-## Latest updates
+## Beta release updates {#beta-release}
 
+Key capabiities coming with Campaign Web Beta are listed below.
 
-**Beta Summary**
+* **More Campaign Workflow activities**
 
-* Enable data composition (federated) for Audiences & Personalization.
-* Utilize AI technology to enhance email content generation.
-* Seamlessly sync assets and full HTML templates.
-* Efficiently organize and manage your folders and resources.
-* Create engaging and effective landing pages.
-* More Workflow Activities: Access additional activities such as change dimension, deduplication, and recurring deliveries to enhance campaign workflows.
+    Supercharge your marketing campaigns with our **expanded set of workflow activities**. Unlock new possibilities for automation and optimization, allowing you to create more dynamic and personalized customer journeys. From advanced segmentation to conditional triggers, our additional workflow activities empower you to deliver targeted messages and drive better campaign performance.
 
-**Key new capabilities** 
+    Learn more in [this section](../workflows/gs-workflows.md).
 
-* More Campaign Workflow activities
+* **Gen AI for Email content**
 
-    Supercharge your marketing campaigns with our expanded set of workflow activities. Unlock new possibilities for automation and optimization, allowing you to create more dynamic and personalized customer journeys. 
+    Say goodbye to manual content creation and hello to efficient, data-driven campaigns with the power of Gen AI.  Our Gen AI technology utilizes advanced algorithms to **generate highly engaging and personalized content**. Drive higher open rates, click-through rates, and conversions with Gen AI's intelligent content generation. Stay ahead of the competition and elevate your email marketing game with Gen AI on email content. This capability will be available starting early October.
+
+    Learn more in [this section](../content/generative-gs.md).
+
+* **Predefined Filters**
     
-    From advanced segmentation to conditional triggers, our additional workflow activities empower you to deliver targeted messages and drive better campaign performance.
+    Introducing Predefined Filter Management. Campaign web UI now offers you an user-friendly interface to effortlessly **manage and customize predefined filters** to meet your specific needs. Create once and save for future use.
 
-* Gen AI for Email content
+    Learn more in [this section](../get-started/predefined-filters.md).
 
-    Say goodbye to manual content creation and hello to efficient, data-driven campaigns with the power of Gen AI.  Our Gen AI technology utilizes advanced algorithms to generate highly engaging and personalized content. Drive higher open rates, click-through rates, and conversions with Gen AI's intelligent content generation. 
+* **Target Audience with the rule builder**
 
-    Stay ahead of the competition and elevate your email marketing game with Gen AI on email content.
+    Building a delivery target has never been easier! With our **latest rule builder**, you now have the ability to define filtering criteria for recipients or any other targeting dimension from the database. What's more, you can take advantage of your AEP (Adobe Experience Platform) audience to further refine your target audience and maximize your campaign's impact.
 
+    Learn more in [this section](../audience/segment-builder.md).
 
-* Predefined Filter Management
-    
-    Introducing Predefined Filter Management. Campaign web UI now offers you an user-friendly interface to effortlessly manage and customize predefined filters to meet your specific needs. Create once and save for future use. [Learn more](../personalization/predefined-filters.md)
+* **SMS with offers**
 
+    The new web UI now enables you to **integrate offers with SMS** in addition to Email. Reach your audience on their mobile devices, delivering promotions, and timely notifications. Elevate your marketing efforts by harnessing the power of integrated offers through SMS on our advanced web platform.
+   
+    Learn more in [this section](../content/offers.md).
 
-* Target Audience
-
-    Building a delivery target has never been easier! With our latest rule builder, you now have the ability to define filtering criteria for recipients or any other targeting dimension from the database. What's more, you can take advantage of your AEP (Adobe Experience Platform) audience to further refine your target audience and maximize your campaign's impact.
-
-* Offers with SMS and Push
-
-    The new web UI now enables you to integrate offers with SMS and Push notifications in addition to Email. Reach your audience on their mobile devices, delivering promotions and timely notifications. 
-    
-    Elevate your marketing efforts by harnessing the power of integrated offers through SMS and push notifications on our advanced web platform.
-
+<!--
 * Adobe Experience Manager (AEM) Integration
     
     With our AEM integration extended to web UI, you can easily manage assets and synchronize full HTML templates, empowering you to create captivating digital experiences without any hassle. 
     
     Elevate and streamline your content management capabilities on the web UI with this integration to boost productivity.
+-->
+
+* **Knowledge Assistant with Gen AI**
+
+    Ask questions and find guidance directly from the product user interface. The new **AI-powered Knowledge Assistant**, embedded in the contextual help popovers, helps you learn and grow your expertise on new Campaign features. Based on the latest product documentation, it assists you to find help and get step-by-step guidance instantly, as you are building your use cases. This capability will be available starting early October.
+       
+    Learn more in [this section](../get-started/using-ai.md).
+
+* **HTML Converter for email design**
+
+    You can now **import and convert any HTML content** in Campaign's email editor. Content blocks are automatically identified, and available in the email designer: use its powerful design capabilities to update and personalize it!
+
+    Learn more in [this section](../content/existing-content.md).
+
 
 ## Transition to Campaign Web UI
 
@@ -106,18 +112,18 @@ As an existing Campaign user, note that some concepts have been renamed to align
 
 * Proofs are now **Test emails**: to send a proof, use the **Test** button in the email delivery UI. The target of the proofs is now refered as **Test profiles**. [Learn more](../preview-test/test-deliveries.md).
 * Seed addresses are now used as **Test profiles**: send the test email to seed addresses, which are additional recipients in the database. [Learn more](../preview-test/test-deliveries.md).
-* Delivery analysis is now the **delivery preparation**. When you need to launch the analysis, click the **Prepare** button. [Learn more](../monitor/prepare-send.md).
+* Delivery analysis is now the **delivery preparation**. When you need to launch the message preparation, click the **Prepare** button. [Learn more](../monitor/prepare-send.md).
 * Email Preview is now available throught the **Simulate content** button. [Learn more](../preview-test/preview-test.md)
-* Lists are now **Audiences**. [Learn more](../audience/about-audiences.md).
+* Lists are now **Audiences**. [Learn more](../audience/about-recipients.md).
 
-## Limitations{#limitations-alpha}
+## Limitations{#limitations-beta}
 
-The limitations below apply to this Alpha version:
+The limitations below apply to this Beta version:
 
-* Editable objects are: Deliveries, Campaigns, Workflows, Audiences, Subscription Services, Predefined Filters, and Templates. The others are read-only. Use filters to browse them all.
-* Audiences cannot be saved for future use.
+* Editable objects are: Deliveries, Campaigns, Workflows, Audiences, Subscription Services, Predefined Filters, and Templates. The others are read-only. Use filters and create rules to browse them all.
 * The Administration user interface is not available.
 * Reporting metrics (such as opens and tracking data) are updated every hour.
 * Delivery dashboard KPIs are updated every 5 min. - but the Delivery preparation is real-time.
 * Adobe Experience Cloud Notifications and Unified Help available in the top bar are not yet integrated.
 
+More guardrails and limitations are available in [this page](../get-started/guardrails.md).

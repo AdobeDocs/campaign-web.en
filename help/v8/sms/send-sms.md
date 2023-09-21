@@ -58,6 +58,9 @@ Sending test SMS is an important step in ensuring the quality and effectiveness 
 
     ![](assets/sms_send_5.png)
 
+    If the SMS delivery has been scheduled, click the **[!UICONTROL Send as scheduled]** button. Learn more about delivery scheduling in [this section](../msg/gs-messages.md#schedule-the-delivery-sending).
+
+
 1. Confirm the send action by clicking the **[!UICONTROL Send]** button.
 
 Once your delivery is sent, you can track your KPIs (Key Performance Indicator) data from your delivery page and data from the **[!UICONTROL Logs]** menu.

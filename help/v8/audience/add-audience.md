@@ -38,6 +38,10 @@ To select an existing audience for your message, follow the steps below:
       
       To use Adobe Experience Platform audiences, you need to configure the integration with Destinations. Refer to the [Adobe Experience Platform Destinations documentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html){target="_blank"}.
 
+      >[!IMPORTANT]
+      >
+      >In that version of the product, when building rules, selecting the audience of a delivery, or when building an audience in a workflow, some predefined filters are not available in the user interface. You can still use them. [Learn more](../get-started/guardrails.md#predefined-filters-filters-guardrails-limitations)
+
 1. Choose an audience and click **Select**.
 1. Use the **Show filters** icon to display filtering options. Click **Add rules** to access the rule builder: using the rule builder lets you create advanced filters for the list of audiences. Learn how to use the rule builder in this [section](segment-builder.md).
 

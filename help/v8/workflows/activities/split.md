@@ -7,9 +7,32 @@ badge: label="Beta"
 
 # Split {#split}
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split"
+>title="Split activity"
+>abstract="The **Split** activity allows you to segment incoming populations into multiple subsets based on different selection criteria, such as filtering rules or population size."
+
+
 The **Split** activity is a **Targeting** activity that allows you to segment incoming populations into multiple subsets based on different selection criteria, such as filtering rules or population size.
 
-## Configuration {#general}
+## Configure the Split activity {#split-configuration}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_filter"
+>title="Split activity filter"
+>abstract="To apply a filtering condition to the subset, click **[!UICONTROL Create filter]** and configure the desired filtering rule. For example, include profiles from the incoming population whose email address exist in the database."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_limit"
+>title="Split activity limit"
+>abstract="To limit the number of profiles selected by the subset, toggle on the **[!UICONTROL Enable limit]** option, and specify the number or percentages of the population to include."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_sorting"
+>title="Split activity sorting"
+>abstract="When setting a population limit for a subset, you can rank the selected profiles based on a specific profile attribute, in ascending or descending order. To do this, toggle on the **Enable sorting** option. For instance, you can restrict a subset to include only the top 50 profiles with the highest purchase amount."
+
 
 Follow these steps to configure the **Split** activity:
 
@@ -25,7 +48,7 @@ Follow these steps to configure the **Split** activity:
     >
     > Before configuring your subsets, ensure that you have added them in the correct order, as their position cannot be changed.
 
-1. Once subsets have been added, the activity shows as many output transitions as there are subsets. We strongly recommand changing the label of each subset to identify them easily in the workflow canvas. 
+1. Once subsets have been added, the activity shows as many output transitions as there are subsets. We strongly recommend changing the label of each subset to identify them easily in the workflow canvas. 
 
 1. Configure how each subset should filter the incoming population. To do this, follow these steps:
 
@@ -34,12 +57,14 @@ Follow these steps to configure the **Split** activity:
     1. To apply a filtering condition to the subset, click **[!UICONTROL Create filter]** and configure the desired filtering rule. For example, include profiles from the incoming population whose email address exist in the database.
 
     1. To limit the number of profiles selected by the subset, toggle on the **[!UICONTROL Enable limit]** option, and specify the number or percentages of the population to include.
+
+        ![](../assets/workflow-split-subset.png)
+
     
         >[!NOTE]
         >
         >When setting a population limit for a subset, you can rank the selected profiles based on a specific profile attribute, in ascending or descending order. To do this, toggle on the **[!UICONTROL Enable sorting]** option. For instance, you can restrict a subset to include only the top 50 profiles with the highest purchase amount.
 
-    ![](../assets/workflow-split-subset.png)
 
 1. Once that you have configured all the subsets, you can select the remaining population that did not match any of the subsets and include them into an additional outbound transition. To do this, toggle on the **[!UICONTROL Generate complement]** option.
 
@@ -47,7 +72,7 @@ Follow these steps to configure the **Split** activity:
 
 The activity is now configured. At workflow execution, the population will be segmented into the different subsets, in the order they have been added to the activity. 
 
-## Example
+## Example{#split-example}
 
 In the following example, the **[!UICONTROL Split]** activity is used to segment an audience into distinct subsets based on the communication channel that we want to use :
 

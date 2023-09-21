@@ -21,9 +21,14 @@ badge: label="Beta"
 >title="Push delivery properties"
 >abstract="Manage the Push delivery properties."
 
-1. From the **[!UICONTROL Deliveries]** homepage, click **[!UICONTROL Create delivery]**.
+You can create a standalone push notification delivery, or create a push notification in the context of a campaign workflow. The steps below detail the procedure for a standalone (one-shot) push delivery. If you are working in the context of a campaign workflow, creation steps are details in [this section](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
-1. Under the **[!UICONTROL Channel]** section, choose Push notification as the channel and select a template depending on the chosen Operational system: Android or iOS. [Learn more about templates](../msg/delivery-template.md)
+
+To create a new standalone push delivery, follow these steps:
+
+1. Browse to the **[!UICONTROL Deliveries]** menu on the left rail, and click the  **[!UICONTROL Create delivery]** button.
+
+1. Under the **[!UICONTROL Channel]** section, choose **Push notification** as the channel and select a template, depending on the chosen device operational system: Android or iOS. [Learn more about templates](../msg/delivery-template.md)
 
 1. Click the **[!UICONTROL Create delivery]** button to confirm.
 
@@ -41,7 +46,7 @@ badge: label="Beta"
 
 1. From the **[!UICONTROL Audience]** menu, select the application you want to use for this delivery.
 
-1. Click the **[!UICONTROL Select audience]** button to target an existing audience or create your own. [Learn more](../audience/about-audiences.md)
+1. Click the **[!UICONTROL Select audience]** button to target an existing audience or create your own. [Learn more](../audience/about-recipients.md)
 
     Note that, by default, your push notification will be sent to all subscribers of the application.
 
@@ -55,7 +60,7 @@ badge: label="Beta"
 
     From this screen, you can also [simulate your content](../preview-test/preview-test.md) and [set up offers](../content/offers.md).
 
-1. To schedule your delivery to a specific date and time, switch on the **[!UICONTROL Enable scheduling]** option. After you initiate the delivery, the message will be automatically sent on the exact date and time that you have defined for the recipient.
+1. To schedule your delivery to a specific date and time, switch on the **[!UICONTROL Enable scheduling]** option. After you initiate the delivery, the message will be automatically sent on the exact date and time that you have defined for the recipient. Learn more about delivery scheduling in [this section](../msg/gs-messages.md#gs-schedule)
 
     ![](assets/push_create_3.png)
 

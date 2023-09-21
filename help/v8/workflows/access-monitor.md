@@ -18,7 +18,7 @@ The **[!UICONTROL Workflows]** menu allows you to access the full list of workfl
 
 Each workflow in the list displays information about its current [status](#status), the last time it was executed or modified, and the next scheduled execution date and time.
 
-You can custmize the displayed columns by clicking the **[!UICONTROL Configure column for a custom layout]** icon located in the upper-right corner of the list. This allows you to add additional information to the list, such as the last activity in error for each workflow, or the applied targeting dimension.
+You can customize the displayed columns by clicking the **[!UICONTROL Configure column for a custom layout]** icon located in the upper-right corner of the list. This allows you to add additional information to the list, such as the last activity in error for each workflow, or the applied targeting dimension.
 
 In addition, a search bar and filters are available to facilitate easy searching within the list. For example, you can filter the workflows to display only those belonging to a campaign, or those processed during a specific date range.
 

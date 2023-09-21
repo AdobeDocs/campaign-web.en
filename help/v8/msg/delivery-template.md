@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Work with delivery templates
-description: Learn how to create and use delivery templates in Campaign
+description: Learn how to create and use delivery templates in Campaign Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
@@ -9,19 +9,34 @@ exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
 ---
 # Work with delivery templates {#work-with-delivery-templates}
 
-For an accelerated and improved design process, you can create delivery templates to easily reuse custom content across your campaigns. This functionality enables you to standardize the creative look and feel, in order to be quicker in executing and launching campaigns.
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_for_campaign"
+>title="Delivery templates"
+>abstract="Use delivery templates to standardize the creative look and feel, in order to be quicker in executing and launching campaigns"
+
+For an accelerated and improved design process, you can create delivery templates to easily reuse custom content and settings across your campaigns. This functionality enables you to standardize the creative look and feel, in order to be quicker in executing and launching campaigns.
 
 A template can include:
 
-* [Typologies](../advanced-settings/delivery-settings.md#typology)
-* The sender address
-* An [audience](../audience/about-audiences.md), including [control groups](../audience/control-group.md)
-* Custom [content](../content/edit-content.md)
-* [Personalized fields](../personalization/personalize.md) and [conditional content](../personalization/conditions.md)
-* Links to [mirror page](../content/mirror-page.md) and unsubscription [links](../content/message-tracking.md)
+* [Typologies](../advanced-settings/delivery-settings.md#typology),
+* The sender address,
+* An [audience](../audience/about-recipients.md), including [control groups](../audience/control-group.md),
+* Custom [content](../content/edit-content.md),
+* [Personalized fields](../personalization/personalize.md) and [conditional content](../personalization/conditions.md),
+* Links to [mirror page](../content/mirror-page.md) and unsubscription [links](../content/message-tracking.md),
 * Other delivery properties, such as resource validity, retry parameters, or quarantine settings.
 
-## Access and manage templates {#access-manage-templates}
+<!--
+>[!NOTE]
+>
+>Delivery templates are different from email content templates, which allow you to reuse only the content of your messages.-->
+
+>[!NOTE]
+>
+>Delivery templates are different from [content templates](../content/email-sample-templates.md), which allow you to start building your content with one of the sample email templates provided out-of-the-box.
+
+
+## Access and manage delivery templates {#access-manage-templates}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_templates"
@@ -55,14 +70,14 @@ To delete or [duplicate](#copy-an-existing-template) a template, select the corr
 >
 >When a template is edited or deleted, deliveries created using this template are not impacted.
 
-## Create a template {#create-a-delivery-template}
+## Create a delivery template {#create-a-delivery-template}
 
 To create a delivery template, you can:
 * Duplicate an existing template - [Learn more](#copy-an-existing-template)
 * Convert an existing delivery into a template - [Learn more](#convert-an-existing-delivery)
 * Create a delivery template from scratch - [Learn more](#create-a-new-template)
 
-### Duplicate an existing template {#copy-an-existing-template}
+### Duplicate an existing delivery template {#copy-an-existing-template}
 
 Campaign comes with a set of built-in templates for each channel: email, push, SMS. The easiest way to create a delivery template is to duplicate and customize a built-in template.
 
@@ -114,7 +129,7 @@ To save a delivery as a template, follow the steps below:
 
 The new template is added to the [**Templates** list](#access-manage-templates). You can now select it when creating a new delivery.
 
-### Create a new template {#create-a-new-template}
+### Create a new delivery template {#create-a-new-template}
 
 >[!NOTE]
 >
@@ -144,6 +159,8 @@ To configure a delivery template from scratch, follow the steps below:
     > * [Push notification channel](../push/gs-push.md)
     > * [SMS channel](../sms/create-sms.md)
 
+1. Additionally, for email templates, advanced settings, such as typology rules and target mappings, can be accessed via the **[!UICONTROL Settings]** button located on the top right of the screen. [Learn more](../advanced-settings/delivery-settings.md)
+
 1. Click the **[!UICONTROL Review]** button to save and review your template. You can still edit all its settings, delete and duplicate it.
 
 1. Test the template rendering if needed. [Learn more](#test-template)
@@ -156,7 +173,7 @@ You can test the rendering of any delivery template, whether created from scratc
 
 1. Browse to the **Templates** tab through the **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]** menu and select any template. [Learn more](#access-manage-templates)
 
-1. Click the **[!UICONTROL Simulate Content]** button on top right of the screen.
+1. Click the **[!UICONTROL Simulate content]** button on top right of the screen.
 
     ![](assets/templates-simulate-button.png)
 
@@ -164,7 +181,7 @@ You can test the rendering of any delivery template, whether created from scratc
 
 1. Toggle between the different profiles to get a personalized representation of the message according to the selected profile.
 
-    <!--[Learn moreon test profiles](../preview-test/test-deliveries.md#recipients)-->
+    <!--[Learn more on test profiles](../preview-test/test-deliveries.md#recipients)-->
 
     You can also adjust the zoom level and choose the desktop or mobile view.
 

@@ -27,17 +27,11 @@ The recipients of a test can check various elements such as links, opt-out links
 
 According to the channel you are using, test messages can be sent to three types of recipients: 
 
-* [Test profiles](#test-profiles) - Send **test emails and SMS** to seed addresses, which are additional recipients in the database.
-
-    They can be created in the [!DNL Campaign] console into the **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** folder. Learn more in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+* [Test profiles](#test-profiles) - Send **test emails and SMS** to seed addresses, which are additional recipients in the database. They can be created in the [!DNL Campaign] console into the **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** folder. Learn more in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
     
-* [Substitute from main target](#substitution-profiles) - Send **test emails and SMS** to a specific email address or phone number while impersonating an existing profile.
+* [Substitute from main target](#substitution-profiles) - Send **test emails and SMS** to a specific email address or phone number while impersonating an existing profile. This allows you to experience the message as the recipients would, giving you an accurate representation of the content that the profile will receive.
 
-    This allows you to experience the message as the recipients would, giving you an accurate representation of the content that the profile will receive.
-
-* [Subscribers](#subscribers) - Send **test push notifications** to fictitious subscribers added to the database.
-
-    Just as test profiles, they can be created in the [!DNL Campaign] console into the **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** folder. Learn more in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+* [Subscribers](#subscribers) - Send **test push notifications** to fictitious subscribers added to the database. Just as test profiles, they can be created in the [!DNL Campaign] console into the **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** folder. Learn more in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
 To select the recipients of a test delivery, follow the steps below according to the type of profiles you want to use.
 
@@ -86,7 +80,7 @@ To select the recipients of a test delivery, follow the steps below according to
 
 To send a test email or SMS to a specific email address or phone number while displaying data from an existing profile of the [!DNL Campaign] database, use substitution profiles.
 
-1. Before sending a test, make sure you define a target audience for you delivery. [Learn more](../audience/about-audiences.md)
+1. Before sending a test, make sure you define a target audience for you delivery. [Learn more](../audience/about-recipients.md)
 
 1. Browse to the edit content screen of your email or SMS delivery, then click the **[!UICONTROL Simulate content]** button.
 
@@ -98,7 +92,7 @@ To send a test email or SMS to a specific email address or phone number while di
 
     >[!CAUTION]
     >
-    >If you have not selected an [audience](../audience/about-audiences.md) for your delivery, the **[!UICONTROL Substitute from main target]** option will be greyed out and you will not be able to select substitution profiles.
+    >If you have not selected an [audience](../audience/about-recipients.md) for your delivery, the **[!UICONTROL Substitute from main target]** option will be greyed out and you will not be able to select substitution profiles.
 
 1. Click the **[!UICONTROL Add address]** button and specify the email address or phone number that will receive the test delivery.
 

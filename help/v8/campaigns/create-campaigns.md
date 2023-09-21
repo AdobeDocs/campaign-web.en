@@ -25,8 +25,7 @@ To create a new campaign, you need to define its properties, schedule, and inclu
 To create a new campaign, follow these steps:
 
 1. Click the **[!UICONTROL Campaigns]** menu, and click the **[!UICONTROL Create campaign]** button.
-1. Select the **Template** to use and provide a label for the campaign. Campaign templates are pre-configured so that they can be reused for creating new campaigns. They are created from the client console.
-[Read more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html).
+1. Select the **Template** to use and provide a label for the campaign. [Read more](manage-campaigns.md#manage-campaign-templates).
 1. If needed, you can change the following **Additional options**: internal name, folder, assignee, description and nature.
 1. Define the **Schedule** of your campaign. Learn how to set your campaign schedule in [this section](#campaign-schedule)
 1. Click **Create**.
@@ -71,11 +70,6 @@ Once the date is reached, deliveries created in that campaign in the context of 
 ++screen
 ## Create a cross-channel campaign {#cross-channel-campaign}
 
-
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_workflow"
->title="Workflow list"
->abstract="List of workflows available for your campaign. Use the 'Create workflow' button to add a workflow in your campaign."
 
 In a cross-channel campaign, a single marketing communication uses different channels. Data is passed between the channels. The customer receives communication through multiple channels based on, for example, their interaction with the previous communication.
 

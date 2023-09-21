@@ -8,6 +8,11 @@ exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
 
 # Get started with campaigns {#campaigns}
 
+>[!CONTEXTUALHELP]
+>id="acw_campaigns_list"
+>title="Campaigns"
+>abstract="Browse the list of campaigns. Select a campaign to view its content, deliveries, and details. You can filter by status, start/end dates, or with custom rules. You can also view reports for finished campaigns. Click the **Create campaign** button to add a new campaign. Browse to the **Templates** tab to view and create templates."
+
 
 Adobe Campaign allows you to easily orchestrate your targeted marketing initiatives, using the built-in campaign management capability. With the ability to define a schedule, you can plan the duration and timing of your campaigns to align with strategic objectives and maximize audience engagement.
 

@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: Send offers
-description: Send offers
+title: Add offers in your messages
+description: Learn how to add and send offers
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="Beta" 
 ---
 
-# Send offers {#offers-content}
+# Add offers in your messages {#offers-content}
 
 Adobe Campaign v8 Web allows you to send with your deliveries offers that have been created in the console using the **[!UICONTROL Interaction]** module. For more information on Interaction and how to manage an offer catalog in the console, refer to the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
 
@@ -19,15 +19,19 @@ The steps to send offers with an delivery are as follows:
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_settings"
->title="Offers settings"
->abstract="Configure which offers should be proposed to the recipients."
+>title="Define the offers parameters"
+>abstract="Configure which offers should be proposed to the recipients by defining an offer space, optionally a category and a theme, and specify the number of offers you want to insert into the delivery."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_advanced_settings"
->title="Offers advanced settings"
->abstract="Configure advanced options on offers."
+>title="Set the offers advanced settings"
+>abstract="You can enable the exclusion of recipients for whom there are not enough eligible offers, and choose how the message is processed in case one of the propositions does not exist."
 
-1. To select the offers to propose in your delivery, click the **[!UICONTROL Set up offers]** button from the delivery content edition screen.
+Adobe Campaign allows you to propose one or several specific offers to a given contact. Interaction module which lets you respond in real-time during an interaction to a given contact by proposing them a single or several specific offers. These offers can be simple communication messages, special offers on one or several products or a service.
+
+To select the offers to add to your delivery, follow the steps below.
+
+1. Click the **[!UICONTROL Set up offers]** button from the delivery content edition screen.
 
     ![](assets/setup-offers.png)
 
@@ -93,7 +97,7 @@ To insert an offer using the Expression Editor, follow the steps below.
 
     >[!NOTE]
     >
-    >The number of propositions available depends on the way the engine call is configured and their order depends on the priority of offers.
+    >The number of propositions available depends on the way the engine call is configured and their order depends on the priority of offers. Learn more in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html){target="_blank"}.
 
 1. Save your changes.
 

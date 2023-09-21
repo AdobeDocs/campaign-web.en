@@ -22,7 +22,12 @@ exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
 >title="SMS template selection"
 >abstract="Select a predefined template to start your SMS delivery."
 
-1. From the **[!UICONTROL Deliveries]** homepage, click **[!UICONTROL Create delivery]**.
+You can create a standalone SMS delivery, or create a SMS in the context of a campaign workflow. The steps below detail the procedure for a standalone (one-shot) SMS delivery. If you are working in the context of a campaign workflow, creation steps are details in [this section](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+
+
+To create a new standalone SMS delivery, follow these steps:
+
+1. Browse to the **[!UICONTROL Deliveries]** menu on the left rail, and click the  **[!UICONTROL Create delivery]** button.
 
 1. Under the **[!UICONTROL Channel]** section, choose SMS as the channel and select a template. [Learn more about templates](../msg/delivery-template.md)
 
@@ -40,7 +45,7 @@ exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
     * **[!UICONTROL Nature]**: Specify the email's nature for classification purposes.
     +++
 
-1. Click the **[!UICONTROL Select audience]** button to target an existing audience or create your own. [Learn more](../audience/about-audiences.md).
+1. Click the **[!UICONTROL Select audience]** button to target an existing audience or create your own. [Learn more](../audience/about-recipients.md).
 
     ![](assets/sms_create_2.png)
 
@@ -52,7 +57,7 @@ exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
 
     From this screen, you can also [simulate your content](../preview-test/preview-test.md) and [set up offers](../content/offers.md).
 
-1. To schedule your delivery to a specific date and time, switch on the **[!UICONTROL Enable scheduling]** option. After you initiate the delivery, the message will be automatically sent on the exact date and time that you have defined for the recipient.
+1. To schedule your delivery to a specific date and time, switch on the **[!UICONTROL Enable scheduling]** option. After you initiate the delivery, the message will be automatically sent on the exact date and time that you have defined for the recipient. Learn more about delivery scheduling in [this section](../msg/gs-messages.md#gs-schedule).
 
 1. Click **[!UICONTROL Configure delivery settings]** to access advanced options related to your delivery template. [Learn more](../advanced-settings/delivery-settings.md)
 

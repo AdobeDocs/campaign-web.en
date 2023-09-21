@@ -15,9 +15,7 @@ badge: label="Beta"
 
 Learn how to create your first targeted email. In this use case, you schedule the sending of an email to Silver and Gold loyalty members on a specific date.
 
-Based on a predefined design template, the email also features personalized content based on customer profile attributes.
-
-![](assets/delivery-list.png)
+Based on a predefined [design template](../content/email-sample-templates.md), the email also features personalized content based on customer profile attributes.
 
 ## Create the email delivery {#create-email}
 
@@ -28,12 +26,16 @@ Based on a predefined design template, the email also features personalized cont
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_properties"
->title="Email Properties"
->abstract="The properties are the common delivery parameters that helps you to name and classify your delivery. If your delivery is based on an extended schema defined in the Adobe Campaign v8 console, some specific **Custom Options** fields are available."
+>title="Define your email properties"
+>abstract="The properties are the common delivery parameters that helps you to name and classify your delivery. The additional settings are optional. If your delivery is based on an extended schema defined in the Adobe Campaign v8 console, some specific **Custom Options** fields are available."
 
-To create a new delivery, follow these steps:
+You can create a standalone email delivery, or create an email in the context of a campaign workflow. The steps below detail the procedure for a standalone (one-shot) email delivery. If you are working in the context of a campaign workflow, creation steps are details in [this section](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+
+To create a new standalone email delivery, follow the steps below.
 
 1. Browse to the **[!UICONTROL Deliveries]** menu on the left rail, and click the  **[!UICONTROL Create delivery]** button.
+
+    ![](assets/delivery-list.png)
 
 1. Select **[!UICONTROL Email]** as the channel and choose an email delivery template from the list.
 
@@ -46,10 +48,10 @@ To create a new delivery, follow these steps:
 1. Click the **[!UICONTROL Create delivery]** button to confirm.
 1. Enter a label for the delivery and configure additional options based on your needs:
 
-    * **[!UICONTROL Internal name]**: assign a unique identifier to the delivery,
-    * **[!UICONTROL Folder]**: store the delivery in a specific folder,
-    * **[!UICONTROL Delivery code]**: use this field to organize your deliveries based on your own naming convention,
-    * **[!UICONTROL Description]**: specify a description for the delivery,
+    * **[!UICONTROL Internal name]**: assign a unique identifier to the delivery.
+    * **[!UICONTROL Folder]**: store the delivery in a specific folder.
+    * **[!UICONTROL Delivery code]**: use this field to organize your deliveries based on your own naming convention.
+    * **[!UICONTROL Description]**: specify a description for the delivery.
     * **[!UICONTROL Nature]**: specify the nature of the email for classification purposes.<!--The content of the list is defined in the delivery template selected when creating the email.-->
 
     >[!NOTE]
@@ -58,15 +60,42 @@ To create a new delivery, follow these steps:
 
     ![](assets/email-properties.png)
 
-    Additionally, advanced settings, such as typology rules and target mappings, can be accessed by clicking the button located next to the delivery name. These settings are pre-configured in the selected template, but can be edited as needed for this specific email.
+1. Additionally, advanced settings, such as typology rules and target mappings, can be accessed via the **[!UICONTROL Settings]** button located on the top right of the screen. These settings are pre-configured in the selected template, but can be edited as needed for this specific email. [Learn more](../advanced-settings/delivery-settings.md)
+
+## Define the audience {#define-audience}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_audience"
+>title="Select an audience for your delivery"
+>abstract="Select the best audience for your marketing message. You can choose an existing audience (already defined in a Campaign v8 instance or from Adobe Experience Platform), create a new audience using the rule builder, or upload a file containing your audience. Control groups are not enabled for the **Select from file** option and vice versa."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html" text="Select the main audiences"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="Set a control group"
+
+In this use case, you send the email to an existing audience.
+
+Additional instructions on how to work with audiences are available in [this section](../audience/about-recipients.md).
+
+1. To select the audience for the email, click the **[!UICONTROL Select audience]** button and choose an existing audience from the list.
+
+    In this example, we want to use an existing audience targeting customers belonging to the silver and gold loyalty points levels.
+
+    ![](assets/create-audience.png)
+
+    >[!NOTE]
+    >
+    >Audiences available in the list originate either from your Campaign v8 instance, or from Adobe Experience Platform if the Destination/Source integration has been configured on your instance. This integration allows you to send Experience Platform segments to Adobe Campaign, and to send Campaign delivery and tracking logs over to Adobe Experience Platform. Learn how work with Campaign and Adobe Experience Platform in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
+
+1. Once the audience is selected, you can further refine the target by applying additional rules.
+
+    ![](assets/audience-selected.png)
+
+1. You can also set a control group to analyze the behavior of the email recipients compared to those who were not targeted. [Learn how to work with control groups](../audience/control-group.md)
 
 ## Define the email content {#create-content}
 
-To start creating your email content, follow the steps below.
+To start creating your email content, follow the steps below. In this use case, you use a predefined email [delivery template](../msg/delivery-template.md) to design your email.<!--TBC delivery template or email content template?-->
 
 <!--Detailed instructions on how to configure the email content are available in [this section](../content/edit-content.md).-->
-
-In this use case, you use a predefined email [delivery template](../msg/delivery-template.md) to design your email.
 
 1. From the email delivery dashboard, click the **[!UICONTROL Edit content]** button.
 
@@ -82,7 +111,7 @@ In this use case, you use a predefined email [delivery template](../msg/delivery
 
 1. To design the content of the email, click the **[!UICONTROL Edit email body]** button.
 
-    Choose the method to use to create your email content. In this example, use a [predefined content template](../msg/delivery-template.md).
+    Choose the method to use to create your email content. In this example, use a [predefined content template](../content/email-sample-templates.md).
 
     ![](assets/select-template.png)
 
@@ -96,45 +125,21 @@ In this use case, you use a predefined email [delivery template](../msg/delivery
 
     ![](assets/save-content.png)
 
-## Define the audience {#define-audience}
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_audience"
->title="Define the audience"
->abstract="Select the best audience for your marketing message. You can choose an existing audience already defined in a Campaign v8 instance or from Adobe Experience Platform, or you can create a new audience with the rule builder. Control groups are not enabled for 'Select from file' and vice versa."
-
-In this use case, you send the email to an existing audience. Additional instructions on how to work with audiences are available in [this section](../audience/about-audiences.md).
-
-1. To select the audience for the email, click the **[!UICONTROL Select audience]** button and choose an existing audience from the list.
-
-    In this example, we want to use an existing audience targeting customers belonging to the silver and gold loyalty points levels.
-
-    ![](assets/create-audience.png)
-
-    >[!NOTE]
-    >
-    >Audiences available in the list originate either from your Campaign v8 instance or from Adobe Experience Platform if the Destination / Sources integration has been configured on your instance.
-    >
-    >The Destination / Sources integration allows you to send Experience Platform segments to Adobe Campaign, and to send Campaign delivery and tracking logs over to Adobe Experience Platform. Learn how work with Campaign and Adobe Experience Platform in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
-
-1. Once the audience is selected, you can further refine the target by applying additional rules.
-
-    You can also set a control group to analyze the behavior of the email recipients compared to those who were not targeted. [Learn how to work with control groups](../audience/control-group.md)
-
-    ![](assets/audience-selected.png)
-
 ## Schedule the sending {#schedule}
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_schedule"
->title="Schedule the sending"
->abstract="Define the date and the exact time for your sending. By choosing the most appropriate time for your marketing message, you can maximise open rates."
+To schedule the sending of the email, follow the steps below.
 
-To schedule the sending of the email, open your email delivery and browse to the **Schedule** section. Use the **[!UICONTROL Enable scheduling]** toggle to activate it and set the desired date and time for sending. Once you send the delivery, the actual sending will start on the contact date you have defined.
+Additional instructions on how to schedule the delivery sending are detailed in [this section](../msg/gs-messages.md#gs-schedule).
 
-By default, the **[!UICONTROL Enable confirmation before sending]** option is enabled. This option requires you to confirm the sending before the email is sent at the scheduled date and time. If you need to send the email automatically on the scheduled date and time, you can disable this option.
+1. Browse to the **[!UICONTROL Schedule]** section.
 
-![](assets/schedule.png)
+1. Use the **[!UICONTROL Enable scheduling]** toggle to activate it.
+
+1. Set the desired date and time for sending.
+
+    ![](assets/schedule.png)
+
+Once you send the delivery, the actual sending will start on the contact date you have defined.
 
 ## Preview and test the email {#preview-test}
 
@@ -146,7 +151,7 @@ Additional information on how to preview and test emails are available in [this 
 
 1. To review your email, click **[!UICONTROL Review and send]**. This displays a preview of your email, along with al the configured properties, audience and schedule. You can edit any of these elements by clicking the modify button.
 
-1. To preview the email and send test verrsions, click the **[!UICONTROL Simulate content]** button. 
+1. To preview the email and send test versions, click the **[!UICONTROL Simulate content]** button. 
 
     ![](assets/review-email.png)
 
@@ -191,7 +196,10 @@ After reviewing and testing your email, you can launch its preparation and send 
 
 1. During the sending process, you can track its progress and view statistics in real-time directly in this screen.
 
-    ![](assets/sent-mail.png)
+    ![](assets/sending-email.png)
+
+    <!--
+    ![](assets/sent-email.png)-->
 
     You can also access detailed information on the sending by clicking the **[!UICONTROL Logs]** button. [Learn how to monitor delivery logs](../monitor/delivery-logs.md)     
 

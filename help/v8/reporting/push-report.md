@@ -9,7 +9,12 @@ badge: label="Beta"
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
 >title="Push report summary"
->abstract="Discover the reporting metrics for your Push delivery."
+>abstract="The **Push delivery overview** offers a comprehensive overview of your push delivery, providing extensive insights and specific data. It furnishes comprehensive information about the performance, effectiveness, and results of your delivery."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_sending_push"
+>title="Reporting sending"
+>abstract="he **Sending** tab within your report provides in-depth insights into your visitors' interactions with your deliveries and any potential errors they may have encountered."
 
 The **Push delivery report** provides a thorough overview of the push channel, offering extensive insights and specific data. It offers comprehensive information regarding the performance, effectiveness, and results of each delivery.
 
@@ -21,7 +26,7 @@ The **Push delivery report** provides a thorough overview of the push channel, o
 
     +++Learn more on Push delivery report metrics.
 
-    * **[!UICONTROL Total sent]**: Total number of messages processed during the delivery analysis.
+    * **[!UICONTROL Total sent]**: Total number of messages processed during the delivery preparation.
 
     * **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
 
@@ -37,7 +42,7 @@ The **Push delivery report** provides a thorough overview of the push channel, o
 
     +++Learn more on Push delivery report metrics.
 
-    * **[!UICONTROL To deliver]**: Total number of messages processed during the delivery analysis.
+    * **[!UICONTROL To deliver]**: Total number of messages processed during the delivery preparation.
 
     * **[!UICONTROL Exclusions]**: Number of profiles that have been excluded from the analysis.
 
@@ -62,6 +67,11 @@ The **Push delivery report** provides a thorough overview of the push channel, o
     ![](assets/reporting_push_6.png) 
 
 ## Delivery throughput {#delivery-throughput}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_throughput_push"
+>title="Delivery throughput report"
+>abstract="The Delivery throughput report presents detailed information regarding the delivery throughput of the entire platform within a specified timeframe."
 
 This report presents detailed information regarding the delivery throughput of the entire platform within a specified timeframe. The primary metric used to measure the speed of message delivery is the number of messages sent per hour.
 
