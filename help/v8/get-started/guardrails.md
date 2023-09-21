@@ -44,7 +44,7 @@ Loops are not available yet in the web UI. If you created a wokflow including a 
 | --- | --- |
 | ![](assets/limitations-loops-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-loops-web.png){width="800px" align="left" zoomable="yes"} |
 
-The positioning of the nodes is refreshed everytime an activity is added or removed. If you create a workflow in the console, modify it using the web UI and re-open it in the console, you may notice some minor positioning imperfections. This has no impact on the workflow's 
+The positioning of the nodes is refreshed everytime an activity is added or removed. If you create a workflow in the console, modify it using the web UI and re-open it in the console, you may notice some minor positioning imperfections. This has no impact on the workflow's processes and tasks.
 
 | Initial workflow | Positionning change |
 | --- | --- |
