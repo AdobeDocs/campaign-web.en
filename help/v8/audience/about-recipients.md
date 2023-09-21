@@ -6,6 +6,8 @@ badge: label="Beta"
 
 # Work with recipients & audiences {#about-recipients}
 
+In Adobe Campaign, the target population of a delivery is an audience. An audience set of people who share similar behaviors and/or characteristics. This collection of people can either be generated, selected, or loaded [as detailed below](#audiences). In most common cases, the audience is made of profiles, which are stored as [recipients](#recipients) in Adobe Campaign. You can also work with other target mappings by changing the dimenstion as explained [in this section](#targeting-dimensions).
+
 ## What are recipients? {#recipients}
 
 >[!CONTEXTUALHELP]
