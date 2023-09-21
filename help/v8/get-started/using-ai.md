@@ -49,3 +49,4 @@ To get the best of the AI-powered Knowledge Assistant, when asking a question, w
 * Use appropriate terms and wording, with a neutral tone.
 * Rate the answers and provide feedback so that our engineers can learn from your experience, and improve results.
 
+<img src="assets/AI_CH.gif"/>
