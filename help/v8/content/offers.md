@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: Send offers
-description: Send offers
+title: Add offers in your messages
+description: Learn how to add and send offers
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="Beta" 
 ---
 
-# Send offers {#offers-content}
+# Add offers in your messages {#offers-content}
 
 Adobe Campaign v8 Web allows you to send with your deliveries offers that have been created in the console using the **[!UICONTROL Interaction]** module. For more information on Interaction and how to manage an offer catalog in the console, refer to the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
 

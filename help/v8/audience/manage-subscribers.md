@@ -7,7 +7,9 @@ badge: label="Beta"
 
 # Manage the subscribers of a service {#manage-subscribers}
 
-Once you [created a service](manage-services.md#create-service), you can add subscribers, unsubscribe recipients and deliver to the subscribers of that service.
+Once you [created a service](manage-services.md#create-service), you can add subscribers, unsubscribe recipients, and send messages to the subscribers of that service.
+
+Subscribers management is detailed in this page. To learn how to send messages to your subscribers, refer to [this section](../content/send-to-subscribers.md).
 
 ## Add subscribers to your service {#add-subscribers}
 
@@ -51,30 +53,8 @@ The recipient is removed from the **[!UICONTROL Subscribers]** list and is no lo
 
 A subscription service can have a limited duration. Recipients are automatically unsubscribed when the period of validity expires.
 
-This period is specified when [creating the service](manage-services.md#create-service). From the **[!UICONTROL Additional options]**, disable the **[!UICONTROL  Unlimited validity period]** option and define a validity period for the service.
+This period is specified when [creating the service](manage-services.md#create-service). From the **[!UICONTROL Additional options]**, disable the **[!UICONTROL Unlimited validity period]** option and define a validity period for the service.
 
 ![](assets/service-create-validity-period.png)
 
 After the specified duration expires, all subscribers are automatically unsubscribed from that service.
-
-## Deliver to the subscribers of a service
-
-Once you [created a subscription service](manage-services.md#create-service), your can target its subscribers in a delivery. Follow the steps below.
-
-1. [Create an audience](../audience/create-audience.md) including the subscribers to the service you created:
-
-    * In the **[!UICONTROL Build audience]** activity, display the advanced attributes and select **[!UICONTROL Recipient]** > **[!UICONTROL Subscriptions]** > **[!UICONTROL Service]**.
-
-    * In this example, select the users who are subscribed to the service that has the **Luma Newsletter** label.
-
-    ![](assets/service-audience-subscribers.png)
-
-1. [Create a delivery](../msg/gs-messages.md#create-delivery) and select the audience that you created above.
-
-    ![](assets/service-delivery-targeting-subscribers.png)
-
-1. Edit your message content as wanted and send the delivery.
-
-    ![](assets/service-delivery-ready.png)
-
-Your delivery is sent to the subscribers of that service only.

@@ -102,7 +102,7 @@ To send confirmation messages to the users who subscribe to or unsubscribe from 
 
 You can now select these messages when [creating a subscription service](#create-service). Users who subscribe to or unsubscribe from that service will receive the selected confirmation messages.
 
-## Subscription service logs and reports {#logs-and-reports}
+## Monitor your subscription services {#logs-and-reports}
 
 To measure the effectiveness of your subscription services for SMS and email channels, you can access the logs and reports for a given service.
 
