@@ -7,9 +7,10 @@ badge: label="Beta"
 
 # Get started with the Content assistant {#generative-gs}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
->title="Create the email content"
+>title="Content assistant"
 >abstract="Once you have crafted and personalized your delivery, you can use the Content Assistant to enhance your content. This feature simplifies the process of personalization and content improvement by allowing you to fine-tune the content by describing what you want to generate."
 
 The Content Assistant, powered by generative AI, is a valuable tool for improving email content. It simplifies personalization and content enhancement, optimizing your email deliveries to better resonate with your audience. 

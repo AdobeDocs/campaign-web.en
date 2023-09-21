@@ -178,11 +178,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 >[!CONTEXTUALHELP]
->id="acw_reporting_email_exportation"
->title="Exportation"
->abstract="You can only export the selected page."
-
->[!CONTEXTUALHELP]
 >id="acw_global_reporting_sending"
 >title="Global reports sending"
 >abstract="Tracking reporting metrics are visible in this screen"
