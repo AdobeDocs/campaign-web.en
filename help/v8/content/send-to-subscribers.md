@@ -9,7 +9,7 @@ badge: label="Beta"
 
 You can create subscription services in Adobe Campaign, and send messages to your subcribers. Learn how to create subscriptions services in [this page](../audience//manage-services.md#create-service). 
 
-To send messages to your subscribers, create a specific audience to identify the subscribers, and then create the delivery as detailed below. To perform this, follow these steps:
+To send messages to your subscribers, create a specific audience to identify the subscribers, and then create the delivery as detailed below. 
 
 1. Create an audience. Learn more about audiences in [this page](../audience/create-audience.md).
 
