@@ -21,7 +21,11 @@ To send messages to your subscribers, create a specific audience to identify the
 
 1. Save the audience.
 1. Create a delivery. Steps to create a delivery are detailed in [this page](../msg/gs-messages.md#create-delivery).
-1. Select the audience that you created above.
+1. Browse to your delivery settings, change the default target mapping to **Subscriptions (nms:subscriptions)**.
+
+    ![](assets/service-delivery-change-mapping.png)
+
+1. In the main target section of the delivery, select the audience that you created above.
 
     ![](assets/service-delivery-targeting-subscribers.png)
 
