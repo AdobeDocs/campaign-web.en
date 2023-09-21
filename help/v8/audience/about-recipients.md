@@ -63,7 +63,7 @@ When targeting an audience, you can also define **control groups** to avoid send
 
 ## Targeting dimensions {#targeting-dimensions}
 
-The targeting dimension is the type of data that an operation is handling. It lets you define the targeted population: recipients, contract beneficiaries, operators, subscribers, etc.
+The targeting dimension, aka. target mapping, is the type of data that an operation is handling. It lets you define the targeted population: recipients, contract beneficiaries, operators, subscribers, etc.
 
 The targeting dimension of a workflow is defined by the first **[!UICONTROL Build audience]** activity and is used across all further activities until the end of the workflow. For example, if you perform a query on the recipients from the database, the outbound transition will contain data of type recipient and it will be transmitted to the next activity.
 
