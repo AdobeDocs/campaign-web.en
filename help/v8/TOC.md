@@ -85,7 +85,7 @@ hide: yes
     + [Build a one-time audience](audience/one-time-audience.md)
     + [Load an audience from a file](audience/file-audience.md)
     + [Set a control group](audience/control-group.md)
-  + [Work with the rule buidler](audience/segment-builder.md)
+  + [Work with the rule builder](audience/segment-builder.md)
   + [Monitor & manage audiences](audience/manage-audience.md)
   + Work with subscription services {#work-with-services}
     + [Manage services](audience/manage-services.md)

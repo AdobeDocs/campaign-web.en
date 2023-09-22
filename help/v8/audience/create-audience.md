@@ -19,7 +19,7 @@ badge: label="Beta"
 
 Campaign Web allows you to create new audiences into a visual workflow canvas. Beyond starting from scratch to create a simple audience, you can also leverage workflow activities to refine your audience. For instance, you can combine multiple audiences into a single one, enrich your audience with external attributes, or divide a it into multiple audiences based on rules of your choice.
 
-Once you've crafted your workflow, the resulting audiences are automatically stored within Campaign database alongside your existing ones. These audiences can then be targeted in campaigns or standalone deliveries.
+Once you've crafted your workflow, the resulting audiences are automatically stored within Campaign database alongside your existing ones. These audiences can then be targeted in workflows or standalone deliveries.
 
 ## Create your first audience {#create}
 
@@ -53,7 +53,9 @@ To create an audience, follow these steps:
 
 1. When your workflow is ready, click **[!UICONTROL Start]** to execute it.
 
-The workflow is saved in the **[!UICONTROL Workflows]** list, while the resulting audience(s) are accessible in the **[!UICONTROL Audiences]** list.
+The workflow is saved in the **[!UICONTROL Workflows]** list, while the resulting audience(s) are accessible in the **[!UICONTROL Audiences]** list. [Learn how to monitor & manages audiences](manage-audience.md)
+
+You can now use this audience as the main target of a delivery. [Learn more](add-audience.md)
 
 ## Audience workflow example {#example}
 

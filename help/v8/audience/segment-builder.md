@@ -5,32 +5,33 @@ description: Learn how to work with the rule builder
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Beta" 
 ---
-# Define an audience with the rule builder {#segment-builder}
+# Work with the rule builder {#segment-builder}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
 >title="Target audiences"
 >abstract="Building a delivery target has never been easier! With our latest rule builder, you now have the ability to define filtering criteria for recipients or any other targeting dimension from the database. Take advantage of your Adobe Experience Platform audience to further refine your target audience and maximize your campaign's impact."
 
-The rule builder allows you to define the population targeted by your message by filtering data contained in the database. For more information on the rule builder, refer to the [Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
+The rule builder allows you to define the population targeted by your delivery by filtering data contained in the database. You can use it to build an audience either from a workflow using a **[!UICONTROL Build audience]** activity, or directly when creating a delivery to create a one-time audience.
+
+* [Learn how to create an audience](create-audience.md)
+* [Learn how to create a one-time audience for a delivery](one-time-audience.md)
 
 ## The palette
 
-The palette, located on the left side contains all the elements that you can filter on to create your audience. The tiles contained in the palette must be moved into the center canvas in order to be configured and taken into account. The palette is divided into two tabs:
+The palette, located on the left side contains all the elements that you can filter on to create your audience. You can use the search bar to find elements quickly. The tiles contained in the palette must be moved into the center canvas in order to be configured and taken into account.
+
+![](assets/segment-builder2.png){width="70%" align="left"}
+    
+The palette is divided into two tabs:
 
 * **Attributes**: this tab allows you to access all available fields from the schema. The list of fields depends on the targeting schema defined in the email template.
 
-    ![](assets/segment-builder2.png){width="70%" align="left"}
-
-* **Audiences**: this tab allows you to filter using one of the existing audiences defined in the Campaign Classic console or from Adobe Experience Platform.
-
-    ![](assets/segment-builder3.png){width="70%" align="left"}
+* **Audiences**: this tab allows you to filter using one of the existing audiences defined in the Campaign Classic console or from Adobe Experience Platform. [Learn how to monitor & manage audiences](manage-audience.md)
 
     >[!NOTE]
     >
     >To leverage Adobe Experience Platform audiences, you need to configure the integration with Destinations. Refer to the [Adobe Experience Platform Destinations documentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html){target="_blank"}.
-
-You can use the search bar to find elements quickly.
 
 ## The canvas
 
@@ -40,13 +41,20 @@ The canvas is the central zone in which you can configure and combine rules base
 
 ## The rule properties pane
 
-On the right side, the **Rule properties** pane allows you to perform the following actions:
+On the right side, the **Rule properties** pane allows you to perform the  actions listed below.
 
 ![](assets/segment-builder5.png){width="70%" align="left"}
 
 * **View results:** displays the list of recipients targeted by the audience.
 * **Code view**: displays a code-based version of the audience in SQL.
 * **Display advanced attributes**: check this option if you want to view the complete list of attributes in the left palette: nodes, groupings, 1-1 links, 1-N links.
+* **Calculate**: updates and displays the number of profiles targeted by your query.
+* **Select or save filter**: use a predefined filter to filter your query, or save your query as a new filter for future reuse. [Learn how to work with predefined filters](../get-started/predefined-filters.md)
+
+    >[!IMPORTANT]
+    >
+    >In that version of the product, some predefined filters are not available in the user interface. You can still use them. [Learn more](guardrails.md#predefined-filters-filters-guardrails-limitations)
+
 * **Attributes**: displays a description of the created audience.
 
 ## Example
