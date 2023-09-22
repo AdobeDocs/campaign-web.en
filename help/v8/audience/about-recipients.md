@@ -52,8 +52,7 @@ The audience is the main target of your delivery: the recipients who receive the
 To define the population of an audience, you can:
 
 * [Create new audiences](create-audience.md) from the **[!UICONTROL Audiences]** menu,
-* [Select an existing audience](add-audience.md) created as a list in the client console,
-* [Select an Adobe Experience Platform audience](aep-audience.md),
+* [Select an existing audience](add-audience.md) created as a list in the client console or coming from Adobe Experience Platform,
 * [Build a new audience](segment-builder.md) with the rule builder by defining and combining filtering criteria,
 * [Use an audience from an external file](file-audience.md). This option is only available for standalone email deliveries, and cannot be used in campaign deliveries.
 

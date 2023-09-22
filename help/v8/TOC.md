@@ -79,13 +79,14 @@ hide: yes
     + [Render your email](preview-test/email-rendering.md)
 + Audiences & recipients {#audiences}
   + [Work with recipients & audiences](audience/about-recipients.md)
-  + [Create and manage audiences](audience/create-audience.md)
-  + Target audiences {#target-audiences}
+  + [Create audiences](audience/create-audience.md)
+  + Select your delivery recipients {#target-audiences}
     + [Select an existing audience](audience/add-audience.md)
-    + [Define an audience with the rule builder](audience/segment-builder.md)
-    + [Load an email audience from a file](audience/file-audience.md)
-    + [Use an Adobe Experience Platform audience](audience/aep-audience.md)
+    + [Build a one-time audience](audience/one-time-audience.md)
+    + [Load an audience from a file](audience/file-audience.md)
     + [Set a control group](audience/control-group.md)
+  + [Work with the rule buidler](audience/segment-builder.md)
+  + [Monitor & manage audiences](audience/manage-audience.md)
   + Work with subscription services {#work-with-services}
     + [Manage services](audience/manage-services.md)
     + [Manage subscribers](audience/manage-subscribers.md)
