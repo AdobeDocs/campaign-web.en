@@ -68,6 +68,11 @@ The example below shows an audience workflow configured to target female custome
 
 ## Monitor & manage audiences {#monitor}
 
+>[!CONTEXTUALHELP]
+>id="acw_audiences_workflow_error_data_execution"
+>title="Audience error"
+>abstract="Audience data is not available. Please wait the end of the workflow execution."
+
 The list of audiences available for use in Campaign Web is accessible from the **[!UICONTROL Audiences]** menu.
 
 ![](assets/audiences-list.png)
