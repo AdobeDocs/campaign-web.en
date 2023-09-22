@@ -53,7 +53,7 @@ On the right side, the **Rule properties** pane allows you to perform the  actio
 
     >[!IMPORTANT]
     >
-    >In that version of the product, some predefined filters are not available in the user interface. You can still use them. [Learn more](guardrails.md#predefined-filters-filters-guardrails-limitations)
+    >In that version of the product, some predefined filters are not available in the user interface. You can still use them. [Learn more](../get-started/guardrails.md#predefined-filters-filters-guardrails-limitations)
 
 * **Attributes**: displays a description of the created audience.
 
