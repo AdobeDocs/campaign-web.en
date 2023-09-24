@@ -13,7 +13,7 @@ Get fast, AI-generated answers based on the product documentation, and your curr
 
 The **Knowledge Assistant with Gen AI** embedded within contextual help revolutionizes documentation searching and answering how-to questions with effortlessly sifting through vast documentation repositories, instantly pinpointing the precise information you need.
 
-Thanks to Campaign Gen AI's capabilities, this assistant transforms your experience, making information retrieval and problem-solving a breeze. Whether you're seeking guidance in a complex task or navigating extensive documents, our Knowledge Assistant with Gen AI is your ultimate companion, providing unmatched efficiency and accuracy in every interaction.
+Thanks to Campaign Gen AI's capabilities, this assistant transforms your experience, making information retrieval and problem-solving a breeze. Whether you're seeking guidance in a complex task or navigating extensive documents, our AI-powered Knowledge Assistant is your ultimate companion, providing unmatched efficiency and accuracy in every interaction.
 
 <img src="assets/AI_CH.gif" width="80%"/>
 
@@ -33,7 +33,7 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 ## Answers {#answers-ai}
 
-Answers can be inaccurate or misleading. As a consequence, Adobe knowledge assistant may output incorrect information. Make sure to check product documentation which is linked in every help box. 
+Answers can be inaccurate or misleading. As a consequence, Adobe Campaign AI-powered Knowledge Assistant may output incorrect information. Make sure to check product documentation which is linked in every help box. 
 
 Artificial intelligence and machine learning models improve over time to better address specific use cases. Campaign AI-powered knowledge assistant will continue to get better in the coming months. We strongly advice you to use the 👍 👎 buttons anytime you read an anwser, to flag any inappropriate responses to our engineers.
 

@@ -109,9 +109,9 @@ A contextual help is available in the interface. When available, click on the `?
 
 ![](assets/context-help.png){width="40%" align="left"}
 
-With the new Beta version, the **Knowledge Assistant with Gen AI** embedded within contextual help revolutionizes documentation searching and answering how-to questions with effortlessly sifting through vast documentation repositories, instantly pinpointing the precise information you need.
+With the new Beta version, the **AI-powered Knowledge Assistant** embedded within contextual help revolutionizes documentation searching and answering how-to questions with effortlessly sifting through vast documentation repositories, instantly pinpointing the precise information you need.
 
-Thanks to Campaign Gen AI's capabilities, this assistant transforms your experience, making information retrieval and problem-solving a breeze. Whether you're seeking guidance in a complex task or navigating extensive documents, our Knowledge Assistant with Gen AI is your ultimate companion, providing unmatched efficiency and accuracy in every interaction.
+Thanks to Campaign Gen AI's capabilities, this assistant transforms your experience, making information retrieval and problem-solving a breeze. Whether you're seeking guidance in a complex task or navigating extensive documents, our AI-powered Knowledge Assistant is your ultimate companion, providing unmatched efficiency and accuracy in every interaction.
 
 Learn more in [this section](using-ai.md).
 
