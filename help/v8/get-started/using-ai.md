@@ -8,7 +8,7 @@ badge: label="Beta"
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card6"
 >title="AI-powered Knowledge Assistant"
->abstract="Get fast, AI-generated answers based on the product documentation, and your current product context, with the AI-powered Knowkedge Assistant. Available in the product contextual help boxes, it revolutionizes documentation searching and answering how-to questions with effortlessly sifting through vast documentation repositories, instantly pinpointing the precise information you need."
+>abstract="Get fast, AI-generated answers based on the product documentation, and your current product context, with the AI-powered Knowledge Assistant. Available in the product contextual help boxes, it revolutionizes documentation searching and answering how-to questions with effortlessly sifting through vast documentation repositories, instantly pinpointing the precise information you need."
 
 
 Get fast, AI-generated answers based on the product documentation, and your current product context, with the AI-powered Knowkedge Assistant available in the product contextual help boxes.
