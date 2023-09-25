@@ -1,6 +1,6 @@
 ---
-title: Using AI-powered knowlegde assistant in Campaign Web
-description: Using AI-powered knowlegde assistant in Campaign Web
+title: Using AI-powered knowledge assistant in Campaign Web
+description: Using AI-powered knowledge assistant in Campaign Web
 badge: label="Beta" 
 ---
 # Using the AI-powered Knowledge Assistant {#using-ai}
