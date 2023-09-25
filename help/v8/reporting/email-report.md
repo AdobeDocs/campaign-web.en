@@ -138,7 +138,7 @@ The **[!UICONTROL Broadcast statistics]** table contains the available data for 
 
 ## Non-deliverables {#non-deliverables-email}
 
-###  Breakdown of errors per type {#email-delivery-breakdown-type}
+### Breakdown of errors per type {#email-delivery-breakdown-type}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type"
@@ -170,7 +170,7 @@ The errors shown in this report trigger the quarantine process. For more on quar
 +++
 
 
-###  Breakdown of errors per domain {#email-delivery-breakdown-domain}
+### Breakdown of errors per domain {#email-delivery-breakdown-domain}
 
 
 >[!CONTEXTUALHELP]
