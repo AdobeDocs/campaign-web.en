@@ -4,11 +4,11 @@ title: Push delivery reports
 description: Learn how to access and use push delivery reports
 badge: label="Beta" 
 ---
-# Push delivery report {#push-report}
+# Push delivery reports {#push-report}
 
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
->title="Push report summary"
+>title="Push delivery report summary"
 >abstract="The **Push delivery overview** offers a comprehensive overview of your push delivery, providing extensive insights and specific data. It furnishes comprehensive information about the performance, effectiveness, and results of your delivery."
 
 >[!CONTEXTUALHELP]
@@ -20,51 +20,77 @@ The **Push delivery report** provides a thorough overview of the push channel, o
 
 ## Push summary {#push-summary}
 
-* **[!UICONTROL Delivery overview]** provides key performance indicators (KPIs) that give detailed information about how your visitors engage with your Push messages.
+### Delivery overview {#push-delivery-overview}
 
-    ![](assets/reporting_push_3.png)
+The **[!UICONTROL Delivery overview]** report provides key performance indicators (KPIs) that give detailed information about how your visitors engage with your push messages.
 
-    +++Learn more on Push delivery report metrics.
+![](assets/reporting_push_3.png)
 
-    * **[!UICONTROL Total sent]**: Total number of messages processed during the delivery preparation.
++++Learn more on Push delivery report metrics.
 
-    * **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
+* **[!UICONTROL Total sent]**: Total number of messages processed during the delivery preparation.
 
-    * **[!UICONTROL Clicks]**: Total number of recipients who interacted with the Push message.
+* **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
 
-    * **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
+* **[!UICONTROL Clicks]**: Total number of recipients who interacted with the Push message.
 
-    +++
+* **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
 
-* **Targeted population** graph and table display data relative to your audience:
++++
 
-    ![](assets/reporting_push_4.png)
+### Targeted population {#push-delivery-targeted-population}
 
-    +++Learn more on Push delivery report metrics.
 
-    * **[!UICONTROL To deliver]**: Total number of messages processed during the delivery preparation.
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_push_targeted_population"
+>title="Push targeted population"
+>abstract="The **Targeted population** graph and table display data relative to your push messaging audience: messages to deliver and exclusions."
 
-    * **[!UICONTROL Exclusions]**: Number of profiles that have been excluded from the analysis.
+The **Targeted population** graph and table display data relative to your audience: messages to deliver and exclusions. Metrics are detailed below.
 
-    +++
+![](assets/reporting_push_4.png)
 
-* **Overall statistics** presents data for the sent push notifications, including:
++++Learn more on Push delivery report metrics.
 
-    ![](assets/reporting_push_5.png) 
+* **[!UICONTROL To deliver]**: Total number of messages processed during the delivery preparation.
 
-    +++Learn more on Push delivery report metrics.
+* **[!UICONTROL Exclusions]**: Number of profiles that have been excluded from the analysis.
 
-    * **[!UICONTROL Success]**: Number of messages processed successfully.
++++
 
-    * **[!UICONTROL Errors]**: Total number of errors that occurred during delivery, preventing the messages from being sent to certain profiles.
+### Overall statistics {#push-delivery-overall}
 
-    * **[!UICONTROL New quarantine]**:  Number of profiles that have been excluded and added to the quarantine.
 
-    +++
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_push_overall_stats"
+>title="Push overall statistics"
+>abstract="The **Overall statistics** report presents data for the sent push notifications: success, errors and quarantines."
 
-* **[!UICONTROL Exclusions]** graph and table display the various reasons that prevented user profiles, which were excluded from the targeted profiles, from receiving the message.
+The **Overall statistics** report presents data for the sent push notifications: success, errors and quarantines. Metrics are detailed below.
 
-    ![](assets/reporting_push_6.png) 
+![](assets/reporting_push_5.png) 
+
++++Learn more on Push delivery report metrics.
+
+* **[!UICONTROL Success]**: Number of messages processed successfully.
+
+* **[!UICONTROL Errors]**: Total number of errors that occurred during delivery, preventing the messages from being sent to certain profiles.
+
+* **[!UICONTROL New quarantine]**:  Number of profiles that have been excluded and added to the quarantine.
+
++++
+
+### Exclusions {#push-delivery-exclusions}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_push_overall_stats"
+>title="Push overall statistics"
+>abstract="The **Exclusions** graph and table display the various reasons that prevented user profiles, which were excluded from the targeted profiles, from receiving the message."
+
+The **[!UICONTROL Exclusions]** graph and table display the various reasons that prevented user profiles, which were excluded from the targeted profiles, from receiving the message.
+
+![](assets/reporting_push_6.png) 
 
 ## Delivery throughput {#delivery-throughput}
 
@@ -73,6 +99,6 @@ The **Push delivery report** provides a thorough overview of the push channel, o
 >title="Delivery throughput report"
 >abstract="The Delivery throughput report presents detailed information regarding the delivery throughput of the entire platform within a specified timeframe."
 
-This report presents detailed information regarding the delivery throughput of the entire platform within a specified timeframe. The primary metric used to measure the speed of message delivery is the number of messages sent per hour.
+The **Delivery throughput** report presents detailed information regarding the delivery throughput of the entire platform within a specified timeframe. The primary metric used to measure the speed of message delivery is the number of messages sent per hour.
 
 ![](assets/reporting_push_2.png)
