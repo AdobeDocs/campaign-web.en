@@ -296,6 +296,12 @@ This report presents detailed information regarding the delivery throughput of t
 >title="Breakdown by OS"
 >abstract="The **Breakdown by OS** shows the breakdown of opens by operating system for the period concerned. The first chart displays statistics regarding opens on a computer and mobile devices. The second displays statistics relating only to opens on mobile devices."
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_breakdown_browser"
+>title="Breakdown by browser"
+>abstract="The **Breakdown by browser** shows the breakdown of opens by browser for the period concerned. The first chart displays statistics regarding opens on a computer and mobile devices. The second displays statistics relating only to opens on mobile devices."
+
+
 This report shows the breakdown of opens by operating system, device and browser for the period concerned. For each category, two charts are used. The first displays statistics regarding opens on a computer and mobile devices. The second displays statistics relating only to opens on mobile devices.
 
 You have the flexibility to switch from **[!UICONTROL Fix & mobile]** to exclusively target **[!UICONTROL Mobile only]** for more precise targeting.
