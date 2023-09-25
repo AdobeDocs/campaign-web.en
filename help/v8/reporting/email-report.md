@@ -15,71 +15,86 @@ The **Email delivery report** offers comprehensive insights and data specific to
 >title="Reporting sending"
 >abstract="he **Sending** tab within your report provides in-depth insights into your visitors' interactions with your deliveries and any potential errors they may have encountered."
 
+### Initial target population {#email-delivery-targeted-population}
+
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_initial_target"
->title="Initial target population widget"
->abstract="The **Initial target audience population** graph displays data relative to your recipients and the success of your delivery."
+>title="Initial target population"
+>abstract="The **Initial target population** graph displays data relative to your recipients and messages, based on the results of the delivery preparation."
+
+The **[!UICONTROL Initial target population]** graph displays data relative to your recipients. Metrics are calculated during delivery preparation and show: the initial audience, the number of messages to send, the number of recipients excluded.
+
+![](assets/reporting_email_1.png){align="center" zoomable="yes"}
+
+Mouse-over a portion of the graph to display the exact number.
+
+![](assets/reporting_email_1.1.png){align="center" zoomable="yes"}
+
+
++++Learn more on Email delivery report metrics.
+
+* **[!UICONTROL Initial audience]**: Total number of targeted recipients.
+
+* **[!UICONTROL To deliver]**: Total number of messages to be delivered after delivery preparation.
+
+* **[!UICONTROL Exclusion]**: Total number of recipients excluded from the target population.
++++
+
+### Delivery statistics {#email-delivery-stats}
+
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_summary"
->title="Delivery statistics widget"
->abstract="The **Delivery statistics** graph details the success of your delivery and errors that occurred."
+>title="Delivery statistics"
+>abstract="The **Delivery statistics** graph details the success of your delivery, and errors that occurred."
+
+
+The **[!UICONTROL Delivery statistics]** graph details the success of your delivery. Metrics are detailed below.
+
+![](assets/reporting_email_2.png){align="center" zoomable="yes"}
+
++++Learn more on Email campaign report metrics.
+
+* **[!UICONTROL Message sent]**: Total number of messages to be delivered after delivery preparation.
+
+* **[!UICONTROL Success]**: Number of messages processed successfully in relation to the number of messages to be delivered.
+
+* **[!UICONTROL Errors]**: Total number of errors cumulated during deliveries and automatic rebound processing in relation to the number of messages to be delivered.
+
+* **[!UICONTROL New quarantines]**: Total number of addresses quarantined following a failed delivery (user unknown, invalid domain) in relation to the number of messages to be delivered.
+
++++
+
+### Causes of exclusion  {#email-delivery-exclusions}
+
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusion"
->title="Delivery statistics widget"
->abstract="The Causes of exclusion graph and table show the breakdown per rule of messages rejected during the preparation."
+>title="Delivery statistics"
+>abstract="The **Causes of exclusion** graph and table show the breakdown per rule of messages rejected during the delivery preparation."
 
-* **[!UICONTROL Initial target audience population]** graph displays data relative to your recipients:
 
-    ![](assets/reporting_email_1.png){align="left" zoomable="yes"}
+The **[!UICONTROL Causes of exclusion]** graph and table show the breakdown per rule of messages rejected during the delivery preparation. Exclusion rules are detailed in the [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
 
-    +++Learn more on Email delivery report metrics.
+![](assets/reporting_email_3.png){align="center" zoomable="yes"}
 
-    * **[!UICONTROL Initial audience]**: Total number of targeted recipients.
++++Learn more on Email delivery report metrics.
 
-    * **[!UICONTROL To deliver]**: Total number of messages to be delivered after delivery preparation.
+* **[!UICONTROL User unknown]**: Error type generated during delivery to indicate that the email address is invalid.
 
-    * **[!UICONTROL Exclusion]**: Total number of messages excluded from the target sent.
-    +++
+* **[!UICONTROL Invalid domain]**: Error type generated when sending a delivery to indicate that the domain of the email address is wrong or does not exist.
 
-* **[!UICONTROL Delivery statistics]** graph details the success of your delivery.
+* **[!UICONTROL Mailbox full]**: Error type generated after five delivery attempts to indicate that the recipients' inbox contains too many messages.
 
-    ![](assets/reporting_email_2.png){align="left"}
+* **[!UICONTROL Account disabled]**: Error type generated when sending a delivery to indicate that the address no longer exists.
 
-    +++Learn more on Email campaign report metrics.
+* **[!UICONTROL Refused]**: Error type generated when an address is rejected by the IAP (Internet Access Provider), for instance following the application of a security rule (anti-spam software).
 
-    * **[!UICONTROL Message sent]**: Total number of messages to be delivered after delivery preparation.
+* **[!UICONTROL Unreachable]**: Error type which occurs in the message distribution string: incident on the SMTP relay, domain temporarily unreachable, etc
 
-    * **[!UICONTROL Success]**: Number of messages processed successfully in relation to the number of messages to be delivered.
+* **[!UICONTROL Not connected]**: Error type to indicate that the recipients' mobile phone is switched off or disconnected from the network at the time of sending.
 
-    * **[!UICONTROL Errors]**: Total number of errors cumulated during deliveries and automatic rebound processing in relation to the number of messages to be delivered.
-
-    * **[!UICONTROL New quarantines]**: Total number of addresses quarantined following a failed delivery (user unknown, invalid domain) in relation to the number of messages to be delivered.
-
-    +++
-
-* **[!UICONTROL Causes of exclusion]** graph and table show the breakdown per rule of messages rejected during the analysis.
-
-    ![](assets/reporting_email_3.png){align="center"}
-
-    +++Learn more on Email delivery report metrics.
-
-    * **[!UICONTROL User unknown]**: Error type generated during delivery to indicate that the email address is invalid.
-
-    * **[!UICONTROL Invalid domain]**: Error type generated when sending a delivery to indicate that the domain of the email address is wrong or does not exist.
-
-    * **[!UICONTROL Mailbox full]**: Error type generated after five delivery attempts to indicate that the recipients' inbox contains too many messages.
-
-    * **[!UICONTROL Account disabled]**: Error type generated when sending a delivery to indicate that the address no longer exists.
-
-    * **[!UICONTROL Refused]**: Error type generated when an address is rejected by the IAP (Internet Access Provider), for instance following the application of a security rule (anti-spam software).
-
-    * **[!UICONTROL Unreachable]**: Error type which occurs in the message distribution string: incident on the SMTP relay, domain temporarily unreachable, etc
-
-    * **[!UICONTROL Not connected]**: Error type to indicate that the recipients' mobile phone is switched off or disconnected from the network at the time of sending.
-
-    +++
++++
 
 ## Delivery throughput {#delivery-throughtput}
 
@@ -90,69 +105,89 @@ The **Email delivery report** offers comprehensive insights and data specific to
 
 This report presents detailed information regarding the delivery throughput of the entire platform within a specified timeframe. The primary metric used to measure the speed of message delivery is the number of messages sent per hour.
 
+![](assets/reporting_email_3.1.png){align="center" zoomable="yes"}
+
+
 ## Broadcast statistics {#broadcast-statistics}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_broadcast_statistics"
 >title="Broadcast statistics widget"
->abstract="The **Broadcast statistics** table contains the available data for possible errors encountered with each domain."
+>abstract="The **Broadcast statistics** report contains the available data for possible errors encountered with each domain."
 
-* **[!UICONTROL Broadcast statistics]** table contains the available data for possible errors encountered with each domain.
+The **[!UICONTROL Broadcast statistics]** table contains the available data for possible errors encountered with each domain. Metrics are detailed below.
 
-    ![](assets/reporting_email_4.png){align="center"}
+![](assets/reporting_email_4.png){align="center" zoomable="yes"}
 
-    +++Learn more on Email delivery report metrics.
++++Learn more on Email delivery report metrics.
 
-    * **[!UICONTROL Processed emails]**: Total number of messages processed by the delivery server.
+* **[!UICONTROL Processed emails]**: Total number of messages processed by the delivery server.
 
-    * **[!UICONTROL Delivered]**: Percentage of the number of messages successfully processed compared to the total number of messages processed.
+* **[!UICONTROL Delivered]**: Percentage of the number of messages successfully processed compared to the total number of messages processed.
 
-    * **[!UICONTROL Hard bounces]**: Percentage of the number of "hard" bounces, permanent errors, such as a wrong email address, compared to the total number of messages processed.
+* **[!UICONTROL Hard bounces]**: Percentage of the number of "hard" bounces, permanent errors, such as a wrong email address, compared to the total number of messages processed.
 
-    * **[!UICONTROL Soft bounces]**: Percentage of the number of "soft" bounces, temporary errors such as a full inbox, compared to the total number of messages processed
+* **[!UICONTROL Soft bounces]**: Percentage of the number of "soft" bounces, temporary errors such as a full inbox, compared to the total number of messages processed
 
-    * **[!UICONTROL Opens]**: Percentage of the number of targeted recipients who opened a message at least once compared to the number of messages processed successfully.
+* **[!UICONTROL Opens]**: Percentage of the number of targeted recipients who opened a message at least once compared to the number of messages processed successfully.
 
-    * **[!UICONTROL Clicks]**: Percentage of the number of people who clicked in a delivery at least once compared to the number of messages processed successfully.
+* **[!UICONTROL Clicks]**: Percentage of the number of people who clicked in a delivery at least once compared to the number of messages processed successfully.
 
-    * **[!UICONTROL Unsubscriptions]**: Percentage of the number of clicks on an unsubscription link compared to the number of messages processed successfully.
-    +++
+* **[!UICONTROL Unsubscriptions]**: Percentage of the number of clicks on an unsubscription link compared to the number of messages processed successfully.
++++
 
-## Non-deliverables and bounces {#non-deliverables-email}
+## Non-deliverables {#non-deliverables-email}
+
+###  Breakdown of errors per type {#email-delivery-breakdown-type}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type"
->title="Breakdown of errors per type widget"
->abstract="The **Breakdown of errors per type** table and graph contain the available data for each error type encountered."
+>title="Breakdown of errors per type"
+>abstract="The **Breakdown of errors per type** table and graph contain the available data for each error type encountered: user unknown, mailbox full, invalid domain, and more."
+
+The **[!UICONTROL Breakdown of errors per type]** table and graph contain the available data for error type. Metrics are detailed below.
+
+The errors shown in this report trigger the quarantine process. For more on quarantine management, refer to [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
+
+![](assets/campaign_report_email_6.png){align="left" zoomable="yes"}
+
++++Learn more on Email delivery report metrics.
+
+* **[!UICONTROL User unknown]**: Error type generated during delivery to indicate that the email address is invalid.
+
+* **[!UICONTROL Invalid domain]**: Error type generated when sending a delivery to indicate that the domain of the email address is wrong or does not exist.
+
+* **[!UICONTROL Mailbox full]**: Error type generated after five delivery attempts to indicate that the recipients' inbox contains too many messages.
+
+* **[!UICONTROL Account disabled]**: Error type generated when sending a delivery to indicate that the address no longer exists.
+
+* **[!UICONTROL Refused]**: Error type generated when an address is rejected by the IAP (Internet Access Provider), for instance following the application of a security rule (anti-spam software).
+
+* **[!UICONTROL Unreachable]**: Error type which occurs in the message distribution string: incident on the SMTP relay, domain temporarily unreachable, etc
+
+* **[!UICONTROL Not connected]**: Error type to indicate that the recipients' mobile phone is switched off or disconnected from the network at the time of sending.
+
++++
+
+
+###  Breakdown of errors per domain {#email-delivery-breakdown-domain}
+
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain"
->title="Breakdown of errors per domain widget"
->abstract="The **Breakdown of errors per domain** table and graph contain the available data for each error type encountered depending on each domain."
+>title="Breakdown of errors per domain"
+>abstract="The **Breakdown of errors per domain** table and graph display the available data for each error type encountered depending on each domain."
 
-* **[!UICONTROL Breakdown of errors per type]** and **[!UICONTROL Breakdown of errors per domain]** tables and graphs contain the available data for possible errors encountered with each domain.
 
-    The errors shown in this report trigger the quarantine process. For more on quarantine management, refer to [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
+The **[!UICONTROL Breakdown of errors per domain]** table and graph display the available data for possible errors encountered with each domain. 
 
-    ![](assets/campaign_report_email_6.png)
+![](assets/campaign_report_email_6.1.png){align="left" zoomable="yes"}
 
-    +++Learn more on Email delivery report metrics.
+Click the icon next to the name of each domain to see details.
 
-    * **[!UICONTROL User unknown]**: Error type generated during delivery to indicate that the email address is invalid.
+![](assets/campaign_report_email_6.1.png){align="left" zoomable="yes"}
 
-    * **[!UICONTROL Invalid domain]**: Error type generated when sending a delivery to indicate that the domain of the email address is wrong or does not exist.
-
-    * **[!UICONTROL Mailbox full]**: Error type generated after five delivery attempts to indicate that the recipients' inbox contains too many messages.
-
-    * **[!UICONTROL Account disabled]**: Error type generated when sending a delivery to indicate that the address no longer exists.
-
-    * **[!UICONTROL Refused]**: Error type generated when an address is rejected by the IAP (Internet Access Provider), for instance following the application of a security rule (anti-spam software).
-
-    * **[!UICONTROL Unreachable]**: Error type which occurs in the message distribution string: incident on the SMTP relay, domain temporarily unreachable, etc
-
-    * **[!UICONTROL Not connected]**: Error type to indicate that the recipients' mobile phone is switched off or disconnected from the network at the time of sending.
-
-    +++
+Metrics available are the same as for the [Breakdown of errors by type](#email-delivery-breakdown-type) described above.
 
 ## Tracking indicators {#tracking-indicators-email}
 
@@ -162,59 +197,65 @@ This report presents detailed information regarding the delivery throughput of t
 >abstract="The **Tracking** tab within your report offers valuable data, including recipient behavior per link, breakdown of opens and clicks, as well as detailed information about the most frequently clicked URLs during a delivery."
 
 >[!CONTEXTUALHELP]
->id="acw_delivery_reporting_delivery_statistics_indicators"
->title=" Delivery statistics widget"
->abstract="The **Delivery statistics** widget provides key performance indicators (KPIs) that give detailed information about data available for sent emails."
-
->[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_open_clickthrough"
 >title="Open and click-through rate widget"
 >abstract="The **Open and click-through rate** table displays data relative to your recipients engagement with your delivery."
 
-* **[!UICONTROL Delivery statistics]** provides key performance indicators (KPIs) that give detailed information about data available for sent emails.
+### Delivery statistics  {#email-tracking-delivery-stats}
 
-    ![](assets/reporting_email_5.png){align="center"}
 
-    +++Learn more on Email delivery report metrics.
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_delivery_statistics_indicators"
+>title=" Delivery statistics"
+>abstract="The **Delivery statistics** report provides key performance indicators (KPIs) that give detailed information about data available for sent emails: success, opens, clicks, and more."
 
-    * **[!UICONTROL Success]**: Number of messages processed successfully in relation to the number of messages to be delivered.
 
-    * **[!UICONTROL Distinct opens]**: Total number of targeted recipients who opened a message at least once.
+The **[!UICONTROL Delivery statistics]** report provides key performance indicators (KPIs) that give detailed information about data available for sent emails. Metrics are detailed below.
 
-    * **[!UICONTROL Opens]**: Number of distinct targeted recipients for this domain who have opened a message at least once.
+![](assets/reporting_email_5.png){align="center"}
 
-    * **[!UICONTROL Clicks on the opt-out link]**:  Number of clicks on the unsubscription link.
++++Learn more on Email delivery report metrics.
 
-    * **[!UICONTROL Clicks on the mirror link]**: Number of clicks on the link to the mirror page.
+* **[!UICONTROL Success]**: Number of messages processed successfully in relation to the number of messages to be delivered.
 
-    * **[!UICONTROL Estimation of forwards]**: Estimation of the number of emails forwarded by the targeted recipients. 
-    +++
+* **[!UICONTROL Distinct opens]**: Total number of targeted recipients who opened a message at least once.
 
-* **[!UICONTROL Open and click-through rate]** table displays data relative to your recipients.
+* **[!UICONTROL Opens]**: Number of distinct targeted recipients for this domain who have opened a message at least once.
 
-    ![](assets/reporting_email_6.png){align="center"}
+* **[!UICONTROL Clicks on the opt-out link]**:  Number of clicks on the unsubscription link.
 
-    +++Learn more on Email delivery report metrics.
+* **[!UICONTROL Clicks on the mirror link]**: Number of clicks on the link to the mirror page.
 
-    * **[!UICONTROL Sent]**: Total number of messages sent.
+* **[!UICONTROL Estimation of forwards]**: Estimation of the number of emails forwarded by the targeted recipients. 
++++
 
-    * **[!UICONTROL Complaints]**: Number of messages for this domain that have been reported as undesirable by the recipient.
+### Open and click-through rate {#email-tracking-click-through}
 
-    * **[!UICONTROL Opens]**: Number of distinct targeted recipients for this domain who have opened a message at least once.
+The **[!UICONTROL Open and click-through rate]** table displays data relative to your recipients. Metrics are detailed below.
 
-    * **[!UICONTROL Clicks]**: Number of distinct targeted recipients who clicked in the same delivery at least once. 
+![](assets/reporting_email_6.png){align="center"}
 
-    * **[!UICONTROL Raw reactivity]**: Percentage of the number of recipient who clicked in a delivery at least once compared to the number of recipients who opened a delivery at least once.
-    +++
++++Learn more on Email delivery report metrics.
+
+* **[!UICONTROL Sent]**: Total number of messages sent.
+
+* **[!UICONTROL Complaints]**: Number of messages for this domain that have been reported as undesirable by the recipient.
+
+* **[!UICONTROL Opens]**: Number of distinct targeted recipients for this domain who have opened a message at least once.
+
+* **[!UICONTROL Clicks]**: Number of distinct targeted recipients who clicked in the same delivery at least once. 
+
+* **[!UICONTROL Raw reactivity]**: Percentage of the number of recipient who clicked in a delivery at least once compared to the number of recipients who opened a delivery at least once.
++++
 
 ## URLs and click streams {#url-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_clickstreams"
 >title="URLs and click streams widget"
->abstract="The **URLs and click streams** provides key performance indicators (KPIs) that give detailed information about the URLs that were clicked the most during a delivery."
+>abstract="The **URLs and click streams** report provides key performance indicators (KPIs) that give detailed information about the URLs that were clicked the most during a delivery."
 
-* **[!UICONTROL URLs and click streams]** provides key performance indicators (KPIs) that give detailed information about the URLs that were clicked the most during a delivery.
+* The **[!UICONTROL URLs and click streams]** report provides key performance indicators (KPIs) that give detailed information about the URLs that were clicked the most during a delivery.
 
     ![](assets/reporting_email_7.png){align="center"}
 
@@ -253,17 +294,17 @@ This report presents detailed information regarding the delivery throughput of t
 >title="User activities widget"
 >abstract="The **User activities** graph shows the breakdown of opens and clicks in the form of a chart. You can choose the time period to target data: last day or hour or 30 minutes."
 
-* **[!UICONTROL User activities]** shows the breakdown of opens and clicks in the form of a chart. You can choose the time period to target data: last day or hour or 30 minutes.
+The **[!UICONTROL User activities]** report shows the breakdown of opens and clicks in the form of a chart. You can choose the time period to target data: last day or hour or 30 minutes.
 
-    ![](assets/reporting_email_10.png){align="center"}
+![](assets/reporting_email_10.png){align="center"}
 
-    +++Learn more on Email delivery report metrics.
++++Learn more on Email delivery report metrics.
 
-    * **[!UICONTROL Clicks]**: Total number of clicks on links in deliveries.
+* **[!UICONTROL Clicks]**: Total number of clicks on links in deliveries.
 
-    * **[!UICONTROL Opens]**: Number of distinct targeted recipients for this domain who have opened a message at least once.
+* **[!UICONTROL Opens]**: Number of distinct targeted recipients for this domain who have opened a message at least once.
 
-    +++
++++
 
 ## Tracking Statistics {#tracking-statistics}
 
@@ -272,41 +313,61 @@ This report presents detailed information regarding the delivery throughput of t
 >title="Tracking Statistics widget"
 >abstract="The **Tracking Statistics** graph provides statistics on opens and clicks. You have the option to select the specific time frame for targeting data."
 
-* **[!UICONTROL Tracking Statistics]** graph provides statistics on opens and clicks. You have the option to select the specific time frame for targeting data.
+The **[!UICONTROL Tracking Statistics]** graph provides statistics on opens and clicks. You have the option to select the specific time frame for targeting data.
 
-    ![](assets/reporting_email_11.png){align="center"}
+![](assets/reporting_email_11.png){align="center"}
 
-    +++Learn more on Email delivery report metrics.
++++Learn more on Email delivery report metrics.
 
-    * **[!UICONTROL Clicks]**: Total number of clicks on links in deliveries.
+* **[!UICONTROL Clicks]**: Total number of clicks on links in deliveries.
 
-    * **[!UICONTROL Opens]**: Number of distinct targeted recipients for this domain who have opened a message at least once.
+* **[!UICONTROL Opens]**: Number of distinct targeted recipients for this domain who have opened a message at least once.
 
-    +++
++++
 
 ## Breakdown of opens {#breakdown-opens}
+
+
+### Breakdown of opens by device {#breakdown-opens-devices}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_device"
 >title="Breakdown by device"
->abstract="The **Breakdown by device** shows the breakdown of opens by type of device for the period concerned. The first chart displays statistics regarding opens on a computer and mobile devices. The second displays statistics relating only to opens on mobile devices."
+>abstract="The **Breakdown by device** report shows the breakdown of opens by device for the period. For each category, two charts are used. The first displays statistics regarding opens on a computer and mobile devices. The second displays the exact number and percentage for each device type."
+
+The **Breakdown by device** report shows the breakdown of opens by device for the period: personal computers, Android devices, Apple devices, or others.
+
+For each category, two charts are used. The first displays statistics regarding opens on a computer and mobile devices. The second displays the exact number and percentage for each device type.
+
+![](assets/reporting_email_13.png){align="center"}
+
+
+### Breakdown of opens by OS {#breakdown-opens-os}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_os"
->title="Breakdown by OS"
->abstract="The **Breakdown by OS** shows the breakdown of opens by operating system for the period concerned. The first chart displays statistics regarding opens on a computer and mobile devices. The second displays statistics relating only to opens on mobile devices."
+>title="Breakdown by operating system"
+>abstract="The **Breakdown by OS** report shows the breakdown of opens by operating system for the period concerned. The first chart displays statistics regarding opens on a computer and mobile devices. The second displays the exact number and percentage for each OS."
+
+The **Breakdown by OS** report shows the breakdown of opens by operating system for the period: Windows systems, Android systems, iOS systems, or others.
+
+For each category, two charts are used. The first displays statistics regarding opens on a computer and mobile operating systems. The second displays the exact number and percentage for each operating system.
+
+![](assets/reporting_email_13.1.png){align="center"}
+
+### Breakdown of opens by browser {#breakdown-opens-browser}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_browser"
 >title="Breakdown by browser"
->abstract="The **Breakdown by browser** shows the breakdown of opens by browser for the period concerned. The first chart displays statistics regarding opens on a computer and mobile devices. The second displays statistics relating only to opens on mobile devices."
+>abstract="The **Breakdown by browser** shows the breakdown of opens by browser for the period. The first chart displays statistics regarding opens on a computer and mobile devices. The second displays the exact number and percentage for each browser."
 
+The **Breakdown by browser** report shows the breakdown of opens by browser: Chrome, Safari, Internet Explorer, and more.
 
-This report shows the breakdown of opens by operating system, device and browser for the period concerned. For each category, two charts are used. The first displays statistics regarding opens on a computer and mobile devices. The second displays statistics relating only to opens on mobile devices.
+For each category, two charts are used. The first displays statistics regarding opens on a computer and mobile operating systems. The second displays the exact number and percentage for each browser.
 
-You have the flexibility to switch from **[!UICONTROL Fix & mobile]** to exclusively target **[!UICONTROL Mobile only]** for more precise targeting.
+![](assets/reporting_email_13.2.png){align="center"}
 
-![](assets/reporting_email_13.png){align="center"}
 
 ## Hotclicks {#hotclicks}
 

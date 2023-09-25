@@ -89,7 +89,7 @@ The **Overall statistics** report presents data for the sent SMS messages. Metri
 >abstract="The **Exclusions** graph and table display the various reasons that prevented user profiles, which were excluded from the targeted profiles, from receiving the message."
 
 
-* **[!UICONTROL Exclusions]** graph and table display the reasons that prevented user profiles, which were excluded from the targeted profiles, from receiving the message.
+The **[!UICONTROL Exclusions]** graph and table display the reasons that prevented user profiles, which were excluded from the targeted profiles, from receiving the message. Exclusion rules are detailed in the [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){_blank}.
 
 ![](assets/reporting_sms_6.png)
 
