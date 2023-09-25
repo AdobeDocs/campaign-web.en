@@ -84,7 +84,7 @@ The **Overall statistics** report presents data for the sent SMS messages. Metri
 
 
 >[!CONTEXTUALHELP]
->id="acw_delivery_reporting_sms_overall_stats"
+>id="acw_delivery_reporting_sms_exclusions"
 >title="SMS overall statistics"
 >abstract="The **Exclusions** graph and table display the various reasons that prevented user profiles, which were excluded from the targeted profiles, from receiving the message."
 

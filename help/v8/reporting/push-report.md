@@ -84,7 +84,7 @@ The **Overall statistics** report presents data for the sent push notifications:
 
 
 >[!CONTEXTUALHELP]
->id="acw_delivery_reporting_push_overall_stats"
+>id="acw_delivery_reporting_push_exclusions"
 >title="Push overall statistics"
 >abstract="The **Exclusions** graph and table display the various reasons that prevented user profiles, which were excluded from the targeted profiles, from receiving the message."
 
