@@ -12,11 +12,9 @@ badge: label="Beta"
 >title="Preview mode"
 >abstract="Preview and test the message by including the test population to the main target."
 
-**[!UICONTROL Adobe Campaign]** allows you to test a message before sending it to the main audience.
+Once your message content has been defined, you can preview and test it by sending test deliveries (aka. 'proofs') to test profiles. If you inserted personalized content, you can check how this content is displayed in the message, using test profile data.
 
-Sending test deliveries (previously known as 'proofs') is an important step in validating your campaign and identifying potential issues.
-
-The recipients of a test can check various elements such as links, opt-out links, images, or mirror pages, as well as detect any errors in the rendering, content, personalization settings and delivery configuration.
+To detect possible errors in the message content or personalization settings, send test messages to test profiles before sending it to the target audience. A test message should be sent each time a change is made, to validate the latest content. Sending test deliveries (previously known as 'proofs') is an important step in validating your campaign and identifying potential issues. The recipients of a test message can check various elements such as links, opt-out links, images, or mirror pages, as well as detect any errors in the rendering, content, personalization settings and delivery configuration.
 
 ## Select the test recipients {#test-recipients}
 
@@ -52,6 +50,10 @@ To select the recipients of a test delivery, follow the steps below according to
 >title="Template file"
 >abstract="The formatting of the file must be the same as the original file.<br/>Supported file formats: txt, csv. Maximum file size: 15MB. Use first line as column header."
 
+
+Test profiles are seed addresses, which are additional recipients in the database. They can be created in the [!DNL Adobe Campaign] client console into the **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** folder. Steps to send test messages to seed addresses are detailed below. 
+
+
 1. Browse to the edit content screen of your email or SMS delivery, then click the **[!UICONTROL Simulate content]** button.
 
 1. Click the **[!UICONTROL Test]** button.
@@ -78,7 +80,7 @@ To select the recipients of a test delivery, follow the steps below according to
 
 ### Substitution profiles {#substitution-profiles}
 
-To send a test email or SMS to a specific email address or phone number while displaying data from an existing profile of the [!DNL Campaign] database, use substitution profiles.
+To send a test email or SMS to a specific email address or phone number while displaying data from an existing profile of the [!DNL Adobe Campaign] database, use substitution profiles, as detailed below:
 
 1. Before sending a test, make sure you define a target audience for you delivery. [Learn more](../audience/about-recipients.md)
 
@@ -114,7 +116,7 @@ To send a test email or SMS to a specific email address or phone number while di
 
 ### Subscribers {#subscribers}
 
-When working with push notifications, test deliveries can be only sent to subscribers. To select them, follow the steps below.
+When working with push notifications, test deliveries can be only sent to your app subscribers. To select them, follow the steps below.
 
 1. Browse to the edit content screen of your delivery, then click the **[!UICONTROL Simulate content]** button.
 
