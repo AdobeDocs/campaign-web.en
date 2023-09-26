@@ -5,12 +5,6 @@ badge: label="Beta"
 ---
 # Using the AI-powered Knowledge Assistant {#using-ai}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_card6"
->title="AI-powered Knowledge Assistant"
->abstract="Get fast, AI-generated answers based on the product documentation, and your current product context, with the AI-powered Knowledge Assistant. Available in the product contextual help boxes, it revolutionizes documentation searching and answering how-to questions with effortlessly sifting through vast documentation repositories, instantly pinpointing the precise information you need."
-
-
 Get fast, AI-generated answers based on the product documentation, and your current product context, with the AI-powered Knowkedge Assistant available in the product contextual help boxes.
 
 >[!AVAILABILITY]
@@ -39,9 +33,9 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 ## Answers {#answers-ai}
 
-Answers can be inaccurate or misleading. As a consequence, Adobe Campaign AI-powered Knowledge Assistant may output incorrect information. Make sure to check product documentation which is linked in every help box. 
+Adobe Campaign AI-powered Knowledge Assistant offers assistance, but you should verify facts. It may output incorrect information, inaccurate or misleading answers. Make sure to check product documentation which is linked in every help box. 
 
-Artificial intelligence and machine learning models improve over time to better address specific use cases. Campaign AI-powered knowledge assistant will continue to get better in the coming months. We strongly advice you to use the 👍 👎 buttons anytime you read an anwser, to flag any inappropriate responses to our engineers.
+Artificial intelligence and machine learning models improve over time to better address specific use cases. Campaign AI-powered Knowledge Assistant will continue to get better in the coming months. We strongly advice you to use the 👍 👎 buttons anytime you read an anwser, to flag any inappropriate responses to our engineers.
 
 ## Recommendations  {#recommendations-ai}
 
