@@ -53,7 +53,6 @@ To select the recipients of a test delivery, follow the steps below according to
 
 Test profiles are seed addresses, which are additional recipients in the database. They can be created in the [!DNL Adobe Campaign] client console into the **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** folder. Steps to send test messages to seed addresses are detailed below. 
 
-
 1. Browse to the edit content screen of your email or SMS delivery, then click the **[!UICONTROL Simulate content]** button.
 
 1. Click the **[!UICONTROL Test]** button.
