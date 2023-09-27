@@ -1,11 +1,11 @@
 ---
 audience: end-user
-title: Image generation with the Content assistant
-description: Get Started with the Content assistant
+title: Image generation with the Content Assistant
+description: Get Started with the Content Assistant
 badge: label="Beta" 
 ---
 
-# Image generation with the Content assistant {#generative-image}
+# Image generation with the Content Assistant {#generative-image}
 
 After you've crafted and personalized your emails, you can enhance your content using the Content Assistant, powered by generative AI. This feature simplifies the process of personalization and content improvement.
 
@@ -21,7 +21,7 @@ In the example below, learn how to leverage the Content Assistant to optimize an
 
 1. Fill in the **[!UICONTROL Basic details]** for your delivery. Once done, click **[!UICONTROL Edit email content]**.
 
-1. Select the asset you want to change with the Content assistant.
+1. Select the asset you want to change with the Content Assistant.
 
 1. From the right-hand menu, select **[!UICONTROL Experience generation]**.
 
@@ -31,7 +31,7 @@ In the example below, learn how to leverage the Content Assistant to optimize an
 
     ![](assets/image-genai-2.png)
 
-1. Select **[!UICONTROL Upload file]** if you want to add any brand asset which contains content that can provide additional context the Content assistant.  
+1. Select **[!UICONTROL Upload file]** if you want to add any brand asset which contains content that can provide additional context the Content Assistant.  
 
     You can also click **[!UICONTROL Uploaded content]** to find previously updated files. Note that the uploaded content is exclusively available for reuse by the current user.
 

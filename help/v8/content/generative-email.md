@@ -1,20 +1,24 @@
 ---
 audience: end-user
-title: Email generation with the Content assistant
-description: Get Started with the Content assistant
+title: Email generation with the Content Assistant
+description: Get Started with the Content Assistant
 badge: label="Beta" 
 ---
-# Generate an email with the Content assistant {#generative-email}
+# Generate an email with the Content Assistant {#generative-email}
 
-The Content Assistant enhances your communication's impact by automatically generating complete email content, saving you time and ensuring consistent quality. 
-
-Using Generative AI, you can effortlessly craft compelling emails that resonate with your audience, making your communication more effective and efficient.
+The Content Assistant enhances your communication's impact by automatically generating complete email content, saving you time and ensuring consistent quality. Using Generative AI, you can effortlessly craft compelling emails that resonate with your audience, making your communication more effective and efficient.
 
 
 >[!AVAILABILITY]
 >
 >This capability will be available early October.
 
+
+
+
+## Generate the HTML content with AI {#generative-email-generate}
+
+To generate an email content with the Content Assistant, follow the steps below. You can also improve an existing content with the Content Assistant, as detailed in [this page](generative-content.md).
 
 1. After creating and configuring your Email delivery, click **[!UICONTROL Create content]**.
 
@@ -40,7 +44,7 @@ Using Generative AI, you can effortlessly craft compelling emails that resonate 
     
     ![](assets/email-genai-2.png)
 
-1. Select **[!UICONTROL Upload file]** if you want to add any brand asset which contains content that can provide additional context the Content assistant.  
+1. Select **[!UICONTROL Upload file]** if you want to add any brand asset which contains content that can provide additional context the Content Assistant.  
 
     You can also click **[!UICONTROL Uploaded content]** to find previously updated files. Note that the uploaded content is exclusively available for reuse by the current user.
 
@@ -69,4 +73,5 @@ Using Generative AI, you can effortlessly craft compelling emails that resonate 
     ![](assets/email-genai-6.png)
 
 1. When you have defined your content, audience and schedule, you are ready to prepare your email delivery. [Learn more](../monitor/prepare-send.md)
+
 
