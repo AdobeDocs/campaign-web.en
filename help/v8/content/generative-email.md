@@ -8,15 +8,10 @@ badge: label="Beta"
 
 The Content Assistant enhances your communication's impact by automatically generating complete email content, saving you time and ensuring consistent quality. Using Generative AI, you can effortlessly craft compelling emails that resonate with your audience, making your communication more effective and efficient.
 
-
->[!AVAILABILITY]
+>[!NOTE]
 >
->This capability will be available early October.
+>Before starting using this capability, read out related [Guardrails and Limitations](generative-gs.md#guardrails-and-limitations).
 
-
-
-
-## Generate the HTML content with AI {#generative-email-generate}
 
 To generate an email content with the Content Assistant, follow the steps below. You can also improve an existing content with the Content Assistant, as detailed in [this page](generative-content.md).
 

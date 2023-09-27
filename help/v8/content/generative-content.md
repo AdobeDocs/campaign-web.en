@@ -11,12 +11,11 @@ Once you have created and personalized your emails, use the Content Assistant po
 
 The Content Assistant can help you optimize the impact of your deliveries by suggesting different content that is more likely to resonate with your audience.
 
-
->[!AVAILABILITY]
+>[!NOTE]
 >
->This capability will be available early October.
+>Before starting using this capability, read out related [Guardrails and Limitations](generative-gs.md#guardrails-and-limitations).
 
-To generate an improve an email content with the Content Assistant, follow the steps below. You can also create the full HTML content with the Content Assistant, as detailed in [this page](generative-email.md).
+To generate and improve an email content with the Content Assistant, follow the steps below. You can also create the full HTML content with the Content Assistant, as detailed in [this page](generative-email.md).
 
 1. After creating and configuring your Email delivery, click **[!UICONTROL Edit content]**.
 
@@ -36,7 +35,7 @@ To generate an improve an email content with the Content Assistant, follow the s
 
     ![](assets/text-genai-3.png)
 
-1. Select **[!UICONTROL Upload file]** if you want to add any brand asset which contains content that can provide additional context the Content Assistant.  
+1. Select **[!UICONTROL Upload file]** to add any brand asset which contains content that can provide additional context the Content Assistant.  
 
     You can also click **[!UICONTROL Uploaded content]** to find previously updated files. Note that the uploaded content is exclusively available for reuse by the current user.
 

@@ -61,7 +61,7 @@ Key capabiities coming with Campaign Web Beta are listed below.
 
 * **Gen AI for Email content**
 
-    Say goodbye to manual content creation and hello to efficient, data-driven campaigns with the power of Gen AI.  Our Gen AI technology utilizes advanced algorithms to **generate highly engaging and personalized content**. Drive higher open rates, click-through rates, and conversions with Gen AI's intelligent content generation. Stay ahead of the competition and elevate your email marketing game with Gen AI on email content. This capability will be available starting early October.
+    Say goodbye to manual content creation and hello to efficient, data-driven campaigns with the power of Gen AI.  Our Gen AI technology utilizes advanced algorithms to **generate highly engaging and personalized content**. Drive higher open rates, click-through rates, and conversions with Gen AI's intelligent content generation. Stay ahead of the competition and elevate your email marketing game with Gen AI on email content.
 
     Learn more in [this section](../content/generative-gs.md).
 
@@ -93,7 +93,7 @@ Key capabiities coming with Campaign Web Beta are listed below.
 
 * **Knowledge Assistant with Gen AI**
 
-    Ask questions and find guidance directly from the product user interface. The new **AI-powered Knowledge Assistant**, embedded in the contextual help popovers, helps you learn and grow your expertise on new Campaign features. Based on the latest product documentation, it assists you to find help and get step-by-step guidance instantly, as you are building your use cases. This capability will be available starting early October.
+    Ask questions and find guidance directly from the product user interface. The new **AI-powered Knowledge Assistant**, embedded in the contextual help popovers, helps you learn and grow your expertise on new Campaign features. Based on the latest product documentation, it assists you to find help and get step-by-step guidance instantly, as you are building your use cases.
        
     Learn more in [this section](../get-started/using-ai.md).
 

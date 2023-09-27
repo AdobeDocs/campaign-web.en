@@ -9,13 +9,15 @@ badge: label="Beta"
 
 After you've crafted and personalized your emails, you can enhance your content using the Content Assistant, powered by generative AI. This feature simplifies the process of personalization and content improvement.
 
->[!AVAILABILITY]
+To generate and improve an images in your emails with the Content Assistant, follow the steps below. You can also create the full HTML content with the Content Assistant, as detailed in [this page](generative-email.md), or generate a text content, as explained in [this page](generative-content.md).
+
+>[!NOTE]
 >
->This capability will be available early October.
+>Before starting using this capability, read out related [Guardrails and Limitations](generative-gs.md#guardrails-and-limitations).
 
 In the example below, learn how to leverage the Content Assistant to optimize and improve your content, ensuring a more user-friendly experience. Follow these steps:
 
-1. After creating and configuring your Email delivery, click **[!UICONTROL Edit content]**.
+1. After creating and configuring your email delivery, click **[!UICONTROL Edit content]**.
 
     For more information on how to configure your email delivery, refer to [this page](../content/create-email-content.md).
 
