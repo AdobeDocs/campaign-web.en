@@ -35,9 +35,12 @@ Artificial intelligence and machine learning models improve over time to better 
 
 ## Recommendations  {#recommendations-ai}
 
-When asking a question in the AI-powered Knowledge Assistant, the current product context, i.e the Campaign screen you are in and the content of the current help box, is taken into account. 
+When asking a question in the AI-powered Knowledge Assistant, the current product context, i.e the screen you are in, and the content of the current help box,  are taken into account.
 
-To get the best of the AI-powered Knowledge Assistant, when asking a question, we advice you to:
+As a consequence, best practice is to ask questions related to the user interface context. For example, if you need to learn how to send a push delivery in a workflow, browse to the **Workflow** left menu entry, and use a contextual help box in that specific context. To learn more about reporting metrics, browse to the campaign or delivery reports, and start from there.
+
+
+In addition, to get the best of the AI-powered Knowledge Assistant, when asking a question, we advice you to:
 
 * Be as precise and specific as possible and avoid ambiguity. The answer will be more accurate and helpful. 
 * To help the AI-powered Knowledge Assistant find the correct information, add as much details as possible about what you are trying to learn.
