@@ -13,11 +13,10 @@ badge: label="Beta"
 >abstract="Once you have crafted and personalized your delivery, you can use the Content Assistant to enhance your content. This feature simplifies the process of personalization and content improvement by allowing you to fine-tune the content by describing what you want to generate."
 
 
-
 >[!CONTEXTUALHELP]
 >id="acw_generation_context"
 >title="Define context for content generation"
->abstract="To use the selected content as an input for content generation, activate the **Enhance with current content** toggle. You can also upload your brand assets to use them as a source. If you do not use the selected content, then uploading a brand assets are mandatory."
+>abstract="To use the selected content as an input for content generation, activate the **Enhance with current content** toggle. You can also upload your brand assets to use them as a source. If you do not use the selected content, then uploading and selecting a brand assets are mandatory."
 
 The Content Assistant, powered by generative AI, is a valuable tool for improving email content. It simplifies personalization and content enhancement, optimizing your email deliveries to better resonate with your audience. 
 
