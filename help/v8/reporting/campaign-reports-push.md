@@ -29,7 +29,7 @@ The **[!UICONTROL Delivery Overview]** report provides key performance indicator
 
 * **[!UICONTROL Errors]**: Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.
 
-* **[!UICONTROL Distinct clicks]**: Total number of distinct recipients who clicked in a delivery at least once.
+* **[!UICONTROL Total clicks]**: Total number of distinct recipients who clicked in a delivery at least once.
 
 +++
 
@@ -76,7 +76,9 @@ The **[!UICONTROL Execution statistics]** table details the success of your deli
 
 * **[!UICONTROL Errors]**: Total number of errors cumulated during deliveries and automatic rebound processing in relation to the number of messages to be delivered.
 
-* **[!UICONTROL New quarantines]**: Total number of addresses quarantined following a failed delivery (user unknown, invalid domain) in relation to the number of messages to be delivered.
+* **[!UICONTROL New quarantines]**: Total number of addresses quarantined following a failed delivery (invalid registration, message rejection, payload error, for ex.) in relation to the number of messages to be delivered.
+
+    Push notifications error types are listed in the [Adobe Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}.
 
 +++
 
@@ -93,9 +95,9 @@ The **[!UICONTROL Generated click streams]** table displays data relative to how
 
 +++Learn more on Push campaign report metrics.
 
-* **[!UICONTROL Distinct clicks]**: Total number of distinct recipients who clicked in a delivery at least once.
+* **[!UICONTROL Unique clicks]**: Total number of distinct recipients who clicked in a delivery at least once.
 
-* **[!UICONTROL Clicks]**: Total number of clicks on links in deliveries.
+* **[!UICONTROL Total clicks]**: Total number of clicks on links in deliveries.
 
 * **[!UICONTROL Reactivity]**: Ratio of the number of targeted recipients having clicked in a delivery, in relation to the estimated number of targeted recipients having opened a delivery.
 
