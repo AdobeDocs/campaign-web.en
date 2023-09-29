@@ -7,11 +7,6 @@ badge: label="Beta"
 # SMS delivery reports {#sms-report}
 
 >[!CONTEXTUALHELP]
->id="acw_sms_report_overview"
->title="SMS delivery overview"
->abstract="The **SMS delivery overview** offers a comprehensive overview of your SMS delivery, providing extensive insights and specific data. It furnishes comprehensive information about the performance, effectiveness, and outcomes of your delivery."
-
->[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_sms"
 >title="Reporting sending"
 >abstract="The **Sending** tab within your report provides in-depth insights into your visitors' interactions with your deliveries and any potential errors they may have encountered."
@@ -19,6 +14,11 @@ badge: label="Beta"
 The **SMS delivery overview** offers a comprehensive overview of your SMS delivery, providing extensive insights and specific data. It furnishes comprehensive information about the performance, effectiveness, and outcomes of your delivery.
 
 ## Delivery summary {#delivery-summary}
+
+>[!CONTEXTUALHELP]
+>id="acw_sms_report_overview"
+>title="SMS delivery overview"
+>abstract="The **SMS delivery overview** offers a comprehensive overview of your SMS delivery, providing extensive insights and specific data. It furnishes comprehensive information about the performance, effectiveness, and outcomes of your delivery."
 
 ### Delivery overview {#sms-delivery-overview}
 
