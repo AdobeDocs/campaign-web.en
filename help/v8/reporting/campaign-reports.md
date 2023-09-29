@@ -20,8 +20,11 @@ badge: label="Beta"
 
 To access your campaign reports, click the **Reports** button from your campaign's dashboard.
 
-![](assets/campaign_report_email_13.png) 
+![](assets/campaign_report_email_13.png)
 
+Alternatively, you can use the three dots **More actions** button next to the campaign name in the campaign list, as shown below:
+
+![](assets/campaign-reports-view.png){width="50%" align="left" zoomable="yes"}
 
 The Campaign report is divided into different widgets detailing your campaign's success and errors.
 

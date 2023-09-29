@@ -28,11 +28,15 @@ To display reports, follow these steps:
 
     ![](assets/reporting2.png)
 
+    Alternatively, you can use the three dots **More actions** button next to the delivery name in the campaign list, as shown below:
+
+    ![](assets/campaign-reports-view.png){width="50%" align="left" zoomable="yes"}
+
 1. From the left menu, select a report from the list.
 
     ![](assets/reporting.png)
 
-1. If your delivery is recurring, you can select a specific delivery to report on by clicking **[!UICONTROL Select deliveries]**. 
+1. If your delivery is recurring, select a specific delivery to report on by clicking **[!UICONTROL Select deliveries]**. 
 
     You can also apply a time period to your report by selecting the **[!UICONTROL Contact date]**.
 
