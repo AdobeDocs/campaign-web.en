@@ -10,10 +10,9 @@ Our comprehensive suite of reporting tools provides valuable insights into the e
 
 Adobe Campaign offers two different reports:
 
-* **Delivery report**: The **Delivery report** offers comprehensive insights and data specific to each channel. It provides detailed information on the performance, effectiveness, and outcomes of your individual deliveries, providing you with a comprehensive overview.
+* **Delivery reports**: The **Delivery reports** offer comprehensive insights and data specific to each channel. These reports provide detailed information on the performance, effectiveness, and outcomes of your individual deliveries, providing you with a comprehensive overview.
 
-* **Campaign report**: The **Campaign report** provides a comprehensive overview of your campaign, incorporating all pertinent information regarding the different deliveries included. This report offers a thorough analysis of each delivery's performance, success rates, audience engagement, and other essential metrics, allowing you to evaluate the overall effectiveness and impact of your campaign. 
-
+* **Campaign reports**: The **Campaign reports** provide a comprehensive overview of your campaign, incorporating all pertinent information regarding the different deliveries included. These reports offer a thorough analysis of each delivery's performance, per channel: success rates, audience engagement, and other essential metrics. They allow you to evaluate the overall effectiveness and impact of your campaign. 
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
