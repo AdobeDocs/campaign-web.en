@@ -255,6 +255,18 @@ The **[!UICONTROL Open and click-through rate]** table displays data relative to
 >title="URLs and click streams widget"
 >abstract="The **URLs and click streams** report provides key performance indicators (KPIs) that give detailed information about the URLs that were clicked the most during a delivery."
 
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_urls_clickstreams_top10"
+>title="Top 10 most visited links"
+>abstract="The **Top 10 most visited links** rgraph and table contain the available data for recipient behavior per link."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_urls_clickstreams_breakdown"
+>title="Breakdown of clicks over time"
+>abstract="The **Breakdown of clicks over time** graph shows the available data for recipient behavior per link."
+
 * The **[!UICONTROL URLs and click streams]** report provides key performance indicators (KPIs) that give detailed information about the URLs that were clicked the most during a delivery.
 
     ![](assets/reporting_email_7.png){align="center"}

@@ -6,6 +6,7 @@ badge: label="Beta"
 ---
 # Campaign reports {#campaign-reports}
 
+<!-- CAN BE REMOVED___
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sending"
 >title="Reporting Sending"
@@ -15,6 +16,7 @@ badge: label="Beta"
 >id="acw_campaign_reporting_tracking"
 >title="Reporting tracking"
 >abstract="The Tracking tab within your report offers valuable data, including recipient behavior per link, breakdown of opens and clicks, as well as detailed information about the most frequently clicked URLs during a delivery."
+-->
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
@@ -25,6 +27,7 @@ badge: label="Beta"
 >id="acw_campaign_reporting_deliveries_target"
 >title="Initial target audience statistics"
 >abstract="The Initial target audience statistics table displays data relative to your recipients"
+
 
 The Campaign report is divided into different widgets detailing your campaign's success and errors.
 
@@ -41,6 +44,21 @@ To access your Campaign report, click Reports from your campaign's dashboard.
 ## Email channel {#email-channel}
 
 ### Delivery summary {#delivery-summary-email}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_email_exec_stats"
+>title="Execution statistics"
+>abstract="The **Execution statistics** table details the success of your delivery: messages to deliver, success, errors, and new quarantines."
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_email_reaction_stats"
+>title="Reaction statistics"
+>abstract="The **Reaction statistics** table shows the available data for recipient activity for your delivery: number of opens, subscriptions, unsubscriptions, click to mirror page link."
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_email_click_streams"
+>title="Generated click streams"
+>abstract="The **Generated click streams** table shows the available data relative to how your recipients interacted with your delivery."
 
 * **[!UICONTROL Delivery Overview]** provides key performance indicators (KPIs) that give detailed information about how your visitors engage with your email delivery.
 
