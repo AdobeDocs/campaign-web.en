@@ -26,7 +26,7 @@ exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_preview"
 >title="Preview your file"
->abstract=Check the preview of your file. This sceen only shows up to 30 records."
+>abstract="Check the preview of your file. This sceen only shows up to 30 records."
 
 
 
