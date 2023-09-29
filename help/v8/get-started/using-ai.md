@@ -1,11 +1,16 @@
 ---
 title: Using AI-powered knowledge assistant in Campaign Web
 description: Using AI-powered knowledge assistant in Campaign Web
-badge: label="Beta" 
+badge: label="Alpha" 
 ---
 # Using the AI-powered Knowledge Assistant {#using-ai}
 
 Get fast, AI-generated answers based on the product documentation, and your current product context, with the AI-powered Knowkedge Assistant available in the product contextual help boxes.
+
+>[!NOTE]
+>
+>This capability is available in its Alpha version and subject to change without prior notice.
+
 
 The **Knowledge Assistant with Gen AI** embedded within contextual help revolutionizes documentation searching and answering how-to questions with effortlessly sifting through vast documentation repositories, instantly pinpointing the precise information you need.
 

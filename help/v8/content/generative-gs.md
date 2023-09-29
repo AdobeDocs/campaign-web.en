@@ -2,7 +2,7 @@
 audience: end-user
 title: Get started with the Content Assistant
 description: Get Started with the Content Assistant
-badge: label="Beta" 
+badge: label="Alpha" 
 ---
 
 # Get started with the Content Assistant {#generative-gs}
@@ -12,12 +12,22 @@ badge: label="Beta"
 >title="Content Assistant"
 >abstract="Once you have crafted and personalized your delivery, you can use the Content Assistant to enhance your content. This feature simplifies the process of personalization and content improvement by allowing you to fine-tune the content by describing what you want to generate."
 
+
+>[!CONTEXTUALHELP]
+>id="acw_generation_context"
+>title="Define context for content generation"
+>abstract="To use the selected content as an input for content generation, activate the **Enhance with current content** toggle. You can also upload your brand assets to use them as a source. If you do not use the selected content, then uploading and selecting a brand assets are mandatory."
+
 The Content Assistant, powered by generative AI, is a valuable tool for improving email content. It simplifies personalization and content enhancement, optimizing your email deliveries to better resonate with your audience. 
 
 This feature saves time and ensures consistent quality by automatically generating complete email content. By using Generative AI, you can create compelling emails effortlessly, improving your communication's effectiveness and efficiency.
 
-You can the Campaign Content Assistant in your emails to: [generate images](generative-image.md), [generate text content](generative-content.md), [generate the full HTML content](generative-email.md).
+<!--
+You can the Campaign Content Assistant in your emails to: [generate images](generative-image.md), [generate text content](generative-content.md), [generate the full HTML content](generative-email.md).--> 
 
+>[!NOTE]
+>
+>This capability is available in its Alpha version and subject to change without prior notice. It will be activated early October.
 
 ## Guardrails and limitations {#generative-guardrails}
 
@@ -36,6 +46,8 @@ The following limitations apply to Campaign Content Assistant:
 * GenAI content might not always be accurate: please share your feedback so that our engineers can refine the models
 * You may upload multiple brand assets, but can leverage only one for a specific generation
 
+
+<!--
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="generative-content.md">
@@ -63,4 +75,5 @@ The following limitations apply to Campaign Content Assistant:
 </div>
 <p></td>
 </tr></table>
+-->
 

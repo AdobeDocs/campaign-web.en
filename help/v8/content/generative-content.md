@@ -2,10 +2,14 @@
 audience: end-user
 title: Text with the Content Assistant
 description: Get Started with the Content Assistant
-badge: label="Beta" 
+badge: label="Alpha"
+hide: yes
+hidefromtoc: yes 
 ---
 
 # Text generation with the Content Assistant {#generative-content}
+
+
 
 Once you have created and personalized your emails, use the Content Assistant powered by generative AI to take your content to the next level.
 
