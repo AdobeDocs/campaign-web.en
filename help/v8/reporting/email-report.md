@@ -256,10 +256,44 @@ The **[!UICONTROL Open and click-through rate]** table displays data relative to
 >abstract="The **URLs and click streams** report provides key performance indicators (KPIs) that give detailed information about the URLs that were clicked the most during a delivery."
 
 
+The **[!UICONTROL URLs and click streams]** report provides key performance indicators (KPIs) that give detailed information about the URLs that were clicked the most during a delivery.
+
+![](assets/reporting_email_7.png){align="center"}
+
++++Learn more on Email delivery report metrics.
+
+* **[!UICONTROL Reactivity]**: Ratio of the number of targeted recipients having clicked in a delivery, in relation to the estimated number of targeted recipients having opened a delivery.
+
+* **[!UICONTROL Distinct clicks]**: Total number of distinct recipients who clicked in a delivery at least once.
+
+* **[!UICONTROL Clicks]**: Total number of clicks on links in deliveries.
+
+* **[!UICONTROL Platform average]** : This average rate, displayed under each rate (reactivity, distinct clicks, and cumulated clicks), is calculated for deliveries sent over the previous six months. Only deliveries with the same typology and on the same channel are taken into account. Proofs are excluded.
+
++++
+
+### Top 10 most visited links {#email-tracking-top10}
+
+
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_clickstreams_top10"
 >title="Top 10 most visited links"
 >abstract="The **Top 10 most visited links** rgraph and table contain the available data for recipient behavior per link."
+
+
+The **[!UICONTROL Top 10 most visited links]** graph and table contain the available data for recipient behavior per link.
+
+![](assets/reporting_email_8.png){align="center"}
+
++++Learn more on Email delivery report metrics.
+
+* **[!UICONTROL Clicks]**: Total number of clicks on links in deliveries.
+
+* **[!UICONTROL Percentage]**: Percentage of users who interacted with the delivery.
+
++++
+
+### Breakdown of clicks over time {#email-tracking-breakdown-over-time}
 
 
 >[!CONTEXTUALHELP]
@@ -267,37 +301,10 @@ The **[!UICONTROL Open and click-through rate]** table displays data relative to
 >title="Breakdown of clicks over time"
 >abstract="The **Breakdown of clicks over time** graph shows the available data for recipient behavior per link."
 
-* The **[!UICONTROL URLs and click streams]** report provides key performance indicators (KPIs) that give detailed information about the URLs that were clicked the most during a delivery.
 
-    ![](assets/reporting_email_7.png){align="center"}
+The **[!UICONTROL Breakdown of clicks over time]** graph contains the available data for recipient behavior per link.
 
-    +++Learn more on Email delivery report metrics.
-
-    * **[!UICONTROL Reactivity]**: Ratio of the number of targeted recipients having clicked in a delivery, in relation to the estimated number of targeted recipients having opened a delivery.
-
-    * **[!UICONTROL Distinct clicks]**: Total number of distinct recipients who clicked in a delivery at least once.
-
-    * **[!UICONTROL Clicks]**: Total number of clicks on links in deliveries.
-
-    * **[!UICONTROL Platform average]** : This average rate, displayed under each rate (reactivity, distinct clicks, and cumulated clicks), is calculated for deliveries sent over the previous six months. Only deliveries with the same typology and on the same channel are taken into account. Proofs are excluded.
-
-    +++
-
-* **[!UICONTROL Top 10 most visited links]** graph and table contain the available data for recipient behavior per link.
-
-    ![](assets/reporting_email_8.png){align="center"}
-
-    +++Learn more on Email delivery report metrics.
-
-    * **[!UICONTROL Clicks]**: Total number of clicks on links in deliveries.
-
-    * **[!UICONTROL Percentage]**: Percentage of users who interacted with the delivery.
-
-    +++
-
-* **[!UICONTROL Breakdown of clicks over time]** graph contains the available data for recipient behavior per link.
-
-    ![](assets/reporting_email_9.png){align="center"}
+![](assets/reporting_email_9.png){align="center"}
 
 ## User Activities {#user-activities-email}
 
@@ -338,7 +345,6 @@ The **[!UICONTROL Tracking Statistics]** graph provides statistics on opens and 
 +++
 
 ## Breakdown of opens {#breakdown-opens}
-
 
 ### Breakdown of opens by device {#breakdown-opens-devices}
 

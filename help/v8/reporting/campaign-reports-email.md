@@ -9,6 +9,11 @@ badge: label="Beta"
 
 ## Delivery summary {#delivery-summary-email}
 
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_deliveries_overview"
+>title="Delivery overview"
+>abstract="The Delivery Overview provides key performance indicators (KPIs) that give detailed information about how your visitors engage with your email delivery."
+
 ### Delivery overview {#delivery-summary-email-ovv}
 
 The **[!UICONTROL Delivery Overview]** report provides key performance indicators (KPIs) that give detailed information about how your visitors engage with your email delivery. Metrics are detailed below.
@@ -30,6 +35,12 @@ The **[!UICONTROL Delivery Overview]** report provides key performance indicator
 +++
 
 ### Initial target audience statistics {#delivery-summary-email-initial-target}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_deliveries_target"
+>title="Initial target audience statistics"
+>abstract="The Initial target audience statistics table displays data relative to your recipients"
+
 
 The **[!UICONTROL Initial target audience statistics]** table displays data relative to your recipients. Metrics are detailed below.
 
@@ -119,7 +130,6 @@ The **[!UICONTROL Generated click streams]** table displays data relative to how
 ## Non-deliverables {#non-deliverables-email}
 
 ### Breakdown of errors per type {#delivery-summary-email-breakdown-per-type}
-
 
 The **[!UICONTROL Breakdown of errors per type]** table and graph contain the available data for possible errors encountered for each type of domain. Metrics are detailed below.
     
