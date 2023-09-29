@@ -22,6 +22,14 @@ exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 >title="Formatting parameters"
 >abstract="Check the formatting parameters for your file."
 
+
+>[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_preview"
+>title="Preview your file"
+>abstract=Check the preview of your file. This sceen only shows up to 30 records."
+
+
+
 You cannot upload profiles directly into Campaign from the interface, but you can target profiles stored in an external file. Profiles are not added to the database, but all fields in the input file are available for [personalization](../personalization/gs-personalization.md). Supported file formats are: text (TXT) and comma-separated value (CSV). 
 
 >[!CAUTION]
