@@ -21,7 +21,7 @@ Adobe Campaign offers two different reports:
 <a href="email-report.md">
 <img alt="Lead" src="assets/do-not-localize/email_report.jpeg">
 </a>
-<div><a href="email-report.md"><strong>Email delivery report</strong>
+<div><a href="email-report.md"><strong>Email delivery reports</strong>
 </div>
 <p>
 </td>
@@ -30,7 +30,7 @@ Adobe Campaign offers two different reports:
 <img alt="Infrequent" src="assets/do-not-localize/push_report.jpeg">
 </a>
 <div>
-<a href="push-report.md"><strong> Push delivery reporty<strong></strong></a>
+<a href="push-report.md"><strong> Push delivery reports<strong></strong></a>
 </div>
 <p></td>
 <td>
@@ -38,7 +38,7 @@ Adobe Campaign offers two different reports:
 <img alt="Validation" src="assets/do-not-localize/sms_report.png">
 </a>
 <div>
-<a href="sms-report.md"><strong> SMS delivery report</strong></a>
+<a href="sms-report.md"><strong> SMS delivery reports</strong></a>
 </div>
 <p>
 </td>
@@ -47,7 +47,7 @@ Adobe Campaign offers two different reports:
 <img alt="Validation" src="assets/do-not-localize/campaign_report.jpeg">
 </a>
 <div>
-<a href="campaign-reports.md"><strong>Campaign report</strong></a>
+<a href="campaign-reports.md"><strong>Campaign reports</strong></a>
 </div>
 <p>
 </td>
