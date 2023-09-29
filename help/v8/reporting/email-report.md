@@ -196,10 +196,6 @@ Metrics available are the same as for the [Breakdown of errors by type](#email-d
 >title="Reporting tracking"
 >abstract="The **Tracking** tab within your report offers valuable data, including recipient behavior per link, breakdown of opens and clicks, as well as detailed information about the most frequently clicked URLs during a delivery."
 
->[!CONTEXTUALHELP]
->id="acw_delivery_reporting_open_clickthrough"
->title="Open and click-through rate widget"
->abstract="The **Open and click-through rate** table displays data relative to your recipients engagement with your delivery."
 
 ### Delivery statistics  {#email-tracking-delivery-stats}
 
@@ -231,6 +227,13 @@ The **[!UICONTROL Delivery statistics]** report provides key performance indicat
 
 ### Open and click-through rate {#email-tracking-click-through}
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_open_clickthrough"
+>title="Open and click-through rate widget"
+>abstract="The **Open and click-through rate** table displays data relative to your recipients engagement with your delivery."
+
+
+
 The **[!UICONTROL Open and click-through rate]** table displays data relative to your recipients. Metrics are detailed below.
 
 ![](assets/reporting_email_6.png){align="center"}
@@ -252,7 +255,7 @@ The **[!UICONTROL Open and click-through rate]** table displays data relative to
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_clickstreams"
->title="URLs and click streams widget"
+>title="URLs and click streams"
 >abstract="The **URLs and click streams** report provides key performance indicators (KPIs) that give detailed information about the URLs that were clicked the most during a delivery."
 
 

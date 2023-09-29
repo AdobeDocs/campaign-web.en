@@ -131,6 +131,12 @@ The **[!UICONTROL Generated click streams]** table displays data relative to how
 
 ### Breakdown of errors per type {#delivery-summary-email-breakdown-per-type}
 
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_error_type"
+>title="Breakdown of errors per type"
+>abstract="The **Breakdown of errors per type** table and graph contain the available data for each error type encountered: user unknown, mailbox full, invalid domain, and more."
+
 The **[!UICONTROL Breakdown of errors per type]** table and graph contain the available data for possible errors encountered for each type of domain. Metrics are detailed below.
     
 The errors shown in this report trigger the quarantine process. For more on quarantine management, refer to [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
@@ -157,6 +163,12 @@ The errors shown in this report trigger the quarantine process. For more on quar
 
 
 ### Breakdown of errors per domain {#delivery-summary-email-breakdown-per-domain}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_error_domain"
+>title="Breakdown of errors per domain"
+>abstract="The **Breakdown of errors per domain** table and graph display the available data for each error type encountered depending on each domain."
+
 
 The **[!UICONTROL Breakdown of errors per domain]** table and graph contain the available data for possible errors encountered with each domain. Metrics are common with the **[!UICONTROL Breakdown of errors per type]** table and graph detailed above.
 
@@ -186,6 +198,14 @@ The **[!UICONTROL Delivery statistics]** metrics provides key performance indica
 
 ### Open and click-trough rate {#delivery-summary-open-rate}
 
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_open_clickthrough"
+>title="Open and click-through rate widget"
+>abstract="The **Open and click-through rate** table displays data relative to your recipients engagement with your delivery."
+
+
+
 The **[!UICONTROL Open and click-trough rate]** table displays data relative to your recipients. Metrics are detailed below.
 
 ![](assets/campaign_report_email_8.png) 
@@ -205,6 +225,11 @@ The **[!UICONTROL Open and click-trough rate]** table displays data relative to 
 
 ## URLs and click streams {#url-email}
 
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_urls_clickstreams"
+>title="URLs and click streams"
+>abstract="The **URLs and click streams** report provides key performance indicators (KPIs) that give detailed information about the URLs that were clicked the most during a delivery."
+
 The **[!UICONTROL URLs and click streams]** report provides key performance indicators (KPIs) that give detailed information about the URLs that were clicked the most during a delivery. Metrics are detailed below.
 
 ![](assets/campaign_report_email_9.png)
@@ -223,6 +248,13 @@ The **[!UICONTROL URLs and click streams]** report provides key performance indi
 ### Top 10 most visited links {#top10-campaign-report-email}
 
 
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_urls_clickstreams_top10"
+>title="Top 10 most visited links"
+>abstract="The **Top 10 most visited links** rgraph and table contain the available data for recipient behavior per link."
+
+
 The **[!UICONTROL Top 10 most visited links]** graph and table contain the available data for recipient behavior per link. Metrics are detailed below.
 
 ![](assets/campaign_report_email_10.png)
@@ -236,6 +268,13 @@ The **[!UICONTROL Top 10 most visited links]** graph and table contain the avail
 +++
 
 ### Breakdown of clicks over time {#campaign-report-email-breakdown-clicks}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_campaign_urls_clickstreams_breakdown"
+>title="Breakdown of clicks over time"
+>abstract="The **Breakdown of clicks over time** graph shows the available data for recipient behavior per link."
+
 
 the **[!UICONTROL Breakdown of clicks over time]** graph contains the available data for recipient behavior per link. 
 
