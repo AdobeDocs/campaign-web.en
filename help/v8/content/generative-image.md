@@ -2,7 +2,9 @@
 audience: end-user
 title: Image generation with the Content Assistant
 description: Get Started with the Content Assistant
-badge: label="Beta" 
+badge: label="Alpha"
+hide: yes
+hidefromtoc: yes 
 ---
 
 # Image generation with the Content Assistant {#generative-image}
