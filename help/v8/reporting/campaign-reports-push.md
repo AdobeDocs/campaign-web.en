@@ -7,6 +7,8 @@ badge: label="Beta"
 
 # Campaign reports for the Push channel {#campaign-reports-push-channel}
 
+Each campaign report is divided into different widgets detailing your campaign's success and errors. For the push channel, reports and metrics are detailed below. Learn how to access your campaign reports in [this page](campaign-reports.md).
+
 ## Delivery summary {#delivery-summary-push}
 
 >[!CONTEXTUALHELP]

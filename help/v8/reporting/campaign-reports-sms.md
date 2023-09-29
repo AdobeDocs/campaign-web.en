@@ -7,13 +7,15 @@ badge: label="Beta"
 
 # Campaign reports for the SMS channel {#campaign-reports-sms-channel}
 
+Each campaign report is divided into different widgets detailing your campaign's success and errors. For the SMS channel, reports and metrics are detailed below. Learn how to access your campaign reports in [this page](campaign-reports.md).
+
+## Delivery summary {#delivery-summary-sms}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sms_deliveries_overview"
 >title="Delivery overview"
 >abstract="The **Delivery Overview** report provides key performance indicators (KPIs) that give detailed information about how your visitors engage with your SMS delivery."
 
-## Delivery summary {#delivery-summary-sms}
 
 The **[!UICONTROL Delivery Overview]** report provides key performance indicators (KPIs) that give detailed information about how your visitors engage with your SMS delivery. Metrics are detailed below.
     

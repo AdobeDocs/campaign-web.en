@@ -7,6 +7,8 @@ badge: label="Beta"
 
 # Campaign reports for the email channel {#campaign-reports-email-channel}
 
+Each campaign report is divided into different widgets detailing your campaign's success and errors. For the email channel, reports and metrics are detailed below. Learn how to access your campaign reports in [this page](campaign-reports.md).
+
 ## Delivery summary {#delivery-summary-email}
 
 >[!CONTEXTUALHELP]

@@ -18,6 +18,9 @@ badge: label="Beta"
 >abstract="The Tracking tab within your report offers valuable data, including recipient behavior per link, breakdown of opens and clicks, as well as detailed information about the most frequently clicked URLs during a delivery."
 -->
 
+To access your campaign reports, click the **Reports** button from your campaign's dashboard.
+
+![](assets/campaign_report_email_13.png) 
 
 
 The Campaign report is divided into different widgets detailing your campaign's success and errors.
@@ -28,6 +31,3 @@ The Campaign report page will be displayed with the following tabs:
 * [SMS channel](campaign-reports-sms.md)
 * [Push channel](campaign-reports-push.md)
 
-To access your Campaign report, click Reports from your campaign's dashboard.
-
-![](assets/campaign_report_email_13.png) 
