@@ -29,7 +29,7 @@ The **[!UICONTROL Delivery Overview]** report provides key performance indicator
 
 * **[!UICONTROL Errors]**: Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.
 
-* **[!UICONTROL Distinct clicks]**: Total number of distinct recipients who clicked in a delivery at least once.
+* **[!UICONTROL Total clicks]**: Total number of distinct recipients who clicked in a delivery at least once.
 
 +++
 
@@ -95,9 +95,9 @@ The **[!UICONTROL Generated click streams]** table displays data relative to how
 
 +++Learn more on Push campaign report metrics.
 
-* **[!UICONTROL Distinct clicks]**: Total number of distinct recipients who clicked in a delivery at least once.
+* **[!UICONTROL Unique clicks]**: Total number of distinct recipients who clicked in a delivery at least once.
 
-* **[!UICONTROL Clicks]**: Total number of clicks on links in deliveries.
+* **[!UICONTROL Total clicks]**: Total number of clicks on links in deliveries.
 
 * **[!UICONTROL Reactivity]**: Ratio of the number of targeted recipients having clicked in a delivery, in relation to the estimated number of targeted recipients having opened a delivery.
 
