@@ -41,3 +41,9 @@ To display reports, follow these steps:
     You can also apply a time period to your report by selecting the **[!UICONTROL Contact date]**.
 
     ![](assets/delivery-recurring.png)
+
+The full list of reports and associated metrics for each channel is available in the following pages:
+
+* [Email delivery reports](email-report.md)
+* [SMS delivery reports](sms-report.md)
+* [Push delivery reports](push-report.md)

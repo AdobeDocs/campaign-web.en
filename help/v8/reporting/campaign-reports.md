@@ -26,9 +26,9 @@ Alternatively, you can use the three dots **More actions** button next to the ca
 
 ![](assets/campaign-reports-view.png){width="50%" align="left" zoomable="yes"}
 
-The Campaign report is divided into different widgets detailing your campaign's success and errors.
+The campaign report is divided into different widgets detailing your campaign's success and errors. 
 
-The Campaign report page will be displayed with the following tabs:
+The full list of reports and associated metrics for each channel is available in the following pages:
 
 * [Email channel](campaign-reports-email.md) 
 * [SMS channel](campaign-reports-sms.md)
