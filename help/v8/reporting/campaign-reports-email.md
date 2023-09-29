@@ -276,7 +276,7 @@ The **[!UICONTROL Top 10 most visited links]** graph and table contain the avail
 
 
 >[!CONTEXTUALHELP]
->id="acw_delivery_campaign_urls_clickstreams_breakdown"
+>id="acw_delivery_campaign_urls_click_breakdown"
 >title="Breakdown of clicks over time"
 >abstract="The **Breakdown of clicks over time** graph shows the available data for recipient behavior per link."
 

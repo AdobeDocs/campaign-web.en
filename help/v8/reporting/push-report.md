@@ -7,11 +7,6 @@ badge: label="Beta"
 # Push delivery reports {#push-report}
 
 >[!CONTEXTUALHELP]
->id="acw_push_report_overview"
->title="Push delivery report summary"
->abstract="The **Push delivery overview** offers a comprehensive overview of your push delivery, providing extensive insights and specific data. It furnishes comprehensive information about the performance, effectiveness, and results of your delivery."
-
->[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_push"
 >title="Reporting sending"
 >abstract="he **Sending** tab within your report provides in-depth insights into your visitors' interactions with your deliveries and any potential errors they may have encountered."
@@ -21,6 +16,11 @@ The **Push delivery report** provides a thorough overview of the push channel, o
 ## Push summary {#push-summary}
 
 ### Delivery overview {#push-delivery-overview}
+
+>[!CONTEXTUALHELP]
+>id="acw_push_report_overview"
+>title="Push delivery report summary"
+>abstract="The **Push delivery overview** offers a comprehensive overview of your push delivery, providing extensive insights and specific data. It furnishes comprehensive information about the performance, effectiveness, and results of your delivery."
 
 The **[!UICONTROL Delivery overview]** report provides key performance indicators (KPIs) that give detailed information about how your visitors engage with your push messages.
 
@@ -39,7 +39,6 @@ The **[!UICONTROL Delivery overview]** report provides key performance indicator
 +++
 
 ### Targeted population {#push-delivery-targeted-population}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_targeted_population"

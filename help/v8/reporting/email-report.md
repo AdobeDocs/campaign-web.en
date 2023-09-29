@@ -13,7 +13,7 @@ The **Email delivery report** offers comprehensive insights and data specific to
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_email"
 >title="Reporting sending"
->abstract="he **Sending** tab within your report provides in-depth insights into your visitors' interactions with your deliveries and any potential errors they may have encountered."
+>abstract="The **Sending** tab within your report provides in-depth insights into your visitors' interactions with your deliveries and any potential errors they may have encountered."
 
 ### Initial target population {#email-delivery-targeted-population}
 
@@ -100,7 +100,7 @@ The **[!UICONTROL Causes of exclusion]** graph and table show the breakdown per 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_email"
->title="Delivery throughput widget"
+>title="Delivery throughput"
 >abstract="The **Delivery throughput** report presents detailed information regarding the delivery throughput of the entire platform within a specified timeframe."
 
 This report presents detailed information regarding the delivery throughput of the entire platform within a specified timeframe. The primary metric used to measure the speed of message delivery is the number of messages sent per hour.
@@ -112,7 +112,7 @@ This report presents detailed information regarding the delivery throughput of t
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_broadcast_statistics"
->title="Broadcast statistics widget"
+>title="Broadcast statistics"
 >abstract="The **Broadcast statistics** report contains the available data for possible errors encountered with each domain."
 
 The **[!UICONTROL Broadcast statistics]** table contains the available data for possible errors encountered with each domain. Metrics are detailed below.
@@ -229,7 +229,7 @@ The **[!UICONTROL Delivery statistics]** report provides key performance indicat
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_open_clickthrough"
->title="Open and click-through rate widget"
+>title="Open and click-through rate"
 >abstract="The **Open and click-through rate** table displays data relative to your recipients engagement with your delivery."
 
 
@@ -300,7 +300,7 @@ The **[!UICONTROL Top 10 most visited links]** graph and table contain the avail
 
 
 >[!CONTEXTUALHELP]
->id="acw_delivery_reporting_urls_clickstreams_breakdown"
+>id="acw_delivery_reporting_urls_click_breakdown"
 >title="Breakdown of clicks over time"
 >abstract="The **Breakdown of clicks over time** graph shows the available data for recipient behavior per link."
 
