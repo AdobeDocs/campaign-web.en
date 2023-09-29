@@ -125,4 +125,8 @@ hide: yes
     + [Email delivery report](reporting/email-report.md)
     + [Push delivery report](reporting/push-report.md)
     + [SMS delivery report](reporting/sms-report.md)
-  + [Campaign reports ](reporting/campaign-reports.md)
+  + Campaign reports {#campaign-report}  
+    + [Access campaign reports](reporting/campaign-reports.md)
+    + [Email campaign reports](reporting/campaign-reports-email.md)
+    + [Push campaign reports](reporting/campaign-reports-push.md)
+    + [SMS campaign reports](reporting/campaign-reports-sms.md)

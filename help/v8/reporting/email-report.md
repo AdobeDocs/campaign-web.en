@@ -196,10 +196,6 @@ Metrics available are the same as for the [Breakdown of errors by type](#email-d
 >title="Reporting tracking"
 >abstract="The **Tracking** tab within your report offers valuable data, including recipient behavior per link, breakdown of opens and clicks, as well as detailed information about the most frequently clicked URLs during a delivery."
 
->[!CONTEXTUALHELP]
->id="acw_delivery_reporting_open_clickthrough"
->title="Open and click-through rate widget"
->abstract="The **Open and click-through rate** table displays data relative to your recipients engagement with your delivery."
 
 ### Delivery statistics  {#email-tracking-delivery-stats}
 
@@ -231,6 +227,13 @@ The **[!UICONTROL Delivery statistics]** report provides key performance indicat
 
 ### Open and click-through rate {#email-tracking-click-through}
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_open_clickthrough"
+>title="Open and click-through rate widget"
+>abstract="The **Open and click-through rate** table displays data relative to your recipients engagement with your delivery."
+
+
+
 The **[!UICONTROL Open and click-through rate]** table displays data relative to your recipients. Metrics are detailed below.
 
 ![](assets/reporting_email_6.png){align="center"}
@@ -252,40 +255,59 @@ The **[!UICONTROL Open and click-through rate]** table displays data relative to
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_clickstreams"
->title="URLs and click streams widget"
+>title="URLs and click streams"
 >abstract="The **URLs and click streams** report provides key performance indicators (KPIs) that give detailed information about the URLs that were clicked the most during a delivery."
 
-* The **[!UICONTROL URLs and click streams]** report provides key performance indicators (KPIs) that give detailed information about the URLs that were clicked the most during a delivery.
 
-    ![](assets/reporting_email_7.png){align="center"}
+The **[!UICONTROL URLs and click streams]** report provides key performance indicators (KPIs) that give detailed information about the URLs that were clicked the most during a delivery.
 
-    +++Learn more on Email delivery report metrics.
+![](assets/reporting_email_7.png){align="center"}
 
-    * **[!UICONTROL Reactivity]**: Ratio of the number of targeted recipients having clicked in a delivery, in relation to the estimated number of targeted recipients having opened a delivery.
++++Learn more on Email delivery report metrics.
 
-    * **[!UICONTROL Distinct clicks]**: Total number of distinct recipients who clicked in a delivery at least once.
+* **[!UICONTROL Reactivity]**: Ratio of the number of targeted recipients having clicked in a delivery, in relation to the estimated number of targeted recipients having opened a delivery.
 
-    * **[!UICONTROL Clicks]**: Total number of clicks on links in deliveries.
+* **[!UICONTROL Distinct clicks]**: Total number of distinct recipients who clicked in a delivery at least once.
 
-    * **[!UICONTROL Platform average]** : This average rate, displayed under each rate (reactivity, distinct clicks, and cumulated clicks), is calculated for deliveries sent over the previous six months. Only deliveries with the same typology and on the same channel are taken into account. Proofs are excluded.
+* **[!UICONTROL Clicks]**: Total number of clicks on links in deliveries.
 
-    +++
+* **[!UICONTROL Platform average]** : This average rate, displayed under each rate (reactivity, distinct clicks, and cumulated clicks), is calculated for deliveries sent over the previous six months. Only deliveries with the same typology and on the same channel are taken into account. Proofs are excluded.
 
-* **[!UICONTROL Top 10 most visited links]** graph and table contain the available data for recipient behavior per link.
++++
 
-    ![](assets/reporting_email_8.png){align="center"}
+### Top 10 most visited links {#email-tracking-top10}
 
-    +++Learn more on Email delivery report metrics.
 
-    * **[!UICONTROL Clicks]**: Total number of clicks on links in deliveries.
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_urls_clickstreams_top10"
+>title="Top 10 most visited links"
+>abstract="The **Top 10 most visited links** rgraph and table contain the available data for recipient behavior per link."
 
-    * **[!UICONTROL Percentage]**: Percentage of users who interacted with the delivery.
 
-    +++
+The **[!UICONTROL Top 10 most visited links]** graph and table contain the available data for recipient behavior per link.
 
-* **[!UICONTROL Breakdown of clicks over time]** graph contains the available data for recipient behavior per link.
+![](assets/reporting_email_8.png){align="center"}
 
-    ![](assets/reporting_email_9.png){align="center"}
++++Learn more on Email delivery report metrics.
+
+* **[!UICONTROL Clicks]**: Total number of clicks on links in deliveries.
+
+* **[!UICONTROL Percentage]**: Percentage of users who interacted with the delivery.
+
++++
+
+### Breakdown of clicks over time {#email-tracking-breakdown-over-time}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_urls_clickstreams_breakdown"
+>title="Breakdown of clicks over time"
+>abstract="The **Breakdown of clicks over time** graph shows the available data for recipient behavior per link."
+
+
+The **[!UICONTROL Breakdown of clicks over time]** graph contains the available data for recipient behavior per link.
+
+![](assets/reporting_email_9.png){align="center"}
 
 ## User Activities {#user-activities-email}
 
@@ -326,7 +348,6 @@ The **[!UICONTROL Tracking Statistics]** graph provides statistics on opens and 
 +++
 
 ## Breakdown of opens {#breakdown-opens}
-
 
 ### Breakdown of opens by device {#breakdown-opens-devices}
 
