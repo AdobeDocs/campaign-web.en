@@ -18,6 +18,9 @@ Each campaign report is divided into different widgets detailing your campaign's
 
 The **[!UICONTROL Delivery Overview]** report provides key performance indicators (KPIs) that give detailed information about how your visitors engage with your push notification delivery. Metrics are detailed below.
     
+![](assets/campaign-reporting-push-summary.png)
+
+
 +++Learn more on Push campaign report metrics.
 
 * **[!UICONTROL Total sent]**: Total number of messages processed during the delivery preparation.
@@ -40,6 +43,9 @@ The **[!UICONTROL Delivery Overview]** report provides key performance indicator
 
 The **[!UICONTROL Initial target audience statistics]** table displays data relative to your recipients. Metrics are detailed below.
 
+![](assets/campaign-reporting-push-target.png)
+
+
 +++Learn more on Push campaign report metrics.
 
 * **[!UICONTROL Initial audience]**: Total number of targeted recipients.
@@ -58,6 +64,9 @@ The **[!UICONTROL Initial target audience statistics]** table displays data rela
 >abstract="The **Execution statistics** table details the success of your delivery: messages to deliver, success, errors, and new quarantines."
 
 The **[!UICONTROL Execution statistics]** table details the success of your delivery. Metrics are detailed below.
+
+![](assets/campaign-reporting-push-exec.png)
+
 
 +++Learn more on Push campaign report metrics.
 
@@ -79,6 +88,8 @@ The **[!UICONTROL Execution statistics]** table details the success of your deli
 >abstract="The **Generated click streams** table shows the available data relative to how your recipients interacted with your delivery."
 
 The **[!UICONTROL Generated click streams]** table displays data relative to how your recipients interacted with your delivery. Metrics are detailed below.
+
+![](assets/campaign-reporting-push-clicks.png)
 
 +++Learn more on Push campaign report metrics.
 
