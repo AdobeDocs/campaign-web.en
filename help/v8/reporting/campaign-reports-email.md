@@ -12,7 +12,7 @@ badge: label="Beta"
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
 >title="Delivery overview"
->abstract="The Delivery Overview provides key performance indicators (KPIs) that give detailed information about how your visitors engage with your email delivery."
+>abstract="The **Delivery Overview** provides key performance indicators (KPIs) that give detailed information about how your visitors engage with your email delivery."
 
 ### Delivery overview {#delivery-summary-email-ovv}
 
@@ -81,7 +81,6 @@ The **[!UICONTROL Execution statistics]** table details the success of your deli
 +++
 
 ### Reaction statistics {#delivery-summary-email-reaction-stats}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_email_reaction_stats"
@@ -177,6 +176,12 @@ The **[!UICONTROL Breakdown of errors per domain]** table and graph contain the 
 
 ### Delivery statistics {#delivery-summary-email-statistics}
 
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_campaign_delivery_statistics_summary"
+>title="Delivery statistics"
+>abstract="The **Delivery statistics** graph details the success of your delivery, and errors that occurred."
+
 The **[!UICONTROL Delivery statistics]** metrics provides key performance indicators (KPIs) that give detailed information about data available for sent emails. Metrics are detailed below.
  
 ![](assets/campaign_report_email_7.png)
@@ -201,7 +206,7 @@ The **[!UICONTROL Delivery statistics]** metrics provides key performance indica
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_open_clickthrough"
->title="Open and click-through rate widget"
+>title="Open and click-through rate"
 >abstract="The **Open and click-through rate** table displays data relative to your recipients engagement with your delivery."
 
 
@@ -247,8 +252,6 @@ The **[!UICONTROL URLs and click streams]** report provides key performance indi
 
 ### Top 10 most visited links {#top10-campaign-report-email}
 
-
-
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_urls_clickstreams_top10"
 >title="Top 10 most visited links"
@@ -287,6 +290,25 @@ The  **[!UICONTROL User activities]** report shows the breakdown of opens and cl
 ![](assets/campaign_report_email_12.png)
 
 +++Learn more on Email campaign report metrics.
+
+* **[!UICONTROL Clicks]**: Total number of clicks on links in deliveries.
+
+* **[!UICONTROL Opens]**: Number of distinct targeted recipients for this domain who have opened a message at least once.
+
++++
+
+## User Activities {#user-activities-email}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_user_activities"
+>title="User activities"
+>abstract="The **User activities** graph shows the breakdown of opens and clicks in the form of a chart. You can choose the time period to target data: last day or hour or 30 minutes."
+
+The **[!UICONTROL User activities]** report shows the breakdown of opens and clicks in the form of a chart. You can choose the time period to target data: last day or hour or 30 minutes. Metrics for this report are detailed below.
+
+![](assets/campaign_report_email_10.png){align="center"}
+
++++Learn more on Email delivery report metrics.
 
 * **[!UICONTROL Clicks]**: Total number of clicks on links in deliveries.
 

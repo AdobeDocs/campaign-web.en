@@ -7,6 +7,12 @@ badge: label="Beta"
 
 # Campaign reports for the SMS channel {#campaign-reports-sms-channel}
 
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_sms_deliveries_overview"
+>title="Delivery overview"
+>abstract="The **Delivery Overview** report provides key performance indicators (KPIs) that give detailed information about how your visitors engage with your SMS delivery."
+
 ## Delivery summary {#delivery-summary-sms}
 
 The **[!UICONTROL Delivery Overview]** report provides key performance indicators (KPIs) that give detailed information about how your visitors engage with your SMS delivery. Metrics are detailed below.
@@ -28,6 +34,11 @@ The **[!UICONTROL Delivery Overview]** report provides key performance indicator
 
 ### Initial target audience statistics {#delivery-summary-sms-initial-target}
 
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_sms_target"
+>title="Initial target audience statistics"
+>abstract="The **Initial target audience statistics** table displays data relative to your recipients"
+
 The **[!UICONTROL Initial target audience statistics]** table displays data relative to your recipients. Metrics are detailed below.
 
 
@@ -45,6 +56,13 @@ The **[!UICONTROL Initial target audience statistics]** table displays data rela
 
 
 ### Execution statistics {#delivery-summary-sms-exec-stats}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_sms_exec_stats"
+>title="Execution statistics"
+>abstract="The **Execution statistics** table details the success of your delivery: messages to deliver, success, errors, and new quarantines."
+
 
 The **[!UICONTROL Execution statistics]** table details the success of your delivery. Metrics are detailed below.
 
@@ -64,6 +82,12 @@ The **[!UICONTROL Execution statistics]** table details the success of your deli
 +++
 
 ### Generated click streams {#delivery-summary-sms-click-streams}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_sms_click_streams"
+>title="Generated click streams"
+>abstract="The **Generated click streams** table shows the available data relative to how your recipients interacted with your delivery."
 
 The **[!UICONTROL Generated click streams]** table displays data relative to how your recipients interacted with your delivery. Metrics are detailed below.
 
