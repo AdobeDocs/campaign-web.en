@@ -285,28 +285,15 @@ the **[!UICONTROL Breakdown of clicks over time]** graph contains the available 
 
 ![](assets/campaign_report_email_11.png)
 
-## User Activities {#user-activities-email}
-
-The  **[!UICONTROL User activities]** report shows the breakdown of opens and clicks in the form of a chart. Metrics are detailed below.
-
-![](assets/campaign_report_email_12.png)
-
-+++Learn more on Email campaign report metrics.
-
-* **[!UICONTROL Clicks]**: Total number of clicks on links in deliveries.
-
-* **[!UICONTROL Opens]**: Number of distinct targeted recipients for this domain who have opened a message at least once.
-
-+++
 
 ## User Activities {#user-activities-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_user_activities"
 >title="User activities"
->abstract="The **User activities** graph shows the breakdown of opens and clicks in the form of a chart. You can choose the time period to target data: last day or hour or 30 minutes."
+>abstract="The **User activities** graph shows the breakdown of opens and clicks in the form of a chart."
 
-The **[!UICONTROL User activities]** report shows the breakdown of opens and clicks in the form of a chart. You can choose the time period to target data: last day or hour or 30 minutes. Metrics for this report are detailed below.
+The **[!UICONTROL User activities]** report shows the breakdown of opens and clicks in the form of a chart. Metrics for this report are detailed below.
 
 ![](assets/campaign_report_email_10.png){align="center"}
 
