@@ -22,8 +22,8 @@ The Content Assistant, powered by generative AI, is a valuable tool for improvin
 
 This feature saves time and ensures consistent quality by automatically generating complete email content. By using Generative AI, you can create compelling emails effortlessly, improving your communication's effectiveness and efficiency.
 
-<!--
-You can the Campaign Content Assistant in your emails to: [generate images](generative-image.md), [generate text content](generative-content.md), [generate the full HTML content](generative-email.md).--> 
+
+You can the Campaign Content Assistant in your emails to: [generate images](generative-image.md), [generate text content](generative-content.md), [generate the full HTML content](generative-email.md). 
 
 >[!NOTE]
 >
@@ -47,7 +47,7 @@ The following limitations apply to Campaign Content Assistant:
 * You may upload multiple brand assets, but can leverage only one for a specific generation
 
 
-<!--
+
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="generative-content.md">
@@ -75,5 +75,4 @@ The following limitations apply to Campaign Content Assistant:
 </div>
 <p></td>
 </tr></table>
--->
 
