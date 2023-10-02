@@ -2,7 +2,8 @@
 audience: end-user
 title: Design a push notification delivery
 description: Learn how to design a push notification delivery with Adobe Campaign Web
-badge: label="Beta" 
+badge: label="Beta"
+exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
 ---
 # Design a push messsaging delivery {#content-push}
 
@@ -147,6 +148,3 @@ The Silent Push mode allows a "silent" notification to be sent to a mobile appli
 >[!ENDTABS]
 
 <!--Sounds must be included in the application and defined when the service is created. Refer to this section.-->
-
-
-

@@ -2,9 +2,9 @@
 audience: end-user
 title: Use a delivery workflow activity
 description: Learn how to add a delivery workflow activity (Email, Push, SMS)
-badge: label="Beta" 
+badge: label="Beta"
+exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
 ---
-
 # Email, SMS, Push activities {#channel}
 
 Adobe Campaign Web allows you to automate and execute marketing campaigns across email, SMS and push channels. You can combine channel activities into the workflow canvas to create cross-channel workflows that can trigger actions based on customer behavior and data. 

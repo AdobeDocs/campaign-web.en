@@ -2,9 +2,9 @@
 audience: end-user
 title: Get started with the Content Assistant
 description: Get Started with the Content Assistant
-badge: label="Alpha" 
+badge: label="Alpha"
+exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 ---
-
 # Get started with the Content Assistant {#generative-gs}
 
 >[!CONTEXTUALHELP]
@@ -75,4 +75,3 @@ The following limitations apply to Campaign Content Assistant:
 </div>
 <p></td>
 </tr></table>
-

@@ -2,7 +2,8 @@
 audience: end-user
 title: Build a one-time audience for a delivery
 description: Learn how to build a one-time audience for a delivery.
-badge: label="Beta" 
+badge: label="Beta"
+exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
 ---
 # Build a one-time audience for a delivery {#sone-time}
 

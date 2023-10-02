@@ -2,9 +2,9 @@
 audience: end-user
 title: Get started with campaigns
 description: Learn how to start with cross-channel campaigns
-badge: label="Beta" 
+badge: label="Beta"
+exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
 ---
-
 # Access and manage your campaigns{#manage-campaigns}
 
 >[!CONTEXTUALHELP]

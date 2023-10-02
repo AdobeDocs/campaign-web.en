@@ -2,7 +2,8 @@
 audience: end-user
 title: Email delivery reports
 description: Learn how to access and use email delivery reports
-badge: label="Beta" 
+badge: label="Beta"
+exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
 ---
 # Email delivery report {#email-report}
 

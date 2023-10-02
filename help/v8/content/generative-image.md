@@ -3,8 +3,8 @@ audience: end-user
 title: Image generation with the Content Assistant
 description: Get Started with the Content Assistant
 badge: label="Alpha"
+exl-id: 896d7e9b-0fa2-435b-b191-fa5db36e7ea0
 ---
-
 # Image generation with the Content Assistant {#generative-image}
 
 After you've crafted and personalized your emails, you can enhance your content using the Content Assistant, powered by generative AI. This feature simplifies the process of personalization and content improvement.

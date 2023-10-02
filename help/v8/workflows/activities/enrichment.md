@@ -2,9 +2,9 @@
 audience: end-user
 title: Use the Enrichment workflow activity
 description: Learn how to use the Enrichment workflow activity
-badge: label="Beta" 
+badge: label="Beta"
+exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 ---
-
 # Enrichment {#enrichment}
 
 >[!CONTEXTUALHELP]

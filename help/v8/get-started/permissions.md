@@ -2,9 +2,9 @@
 audience: end-user
 title: Permission management in Campaign web
 description: Learn more about permissions in Campaign web v8
-badge: label="Beta" 
+badge: label="Beta"
+exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
 ---
-
 # Access and permissions {#access-and-permissions}
 
 >[!CONTEXTUALHELP]
@@ -95,4 +95,3 @@ To create a folder, follow these steps:
     The folder is added as a subfolder of the current folder. Browse to that new folder to create components directly into it. You can also create a component from any folder, and save it in that new folder, from the **Additional Options** section of the propertes, as shown below for a delivery:
 
     ![](assets/delivery-properties-folder.png){width="70%" align="left" zoomable="yes"}
-

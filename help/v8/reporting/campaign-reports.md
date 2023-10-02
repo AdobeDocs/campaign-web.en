@@ -2,7 +2,8 @@
 audience: end-user
 title: Campaign reports
 description: Learn how to access and use campaign reports
-badge: label="Beta" 
+badge: label="Beta"
+exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
 ---
 # Campaign reports {#campaign-reports}
 
@@ -33,4 +34,3 @@ The full list of reports and associated metrics for each channel is available in
 * [Email channel](campaign-reports-email.md) 
 * [SMS channel](campaign-reports-sms.md)
 * [Push channel](campaign-reports-push.md)
-

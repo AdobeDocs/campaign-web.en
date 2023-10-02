@@ -2,11 +2,11 @@
 audience: end-user
 title: Unsupported features in Campaign Web UI
 description: List of unsupported features in Campaign Web UI
-badge: label="Beta" 
+badge: label="Beta"
 hide: yes
 hidefromtoc: yes
+exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
 ---
-
 # Unsupported features in Campaign Web {#unsupported-capabilities}
 
 The following capabilities are accessible in Campaign Client Console, but not yet available in the Web User Interface. Some will be available in a later version, but some not. 

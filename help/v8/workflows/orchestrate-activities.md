@@ -2,9 +2,9 @@
 audience: end-user
 title: Create workflows with Adobe Campaign Web
 description: Learn how to build workflows with Adobe Campaign Web
-badge: label="Beta" 
+badge: label="Beta"
+exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
 ---
-
 # Orchestrate activities {#orchestrate}
 
 Once that you have [created a workflow](create-workflow.md), wether from the workflow menu or within a campaign, you can start orchestrating the differents tasks it will perform. To do this, a visual canvas is provided, allowing you to construct a workflow diagram. Within this diagram, you can add various activities and connect them in a sequential order.

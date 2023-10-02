@@ -2,9 +2,9 @@
 audience: end-user
 title: Use the Scheduler workflow activity
 description: Learn how to use the Scheduler workflow activity
-badge: label="Beta" 
+badge: label="Beta"
+exl-id: 84142fbe-fd8a-4329-88a5-cf7a8f4e8b8f
 ---
-
 # Scheduler {#scheduler}
 
 
@@ -72,6 +72,3 @@ Follow these steps to configure the **Scheduler** activity:
 In the following example, the activity is configured so that the workflow runs several times a day at 9 and 12 AM, every day of the week from October 1st, 2023 to January 1st, 2024.
 
 ![](../assets/workflow-scheduler2.png)
-
-
-

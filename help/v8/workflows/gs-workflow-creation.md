@@ -2,10 +2,9 @@
 audience: end-user
 title: Create workflows with Adobe Campaign Web
 description: Learn how to build workflows with Adobe Campaign Web
-badge: label="Beta" 
-exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
+badge: label="Beta"
+exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
 ---
-
 # Key principles of workflow creation {#gs-workflow-creation}
 
 With Campaign v8 Web, you can build workflows into a visual canvas to design cross-channel processes such as segmentation, campaign execution, file processing.
@@ -51,4 +50,3 @@ These steps are detailed in the following section:
 1. [Orchestrate and configure activities](orchestrate-activities.md)
 1. [Configure your workflow advanced settings](workflow-settings.md)
 1. [Start your workflow and monitor its execution](start-monitor-workflows.md)
-

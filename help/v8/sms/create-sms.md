@@ -2,8 +2,8 @@
 audience: end-user
 title: Create a SMS delivery
 description: Learn how to create and send SMS with Adobe Campaign Web
-badge: label="Beta" 
-exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
+badge: label="Beta"
+exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
 ---
 # Create an SMS delivery {#create-sms}
 

@@ -2,9 +2,9 @@
 audience: end-user
 title: Campaign reports for the Push channel
 description: Understand campaign reports for the Push channel
-badge: label="Beta" 
+badge: label="Beta"
+exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
 ---
-
 # Campaign reports for the Push channel {#campaign-reports-push-channel}
 
 Each campaign report is divided into different widgets detailing your campaign's success and errors. For the push channel, reports and metrics are detailed below. Learn how to access your campaign reports in [this page](campaign-reports.md).

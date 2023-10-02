@@ -2,9 +2,9 @@
 audience: end-user
 title: Campaign reports for the SMS channel
 description: Understand campaign reports for the SMS channel
-badge: label="Beta" 
+badge: label="Beta"
+exl-id: 0df9b999-84c8-4e42-b5da-857b2ef0dd75
 ---
-
 # Campaign reports for the SMS channel {#campaign-reports-sms-channel}
 
 Each campaign report is divided into different widgets detailing your campaign's success and errors. For the SMS channel, reports and metrics are detailed below. Learn how to access your campaign reports in [this page](campaign-reports.md).

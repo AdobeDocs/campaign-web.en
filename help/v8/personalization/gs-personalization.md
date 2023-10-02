@@ -8,8 +8,8 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
+exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
 ---
-
 # Get started with dynamic content {#gs-dynamic-content}
 
 >[!CONTEXTUALHELP]

@@ -3,8 +3,8 @@ audience: end-user
 title: Text with the Content Assistant
 description: Get Started with the Content Assistant
 badge: label="Alpha"
+exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 ---
-
 # Text generation with the Content Assistant {#generative-content}
 
 
@@ -64,4 +64,3 @@ To generate and improve an email content with the Content Assistant, follow the 
     ![](assets/text-genai-7.png)
 
 1. When you have defined your content, audience and schedule, you are ready to prepare your email delivery. [Learn more](../monitor/prepare-send.md)
-

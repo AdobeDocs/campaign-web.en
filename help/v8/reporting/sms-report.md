@@ -2,7 +2,8 @@
 audience: end-user
 title: SMS delivery reports
 description: Learn how to access and use sms delivery reports
-badge: label="Beta" 
+badge: label="Beta"
+exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
 ---
 # SMS delivery reports {#sms-report}
 
@@ -103,4 +104,3 @@ The **[!UICONTROL Exclusions]** graph and table display the reasons that prevent
 This report presents detailed information regarding the delivery throughput of the entire platform within a specified timeframe. The primary metric used to measure the speed of message delivery is the number of messages sent per hour.
 
 ![](assets/reporting_sms_2.png)
-

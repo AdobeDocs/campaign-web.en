@@ -2,9 +2,9 @@
 audience: end-user
 title: Monitor & manage audiences
 description: Learn how to monitor and manage audiences in Adobe Campaign Web
-badge: label="Beta" 
+badge: label="Beta"
+exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 ---
-
 # Monitor & manage audiences {#monitor}
 
 >[!CONTEXTUALHELP]
@@ -34,4 +34,4 @@ The **[!UICONTROL Data]** tab allows you to vizualise the profiles that are part
 
 ![](assets/audiences-details.png)
 
-To duplicate or delete an audience, click the **[!UICONTROL More action]** button available in the audiences list next to the audience name or inside an audience details screen. 
+To duplicate or delete an audience, click the **[!UICONTROL More action]** button available in the audiences list next to the audience name or inside an audience details screen.

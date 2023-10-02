@@ -3,6 +3,7 @@ audience: end-user
 title: Email generation with the Content Assistant
 description: Get Started with the Content Assistant
 badge: label="Alpha"
+exl-id: f6c9c940-ae85-44e6-a23e-9133df87e67e
 ---
 # Generate an email with the Content Assistant {#generative-email}
 
@@ -68,5 +69,3 @@ To generate an email content with the Content Assistant, follow the steps below.
     ![](assets/email-genai-6.png)
 
 1. When you have defined your content, audience and schedule, you are ready to prepare your email delivery. [Learn more](../monitor/prepare-send.md)
-
-

@@ -2,9 +2,9 @@
 audience: end-user
 title: Use the Save audience workflow activity
 description: Learn how to use the Fork workflow activity
-badge: label="Beta" 
+badge: label="Beta"
+exl-id: 0f7cbc34-0536-493e-bb3b-0b1ac93d1232
 ---
-
 # Save audience {#save-audience}
 
 <!--
@@ -46,5 +46,3 @@ The content of the saved audience is then available in the detail view of the au
 ## Example{#save-audience-example}
 
 The following example illustrates a simple audience update from targeting. A scheduler is added to run the workflow once a month. A query recovers all the profiles subscribed to the different application services available. The **Save audience** activity updates the audience by deleting profiles that have unsubscribed from the service since the last workflow execution and by adding the newly subscribed profiles.
-
-

@@ -1,7 +1,8 @@
 ---
 title: Using AI-powered knowledge assistant in Campaign Web
 description: Using AI-powered knowledge assistant in Campaign Web
-badge: label="Alpha" 
+badge: label="Alpha"
+exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
 ---
 # Using the AI-powered Knowledge Assistant {#using-ai}
 
@@ -52,5 +53,3 @@ In addition, to get the best of the AI-powered Knowledge Assistant, when asking 
 * Rephrase and refine your questions to get better answers. If the answer is not accurate or useful, try different approaches and add context to get better results.
 * Use appropriate terms and wording, with a neutral tone.
 * Rate the answers and provide feedback so that our engineers can learn from your experience, and improve results.
-
-

@@ -2,9 +2,9 @@
 audience: end-user
 title: Use the Fork workflow activity
 description: Learn how to use the Fork workflow activity
-badge: label="Beta" 
+badge: label="Beta"
+exl-id: 5c7ff58b-5504-4b8e-879f-44754b7dcf8a
 ---
-
 # Fork {#fork}
 
 >[!CONTEXTUALHELP]
@@ -38,4 +38,3 @@ In the following example, we're using two **Fork** activities:
 * One after the intersection, to send an email and an SMS simultaneously to the targeted population.
 
 ![](../assets/workflow-fork-example.png)
-

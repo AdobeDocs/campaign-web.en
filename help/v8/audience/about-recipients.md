@@ -1,9 +1,9 @@
 ---
 title: Work with recipients & audiences
 description: Learn how to work with recipients Campaign Web
-badge: label="Beta" 
+badge: label="Beta"
+exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
 ---
-
 # Work with recipients & audiences {#about-recipients}
 
 In Adobe Campaign, the target population of a delivery is an audience. An audience is a set of people who share similar behaviors and/or characteristics. This collection of people can either be generated, selected, or loaded [as detailed below](#audiences). In most common cases, the audience is made of profiles, which are stored as [recipients](#recipients) in Adobe Campaign. You can also work with other target mappings by changing the dimension as explained [in this section](#targeting-dimensions).
