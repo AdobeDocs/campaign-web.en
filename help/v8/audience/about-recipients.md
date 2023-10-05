@@ -41,13 +41,13 @@ You can also access recipients from the **Explorer** view, browse and create fol
 >
 >Depending on your permissions, you might not have access to the full list of recipients stored in the database. Learn more about permissions in [this section](../get-started/permissions.md).
 
-In addition, you can manage the subscription and unsubscription of your recipients to services such as newsletters. [Learn how to work with subscription services](manage-services.md)
+In addition, you can manage the subscription and unsubscription of your recipients to services such as newsletters. Learn how to work with subscription services in [this page](manage-services.md)
 
 You can build workflows to deduplicate, enrich, combine profiles, and build audiences. Learn more in [this section](../workflows/gs-workflows.md).
 
 ## What are audiences? {#audiences}
 
-The audience is the main target of your delivery: the recipients who receive the messages. The type of audience depends on the target mapping defined in the delivery template. [Learn what is a delivery template](../msg/delivery-template.md). 
+The audience is the main target of your delivery: the recipients who receive the messages. The type of audience depends on the target mapping defined in the delivery template. Learn more about delivery templates in [this page](../msg/delivery-template.md). 
 
 To define the population of an audience, you can:
 
@@ -60,7 +60,7 @@ When targeting an audience, you can also define **control groups** to avoid send
 
 >[!NOTE]
 >
->When sending messages in the context of a campaign workflow, the audience is defined in a specific **Build audience** workflow activity. In this context, you cannot load an audience from a file for an email delivery, and the audience is defined only in this dedicated activity. Learn how to define the audience of your delivery in a campaign workflow [in this section](../workflows/activities/build-audience.md)
+>When sending messages in the context of a campaign workflow, the audience is defined in a specific **Build audience** workflow activity. In this context, you cannot load an audience from a file for an email delivery, and the audience is defined only in this dedicated activity. Learn how to define the audience of your delivery in a campaign workflow in [this section](../workflows/activities/build-audience.md)
 
 ## Targeting dimensions {#targeting-dimensions}
 
