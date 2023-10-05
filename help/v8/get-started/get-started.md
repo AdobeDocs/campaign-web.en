@@ -8,6 +8,11 @@ badge: label="Beta"
 # Get started with Campaign Web {#get-started}
 
 
+>[!CONTEXTUALHELP]
+>id="acw_homepage_learnmore"
+>title="Get started"
+>abstract="The new Campaign v8 Web interface offers an integrated, intuitive, and consistent user experience."
+
 Adobe Campaign provides a platform for designing cross-channel customer experiences and an environment for visual campaign orchestration, real-time interaction management and cross channel execution.
 
 Initially only available through a rich [client console](#ac-client), Campaign now provides a new web user interface (UI) with enhanced usability, accessibility, and a new design to significantly improve your user experience. This new modern UI simplifies marketing campaign design and delivery, and brings consistency, along with other Adobe solutions, including Adobe Experience Platform.
