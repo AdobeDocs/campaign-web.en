@@ -15,8 +15,8 @@ badge: label="Beta"
 
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
->title="Reload"
->abstract="Click the **Reload** button to retrieve the last metrics, and refresh data."
+>title="Export"
+>abstract="Click the **Export** button to export these metrics to PDF or CSV formats, which enables you to share or print them. "
 
 Adobe Campaign offers several types of reports, accessible for each delivery. These reports allow you to measure and visualize the impact and performances of your messages in a built-in dashboard.
 
