@@ -7,11 +7,6 @@ badge: label="Beta"
 ---
 # Discover the interface {#user-interface}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_learnmore"
->title="Discover the interface"
->abstract="The new Campaign v8 Web interface offers an integrated, intuitive, and consistent user experience."
-
 The new Campaign v8 Web interface offers a modern and intuitive user experience to simplify marketing campaign design and delivery. This new interface is integrated with Adobe Experience Cloud apps and solutions. 
 
 
