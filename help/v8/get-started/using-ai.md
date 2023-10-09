@@ -6,11 +6,13 @@ exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
 ---
 # Using the AI-powered Knowledge Assistant {#using-ai}
 
-Get fast, AI-generated answers based on the product documentation, and your current product context, with the AI-powered Knowkedge Assistant available in the product contextual help boxes.
+Get fast, AI-generated answers based on the product documentation, and your current product context, with the Q&A AI-powered Knowkedge Assistant available in the product contextual help boxes.
 
->[!NOTE]
+>[!CAUTION]
 >
 >This capability is available in its Alpha version and subject to change without prior notice.
+>
+>This capability is only available in **English**. Other langugages are not supported in this version.
 
 
 The **Knowledge Assistant with Gen AI** embedded within contextual help revolutionizes documentation searching and answering how-to questions with effortlessly sifting through vast documentation repositories, instantly pinpointing the precise information you need.
