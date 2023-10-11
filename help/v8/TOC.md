@@ -40,6 +40,7 @@ hide: yes
         + [Add a link to the mirror page](content/mirror-page.md)
         + [Add a preheader](content/preheader.md)
         + [Generate the text version](content/text-version-email.md)
+        + [Manage assets with Adobe Experience Manager Assets as a Cloud Service](content/aem-assets.md)
       + Content Assistant {#content-assistant}
         + [Get started with the Content Assistant](content/generative-gs.md)
         + [Text generation with the Content Assistant](content/generative-content.md)
