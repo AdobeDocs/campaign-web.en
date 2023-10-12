@@ -33,6 +33,11 @@ Other tables linked to the recipient table contain profile-related data, for exa
 
 The built-in recipient table (**nmsrecipient**) in Adobe Campaign has a number of pre-defined fields and table links. This is particularly useful when you are mainly targeting recipients, because it fits a simple recipient-centric datamodel.
 
+Exemple of query on the recipient table:
+
+![](assets/recipient-query-sample.png)
+
+
 >[!NOTE]
 >
 > Adobe Campaign allows to build a custom recipient table from the Client console. However, in most cases, it is recommended to leverage the built-in Recipient table which already has pre-built additional tables and features.
@@ -56,7 +61,7 @@ Delivery logs and tracking logs are deleted after a certain period, which is spe
 
 The Delivery table (**NmsDelivery**) represents a delivery action or a delivery template. It contains all the necessary parameters for performing deliveries such as target, content, etc. Each record is updated several times to reflect delivery progress
 
-## Delivery tables {#ootb-tech}
+### Delivery tables {#ootb-tech}
 
 Gather technical data used for the applicative process, including operators and user rights (**xtkGroup**), user sessions (**xtkSessionInfo**), folders in the explorer tree (**XtkFolder**), workflows (**xtkWorkflow**), and more.
 
