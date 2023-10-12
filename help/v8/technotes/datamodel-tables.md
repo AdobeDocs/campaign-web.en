@@ -12,17 +12,13 @@ Adobe Campaign relies on a relational database containing tables that are linked
 
 This table relates to the **nms:recipient** schema.
 
-It is the default table used for the **recipients of deliveries**. As a result, it contains the information required for deliveries via the various channels:
+It is the default table used for the **recipients of deliveries**. As a result, it contains the information required for deliveries across different channels, such as the email address, format, mobile number, and more.
 
-* sEmail: email address.
-* iEmailFormat: preferred format for emails (1 for Text, 2 for HTML and 0 if undefined).
-* sAddress1, sAddress2, sAddress3, sAddress4, sZipCode, sCity are used to build the postal address (in keeping with the XPZ 10-011 AFNOR standard from May 1997).
-* sPhone, sMobilePhone, sFax contain the phone, mobile phone and fax numbers respectively.
-* iBlackList is the default opt-out flag used for the profiles (1 means "unsubscribed", 0 otherwise).
-
-The FolderId field is the foreign key that links the recipient to its execution folder. For more on this, see [XtkFolder](#XtkFolder).
+The FolderId field is the foreign key that links the recipient to its folder. For more on this, see [XtkFolder](#XtkFolder).
 
 The CountryCode field is the 3166-1 Alpha 2 ISO code (2 characters) of the country associated with the recipient. This field is actually a foreign key on the country reference table (NmsCountry), which contains the country labels and other country code data. If the country is not populated, the value 'XX' is stored (and is used in place of a zero ID record).
+
+Learn more about recipients and profiles in [this section](../audience/about-recipients.md).
 
 ### NmsGroup {#NmsGroup}
 
@@ -50,9 +46,9 @@ In Adobe Campaign, you can create and manage subscriptions to information servic
 
 There is a unique index on the field representing the internal name of the service. The service is linked to a folder. The key is FolderId. For more on this, see [XtkFolder](#XtkFolder). 
 
-The Type field specifies the delivery channel of this service: 0 for email, 1 for SMS..
+The Type field specifies the delivery channel of this service: 0 for email, 1 for SMS. Note that services do not apply to the push notification channel.
 
-Learn more about subscriptions in [this section](../audience/manage-subscribers.md).
+Learn more about services in [this section](../audience/manage-services.md).
 
 ### NmsSubscription {#NmsSubscription}
 
@@ -60,19 +56,26 @@ This table relates to the **nms:subscription** schema.
 
 It enables you to manage recipient subscriptions to information services.
 
+Learn more about subscriptions in [this section](../audience/manage-subscribers.md).
+
 ### NmsSubHisto {#NmsSubHisto}
 
 This table relates to the **nms:subHisto** schema.
 
 All susbcriptions and unsubscriptions are tracked in the **NmsSubHisto** table. The Action field specifies the action (0 for unsubscription and 1 for subscription) performed on the date stored in the Date field.
 
+Learn how to monitor your subscription services in [this section](../audience/manage-services.md#logs-and-reports).
+
 ### NmsDelivery {#NmsDelivery}
 
 This table relates to the **nms:delivery** schema.
 
-Each record in this table represents a **delivery action** or a **delivery template**. It contains all the necessary parameters for performing deliveries (the target, the content, etc.). Delivery logs (NmsBroadLog) and associated tracking URLs (NmsTrackingUrl) are created during the preparation phase.
+Each record in this table represents a **delivery** or a **delivery template**. It contains all the necessary parameters for performing deliveries (the target, the content, etc.). Delivery logs (NmsBroadLog) and associated tracking URLs (NmsTrackingUrl) are created during the preparation phase.
 
 There is a unique index on the field representing the internal name of the delivery or template. The delivery is linked to an execution folder. For more on this, see [XtkFolder](#XtkFolder).
+
+Learn more about messages and deliveries in [this section](../msg/gs-messages.md).
+
 
 ### XtkFolder {#XtkFolder}
 
@@ -82,15 +85,20 @@ The folders are typed: the value of the Model field specifies the type of data t
 
 The explorer tree is managed by the ParentId and ChildCount fields. The FullName field gives the full path of the folder in the tree. Finally, there is a unique index on the field representing the internal name of the folder.
 
+Learn more about Campaign explorer and deliveries in [this page](../get-started/user-interface.md#explorer).
+
+
 ## Delivery and tracking {#delivery-and-tracking}
 
-This set of tables is linked to the **Delivery** module, which allows to monitor deliveries and potential issues encountered when messages are sent.
+This set of tables allows to monitor deliveries and potential issues encountered when messages are sent.
 
 The **NmsBroadLogMsg** table relates to the **nms:broadLogMsg** schema. It is an extension of the delivery log table.
 
+Learn more about delivery logs in [this page](../monitor/delivery-logs.md).
+
 ## Campaign management {#campaign-management}
 
-The following set of tables is linked to the **Marketing campaigns**.
+The following set of tables is linked to your **Marketing campaigns**.
 
 * **NmsOperation**: This table matches the **nms:operation** schema. It contains the data of marketing campaigns.
 <!--
