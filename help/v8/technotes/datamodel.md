@@ -38,6 +38,9 @@ Exemple of query on the recipient table:
 ![](assets/recipient-query-sample.png)
 
 
+Learn more about the Recipient table in [this section](datamodel-tables.md#nmsdelivery).
+
+
 >[!NOTE]
 >
 > Adobe Campaign allows to build a custom recipient table from the Client console. However, in most cases, it is recommended to leverage the built-in Recipient table which already has pre-built additional tables and features.
@@ -59,11 +62,19 @@ Delivery logs and tracking logs are deleted after a certain period, which is spe
 
 ### Delivery table {#ootb-delivery}
 
-The Delivery table (**NmsDelivery**) represents a delivery action or a delivery template. It contains all the necessary parameters for performing deliveries such as target, content, etc. Each record is updated several times to reflect delivery progress
+The Delivery table (**NmsDelivery**) represents a delivery action or a delivery template. It contains all the necessary parameters for performing deliveries such as target, content, etc. Each record is updated on a regular basis to reflect delivery progress.
 
-### Delivery tables {#ootb-tech}
+Learn more about the Delivery table in [this section](datamodel-tables.md#NmsDelivery).
 
-Gather technical data used for the applicative process, including operators and user rights (**xtkGroup**), user sessions (**xtkSessionInfo**), folders in the explorer tree (**XtkFolder**), workflows (**xtkWorkflow**), and more.
+### Log tables {#ootb-tech}
+
+Log tables gather technical data used for the applicative process, including foe example:
+
+* Operators and user rights, in the **xtkGroup** table
+* Campaign User sessions, in the **xtkSessionInfo** table
+* Folders in Campaign explorer, in the **XtkFolder** table
+* Workflows, in the **xtkWorkflow** table
+  and more.
 
 ## Browse Campaign datamodel{#browse-datamodel}
 

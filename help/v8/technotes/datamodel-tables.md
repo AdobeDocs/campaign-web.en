@@ -90,9 +90,9 @@ Learn more about Campaign explorer and deliveries in [this page](../get-started/
 
 ## Delivery and tracking {#delivery-and-tracking}
 
-This set of tables allows to monitor deliveries and potential issues encountered when messages are sent.
+A  set of tables allows to monitor deliveries and potential issues encountered when messages are sent.
 
-The **NmsBroadLogMsg** table relates to the **nms:broadLogMsg** schema. It is an extension of the delivery log table.
+The **NmsBroadLogMsg** table relates to the **nms:broadLogMsg** schema. It is an extension of the delivery log table. This table contains information used for qualifying SMTP errors.
 
 Learn more about delivery logs in [this page](../monitor/delivery-logs.md).
 
