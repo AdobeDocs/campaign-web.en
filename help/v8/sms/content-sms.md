@@ -2,8 +2,8 @@
 audience: end-user
 title: Design a SMS delivery
 description: Learn how to design your SMS delivery
-badge: label="Beta" 
-exl-id: 1a70d033-6f1b-482b-9948-59ef75871750
+badge: label="Beta"
+exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
 ---
 # Design an SMS delivery {#design-sms}
 

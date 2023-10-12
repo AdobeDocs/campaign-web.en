@@ -1,9 +1,9 @@
 ---
 title: Guardrails and limitations in Campaign Web UI
 description: Guardrails and limitations in Campaign Web UI
-badge: label="Beta" 
+badge: label="Beta"
+exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
 ---
-
 # Guardrails & limitations {#guardrails-limitations}
 
 When working in Campaign web UI with components created or modified in Campaign client console, the guardrails and limitations listed below apply.

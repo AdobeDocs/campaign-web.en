@@ -2,9 +2,9 @@
 audience: end-user
 title: Use the Split workflow activity
 description: Learn how to use the Split workflow activity
-badge: label="Beta" 
+badge: label="Beta"
+exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
 ---
-
 # Split {#split}
 
 >[!CONTEXTUALHELP]

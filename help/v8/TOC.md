@@ -40,11 +40,12 @@ hide: yes
         + [Add a link to the mirror page](content/mirror-page.md)
         + [Add a preheader](content/preheader.md)
         + [Generate the text version](content/text-version-email.md)
-      + Content assistant {#content-assistant}
-        + [Get started with the Content assistant](content/generative-gs.md)
-        + [Text generation with the Content assistant](content/generative-content.md)
-        + [Image generation with the Content assistant](content/generative-image.md)
-        + [Email generation with the Content assistant](content/generative-email.md)
+        + [Manage assets with Adobe Experience Manager Assets as a Cloud Service](content/aem-assets.md)
+      + Content Assistant {#content-assistant}
+        + [Get started with the Content Assistant](content/generative-gs.md)
+        + [Text generation with the Content Assistant](content/generative-content.md)
+        + [Image generation with the Content Assistant](content/generative-image.md)
+        + [Email generation with the Content Assistant](content/generative-email.md)
       + Style your content {#style}
         + [Get started with email style](content/get-started-email-style.md)
         + [Edit background settings](content/backgrounds.md)
@@ -125,4 +126,8 @@ hide: yes
     + [Email delivery report](reporting/email-report.md)
     + [Push delivery report](reporting/push-report.md)
     + [SMS delivery report](reporting/sms-report.md)
-  + [Campaign reports ](reporting/campaign-reports.md)
+  + Campaign reports {#campaign-report}  
+    + [Access campaign reports](reporting/campaign-reports.md)
+    + [Email campaign reports](reporting/campaign-reports-email.md)
+    + [Push campaign reports](reporting/campaign-reports-push.md)
+    + [SMS campaign reports](reporting/campaign-reports-sms.md)

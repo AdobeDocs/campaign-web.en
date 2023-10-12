@@ -5,7 +5,8 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Beginner
-badge: label="Beta" 
+badge: label="Beta"
+exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 ---
 # Work with predefined filters {#predefined-filters}
 

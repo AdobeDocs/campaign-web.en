@@ -2,8 +2,8 @@
 audience: end-user
 title: Create workflows with Adobe Campaign Web
 description: Learn how to build workflows with Adobe Campaign Web
-badge: label="Beta" 
-exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
+badge: label="Beta"
+exl-id: c9c41189-0150-49a4-bdb3-317fe543eb2c
 ---
 # Start & monitor the workflow {#start-monitor}
 

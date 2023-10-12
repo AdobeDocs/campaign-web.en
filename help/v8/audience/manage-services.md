@@ -3,8 +3,8 @@ audience: end-user
 title: Work with subscription services
 description: Learn how to access, create and manage subscription services in Adobe Campaign Web
 badge: label="Beta"
+exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 ---
-
 # Work with subscription services {#manage-services}
 
 >[!CONTEXTUALHELP]
@@ -125,11 +125,3 @@ To measure the effectiveness of your subscription services for SMS and email cha
     * The **[!UICONTROL Overall evolution of subscriptions]** graph shows the breakdown by period, including subscriptions, unsubcriptions, the evolution in numbers and the loyalty percentage.<!--what is Registered?-->
 
 1. Use the **[!UICONTROL Reload]** button to retrieve the last values from the execution and schedule of the tracking workflow.
-
-
-
-
-
-
-
-

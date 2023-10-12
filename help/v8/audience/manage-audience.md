@@ -2,9 +2,9 @@
 audience: end-user
 title: Monitor & manage audiences
 description: Learn how to monitor and manage audiences in Adobe Campaign Web
-badge: label="Beta" 
+badge: label="Beta"
+exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 ---
-
 # Monitor & manage audiences {#monitor}
 
 >[!CONTEXTUALHELP]
@@ -20,7 +20,7 @@ Audiences can originate from multiple sources. The **[!UICONTROL Origin]** colum
 
 * **[!UICONTROL Adobe Campaign]**: These audiences are created in the Adobe Campaign V8 console. Learn more in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html){target="_blank"}.
 
-* **[!UICONTROL Adobe Experience Platform:]** These audiences are created within Adobe Experience Platform and are integrated into Campaign Web using the Adobe Sources and Destinations integration. Learn how to set up this integration in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html)
+* **[!UICONTROL Adobe Experience Platform:]** These audiences are created within Adobe Experience Platform and are integrated into Campaign Web using the Adobe Sources and Destinations integration. Learn how to set up this integration in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
 
 >[!NOTE]
 >
@@ -34,4 +34,4 @@ The **[!UICONTROL Data]** tab allows you to vizualise the profiles that are part
 
 ![](assets/audiences-details.png)
 
-To duplicate or delete an audience, click the **[!UICONTROL More action]** button available in the audiences list next to the audience name or inside an audience details screen. 
+To duplicate or delete an audience, click the **[!UICONTROL More action]** button available in the audiences list next to the audience name or inside an audience details screen.

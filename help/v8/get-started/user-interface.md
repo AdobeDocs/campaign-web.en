@@ -7,11 +7,6 @@ badge: label="Beta"
 ---
 # Discover the interface {#user-interface}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_learnmore"
->title="Discover the interface"
->abstract="The new Campaign v8 Web interface offers an integrated, intuitive, and consistent user experience."
-
 The new Campaign v8 Web interface offers a modern and intuitive user experience to simplify marketing campaign design and delivery. This new interface is integrated with Adobe Experience Cloud apps and solutions. 
 
 
@@ -47,7 +42,7 @@ The **Explorer** menu displays all Campaign resources and objects with the same 
 
 The items displayed in the **Explorer** depend on your user permissions. You can also add folders and sub-folders, if you have proper rights. Learn more about permissions in [this section](permissions.md).
 
-Like in any list screen, you can configure columns to personalize the display to view all the information you need. See this [section](#list-screens).
+You can configure columns to customize the display to view all the information you need. See this [section](#list-screens). You can also add folders and sub-folders, as detailed in [this section](permissions.md#folders).
 
 For more information about the Campaign explorer, folder hierarchy and resources, refer to this [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui){target="_blank"}.
 
@@ -109,9 +104,9 @@ A contextual help is available in the interface. When available, click on the `?
 
 ![](assets/context-help.png){width="40%" align="left"}
 
-With the new Beta version, the **Knowledge Assistant with Gen AI** embedded within contextual help revolutionizes documentation searching and answering how-to questions with effortlessly sifting through vast documentation repositories, instantly pinpointing the precise information you need.
+With the new Beta version, the **AI-powered Knowledge Assistant** embedded within contextual help revolutionizes documentation searching and answering how-to questions with effortlessly sifting through vast documentation repositories, instantly pinpointing the precise information you need.
 
-Thanks to Campaign Gen AI's capabilities, this assistant transforms your experience, making information retrieval and problem-solving a breeze. Whether you're seeking guidance in a complex task or navigating extensive documents, our Knowledge Assistant with Gen AI is your ultimate companion, providing unmatched efficiency and accuracy in every interaction.
+Thanks to Campaign Gen AI's capabilities, this assistant transforms your experience, making information retrieval and problem-solving a breeze. Whether you're seeking guidance in a complex task or navigating extensive documents, our AI-powered Knowledge Assistant is your ultimate companion, providing unmatched efficiency and accuracy in every interaction.
 
 Learn more in [this section](using-ai.md).
 

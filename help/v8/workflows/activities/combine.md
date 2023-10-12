@@ -2,9 +2,9 @@
 audience: end-user
 title: Use the Combine workflow activity
 description: Learn how to use the Combine workflow activity
-badge: label="Beta" 
+badge: label="Beta"
+exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
 ---
-
 # Combine {#combine}
 
 >[!CONTEXTUALHELP]
@@ -112,5 +112,3 @@ The following example shows the **intersection** between two query activities. I
 The following **exclusion** example shows two queries configured to filter profiles who are between 18 and 27 years old and have an Adobe email domain. The profiles with an Adobe email domain are then excluded from the first set. 
 
 ![](../assets/workflow-exclusion-example.png)
-
-

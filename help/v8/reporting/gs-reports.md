@@ -2,7 +2,8 @@
 audience: end-user
 title: Get started with reports
 description: Learn how to access and manage reports in Campaign Web
-badge: label="Beta" 
+badge: label="Beta"
+exl-id: b353bc86-2228-4e02-879c-ae9425c48489
 ---
 # Get started with reports {#get-started-reports}
 
@@ -10,10 +11,9 @@ Our comprehensive suite of reporting tools provides valuable insights into the e
 
 Adobe Campaign offers two different reports:
 
-* **Delivery report**: The **Delivery report** offers comprehensive insights and data specific to each channel. It provides detailed information on the performance, effectiveness, and outcomes of your individual deliveries, providing you with a comprehensive overview.
+* **Delivery reports**: The **Delivery reports** offer comprehensive insights and data specific to each channel. These reports provide detailed information on the performance, effectiveness, and outcomes of your individual deliveries, providing you with a comprehensive overview.
 
-* **Campaign report**: The **Campaign report** provides a comprehensive overview of your campaign, incorporating all pertinent information regarding the different deliveries included. This report offers a thorough analysis of each delivery's performance, success rates, audience engagement, and other essential metrics, allowing you to evaluate the overall effectiveness and impact of your campaign. 
-
+* **Campaign reports**: The **Campaign reports** provide a comprehensive overview of your campaign, incorporating all pertinent information regarding the different deliveries included. These reports offer a thorough analysis of each delivery's performance, per channel: success rates, audience engagement, and other essential metrics. They allow you to evaluate the overall effectiveness and impact of your campaign. 
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
@@ -21,7 +21,7 @@ Adobe Campaign offers two different reports:
 <a href="email-report.md">
 <img alt="Lead" src="assets/do-not-localize/email_report.jpeg">
 </a>
-<div><a href="email-report.md"><strong>Email delivery report</strong>
+<div><a href="email-report.md"><strong>Email delivery reports</strong>
 </div>
 <p>
 </td>
@@ -30,7 +30,7 @@ Adobe Campaign offers two different reports:
 <img alt="Infrequent" src="assets/do-not-localize/push_report.jpeg">
 </a>
 <div>
-<a href="push-report.md"><strong> Push delivery reporty<strong></strong></a>
+<a href="push-report.md"><strong> Push delivery reports<strong></strong></a>
 </div>
 <p></td>
 <td>
@@ -38,7 +38,7 @@ Adobe Campaign offers two different reports:
 <img alt="Validation" src="assets/do-not-localize/sms_report.png">
 </a>
 <div>
-<a href="sms-report.md"><strong> SMS delivery report</strong></a>
+<a href="sms-report.md"><strong> SMS delivery reports</strong></a>
 </div>
 <p>
 </td>
@@ -47,7 +47,7 @@ Adobe Campaign offers two different reports:
 <img alt="Validation" src="assets/do-not-localize/campaign_report.jpeg">
 </a>
 <div>
-<a href="campaign-reports.md"><strong>Campaign report</strong></a>
+<a href="campaign-reports.md"><strong>Campaign reports</strong></a>
 </div>
 <p>
 </td>

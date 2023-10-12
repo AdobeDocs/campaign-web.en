@@ -1,27 +1,29 @@
 ---
 audience: end-user
-title: Image generation with the Content assistant
-description: Get Started with the Content assistant
-badge: label="Beta" 
+title: Image generation with the Content Assistant
+description: Get Started with the Content Assistant
+badge: label="Alpha"
+exl-id: 896d7e9b-0fa2-435b-b191-fa5db36e7ea0
 ---
-
-# Image generation with the Content assistant {#generative-image}
+# Image generation with the Content Assistant {#generative-image}
 
 After you've crafted and personalized your emails, you can enhance your content using the Content Assistant, powered by generative AI. This feature simplifies the process of personalization and content improvement.
 
->[!AVAILABILITY]
+To generate and improve an images in your emails with the Content Assistant, follow the steps below. You can also create the full HTML content with the Content Assistant, as detailed in [this page](generative-email.md), or generate a text content, as explained in [this page](generative-content.md).
+
+>[!NOTE]
 >
->This capability will be available early October.
+>Before starting using this capability, read out related [Guardrails and Limitations](generative-gs.md#guardrails-and-limitations).
 
 In the example below, learn how to leverage the Content Assistant to optimize and improve your content, ensuring a more user-friendly experience. Follow these steps:
 
-1. After creating and configuring your Email delivery, click **[!UICONTROL Edit content]**.
+1. After creating and configuring your email delivery, click **[!UICONTROL Edit content]**.
 
     For more information on how to configure your email delivery, refer to [this page](../content/create-email-content.md).
 
 1. Fill in the **[!UICONTROL Basic details]** for your delivery. Once done, click **[!UICONTROL Edit email content]**.
 
-1. Select the asset you want to change with the Content assistant.
+1. Select the asset you want to change with the Content Assistant.
 
 1. From the right-hand menu, select **[!UICONTROL Experience generation]**.
 
@@ -31,7 +33,7 @@ In the example below, learn how to leverage the Content Assistant to optimize an
 
     ![](assets/image-genai-2.png)
 
-1. Select **[!UICONTROL Upload file]** if you want to add any brand asset which contains content that can provide additional context the Content assistant.  
+1. Select **[!UICONTROL Upload file]** if you want to add any brand asset which contains content that can provide additional context the Content Assistant.  
 
     You can also click **[!UICONTROL Uploaded content]** to find previously updated files. Note that the uploaded content is exclusively available for reuse by the current user.
 

@@ -5,7 +5,7 @@ description: Learn how to create and use delivery templates in Campaign Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
+exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
 ---
 # Work with delivery templates {#work-with-delivery-templates}
 
@@ -198,5 +198,3 @@ You can test the rendering of any delivery template, whether created from scratc
 * [Learn more on previewing SMS content](../sms/content-sms.md)
 
 * [Learn more on previewing push content](../push/gs-push.md)
-
-

@@ -5,9 +5,9 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Beginner
-badge: label="Beta" 
+badge: label="Beta"
+exl-id: 45cdd310-7c0c-4b57-bb7f-0576d8eca19d
 ---
-
 # Built-in content blocks {#ootb-content-blocks}
 
 Adobe Campaign offers a list of pre-configured content blocks. These content blocks are dynamic, personalized and have a specific rendering that you can insert into your deliveries. For example, you can add a logo, a greeting message, or a link to a mirror page. 
@@ -48,4 +48,3 @@ Built-in content blocks are:
 >[!NOTE]
 >
 >You can define new blocks from Adobe Campaign v8 console that enables you to optimize your deliveries personalization. Learn more in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}.
-

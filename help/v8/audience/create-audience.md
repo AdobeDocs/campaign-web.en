@@ -2,9 +2,9 @@
 audience: end-user
 title: Create audiences
 description: Learn how to create audiences in Adobe Campaign Web
-badge: label="Beta" 
+badge: label="Beta"
+exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
 ---
-
 # Create audiences {#create-audiences}
 
 >[!CONTEXTUALHELP]

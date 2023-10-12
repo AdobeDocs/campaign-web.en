@@ -2,9 +2,9 @@
 audience: end-user
 title: Use the Wait workflow activity
 description: Learn how to use the Wait workflow activity
-badge: label="Beta" 
+badge: label="Beta"
+exl-id: 970953a1-0091-477c-9f52-596af3a8857d
 ---
-
 # Wait {#wait}
 
 >[!CONTEXTUALHELP]

@@ -2,8 +2,8 @@
 audience: end-user
 product: campaign
 title: Work with email templates
-
-badge: label="Beta" 
+badge: label="Beta"
+exl-id: dae72639-69e1-4266-8062-ef076e2924c6
 ---
 # Work with email templates {#email-saved-content-templates}
 

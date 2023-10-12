@@ -1,7 +1,8 @@
 ---
 title: Key Performance Indicators
 description: Learn how understand Key Performance Indicators
-badge: label="Beta" 
+badge: label="Beta"
+exl-id: 4b182219-100b-4101-919b-b0b770dd8515
 ---
 # Key Performance Indicators {#kpis}
 
@@ -106,5 +107,4 @@ The **Errors** indicator shows the following KPIs, for each channel:
 
 * Percentage of the number of errors compared to the total number of messages to be delivered.
 
-* Total number of errors cumulated during deliveries and automatic rebound processing. 
-
+* Total number of errors cumulated during deliveries and automatic rebound processing.

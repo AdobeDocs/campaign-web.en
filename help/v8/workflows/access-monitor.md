@@ -2,15 +2,15 @@
 audience: end-user
 title: Create workflows with Adobe Campaign Web
 description: Learn how to build workflows with Adobe Campaign Web
-badge: label="Beta" 
-exl-id: 51648665-8400-426c-85cf-dbf5f4f81d20
+badge: label="Beta"
+exl-id: 2a9b7e52-2b8b-4293-9b4d-a228ba95bed3
 ---
 # Access & manage workflows {#access-monitor}
 
 >[!CONTEXTUALHELP]
 >id="acw_targeting_workflow_list"
 >title="Workflows"
->abstract="In this screen, you can access the full list of standalone and campaign workflows, check their current status, last/next execution dates, and create a new workflow. Browse to the 'Template' tab to access available workflow templates."
+>abstract="In this screen, you can access the full list of standalone and campaign workflows, check their current status, last/next execution dates, and create a new workflow. Browse to the 'Templates' tab to access available workflow templates."
 
 The **[!UICONTROL Workflows]** menu allows you to access the full list of workflows. This list includes both **standalone workflows** that have been created from this screen, and **campaign workflows**, which have been created within a campaign.
 

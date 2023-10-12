@@ -2,9 +2,9 @@
 audience: end-user
 title: Use the Build audience workflow activity
 description: Learn how to use the Build audience workflow activity
-badge: label="Beta" 
+badge: label="Beta"
+exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
 ---
-
 # Build audience {#build-audience}
 
 >[!CONTEXTUALHELP]
@@ -48,7 +48,7 @@ Follow these steps to configure the **Build audience** activity:
 To create your own query, follow these extra steps:
 
 1. Select **Create your own (query)**.
-1. Choose the **Targeting dimension**. The targeting dimension lets you define the population targeted by the operation: recipients, contract beneficiaries, operator, subscribers, etc. By default, the target is selected from the recipients. Refer to the [v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html#targeting-and-filtering-dimensions){target="_blank"}.
+1. Choose the **Targeting dimension**. The targeting dimension lets you define the population targeted by the operation: recipients, contract beneficiaries, operator, subscribers, etc. By default, the target is selected from the recipients. Learn more about Targeting dimensions in [this section](../../audience/about-recipients.md#targeting-dimensions).
 1. Click **Continue**.
 1. Use the rule builder to define your query, the same way you create an audience when designing a new email. Refer to this [section](../../audience/segment-builder.md).
 

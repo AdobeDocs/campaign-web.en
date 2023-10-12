@@ -102,16 +102,15 @@ Learn more about consistency and capacity rules and how to configure them in [Ca
 
 ## Audience settings {#audience}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_audience"
 >title="Audience settings for the delivery"
 >abstract="Select a **target mapping** among those available. Target mappings are defined in the Adobe Campaign v8 console. You can also set the exclusion parameters for the delivery. "
 
+In this section, you can select a **target mapping** among those available. Target mappings are defined in the Adobe Campaign v8 console. The targeting dimension, or target mapping, is the type of data that an operation is handling. It lets you define the targeted population: recipients, contract beneficiaries, operators, subscribers, etc.
 
-In this section, you can select a **target mapping** among those available. Target mappings are defined in the Adobe Campaign v8 console. 
 
-Learn more about target mappings in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
+Learn more about target mappings in [this section](../audience/about-recipients.md#targeting-dimensions).
 
 ## Delivery {#delivery}
 

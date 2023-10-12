@@ -1,20 +1,23 @@
 ---
 audience: end-user
-title: Text with the Content assistant
-description: Get Started with the Content assistant
-badge: label="Beta" 
+title: Text with the Content Assistant
+description: Get Started with the Content Assistant
+badge: label="Alpha"
+exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 ---
+# Text generation with the Content Assistant {#generative-content}
 
-# Text generation with the Content assistant {#generative-content}
 
-Once you have created and personalized your Emails, use the Content Assistant powered by generative AI to take your content to the next level.
+
+Once you have created and personalized your emails, use the Content Assistant powered by generative AI to take your content to the next level.
 
 The Content Assistant can help you optimize the impact of your deliveries by suggesting different content that is more likely to resonate with your audience.
 
-
->[!AVAILABILITY]
+>[!NOTE]
 >
->This capability will be available early October.
+>Before starting using this capability, read out related [Guardrails and Limitations](generative-gs.md#guardrails-and-limitations).
+
+To generate and improve an email content with the Content Assistant, follow the steps below. You can also create the full HTML content with the Content Assistant, as detailed in [this page](generative-email.md).
 
 1. After creating and configuring your Email delivery, click **[!UICONTROL Edit content]**.
 
@@ -30,11 +33,11 @@ The Content Assistant can help you optimize the impact of your deliveries by sug
 
 1. Fine tune the content by describing what you want to generate. 
     
-    Enable the **[!UICONTROL Enhance with current context]** option for the Content assistant to personalize new content based on your delivery, delivery name, and selected audience.
+    Enable the **[!UICONTROL Enhance with current context]** option for the Content Assistant to personalize new content based on your delivery, delivery name, and selected audience.
 
     ![](assets/text-genai-3.png)
 
-1. Select **[!UICONTROL Upload file]** if you want to add any brand asset which contains content that can provide additional context the Content assistant.  
+1. Select **[!UICONTROL Upload file]** to add any brand asset which contains content that can provide additional context the Content Assistant.  
 
     You can also click **[!UICONTROL Uploaded content]** to find previously updated files. Note that the uploaded content is exclusively available for reuse by the current user.
 
@@ -61,4 +64,3 @@ The Content Assistant can help you optimize the impact of your deliveries by sug
     ![](assets/text-genai-7.png)
 
 1. When you have defined your content, audience and schedule, you are ready to prepare your email delivery. [Learn more](../monitor/prepare-send.md)
-
