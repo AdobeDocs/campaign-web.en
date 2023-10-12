@@ -131,3 +131,7 @@ hide: yes
     + [Email campaign reports](reporting/campaign-reports-email.md)
     + [Push campaign reports](reporting/campaign-reports-push.md)
     + [SMS campaign reports](reporting/campaign-reports-sms.md)
++ Technotes {#technotes}
+  + [Work with Campaign datamodel](technotes/datamodel.md)
+  + [Discover Campaign datamodel key tables](technotes/datamodel-tables.md)
+  + [Data retention](technotes/retention.md)
