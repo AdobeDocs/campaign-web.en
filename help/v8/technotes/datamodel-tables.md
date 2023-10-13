@@ -6,9 +6,19 @@ description: Discover Campaign key tables
 
 Adobe Campaign relies on a relational database containing tables that are linked together. The pre-defined Adobe Campaign datamodel includes the main tables listed below.
 
+When creating a rule, browse the type of documents to select a schema. In Adobe Campaign, all of the data types are defined by schemas, and each schema is implemented by a table in the database. 
+
+![](assets/change-doc-type.png)
+
+
+Use the search field of the Select a document type screen to find the correct schema to filter from.
+
+![](assets/select-doc-type.png)
+
+
 ## Global tables {#global-tables}
 
-### NmsRecipient {#NmsRecipient}
+### Recipients table {#NmsRecipient}
 
 This table relates to the **nms:recipient** schema.
 
@@ -20,7 +30,7 @@ The CountryCode field is the 3166-1 Alpha 2 ISO code (2 characters) of the count
 
 Learn more about recipients and profiles in [this section](../audience/about-recipients.md).
 
-### NmsGroup {#NmsGroup}
+### List table {#NmsGroup}
 
 This table relates to the **nms:group** schema.
 
@@ -36,7 +46,7 @@ Learn how to create a list of recipients in [this section](../audience/create-au
 The **NmsRcpGrpRel** relationship table only contains the two fields corresponding to the identifiers of the RecipientId and GroupId linked tables.
 -->
 
-### NmsService {#NmsService}
+### Service table {#NmsService}
 
 This table relates to the **nms:service** schema.
 
@@ -50,7 +60,7 @@ The Type field specifies the delivery channel of this service: 0 for email, 1 fo
 
 Learn more about services in [this section](../audience/manage-services.md).
 
-### NmsSubscription {#NmsSubscription}
+### Subscription {#NmsSubscription}
 
 This table relates to the **nms:subscription** schema.
 
@@ -58,7 +68,7 @@ It enables you to manage recipient subscriptions to information services.
 
 Learn more about subscriptions in [this section](../audience/manage-subscribers.md).
 
-### NmsSubHisto {#NmsSubHisto}
+### History of service subscription table {#NmsSubHisto}
 
 This table relates to the **nms:subHisto** schema.
 
@@ -66,7 +76,8 @@ All susbcriptions and unsubscriptions are tracked in the **NmsSubHisto** table. 
 
 Learn how to monitor your subscription services in [this section](../audience/manage-services.md#logs-and-reports).
 
-### NmsDelivery {#NmsDelivery}
+<!--
+### Delivery table {#NmsDelivery}
 
 This table relates to the **nms:delivery** schema.
 
@@ -75,9 +86,9 @@ Each record in this table represents a **delivery** or a **delivery template**. 
 There is a unique index on the field representing the internal name of the delivery or template. The delivery is linked to an execution folder. For more on this, see [XtkFolder](#XtkFolder).
 
 Learn more about messages and deliveries in [this section](../msg/gs-messages.md).
+-->
 
-
-### XtkFolder {#XtkFolder}
+### Folder table {#XtkFolder}
 
 This table contains **all the folders in the tree** visible in the **Explorer** tab.
 
@@ -100,23 +111,14 @@ Learn more about delivery logs in [this page](../monitor/delivery-logs.md).
 
 The following set of tables is linked to your **Marketing campaigns**.
 
-* **NmsOperation**: This table matches the **nms:operation** schema. It contains the data of marketing campaigns.
+* **Campaign (nms)**: This table matches the **nms:operation** schema. It contains the data of marketing campaigns.
 <!--
 * **NmsDeliveryOutline**: This table matches the **nms:deliveryOutline** schema. It contains the extended properties of the delivery (delivery outline).
 * **NmsDlvOutlineItem**: This table matches the **nms:dlvOutlineItem** schema. It contains the articles of a delivery outline.-->
-* **NmsDeliveryCustomization**: This table matches the **nms:deliveryCustomization** schema. It contains the personalization fields of a delivery.
-* **NmsBudget**: This table matches the **nms:budget** schema. It contains the data of a budget on a campaign, a plan, a program, a task and/or deliveries.
-* **NmsDocument**: This table matches the **nms:document** schema. It contains the marketing documents of the campaign in the form of files (images, excel or word files, etc.)
-* **XtkWorkflow**: This table matches the **xtk:workflow** schema. It contains campaign targeting.
-* **NmsTask**: This table matches the **nms:task** schema. It contains the definition of a marketing task.
-* **NmsAsset**: This table matches the **nms:asset** schema. It contains the definition of a marketing resource.
-
-* **NmsTypologyRule**: This table matches the **nms:typologyRule** schema. It contains the rules which apply to deliveries depending on typologies.
-* **NmsTypology**: This table matches the **nms:typology** schema. It contains the set of rules to be applied to deliveries which match the typology.
-* **NmsTypologyRuleRel**: This table matches the **nms:typologyRuleRel** schema. It contains the relationships between typologies and their rules.
-* **NmsVolumeLine**: This table matches the **nms:volumeLine** schema. It contains the set of availability lines of the capacity rules.
-* **NmsVolumeConsumed**: This table matches the **nms:volumeConsumed** schema. It contains all the consumption lines of the capacity rules.
-
+* **Budget (nms)**: This table matches the **nms:budget** schema. It contains the data of a budget on a campaign, a plan, a program, a task and/or deliveries.
+* **Marketing documents (nms)**: This table matches the **nms:document** schema. It contains the marketing documents of the campaign in the form of files (images, excel or word files, etc.)
+* **Workflow (xtk)**: This table matches the **xtk:workflow** schema. It contains campaign targeting.
+* **Typology rules (nms)**: This table matches the **nms:typologyRules** schema. It contains the rules which apply to deliveries depending on typologies.
 <!--
 ## Response management {#response-management}
 
@@ -184,48 +186,33 @@ It contains a record representing an individual's reaction to a given hypothesis
 
 This set of tables is linked to the **Simulation** module, which allows to test the distribution of offers belonging to a category or an environment before sending your proposition to recipients.
 
-* **NmsSimulation**: This table matches the **nms:simulation** schema. It represents a simulation for a set of deliveries or offers on a given population.
-* **NmsDlvSimulationRel**: This table matches the **nms:dlvSimulationRel** schema. It contains the list of deliveries taken into account in the simulation. The scope of the simulation is stored in XML.
-* **NmsOfferSimulationRel**: This table matches the **nms:offerSimulationRel** schema. It lets you link up a simulation with an offer.
+* **Simulation (nms)**: This table matches the **nms:simulation** schema. It represents a simulation for a set of deliveries or offers on a given population.
+* **Deliveries to simulation relation (nms)**: This table matches the **nms:dlvSimulationRel** schema. It contains the list of deliveries taken into account in the simulation. The scope of the simulation is stored in XML.
+* **Offers to simulation relation (nms)**: This table matches the **nms:offerSimulationRel** schema. It lets you link up a simulation with an offer.
 
 ## Offers {#interaction-module}
 
 This set of tables is linked to the **Interaction** module, which allows to respond in real time during an interaction with a given contact by making them a single or several adapted offers.
 
-* **NmsOffer**: This table matches the **nms:offer** schema. It contains the definition of each marketing offer.
-* **NmsPropositionRcp**: This table matches the **nms:propositionRcp** schema. It contains the cross-channel log of marketing propositions sent to each individual. The record is created when a proposition is prepared or effectively made to an individual.
-* **NmsOfferSpace**: This table matches the **nms:offerSpace** schema. It contains the definition of locations on which propositions are made.
-* **NmsOfferContext**: This table matches the **nms:offerContext** schema. It contains additional criteria on the applicability of the proposition as well as the definition of the weight calculation formula.
-* **NmsOfferView**: This table matches the **nms:offerView**. It contains the offer representations.
-* **NmsOfferCategory**: This table matches the **nms:offerCategory**. It contains the offer categories.
-* **NmsOfferEnv**: This table matches the **nms:offerEnv**. It contains the offer environments.
+* **Marketing offers (nms)**: This table matches the **nms:offer** schema. It contains the definition of each marketing offer.
+* **Offer proposition (nms)**: This table matches the **nms:propositionRcp** schema. It contains the cross-channel log of marketing propositions sent to each individual. The record is created when a proposition is prepared or effectively made to an individual.
+* **Offer spaces (nms)**: This table matches the **nms:offerSpace** schema. It contains the definition of locations on which propositions are made.
+* **Marketing offers category (nms)**: This table matches the **nms:offerCategory**. It contains the offer categories.
+* **Marketing offers environments (nms)**: This table matches the **nms:offerEnv**. It contains the offer environments.
 
-## Transactional messaging {#message-center-module}
-
-The following set of tables is linked to the **Transactional messaging** (Message Center) module, which allows to manage individual and unique communications sent to a user and generated from events triggered from information systems.
-
-* **NmsRtEvent**: This table matches the **nms:rtEvent** schema. It contains a definition of real time events.
-
-* **NmsBatchEvent** : T his table matches the **nms:batchEvent** schema. It contains the definition of events by batch.
 
 
 ## Push notification channel{#nmac-module}
 
 This set of tables is linked to the **Mobile App Channel**, which allows to send personalized notifications to iOS and Android terminals via apps.
 
-* **NmsMobileApp**: This table matches the **nms:mobileApp** schema. It contains the mobile applications defined in Adobe Campaign.
-* **NmsAppSubscription**: This table matches the **nms:appSubscription** schema. It contains the subscribers information regarding one or more applications.
-* **NmsAppSubscriptionRcp**: This table matches the **nms:appSubscriptionRcp** schema. It enables you to link up visitors who subscribed to an application with the recipients table.
-* **NmsExcludeLogAppSubRcp**: This table matches the **nms:excludeLogAppSubRcp** schema.
-* **NmsTrackingLogAppSubRcp**: This table matches the **nms:trackingLogAppSubRcp** schema.
-* **NmsBroadLogAppSubRcp**: This table matches the **nms:broadLogAppSubRcp** schema.
+* **Mobile applications (nms)**: This table matches the **nms:mobileApp** schema. It contains the mobile applications defined in Adobe Campaign.
+* **Exclusion logs (Subscriber applications)**: This table matches the **nms:excludeLogAppSubRcp** schema.
+* **Tracking logs (Subscriber applications)**: This table matches the **nms:trackingLogAppSubRcp** schema.
+* **Delivery logs (Subscriber applications)**: This table matches the **nms:broadLogAppSubRcp** schema.
 
 ## Twitter channel {#social-marketing-module}
 
-This set of tables is linked to the **Managing social networks** module, which allows to interact with customers via Twitter. 
+This table is linked to the **Managing social networks** module, which allows to interact with customers via Twitter. 
 
 * **NmsVisitor**: This table matches the **nms:visitor** schema. It contains information on visitors.
-* **NmsVisitorSub**: This table matches the **nms:visitorSub** schema. It enables you to link up a visitor to the services which they have subscribed to (Twitter or Facebook).
-* **NmsFriendShipRel**: This table matches the **nms:friendshipRel** schema. It enables you to link up visitors with their friends within the context of the Facebook service.
-* **NmsVisitorInterestRel**: This table matches the **nms:visitorInterestRel** schema. It enables you to link up visitors and their interests.
-* **NmsInterest**: This table matches the **nms:interest** schema. It contains the list of interests for each visitor.
