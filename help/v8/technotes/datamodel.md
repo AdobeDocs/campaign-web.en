@@ -52,9 +52,9 @@ Learn more about the Recipient table in [this section](datamodel-tables.md#nmsde
 
 These tables store all the logs associated with the execution of the campaigns and deliveries.
 
-* Delivery logs are all messages sent to recipients or devices across all channels. The main Delivery logs table (**NmsBroadLogRcp**) contains the delivery logs for all recipients.
+* Delivery logs are all messages sent to recipients or devices across all channels. The main Delivery logs table (**NmsBroadLogRcp**) contains the delivery logs for all recipients. The **NmsBroadlogRcp** table (and related `broadlogRcp` schema) has all the details about recipients for any particular delivery.
 
-* The **nmsBroadlog** table is the largest table in the system. It stores one record per message sent, and these records are inserted, updated to track the delivery status, and deleted when the history is purged.
+* The **nmsBroadlog** table is the largest table in the system. It stores one record per message sent, and these records are inserted, updated to track the delivery status, and deleted when the history is purged. 
 
 * The **NmsTrackingLogRcp** table is the main Tracking logs table: it stores the tracking logs for all recipients. The tracking logs refer to reactions of recipients, such as email openings and clicks. Each reaction corresponds to a tracking log.
     
@@ -76,7 +76,7 @@ Log tables gather technical data used for the applicative process, including foe
 * Workflows, in the **xtkWorkflow** table
   and more.
 
-## Browse Campaign datamodel{#browse-datamodel}
+## Browse Campaign datamodel {#browse-datamodel}
 
 ### Schemas and tables {#tables-and-schemas}
 
@@ -132,4 +132,22 @@ To add an entirely new type of data that does not exist in Adobe Campaign (a tab
 
 These actions can only be performed by expert users from Campaign client console.
 
+### Fields and attributes {#campaign-fields-and-attributes}
 
+When using the rule builder, you can browse Campaign data model and query the database, to retrieve the exact data you need. You can filter and preview any data associated to the current targeting dimension. All of the data types are defined by schemas, and each schema is implemented by a table in the database.
+
+In the rule builder, you can expand the links of the table you are working on. These links connect the current table to other tables, and helps you understand the relationships between tables in the database. Once these links and tables are expanded, you can view the attributes you can use to create your filtering conditions, and save them as rules. In addition, you can also preview the data that is retrieved, and check your filtering rules.
+
+
+For example, when creating a filtering rule on the recipient table (**nmsRecipient**), you can see the links to the other tables. The cardinality between the links can be unique (1:1), or multiple (1:N). The link cardinality type is represented by a specific icon.
+
+>[!NOTE]
+>
+>To view linked tables, you must activate the **Display advanced attributes** toggle.
+
+
+For example there is a single Folder for each recipient - 1:1 cardinality -, but a recipient can be included in multiple lists - 1:N cardinality.
+
+![](assets/edit-rule-links.png)
+
+In the main table, and in each linked table, you can select the attributes to use to design your filtering rules. Learn steps to define a rule with the rule builder in [this section](../audience/create-audience.md).
