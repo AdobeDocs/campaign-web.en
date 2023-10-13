@@ -132,7 +132,7 @@ To add an entirely new type of data that does not exist in Adobe Campaign (a tab
 
 These actions can only be performed by expert users from Campaign client console.
 
-### Fields and attributes {#campaign-fields-and-attributes}
+### Browse links and attributes {#links-and-attributes}
 
 When using the rule builder, you can browse Campaign data model and query the database, to retrieve the exact data you need. You can filter and preview any data associated to the current targeting dimension. All of the data types are defined by schemas, and each schema is implemented by a table in the database.
 
