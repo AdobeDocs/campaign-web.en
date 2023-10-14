@@ -14,6 +14,7 @@ hide: yes
 + [Documentation updates](rn/documentation-updates.md)
 + Get started with Adobe Campaign {#start}
   + [Get started](get-started/get-started.md)
+  + [Connect to Campaign](get-started/connect-to-campaign.md)
   + [Discover the interface](get-started/user-interface.md)
   + [Browse, search, and filter lists](get-started/list-filters.md)
   + [Work with predefined filters](get-started/predefined-filters.md)

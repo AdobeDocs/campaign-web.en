@@ -83,19 +83,6 @@ In the DECISION MANAGEMENT section, you can view the offers and offer templates.
 
 Learn how to create and send offers in emails and SMS in [this section](../content/offers.md).
 
-## Top bar {#top-bar}
-
-Use the top bar of the interface to:
-
-* share your feedback as a Beta tester
-* switch between organizations and instances
-* switch between your Adobe Experience Cloud applications
-* access help pages, contact support and share feedback. You can search help articles and videos from the search field.
-
-![](assets/unified-shell.png){width="50%" align="left"}
-<!--
-Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
--->
 
 
 ## Contextual Help {#user-interface-help} 
@@ -114,37 +101,10 @@ Learn more in [this section](using-ai.md).
 
 Campaign v8 Web is designed to work optimally in the latest version of Google Chrome, Safari and Microsoft Edge. You might have trouble using certain features on older versions or other browsers.
 
-## Language preferences {#language-pref}
-
-Campaign v8 Web is currently available in the following languages:
-
-* English (US) - EN-US
-* French - FR
-* German - DE
-* Italian - IT
-* Spanish - ES
-* Portuguese (Brazilian) - PTBR
-* Japanese - JP
-* Korean - KR
-* Simplified Chinese - CHS
-* Traditional Chinese - CHT
-
-
-Your default language for Campaign Web is determined by the preferred language specified in your user profile. It does not relate to the language of your Campaign server and client console.
-
-To change your language:
-
-1. Click on your profile icon, on the top right, then select **Preferences**.
-1. Then click the language link displayed under your email address.
-1. Select your preferred language and click **Save**. You can select a second language in case the component you are using is not localized in your first language.
-
-## Dark theme {#dark-theme}
-
-You can switch to the dark theme from your profile icon. Use the **Dark theme** toggle to enable/disable it.
-
 ## Learn more {#learn-more}
 
 Learn how to browse, search, and filter lists available in your Campaign environment [in this page](list-filters.md).
+
 
 
 <!--
