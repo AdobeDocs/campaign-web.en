@@ -97,9 +97,7 @@ Thanks to Campaign Gen AI's capabilities, this assistant transforms your experie
 
 Learn more in [this section](using-ai.md).
 
-## Supported browsers {#browsers}
 
-Campaign v8 Web is designed to work optimally in the latest version of Google Chrome, Safari and Microsoft Edge. You might have trouble using certain features on older versions or other browsers.
 
 ## Learn more {#learn-more}
 

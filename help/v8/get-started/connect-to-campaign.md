@@ -32,13 +32,13 @@ To sign in to Adobe Experience Cloud, basic steps are:
 
 To access your Campaign environment, select **Campaign** from Adobe Experience Cloud home page. 
 
-
 If you have access to multiple environments, including Campaign Control Panel, click the **Launch** button in your organization card. 
 
 ![](assets/launch-campaign.png)
 
-You can also the solution switcher to browse between your Adobe Experience Cloud solutions.
+You can also use the solution switcher to browse between your Adobe Experience Cloud solutions and apps.
 
+![](assets/solution-switcher.png)
 
 ## Adobe Experience Cloud top navigation {#top-bar}
 
@@ -51,6 +51,9 @@ Use the top bar of the interface to:
 
 ![](assets/unified-shell.png){width="50%" align="left"}
 
+## Supported browsers {#browsers}
+
+Campaign v8 Web is designed to work optimally in the latest version of Google Chrome, Safari and Microsoft Edge. You might have trouble using certain features on older versions or other browsers.
 
 ## Language preferences {#language-pref}
 
