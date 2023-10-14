@@ -30,15 +30,17 @@ To sign in to Adobe Experience Cloud, basic steps are:
 
 ## Access to Adobe Campaign {#access-to-campaign}
 
-To access your Campaign environment, select **Campaign** from Adobe Experience Cloud home page. 
+To access your Campaign environment, select **Campaign** from the **Quick Access** section of the Adobe Experience Cloud home page. 
 
-You can also use the solution switcher to browse between your Adobe Experience Cloud solutions and apps.
+If you are already connected to another Adobe Experience Cloud solution, you can also browse to your Campaign environment from the solution switcher on the top right of your screen.
 
 ![](assets/solution-switcher.png)
 
 If you have access to multiple environments, including Campaign Control Panel, click the **Launch** button for the correct instance. 
 
 ![](assets/launch-campaign.png)
+
+You are now connected to Campaign. Learn how to start using the user interface in [this page](user-interface.md).
 
 ## Adobe Experience Cloud top navigation {#top-bar}
 
