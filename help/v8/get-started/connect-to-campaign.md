@@ -25,35 +25,34 @@ To sign in to Adobe Experience Cloud, basic steps are:
 
     ![](assets/exc-orgs.png){width="50%" align="left"}
 
-    Learn more about Organization in Adobe Experience Cloud in [this article](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html){target="_blank"}.
+    Learn more about Organizations in Adobe Experience Cloud in [this article](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html){target="_blank"}.
 
 
 ## Access to Adobe Campaign {#access-to-campaign}
 
 To access your Campaign environment, select **Campaign** from Adobe Experience Cloud home page. 
 
-If you have access to multiple environments, including Campaign Control Panel, click the **Launch** button in your organization card. 
-
-![](assets/launch-campaign.png)
-
 You can also use the solution switcher to browse between your Adobe Experience Cloud solutions and apps.
 
 ![](assets/solution-switcher.png)
+
+If you have access to multiple environments, including Campaign Control Panel, click the **Launch** button for the correct instance. 
+
+![](assets/launch-campaign.png)
 
 ## Adobe Experience Cloud top navigation {#top-bar}
 
 Use the top bar of the interface to:
 
-* share your feedback as a Beta tester
-* switch between organizations and instances
-* switch between your Adobe Experience Cloud applications
-* access help pages, contact support and share feedback. You can search help articles and videos from the search field.
+* share your feedback as a Beta user
+* switch between your organizations
+* switch between your Adobe Experience Cloud solutions and apps
 
 ![](assets/unified-shell.png){width="50%" align="left"}
 
 ## Supported browsers {#browsers}
 
-Campaign v8 Web is designed to work optimally in the latest version of Google Chrome, Safari and Microsoft Edge. You might have trouble using certain features on older versions or other browsers.
+Campaign v8 Web is designed to work optimally in the latest version of Google Chrome, Safari, and Microsoft Edge. You might have trouble using certain features on older versions, or other browsers.
 
 ## Language preferences {#language-pref}
 
@@ -77,7 +76,7 @@ To change your language:
 
 1. Click on your profile icon, on the top right, then select **Preferences**.
 1. Then click the language link displayed under your email address.
-1. Select your preferred language and click **Save**. You can select a second language in case the component you are using is not localized in your first language.
+1. Select your preferred language and click **Save**. You can select a second language in case the component you are using is not localized into your first language.
 
 ## Dark theme {#dark-theme}
 
