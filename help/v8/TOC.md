@@ -135,3 +135,4 @@ hide: yes
   + [Work with Campaign datamodel](technotes/datamodel.md)
   + [Discover Campaign key tables](technotes/datamodel-tables.md)
   + [Data retention](technotes/retention.md)
+  + [Failures and quarantines](technotes/failures-and-quarantines.md)

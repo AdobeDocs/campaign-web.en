@@ -78,6 +78,9 @@ The **Overall statistics** report presents data for the sent push notifications:
 
 * **[!UICONTROL New quarantine]**:  Number of profiles that have been excluded and added to the quarantine.
 
+    Learn more about delivery failures and quarantines in [this technote](../technotes/failures-and-quarantines.md).
+
+
 +++
 
 ### Exclusions {#push-delivery-exclusions}
