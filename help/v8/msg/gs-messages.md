@@ -155,9 +155,11 @@ Learn steps to send a scheduled delivery in [this section](../monitor/prepare-se
 
 Monitoring your deliveries after they have been sent is a key step to ensure your maketing campaigns are efficient and reach out to your customers. 
 
-You can monitor after sending a delivery, as well as understand how delivery failures and quarantines are managed.
+Learn more in the following sections:
 
-Learn more about monitoring and tracking capabilities in [this section](../reporting/gs-reports.md).
+* [Monitor your delivery](../reporting/gs-reports.md) after sending
+* Understand [delivery failures and quarantines management](../technotes/failures-and-quarantines.md)
+* [Check reports](../reporting/gs-reports.md) for your deliveries
 
 ## Duplicate a delivery {#delivery-duplicate}
 

@@ -2,7 +2,7 @@
 title: Technote - Campaign tables
 description: Discover Campaign key tables
 ---
-# Campaign datamodel key tables{#campaign-datamodel-tables}
+# Campaign key tables{#campaign-datamodel-tables}
 
 Adobe Campaign relies on a relational database containing tables that are linked together. The pre-defined Adobe Campaign datamodel includes the main tables listed below.
 
@@ -15,28 +15,44 @@ Use the search field of the Select a document type screen to find the correct sc
 
 ![](assets/select-doc-type.png)
 
+## Recipients table {#NmsRecipient}
 
-## Global tables {#global-tables}
+Each profile in Campaign is a record in the **nmsRecipient** table (or an external table) which stores all the profile attributes, such as first name, last name, email address, a cookie ID, Customer ID, mobile identifier or other information relevant to a particular channel. 
 
-### Recipients table {#NmsRecipient}
+Other tables linked to the recipient table contain profile-related data, for example the [delivery logs](#ootb-logs) table which contains records of all deliveries sent to recipients.
+
+The built-in recipient table (**nmsrecipient**) in Adobe Campaign has a number of pre-defined fields and table links. This is particularly useful when you are mainly targeting recipients, because it fits a simple recipient-centric datamodel.
+
+Exemple of query on the recipient table:
+
+![](assets/recipient-query-sample.png)
+
+
+Learn more about the Recipient table in [this section](datamodel-tables.md#nmsdelivery).
 
 This table relates to the **nms:recipient** schema.
 
 It is the default table used for the **recipients of deliveries**. As a result, it contains the information required for deliveries across different channels, such as the email address, format, mobile number, and more.
 
-The FolderId field is the foreign key that links the recipient to its folder. For more on this, see [XtkFolder](#XtkFolder).
-
-The CountryCode field is the 3166-1 Alpha 2 ISO code (2 characters) of the country associated with the recipient. This field is actually a foreign key on the country reference table (NmsCountry), which contains the country labels and other country code data. If the country is not populated, the value 'XX' is stored (and is used in place of a zero ID record).
+The FolderId field is the foreign key that links the recipient to its folder. For more on this, refer to the [Folder table](#XtkFolder).
 
 Learn more about recipients and profiles in [this section](../audience/about-recipients.md).
 
-### List table {#NmsGroup}
+
+>[!NOTE]
+>
+> Adobe Campaign allows to build a custom recipient table from the Client console. However, in most cases, it is recommended to leverage the built-in Recipient table which already has pre-built additional tables and features.
+>
+> As an expert user, you can extend the recipient table, but cannot to reduce the number of fields or links in the table. Learn more in [Adobe Campaign (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html).
+
+
+## List table {#NmsGroup}
 
 This table relates to the **nms:group** schema.
 
 It enables you to create **lists of recipients**, or audiences. There is a many-to-many (N-N) relation between recipients and lists. A profile can belong to several lists and one list can contain several profiles. Lists are often used as audiences for deliveries. 
 
-There is a unique index on the field representing the internal name of the list. The list is linked to a folder. For more on this, see [XtkFolder](#XtkFolder).
+There is a unique index on the field representing the internal name of the list. The list is linked to a folder. For more on this, refer to the [Folder table](#XtkFolder).
 
 Learn how to create a list of recipients in [this section](../audience/create-audience.md).
 
@@ -46,6 +62,8 @@ Learn how to create a list of recipients in [this section](../audience/create-au
 The **NmsRcpGrpRel** relationship table only contains the two fields corresponding to the identifiers of the RecipientId and GroupId linked tables.
 -->
 
+## Service and subscription tables
+
 ### Service table {#NmsService}
 
 This table relates to the **nms:service** schema.
@@ -54,7 +72,7 @@ In Adobe Campaign, you can create and manage subscriptions to information servic
 
 <!--Services are entities which are similar to lists (static recipient groupings), except that they circulate more information and enable easy management of subscriptions and unsubscriptions via forms.-->
 
-There is a unique index on the field representing the internal name of the service. The service is linked to a folder. The key is FolderId. For more on this, see [XtkFolder](#XtkFolder). 
+There is a unique index on the field representing the internal name of the service. The service is linked to a folder. The key is FolderId. For more on this, refer to the [Folder table](#XtkFolder). 
 
 The Type field specifies the delivery channel of this service: 0 for email, 1 for SMS. Note that services do not apply to the push notification channel.
 
@@ -88,24 +106,50 @@ There is a unique index on the field representing the internal name of the deliv
 Learn more about messages and deliveries in [this section](../msg/gs-messages.md).
 -->
 
+
+## Delivery table {#ootb-delivery}
+
+The Delivery table (**NmsDelivery**) represents a delivery action or a delivery template. It contains all the necessary parameters for performing deliveries such as target, content, etc. Each record is updated on a regular basis to reflect delivery progress.
+
+Learn more about the Delivery table in [this section](datamodel-tables.md#NmsDelivery).
+
+## Log tables {#ootb-logs}
+
+These tables store all the logs associated with the execution of the campaigns and deliveries.
+
+* Delivery logs are all messages sent to recipients or devices across all channels. The main Delivery logs table (**NmsBroadLogRcp**) contains the delivery logs for all recipients. The **NmsBroadlogRcp** table (and related `broadlogRcp` schema) has all the details about recipients for any particular delivery.
+
+* The **nmsBroadlog** table is the largest table in the system. It stores one record per message sent, and these records are inserted, updated to track the delivery status, and deleted when the history is purged. 
+
+* The **NmsTrackingLogRcp** table is the main Tracking logs table: it stores the tracking logs for all recipients. The tracking logs refer to reactions of recipients, such as email openings and clicks. Each reaction corresponds to a tracking log.
+    
+Delivery logs and tracking logs are deleted after a certain period, which is specified in Adobe Campaign and can be modified. Therefore, it is highly recommended to export the logs on a regular basis. Learn more about retention period in Campaign in [this page](retention.md).
+
+
+The **NmsBroadLogMsg** table relates to the **nms:broadLogMsg** schema. It is an extension of the delivery log table. This table contains information used for qualifying SMTP errors.
+
+Learn more about delivery logs in [this page](../monitor/delivery-logs.md).
+
+## Technical tables {#ootb-tech}
+
+Log tables gather technical data used for the applicative process, including for example:
+
+* Operators and user rights, in the **xtkGroup** table
+* Campaign User sessions, in the **xtkSessionInfo** table
+* Folders in Campaign explorer, in the **XtkFolder** table
+* Workflows, in the **xtkWorkflow** table
+  and more.
+
+
 ### Folder table {#XtkFolder}
 
-This table contains **all the folders in the tree** visible in the **Explorer** tab.
+This table contains **all the folders in the tree** visible in the **Explorer** tab. It relates to the **xtk:folder** schema.
 
 The folders are typed: the value of the Model field specifies the type of data that can be contained in the folder.
 
 The explorer tree is managed by the ParentId and ChildCount fields. The FullName field gives the full path of the folder in the tree. Finally, there is a unique index on the field representing the internal name of the folder.
 
 Learn more about Campaign explorer and deliveries in [this page](../get-started/user-interface.md#explorer).
-
-
-## Delivery and tracking {#delivery-and-tracking}
-
-A  set of tables allows to monitor deliveries and potential issues encountered when messages are sent.
-
-The **NmsBroadLogMsg** table relates to the **nms:broadLogMsg** schema. It is an extension of the delivery log table. This table contains information used for qualifying SMTP errors.
-
-Learn more about delivery logs in [this page](../monitor/delivery-logs.md).
 
 ## Campaign management {#campaign-management}
 
@@ -182,15 +226,7 @@ It contains a record representing an individual's reaction to a given hypothesis
 -->
 
 
-## Simulation and delivery {#simulation-and-delivery}
-
-This set of tables is linked to the **Simulation** module, which allows to test the distribution of offers belonging to a category or an environment before sending your proposition to recipients.
-
-* **Simulation (nms)**: This table matches the **nms:simulation** schema. It represents a simulation for a set of deliveries or offers on a given population.
-* **Deliveries to simulation relation (nms)**: This table matches the **nms:dlvSimulationRel** schema. It contains the list of deliveries taken into account in the simulation. The scope of the simulation is stored in XML.
-* **Offers to simulation relation (nms)**: This table matches the **nms:offerSimulationRel** schema. It lets you link up a simulation with an offer.
-
-## Offers {#interaction-module}
+## Offer tables {#interaction-module}
 
 This set of tables is linked to the **Interaction** module, which allows to respond in real time during an interaction with a given contact by making them a single or several adapted offers.
 
@@ -201,8 +237,18 @@ This set of tables is linked to the **Interaction** module, which allows to resp
 * **Marketing offers environments (nms)**: This table matches the **nms:offerEnv**. It contains the offer environments.
 
 
+### Simulation {#simulation}
 
-## Push notification channel{#nmac-module}
+This set of tables is linked to the **Simulation** module, which allows to test the distribution of offers belonging to a category or an environment before sending your proposition to recipients.
+
+* **Simulation (nms)**: This table matches the **nms:simulation** schema. It represents a simulation for a set of deliveries or offers on a given population.
+* **Deliveries to simulation relation (nms)**: This table matches the **nms:dlvSimulationRel** schema. It contains the list of deliveries taken into account in the simulation. The scope of the simulation is stored in XML.
+* **Offers to simulation relation (nms)**: This table matches the **nms:offerSimulationRel** schema. It lets you link up a simulation with an offer.
+
+
+## Mobile channels {#mobile-tables}
+
+### Push notification channel{#nmac-module}
 
 This set of tables is linked to the **Mobile App Channel**, which allows to send personalized notifications to iOS and Android terminals via apps.
 
@@ -211,7 +257,7 @@ This set of tables is linked to the **Mobile App Channel**, which allows to send
 * **Tracking logs (Subscriber applications)**: This table matches the **nms:trackingLogAppSubRcp** schema.
 * **Delivery logs (Subscriber applications)**: This table matches the **nms:broadLogAppSubRcp** schema.
 
-## Twitter channel {#social-marketing-module}
+### Twitter channel {#social-marketing-module}
 
 This table is linked to the **Managing social networks** module, which allows to interact with customers via Twitter. 
 

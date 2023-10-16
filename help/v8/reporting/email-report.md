@@ -64,6 +64,9 @@ The **[!UICONTROL Delivery statistics]** graph details the success of your deliv
 
 * **[!UICONTROL New quarantines]**: Total number of addresses quarantined following a failed delivery (user unknown, invalid domain) in relation to the number of messages to be delivered.
 
+    Learn more about delivery failures and quarantines in [this technote](../technotes/failures-and-quarantines.md).
+
+
 +++
 
 ### Causes of exclusion  {#email-delivery-exclusions}
