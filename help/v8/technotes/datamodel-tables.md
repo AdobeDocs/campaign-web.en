@@ -17,11 +17,11 @@ Use the search field of the Select a document type screen to find the correct sc
 
 ## Recipients table {#NmsRecipient}
 
-Each profile in Campaign is a record in the **nmsRecipient** table (or an external table) which stores all the profile attributes, such as first name, last name, email address, a cookie ID, Customer ID, mobile identifier or other information relevant to a particular channel. 
+Each profile in Campaign is a record in the **Recipient (nms)** table (or an external table) which stores all the profile attributes, such as first name, last name, email address, a cookie ID, Customer ID, mobile identifier or other information relevant to a particular channel. 
 
 Other tables linked to the recipient table contain profile-related data, for example the [delivery logs](#ootb-logs) table which contains records of all deliveries sent to recipients.
 
-The built-in recipient table (**nmsrecipient**) in Adobe Campaign has a number of pre-defined fields and table links. It is the default table used for the **recipients of deliveries**. As a result, it contains the information required for deliveries across different channels, such as the email address, format, mobile number, and more.
+The built-in **Recipient (nms)** table in Adobe Campaign has a number of pre-defined fields and table links. It is the default table used for the **recipients of deliveries**. As a result, it contains the information required for deliveries across different channels, such as the email address, format, mobile number, and more.
 
 This table relates to the **nms:recipient** schema.
 
@@ -82,7 +82,7 @@ Learn more about subscriptions in [this section](../audience/manage-subscribers.
 
 This table relates to the **nms:subHisto** schema.
 
-All susbcriptions and unsubscriptions are tracked in the **NmsSubHisto** table. The Action field specifies the action (0 for unsubscription and 1 for subscription) performed on the date stored in the Date field.
+All susbcriptions and unsubscriptions are tracked in the **SubHisto (nms)** table. The Action field specifies the action (0 for unsubscription and 1 for subscription) performed on the date stored in the Date field.
 
 Learn how to monitor your subscription services in [this section](../audience/manage-services.md#logs-and-reports).
 
@@ -100,7 +100,7 @@ Learn more about messages and deliveries in [this section](../msg/gs-messages.md
 
 ## Delivery table {#ootb-delivery}
 
-The Delivery table (**NmsDelivery**) represents a delivery action or a delivery template. It contains all the necessary parameters for performing deliveries such as target, content, etc. Each record is updated on a regular basis to reflect delivery progress.
+The **Delivery  (nms)** table represents a delivery action or a delivery template. It contains all the necessary parameters for performing deliveries such as target, content, etc. Each record is updated on a regular basis to reflect delivery progress.
 
 ## Log tables {#ootb-logs}
 
