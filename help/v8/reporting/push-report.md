@@ -20,7 +20,7 @@ The **Push delivery report** provides a thorough overview of the push channel, o
 
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
->title="Push delivery report summary"
+>title="Push delivery overview"
 >abstract="The **Push delivery overview** offers a comprehensive overview of your push delivery, providing extensive insights and specific data. It furnishes comprehensive information about the performance, effectiveness, and results of your delivery."
 
 The **[!UICONTROL Delivery overview]** report provides key performance indicators (KPIs) that give detailed information about how your visitors engage with your push messages.
