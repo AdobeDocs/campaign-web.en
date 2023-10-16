@@ -74,7 +74,7 @@ When an email address is quarantined, or if a profile is on denylist, the recipi
 
 Bounces are the result of a delivery attempt and failure where the Internet Service Provider (ISP) provides back failure notices. After a given email has bounced several times in a row, this process flags it for suppression. This mechanism prevents systems from continuing to send invalid email addresses. Bounces are one of the key pieces of data that ISPs use to determine IP reputation. Keeping an eye on this metric is important. "Delivered" versus "bounced" is probably the most common way of measuring the delivery of marketing messages: the higher the delivered percentage is, the better.
 
-There are two types of error when a message fails. Each delivery failure type determines if an address is sent to [quarantine](quarantines.md#quarantine-reason) or not.
+There are two types of error when a message fails. Each delivery failure type determines if an address is sent to [quarantine](#quarantine-reason) or not.
 
 * **Hard bounces**
   Hard bounces are permanent failures generated after an ISP determines a mailing attempt to a subscriber address as not deliverable. Within Adobe Campaign, hard bounces that are categorized as undeliverable are added to the quarantine list, which means they wouldn't be reattempted. There are some cases where a hard bounce would be ignored if the cause of the failure is unknown.
