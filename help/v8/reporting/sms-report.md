@@ -65,7 +65,7 @@ The **Targeted population** graph and table display data relative to your audien
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_overall_stats"
->title="Push overall statistics"
+>title="SMS overall statistics"
 >abstract="The **Overall statistics** report presents data for the sent SMS: success, errors and quarantines."
 
 The **Overall statistics** report presents data for the sent SMS messages. Metrics are detailed below.
@@ -86,7 +86,7 @@ The **Overall statistics** report presents data for the sent SMS messages. Metri
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_exclusions"
->title="SMS overall statistics"
+>title="SMS exclusions"
 >abstract="The **Exclusions** graph and table display the various reasons that prevented user profiles, which were excluded from the targeted profiles, from receiving the message."
 
 
@@ -98,9 +98,9 @@ The **[!UICONTROL Exclusions]** graph and table display the reasons that prevent
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_sms"
->title="Delivery throughput menu"
->abstract="The Delivery throughput report presents detailed information regarding the delivery throughput of the entire platform within a specified timeframe."
+>title="SMS delivery throughput"
+>abstract="The **Delivery throughput** report presents detailed information about the delivery throughput within a specified timeframe.  The primary metric used to measure the speed of message delivery is the number of messages sent per hour."
 
-This report presents detailed information regarding the delivery throughput of the entire platform within a specified timeframe. The primary metric used to measure the speed of message delivery is the number of messages sent per hour.
+This report presents detailed information regarding the delivery throughput within a specified timeframe. The primary metric used to measure the speed of message delivery is the number of messages sent per hour.
 
 ![](assets/reporting_sms_2.png)
