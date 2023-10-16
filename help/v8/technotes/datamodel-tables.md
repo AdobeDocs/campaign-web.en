@@ -15,33 +15,25 @@ Use the search field of the Select a document type screen to find the correct sc
 
 ![](assets/select-doc-type.png)
 
-## Recipients table {#NmsRecipient}
+## Recipient table {#NmsRecipient}
 
-Each profile in Campaign is a record in the **nmsRecipient** table (or an external table) which stores all the profile attributes, such as first name, last name, email address, a cookie ID, Customer ID, mobile identifier or other information relevant to a particular channel. 
+Each profile in Campaign is a record in the **Recipient (nms)** table (or an external table) which stores all the profile attributes, such as first name, last name, email address, a cookie ID, Customer ID, mobile identifier or other information relevant to a particular channel. 
 
 Other tables linked to the recipient table contain profile-related data, for example the [delivery logs](#ootb-logs) table which contains records of all deliveries sent to recipients.
 
-The built-in recipient table (**nmsrecipient**) in Adobe Campaign has a number of pre-defined fields and table links. This is particularly useful when you are mainly targeting recipients, because it fits a simple recipient-centric datamodel.
+The built-in **Recipient (nms)** table in Adobe Campaign has a number of pre-defined fields and table links. It is the default table used for the **recipients of deliveries**. As a result, it contains the information required for deliveries across different channels, such as the email address, format, mobile number, and more.
+
+This table relates to the **nms:recipient** schema.
 
 Exemple of query on the recipient table:
 
 ![](assets/recipient-query-sample.png)
 
 
-Learn more about the Recipient table in [this section](datamodel-tables.md#nmsdelivery).
-
-This table relates to the **nms:recipient** schema.
-
-It is the default table used for the **recipients of deliveries**. As a result, it contains the information required for deliveries across different channels, such as the email address, format, mobile number, and more.
-
-The FolderId field is the foreign key that links the recipient to its folder. For more on this, refer to the [Folder table](#XtkFolder).
-
 Learn more about recipients and profiles in [this section](../audience/about-recipients.md).
 
 
 >[!NOTE]
->
-> Adobe Campaign allows to build a custom recipient table from the Client console. However, in most cases, it is recommended to leverage the built-in Recipient table which already has pre-built additional tables and features.
 >
 > As an expert user, you can extend the recipient table, but cannot to reduce the number of fields or links in the table. Learn more in [Adobe Campaign (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html).
 
@@ -78,7 +70,7 @@ The Type field specifies the delivery channel of this service: 0 for email, 1 fo
 
 Learn more about services in [this section](../audience/manage-services.md).
 
-### Subscription {#NmsSubscription}
+### Subscription table {#NmsSubscription}
 
 This table relates to the **nms:subscription** schema.
 
@@ -90,7 +82,7 @@ Learn more about subscriptions in [this section](../audience/manage-subscribers.
 
 This table relates to the **nms:subHisto** schema.
 
-All susbcriptions and unsubscriptions are tracked in the **NmsSubHisto** table. The Action field specifies the action (0 for unsubscription and 1 for subscription) performed on the date stored in the Date field.
+All susbcriptions and unsubscriptions are tracked in the **SubHisto (nms)** table. The Action field specifies the action (0 for unsubscription and 1 for subscription) performed on the date stored in the Date field.
 
 Learn how to monitor your subscription services in [this section](../audience/manage-services.md#logs-and-reports).
 
@@ -106,27 +98,24 @@ There is a unique index on the field representing the internal name of the deliv
 Learn more about messages and deliveries in [this section](../msg/gs-messages.md).
 -->
 
-
 ## Delivery table {#ootb-delivery}
 
-The Delivery table (**NmsDelivery**) represents a delivery action or a delivery template. It contains all the necessary parameters for performing deliveries such as target, content, etc. Each record is updated on a regular basis to reflect delivery progress.
-
-Learn more about the Delivery table in [this section](datamodel-tables.md#NmsDelivery).
+The **Delivery  (nms)** table represents a delivery action or a delivery template. It contains all the necessary parameters for performing deliveries such as target, content, etc. Each record is updated on a regular basis to reflect delivery progress.
 
 ## Log tables {#ootb-logs}
 
 These tables store all the logs associated with the execution of the campaigns and deliveries.
 
-* Delivery logs are all messages sent to recipients or devices across all channels. The main Delivery logs table (**NmsBroadLogRcp**) contains the delivery logs for all recipients. The **NmsBroadlogRcp** table (and related `broadlogRcp` schema) has all the details about recipients for any particular delivery.
+* Delivery logs are all messages sent to recipients or devices across all channels. The main Delivery logs table **BroadLogRcp (nms)** contains the delivery logs for all recipients. This table is related to the **nms:broadlogRcp** schema, and has all the details about recipients for any particular delivery.
 
-* The **nmsBroadlog** table is the largest table in the system. It stores one record per message sent, and these records are inserted, updated to track the delivery status, and deleted when the history is purged. 
+* The **Broadlog (nms)** table is the largest table in the system. It stores one record per message sent, and these records are inserted, updated to track the delivery status, and deleted when the history is purged. 
 
-* The **NmsTrackingLogRcp** table is the main Tracking logs table: it stores the tracking logs for all recipients. The tracking logs refer to reactions of recipients, such as email openings and clicks. Each reaction corresponds to a tracking log.
+* The **TrackingLogRcp (nms)** table is the main Tracking logs table: it stores the tracking logs for all recipients. The tracking logs refer to reactions of recipients, such as email openings and clicks. Each reaction corresponds to a tracking log.
     
 Delivery logs and tracking logs are deleted after a certain period, which is specified in Adobe Campaign and can be modified. Therefore, it is highly recommended to export the logs on a regular basis. Learn more about retention period in Campaign in [this page](retention.md).
 
 
-The **NmsBroadLogMsg** table relates to the **nms:broadLogMsg** schema. It is an extension of the delivery log table. This table contains information used for qualifying SMTP errors.
+The **BroadLogMsg (nms)** table relates to the **nms:broadLogMsg** schema. It is an extension of the delivery log table. This table contains information used for qualifying SMTP errors.
 
 Learn more about delivery logs in [this page](../monitor/delivery-logs.md).
 
@@ -134,10 +123,10 @@ Learn more about delivery logs in [this page](../monitor/delivery-logs.md).
 
 Log tables gather technical data used for the applicative process, including for example:
 
-* Operators and user rights, in the **xtkGroup** table
-* Campaign User sessions, in the **xtkSessionInfo** table
-* Folders in Campaign explorer, in the **XtkFolder** table
-* Workflows, in the **xtkWorkflow** table
+* Operators and user rights, in the **Group (xtk)** table
+* Campaign User sessions, in the **SessionInfo (xtk)** table
+* Folders in Campaign explorer, in the **Folder (xtk)** table
+* Workflows, in the **Workflow (xtk)** table
   and more.
 
 
@@ -233,8 +222,8 @@ This set of tables is linked to the **Interaction** module, which allows to resp
 * **Marketing offers (nms)**: This table matches the **nms:offer** schema. It contains the definition of each marketing offer.
 * **Offer proposition (nms)**: This table matches the **nms:propositionRcp** schema. It contains the cross-channel log of marketing propositions sent to each individual. The record is created when a proposition is prepared or effectively made to an individual.
 * **Offer spaces (nms)**: This table matches the **nms:offerSpace** schema. It contains the definition of locations on which propositions are made.
-* **Marketing offers category (nms)**: This table matches the **nms:offerCategory**. It contains the offer categories.
-* **Marketing offers environments (nms)**: This table matches the **nms:offerEnv**. It contains the offer environments.
+* **Marketing offers category (nms)**: This table matches the **nms:offerCategory** schema. It contains the offer categories.
+* **Marketing offers environments (nms)**: This table matches the **nms:offerEnv** schema. It contains the offer environments.
 
 
 ### Simulation {#simulation}
