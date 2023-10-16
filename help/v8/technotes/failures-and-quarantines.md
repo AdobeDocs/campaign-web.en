@@ -71,6 +71,7 @@ When their address or phone number is quarantined, recipients are excluded from 
 
 **Quarantine** applies only to an **email address**, a **phone number**, or a **device token**, but not to the profile itself. For example, a profile whose email address is quarantined can update their profile and enter a new address, and could then be targeted by delivery actions again. Likewise, if two profiles happen to have the same phone number, they will both be affected if the number is quarantined. The quarantined addresses or phone numbers are displayed in the [exclusion logs](#delivery-quarantines) (for a delivery) or in the [quarantine list](#non-deliverable-bounces) (for the entire platform).
 
+
 >[!NOTE]
 >
 > Profiles can be on the **denylist** as after an unsubscription (opt-out), for a given channel. When a profile on the denylist for the email channel has two email addresses, both addresses are excluded.
@@ -79,13 +80,15 @@ When their address or phone number is quarantined, recipients are excluded from 
 
 Adobe Campaign manages quarantine according to the type of delivery failure and its reason. These are assigned during error message qualification.
 
-With **Hard errors**, the email address, phone number or device is immediately sent to quarantine. With **Soft errors**, the error counter is incremented, and might quarantine an email, phone number or device token. Campaign performs [retries](#retries). When the error counter reaches the limit threshold, the address, phone number or device token is quarantined. 
+With **Hard errors**, the email address, phone number, or device is immediately sent to quarantine.
 
-Quarantine addresses are listed during the delivery preparation, and added in the [delivery logs](../monitor/delivery-logs.md).
+With **Soft errors**, the error counter is incremented, and the email, phone number or device token might be quarantined. Campaign performs [retries](#retries). When the error counter reaches the limit threshold, the address, phone number or device token is quarantined. 
+
+Quarantine addresses are listed during the delivery preparation, and excluded from the target population. Details are added to the [delivery logs](../monitor/delivery-logs.md).
 
 For each delivery, you can also check the **[!UICONTROL Delivery summary]** report: it shows the number of addresses in quarantine in the delivery target. Learn more about the Delivery Summary report in [this page](../reporting/email-report.md#delivery-summary).
 
-Addresses that match specific conditions are automatically **deleted from the quarantine list** by the Campaign **Database cleanup** built-in workflow. The addresses are automatically removed from the quarantine list in the following cases:
+Addresses that match specific conditions are automatically **deleted from the quarantine list** by the Campaign **Database cleanup** built-in workflow. 
 
 * Addresses in a **[!UICONTROL With errors]** status are removed from the quarantine list after a successful delivery, or if the last soft bounce occurred more than 10 days ago. 
 * Addresses in a **[!UICONTROL With errors]** status that bounced with the **[!UICONTROL Mailbox full]** error are removed from the quarantine list after 30 days.
@@ -95,3 +98,5 @@ In these cases, their status are changed to **[!UICONTROL Valid]**.
 >[!NOTE]
 >
 > You can also manually remove an address from the quarantine list. The procedure is described in the [Adobe Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html#remove-a-quarantined-address)
+
+
