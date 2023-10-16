@@ -15,7 +15,7 @@ Use the search field of the Select a document type screen to find the correct sc
 
 ![](assets/select-doc-type.png)
 
-## Recipients table {#NmsRecipient}
+## Recipient table {#NmsRecipient}
 
 Each profile in Campaign is a record in the **Recipient (nms)** table (or an external table) which stores all the profile attributes, such as first name, last name, email address, a cookie ID, Customer ID, mobile identifier or other information relevant to a particular channel. 
 
