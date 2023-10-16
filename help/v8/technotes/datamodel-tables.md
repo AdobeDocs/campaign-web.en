@@ -2,7 +2,7 @@
 title: Technote - Campaign tables
 description: Discover Campaign key tables
 ---
-# Campaign datamodel key tables{#campaign-datamodel-tables}
+# Campaign key tables{#campaign-datamodel-tables}
 
 Adobe Campaign relies on a relational database containing tables that are linked together. The pre-defined Adobe Campaign datamodel includes the main tables listed below.
 
@@ -24,7 +24,7 @@ This table relates to the **nms:recipient** schema.
 
 It is the default table used for the **recipients of deliveries**. As a result, it contains the information required for deliveries across different channels, such as the email address, format, mobile number, and more.
 
-The FolderId field is the foreign key that links the recipient to its folder. For more on this, see [XtkFolder](#XtkFolder).
+The FolderId field is the foreign key that links the recipient to its folder. For more on this, refer to the [Folder table](#XtkFolder).
 
 The CountryCode field is the 3166-1 Alpha 2 ISO code (2 characters) of the country associated with the recipient. This field is actually a foreign key on the country reference table (NmsCountry), which contains the country labels and other country code data. If the country is not populated, the value 'XX' is stored (and is used in place of a zero ID record).
 
@@ -36,7 +36,7 @@ This table relates to the **nms:group** schema.
 
 It enables you to create **lists of recipients**, or audiences. There is a many-to-many (N-N) relation between recipients and lists. A profile can belong to several lists and one list can contain several profiles. Lists are often used as audiences for deliveries. 
 
-There is a unique index on the field representing the internal name of the list. The list is linked to a folder. For more on this, see [XtkFolder](#XtkFolder).
+There is a unique index on the field representing the internal name of the list. The list is linked to a folder. For more on this, refer to the [Folder table](#XtkFolder).
 
 Learn how to create a list of recipients in [this section](../audience/create-audience.md).
 
@@ -54,7 +54,7 @@ In Adobe Campaign, you can create and manage subscriptions to information servic
 
 <!--Services are entities which are similar to lists (static recipient groupings), except that they circulate more information and enable easy management of subscriptions and unsubscriptions via forms.-->
 
-There is a unique index on the field representing the internal name of the service. The service is linked to a folder. The key is FolderId. For more on this, see [XtkFolder](#XtkFolder). 
+There is a unique index on the field representing the internal name of the service. The service is linked to a folder. The key is FolderId. For more on this, refer to the [Folder table](#XtkFolder). 
 
 The Type field specifies the delivery channel of this service: 0 for email, 1 for SMS. Note that services do not apply to the push notification channel.
 
@@ -90,7 +90,7 @@ Learn more about messages and deliveries in [this section](../msg/gs-messages.md
 
 ### Folder table {#XtkFolder}
 
-This table contains **all the folders in the tree** visible in the **Explorer** tab.
+This table contains **all the folders in the tree** visible in the **Explorer** tab. It relates to the **xtk:folder** schema.
 
 The folders are typed: the value of the Model field specifies the type of data that can be contained in the folder.
 
