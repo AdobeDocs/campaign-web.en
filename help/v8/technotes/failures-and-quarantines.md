@@ -7,9 +7,9 @@ badge: label="Beta"
 
 ## Understand delivery failures {#delivery-failures}
 
-If a message cannot be sent to a profile, the remote server automatically sends an error message to Adobe Campaign. This error is qualified to determine whether the email address, phone number or device should be [quarantined](#quarantines).
+If a message cannot be delivered to a profile, the remote server automatically sends an error message to Adobe Campaign. This error is qualified to determine whether the email address, phone number or device should be [quarantined](#quarantines).
 
-Once a message is sent, you can view the delivery status for each profile, and the associated failure type and reason in the delivery logs.
+In Adobe Campaign, once a message is sent, you can access the delivery status and the failure type and reason in the [delivery logs](../monitor/delivery-logs.md).
 
 When an email address, a phone number or a device is quarantined, the recipient is excluded at the delivery preparation step. Excluded messages are listed in the [delivery reports](../reporting/email-report.md).
 
@@ -52,7 +52,7 @@ The **Delivery duration** field of your [delivery properties](../advanced-settin
 
 You can also choose to specify dates. To do this, select **Explicitly set validity dates**. In this case, the delivery and validity limit dates also let you specify the time. The current time is used by default, but you can modify this directly in the input field.
 
-## Error types {#email-error-types}
+### Error types {#email-error-types}
 
 Possible reasons for a delivery failure are listed in **Adobe Campaign v8 (console) documentation**. 
 
