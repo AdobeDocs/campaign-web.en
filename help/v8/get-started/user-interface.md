@@ -190,3 +190,23 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_recipients_creation_touchpoints"
 >title="Recipients touchpoints"
 >abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_subscription_list"
+>title="Recipients subscriptions list"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_subscription_selection"
+>title="Recipients subscriptions selection"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_offers_eligible_list"
+>title="Recipients offers eligible list"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_offers_preview_proposition"
+>title="Recipients offers preview"
+>abstract="TBC"
