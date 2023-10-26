@@ -422,3 +422,52 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Conditional content subjectline condition"
 >abstract="TBC" 
 
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_properties"
+>title="Audience properties"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_count"
+>title="Audience count"
+>abstract="TBC"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_testprofiles"
+>title="Simulate test profiles"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_profiles_selection"
+>title="Simulate test profiles selection"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_send_testprofiles"
+>title="Simulate test profiles sending"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_email_log"
+>title="Simulate email log"
+>abstract="TBC"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_totalnumber_subscribers"
+>title="Subscriptions total number"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_overtheperiod_subscribers"
+>title="Subscriptions over the period"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_overallevolution_subscribers"
+>title="Subscriptions overall evolution"
+>abstract="TBC"
