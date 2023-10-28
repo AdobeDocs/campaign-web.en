@@ -1,7 +1,8 @@
 ---
 title: Connect to Adobe Campaign Web interface
 description: Learn how to connect to Adobe Campaign v8 Web user interface
-badge: label="Beta" 
+badge: label="Beta"
+exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 ---
 # Connect to Adobe Campaign {#connect-to-campaign}
 
@@ -86,5 +87,4 @@ You can switch to the dark theme from your profile icon. Use the **Dark theme** 
 
 User profile settings and account preferences are detailed in [this section](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html#preferences){target="_blank"}. 
 
-Learn more about Experience Cloud Central Interface Components in [this documentation](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html){target="_blank"}. 
-
+Learn more about Experience Cloud Central Interface Components in [this documentation](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html){target="_blank"}.
