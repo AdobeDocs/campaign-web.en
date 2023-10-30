@@ -30,20 +30,10 @@ This screen includes key links and resources for a quick access to the main Camp
 >title="Recents"
 >abstract="The **Recents** list provides shortcuts to the recently created and modified deliveries. This list shows their channel, status, owner, creation and modification dates."
 
-#### Access recent deliveries {#user-interface-recent}
-
 The **Recents** list provides shortcuts to the recently created and modified deliveries. This list shows their channel, status, owner, creation and modification dates. Click the **Show more** link to load more deliveries.
-
-#### Check key metrics {#user-interface-kpi}
 
 The **Key performance indicators** lets you check your platform effectiveness through common KPIs. Learn more about these KPIs in [this page](../reporting/kpis.md).
 
-#### Access documentation {#user-interface-learn}
-
->[!CONTEXTUALHELP]
->id="acw_home_learn"
->title="Learning"
->abstract="Access Campaign v8 Web key help pages from the **Learning** boxes below."
 
 Access Campaign v8 Web key help pages from the **Learning** section of the home page.
 
