@@ -26,7 +26,7 @@ Browse the links on the left to access Campaign v8 Web capabilities. Several lin
 This screen includes key links and resources for a quick access to the main Campaign v8 Web features. 
 
 >[!CONTEXTUALHELP]
->id="acw_home_recent"
+>id="acw_homepage_recent"
 >title="Recents"
 >abstract="The **Recents** list provides shortcuts to the recently created and modified deliveries. This list shows their channel, status, owner, creation and modification dates."
 
