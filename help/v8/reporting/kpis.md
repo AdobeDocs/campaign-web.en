@@ -7,6 +7,11 @@ exl-id: 4b182219-100b-4101-919b-b0b770dd8515
 # Key Performance Indicators {#kpis}
 
 >[!CONTEXTUALHELP]
+>id="acw_home_kpi"
+>title="Key performance indicators"
+>abstract="The **Key performance indicators** section lets you check your platform effectiveness through common KPIs."
+
+>[!CONTEXTUALHELP]
 >id="acw_keyindicators_spam"
 >title="Spam"
 >abstract="Spam KPI"
