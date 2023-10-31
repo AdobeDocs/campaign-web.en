@@ -74,6 +74,10 @@ Test profiles are seed addresses, which are additional recipients in the databas
 
 1. If you have already selected profiles to [preview the message](preview-content.md) in the content simulation screen, those profiles are pre-selected as test recipients. You can clear your selection and/or add additional recipients using the **[!UICONTROL Add test profile(s)]** button.
 
+    >[!NOTE]
+    >
+    >Test profiles are created in the [!DNL Campaign] client console into the **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** folder. Learn how to create and manage seed addresses in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.
+
 1. To also send the final message to the recipients of the test delivery, select the **[!UICONTROL Include test population in the main target]** option.
 
 1. Once the test profiles are selected, you can [send the test delivery](#send-test).
