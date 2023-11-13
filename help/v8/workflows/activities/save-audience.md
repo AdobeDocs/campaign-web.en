@@ -9,7 +9,7 @@ exl-id: 0f7cbc34-0536-493e-bb3b-0b1ac93d1232
 
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_saveaudience"
+>id="acw_orchestration_save_audience"
 >title="Save an audience"
 >abstract="Use this activity to update an existing audience or create a new audience from the population computed upstream in the workflow. The audiences created are added to the list of audiences, and available via the **Audiences** menu."
 
