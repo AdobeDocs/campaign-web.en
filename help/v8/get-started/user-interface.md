@@ -361,13 +361,10 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 
-
-
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
 >title="Reconciliation activity"
->abstract="Reconciliation activity" 
+>abstract="Use the **Reconciliation** activity to link unidentified data to existing resources." 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting"
