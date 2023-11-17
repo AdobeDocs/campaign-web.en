@@ -81,6 +81,23 @@ The **Clicks** indicator shows the following KPIs, for each channel:
 This metrics are based on the Consolidated tracking table (`nms:trackingStats`). This aggregate table is used for performance reasons when displaying reports, in the place of the Recipient tracking logs table (`nms:trackingLogRcp`) and it is not calculated in real-time. The table is generated a few minutes after the tracking logs are retrieved.
 
 
+## Subscription rates {#ui-sub-kpi} 
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_subscriptions"
+>title="Subscriptions"
+>abstract="This metric shows, for the selected channel, the sum of all subscriptions to a service, and the percentage of subscriptions compared to the total number of messages delivered with success."
+
+
+Recipients can opt-in to Email and SMS communications.
+
+The **Subscriptions** indicator shows the following KPIs, for each channel the percentage of the number of subscriptions compared to the total number of messages delivered with success.
+
+
+>[!NOTE]
+>
+> Subscription and unsubscription KPIs vary based on the service type. For instance, email subscriptions and unsubscriptions encompass all email-related services, whether they result from manual actions or web forms. It's important to distinguish this approach from the delivery-level unsubscription metric, which tracks unsubscription link clicks rather than actual unsubscribed users.
+
 ## Unsubscription rates {#ui-unsub-kpi} 
 
 >[!CONTEXTUALHELP]
@@ -88,9 +105,6 @@ This metrics are based on the Consolidated tracking table (`nms:trackingStats`).
 >title="Unsubscriptions"
 >abstract="This metric shows, for the selected channel, the sum of all unsubscriptions from a service, and the percentage of unsubscriptions compared to the total number of messages delivered with success."
 
->[!NOTE]
->
-> Subscription and unsubscription KPIs vary based on the service type. For instance, email subscriptions and unsubscriptions encompass all email-related services, whether they result from manual actions or web forms. It's important to distinguish this approach from the delivery-level unsubscription metric, which tracks unsubscription link clicks rather than actual unsubscribed users.
 
 Recipients must be able to opt-out from Email and SMS through a dedicated unsubscription link in the email content, or by replying STOP to a SMS.
 
@@ -100,6 +114,10 @@ The **Unsubscriptions** indicator shows the following KPIs, for each channel:
 
 * Sum of all clicks to an unsubscription link, i.e. with a URL category equals to "Opt-out".
 
+
+>[!NOTE]
+>
+> Subscription and unsubscription KPIs vary based on the service type. For instance, email subscriptions and unsubscriptions encompass all email-related services, whether they result from manual actions or web forms. It's important to distinguish this approach from the delivery-level unsubscription metric, which tracks unsubscription link clicks rather than actual unsubscribed users.
 
 ## Error rates {#ui-error-kpi} 
 
