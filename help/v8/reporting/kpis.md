@@ -135,3 +135,23 @@ The **Errors** indicator shows the following KPIs, for each channel:
 * Percentage of the number of errors compared to the total number of messages to be delivered.
 
 * Total number of errors cumulated during deliveries and automatic rebound processing.
+
+## Message sent {#ui-sent-kpi} 
+
+<!--DRAFT - This section requires a validation-->
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_sent"
+>title="Sent"
+>abstract="This metric shows, for the direct mail channel, the sum of all messages sent, and the percentage of message sent to the provider, compared to the total number of messages prepared during the delivery preparation phase."
+
+During the preparation phase, the direct mail extraction file is generated but information concerning recipients (i.e. delivery logs) is not updated.  The status of a delivery moved from Pending delivery to Sent when the Campaign user confirms the sending of the delivery. Then the delivery is set to Finished.
+
+It can never be 100% of messages sent compared to the total of message prepared, as some addresses can be missing or incomplete.
+
+The **Sent** indicator shows the following KPIs, for the Direct mail channel:
+
+* Percentage of the number of message sent compared to the total number of messages prepared.
+
+* Sum of all messages sent.
+
