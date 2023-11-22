@@ -495,3 +495,17 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Subscriptions overall evolution"
 
 
+>[!CONTEXTUALHELP]
+>id="acw_directmail_content"
+>title="Content for Direct Mail"
+>abstract="Content for Direct Mail"
+
+>[!CONTEXTUALHELP]
+>id="acw_directmail_properties_file"
+>title="File properties for Direct Mail"
+>abstract="File properties for Direct Mail"
+
+>[!CONTEXTUALHELP]
+>id="acw_directmail_properties_content"
+>title="Content properties for Direct Mail"
+>abstract="Content properties for Direct Mail"
