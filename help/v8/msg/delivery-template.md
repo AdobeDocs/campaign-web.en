@@ -18,6 +18,7 @@ For an accelerated and improved design process, you can create delivery template
 
 A template can include:
 
+* The **folder** and **execution folder** of the template. The folder is the location where the delivery template is saved. The execution folder is the folder where deliveries created based on this template are saved.
 * [Typologies](../advanced-settings/delivery-settings.md#typology),
 * The sender address,
 * An [audience](../audience/about-recipients.md), including [control groups](../audience/control-group.md),
@@ -41,9 +42,8 @@ A template can include:
 >[!CONTEXTUALHELP]
 >id="acw_delivery_templates"
 >title="Work with delivery templates"
->abstract="Use delivery templates to effortlessly create and save your existing deliveries for future use."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html#copy-an-existing-template" text="Duplicate an existing template"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html#convert-an-existing-delivery" text="Convert a delivery to a template"
+>abstract="Use delivery templates to create and save delivery settings for future use across your campaigns. You can create delivery templates from scratch, duplicate an existing template, or convert a delivery into a template."
+
 
 To access the content template list, select **[!UICONTROL Campaign Management]** > **[!UICONTROL Deliveries]** from the left menu, and browse to the **Templates** tab.
 
@@ -114,7 +114,7 @@ Any delivery can be converted to a template for future repeated delivery actions
 
 To save a delivery as a template, follow the steps below:
 
-1. Go to the **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]** menu.
+1. Browse to the **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]** menu.
 1. From the **[!UICONTROL Browse]** tab, click the **[!UICONTROL More actions]** button to the right of the desired delivery name, and select **[!UICONTROL Copy as a template]**.
 
     ![](assets/templates-convert-delivery.png)
