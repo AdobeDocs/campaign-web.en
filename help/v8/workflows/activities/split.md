@@ -33,6 +33,10 @@ The **Split** activity is a **Targeting** activity that allows you to segment in
 >title="Split activity sorting"
 >abstract="When setting a population limit for a subset, you can rank the selected profiles based on a specific profile attribute, in ascending or descending order. To do this, toggle on the **Enable sorting** option. For instance, you can restrict a subset to include only the top 50 profiles with the highest purchase amount."
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_complement"
+>title="Split generate complement"
+>abstract="Once that you have configured all the subsets, you can select the remaining population that did not match any of the subsets and include them into an additional outbound transition. To do this, toggle on the **Generate complement** option." 
 
 Follow these steps to configure the **Split** activity:
 
