@@ -506,3 +506,47 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_directmail_properties_content"
 >title="Content properties for Direct Mail"
 >abstract="Content properties for Direct Mail"
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile"
+>title="Load file activity"
+>abstract="Load file activity"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_samplefile"
+>title="Sample file"
+>abstract="Sample file"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_nameofthefile"
+>title="Name of the file"
+>abstract="Name of the file"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_targetdb"
+>title="Target database"
+>abstract="Target database"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_rejectmgt"
+>title="Reject management for Load file activity"
+>abstract="Reject management for Load file activity"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_outboundtransition"
+>title="Reject management outbound transition"
+>abstract="Reject management outbound transition"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_outboundtransition_reject"
+>title="Reject management outbound transition for rejects"
+>abstract="Reject management outbound transition for rejects"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_formatting"
+>title="Formatting for Load File activity"
+>abstract="Formatting for Load File activity"
+
