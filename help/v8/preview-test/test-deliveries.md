@@ -63,6 +63,10 @@ To start testing your message content:
 >title="Template file"
 >abstract="The formatting of the file must be the same as the original file.<br/>Supported file formats: txt, csv. Maximum file size: 15MB. Use first line as column header."
 
+>[!CONTEXTUALHELP]
+>id="acw_sms_preview_option_app_target"
+>title="Include test profiles in the main audience"
+>abstract="Enable this option to also send the final message to the recipients of the test delivery."
 
 Test profiles are seed addresses, which are additional recipients in the database. They can be created in the [!DNL Adobe Campaign] client console. Steps to send test messages to seed addresses are detailed below. 
 
@@ -74,13 +78,19 @@ Test profiles are seed addresses, which are additional recipients in the databas
 
 1. If you have already selected profiles to [preview the message](preview-content.md) in the content simulation screen, those profiles are pre-selected as test recipients. You can clear your selection and/or add additional recipients using the **[!UICONTROL Add test profile(s)]** button.
 
+    >[!NOTE]
+    >
+    >Test profiles are created in the [!DNL Campaign] client console into the **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** folder. Learn how to create and manage seed addresses in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.
+
 1. To also send the final message to the recipients of the test delivery, select the **[!UICONTROL Include test population in the main target]** option.
 
 1. Once the test profiles are selected, you can [send the test delivery](#send-test).
 
 ## Substitute profile data {#substitution-profiles}
 
-Use profile substitution to send test messages to a specific email address or phone number, while displaying data from an existing profile of the [!DNL Adobe Campaign] database. To perform this, follow the steps below:
+Use profile substitution to send test messages to a specific email address or phone number, while displaying data from an existing profile of the [!DNL Adobe Campaign] database. This mode can only be selected if the audience of the delivery has been defined.
+
+To substitute profile data from the main target, follow the steps below:
 
 
 1. From the content of your delivery, click the **[!UICONTROL Simulate content]** button, and the **[!UICONTROL Test]** button.
@@ -109,9 +119,9 @@ Use profile substitution to send test messages to a specific email address or ph
 
 1. Once the substitution profiles are selected, you can [send the test delivery](#send-test).
 
-## Send tests to subscribers {#subscribers}
+## Send tests to app subscribers {#subscribers}
 
-When working with push notifications, test deliveries can be only sent to your app subscribers. To select them, follow the steps below.
+When designing with push notifications, test deliveries can be only sent to your app subscribers. To select them, follow the steps below.
 
 1. From the content of your push delivery, click the **[!UICONTROL Simulate content]** button, and the **[!UICONTROL Test]** button.
 

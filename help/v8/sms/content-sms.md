@@ -12,10 +12,6 @@ exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
 >title="SMS Content"
 >abstract="Create the content of your SMS deliveries and personalize it with personalization fields, content blocks and dynamic content."
 
->[!CONTEXTUALHELP]
->id="acw_sms_preview_option_app_target"
->title="App subscribers"
->abstract="Preview and test the message by adding app subscribers to the main target."
 
 
 To design the content of an SMS delivery, follow these steps:

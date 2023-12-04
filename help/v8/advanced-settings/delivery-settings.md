@@ -24,13 +24,13 @@ These settings are available from the **Configure delivery settings** icon avail
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="Typology"
->abstract="Typology rules allow marketers to standardize business practices, across all deliveries. A typology is a collection of typology rules which lets you control, filter, and prioritize the sending of deliveries. Profiles which match criteria within a typology rule are excluded from the delivery audiences at the preparation phase."
+>abstract="Typology rules allow marketers to standardize business practices, across all deliveries. A typology is a collection of typology rules which lets you control, filter, and prioritize the sending of deliveries. Profiles which match criteria within a typology rule are excluded from the delivery audiences at the preparation phase. Typologies and typology rules are created in Campaign Client Console."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
 >title="Typology settings for the delivery"
->abstract="Typology rules allow marketers to standardize business practices, across all deliveries. A typology is a collection of typology rules which lets you control, filter, and prioritize the sending of deliveries. Profiles which match criteria within a typology rule are excluded from the delivery audiences at the preparation phase."
+>abstract="Typology rules allow marketers to standardize business practices, across all deliveries. A typology is a collection of typology rules which lets you control, filter, and prioritize the sending of deliveries. Profiles which match criteria within a typology rule are excluded from the delivery audiences at the preparation phase. Typologies and typology rules are created in Campaign Client Console."
 
 
 Typologies are sets of **typology rules**, that are executed during the preparation phase. Typology rules allow marketers to standardize business practices, across all deliveries. A typology is a collection of typology rules which lets you control, filter, and prioritize the sending of deliveries. Profiles which match criteria within a typology rule are excluded from the delivery audiences at the delivery preparation phase.  They allow you to make sure your emails always contain certain elements (such as an unsubscription link or a subject line) or filtering rules to exclude groups from your intended target (like unsubscribers, competitors, or non-loyalty customers).
@@ -42,7 +42,9 @@ When associating a typology with a message or message template, the typology rul
 ![](assets/delivery-settings-1.png)
 
 
-
+>[!NOTE]
+>
+>Typologies and typology rules are created in Campaign Client Console. Learn more about pressure rules and how to configure fatigue management in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html){target="_blank"}.
 
 ### Pressure parameters {#pressure-parameters}
 
@@ -77,7 +79,9 @@ Use the **Delivery mode** field to select the target evaluation mode. Three mode
 * **Estimation and approval of the provisional target**
 * **Target evaluation**
 
-Fatigue management comes with the **Campaign Optimization** add-on. Learn more about pressure rules and how to configure fatigue management in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}.
+>[!NOTE]
+>
+>Fatigue management is configured in Campaign Client Console. Learn more in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}.
 
 ### Capacity settings {#capacity-settings}
 
@@ -97,7 +101,9 @@ In this section, you can select a capacity rule defined in the Adobe Campaign v8
 
 The **importance of the recipient** field is a formula used to determine which recipients are kept when the capacity typology rules are exceeded.
 
-Learn more about consistency and capacity rules and how to configure them in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}.
+>[!NOTE]
+>
+>Typology rules are configured in Campaign Client Console. Learn more in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}.
 
 
 ## Audience settings {#audience}
@@ -133,13 +139,15 @@ Delivery parameters are technical settings which apply to your delivery.
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_webanalytics"
 >title="Web analytics settings for the delivery"
->abstract="Select a web analytics account. This account is configured in the Campaign client console. You can also define the tags shared with the analytics tool you are using."
+>abstract="Select a web analytics account. This account is configured in the Campaign Client Console. You can also define the tags shared with the analytics tool you are using."
 
 In this section, you can select a web analytics account. This account is configured in the Campaign client console. 
 
 You can also define the tags shared with the analytics tool you are using.
 
-Learn more about Web Analytics and Campaign in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
+>[!NOTE]
+>
+>Web Analytics capabilities are configured in Campaign Client Console. Learn more in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
 
 ### Retries {#retries}

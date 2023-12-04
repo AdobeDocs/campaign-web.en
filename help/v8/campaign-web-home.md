@@ -7,7 +7,7 @@ badge: label="Beta"
 ---
 # Adobe Campaign v8 Web Documentation {#campaign-documentation}
 
-![](assets/do-not-localize/banner-documentationv8.png) 
+<!--![](assets/do-not-localize/banner-documentationv8.png)--> 
 
 Campaign now provides a new web user interface (UI) with enhanced usability, accessibility, and a new design to significantly improve your user experience. This new modern UI simplifies marketing campaign design and delivery, and brings consistency, along with other Adobe solutions, including Adobe Experience Platform. [Learn more](get-started/get-started.md)
 

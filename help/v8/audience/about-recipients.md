@@ -12,8 +12,8 @@ In Adobe Campaign, the target population of a delivery is an audience. An audien
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
->title="Recipients"
->abstract="A recipient is a profile which is targeted to receive messages sent by Adobe Campaign. In Adobe Campaign, recipients are the default profiles targeted for sending deliveries (emails, SMS). From this list, you can view the recipient's profile, based on your permissions. Use the filtering options to browse this list. You can edit and update a small set of your recipient's attributes."
+>title="Profiles"
+>abstract="A profile is an individual which is targeted to receive messages sent by Adobe Campaign. In Adobe Campaign, recipients are the default profiles targeted for sending deliveries (emails, SMS). From this list, you can view the recipient's profile, based on your permissions. Use the filtering options to browse this list. You can edit and update a small set of your recipient's attributes."
 
 A recipient is a profile which is targeted to receive messages sent by Adobe Campaign. In Adobe Campaign, recipients are the default profiles targeted for sending deliveries (emails, SMS, etc.). Recipient data stored in the database enable you create audiences that will receive any given delivery, and to add personalization data in your delivery contents. Other types of profiles are stored in the database. They are designed for different uses: for example, seed profiles are made to test your deliveries before they are sent to the final audience.
 

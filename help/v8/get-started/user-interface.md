@@ -25,9 +25,15 @@ Browse the links on the left to access Campaign v8 Web capabilities. Several lin
 
 This screen includes key links and resources for a quick access to the main Campaign v8 Web features. 
 
-The **Recents** list provides shortcuts to the recently created and modified deliveries. This list shows their channel, status, owner, creation and modification dates.
+>[!CONTEXTUALHELP]
+>id="acw_homepage_recent"
+>title="Recents"
+>abstract="The **Recents** list provides shortcuts to the recently created and modified deliveries. This list shows their channel, status, owner, creation and modification dates."
+
+The **Recents** list provides shortcuts to the recently created and modified deliveries. This list shows their channel, status, owner, creation and modification dates. Click the **Show more** link to load more deliveries.
 
 The **Key performance indicators** lets you check your platform effectiveness through common KPIs. Learn more about these KPIs in [this page](../reporting/kpis.md).
+
 
 Access Campaign v8 Web key help pages from the **Learning** section of the home page.
 
@@ -83,19 +89,6 @@ In the DECISION MANAGEMENT section, you can view the offers and offer templates.
 
 Learn how to create and send offers in emails and SMS in [this section](../content/offers.md).
 
-## Top bar {#top-bar}
-
-Use the top bar of the interface to:
-
-* share your feedback as a Beta tester
-* switch between organizations and instances
-* switch between your Adobe Experience Cloud applications
-* access help pages, contact support and share feedback. You can search help articles and videos from the search field.
-
-![](assets/unified-shell.png){width="50%" align="left"}
-<!--
-Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
--->
 
 
 ## Contextual Help {#user-interface-help} 
@@ -110,41 +103,12 @@ Thanks to Campaign Gen AI's capabilities, this assistant transforms your experie
 
 Learn more in [this section](using-ai.md).
 
-## Supported browsers {#browsers}
 
-Campaign v8 Web is designed to work optimally in the latest version of Google Chrome, Safari and Microsoft Edge. You might have trouble using certain features on older versions or other browsers.
-
-## Language preferences {#language-pref}
-
-Campaign v8 Web is currently available in the following languages:
-
-* English (US) - EN-US
-* French - FR
-* German - DE
-* Italian - IT
-* Spanish - ES
-* Portuguese (Brazilian) - PTBR
-* Japanese - JP
-* Korean - KR
-* Simplified Chinese - CHS
-* Traditional Chinese - CHT
-
-
-Your default language for Campaign Web is determined by the preferred language specified in your user profile. It does not relate to the language of your Campaign server and client console.
-
-To change your language:
-
-1. Click on your profile icon, on the top right, then select **Preferences**.
-1. Then click the language link displayed under your email address.
-1. Select your preferred language and click **Save**. You can select a second language in case the component you are using is not localized in your first language.
-
-## Dark theme {#dark-theme}
-
-You can switch to the dark theme from your profile icon. Use the **Dark theme** toggle to enable/disable it.
 
 ## Learn more {#learn-more}
 
 Learn how to browse, search, and filter lists available in your Campaign environment [in this page](list-filters.md).
+
 
 
 <!--
@@ -189,4 +153,392 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 <!-- delivery settings-->
 
+
+
+
+
+
+<!-- FOR BETA (alignment) -->
+<!--https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CBETA%3E-+Official+list-->
+
+
+
+
+<!-- FOR GA -->
+<!-- Aligned with https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CGA%3E-+Official+list -->
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_list"
+>title="Recipients creation"
+>abstract="Recipients creation"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_details"
+>title="Recipients details"
+>abstract="Recipients details"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_contactinformation"
+>title="Recipients contact information"
+>abstract="Recipients contact information"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_address"
+>title="Recipients adress"
+>abstract="Recipients adress"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_account"
+>title="Recipients account"
+>abstract="Recipients account"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_customfields"
+>title="Recipients custom fields"
+>abstract="Recipients custom fields"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_cardoverview"
+>title="Recipients card overview"
+>abstract="Recipients card overview"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_touchpoints"
+>title="Recipients touchpoints"
+>abstract="Recipients touchpoints"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_subscription_list"
+>title="Recipients subscriptions list"
+>abstract="Recipients subscriptions list"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_subscription_selection"
+>title="Recipients subscriptions selection"
+>abstract="Recipients subscriptions selection"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_offers_eligible_list"
+>title="Recipients offers eligible list"
+>abstract="Recipients offers eligible list"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_offers_preview_proposition"
+>title="Recipients offers preview"
+>abstract="Recipients offers preview"
+
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_delivery_template"
+>title="Subscriptions delivery template"
+>abstract="Subscriptions delivery template"
+
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_menu"
+>title="Landing Pages"
+>abstract="Landing Pages"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_properties"
+>title="Landing Pages properties"
+>abstract="Landing Pages properties"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_pages_list"
+>title="Landing Pages pages"
+>abstract="Landing Pages pages"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_schedule"
+>title="Landing Pages schedule"
+>abstract="Landing Pages schedule"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_primarypage"
+>title="Landing Pages primary page"
+>abstract="Landing Pages primary page"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_subscription"
+>title="Landing Pages subscription"
+>abstract="Landing Pages subscription"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_calltoaction"
+>title="Landing Pages call to action"
+>abstract="Landing Pages call to action"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_simulate"
+>title="Landing Pages simulate"
+>abstract="Landing Pages simulate"
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_query_enrichment_noneditable"
+>title="Activity non editable"
+>abstract="Activity non editable"
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_menu"
+>title="Fragments"
+>abstract="Fragments"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_save"
+>title="Fragments save"
+>abstract="Fragments save"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_create"
+>title="Fragments creation"
+>abstract="Fragments creation"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_properties"
+>title="Fragments properties"
+>abstract="Fragments properties"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_type"
+>title="Fragments type"
+>abstract="Fragments type"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_list"
+>title="Fragments list"
+>abstract="Fragments list"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_details"
+>title="Fragments details"
+>abstract="Fragments details"
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_contenttemplate_menu"
+>title="Content template"
+>abstract="Content template"
+
+>[!CONTEXTUALHELP]
+>id="acw_contenttemplate_properties"
+>title="Content template properties"
+>abstract="Content template properties"
+
+>[!CONTEXTUALHELP]
+>id="acw_contenttemplate_design"
+>title="Content template design"
+>abstract="Content template design"
+
+>[!CONTEXTUALHELP]
+>id="acw_contenttemplate_selection"
+>title="Content template selection"
+>abstract="Content template selection"
+
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_reconciliation"
+>title="Reconciliation activity"
+>abstract="Use the **Reconciliation** activity to link unidentified data to existing resources." 
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_reconciliation_targeting"
+>title="Reconciliation targeting"
+>abstract="Reconciliation targeting" 
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_reconciliation_rules"
+>title="Reconciliation rules"
+>abstract="Reconciliation rules" 
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_reconciliation_targeting_selection"
+>title="Reconciliation targeting dimension"
+>abstract="Reconciliation targeting dimension" 
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_reconciliation_field"
+>title="Reconciliation select field"
+>abstract="Reconciliation select field" 
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_reconciliation_attribute"
+>title="Reconciliation select attribute"
+>abstract="Reconciliation select attribute" 
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_reconciliation_condition"
+>title="Reconciliation create condition"
+>abstract="Reconciliation create condition" 
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_reconciliation_complement"
+>title="Reconciliation generate complement"
+>abstract="Reconciliation generate complement" 
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_keep_unreconciled_data"
+>title="Reconciliation keep unreconciled data option"
+>abstract="Reconciliation keep unreconciled data option" 
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine_complement"
+>title="Combine generate complement"
+>abstract="Combine generate complement" 
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_segments"
+>title="Segments for split activity"
+>abstract="Segments for split activity" 
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_conditionalcontent_savefilter"
+>title="Conditional content save filter"
+>abstract="Conditional content save filter" 
+
+>[!CONTEXTUALHELP]
+>id="acw_conditionalcontent_selectfilter"
+>title="Conditional content select filter"
+>abstract="Conditional content select filter" 
+
+>[!CONTEXTUALHELP]
+>id="acw_conditionalcontent_subjectline"
+>title="Conditional content on subject line"
+>abstract="Conditional content on subject line" 
+
+>[!CONTEXTUALHELP]
+>id="acw_conditionalcontent_subjectlinecondition"
+>title="Conditional content subjectline condition"
+>abstract="Conditional content subjectline condition" 
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_properties"
+>title="Audience properties"
+>abstract="Audience properties"
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_count"
+>title="Audience count"
+>abstract="Audience count"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_testprofiles"
+>title="Simulate test profiles"
+>abstract="Simulate test profiles"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_profiles_selection"
+>title="Simulate test profiles selection"
+>abstract="Simulate test profiles selection"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_send_testprofiles"
+>title="Simulate test profiles sending"
+>abstract="Simulate test profiles sending"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_email_log"
+>title="Simulate email log"
+>abstract="Simulate email log"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_totalnumber_subscribers"
+>title="Subscriptions total number"
+>abstract="Subscriptions total number"
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_overtheperiod_subscribers"
+>title="Subscriptions over the period"
+>abstract="Subscriptions over the period"
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_overallevolution_subscribers"
+>title="Subscriptions overall evolution"
+>abstract="Subscriptions overall evolution"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_directmail_content"
+>title="Content for Direct Mail"
+>abstract="Content for Direct Mail"
+
+>[!CONTEXTUALHELP]
+>id="acw_directmail_properties_file"
+>title="File properties for Direct Mail"
+>abstract="File properties for Direct Mail"
+
+>[!CONTEXTUALHELP]
+>id="acw_directmail_properties_content"
+>title="Content properties for Direct Mail"
+>abstract="Content properties for Direct Mail"
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile"
+>title="Load file activity"
+>abstract="Load file activity"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_samplefile"
+>title="Sample file"
+>abstract="Sample file"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_nameofthefile"
+>title="Name of the file"
+>abstract="Name of the file"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_targetdb"
+>title="Target database"
+>abstract="Target database"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_rejectmgt"
+>title="Reject management for Load file activity"
+>abstract="Reject management for Load file activity"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_outboundtransition"
+>title="Reject management outbound transition"
+>abstract="Reject management outbound transition"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_outboundtransition_reject"
+>title="Reject management outbound transition for rejects"
+>abstract="Reject management outbound transition for rejects"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_formatting"
+>title="Formatting for Load File activity"
+>abstract="Formatting for Load File activity"
 

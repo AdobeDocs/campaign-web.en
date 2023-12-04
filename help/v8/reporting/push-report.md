@@ -20,7 +20,7 @@ The **Push delivery report** provides a thorough overview of the push channel, o
 
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
->title="Push delivery report summary"
+>title="Push delivery overview"
 >abstract="The **Push delivery overview** offers a comprehensive overview of your push delivery, providing extensive insights and specific data. It furnishes comprehensive information about the performance, effectiveness, and results of your delivery."
 
 The **[!UICONTROL Delivery overview]** report provides key performance indicators (KPIs) that give detailed information about how your visitors engage with your push messages.
@@ -88,7 +88,7 @@ The **Overall statistics** report presents data for the sent push notifications:
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_exclusions"
->title="Push overall statistics"
+>title="Push exclusions"
 >abstract="The **Exclusions** graph and table display the various reasons that prevented user profiles, which were excluded from the targeted profiles, from receiving the message."
 
 The **[!UICONTROL Exclusions]** graph and table display the various reasons that prevented user profiles, which were excluded from the targeted profiles, from receiving the message. Exclusion rules are detailed in the [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}.

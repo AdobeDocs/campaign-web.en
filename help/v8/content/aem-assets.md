@@ -2,7 +2,8 @@
 audience: end-user
 title: Manage assets with Adobe Experience Manager Assets as a Cloud Service
 description: Learn how to manage assets with Adobe Experience Manager Assets as a Cloud Service
-badge: label="Beta" 
+badge: label="Beta"
+exl-id: c1e548b1-f4c6-4672-9724-edfc418063a6
 ---
 # Manage assets with [!DNL Adobe Experience Manager Assets as a Cloud Service]{#aem-assets}
 

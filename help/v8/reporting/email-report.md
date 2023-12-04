@@ -74,7 +74,7 @@ The **[!UICONTROL Delivery statistics]** graph details the success of your deliv
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusion"
->title="Delivery statistics"
+>title="Delivery Causes of exclusion"
 >abstract="The **Causes of exclusion** graph and table show the breakdown per rule of messages rejected during the delivery preparation."
 
 
@@ -317,7 +317,7 @@ The **[!UICONTROL Breakdown of clicks over time]** graph contains the available 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_user_activities"
->title="User activities widget"
+>title="User activities"
 >abstract="The **User activities** graph shows the breakdown of opens and clicks in the form of a chart. You can choose the time period to target data: last day or hour or 30 minutes."
 
 The **[!UICONTROL User activities]** report shows the breakdown of opens and clicks in the form of a chart. You can choose the time period to target data: last day or hour or 30 minutes.
@@ -336,7 +336,7 @@ The **[!UICONTROL User activities]** report shows the breakdown of opens and cli
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_statistics"
->title="Tracking Statistics widget"
+>title="Tracking Statistics"
 >abstract="The **Tracking Statistics** graph provides statistics on opens and clicks. You have the option to select the specific time frame for targeting data."
 
 The **[!UICONTROL Tracking Statistics]** graph provides statistics on opens and clicks. You have the option to select the specific time frame for targeting data.

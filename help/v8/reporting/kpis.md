@@ -7,6 +7,11 @@ exl-id: 4b182219-100b-4101-919b-b0b770dd8515
 # Key Performance Indicators {#kpis}
 
 >[!CONTEXTUALHELP]
+>id="acw_homepage_kpi"
+>title="Key performance indicators"
+>abstract="The **Key performance indicators** section lets you check your platform effectiveness through common KPIs."
+
+>[!CONTEXTUALHELP]
 >id="acw_keyindicators_spam"
 >title="Spam"
 >abstract="Spam KPI"
@@ -76,12 +81,30 @@ The **Clicks** indicator shows the following KPIs, for each channel:
 This metrics are based on the Consolidated tracking table (`nms:trackingStats`). This aggregate table is used for performance reasons when displaying reports, in the place of the Recipient tracking logs table (`nms:trackingLogRcp`) and it is not calculated in real-time. The table is generated a few minutes after the tracking logs are retrieved.
 
 
+## Subscription rates {#ui-sub-kpi} 
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_subscriptions"
+>title="Subscriptions"
+>abstract="This metric shows, for the selected channel, the sum of all subscriptions to a service, and the percentage of subscriptions compared to the total number of messages delivered with success."
+
+
+Recipients can opt-in to Email and SMS communications.
+
+The **Subscriptions** indicator shows the following KPIs, for each channel the percentage of the number of subscriptions compared to the total number of messages delivered with success.
+
+
+>[!NOTE]
+>
+> Subscription and unsubscription KPIs vary based on the service type. For instance, email subscriptions and unsubscriptions encompass all email-related services, whether they result from manual actions or web forms. It's important to distinguish this approach from the delivery-level unsubscription metric, which tracks unsubscription link clicks rather than actual unsubscribed users.
+
 ## Unsubscription rates {#ui-unsub-kpi} 
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_unsubscriptions"
 >title="Unsubscriptions"
 >abstract="This metric shows, for the selected channel, the sum of all unsubscriptions from a service, and the percentage of unsubscriptions compared to the total number of messages delivered with success."
+
 
 Recipients must be able to opt-out from Email and SMS through a dedicated unsubscription link in the email content, or by replying STOP to a SMS.
 
@@ -91,6 +114,10 @@ The **Unsubscriptions** indicator shows the following KPIs, for each channel:
 
 * Sum of all clicks to an unsubscription link, i.e. with a URL category equals to "Opt-out".
 
+
+>[!NOTE]
+>
+> Subscription and unsubscription KPIs vary based on the service type. For instance, email subscriptions and unsubscriptions encompass all email-related services, whether they result from manual actions or web forms. It's important to distinguish this approach from the delivery-level unsubscription metric, which tracks unsubscription link clicks rather than actual unsubscribed users.
 
 ## Error rates {#ui-error-kpi} 
 
@@ -108,3 +135,23 @@ The **Errors** indicator shows the following KPIs, for each channel:
 * Percentage of the number of errors compared to the total number of messages to be delivered.
 
 * Total number of errors cumulated during deliveries and automatic rebound processing.
+
+## Message sent {#ui-sent-kpi} 
+
+<!--DRAFT - This section requires a validation-->
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_sent"
+>title="Sent"
+>abstract="This metric shows, for the direct mail channel, the sum of all messages sent, and the percentage of message sent to the provider, compared to the total number of messages prepared during the delivery preparation phase."
+
+During the preparation phase, the direct mail extraction file is generated but information concerning recipients (i.e. delivery logs) is not updated.  The status of a delivery moved from Pending delivery to Sent when the Campaign user confirms the sending of the delivery. Then the delivery is set to Finished.
+
+It can never be 100% of messages sent compared to the total of message prepared, as some addresses can be missing or incomplete.
+
+The **Sent** indicator shows the following KPIs, for the Direct mail channel:
+
+* Percentage of the number of message sent compared to the total number of messages prepared.
+
+* Sum of all messages sent.
+
