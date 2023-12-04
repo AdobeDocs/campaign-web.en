@@ -1,13 +1,13 @@
 ---
 product: campaign
-title: Work with delivery templates
+title: Use delivery templates
 description: Learn how to create and use delivery templates in Campaign Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
 ---
-# Work with delivery templates {#work-with-delivery-templates}
+# Use delivery templates {#work-with-delivery-templates}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_for_campaign"

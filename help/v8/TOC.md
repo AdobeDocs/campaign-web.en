@@ -24,7 +24,8 @@ hide: yes
   + [Find help & guidance](get-started/using-ai.md)
 + Messages & deliveries {#msg}
   + [Get started with messages](msg/gs-messages.md)
-  + [Work with delivery templates](msg/delivery-template.md)
+  + [Work with deliveries](msg/gs-deliveries.md)
+  + [Use delivery templates](msg/delivery-template.md)
   + Emails {#email}
     + [Create your first email](email/create-email.md)
     + Define email content {#content}
