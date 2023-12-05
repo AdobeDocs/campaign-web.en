@@ -62,7 +62,7 @@ To create a subscription service, follow the steps below.
 
     ![](assets/service-create-properties.png)
 
-1. By default, subscriptions are unlimited. You can disable the **[!UICONTROL  Unlimited validity period]** option to define a validity duration for the service.
+1. By default, subscriptions are unlimited. You can disable the **[!UICONTROL Unlimited validity period]** option to define a validity duration for the service.
 
     In the example below, after 20 days:
     * No recipients will be able to subscribe to this service anymore.
