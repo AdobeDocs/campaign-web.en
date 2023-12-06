@@ -5,6 +5,7 @@ description: Learn how to create your first delivery in Campaign Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
+exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
 ---
 # Work with deliveries {#work-with-deliveries}
 
