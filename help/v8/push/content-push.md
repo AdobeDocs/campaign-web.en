@@ -75,36 +75,36 @@ The Silent Push mode allows a "silent" notification to be sent to a mobile appli
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_critical"
->title="Critical alert mode for iOS"
+>title="Critical alert mode"
 >abstract="Enable this option to add sound to your notification, even when the user's phone is set to focus mode or if the device is muted. This ensures that users are notified of important alerts in any case."
     
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_count"
->title="Badge number for iOS"
+>title="Badge number"
 >abstract="Use this option to set the number of new unread information to be displayed directly on the app icon. This allows the user to quickly see the number of pending notifications."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_mutable"
->title="Mutable content for iOS"
+>title="Mutable content"
 >abstract="Use this option to allow the mobile application to download media content associated with the notification."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_score"
->title="Relevance score for iOS"
+>title="Relevance score"
 >abstract="Set a relevance score from 0 to 100 to prioritize the order of notifications in the notification summary. Higher scores indicate more important notifications."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_app_variables"
->title="Application variables for iOS"
+>title="Application variables"
 >abstract="Use application variables to define notification behavior. These variables are fully customizable and are included as part of the message payload sent to the mobile device."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_category"
->title="Category ID for iOS"
+>title="Category ID"
 >abstract="Specify the name of the category ID associated with the notification. This enables the display of action buttons, allowing the user to perform various tasks directly from the notification without opening the application."
 
 
