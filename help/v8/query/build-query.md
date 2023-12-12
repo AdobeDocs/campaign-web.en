@@ -29,7 +29,12 @@ Filtering components allow you to refine your query by using:
 * **Audiences**: Filter your query using an existing audience.
 * **Predefined filter**: Filter your query using existing predefined filters.
 
-### Build a custom condition
+### Configure a custom condition
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_customcondition"
+>title="Custom condition"
+>abstract="Custom condition"
 
 To filter your query using a custom condition, follow these steps:
 
@@ -90,6 +95,11 @@ aggregates: Define a calculation mode for the field to be added, such as an aggr
 
 ### Select an audience
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_selectaudience"
+>title="Select audience"
+>abstract="Select audience"
+
 To filter your query using an existing audience, follow these steps:
 
 1. Click the + button on the desired node and select **[!UICONTROL Select audience]**.
@@ -102,6 +112,11 @@ To filter your query using an existing audience, follow these steps:
 
 ### Use a predefined filter
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_predefinedfilter"
+>title="Predefined filter"
+>abstract="Predefined filter"
+
 To filter your query using a predefined filter, follow these steps:
 
 1. Click the + button on the desired node and select **[!UICONTROL Predefined filter]**.
@@ -113,6 +128,11 @@ To filter your query using a predefined filter, follow these steps:
     ![](assets/query-predefined-filter.png)
 
 ## Combine filtering components with operators
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_group"
+>title="Group"
+>abstract="Group"
 
 When adding a filtering component to your query, a new transition is automatically created on the query canvas, and the new filtering component is linked to the first one by an AND operator. This means that results from both the filtering components are combined into the query results.
 
@@ -131,6 +151,11 @@ Available operators are:
 * EXCEPT (Exclusion): excludes results from all the filtering componentns in the outbound transition. 
 
 ## Check and validate your query
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_ruleproperties"
+>title="Rule properties"
+>abstract="Rule properties"
 
 Once you've built your query in the canvas, you can check it using the Rule properties pane located on the right hand side. Available operations are as folows:
 

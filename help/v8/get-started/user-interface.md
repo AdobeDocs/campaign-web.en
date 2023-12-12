@@ -564,31 +564,3 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_orchestration_loadfile_formatting"
 >title="Formatting for Load File activity"
 >abstract="Formatting for Load File activity"
-
-
-
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_querymodeler_customcondition"
->title="Custom condition"
->abstract="Custom condition"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_querymodeler_ruleproperties"
->title="Rule properties"
->abstract="Rule properties"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_querymodeler_selectaudience"
->title="Select audience"
->abstract="Select audience"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_querymodeler_predefinedfilter"
->title="Predefined filter"
->abstract="Predefined filter"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_querymodeler_group"
->title="Group"
->abstract="Group"
