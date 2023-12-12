@@ -48,7 +48,7 @@ Adobe Campaign offers three different reports:
 <img alt="Infrequent" src="assets/do-not-localize/push_report.jpeg">
 </a>
 <div>
-<a href="global-report-gs.md"><strong> Global reports<strong></strong></a>
+<a href="campaign-reports.md"><strong> Global reports<strong></strong></a>
 </div>
 <p></td>
 <td>
