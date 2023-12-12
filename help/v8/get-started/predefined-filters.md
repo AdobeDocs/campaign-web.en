@@ -62,9 +62,7 @@ You can save a custom filter from the rule builder to have it available for futu
 
 Your custom filter is now available in the **Predefined Filters** list and accessible to all Campaign users.
 
-
 ### Create a filter from the filter list {#create-filter-from-list}
-
 
 You can create a filter from the **Predefined filters** entry in the left menu. To perform this, follow the steps below:
 
@@ -80,7 +78,6 @@ You can create a filter from the **Predefined filters** entry in the left menu. 
 
 1. Save your changes. The filter is added to the predefined filter list.
 
-
 ## Save your filter as a favorite {#fav-filter}
 
 When creating a predefined filter, you can enable the **Save as favorite** option if you want to see this predefined filter in your favorites.
@@ -89,7 +86,6 @@ When creating a predefined filter, you can enable the **Save as favorite** optio
 When a filter is saved as a favorite, it is available to all users in the **Favorite filters** section of the filter creation list, as shown below:
 
 ![](assets/predefined-filters-favorite.png){width="30%" align="left"}
-
 
 ## Use a predefined filter {#use-predefined-filter}
 
