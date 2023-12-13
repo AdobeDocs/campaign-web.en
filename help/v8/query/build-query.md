@@ -11,23 +11,15 @@ You can add two types of elements:
 
 * **Filtering components** (Custom condition, Select audience, Predefined filter) allow you to build your own rules, select an audience or a predefined filter to refine your query. [Learn how to work with filtering components](#filtering)
 
-    >[!BEGINSHADEBOX]
-
     Example:
     
     *Recipients who subscribed to the 'Sports' newsletter*. *Recipients living in New York*, *Recipients living in San Francisco*
 
-    >[!ENDSHADEBOX]
-
 * **Group operators** (AND, OR, EXCEPT) allow you to group together filtering components in the diagram to suit your needs. [Learn how to work with operators](#filtering)
-
-    >[!BEGINSHADEBOX]
 
     Example:
     
     *Recipients who subscribed to the "Sports" newsletter **AND** who live in New York **OR** San Francisco*.
-
-    >[!ENDSHADEBOX]
 
 ![](assets/query-add-component.png)
 
@@ -85,13 +77,9 @@ To filter your query using a custom condition, follow these steps:
 
 1. In the **Value** field, define the expected value. You can also leverage Campaign Web expression editor to manually define an expression using fields from the database and helper functions. To do this, click the **Edit expression** button.
 
-    >[!BEGINSHADEBOX]
-
-    *Query example returning all profiles aged 21 or more*
+    *Query example returning all profiles aged 21 or more:*
 
     ![](assets/query-custom-condition.png)
-
-    >[!ENDSHADEBOX]
 
 ### Select an audience
 
@@ -106,13 +94,9 @@ To filter your query using an existing audience, follow these steps:
 
 1. The **Select audience** properties pane opens on the right hand side. Choose the audience that you want to use to filter your query.
 
-    >[!BEGINSHADEBOX]
-
-    *Query example returning all profiles belonging to the "Festival Goers" audience"*
+    *Query example returning all profiles belonging to the "Festival Goers" audience":*
 
     ![](assets/query-audience.png)
-
-    >[!ENDSHADEBOX]
 
 ### Use a predefined filter
 
@@ -127,13 +111,9 @@ To filter your query using a predefined filter, follow these steps:
 
 1. The **Predefined filter** properties pane opens on the right hand side. Select a predefined filter from the list of custom filters or from favorites.
 
-    >[!BEGINSHADEBOX]
-
-    *Query example returning all profiles corresponding to the "Inactive customers" predefined filter.*
+    *Query example returning all profiles corresponding to the "Inactive customers" predefined filter:*
 
     ![](assets/query-predefined-filter.png)
-
-    >[!ENDSHADEBOX]
 
 ## Combine filtering components with operators {#operators}
 
