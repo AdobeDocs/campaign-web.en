@@ -5,14 +5,17 @@ description: Learn how to work with the Adobe Campaign Web query modeler.
 ---
 # Work with the query modeler {#segment-builder}
 
-## Query modeler overview {#overview}
+Adobe Campaign Web features a query modeler that simplifies the process of filtering databases to select specific targets based on various criteria. This includes the use of advanced expressions and operators. 
 
-Adobe Campaign Web features a query modeler that simplifies the process of filtering databases to select specific targets based on various criteria. This includes the use of advanced expressions and operators. The query modeler is seamlessly integrated throughout the interface, allowing you to perform filtering operations and build rules with ease:
+## Access the query modeler {#access}
 
-* Define target audiences: Specify the population you want to target in your messages or workflows, and effortlessly create new audiences tailored to your needs.
-* Customize workflow activities: apply rules within workflow activities, such as Split and Reconciliation, to align with your specific requirements,
-* Dynamize content: make your content dynamic by creating conditions that define which content should be displayed to different recipients, ensuring personalized and relevant messaging.
-* Predefined filters: Create predefined filters that serve as shortcuts during various filtering operations, whether you're working with data lists or forming the audience for a delivery.
+The query modeler is available in every context where you need to define rules to filter data.
+
+* **Define audiences**: Specify the population you want to target in your messages or workflows, and effortlessly create new audiences tailored to your needs.
+* **Customize workflow activities**: apply rules within workflow activities, such as Split and Reconciliation, to align with your specific requirements,
+* **Dynamize content**: make your content dynamic by creating conditions that define which content should be displayed to different recipients, ensuring personalized and relevant messaging.
+* **Predefined filters**: Create predefined filters that serve as shortcuts during various filtering operations, whether you're working with data lists or forming the audience for a delivery.
+* **Filter reports data**: Add rule to filter the data displayed in reports.
 
 ## Query modeler interface {#interface}
 
