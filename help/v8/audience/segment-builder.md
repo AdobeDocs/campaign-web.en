@@ -1,48 +1,88 @@
 ---
 audience: end-user
-title: Use an Adobe Experience Platform audience
-description: Learn how to use an audience from Adobe Experience Platform
+title: Build an audience with Campaign rule builder
+description: Learn how to work with the rule builder
+exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Beta" 
-exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
 ---
-# Use an Adobe Experience Platform audience{#aep-audience}
+# Work with the rule builder {#segment-builder}
 
-The Adobe Campaign Managed Cloud Service Destination and Source connectors allow seamless integration between Adobe Campaign and Adobe Experience Platform.
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card5"
+>title="Target audiences"
+>abstract="Building a delivery target has never been easier! With our latest rule builder, you now have the ability to define filtering criteria for recipients or any other targeting dimension from the database. Take advantage of your Adobe Experience Platform audience to further refine your target audience and maximize your campaign's impact."
 
-Once you have created an Adobe Experience Platform audience and it is available in the client console, you can use it in the same way as you would for a Campaign audience to personalize and send messages.
+The rule builder allows you to define the population targeted by your delivery by filtering data contained in the database. You can use it to build an audience either from a workflow using a **[!UICONTROL Build audience]** activity, or directly when creating a delivery to create a one-time audience.
 
->[!NOTE]
->
->To use Adobe Experience Platform audiences in Campaign, you need to configure the integration with Adobe Sources and Destinations. Refer to [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
+* [Learn how to create an audience](create-audience.md)
+* [Learn how to create a one-time audience for a delivery](one-time-audience.md)
 
-To select the audience of a delivery, you can also:
+## The palette
 
-* Build a new audience. [Learn more](segment-builder.md)
-* Load an audience from an external file. [Learn more](file-audience.md)
-* Use an existing Campaign audience. [Learn more](add-audience.md).
+The palette, located on the left side contains all the elements that you can filter on to create your audience. You can use the search bar to find elements quickly. The tiles contained in the palette must be moved into the center canvas in order to be configured and taken into account.
 
-To select an Adobe Experience Platform audience for your delivery, follow the steps below:
+![](assets/segment-builder2.png){width="70%" align="left"}
+    
+The palette is divided into two tabs:
 
-1. From the **Audience** section of the delivery creation assistant, click the **[!UICONTROL Select audience]** button.
+* **Attributes**: this tab allows you to access all available fields from the schema. The list of fields depends on the targeting schema defined in the email template.
 
-   ![](assets/create-audience.png)
+* **Audiences**: this tab allows you to filter using one of the existing audiences defined in the Campaign Classic console or from Adobe Experience Platform. [Learn how to monitor & manage audiences](manage-audience.md)
 
-1. Choose **[!UICONTROL Select audience]** to use an existing audience. To create a new audience to be used in this email, choose **Create your own**. Refer to this [section](segment-builder.md).
+    >[!NOTE]
+    >
+    >To leverage Adobe Experience Platform audiences, you need to configure the integration with Destinations. Refer to the [Adobe Experience Platform Destinations documentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html){target="_blank"}.
 
-    This screen displays all existing audiences defined in the Adobe Campaign client console, for the current folder. To choose an audience from Adobe Experience Platform, browse to the `AEP Audiences folder` from the filter section of the screen.
+## The canvas
 
-    ![](assets/select-audience-folder.png)
+The canvas is the central zone in which you can configure and combine rules based on the elements added from the palette. To add a new rule, drag a tile from the palette and drop it onto the canvas. You can then be presented with context-specific options according to the type of data being added. 
 
-    You can also define a rule to filter on the origin of the audiences, as below:
+![](assets/segment-builder4.png){width="70%" align="left"}
 
-    ![](assets/filter-on-aep-audience.png)
+## The rule properties pane
 
-1. Choose an audience and click **Select**.
+On the right side, the **Rule properties** pane allows you to perform the  actions listed below.
 
-1. Click **Edit rules** if you want to refine your audience.
+![](assets/segment-builder5.png){width="70%" align="left"}
 
-   ![](assets/refine-audience.png)
+* **View results:** displays the list of recipients targeted by the audience.
+* **Code view**: displays a code-based version of the audience in SQL.
+* **Display advanced attributes**: check this option if you want to view the complete list of attributes in the left palette: nodes, groupings, 1-1 links, 1-N links.
+* **Calculate**: updates and displays the number of profiles targeted by your query.
+* **Select or save filter**: use a predefined filter to filter your query, or save your query as a new filter for future reuse. [Learn how to work with predefined filters](../get-started/predefined-filters.md)
 
-1. Using the rule builder, you can enrich your audience with additional filters or by combining different audiences. See this [section](segment-builder.md).
+    >[!IMPORTANT]
+    >
+    >In that version of the product, some predefined filters are not available in the user interface. You can still use them. [Learn more](../get-started/guardrails.md#predefined-filters-filters-guardrails-limitations)
 
-1. Click **Save**. 
+* **Attributes**: displays a description of the created audience.
+
+## Example
+
+In this example, we build an audience to target all customers living in Atlanta or Seattle and born after 1980. 
+
+1. In the **Attributes** tab of the palette, search for the **Date of birth** field. Drag the tile and drop it onto the canvas. 
+
+    ![](assets/segment-builder6.png)
+
+1. In the canvas, choose the **After** operator and enter the desired date.
+
+    ![](assets/segment-builder7.png)
+
+1. In the palette, search for the **City** field and add it to the canvas below the first rule. 
+
+    ![](assets/segment-builder8.png)
+
+1. In the text field, enter the first city name, then press enter. 
+
+    ![](assets/segment-builder9.png)
+
+1. Repeat this action for the second city name.
+
+    ![](assets/segment-builder10.png)
+
+1. Click **View results** to display the list and number of recipients matching the query. You can also add columns to visualize and check the data. In our example, add the **City** column and should see Atlanta and Seattle.
+
+    ![](assets/segment-builder11.png)
+
+1. Click **Confirm**.
