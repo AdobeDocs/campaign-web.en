@@ -7,12 +7,7 @@ description: Learn how to work with the Adobe Campaign Web query modeler.
 
 ## Query modeler overview {#overview}
 
-Adobe Campaign Web features a query modeler that lets you filter the database to select a target according to various criteria using information from the database, advanced expressions and operators.
-
-
-Adobe Campaign Web features a user-friendly query modeler that simplifies the process of filtering databases to select specific targets based on various criteria. This includes the use of advanced expressions and operators.
-
-The query modeler is seamlessly integrated throughout the interface, allowing you to perform filtering operations and build rules with ease:
+Adobe Campaign Web features a query modeler that simplifies the process of filtering databases to select specific targets based on various criteria. This includes the use of advanced expressions and operators. The query modeler is seamlessly integrated throughout the interface, allowing you to perform filtering operations and build rules with ease:
 
 * Define target audiences: Specify the population you want to target in your messages or workflows, and effortlessly create new audiences tailored to your needs.
 * Customize workflow activities: apply rules within workflow activities, such as Split and Reconciliation, to align with your specific requirements,
@@ -21,22 +16,8 @@ The query modeler is seamlessly integrated throughout the interface, allowing yo
 
 ## Query modeler interface {#interface}
 
-The query modeler provides a central canvas where you can add and combine the different components building your query, and a Rule properties pane on the right hand side that provides information on your query.
+The query modeler provides a central canvas where you can add and combine the different components building your query.
+
+On the right hand side, the Rule properties pane provides information on your query. It allows you to perform various operations to check your query and ensure it suits your needs. Learn how to check and validate your query (link TBD)
 
 ![](assets/query-interface.png)
-
-The canvas is where you add and combine the components building your query. It is made up of:
-
-* A Query icon indicates the starting point of your query.
-* One or multiple paths: this is where you'll add the various elements composing your query.
-
-In addition, a toolbar located on the top left hand side provides options to easily navigate and manage the elements on the canvas.
-
-* Multiple selection mode
-* Rotate
-* Fit to screen
-* Zoom out / Zoom in
-* Display map
-
-
-On the right hand side, the **Rule properties** pane allows you to retrieve information on the query you are building in the canvas.
