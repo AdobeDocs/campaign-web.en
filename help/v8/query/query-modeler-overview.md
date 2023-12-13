@@ -5,11 +5,6 @@ description: Learn how to work with the Adobe Campaign Web query modeler.
 ---
 # Work with the query modeler {#segment-builder}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_card5"
->title="Target audiences"
->abstract="Building a delivery target has never been easier! With our latest query modeler, you now have the ability to define filtering criteria for recipients or any other targeting dimension from the database. Take advantage of your Adobe Experience Platform audience to further refine your target audience and maximize your campaign's impact."
-
 ## Query modeler overview {#overview}
 
 Adobe Campaign Web features a query modeler that lets you filter the database to select a target according to various criteria using information from the database, advanced expressions and operators.
