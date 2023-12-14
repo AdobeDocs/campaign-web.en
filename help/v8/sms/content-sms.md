@@ -10,7 +10,7 @@ exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
 >title="SMS Content"
->abstract="Create the content of your SMS deliveries and personalize it with personalization fields, content blocks and dynamic content."
+>abstract="Create the content of your SMS deliveries and personalize it with personalization fields, content blocks and dynamic content. To start composing your message, click the **Edit content** button."
 
 
 

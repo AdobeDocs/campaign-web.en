@@ -10,12 +10,12 @@ exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
 >title="Push Android content"
->abstract="Define the content of your push notification for Android devices. To compose your message, click the **Edit content** button."
+>abstract="Define the content of your push notification for Android devices. To start composing your message, click the **Edit content** button."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_content"
 >title="Push iOS content"
->abstract="Define the content of your push notification for iOS devices. To compose your message, click the **Edit content** button."
+>abstract="Define the content of your push notification for iOS devices. To start composing your message, click the **Edit content** button."
 
 ## Define the content of the notification {#push-message}
 
