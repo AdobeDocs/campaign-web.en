@@ -123,6 +123,7 @@ hide: yes
 + Query the database {#query-database}
   + [Work with the query modeler](query/query-modeler-overview.md)
   + [Build your first query](query/build-query.md)
+  + [Edit expressions](query/expression-editor.md)
   + [Query samples](query/query-samples.md)
 + Reporting {#reports}
   + [Get started with reports](reporting/gs-reports.md)
