@@ -15,12 +15,15 @@ exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_audience"
 >title="Define the SMS audience"
->abstract="Select the best audience for your SMS message."
+>abstract="You can create a new audience or select an existing one by clicking the **Select audience** button. If needed, add a control group to measure the impact of your delivery."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="Set a control group"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_template_selection"
 >title="SMS template selection"
->abstract="Select a predefined template to start your SMS delivery."
+>abstract="Select a predefined template to start your SMS delivery. Delivery templates allow you to easily reuse custom content and settings across your campaigns and deliveries."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html" text="Use delivery templates"
+
 
 You can create a standalone SMS delivery, or create a SMS in the context of a campaign workflow. The steps below detail the procedure for a standalone (one-shot) SMS delivery. If you are working in the context of a campaign workflow, creation steps are details in [this section](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
@@ -29,13 +32,13 @@ To create a new standalone SMS delivery, follow these steps:
 
 1. Browse to the **[!UICONTROL Deliveries]** menu on the left rail, and click the  **[!UICONTROL Create delivery]** button.
 
-1. Under the **[!UICONTROL Channel]** section, choose SMS as the channel and select a template. [Learn more about templates](../msg/delivery-template.md)
+1. Under the **[!UICONTROL Channel]** section, choose SMS as the channel, and select a template. [Learn more about templates](../msg/delivery-template.md)
 
 1. Click the **[!UICONTROL Create delivery]** button to confirm.
 
     ![](assets/sms_create_1.png)
 
-1. Enter a **[!UICONTROL Label]** for the delivery and access the **[!UICONTROL Additional options]** drop-down.
+1. Enter a **[!UICONTROL Label]** for the delivery and access the **[!UICONTROL Additional options]** drop-down. If your delivery is based on an extended schema, specific **Custom options** fields are available.
 
     +++Configure the following settings based on your requirements.
     * **[!UICONTROL Internal name]**: Assign a unique identifier to the delivery.
@@ -45,11 +48,15 @@ To create a new standalone SMS delivery, follow these steps:
     * **[!UICONTROL Nature]**: Specify the email's nature for classification purposes.
     +++
 
-1. Click the **[!UICONTROL Select audience]** button to target an existing audience or create your own. [Learn more](../audience/about-recipients.md).
+1. Click the **[!UICONTROL Select audience]** button to target an existing audience or create your own. [Learn more about audiences](../audience/about-recipients.md).
 
     ![](assets/sms_create_2.png)
 
-1. Switch on the **[!UICONTROL Enable control]** group option to set a control group to measure the impact of your delivery allowing you to compare the behavior of the population which received the message with the behavior of contacts which did not. [Learn more](../audience/control-group.md)
+    Learn how to select an existing audience in [this page](../audience/add-audience.md)
+
+    Learn how to create a new audience in [this page](../audience/one-time-audience.md)
+
+1. Switch on the **[!UICONTROL Enable control group]** option to set a control group to measure the impact of your delivery. Messages are not sent to that control group, so that you can compare the behavior of the population which received the message with the behavior of contacts which did not. [Learn more](../audience/control-group.md)
 
 1. Click **[!UICONTROL Edit content]** to start designing the content of your SMS message. [Learn more](content-sms.md)
 

@@ -27,7 +27,7 @@ To create a new standalone push delivery, follow these steps:
 
 1. Browse to the **[!UICONTROL Deliveries]** menu on the left rail, and click the  **[!UICONTROL Create delivery]** button.
 
-1. Under the **[!UICONTROL Channel]** section, choose **Push notification** as the channel and select a template, depending on the chosen device operation system: Android or iOS. [Learn more about templates](../msg/delivery-template.md)
+1. Under the **[!UICONTROL Channel]** section, choose **Push notification** as the channel, and select a template, depending on the chosen device operation system: Android or iOS. [Learn more about templates](../msg/delivery-template.md)
 
 1. Click the **[!UICONTROL Create delivery]** button to confirm.
 
@@ -39,7 +39,7 @@ Configure your delivery settings as detailed below:
 
 1. Enter a **[!UICONTROL Label]** for the delivery. By default, the label is set with the label of the selected template. It should be updated.
 
-1. Browse the **[!UICONTROL Additional options]** drop-down to customize the options, if needed.
+1. Browse the **[!UICONTROL Additional options]** drop-down to customize the options, if needed. If your delivery is based on an extended schema, specific **Custom options** fields are available.
 
     +++Configure the following settings based on your requirements.
     * **[!UICONTROL Internal name]**: Assign a unique identifier to the delivery.
