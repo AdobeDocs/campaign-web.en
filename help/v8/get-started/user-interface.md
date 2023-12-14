@@ -372,7 +372,10 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Content template selection"
 >abstract="Content template selection"
 
-
+>[!CONTEXTUALHELP]
+>id="acw_contenttemplate_edition"
+>title="Content template edition"
+>abstract="Content template edition"
 
 
 
@@ -564,3 +567,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_orchestration_loadfile_formatting"
 >title="Formatting for Load File activity"
 >abstract="Formatting for Load File activity"
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_querymessage"
+>title="Query modeler"
+>abstract="Define filtering criteria for recipients or any other targeting dimension from the database. Take advantage of your Adobe Experience Platform audience to further refine your target audience and maximize the impact of your campaign."
