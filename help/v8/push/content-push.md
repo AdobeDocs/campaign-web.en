@@ -22,7 +22,15 @@ exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_msg"
 >title="Push iOS message"
->abstract="Define the title and content of your push iOS message. Use the personalization dialog to personalize content and add conditions."
+>abstract="Define the content of your push notification for iOS devices. To compose your message, click the **Title** and **Message** fields. Use the Expression editor to personalize data, and add dynamic content. For more custom configuration, browse to the **Advanced settings** section."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_android_msg"
+>title="Push iOS message"
+>abstract="Define the content of your push notification for Android devices. To compose your message, click the **Title** and **Message** fields. Use the Expression editor to personalize data and add dynamic content. To further personalize your push notification, you can choose an image to add to your push notification, the notification's icon to display on your profiles' devices, and its color. For more custom configuration, browse to the **Advanced settings** section."
+
+
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_silent"
@@ -81,7 +89,7 @@ The Silent Push mode allows a "silent" notification to be sent to a mobile appli
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_count"
->title="Badge number"
+>title="Notification count"
 >abstract="Use this option to set the number of new unread information to be displayed directly on the app icon. This allows the user to quickly see the number of pending notifications."
 
 
@@ -133,7 +141,7 @@ Advanced options depend on the mobile operating system: Android or iOS. Browse t
 
 |Parameter | Description |
 |---------|---------|
-|**[!UICONTROL Critical alert mode]**| Enable this option to add sound to your notification, even when the user's phone is set to focus mode or if the device is muted. This ensures that important alerts are noticed by the user. |
+|**[!UICONTROL Critical alert mode]**| Enable this option to add sound to your notification, even when the user's phone is set to focus mode or if the device is muted. This ensures that important alerts are noticed by the user. When selected, you can adjust the volume of the notification using the Volume level bar. A number between 0 and 100 above the bar reflects your settings. |
 |**[!UICONTROL Clean Badge]**| Enable this option to refresh the badge value displayed on the application icon. It ensures that the badge accurately reflects the number of new unread information.|
 |**[!UICONTROL Notification count]**| Set a number that will be displayed directly on the application icon, indicating the number of new unread information. This provides a quick visual reference for the user.|
 |**[!UICONTROL Volume]**| Volume of your sound from 0 to 100. |
