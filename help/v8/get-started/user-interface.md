@@ -251,7 +251,10 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Test profiles Additional Data"
 >abstract="Test profiles Additional Data"
 
-
+>[!CONTEXTUALHELP]
+>id="acw_recipients_testprofiles_menu"
+>title="Test profiles"
+>abstract="Test profiles"
 
 
 >[!CONTEXTUALHELP]
