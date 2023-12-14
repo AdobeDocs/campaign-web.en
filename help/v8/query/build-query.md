@@ -50,7 +50,7 @@ To filter your query using a custom condition, follow these steps:
     >
     >The Edit expression button allows you to leverage Campaign Web expression editor to manually define an expression using fields from the database and helper functions.
 
-1. Select the operator to apply from the drop-down list. Various operators are available for use.Note that operators available in the drop-down list depend on the selected attribute's data type. 
+1. Select the operator to apply from the drop-down list. Various operators are available for use. Note that operators available in the drop-down list depend on the attribute's data type. 
 
    +++List of available operators
 
@@ -80,6 +80,32 @@ To filter your query using a custom condition, follow these steps:
     *Query example returning all profiles aged 21 or more:*
 
     ![](assets/query-custom-condition.png)
+
+**Custom conditions on distant tables (1-1 and 1-N links)**
+
+Custom conditions allows you to query distant tables linked to the Recipients table.
+
+For a **1-1 link** with another database resource, select the value directly from the table targeted.
+
++++Query example
+
+Here, the query is targeting recipients whose country or region is included in given values (uk and us)
+
+![](assets/custom-condition-1-1.png)
+
++++ 
+
+For a **1-N link** with another database resource, you can define sub-conditions on the fields of this second resource. 
+
+For example, you can select the Exists operator on the profile purchases to target all the profiles for which purchases exist. Once done, add a custom condition on the outbound transition and create a filter to suit your needs.
+
++++Query example
+
+Here, the query is targeting recipients who made purchases related to the BrewMaster product, for a total amount of at least 100$.
+
+![](assets/custom-condition-1-N.png)
+
++++ 
 
 ### Select an audience
 
@@ -132,9 +158,9 @@ To change the operator used to link filtering conditions together, click on it a
 
 Available operators are:
 
-* **AND (Intersection)**: Combines results from all the filtering components in the outbound transitions. 
-* **OR (Union)**: Includes results from at least one of the filtering components in the outbound transitions.
-* **EXCEPT (Exclusion)**: Excludes results from all the filtering componentns in the outbound transition. 
+* **AND (Intersection)**: Combines results matching all the filtering components in the outbound transitions. 
+* **OR (Union)**: Includes results matching at least one of the filtering components in the outbound transitions.
+* **EXCEPT (Exclusion)**: Excludes results matching all the filtering componentns in the outbound transition. 
 
 ![](assets/query-operator-change.png)
 

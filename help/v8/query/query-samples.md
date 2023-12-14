@@ -5,10 +5,22 @@ description: Learn how to work with the rule builder
 ---
 # Query samples {#query-samples}
 
-https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-delivery-info.html?lang=en
+## Queries on recipients {#querying-recipient-table}
 
-https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/compute-aggregates.html?lang=en
+* recover the names and emails of recipients whose email domain is “orange.co.uk” and who don’t live in London.
 
-https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-grouping-management.html?lang=en
+* recipients not contacted during the last 7 days.
 
-https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-grouping-management.html?lang=en
+* email domains targeted over 30 times during previous deliveries.
+
+## Queries on deliveries {#number-of-clicks-for-a-specific-delivery}
+
+* number of clicks for a specific delivery.
+
+* recipients who didn't open an email in the last 7 days.
+
+* profiles who have opened a delivery within the last 2 weeks:
+
+* Follow up after a previous delivery.
+
+    A "Summer sports offer" delivery is sent. Four days after the delivery, two other deliveries are sent. One of them is "watersports offer", the other is a follow-up to the first "Summer sports offer" delivery. The "Watersports offer" delivery is sent to recipients who clicked the "watersports" link in the first delivery. These clicks show that the recipient is interested in the topic. It makes sense to steer them towards similar offers. However, recipients who did not click in the "Summer sports offer" will receive the same content again.
