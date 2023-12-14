@@ -37,7 +37,7 @@ To create a new standalone push delivery, follow these steps:
 
 Configure your delivery settings as detailed below:
 
-1. Enter a **[!UICONTROL Label]** for the delivery
+1. Enter a **[!UICONTROL Label]** for the delivery. By default, the label is set with the label of the selected template. It should be updated.
 
 1. Browse the **[!UICONTROL Additional options]** drop-down to customize the options, if needed.
 
