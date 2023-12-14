@@ -8,34 +8,38 @@ exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
 # Create a push notification delivery {#create-push}
 
 >[!CONTEXTUALHELP]
->id="acw_deliveries_push_audience"
->title="Define the Push audience"
->abstract="Select the best audience for your Push message."
-
->[!CONTEXTUALHELP]
 >id="acw_push_notification_template"
 >title="Push Notification template"
->abstract="Select a push notification template to start your push delivery."
+>abstract="Select a push notification template to start your push delivery. Delivery templates allow you to easily reuse custom content and settings across your campaigns and deliveries."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html" text="Use delivery templates"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
 >title="Push delivery properties"
->abstract="Manage the Push delivery properties."
+>abstract="Define your Push delivery properties. Enter the label of the push and use the **Additional Options** to configure the internal name, delivery folder and code. You can also enter a custom description."
 
 You can create a standalone push notification delivery, or create a push notification in the context of a campaign workflow. The steps below detail the procedure for a standalone (one-shot) push delivery. If you are working in the context of a campaign workflow, creation steps are details in [this section](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
+## Create a push delivery {#create-push-delivery}
 
 To create a new standalone push delivery, follow these steps:
 
 1. Browse to the **[!UICONTROL Deliveries]** menu on the left rail, and click the  **[!UICONTROL Create delivery]** button.
 
-1. Under the **[!UICONTROL Channel]** section, choose **Push notification** as the channel and select a template, depending on the chosen device operational system: Android or iOS. [Learn more about templates](../msg/delivery-template.md)
+1. Under the **[!UICONTROL Channel]** section, choose **Push notification** as the channel and select a template, depending on the chosen device operation system: Android or iOS. [Learn more about templates](../msg/delivery-template.md)
 
 1. Click the **[!UICONTROL Create delivery]** button to confirm.
 
     ![](assets/push_create_1.png)
 
-1. Enter a **[!UICONTROL Label]** for the delivery and access the **[!UICONTROL Additional options]** drop-down.
+## Configure the delivery settings {#configure-push-settings}
+
+Configure your delivery settings as detailed below:
+
+1. Enter a **[!UICONTROL Label]** for the delivery
+
+1. Browse the **[!UICONTROL Additional options]** drop-down to customize the options, if needed.
 
     +++Configure the following settings based on your requirements.
     * **[!UICONTROL Internal name]**: Assign a unique identifier to the delivery.
@@ -45,26 +49,47 @@ To create a new standalone push delivery, follow these steps:
     * **[!UICONTROL Nature]**: Specify the email's nature for classification purposes.
     +++
 
-1. From the **[!UICONTROL Audience]** menu, select the application you want to use for this delivery.
 
-1. Click the **[!UICONTROL Select audience]** button to target an existing audience or create your own. [Learn more](../audience/about-recipients.md)
+## Select your push delivery audience {#create-audience-push}
 
-    Note that, by default, your push notification will be sent to all subscribers of the application.
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_audience"
+>title="Define the push notification audience"
+>abstract="To define the audience of your message, you must first select the app associated to the Push delivery. By default, your push notification is sent to all subscribers of the application. You can refine to a specific audience by clicking the **Select audience** button. If needed, add a control group to measure the impact of your delivery."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="Set a control group"
+
+
+You must first select the app, and then you can refine the Push notification audience, as detailed below:
+
+1. From the **[!UICONTROL Audience]** section, select the application you want to use for this delivery. By default, your push notification is sent to all subscribers of the application. You can refine to a specific audience by clicking the **[!UICONTROL Select audience]** button.
 
     ![](assets/push_create_2.png)
 
-1. Switch on the **[!UICONTROL Enable control]** group option to set a control group to measure the impact of your delivery allowing you to compare the behavior of the population which received the message with the behavior of contacts which did not. [Learn more](../audience/control-group.md)
+1. Select an existing audience, or create your own audience, to refine the target population for your Push delivery. For Push notification, the default [target dimension](../audience/about-recipients.md#targeting-dimensions) is **Subscriber application** (nms:appSubscriptionRcp), which is linked to the recipients table. 
 
-1. Click **[!UICONTROL Edit content]** to start designing the content of your  push notification. [Learn more](content-push.md)
+    Learn how to select an existing audience in [this page](../audience/add-audience.md)
 
-    ![](assets/push_create_5.png)
+    Learn how to create a new audience in [this page](../audience/one-time-audience.md)
 
-    From this screen, you can also [simulate your content](../preview-test/preview-test.md) and [set up offers](../content/offers.md).
+1. Switch on the **[!UICONTROL Enable control group]** option to set a control group to measure the impact of your delivery. Messages are not sent to that control group, so that you can compare the behavior of the population which received the message with the behavior of contacts which did not. [Learn more](../audience/control-group.md)
 
-1. To schedule your delivery to a specific date and time, switch on the **[!UICONTROL Enable scheduling]** option. After you initiate the delivery, the message will be automatically sent on the exact date and time that you have defined for the recipient. Learn more about delivery scheduling in [this section](../msg/gs-messages.md#gs-schedule)
+## Define the Push notification content {#create-content-push}
 
-    ![](assets/push_create_3.png)
+To define the content of your notification, click **[!UICONTROL Edit content]**. [Learn more](content-push.md)
 
-1. Click **[!UICONTROL Configure delivery settings]** to access advanced options related to your delivery template. [Learn more](../advanced-settings/delivery-settings.md)
+![](assets/push_create_5.png)
 
-    ![](assets/push_create_4.png)
+From this screen, you can also [simulate your content](../preview-test/preview-test.md) and [set up offers](../content/offers.md).
+
+## Schedule your delivery sending {#schedule-push}
+
+To schedule your delivery to a specific date and time, switch on the **[!UICONTROL Enable scheduling]** option. After you initiate the delivery, the message will be automatically sent on the exact date and time that you have defined for the recipient. Learn more about delivery scheduling in [this section](../msg/gs-messages.md#gs-schedule)
+
+![](assets/push_create_3.png)
+
+
+## Delivery advanced settings {#adv-push}
+
+Click **[!UICONTROL Configure delivery settings]** to access advanced options related to your delivery template. [Learn more](../advanced-settings/delivery-settings.md)
+
+![](assets/push_create_4.png)

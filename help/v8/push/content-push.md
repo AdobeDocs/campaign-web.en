@@ -10,12 +10,12 @@ exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
 >title="Push Android content"
->abstract="Define the push Android content."
+>abstract="Define the content of your push notification for Android devices. To compose your message, click the **Title** and **Message** fields. Use the Expression editor to personalize data and add dynamic content. To further personalize your push notification, you can choose an image to add to your push notification, the notification's icon to display on your profiles' devices, and its color. For more custom configuration, browse to the **Advanced settings** section."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_content"
 >title="Push iOS content"
->abstract="Define the push iOS content."
+>abstract="Define the content of your push notification for iOS devices. To compose your message, click the **Title** and **Message** fields. Use the Expression editor to personalize data, and add dynamic content. For more custom configuration, browse to the **Advanced settings** section."
 
 ## Define the content of the notification {#push-message}
 
@@ -29,7 +29,7 @@ exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
 >title="Silent notification for iOS"
 >abstract="The Silent Push mode allows a "silent" notification to be sent to a mobile application. The user is not made aware of the notification's arrival. It is transferred directly to the application."
 
-
+Once your push delivery is created, you can define its content. Parameters and settings depend on the mobile operating system: Android or iOS. Browse the tabs below to learn how to compose your message for each operating system. 
 
 >[!BEGINTABS]
 
@@ -107,6 +107,7 @@ The Silent Push mode allows a "silent" notification to be sent to a mobile appli
 >title="Category ID"
 >abstract="Specify the name of the category ID associated with the notification. This enables the display of action buttons, allowing the user to perform various tasks directly from the notification without opening the application."
 
+Advanced options depend on the mobile operating system: Android or iOS. Browse the tabs below to learn how to define options for your message for each operating system. 
 
 >[!BEGINTABS]
 
