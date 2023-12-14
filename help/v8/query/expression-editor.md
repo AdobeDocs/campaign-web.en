@@ -14,7 +14,7 @@ These operations are available from the query modeler Edit expression button, av
 The expression editor provides:
 
 * An input field in which the expression is defined.
-* The list of available fields that can be used in the expression and correspond to the targeting dimension of the query (see [Targeting dimensions and resources](../../automating/using/query.md#targeting-dimensions-and-resources)).
+* The list of available fields that can be used in the expression and correspond to the targeting dimension of the query.
 * The list of available functions, sorted by category.
 
 Edit the expression by entering an expression directly in the input field or by using the lists of available fields and functions. To do this, place your cursor in your inexpression where you want to add the elemnt and double click the desired field or expression.
@@ -30,7 +30,7 @@ The standard expressions are made up of one or several conditions that respect t
 * Each condition takes the form of **&lt;value1&gt; &lt;comparison operator&gt; &lt;value2&gt;** whereby:
 
     * **&lt;value1&gt;** is a field or a function. For example **@created** for the date a profile was created or **Year(@created)** for the year a profile was created.
-    * **&lt;comparison operator&gt;** is one of the operators listed in the [Comparison operators](../../automating/using/advanced-expression-editing.md#comparison-operators) section. This operator defines the comparison method between **&lt;value1&gt;** and **&lt;value2&gt;**.
+    * **&lt;comparison operator&gt;** is one of the operators listed in the Comparison operators section. This operator defines the comparison method between **&lt;value1&gt;** and **&lt;value2&gt;**.
     * **&lt;value2&gt;** is a field, a function, or a value inputted manually.
 
   >[!NOTE]
@@ -59,7 +59,7 @@ JavaScript expressions are made up of one or multiple conditions, and they use t
 * Each condition takes the form of **&lt;context&gt; &lt;comparison operator&gt; &lt;value2&gt;** whereby:
 
     * **&lt;context&gt;** is a field or a function that allows you to specify the context. For example **context.profile.@email** for a profile's email address or **context.profile.firstName.length()** for the number of characters of a profile's first name.
-    * **&lt;comparison operator&gt;** is one of the operators listed in the [Comparison operators](../../automating/using/advanced-expression-editing.md#comparison-operators) section. This operator defines the comparison method between **&lt;context&gt;** and **&lt;value2&gt;**.
+    * **&lt;comparison operator&gt;** is one of the operators listed in the Comparison operators section. This operator defines the comparison method between **&lt;context&gt;** and **&lt;value2&gt;**.
     * **&lt;value2&gt;** is a field, a function, or a value inputted manually.
 
   >[!NOTE]
