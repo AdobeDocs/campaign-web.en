@@ -25,7 +25,6 @@ To detect possible errors in the message content or personalization settings, se
 
 Before sending a test, make sure you define a target audience for you delivery. [Learn more](../audience/about-recipients.md)
 
-
 To start testing your message content:
 
 1. Edit the content of your delivery.
@@ -38,7 +37,7 @@ To start testing your message content:
 
     Depending on the message channel, test messages can be sent to the following types of recipients: 
 
-    * For SMS and emails, you can use [test profiles](#test-profiles), which are specific additional recipients in the database. These recipients are created in the [!DNL Campaign] client console. Learn more in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+    * For SMS and emails, you can use [test profiles](#test-profiles), which are specific additional recipients in the database. [Learn more](../audience/test-profiles.md)
         
     * For SMS and emails, you can also use the [substitution from main target](#substitution-profiles) mode, which sends the test messages to email test address or phone number, and use personalization data of an existing profile. This allows you to experience the message as the recipients would, giving you an accurate representation of the content that the profile will receive.
 
@@ -68,7 +67,9 @@ To start testing your message content:
 >title="Include test profiles in the main audience"
 >abstract="Enable this option to also send the final message to the recipients of the test delivery."
 
-Test profiles are seed addresses, which are additional recipients in the database. They can be created in the [!DNL Adobe Campaign] client console. Steps to send test messages to seed addresses are detailed below. 
+Test profiles are seed addresses, which are additional recipients in the database. They can be created from the **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]** menu. [Learn more](../audience/test-profiles.md#create-test-profiles)
+
+The steps to send test messages to seed addresses are detailed below. 
 
 1. From the content of your delivery, click the **[!UICONTROL Simulate content]** button, and the **[!UICONTROL Test]** button.
 
@@ -80,7 +81,7 @@ Test profiles are seed addresses, which are additional recipients in the databas
 
     >[!NOTE]
     >
-    >Test profiles are created in the [!DNL Campaign] client console into the **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** folder. Learn how to create and manage seed addresses in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.
+    >Test profiles are created from the **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]** menu. Learn how to create and manage them in [this section](../audience/test-profiles.md#create-test-profiles).
 
 1. To also send the final message to the recipients of the test delivery, select the **[!UICONTROL Include test population in the main target]** option.
 
