@@ -8,6 +8,11 @@ level: Beginner
 ---
 # Create and manage test profiles {#create-test-profiles}
 
+>[!CONTEXTUALHELP]
+>id="acw_recipients_testprofiles_menu"
+>title="Create test profiles"
+>abstract="Test profiles are created as seed addresses. They are additional recipients in the database used to target fictitious profiles who do not match the defined target criteria."
+
 Test profiles are created as seed addresses. They are additional recipients in the database used to target fictitious profiles who do not match the defined target criteria.
 
 This way, test profiles let you preview and test the personalization and rendering before sending your delivery, by sending them proofs.
@@ -21,6 +26,11 @@ The steps to send test messages to seed addresses are detailed in [this section]
 >Test profiles are automatically excluded from reports on the following delivery statistics: **[!UICONTROL Clicks]**, **[!UICONTROL Opens]**, **[!UICONTROL Unsubscriptions]**.
 
 ## Create a test profile {#create-test-profile}
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_testprofiles_additionaldata"
+>title="Test profiles Additional Data"
+>abstract="Enter the personalization data used for the deliveries created in the Data management workflows and which you want to assign a specific value to."
 
 To create a test profile, follow the steps below.
 
@@ -49,3 +59,5 @@ To create a test profile, follow the steps below.
 1. Click the **[!UICONTROL Save]** button.
 
 The test profile you just created is now ready to be used to send a test. [Learn more](../preview-test/test-deliveries.md#test-profiles)
+
+<!--Use test profiles in Direct mail?-->
