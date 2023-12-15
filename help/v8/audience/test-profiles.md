@@ -60,4 +60,8 @@ To create a test profile, follow the steps below.
 
 The test profile you just created is now ready to be used to send a test. [Learn more](../preview-test/test-deliveries.md#test-profiles)
 
-<!--Use test profiles in Direct mail?-->
+<!--Use test profiles in Direct mail? cf v7/v8-->
+
+<!--Where can you see touchpoints? seen in mocks-->
+
+<!--Add test audience? Seen in dev ticket-->
