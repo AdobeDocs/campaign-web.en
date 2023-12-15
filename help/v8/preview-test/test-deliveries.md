@@ -77,13 +77,23 @@ The steps to send test messages to seed addresses are detailed below.
 
     ![](assets/simulate-profile-mode.png)
 
-1. If you have already selected profiles to [preview the message](preview-content.md) in the content simulation screen, those profiles are pre-selected as test recipients. You can clear your selection and/or add additional recipients using the **[!UICONTROL Add test profile(s)]** button.
-
     >[!NOTE]
     >
     >Test profiles are created from the **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]** menu. Learn how to create and manage them in [this section](../audience/test-profiles.md#create-test-profiles).
 
+1. If you have already selected profiles to [preview the message](preview-content.md) in the content simulation screen, those profiles are pre-selected as test recipients. You can clear your selection and/or add additional recipients using the **[!UICONTROL Add test profile(s)]** button.
+
+1. When browsing the test profile list, you can use filters to refine your search.
+
+    ![](assets/simulate-test-profile-filter.png)
+
+    For example, you can define a rule to find all test profiles whith the **[!UICONTROL Prospect]** status.
+
+    ![](assets/simulate-test-profile-filter-ex.png)
+
 1. To also send the final message to the recipients of the test delivery, select the **[!UICONTROL Include test population in the main target]** option.
+
+    ![](assets/simulate-include-test.png)
 
 1. Once the test profiles are selected, you can [send the test delivery](#send-test).
 

@@ -63,5 +63,3 @@ The test profile you just created is now ready to be used to send a test. [Learn
 <!--Use test profiles in Direct mail? cf v7/v8-->
 
 <!--Where can you see touchpoints? seen in mocks-->
-
-<!--Add test audience? Seen in dev ticket-->
