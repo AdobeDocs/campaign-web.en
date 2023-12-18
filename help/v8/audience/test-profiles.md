@@ -73,12 +73,12 @@ The test profile you just created is now ready to be used to send a test. [Learn
 
 <!--Where can you see touchpoints? seen in mocks-->
 
-## Seed addresses folders {#seed-addresses-folders}
+## Manage seed addresses folders {#seed-addresses-folders}
 
 Seed addresses are not managed via standard profiles and targets, but in a dedicated node of the Adobe Campaign hierarchy **[!UICONTROL Resources]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Seed addresses]**.
 
-You can create sub-folders in order to organize the seed addresses. To do this, right-click the Seed addresses node and select Create new sub-folder. Name the sub-folder and then click **[!UICONTROL Create]** to validate. You can now create or copy seed addresses to this sub-folder.
+You can create sub-folders in order to organize the seed addresses. To do this, right-click the Seed addresses node and select Create new sub-folder. Name the sub-folder and then click **[!UICONTROL Create]** to validate. You can now create or copy seed addresses to this sub-folder. [Learn how to create folders](../get-started/permissions.md#folders)
 
 ![](assets/test-profile-sub-folder.png)
 
-You can also create a test profile from here. [Learn how to create folders](../get-started/permissions.md#folders)
+You can also create a test profile from here.
