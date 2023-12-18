@@ -5,16 +5,16 @@ description: Learn how to define and send test deliveries
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="LA"
 ---
-# Send test deliveries {#send-test-deliveries}
+# Send proofs {#send-test-deliveries}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_mode"
 >title="Preview mode"
 >abstract="Preview and test the message by including the test population to the main target."
 
-Once your message content has been defined, you can preview and test it by sending test deliveries to test profiles. If you inserted personalized content, you can check how this content is displayed in the message, using test profile data.
+Once your message content has been defined, you can preview and test it by sending proofs to test profiles. If you inserted personalized content, you can check how this content is displayed in the message, using test profile data.
 
-To detect possible errors in the message content or personalization settings, send test messages to test profiles before sending it to the target audience. A test message should be sent each time a change is made, to validate the latest content. Sending test deliveries (previously known as 'proofs') is an important step in validating your campaign and identifying potential issues. The recipients of a test message can check various elements such as links, opt-out links, images, or mirror pages, as well as detect any errors in the rendering, content, personalization settings and delivery configuration.
+To detect possible errors in the message content or personalization settings, send proofs to test profiles before sending it to the target audience. A proof should be sent each time a change is made, to validate the latest content. Sending test deliveries (previously known as 'proofs') is an important step in validating your campaign and identifying potential issues. The proof recipients can check various elements such as links, opt-out links, images, or mirror pages, as well as detect any errors in the rendering, content, personalization settings and delivery configuration.
 
 ## Simulate content with test recipients {#simulate-content-test-deliveries}
 
@@ -29,17 +29,17 @@ To start testing your message content:
 
 1. Edit the content of your delivery.
 1. Click the **[!UICONTROL Simulate content]** button. 
-1. Click the **[!UICONTROL Test]** button to send test messages.
+1. Click the **[!UICONTROL Test]** button to send proofs.
 
     ![](assets/simulate-test-button-email.png)
 
 1. Select your test recipients.
 
-    Depending on the message channel, test messages can be sent to the following types of recipients: 
+    Depending on the message channel, proofs can be sent to the following types of recipients: 
 
     * For SMS and emails, you can use [test profiles](#test-profiles), which are specific additional recipients in the database. [Learn more](../audience/test-profiles.md)
         
-    * For SMS and emails, you can also use the [substitution from main target](#substitution-profiles) mode, which sends the test messages to email test address or phone number, and use personalization data of an existing profile. This allows you to experience the message as the recipients would, giving you an accurate representation of the content that the profile will receive.
+    * For SMS and emails, you can also use the [substitution from main target](#substitution-profiles) mode, which sends the proofs to email test address or phone number, and use personalization data of an existing profile. This allows you to experience the message as the recipients would, giving you an accurate representation of the content that the profile will receive.
 
     * For push messages, you can use [subscribers](#subscribers), which are fictitious subscribers added to the database. They are created in the [!DNL Campaign] console. Learn more in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
@@ -69,7 +69,7 @@ To start testing your message content:
 
 Test profiles are seed addresses, which are additional recipients in the database. They can be created from the **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]** menu. [Learn more](../audience/test-profiles.md#create-test-profiles)
 
-The steps to send test messages to seed addresses are detailed below. 
+The steps to send proofs to seed addresses are detailed below. 
 
 1. From the content of your delivery, click the **[!UICONTROL Simulate content]** button, and the **[!UICONTROL Test]** button.
 
@@ -99,7 +99,7 @@ The steps to send test messages to seed addresses are detailed below.
 
 ## Substitute profile data {#substitution-profiles}
 
-Use profile substitution to send test messages to a specific email address or phone number, while displaying data from an existing profile of the [!DNL Adobe Campaign] database. This mode can only be selected if the audience of the delivery has been defined.
+Use profile substitution to send proofs to a specific email address or phone number, while displaying data from an existing profile of the [!DNL Adobe Campaign] database. This mode can only be selected if the audience of the delivery has been defined.
 
 To substitute profile data from the main target, follow the steps below:
 
