@@ -82,6 +82,8 @@ hide: yes
     + [Render your email](preview-test/email-rendering.md)
 + Audiences & recipients {#audiences}
   + [Work with recipients & audiences](audience/about-recipients.md)
+  + Manage profiles {#manage-profiles}
+    + [Create test profiles](audience/test-profiles.md)
   + [Create audiences](audience/create-audience.md)
   + Select your delivery recipients {#target-audiences}
     + [Select an existing audience](audience/add-audience.md)
