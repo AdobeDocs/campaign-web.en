@@ -45,25 +45,29 @@ To create a test profile, follow the steps below.
 
     ![](assets/test-profile-details.png)
 
-1. In the **[!UICONTROL Basic details]** section, enter a label for easy retrieving in the user interface.
+    >[!NOTE]
+    >
+    >The label of the address is automatically filled in with the first name and last name you defined.
 
-1. By default, the test profiles are stored in the **[!UICONTROL Seed addresses]** folder. You can change it by browsing to the desired location. [Learn more](#seed-addresses-folders)
+1. By default, test profiles are stored in the **[!UICONTROL Seed addresses]** folder. You can change it by browsing to the desired location. [Learn more](#seed-addresses-folders)
 
     ![](assets/test-profile-folder.png)
 
 <!--
-The label of the address is automatically filled in with the last name and first name you defined. (Not available yet in UI)
-
 You do not need to enter all fields of each tab when creating a seed address. Missing personalization elements are entered randomly during delivery analysis. (Not valid?)
 -->
 
-1. In the **[!UICONTROL Contact information]** section, enter the email address and other relevant data. The email address is displayed in the user interface with the test profile label.
+1. In the **[!UICONTROL Contact information]** section, enter the email address and other relevant data. The email address is displayed between brackets after the test profile label.
+
+    ![](assets/test-profile-address.png)
 
 1. If you select the **[!UICONTROL No longer contact (by any channel)]** checkbox, the profile is on denylist. Such recipient is no longer targeted on any channel (email, SMS, etc.).
 
-1. In the **[!UICONTROL Additional data]** tab, enter the personalization data used for the deliveries created in the Data management workflows and which you want to assign a specific value to. 
+1. In the **[!UICONTROL Additional data]** tab, enter the personalization data used for the deliveries created in the Data management workflows and which you want to assign a specific value to. [Learn more on workflows](../workflows/gs-workflows.md)
+
+    ![](assets/test-profile-additional-data.png)
     
-   Make sure that additional target data has been defined with an alias starting with '@' in the **[!UICONTROL Enrichment]** workflow activity. Otherwise, you will not be able to use them properly with your seed addresses in your delivery activity.<!--Is this visible in UI for GA?-->
+   Make sure that additional target data has been defined with an alias starting with '@' in the **[!UICONTROL Enrichment]** workflow activity. Otherwise, you cannot use it properly with your seed addresses in the delivery activity. [Learn more on the Enrichment activity](v8/workflows/activities/enrichment.md)
 
 1. Click the **[!UICONTROL Save]** button.
 
@@ -71,14 +75,16 @@ The test profile you just created is now ready to be used to send a test. [Learn
 
 <!--Use test profiles in Direct mail? cf v7/v8-->
 
-<!--Where can you see touchpoints? seen in mocks-->
-
 ## Manage seed addresses folders {#seed-addresses-folders}
 
-Seed addresses are not managed via standard profiles and targets, but in a dedicated node of the Adobe Campaign hierarchy **[!UICONTROL Resources]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Seed addresses]**.
+Seed addresses are stored in a dedicated node of the Adobe Campaign hierarchy: **[!UICONTROL Explorer]** > **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]**.
 
-You can create sub-folders in order to organize the seed addresses. To do this, right-click the Seed addresses node and select Create new sub-folder. Name the sub-folder and then click **[!UICONTROL Create]** to validate. You can now create or copy seed addresses to this sub-folder. [Learn how to create folders](../get-started/permissions.md#folders)
+To organize test profiles, you can create subfolders from the More actions drop-down list. [Learn how to create folders](../get-started/permissions.md#folders)
 
-![](assets/test-profile-sub-folder.png)
+![](assets/test-profile-sub-folders.png)
 
-You can also create a test profile from here.
+You can also create a test profile from any **[!UICONTROL Seed addresses]** folder or subfolder. Fill in all the details the same way you would do it from the **[!UICONTROL Customer Management]** > **[!UICONTROL Profiles]** menu. [Learn more](#create-test-profile)
+
+To edit a test profiles, click its label either from the **[!UICONTROL Test profiles]** tab or from the folder where it is stored.
+
+
