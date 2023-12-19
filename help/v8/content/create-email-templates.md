@@ -10,6 +10,11 @@ level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
 ---
 # Work with content templates {#content-templates}
+
+>[!CONTEXTUALHELP]
+>id="acw_contenttemplate_menu"
+>title="Define your own content"
+>abstract="Create a standalone custom template from scratch to make your content reusable across multiple emails."
  
 For an accelerated and improved design process, you can create standalone templates to easily reuse custom content across [!DNL Adobe Campaign].
 

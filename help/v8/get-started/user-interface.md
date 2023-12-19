@@ -355,10 +355,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_menu"
->title="Content template"
->abstract="Content template"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_properties"
