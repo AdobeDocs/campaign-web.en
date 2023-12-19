@@ -5,7 +5,7 @@ title: Work with email templates
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
 badge: label="LA" 
 ---
-# Work with email templates {#email-content-templates}
+# Use email templates {#use-email-templates}
 
 When [creating an email](../email/create-email.md), use the **[!UICONTROL Select design template]** section of the **[!UICONTROL Create your email]** interface to start building your content from a template.
 
@@ -22,8 +22,6 @@ Learn how to use templates and how to save an email content as a template in the
 >[!NOTE]
 >
 >Email content templates are different from [delivery templates](../msg/delivery-template.md). They allow you to reuse only email content, whereas delivery templates allow use to reuse delivery content but also all the delivery settings and properties such as typologies, sender address, audiences, etc.
-
-## Use a template {#use-templates}
 
 To start building your content with one of the sample or saved templates, follow the steps below.
 
@@ -49,22 +47,3 @@ To start building your content with one of the sample or saved templates, follow
 
 1. Edit your content as desired using the email designer. [Learn more](create-email-content.md)
 
-## Save email content as template {#save-as-template}
-
-Once you [designed an email](create-email-content.md), you can save this content as a template for future reuse. Saved templates are available to all users of your Adobe Campaign environment.
-
-To save an email content as a template, follow the steps below:
-
-1. From the email designer, click the ellipsis on top right of the screen.
-
-1. Select **[!UICONTROL Save as content template]** from the drop-down menu.
-
-    ![](assets/email_designer-save-template.png)
-
-1. Enter a name for this template, and save.
-
-    ![](assets/email_designer-template-name.png)
-
-You can now [use this template](#use-templates) to build a new content: it is available in the **[!UICONTROL Saved templates]** tab of the Email Designer.
-
-![](assets/email_designer-saved-template.png)
