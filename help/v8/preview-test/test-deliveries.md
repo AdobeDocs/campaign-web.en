@@ -87,7 +87,7 @@ The steps to send proofs to seed addresses are detailed below.
 
     ![](assets/simulate-test-profile-filter.png)
 
-    For example, you can define a rule to find all test profiles whith the **[!UICONTROL Prospect]** status.
+    For example, you can define a rule to find all test profiles whith the **[!UICONTROL Prospect]** status. [Learn more on advanced filters](../get-started/list-filters.md#adv-attributes)
 
     ![](assets/simulate-test-profile-filter-ex.png)
 
