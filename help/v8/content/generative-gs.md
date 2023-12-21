@@ -8,6 +8,12 @@ exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 # Get started with the Content Assistant {#generative-gs}
 
 >[!CONTEXTUALHELP]
+>id="acw_homepage_rn5"
+>title="Gen AI for email content"
+>abstract="Our Gen AI technology utilizes advanced algorithms to generate highly engaging and personalized content. Drive higher open rates, click-through rates, and conversions with Gen AI's intelligent content generation. Stay ahead of the competition and elevate your email marketing game with Gen AI on email content."
+
+
+>[!CONTEXTUALHELP]
 >id="acw_generation_settings"
 >title="Content Assistant"
 >abstract="Once you have crafted and personalized your delivery, you can use the Content Assistant to enhance your content. This feature simplifies the process of personalization and content improvement by allowing you to fine-tune the content by describing what you want to generate."

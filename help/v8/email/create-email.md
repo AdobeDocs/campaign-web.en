@@ -8,10 +8,13 @@ badge: label="Beta"
 
 # Send your first email {#first-email}
 
+
+
 >[!CONTEXTUALHELP]
->id="acw_homepage_card2"
->title="Gen AI for email content"
->abstract="Our Gen AI technology utilizes advanced algorithms to generate highly engaging and personalized content. Drive higher open rates, click-through rates, and conversions with Gen AI's intelligent content generation. Stay ahead of the competition and elevate your email marketing game with Gen AI on email content."
+>id="acw_homepage_card3"
+>title="Get started with emails"
+>abstract="You can create a standalone email delivery, or create an email in the context of a campaign workflow. Learn how to create the delivery, select the audience, and design the email content."
+
 
 Learn how to create your first targeted email. In this use case, you schedule the sending of an email to Silver and Gold loyalty members on a specific date.
 

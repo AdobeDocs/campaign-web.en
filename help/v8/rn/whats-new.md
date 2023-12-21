@@ -9,9 +9,10 @@ badge: label="Beta"
 # What's new? {#new}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_card1"
->title="What's new?"
+>id="acw_homepage_card2"
+>title="Release Notes"
 >abstract="Our latest release is packed with intuitive features designed to simplify the creation of personalized cross-channel campaigns, drive exceptional results, and give you a competitive advantage across all channels."
+
 
 We are thrilled to introduce the BETA version of Adobe Campaign web UI. Our latest release is packed with intuitive features designed to simplify the creation of personalized cross-channel campaigns, drive exceptional results, and give you a competitive advantage across all channels.
 
