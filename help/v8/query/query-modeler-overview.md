@@ -19,31 +19,13 @@ The query modeler is available in every context where you need to define rules t
 
 |Usage|Example|
 |  ---  |  ---  |
-|**Define audiences**: Specify the population you want to target in your messages or workflows, and effortlessly create new audiences tailored to your needs. <!--(LINK TBD)-->|![](assets/access-audience.png){width="50" align="center" zoomable="yes"}|
-|**Customize workflow activities**: apply rules within workflow activities, such as Split and Reconciliation, to align with your specific requirements.|![](assets/access-workflow.png){width="50" align="center" zoomable="yes"}|
-|**Predefined filters**: Create predefined filters that serve as shortcuts during various filtering operations, whether you're working with data lists or forming the audience for a delivery.|![](assets/access-predefined-filter.png){width="50" align="center" zoomable="yes"}|
-|**Filter reports data**: Add rule to filter the data displayed in reports.|![](assets/access-reports.png){width="50" align="center" zoomable="yes"}|
-|**Customize lists**: Create custom rules to filter the data displayed in lists such as recipients, deliveries lists etc.|![](assets/access-lists.png){width="50" align="center" zoomable="yes"}|
+|**Define audiences**: Specify the population you want to target in your messages or workflows, and effortlessly create new audiences tailored to your needs.|![](assets/access-audience.png){width="200" align="center" zoomable="yes"}|
+|**Customize workflow activities**: apply rules within workflow activities, such as Split and Reconciliation, to align with your specific requirements.|![](assets/access-workflow.png){width="200" align="center" zoomable="yes"}|
+|**Predefined filters**: Create predefined filters that serve as shortcuts during various filtering operations, whether you're working with data lists or forming the audience for a delivery.|![](assets/access-predefined-filter.png){width="200" align="center" zoomable="yes"}|
+|**Filter reports data**: Add rule to filter the data displayed in reports.|![](assets/access-reports.png){width="200" align="center" zoomable="yes"}|
+|**Customize lists**: Create custom rules to filter the data displayed in lists such as recipients, deliveries lists etc.|![](assets/access-lists.png){width="200" align="center" zoomable="yes"}|
 
-## Access the query modeler {#access}
 
-The query modeler is available in every context where you need to define rules to filter data.
-
-**Define audiences**: Specify the population you want to target in your messages or workflows, and effortlessly create new audiences tailored to your needs. <!--(LINK TBD)-->
-
-+++Example
-
-![](assets/access-audience.png)
-
-+++
-
-**Customize workflow activities**: apply rules within workflow activities, such as Split and Reconciliation, to align with your specific requirements. <!--(LINK TBD)-->
-
-+++Example
-
-![](assets/access-workflow.png)
-
-+++
 
 <!--**Dynamize content**: make your content dynamic by creating conditions that define which content should be displayed to different recipients, ensuring personalized and relevant messaging.
 
@@ -54,29 +36,6 @@ The query modeler is available in every context where you need to define rules t
  +++
 -->
 
-**Predefined filters**: Create predefined filters that serve as shortcuts during various filtering operations, whether you're working with data lists or forming the audience for a delivery. <!--(LINK TBD)-->
-
-+++Example
-
-![](assets/access-predefined-filter.png)
-
-+++
-
-**Filter reports data**: Add rule to filter the data displayed in reports. <!--(LINK TBD)-->
-
-+++Example
-
-![](assets/access-reports.png)
-
-+++
-
-**Customize lists**: Create custom rules to filter the data displayed in lists such as recipients, deliveries lists etc. <!--(LINK TBD)-->
-
-+++Example
-
-![](assets/access-lists.png)
-
-+++
 
 ## Query modeler interface {#interface}
 
