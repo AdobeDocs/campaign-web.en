@@ -17,54 +17,54 @@ Adobe Campaign Web features a query modeler that simplifies the process of filte
 
 The query modeler is available in every context where you need to define rules to filter data.
 
-* **Define audiences**: Specify the population you want to target in your messages or workflows, and effortlessly create new audiences tailored to your needs.
+**Define audiences**: Specify the population you want to target in your messages or workflows, and effortlessly create new audiences tailored to your needs. <!--(LINK TBD)-->
 
-    +++Example
++++Example
 
-    ![](assets/access-audience.png)
+![](assets/access-audience.png)
 
-    +++
++++
 
-* **Customize workflow activities**: apply rules within workflow activities, such as Split and Reconciliation, to align with your specific requirements,
+**Customize workflow activities**: apply rules within workflow activities, such as Split and Reconciliation, to align with your specific requirements. <!--(LINK TBD)-->
 
-    +++Example
++++Example
 
-    ![](assets/access-workflow.png)
+![](assets/access-workflow.png)
 
-    +++
++++
 
-<!--* **Dynamize content**: make your content dynamic by creating conditions that define which content should be displayed to different recipients, ensuring personalized and relevant messaging.
+<!--**Dynamize content**: make your content dynamic by creating conditions that define which content should be displayed to different recipients, ensuring personalized and relevant messaging.
 
-    +++Example
++++Example
 
-    ![](assets/access-audience.png)
+![](assets/access-audience.png)
 
-    +++
+ +++
 -->
 
-* **Predefined filters**: Create predefined filters that serve as shortcuts during various filtering operations, whether you're working with data lists or forming the audience for a delivery.
+**Predefined filters**: Create predefined filters that serve as shortcuts during various filtering operations, whether you're working with data lists or forming the audience for a delivery. <!--(LINK TBD)-->
 
-    +++Example
++++Example
 
-    ![](assets/access-predefined-filter.png)
+![](assets/access-predefined-filter.png)
 
-    +++
++++
 
-* **Filter reports data**: Add rule to filter the data displayed in reports.
+**Filter reports data**: Add rule to filter the data displayed in reports. <!--(LINK TBD)-->
 
-    +++Example
++++Example
 
-    ![](assets/access-reports.png)
+![](assets/access-reports.png)
 
-    +++
++++
 
-* **Customize lists**: Create custom rules to filter the data displayed in lists such as recipients, deliveries lists etc.
+**Customize lists**: Create custom rules to filter the data displayed in lists such as recipients, deliveries lists etc. <!--(LINK TBD)-->
 
-    +++Example
++++Example
 
-    ![](assets/access-lists.png)
+![](assets/access-lists.png)
 
-    +++
++++
 
 ## Query modeler interface {#interface}
 
