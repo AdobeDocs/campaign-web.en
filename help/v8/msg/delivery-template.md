@@ -1,18 +1,18 @@
 ---
 product: campaign
-title: Work with delivery templates
+title: Use delivery templates
 description: Learn how to create and use delivery templates in Campaign Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
 ---
-# Work with delivery templates {#work-with-delivery-templates}
+# Use delivery templates {#work-with-delivery-templates}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_for_campaign"
 >title="Delivery templates"
->abstract="Use delivery templates to standardize the creative look and feel, in order to be quicker in executing and launching campaigns"
+>abstract="For an accelerated and improved design process, you can create delivery templates to easily reuse custom content and settings across your campaigns. This functionality enables you to standardize the creative look and feel, in order to be quicker in executing and launching campaigns."
 
 For an accelerated and improved design process, you can create delivery templates to easily reuse custom content and settings across your campaigns. This functionality enables you to standardize the creative look and feel, in order to be quicker in executing and launching campaigns.
 
@@ -73,6 +73,7 @@ To delete or [duplicate](#copy-an-existing-template) a template, select the corr
 ## Create a delivery template {#create-a-delivery-template}
 
 To create a delivery template, you can:
+
 * Duplicate an existing template - [Learn more](#copy-an-existing-template)
 * Convert an existing delivery into a template - [Learn more](#convert-an-existing-delivery)
 * Create a delivery template from scratch - [Learn more](#create-a-new-template)

@@ -10,26 +10,34 @@ exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
 >title="Push Android content"
->abstract="Define the push Android content."
+>abstract="Define the content of your push notification for Android devices. To start composing your message, click the **Edit content** button."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_content"
 >title="Push iOS content"
->abstract="Define the push iOS content."
+>abstract="Define the content of your push notification for iOS devices. To start composing your message, click the **Edit content** button."
 
 ## Define the content of the notification {#push-message}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_msg"
 >title="Push iOS message"
->abstract="Define the title and content of your push iOS message. Use the personalization dialog to personalize content and add conditions."
+>abstract="Define the content of your push notification for iOS devices. To compose your message, click the **Title** and **Message** fields. Use the Expression editor to personalize data, and add dynamic content. For more custom configuration, browse to the **Advanced settings** section."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_android_msg"
+>title="Push iOS message"
+>abstract="Define the content of your push notification for Android devices. To compose your message, click the **Title** and **Message** fields. Use the Expression editor to personalize data and add dynamic content. To further personalize your push notification, you can choose an image to add to your push notification, the notification's icon to display on your profiles' devices, and its color. For more custom configuration, browse to the **Advanced settings** section."
+
+
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_silent"
 >title="Silent notification for iOS"
 >abstract="The Silent Push mode allows a "silent" notification to be sent to a mobile application. The user is not made aware of the notification's arrival. It is transferred directly to the application."
 
-
+Once your push delivery is created, you can define its content. Parameters and settings depend on the mobile operating system: Android or iOS. Browse the tabs below to learn how to compose your message for each operating system. 
 
 >[!BEGINTABS]
 
@@ -75,38 +83,39 @@ The Silent Push mode allows a "silent" notification to be sent to a mobile appli
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_critical"
->title="Critical alert mode for iOS"
+>title="Critical alert mode"
 >abstract="Enable this option to add sound to your notification, even when the user's phone is set to focus mode or if the device is muted. This ensures that users are notified of important alerts in any case."
     
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_count"
->title="Badge number for iOS"
+>title="Notification count"
 >abstract="Use this option to set the number of new unread information to be displayed directly on the app icon. This allows the user to quickly see the number of pending notifications."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_mutable"
->title="Mutable content for iOS"
+>title="Mutable content"
 >abstract="Use this option to allow the mobile application to download media content associated with the notification."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_score"
->title="Relevance score for iOS"
+>title="Relevance score"
 >abstract="Set a relevance score from 0 to 100 to prioritize the order of notifications in the notification summary. Higher scores indicate more important notifications."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_app_variables"
->title="Application variables for iOS"
+>title="Application variables"
 >abstract="Use application variables to define notification behavior. These variables are fully customizable and are included as part of the message payload sent to the mobile device."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_category"
->title="Category ID for iOS"
+>title="Category ID"
 >abstract="Specify the name of the category ID associated with the notification. This enables the display of action buttons, allowing the user to perform various tasks directly from the notification without opening the application."
 
+Advanced options depend on the mobile operating system: Android or iOS. Browse the tabs below to learn how to define options for your message for each operating system. 
 
 >[!BEGINTABS]
 
@@ -132,7 +141,7 @@ The Silent Push mode allows a "silent" notification to be sent to a mobile appli
 
 |Parameter | Description |
 |---------|---------|
-|**[!UICONTROL Critical alert mode]**| Enable this option to add sound to your notification, even when the user's phone is set to focus mode or if the device is muted. This ensures that important alerts are noticed by the user. |
+|**[!UICONTROL Critical alert mode]**| Enable this option to add sound to your notification, even when the user's phone is set to focus mode or if the device is muted. This ensures that important alerts are noticed by the user. When selected, you can adjust the volume of the notification using the Volume level bar. A number between 0 and 100 above the bar reflects your settings. |
 |**[!UICONTROL Clean Badge]**| Enable this option to refresh the badge value displayed on the application icon. It ensures that the badge accurately reflects the number of new unread information.|
 |**[!UICONTROL Notification count]**| Set a number that will be displayed directly on the application icon, indicating the number of new unread information. This provides a quick visual reference for the user.|
 |**[!UICONTROL Volume]**| Volume of your sound from 0 to 100. |

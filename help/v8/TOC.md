@@ -24,7 +24,8 @@ hide: yes
   + [Find help & guidance](get-started/using-ai.md)
 + Messages & deliveries {#msg}
   + [Get started with messages](msg/gs-messages.md)
-  + [Work with delivery templates](msg/delivery-template.md)
+  + [Work with deliveries](msg/gs-deliveries.md)
+  + [Use delivery templates](msg/delivery-template.md)
   + Emails {#email}
     + [Create your first email](email/create-email.md)
     + Define email content {#content}
@@ -119,6 +120,11 @@ hide: yes
     + [Scheduler](workflows/activities/scheduler.md)
     + [Split](workflows/activities/split.md)
     + [Wait](workflows/activities/wait.md)
++ Query the database {#query-database}
+  + [Work with the query modeler](query/query-modeler-overview.md)
+  + [Build your first query](query/build-query.md)
+  + [Edit expressions](query/expression-editor.md)
+  + [Query samples](query/query-samples.md)
 + Reporting {#reports}
   + [Get started with reports](reporting/gs-reports.md)
   + [Key performance indicators](reporting/kpis.md)

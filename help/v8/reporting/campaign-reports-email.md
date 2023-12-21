@@ -24,15 +24,15 @@ The **[!UICONTROL Delivery Overview]** report provides key performance indicator
 
 +++Learn more on Email campaign report metrics.
 
-* **[!UICONTROL Total sent]**: Total number of messages processed during the delivery preparation.
+* **[!UICONTROL Messages to deliver]**: Total number of messages processed during the delivery preparation.
 
 * **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
 
 * **[!UICONTROL Bounces]**: Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.
 
-* **[!UICONTROL Distinct opens]**: Total number of targeted recipients who opened a message at least once.
+* **[!UICONTROL Total opens]**: Total number of targeted recipients who opened a message at least once.
 
-* **[!UICONTROL Distinct clicks]**: Total number of distinct recipients who clicked in a delivery at least once.
+* **[!UICONTROL Total clicks]**: Total number of distinct recipients who clicked in a delivery at least once.
 
 +++
 
@@ -42,7 +42,6 @@ The **[!UICONTROL Delivery Overview]** report provides key performance indicator
 >id="acw_campaign_reporting_deliveries_target"
 >title="Initial target audience statistics"
 >abstract="The Initial target audience statistics table displays data relative to your recipients"
-
 
 The **[!UICONTROL Initial target audience statistics]** table displays data relative to your recipients. Metrics are detailed below.
 
@@ -59,7 +58,6 @@ The **[!UICONTROL Initial target audience statistics]** table displays data rela
 +++
 
 ### Execution statistics {#delivery-summary-email-exec-stats}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_email_exec_stats"
@@ -84,7 +82,6 @@ The **[!UICONTROL Execution statistics]** table details the success of your deli
 
     Email error types are listed in the [Adobe Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}.
 
-
 +++
 
 ### Reaction statistics {#delivery-summary-email-reaction-stats}
@@ -94,16 +91,15 @@ The **[!UICONTROL Execution statistics]** table details the success of your deli
 >title="Reaction statistics"
 >abstract="The **Reaction statistics** table shows the available data for recipient activity for your delivery: number of opens, subscriptions, unsubscriptions, click to mirror page link."
 
-
 The **[!UICONTROL Reaction statistics]** table contains the available data for recipient activity for your delivery. Metrics are detailed below.
 
 ![](assets/campaign_report_email_4.png)
 
 +++Learn more on Email campaign report metrics.
 
-* **[!UICONTROL Distinct opens]**: Total number of targeted recipients who opened a message at least once.
+* **[!UICONTROL Unique opens]**: Total number of targeted recipients who opened a message at least once.
 
-* **[!UICONTROL Opens]**: Number of distinct targeted recipients for this domain who have opened a message at least once.
+* **[!UICONTROL Total Opens]**: Number of distinct targeted recipients for this domain who have opened a message at least once.
 
 * **[!UICONTROL Unsubscriptions]**: Number of recipients who clicked unsubscriptions for the concerned period.
 
@@ -125,9 +121,9 @@ The **[!UICONTROL Generated click streams]** table displays data relative to how
 
 +++Learn more on Email campaign report metrics.
 
-* **[!UICONTROL Distinct clicks]**: Total number of distinct recipients who clicked in a delivery at least once.
+* **[!UICONTROL Unique clicks]**: Total number of unique recipients who clicked in a delivery at least once.
 
-* **[!UICONTROL Clicks]**: Total number of clicks on links in deliveries.
+* **[!UICONTROL Total Clicks]**: Total number of clicks on links in deliveries.
 
 * **[!UICONTROL Reactivity]**: Ratio of the number of targeted recipients having clicked in a delivery, in relation to the estimated number of targeted recipients having opened a delivery.
 
@@ -136,7 +132,6 @@ The **[!UICONTROL Generated click streams]** table displays data relative to how
 ## Non-deliverables {#non-deliverables-email}
 
 ### Breakdown of errors per type {#delivery-summary-email-breakdown-per-type}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_error_type"
@@ -167,7 +162,6 @@ The errors shown in this report trigger the quarantine process. For more on quar
 
 +++
 
-
 ### Breakdown of errors per domain {#delivery-summary-email-breakdown-per-domain}
 
 >[!CONTEXTUALHELP]
@@ -175,14 +169,11 @@ The errors shown in this report trigger the quarantine process. For more on quar
 >title="Breakdown of errors per domain"
 >abstract="The **Breakdown of errors per domain** table and graph display the available data for each error type encountered depending on each domain."
 
-
 The **[!UICONTROL Breakdown of errors per domain]** table and graph contain the available data for possible errors encountered with each domain. Metrics are common with the **[!UICONTROL Breakdown of errors per type]** table and graph detailed above.
-
 
 ## Tracking indicators {#tracking-indicators-email}
 
 ### Delivery statistics {#delivery-summary-email-statistics}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_campaign_delivery_statistics_summary"
@@ -195,11 +186,11 @@ The **[!UICONTROL Delivery statistics]** metrics provides key performance indica
 
 +++Learn more on Email campaign report metrics.
 
-* **[!UICONTROL Success]**: Number of messages processed successfully in relation to the number of messages to be delivered.
+* **[!UICONTROL Message(s) to deliver]**: Number of messages processed successfully in relation to the number of messages to be delivered.
 
-* **[!UICONTROL Distinct opens]**: Total number of targeted recipients who opened a message at least once.
+* **[!UICONTROL Unique opens]**: Total number of targeted recipients who opened a message at least once.
 
-* **[!UICONTROL Opens]**: Number of distinct targeted recipients for this domain who have opened a message at least once.
+* **[!UICONTROL Total Opens]**: Number of distinct targeted recipients for this domain who have opened a message at least once.
 
 * **[!UICONTROL Clicks on the opt-out link]**:  Number of clicks on the unsubscription link.
 
@@ -210,30 +201,28 @@ The **[!UICONTROL Delivery statistics]** metrics provides key performance indica
 
 ### Open and click-trough rate {#delivery-summary-open-rate}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_open_clickthrough"
 >title="Open and click-through rate"
 >abstract="The **Open and click-through rate** table displays data relative to your recipients engagement with your delivery."
 
-
-
 The **[!UICONTROL Open and click-trough rate]** table displays data relative to your recipients. Metrics are detailed below.
 
 ![](assets/campaign_report_email_8.png) 
 
-+++Learn more on Email campaign report metrics.
++++ Learn more on Email campaign report metrics.
 
 * **[!UICONTROL Sent]**: Total number of messages sent.
 
-* **[!UICONTROL Complaints]**: Number of messages for this domain that have been reported as undesirable by the recipient.
+* **[!UICONTROL Complaints]**: Number and percentage of messages for this domain that have been reported as undesirable by the recipient.
 
-* **[!UICONTROL Opens]**: Number of distinct targeted recipients for this domain who have opened a message at least once.
+* **[!UICONTROL Unique Opens]**: Number and percentage of distinct targeted recipients for this domain who have opened a message at least once.
 
-* **[!UICONTROL Clicks]**: Number of distinct targeted recipients who clicked in the same delivery at least once. 
+* **[!UICONTROL Unique Clicks]**: Number and percentage of distinct targeted recipients who clicked in the same delivery at least once. 
 
 * **[!UICONTROL Raw reactivity]**: Percentage of the number of recipient who clicked in a delivery at least once compared to the number of recipients who opened a delivery at least once.
-    +++
+
++++
 
 ## URLs and click streams {#url-email}
 
@@ -246,16 +235,17 @@ The **[!UICONTROL URLs and click streams]** report provides key performance indi
 
 ![](assets/campaign_report_email_9.png)
 
-+++Learn more on Email campaign report metrics.
++++ Learn more on Email campaign report metrics.
 
 * **[!UICONTROL Reactivity]**: Ratio of the number of targeted recipients having clicked in a delivery, in relation to the estimated number of targeted recipients having opened a delivery.
 
-* **[!UICONTROL Distinct clicks]**: Total number of distinct recipients who clicked in a delivery at least once.
+* **[!UICONTROL Unique clicks]**: Total number of distinct recipients who clicked in a delivery at least once.
 
-* **[!UICONTROL Clicks]**: Total number of clicks on links in deliveries.
+* **[!UICONTROL Total Clicks]**: Total number of clicks on links in deliveries.
 
 * **[!UICONTROL Platform average]** : This average rate, displayed under each rate (reactivity, distinct clicks, and cumulated clicks), is calculated for deliveries sent over the previous six months. Only deliveries with the same typology and on the same channel are taken into account. Proofs are excluded.
-    +++
+
++++
 
 ### Top 10 most visited links {#top10-campaign-report-email}
 
@@ -263,7 +253,6 @@ The **[!UICONTROL URLs and click streams]** report provides key performance indi
 >id="acw_campaign_reporting_urls_clickstreams_top10"
 >title="Top 10 most visited links"
 >abstract="The **Top 10 most visited links** rgraph and table contain the available data for recipient behavior per link."
-
 
 The **[!UICONTROL Top 10 most visited links]** graph and table contain the available data for recipient behavior per link. Metrics are detailed below.
 
@@ -279,17 +268,14 @@ The **[!UICONTROL Top 10 most visited links]** graph and table contain the avail
 
 ### Breakdown of clicks over time {#campaign-report-email-breakdown-clicks}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_campaign_urls_click_breakdown"
 >title="Breakdown of clicks over time"
 >abstract="The **Breakdown of clicks over time** graph shows the available data for recipient behavior per link."
 
-
-the **[!UICONTROL Breakdown of clicks over time]** graph contains the available data for recipient behavior per link. 
+The **[!UICONTROL Breakdown of clicks over time]** graph contains the available data for recipient behavior per link. 
 
 ![](assets/campaign_report_email_11.png)
-
 
 ## User Activities {#user-activities-email}
 
