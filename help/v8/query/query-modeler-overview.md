@@ -13,7 +13,7 @@ description: Learn how to work with the Adobe Campaign Web query modeler.
 
 Adobe Campaign Web features a query modeler that simplifies the process of filtering databases to select specific targets based on various criteria. This includes the use of advanced expressions and operators. 
 
-## Access the query modeler {#access}
+## Access the query modeler
 
 The query modeler is available in every context where you need to define rules to filter data.
 
