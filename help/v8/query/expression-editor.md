@@ -121,6 +121,11 @@ The date functions are used to manipulate date or time values.
    <td> AddYears(&lt;date&gt;, &lt;number&gt;)<br /> </td>  
   </tr>
   <tr> 
+   <td> <strong>ConvertNTZ</strong><br /> </td> 
+   <td> Converts timestamp NTZ (timestamp without timezone) into TZ (timestamp with timezone) applying defined session TZ<br/> </td> 
+   <td> ConvertNTZ (&lt;date+time&gt;)<br /> </td>  
+  </tr>
+  <tr> 
    <td> <strong>DateOnly</strong><br /> </td> 
    <td> Returns the date only (with time at 00:00)*<br /> </td> 
    <td> DateOnly(&lt;date&gt;)<br /> </td>  
@@ -199,6 +204,11 @@ The date functions are used to manipulate date or time values.
    <td> <strong>MonthsOld</strong><br /> </td> 
    <td> Returns the age in months of a date<br /> </td> 
    <td> MonthsOld(&lt;date&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Oldest</strong><br /> </td> 
+   <td> Returns the oldest date in a range<br /> </td> 
+   <td> Oldest (&lt;date, date&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Second</strong><br /> </td> 
@@ -281,8 +291,8 @@ The date functions are used to manipulate date or time values.
    <td> TruncYear(&lt;date&gt;)<br /> </td>  
   </tr> 
   <tr> 
-   <td> <strong>TruncWeek</strong><br /> </td> 
-   <td> Returns the number representing the day in the week of the date<br /> </td> 
+   <td> <strong>WeekDay</strong><br /> </td> 
+   <td> Returns a number representing the day in the week of the date (0=Monday, 6=Sunday)<br /> </td> 
    <td> WeekDay(&lt;date&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -294,6 +304,11 @@ The date functions are used to manipulate date or time values.
    <td> <strong>YearAnd Month</strong><br /> </td> 
    <td> Returns the number representing the year and month of the date<br /> </td> 
    <td> YearAndMonth(&lt;date&gt;)<br /> </td>  
+  </tr>
+  <tr> 
+   <td> <strong>YearsAgo</strong><br /> </td> 
+   <td> Returns the number of years between two specified dates<br /> </td> 
+   <td> YearsAgo(&lt;end date&gt;, &lt;start date&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>YearsDiff</strong><br /> </td> 
