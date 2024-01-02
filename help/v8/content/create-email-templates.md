@@ -1,13 +1,13 @@
 ---
-solution: Journey Optimizer
-product: journey optimizer
-title: Create content templates
-description: Learn how to create templates to reuse content in Journey Optimizer campaigns and journeys
+audience: end-user
+product: campaign
+title: Work with content templates
+description: Learn how to create templates to reuse content in Adobe Campaign emails
 feature: Templates
 topic: Content Management
 role: User
 level: Beginner
-exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
+badge: label="LA" 
 ---
 # Work with content templates {#content-templates}
 
@@ -18,13 +18,11 @@ exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
  
 For an accelerated and improved design process, you can create standalone templates to easily reuse custom content across [!DNL Adobe Campaign].
 
-This functionality enables content-oriented users to work on templates outside campaigns or journeys. Marketing users can then reuse and adapt these standalone content templates inside their own journeys or campaigns.
+This functionality enables content-oriented users to work on standalone templates so that marketing users can reuse and adapt them inside their own email campaigns.
 
 >[!NOTE]
 >
->Currently only the **email** content templates are supported.
-
-For example, a user within your company is in charge of content only, and therefore has no access to campaigns or journeys. However, this user can create an email template that your organization's marketers will be able to select for use in all emails as a starting point.
+>Currently only **email** content templates are supported.
 
 ## Access and manage templates {#access-manage-templates}
 
@@ -32,17 +30,17 @@ To access the content template list, select **[!UICONTROL Content Management]** 
 
 ![](assets/content-template-list.png)
 
-All the templates that were created on the current sandbox - either from a journey or a campaign using the [Save as template](#save-as-template) option, either from the **[!UICONTROL Content Templates]** menu - are displayed.
+All the templates that were created - either from an email using the [Save as template](#save-as-template) option, either from the **[!UICONTROL Content Templates]** menu - are displayed.
 
-You can sort content templates by creation or modification date. You can also choose to display only the items that you created or modified.
+<!--You can sort content templates by creation or modification date. You can also choose to display only the items that you created or modified.-->
+
+You can filter on a specific [folder](../get-started/permissions.md#folders) using the drop-down list or add rules using the [query modeler](../query/query-modeler-overview.md).
 
 ![](assets/content-template-list-filters.png)
 
-<!--To edit a template content, click the desired item from the list and select **[!UICONTROL Edit content]**.
+To edit a template content, click the desired item from the list and save your changes.
 
-![](assets/content-template-edit-temp.png)-->
-
-To delete a template, select the corresponding option from the More actions drop-down list.
+To delete a template, select the corresponding option from the **[!UICONTROL More actions]** menu.
 
 ![](assets/content-template-list-delete.png)
 
@@ -59,23 +57,23 @@ To delete a template, select the corresponding option from the More actions drop
 
 There are two ways you can create content templates:
 
-* Create a content template from scratch, using the left rail **[!UICONTROL Content Templates]** menu. [Learn how](#create-template-from-scratch)
+* Create a content template from scratch, using the left rail **[!UICONTROL Content templates]** menu. [Learn how](#create-template-from-scratch)
 
 * When designing an email, save your email content as template. [Learn how](#save-as-template)
 
-Once saved, your content template is available for use in a campaign or a journey. Whether created from scratch or from a previous email, you can now use this template when building any [email](../email/get-started-email-design.md) within [!DNL Journey Optimizer]. [Learn how](../email/use-email-templates.md)
+Once saved, whether created from scratch or from a previous email, you can now use this template when building any [email](../email/create-email.md) within [!DNL Adobe Campaign]. [Learn how](use-email-templates.md)
 
 >[!NOTE]
 >
->* Changes made to content templates are not propagated to campaigns or journeys, whether they are live or draft.
+>* Changes made to content templates are not propagated to emails.
 >
->* Similarly, when templates are used in a campaign or a journey, any edits you make to your campaign and journey content do not impact the previously used content template.
+>* Similarly, when templates are used in an email, any edits you make to your email content do not impact the previously used content template.
 
 ### Create template from scratch {#create-template-from-scratch}
 
 To create a content template from scratch, follow the steps below.
 
-1. Access the content template list through the **[!UICONTROL Content Management]** > **[!UICONTROL Content Templates]** left menu.
+1. Access the content template list through the **[!UICONTROL Content Management]** > **[!UICONTROL Content templates]** left menu.
 
 1. Select **[!UICONTROL Create template]**.
 

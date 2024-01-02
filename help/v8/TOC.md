@@ -30,6 +30,7 @@ hide: yes
     + [Create your first email](email/create-email.md)
     + Define email content {#content}
       + [Configure the email content](content/edit-content.md)
+      + [Work with content templates](content/create-email-templates.md)
       + Start shaping your email {#start-design}
         + [Get started with the Email Designer](content/get-started-email-designer.md)
         + [Start from scratch ](content/create-email-content.md)
