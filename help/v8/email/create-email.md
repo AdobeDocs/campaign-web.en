@@ -18,7 +18,7 @@ badge: label="Beta"
 
 Learn how to create your first targeted email. In this use case, you schedule the sending of an email to Silver and Gold loyalty members on a specific date.
 
-Based on a predefined [design template](../content/email-sample-templates.md), the email also features personalized content based on customer profile attributes.
+Based on a predefined [design template](../content/create-email-templates.md), the email also features personalized content based on customer profile attributes.
 
 ## Create the email delivery {#create-email}
 
@@ -114,7 +114,7 @@ To start creating your email content, follow the steps below. In this use case, 
 
 1. To design the content of the email, click the **[!UICONTROL Edit email body]** button.
 
-    Choose the method to use to create your email content. In this example, use a [predefined content template](../content/email-sample-templates.md).
+    Choose the method to use to create your email content. In this example, use a [predefined content template](../content/create-email-templates.md).
 
     ![](assets/select-template.png)
 
