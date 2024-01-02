@@ -9,7 +9,7 @@ badge: label="Limited Availability"
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
 >title="Reconciliation activity"
->abstract="The **Reconciliation** activity is a **Targeting** activity which allows you to link unidentified data to existing Campaign data. For example, the **Reconciliation** activity can be placed after a **Load audience** activity to import non-standard data into the database. In this case, the **Reconciliation** activity lets you define the link between the data in the Adobe Campaign database and the data in the external table." 
+>abstract="The **Reconciliation** activity is a **Targeting** activity which allows you to define the link between the data in the Adobe Campaign database and the data in a work table, for example data loaded from an external file. For example, the **Reconciliation** activity can be placed after a **Load audience** activity to import non-standard data into the database. In this case, the **Reconciliation** activity lets you define the link between the data in the Adobe Campaign database and the data in the external table." 
 
 
 >[!CONTEXTUALHELP]
@@ -30,7 +30,7 @@ badge: label="Limited Availability"
 
 
 
-The **Reconciliation** activity is a **Targeting** activity which allows you to link unidentified data to existing resources. For example, the **Reconciliation** activity can be placed after a **Load audience** activity to import non-standard data into the database. In this case, the **Reconciliation** activity lets you define the link between the data in the Adobe Campaign database and the data in the work table.
+The **Reconciliation** activity is a **Targeting** activity which allows you to define the link between the data in the Adobe Campaign database and the data in a work table, for example data loaded from an external file. For example, the **Reconciliation** activity can be placed after a **Load audience** activity to import non-standard data into the database. In this case, the **Reconciliation** activity lets you define the link between the data in the Adobe Campaign database and the data in the work table.
 
 
 ## Best practices {#reconciliation-best-practices}
