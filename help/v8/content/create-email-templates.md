@@ -51,7 +51,7 @@ To delete a template, select the corresponding option from the **[!UICONTROL Mor
 ## Create content templates {#create-content-templates}
 
 >[!CONTEXTUALHELP]
->id="ajo_create_template"
+>id=""
 >title="Define your own content template"
 >abstract="Create a standalone custom template from scratch to make your content reusable across multiple journeys and campaigns."
 
@@ -87,29 +87,31 @@ To create a content template from scratch, follow the steps below.
     >
     >Currently only the **Email** channel and **HTML** type are supported.
 
+1. Select the folder where you want to store your template. By default, content templates are stored in a dedicated node of the Adobe Campaign hierarchy: **[!UICONTROL Explorer]** > **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Content templates]**. [Learn how to create folders](../get-started/permissions.md#folders)
+
 1. Click **[!UICONTROL Create]** and choose how you want to design your template from the different options:
 
-    * [Design your email from scratch](../email/content-from-scratch.md) through the Email Designer's interface.
+    * [Design your email from scratch](create-email-content.md) through the Email Designer's interface.
 
-    * [Code or copy-paste raw HTML](../email/code-content.md) directly into the Email Designer.
+    * [Code or copy-paste raw HTML](code-content.md) directly into the Email Designer.
 
-    * [Import existing HTML content](../email/existing-content.md) from a file or a .zip folder.
+    * [Import existing HTML content](existing-content.md) from a file or a .zip folder.
 
-    * Use existing content from a list of built-in or custom templates. The steps to use a content template in an email are described in [this section](../email/use-email-templates.md).
+    * Use existing content from a list of built-in or custom templates. The steps to use a content template in an email are described in [this section](use-email-templates.md).
 
     ![](assets/email_designer-templates.png)
 
-1. The [Email Designer](../email/get-started-email-design.md) displays. Edit your content as needed, the same way you would do for any email inside a journey or a campaign, according to the option you selected.
+1. The [Email Designer](get-started-email-designer.md) displays. Edit your content as needed, the same way you would do for any email, according to the option you selected.
 
-    You can test your content if needed. [Learn how](#test-template)
+    <!--You can test your content if needed. [Learn how](#test-template)-->
 
 1. Once your template is ready, click **[!UICONTROL Save]**.
 
-1. If needed, click the arrow next to the template name to go back to the **[!UICONTROL Details]** screen and edit your template.
+    If needed, click the arrow next to the template name to go back to the **[!UICONTROL Details]** screen and edit your template.
 
-    ![](../email/assets/content-template-designer-back.png)
+    ![](assets/content-template-save-back.png)
 
-This template is now ready to be used when building any email within [!DNL Journey Optimizer]. [Learn how](../email/use-email-templates.md)
+This template is now ready to be used when building any email within [!DNL Adobe Campaign]. [Learn how](use-email-templates.md)
 
 ## Save email content as template {#save-as-template}
 
@@ -117,7 +119,7 @@ Once you [designed an email](create-email-content.md), you can save this content
 
 To save an email content as a template, follow the steps below:
 
-1. From the email designer, click the ellipsis on top right of the screen.
+1. From the email designer, click the **[!UICONTROL More]** button on top right of the screen.
 
 1. Select **[!UICONTROL Save as content template]** from the drop-down menu.
 
@@ -127,16 +129,17 @@ To save an email content as a template, follow the steps below:
 
     ![](assets/email_designer-template-name.png)
 
-You can now [use this template](#use-templates) to build a new content: it is available in the **[!UICONTROL Saved templates]** tab of the Email Designer. [Learn how](../content/use-email-templates.md)
+You can now use this template to build a new content: it is available in the **[!UICONTROL Saved templates]** tab of the Email Designer. [Learn how](use-email-templates.md)
 
 ![](assets/email_designer-saved-template.png)
 
-The template is saved into the **[!UICONTROL Content Templates]** list, accessible from the [!DNL Journey Optimizer] dedicated menu. It becomes a standalone content template that can be accessed, edited and deleted as any other item on that list. [Learn more](#access-manage-templates)
+The template is saved into the **[!UICONTROL Content templates]** list, accessible from the [!DNL Adobe Campaign] dedicated menu. It becomes a standalone content template that can be accessed, edited and deleted as any other item on that list. [Learn more](#access-manage-templates)
 
 >[!NOTE]
 >
 >Any change to that new template is not propagated to the email it comes from. Similarly, when the original content is edited within that email, the new template is not modified.
 
+<!-->
 ## Test your content template {#test-template}
 
 You can test the rendering of any email content template, whether created from scratch or from an email. To do so, follow the steps below.
@@ -159,6 +162,6 @@ You can test the rendering of any email content template, whether created from s
 
 >[!CAUTION]
 >
->Currently tracking is not supported when testing email content templates, meaning that tracking events, UTM parameters and landing page links will not be effective in the proofs that are being sent from a template. To test tracking, [use the content template](../email/use-email-templates.md) in an email and [send a proof](../content-management/preview-test.md#send-proofs).
+>Currently tracking is not supported when testing email content templates, meaning that tracking events, UTM parameters and landing page links will not be effective in the proofs that are being sent from a template. To test tracking, [use the content template](../email/use-email-templates.md) in an email and [send a proof](../content-management/preview-test.md#send-proofs).-->
 
 
