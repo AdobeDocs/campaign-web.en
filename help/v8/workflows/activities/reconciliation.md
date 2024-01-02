@@ -28,10 +28,6 @@ badge: label="Limited Availability"
 >title="Reconciliation generate complement"
 >abstract="Reconciliation generate complement" 
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_keep_unreconciled_data"
->title="Reconciliation keep unreconciled data option"
->abstract="Reconciliation keep unreconciled data option" 
 
 
 The **Reconciliation** activity is a **Targeting** activity. It allows you to link unidentified data to existing resources. For example, the **Reconciliation** activity can be placed after a **Load audience** activity to import non-standard data into the database. In this case, the **Reconciliation** activity lets you define the link between the data in the Adobe Campaign database and the data in the work table.
