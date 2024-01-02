@@ -12,6 +12,21 @@ exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 >title="Audience error"
 >abstract="Audience data is not available. Please wait the end of the workflow execution."
 
+The audience is the main target of your delivery: the recipients who receive the messages. The type of audience depends on the target mapping defined in the delivery template. Learn more about delivery templates in [this page](../msg/delivery-template.md). 
+
+To define the population of an audience, you can:
+
+* [Create new audiences](create-audience.md) from the **[!UICONTROL Audiences]** menu,
+* [Select an existing audience](add-audience.md) created as a list in the client console or coming from Adobe Experience Platform,
+* [Build a new audience](segment-builder.md) with the rule builder by defining and combining filtering criteria,
+* [Use an audience from an external file](file-audience.md). This option is only available for standalone email deliveries, and cannot be used in campaign deliveries.
+
+When targeting an audience, you can also define **control groups** to avoid sending messages to a portion of your audience, and measure the impact of your campaigns. [Learn how to set a control group](control-group.md)
+
+>[!NOTE]
+>
+>When sending messages in the context of a campaign workflow, the audience is defined in a specific **Build audience** workflow activity. In this context, you cannot load an audience from a file for an email delivery, and the audience is defined only in this dedicated activity. Learn how to define the audience of your delivery in a campaign workflow in [this section](../workflows/activities/build-audience.md)
+
 The list of audiences available for use in Campaign Web is accessible from the **[!UICONTROL Audiences]** menu.
 
 ![](assets/audiences-list.png)
