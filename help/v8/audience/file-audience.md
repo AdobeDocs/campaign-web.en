@@ -15,26 +15,25 @@ exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_columns"
 >title="Columns definition"
->abstract="Check the format of the columns to insert from your local file."
+>abstract="Check the format of the columns in the external file."
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_formatting"
 >title="Formatting parameters"
->abstract="Check the formatting parameters for your file."
+>abstract="Check the formatting parameters for the external file."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_preview"
 >title="Preview your file"
->abstract="Check the preview of your file. This screen only shows up to 30 records."
+>abstract="Check the preview of the columns of the external file. This screen only shows up to 30 records."
 
 
-
-You cannot upload profiles directly into Campaign from the interface, but you can target profiles stored in an external file. Profiles are not added to the database, but all fields in the input file are available for [personalization](../personalization/gs-personalization.md). Supported file formats are: text (TXT) and comma-separated value (CSV). 
+You can target profiles stored in an external file. Profiles are not added to the database, but all fields in the input file are available for [personalization](../personalization/gs-personalization.md). Supported file formats are: text (TXT) and comma-separated value (CSV). This article describes how to load external profile when creating a standalone email delivery. To load data from a file in a workflow, refer to [this page](../workflows/activities/load-file.md).
 
 >[!CAUTION]
 >
->* This capability is only available for **standalone email deliveries**. It cannot be used in workflows, nor with SMS or Push deliveries.
+>* This capability is only available for **email deliveries**. It cannot be used with SMS or Push deliveries.
 >
 >* You cannot use [control groups](control-group.md) when loading the target population from an external file.
 >
