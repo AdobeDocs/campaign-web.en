@@ -9,7 +9,7 @@ badge: label="Limited Availability"
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile"
 >title="Load file activity"
->abstract="The **Load file** activity is a **Data management** activity. Use this activity to work with profiles stored in an external file."
+>abstract="The **Load file** activity is a **Data management** activity. Use this activity to work with data stored in an external file."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_samplefile"
@@ -47,7 +47,7 @@ badge: label="Limited Availability"
 >abstract="Formatting for Load File activity"
 
 
-The **Load file** activity is a **Data management** activity. Use this activity to work with profiles stored in an external file. Profiles are not added to the database, but all fields in the input file are available for [personalization](../../personalization/gs-personalization.md), or to update profiles. 
+The **Load file** activity is a **Data management** activity. Use this activity to work with profiles and data stored in an external file. Profiles and data are not added to the database, but all fields in the input file are available for [personalization](../../personalization/gs-personalization.md), or to update profiles, or any other table. 
 
 
 >[!NOTE]
@@ -63,7 +63,7 @@ Follow these steps to configure the **Load file** activity:
 
 
 1. Drag and drop a **Load file** activity into your workflow. Click the **Select from file** button.
-1. Select the local file to use. The format must be aligned with the [sample file](../../audience/file-audience.md#sample-file).
+1. Select the local file to use. The format must be aligned with this [sample file](../../audience/file-audience.md#sample-file).
 1. Preview and check how data is mapped in the central section of the screen.
 1. Adjust the column settings, and how to format data from the available options.
 1. Click **Confirm** once settings are correct.

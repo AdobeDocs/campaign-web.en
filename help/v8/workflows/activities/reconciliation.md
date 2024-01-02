@@ -9,7 +9,7 @@ badge: label="Limited Availability"
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
 >title="Reconciliation activity"
->abstract="The **Reconciliation** activity is a **Targeting** activity. It allows you to link unidentified data to existing resources. For example, the **Reconciliation** activity can be placed after a **Load audience** activity to import non-standard data into the database. In this case, the **Reconciliation** activity lets you define the link between the data in the Adobe Campaign database and the data in the work table." 
+>abstract="The **Reconciliation** activity is a **Targeting** activity which allows you to link unidentified data to existing Campaign data. For example, the **Reconciliation** activity can be placed after a **Load audience** activity to import non-standard data into the database. In this case, the **Reconciliation** activity lets you define the link between the data in the Adobe Campaign database and the data in the external table." 
 
 
 >[!CONTEXTUALHELP]
@@ -30,7 +30,7 @@ badge: label="Limited Availability"
 
 
 
-The **Reconciliation** activity is a **Targeting** activity. It allows you to link unidentified data to existing resources. For example, the **Reconciliation** activity can be placed after a **Load audience** activity to import non-standard data into the database. In this case, the **Reconciliation** activity lets you define the link between the data in the Adobe Campaign database and the data in the work table.
+The **Reconciliation** activity is a **Targeting** activity which allows you to link unidentified data to existing resources. For example, the **Reconciliation** activity can be placed after a **Load audience** activity to import non-standard data into the database. In this case, the **Reconciliation** activity lets you define the link between the data in the Adobe Campaign database and the data in the work table.
 
 
 ## Best practices {#reconciliation-best-practices}
@@ -79,7 +79,7 @@ Follow these steps to configure the **Reconciliation** activity:
 
 1. Select the reconciliation field(s) to use for the deduplication. You can use one or more reconciliation criteria.
 
-    1. To use attributes to reconcile data, select the **Simple attributes** option. For example, select the **Email** fields to deduplicate profiles based on their email address. The **Source** field lists the fields available in the input transition, which are to be reconcilied. The **Destination** field corresponds to the fields of the selected targeting dimension. Data are reconcilied when source and destination are equal.
+    1. To use attributes to reconcile data, select the **Simple attributes** option. The **Source** field lists the fields available in the input transition, which are to be reconcilied. The **Destination** field corresponds to the fields of the selected targeting dimension. Data are reconcilied when source and destination are equal. For example, select the **Email** fields to deduplicate profiles based on their email address. 
         
         To add another reconciliation criteria, click the **Add rule** button. If several join conditions are specified, they must ALL be verified so that the data can be linked together.    
 
@@ -115,7 +115,7 @@ It is built with the following activities:
     REESE;Richard;rreese@testmail.com;02/08/1987;
     ```
 
-* A **Reconciliation** activity which identifies the incoming data as profiles, by using the **email** field as reconciliation criteria.
+* A **Reconciliation** activity which identifies the incoming data as profiles, by using the **email** and **Date of birth** fields as reconciliation criteria.
 
     ![](../assets/workflow-reconciliation-sample-1.1.png)
 
