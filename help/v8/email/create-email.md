@@ -114,7 +114,7 @@ To start creating your email content, follow the steps below. In this use case, 
 
 1. To design the content of the email, click the **[!UICONTROL Edit email body]** button.
 
-    Choose the method to use to create your email content. In this example, use a [predefined content template](../content/email-sample-templates.md).
+    Choose the method to use to create your email content. In this example, use a [predefined content template](../content/create-email-templates.md).
 
     ![](assets/select-template.png)
 
