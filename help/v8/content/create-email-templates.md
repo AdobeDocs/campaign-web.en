@@ -134,7 +134,7 @@ To create a content template from scratch, follow the steps below.
 
 This template is now ready to be used when building any email within [!DNL Adobe Campaign]. [Learn how](use-email-templates.md)
 
-## Save email content as template {#save-as-template}
+### Save email content as template {#save-as-template}
 
 Once you [designed an email](create-email-content.md), you can save this content as a template for future reuse. Saved templates are available to all users of your Adobe Campaign environment.
 
