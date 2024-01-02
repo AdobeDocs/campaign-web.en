@@ -90,7 +90,7 @@ The Silent Push mode allows a "silent" notification to be sent to a mobile appli
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_count"
 >title="Notification count"
->abstract="Use this option to set the number of new unread information to be displayed directly on the app icon. This allows the user to quickly see the number of pending notifications."
+>abstract="Use this option to set the number of unread notifications to be displayed directly on the app icon. This allows the user to quickly see the number of pending notifications."
 
 
 >[!CONTEXTUALHELP]

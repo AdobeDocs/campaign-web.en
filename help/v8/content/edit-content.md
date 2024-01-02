@@ -29,6 +29,7 @@ badge: label="Beta"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/content/design-content/message-tracking.html" text="Add links and track messages"
 
 The email **[!UICONTROL Edit content]** screen allows you to:
+
 * Define basic elements of your message such as the sender's address and the subject line
 * Perform additional actions such as adding attachments or setting up offers
 * Access the [Email Designer](get-started-email-designer.md#start-authoring) to start building the proper content of your email
@@ -81,7 +82,7 @@ To configure or edit the content of an email, follow the steps below.
 
     You are then able to insert them into the email using personalization fields. [Learn how to send offers](offers.md)
 
-1. Click the **[!UICONTROL Edit email body]** button to structure and design the content of the email using the [Email Designer](#start-authoring). Additional information on how to design email content are available in these sections:
+1. Click the **[!UICONTROL Edit email body]** button to structure and design the content of the email using the [Email Designer](get-started-email-designer.md#start-authoring). Additional information on how to design email content are available in these sections:
 
     * [Author emails from scratch](create-email-content.md)
     * [Style your content](get-started-email-style.md)
