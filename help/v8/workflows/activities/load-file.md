@@ -6,13 +6,50 @@ badge: label="Limited Availability"
 ---
 # Load file {#load-file}
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile"
+>title="Load file activity"
+>abstract="The **Load file** activity is a **Data management** activity. Use this activity to work with profiles stored in an external file."
 
-The **Load file** activity is a **Data management** activity. Use this activity to target profiles stored in an external file. Profiles are not added to the database, but all fields in the input file are available for [personalization](../personalization/gs-personalization.md). Supported file formats are: text (TXT) and comma-separated value (CSV).
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_samplefile"
+>title="Sample file"
+>abstract="Sample file"
 
-This activity can be used with a Reconciliation activity to link unidentified data to existing resources. For example, the **Load file** activity can be placed before a **Reconciliation** activity if you import non-standard data into the database. 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_nameofthefile"
+>title="Name of the file"
+>abstract="Name of the file"
 
-## Best practices{#load-best-practices}
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_targetdb"
+>title="Target database"
+>abstract="Target database"
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_rejectmgt"
+>title="Reject management for Load file activity"
+>abstract="Reject management for Load file activity"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_outboundtransition"
+>title="Reject management outbound transition"
+>abstract="Reject management outbound transition"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_outboundtransition_reject"
+>title="Reject management outbound transition for rejects"
+>abstract="Reject management outbound transition for rejects"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_formatting"
+>title="Formatting for Load File activity"
+>abstract="Formatting for Load File activity"
+
+
+The **Load file** activity is a **Data management** activity. Use this activity to work with profiles stored in an external file. Profiles are not added to the database, but all fields in the input file are available for [personalization](../personalization/gs-personalization.md), or to update profiles. Supported file formats are: text (TXT) and comma-separated value (CSV).
+
+This activity can be used with a [Reconciliation](reconciliation.md) activity to link unidentified data to existing resources. For example, the **Load file** activity can be placed before a **Reconciliation** activity if you import non-standard data into the database. 
 
 
 ## Configure the Load file activity {#load-configuration}
@@ -20,12 +57,12 @@ This activity can be used with a Reconciliation activity to link unidentified da
 Follow these steps to configure the **Load file** activity:
 
 
-1. Drag and drop a **Load file** activity into your workflow. This activity should be added following a transition containing a population whose targeting dimension does not directly come from Adobe Campaign. 
-1. Select the new targeting dimension. By default, the targeting dimension is the recipient table (Recipients (nms)), but you can select any other dimension. A dimension lets you define the targeted population: recipients, contract beneficiaries, operators, subscribers, etc. Learn more about targeting dimensions in [this page](../../audience/about-recipients.md#targeting-dimensions).
-
+1. Drag and drop a **Load file** activity into your workflow. Click the **Select from file** button.
+1. Select the local file to use. The format must be aligned with the [sample file](../../audience/file-audience.md#sample-file).
+1. Preview and check how data is mapped in the central section of the screen.
+1. Adjust the column settings, and how to format data from the available options.
+1. Click **Confirm** once settings are correct.
 
 ## Example{#load-example}
 
-In the following example, the activity is configured so that the workflow 
-
-
+A sample of an external file loading is available with the **Reconciliation** activity in [this section](reconciliation.md#example).

@@ -97,7 +97,33 @@ By default, non reconcilied data are kept in the outbound transition and availab
 
 ## Example {#reconciliation-example}
 
-In the following example, the activity is configured so that the workflow 
+The following example demonstrates a workflow that creates an audience of profiles directly from an imported file containing new clients. It is made up of the following activities:
+
+The workflow is designed as follows:
+
+![](../assets/workflow-reconciliation-sample-1.0.png)
+
+
+It is built with the following activities:
+
+* A [Load file](load-file.md) activity uploads a file containing profiles data that were extracted from an external tool.
+
+    For example:
+
+    ```
+    lastname;firstname;email;birthdate;
+    JACKMAN;Megan;megan.jackman@testmail.com;07/08/1975;
+    PHILLIPS;Edward;phillips@testmail.com;09/03/1986;
+    WEAVER;Justin;justin_w@testmail.com;11/15/1990;
+    MARTIN;Babe;babeth_martin@testmail.net;11/25/1964;
+    REESE;Richard;rreese@testmail.com;02/08/1987;
+    ```
+
+* A **Reconciliation** activity which identifies the incoming data as profiles, by using the **email** field as reconciliation criteria.
+
+    ![](../assets/workflow-reconciliation-sample-1.1.png)
+
+* A [Save audience](save-audience.md) activity to create a new audience based on these updates. You can also replace the **Save audience** activity by an **End** activity if no specific audience needs to be created or updated. Recipient profiles are updated in any case when you run the workflow.
 
 
 ## Compatibility {#reconciliation-compat}
