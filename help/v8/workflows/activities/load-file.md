@@ -47,7 +47,12 @@ badge: label="Limited Availability"
 >abstract="Formatting for Load File activity"
 
 
-The **Load file** activity is a **Data management** activity. Use this activity to work with profiles stored in an external file. Profiles are not added to the database, but all fields in the input file are available for [personalization](../personalization/gs-personalization.md), or to update profiles. Supported file formats are: text (TXT) and comma-separated value (CSV).
+The **Load file** activity is a **Data management** activity. Use this activity to work with profiles stored in an external file. Profiles are not added to the database, but all fields in the input file are available for [personalization](../../personalization/gs-personalization.md), or to update profiles. 
+
+
+>[!NOTE]
+>Supported file formats are: text (TXT) and comma-separated value (CSV).
+
 
 This activity can be used with a [Reconciliation](reconciliation.md) activity to link unidentified data to existing resources. For example, the **Load file** activity can be placed before a **Reconciliation** activity if you import non-standard data into the database. 
 
