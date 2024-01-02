@@ -26,6 +26,11 @@ This functionality enables content-oriented users to work on standalone template
 
 ## Access and manage templates {#access-manage-templates}
 
+>[!CONTEXTUALHELP]
+>id="acw_contenttemplate_edition"
+>title="Edit your template content"
+>abstract="Click the **Edit content** button to update your content with the Email Designer."
+
 To access the content template list, select **[!UICONTROL Content Management]** > **[!UICONTROL Content Templates]** from the left menu.
 
 ![](assets/content-template-list.png)
@@ -38,7 +43,13 @@ You can filter on a specific [folder](../get-started/permissions.md#folders) usi
 
 ![](assets/content-template-list-filters.png)
 
-To edit a template content, click the desired item from the list and save your changes.
+To edit a template content, click the desired item from the list. You can:
+
+* Edit its properties.
+
+* Click the **[!UICONTROL Edit content]** button to update your content with the [Email Designer](get-started-email-designer.md).
+
+![](assets/content-template-edition.png)
 
 To delete a template, select the corresponding option from the **[!UICONTROL More actions]** menu.
 
@@ -51,9 +62,14 @@ To delete a template, select the corresponding option from the **[!UICONTROL Mor
 ## Create content templates {#create-content-templates}
 
 >[!CONTEXTUALHELP]
->id=""
->title="Define your own content template"
->abstract="Create a standalone custom template from scratch to make your content reusable across multiple journeys and campaigns."
+>id="acw_contenttemplate_design"
+>title="Content template design"
+>abstract="Content template design"
+
+>[!CONTEXTUALHELP]
+>id="acw_contenttemplate_selection"
+>title="Content template selection"
+>abstract="Content template selection"
 
 There are two ways you can create content templates:
 
@@ -70,6 +86,11 @@ Once saved, whether created from scratch or from a previous email, you can now u
 >* Similarly, when templates are used in an email, any edits you make to your email content do not impact the previously used content template.
 
 ### Create template from scratch {#create-template-from-scratch}
+
+>[!CONTEXTUALHELP]
+>id="acw_contenttemplate_properties"
+>title="Define your template properties"
+>abstract="When creating a template from scratch, define its properties to retrieve is easily when needed."
 
 To create a content template from scratch, follow the steps below.
 
