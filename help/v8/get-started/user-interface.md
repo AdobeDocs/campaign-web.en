@@ -353,36 +353,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Fragments details"
 
 
-
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_menu"
->title="Content template"
->abstract="Content template"
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_properties"
->title="Content template properties"
->abstract="Content template properties"
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_design"
->title="Content template design"
->abstract="Content template design"
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_selection"
->title="Content template selection"
->abstract="Content template selection"
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_edition"
->title="Content template edition"
->abstract="Content template edition"
-
-
-
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_complement"
 >title="Combine generate complement"
