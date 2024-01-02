@@ -183,6 +183,7 @@ You can test the rendering of any email content template, whether created from s
 
 >[!CAUTION]
 >
->Currently tracking is not supported when testing email content templates, meaning that tracking events, UTM parameters and landing page links will not be effective in the proofs that are being sent from a template. To test tracking, [use the content template](../email/use-email-templates.md) in an email and [send a proof](../content-management/preview-test.md#send-proofs).-->
+>Currently tracking is not supported when testing email content templates, meaning that tracking events, UTM parameters and landing page links will not be effective in the proofs that are being sent from a template. To test tracking, [use the content template](
+use-email-templates.md) in an email and [send a proof](../content-management/preview-test.md#send-proofs).-->
 
 

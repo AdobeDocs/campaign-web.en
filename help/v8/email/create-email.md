@@ -18,7 +18,7 @@ badge: label="Beta"
 
 Learn how to create your first targeted email. In this use case, you schedule the sending of an email to Silver and Gold loyalty members on a specific date.
 
-Based on a predefined [design template](../content/email-sample-templates.md), the email also features personalized content based on customer profile attributes.
+Based on a predefined [design template](../content/create-email-templates.md), the email also features personalized content based on customer profile attributes.
 
 ## Create the email delivery {#create-email}
 

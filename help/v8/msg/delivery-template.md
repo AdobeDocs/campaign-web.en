@@ -29,7 +29,7 @@ A template can include:
 
 >[!NOTE]
 >
->Delivery templates are different from [content templates](../content/email-sample-templates.md), which allow you reuse only the content of your emails and to start building content with one of the sample email templates provided out-of-the-box.
+>Delivery templates are different from [content templates](../content/create-email-templates.md), which allow you reuse only the content of your emails and to start building content with one of the sample email templates provided out-of-the-box.
 
 
 ## Access and manage delivery templates {#access-manage-templates}
