@@ -116,6 +116,8 @@ hide: yes
     + [Email, SMS, Push](workflows/activities/channels.md)
     + [Enrichment](workflows/activities/enrichment.md)
     + [Fork](workflows/activities/fork.md)
+    + [Load file](workflows/activities/load-file.md)
+    + [Reconciliation](workflows/activities/reconciliation.md)
     + [Save audience](workflows/activities/save-audience.md)
     + [Scheduler](workflows/activities/scheduler.md)
     + [Split](workflows/activities/split.md)

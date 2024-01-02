@@ -3,15 +3,19 @@ keywords: Campaign Web;home;popular topics
 description: Campaign Web v8 help center
 title: Adobe Campaign Web v8 product documentation
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-badge: label="Beta" 
+badge: label="Limited Availability"
 ---
 # Adobe Campaign v8 Web Documentation {#campaign-documentation}
 
-<!--![](assets/do-not-localize/banner-documentationv8.png)--> 
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card1"
+>title="Help and Documentation"
+>abstract="Campaign now provides a new web user interface (UI) with enhanced usability, accessibility, and a new design to significantly improve your user experience. This new modern UI simplifies marketing campaign design and delivery, and brings consistency, along with other Adobe solutions."
 
 Campaign now provides a new web user interface (UI) with enhanced usability, accessibility, and a new design to significantly improve your user experience. This new modern UI simplifies marketing campaign design and delivery, and brings consistency, along with other Adobe solutions, including Adobe Experience Platform. [Learn more](get-started/get-started.md)
 
->Campaign v8 Web is currently in Beta version. Access is restricted to a small set of Beta customers. Please be aware that product interface, capabilities and usage flows can change without notice. [Learn more](rn/whats-new.md)
+>[!AVAILABILITY]
+> Campaign v8 Web is currently in Limited Availability (LA) version. Access is restricted to a small set of LA customers. Please be aware that product interface, capabilities and usage flows can change without notice. [Learn more](rn/whats-new.md)
 
 ## Campaign Web new capabilities
 

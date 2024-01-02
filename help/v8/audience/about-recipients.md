@@ -10,6 +10,14 @@ In Adobe Campaign, the target population of a delivery is an audience. An audien
 
 ## What are recipients? {#recipients}
 
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_rn4"
+>title="360 view of your recipients"
+>abstract="Create new recipients, and monitor them through powerful reports and tools. Access your recipient's attributes, interactions and logs. Use the filtering options to browse the recipient list, edit and update their profile."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="See release notes"
+
+
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="Profiles"

@@ -22,7 +22,7 @@ The **Scheduler** activity is a **Flow control** activity. It allows you to sche
 * If you want to send a one-shot delivery in your workflow, you can add a scheduler activity and set it to run **Once**. You can also define the **Schedule** in the delivery's settings.
 * If you want to send a recurring delivery in your workflow, you need to use a **Scheduler** activity and set the execution frequency. The recurring delivery activity does not allow you to define a schedule.
 
-## Configuration{#scheduler-configuration}
+## Configure the Scheduler activity {#scheduler-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_validity"
