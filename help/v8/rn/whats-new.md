@@ -78,6 +78,8 @@ Key capabilities coming with Campaign Web Limited Availability release are liste
 
     Supercharge your marketing campaigns with our **expanded set of workflow activities**. Unlock new possibilities for automation and optimization, allowing you to create more dynamic and personalized customer journeys. From advanced segmentation to conditional triggers, our additional workflow activities empower you to deliver targeted messages and drive better campaign performance.
 
+    New activities coming with the latest LA release are: **Reconciliation**, **Load audience**, and **Save audience**.
+
     Learn more in [this section](../workflows/gs-workflows.md).
 
 
