@@ -160,8 +160,8 @@ The template is saved into the **[!UICONTROL Content templates]** list, accessib
 >
 >Any change to that new template is not propagated to the email it comes from. Similarly, when the original content is edited within that email, the new template is not modified.
 
-<!-->
-## Test your content template {#test-template}
+<!--
+Test your content template {#test-template}
 
 You can test the rendering of any email content template, whether created from scratch or from an email. To do so, follow the steps below.
 
