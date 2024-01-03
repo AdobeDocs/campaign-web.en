@@ -173,41 +173,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Recipients creation"
 
 >[!CONTEXTUALHELP]
->id="acw_recipients_creation_details"
->title="Recipients details"
->abstract="Recipients details"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_contactinformation"
->title="Recipients contact information"
->abstract="Recipients contact information"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_address"
->title="Recipients adress"
->abstract="Recipients adress"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_account"
->title="Recipients account"
->abstract="Recipients account"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_customfields"
->title="Recipients custom fields"
->abstract="Recipients custom fields"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_nolongercontact"
->title="Recipients No longer contact"
->abstract="Recipients No longer contact"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_othersfields"
->title="Recipients Others"
->abstract="Recipients Others"
-
->[!CONTEXTUALHELP]
 >id="acw_recipients_creation_cardoverview"
 >title="Recipients card overview"
 >abstract="Recipients card overview"
@@ -216,11 +181,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_recipients_creation_touchpoints"
 >title="Recipients touchpoints"
 >abstract="Recipients touchpoints"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_subscription_list"
->title="Recipients subscriptions list"
->abstract="Recipients subscriptions list"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_subscription_selection"

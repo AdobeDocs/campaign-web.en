@@ -3,6 +3,7 @@ title: Get started with profiles & audiences
 description: Learn how to work with profiles and audiences in Campaign Web
 badge: label="Beta"
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
+badge: label="Limited Availability"
 ---
 # Get started with profiles & audiences {#about-profiles}
 

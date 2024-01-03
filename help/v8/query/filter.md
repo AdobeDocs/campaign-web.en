@@ -2,6 +2,7 @@
 audience: end-user
 title: Filter lists
 description: Learn how to filters Adobe Campaign Web lists using built-in and custom filters.
+badge: label="Limited Availability"
 ---
 
 # Filter lists {#filter-lists}

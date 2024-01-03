@@ -2,6 +2,7 @@
 audience: end-user
 title: Build your first query using the query modeler
 description: Learn how to build your first query in Adobe Campaign Web query modeler.
+badge: label="Limited Availability"
 ---
 # Edit expressions {#expression}
 
