@@ -27,8 +27,6 @@ The list shows the following columns:
 
 ![](assets/column-sample.png){width="70%" align="left" zoomable="yes"}
 
-Use the **Display advanced attributes** toggle to see all attributes for the current list. [Learn more](#adv-attributes)
-
 ## Sort data {#sort-lists}
 
 You can also sort items in the list by clicking any column header. An arrow is displayed (Up or Down) indicating that the list is sorted on that column. 
@@ -53,6 +51,7 @@ Define and combine your filter criteria in the **Advanced filters** screen.
 
 Custom filters are designed with Campaign query modeler. Detailed information on how to use it is available in [this section](../query/query-modeler-overview.md).
 
+<!--
 ## Use advanced attributes {#adv-attributes}
 
 >[!CONTEXTUALHELP]
@@ -77,3 +76,4 @@ Activate the **Display advanced attributes** toggle to see all available attribu
 
 
 ![](assets/adv-toggle.png){width="70%" align="left" zoomable="yes"}
+-->
