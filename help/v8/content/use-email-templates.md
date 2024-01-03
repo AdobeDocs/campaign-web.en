@@ -50,5 +50,5 @@ To start building your content with one of the sample or saved templates, follow
 
 1. Click **[!UICONTROL Use this template]** on top right of the screen.
 
-1. Edit your content as desired using the email designer. [Learn more](create-email-content.md)
+1. Edit your content as desired using the Email Designer. [Learn more](create-email-content.md)
 

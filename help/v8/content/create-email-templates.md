@@ -100,15 +100,13 @@ To create a content template from scratch, follow the steps below.
 
     ![](assets/content-template-create.png)
 
-1. Fill in the template details.
+1. Fill in the template details. You can select the folder where you want to store your template. By default, content templates are stored in a dedicated node of the Adobe Campaign hierarchy: **[!UICONTROL Explorer]** > **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Content templates]**. [Learn how to create folders](../get-started/permissions.md#folders)
 
     ![](assets/content-template-details.png)
 
     >[!NOTE]
     >
     >Currently only the **Email** channel and **HTML** type are supported.
-
-1. Select the folder where you want to store your template. By default, content templates are stored in a dedicated node of the Adobe Campaign hierarchy: **[!UICONTROL Explorer]** > **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Content templates]**. [Learn how to create folders](../get-started/permissions.md#folders)
 
 1. Click **[!UICONTROL Create]** and choose how you want to design your template from the different options:
 
