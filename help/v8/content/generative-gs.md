@@ -4,6 +4,8 @@ title: Get started with the Content Assistant
 description: Get Started with the Content Assistant
 badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
+hide: yes
+hidefromtoc: yes
 ---
 # Get started with the Content Assistant {#generative-gs}
 
@@ -12,8 +14,6 @@ exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 >title="Gen AI for email content"
 >abstract="Our Gen AI technology utilizes advanced algorithms to generate highly engaging and personalized content. Drive higher open rates, click-through rates, and conversions with Gen AI's intelligent content generation. Stay ahead of the competition and elevate your email marketing game with Gen AI on email content."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="See release notes"
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
