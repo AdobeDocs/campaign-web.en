@@ -187,7 +187,7 @@ You can test the rendering of any delivery template, whether created from scratc
 
 >[!NOTE]
 >
->You cannot use email rendering or send proofs in a delivery template.
+>You cannot use email rendering or send tests in a delivery template.
 
 * [Learn more on previewing email content](../preview-test/preview-content.md)
 

@@ -103,4 +103,4 @@ Campaign Web allows you to preview and send test emails when using an audience u
 
     ![](assets/file-upload-test.png)
 
-1. You can monitor the sending of the test email using the View test email log button at any time. [Learn more on test emails monitoring](../preview-test/test-deliveries.md#access-sent-test-deliveries-access-proofs)
+1. You can monitor the sending of the test email using the **[!UICONTROL View test email log]** button at any time. [Learn more on test emails monitoring](../preview-test/test-deliveries.md#access-test-deliveries)
