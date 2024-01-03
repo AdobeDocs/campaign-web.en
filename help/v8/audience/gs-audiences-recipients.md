@@ -1,26 +1,24 @@
 ---
-title: Work with recipients & audiences
-description: Learn how to work with recipients and audiences in Campaign Web
+title: Get started with profiles & audiences
+description: Learn how to work with profiles and audiences in Campaign Web
 badge: label="Beta"
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
 ---
-# Work with recipients & audiences {#about-recipients}
+# Get started with profiles & audiences {#about-profiles}
 
-## Recipients & audiences {#about}
+## Profiles & audiences {#about}
 
-In Adobe Campaign, the target population of a delivery is an audience. An audience is a set of people who share similar behaviors and/or characteristics. This collection of people can either be generated, selected, or loaded [as detailed below](#audiences).
-
-In most common cases, the audience is made of profiles, which are stored as [recipients](#recipients) in Adobe Campaign. You can also work with other target mappings by changing the dimension as explained [in this section](#targeting-dimensions).
+In Adobe Campaign, the target population of a delivery is an audience. An audience is a set of profiles who share similar behaviors and/or characteristics. This collection of people can either be generated, selected, or loaded [as detailed below](#audiences).
 
 ## Targeting dimensions {#targeting-dimensions}
 
-The targeting dimension, aka. target mapping, is the type of data that an operation is handling. It lets you define the targeted population: recipients, contract beneficiaries, operators, subscribers, etc.
+The targeting dimension, aka. target mapping, is the type of data that an operation is handling. It lets you define the targeted population: profiles, contract beneficiaries, operators, subscribers, etc.
 
-The targeting dimension of a workflow is defined by the first **[!UICONTROL Build audience]** activity and is used across all further activities until the end of the workflow. For example, if you perform a query on the recipients from the database, the outbound transition will contain data of type recipient and it will be transmitted to the next activity.
+The targeting dimension of a workflow is defined by the first **[!UICONTROL Build audience]** activity and is used across all further activities until the end of the workflow. For example, if you perform a query on the profiles from the database, the outbound transition will contain data of type 'recipient' and it will be transmitted to the next activity.
 
-Note that you can switch the targeting dimension in a workflow using a [Change dimension activity](../workflows/activities/change-dimension.md). This allows you, for example, to query the database on a specific table such as purchases or subscriptions, and then change the targeting dimension to Recipients in order send deliveries to the corresponding recipients.
+Note that you can switch the targeting dimension in a workflow using a [Change dimension activity](../workflows/activities/change-dimension.md). This allows you, for example, to query the database on a specific table such as purchases or subscriptions, and then change the targeting dimension to Recipients in order send deliveries to the corresponding profiles.
 
-By default, email and SMS delivery templates target **[!UICONTROL Recipients]**. Their target dimension therefore uses the fields of the **nms:recipient** table. For Push notifications, the default target dimension is **Subscriber applications nms:appSubscriptionRcp**, which is linked to the recipients table.
+By default, email and SMS delivery templates target profiles. Their target dimension therefore uses the fields of the **nms:recipient** table. For Push notifications, the default target dimension is **Subscriber applications nms:appSubscriptionRcp**, which is linked to the recipients table.
 
 You can also use other built-in target mappings in your workflows and deliveries that are listed below: 
 

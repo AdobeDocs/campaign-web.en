@@ -81,10 +81,10 @@ hide: yes
     + [Preview the message content](preview-test/preview-content.md)
     + [Send test deliveries](preview-test/test-deliveries.md)
     + [Render your email](preview-test/email-rendering.md)
-+ Audiences & recipients {#audiences}
-  + [Get started with recipients & audiences](audience/gs-audiences-recipients.md)
-  + Work with recipients {#work-with-recipients}
-    + [Manage profiles](audience/about-recipients.md)
++ Profiles & audiences {#audiences}
+  + [Get started with profiles & audiences](audience/gs-audiences-recipients.md)
+  + Work with profiles {#work-with-profiles}
+    + [Monitor & manage profiles](audience/about-recipients.md)
     + [Create & manage test profiles](audience/test-profiles.md)
   + Work with audiences {#audiences}
     + [Create audiences](audience/create-audience.md)
