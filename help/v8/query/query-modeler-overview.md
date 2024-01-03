@@ -2,6 +2,7 @@
 audience: end-user
 title: Work with the query modeler
 description: Learn how to work with the Adobe Campaign Web query modeler.
+badge: label="Limited Availability"
 ---
 # Work with the query modeler {#segment-builder}
 

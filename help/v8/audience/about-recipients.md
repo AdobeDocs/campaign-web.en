@@ -32,12 +32,52 @@ You can filter the profiles list using the search field or filters available fro
 
 ## Access & edit profiles' attributes {#access}
 
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_details"
+>title="Basic details"
+>abstract="This section offers insights into the basic details of the profile. To modify any information, make your changes directly within the respective field and click the **Save** button located in the upper-right corner of the screen."
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_contactinformation"
+>title="Contact information"
+>abstract="This section offers insights into the profile's contact information. To modify any information, make your changes directly within the respective field and click the **Save** button located in the upper-right corner of the screen."
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_address"
+>title= "Address"
+>abstract="This section offers insights into the profile's postal address and the address quality. To modify any information, make your changes directly within the respective field and click the **Save** button located in the upper-right corner of the screen."
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_account"
+>title="Account details"
+>abstract="This section offers insights into the account details of the profile. To modify any information, make your changes directly within the respective field and click the **Save** button located in the upper-right corner of the screen."
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_nolongercontact"
+>title="Recipients No longer contact"
+>abstract="This section offers insights into the contact preferences of the profile. To modify any information, make your changes directly within the respective field and click the **Save** button located in the upper-right corner of the screen."
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_customfields"
+>title="Custom fields"
+>abstract="Custom fields are specific attributes tailored to your needs that have been configured for your instance. To modify any information, make your changes directly within the respective field and click the **Save** button located in the upper-right corner of the screen."
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_othersfields"
+>title="Others"
+>abstract="This section provides additional built-in attributes. To modify any information, make your changes directly within the respective field and click the **Save** button located in the upper-right corner of the screen."
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_subscription_list"
+>title="Recipients subscriptions list"
+>abstract="This tab lists all the services the profile is subscribed to."
+
 To access the details of a profile, click on its name in the profiles list. 
 
 ![](assets/profiles-details.png)
 
 From this screen, you can access detailed information on the profile:
 
-* The **[!UICONTROL Details]** tab allows you to browse through the profile's attributes. To edit an attribute, make changes in the desired field and click the **[!UICONTROL Save]** button.
+* The **[!UICONTROL Details]** tab allows you to browse through the profile's built-in and custom attributes. To edit an attribute, make changes in the desired field and click the **[!UICONTROL Save]** button.
 * The **[!UICONTROL Subscriptions]** tab provides information on the services the profile is subscribed to. [Learn how to work with subscription services](manage-services.md)
 * The **[!UICONTROL Logs]** button located in the upper-right corner of the screen allows you to view an history of the profile's interactions through sending, exclusion, and tracking logs as well as the propositions presented to the profile.
