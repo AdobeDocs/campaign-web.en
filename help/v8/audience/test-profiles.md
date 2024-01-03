@@ -24,6 +24,10 @@ The steps to send test messages to seed addresses are detailed in [this section]
 >
 >Test profiles are automatically excluded from reports on the following delivery statistics: **[!UICONTROL Clicks]**, **[!UICONTROL Opens]**, **[!UICONTROL Unsubscriptions]**.
 
+## Access and manage test profiles {#access-test-profiles}
+
+
+
 ## Create a test profile {#create-test-profile}
 
 >[!CONTEXTUALHELP]
