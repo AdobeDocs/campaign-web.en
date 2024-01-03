@@ -3,7 +3,7 @@ audience: end-user
 title: Send test deliveries
 description: Learn how to define and send test deliveries
 exl-id: b2677579-c95d-443d-b207-466af364c208
-badge: label="LA"
+badge: label="Limited Availability"
 ---
 # Send proofs {#send-test-deliveries}
 

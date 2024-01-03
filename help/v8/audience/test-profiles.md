@@ -4,8 +4,7 @@ description: Learn how to create and manage test profiles in Adobe Campaign
 feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
-adge: label="LA"
-
+badge: label="Limited Availability"
 ---
 # Create and manage test profiles {#create-test-profiles}
 

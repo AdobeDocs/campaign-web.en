@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
-badge: label="LA"
+badge: label="Limited Availability"
 ---
 # Use email templates {#use-email-templates}
 
