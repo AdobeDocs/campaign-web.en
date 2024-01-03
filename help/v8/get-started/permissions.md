@@ -2,7 +2,7 @@
 audience: end-user
 title: Permission management in Campaign web
 description: Learn more about permissions in Campaign web v8
-badge: label="Beta"
+badge: label="Limited Availability"
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
 ---
 # Access and permissions {#access-and-permissions}

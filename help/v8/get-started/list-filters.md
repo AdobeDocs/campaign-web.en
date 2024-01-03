@@ -2,7 +2,7 @@
 audience: end-user
 title: Browse, search and filter lists
 description: Discover how to browse and filter lists Campaign Web v8
-badge: label="Beta"
+badge: label="Limited Availabilty"
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
 ---
 # Browse, search, and filter lists {#list-screens}
@@ -47,13 +47,11 @@ For example, you can filter deliveries on their status, channel, contact date, o
 
 To create custom filters on data, browse to the bottom of the filters and click the **Add rules** button to access the rule builder.
 
-Drag and drop attributes to build your filter criteria in the **Advanced filters** screen. 
+Define and combine your filter criteria in the **Advanced filters** screen. 
 
 ![](assets/custom-filter.png){width="70%" align="left" zoomable="yes"}
 
-Use the **Display advanced attributes** toggle to see all attributes for the current list. [Learn more](#adv-attributes)
-
-The rule builder's operating principle for custom filters is similar to the rule builder used to create audiences. Detailed information on how to use it is available in the [Audiences documentation](../audience/segment-builder.md).
+Custom filters are designed with Campaign query modeler. Detailed information on how to use it is available in [this section](../query/query-modeler-overview.md).
 
 ## Use advanced attributes {#adv-attributes}
 
