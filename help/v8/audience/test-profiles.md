@@ -77,7 +77,7 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
     ![](assets/test-profile-additional-data.png)
     
-   Make sure that additional target data has been defined with an alias starting with '@' in the **[!UICONTROL Enrichment]** workflow activity. Otherwise, you cannot use it properly with your seed addresses in the delivery activity. [Learn more on the Enrichment activity](v8/workflows/activities/enrichment.md)
+   Make sure that additional target data has been defined with an alias starting with '@' in the **[!UICONTROL Enrichment]** workflow activity. Otherwise, you cannot use it properly with your seed addresses in the delivery activity. [Learn more on the Enrichment activity](../workflows/activities/enrichment.md)
 
 1. Click the **[!UICONTROL Save]** button.
 
