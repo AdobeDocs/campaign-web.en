@@ -2,7 +2,7 @@
 audience: end-user
 title: Global reports for the SMS channel
 description: Understand Global reports for the SMS channel
-badge: label="Limited availability"
+badge: label="Limited Availability"
 ---
 # Global reports for the SMS channel {#campaign-reports-sms}
 

@@ -3,15 +3,14 @@ audience: end-user
 title: Delivery reports
 description: Learn how to access and use delivery reports
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-badge: label="Beta" 
+badge: label="Limited Availability"
 ---
-# Access Delivery reports {#reports}
+# Get started with delivery reports {#reports}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_selection"
 >title="Aggregated reporting for deliveries"
 >abstract="Select at least two deliveries for displaying an aggregated data report."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"

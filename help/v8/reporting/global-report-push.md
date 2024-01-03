@@ -2,7 +2,7 @@
 audience: end-user
 title: Global reports for the Push channel
 description: Understand Global reports for the Push channel
-badge: label="Limited availability"
+badge: label="Limited Availability"
 ---
 # Global reports for the Push channel {#campaign-reports-push}
 

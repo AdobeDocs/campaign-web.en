@@ -2,7 +2,7 @@
 audience: end-user
 title: Get started with reports
 description: Learn how to access and manage reports in Campaign Web
-badge: label="Beta"
+badge: label="Limited Availability"
 exl-id: b353bc86-2228-4e02-879c-ae9425c48489
 ---
 

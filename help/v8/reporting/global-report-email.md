@@ -2,7 +2,7 @@
 audience: end-user
 title: Global reports for the email channel
 description: Learn more about Global reports for the email channel
-badge: label="Limited availability"
+badge: label="Limited Availability"
 ---
 # Global reports for the email channel {#global-report-direct}
 

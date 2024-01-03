@@ -1,7 +1,7 @@
 ---
 title: Key Performance Indicators
 description: Learn how understand Key Performance Indicators
-badge: label="Beta"
+badge: label="Limited Availability"
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
 ---
 # Key Performance Indicators {#kpis}

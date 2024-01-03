@@ -2,7 +2,7 @@
 audience: end-user
 title: Push delivery reports
 description: Learn how to access and use push delivery reports
-badge: label="Beta"
+badge: label="Limited Availability"
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
 ---
 # Push delivery reports {#push-report}

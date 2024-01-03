@@ -2,7 +2,7 @@
 audience: end-user
 title: SMS delivery reports
 description: Learn how to access and use sms delivery reports
-badge: label="Beta"
+badge: label="Limited Availability"
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
 ---
 # SMS delivery reports {#sms-report}

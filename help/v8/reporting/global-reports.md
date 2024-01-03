@@ -5,7 +5,7 @@ description: Understand Global reports
 badge: label="Limited availability"
 ---
 
-# Get started with Global reports {#global-report-gs}
+# Get started with global reports {#global-report-gs}
 
 Global reports provide a comprehensive overview of traffic and engagement across all channels, offering a variety of widgets that provide unique insights into campaigns and deliveries performance.
 

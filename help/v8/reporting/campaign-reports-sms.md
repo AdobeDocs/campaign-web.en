@@ -2,7 +2,7 @@
 audience: end-user
 title: Campaign reports for the SMS channel
 description: Understand campaign reports for the SMS channel
-badge: label="Beta"
+badge: label="Limited Availability"
 exl-id: 0df9b999-84c8-4e42-b5da-857b2ef0dd75
 ---
 # Campaign reports for the SMS channel {#campaign-reports-sms-channel}

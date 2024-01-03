@@ -2,10 +2,10 @@
 audience: end-user
 title: Campaign reports
 description: Learn how to access and use campaign reports
-badge: label="Beta"
+badge: label="Limited Availability"
 exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
 ---
-# Campaign reports {#campaign-reports}
+# Get started with campaign reports {#campaign-reports}
 
 <!-- CAN BE REMOVED___
 >[!CONTEXTUALHELP]
