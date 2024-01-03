@@ -25,13 +25,19 @@ The steps to send test messages to seed addresses are detailed in [this section]
 
 ## Access and manage test profiles {#access-test-profiles}
 
-To access the content template list, select **[!UICONTROL Customer Management]** > **[!UICONTROL Profiles]** from the left menu and select the **[!UICONTROL Test profiles]** tab.
+To access the test profile list, select **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]** from the left menu and click the **[!UICONTROL Test profiles]** tab.
+
+![](assets/test-profile-list.png)
 
 You can filter on a specific [folder](../get-started/permissions.md#folders) using the drop-down list or add rules using the [query modeler](../query/query-modeler-overview.md).
+
+![](assets/test-profile-list-filters.png)
 
 To edit a test profile, click the desired item from the list.
 
 To delete a test profile, select the corresponding option from the **[!UICONTROL More actions]** menu.
+
+![](assets/test-profile-list-delete.png)
 
 ## Create a test profile {#create-test-profile}
 
@@ -42,11 +48,7 @@ To delete a test profile, select the corresponding option from the **[!UICONTROL
 
 To create a test profile, follow the steps below.
 
-1. Browse to **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]**.
-
-1. Select the **[!UICONTROL Test profiles]** tab.
-
-    ![](assets/test-profile-list.png)
+1. Browse to **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]** and select the **[!UICONTROL Test profiles]** tab.
 
 1. Click the **[!UICONTROL Create test profile]** button.
 
@@ -56,7 +58,7 @@ To create a test profile, follow the steps below.
 
     >[!NOTE]
     >
-    >The label of the address is automatically filled in with the first name and last name you defined.
+    >The **[!UICONTROL Label]** field is automatically filled in with the first name and last name you defined.
 
 1. By default, test profiles are stored in the **[!UICONTROL Seed addresses]** folder. You can change it by browsing to the desired location. [Learn more](#seed-addresses-folders)
 
