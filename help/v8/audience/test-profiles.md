@@ -26,7 +26,13 @@ The steps to send test messages to seed addresses are detailed in [this section]
 
 ## Access and manage test profiles {#access-test-profiles}
 
+To access the content template list, select **[!UICONTROL Customer Management]** > **[!UICONTROL Profiles]** from the left menu and select the **[!UICONTROL Test profiles]** tab.
 
+You can filter on a specific [folder](../get-started/permissions.md#folders) using the drop-down list or add rules using the [query modeler](../query/query-modeler-overview.md).
+
+To edit a test profile, click the desired item from the list.
+
+To delete a test profile, select the corresponding option from the **[!UICONTROL More actions]** menu.
 
 ## Create a test profile {#create-test-profile}
 
