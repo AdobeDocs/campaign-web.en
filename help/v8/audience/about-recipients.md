@@ -44,7 +44,7 @@ You can filter the profiles list using the search field or filters available fro
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_address"
->title= "Address"
+>title="Address"
 >abstract="This section offers insights into the profile's postal address and the address quality. To modify any information, make your changes directly within the respective field and click the **Save** button located in the upper-right corner of the screen."
 
 >[!CONTEXTUALHELP]
