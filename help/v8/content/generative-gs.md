@@ -4,8 +4,16 @@ title: Get started with the Content Assistant
 description: Get Started with the Content Assistant
 badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
+hide: yes
+hidefromtoc: yes
 ---
 # Get started with the Content Assistant {#generative-gs}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_rn5"
+>title="Gen AI for email content"
+>abstract="Our Gen AI technology utilizes advanced algorithms to generate highly engaging and personalized content. Drive higher open rates, click-through rates, and conversions with Gen AI's intelligent content generation. Stay ahead of the competition and elevate your email marketing game with Gen AI on email content."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="See release notes"
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
@@ -36,7 +44,7 @@ General guidelines for using Content Assistant for email generation are listed b
 * The quality of the generated content is strongly influenced by the marketing objective / prompt you define. Use well defined prompt for the GenAI model to accurately interpret. 
 * Upload brand asset to have accurate, on brand content. Else, content is based on publicly available info. The uploaded content can be in the following formats: PDF, JPEG, PNG, or ZIP files (with supported file formats).
 * The recommended size for uploaded brand asset is less than 10MB. Larger files or lots of images can work but the processing time is increased.
-* Use an Adobe Campaign authored email templates, or preferably [built-in email templates](../content/email-sample-templates.md) to create your email content. Email template with up to 8-10 images is recommended.
+* Use an Adobe Campaign authored email templates, or preferably [built-in email templates](../content/create-email-templates.md) to create your email content. Email template with up to 8-10 images is recommended.
 
 
 The following limitations apply to Campaign Content Assistant:

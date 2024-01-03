@@ -7,10 +7,6 @@ badge: label="Beta"
 ---
 # Work with the rule builder {#segment-builder}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_card5"
->title="Target audiences"
->abstract="Building a delivery target has never been easier! With our latest rule builder, you now have the ability to define filtering criteria for recipients or any other targeting dimension from the database. Take advantage of your Adobe Experience Platform audience to further refine your target audience and maximize your campaign's impact."
 
 The rule builder allows you to define the population targeted by your delivery by filtering data contained in the database. You can use it to build an audience either from a workflow using a **[!UICONTROL Build audience]** activity, or directly when creating a delivery to create a one-time audience.
 

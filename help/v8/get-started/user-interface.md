@@ -334,82 +334,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Fragments details"
 
 
-
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_menu"
->title="Content template"
->abstract="Content template"
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_properties"
->title="Content template properties"
->abstract="Content template properties"
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_design"
->title="Content template design"
->abstract="Content template design"
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_selection"
->title="Content template selection"
->abstract="Content template selection"
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_edition"
->title="Content template edition"
->abstract="Content template edition"
-
-
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation"
->title="Reconciliation activity"
->abstract="Use the **Reconciliation** activity to link unidentified data to existing resources." 
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_targeting"
->title="Reconciliation targeting"
->abstract="Reconciliation targeting" 
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_rules"
->title="Reconciliation rules"
->abstract="Reconciliation rules" 
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_targeting_selection"
->title="Reconciliation targeting dimension"
->abstract="Reconciliation targeting dimension" 
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_field"
->title="Reconciliation select field"
->abstract="Reconciliation select field" 
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_attribute"
->title="Reconciliation select attribute"
->abstract="Reconciliation select attribute" 
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_condition"
->title="Reconciliation create condition"
->abstract="Reconciliation create condition" 
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_complement"
->title="Reconciliation generate complement"
->abstract="Reconciliation generate complement" 
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_keep_unreconciled_data"
->title="Reconciliation keep unreconciled data option"
->abstract="Reconciliation keep unreconciled data option" 
-
-
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_complement"
 >title="Combine generate complement"
@@ -512,42 +436,20 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile"
->title="Load file activity"
->abstract="Load file activity"
+<!--
+Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_samplefile"
->title="Sample file"
->abstract="Sample file"
+>id="acw_attributepicker_advancedfields"
+>title="Display advanced attributes"
+>abstract="Only the most common attributes are displayed by default in the attribute list. Activate the **Display advanced attributes** toggle to see all available attributes for the current list in the left palette of the rule builder, such as nodes, groupings, 1-1 links, 1-N links."
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_nameofthefile"
->title="Name of the file"
->abstract="Name of the file"
+>id="acw_rulebuilder_advancedfields"
+>title="Rule builder advanced fields"
+>abstract="Only the most common attributes are displayed by default in the attribute list. Activate the **Display advanced attributes** toggle to see all available attributes for the current list in the left palette of the rule builder, such as nodes, groupings, 1-1 links, 1-N links."
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_targetdb"
->title="Target database"
->abstract="Target database"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_rejectmgt"
->title="Reject management for Load file activity"
->abstract="Reject management for Load file activity"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_outboundtransition"
->title="Reject management outbound transition"
->abstract="Reject management outbound transition"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_outboundtransition_reject"
->title="Reject management outbound transition for rejects"
->abstract="Reject management outbound transition for rejects"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_formatting"
->title="Formatting for Load File activity"
->abstract="Formatting for Load File activity"
+>id="acw_rulebuilder_properties_advanced"
+>title="Rule builder advanced attributes"
+>abstract="Only the most common attributes are displayed by default in the attribute list. Activate the **Display advanced attributes** toggle to see all available attributes for the current list in the left palette of the rule builder, such as nodes, groupings, 1-1 links, 1-N links."

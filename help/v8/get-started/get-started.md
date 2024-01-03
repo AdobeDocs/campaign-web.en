@@ -3,7 +3,7 @@ audience: end-user
 title: Get started with Campaign v8 Web
 description: Get started with Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-badge: label="Beta" 
+badge: label="Limited Availability" 
 ---
 # Get started with Campaign Web {#get-started}
 
@@ -26,7 +26,7 @@ If you need to access Campaign v8 capabilities which are not available in the we
 
 >[!NOTE]
 >
->Campaign v8 Web is currently in Beta version. Access is restricted to a small set of Beta customers. Please be aware that product interface, capabilities and usage flows can change without notice.
+>Campaign v8 Web is currently in Limited Availability (LA) version. Access is restricted to a small set of LA customers. Please be aware that product interface, capabilities and usage flows can change without notice.
 
 Learn how to connect to Adobe Campaign Web in [this page](connect-to-campaign.md).
 

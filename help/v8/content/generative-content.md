@@ -4,10 +4,10 @@ title: Text with the Content Assistant
 description: Get Started with the Content Assistant
 badge: label="Alpha"
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
+hide: yes
+hidefromtoc: yes
 ---
 # Text generation with the Content Assistant {#generative-content}
-
-
 
 Once you have created and personalized your emails, use the Content Assistant powered by generative AI to take your content to the next level.
 

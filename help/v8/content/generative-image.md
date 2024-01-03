@@ -4,6 +4,8 @@ title: Image generation with the Content Assistant
 description: Get Started with the Content Assistant
 badge: label="Alpha"
 exl-id: 896d7e9b-0fa2-435b-b191-fa5db36e7ea0
+hide: yes
+hidefromtoc: yes
 ---
 # Image generation with the Content Assistant {#generative-image}
 

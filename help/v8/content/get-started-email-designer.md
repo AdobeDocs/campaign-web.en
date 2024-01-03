@@ -7,6 +7,13 @@ exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
 ---
 # Get started with the Email Designer {#get-started-email-designer}
 
+>[!CONTEXTUALHELP]
+>id="acw_homepage_rn3"
+>title="New Email Designer"
+>abstract="Campaign Email Designer enables you to create captivating, individually tailored emails through an intuitive drag-and-drop interface. Whether you're starting from a blank slate, importing an existing content or leveraging existing templates, design and refine all content for every email!"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="See release notes"
+
+
 Once you have created an email in Adobe Campaign, you need to define its content.
 
 The Email Designer enables you to create captivating, individually tailored emails through an intuitive drag-and-drop interface. Whether you're starting from a blank slate, importing an existing content or leveraging existing templates, design and refine all content for every email, whether promotional or transactional.
@@ -37,6 +44,6 @@ From the email delivery dashboard, go through the [Edit content](edit-content.md
 
 * **Import existing HTML content** from a file or a .zip folder. Learn how to import an email content in [this section](existing-content.md).
 
-* **Select an existing content** from a list of built-in or custom templates. Learn how to work with email templates [this section](email-sample-templates.md).
+* **Select an existing content** from a list of built-in or custom templates. Learn how to work with email templates [this section](create-email-templates.md).
 
     ![](assets/email_designer_create_options.png)

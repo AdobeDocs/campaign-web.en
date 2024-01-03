@@ -30,12 +30,13 @@ hide: yes
     + [Create your first email](email/create-email.md)
     + Define email content {#content}
       + [Configure the email content](content/edit-content.md)
+      + [Work with content templates](content/create-email-templates.md)
       + Start shaping your email {#start-design}
         + [Get started with the Email Designer](content/get-started-email-designer.md)
         + [Start from scratch ](content/create-email-content.md)
         + [Import your email content](content/existing-content.md)
         + [Code your own content](content/code-content.md)
-        + [Use email content templates](content/email-sample-templates.md)
+        + [Use email content templates](content/use-email-templates.md)
       + Design your content {#design-content}
         + [Use content components](content/content-components.md)
         + [Add links and track messages](content/message-tracking.md)
@@ -81,17 +82,19 @@ hide: yes
     + [Send test deliveries](preview-test/test-deliveries.md)
     + [Render your email](preview-test/email-rendering.md)
 + Audiences & recipients {#audiences}
-  + [Work with recipients & audiences](audience/about-recipients.md)
-  + Manage profiles {#manage-profiles}
-    + [Create test profiles](audience/test-profiles.md)
-  + [Create audiences](audience/create-audience.md)
+  + [Get started with recipients & audiences](audience/gs-audiences-recipients.md)
+  + Work with recipients {#work-with-recipients}
+    + [Manage profiles](audience/about-recipients.md)
+    + [Create & manage test profiles](audience/test-profiles.md)
+  + Work with audiences {#audiences}
+    + [Create audiences](audience/create-audience.md)
+    + [Monitor & manage audiences](audience/manage-audience.md)
   + Select your delivery recipients {#target-audiences}
     + [Select an existing audience](audience/add-audience.md)
     + [Build a one-time audience](audience/one-time-audience.md)
     + [Load an audience from a file](audience/file-audience.md)
     + [Set a control group](audience/control-group.md)
   + [Work with the rule builder](audience/segment-builder.md)
-  + [Monitor & manage audiences](audience/manage-audience.md)
   + Work with subscription services {#work-with-services}
     + [Manage services](audience/manage-services.md)
     + [Manage subscribers](audience/manage-subscribers.md)
@@ -118,6 +121,8 @@ hide: yes
     + [Email, SMS, Push](workflows/activities/channels.md)
     + [Enrichment](workflows/activities/enrichment.md)
     + [Fork](workflows/activities/fork.md)
+    + [Load file](workflows/activities/load-file.md)
+    + [Reconciliation](workflows/activities/reconciliation.md)
     + [Save audience](workflows/activities/save-audience.md)
     + [Scheduler](workflows/activities/scheduler.md)
     + [Split](workflows/activities/split.md)
@@ -127,6 +132,7 @@ hide: yes
   + [Build your first query](query/build-query.md)
   + [Edit expressions](query/expression-editor.md)
   + [Query samples](query/query-samples.md)
+  + [Filter lists](query/filter.md)
 + Reporting {#reports}
   + [Get started with reports](reporting/gs-reports.md)
   + [Key performance indicators](reporting/kpis.md)
