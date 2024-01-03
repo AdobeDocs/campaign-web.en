@@ -1,6 +1,7 @@
 ---
 title: Monitor & manage profiles
 description: Learn how to monitor and manage profiles in Campaign Web.
+badge: label="Limited Availability"
 ---
 # Monitor & manage profiles {#profiles}
 
@@ -19,7 +20,7 @@ description: Learn how to monitor and manage profiles in Campaign Web.
 
 A profile in Adobe Campaign Web is an individual stored in the database, serving as a key component to create audiences for deliveries and add personalization data to your content. Various types of profiles are stored in the database such as Test profiles, which are designed to test your deliveries before they are sent to the final audience. [Learn how to work with test profiles](test-profiles.md)
 
-Profiles are accessible from the **Profiles** entry in the left navigation rail. You can also access them from the **Explorer** view, where you can browse, create folders, subfolders, and check associated permissions.
+Profiles can be added from the Campaign client console only. However, they are accessible in Adobe Campaign Web from the **Profiles** entry in the left navigation rail. You can also access them from the **Explorer** view, where you can browse, create folders, subfolders, and check associated permissions.
 
 You can filter the profiles list using the search field or filters available from the **Show filters** button.
 

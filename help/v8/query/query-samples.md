@@ -1,7 +1,8 @@
 ---
 audience: end-user
 title: Query samples
-description: Learn how to work with the rule builder
+description: Learn how to work with the rule builder.
+badge: label="Limited Availability"
 ---
 # Query samples {#query-samples}
 
