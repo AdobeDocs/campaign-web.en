@@ -128,6 +128,7 @@ hide: yes
   + [Build your first query](query/build-query.md)
   + [Edit expressions](query/expression-editor.md)
   + [Query samples](query/query-samples.md)
+  + [Filter lists](query/filter.md)
 + Reporting {#reports}
   + [Get started with reports](reporting/gs-reports.md)
   + [Key performance indicators](reporting/kpis.md)
