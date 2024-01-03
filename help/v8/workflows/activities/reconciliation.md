@@ -58,7 +58,7 @@ While the **Enrichment** activity allows you to define additional data to proces
 >id="acw_orchestration_reconciliation_targeting_selection"
 >title="Select the targeting dimension"
 >abstract="Select the targeting dimension for your inbound data to reconcile with." 
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/about-recipients.html?lang=en#targeting-dimensions" text="Targeting dimensions"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html#targeting-dimensions" text="Targeting dimensions"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_keep_unreconciled_data"
