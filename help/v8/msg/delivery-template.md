@@ -46,7 +46,7 @@ To access the content template list, select **[!UICONTROL Campaign Management]**
 
 All the templates that were [created](#create-a-delivery-template) on the current environment are displayed.
 
-You can filter content templates on channels and folders. You can also set advanced filters by building a rule using delivery attributes. [Learn more on the rule builder](../audience/segment-builder.md)
+You can filter content templates on channels and folders. You can also set advanced filters by building a rule using delivery attributes. [Learn more on the rule builder](../audience/../query/query-modeler-overview.md)
 
 ![](assets/templates-filters.png)
 
