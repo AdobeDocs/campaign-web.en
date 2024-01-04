@@ -39,7 +39,7 @@ To display and manage reports, follow these steps:
 
     Alternatively, you can use the three dots **More actions** button next to the delivery name in the deliveries list and select **[!UICONTROL View report]**.
 
-    ![](assets/manage_delivery_report_2.png){width="50%" zoomable="yes"}
+    ![](assets/manage_delivery_report_2.png)
 
 1. From the left menu, select a report from the list.
 
