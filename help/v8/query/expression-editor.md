@@ -10,21 +10,23 @@ badge: label="Limited Availability"
 
 Editing an expression involves manually entering conditions to form a rule. This mode allows you to use advanced functions. These functions let you manipulate the values used to carry out specific queries such as manipulating dates, strings, numerical fields, sorting, etc.
 
-These operations are available from the query modeler Edit expression button, available for the Attribute and Value fields when configuring a custom condition. 
+These operations are available from the query modeler **[!UICONTROL Edit expression]** button, available for the **[!UICONTROL Attribute]** and **[!UICONTROL Value]** fields when configuring a custom condition. 
 
 ![](assets/edit-expression.png)
 
 The expression editor provides:
 
-* An input field in which the expression is defined.
-* The list of available fields that can be used in the expression and correspond to the targeting dimension of the query.
-* The list of available functions, sorted by category.
+* An **input field (1)** in which the expression is defined.
+* The list of available **fields (2)** that can be used in the expression and corresponding to the targeting dimension of the query.
+* **Helper functions (3)**, sorted by category.
 
-Edit the expression by entering an expression directly in the input field or by using the lists of available fields and functions. To do this, place your cursor in your inexpression where you want to add the elemnt and double click the desired field or expression.
+![](assets/expression-editor.png)
+
+Edit the expression by entering an expression directly in the input field. To add a field or a helper function, place your cursor in the expression where you want to add it and click the + button.
 
 ## Helper functions
 
-The query editing tool allows you to use advanced functions to carry out complex filtering  depending on the desired results and the types of manipulated data. The following functions are available:
+The query editing tool allows you to use advanced functions to carry out complex filtering depending on the desired results and the types of manipulated data. The following functions are available:
 
 ### Aggregate
 
