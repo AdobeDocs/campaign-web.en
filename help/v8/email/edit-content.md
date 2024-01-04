@@ -80,7 +80,7 @@ To configure or edit the content of an email, follow the steps below.
 
 1. If you want to send offers with your email, select them using the **[!UICONTROL Set up offers]** button.
 
-    You are then able to insert them into the email using personalization fields. [Learn how to send offers](offers.md)
+    You are then able to insert them into the email using personalization fields. [Learn how to send offers](../msg/offers.md)
 
 1. Click the **[!UICONTROL Edit email body]** button to structure and design the content of the email using the [Email Designer](get-started-email-designer.md#start-authoring). Additional information on how to design email content are available in these sections:
 
