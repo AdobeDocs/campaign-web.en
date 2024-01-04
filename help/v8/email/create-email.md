@@ -104,7 +104,7 @@ To start creating your email content, follow the steps below. In this use case, 
 
     ![](assets/email-edit-content.png)
 
-   This brings you to a dedicated interface where you can configure the email content and access the Email Designer. [Learn more](../email/edit-content.md)
+   This brings you to a dedicated interface where you can configure the email content and access the Email Designer. [Learn more](edit-content.md)
 
     ![](assets/edit-content.png)
 
@@ -114,11 +114,11 @@ To start creating your email content, follow the steps below. In this use case, 
 
 1. To design the content of the email, click the **[!UICONTROL Edit email body]** button.
 
-    Choose the method to use to create your email content. In this example, use a [predefined content template](../email/create-email-templates.md).
+    Choose the method to use to create your email content. In this example, use a [predefined content template](create-email-templates.md).
 
     ![](assets/select-template.png)
 
-1. Once you have selected the template, it is displayed in the [Email Designer](../email/create-email-content.md), where you can make any necessary edits and add personalization.
+1. Once you have selected the template, it is displayed in the [Email Designer](create-email-content.md), where you can make any necessary edits and add personalization.
 
     For example, to add personalization to the email title, select the component block and click **[!UICONTROL Add Personalization]**.
 
