@@ -15,15 +15,15 @@ exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
 >title="Add conditional content"
 >abstract="Configure conditional content fields to create advanced dynamic personalization based on the recipient's profile data. Text blocks, links, subject line, and/or images are replaced in the message content when a particular condition is satisfied."
 
+## Get started with conditional content {#gs}
+
 Conditional content is a powerful feature that allows you to create dynamic personalization based on the recipient's profile, automatically replacing text blocks and images when certain conditions are met. This feature can take your campaigns to new heights and deliver highly targeted, personalized experiences to your audience.
 
 By configuring conditional content fields, you can create advanced dynamic personalization based on the recipient's profile for example. Text blocks, links, subject line, and/or images are replaced in the message content when a particular condition is satisfied. For example, you can display 'Mr' or 'Mrs' according to the value of the Gender field in Adobe Campaign database, or include a different link based on the recipient preferred language.
 
-## How to build conditional content
-
 To create conditional content, you need to create conditions in the **expression editor** using specific helper functions. This method is available for all delivery channels, in any field where you can access the expression editor, such as the subject line, or email links and text/button content components. [Learn how to access the expression editor](gs-personalization.md/#access)
 
-In addition to the expression editor, you can leverage a dedicated **conditional content builder** when designing an email that allows you to build conditions using profile attributes only. [Learn how to create conditional content in emails](#condition-condition-builder)
+<!--In addition to the expression editor, you can leverage a dedicated **conditional content builder** when designing an email that allows you to build conditions using profile attributes only. [Learn how to create conditional content in emails](#condition-condition-builder)-->
 
 ## Create conditions in the expression editor {#condition-perso-editor}
 
@@ -73,6 +73,8 @@ To define conditional content for a delivery using the expression editor, follow
 
 1. Once your condition is ready, you can save your content and check its rendering by simulating your content.
 
+<!--SECTION REMOVED FOR LA > CONDITIONAL CONTENT NOT AVAILABLE ANYMORE FROM THE DEDICATED MENU IN THE EMAIL DESIGNER. ONLY THE EXPRESSION EDITOR IS AVAILABLE FOR NOW
+
 ## Create conditional content in emails {#condition-condition-builder}
 
 Conditional content in emails can be created in two ways:
@@ -105,3 +107,4 @@ Detailed information on how to create conditions using the expression editor is 
 
     >[!NOTE]
     >If none of the rules defined in the variants are met when sending the message, the content component will display the content defined in the **[!UICONTROL Default variant]** from the **[!UICONTROL Conditional Content]** pane.
+-->
