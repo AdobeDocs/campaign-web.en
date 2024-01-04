@@ -83,6 +83,7 @@ hide: yes
     + [Render your email](preview-test/email-rendering.md)
 + Profiles & audiences {#audiences}
   + [Get started with profiles & audiences](audience/gs-audiences-recipients.md)
+  + [Targeting dimensions](audience/targeting-dimensions.md)
   + Work with profiles {#work-with-profiles}
     + [Monitor & manage profiles](audience/about-recipients.md)
     + [Create & manage test profiles](audience/test-profiles.md)
