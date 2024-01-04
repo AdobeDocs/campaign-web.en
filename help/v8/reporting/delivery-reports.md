@@ -15,25 +15,35 @@ badge: label="Limited Availability"
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
 >title="Export"
->abstract="Click the **Export** button to export these metrics to PDF or CSV formats, which enables you to share or print them. "
+>abstract="Click the **Export** button to export these metrics to PDF or CSV formats, which enables you to share or print them."
+
+The **Delivery reports** provide in-depth insights and data exclusively focused on your **deliveries** across each channel. These reports provide detailed information on the performance, effectiveness, and outcomes of your individual deliveries, providing you with a comprehensive overview.
+
+The full list of reports and associated metrics for each channel is available in the following pages:
+
+* [Email delivery reports](email-report.md)
+* [SMS delivery reports](sms-report.md)
+* [Push delivery reports](push-report.md)
+
+## Manage your report dashboard {#manage-reports}
 
 Adobe Campaign offers several types of reports, accessible for each delivery. These reports allow you to measure and visualize the impact and performances of your messages in a built-in dashboard.
 
-To display reports, follow these steps:
+To display and manage reports, follow these steps:
 
 1. To generate a report for a specific delivery, navigate to the **[!UICONTROL Deliveries]** menu and select the delivery you wish to report on.
 
 1. From your **[!UICONTROL Delivery]** dashboard, click **[!UICONTROL Reports]**.
 
-    ![](assets/reporting2.png)
+    ![](assets/manage_delivery_report_1.png)
 
-    Alternatively, you can use the three dots **More actions** button next to the delivery name in the campaign list, as shown below:
+    Alternatively, you can use the three dots **More actions** button next to the delivery name in the deliveries list and select **[!UICONTROL View report]**.
 
-    ![](assets/campaign-reports-view.png){width="50%" align="left" zoomable="yes"}
+    ![](assets/manage_delivery_report_2.png){width="50%" zoomable="yes"}
 
 1. From the left menu, select a report from the list.
 
-    ![](assets/reporting.png)
+    ![](assets/manage_delivery_report_3.png)
 
 1. If your delivery is recurring, select a specific delivery to report on by clicking **[!UICONTROL Select deliveries]**. 
 
@@ -41,8 +51,21 @@ To display reports, follow these steps:
 
     ![](assets/delivery-recurring.png)
 
-The full list of reports and associated metrics for each channel is available in the following pages:
+1. From the **[!UICONTROL URLs and click streams]**, you can also choose the **[!UICONTROL Top visited Links]** or the **[!UICONTROL Time period]**.
 
-* [Email delivery reports](email-report.md)
-* [SMS delivery reports](sms-report.md)
-* [Push delivery reports](push-report.md)
+    The **[!UICONTROL View by]** options allow you to filter on URLs, Labels or Categories.
+
+    ![](assets/manage_delivery_report_5.png)
+
+## Export your reports {#export-reports}
+
+You can easily export your different reports to PDF or CSV format, which enables you to share, manipulate, or print them.
+
+1. From your report, click **[!UICONTROL Export]** and select **[!UICONTROL Export as PDF file]** or **[!UICONTROL Export as CSV file]**.
+
+    ![](assets/export_delivery_report.png)
+
+1. Locate the folder where you want to save your file, rename it if needed and click **[!UICONTROL Save]**.
+
+Your report is now available to view or share in a PDF or CSV file.
+

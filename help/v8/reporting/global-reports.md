@@ -7,7 +7,13 @@ badge: label="Limited availability"
 
 # Get started with global reports {#global-report-gs}
 
-Global reports provide a comprehensive overview of traffic and engagement across all channels, offering a variety of widgets that provide unique insights into campaigns and deliveries performance.
+The **Global reports** serve as an effective tool, offering a consolidated overall summary of traffic and engagement metrics for each channel within your Campaign instance. These reports consist of various widgets, each offering a distinct perspective on your campaign or delivery performance.
+
+The full list of reports and associated metrics for each channel is available in the following pages:
+
+* [Email global reports](global-report-email.md)
+* [SMS global reports](global-report-email-sms.md)
+* [Push global reports](global-report-push.md)
 
 ## Manage your report dashboard {#manage-reports}
 
@@ -23,7 +29,7 @@ To access and manage your Global reports, follow these steps:
 
     ![](assets/global_report_manage_2.png)
 
-1. Click **[!UICONTROL Add rules]** to start building queries to better filter reporting data.
+1. Click **[!UICONTROL Add rules]** to start building queries to better filter reporting data. [Learn how to use the query modeler](../query/query-modeler-overview.md)
 
 1. From the **[!UICONTROL URLs and click streams]**, you can also choose the **[!UICONTROL Top visited Links]** or the **[!UICONTROL Time period]**.
 
