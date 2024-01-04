@@ -20,15 +20,15 @@ Now that you have an understanding of what you can do in Adobe Campaign Web, it'
 <img src="../assets/do-not-localize/profiles-audiences-profile.png">
 </a>
 <div>
-<a href="manage-audience.md"><strong>Monitor & manage profiles</strong></a>
+<a href="about-recipients.md"><strong>Monitor & manage profiles</strong></a>
 </div>
 <p>
 </td>
 <td>
-<a href="test-profiles.md">
+<a href="create-audience.md">
 <img alt="Lead" src="../assets/do-not-localize/profiles-audiences-audience.png">
 </a>
-<div><a href="conditions.md"><strong>Create audiences</strong>
+<div><a href="create-audience.md"><strong>Create audiences</strong>
 </div>
 <p>
 </td>
@@ -37,7 +37,7 @@ Now that you have an understanding of what you can do in Adobe Campaign Web, it'
 <img alt="Infrequent" src="../assets/do-not-localize/profiles-audiences-service.png">
 </a>
 <div>
-<a href="content-blocks.md"><strong>Manage services</strong></a>
+<a href="manage-services.md"><strong>Manage services</strong></a>
 </div>
 <p></td>
 <td>
@@ -45,7 +45,7 @@ Now that you have an understanding of what you can do in Adobe Campaign Web, it'
 <img alt="Infrequent" src="../assets/do-not-localize/profiles-audiences-deliveries.png">
 </a>
 <div>
-<a href="content-blocks.md"><strong>Select your delivery recipients</strong></a>
+<a href="add-audience.md"><strong>Select your delivery recipients</strong></a>
 </div>
 <p></td>
 </tr></table>
