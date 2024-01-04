@@ -22,14 +22,14 @@ A template can include:
 * [Typologies](../advanced-settings/delivery-settings.md#typology),
 * The sender address,
 * An [audience](../audience/about-recipients.md), including [control groups](../audience/control-group.md),
-* Custom [content](../content/edit-content.md),
+* Custom [content](../email/edit-content.md),
 * [Personalized fields](../personalization/personalize.md) and [conditional content](../personalization/conditions.md),
-* Links to [mirror page](../content/mirror-page.md) and unsubscription [links](../content/message-tracking.md),
+* Links to [mirror page](../email/mirror-page.md) and unsubscription [links](../email/message-tracking.md),
 * Other delivery properties, such as resource validity, retry parameters, or quarantine settings.
 
 >[!NOTE]
 >
->Delivery templates are different from [content templates](../content/create-email-templates.md), which allow you reuse only the content of your emails and to start building content with one of the sample email templates provided out-of-the-box.
+>Delivery templates are different from [content templates](../email/create-email-templates.md), which allow you reuse only the content of your emails and to start building content with one of the sample email templates provided out-of-the-box.
 
 
 ## Access and manage delivery templates {#access-manage-templates}

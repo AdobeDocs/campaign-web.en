@@ -62,11 +62,11 @@ Now that you have an understanding of what you can do in Adobe Campaign Web, it'
 <p>
 </td>
 <td>
-<a href="content/get-started-email-designer.md">
+<a href="email/get-started-email-designer.md">
 <img alt="Infrequent" src="assets/do-not-localize/menu-design.jpg">
 </a>
 <div>
-<a href="content/get-started-email-designer.md"><strong>Meet the Email Designer</strong></a>
+<a href="email/get-started-email-designer.md"><strong>Meet the Email Designer</strong></a>
 </div>
 <p></td>
 <td>

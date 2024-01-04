@@ -23,7 +23,7 @@ To access email rendering capabilities, you need to:
 
 Then, follow the steps below.
 
-1. In the [Edit content](../content/edit-content.md) screen or in the [Email Designer](../content/get-started-email-designer.md), click the **[!UICONTROL Simulate content]** button.
+1. In the [Edit content](../email/edit-content.md) screen or in the [Email Designer](../email/get-started-email-designer.md), click the **[!UICONTROL Simulate content]** button.
 
 1. Select the **[!UICONTROL Render email]** button.
 

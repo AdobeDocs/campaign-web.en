@@ -26,7 +26,7 @@ badge: label="Beta"
 >id="acw_deliveries_email_options"
 >title="Edit tracking"
 >abstract="By default, tracking is enabled for the delivery, meaning all links included in the message content are tracked. You can disable this option from here."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/content/design-content/message-tracking.html" text="Add links and track messages"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/email/design-email/message-tracking.html" text="Add links and track messages"
 
 The email **[!UICONTROL Edit content]** screen allows you to:
 

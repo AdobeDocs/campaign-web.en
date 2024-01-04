@@ -33,7 +33,7 @@ Built-in content blocks are:
 * **[!UICONTROL Formatting function for proper nouns]**: generates the **[!UICONTROL toSmartCase]** Javascript function, which changes the first letter of each word to uppercase. 
 * **[!UICONTROL Greetings]**: inserts greetings with the recipient's full name, followed by a comma. Example: "Hello John Doe,".
 * **[!UICONTROL Insert Logo]**: inserts a logo which is is defined in the instance settings.
-* **[!UICONTROL Link to mirror page]**: inserts a link to the [mirror page](../content/mirror-page.md). Default format is: "If you are unable to view this message correctly, click here".
+* **[!UICONTROL Link to mirror page]**: inserts a link to the [mirror page](../email/mirror-page.md). Default format is: "If you are unable to view this message correctly, click here".
 * **[!UICONTROL Mirror page URL]**: inserts the mirror page URL, enabling Delivery Designers to check the link.
 * **[!UICONTROL Notification style]**
 * **[!UICONTROL Offer acceptance URL in unitary mode]**: inserts an URL enabling to set an offer to **[!UICONTROL Accepted]**. (This block is available if the Interaction module is enabled)

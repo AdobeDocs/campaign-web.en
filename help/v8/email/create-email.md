@@ -18,7 +18,7 @@ badge: label="Beta"
 
 Learn how to create your first targeted email. In this use case, you schedule the sending of an email to Silver and Gold loyalty members on a specific date.
 
-Based on a predefined [design template](../content/create-email-templates.md), the email also features personalized content based on customer profile attributes.
+Based on a predefined [design template](../email/create-email-templates.md), the email also features personalized content based on customer profile attributes.
 
 ## Create the email delivery {#create-email}
 
@@ -98,13 +98,13 @@ Additional instructions on how to work with audiences are available in [this sec
 
 To start creating your email content, follow the steps below. In this use case, you use a predefined email [delivery template](../msg/delivery-template.md) to design your email.<!--TBC delivery template or email content template?-->
 
-<!--Detailed instructions on how to configure the email content are available in [this section](../content/edit-content.md).-->
+<!--Detailed instructions on how to configure the email content are available in [this section](../email/edit-content.md).-->
 
 1. From the email delivery dashboard, click the **[!UICONTROL Edit content]** button.
 
     ![](assets/email-edit-content.png)
 
-   This brings you to a dedicated interface where you can configure the email content and access the Email Designer. [Learn more](../content/edit-content.md)
+   This brings you to a dedicated interface where you can configure the email content and access the Email Designer. [Learn more](../email/edit-content.md)
 
     ![](assets/edit-content.png)
 
@@ -114,11 +114,11 @@ To start creating your email content, follow the steps below. In this use case, 
 
 1. To design the content of the email, click the **[!UICONTROL Edit email body]** button.
 
-    Choose the method to use to create your email content. In this example, use a [predefined content template](../content/create-email-templates.md).
+    Choose the method to use to create your email content. In this example, use a [predefined content template](../email/create-email-templates.md).
 
     ![](assets/select-template.png)
 
-1. Once you have selected the template, it is displayed in the [Email Designer](../content/create-email-content.md), where you can make any necessary edits and add personalization.
+1. Once you have selected the template, it is displayed in the [Email Designer](../email/create-email-content.md), where you can make any necessary edits and add personalization.
 
     For example, to add personalization to the email title, select the component block and click **[!UICONTROL Add Personalization]**.
 

@@ -24,7 +24,7 @@ To do this, [!DNL Adobe Campaign] allows you to:
 * [Send test deliveries](test-deliveries.md) (proofs) to specific recipients or subscribers for testing and validation
 * [Check the email rendering](email-rendering.md) in popular desktop, mobile and web-based clients
 
-These actions can be performed using the **[!UICONTROL Simulate content]** button, which is accessible from the edit content screen of your delivery - or from the [Email Designer](../content/get-started-email-designer.md).
+These actions can be performed using the **[!UICONTROL Simulate content]** button, which is accessible from the edit content screen of your delivery - or from the [Email Designer](../email/get-started-email-designer.md).
 
 ![](assets/simulate-button.png)
 

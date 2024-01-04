@@ -79,7 +79,7 @@ To define the content of your notification, click **[!UICONTROL Edit content]**.
 
 ![](assets/push_create_5.png)
 
-From this screen, you can also [simulate your content](../preview-test/preview-test.md) and [set up offers](../content/offers.md).
+From this screen, you can also [simulate your content](../preview-test/preview-test.md) and [set up offers](../msg/offers.md).
 
 ## Schedule your delivery sending {#schedule-push}
 

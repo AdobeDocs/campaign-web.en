@@ -20,7 +20,7 @@ To generate an email content with the Content Assistant, follow the steps below.
 
 1. After creating and configuring your Email delivery, click **[!UICONTROL Create content]**.
 
-    For more information on how to configure your email delivery, refer to [this page](../content/create-email-content.md).
+    For more information on how to configure your email delivery, refer to [this page](../email/create-email-content.md).
 
 1. Fill in the **[!UICONTROL Basic details]** for your delivery. Once done, click **[!UICONTROL Edit email body]**.
 
