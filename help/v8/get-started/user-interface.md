@@ -154,14 +154,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 <!-- delivery settings-->
 
 
-
-
-
-
 <!-- FOR BETA (alignment) -->
 <!--https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CBETA%3E-+Official+list-->
-
-
 
 
 <!-- FOR GA -->
@@ -207,55 +201,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Subscriptions delivery template"
 >abstract="Subscriptions delivery template"
 
->[!CONTEXTUALHELP]
->id="acw_landingpages_menu"
->title="Landing Pages"
->abstract="Landing Pages"
-
->[!CONTEXTUALHELP]
->id="acw_landingpages_properties"
->title="Landing Pages properties"
->abstract="Landing Pages properties"
-
->[!CONTEXTUALHELP]
->id="acw_landingpages_pages_list"
->title="Landing Pages pages"
->abstract="Landing Pages pages"
-
->[!CONTEXTUALHELP]
->id="acw_landingpages_schedule"
->title="Landing Pages schedule"
->abstract="Landing Pages schedule"
-
->[!CONTEXTUALHELP]
->id="acw_landingpages_primarypage"
->title="Landing Pages primary page"
->abstract="Landing Pages primary page"
-
->[!CONTEXTUALHELP]
->id="acw_landingpages_subscription"
->title="Landing Pages subscription"
->abstract="Landing Pages subscription"
-
->[!CONTEXTUALHELP]
->id="acw_landingpages_calltoaction"
->title="Landing Pages call to action"
->abstract="Landing Pages call to action"
-
->[!CONTEXTUALHELP]
->id="acw_landingpages_simulate"
->title="Landing Pages simulate"
->abstract="Landing Pages simulate"
-
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_query_enrichment_noneditable"
 >title="Activity non editable"
 >abstract="Activity non editable"
-
-
 
 
 >[!CONTEXTUALHELP]
@@ -305,8 +255,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Segments for split activity" 
 
 
-
-
 >[!CONTEXTUALHELP]
 >id="acw_conditionalcontent_savefilter"
 >title="Conditional content save filter"
@@ -326,8 +274,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_conditionalcontent_subjectlinecondition"
 >title="Conditional content subjectline condition"
 >abstract="Conditional content subjectline condition" 
-
-
 
 
 >[!CONTEXTUALHELP]
@@ -392,8 +338,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_directmail_properties_content"
 >title="Content properties for Direct Mail"
 >abstract="Content properties for Direct Mail"
-
-
 
 
 <!--
