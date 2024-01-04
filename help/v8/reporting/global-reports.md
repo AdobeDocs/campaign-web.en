@@ -12,7 +12,7 @@ The **Global reports** serve as an effective tool, offering a consolidated overa
 The full list of reports and associated metrics for each channel is available in the following pages:
 
 * [Email global reports](global-report-email.md)
-* [SMS global reports](global-report-email-sms.md)
+* [SMS global reports](global-report-sms.md)
 * [Push global reports](global-report-push.md)
 
 ## Manage your report dashboard {#manage-reports}
