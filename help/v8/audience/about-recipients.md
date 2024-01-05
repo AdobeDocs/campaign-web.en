@@ -3,7 +3,7 @@ title: Monitor & manage profiles
 description: Learn how to monitor and manage profiles in Campaign Web.
 badge: label="Limited Availability"
 ---
-# Monitor & manage profiles {#profiles}
+# Monitor & edit profiles {#profiles}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn4"
@@ -90,9 +90,7 @@ To access the details of a profile and edit them, follow the steps below.
 
 1. Browse to **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]**.
 
-1. Click the desired item from the **[!UICONTROL Profiles]** list. 
-
-1. You can access the detailed information on the profile.
+1. Click the desired item from the **[!UICONTROL Profiles]** list. The detailed information on the profile are displayed.
 
     ![](assets/profile-details.png)
 
