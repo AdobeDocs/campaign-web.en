@@ -112,7 +112,7 @@ Here, the query is targeting recipients who made purchases related to the BrewMa
 
 1. Select the **Purchases** table and confirm.
 
-    ![](assets/1-n-collection.png)
+    ![](assets/1-N-collection.png)
 
 1. An outbound transition is added, allowing you to create sub-conditions.
 
