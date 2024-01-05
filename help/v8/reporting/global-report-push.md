@@ -74,7 +74,7 @@ Push notifications error types are listed in the [Adobe Campaign v8 (client cons
 
 ## Delivery throughput {#delivery-throughput-sms}
 
-![](assets/global_report_push_delivery_statistics.png)
+![](assets/global_report_push_delivery_throughput.png)
 
 This report provides comprehensive details on the delivery throughput within a specified timeframe.
 
