@@ -2,10 +2,10 @@
 audience: end-user
 title: Design a push notification delivery
 description: Learn how to design a push notification delivery with Adobe Campaign Web
-badge: label="Beta"
+badge: label="Limited Availability"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
 ---
-# Design a push messsaging delivery {#content-push}
+# Design a push messaging delivery {#content-push}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"

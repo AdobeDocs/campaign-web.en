@@ -2,7 +2,7 @@
 audience: end-user
 title: Add a link to the mirror page
 description: Learn how to add and manage the link to the mirror page
-badge: label="Beta" 
+badge: label="Limited Availability" 
 exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
 ---
 # Add a link to the mirror page{#mirror-page}

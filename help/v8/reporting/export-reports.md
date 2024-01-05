@@ -9,7 +9,7 @@ badge: label="Limited availability"
 
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
->title="Export"
+>title="Export your reports"
 >abstract="Click the **Export** button to export these metrics to PDF or CSV formats, which enables you to share or print them."
 
 You can easily export your different reports to PDF or CSV format, which enables you to share, manipulate, or print them.
