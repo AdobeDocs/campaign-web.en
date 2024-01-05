@@ -29,15 +29,25 @@ To access the test profile list, select **[!UICONTROL Customer management]** > *
 
 ![](assets/test-profile-list.png)
 
-You can filter on a specific [folder](../get-started/permissions.md#folders) using the drop-down list or add rules using the [query modeler](../query/query-modeler-overview.md).
+* You can filter on a specific [folder](../get-started/permissions.md#folders) using the drop-down list or add rules using the [query modeler](../query/query-modeler-overview.md).
 
-![](assets/test-profile-list-filters.png)
+    ![](assets/test-profile-list-filters.png)
 
-To edit a test profile, click the desired item from the list.
+* You can duplicate any test profile and edit it as needed.
 
-To delete a test profile, select the corresponding option from the **[!UICONTROL More actions]** menu.
+* To delete a test profile, select the corresponding option from the **[!UICONTROL More actions]** menu.
 
-![](assets/test-profile-list-delete.png)
+    ![](assets/test-profile-list-delete.png)
+
+* To edit a test profile, click the desired item from the list.
+
+You can also access test profiles through the **[!UICONTROL Explorer]** view, from the **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** node.
+
+From there you can browse, create and manage folders or subfolders, as well as check associated permissions. [Learn how to create folders](../get-started/permissions.md#folders)
+
+![](assets/test-profiles-folders.png)
+
+From the **[!UICONTROL Explorer]** view you can also filter, delete, edit and [create](#create-test-profile) test profiles.
 
 ## Create a test profile {#create-test-profile}
 
@@ -60,7 +70,7 @@ To create a test profile, follow the steps below.
     >
     >The **[!UICONTROL Label]** field is automatically filled in with the first name and last name you defined.
 
-1. By default, test profiles are stored in the **[!UICONTROL Seed addresses]** folder. You can change it by browsing to the desired location. [Learn more](#seed-addresses-folders)
+1. By default, test profiles are stored in the **[!UICONTROL Seed addresses]** folder. You can change it by browsing to the desired location. [Learn how to work with folders](../get-started/permissions.md#folders)
 
     ![](assets/test-profile-folder.png)
 
@@ -72,7 +82,7 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
     ![](assets/test-profile-address.png)
 
-1. If you select the **[!UICONTROL No longer contact (by any channel)]** checkbox, the profile is on denylist. Such recipient is no longer targeted on any channel (email, SMS, etc.).
+1. If you select the **[!UICONTROL No longer contact (by any channel)]** checkbox, the test profile is on denylist. Such recipient is no longer targeted on any channel (email, SMS, etc.).
 
 1. In the **[!UICONTROL Additional data]** tab, enter the personalization data used for the deliveries created in the Data management workflows and which you want to assign a specific value to. [Learn more on workflows](../workflows/gs-workflows.md)
 
@@ -86,16 +96,5 @@ The test profile you just created is now ready to be used to send a test. [Learn
 
 <!--Use test profiles in Direct mail? cf v7/v8-->
 
-## Manage seed addresses folders {#seed-addresses-folders}
-
-Seed addresses are stored in a dedicated node of the Adobe Campaign hierarchy: **[!UICONTROL Explorer]** > **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]**.
-
-To organize test profiles, you can create subfolders from the More actions drop-down list. [Learn how to create folders](../get-started/permissions.md#folders)
-
-![](assets/test-profile-sub-folders.png)
-
-You can also create a test profile from any **[!UICONTROL Seed addresses]** folder or subfolder. Fill in all the details the same way you would do it from the **[!UICONTROL Customer Management]** > **[!UICONTROL Profiles]** menu. [Learn more](#create-test-profile)
-
-To edit a test profiles, click its label either from the **[!UICONTROL Test profiles]** tab or from the folder where it is stored.
 
 
