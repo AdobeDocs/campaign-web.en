@@ -165,6 +165,28 @@ Available operators are:
 
 ![](assets/query-operator-change.png)
 
+### Copy-paste filtering components {#copy}
+
+The query modeler allows you to copy one or multiple filtering components and paste them at the end of a transition. This operation can be executed within the current query canvas, or in any canvas within your instance.
+
+>[!NOTE]
+>
+>The copied selection is kept as long as you are working in your instance. If you log off and log back in, your selection will no longer be available for pasting.
+
+To copy-paste filtering components, follow these steps:
+
+1. Select the filtering component that you want to copy by clicking on it in the query canvas. To select multiple components, use the multiple selection tool available in the toolbar located at the upper-right corner of the canvas.
+
+1. Click the **[!UICONTROL Copy]** button in the component's properties pane or in the blue ribbon at the bottom of the screen if you have selected multiple components.
+
+    |Copy a single component|Copy multiple components|
+    |  ---  |  ---  |
+    |![](assets/copy-single-component.png){width="200" align="center" zoomable="yes"}|![](assets/copy-multiple-components.png){width="200" align="center" zoomable="yes"}|
+
+1. To paste the component(s), click the + button at the end of the desired transition and select **Paste n items**.
+
+![](assets/copy-paste.png)
+
 ## Check and validate your query
 
 >[!CONTEXTUALHELP]

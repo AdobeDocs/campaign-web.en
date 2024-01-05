@@ -284,7 +284,7 @@ The **[!UICONTROL Breakdown of clicks over time]** graph contains the available 
 
 The **[!UICONTROL User activities]** report shows the breakdown of opens and clicks in the form of a chart. Metrics for this report are detailed below.
 
-![](assets/campaign_report_email_10.png){align="center"}
+![](assets/campaign_report_email_user_activities.png){align="center"}
 
 +++Learn more on Email delivery report metrics.
 

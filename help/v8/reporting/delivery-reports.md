@@ -12,11 +12,6 @@ badge: label="Limited Availability"
 >title="Aggregated reporting for deliveries"
 >abstract="Select at least two deliveries for displaying an aggregated data report."
 
->[!CONTEXTUALHELP]
->id="acw_reporting_email_exportation"
->title="Export"
->abstract="Click the **Export** button to export these metrics to PDF or CSV formats, which enables you to share or print them."
-
 The **Delivery reports** provide in-depth insights and data exclusively focused on your **deliveries** across each channel. These reports provide detailed information on the performance, effectiveness, and outcomes of your individual deliveries, providing you with a comprehensive overview.
 
 The full list of reports and associated metrics for each channel is available in the following pages:
@@ -56,16 +51,3 @@ To display and manage reports, follow these steps:
     The **[!UICONTROL View by]** options allow you to filter on URLs, Labels or Categories.
 
     ![](assets/manage_delivery_report_5.png)
-
-## Export your reports {#export-reports}
-
-You can easily export your different reports to PDF or CSV format, which enables you to share, manipulate, or print them.
-
-1. From your report, click **[!UICONTROL Export]** and select **[!UICONTROL Export as PDF file]** or **[!UICONTROL Export as CSV file]**.
-
-    ![](assets/export_delivery_report.png)
-
-1. Locate the folder where you want to save your file, rename it if needed and click **[!UICONTROL Save]**.
-
-Your report is now available to view or share in a PDF or CSV file.
-
