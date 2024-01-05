@@ -2,7 +2,7 @@
 audience: end-user
 title: Send an SMS delivery
 description: Learn how to send SMS with Adobe Campaign Web
-badge: label="Beta"
+badge: label="Limited Availability"
 exl-id: 901faf3b-fcdd-4a4e-8de7-7d088686250f
 ---
 # Preview and send an SMS delivery {#send-sms-delivery}

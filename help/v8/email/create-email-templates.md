@@ -7,7 +7,7 @@ feature: Templates
 topic: Content Management
 role: User
 level: Beginner
-badge: label="LA" 
+badge: label="Limited Availability" 
 ---
 # Work with content templates {#content-templates}
 
