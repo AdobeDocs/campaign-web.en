@@ -82,8 +82,6 @@ To filter your query using a custom condition, follow these steps:
 
     ![](assets/query-custom-condition.png)
 
-
-
 #### Custom conditions on linked tables (1-1 and 1-N links){#links}
 
 Custom conditions allows you to query tables linked to the table currently used by your rule. This includes tables with a 1-1 cardinality link, or collection tables (1-N link).
@@ -130,7 +128,7 @@ Here, the query is targeting recipients who made purchases related to the BrewMa
 
 +++ 
 
-#### Work with aggregate data {#aggregate}**
+#### Work with aggregate data {#aggregate}
 
 Custom conditions allow you to perform aggregate operations. To do this, you need to directly select an attribute from a collection table:
 
