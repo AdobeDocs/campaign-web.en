@@ -44,7 +44,7 @@ The query modeler is available in every context where you need to define rules t
 
 The query modeler provides a central canvas where you build your query, and a right pane providing information on your query.
 
-![](assets/query-interface.png)
+![](assets/query-interface.png){width="70%" align="center"}
 
 ### The central canvas {#canvas}
 
