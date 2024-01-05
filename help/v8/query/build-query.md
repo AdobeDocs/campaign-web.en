@@ -43,13 +43,13 @@ To filter your query using a custom condition, follow these steps:
 
 1. Click the **+** button on the desired node and select **[!UICONTROL Custom condition]**. The custom condition properties pane opens on the right hand side. 
 
-1. In the **Attribute** field, select the attribute from the database that you want to leverage to create your condtion. The attributes list includes all the attributes from your Campaign database, including attributes linked to your table.
+1. In the **Attribute** field, select the attribute from the database that you want to leverage to create your condtion. The attributes list includes all the attributes from your Campaign database, including attributes from linked tables.
 
     ![](assets/query-custom-condition-fields.png)
 
     >[!NOTE]
     >
-    >The Edit expression button allows you to leverage Campaign Web expression editor to manually define an expression using fields from the database and helper functions.
+    >The Edit expression button allows you to leverage Campaign Web expression editor to manually define an expression using fields from the database and helper functions. [Learn how to edit expressions](expression-editor.md)
 
 1. Select the operator to apply from the drop-down list. Various operators are available for use. Note that operators available in the drop-down list depend on the attribute's data type. 
 
@@ -76,27 +76,35 @@ To filter your query using a custom condition, follow these steps:
 
     +++
 
-1. In the **Value** field, define the expected value. You can also leverage Campaign Web expression editor to manually define an expression using fields from the database and helper functions. To do this, click the **Edit expression** button.
+1. In the **Value** field, define the expected value. You can also leverage Campaign Web expression editor to manually define an expression using fields from the database and helper functions. To do this, click the **Edit expression** button. [Learn how to edit expressions](expression-editor.md)
 
     *Query example returning all profiles aged 21 or more:*
 
     ![](assets/query-custom-condition.png)
 
-**Custom conditions on distant tables (1-1 and 1-N links)**
 
-Custom conditions allows you to query distant tables linked to the Recipients table.
 
-For a **1-1 link** with another database resource, select the value directly from the table targeted.
+#### Custom conditions on linked tables (1-1 and 1-N links){#links}
+
+Custom conditions allows you to query tables linked to the table currently used by your rule. This includes tables with a 1-1 cardinality link, or collection tables (1-N link).
+
+For a **1-1 link**, select the attribute directly from the table targeted.
 
 +++Query example
 
-Here, the query is targeting recipients whose country or region is included in given values (uk and us)
+Here, the query is targeting brands whose label is "running". 
 
-![](assets/custom-condition-1-1.png)
+1. Navigate inside the **Brand** table and select the **Label** attribute.
+
+    ![](assets/1-1-attribute.png)
+
+1. Define the expected value for the attribute.
+
+    ![](assets/1-1-table.png)
 
 +++ 
 
-For a **1-N link** with another database resource, you can define sub-conditions on the fields of this second resource. 
+For a **1-N link**, you can define sub-conditions to refine your query. 
 
 For example, you can select the Exists operator on the profile purchases to target all the profiles for which purchases exist. Once done, add a custom condition on the outbound transition and create a filter to suit your needs.
 
@@ -104,9 +112,35 @@ For example, you can select the Exists operator on the profile purchases to targ
 
 Here, the query is targeting recipients who made purchases related to the BrewMaster product, for a total amount of at least 100$.
 
-![](assets/custom-condition-1-N.png)
+1. Select the **Purchases** table and confirm.
+
+    ![](assets/1-n-collection.png)
+
+1. An outbound transition is added, allowing you to create sub-conditions.
+
+    ![](assets/1-n-subcondition.png)
+
+1. Select the **Price** attribute and target purchases of 1000$ or more
+
+    ![](assets/1-n-price.png)
+
+1. Add sub-conditions to suit your needs. Here we have added a condition to target profiles who purchased a BrewMaster product.
+
+    ![](assets/custom-condition-1-N.png)
 
 +++ 
+
+#### Work with aggregate data {#aggregate}**
+
+Custom conditions allow you to perform aggregate operations. To do this, you need to directly select an attribute from a collection table:
+
+1. Navigate inside the desired collection table and select the attribute on which you want to perform an aggregate operation.
+
+    ![](assets/aggregate-attribute.png)
+
+1. In the properties pane, toggle on the **Aggregate data** option and select the desired aggregate function.
+
+    ![](assets/aggregate.png)
 
 ### Select an audience
 
@@ -142,30 +176,7 @@ To filter your query using a predefined filter, follow these steps:
 
     ![](assets/query-predefined-filter.png)
 
-## Combine filtering components with operators {#operators}
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_querymodeler_group"
->title="Group"
->abstract="Group"
-
-Each time you add a new filtering component to your query, it is automaticalky linked to the other component by an AND operator. This means that results from both the filtering components are combined into the query results.
-
-In this example, we have added a new audience-type filtering components on the second transition. The component is linked to the predefined filter type condition with an AND operator, meaning that the query results includes recipients targeted by the "Madridians" predefined filter AND belonging to the "Discount hunters" audience.
-
-![](assets/query-operator.png)
-
-To change the operator used to link filtering conditions together, click on it and select the desired operator in the Group pane that opens on the right hand side.
-
-Available operators are:
-
-* **AND (Intersection)**: Combines results matching all the filtering components in the outbound transitions. 
-* **OR (Union)**: Includes results matching at least one of the filtering components in the outbound transitions.
-* **EXCEPT (Exclusion)**: Excludes results matching all the filtering componentns in the outbound transition. 
-
-![](assets/query-operator-change.png)
-
-### Copy-paste filtering components {#copy}
+### Copy-paste components {#copy}
 
 The query modeler allows you to copy one or multiple filtering components and paste them at the end of a transition. This operation can be executed within the current query canvas, or in any canvas within your instance.
 
@@ -187,6 +198,35 @@ To copy-paste filtering components, follow these steps:
 
 ![](assets/copy-paste.png)
 
+## Combine filtering components with operators {#operators}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_group"
+>title="Group"
+>abstract="Group"
+
+Each time you add a new filtering component to your query, it is automatically linked to the other component by an **AND** operator. This means that results from the two filtering components are combined.
+
+In this example, we have added a new audience-type filtering components on the second transition. The component is linked to the predefined filter type condition with an **AND** operator, meaning that the query results includes recipients targeted by the "Madridians" predefined filter AND belonging to the "Discount hunters" audience.
+
+![](assets/query-operator.png)
+
+To change the operator used to link filtering conditions together, click on it and select the desired operator in the **Group** pane that opens on the right hand side.
+
+Available operators are:
+
+* **AND (Intersection)**: Combines results matching all the filtering components in the outbound transitions. 
+* **OR (Union)**: Includes results matching at least one of the filtering components in the outbound transitions.
+* **EXCEPT (Exclusion)**: Excludes results matching all the filtering componentns in the outbound transition. 
+
+![](assets/query-operator-change.png)
+
+In addition, you can create intermediate groups of components by clicking the **+** button on a transition. This allows you to add an operator at this specific location to group together multiple components and refine your query. 
+
+In the example below, we have created an intermediate group to include results from either the "VIP to reward" or "Super VIP" audiences.
+
+![](assets/query-intermediate-group.png)
+
 ## Check and validate your query
 
 >[!CONTEXTUALHELP]
@@ -204,3 +244,7 @@ Once you've built your query in the canvas, you can check it using the **Rule pr
     >[!IMPORTANT]
     >
     >Select a predefined filter from the Rule properties pane replaces the query that has been built in the canvas with the selected filter.
+
+When your query is ready, click the **[!UICONTROL Confirm]** button in the upper-right corner to save it.
+
+You can modify your query at any time by opening it. Keep in mind that upon opening an existing query, it displays in a simplified view without the visiblity of  **+** buttons. To add new elements to the query, select a component or operator on the canvas to display the **+** buttons.

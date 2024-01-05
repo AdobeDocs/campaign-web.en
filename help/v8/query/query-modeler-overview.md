@@ -48,15 +48,15 @@ The query modeler provides a central canvas where you build your query, and a ri
 
 ### The central canvas {#canvas}
 
-The query modeler central canvas is where you add and combine the different components building your query.
+The query modeler central canvas is where you add and combine the different components building your query. [Learn how to build a query](build-query.md)
 
 The toolbar located in the upper-right corner of the canvas provides options to easily manipulate the query components and navigate in the canvas:
 
-* Multiple selection mode: Select multiple filtering components to copy and paste them at the location of your choice.
-* Rotate: Switch the canvas vertically.
-* Fit to screen: Adapt the canvas zoom level to your screen.
-* Zoom out / Zoom in: Zoom out or in the canvas.
-* Display map: Opens a snapshot of the canvas showing you are located.
+* **Multiple selection mode**: Select multiple filtering components to copy and paste them at the location of your choice.
+* **Rotate**: Switch the canvas vertically.
+* **Fit to screen**: Adapt the canvas zoom level to your screen.
+* **Zoom out** / **Zoom in**: Zoom out or in the canvas.
+* **Display map**: Opens a snapshot of the canvas showing you are located.
 
 ### The Rule properties pane {#rule-properties}
 

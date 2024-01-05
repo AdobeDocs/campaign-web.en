@@ -6,13 +6,19 @@ badge: label="Limited Availability"
 ---
 # Edit expressions {#expression}
 
-## Edit an expression {#edit}
+Editing an expression involves manually entering conditions to form a rule. This mode allows you to use advanced functions, whichlet you manipulate the values used to carry out specific queries such as manipulating dates, strings, numerical fields, sorting, etc.
 
-Editing an expression involves manually entering conditions to form a rule. This mode allows you to use advanced functions. These functions let you manipulate the values used to carry out specific queries such as manipulating dates, strings, numerical fields, sorting, etc.
+>[!IMPORTANT]
+>
+>The section below provides information on how to work with the expression editor to build rules. Keep in mind that the syntax used to build rules differ from the one used to add personalization.
 
-These operations are available from the query modeler **[!UICONTROL Edit expression]** button, available for the **[!UICONTROL Attribute]** and **[!UICONTROL Value]** fields when configuring a custom condition. 
+## Work with the expression editor {#edit}
 
-![](assets/edit-expression.png)
+The expression editor is available from the query modeler **[!UICONTROL Edit expression]** button, available for the **[!UICONTROL Attribute]** and **[!UICONTROL Value]** fields when configuring a custom condition. 
+
+|Access from the **Attribute** field|Access from the **Value** field|
+|  ---  |  ---  |
+|![](assets/expression-editor-attribute.png){width="200" align="center" zoomable="yes"}|![](assets/edit-expression.png){width="200" align="center" zoomable="yes"}|
 
 The expression editor provides:
 
@@ -23,6 +29,12 @@ The expression editor provides:
 Edit the expression by entering an expression directly in the input field. To add a field or a helper function, place your cursor in the expression where you want to add it and click the + button.
 
 ![](assets/expression-editor.png)
+
+When your expression is ready, click the **[!UICONTROL Confirm]** button. The expression displays in the selected field. To edit it, open the expression editor and make the desired changes.
+
+The example below shows an expression configured for the **[!UICONTROL Value]** field. To edit it, you need to open the expression editor using the **[!UICONTROL Edit expression]** button.
+
+![](assets/edit-expression-value.png)
 
 ## Helper functions
 
