@@ -9,7 +9,7 @@ exl-id: cf72d27e-365c-4edc-b661-a67c148f0eeb
 
 Once you [created a service](manage-services.md#create-service), you can add subscribers, unsubscribe recipients, and send messages to the subscribers of that service.
 
-Subscribers management is detailed in this page. To learn how to send messages to your subscribers, refer to [this section](../content/send-to-subscribers.md).
+Subscribers management is detailed in this page. To learn how to send messages to your subscribers, refer to [this section](../msg/send-to-subscribers.md).
 
 ## Add subscribers to your service {#add-subscribers}
 

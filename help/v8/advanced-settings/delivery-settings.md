@@ -113,10 +113,9 @@ The **importance of the recipient** field is a formula used to determine which r
 >title="Audience settings for the delivery"
 >abstract="Select a **target mapping** among those available. Target mappings are defined in the Adobe Campaign v8 console. You can also set the exclusion parameters for the delivery. "
 
-In this section, you can select a **target mapping** among those available. Target mappings are defined in the Adobe Campaign v8 console. The targeting dimension, or target mapping, is the type of data that an operation is handling. It lets you define the targeted population: recipients, contract beneficiaries, operators, subscribers, etc.
+In this section, you can select a **target mapping** among those available. Target mappings are defined in the Adobe Campaign v8 console. The target mapping is the type of data that an operation is handling. It lets you define the targeted population: recipients, contract beneficiaries, operators, subscribers, etc.
 
-
-Learn more about target mappings in [this section](../audience/about-recipients.md#targeting-dimensions).
+Learn more about target mappings in [this section](../audience/targeting-dimensions.md).
 
 ## Delivery {#delivery}
 

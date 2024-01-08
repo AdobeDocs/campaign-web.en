@@ -92,7 +92,7 @@ You can personalize the message content by:
 
 * Add **personalized offers**
     
-    Insert personalized offers in your message content, depending on the recipient location, the current weather, or the last purchase order. [Learn more](../content/offers.md)
+    Insert personalized offers in your message content, depending on the recipient location, the current weather, or the last purchase order. [Learn more](../msg/offers.md)
 
 ## Preview and test your deliveries
 

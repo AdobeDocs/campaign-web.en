@@ -50,7 +50,7 @@ To create your own query, follow these extra steps:
 1. Select **Create your own (query)**.
 1. Choose the **Targeting dimension**. The targeting dimension lets you define the population targeted by the operation: recipients, contract beneficiaries, operator, subscribers, etc. By default, the target is selected from the recipients. Learn more about Targeting dimensions in [this section](../../audience/about-recipients.md#targeting-dimensions).
 1. Click **Continue**.
-1. Use the rule builder to define your query, the same way you create an audience when designing a new email. Refer to this [section](../../audience/segment-builder.md).
+1. Use the rule builder to define your query, the same way you create an audience when designing a new email. Refer to this [section](../../audience/../query/query-modeler-overview.md).
 
 To select an existing audience, follow these steps:
 

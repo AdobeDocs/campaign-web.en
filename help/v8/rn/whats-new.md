@@ -63,7 +63,7 @@ With Adobe Campaign, you can send cross-channel campaigns including emails, SMS,
 Use the new Campaign Web UI to:
 
 * Create, design, personalize, schedule, and send email, SMS, and push notifications - [Learn more](../msg/gs-messages.md)
-* Design personalized email content with the email designer - [Learn more](../content/edit-content.md)
+* Design personalized email content with the email designer - [Learn more](../email/edit-content.md)
 * Send cross cannel campaigns, including SMS and push notifications - [Learn more](../workflows/activities/channels.md)
 * Define target audiences with the rule builder - [Learn more](../audience/about-recipients.md)
 * Preview, test and send your messages - [Learn more](../monitor/prepare-send.md)
@@ -107,7 +107,7 @@ Key capabilities coming with Campaign Web Limited Availability release are liste
 
     Say goodbye to manual content creation and hello to efficient, data-driven campaigns with the power of Gen AI.  Our Gen AI technology utilizes advanced algorithms to **generate highly engaging and personalized content**. Drive higher open rates, click-through rates, and conversions with Gen AI's intelligent content generation. Stay ahead of the competition and elevate your email marketing game with Gen AI on email content.
 
-    Learn more in [this section](../content/generative-gs.md).
+    Learn more in [this section](../email/generative-gs.md).
 
 
 * **AI-powered Contextual Help**
@@ -126,14 +126,14 @@ Key capabilities coming with Campaign Web Limited Availability release are liste
 
     You can now **import and convert any HTML content** in Campaign's email editor. Content blocks are automatically identified, and available in the email designer: use its powerful design capabilities to update and personalize it!
 
-    Learn more in [this section](../content/existing-content.md).
+    Learn more in [this section](../email/existing-content.md).
 
 
 * **SMS with offers**
 
     The new web UI now enables you to **integrate offers with SMS** in addition to Email. Reach your audience on their mobile devices, delivering promotions, and timely notifications. Elevate your marketing efforts by harnessing the power of integrated offers through SMS on our advanced web platform.
    
-    Learn more in [this section](../content/offers.md).
+    Learn more in [this section](../msg/offers.md).
 
 ## Transition to Campaign Web UI
 

@@ -87,7 +87,7 @@ In the DECISION MANAGEMENT section, you can view the offers and offer templates.
 
 * **Offers** - Browse through the list of offers and offer templates that have been created in the console using the **Interaction** module. By default, you can view their status, start/end dates and environment. You can filter the list by status and start/end dates. Offer templates are also available.
 
-Learn how to create and send offers in emails and SMS in [this section](../content/offers.md).
+Learn how to create and send offers in emails and SMS in [this section](../msg/offers.md).
 
 
 

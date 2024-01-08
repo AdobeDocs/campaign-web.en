@@ -60,7 +60,6 @@ The **Targeted population** graph and table display data relative to your audien
 
 ### Overall statistics {#push-delivery-overall}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_overall_stats"
 >title="Push overall statistics"
@@ -81,7 +80,6 @@ The **Overall statistics** report presents data for the sent push notifications:
 +++
 
 ### Exclusions {#push-delivery-exclusions}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_exclusions"
