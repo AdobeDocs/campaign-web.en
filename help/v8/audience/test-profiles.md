@@ -21,7 +21,7 @@ The steps to send test messages to seed addresses are detailed in [this section]
 
 >[!NOTE]
 >
->Test profiles are automatically excluded from reports on the following delivery statistics: **[!UICONTROL Clicks]**, **[!UICONTROL Opens]**, **[!UICONTROL Unsubscriptions]**.
+>Test profiles are automatically excluded from reports on the following delivery statistics: **[!UICONTROL Clicks]**, **[!UICONTROL Opens]**, **[!UICONTROL Unsubscriptions]**. [Learn more on reports]
 
 ## Access and manage test profiles {#access-test-profiles}
 
@@ -33,13 +33,13 @@ To access the test profile list, select **[!UICONTROL Customer management]** > *
 
     ![](assets/test-profile-list-filters.png)
 
-* You can duplicate any test profile and edit it as needed.
+* You can duplicate any test profile and update it as needed. The steps to edit a test profile are the same as when [creating a test profile](#create-test-profile).
 
 * To delete a test profile, select the corresponding option from the **[!UICONTROL More actions]** menu.
 
     ![](assets/test-profile-list-delete.png)
 
-* To edit a test profile, click the desired item from the list.
+* To edit a test profile, click the desired item from the list. The steps to edit a test profile are the same as when [creating a test profile](#create-test-profile).
 
 You can also access test profiles through the **[!UICONTROL Explorer]** view, from the **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** node.
 
@@ -62,7 +62,9 @@ To create a test profile, follow the steps below.
 
 1. Click the **[!UICONTROL Create test profile]** button.
 
-1. Fill in the test profile details. <!--Most of the fields are the same as when creating profiles. [Learn more]-->
+    ![](assets/test-profile-create.png)
+
+1. Fill in the test profile details as needed. <!--Most of the fields are the same as when creating profiles. [Learn more]-->
 
     ![](assets/test-profile-details.png)
 
