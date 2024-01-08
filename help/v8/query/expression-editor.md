@@ -28,13 +28,13 @@ The expression editor provides:
 
 Edit the expression by entering an expression directly in the input field. To add a field or a helper function, place your cursor in the expression where you want to add it and click the + button.
 
-![](assets/expression-editor.png){width="70%" align="center"}
+![](assets/expression-editor.png)
 
 When your expression is ready, click the **[!UICONTROL Confirm]** button. The expression displays in the selected field. To edit it, open the expression editor and make the desired changes.
 
 The example below shows an expression configured for the **[!UICONTROL Value]** field. To edit it, you need to open the expression editor using the **[!UICONTROL Edit expression]** button.
 
-![](assets/edit-expression-value.png){width="70%" align="center"}
+![](assets/edit-expression-value.png)
 
 ## Helper functions
 
