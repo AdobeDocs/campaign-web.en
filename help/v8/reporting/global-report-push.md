@@ -12,7 +12,12 @@ Navigate to the **[!UICONTROL Reports]** menu within the **[!UICONTROL Reporting
 
 ## Delivery summary {#delivery-summary-push}
 
-### Delivery summary {#delivery-overview-push}
+### Delivery overview {#delivery-overview-push}
+
+>[!CONTEXTUALHELP]
+>id="acw_push_global_report_overview"
+>title="Push delivery overview"
+>abstract="The Push **delivery overview** KPIs provide a thorough examination of your push deliveries, delivering detailed insights and specific data. It furnishes comprehensive details regarding the deliveries' performance, effectiveness, and outcomes."
 
 The **[!UICONTROL Delivery Overview]** report provides key performance indicators (KPIs) that give detailed information about how your visitors engage with every push notification delivery. Metrics are detailed below.
     
@@ -32,6 +37,11 @@ The **[!UICONTROL Delivery Overview]** report provides key performance indicator
 
 ### Targeted audience {#delivery-summary-push-initial-target}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_push_targeted_audience"
+>title="Push targeted population"
+>abstract="The **Targeted population** graph and table showcase data related to your push messaging audience, presenting information about messages to be delivered and exclusions."
+
 The **[!UICONTROL Targeted audience]** table and graph present data related to your recipients for each sent Push notification delivery. Metrics are detailed below.
 
 ![](assets/global_report_push_targeted_audience.png)
@@ -47,6 +57,11 @@ The **[!UICONTROL Targeted audience]** table and graph present data related to y
 +++
 
 ### Delivery statistics {#delivery-summary-push-exec-stats}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_push_delivery_stats"
+>title="Push Delivery statistics"
+>abstract="The **Overall statistics** report provides information on sent push notifications, including success rates, errors, and quarantines."
 
 The **[!UICONTROL Delivery statistics]** table details the success of every Push notification delivery. Metrics are detailed below.
 
@@ -68,13 +83,23 @@ The **[!UICONTROL Delivery statistics]** table details the success of every Push
 
 ### Causes of exclusion {#causes-exclusion}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_push_exclusion"
+>title="Push Causes of exclusion"
+>abstract="The **Causes of Exclusion** graph and table illustrate the diverse reasons that prevented user profiles from receiving the push notifications."
+
 The **[!UICONTROL Causes of exclusion]** graph and table display the reasons that prevented user profiles, which were excluded from the targeted profiles, from receiving the message.
 
 Push notifications error types are listed in the [Adobe Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}.
 
 ## Delivery throughput {#delivery-throughput-sms}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_throughput_push"
+>title="Delivery throughput report"
+>abstract="The **Delivery throughput** report presents detailed information regarding the push notification delivery throughput of the entire platform within a specified timeframe."
+
 ![](assets/global_report_push_delivery_throughput.png)
 
-This report provides comprehensive details on the delivery throughput within a specified timeframe.
+The **[!UICONTROL Delivery Throughput]** report offers comprehensive insights into the effectiveness of the push notification delivery system, offering a detailed summary of success and error rates over a specified period.
 

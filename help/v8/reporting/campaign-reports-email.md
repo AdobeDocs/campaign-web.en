@@ -41,7 +41,7 @@ The **[!UICONTROL Delivery Overview]** report provides key performance indicator
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_target"
 >title="Initial target audience statistics"
->abstract="The Initial target audience statistics table displays data relative to your recipients"
+>abstract="The Initial target audience statistics table displays data relative to your recipients."
 
 The **[!UICONTROL Initial target audience statistics]** table displays data relative to your recipients. Metrics are detailed below.
 
