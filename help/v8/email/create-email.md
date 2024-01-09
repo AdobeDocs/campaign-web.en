@@ -35,7 +35,7 @@ To create a new standalone email delivery, follow the steps below.
 
 1. Browse to the **[!UICONTROL Deliveries]** menu on the left rail, and click the  **[!UICONTROL Create delivery]** button.
 
-    ![](assets/delivery-list.png)
+    ![](../msg/assets/create-a-delivery.png)
 
 1. Select **[!UICONTROL Email]** as the channel and choose an email delivery template from the list.
 
