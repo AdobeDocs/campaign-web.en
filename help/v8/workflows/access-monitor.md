@@ -46,4 +46,4 @@ The **[!UICONTROL Templates]** tab lists all available workflows templates.
 
 Workflow templates contain pre-configured activities and overall property configurations that can be reused for creating new workflows.
 
-You can create workflow templates from an existing workflow, or from scratch. [Learn how to create workflow templates](create-workflow.md#work-with-workflow-templates-workflow-templates)
+You can create workflow templates from an existing workflow, or from scratch. [Learn how to create workflow templates](create-workflow.md#workflow-templates)
