@@ -2,6 +2,8 @@
 audience: end-user
 title: Query samples
 description: Learn how to work with the rule builder.
+hide: yes
+hidefromtoc: yes
 badge: label="Limited Availability"
 ---
 # Query samples {#query-samples}

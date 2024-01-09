@@ -22,7 +22,7 @@ To build a new audience directly from a delivery, follow these steps:
 
     ![](assets/segment-builder0.png)
 
-1. Select **Create your own**. The rule builder is displayed. It allows you to define the population targeted by your delivery by filtering data contained in the database. [Learn how to use the rule builder](segment-builder.md)
+1. Select **Create your own**. The rule builder is displayed. It allows you to define the population targeted by your delivery by filtering data contained in the database. [Learn how to use the rule builder](../query/query-modeler-overview.md)
 
     ![](assets/segment-builder.png)
 

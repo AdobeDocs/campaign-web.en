@@ -3,7 +3,7 @@ audience: end-user
 title: Test email rendering
 description: Learn how to test your email rendering in Campaign Web UI
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
-badge: label="Beta" 
+badge: label="Limited Availability"
 ---
 
 # Test the email rendering {#email-rendering}
@@ -23,7 +23,7 @@ To access email rendering capabilities, you need to:
 
 Then, follow the steps below.
 
-1. In the [Edit content](../content/edit-content.md) screen or in the [Email Designer](../content/get-started-email-designer.md), click the **[!UICONTROL Simulate content]** button.
+1. In the [Edit content](../email/edit-content.md) screen or in the [Email Designer](../email/get-started-email-designer.md), click the **[!UICONTROL Simulate content]** button.
 
 1. Select the **[!UICONTROL Render email]** button.
 

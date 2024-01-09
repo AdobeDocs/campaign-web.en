@@ -31,8 +31,6 @@ The query modeler is available in every context where you need to define rules t
 |**Filter reports data**: Add rule to filter the data displayed in reports.|![](assets/access-reports.png){width="200" align="center" zoomable="yes"}|
 |**Customize lists**: Create custom rules to filter the data displayed in lists such as recipients, deliveries lists etc.|![](assets/access-lists.png){width="200" align="center" zoomable="yes"}|
 
-
-
 <!--**Dynamize content**: make your content dynamic by creating conditions that define which content should be displayed to different recipients, ensuring personalized and relevant messaging.
 
 +++Example
@@ -42,11 +40,24 @@ The query modeler is available in every context where you need to define rules t
  +++
 -->
 
-
 ## Query modeler interface {#interface}
 
-The query modeler provides a central canvas where you can add and combine the different components building your query.
-
-On the right hand side, the Rule properties pane provides information on your query. It allows you to perform various operations to check your query and ensure it suits your needs. Learn how to check and validate your query
+The query modeler provides a central canvas where you build your query, and a right pane providing information on your query.
 
 ![](assets/query-interface.png)
+
+### The central canvas {#canvas}
+
+The query modeler central canvas is where you add and combine the different components building your query. [Learn how to build a query](build-query.md)
+
+The toolbar located in the upper-right corner of the canvas provides options to easily manipulate the query components and navigate in the canvas:
+
+* **Multiple selection mode**: Select multiple filtering components to copy and paste them at the location of your choice.
+* **Rotate**: Switch the canvas vertically.
+* **Fit to screen**: Adapt the canvas zoom level to your screen.
+* **Zoom out** / **Zoom in**: Zoom out or in the canvas.
+* **Display map**: Opens a snapshot of the canvas showing you are located.
+
+### The Rule properties pane {#rule-properties}
+
+On the right hand side, the **[!UICONTROL Rule properties]** pane provides information on your query. It allows you to perform various operations to check the query and ensure it suits your needs. [Learn how to check and validate your query](build-query.md#check-and-validate-your-query)

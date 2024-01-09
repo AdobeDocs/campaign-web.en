@@ -34,7 +34,7 @@ To select an existing audience for your message, follow the steps below:
 
     ![](assets/select-audience-folder.png)
 
-1. The filter section allows you to access filtering options to refine the audiences list. To do this, click **Add rules** to access the rule builder, which lets you create advanced filters for the list of audiences. [Learn how to use the rule builder](segment-builder.md)
+1. The filter section allows you to access filtering options to refine the audiences list. To do this, click **Add rules** to access the rule builder, which lets you create advanced filters for the list of audiences. [Learn how to use the rule builder](../query/query-modeler-overview.md)
 
    ![](assets/create-audience4.png)
 

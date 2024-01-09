@@ -29,32 +29,32 @@ hide: yes
   + Emails {#email}
     + [Create your first email](email/create-email.md)
     + Define email content {#content}
-      + [Configure the email content](content/edit-content.md)
-      + [Work with content templates](content/create-email-templates.md)
+      + [Configure the email content](email/edit-content.md)
+      + [Work with content templates](email/create-email-templates.md)
       + Start shaping your email {#start-design}
-        + [Get started with the Email Designer](content/get-started-email-designer.md)
-        + [Start from scratch ](content/create-email-content.md)
-        + [Import your email content](content/existing-content.md)
-        + [Code your own content](content/code-content.md)
-        + [Use email content templates](content/use-email-templates.md)
+        + [Get started with the Email Designer](email/get-started-email-designer.md)
+        + [Start from scratch ](email/create-email-content.md)
+        + [Import your email content](email/existing-content.md)
+        + [Code your own content](email/code-content.md)
+        + [Use email content templates](email/use-email-templates.md)
       + Design your content {#design-content}
-        + [Use content components](content/content-components.md)
-        + [Add links and track messages](content/message-tracking.md)
-        + [Add a link to the mirror page](content/mirror-page.md)
-        + [Add a preheader](content/preheader.md)
-        + [Generate the text version](content/text-version-email.md)
-        + [Manage assets with Adobe Experience Manager Assets as a Cloud Service](content/aem-assets.md)
+        + [Use content components](email/content-components.md)
+        + [Add links and track messages](email/message-tracking.md)
+        + [Add a link to the mirror page](email/mirror-page.md)
+        + [Add a preheader](email/preheader.md)
+        + [Generate the text version](email/text-version-email.md)
+        + [Manage assets with Adobe Experience Manager Assets as a Cloud Service](email/aem-assets.md)
       + Content Assistant {#content-assistant}
-        + [Get started with the Content Assistant](content/generative-gs.md)
-        + [Text generation with the Content Assistant](content/generative-content.md)
-        + [Image generation with the Content Assistant](content/generative-image.md)
-        + [Email generation with the Content Assistant](content/generative-email.md)
+        + [Get started with the Content Assistant](email/generative-gs.md)
+        + [Text generation with the Content Assistant](email/generative-content.md)
+        + [Image generation with the Content Assistant](email/generative-image.md)
+        + [Email generation with the Content Assistant](email/generative-email.md)
       + Style your content {#style}
-        + [Get started with email style](content/get-started-email-style.md)
-        + [Edit background settings](content/backgrounds.md)
-        + [Adjust vertical alignment and padding](content/alignment-and-padding.md)
-        + [Define a style for links](content/styling-links.md)
-        + [Add inline styling attributes](content/inline-styling.md)
+        + [Get started with email style](email/get-started-email-style.md)
+        + [Edit background settings](email/backgrounds.md)
+        + [Adjust vertical alignment and padding](email/alignment-and-padding.md)
+        + [Define a style for links](email/styling-links.md)
+        + [Add inline styling attributes](email/inline-styling.md)
     + Send and monitor the email {#monitor}
       + [Prepare and send an email](monitor/prepare-send.md)
       + [Monitor delivery logs](monitor/delivery-logs.md)
@@ -74,8 +74,8 @@ hide: yes
     + [Add personalization](personalization/personalize.md)
     + [Add conditional content](personalization/conditions.md)
     + [Add built-in content blocks](personalization/content-blocks.md)
-  + [Add offers to your messages](content/offers.md)
-  + [Send messages to your subscribers](content/send-to-subscribers.md)
+  + [Add offers to your messages](msg/offers.md)
+  + [Send messages to your subscribers](msg/send-to-subscribers.md)
   + Preview and test your delivery {#preview-test}
     + [About preview and test](preview-test/preview-test.md) 
     + [Preview the message content](preview-test/preview-content.md)
@@ -83,6 +83,7 @@ hide: yes
     + [Render your email](preview-test/email-rendering.md)
 + Profiles & audiences {#audiences}
   + [Get started with profiles & audiences](audience/gs-audiences-recipients.md)
+  + [Targeting dimensions](audience/targeting-dimensions.md)
   + Work with profiles {#work-with-profiles}
     + [Monitor & manage profiles](audience/about-recipients.md)
     + [Create & manage test profiles](audience/test-profiles.md)
@@ -94,7 +95,6 @@ hide: yes
     + [Build a one-time audience](audience/one-time-audience.md)
     + [Load an audience from a file](audience/file-audience.md)
     + [Set a control group](audience/control-group.md)
-  + [Work with the rule builder](audience/segment-builder.md)
   + Work with subscription services {#work-with-services}
     + [Manage services](audience/manage-services.md)
     + [Manage subscribers](audience/manage-subscribers.md)
@@ -135,6 +135,7 @@ hide: yes
   + [Filter lists](query/filter.md)
 + Reporting {#reports}
   + [Get started with reports](reporting/gs-reports.md)
+  + [Export your reports](reporting/export-reports.md)
   + [Key performance indicators](reporting/kpis.md)
   + Delivery reports {#delivery-report}
     + [Get started with delivery reports](reporting/delivery-reports.md)

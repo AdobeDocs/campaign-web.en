@@ -10,7 +10,7 @@ badge: label="Beta"
 
 ## Prepare the send {#prepare}
 
-When you have defined your [content](../content/edit-content.md), [audience](../audience/add-audience.md), and [schedule](../msg/gs-messages.md#schedule-the-delivery-sending-gs-schedule), you're ready to prepare your email delivery.
+When you have defined your [content](../email/edit-content.md), [audience](../audience/add-audience.md), and [schedule](../msg/gs-messages.md#schedule-the-delivery-sending-gs-schedule), you're ready to prepare your email delivery.
 
 During the delivery preparation, the target population is calculated and the message content generated for each profile included in the target. Once the preparation is finished, the messages are ready to be sent, either immediately or at the scheduled date and time. 
 

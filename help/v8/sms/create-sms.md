@@ -2,7 +2,7 @@
 audience: end-user
 title: Create a SMS delivery
 description: Learn how to create and send SMS with Adobe Campaign Web
-badge: label="Beta"
+badge: label="Limited Availability"
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
 ---
 # Create an SMS delivery {#create-sms}
@@ -62,10 +62,10 @@ To create a new standalone SMS delivery, follow these steps:
 
     ![](assets/sms_create_4.png)
 
-    From this screen, you can also [simulate your content](../preview-test/preview-test.md) and [set up offers](../content/offers.md).
+    From this screen, you can also [simulate your content](../preview-test/preview-test.md) and [set up offers](../msg/offers.md).
 
 1. To schedule your delivery to a specific date and time, switch on the **[!UICONTROL Enable scheduling]** option. After you initiate the delivery, the message will be automatically sent on the exact date and time that you have defined for the recipient. Learn more about delivery scheduling in [this section](../msg/gs-messages.md#gs-schedule).
 
-1. Click **[!UICONTROL Configure delivery settings]** to access advanced options related to your delivery template. [Learn more](../advanced-settings/delivery-settings.md)
+1. Click **[!UICONTROL Settings]** to access advanced options related to your delivery template. [Learn more](../advanced-settings/delivery-settings.md)
 
     ![](assets/sms_create_3.png)
