@@ -35,9 +35,7 @@ These activities are specific to targeting, manipulating and enriching populatio
 
 ## Channel activities {#channel}
 
-Adobe Campaign Web allows you to automate and execute marketing campaigns across multiple channels. You can combine channel activities into the canvas to create cross-channel workflows that can trigger actions based on customer behavior. The following **Channel** activities are available: Email, SMS, Android and iOS Push notifications.
-
-Learn how to set up a delivery in the context of a workflow in this [section](channels.md).
+Adobe Campaign Web allows you to automate and execute marketing campaigns across multiple channels. You can combine channel activities into the canvas to create cross-channel workflows that can trigger actions based on customer behavior. The following **Channel** activities are available: Email, SMS, Android and iOS Push notifications. [Learn how to set up a delivery in the context of a workflow](channels.md).
 
 ## Flow control activities {#flow-control}
 

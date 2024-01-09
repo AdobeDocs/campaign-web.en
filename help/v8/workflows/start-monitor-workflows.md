@@ -2,7 +2,7 @@
 audience: end-user
 title: Create workflows with Adobe Campaign Web
 description: Learn how to build workflows with Adobe Campaign Web
-badge: label="Beta"
+badge: label="Limited Availability"
 exl-id: c9c41189-0150-49a4-bdb3-317fe543eb2c
 ---
 # Start & monitor the workflow {#start-monitor}
@@ -21,9 +21,7 @@ You can track the progress of targeted profiles in real-time using a visual flow
 
 ## Workflow transitions {#transitions}
 
-In workflows, data transported from one activity to another through transitions is stored in a temporary work table.
-
-This data can be displayed for each transition. To do this, select a transition to open its properties in the right hand side of the screen.
+In workflows, data transported from one activity to another through transitions is stored in a temporary work table. This data can be displayed for each transition. To do this, select a transition to open its properties in the right hand side of the screen.
 
 * Click **[!UICONTROL Preview schema]** to display the schema of the work table.
 * Click **[!UICONTROL Preview results]** to visualize the data transported in the selected transition.
