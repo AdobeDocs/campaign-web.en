@@ -1,7 +1,7 @@
 ---
 audience: end-user
 user-guide-title: Campaign v8 Web
-user-guide-description: Product documentation for Campaign v8 Web
+user-guide-description: Product documentation for Campaign v8 Web.
 title: Adobe Campaign v8 Web Documentation
 description: Campaign v8 Web documentation
 breadcrumb-title: Campaign v8 Web
