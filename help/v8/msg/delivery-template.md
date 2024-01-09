@@ -5,6 +5,7 @@ description: Learn how to create and use delivery templates in Campaign Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
+badge: label="Beta" 
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
 ---
 # Use delivery templates {#work-with-delivery-templates}
