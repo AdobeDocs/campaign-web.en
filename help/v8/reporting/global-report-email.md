@@ -4,7 +4,7 @@ title: Global reports for the email channel
 description: Learn more about Global reports for the email channel
 badge: label="Limited Availability"
 ---
-# Global reports for the email channel {#global-report-direct}
+# Global reports for the Email channel {#global-report-direct}
 
 The Global reports provide users with a comprehensive overview of traffic and engagement metrics at a channel-level.
 

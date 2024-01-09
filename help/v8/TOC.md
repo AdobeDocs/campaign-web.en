@@ -138,17 +138,17 @@ hide: yes
   + [Export your reports](reporting/export-reports.md)
   + [Key performance indicators](reporting/kpis.md)
   + Delivery reports {#delivery-report}
-    + [Get started with delivery reports](reporting/delivery-reports.md)
+    + [Get started with Delivery reports](reporting/delivery-reports.md)
     + [Email delivery report](reporting/email-report.md)
     + [Push delivery report](reporting/push-report.md)
     + [SMS delivery report](reporting/sms-report.md)
   + Campaign reports {#campaign-report}
-    + [Get started with campaign reports](reporting/campaign-reports.md)
+    + [Get started with Campaign reports](reporting/campaign-reports.md)
     + [Email campaign report](reporting/campaign-reports-email.md)
     + [Push campaign report](reporting/campaign-reports-push.md)
     + [SMS campaign report](reporting/campaign-reports-sms.md)
   + Global reports {#global-report}
-    + [Get started with global reports](reporting/global-reports.md)
+    + [Get started with Global reports](reporting/global-reports.md)
     + [Email global report](reporting/global-report-email.md)
     + [Push global report](reporting/global-report-push.md)
     + [SMS global report](reporting/global-report-sms.md)
