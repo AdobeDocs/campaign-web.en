@@ -1,9 +1,10 @@
 ---
 audience: end-user
 user-guide-title: Campaign v8 Web
+user-guide-description: Campaign v8 Web documentation
 title: Adobe Campaign v8 Web Documentation
 description: Campaign v8 Web documentation
-breadcrumb-title: Campaign overview
+breadcrumb-title: Campaign v8 Web
 hide: yes
 ---
 
