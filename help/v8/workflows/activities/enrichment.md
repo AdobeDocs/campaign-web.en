@@ -2,7 +2,7 @@
 audience: end-user
 title: Use the Enrichment workflow activity
 description: Learn how to use the Enrichment workflow activity
-badge: label="Beta"
+badge: label="Limited Availability"
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 ---
 # Enrichment {#enrichment}
@@ -11,7 +11,6 @@ exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 >id="acw_orchestration_enrichment"
 >title="Enrichment activity"
 >abstract="The **Enrichment** activity allows you to enhance the targeted data with additional information from the database. It is commonly used in a workflow after segmentation activities."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_data"
@@ -29,13 +28,13 @@ Enrichment data can come either:
 
 * **From the same work table** as the one targeted into your workflow:
 
-    *Target a group of customers and add the "Birth date" field to the current work table*
+    *Target a group of customers and add the "Birth date" field to the current work table*.
 
 * **From another work table**:
 
     *Target a group of customers and add the "Amount" and "Type of product" fields coming from the "Purchase" table*.
 
-Once the enrichment data has been added to the workflow, it can then be used in the activities added after the **Enrichment** activity to segment customers into distinct groups based on their behaviors, preferences, and needs, or to create personalized marketing messages and campaigns that are more likely to resonate with your target audience.
+Once the enrichment data has been added to the workflow, it can be used in the activities added after the **Enrichment** activity to segment customers into distinct groups based on their behaviors, preferences, and needs, or to create personalized marketing messages and campaigns that are more likely to resonate with your target audience.
 
 For instance, you can add to the workflow working table information related to customers' purchases and use this data to personalize emails with their latest purchase or the amount spent on these purchases.
 
@@ -45,11 +44,15 @@ Follow these steps to configure the **Enrichment** activity:
 
 1. Add activities such as **Build audience** and **Combine** activities.
 1. Add an **Enrichment** activity.
-1. Click **Add enrichment data**.
+1. Click **Add enrichment data** and select the attribute to use to enrich the data.
 
-![](../assets/workflow-enrichment1.png)
+    You can select two types of enrichment data: a [single enrichment attribute](#single-attribute) from the target dimension, or a [collection link](#collection-link).
 
-You can select two types of enrichment data: a [single enrichment attribute](#single-attribute) from the target dimension, or a [collection link](#collection-link).
+    >[!NOTE]
+    >
+    >The **Edit expression button** in the attribute selection screen allows you to build advanced expressions to select the attribute. [Learn how to work with the expression editor](../../query/expression-editor.md)
+
+    ![](../assets/workflow-enrichment1.png)
 
 ## Single enrichment attribute {#single-attribute}
 
@@ -95,7 +98,7 @@ If you want, for example, to get the average amount of purchases for a customer,
 
 ### Define the filters{#collection-filters}
 
-Here, we define the maximum value for the enrichment attribute. We filter out items that are greater than 100$.
+Here, we define the maximum value for the enrichment attribute. We filter out items that are greater than 100$. [Learn how to work with the query modeler](../../query/query-modeler-overview.md)
 
 1. Click **Edit filters**.
 1. Add the two following filters: **Total amount** exists AND **Total amount** is less than 100. The first one filters NULL values as they would appear as the greatest value.

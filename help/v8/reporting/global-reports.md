@@ -2,7 +2,7 @@
 audience: end-user
 title: Get started with Global reports
 description: Understand Global reports
-badge: label="Limited availability"
+badge: label="Limited Availability"
 ---
 
 # Get started with global reports {#global-report-gs}

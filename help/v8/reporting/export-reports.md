@@ -2,7 +2,7 @@
 audience: end-user
 title: Export your reports
 description: Understand how to export your reports
-badge: label="Limited availability"
+badge: label="Limited Availability"
 ---
 
 # Export your reports {#export-reports}

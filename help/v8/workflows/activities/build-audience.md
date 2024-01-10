@@ -2,7 +2,7 @@
 audience: end-user
 title: Use the Build audience workflow activity
 description: Learn how to use the Build audience workflow activity
-badge: label="Beta"
+badge: label="Limited Availability"
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
 ---
 # Build audience {#build-audience}
@@ -12,14 +12,13 @@ exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
 >title="Build audience activity"
 >abstract="The **Build audience** activity allows you to define the audience that will enter the workflow. When sending messages in the context of a workflow, the message audience is not defined in the channel activity, but in the **Build audience** activity."
 
-
 The **Build audience** activity is a **Targeting** activity. This activity allows you to define the audience that will enter the workflow. When sending messages in the context of a workflow, the message audience is not defined in the channel activity, but in the **Build audience** activity.
 
 To define the audience population, you can:
 
 * Select an existing audience, created as a list in the client console.
 * Select an Adobe Experience Platform audience. 
-* Build a new audience with the rule builder by defining and combining filtering criteria.
+* Build a new audience with the query modeler builder by defining and combining filtering criteria.
 
 >[!NOTE]
 >
@@ -36,7 +35,6 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 >title="Select the targeting dimension"
 >abstract="The targeting dimension lets you define the population targeted by the operation: recipients, contract beneficiaries, operator, subscribers, etc. By default, the target is selected from the recipients."
 
-
 Follow these steps to configure the **Build audience** activity:
 
 ![](../assets/workflow-audience.png)
@@ -44,23 +42,32 @@ Follow these steps to configure the **Build audience** activity:
 1. Add a **Build audience** activity. 
 1. Define a label.
 1. Define the audience type: **Create your own** or **Read audience**. 
+1. Configure your audience by following the steps detailed in the tabs below.
 
-To create your own query, follow these extra steps:
+>[!BEGINTABS]
+
+>[!TAB Create your own (query)]
+
+To create your own query, follow these steps:
 
 1. Select **Create your own (query)**.
-1. Choose the **Targeting dimension**. The targeting dimension lets you define the population targeted by the operation: recipients, contract beneficiaries, operator, subscribers, etc. By default, the target is selected from the recipients. Learn more about Targeting dimensions in [this section](../../audience/about-recipients.md#targeting-dimensions).
+1. Choose the **Targeting dimension**. The targeting dimension lets you define the population targeted by the operation: recipients, contract beneficiaries, operator, subscribers, etc. By default, the target is selected from the recipients. [Learn more about targeting dimensions](../../audience/about-recipients.md#targeting-dimensions)
 1. Click **Continue**.
-1. Use the rule builder to define your query, the same way you create an audience when designing a new email. Refer to this [section](../../audience/../query/query-modeler-overview.md).
+1. Use the query modeler to define your query, the same way you create an audience when designing a new email. [Learn how to work with the query modeler](../../audience/../query/query-modeler-overview.md)
+
+>[!TAB Read audience]
 
 To select an existing audience, follow these steps:
 
 1. Select **Read audience**.
 1. Click **Continue**.
-1. Select your audience, the same way you use an audience when designing a new email. Refer to this [section](../../audience/add-audience.md).
+1. Select your audience, the same way you use an audience when designing a new delivery. Refer to this [section](../../audience/add-audience.md).
 
 >[!IMPORTANT]
 >
 >If you want to use a **[!UICONTROL Build audience]** activity targeting an Experience Platform audience, you need to add a **[!UICONTROL Change dimension]** activity after it, to ensure that the audience's targeting dimension is set to "Recipient". A workflow example is available at the bottom of this page.
+
+>[!ENDTABS]
 
 ## Examples{#build-audience-examples}
 
