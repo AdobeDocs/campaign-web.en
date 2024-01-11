@@ -2,7 +2,7 @@
 audience: end-user
 title: Use the Wait workflow activity
 description: Learn how to use the Wait workflow activity
-badge: label="Beta"
+badge: label="Limited Availability"
 exl-id: 970953a1-0091-477c-9f52-596af3a8857d
 ---
 # Wait {#wait}
@@ -22,7 +22,7 @@ Follow these steps to configure the **Wait** activity:
 
 1. Specify the **Duration** of the wait between the inbound and outbound transitions.
 
-1. Select the time unit in the **Periods** field: seconds, minutes, hours. 
+1. Select the time unit in the **Periods** field: seconds, minutes, hours, days.
 
 ## Example{#wait-example}
 
