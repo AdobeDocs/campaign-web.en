@@ -49,23 +49,25 @@ badge: label="Limited Availability"
 
 The **Load file** activity is a **Data management** activity. Use this activity to work with profiles and data stored in an external file. Profiles and data are not added to the database, but all fields in the input file are available for [personalization](../../personalization/gs-personalization.md), or to update profiles, or any other table. 
 
-
 >[!NOTE]
 >Supported file formats are: text (TXT) and comma-separated value (CSV).
 
-
 This activity can be used with a [Reconciliation](reconciliation.md) activity to link unidentified data to existing resources. For example, the **Load file** activity can be placed before a **Reconciliation** activity if you import non-standard data into the database. 
-
 
 ## Configure the Load file activity {#load-configuration}
 
 Follow these steps to configure the **Load file** activity:
 
-
 1. Drag and drop a **Load file** activity into your workflow. Click the **Select from file** button.
+
 1. Select the local file to use. The format must be aligned with this [sample file](../../audience/file-audience.md#sample-file).
+
 1. Preview and check how data is mapped in the central section of the screen.
+
+    ![](../assets/load-file.png)
+
 1. Adjust the column settings, and how to format data from the available options.
+
 1. Click **Confirm** once settings are correct.
 
 ## Example{#load-example}
