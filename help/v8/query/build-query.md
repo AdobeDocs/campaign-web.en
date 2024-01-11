@@ -84,6 +84,8 @@ Custom conditions allows you to query tables linked to the table currently used 
 
 For a **1-1 link**, navigate to the linked table, select the desired attribute and define the expected value.
 
+You can also directly select a table link in the **Value** picker and confirm. In that case, values available for the selected table need to be selected using a dedicated picker, as shown in the example below.
+
 +++Query example
 
 Here, the query is targeting brands whose label is "running". 
@@ -95,6 +97,10 @@ Here, the query is targeting brands whose label is "running".
 1. Define the expected value for the attribute.
 
     ![](assets/1-1-table.png){width="85%" align="center"}
+
+Here is a query sample where a table link has been selected directly. Available values for this table must be selected from a dedicated picker.
+
+![](assets/1-1-table-direct.png){width="85%" align="center"}
 
 +++ 
 
