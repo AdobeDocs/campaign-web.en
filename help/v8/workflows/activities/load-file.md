@@ -46,7 +46,6 @@ badge: label="Limited Availability"
 >title="Formatting for Load File activity"
 >abstract="Formatting for Load File activity"
 
-
 The **Load file** activity is a **Data management** activity. Use this activity to work with profiles and data stored in an external file. Profiles and data are not added to the database, but all fields in the input file are available for [personalization](../../personalization/gs-personalization.md), or to update profiles, or any other table. 
 
 >[!NOTE]
@@ -66,10 +65,12 @@ Follow these steps to configure the **Load file** activity:
 
     ![](../assets/load-file.png)
 
-1. Adjust the column settings, and how to format data from the available options.
+1. Use the **Columns** section in the left pane to adjust the data type and width for each column.
+
+1. In the **Formatting** section located under the columns configuration, specify how the external file is formatted to ensure that data is correctly imported.
 
 1. Click **Confirm** once settings are correct.
 
 ## Example{#load-example}
 
-A sample of an external file loading is available with the **Reconciliation** activity in [this section](reconciliation.md#example).
+A sample of an external file loading used with the **Reconciliation** activity is available in [this section](reconciliation.md#example).
