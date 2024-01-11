@@ -65,7 +65,7 @@ Use the new Campaign Web UI to:
 * Create, design, personalize, schedule, and send email, SMS, and push notifications - [Learn more](../msg/gs-messages.md)
 * Design personalized email content with the email designer - [Learn more](../email/edit-content.md)
 * Send cross cannel campaigns, including SMS and push notifications - [Learn more](../workflows/activities/channels.md)
-* Define target audiences with the rule builder - [Learn more](../audience/about-recipients.md)
+* Define target audiences with the query modeler - [Learn more](../audience/about-recipients.md)
 * Preview, test and send your messages - [Learn more](../monitor/prepare-send.md)
 * Monitor send and measure results with built-in reports - [Learn more](../reporting/delivery-reports.md)
 

@@ -92,7 +92,7 @@ When a filter is saved as a favorite, it is available to all users in the **Favo
 
 ## Use a predefined filter {#use-predefined-filter}
 
-Predefined filters are available when defining rule properties. To access predefined filters, choose the **Select custom filter** option in the drop down of the rule builder.
+Predefined filters are available when defining rule properties. To access predefined filters, choose the **Select custom filter** option in the drop down of the query modeler.
 
 You can then access the full list of predefined filters available for the current context.
 

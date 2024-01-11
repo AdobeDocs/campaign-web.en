@@ -48,7 +48,7 @@ To create an audience, follow these steps:
 
     * **[!UICONTROL Save audience]**: This represents the final step in your workflow, enabling you to save the workflow results as a new audience.
 
-1. Open the **[!UICONTROL Build audience]** activity and use the rule builder to define the population to include into your audience by filtering data contained in the database. [Learn how to configure a Build audience activity](../workflows/activities/build-audience.md)
+1. Open the **[!UICONTROL Build audience]** activity and use the query modeler to define the population to include into your audience by filtering data contained in the database. [Learn how to configure a Build audience activity](../workflows/activities/build-audience.md)
 
 1. If you want to perform additional operations on the population targeted into the workflow, add as many activities as required and connect them together. For more information on how the configure workflow activities, refer to the [workflows documentation](../workflows/activities/about-activities.md). 
 

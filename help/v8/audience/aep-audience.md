@@ -43,6 +43,6 @@ To select an Adobe Experience Platform audience for your delivery, follow the st
 
    ![](assets/refine-audience.png)
 
-1. Using the rule builder, you can enrich your audience with additional filters or by combining different audiences. See this [section](../query/query-modeler-overview.md).
+1. Using the query modeler, you can enrich your audience with additional filters or by combining different audiences. See this [section](../query/query-modeler-overview.md).
 
 1. Click **Save**. 

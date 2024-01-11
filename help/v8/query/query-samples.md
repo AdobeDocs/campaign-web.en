@@ -1,7 +1,7 @@
 ---
 audience: end-user
 title: Query samples
-description: Learn how to work with the rule builder.
+description: Learn how to work with the query modeler.
 hide: yes
 hidefromtoc: yes
 badge: label="Limited Availability"

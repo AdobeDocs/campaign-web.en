@@ -15,7 +15,7 @@ badge: label="Beta"
 
 This section explains how to select an existing audience when defining the target population of a delivery. When defining the main target of a delivery, you can also:
 
-* [Build a one-time audience](one-time-audience.md) using the rule builder.
+* [Build a one-time audience](one-time-audience.md) using the query modeler.
 * [Load an audience from an external file](file-audience.md) (for emails only).
 
 Audiences that can be targeted in deliveries are accessible from the **Audience** left menu. They originate from multiple sources such as the Client console, Campaign Web audience workflows or Adobe Experience Platform. [Learn how to monitor and manage audiences](manage-audience.md)
@@ -34,11 +34,11 @@ To select an existing audience for your message, follow the steps below:
 
     ![](assets/select-audience-folder.png)
 
-1. The filter section allows you to access filtering options to refine the audiences list. To do this, click **Add rules** to access the rule builder, which lets you create advanced filters for the list of audiences. [Learn how to use the rule builder](../query/query-modeler-overview.md)
+1. The filter section allows you to access filtering options to refine the audiences list. To do this, click **Add rules** to access the query modeler, which lets you create advanced filters for the list of audiences. [Learn how to use the query modeler](../query/query-modeler-overview.md)
 
    ![](assets/create-audience4.png)
 
-1. Click **Confirm** to add your audience as the delivery main target. Once done, you can still refine the audience using the rule builder by clicking the **Edit rules** button.
+1. Click **Confirm** to add your audience as the delivery main target. Once done, you can still refine the audience using the query modeler by clicking the **Edit rules** button.
 
    ![](assets/refine-audience.png)
 
