@@ -20,7 +20,7 @@ By using channel activities, you can create comprehensive and personalized campa
 >* [Create standalone SMS delivery](../../sms/create-sms.md)
 >* [Create standalone push delivery](../../push/create-push.md)
 
-## Build your workflow{#build-your-workflow}
+## Build your workflow {#build-your-workflow}
 
 Start building your workflow with the relevant activities before placing the delivery:
 
@@ -29,6 +29,10 @@ Start building your workflow with the relevant activities before placing the del
 * Add a **Build audience** activity. The audience is the main target of your delivery: the recipients who receive the messages. When sending messages in the context of a campaign workflow, the message audience is not defined in the channel activity, but in the **Build audience** activity. See [this section](build-audience.md).
 
     ![](../../msg/assets/add-delivery-in-wf.png)
+
+    >[!NOTE]
+    >
+    >You can also target an audience loaded from a file. To do this, use a **Load file** activity followed by a **Reconciliation** activity. [Learn more](../../audience/about-recipients.md)
 
 ## Configure the Channel activity {#create-a-delivery-in-a-workflow}
 

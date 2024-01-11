@@ -22,7 +22,7 @@ To define the audience population, you can:
 
 >[!NOTE]
 >
->In this context, you cannot load an audience from a file. For this, you need to create a standalone email delivery. [Learn more](../../audience/about-recipients.md)
+>Audiences loaded from a file cannot be targeted using a Build audience activity. To do this, you need to use a **Load file** activity followed by a **Reconciliation** activity. [Learn more](../../audience/about-recipients.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
@@ -63,10 +63,6 @@ To select an existing audience, follow these steps:
 1. Click **Continue**.
 1. Select your audience, the same way you use an audience when designing a new delivery. Refer to this [section](../../audience/add-audience.md).
 
->[!IMPORTANT]
->
->If you want to use a **[!UICONTROL Build audience]** activity targeting an Experience Platform audience, you need to add a **[!UICONTROL Change dimension]** activity after it, to ensure that the audience's targeting dimension is set to "Recipient". A workflow example is available at the bottom of this page.
-
 >[!ENDTABS]
 
 ## Examples{#build-audience-examples}
@@ -74,7 +70,3 @@ To select an existing audience, follow these steps:
 Here is an example of a workflow with two **Build audience** activities. The first one targets the poker players audience, followed by an email delivery. The second one targets the VIP clients audience, followed by an SMS delivery.
 
 ![](../assets/workflow-audience-example.png)
-
-Here is another workflow example where an Adobe Experience Platform audience is combined with an Adobe Campaign audience. To allow these audiences to be combined, a **[!UICONTROL Change dimension]** activity with the "Recipient" targeting dimension is added after the Adobe Experience Platform audience. [Learn how to configure a Change dimension activity](change-dimension.md)
-
-![](../assets/workflow-audience-aep.png)

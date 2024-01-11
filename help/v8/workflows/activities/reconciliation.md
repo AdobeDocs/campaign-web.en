@@ -9,7 +9,7 @@ badge: label="Limited Availability"
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
 >title="Reconciliation activity"
->abstract="The **Reconciliation** activity is a **Targeting** activity which allows you to define the link between the data in the Adobe Campaign database and the data in a work table, for example data loaded from an external file. For example, the **Reconciliation** activity can be placed after a **Load audience** activity to import non-standard data into the database. In this case, the **Reconciliation** activity lets you define the link between the data in the Adobe Campaign database and the data in the external table." 
+>abstract="The **Reconciliation** activity is a **Targeting** activity which allows you to define the link between the data in the Adobe Campaign database and the data in a work table. For example, the **Reconciliation** activity can be placed after a **Load file** activity to import non-standard data into the database. In this case, the **Reconciliation** activity lets you define the link between the data in the Adobe Campaign database and the data in the external table." 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_field"
