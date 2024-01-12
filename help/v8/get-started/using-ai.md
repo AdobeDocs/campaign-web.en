@@ -12,7 +12,7 @@ Get fast, AI-generated answers based on the product documentation, and your curr
 >
 >This capability is available in its Alpha version and subject to change without prior notice.
 >
->This capability is only available in **English**. Other langugages are not supported in this version. As a consequence, make sure [your prefered language](connect-to-campaign.md#language-pref) is set to English before using this capability.
+>This capability is only available in **English**. Other languages are not supported in this version. As a consequence, make sure [your prefered language](connect-to-campaign.md#language-pref) is set to English before using this capability.
 
 
 The **Contextual Help with Gen AI** embedded within contextual help revolutionizes documentation searching and answering how-to questions with effortlessly sifting through vast documentation repositories, instantly pinpointing the precise information you need.
