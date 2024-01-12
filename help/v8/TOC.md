@@ -22,7 +22,7 @@ hide: yes
   + [Access and permissions](get-started/permissions.md)
   + [Guardrails & limitations](get-started/guardrails.md)
   + [Unsupported capabilites](get-started/unsupported.md)
-  + [Find help & guidance](get-started/using-ai.md)
+  + [AI-powered contextual help](get-started/using-ai.md)
 + Messages & deliveries {#msg}
   + [Get started with messages](msg/gs-messages.md)
   + [Work with deliveries](msg/gs-deliveries.md)
