@@ -8,7 +8,7 @@ badge: label="Limited Availability"
 
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_card5"
+>id="acw_homepage_learning_card5"
 >title="New Query modeler"
 >abstract="Adobe Campaign Web features a query modeler that simplifies the process of filtering databases to select specific targets based on various criteria. This includes the use of advanced expressions and operators. The query modeler is available in every context where you need to define rules to filter data."
 

@@ -9,7 +9,7 @@ badge: label="Limited Availability"
 # Create your first email {#first-email}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_card3"
+>id="acw_homepage_learning_card3"
 >title="Get started with emails"
 >abstract="You can create a standalone email delivery, or create an email in the context of a campaign workflow. Learn how to create the delivery, select the audience, and design the email content."
 
