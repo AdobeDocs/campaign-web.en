@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: Monitor & manage audiences
+title: Monitor and manage audiences
 description: Learn how to monitor and manage audiences in Adobe Campaign Web
 badge: label="Beta"
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f

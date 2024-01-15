@@ -77,7 +77,7 @@ Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
 }
 ```
 
-## Preview & test your email {#test}
+## Preview and test your email {#test}
 
 Campaign Web allows you to preview and send test emails when using an audience uploaded from a file. To do this, follow these steps:
 

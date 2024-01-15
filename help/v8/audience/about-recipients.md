@@ -44,7 +44,7 @@ From there you can browse, create and manage folders or subfolders, as well as c
 
 From the **[!UICONTROL Explorer]** view you can also filter, delete and [edit](#access) profiles.
 
-## Access & edit profiles' attributes {#access}
+## Access and edit profiles' attributes {#access}
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_details"

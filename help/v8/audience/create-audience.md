@@ -62,7 +62,7 @@ To create an audience, follow these steps:
 
 1. When your workflow is ready, click **[!UICONTROL Start]** to execute it.
 
-The workflow is saved in the **[!UICONTROL Workflows]** list, while the resulting audience(s) are accessible in the **[!UICONTROL Audiences]** list. [Learn how to monitor & manages audiences](manage-audience.md)
+The workflow is saved in the **[!UICONTROL Workflows]** list, while the resulting audience(s) are accessible in the **[!UICONTROL Audiences]** list. Learn how to monitor and manage audiencesin [this section](manage-audience.md)
 
 You can now use this audience as the main target of a delivery. [Learn more](add-audience.md)
 

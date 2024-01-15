@@ -23,7 +23,7 @@ hide: yes
   + [Guardrails and limitations](get-started/guardrails.md)
   + [Unsupported capabilites](get-started/unsupported.md)
   + [AI-powered contextual help](get-started/using-ai.md)
-+ Messages & deliveries {#msg}
++ Messages and deliveries {#msg}
   + [Get started with messages](msg/gs-messages.md)
   + [Work with deliveries](msg/gs-deliveries.md)
   + [Use delivery templates](msg/delivery-template.md)
@@ -82,8 +82,8 @@ hide: yes
     + [Preview the message content](preview-test/preview-content.md)
     + [Send test deliveries](preview-test/test-deliveries.md)
     + [Test the email rendering](preview-test/email-rendering.md)
-+ Profiles & audiences {#audiences}
-  + [Get started with profiles & audiences](audience/gs-audiences-recipients.md)
++ Profiles and audiences {#audiences}
+  + [Get started with profiles and audiences](audience/gs-audiences-recipients.md)
   + [Targeting dimensions](audience/targeting-dimensions.md)
   + Work with profiles {#work-with-profiles}
     + [Monitor and manage profiles](audience/about-recipients.md)
@@ -106,7 +106,7 @@ hide: yes
 + Workflows {#wf}
   + [Get started with workflows](workflows/gs-workflows.md)
   + [Access and manage workflows](workflows/access-monitor.md)
-  + Create & run your first workflow {#create-workflow}
+  + Create and run your first workflow {#create-workflow}
     + [Key principles of workflow creation](workflows/gs-workflow-creation.md)
     + [Create the workflow](workflows/create-workflow.md)
     + [Orchestrate activities](workflows/orchestrate-activities.md)

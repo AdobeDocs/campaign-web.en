@@ -4,7 +4,7 @@ description: Learn how to work with profiles and audiences in Campaign Web
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
 badge: label="Limited Availability"
 ---
-# Get started with profiles & audiences {#about-profiles}
+# Get started with profiles and audiences {#about-profiles}
 
 In Adobe Campaign Web, a **profile** is an individual stored in the database, serving as a key component to create audiences for deliveries and add personalization data to your content. Various types of profiles are stored in the database such as **Test profiles**, which are designed to test your deliveries before they are sent to the final audience.
 

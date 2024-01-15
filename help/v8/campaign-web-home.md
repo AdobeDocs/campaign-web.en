@@ -37,10 +37,11 @@ badge: label="Limited Availability"
 >title="Item 4"
 >abstract="Email Gen AI: Prompt based email generation"
 
+<!--
 >[!CONTEXTUALHELP]
 >id="acw_homepage_list5"
 >title="Item 5"
->abstract="Additional Item"
+>abstract="Additional Item"-->
 
 Campaign now provides a new web user interface (UI) with enhanced usability, accessibility, and a new design to significantly improve your user experience. This new modern UI simplifies marketing campaign design and delivery, and brings consistency, along with other Adobe solutions, including Adobe Experience Platform. [Learn more](get-started/get-started.md)
 
