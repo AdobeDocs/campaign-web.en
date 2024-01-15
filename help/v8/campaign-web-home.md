@@ -13,27 +13,27 @@ badge: label="Limited Availability"
 >abstract="Campaign now provides a new web user interface (UI) with enhanced usability, accessibility, and a new design to significantly improve your user experience. This new modern UI simplifies marketing campaign design and delivery, and brings consistency, along with other Adobe solutions."
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_title"
+>id="acw_homepage_welcome_title"
 >title="Experience the new Adobe Campaign User Interface"
 >abstract="More modern, intuitive and dynamic."
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_list1"
+>id="acw_homepage_welcome_list1"
 >title="Item 1"
 >abstract="New Email, SMS and Push notifications design experience"
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_list2"
+>id="acw_homepage_welcome_list2"
 >title="Item 2"
 >abstract="Simplified workflow canvas interface"
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_list3"
+>id="acw_homepage_welcome_list3"
 >title="Item 3"
 >abstract="Reimagined UX for Audiences, subscription and services, AEM Assets"
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_list4"
+>id="acw_homepage_welcome_list4"
 >title="Item 4"
 >abstract="Email Gen AI: Prompt based email generation"
 

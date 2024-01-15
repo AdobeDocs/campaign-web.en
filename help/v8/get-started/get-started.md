@@ -9,7 +9,7 @@ badge: label="Limited Availability"
 
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_learnmore"
+>id="acw_homepage_welcome_learnmore"
 >title="Get started"
 >abstract="The new Campaign v8 Web interface offers an integrated, intuitive, and consistent user experience."
 

@@ -6,7 +6,7 @@ badge: label="Limited Availability"
 # Monitor and manage profiles {#profiles}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_rn4"
+>id="acw_homepage_welcome_rn4"
 >title="360 view of your profiles"
 >abstract="Create new profiles, and monitor them through powerful reports and tools. Access your profiles' attributes, interactions and logs. Use the filtering options to browse the profiles list, edit and update their profile."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="See release notes"
