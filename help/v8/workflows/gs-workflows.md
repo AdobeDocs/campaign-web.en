@@ -14,6 +14,14 @@ exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="See release notes"
 
 
+<!--TO REMOVE BELOW-->
+>[!CONTEXTUALHELP]
+>id="acw_homepage_rn2"
+>title="Cross-channel workflows"
+>abstract="Unlock new possibilities for automation and optimization, allowing you to create more dynamic and personalized customer journeys. From advanced segmentation to conditional triggers, our additional workflow activities empower you to deliver targeted messages and drive better campaign performance."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="See release notes"
+<!--TO REMOVE ABOVE-->
+
 ## What is a workflow?
 
 Cross-channel marketing is essential for any business looking to reach its customers effectively. Adobe Campaign provides a comprehensive graphical environment that empowers you to design complex processes that can help you manage your marketing campaigns with ease.
