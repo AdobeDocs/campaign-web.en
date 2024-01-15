@@ -1,9 +1,9 @@
 ---
-title: Monitor & manage profiles
+title: Monitor and manage profiles
 description: Learn how to monitor and manage profiles in Campaign Web.
 badge: label="Limited Availability"
 ---
-# Monitor & edit profiles {#profiles}
+# Monitor and manage profiles {#profiles}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn4"

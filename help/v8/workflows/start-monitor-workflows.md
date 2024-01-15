@@ -5,7 +5,7 @@ description: Learn how to build workflows with Adobe Campaign Web
 badge: label="Limited Availability"
 exl-id: c9c41189-0150-49a4-bdb3-317fe543eb2c
 ---
-# Start & monitor the workflow {#start-monitor}
+# Start and monitor your workflows {#start-monitor}
 
 Once that you have created your workflow and designed the tasks to perform in the canvas, you can launch it and monitor how it is being executed. 
 

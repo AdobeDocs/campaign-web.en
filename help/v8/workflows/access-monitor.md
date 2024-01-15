@@ -5,7 +5,7 @@ description: Learn how to build workflows with Adobe Campaign Web
 badge: label="Limited Availability"
 exl-id: 2a9b7e52-2b8b-4293-9b4d-a228ba95bed3
 ---
-# Access & manage workflows {#access-monitor}
+# Access and manage workflows {#access-monitor}
 
 >[!CONTEXTUALHELP]
 >id="acw_targeting_workflow_list"

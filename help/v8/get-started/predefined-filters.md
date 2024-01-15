@@ -1,5 +1,5 @@
 ---
-title: Create and use predefined filters
+title: Work with predefined filters
 description: Learn how to create and manage predefined filters in Adobe Campaign web UI
 badge: label="Limited Availability"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28

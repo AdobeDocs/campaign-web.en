@@ -17,10 +17,10 @@ hide: yes
   + [Get started](get-started/get-started.md)
   + [Connect to Campaign](get-started/connect-to-campaign.md)
   + [Discover the interface](get-started/user-interface.md)
-  + [Browse, search, and filter lists](get-started/list-filters.md)
+  + [Browse and filter lists](get-started/list-filters.md)
   + [Work with predefined filters](get-started/predefined-filters.md)
   + [Access and permissions](get-started/permissions.md)
-  + [Guardrails & limitations](get-started/guardrails.md)
+  + [Guardrails and limitations](get-started/guardrails.md)
   + [Unsupported capabilites](get-started/unsupported.md)
   + [AI-powered contextual help](get-started/using-ai.md)
 + Messages & deliveries {#msg}
@@ -64,7 +64,7 @@ hide: yes
     + [Get started with push notifications](push/gs-push.md)
     + [Create a push notification delivery](push/create-push.md)
     + [Design a push delivery](push/content-push.md)
-    + [Preview and send a push notification delivery](push/send-push.md)
+    + [Preview and send a push delivery](push/send-push.md)
   + SMS {#sms}
     + [Get started with SMS deliveries](sms/gs-sms.md)
     + [Create an SMS delivery](sms/create-sms.md)
@@ -73,7 +73,7 @@ hide: yes
   + Make your content dynamic {#dynamic-content}
     + [Get started with dynamic content](personalization/gs-personalization.md)
     + [Add personalization](personalization/personalize.md)
-    + [Add conditional content](personalization/conditions.md)
+    + [Build conditional content](personalization/conditions.md)
     + [Add built-in content blocks](personalization/content-blocks.md)
   + [Add offers to your messages](msg/offers.md)
   + [Send messages to your subscribers](msg/send-to-subscribers.md)
@@ -81,37 +81,37 @@ hide: yes
     + [About preview and test](preview-test/preview-test.md) 
     + [Preview the message content](preview-test/preview-content.md)
     + [Send test deliveries](preview-test/test-deliveries.md)
-    + [Render your email](preview-test/email-rendering.md)
+    + [Test the email rendering](preview-test/email-rendering.md)
 + Profiles & audiences {#audiences}
   + [Get started with profiles & audiences](audience/gs-audiences-recipients.md)
   + [Targeting dimensions](audience/targeting-dimensions.md)
   + Work with profiles {#work-with-profiles}
-    + [Monitor & manage profiles](audience/about-recipients.md)
-    + [Create & manage test profiles](audience/test-profiles.md)
+    + [Monitor and manage profiles](audience/about-recipients.md)
+    + [Create and manage test profiles](audience/test-profiles.md)
   + Work with audiences {#audiences}
     + [Create audiences](audience/create-audience.md)
-    + [Monitor & manage audiences](audience/manage-audience.md)
+    + [Monitor and manage audiences](audience/manage-audience.md)
   + Select your delivery recipients {#target-audiences}
     + [Select an existing audience](audience/add-audience.md)
     + [Build a one-time audience](audience/one-time-audience.md)
-    + [Load an audience from a file](audience/file-audience.md)
+    + [Load an email audience from a file](audience/file-audience.md)
     + [Set a control group](audience/control-group.md)
   + Work with subscription services {#work-with-services}
-    + [Manage services](audience/manage-services.md)
+    + [Create and manage subscription services](audience/manage-services.md)
     + [Manage subscribers](audience/manage-subscribers.md)
 + Cross-channel campaigns {#campaigns}
   + [Get started with campaigns](campaigns/gs-campaigns.md)
-  + [Access & manage campaigns](campaigns/manage-campaigns.md)
+  + [Access and manage your campaigns](campaigns/manage-campaigns.md)
   + [Create your first campaign](campaigns/create-campaigns.md)
 + Workflows {#wf}
   + [Get started with workflows](workflows/gs-workflows.md)
-  + [Access & manage workflows](workflows/access-monitor.md)
+  + [Access and manage workflows](workflows/access-monitor.md)
   + Create & run your first workflow {#create-workflow}
     + [Key principles of workflow creation](workflows/gs-workflow-creation.md)
     + [Create the workflow](workflows/create-workflow.md)
     + [Orchestrate activities](workflows/orchestrate-activities.md)
     + [Configure workflow settings](workflows/workflow-settings.md)
-    + [Start & monitor the workflow](workflows/start-monitor-workflows.md)
+    + [Start and monitor your workflows](workflows/start-monitor-workflows.md)
   + Work with workflow activities {#design-workflows}
     + [About workflow activites](workflows/activities/about-activities.md)
     + [And-join](workflows/activities/and-join.md)
@@ -139,17 +139,17 @@ hide: yes
   + [Export your reports](reporting/export-reports.md)
   + [Key performance indicators](reporting/kpis.md)
   + Delivery reports {#delivery-report}
-    + [Get started with Delivery reports](reporting/delivery-reports.md)
+    + [Get started with delivery reports](reporting/delivery-reports.md)
     + [Email delivery report](reporting/email-report.md)
     + [Push delivery report](reporting/push-report.md)
     + [SMS delivery report](reporting/sms-report.md)
   + Campaign reports {#campaign-report}
-    + [Get started with Campaign reports](reporting/campaign-reports.md)
+    + [Get started with campaign reports](reporting/campaign-reports.md)
     + [Email campaign report](reporting/campaign-reports-email.md)
     + [Push campaign report](reporting/campaign-reports-push.md)
     + [SMS campaign report](reporting/campaign-reports-sms.md)
   + Global reports {#global-report}
-    + [Get started with Global reports](reporting/global-reports.md)
+    + [Get started with global reports](reporting/global-reports.md)
     + [Email global report](reporting/global-report-email.md)
     + [Push global report](reporting/global-report-push.md)
     + [SMS global report](reporting/global-report-sms.md)

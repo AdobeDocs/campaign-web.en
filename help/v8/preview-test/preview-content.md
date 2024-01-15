@@ -6,7 +6,7 @@ exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Limited Availability"
 ---
 
-# Preview delivery content {#preview-content} 
+# Preview the message content {#preview-content} 
 
 Use the [!DNL Campaign] content simulation capability to preview the content of your message before sending it. This allows you to control personalization and check how it is displayed to your recipients.
 

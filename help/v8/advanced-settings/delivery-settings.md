@@ -6,7 +6,7 @@ exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta" 
 ---
 
-# Delivery settings {#email-del-settings}
+# Email delivery settings {#email-del-settings}
 
 Email delivery settings are **technical delivery parameters** that are defined in the email template. They can be overloaded for each delivery.
 

@@ -6,7 +6,7 @@ exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Limited Availability" 
 ---
 
-# Send your first email {#first-email}
+# Create your first email {#first-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card3"

@@ -5,7 +5,7 @@ description: Learn how to monitor and manage audiences in Adobe Campaign Web
 badge: label="Beta"
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 ---
-# Monitor & manage audiences {#monitor}
+# Monitor and manage audiences {#monitor}
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_workflow_error_data_execution"

@@ -1,8 +1,8 @@
 ---
 audience: end-user
 product: campaign
-title: Use email templates
-description: Learn how to use email templates in Adobe Campaign
+title: Use email content templates
+description: Learn how to use email content templates in Adobe Campaign
 feature: Templates
 topic: Content Management
 role: User
@@ -10,7 +10,7 @@ level: Beginner
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
 badge: label="Limited Availability"
 ---
-# Use email templates {#use-email-templates}
+# Use email content templates {#use-email-templates}
 
 When [creating an email](../email/create-email.md), use the **[!UICONTROL Select design template]** section of the **[!UICONTROL Create your email]** interface to start building your content from a template.
 

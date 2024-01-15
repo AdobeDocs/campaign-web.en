@@ -5,7 +5,7 @@ description: Learn how to send messages to the subscribers of a service
 badge: label="Beta"
 exl-id: f6e14db5-261c-4fa6-bd19-fd8bdc04aaf1
 ---
-# Send messages to the subscribers of a service
+# Send messages to the subscribers of a service {#send-to-subscribers}
 
 You can create subscription services in Adobe Campaign, and send messages to your subcribers. Learn how to create subscriptions services in [this page](../audience//manage-services.md#create-service). 
 

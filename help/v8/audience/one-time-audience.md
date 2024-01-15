@@ -5,7 +5,7 @@ description: Learn how to build a one-time audience for a delivery.
 badge: label="Beta"
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
 ---
-# Build a one-time audience for a delivery {#sone-time}
+# Build a one-time audience {#one-time}
 
 This section describes how to build an audience when creating a new delivery. In this case, the recipients to include in the delivery audience are targeted by querying the database with the query modeler.
 

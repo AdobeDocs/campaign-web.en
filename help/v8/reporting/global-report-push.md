@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: Global reports for the Push channel
-description: Understand Global reports for the Push channel
+description: Understand global reports for the Push channel
 badge: label="Limited Availability"
 ---
 # Global reports for the Push channel {#campaign-reports-push}
 
-The Global reports provide users with a comprehensive overview of traffic and engagement metrics at a channel-level.
+The global reports provide users with a comprehensive overview of traffic and engagement metrics at a channel-level.
 
 Navigate to the **[!UICONTROL Reports]** menu within the **[!UICONTROL Reporting]** section. You can filter your data depending on the Report date, folder or rules. [Learn more](global-reports.md)
 

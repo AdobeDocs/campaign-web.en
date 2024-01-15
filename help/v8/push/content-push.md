@@ -5,7 +5,7 @@ description: Learn how to design a push notification delivery with Adobe Campaig
 badge: label="Limited Availability"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
 ---
-# Design a push messaging delivery {#content-push}
+# Design a push delivery {#content-push}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"

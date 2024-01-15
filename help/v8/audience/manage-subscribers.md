@@ -1,11 +1,11 @@
 ---
 audience: end-user
-title: Manage the subscribers of a service
+title: Manage the subscribers
 description: Learn how to manage and deliver to the subscribers of a service in Adobe Campaign Web
 badge: label="Beta"
 exl-id: cf72d27e-365c-4edc-b661-a67c148f0eeb
 ---
-# Manage the subscribers of a service {#manage-subscribers}
+# Manage the subscribers {#manage-subscribers}
 
 Once you [created a service](manage-services.md#create-service), you can add subscribers, unsubscribe recipients, and send messages to the subscribers of that service.
 

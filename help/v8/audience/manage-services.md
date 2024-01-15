@@ -5,7 +5,7 @@ description: Learn how to access, create and manage subscription services in Ado
 badge: label="Beta"
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 ---
-# Work with subscription services {#manage-services}
+# Create and manage subscription services {#manage-services}
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list"
