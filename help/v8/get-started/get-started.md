@@ -13,12 +13,20 @@ badge: label="Limited Availability"
 >title="Get started"
 >abstract="The new Campaign v8 Web interface offers an integrated, intuitive, and consistent user experience."
 
-<!--TO REMOVE BELOW-->
+>[!CONTEXTUALHELP]
+>id="acw_homepage_learnmore"
+>title="Get started"
+>abstract="The new Campaign v8 Web interface offers an integrated, intuitive, and consistent user experience."
+
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_learnmore"
 >title="Get started"
 >abstract="The new Campaign v8 Web interface offers an integrated, intuitive, and consistent user experience."
-<!--TO REMOVE ABOVE-->
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_learnmore"
+>title="Get started"
+>abstract="The new Campaign v8 Web interface offers an integrated, intuitive, and consistent user experience."
 
 Adobe Campaign provides a platform for designing cross-channel customer experiences and an environment for visual campaign orchestration, real-time interaction management and cross channel execution.
 
