@@ -100,7 +100,7 @@ To create a content template from scratch, follow the steps below.
 
     ![](assets/content-template-create.png)
 
-1. Fill in the template details. You can select the folder where you want to store your template. By default, content templates are stored in a dedicated node of the Adobe Campaign hierarchy: **[!UICONTROL Explorer]** > **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Content templates]**. [Learn how to create folders](../get-started/permissions.md#folders)
+1. Fill in the template details. You can select the folder where you want to store your template. By default, content templates are stored in a dedicated folder of the Adobe Campaign hierarchy: **[!UICONTROL Explorer]** > **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Content templates]**. [Learn how to create folders](../get-started/permissions.md#folders)
 
     ![](assets/content-template-details.png)
 
@@ -130,7 +130,11 @@ To create a content template from scratch, follow the steps below.
 
     ![](assets/content-template-save-back.png)
 
-This template is now ready to be used when building any email within [!DNL Adobe Campaign]. [Learn how](use-email-templates.md)
+The template is saved into the default folder of the Adobe Campaign hierarchy (**[!UICONTROL Explorer]** > **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Content templates]**). [Learn more on folders](../get-started/permissions.md#folders)
+
+It is also displayed in the **[!UICONTROL Content templates]** list. [Learn more](#access-manage-templates)
+
+You can now use this template to build a new content: it is available in the **[!UICONTROL Saved templates]** tab of the Email Designer. [Learn how](use-email-templates.md)
 
 ### Save email content as template {#save-as-template}
 
@@ -148,11 +152,13 @@ To save an email content as a template, follow the steps below:
 
     ![](assets/email_designer-template-name.png)
 
+The template is saved into the default folder of the Adobe Campaign hierarchy (**[!UICONTROL Explorer]** > **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Content templates]**). [Learn more on folders](../get-started/permissions.md#folders)
+
+It is also displayed in the **[!UICONTROL Content templates]** list. It becomes a standalone content template that can be accessed, edited and deleted as any other item on that list. [Learn more](#access-manage-templates)
+
 You can now use this template to build a new content: it is available in the **[!UICONTROL Saved templates]** tab of the Email Designer. [Learn how](use-email-templates.md)
 
 ![](assets/email_designer-saved-template.png)
-
-The template is saved into the **[!UICONTROL Content templates]** list, accessible from the [!DNL Adobe Campaign] dedicated menu. It becomes a standalone content template that can be accessed, edited and deleted as any other item on that list. [Learn more](#access-manage-templates)
 
 >[!NOTE]
 >
