@@ -8,6 +8,16 @@ exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 # Monitor and manage audiences {#monitor}
 
 >[!CONTEXTUALHELP]
+>id="acw_audiences_properties"
+>title="Properties"
+>abstract="Here you can find a summary of the audience properties such its origin, storage folder, or its status. Click the link in the **Last workflow** section to open the workflow that has been used to create the audience."
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_count"
+>title="Audience size"
+>abstract="Here you can find the total number of profiles within the audience. Click the Calculate button to update and recalculate the audience results."
+
+>[!CONTEXTUALHELP]
 >id="acw_audiences_workflow_error_data_execution"
 >title="Audience error"
 >abstract="Audience data is not available. Please wait the end of the workflow execution."
