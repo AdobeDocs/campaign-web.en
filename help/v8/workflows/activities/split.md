@@ -17,6 +17,11 @@ The **Split** activity is a **Targeting** activity that allows you to segment in
 ## Configure the Split activity {#split-configuration}
 
 >[!CONTEXTUALHELP]
+>id="acw_orchestration_split_segments"
+>title="Segments for split activity"
+>abstract="Add as many subsets as desired to segment the incoming population.<br/></br>When the **Split** activity is executed, the population is segmented across the different subsets in the order they are added to the activity. Before starting your workflow, ensure that you have ordered the subsets in the order that suits your needs using the arrow buttons." 
+
+>[!CONTEXTUALHELP]
 >id="acw_orchestration_split_filter"
 >title="Split activity filter"
 >abstract="To apply a filtering condition to the subset, click **[!UICONTROL Create filter]** and configure the desired filtering rule. For example, include profiles from the incoming population whose email address exist in the database."
@@ -25,7 +30,6 @@ The **Split** activity is a **Targeting** activity that allows you to segment in
 >id="acw_orchestration_split_limit"
 >title="Split activity limit"
 >abstract="To limit the number of profiles selected by the subset, toggle on the **[!UICONTROL Enable limit]** option, and specify the number or percentages of the population to include."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_sorting"

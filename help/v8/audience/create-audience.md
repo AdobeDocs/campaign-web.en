@@ -7,8 +7,6 @@ exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
 ---
 # Create audiences {#create-audiences}
 
-
-
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
 >title="Audience Composition"
@@ -19,12 +17,10 @@ exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn1"
->title="Audience Composition"
+>title="Audience composition"
 >abstract="Create new audiences into a visual workflow canvas. Beyond starting from scratch to create a simple audience, you can also leverage workflow activities to refine your audience. Combine multiple audiences into a single one, enrich your audience with external attributes, or divide a it into multiple audiences based on rules of your choice."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="See release notes"
 <!--TO REMOVE ABOVE-->
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"

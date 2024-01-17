@@ -23,7 +23,7 @@ badge: label="Limited Availability"
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="Profiles"
->abstract="A profile is an individual which is targeted to receive messages sent by Adobe Campaign. From this list, you can view the profiles' details, based on your permissions. Use the filtering options to browse this list. You can edit and update a small set of your profiles' attributes."
+>abstract="A profile is an individual who is targeted to receive messages sent by Adobe Campaign. From this list, you can view the profiles' details, based on your permissions. Use the filtering options to browse this list. You can edit and update a small set of your profiles' attributes."
 
 ## Get started with profiles {#gs}
 

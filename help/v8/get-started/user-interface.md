@@ -294,15 +294,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Fragments details"
 
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_combine_complement"
->title="Combine generate complement"
->abstract="Combine generate complement" 
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_split_segments"
->title="Segments for split activity"
->abstract="Segments for split activity" 
 
 
 
@@ -329,16 +320,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 
-
->[!CONTEXTUALHELP]
->id="acw_audiences_properties"
->title="Audience properties"
->abstract="Audience properties"
-
->[!CONTEXTUALHELP]
->id="acw_audiences_count"
->title="Audience count"
->abstract="Audience count"
 
 
 >[!CONTEXTUALHELP]

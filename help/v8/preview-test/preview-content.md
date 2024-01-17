@@ -40,6 +40,12 @@ To preview the content of your delivery, follow the steps below.
         >
         >You can also view and manage profiles from the corresponding tab in the Campaign web UI. [Learn more](../audience/about-recipients.md)
 
+1. When browsing the test profile or profile lists, you can use filters to refine your search.
+
+    ![](assets/simulate-test-profile-filter.png)
+
+    For example, you can define a rule to find all test profiles whith the **[!UICONTROL Prospect]** status. Learn how to add rules using the [query modeler](../query/query-modeler-overview.md).
+
 1. Click **[!UICONTROL Select]** to confirm your selection.
 
     A preview of the delivery content is displayed in the right pane of the **[!UICONTROL Simulate]** screen. Personalized elements are replaced with the data from the profile selected in the left pane.

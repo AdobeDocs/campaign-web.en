@@ -91,7 +91,10 @@ In the **Combine** activity, you can configure an **Intersection**. For this, yo
 >title="Exclusion rules"
 >abstract="When necessary, you can manipulate inbound tables. Indeed, to exclude a target from another dimension, this target has to be returned to the same targeting dimension as the main target. To do this, click Add a rule in the Exclusion rules section and specify the dimension change conditions. Data reconciliation is carried out either via an attribute or a join."
 
-
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine_complement"
+>title="Combine generate complement"
+>abstract="Toggle on the Generate complement option to process the remaining population in an additional transition." 
 
 In the **Combine** activity, you can configure an **Exclusion**. For this, you need to follow the extra steps below:
 
