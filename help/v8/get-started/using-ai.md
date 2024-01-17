@@ -39,7 +39,7 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 Adobe Campaign AI-powered Contextual Help offers assistance, but you should verify facts. It may output incorrect information, inaccurate or misleading answers. Make sure to check product documentation which is linked in every help box. 
 
-Artificial intelligence and machine learning models improve over time to better address specific use cases. Campaign AI-powered Contextual Help will continue to get better in the coming months. We strongly advice you to use the 👍 👎 buttons anytime you read an anwser, to flag any inappropriate responses to our engineers.
+Artificial intelligence and machine learning models improve over time to better address specific use cases. Campaign AI-powered Contextual Help will continue to get better in the coming months. We strongly advice you to use the <img src="assets/do-not-localize/thumb.png" width="80%"/> buttons anytime you read an anwser, to flag any inappropriate responses to our engineers.
 
 ## Recommendations  {#recommendations-ai}
 
