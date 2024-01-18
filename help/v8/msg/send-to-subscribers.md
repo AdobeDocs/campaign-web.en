@@ -2,7 +2,7 @@
 audience: end-user
 title: Send messages to the subscribers of a service
 description: Learn how to send messages to the subscribers of a service
-badge: label="Beta"
+badge: label="Limited Availability"
 exl-id: f6e14db5-261c-4fa6-bd19-fd8bdc04aaf1
 ---
 # Send messages to the subscribers of a service {#send-to-subscribers}

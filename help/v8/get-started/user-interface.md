@@ -319,9 +319,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Conditional content subjectline condition" 
 
 
-
-
-
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_testprofiles"
 >title="Simulate test profiles"
@@ -344,22 +341,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 >[!CONTEXTUALHELP]
->id="acw_subscriptions_totalnumber_subscribers"
->title="Subscriptions total number"
->abstract="Subscriptions total number"
-
->[!CONTEXTUALHELP]
->id="acw_subscriptions_overtheperiod_subscribers"
->title="Subscriptions over the period"
->abstract="Subscriptions over the period"
-
->[!CONTEXTUALHELP]
->id="acw_subscriptions_overallevolution_subscribers"
->title="Subscriptions overall evolution"
->abstract="Subscriptions overall evolution"
-
-
->[!CONTEXTUALHELP]
 >id="acw_directmail_content"
 >title="Content for Direct Mail"
 >abstract="Content for Direct Mail"
@@ -373,8 +354,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_directmail_properties_content"
 >title="Content properties for Direct Mail"
 >abstract="Content properties for Direct Mail"
-
-
 
 
 <!--
