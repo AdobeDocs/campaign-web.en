@@ -3,6 +3,7 @@ audience: end-user
 title: Work with the query modeler
 description: Learn how to work with the Adobe Campaign Web query modeler.
 badge: label="Limited Availability"
+exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
 ---
 # Work with the query modeler {#segment-builder}
 

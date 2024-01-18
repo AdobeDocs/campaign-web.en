@@ -3,8 +3,8 @@ audience: end-user
 title: Get started with Global reports
 description: Understand Global reports
 badge: label="Limited Availability"
+exl-id: e64d9765-f602-4fee-9923-a3665130c63a
 ---
-
 # Get started with global reports {#global-report-gs}
 
 The **Global reports** serve as an effective tool, offering a consolidated overall summary of traffic and engagement metrics for each channel within your Campaign instance. These reports consist of various widgets, each offering a distinct perspective on your campaign or delivery performance.

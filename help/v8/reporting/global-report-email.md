@@ -3,6 +3,7 @@ audience: end-user
 title: Global reports for the email channel
 description: Learn more about global reports for the email channel
 badge: label="Limited Availability"
+exl-id: 37c575e5-fd18-4a35-a11a-922d5bda1bae
 ---
 # Global reports for the Email channel {#global-report-direct}
 

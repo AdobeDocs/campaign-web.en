@@ -3,6 +3,7 @@ audience: end-user
 title: Build your first query using the query modeler
 description: Learn how to build your first query in Adobe Campaign Web query modeler.
 badge: label="Limited Availability"
+exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
 ---
 # Build your first query {#build-query}
 

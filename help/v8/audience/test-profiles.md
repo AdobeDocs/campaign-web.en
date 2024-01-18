@@ -5,6 +5,7 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 badge: label="Limited Availability"
+exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
 ---
 # Create and manage test profiles {#create-test-profiles}
 
@@ -97,6 +98,3 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 The test profile you just created is now ready to be used to send a test. [Learn more](../preview-test/test-deliveries.md#test-profiles)
 
 <!--Use test profiles in Direct mail? cf v7/v8-->
-
-
-

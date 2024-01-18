@@ -2,6 +2,7 @@
 title: Targeting dimensions
 description: Learn more about targeting dimensions in Adobe Campaign Web
 badge: label="Limited Availability"
+exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
 ---
 # Targeting dimensions {#targeting-dimensions}
 

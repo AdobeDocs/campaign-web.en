@@ -2,6 +2,7 @@
 title: Monitor and manage profiles
 description: Learn how to monitor and manage profiles in Campaign Web.
 badge: label="Limited Availability"
+exl-id: 0680b726-8f2f-45bf-8aa0-c1d4aa1c2990
 ---
 # Monitor and manage profiles {#profiles}
 

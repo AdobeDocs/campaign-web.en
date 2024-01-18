@@ -5,6 +5,7 @@ description: Learn how to work with the query modeler.
 hide: yes
 hidefromtoc: yes
 badge: label="Limited Availability"
+exl-id: 6f8154ea-5d64-4950-9da3-427070ec7bf0
 ---
 # Query samples {#query-samples}
 

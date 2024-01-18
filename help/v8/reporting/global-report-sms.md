@@ -3,6 +3,7 @@ audience: end-user
 title: Global reports for the SMS channel
 description: Understand global reports for the SMS channel
 badge: label="Limited Availability"
+exl-id: 346cf2ff-b6e4-4d8f-ba26-197eadeaf5e6
 ---
 # Global reports for the SMS channel {#campaign-reports-sms}
 

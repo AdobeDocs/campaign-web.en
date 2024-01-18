@@ -7,7 +7,8 @@ feature: Templates
 topic: Content Management
 role: User
 level: Beginner
-badge: label="Limited Availability" 
+badge: label="Limited Availability"
+exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
 ---
 # Work with content templates {#content-templates}
 
@@ -179,6 +180,3 @@ You can test the rendering of any email content template, whether created from s
 1. You can send a proof to test your content and have it approved by some internal users before using it. To do so, click the **[!UICONTROL Send proof]** button and follow the steps described in .
 
 -->
-
-
-
