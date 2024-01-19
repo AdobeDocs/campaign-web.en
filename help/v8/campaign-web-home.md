@@ -30,12 +30,12 @@ badge: label="Limited Availability"
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list3"
 >title="Item 3"
->abstract="Reimagined UX for Audiences, subscription and services, AEM Assets"
+>abstract="Reimagined UX for Audiences, subscription, AEM Assets, landing pages"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list4"
 >title="Item 4"
->abstract="Email Gen AI: Prompt based email generation"
+>abstract="Next Generation Query modeler and Email designer"
 
 <!--
 >[!CONTEXTUALHELP]
@@ -44,7 +44,7 @@ badge: label="Limited Availability"
 >abstract="Additional Item"-->
 
 <!-- TO REMOVE BELOW-->
-
+L
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="Help and Documentation"

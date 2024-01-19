@@ -109,13 +109,13 @@ Key capabilities coming with Campaign Web Limited Availability release are liste
     
     Elevate and streamline your content management capabilities on the web UI with this integration to boost productivity.
 -->
-
+<!--
 * **Gen AI for Email content**
 
     Say goodbye to manual content creation and hello to efficient, data-driven campaigns with the power of Gen AI.  Our Gen AI technology utilizes advanced algorithms to **generate highly engaging and personalized content**. Drive higher open rates, click-through rates, and conversions with Gen AI's intelligent content generation. Stay ahead of the competition and elevate your email marketing game with Gen AI on email content.
 
     Learn more in [this section](../email/generative-gs.md).
-
+-->
 
 * **AI-powered Contextual Help**
 
