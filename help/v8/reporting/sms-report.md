@@ -76,9 +76,6 @@ The **Overall statistics** report presents data for the sent SMS messages. Metri
 * **[!UICONTROL Errors]**: Total number and percentage rate of errors that occurred during delivery, preventing the messages from being sent to certain profiles.
 
 * **[!UICONTROL New quarantine]**:  Number and percentage rate of profiles that have been excluded and added to the quarantine.
-
-    Learn more about delivery failures and quarantines in [this technote](../technotes/failures-and-quarantines.md).
-
 +++
 
 ### Exclusions {#sms-delivery-exclusions}

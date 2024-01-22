@@ -78,8 +78,6 @@ The **[!UICONTROL Execution statistics]** table details the success of your deli
 
 * **[!UICONTROL New quarantines]**: Total number of addresses quarantined following a failed delivery (user unknown, invalid domain) in relation to the number of messages to be delivered.
 
-    Learn more about delivery failures and quarantines in [this technote](../technotes/failures-and-quarantines.md).
-
     Email error types are listed in the [Adobe Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}.
 
 +++
