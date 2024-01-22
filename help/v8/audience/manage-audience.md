@@ -1,11 +1,21 @@
 ---
 audience: end-user
-title: Monitor & manage audiences
+title: Monitor and manage audiences
 description: Learn how to monitor and manage audiences in Adobe Campaign Web
 badge: label="Beta"
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 ---
-# Monitor & manage audiences {#monitor}
+# Monitor and manage audiences {#monitor}
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_properties"
+>title="Properties"
+>abstract="Here you can find a summary of the audience properties such its origin, storage folder, or its status. Click the link in the **Last workflow** section to open the workflow that has been used to create the audience."
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_count"
+>title="Audience size"
+>abstract="Here you can find the total number of profiles within the audience. Click the Calculate button to update and recalculate the audience results."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_workflow_error_data_execution"
@@ -18,7 +28,7 @@ To define the population of an audience, you can:
 
 * [Create new audiences](create-audience.md) from the **[!UICONTROL Audiences]** menu,
 * [Select an existing audience](add-audience.md) created as a list in the client console or coming from Adobe Experience Platform,
-* [Build a new audience](segment-builder.md) with the rule builder by defining and combining filtering criteria,
+* [Build a new audience](../query/query-modeler-overview.md) with the query modeler by defining and combining filtering criteria,
 * [Use an audience from an external file](file-audience.md). This option is only available for standalone email deliveries, and cannot be used in campaign deliveries.
 
 When targeting an audience, you can also define **control groups** to avoid sending messages to a portion of your audience, and measure the impact of your campaigns. [Learn how to set a control group](control-group.md)

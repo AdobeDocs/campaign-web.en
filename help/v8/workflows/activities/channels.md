@@ -2,7 +2,7 @@
 audience: end-user
 title: Use a delivery workflow activity
 description: Learn how to add a delivery workflow activity (Email, Push, SMS)
-badge: label="Beta"
+badge: label="Limited Availability"
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
 ---
 # Email, SMS, Push activities {#channel}
@@ -16,11 +16,11 @@ By using channel activities, you can create comprehensive and personalized campa
 >[!NOTE]
 >
 >You can also create a one-shot delivery, outside of the context of a campaign workflow. Learn more in these sections:
->*  [Create standalone email delivery](../../email/create-email.md)
->*  [Create standalone SMS delivery](../../sms/create-sms.md)
->*  [Create standalone push delivery](../../push/create-push.md)
+>* [Create standalone email delivery](../../email/create-email.md)
+>* [Create standalone SMS delivery](../../sms/create-sms.md)
+>* [Create standalone push delivery](../../push/create-push.md)
 
-## Build your workflow{#build-your-workflow}
+## Build your workflow {#build-your-workflow}
 
 Start building your workflow with the relevant activities before placing the delivery:
 
@@ -30,26 +30,26 @@ Start building your workflow with the relevant activities before placing the del
 
     ![](../../msg/assets/add-delivery-in-wf.png)
 
-## Configure the Channel activity {#create-a-delivery-in-a-workflow}
+    >[!NOTE]
+    >
+    >You can also target an audience loaded from a file. To do this, use a **Load file** activity followed by a **Reconciliation** activity. [Learn more](../../audience/about-recipients.md)
 
+## Configure the Channel activity {#create-a-delivery-in-a-workflow}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_email"
 >title="Email activity"
 >abstract="The Email activity facilitates email sending within your workflow, allowing for both one-time and recurring messages. It serves to automate the process of sending emails to a target calculated within the same workflow. You can combine channel activities into the workflow canvas to create cross-channel workflows that can trigger actions based on customer behavior and data."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_sms"
 >title="SMS activity"
 >abstract="The SMS activity facilitates SMS sending within your workflow, allowing for both one-time and recurring messages. It serves to automate the process of sending SMS to a target calculated within the same workflow. You can combine channel activities into the workflow canvas to create cross-channel workflows that can trigger actions based on customer behavior and data."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_ios"
 >title="Push iOS activity"
 >abstract="The Push iOS activity streamlines the process of sending iOS Push notifications as part of your workflow. It enables the delivery of both one-time and recurring messages, automating the sending iOS Push notifications to a predefined target within the same workflow. You can combine channel activities into the workflow canvas to create cross-channel workflows that can trigger actions based on customer behavior and data."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_android"
@@ -69,11 +69,11 @@ To set up a delivery in the context of a workflow, follow the steps below:
 
     ![](../assets/delivery-activity-in-wf.png)
    
-    You can select another template from the channel activity configuration left pane. If the previously selected audience is not compatible with the channel, then you cannot select a template. To solve this, update the **Build audience** activity to select an audience with the correct target mapping. Learn more about target mappings in [Adobe Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
+    You can select another template from the channel activity configuration left pane. If the previously selected audience is not compatible with the channel, then you cannot select a template. To solve this, update the **Build audience** activity to select an audience with the correct target mapping. Learn more about target mappings in [Adobe Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}
 
-1. Click **Create delivery**. Define your message settings and content the same way you create a standalone delivery. You can also schedule and simulate the content. [Learn more](../../msg/gs-messages.md).
+1. Click **Create delivery**. Define your message settings and content the same way you create a standalone delivery. You can also schedule and simulate the content. [Learn more](../../msg/gs-messages.md)
 
-1. Navigate back to your workflow. Choose if you want to continue your workflow **Generate an outbound transition** if you want to add a transition after the channel activity.
+1. Navigate back to your workflow. If you want to continue your workflow, **Generate an outbound transition** to add a transition after the channel activity.
 
 1. Click **Start** to launch your workflow.
 

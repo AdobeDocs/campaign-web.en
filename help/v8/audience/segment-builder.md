@@ -7,7 +7,6 @@ badge: label="Beta"
 ---
 # Work with the rule builder {#segment-builder}
 
-
 The rule builder allows you to define the population targeted by your delivery by filtering data contained in the database. You can use it to build an audience either from a workflow using a **[!UICONTROL Build audience]** activity, or directly when creating a delivery to create a one-time audience.
 
 * [Learn how to create an audience](create-audience.md)
@@ -23,7 +22,7 @@ The palette is divided into two tabs:
 
 * **Attributes**: this tab allows you to access all available fields from the schema. The list of fields depends on the targeting schema defined in the email template.
 
-* **Audiences**: this tab allows you to filter using one of the existing audiences defined in the Campaign Classic console or from Adobe Experience Platform. [Learn how to monitor & manage audiences](manage-audience.md)
+* **Audiences**: this tab allows you to filter using one of the existing audiences defined in the Campaign Classic console or from Adobe Experience Platform. Learn how to monitor and manage audiences in [this section](manage-audience.md)
 
     >[!NOTE]
     >

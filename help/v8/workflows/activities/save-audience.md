@@ -2,17 +2,15 @@
 audience: end-user
 title: Use the Save audience workflow activity
 description: Learn how to use the Fork workflow activity
-badge: label="Beta"
+badge: label="Limited Availability"
 exl-id: 0f7cbc34-0536-493e-bb3b-0b1ac93d1232
 ---
 # Save audience {#save-audience}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_save_audience"
 >title="Save an audience"
 >abstract="Use this activity to update an existing audience or create a new audience from the population computed upstream in the workflow. The audiences created are added to the list of audiences, and available via the **Audiences** menu."
-
 
 The **Save audience** activity is a **Targeting** activity. This activity allows you to update an existing audience or create a new audience from the population computed upstream in a workflow. The audiences created are added to the list of application audiences, and are made available via the **Audiences** menu.
 

@@ -2,6 +2,8 @@
 audience: end-user
 title: Build your first query using the query modeler
 description: Learn how to build your first query in Adobe Campaign Web query modeler.
+badge: label="Limited Availability"
+exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
 ---
 # Build your first query {#build-query}
 
@@ -11,13 +13,9 @@ You can add two types of elements:
 
 * **Filtering components** (Custom condition, Select audience, Predefined filter) allow you to build your own rules, select an audience or a predefined filter to refine your query. [Learn how to work with filtering components](#filtering)
 
-    Example:
-    
     *Recipients who subscribed to the 'Sports' newsletter*. *Recipients living in New York*, *Recipients living in San Francisco*
 
 * **Group operators** (AND, OR, EXCEPT) allow you to group together filtering components in the diagram to suit your needs. [Learn how to work with operators](#filtering)
-
-    Example:
     
     *Recipients who subscribed to the "Sports" newsletter **AND** who live in New York **OR** San Francisco*.
 
@@ -27,11 +25,11 @@ You can add two types of elements:
 
 Filtering components allow you to refine your query by using:
 
-* **Custom conditions**: Filter your query by building your own condition with attributes from the database and advanced expressions.
-* **Audiences**: Filter your query using an existing audience.
-* **Predefined filter**: Filter your query using existing predefined filters.
+* **[Custom conditions](#custom-condition)**: Filter your query by building your own condition with attributes from the database and advanced expressions.
+* **[Audiences](#audiences)**: Filter your query using an existing audience.
+* **[Predefined filter](#predefined-filters)**: Filter your query using existing predefined filters.
 
-### Configure a custom condition
+### Configure a custom condition {#custom-condition}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_customcondition"
@@ -42,13 +40,13 @@ To filter your query using a custom condition, follow these steps:
 
 1. Click the **+** button on the desired node and select **[!UICONTROL Custom condition]**. The custom condition properties pane opens on the right hand side. 
 
-1. In the **Attribute** field, select the attribute from the database that you want to leverage to create your condtion. The attributes list includes all the attributes from your Campaign database, including attributes linked to your table.
+1. In the **Attribute** field, select the attribute from the database that you want to leverage to create your condtion. The attributes list includes all the attributes from your Campaign database, including attributes from linked tables.
 
     ![](assets/query-custom-condition-fields.png)
 
     >[!NOTE]
     >
-    >The Edit expression button allows you to leverage Campaign Web expression editor to manually define an expression using fields from the database and helper functions.
+    >The Edit expression button allows you to leverage Campaign Web expression editor to manually define an expression using fields from the database and helper functions. [Learn how to edit expressions](expression-editor.md)
 
 1. Select the operator to apply from the drop-down list. Various operators are available for use. Note that operators available in the drop-down list depend on the attribute's data type. 
 
@@ -75,39 +73,75 @@ To filter your query using a custom condition, follow these steps:
 
     +++
 
-1. In the **Value** field, define the expected value. You can also leverage Campaign Web expression editor to manually define an expression using fields from the database and helper functions. To do this, click the **Edit expression** button.
+1. In the **Value** field, define the expected value. You can also leverage Campaign Web expression editor to manually define an expression using fields from the database and helper functions. To do this, click the **Edit expression** button. [Learn how to edit expressions](expression-editor.md)
 
     *Query example returning all profiles aged 21 or more:*
 
     ![](assets/query-custom-condition.png)
 
-**Custom conditions on distant tables (1-1 and 1-N links)**
+#### Custom conditions on linked tables (1-1 and 1-N links){#links}
 
-Custom conditions allows you to query distant tables linked to the Recipients table.
+Custom conditions allows you to query tables linked to the table currently used by your rule. This includes tables with a 1-1 cardinality link, or collection tables (1-N link).
 
-For a **1-1 link** with another database resource, select the value directly from the table targeted.
+For a **1-1 link**, navigate to the linked table, select the desired attribute and define the expected value.
+
+You can also directly select a table link in the **Value** picker and confirm. In that case, values available for the selected table need to be selected using a dedicated picker, as shown in the example below.
 
 +++Query example
 
-Here, the query is targeting recipients whose country or region is included in given values (uk and us)
+Here, the query is targeting brands whose label is "running". 
 
-![](assets/custom-condition-1-1.png)
+1. Navigate inside the **Brand** table and select the **Label** attribute.
+
+    ![](assets/1-1-attribute.png){width="85%" align="center"}
+
+1. Define the expected value for the attribute.
+
+    ![](assets/1-1-table.png){width="85%" align="center"}
+
+Here is a query sample where a table link has been selected directly. Available values for this table must be selected from a dedicated picker.
+
+![](assets/1-1-table-direct.png){width="85%" align="center"}
 
 +++ 
 
-For a **1-N link** with another database resource, you can define sub-conditions on the fields of this second resource. 
-
-For example, you can select the Exists operator on the profile purchases to target all the profiles for which purchases exist. Once done, add a custom condition on the outbound transition and create a filter to suit your needs.
+For a **1-N link**, you can define sub-conditions to refine your query, as shown in the example below.
 
 +++Query example
 
 Here, the query is targeting recipients who made purchases related to the BrewMaster product, for a total amount of at least 100$.
 
-![](assets/custom-condition-1-N.png)
+1. Select the **Purchases** table and confirm.
+
+    ![](assets/1-N-collection.png){width="50%" align="center"}
+
+1. An outbound transition is added, allowing you to create sub-conditions.
+
+    ![](assets/1-n-subcondition.png){width="85%" align="center"}
+
+1. Select the **Price** attribute and target purchases of 1000$ or more
+
+    ![](assets/1-n-price.png){width="85%" align="center"}
+
+1. Add sub-conditions to suit your needs. Here we have added a condition to target profiles who purchased a BrewMaster product.
+
+    ![](assets/custom-condition-1-N.png){width="85%" align="center"}
 
 +++ 
 
-### Select an audience
+#### Work with aggregate data {#aggregate}
+
+Custom conditions allow you to perform aggregate operations. To do this, you need to directly select an attribute from a collection table:
+
+1. Navigate inside the desired collection table and select the attribute on which you want to perform an aggregate operation.
+
+    ![](assets/aggregate-attribute.png){width="85%" align="center"}
+
+1. In the properties pane, toggle on the **Aggregate data** option and select the desired aggregate function.
+
+    ![](assets/aggregate.png){width="85%" align="center"}
+
+### Select an audience {#audiences}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_selectaudience"
@@ -124,7 +158,7 @@ To filter your query using an existing audience, follow these steps:
 
     ![](assets/query-audience.png)
 
-### Use a predefined filter
+### Use a predefined filter {#predefined-filters}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_predefinedfilter"
@@ -141,6 +175,28 @@ To filter your query using a predefined filter, follow these steps:
 
     ![](assets/query-predefined-filter.png)
 
+### Copy-paste components {#copy}
+
+The query modeler allows you to copy one or multiple filtering components and paste them at the end of a transition. This operation can be executed within the current query canvas, or in any canvas within your instance.
+
+>[!NOTE]
+>
+>The copied selection is kept as long as you are working in your instance. If you log off and log back in, your selection will no longer be available for pasting.
+
+To copy-paste filtering components, follow these steps:
+
+1. Select the filtering component that you want to copy by clicking on it in the query canvas. To select multiple components, use the multiple selection tool available in the toolbar located at the upper-right corner of the canvas.
+
+1. Click the **[!UICONTROL Copy]** button in the component's properties pane or in the blue ribbon at the bottom of the screen if you have selected multiple components.
+
+    |Copy a single component|Copy multiple components|
+    |  ---  |  ---  |
+    |![](assets/copy-single-component.png){width="200" align="center" zoomable="yes"}|![](assets/copy-multiple-components.png){width="200" align="center" zoomable="yes"}|
+
+1. To paste the component(s), click the + button at the end of the desired transition and select **Paste n items**.
+
+    ![](assets/copy-paste.png)
+
 ## Combine filtering components with operators {#operators}
 
 >[!CONTEXTUALHELP]
@@ -148,13 +204,13 @@ To filter your query using a predefined filter, follow these steps:
 >title="Group"
 >abstract="Group"
 
-Each time you add a new filtering component to your query, it is automaticalky linked to the other component by an AND operator. This means that results from both the filtering components are combined into the query results.
+Each time you add a new filtering component to your query, it is automatically linked to the other component by an **AND** operator. This means that results from the two filtering components are combined.
 
-In this example, we have added a new audience-type filtering components on the second transition. The component is linked to the predefined filter type condition with an AND operator, meaning that the query results includes recipients targeted by the "Madridians" predefined filter AND belonging to the "Discount hunters" audience.
+In this example, we have added a new audience-type filtering components on the second transition. The component is linked to the predefined filter type condition with an **AND** operator, meaning that the query results includes recipients targeted by the "Madridians" predefined filter AND belonging to the "Discount hunters" audience.
 
 ![](assets/query-operator.png)
 
-To change the operator used to link filtering conditions together, click on it and select the desired operator in the Group pane that opens on the right hand side.
+To change the operator used to link filtering conditions together, click on it and select the desired operator in the **Group** pane that opens on the right hand side.
 
 Available operators are:
 
@@ -163,6 +219,12 @@ Available operators are:
 * **EXCEPT (Exclusion)**: Excludes results matching all the filtering componentns in the outbound transition. 
 
 ![](assets/query-operator-change.png)
+
+In addition, you can create intermediate groups of components by clicking the **+** button on a transition. This allows you to add an operator at this specific location to group together multiple components and refine your query. 
+
+In the example below, we have created an intermediate group to include results from either the "VIP to reward" or "Super VIP" audiences.
+
+![](assets/query-intermediate-group.png)
 
 ## Check and validate your query
 
@@ -181,3 +243,9 @@ Once you've built your query in the canvas, you can check it using the **Rule pr
     >[!IMPORTANT]
     >
     >Select a predefined filter from the Rule properties pane replaces the query that has been built in the canvas with the selected filter.
+
+When your query is ready, click the **[!UICONTROL Confirm]** button in the upper-right corner to save it.
+
+You can modify your query at any time by opening it. Keep in mind that upon opening an existing query, it displays in a simplified view without the visiblity of  **+** buttons. To add new elements to the query, select a component or operator on the canvas to display the **+** buttons.
+
+![](assets/edit-audience.png)

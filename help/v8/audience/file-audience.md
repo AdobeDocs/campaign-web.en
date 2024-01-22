@@ -20,14 +20,12 @@ exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_formatting"
 >title="Formatting parameters"
->abstract="Check the formatting parameters for the external file."
-
+>abstract="Specify how the external file is formatted to ensure that data is correctly imported."
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_preview"
 >title="Preview your file"
 >abstract="Check the preview of the columns of the external file. This screen only shows up to 30 records."
-
 
 You can target profiles stored in an external file. Profiles are not added to the database, but all fields in the input file are available for [personalization](../personalization/gs-personalization.md). Supported file formats are: text (TXT) and comma-separated value (CSV). This article describes how to load external profile when creating a standalone email delivery. To load data from a file in a workflow, refer to [this page](../workflows/activities/load-file.md).
 
@@ -79,7 +77,7 @@ Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
 }
 ```
 
-## Preview & test your email {#test}
+## Preview and test your email {#test}
 
 Campaign Web allows you to preview and send test emails when using an audience uploaded from a file. To do this, follow these steps:
 
@@ -103,4 +101,4 @@ Campaign Web allows you to preview and send test emails when using an audience u
 
     ![](assets/file-upload-test.png)
 
-1. You can monitor the sending of the test email using the View test email log button at any time. [Learn more on test emails monitoring](../preview-test/test-deliveries.md#access-sent-test-deliveries-access-proofs)
+1. You can monitor the sending of the test email using the **[!UICONTROL View test email log]** button at any time. [Learn more on test emails monitoring](../preview-test/test-deliveries.md#access-test-deliveries)

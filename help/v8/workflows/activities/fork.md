@@ -2,7 +2,7 @@
 audience: end-user
 title: Use the Fork workflow activity
 description: Learn how to use the Fork workflow activity
-badge: label="Beta"
+badge: label="Limited Availability"
 exl-id: 5c7ff58b-5504-4b8e-879f-44754b7dcf8a
 ---
 # Fork {#fork}

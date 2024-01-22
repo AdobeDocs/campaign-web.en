@@ -3,10 +3,20 @@ audience: end-user
 title: Get started with Campaign v8 Web
 description: Get started with Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-badge: label="Beta" 
+badge: label="Limited Availability" 
 ---
 # Get started with Campaign Web {#get-started}
 
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_learnmore"
+>title="Get started"
+>abstract="The new Campaign v8 Web interface offers an integrated, intuitive, and consistent user experience."
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_learning_learnmore"
+>title="Get started"
+>abstract="The new Campaign v8 Web interface offers an integrated, intuitive, and consistent user experience."
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
@@ -26,7 +36,7 @@ If you need to access Campaign v8 capabilities which are not available in the we
 
 >[!NOTE]
 >
->Campaign v8 Web is currently in Beta version. Access is restricted to a small set of Beta customers. Please be aware that product interface, capabilities and usage flows can change without notice.
+>Campaign v8 Web is currently in Limited Availability (LA) version. Access is restricted to a small set of LA customers. Please be aware that product interface, capabilities and usage flows can change without notice.
 
 Learn how to connect to Adobe Campaign Web in [this page](connect-to-campaign.md).
 

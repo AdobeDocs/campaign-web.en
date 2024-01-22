@@ -1,37 +1,51 @@
 ---
-title: Work with recipients & audiences
-description: Learn how to work with recipients and audiences in Campaign Web
-badge: label="Beta"
+title: Get started with profiles & audiences
+description: Learn how to work with profiles and audiences in Campaign Web
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
+badge: label="Limited Availability"
 ---
-# Work with recipients & audiences {#about-recipients}
+# Get started with profiles and audiences {#about-profiles}
 
-## Recipients & audiences {#about}
+In Adobe Campaign Web, a **profile** is an individual stored in the database, serving as a key component to create audiences for deliveries and add personalization data to your content. Various types of profiles are stored in the database such as **Test profiles**, which are designed to test your deliveries before they are sent to the final audience.
 
-In Adobe Campaign, the target population of a delivery is an audience. An audience is a set of people who share similar behaviors and/or characteristics. This collection of people can either be generated, selected, or loaded [as detailed below](#audiences).
+**Audiences** are sets of profiles who share similar behaviors and/or characteristics. This collection of people can either be generated, selected, or loaded.  Once created, audiences can be leveraged as the target population of your deliveries.
 
-In most common cases, the audience is made of profiles, which are stored as [recipients](#recipients) in Adobe Campaign. You can also work with other target mappings by changing the dimension as explained [in this section](#targeting-dimensions).
+In addition, Adobe Campaign web can be used to manage and create **services** such as newsletters, and to check the subscriptions or unsubscriptions to these services. Once done, you can add subscribers, unsubscribe profiles, and send messages to the subscribers of your services.
 
-## Targeting dimensions {#targeting-dimensions}
+Now that you have an understanding of what you can do in Adobe Campaign Web, it's time to dive deeper into these documentation sections to start working with it.
 
-The targeting dimension, aka. target mapping, is the type of data that an operation is handling. It lets you define the targeted population: recipients, contract beneficiaries, operators, subscribers, etc.
-
-The targeting dimension of a workflow is defined by the first **[!UICONTROL Build audience]** activity and is used across all further activities until the end of the workflow. For example, if you perform a query on the recipients from the database, the outbound transition will contain data of type recipient and it will be transmitted to the next activity.
-
-Note that you can switch the targeting dimension in a workflow using a [Change dimension activity](../workflows/activities/change-dimension.md). This allows you, for example, to query the database on a specific table such as purchases or subscriptions, and then change the targeting dimension to Recipients in order send deliveries to the corresponding recipients.
-
-By default, email and SMS delivery templates target **[!UICONTROL Recipients]**. Their target dimension therefore uses the fields of the **nms:recipient** table. For Push notifications, the default target dimension is **Subscriber applications nms:appSubscriptionRcp**, which is linked to the recipients table.
-
-You can also use other built-in target mappings in your workflows and deliveries that are listed below: 
-
-|  Name  | Use to | Schema  |
-|---|---|---|
-|  Recipients  | Deliver to recipients (built-in recipient table)  | nms:recipient  |
-|  Visitors  | Deliver to visitors whose profiles have been collected via referral (viral marketing) for ex.  | mns:visitor  |
-|  Subscriptions  | Deliver to recipients who are subscribed to an information service such as a newsletter | nms:subscription  |
-|  Visitor subscriptions  | Deliver to visitors who are subscribed to an information service  | nms:visitorSub  |
-|  Operators  | Deliver to Adobe Campaign operators  | nms:operator  |
-|  External file  | Deliver via a file that contains all information needed for delivery  | No linked schema, no target entered  |
-|  Subscriber applications  | Deliver to recipients who are subscribed to an application | nms:appSubscriptionRcp  |
-
-In addition, you can create a new target mapping depending on your needs. This is performed from the client console. Learn more in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping){target="_blank"}.
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="about-recipients.md">
+<img src="../assets/do-not-localize/profiles-audiences-profile.png">
+</a>
+<div>
+<a href="about-recipients.md"><strong>Monitor & manage profiles</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="create-audience.md">
+<img alt="Lead" src="../assets/do-not-localize/profiles-audiences-audience.png">
+</a>
+<div><a href="create-audience.md"><strong>Create audiences</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="manage-services.md">
+<img alt="Infrequent" src="../assets/do-not-localize/profiles-audiences-service.png">
+</a>
+<div>
+<a href="manage-services.md"><strong>Manage services</strong></a>
+</div>
+<p></td>
+<td>
+<a href="add-audience.md">
+<img alt="Infrequent" src="../assets/do-not-localize/profiles-audiences-deliveries.png">
+</a>
+<div>
+<a href="add-audience.md"><strong>Select your delivery recipients</strong></a>
+</div>
+<p></td>
+</tr></table>

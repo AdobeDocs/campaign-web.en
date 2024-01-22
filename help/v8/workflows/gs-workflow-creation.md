@@ -1,10 +1,11 @@
 ---
 audience: end-user
-title: Create workflows with Adobe Campaign Web
-description: Learn how to build workflows with Adobe Campaign Web
-badge: label="Beta"
+title: Key principles of workflow creation
+description: Learn key principles of workflows with Adobe Campaign Web
+badge: label="Limited Availability"
 exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
 ---
+
 # Key principles of workflow creation {#gs-workflow-creation}
 
 With Campaign v8 Web, you can build workflows into a visual canvas to design cross-channel processes such as segmentation, campaign execution, file processing.
@@ -14,7 +15,7 @@ With Campaign v8 Web, you can build workflows into a visual canvas to design cro
 
 The workflow diagram is a representation of what is supposed to happen. It describes the various tasks to be performed and how they are linked together. 
 
-![](assets/workflow-example.png)
+![](assets/workflow-example.png) {zoomable="yes"}
 
 Each workflow contains:
 

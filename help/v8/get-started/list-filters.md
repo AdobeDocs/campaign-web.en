@@ -1,15 +1,13 @@
 ---
 audience: end-user
-title: Browse, search and filter lists
+title: Browse and filter lists
 description: Discover how to browse and filter lists Campaign Web v8
-badge: label="Beta"
+badge: label="Limited Availabilty"
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
 ---
-# Browse, search, and filter lists {#list-screens}
+# Browse and filter lists {#list-screens}
 
 Most of the links from the left navigation menu display lists of objects, such as the list of **Deliveries** or **Campaigns**. Some of these list screens are read-only. You can customize the list display, and filter these lists, as detailed below.
-
-To remove a filter, click the **Clear all** button.
 
 ## Customize list screens {#custom-lists}
 
@@ -27,34 +25,21 @@ The list shows the following columns:
 
 ![](assets/column-sample.png){width="70%" align="left" zoomable="yes"}
 
-Use the **Display advanced attributes** toggle to see all attributes for the current list. [Learn more](#adv-attributes)
-
 ## Sort data {#sort-lists}
 
 You can also sort items in the list by clicking any column header. An arrow is displayed (Up or Down) indicating that the list is sorted on that column. 
 
 For numeric or date columns, the **Up** arrow indicates that the list is sorted in ascending order while the **Down** arrow indicates a descending order. For string or alphanumeric columns, values are listed in alphabetical order.
 
-## Built-in filters {#list-built-in-filters}
+## Filters {#list-built-in-filters}
 
-To find items quicker, you can use the search bar, or filter the list based on contextual criteria. 
+To find items quicker, you can use the search bar, or built-in and custom filters to adapt the list based on contextual criteria. 
 
 ![](assets/filter.png){width="70%" align="left" zoomable="yes"}
 
-For example, you can filter deliveries on their status, channel, contact date, or folder. You can also hide tests.
+Detailed information on how to use filters and create your own custom filters it is available in [this section](../query/filter.md).
 
-## Custom filters{#list-custom-filters}
-
-To create custom filters on data, browse to the bottom of the filters and click the **Add rules** button to access the rule builder.
-
-Drag and drop attributes to build your filter criteria in the **Advanced filters** screen. 
-
-![](assets/custom-filter.png){width="70%" align="left" zoomable="yes"}
-
-Use the **Display advanced attributes** toggle to see all attributes for the current list. [Learn more](#adv-attributes)
-
-The rule builder's operating principle for custom filters is similar to the rule builder used to create audiences. Detailed information on how to use it is available in the [Audiences documentation](../audience/segment-builder.md).
-
+<!--
 ## Use advanced attributes {#adv-attributes}
 
 >[!CONTEXTUALHELP]
@@ -79,3 +64,4 @@ Activate the **Display advanced attributes** toggle to see all available attribu
 
 
 ![](assets/adv-toggle.png){width="70%" align="left" zoomable="yes"}
+-->

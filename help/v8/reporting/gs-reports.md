@@ -2,9 +2,10 @@
 audience: end-user
 title: Get started with reports
 description: Learn how to access and manage reports in Campaign Web
-badge: label="Beta"
+badge: label="Limited Availability"
 exl-id: b353bc86-2228-4e02-879c-ae9425c48489
 ---
+
 # Get started with reports {#get-started-reports}
 
 Our comprehensive suite of reporting tools provides valuable insights into the effectiveness of your marketing efforts, allowing you to optimize your campaigns for maximum impact. From delivery rates to open and click-through rates, our reporting suite has everything you need to make data-driven decisions that drive results.​
@@ -28,14 +29,6 @@ Adobe Campaign offers three different reports:
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="campaign-reports.md">
-<img alt="Lead" src="assets/do-not-localize/campaign_report.jpeg">
-</a>
-<div><a href="delivery-reports.md"><strong>Delivery reports</strong>
-</div>
-<p>
-</td>
-<td>
-<a href="campaign-reports.md">
 <img alt="Validation" src="assets/do-not-localize/campaign_report.jpeg">
 </a>
 <div>
@@ -44,11 +37,19 @@ Adobe Campaign offers three different reports:
 <p>
 </td>
 <td>
-<a href="campaign-reports.md">
+<a href="delivery-reports.md">
+<img alt="Lead" src="assets/do-not-localize/email_report.jpeg">
+</a>
+<div><a href="delivery-reports.md"><strong>Delivery reports</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="global-reports.md">
 <img alt="Infrequent" src="assets/do-not-localize/push_report.jpeg">
 </a>
 <div>
-<a href="campaign-reports.md"><strong> Global reports<strong></strong></a>
+<a href="global-reports.md"><strong> Global reports<strong></strong></a>
 </div>
 <p></td>
 <td>

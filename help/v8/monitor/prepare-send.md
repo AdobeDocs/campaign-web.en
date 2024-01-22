@@ -3,14 +3,14 @@ audience: end-user
 title: Prepare and send an email
 description: Learn how to prepare and send an email with Campaign Web UI
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-badge: label="Beta" 
+badge: label="Limited Availability"
 ---
 
 # Prepare and send your email {#prepare-send}
 
 ## Prepare the send {#prepare}
 
-When you have defined your [content](../content/edit-content.md), [audience](../audience/add-audience.md), and [schedule](../msg/gs-messages.md#schedule-the-delivery-sending-gs-schedule), you're ready to prepare your email delivery.
+When you have defined your [content](../email/edit-content.md), [audience](../audience/add-audience.md), and [schedule](../msg/gs-messages.md#schedule-the-delivery-sending-gs-schedule), you're ready to prepare your email delivery.
 
 During the delivery preparation, the target population is calculated and the message content generated for each profile included in the target. Once the preparation is finished, the messages are ready to be sent, either immediately or at the scheduled date and time. 
 
@@ -99,7 +99,7 @@ If you scheduled your email to send it at a later date and time, follow the step
 
 ## Pause or stop the sending {#pause-stop-sending}
 
-Whether your delivery is scheduled or not, two actions can be performed at any time during the sending process:
+Whether your delivery is scheduled or not<!--TBC-->, two actions can be performed at any time during the sending process:
 
 * Click **[!UICONTROL Pause sending]** to interrupt the sending of the messages. You can resume sending at any time.
 

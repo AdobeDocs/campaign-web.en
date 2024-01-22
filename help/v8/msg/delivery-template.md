@@ -5,6 +5,7 @@ description: Learn how to create and use delivery templates in Campaign Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
+badge: label="Limited Availability"
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
 ---
 # Use delivery templates {#work-with-delivery-templates}
@@ -22,19 +23,14 @@ A template can include:
 * [Typologies](../advanced-settings/delivery-settings.md#typology),
 * The sender address,
 * An [audience](../audience/about-recipients.md), including [control groups](../audience/control-group.md),
-* Custom [content](../content/edit-content.md),
+* Custom [content](../email/edit-content.md),
 * [Personalized fields](../personalization/personalize.md) and [conditional content](../personalization/conditions.md),
-* Links to [mirror page](../content/mirror-page.md) and unsubscription [links](../content/message-tracking.md),
+* Links to [mirror page](../email/mirror-page.md) and unsubscription [links](../email/message-tracking.md),
 * Other delivery properties, such as resource validity, retry parameters, or quarantine settings.
 
-<!--
 >[!NOTE]
 >
->Delivery templates are different from email content templates, which allow you to reuse only the content of your messages.-->
-
->[!NOTE]
->
->Delivery templates are different from [content templates](../content/email-sample-templates.md), which allow you to start building your content with one of the sample email templates provided out-of-the-box.
+>Delivery templates are different from [content templates](../email/create-email-templates.md), which allow you reuse only the content of your emails and to start building content with one of the sample email templates provided out-of-the-box.
 
 
 ## Access and manage delivery templates {#access-manage-templates}
@@ -51,7 +47,7 @@ To access the content template list, select **[!UICONTROL Campaign Management]**
 
 All the templates that were [created](#create-a-delivery-template) on the current environment are displayed.
 
-You can filter content templates on channels and folders. You can also set advanced filters by building a rule using delivery attributes. [Learn more on the rule builder](../audience/segment-builder.md)
+You can filter content templates on channels and folders. You can also set advanced filters by building a rule using delivery attributes. [Learn more on the query modeler](../audience/../query/query-modeler-overview.md)
 
 ![](assets/templates-filters.png)
 
@@ -119,6 +115,8 @@ To save a delivery as a template, follow the steps below:
 1. From the **[!UICONTROL Browse]** tab, click the **[!UICONTROL More actions]** button to the right of the desired delivery name, and select **[!UICONTROL Copy as a template]**.
 
     ![](assets/templates-convert-delivery.png)
+
+    You can also select a template from the list and select this option from the template edition screen.
     
 1. Confirm duplication.
 
@@ -178,13 +176,11 @@ You can test the rendering of any delivery template, whether created from scratc
 
     ![](assets/templates-simulate-button.png)
 
-1. Select one or more test profiles to check your email rendering. You can also select real profiles from your database.
+1. Select one or more test profiles to check your email rendering. You can also select real profiles from your database. [Learn more on test profiles](../audience/test-profiles.md)
 
-1. Toggle between the different profiles to get a personalized representation of the message according to the selected profile.
+1. Toggle between the different profiles to get a personalized representation of the message according to the selected profile. You can also adjust the zoom level and choose the desktop or mobile view.
 
-    <!--[Learn more on test profiles](../preview-test/test-deliveries.md#recipients)-->
-
-    You can also adjust the zoom level and choose the desktop or mobile view.
+    [Learn more on previewing content](../preview-test/preview-content.md)
 
     ![](assets/templates-stimulate.png)
 
@@ -192,10 +188,6 @@ You can test the rendering of any delivery template, whether created from scratc
 
 >[!NOTE]
 >
->You cannot use email rendering or send proofs in a delivery template.
+>You cannot use email rendering or send tests in a delivery template.
 
-* [Learn more on previewing email content](../preview-test/preview-content.md)
 
-* [Learn more on previewing SMS content](../sms/content-sms.md)
-
-* [Learn more on previewing push content](../push/gs-push.md)

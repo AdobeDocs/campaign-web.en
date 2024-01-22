@@ -2,7 +2,7 @@
 audience: end-user
 title: Campaign reports for the email channel
 description: Learn more about campaign reports for the email channel
-badge: label="Beta"
+badge: label="Limited Availability"
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
 ---
 # Campaign reports for the email channel {#campaign-reports-email-channel}
@@ -41,7 +41,7 @@ The **[!UICONTROL Delivery Overview]** report provides key performance indicator
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_target"
 >title="Initial target audience statistics"
->abstract="The Initial target audience statistics table displays data relative to your recipients"
+>abstract="The Initial target audience statistics table displays data relative to your recipients."
 
 The **[!UICONTROL Initial target audience statistics]** table displays data relative to your recipients. Metrics are detailed below.
 
@@ -286,7 +286,7 @@ The **[!UICONTROL Breakdown of clicks over time]** graph contains the available 
 
 The **[!UICONTROL User activities]** report shows the breakdown of opens and clicks in the form of a chart. Metrics for this report are detailed below.
 
-![](assets/campaign_report_email_10.png){align="center"}
+![](assets/campaign_report_email_user_activities.png){align="center"}
 
 +++Learn more on Email delivery report metrics.
 

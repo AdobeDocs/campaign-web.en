@@ -2,7 +2,7 @@
 audience: end-user
 title: Use the Split workflow activity
 description: Learn how to use the Split workflow activity
-badge: label="Beta"
+badge: label="Limited Availability"
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
 ---
 # Split {#split}
@@ -12,10 +12,14 @@ exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
 >title="Split activity"
 >abstract="The **Split** activity allows you to segment incoming populations into multiple subsets based on different selection criteria, such as filtering rules or population size."
 
-
 The **Split** activity is a **Targeting** activity that allows you to segment incoming populations into multiple subsets based on different selection criteria, such as filtering rules or population size.
 
 ## Configure the Split activity {#split-configuration}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_segments"
+>title="Segments for split activity"
+>abstract="Add as many subsets as desired to segment the incoming population.<br/></br>When the **Split** activity is executed, the population is segmented across the different subsets in the order they are added to the activity. Before starting your workflow, ensure that you have ordered the subsets in the order that suits your needs using the arrow buttons." 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_filter"
@@ -26,7 +30,6 @@ The **Split** activity is a **Targeting** activity that allows you to segment in
 >id="acw_orchestration_split_limit"
 >title="Split activity limit"
 >abstract="To limit the number of profiles selected by the subset, toggle on the **[!UICONTROL Enable limit]** option, and specify the number or percentages of the population to include."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_sorting"
@@ -48,9 +51,9 @@ Follow these steps to configure the **Split** activity:
 
     >[!IMPORTANT]
     >
-    >When the Split activity is executed, the population is segmented across the different subsets in the order they are added to the activity. For example, if the first subset recovers 70% of the initial population, the next added subset will apply its selection criteria to the remaining 30% only, and so on.
+    >When the **Split** activity is executed, the population is segmented across the different subsets in the order they are added to the activity. For example, if the first subset recovers 70% of the initial population, the next added subset will apply its selection criteria to the remaining 30% only, and so on.
     >
-    > Before configuring your subsets, ensure that you have added them in the correct order, as their position cannot be changed.
+    >Before starting your workflow, ensure that you have ordered the subsets in the order that suits your needs. To do this, use the arrow buttons to change the position of a subset.
 
 1. Once subsets have been added, the activity shows as many output transitions as there are subsets. We strongly recommend changing the label of each subset to identify them easily in the workflow canvas. 
 

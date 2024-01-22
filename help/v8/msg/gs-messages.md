@@ -2,12 +2,12 @@
 audience: end-user
 title: Get started with messages and deliveries in Campaign v8 Web
 description: Learn how to work with deliveries and send messages with Campaign Web
-badge: label="Beta" 
+badge: label="Limited Availability" 
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 ---
 # Get started with messages{#gs-messages}
 
-With Adobe Campaign, you can send cross-channel campaigns including emails, SMS, and Push notifications, and measure their effectiveness using various dedicated reports. 
+With Adobe Campaign, you can send cross-channel campaigns including emails, SMS, and Push notifications, and measure their impact using various dedicated reports. 
 
 These messages are designed and sent though deliveries, and can be personalized for each recipient. These deliveries can be standalone, or included in workflows, in the context of a marketing campaign. Learn how to create and manage deliveries in Adobe Campaign in [this section](gs-deliveries.md).
 

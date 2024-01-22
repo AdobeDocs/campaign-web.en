@@ -108,7 +108,7 @@ From the **Extra population** section of the **Control Group** definition screen
 
 * To use an existing audience, click **Select audience**. Learn more in [this section](add-audience.md). 
 
-* To define a new query, select **Create your own** and define the exclusion criteria using the rule builder. Learn more in [this section](segment-builder.md). 
+* To define a new query, select **Create your own** and define the exclusion criteria using the query modeler. Learn more in [this section](../query/query-modeler-overview.md). 
 
 The profiles included in the audience or matching the result of the query are **excluded** from the delivery target: they do not receive any message.
 

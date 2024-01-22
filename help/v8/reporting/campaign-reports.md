@@ -2,10 +2,10 @@
 audience: end-user
 title: Campaign reports
 description: Learn how to access and use campaign reports
-badge: label="Beta"
+badge: label="Limited Availability"
 exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
 ---
-# Campaign reports {#campaign-reports}
+# Get started with campaign reports {#campaign-reports}
 
 <!-- CAN BE REMOVED___
 >[!CONTEXTUALHELP]
@@ -19,18 +19,42 @@ exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
 >abstract="The Tracking tab within your report offers valuable data, including recipient behavior per link, breakdown of opens and clicks, as well as detailed information about the most frequently clicked URLs during a delivery."
 -->
 
-To access your campaign reports, click the **Reports** button from your campaign's dashboard.
-
-![](assets/campaign_report_email_13.png)
-
-Alternatively, you can use the three dots **More actions** button next to the campaign name in the campaign list, as shown below:
-
-![](assets/campaign-reports-view.png){width="50%" align="left" zoomable="yes"}
-
-The campaign report is divided into different widgets detailing your campaign's success and errors. 
+The **Campaign reports** provide a comprehensive overview of your **campaign**, incorporating all pertinent information regarding the different deliveries included. These reports offer a thorough analysis of each delivery's performance, per channel: success rates, audience engagement, and other essential metrics. They allow you to evaluate the overall effectiveness and impact of your campaign. 
 
 The full list of reports and associated metrics for each channel is available in the following pages:
 
-* [Email channel](campaign-reports-email.md) 
-* [SMS channel](campaign-reports-sms.md)
-* [Push channel](campaign-reports-push.md)
+* [Email campaign channel](campaign-reports-email.md) 
+* [SMS campaign channel](campaign-reports-sms.md)
+* [Push campaign channel](campaign-reports-push.md)
+
+## Manage your report dashboard {#manage-reports}
+
+To access and manage your campaign reports, follow these steps:
+
+1. Navigate to the **[!UICONTROL Campaigns]** menu. Click the **Reports** button from your campaign's dashboard.
+
+    ![](assets/manage_campaign_report_2.png)
+
+    Alternatively, you can use the three dots **More actions** button next to the campaign name in the campaign list and select **[!UICONTROL View report]**.
+        
+    ![](assets/manage_campaign_report_1.png)
+
+1. From the left menu, select a report from the list and navigate through the tab to display data from each channel.
+
+    ![](assets/manage_campaign_report_4.png)
+
+1. From your dashboard, click **[!UICONTROL Select deliveries]** if you want to target one specific delivery included in your campaign.
+
+1. In the **[!UICONTROL Delivery throughput]** menu, choose a **Start** and **[!UICONTROL End time]** to target specific data.
+
+    ![](assets/manage_campaign_report_3.png)
+
+1. From the **[!UICONTROL Pick folder]** field, select if you want to target deliveries or campaign from specific folder.
+
+    You can also select **[!UICONTROL Add rules]** to start building queries to better filter reporting data. [Learn how to use the query modeler](../query/query-modeler-overview.md)
+
+    ![](assets/manage_campaign_report_4.png)
+
+1. From the **[!UICONTROL URLs and click streams]**, you can also choose the **[!UICONTROL Top visited Links]** or the **[!UICONTROL Time period]**.
+
+    The **[!UICONTROL View by]** options allow you to filter on URLs, Labels or Categories.

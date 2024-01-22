@@ -2,7 +2,7 @@
 audience: end-user
 title: Email delivery reports
 description: Learn how to access and use email delivery reports
-badge: label="Beta"
+badge: label="Limited Availability"
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
 ---
 # Email delivery report {#email-report}
@@ -71,12 +71,10 @@ The **[!UICONTROL Delivery statistics]** graph details the success of your deliv
 
 ### Causes of exclusion  {#email-delivery-exclusions}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusion"
 >title="Delivery Causes of exclusion"
 >abstract="The **Causes of exclusion** graph and table show the breakdown per rule of messages rejected during the delivery preparation."
-
 
 The **[!UICONTROL Causes of exclusion]** graph and table show the breakdown per rule of messages rejected during the delivery preparation. Exclusion rules are detailed in the [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
 
@@ -285,7 +283,7 @@ The **[!UICONTROL URLs and click streams]** report provides key performance indi
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_clickstreams_top10"
 >title="Top 10 most visited links"
->abstract="The **Top 10 most visited links** rgraph and table contain the available data for recipient behavior per link."
+>abstract="The **Top 10 most visited links** graph and table contain the available data for recipient behavior per link."
 
 
 The **[!UICONTROL Top 10 most visited links]** graph and table contain the available data for recipient behavior per link.

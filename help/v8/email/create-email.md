@@ -3,22 +3,29 @@ audience: end-user
 title: Send your first email
 description: Learn how to send your first email with Campaign Web UI
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-badge: label="Beta" 
+badge: label="Limited Availability" 
 ---
 
-# Send your first email {#first-email}
-
-
+# Create your first email {#first-email}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_card3"
+>id="acw_homepage_learning_card3"
 >title="Get started with emails"
 >abstract="You can create a standalone email delivery, or create an email in the context of a campaign workflow. Learn how to create the delivery, select the audience, and design the email content."
 
 
+<!--TO REMOVE BELOW-->
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card3"
+>title="Get started with emails"
+>abstract="You can create a standalone email delivery, or create an email in the context of a campaign workflow. Learn how to create the delivery, select the audience, and design the email content."
+<!--TO REMOVE ABOVE-->
+
+
+
 Learn how to create your first targeted email. In this use case, you schedule the sending of an email to Silver and Gold loyalty members on a specific date.
 
-Based on a predefined [design template](../content/email-sample-templates.md), the email also features personalized content based on customer profile attributes.
+Based on a predefined [design template](../email/create-email-templates.md), the email also features personalized content based on customer profile attributes.
 
 ## Create the email delivery {#create-email}
 
@@ -38,7 +45,7 @@ To create a new standalone email delivery, follow the steps below.
 
 1. Browse to the **[!UICONTROL Deliveries]** menu on the left rail, and click the  **[!UICONTROL Create delivery]** button.
 
-    ![](assets/delivery-list.png)
+    ![](../msg/assets/create-a-delivery.png)
 
 1. Select **[!UICONTROL Email]** as the channel and choose an email delivery template from the list.
 
@@ -70,7 +77,7 @@ To create a new standalone email delivery, follow the steps below.
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="Select an audience for your delivery"
->abstract="Select the best audience for your marketing message. You can choose an existing audience (already defined in a Campaign v8 instance or from Adobe Experience Platform), create a new audience using the rule builder, or upload a file containing your audience. Control groups are not enabled for the **Select from file** option and vice versa."
+>abstract="Select the best audience for your marketing message. You can choose an existing audience (already defined in a Campaign v8 instance or from Adobe Experience Platform), create a new audience using the query modeler, or upload a file containing your audience. Control groups are not enabled for the **Select from file** option and vice versa."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html" text="Select the main audiences"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="Set a control group"
 
@@ -98,13 +105,13 @@ Additional instructions on how to work with audiences are available in [this sec
 
 To start creating your email content, follow the steps below. In this use case, you use a predefined email [delivery template](../msg/delivery-template.md) to design your email.<!--TBC delivery template or email content template?-->
 
-<!--Detailed instructions on how to configure the email content are available in [this section](../content/edit-content.md).-->
+<!--Detailed instructions on how to configure the email content are available in [this section](../email/edit-content.md).-->
 
 1. From the email delivery dashboard, click the **[!UICONTROL Edit content]** button.
 
     ![](assets/email-edit-content.png)
 
-   This brings you to a dedicated interface where you can configure the email content and access the Email Designer. [Learn more](../content/edit-content.md)
+   This brings you to a dedicated interface where you can configure the email content and access the Email Designer. [Learn more](edit-content.md)
 
     ![](assets/edit-content.png)
 
@@ -114,11 +121,11 @@ To start creating your email content, follow the steps below. In this use case, 
 
 1. To design the content of the email, click the **[!UICONTROL Edit email body]** button.
 
-    Choose the method to use to create your email content. In this example, use a [predefined content template](../content/email-sample-templates.md).
+    Choose the method to use to create your email content. In this example, use a [predefined content template](create-email-templates.md).
 
     ![](assets/select-template.png)
 
-1. Once you have selected the template, it is displayed in the [Email Designer](../content/create-email-content.md), where you can make any necessary edits and add personalization.
+1. Once you have selected the template, it is displayed in the [Email Designer](create-email-content.md), where you can make any necessary edits and add personalization.
 
     For example, to add personalization to the email title, select the component block and click **[!UICONTROL Add Personalization]**.
 

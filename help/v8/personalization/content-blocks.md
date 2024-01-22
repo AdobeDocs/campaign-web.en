@@ -8,7 +8,7 @@ level: Beginner
 badge: label="Beta"
 exl-id: 45cdd310-7c0c-4b57-bb7f-0576d8eca19d
 ---
-# Built-in content blocks {#ootb-content-blocks}
+# Add built-in content blocks {#ootb-content-blocks}
 
 Adobe Campaign offers a list of pre-configured content blocks. These content blocks are dynamic, personalized and have a specific rendering that you can insert into your deliveries. For example, you can add a logo, a greeting message, or a link to a mirror page. 
 
@@ -33,7 +33,7 @@ Built-in content blocks are:
 * **[!UICONTROL Formatting function for proper nouns]**: generates the **[!UICONTROL toSmartCase]** Javascript function, which changes the first letter of each word to uppercase. 
 * **[!UICONTROL Greetings]**: inserts greetings with the recipient's full name, followed by a comma. Example: "Hello John Doe,".
 * **[!UICONTROL Insert Logo]**: inserts a logo which is is defined in the instance settings.
-* **[!UICONTROL Link to mirror page]**: inserts a link to the [mirror page](../content/mirror-page.md). Default format is: "If you are unable to view this message correctly, click here".
+* **[!UICONTROL Link to mirror page]**: inserts a link to the [mirror page](../email/mirror-page.md). Default format is: "If you are unable to view this message correctly, click here".
 * **[!UICONTROL Mirror page URL]**: inserts the mirror page URL, enabling Delivery Designers to check the link.
 * **[!UICONTROL Notification style]**
 * **[!UICONTROL Offer acceptance URL in unitary mode]**: inserts an URL enabling to set an offer to **[!UICONTROL Accepted]**. (This block is available if the Interaction module is enabled)

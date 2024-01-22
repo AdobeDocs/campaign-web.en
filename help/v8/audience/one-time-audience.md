@@ -5,9 +5,9 @@ description: Learn how to build a one-time audience for a delivery.
 badge: label="Beta"
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
 ---
-# Build a one-time audience for a delivery {#sone-time}
+# Build a one-time audience {#one-time}
 
-This section describes how to build an audience when creating a new delivery. In this case, the recipients to include in the delivery audience are targeted by querying the database with the rule builder.
+This section describes how to build an audience when creating a new delivery. In this case, the recipients to include in the delivery audience are targeted by querying the database with the query modeler.
 
 The resulting audience is only used once for this delivery. It is not saved in the audiences list.
 
@@ -22,7 +22,7 @@ To build a new audience directly from a delivery, follow these steps:
 
     ![](assets/segment-builder0.png)
 
-1. Select **Create your own**. The rule builder is displayed. It allows you to define the population targeted by your delivery by filtering data contained in the database. [Learn how to use the rule builder](segment-builder.md)
+1. Select **Create your own**. The query modeler is displayed. It allows you to define the population targeted by your delivery by filtering data contained in the database. [Learn how to use the query modeler](../query/query-modeler-overview.md)
 
     ![](assets/segment-builder.png)
 

@@ -1,7 +1,7 @@
 ---
 title: Connect to Adobe Campaign Web interface
 description: Learn how to connect to Adobe Campaign v8 Web user interface
-badge: label="Beta"
+badge: label="Limited Availability"
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 ---
 # Connect to Adobe Campaign {#connect-to-campaign}
@@ -45,11 +45,13 @@ You are now connected to Campaign. Learn how to start using the user interface i
 
 ## Adobe Experience Cloud top navigation {#top-bar}
 
-Use the top bar of the interface to:
+Browse the top bar of the interface to:
 
-* share your feedback as a Beta user
 * switch between your organizations
 * switch between your Adobe Experience Cloud solutions and apps
+* search for help on [Adobe Experience League](https://experienceleague.adobe.com/docs/){target="_blank"}
+* check your product notifications
+* edit your Adobe profile and manage settings, such as [update your favorite language](#language-pref) or [switch to light/dark theme](#dark-theme)
 
 ![](assets/unified-shell.png){width="50%" align="left"}
 
@@ -81,9 +83,15 @@ To change your language:
 1. Then click the language link displayed under your email address.
 1. Select your preferred language and click **Save**. You can select a second language in case the component you are using is not localized into your first language.
 
-## Dark theme {#dark-theme}
+>[!CAUTION]
+>
+>If you plan to use [AI-powered contextual help](using-ai.md) capabilities, you must set your prefered language to English. Other languages are not supported.
+>
 
-You can switch to the dark theme from your profile icon. Use the **Dark theme** toggle to enable/disable it.
+
+## Dark and light themes {#dark-theme}
+
+Adobe Campaign is available in light and dark themes. By default, the user interface is enabled in light theme. To switch to the dark theme, click on your profile icon, and use the **Dark theme** toggle to enable/disable it.
 
 User profile settings and account preferences are detailed in [this section](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html#preferences){target="_blank"}. 
 

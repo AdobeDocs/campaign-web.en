@@ -7,14 +7,20 @@ exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
 ---
 # Create audiences {#create-audiences}
 
-
-
 >[!CONTEXTUALHELP]
->id="acw_homepage_rn1"
+>id="acw_homepage_welcome_rn1"
 >title="Audience Composition"
 >abstract="Create new audiences into a visual workflow canvas. Beyond starting from scratch to create a simple audience, you can also leverage workflow activities to refine your audience. Combine multiple audiences into a single one, enrich your audience with external attributes, or divide a it into multiple audiences based on rules of your choice."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="See release notes"
 
+<!--TO REMOVE BELOW-->
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_rn1"
+>title="Audience composition"
+>abstract="Create new audiences into a visual workflow canvas. Beyond starting from scratch to create a simple audience, you can also leverage workflow activities to refine your audience. Combine multiple audiences into a single one, enrich your audience with external attributes, or divide a it into multiple audiences based on rules of your choice."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="See release notes"
+<!--TO REMOVE ABOVE-->
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
@@ -48,7 +54,7 @@ To create an audience, follow these steps:
 
     * **[!UICONTROL Save audience]**: This represents the final step in your workflow, enabling you to save the workflow results as a new audience.
 
-1. Open the **[!UICONTROL Build audience]** activity and use the rule builder to define the population to include into your audience by filtering data contained in the database. [Learn how to configure a Build audience activity](../workflows/activities/build-audience.md)
+1. Open the **[!UICONTROL Build audience]** activity and use the query modeler to define the population to include into your audience by filtering data contained in the database. [Learn how to configure a Build audience activity](../workflows/activities/build-audience.md)
 
 1. If you want to perform additional operations on the population targeted into the workflow, add as many activities as required and connect them together. For more information on how the configure workflow activities, refer to the [workflows documentation](../workflows/activities/about-activities.md). 
 
@@ -62,7 +68,7 @@ To create an audience, follow these steps:
 
 1. When your workflow is ready, click **[!UICONTROL Start]** to execute it.
 
-The workflow is saved in the **[!UICONTROL Workflows]** list, while the resulting audience(s) are accessible in the **[!UICONTROL Audiences]** list. [Learn how to monitor & manages audiences](manage-audience.md)
+The workflow is saved in the **[!UICONTROL Workflows]** list, while the resulting audience(s) are accessible in the **[!UICONTROL Audiences]** list. Learn how to monitor and manage audiencesin [this section](manage-audience.md)
 
 You can now use this audience as the main target of a delivery. [Learn more](add-audience.md)
 

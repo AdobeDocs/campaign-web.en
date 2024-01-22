@@ -2,7 +2,7 @@
 audience: end-user
 title: Use the Deduplication workflow activity
 description: Learn how to use the Deduplication workflow activity
-badge: label="Beta"
+badge: label="Limited Availability"
 exl-id: 8efdc140-6cae-430d-b585-ff581993ff60
 ---
 # Deduplication {#deduplication}
@@ -16,7 +16,6 @@ exl-id: 8efdc140-6cae-430d-b585-ff581993ff60
 >id="acw_orchestration_deduplication"
 >title="Deduplication activity"
 >abstract="The **Deduplication** activity allows you to delete duplicates in the results of the inbound activities. It is mostly used following targeting activities, and before activities that allow the use of targeted data."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"
@@ -40,7 +39,7 @@ Follow these steps to configure the **Deduplication** activity:
 
 1. In the **Fields to identify duplicates** section, click the **Add attribute** button to specify the fields for which the identical values allow the duplicates to be identified, such as: email address, first name, last name, etc. The order of the fields allows you to specify those to process first.
 
-1. Select the number of unique **Duplicates to keep**. The default value for this field is 1. The value 0 allows you to keep all the duplicates.
+1. In the **Deduplication settings** section, select the number of unique **Duplicates to keep**. The default value for this field is 1. The value 0 allows you to keep all the duplicates.
 
     For example, if records A and B are considered duplicates of record Y, and a record C is considered as a duplicate of record Z:
 

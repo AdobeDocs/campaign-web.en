@@ -2,7 +2,7 @@
 audience: end-user
 title: SMS delivery reports
 description: Learn how to access and use sms delivery reports
-badge: label="Beta"
+badge: label="Limited Availability"
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
 ---
 # SMS delivery reports {#sms-report}
@@ -16,12 +16,12 @@ The **SMS delivery overview** offers a comprehensive overview of your SMS delive
 
 ## Delivery summary {#delivery-summary}
 
+### Delivery overview {#sms-delivery-overview}
+
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
 >title="SMS delivery overview"
 >abstract="The **SMS delivery overview** offers a comprehensive overview of your SMS delivery, providing extensive insights and specific data. It furnishes comprehensive information about the performance, effectiveness, and outcomes of your delivery."
-
-### Delivery overview {#sms-delivery-overview}
 
 The **[!UICONTROL Delivery overview]** report provides key performance indicators (KPIs) that give detailed information about success and error rates, and how your visitors engage with your SMS messages.
 
@@ -39,9 +39,7 @@ The **[!UICONTROL Delivery overview]** report provides key performance indicator
 
 +++
 
-
 ### Targeted population {#sms-delivery-targeted-population}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_targeted_population"
@@ -61,7 +59,6 @@ The **Targeted population** graph and table display data relative to your audien
 
 
 ### Overall statistics {#sms-delivery-overall}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_overall_stats"
@@ -86,12 +83,10 @@ The **Overall statistics** report presents data for the sent SMS messages. Metri
 
 ### Exclusions {#sms-delivery-exclusions}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_exclusions"
 >title="SMS exclusions"
 >abstract="The **Exclusions** graph and table display the various reasons that prevented user profiles, which were excluded from the targeted profiles, from receiving the message."
-
 
 The **[!UICONTROL Exclusions]** graph and table display the reasons that prevented user profiles, which were excluded from the targeted profiles, from receiving the message. Exclusion rules are detailed in the [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){_blank}.
 
@@ -102,7 +97,7 @@ The **[!UICONTROL Exclusions]** graph and table display the reasons that prevent
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_sms"
 >title="SMS delivery throughput"
->abstract="The **Delivery throughput** report presents detailed information about the delivery throughput within a specified timeframe.  The primary metric used to measure the speed of message delivery is the number of messages sent per hour."
+>abstract="The **Delivery throughput** report presents detailed information about the delivery throughput within a specified timeframe. The primary metric used to measure the speed of message delivery is the number of messages sent per hour."
 
 This report presents detailed information regarding the delivery throughput within a specified timeframe. The primary metric used to measure the speed of message delivery is the number of messages sent per hour.
 

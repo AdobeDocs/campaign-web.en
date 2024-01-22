@@ -2,10 +2,10 @@
 audience: end-user
 title: Create workflows with Adobe Campaign Web
 description: Learn how to build workflows with Adobe Campaign Web
-badge: label="Beta"
+badge: label="Limited Availability"
 exl-id: 2a9b7e52-2b8b-4293-9b4d-a228ba95bed3
 ---
-# Access & manage workflows {#access-monitor}
+# Access and manage workflows {#access-monitor}
 
 >[!CONTEXTUALHELP]
 >id="acw_targeting_workflow_list"
@@ -44,4 +44,6 @@ Detailed information on how to start and monitor workflow execution is available
 
 The **[!UICONTROL Templates]** tab lists all available workflows templates.
 
-Workflow templates contain pre-configured activities and overall property configurations that can be reused for creating new workflows. They are created from the client console. [Learn how to work with templates](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html#workflow-templates)
+Workflow templates contain pre-configured activities and overall property configurations that can be reused for creating new workflows.
+
+You can create workflow templates from an existing workflow, or from scratch. [Learn how to create workflow templates](create-workflow.md#workflow-templates)

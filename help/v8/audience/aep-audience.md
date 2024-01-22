@@ -17,7 +17,7 @@ Once you have created an Adobe Experience Platform audience and it is available 
 
 To select the audience of a delivery, you can also:
 
-* Build a new audience. [Learn more](segment-builder.md)
+* Build a new audience. [Learn more](../query/query-modeler-overview.md)
 * Load an audience from an external file. [Learn more](file-audience.md)
 * Use an existing Campaign audience. [Learn more](add-audience.md).
 
@@ -27,7 +27,7 @@ To select an Adobe Experience Platform audience for your delivery, follow the st
 
    ![](assets/create-audience.png)
 
-1. Choose **[!UICONTROL Select audience]** to use an existing audience. To create a new audience to be used in this email, choose **Create your own**. Refer to this [section](segment-builder.md).
+1. Choose **[!UICONTROL Select audience]** to use an existing audience. To create a new audience to be used in this email, choose **Create your own**. Refer to this [section](../query/query-modeler-overview.md).
 
     This screen displays all existing audiences defined in the Adobe Campaign client console, for the current folder. To choose an audience from Adobe Experience Platform, browse to the `AEP Audiences folder` from the filter section of the screen.
 
@@ -43,6 +43,6 @@ To select an Adobe Experience Platform audience for your delivery, follow the st
 
    ![](assets/refine-audience.png)
 
-1. Using the rule builder, you can enrich your audience with additional filters or by combining different audiences. See this [section](segment-builder.md).
+1. Using the query modeler, you can enrich your audience with additional filters or by combining different audiences. See this [section](../query/query-modeler-overview.md).
 
 1. Click **Save**. 

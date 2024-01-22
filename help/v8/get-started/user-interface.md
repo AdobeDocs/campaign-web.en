@@ -87,7 +87,7 @@ In the DECISION MANAGEMENT section, you can view the offers and offer templates.
 
 * **Offers** - Browse through the list of offers and offer templates that have been created in the console using the **Interaction** module. By default, you can view their status, start/end dates and environment. You can filter the list by status and start/end dates. Offer templates are also available.
 
-Learn how to create and send offers in emails and SMS in [this section](../content/offers.md).
+Learn how to create and send offers in emails and SMS in [this section](../msg/offers.md).
 
 
 
@@ -173,41 +173,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Recipients creation"
 
 >[!CONTEXTUALHELP]
->id="acw_recipients_creation_details"
->title="Recipients details"
->abstract="Recipients details"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_contactinformation"
->title="Recipients contact information"
->abstract="Recipients contact information"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_address"
->title="Recipients adress"
->abstract="Recipients adress"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_account"
->title="Recipients account"
->abstract="Recipients account"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_customfields"
->title="Recipients custom fields"
->abstract="Recipients custom fields"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_nolongercontact"
->title="Recipients No longer contact"
->abstract="Recipients No longer contact"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_othersfields"
->title="Recipients Others"
->abstract="Recipients Others"
-
->[!CONTEXTUALHELP]
 >id="acw_recipients_creation_cardoverview"
 >title="Recipients card overview"
 >abstract="Recipients card overview"
@@ -216,11 +181,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_recipients_creation_touchpoints"
 >title="Recipients touchpoints"
 >abstract="Recipients touchpoints"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_subscription_list"
->title="Recipients subscriptions list"
->abstract="Recipients subscriptions list"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_subscription_selection"
@@ -242,29 +202,10 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Recipients read only profile"
 >abstract="Recipients read only profile"
 
-
-
-
-
->[!CONTEXTUALHELP]
->id="acw_recipients_testprofiles_additionaldata"
->title="Test profiles Additional Data"
->abstract="Test profiles Additional Data"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_testprofiles_menu"
->title="Test profiles"
->abstract="Test profiles"
-
-
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_delivery_template"
 >title="Subscriptions delivery template"
 >abstract="Subscriptions delivery template"
-
-
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
@@ -355,45 +296,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_menu"
->title="Content template"
->abstract="Content template"
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_properties"
->title="Content template properties"
->abstract="Content template properties"
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_design"
->title="Content template design"
->abstract="Content template design"
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_selection"
->title="Content template selection"
->abstract="Content template selection"
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_edition"
->title="Content template edition"
->abstract="Content template edition"
-
-
-
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_combine_complement"
->title="Combine generate complement"
->abstract="Combine generate complement" 
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_split_segments"
->title="Segments for split activity"
->abstract="Segments for split activity" 
-
-
 
 
 >[!CONTEXTUALHELP]
@@ -415,19 +317,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_conditionalcontent_subjectlinecondition"
 >title="Conditional content subjectline condition"
 >abstract="Conditional content subjectline condition" 
-
-
-
-
->[!CONTEXTUALHELP]
->id="acw_audiences_properties"
->title="Audience properties"
->abstract="Audience properties"
-
->[!CONTEXTUALHELP]
->id="acw_audiences_count"
->title="Audience count"
->abstract="Audience count"
 
 
 >[!CONTEXTUALHELP]
@@ -452,22 +341,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 >[!CONTEXTUALHELP]
->id="acw_subscriptions_totalnumber_subscribers"
->title="Subscriptions total number"
->abstract="Subscriptions total number"
-
->[!CONTEXTUALHELP]
->id="acw_subscriptions_overtheperiod_subscribers"
->title="Subscriptions over the period"
->abstract="Subscriptions over the period"
-
->[!CONTEXTUALHELP]
->id="acw_subscriptions_overallevolution_subscribers"
->title="Subscriptions overall evolution"
->abstract="Subscriptions overall evolution"
-
-
->[!CONTEXTUALHELP]
 >id="acw_directmail_content"
 >title="Content for Direct Mail"
 >abstract="Content for Direct Mail"
@@ -483,6 +356,20 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Content properties for Direct Mail"
 
 
+<!--
+Deprecated IDs - to remove in GA: -->
 
+>[!CONTEXTUALHELP]
+>id="acw_attributepicker_advancedfields"
+>title="Display advanced attributes"
+>abstract="Only the most common attributes are displayed by default in the attribute list. Activate the **Display advanced attributes** toggle to see all available attributes for the current list in the left palette of the rule builder, such as nodes, groupings, 1-1 links, 1-N links."
 
+>[!CONTEXTUALHELP]
+>id="acw_rulebuilder_advancedfields"
+>title="Rule builder advanced fields"
+>abstract="Only the most common attributes are displayed by default in the attribute list. Activate the **Display advanced attributes** toggle to see all available attributes for the current list in the left palette of the rule builder, such as nodes, groupings, 1-1 links, 1-N links."
 
+>[!CONTEXTUALHELP]
+>id="acw_rulebuilder_properties_advanced"
+>title="Rule builder advanced attributes"
+>abstract="Only the most common attributes are displayed by default in the attribute list. Activate the **Display advanced attributes** toggle to see all available attributes for the current list in the left palette of the rule builder, such as nodes, groupings, 1-1 links, 1-N links."
