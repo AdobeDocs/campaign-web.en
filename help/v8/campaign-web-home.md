@@ -44,7 +44,7 @@ badge: label="Limited Availability"
 >abstract="Additional Item"-->
 
 <!-- TO REMOVE BELOW-->
-L
+
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="Help and Documentation"
