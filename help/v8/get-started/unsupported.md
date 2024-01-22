@@ -63,7 +63,6 @@ The following capabilities are accessible in Campaign Client Console, but not ye
 * Content block creation
 * Content from custom forms
 * Content from a URL`*`
-* Email fragments
 * AMP for emails
 * Email fragments`*`
 * Multivariant / Multilingual use case`*`

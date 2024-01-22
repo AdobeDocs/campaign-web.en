@@ -135,7 +135,7 @@ You can now **import and convert any HTML content** in Campaign's email editor. 
     </td>
     <td>
     <a href="email/get-started-email-designer.md"><img src="assets/do-not-localize/menu-email.png"></a>
-    <div><strong>Meet the Email Designer</strong><br/>Learn how to start from a template, or use Adobe Campaign’s new Email Designer to create emails without having to write a single line of code.
+    <div><strong>Meet the Email Designer</strong><br/>Learn how to start from a template, or use Adobe Campaign's new Email Designer to create emails without having to write a single line of code.
     </div></td>
     <td>
     <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>
