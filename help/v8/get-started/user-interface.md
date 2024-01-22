@@ -25,7 +25,7 @@ Learn how to connect to Adobe Campaign and discover Experience Cloud navigation 
 
 Campaign home page lets you quickly and easily browse key resources, indicators, and components. 
 
-The upper section of the home page provides details about latest updates and new capabilities available in the product, with link to Release Notes and related documentation.
+The upper section of the home page provides details about latest updates and new capabilities available in the product, with link to Release Notes and detailed documentation. Use the left arrow to scroll feature cards. 
 
 ![](assets/home.png)
 

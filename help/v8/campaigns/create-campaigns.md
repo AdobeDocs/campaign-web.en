@@ -2,7 +2,7 @@
 audience: end-user
 title: Create campaigns with Adobe Campaign Web
 description: Learn how to build cross-channel campaigns with Adobe Campaign Web
-badge: label="Beta" 
+badge: label="Limited Availability" 
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
 ---
 
@@ -18,23 +18,28 @@ exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
 >title="Campaign properties"
 >abstract="In this screen, you can check and update your campaign settings: its label, internal name, folder, and description. You can also view which user it is assigned to."
 
-To create a new campaign, you need to define its properties, schedule, and include workflows and deliveries.
+To create a new campaign, you need to define its settings, schedule, and include workflows and deliveries.
 
-## Create the campaign{#campaign-create}
+## Create the campaign {#campaign-create}
 
 To create a new campaign, follow these steps:
 
 1. Click the **[!UICONTROL Campaigns]** menu, and click the **[!UICONTROL Create campaign]** button.
+
+    ![Create a new campaign](assets/create-campaign-button.png)
+
 1. Select the **Template** to use and provide a label for the campaign. [Read more](manage-campaigns.md#manage-campaign-templates).
 1. If needed, you can change the following **Additional options**: internal name, folder, assignee, description and nature.
 1. Define the **Schedule** of your campaign. Learn how to set your campaign schedule in [this section](#campaign-schedule)
 1. Click **Create**.
+
+    ![Create campaign properties](assets/create-a-campaign-properties.png)
+
 1. Add workflows and deliveries to your campaign:
 
      * From the **Workflows** tab, click **Create workflow**. A default workflow is automatically added when you create your campaign. Lean more on how to [create a workflow](../workflows/create-workflow.md).
-     * From the **Deliveries** tab, click **Create delivery**. [Learn more](../msg/gs-messages.md)
 
-1. Use the **Logs** and **Reporting** buttons to analyze your campaign's performance.
+     * From the **Deliveries** tab, click **Create delivery**. [Learn more](../msg/gs-messages.md)
 
 ## Monitor and track your campaign{#campaign-monitoring}
 
@@ -45,7 +50,6 @@ You can also view the dedicated reports by clicking the **Reports** button. See 
 
 ## Define the campaign schedule {#campaign-schedule}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_schedule"
 >title="Campaign schedule"
@@ -55,8 +59,6 @@ You can also view the dedicated reports by clicking the **Reports** button. See 
 The campaign starts when the start date is reached. As long as the start date is not reached, the campaign has the **[!UICONTROL Draft]** status. Then when the start date is reached, it turns to **[!UICONTROL In progress]**. Once the end date is reached, the campaign is set to **[!UICONTROL Completed]**.
    
 Start and end dates are displayed in the campaign list, and can be used as a filter. See this [section](manage-campaigns.md#access-campaigns).
-
-![Define your campaign properties](assets/campaign-properties.png)
 
 >[!NOTE]
 >

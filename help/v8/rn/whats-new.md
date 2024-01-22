@@ -57,7 +57,7 @@ Adobe Campaign Web features a powerful query modeler that simplifies the process
 * Define audiences to target in your messages or workflows, and effortlessly create new audiences tailored to your needs
 * Apply rules within workflow activities, such as Split and Reconciliation, to align with your specific requirements
 * Create predefined filters that serve as shortcuts during various filtering operations, whether you're working with data lists or forming the audience for a delivery
-* Add rule to filter the data displayed in reports.    
+* Add rule to filter the data displayed in reports
 * Create custom rules to filter the data displayed in lists such as recipients, deliveries lists, and more
 
 Learn more in [this section](../query/query-modeler-overview.md).

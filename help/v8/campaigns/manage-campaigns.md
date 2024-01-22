@@ -2,7 +2,7 @@
 audience: end-user
 title: Get started with campaigns
 description: Learn how to start with cross-channel campaigns
-badge: label="Beta"
+badge: label="Limited Availability"
 exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
 ---
 # Access and manage your campaigns{#manage-campaigns}
@@ -12,7 +12,7 @@ exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
 >title="Campaign schedule"
 >abstract="Set or modify your campaign schedule."
 
-To create a new campaign, or manage your existing campaigns, click the **[!UICONTROL Campaigns]** menu on the left navigation. 
+To access and manage your campaigns, click the **[!UICONTROL Campaigns]** menu on the left navigation. 
 
 ## List of campaigns {#access-campaigns}
 
@@ -24,43 +24,65 @@ In the campaign list, two tabs are available:
 
 ![Campaign list](assets/campaign-list.png)
 
-By default, each campaign in the list displays information about its current status, creation date, the last time it was modified, etc.
+By default, each campaign in the list displays information about its current status, start and end dates, creation date, the last time it was modified, etc.
 
-You can customize the displayed columns by clicking the **Configure column for a custom layout** icon located in the upper-right corner of the list. This allows you to add additional information to the list. In addition, a search bar and filters are available to facilitate easy searching within the list. [Learn more](../get-started/user-interface.md#list-screens).
+You can customize the displayed columns by clicking the **Configure column for a custom layout** icon located in the upper-right corner of the list. This allows you to add or remove columns, and reorder information in the campaign list. 
+
+In addition, a search bar and filters are available to facilitate easy searching within the list. [Learn more](../get-started/user-interface.md#list-screens).
 
 For example, you can filter on your campaign schedule. Open the filter panel and use the **Start - End Date** section:
 
 ![Campaign filter](assets/campaign-filter-on-dates.png)
 
-## Campaign dashboard{#campaign-dashboard}
+## Campaign dashboard {#campaign-dashboard}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_delivery_list"
 >title="List of deliveries in the campaign"
 >abstract="The **Deliveries** tab lists all deliveries linked to the current campaign. Click the name of a delivery to edit it. Use the Create delivery button to add a new delivery for this campaign."
 
-In the **Browse** tab of the campaign list, click a campaign to display its details. 
+In the **Browse** tab of the campaign list, click a campaign name to display its details. 
 
 ![Campaign dashboard](assets/campaign-dashboard.png)
 
-The status and schedule of the campaign is displayed at the top of the screen. You can use the **Configure campaign settings** icon to modify the campaign's properties that were defined when creating the campaign. Three buttons are available that allow you to view logs, reporting, duplicate or delete the campaign. See this [section](create-campaigns.md#create-campaigns) 
+The status and schedule of the campaign is displayed at the top of the screen. You can use the **Settings** button to update the properties of your campaign, such as the its label, folder, and description. You can also change the schedule of your campaign from the settings screen. Learn more about campaign schedule in [this section](create-campaigns.md#campaign-schedule).
 
-Two tabs are available:
+From the campaign dashboard, use the **Logs** and **Reports** buttons to monitor your campaign. Learn more in this [section](create-campaigns.md#create-campaigns) 
 
-* The **Workflows** tab lists all workflows linked to the campaign. This tab also allows you to create a new workflow inside the campaign. See this [section](create-campaigns.md#create-campaigns).
+For each campaign, the dashboard shows two main tabs: Workflows and Deliveries. 
 
-* The **Deliveries** tab lists all deliveries linked to the current campaign. You can also create a new delivery inside the campaign. See this [section](create-campaigns.md#create-campaigns).
+* The **Workflows** tab lists all workflows associated to the campaign. This tab also allows you to create a new workflow inside the campaign. See this [section](create-campaigns.md#create-campaigns).
 
-## Duplicate and delete a campaign
-
-You can duplicate or delete a campaign:
-
-* from the list of campaigns, click the ellipsis button then select **Duplicate** or **Delete**.
-* from the campaign itself, click the **More** button then select **Duplicate** or **Delete**.
+* The **Deliveries** tab lists all deliveries created in the current campaign. You can also create a new delivery inside the campaign. See this [section](create-campaigns.md#create-campaigns).
 
 >[!NOTE]
 >
 >The **Deliveries** tab displays all deliveries linked to the campaign. However, deliveries created in a workflow cannot be deleted from there. To delete a delivery created in the context of a workflow, you must delete the delivery activity from the workflow. [Learn more](../msg/gs-messages.md#delivery-delete).
+
+
+## Delete a campaign {#campaign-delete}
+
+You have two ways to delete a campaign:
+
+* from the list of campaigns, click the ellipsis button then select **Delete**
+
+    ![Delete a campaign from the list of campaigns](assets/delete-a-campaign-from-list.png)
+    
+* from the campaign itself, click the **More** button then select **Delete**
+
+    ![Delete a campaign from the campaign dashboard](assets/delete-a-campaign-from-dashboard.png)
+
+
+## Duplicate a campaign {#campaign-duplicate}
+
+You have two ways to duplicate a campaign:
+
+* from the list of campaigns, click the ellipsis button then select **Duplicate**
+    
+* from the campaign itself, click the **More** button then select **Duplicate**
+
+In both cases, confirm the duplication to create the new campaign. The label of the campaign **Copy of `<label of the initial campaign`**. Browse to the campaign settings to update this label.
+    
 
 ## Work with campaign templates{#manage-campaign-templates}
 
@@ -68,7 +90,8 @@ Campaign templates contain pre-configured settings which can be reused for creat
 
 A campaign template can store the following information:
 
-* the campaign's **Properties** and **Schedule** settings 
+* the campaign **Settings**
+* the campaign  **Schedule** 
 * workflow templates
 * delivery templates
 
