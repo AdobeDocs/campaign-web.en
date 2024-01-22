@@ -3,39 +3,42 @@ audience: end-user
 title: Discover the interface
 description: Campaign v8 Web user interface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-badge: label="Beta" 
+badge: label="Limited Availability" 
 ---
 # Discover the interface {#user-interface}
 
 The new Campaign v8 Web interface offers a modern and intuitive user experience to simplify marketing campaign design and delivery. This new interface is integrated with Adobe Experience Cloud apps and solutions. 
+
+Learn how to connect to Adobe Campaign and discover Experience Cloud navigation basics [in this article](connect-to-campaign.md).
 
 
 >[!NOTE]
 >
 >This documentation is frequently updated to reflect latest changes in the product user interface. However, some screenshots can slightly differ from your user interface.
 
-
-## Left navigation menu {#user-interface-left-nav}
-
-Browse the links on the left to access Campaign v8 Web capabilities. Several links display lists of objects which can be sorted and filtered. You can also configure columns to display all the information you need. See this [section](#list-screens). Some list screens are read-only. The items displayed in the left navigation menu and in the lists depend on your user permissions. Learn more about permissions in [this section](permissions.md).
-
-![](assets/home.png)
-
-### Home {#user-interface-home}
-
-This screen includes key links and resources for a quick access to the main Campaign v8 Web features. 
+## Campaign home page {#user-interface-home}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_recent"
 >title="Recents"
 >abstract="The **Recents** list provides shortcuts to the recently created and modified deliveries. This list shows their channel, status, owner, creation and modification dates."
 
-The **Recents** list provides shortcuts to the recently created and modified deliveries. This list shows their channel, status, owner, creation and modification dates. Click the **Show more** link to load more deliveries.
+Campaign home page lets you quickly and easily browse key resources, indicators, and components. 
+
+The upper section of the home page provides details about latest updates and new capabilities available in the product, with link to Release Notes and related documentation.
+
+![](assets/home.png)
 
 The **Key performance indicators** lets you check your platform effectiveness through common KPIs. Learn more about these KPIs in [this page](../reporting/kpis.md).
 
+The **Recents** list provides shortcuts to the recently created and modified deliveries. This list shows their channel, status, owner, creation and modification dates. Click the **Show more** link to load more deliveries.
 
-Access Campaign v8 Web key help pages from the **Learning** section of the home page.
+In addition, you can access Campaign v8 Web key help pages from the **Learning** section of the page.
+
+## Left navigation menu {#user-interface-left-nav}
+
+Browse the links on the left to access Campaign v8 Web capabilities. Several links display lists of objects which can be sorted and filtered. You can also configure columns to display all the information you need. See this [section](#list-screens). Some list screens are read-only. The items displayed in the left navigation menu and in the lists depend on your user permissions. Learn more about permissions in [this section](permissions.md).
+
 
 ### Explorer {#user-interface-explorer} 
 
@@ -67,13 +70,25 @@ In the CAMPAIGN MANAGEMENT section, you can access marketing campaigns, deliveri
 * **Workflows** - In this screen, you can access the full list of workflows and workflow templates. You can check their status, last/next execution dates, and create a new workflow or a new workflow template. You can filter the list with the same criteria as for other objects. In addition, you can filter workflows which belong to a campaign, or not. Learn more about workflows [in this section](../workflows/gs-workflows.md).
 
 
+### Content Management {#user-interface-content-management}
+
+In the CONTENT MANAGEMENT section, you can view your content templates and fragments.
+
+* **Content templates** - For an accelerated and improved design process, you can create standalone templates to easily reuse custom content across [!DNL Adobe Campaign]. Only available for emails, this functionality enables content-oriented users to work on standalone templates so that marketing users can reuse and adapt them inside their own email campaigns. Learn more in [this section](../email/create-email-templates.md).
+
+<!--
+* **Fragments** -
+-->
+
 ### Customer Management {#user-interface-customer-management}
 
-In the CUSTOMER MANAGEMENT section, you can view your recipients, audiences, and subscriptions. These lists are read-only.
+In the CUSTOMER MANAGEMENT section, you can view your profiles, audiences, and subscriptions. These lists are read-only.
 
-* **Recipients** - Access your recipient database. By default, you can view their email address, first name and last name. Learn more about recipients in [this section](../audience/about-recipients.md).
+* **Profiles** - Create and manage profiles, and access your recipient database. By default, you can view their email address, first name and last name. Learn more about profiles in [this section](../audience/about-recipients.md).
 * **Audiences** - This is your list of audiences. By default, you can view their type, origin, creation/last modification dates and label. You can filter the list by origin. Learn more about audiences and lists in [this section](../audience/about-recipients.md).
-* **Subscriptions** - Browse through your subscriptions lists. By default, you can view their type, mode and label. Learn how to manage subscriptions and unsubscriptions in [Adobe Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html){target="_blank"}. 
+* **Subscription services** - Browse through your subscriptions lists. By default, you can view their type, mode and label. Learn how to manage subscriptions and unsubscriptions in [Adobe Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html){target="_blank"}. 
+* **Predefined filters** - Predefined filters are custom filters which are created and saved to be available for future use. They can be used as shortcuts during any filtering operations with the query modeler, for example when filtering a list of data, or creating the audience of a delivery. Learn more in [this section](predefined-filters.md).
+
 
 ### Decision Management {#decision-management}
 
@@ -89,15 +104,18 @@ In the DECISION MANAGEMENT section, you can view the offers and offer templates.
 
 Learn how to create and send offers in emails and SMS in [this section](../msg/offers.md).
 
+### Reporting {#left-nav-reporting}
+
+* **Reports** - The **Report** entry offers a consolidated overall summary of traffic and engagement metrics for each channel within your Campaign environment. These reports consist of various widgets, each offering a distinct perspective on your campaign or delivery performance. Learn more in [this section](../reporting/global-reports.md).
 
 
 ## Contextual Help {#user-interface-help} 
 
 A contextual help is available in the interface. When available, click on the `?` icon to display help information and related documentation links. 
 
-![](assets/context-help.png){width="40%" align="left"}
+![](assets/do-not-localize/context-help.png){width="40%" align="left"}
 
-With the new Beta version, the **AI-powered Knowledge Assistant** embedded within contextual help revolutionizes documentation searching and answering how-to questions with effortlessly sifting through vast documentation repositories, instantly pinpointing the precise information you need.
+Currently released as a Beta version within the new Campaign web UI, the **AI-powered Knowledge Assistant** embedded within contextual help revolutionizes documentation searching and answering how-to questions with effortlessly sifting through vast documentation repositories, instantly pinpointing the precise information you need.
 
 Thanks to Campaign Gen AI's capabilities, this assistant transforms your experience, making information retrieval and problem-solving a breeze. Whether you're seeking guidance in a complex task or navigating extensive documents, our AI-powered Knowledge Assistant is your ultimate companion, providing unmatched efficiency and accuracy in every interaction.
 

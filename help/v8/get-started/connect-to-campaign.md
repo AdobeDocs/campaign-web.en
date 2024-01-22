@@ -47,13 +47,14 @@ You are now connected to Campaign. Learn how to start using the user interface i
 
 Browse the top bar of the interface to:
 
+* share feedback about Campaign web UI
 * switch between your organizations
 * switch between your Adobe Experience Cloud solutions and apps
 * search for help on [Adobe Experience League](https://experienceleague.adobe.com/docs/){target="_blank"}
 * check your product notifications
 * edit your Adobe profile and manage settings, such as [update your favorite language](#language-pref) or [switch to light/dark theme](#dark-theme)
 
-![](assets/unified-shell.png){width="50%" align="left"}
+![](assets/do-not-localize/unified-shell.png){width="50%" align="left"}
 
 ## Supported browsers {#browsers}
 
