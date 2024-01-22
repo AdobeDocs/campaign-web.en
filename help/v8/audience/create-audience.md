@@ -2,7 +2,7 @@
 audience: end-user
 title: Create audiences
 description: Learn how to create audiences in Adobe Campaign Web
-badge: label="Beta"
+badge: label="Limited Availability"
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
 ---
 # Create audiences {#create-audiences}
@@ -41,18 +41,20 @@ Once you've crafted your workflow, the resulting audiences are automatically sto
 To create an audience, follow these steps:
 
 1. Navigate to the **[!UICONTROL Audiences]** menu and click the **[!UICONTROL Create Audience]** button located in the top-right corner.
-1. Provide a label for your audience.
-1. Expand the **[!UICONTROL Additional options]** section to configure advanced audience parameters.
 
-    By default, audiences are created into the **[!UICONTROL Profiles and Targets]** / **[!UICONTROL Lists]** explorer menu. You can change the default storage location using the **[!UICONTROL Folder]** field.
+1. A new workflow is automatically created, allowing you to combine activities to generate your audience. By default, the canvas contains two main activities:
 
-    ![](assets/audiences-settings.png)
+    * The "Query" **[!UICONTROL Build audience]** activity is the starting point of your workflow, allowing you to create an audience and use it as a foundation for your workflow.
 
-1. Once you have configured the audience settings, click the **[!UICONTROL Create Audience]** button. A workflow canvas appears, featuring two default activites:
+    * The "New audience" **[!UICONTROL Save audience]** activity represents the final step in your workflow, enabling you to save the results as a new audience.
 
-    * **[!UICONTROL Build audience]**: This is the starting point of your workflow, allowing you to create an audience and use it as a foundation for your workflow.
+    ![](assets/create-audience-blank.png)
 
-    * **[!UICONTROL Save audience]**: This represents the final step in your workflow, enabling you to save the workflow results as a new audience.
+    >[!IMPORTANT]
+    >
+    >Audience workflows are stored in the **Workflows** menu, alongside your other Campaign workflows. They are specifically designed to build audiences and are identifiable by their vertical canvas.
+  
+1. For better readability, we recommend changing the name of the workflow in the workflow settings' **Label** field. [Learn how to configure workflow settings](../workflows/workflow-settings.md)
 
 1. Open the **[!UICONTROL Build audience]** activity and use the query modeler to define the population to include into your audience by filtering data contained in the database. [Learn how to configure a Build audience activity](../workflows/activities/build-audience.md)
 
@@ -68,7 +70,7 @@ To create an audience, follow these steps:
 
 1. When your workflow is ready, click **[!UICONTROL Start]** to execute it.
 
-The workflow is saved in the **[!UICONTROL Workflows]** list, while the resulting audience(s) are accessible in the **[!UICONTROL Audiences]** list. Learn how to monitor and manage audiencesin [this section](manage-audience.md)
+The workflow is saved in the **[!UICONTROL Workflows]** list, while the resulting audience(s) are accessible in the **[!UICONTROL Audiences]** list with the label defined in the **Save audience** activity. Learn how to monitor and manage audiences in [this section](manage-audience.md)
 
 You can now use this audience as the main target of a delivery. [Learn more](add-audience.md)
 
@@ -82,3 +84,17 @@ The example below shows an audience workflow configured to target female custome
 1. The **[!UICONTROL Enrichment]** activity enriches the audience with information from the Purchases table to identify which type of product the customers purchased.
 1. The **[!UICONTROL Split]** activity divides the workflow into two paths based on the customers' latest purchase.
 1. The **[!UICONTROL Save audience]** activities at the end of each path  create two new audiences into the database including the population computed in each path.
+
+## Edit an audience {#edit}
+
+You can modify an audience generated from a workflow whenever necessary by re-executing its corresponding workflow. This allows you to effortlessly refresh audience data or refine the audience by adjusting the query to suit your needs.
+
+1. Navigate to the **Audiences** menu and open the audience you want to edit.
+1. In the **Overview** tab, the **Last workflow** section provides a link to the workflow used to generate the audience. Click on it to access the workflow.
+1. Make the desired changes and click the **Start** button to rerun the workflow again. Upon completion, the audience resulting from the worklow is automatically updated with the latest workflow results.
+
+By default, rerunning an audience workflow replaces the entire content of the audience with new data, causing the loss of previous data.
+
+If you prefer not to replace the existing audience results, configure the **Save audience** activities to align with your requirements. For example, you can change the **Audience label** field to store the new results into a new audience, or add the new results to the existing audience content without erasing previous data. [Learn how to configure a Save audience acitivty](../workflows/activities/save-audience.md)
+
+![](assets/edit-audience-save.png)
