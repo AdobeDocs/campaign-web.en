@@ -167,7 +167,7 @@ You can now **import and convert any HTML content** in Campaign's email editor. 
     <td>
       <img src="assets/do-not-localize/icon-message.svg" width="35px">
     <br/>
-      <strong>Send messages</strong><br/><a href="msg/gs-deliveries.md">Create a delivery</a> - <a href="email/create-email.md">Email</a> -  <a href="push/gs-push.md">Push notifications</a> - <a href=sms/gs-sms.md">SMS</a> - <a href="msg/delivery-template.md">Delivery templates</a> - <a href="preview-test/preview-test.md">Preview & test</a> 
+      <strong>Send messages</strong><br/><a href="msg/gs-deliveries.md">Create a delivery</a> - <a href="email/create-email.md">Email</a> -  <a href="push/gs-push.md">Push notifications</a> - <a href="sms/gs-sms.md">SMS</a> - <a href="msg/delivery-template.md">Delivery templates</a> - <a href="preview-test/preview-test.md">Preview & test</a> 
     </td>
     <td>
       <img src="assets/do-not-localize/icon_profile.svg" width="35px">
