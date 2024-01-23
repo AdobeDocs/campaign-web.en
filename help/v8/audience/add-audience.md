@@ -36,8 +36,6 @@ To select an existing audience for your message, follow the steps below:
 
 1. The filter section allows you to access filtering options to refine the audiences list. To do this, click **Add rules** to access the query modeler, which lets you create advanced filters for the list of audiences. [Learn how to use the query modeler](../query/query-modeler-overview.md)
 
-   ![](assets/create-audience4.png)
-
 1. Click **Confirm** to add your audience as the delivery main target. Once done, you can still refine the audience using the query modeler by clicking the **Edit rules** button.
 
    ![](assets/refine-audience.png)
