@@ -22,17 +22,19 @@ By using channel activities, you can create comprehensive and personalized campa
 
 ## Build your workflow {#build-your-workflow}
 
-Start building your workflow with the relevant activities before placing the delivery:
+Start building your workflow with the relevant activities before inserting the channel activity:
 
-* If you want to send a recurring delivery, start your workflow with a **Scheduler** activity. If you want to send a one-shot delivery, you can define the contact date using a **Scheduler** activity or define the schedule in the delivery's settings. See [this section](scheduler.md).
-
-* Add a **Build audience** activity. The audience is the main target of your delivery: the recipients who receive the messages. When sending messages in the context of a campaign workflow, the message audience is not defined in the channel activity, but in the **Build audience** activity. See [this section](build-audience.md).
+* Before inserting a delivey activity, you must define the audience. The audience is the main target of your delivery: the profiles who receive the messages. When sending messages in the context of a campaign workflow, the message audience is not defined in the channel activity, but within a dedicated activity, such as:
+    
+    * A **Build audience** activity. [Learn more](build-audience.md).
 
     ![](../../msg/assets/add-delivery-in-wf.png)
+    
+    * A **Load file** activity followed by a **Reconciliation** activity. [Learn more](load-file.md).
 
-    >[!NOTE]
-    >
-    >You can also target an audience loaded from a file. To do this, use a **Load file** activity followed by a **Reconciliation** activity. [Learn more](../../audience/about-recipients.md)
+
+* To send a recurring delivery, start your workflow with a **Scheduler** activity. You can also use a **Scheduler** activity for one-shot single deliveries to set the contact date for that delivery. That contact date can also be set in the delivery settings. See [this section](scheduler.md).
+
 
 ## Configure the Channel activity {#create-a-delivery-in-a-workflow}
 
@@ -62,24 +64,24 @@ To set up a delivery in the context of a workflow, follow the steps below:
 
 1. Select the **Type of delivery**: single or recurring. 
 
-   * **Single delivery**: this is a one-shot delivery, sent only once, for example a Black Friday email.
-   * **Recurring delivery**: for this type of delivery, you set up the execution frequency using a [scheduler activity](scheduler.md). Each time the workflow runs, the audience is re-calculated and the delivery is sent with the updated content. This can be a weekly newsletter or a recurring birthday email. 
+   * A **Single delivery** is a one-shot delivery, sent only once, for example a Black Friday email.
+   * A **Recurring delivery** is sent multiple times based on its execution frequency defined in a [scheduler activity](scheduler.md). Each time the workflow runs, the audience is re-calculated and the delivery is sent to the updated audience, with the updated content. This can be a weekly newsletter or a recurring birthday email for example.
 
 1. Select a delivery **Template**. Templates are pre-configured delivery settings, specific to a channel. A built-in template is available for each channel, and pre-filled by default. [Learn more](../../msg/delivery-template.md)
 
     ![](../assets/delivery-activity-in-wf.png)
    
-    You can select another template from the channel activity configuration left pane. If the previously selected audience is not compatible with the channel, then you cannot select a template. To solve this, update the **Build audience** activity to select an audience with the correct target mapping. Learn more about target mappings in [Adobe Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}
+    You can select the template from the channel activity configuration left pane. If the previously selected audience is not compatible with the channel, then you cannot select a template. To solve this, update the **Build audience** activity to select an audience with the correct target mapping. Learn more about target mappings in [this section](../../audience/targeting-dimensions.md)
 
-1. Click **Create delivery**. Define your message settings and content the same way you create a standalone delivery. You can also schedule and simulate the content. [Learn more](../../msg/gs-messages.md)
+1. Click **Create delivery**. You can then define your message settings and content the same way you create a standalone delivery. You can also test and simulate the content. [Learn more](../../msg/gs-messages.md)
 
-1. Navigate back to your workflow. If you want to continue your workflow, **Generate an outbound transition** to add a transition after the channel activity.
+1. Navigate back to your workflow. If you want to continue your workflow, toggle the **Generate an outbound transition** option to add a transition after the channel activity.
 
 1. Click **Start** to launch your workflow.
 
     By default, starting a workflow triggers the message preparation stage, without immediately sending the message.
     
-1. Open your delivery activity to confirm the sending from the **Review & send** button.
+1. Open your channel activity to confirm the sending from the **Review & send** button.
 
 1. From your delivery dashboard, click **Send**.
 

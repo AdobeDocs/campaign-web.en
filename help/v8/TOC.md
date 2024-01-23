@@ -95,6 +95,7 @@ hide: yes
     + [Select an existing audience](audience/add-audience.md)
     + [Build a one-time audience](audience/one-time-audience.md)
     + [Load an email audience from a file](audience/file-audience.md)
+    + [Use an Adobe Experience Platform audience](audience/aep-audience.md)
     + [Set a control group](audience/control-group.md)
   + Work with subscription services {#work-with-services}
     + [Create and manage subscription services](audience/manage-services.md)

@@ -2,7 +2,7 @@
 audience: end-user
 title: Build a one-time audience for a delivery
 description: Learn how to build a one-time audience for a delivery.
-badge: label="Beta"
+badge: label="Limited Availability"
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
 ---
 # Build a one-time audience {#one-time}
@@ -24,7 +24,7 @@ To build a new audience directly from a delivery, follow these steps:
 
 1. Select **Create your own**. The query modeler is displayed. It allows you to define the population targeted by your delivery by filtering data contained in the database. [Learn how to use the query modeler](../query/query-modeler-overview.md)
 
-    ![](assets/segment-builder.png)
+    ![](assets/query-modeler.png)
 
 1. Once your query is ready, click **Confirm** to use the audience as the main target of your delivery.
 

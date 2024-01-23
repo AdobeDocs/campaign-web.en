@@ -3,7 +3,7 @@ audience: end-user
 title: Select an existing audience
 description: Learn how to select an audience
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-badge: label="Beta" 
+badge: label="Limited Availability" 
 ---
 
 # Select an existing audience {#add-audience}
@@ -22,21 +22,19 @@ Audiences that can be targeted in deliveries are accessible from the **Audience*
 
 To select an existing audience for your message, follow the steps below:
 
-1. From the **Audience** section of the delivery creation assistant, click the **[!UICONTROL Select audience]** button then choose 
+1. From the **Audience** section of the delivery creation assistant, click the **[!UICONTROL Select audience]** button then choose **[!UICONTROL Select audience]** to use an existing audience. 
 
    ![](assets/create-audience.png)
 
-1. Choose **[!UICONTROL Select audience]** to use an existing audience. This screen displays all existing audiences, for the current folder.
+1. This screen displays all existing audiences, for the current folder.
 
     ![](assets/create-audience2.png)
 
-   To choose an audience from Adobe Experience Platform, browse to the `AEP Audiences folder` from the filter section of the screen.
+   To choose an audience from Adobe Experience Platform, browse to the `AEP Audiences folder` from the filter section of the screen. [Learn how to use an Adobe Experience Platform audience](aep-audience.md)
 
     ![](assets/select-audience-folder.png)
 
 1. The filter section allows you to access filtering options to refine the audiences list. To do this, click **Add rules** to access the query modeler, which lets you create advanced filters for the list of audiences. [Learn how to use the query modeler](../query/query-modeler-overview.md)
-
-   ![](assets/create-audience4.png)
 
 1. Click **Confirm** to add your audience as the delivery main target. Once done, you can still refine the audience using the query modeler by clicking the **Edit rules** button.
 
