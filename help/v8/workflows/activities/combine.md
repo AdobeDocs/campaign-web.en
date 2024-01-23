@@ -2,7 +2,7 @@
 audience: end-user
 title: Use the Combine workflow activity
 description: Learn how to use the Combine workflow activity
-badge: label="Beta"
+badge: label="Limited Availability"
 exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
 ---
 # Combine {#combine}
@@ -11,7 +11,6 @@ exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
 >id="acw_orchestration_combine"
 >title="Combine activity"
 >abstract="The **Combine** activity allows you to perform segmentation on your inbound population. You can thus combine several populations, exclude part of it, or only keep data common to several targets."
-
 
 The **Combine** activity is a **Targeting** activity. This activity allows you to perform segmentation on your inbound population. You can thus combine several populations, exclude part of it or only keep data common to several targets. Here are the available segmentation types:
 
