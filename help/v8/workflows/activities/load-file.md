@@ -74,4 +74,4 @@ Follow these steps to configure the **Load file** activity:
 
 ## Example{#load-example}
 
-A sample of an external file loading used with the **Reconciliation** activity is available in [this section](reconciliation.md#example).
+A sample of an external file loading used with the **Reconciliation** activity is available in [this section](reconciliation.md#reconciliation-example).
