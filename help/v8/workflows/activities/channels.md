@@ -20,17 +20,20 @@ By using channel activities, you can create comprehensive and personalized campa
 >* [Create standalone SMS delivery](../../sms/create-sms.md)
 >* [Create standalone push delivery](../../push/create-push.md)
 
-## Build your workflow {#build-your-workflow}
+## Prerequisites {#channel-activity-prereq}
 
-Start building your workflow with the relevant activities before inserting the channel activity:
+Start building your workflow with the relevant activities:
 
-* Before inserting a delivey activity, you must define the audience. The audience is the main target of your delivery: the profiles who receive the messages. When sending messages in the context of a campaign workflow, the message audience is not defined in the channel activity, but within a dedicated activity, such as:
+* Before inserting a channel activity, you must define the audience. The audience is the main target of your delivery: the profiles who receive the messages. When sending messages in the context of a campaign workflow, the message audience is not defined in the channel activity, but within a dedicated activity, such as:
     
     * A **Build audience** activity. [Learn more](build-audience.md).
 
-    ![](../../msg/assets/add-delivery-in-wf.png)
+        ![](../../msg/assets/add-delivery-in-wf.png)
     
     * A **Load file** activity followed by a **Reconciliation** activity. [Learn more](load-file.md).
+
+        ![](../assets/workflow-reconciliation-criteria.png)
+
 
 
 * To send a recurring delivery, start your workflow with a **Scheduler** activity. You can also use a **Scheduler** activity for one-shot single deliveries to set the contact date for that delivery. That contact date can also be set in the delivery settings. See [this section](scheduler.md).
