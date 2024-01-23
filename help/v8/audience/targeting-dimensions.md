@@ -20,7 +20,7 @@ When selecting a targeting dimension (in the workflow settings, or in activites 
 
 ## Targeting dimensions {#list}
 
-By default, email and SMS delivery templates target profiles. Their target dimension therefore uses the fields of the **nms:recipient** table. For Push notifications, the default target dimension is **Subscriber applications nms:appSubscriptionRcp**, which is linked to the recipients table.
+By default, email and SMS delivery templates target profiles. Their target dimension therefore uses the fields of the **nms:recipient** table. For Push notifications, the default target dimension is **Subscriber applications nms:appSubscriptionRcp**, which is linked to the recipients table. 
 
 You can also use other built-in target mappings in your workflows and deliveries that are listed below: 
 
