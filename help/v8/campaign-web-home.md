@@ -87,37 +87,29 @@ Get a glimpse of the newest enhancements in Adobe Campaign v8 Web product and do
 
 >[!BEGINTABS]
 
->[!TAB Workflow activities] 
+>[!TAB Cross-channel workflows] 
 
-Supercharge your marketing campaigns with our **expanded set of workflow activities**. Unlock new possibilities for automation and optimization, allowing you to create more dynamic and personalized customer journeys. From advanced segmentation to conditional triggers, our additional workflow activities empower you to deliver targeted messages and drive better campaign performance.
-
-New activities coming with the latest LA release are: **Reconciliation**, **Load file**, and **Save audience**.
+Unlock new possibilities for automation and optimization, allowing you to create more dynamic and personalized customer journeys. From advanced segmentation to conditional triggers, our additional workflow activities empower you to deliver targeted messages and drive better campaign performance.
 
 [![image](assets/do-not-localize/learn-more-button.svg)](workflows/gs-workflows.md)
 
->[!TAB Query modeler]
+>[!TAB Audience composition]
 
-Adobe Campaign Web features a **powerful and intuitive query modeler** that simplifies the process of filtering databases to select specific targets based on various criteria. This includes the use of advanced expressions and operators. The query modeler is available in every context where you need to define rules to filter data.
+Create new audiences into a visual workflow canvas. Beyond starting from scratch to create a simple audience, you can also leverage workflow activities to refine your audience. Combine multiple audiences into a single one, enrich your audience with external attributes, or divide a it into multiple audiences based on rules of your choice.
 
-[![image](assets/do-not-localize/learn-more-button.svg)](query/query-modeler-overview.md)
+[![image](assets/do-not-localize/learn-more-button.svg)](audience/create-audience.md)
 
->[!TAB AI-powered Contextual Help]
+>[!TAB Email Designer]
 
-Ask questions and find guidance directly from the product user interface. The new **AI-powered Contextual Help** helps you learn and grow your expertise on new Campaign features. Based on the latest product documentation, it assists you to find help and get step-by-step guidance instantly, as you are building your use cases. This feature is currently available in Beta, for a limited set of users.
+Campaign Email Designer enables you to create captivating, individually tailored emails through an intuitive drag-and-drop interface. Whether you're starting from a blank slate, importing an existing content or leveraging existing templates, design and refine all content for every email!
 
-[![image](assets/do-not-localize/learn-more-button.svg)](get-started/using-ai.md)
+[![image](assets/do-not-localize/learn-more-button.svg)](email/get-started-email-designer.md)
 
->[!TAB Predefined Filters]
+>[!TAB Profile 360]
 
-Introducing Predefined Filter Management. Campaign web UI now offers you an user-friendly interface to effortlessly **manage and customize predefined filters** to meet your specific needs. Create once and save for future use.
+Create new profiles, and monitor them through powerful reports and tools. Access your profiles' attributes, interactions and logs. Use the filtering options to browse the profiles list, edit and update their profile.
 
-[![image](assets/do-not-localize/learn-more-button.svg)](get-started/predefined-filters.md)
-
->[!TAB email HTML Converter]
-
-You can now **import and convert any HTML content** in Campaign's email editor. Content blocks are automatically identified, and available in the email designer: use its powerful design capabilities to update and personalize it!
-
-[![image](assets/do-not-localize/learn-more-button.svg)](email/existing-content.md)
+[![image](assets/do-not-localize/learn-more-button.svg)](audience/gs-audiences-recipients.md)
 
 >[!ENDTABS]
 
@@ -135,7 +127,7 @@ You can now **import and convert any HTML content** in Campaign's email editor. 
     </td>
     <td>
     <a href="email/get-started-email-designer.md"><img src="assets/do-not-localize/menu-email.png"></a>
-    <div><strong>Meet the Email Designer</strong><br/>Learn how to start from a template, or use Adobe Campaign's new Email Designer to create emails without having to write a single line of code.
+    <div><strong>Meet the Email Designer</strong><br/>Learn how to start from a template, or use Adobe Campaign’s new Email Designer to create emails without having to write a single line of code.
     </div></td>
     <td>
     <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>
@@ -176,3 +168,8 @@ You can now **import and convert any HTML content** in Campaign's email editor. 
     </td>
   </tr>
 </table> 
+
+## Additional resources
+
+* [Adobe Campaign Product Description](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
+* [Adobe Campaign V8 documentation](https://experienceleague.adobe.com/docs/campaign-v8.html){target="_blank"}
