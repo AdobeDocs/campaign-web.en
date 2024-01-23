@@ -20,7 +20,7 @@ By using channel activities, you can create comprehensive and personalized campa
 >* [Create standalone SMS delivery](../../sms/create-sms.md)
 >* [Create standalone push delivery](../../push/create-push.md)
 
-## Build your workflow {#build-your-workflow}
+## Prerequisites {#channel-activity-prereq}
 
 Start building your workflow with the relevant activities:
 
