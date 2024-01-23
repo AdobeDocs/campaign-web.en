@@ -5,6 +5,7 @@ description: Learn how to create and use delivery templates in Campaign Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
+badge: label="Limited Availability"
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
 ---
 # Use delivery templates {#work-with-delivery-templates}
@@ -46,7 +47,7 @@ To access the content template list, select **[!UICONTROL Campaign Management]**
 
 All the templates that were [created](#create-a-delivery-template) on the current environment are displayed.
 
-You can filter content templates on channels and folders. You can also set advanced filters by building a rule using delivery attributes. [Learn more on the rule builder](../audience/../query/query-modeler-overview.md)
+You can filter content templates on channels and folders. You can also set advanced filters by building a rule using delivery attributes. [Learn more on the query modeler](../audience/../query/query-modeler-overview.md)
 
 ![](assets/templates-filters.png)
 
@@ -114,6 +115,8 @@ To save a delivery as a template, follow the steps below:
 1. From the **[!UICONTROL Browse]** tab, click the **[!UICONTROL More actions]** button to the right of the desired delivery name, and select **[!UICONTROL Copy as a template]**.
 
     ![](assets/templates-convert-delivery.png)
+
+    You can also select a template from the list and select this option from the template edition screen.
     
 1. Confirm duplication.
 
@@ -173,13 +176,11 @@ You can test the rendering of any delivery template, whether created from scratc
 
     ![](assets/templates-simulate-button.png)
 
-1. Select one or more test profiles to check your email rendering. You can also select real profiles from your database.
+1. Select one or more test profiles to check your email rendering. You can also select real profiles from your database. [Learn more on test profiles](../audience/test-profiles.md)
 
-1. Toggle between the different profiles to get a personalized representation of the message according to the selected profile.
+1. Toggle between the different profiles to get a personalized representation of the message according to the selected profile. You can also adjust the zoom level and choose the desktop or mobile view.
 
-    <!--[Learn more on test profiles](../preview-test/test-deliveries.md#recipients)-->
-
-    You can also adjust the zoom level and choose the desktop or mobile view.
+    [Learn more on previewing content](../preview-test/preview-content.md)
 
     ![](assets/templates-stimulate.png)
 
@@ -189,8 +190,4 @@ You can test the rendering of any delivery template, whether created from scratc
 >
 >You cannot use email rendering or send tests in a delivery template.
 
-* [Learn more on previewing email content](../preview-test/preview-content.md)
 
-* [Learn more on previewing SMS content](../sms/content-sms.md)
-
-* [Learn more on previewing push content](../push/gs-push.md)

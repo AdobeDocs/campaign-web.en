@@ -2,7 +2,7 @@
 audience: end-user
 title: Use the Combine workflow activity
 description: Learn how to use the Combine workflow activity
-badge: label="Beta"
+badge: label="Limited Availability"
 exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
 ---
 # Combine {#combine}
@@ -11,7 +11,6 @@ exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
 >id="acw_orchestration_combine"
 >title="Combine activity"
 >abstract="The **Combine** activity allows you to perform segmentation on your inbound population. You can thus combine several populations, exclude part of it, or only keep data common to several targets."
-
 
 The **Combine** activity is a **Targeting** activity. This activity allows you to perform segmentation on your inbound population. You can thus combine several populations, exclude part of it or only keep data common to several targets. Here are the available segmentation types:
 
@@ -91,7 +90,10 @@ In the **Combine** activity, you can configure an **Intersection**. For this, yo
 >title="Exclusion rules"
 >abstract="When necessary, you can manipulate inbound tables. Indeed, to exclude a target from another dimension, this target has to be returned to the same targeting dimension as the main target. To do this, click Add a rule in the Exclusion rules section and specify the dimension change conditions. Data reconciliation is carried out either via an attribute or a join."
 
-
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine_complement"
+>title="Combine generate complement"
+>abstract="Toggle on the Generate complement option to process the remaining population in an additional transition." 
 
 In the **Combine** activity, you can configure an **Exclusion**. For this, you need to follow the extra steps below:
 

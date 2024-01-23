@@ -23,7 +23,7 @@ All activities are detailed in the sections below:
 These activities are specific to targeting, manipulating and enriching population data. They let you build one or more targets by defining an audience and splitting or combining these audiences using intersection, union or exclusion operations.
 
 * Use the [Save audience](save-audience.md) activity to update an existing audience or create a new audience from the population computed upstream in a workflow.
-* Use the [Build audience](build-audience.md) activity to define your target population. You can either select an existing audience or use the rule builder to define your own query. 
+* Use the [Build audience](build-audience.md) activity to define your target population. You can either select an existing audience or use the query modeler to define your own query. 
 * Use the [Combine](combine.md) activity to perform segmentation on your inbound population. You can use a union, an intersection or an exclusion.
 * Use the [Split](split.md) activity to segment incoming population into several subsets.
 * Use the [Reconciliation](reconciliation.md) activity to define the link between the data in the Adobe Campaign database and the data in a work table, for example data loaded from an external file.
@@ -35,9 +35,7 @@ These activities are specific to targeting, manipulating and enriching populatio
 
 ## Channel activities {#channel}
 
-Adobe Campaign Web allows you to automate and execute marketing campaigns across multiple channels. You can combine channel activities into the canvas to create cross-channel workflows that can trigger actions based on customer behavior. The following **Channel** activities are available: Email, SMS, Android and iOS Push notifications.
-
-Learn how to set up a delivery in the context of a workflow in this [section](channels.md).
+Adobe Campaign Web allows you to automate and execute marketing campaigns across multiple channels. You can combine channel activities into the canvas to create cross-channel workflows that can trigger actions based on customer behavior. The following **Channel** activities are available: Email, SMS, Android and iOS Push notifications. [Learn how to set up a delivery in the context of a workflow](channels.md).
 
 ## Flow control activities {#flow-control}
 

@@ -1,5 +1,5 @@
 ---
-title: Create and use predefined filters
+title: Work with predefined filters
 description: Learn how to create and manage predefined filters in Adobe Campaign web UI
 badge: label="Limited Availability"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
@@ -7,9 +7,18 @@ exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 # Work with predefined filters {#predefined-filters}
 
 >[!CONTEXTUALHELP]
+>id="acw_homepage_learning_card4"
+>title="Predefined filter management"
+>abstract="Campaign web now offers you an user-friendly interface to effortlessly manage and customize predefined filters to meet your specific needs. Create once and save for future use."
+
+
+<!--TO REMOVE BELOW-->
+>[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
 >title="Predefined filter management"
 >abstract="Campaign web now offers you an user-friendly interface to effortlessly manage and customize predefined filters to meet your specific needs. Create once and save for future use."
+<!--TO REMOVE ABOVE-->
+
 
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-dashboard"
@@ -92,7 +101,7 @@ When a filter is saved as a favorite, it is available to all users in the **Favo
 
 ## Use a predefined filter {#use-predefined-filter}
 
-Predefined filters are available when defining rule properties. To access predefined filters, choose the **Select custom filter** option in the drop down of the rule builder.
+Predefined filters are available when defining rule properties. To access predefined filters, choose the **Select custom filter** option in the drop down of the query modeler.
 
 You can then access the full list of predefined filters available for the current context.
 

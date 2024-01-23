@@ -7,7 +7,8 @@ feature: Templates
 topic: Content Management
 role: User
 level: Beginner
-badge: label="Limited Availability" 
+badge: label="Limited Availability"
+exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
 ---
 # Work with content templates {#content-templates}
 
@@ -100,7 +101,7 @@ To create a content template from scratch, follow the steps below.
 
     ![](assets/content-template-create.png)
 
-1. Fill in the template details. You can select the folder where you want to store your template. By default, content templates are stored in a dedicated node of the Adobe Campaign hierarchy: **[!UICONTROL Explorer]** > **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Content templates]**. [Learn how to create folders](../get-started/permissions.md#folders)
+1. Fill in the template details. You can select the folder where you want to store your template. By default, content templates are stored in a dedicated folder of the Adobe Campaign hierarchy: **[!UICONTROL Explorer]** > **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Content templates]**. [Learn how to create folders](../get-started/permissions.md#folders)
 
     ![](assets/content-template-details.png)
 
@@ -130,7 +131,11 @@ To create a content template from scratch, follow the steps below.
 
     ![](assets/content-template-save-back.png)
 
-This template is now ready to be used when building any email within [!DNL Adobe Campaign]. [Learn how](use-email-templates.md)
+The template is saved into the default folder of the Adobe Campaign hierarchy (**[!UICONTROL Explorer]** > **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Content templates]**). [Learn more on folders](../get-started/permissions.md#folders)
+
+It is also displayed in the **[!UICONTROL Content templates]** list. [Learn more](#access-manage-templates)
+
+You can now use this template to build a new content: it is available in the **[!UICONTROL Saved templates]** tab of the Email Designer. [Learn how](use-email-templates.md)
 
 ### Save email content as template {#save-as-template}
 
@@ -148,40 +153,30 @@ To save an email content as a template, follow the steps below:
 
     ![](assets/email_designer-template-name.png)
 
+The template is saved into the default folder of the Adobe Campaign hierarchy (**[!UICONTROL Explorer]** > **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Content templates]**). [Learn more on folders](../get-started/permissions.md#folders)
+
+It is also displayed in the **[!UICONTROL Content templates]** list. It becomes a standalone content template that can be accessed, edited and deleted as any other item on that list. [Learn more](#access-manage-templates)
+
 You can now use this template to build a new content: it is available in the **[!UICONTROL Saved templates]** tab of the Email Designer. [Learn how](use-email-templates.md)
 
 ![](assets/email_designer-saved-template.png)
-
-The template is saved into the **[!UICONTROL Content templates]** list, accessible from the [!DNL Adobe Campaign] dedicated menu. It becomes a standalone content template that can be accessed, edited and deleted as any other item on that list. [Learn more](#access-manage-templates)
 
 >[!NOTE]
 >
 >Any change to that new template is not propagated to the email it comes from. Similarly, when the original content is edited within that email, the new template is not modified.
 
 <!--
+
 Test your content template {#test-template}
 
 You can test the rendering of any email content template, whether created from scratch or from an email. To do so, follow the steps below.
 
-1. Access the content template list through the **[!UICONTROL Content Management]** > **[!UICONTROL Content Templates]** menu and select any template.
+1. Access the content template list.
 
 1. Click **[!UICONTROL Edit content]** from the **[!UICONTROL Template properties]**.
 
-1. Click **[!UICONTROL Simulate Content]** and select a test profile to check your email rendering. You can choose the desktop or mobile view. [Learn more](../content-management/preview-test.md)
+1. Click **[!UICONTROL Simulate Content]** and select a test profile to check your email rendering. You can choose the desktop or mobile view.
 
-    ![](../email/assets/content-template-stimulate.png)
+1. You can send a proof to test your content and have it approved by some internal users before using it. To do so, click the **[!UICONTROL Send proof]** button and follow the steps described in .
 
-1. You can send a proof to test your content and have it approved by some internal users before using it in a journey or a campaign.
-
-    * To do so, click the **[!UICONTROL Send proof]** button and follow the steps described in [this section](../content-management/proofs.md).
-    
-    * Before sending the proof, you must select the [email surface](../configuration/channel-surfaces.md) that will be used to test your content.
-
-        ![](../email/assets/content-template-stimulate-proof-surface.png)
-
->[!CAUTION]
->
->Currently tracking is not supported when testing email content templates, meaning that tracking events, UTM parameters and landing page links will not be effective in the proofs that are being sent from a template. To test tracking, [use the content template](
-use-email-templates.md) in an email and [send a proof](../content-management/preview-test.md#send-proofs).-->
-
-
+-->

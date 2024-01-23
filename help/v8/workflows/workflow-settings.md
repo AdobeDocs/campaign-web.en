@@ -1,10 +1,11 @@
 ---
 audience: end-user
-title: Create workflows with Adobe Campaign Web
-description: Learn how to build workflows with Adobe Campaign Web
-badge: label="Beta"
+title: Configure workflow settings
+description: Learn how to configure workflow settings with Adobe Campaign Web
+badge: label="Limited Availability"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
 ---
+
 # Configure workflow settings {#workflow-settings}
 
 When orchestrating workflow activities in the canvas, you can access advanced settings related to the workflow. For example, you can set a specific timezone for the workflow, manage how the workflow should behave in case of error, or manage the delay after which the workflow history should be purged.
@@ -45,7 +46,8 @@ The **[!UICONTROL Properties]** section provides generic settings that are also 
 >title="Segmentation settings"
 >abstract="In this section, you can select the targeting dimension to target profiles in the workflow, and choose to keep the worklow results between two executions. This option should be used for testing purposes only and must never be enabled in a production workflow."
 
-* **[!UICONTROL Targeting dimension]**: Select the targeting dimension to use to target profiles: recipients, contract beneficiaries, operator, subscribers, etc.
+* **[!UICONTROL Targeting dimension]**: Select the targeting dimension to use to target profiles: recipients, contract beneficiaries, operator, subscribers, etc. [Learn more about targeting dimensions](../audience/targeting-dimensions.md)
+
 * **[!UICONTROL Keep the result of interim populations between two executions]**: By default, only the working tables of the last execution of the workflow are kept. Working tables from previous executions are purged by a technical workflow, which runs on a daily basis.
 
     If this option is enabled, working tables will be kept even after the workflow has been executed. You can use it for testing purposes and hence must be used only on development or staging environments. It must never be checked in a production workflow.

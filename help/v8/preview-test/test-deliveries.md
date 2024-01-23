@@ -83,7 +83,7 @@ The steps to send test deliveries to seed addresses are detailed below.
 
 1. If you have already selected profiles to [preview the message](preview-content.md) in the content simulation screen, those profiles are pre-selected as test recipients. You can clear your selection and/or add additional recipients using the **[!UICONTROL Add test profile(s)]** button.
 
-1. When browsing the test profile list, you can use filters to refine your search.
+1. When browsing the test profile or profile lists, you can use filters to refine your search.
 
     ![](assets/simulate-test-profile-filter.png)
 

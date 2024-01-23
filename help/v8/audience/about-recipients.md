@@ -1,20 +1,30 @@
 ---
-title: Monitor & manage profiles
+title: Monitor and manage profiles
 description: Learn how to monitor and manage profiles in Campaign Web.
 badge: label="Limited Availability"
+exl-id: 0680b726-8f2f-45bf-8aa0-c1d4aa1c2990
 ---
-# Monitor & edit profiles {#profiles}
+# Monitor and manage profiles {#profiles}
 
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn4"
+>title="360 view of your profiles"
+>abstract="Create new profiles, and monitor them through powerful reports and tools. Access your profiles' attributes, interactions and logs. Use the filtering options to browse the profiles list, edit and update their profile."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="See release notes"
+
+<!--TO REMOVE BELOW-->
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn4"
 >title="360 view of your profiles"
 >abstract="Create new profiles, and monitor them through powerful reports and tools. Access your profiles' attributes, interactions and logs. Use the filtering options to browse the profiles list, edit and update their profile."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="See release notes"
+<!--TO REMOVE ABOVE-->
+
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="Profiles"
->abstract="A profile is an individual which is targeted to receive messages sent by Adobe Campaign. From this list, you can view the profiles' details, based on your permissions. Use the filtering options to browse this list. You can edit and update a small set of your profiles' attributes."
+>abstract="A profile is an individual who is targeted to receive messages sent by Adobe Campaign. From this list, you can view the profiles' details, based on your permissions. Use the filtering options to browse this list. You can edit and update a small set of your profiles' attributes."
 
 ## Get started with profiles {#gs}
 
@@ -44,7 +54,7 @@ From there you can browse, create and manage folders or subfolders, as well as c
 
 From the **[!UICONTROL Explorer]** view you can also filter, delete and [edit](#access) profiles.
 
-## Access & edit profiles' attributes {#access}
+## Access and edit profiles' attributes {#access}
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_details"

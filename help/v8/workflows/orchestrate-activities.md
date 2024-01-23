@@ -2,7 +2,7 @@
 audience: end-user
 title: Create workflows with Adobe Campaign Web
 description: Learn how to build workflows with Adobe Campaign Web
-badge: label="Beta"
+badge: label="Limited Availability"
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
 ---
 # Orchestrate activities {#orchestrate}
@@ -11,9 +11,9 @@ Once that you have [created a workflow](create-workflow.md), wether from the wor
 
 ## Add activities {#add}
 
-At this stage of the configuration, the diagram is displayed with a start icon, representing the beginning of your workflow. To add your first activity, click the + button connected to the start icon.
+At this stage of the configuration, the diagram is displayed with a start icon, representing the beginning of your workflow. To add your first activity, click the **+** button connected to the start icon.
 
-A list of activities that can be added to the diagram appears. The available activities depend on your position within the workflow diagram. For example, when adding your first activity, you can start your workflow by targeting an audience, splitting the workflow path, or setting a Wait activity to delay the workflow execution. On the other hand, after a Build audience activity, you can refine your target with targeting activites, send a delivery to your audience with channel activites, or organize the workflow process with flow control activities.
+A list of activities that can be added to the diagram appears. The available activities depend on your position within the workflow diagram. For example, when adding your first activity, you can start your workflow by targeting an audience, splitting the workflow path, or setting a **Wait** activity to delay the workflow execution. On the other hand, after a **Build audience** activity, you can refine your target with targeting activites, send a delivery to your audience with channel activites, or organize the workflow process with flow control activities.
 
 ![](assets/workflow-start.png)
 
@@ -21,9 +21,9 @@ Once an activity has been added to the diagram, a right pane appears, allowing y
 
 ![](assets/workflow-configure-activities.png)
 
-Repeat this process the add as many activites as desired depending on the tasks that you want your workflow to perform. Note that you can also insert a new activity between two activites. To do this, click the + button on the transition between the activities, select the desired activity and configure it in the right pane.
+Repeat this process to add as many activites as desired depending on the tasks that you want your workflow to perform. Note that you can also insert a new activity between two activites. To do this, click the **+** button on the transition between the activities, select the desired activity and configure it in the right pane.
 
-To remove an activity, select it in the canvas and click the Delete icon in the activity properties.
+To remove an activity, select it in the canvas and click the **Delete** icon in the activity properties.
 
 >[!TIP]
 >
@@ -35,17 +35,17 @@ When adding activites, action buttons are available in the properties pane, allo
 
 * **Delete** the activity from the canvas.
 * **Disable/Enable** the activity. When the workflow is executed, disabled activities and the following activities on the same path are not executed and the workflow is stopped.
-* **Copy** the activity. You can then paste it in any workflow by cliking the "+" button on a transition and selecting "Paste 1 activity".
+* **Copy** the activity. You can then paste it in any workflow by cliking the **+** button on a transition and selecting "Paste 1 activity".
 * Access the activity's **Logs and tasks**.
 * **Pause/Resume** the activity. When the workflow is executed, it pauses at the paused activity. The corresponding task as well as all those that follow it in the same path are not executed.
 
-![](assets/activity-action.png){width="70%"}
+![](assets/activity-action.png){width="50%"}
 
 ## Example {#example}
 
 Here is a workflow example designed to send an email to all customers (other than VIP customers) with an email who are interested in coffee machines.
 
-![](assets/workflow-example.png)
+![](assets/workflow-example.png){zoomable="yes"}
 
 To achieve this, activities below have been added:
 

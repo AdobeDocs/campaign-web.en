@@ -2,7 +2,7 @@
 audience: end-user
 title: Create workflows with Adobe Campaign Web
 description: Learn how to create a workflow with Adobe Campaign Web
-badge: label="Beta" 
+badge: label="Limited Availability" 
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
 ---
 
@@ -19,20 +19,17 @@ exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
 >title="List of workflows in the campaign"
 >abstract="The **Workflows** tab lists all workflows linked to the current campaign. Click the name of a workflow to edit it. Use the **Create workflow** button to add a new workflow for this campaign."
 
-
 You can create standalone workflows, or workflows within a campaign. The first step is to select a template and define its general properties. You can then configure additional settings as needed.
 
 To do so, follow these steps:
 
-1. To create a **Standalone workflow**, browse to the **Worklows** menu.
-    
-    To create a **Campaign workflow**, browse to the **Campaigns** menu, and open the campaign for which you want to create a new workflow. 
+1. To create a **Standalone workflow**, browse to the **Worklows** menu. To create a **Campaign workflow**, browse to the **Campaigns** menu, and open the campaign for which you want to create a new workflow. 
 
 1. Click the **[!UICONTROL Create workflow]** button in the upper-right corner of the screen.
 
     ![](assets/workflow-create.png)
 
-1. In workflow **Properties** dialog, select the template to use to create the workflow (you can also use the default built-in template). Learn more about templates in [the section below](#work-with-workflow-templates-workflow-templates).
+1. In workflow **Properties** dialog, select the template to use to create the workflow (you can also use the default built-in template). [Learn more about workflow templates](#workflow-templates).
 
 1. Enter a label for the workflow. In addition, we strongly recommend you to add a description to your workflow, in the dedicated field of the **[!UICONTROL Additional options]** section of the screen.
 
@@ -42,10 +39,9 @@ To do so, follow these steps:
 
 1. Click the **[!UICONTROL Create workflow]** button to confirm the creation of your workflow.
 
-Your workflow is now created and available in the list of worklows. You can now access its visual canvas and start adding, configuring, and orchestrating the tasks it will perform. Learn how to orchestrate workflow activities in [this page](orchestrate-activities.md).
+Your workflow is now created and available in the list of worklows. You can now access its visual canvas and start adding, configuring, and orchestrating the tasks it will perform. [Learn how to orchestrate workflow activities](orchestrate-activities.md).
 
 ## Work with workflow templates {#workflow-templates}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_template_for_campaign"
@@ -55,7 +51,6 @@ Your workflow is now created and available in the list of worklows. You can now 
 Workflow templates contain pre-configured settings and activities which can be reused for creating new workflows. You can select the template of your workflow from the workflow properties, when creating a workflow. An empty template is provided by default.
 
 You can create a template from an existing workflow, or create a new template from scratch. Both methods are detailed below.
-
 
 >[!BEGINTABS]
 

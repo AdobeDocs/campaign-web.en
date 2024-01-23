@@ -2,7 +2,7 @@
 audience: end-user
 title: Use an Adobe Experience Platform audience
 description: Learn how to use an audience from Adobe Experience Platform
-badge: label="Beta" 
+badge: label="Limited Availability" 
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
 ---
 # Use an Adobe Experience Platform audience{#aep-audience}
@@ -35,6 +35,8 @@ To select an Adobe Experience Platform audience for your delivery, follow the st
 
     You can also define a rule to filter on the origin of the audiences, as below:
 
+     The filter section allows you to access filtering options to refine the audiences list. To do this, click **Add rules** to access the query modeler, which lets you create advanced filters for the list of audiences. [Learn how to use the query modeler](../query/query-modeler-overview.md)
+
     ![](assets/filter-on-aep-audience.png)
 
 1. Choose an audience and click **Select**.
@@ -43,6 +45,6 @@ To select an Adobe Experience Platform audience for your delivery, follow the st
 
    ![](assets/refine-audience.png)
 
-1. Using the rule builder, you can enrich your audience with additional filters or by combining different audiences. See this [section](../query/query-modeler-overview.md).
+1. Using the query modeler, you can enrich your audience with additional filters or by combining different audiences. See this [section](../query/query-modeler-overview.md).
 
 1. Click **Save**. 

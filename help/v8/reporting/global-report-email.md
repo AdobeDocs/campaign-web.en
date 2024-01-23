@@ -1,12 +1,13 @@
 ---
 audience: end-user
 title: Global reports for the email channel
-description: Learn more about Global reports for the email channel
+description: Learn more about global reports for the email channel
 badge: label="Limited Availability"
+exl-id: 37c575e5-fd18-4a35-a11a-922d5bda1bae
 ---
-# Global reports for the email channel {#global-report-direct}
+# Global reports for the Email channel {#global-report-direct}
 
-The Global reports provide users with a comprehensive overview of traffic and engagement metrics at a channel-level.
+The global reports provide users with a comprehensive overview of traffic and engagement metrics at a channel-level.
 
 Navigate to the **[!UICONTROL Reports]** menu within the **[!UICONTROL Reporting]** section. You can filter your data depending on the Report date, folder or rules. [Learn more](global-reports.md)
 

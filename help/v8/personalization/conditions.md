@@ -5,7 +5,7 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Beginner
-badge: label="Beta"
+badge: label="Limited Availability"
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
 ---
 # Build conditional content{#add-conditions}
@@ -93,7 +93,7 @@ Detailed information on how to create conditions using the expression editor is 
 
 1. Configure your first variant. Hover over **[!UICONTROL Variant - 1]** in the **[!UICONTROL Conditional Content]** pane and click the **[!UICONTROL Add condition]** icon.
 
-1. A rule builder appears. Use profile attributes to create the condition for the first variant of the message and click **[!UICONTROL Confirm]**. In this example, we are creating a rule targeting recipients whose language is 'French'.
+1. A query modeler appears. Use profile attributes to create the condition for the first variant of the message and click **[!UICONTROL Confirm]**. In this example, we are creating a rule targeting recipients whose language is 'French'.
 
     ![](assets/condition-email-rule.png){width="800" align="center"}
 

@@ -3,15 +3,14 @@ audience: end-user
 title: Delivery Settings
 description: Learn more about delivery settings in Campaign Web 
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-badge: label="Beta" 
+badge: label="Limited Availability"
 ---
 
-# Delivery settings {#email-del-settings}
+# Email delivery settings {#email-del-settings}
 
 Email delivery settings are **technical delivery parameters** that are defined in the email template. They can be overloaded for each delivery.
 
-These settings are available from the **Configure delivery settings** icon available when editing an email delivery or an email delivery template.
-
+These settings are available from the **Settings** button available when editing an email delivery or an email delivery template.
 
 ## Email delivery settings {#email-delivery-settings}
 
@@ -24,30 +23,27 @@ These settings are available from the **Configure delivery settings** icon avail
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="Typology"
->abstract="Typology rules allow marketers to standardize business practices, across all deliveries. A typology is a collection of typology rules which lets you control, filter, and prioritize the sending of deliveries. Profiles which match criteria within a typology rule are excluded from the delivery audiences at the preparation phase. Typologies and typology rules are created in Campaign Client Console."
-
+>abstract="Typology rules allow marketers to standardize business practices, across all deliveries. A typology is a collection of typology rules which lets you control, filter, and prioritize the sending of deliveries. Profiles which match criteria within a typology rule are excluded from the delivery audiences at the preparation phase. Typologies and typology rules are created in the Campaign client console."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
 >title="Typology settings for the delivery"
->abstract="Typology rules allow marketers to standardize business practices, across all deliveries. A typology is a collection of typology rules which lets you control, filter, and prioritize the sending of deliveries. Profiles which match criteria within a typology rule are excluded from the delivery audiences at the preparation phase. Typologies and typology rules are created in Campaign Client Console."
+>abstract="Typology rules allow marketers to standardize business practices, across all deliveries. A typology is a collection of typology rules which lets you control, filter, and prioritize the sending of deliveries. Profiles which match criteria within a typology rule are excluded from the delivery audiences at the preparation phase. Typologies and typology rules are created in the Campaign client console."
 
 
-Typologies are sets of **typology rules**, that are executed during the preparation phase. Typology rules allow marketers to standardize business practices, across all deliveries. A typology is a collection of typology rules which lets you control, filter, and prioritize the sending of deliveries. Profiles which match criteria within a typology rule are excluded from the delivery audiences at the delivery preparation phase.  They allow you to make sure your emails always contain certain elements (such as an unsubscription link or a subject line) or filtering rules to exclude groups from your intended target (like unsubscribers, competitors, or non-loyalty customers).
+Typologies are sets of **typology rules** that are executed during the preparation phase in order to easily apply multiple filtering rules to a delivery at once. They allow marketers to standardize business practices across all deliveries as they let them control, filter, and prioritize the sending of deliveries.
 
-Typology rules are grouped together within a typology in order to easily apply multiple filtering rules to a delivery at once.
+When associating a typology with a message or message template, the typology rules included in the typology are executed to check the delivery validity during message preparation. Profiles which match criteria within a typology rule are then excluded from the delivery audiences.
 
-When associating a typology with a message or message template, the typology rules included in the typology are executed to check the message validity during message preparation.
+Typologies allow you to make sure your emails always contain certain elements (such as an unsubscription link or a subject line) or filtering rules to exclude groups from your intended target (like unsubscribers, competitors, or non-loyalty customers).
 
-![](assets/delivery-settings-1.png)
-
+![](assets/delivery-settings-typology.png)
 
 >[!NOTE]
 >
->Typologies and typology rules are created in Campaign Client Console. Learn more about pressure rules and how to configure fatigue management in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html){target="_blank"}.
+>Typologies and typology rules are created in the Campaign client console. Learn more about pressure rules and how to configure fatigue management in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html){target="_blank"}.
 
 ### Pressure parameters {#pressure-parameters}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_pressure_parameters"
@@ -60,36 +56,36 @@ When associating a typology with a message or message template, the typology rul
 >title="Delivery weight"
 >abstract="Delivery weights let you identify top-priority deliveries within the framework of pressure management. Messages with the highest weight have priority."
 
-In this section, pressure parameters let you define a **threshold** to set up fatigue management rules. This is the maximum number of messages that can be sent to one profile over a given period. Once this threshold has been reached, no more deliveries can take place until the end of the period considered. This process lets you automatically exclude a profile from a delivery if a message exceeds the set threshold, thus avoiding over-solicitation.
+In this section, pressure parameters let you define a **threshold** to set up fatigue management rules, which is the maximum number of messages that can be sent to one profile over a given period.
+
+Once this threshold has been reached, no more deliveries can take place until the end of the period considered. This process lets you automatically exclude a profile from a delivery if a message exceeds the set threshold, thus avoiding over-solicitation.
 
 Threshold values can be either constant or variable. This means that for a given period, thresholds can vary from one profile to another, or even for the same profile.
 
-In the **Weight type** field, three options are available:
+In the **[!UICONTROL Weight type]** field, three options are available:
 
-* **Constant**
-* **Depends on the recipient**
-* **Defined in each rule**
+* **[!UICONTROL Constant]**
+* **[!UICONTROL Depends on the recipient]**
+* **[!UICONTROL Defined in each rule]**
 
-Use the **Delivery weight** field to define the delivery priority. Each delivery has a weight which represents its level of priority. By default, the weight of a delivery is set to 5. Pressure rules let you define the weight of the deliveries which they are applied to. Weights can be either set or calculated via a formula to suit recipients. For example, you can define the weight of a delivery based on recipient interests.
+Use the **[!UICONTROL Delivery weight]** field to define the delivery priority. Each delivery has a weight which represents its level of priority. By default, the weight of a delivery is set to 5. Pressure rules let you define the weight of the deliveries which they are applied to. Weights can be either set or calculated via a formula to suit recipients. For example, you can define the weight of a delivery based on recipient interests.
 
+Use the **[!UICONTROL Delivery mode]** field to select the target evaluation mode. Three modes are available:
 
-Use the **Delivery mode** field to select the target evaluation mode. Three modes are available:
-
-* **Target estimation and message personalization**
-* **Estimation and approval of the provisional target**
-* **Target evaluation**
+* **[!UICONTROL Target estimation and message personalization]**
+* **[!UICONTROL Estimation and approval of the provisional target]**
+* **[!UICONTROL Target evaluation]**
 
 >[!NOTE]
 >
->Fatigue management is configured in Campaign Client Console. Learn more in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}.
+>Fatigue management is configured in the Campaign client console. Learn more in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}.
 
 ### Capacity settings {#capacity-settings}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_capacity_settings"
 >title="Capacity settings for the delivery"
->abstract="Before delivering messages, use capacity rules to make sure your organization can process the delivery, the inbound messages which the delivery may generate, and the number of calls to be made to contact subscribers for example. Capacity rules are defined in the Adobe Campaign v8 Console. In this screen, select a rule associated to the email channel."
-
+>abstract="Before delivering messages, use capacity rules to make sure your organization can process the delivery, the inbound messages which the delivery may generate, and the number of calls to be made to contact subscribers for example. Capacity rules are defined in the Adobe Campaign v8 console. In this screen, select a rule associated to the email channel."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_recipient_importance"
@@ -97,14 +93,13 @@ Use the **Delivery mode** field to select the target evaluation mode. Three mode
 >abstract="The importance of the recipient is a formula used to determine which recipients are kept when the capacity typology rules are exceeded."
 
 
-In this section, you can select a capacity rule defined in the Adobe Campaign v8 Console. This rule is associated to the email channel.
+In this section, you can select a capacity rule defined in the Adobe Campaign v8 console. This rule is associated to the email channel.
 
-The **importance of the recipient** field is a formula used to determine which recipients are kept when the capacity typology rules are exceeded.
+The **[!UICONTROL Importance of the recipient]** field is a formula used to determine which recipients are kept when the capacity typology rules are exceeded.
 
 >[!NOTE]
 >
->Typology rules are configured in Campaign Client Console. Learn more in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}.
-
+>Typology rules are configured in the Campaign Client console. Learn more in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}.
 
 ## Audience settings {#audience}
 
@@ -117,6 +112,8 @@ In this section, you can select a **target mapping** among those available. Targ
 
 Learn more about target mappings in [this section](../audience/targeting-dimensions.md).
 
+In the **[!UICONTROL Exclusion]** field, you can select to exclude recipients who no longer want to be contacted or who are quarantined. [Learn more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
+
 ## Delivery {#delivery}
 
 >[!CONTEXTUALHELP]
@@ -124,21 +121,40 @@ Learn more about target mappings in [this section](../audience/targeting-dimensi
 >title="Delivery settings for the delivery"
 >abstract="Delivery parameters are technical settings which apply to your delivery. You can activate BCC for the delivery, and change the delivery and routine modes. These options are restricted to expert users only."
 
-Delivery parameters are technical settings which apply to your delivery. 
+**[!UICONTROL Delivery]** parameters are technical settings which apply to your delivery. 
 
-* **Routing**: the integrated email routing external account is provided by default. It contains the technical parameters that allow the application to send emails.
+The integrated email **[!UICONTROL Routing]** external account is provided by default. It contains the technical parameters that allow the application to send emails.
 
-* **Test SMTP delivery**: this option is used to test sending via SMTP. The delivery is processed up to connection to the SMTP server but is not sent: for every recipient of the delivery, Campaign connects to the SMTP provider server, executes the SMTP RCPT TO command, and closes the connection before the SMTP DATA command.
+You can define the following **[!UICONTROL Sending]** settings:
 
-* **Email BCC**: this option is used to store emails on an external system through BCC by simply adding a BCC email address to your message target. Learn more about Email BCC in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
+* **[!UICONTROL Test SMTP delivery]**: This option is used to test sending via SMTP. The delivery is processed up to connection to the SMTP server but is not sent: for every recipient of the delivery, Campaign connects to the SMTP provider server, executes the SMTP RCPT TO command, and closes the connection before the SMTP DATA command.
 
-### Web Analytics {#web-analytics}
+* **[!UICONTROL Email BCC]**: This option is used to store emails on an external system through BCC by simply adding a BCC email address to your message target. Learn more in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
+You can also change the format of the email messages sent:
+
+* **[!UICONTROL Use recipient preferences]** (default mode)
+
+  The message format is defined according to the data stored in the recipient profile. If a recipient wishes to receive messages in a certain format, this is the format sent. If the field is not filled in, a multipart-alternative message is sent (see below).
+
+* **[!UICONTROL Let recipient mail client choose the most appropriate format]**
+
+  The message contains both formats: text and HTML. The format displayed on reception depends on the configuration of the recipient's mail software (multipart-alternative).
+
+  >[!IMPORTANT]
+  >
+  >This option includes both versions of the document. It therefore impacts the delivery rate, because the message size is greater.
+
+* **[!UICONTROL Send all messages in text format]**
+
+  The message is sent in text format. HTML format will not be sent, but used for the mirror page only when the recipient clicks the message.
+
+## Web Analytics {#web-analytics}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_webanalytics"
 >title="Web analytics settings for the delivery"
->abstract="Select a web analytics account. This account is configured in the Campaign Client Console. You can also define the tags shared with the analytics tool you are using."
+>abstract="Select a web analytics account. This account is configured in the Campaign Client console. You can also define the tags shared with the analytics tool you are using."
 
 In this section, you can select a web analytics account. This account is configured in the Campaign client console. 
 
@@ -146,15 +162,16 @@ You can also define the tags shared with the analytics tool you are using.
 
 >[!NOTE]
 >
->Web Analytics capabilities are configured in Campaign Client Console. Learn more in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
+>Web Analytics capabilities are configured in the Campaign Client console. Learn more in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html#external-account-ac){target="_blank"}.
 
-
-### Retries {#retries}
+## Retries {#retries}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_retries"
 >title="Maximum number of retries"
 >abstract="If a message fails due to a temporary error, retries are performed until the end of the delivery duration."
+
+<!--Currently not visible in UI > ??-->
 
 Temporarily undelivered messages due to a Soft or Ignored error are subject to an automatic retry. By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. 
 
@@ -167,7 +184,6 @@ Learn more about retry management in [Campaign v8 (client console) documentation
 >title="Approval mode for the delivery"
 >abstract="Select the approval mode. If warnings are generated during the delivery preparation, you can configure the delivery to define whether or not it should still be executed."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_approval"
 >title="Approval mode for the deliveries"
@@ -177,32 +193,29 @@ If warnings are generated during the delivery preparation, you can configure the
 
 You can select another approval mode in the appropriate field. Available modes are: 
 
-* **Manual**: At the end of the analysis phase, the user must confirm delivery to start sending. 
+* ****[!UICONTROL Manual]****: At the end of the analysis phase, the user must confirm delivery to start sending. 
 
-* **Semi-Automatic**: Sending begins automatically if the analysis phase generates no warning messages.
+* **[!UICONTROL Semi-Automatic]**: Sending begins automatically if the analysis phase generates no warning messages.
 
-* **Automatic**: Sending begins automatically at the end of the analysis phase, irrespective of its result.
-
+* **[!UICONTROL Automatic]**: Sending begins automatically at the end of the analysis phase, irrespective of its result.
 
 ## Validity {#validity}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_validity"
 >title="Settings validity"
->abstract="The Delivery duration field lets you enter the limit for global delivery retries. This means that Adobe Campaign sends the messages beginning on the start date, and then, for messages returning an error only, regular, configurable retries are performed until the validity limit is reached.The Validity limit field is used for uploaded resources, such as the mirror page or images. These resources are valid for a limited time: once the limit is reached, resources are no longer available."
-
-
+>abstract="The **Delivery duration** field lets you enter the limit for global delivery retries. This means that Adobe Campaign sends the messages beginning on the start date, and then, for messages returning an error only, regular, configurable retries are performed until the validity limit is reached.<br>The **Resources validity limit** field is used for uploaded resources, such as mirror page or images. Once the limit is reached, resources are no longer available."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_resources_validity"
 >title="Resources validity limit"
->abstract="The Validity limit field is used for uploaded resources, such as the mirror page or images. These resources are valid for a limited time: once the limit is reached, resources are no longer available."
-
+>abstract="The **Resources validity limit** field is used for uploaded resources, such as the mirror page or images. These resources are valid for a limited time: once the limit is reached, resources are no longer available."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_delivery_duration"
 >title="Delivery duration"
->abstract="The Delivery duration field lets you enter the limit for global delivery retries. This means that Adobe Campaign sends the messages beginning on the start date, and then, for messages returning an error only, regular, configurable retries are performed until the validity limit is reached."
+>abstract="The **Delivery duration** field lets you enter the limit for global delivery retries. This means that Adobe Campaign sends the messages beginning on the start date, and then, for messages returning an error only, regular, configurable retries are performed until the validity limit is reached."
+
 <!--
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_resources_validity"
@@ -210,14 +223,17 @@ You can select another approval mode in the appropriate field. Available modes a
 >abstract="The Validity limit field is used for uploaded resources, such as the mirror page or images. These resources are valid for a limited time: once the limit is reached, resources are no longer available."
 -->
 
-The **Delivery duration** field lets you enter the limit for global delivery retries. This means that Adobe Campaign sends the messages beginning on the start date, and then, for messages returning an error only, regular, configurable retries are performed until the validity limit is reached.
+### Validity period {#validity-period}
 
-You can also choose to specify dates. To do this, select **Explicitly set validity dates**. In this case, the delivery and validity limit dates also let you specify the time. The current time is used by default, but you can modify this directly in the input field.
+The **[!UICONTROL Delivery duration]** field lets you enter the limit for global delivery retries. This means that Adobe Campaign sends the messages beginning on the start date, and then, for messages returning an error only, regular, configurable retries are performed until the validity limit is reached.
 
-**Resources Validity limit** is used for uploaded resources, mainly for the mirror page and images. The resources on this page are valid for a limited time (to save disk space). After this limit, these resources are no longer available.
+You can also choose to specify dates. To do this, select **[!UICONTROL Explicitly set validity dates]**. In this case, the delivery and validity limit dates also let you specify the time. The current time is used by default, but you can modify this directly in the input field.
 
-![](assets/delivery-settings-2.png)
+**[!UICONTROL Resources validity limit]** is used for uploaded resources, mainly for the mirror page and images. The resources on this page are valid for a limited time (to save disk space). After this limit, these resources are no longer available.
 
+![](assets/delivery-settings-validity.png)
+
+<!--Change screenshot to be consistent with prod > not sure which version is correct-->
 
 Learn more about delivery validity period in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html#validity-period){target="_blank"}.
 
@@ -227,10 +243,9 @@ The mirror page is an HTML page accessible online via a web browser. Its content
 
 In addition to the default mode, the following options are also available:
 
-
-* **[!UICONTROL Force the generation of the mirror page]**: use this mode to generate the mirror page even if no link to the mirror page is inserted in the delivery.
-* **[!UICONTROL Do not generate the mirror page]**: use this mode to avoid generating a mirror page, even if the link is present in the delivery.
-* **[!UICONTROL Generates a mirror page accessible using only the message identifier]**: when the mirror page link is not present in the email content, use this option to enable access the content of the mirror page, in the delivery log window, from the client console. 
+* **[!UICONTROL Force the generation of the mirror page]**: Use this mode to generate the mirror page even if no link to the mirror page is inserted in the delivery.
+* **[!UICONTROL Do not generate the mirror page]**: Use this mode to avoid generating a mirror page, even if the link is present in the delivery.
+* **[!UICONTROL Generates a mirror page accessible using only the message identifier]**: When the mirror page link is not present in the email content, use this option to enable access the content of the mirror page, in the delivery log window, from the client console. 
 
 
 ### Tracking {#tracking}
@@ -242,38 +257,36 @@ In addition to the default mode, the following options are also available:
 >abstract="This option defines the duration for which the tracking is activated on the URLs."
 -->
 
-
-
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_tracking_validity"
 >title="Validity period"
 >abstract="The validity period sets the duration for which the tracking is activated on the message URLs."
 
+**[!UICONTROL Tracking]** parameters are defined in the related section. Possible options are:
 
-Tracking parameters are defined in the related section. Possible options are:
+**[!UICONTROL Tracking validity limit]**: Use this option to change the duration for which the tracking is activated on the URLs.
 
-**Tracking validity limit**: use this option to change the duration for which the tracking is activated on the URLs.
+**[!UICONTROL Substitution URL for expired URLs]**: Use this option to enter a URL to a fallback web page: it is displayed once the tracking has expired.
 
-**Substitution URL for expired URLs**: use this option to enter a URL to a fall-back web page: it is displayed once the tracking has expired.
-
-## Test settings {#test-setttings}
+## Proof settings {#test-setttings}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_testsettings"
->title="Test settings for the delivery"
->abstract="Select the exclusion parameters and customize the label of the test emails."
+>title="Define the proof settings for the delivery"
+>abstract="Select the exclusion parameters and customize the label of the proofs."
+
+<!--Test to be replaced with Proof everywhere - currently not consistent within UI > changed to Proof to reflect UI here but not consistent in documentation either-->
 
 You can set the exclusion parameters in this section. Available options are:
 
-* **Keep double** lets you authorize multiple deliveries to recipients who satisfy several targeting criteria.
+* ****[!UICONTROL Keep doubles]**** lets you authorize multiple deliveries to recipients who satisfy several targeting criteria.
 
-* **Keep denylisted addresses** lets you keep from the target any profiles no longer being targeted by the delivery, such as after an unsubscription (opt-out).
+* **[!UICONTROL Keep denylisted addresses]** lets you keep from the target any profiles no longer being targeted by the delivery, such as after an unsubscription (opt-out).
 
-* **Keep quarantined addresses** lets you keep from the target any profiles with an address that does not respond. 
+* **[!UICONTROL Keep quarantined addresses]** lets you keep from the target any profiles with an address that does not respond. 
 
-You can also customize the name of the test emails.
+You can also customize the lable of the proofs:
 
-Use the **Keep the delivery code for the proof** to associate to the test email the same delivery code as the one defined for the delivery to which it relates.
+* Use the **[!UICONTROL Keep the delivery code for the proof]** to associate to the proof the same delivery code as the one defined for the delivery to which it relates.
 
-By default, the subject of the test email is prefixed by 'PROOF #', where # is the number of the test email. You can change this prefix in the **Label prefix** field.
+* By default, the subject of the proof is prefixed by 'PROOF #', where # is the number of the proof. You can change this prefix in the **[!UICONTROL Label prefix]** field.

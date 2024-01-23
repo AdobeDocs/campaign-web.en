@@ -5,6 +5,7 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 badge: label="Limited Availability"
+exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
 ---
 # Create and manage test profiles {#create-test-profiles}
 
@@ -74,7 +75,7 @@ To create a test profile, follow the steps below.
 
 1. By default, test profiles are stored in the **[!UICONTROL Seed addresses]** folder. You can change it by browsing to the desired location. [Learn how to work with folders](../get-started/permissions.md#folders)
 
-    ![](assets/test-profile-folder.png)
+    <!--![](assets/test-profile-folder.png)-->
 
 <!--
 You do not need to enter all fields of each tab when creating a seed address. Missing personalization elements are entered randomly during delivery analysis. (Not valid?)
@@ -97,6 +98,3 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 The test profile you just created is now ready to be used to send a test. [Learn more](../preview-test/test-deliveries.md#test-profiles)
 
 <!--Use test profiles in Direct mail? cf v7/v8-->
-
-
-

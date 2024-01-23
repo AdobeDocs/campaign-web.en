@@ -1,12 +1,13 @@
 ---
 audience: end-user
 title: Global reports for the Push channel
-description: Understand Global reports for the Push channel
+description: Understand global reports for the Push channel
 badge: label="Limited Availability"
+exl-id: 829a9b68-5c41-47dd-843c-412b6d255e8b
 ---
 # Global reports for the Push channel {#campaign-reports-push}
 
-The Global reports provide users with a comprehensive overview of traffic and engagement metrics at a channel-level.
+The global reports provide users with a comprehensive overview of traffic and engagement metrics at a channel-level.
 
 Navigate to the **[!UICONTROL Reports]** menu within the **[!UICONTROL Reporting]** section. You can filter your data depending on the Report date, folder or rules. [Learn more](global-reports.md)
 
@@ -102,4 +103,3 @@ Push notifications error types are listed in the [Adobe Campaign v8 (client cons
 ![](assets/global_report_push_delivery_throughput.png)
 
 The **[!UICONTROL Delivery Throughput]** report offers comprehensive insights into the effectiveness of the push notification delivery system, offering a detailed summary of success and error rates over a specified period.
-

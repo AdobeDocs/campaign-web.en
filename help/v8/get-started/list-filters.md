@@ -1,11 +1,11 @@
 ---
 audience: end-user
-title: Browse, search and filter lists
+title: Browse and filter lists
 description: Discover how to browse and filter lists Campaign Web v8
 badge: label="Limited Availabilty"
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
 ---
-# Browse, search, and filter lists {#list-screens}
+# Browse and filter lists {#list-screens}
 
 Most of the links from the left navigation menu display lists of objects, such as the list of **Deliveries** or **Campaigns**. Some of these list screens are read-only. You can customize the list display, and filter these lists, as detailed below.
 

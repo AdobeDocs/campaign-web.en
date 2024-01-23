@@ -4,7 +4,7 @@ description: Guardrails and limitations in Campaign Web UI
 badge: label="Beta"
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
 ---
-# Guardrails & limitations {#guardrails-limitations}
+# Guardrails and limitations {#guardrails-limitations}
 
 When working in Campaign web UI with components created or modified in Campaign client console, the guardrails and limitations listed below apply.
 
@@ -55,7 +55,7 @@ The positioning of the nodes is refreshed everytime an activity is added or remo
 >[!CONTEXTUALHELP]
 >id="acw_predefined_filter_read_only"
 >title="This filter is read-only"
->abstract="Some predefined filters are not available in the user interface in that version of the product. These filters are marked as read-only. Even if you cannot view the graphic representation of the query in the rule builder, and cannot edit the filter, you can still use it, and see the filtering conditions in the **Attributes** section of the screen."
+>abstract="Some predefined filters are not available in the user interface in that version of the product. These filters are marked as read-only. Even if you cannot view the graphic representation of the query in the query modeler, and cannot edit the filter, you can still use it, and see the filtering conditions in the **Attributes** section of the screen."
 
 When selecting the audience of a delivery, or when building an audience in a workflow, some predefined filters are not available in the user interface, in that version of the product. These filters are marked as read-only.
 
@@ -63,7 +63,7 @@ A specific error message is displayed.
 
 ![](assets/filter-unavailable.png){width="70%" align="left"}
 
-Even if you cannot view the graphic representation of the query in the rule builder, and cannot edit the filter, you can still use it, and see the filtering conditions in the **Attributes** section of the screen. 
+Even if you cannot view the graphic representation of the query in the query modeler, and cannot edit the filter, you can still use it, and see the filtering conditions in the **Attributes** section of the screen. 
 
 ![](assets/rule-edit.png){width="70%" align="left"}
 

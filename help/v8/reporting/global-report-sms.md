@@ -1,12 +1,13 @@
 ---
 audience: end-user
 title: Global reports for the SMS channel
-description: Understand Global reports for the SMS channel
+description: Understand global reports for the SMS channel
 badge: label="Limited Availability"
+exl-id: 346cf2ff-b6e4-4d8f-ba26-197eadeaf5e6
 ---
 # Global reports for the SMS channel {#campaign-reports-sms}
 
-The Global reports provide users with a comprehensive overview of traffic and engagement metrics at a channel-level.
+The global reports provide users with a comprehensive overview of traffic and engagement metrics at a channel-level.
 
 Navigate to the **[!UICONTROL Reports]** menu within the **[!UICONTROL Reporting]** section. You can filter your data depending on the Report date, folder or rules. [Learn more](global-reports.md)
 

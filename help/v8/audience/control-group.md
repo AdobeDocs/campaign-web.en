@@ -3,7 +3,7 @@ audience: end-user
 title: Set a control group
 description: Learn how to set a control group for your messages in Campaign Web UI
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-badge: label="Beta" 
+badge: label="Limited Availability" 
 ---
 # Set a control group {#control-group}
 
@@ -108,7 +108,7 @@ From the **Extra population** section of the **Control Group** definition screen
 
 * To use an existing audience, click **Select audience**. Learn more in [this section](add-audience.md). 
 
-* To define a new query, select **Create your own** and define the exclusion criteria using the rule builder. Learn more in [this section](../query/query-modeler-overview.md). 
+* To define a new query, select **Create your own** and define the exclusion criteria using the query modeler. Learn more in [this section](../query/query-modeler-overview.md). 
 
 The profiles included in the audience or matching the result of the query are **excluded** from the delivery target: they do not receive any message.
 

@@ -9,9 +9,16 @@ badge: label="Limited Availability"
 # What's new? {#new}
 
 >[!CONTEXTUALHELP]
+>id="acw_homepage_learning_card2"
+>title="Release Notes"
+>abstract="Our latest release is packed with intuitive features designed to simplify the creation of personalized cross-channel campaigns, drive exceptional results, and give you a competitive advantage across all channels."
+
+<!--TO REMOVE BELOW-->
+>[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
 >title="Release Notes"
 >abstract="Our latest release is packed with intuitive features designed to simplify the creation of personalized cross-channel campaigns, drive exceptional results, and give you a competitive advantage across all channels."
+<!--TO REMOVE ABOVE-->
 
 
 We are thrilled to introduce the new version of Adobe Campaign Web User Interface. Our latest release is packed with intuitive features designed to simplify the creation of personalized cross-channel campaigns, drive exceptional results, and give you a competitive advantage across all channels.
@@ -50,7 +57,7 @@ Adobe Campaign Web features a powerful query modeler that simplifies the process
 * Define audiences to target in your messages or workflows, and effortlessly create new audiences tailored to your needs
 * Apply rules within workflow activities, such as Split and Reconciliation, to align with your specific requirements
 * Create predefined filters that serve as shortcuts during various filtering operations, whether you're working with data lists or forming the audience for a delivery
-* Add rule to filter the data displayed in reports.    
+* Add rule to filter the data displayed in reports
 * Create custom rules to filter the data displayed in lists such as recipients, deliveries lists, and more
 
 Learn more in [this section](../query/query-modeler-overview.md).
@@ -65,7 +72,7 @@ Use the new Campaign Web UI to:
 * Create, design, personalize, schedule, and send email, SMS, and push notifications - [Learn more](../msg/gs-messages.md)
 * Design personalized email content with the email designer - [Learn more](../email/edit-content.md)
 * Send cross cannel campaigns, including SMS and push notifications - [Learn more](../workflows/activities/channels.md)
-* Define target audiences with the rule builder - [Learn more](../audience/about-recipients.md)
+* Define target audiences with the query modeler - [Learn more](../audience/about-recipients.md)
 * Preview, test and send your messages - [Learn more](../monitor/prepare-send.md)
 * Monitor send and measure results with built-in reports - [Learn more](../reporting/delivery-reports.md)
 
@@ -102,13 +109,13 @@ Key capabilities coming with Campaign Web Limited Availability release are liste
     
     Elevate and streamline your content management capabilities on the web UI with this integration to boost productivity.
 -->
-
+<!--
 * **Gen AI for Email content**
 
     Say goodbye to manual content creation and hello to efficient, data-driven campaigns with the power of Gen AI.  Our Gen AI technology utilizes advanced algorithms to **generate highly engaging and personalized content**. Drive higher open rates, click-through rates, and conversions with Gen AI's intelligent content generation. Stay ahead of the competition and elevate your email marketing game with Gen AI on email content.
 
     Learn more in [this section](../email/generative-gs.md).
-
+-->
 
 * **AI-powered Contextual Help**
 

@@ -6,12 +6,22 @@ exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Limited Availability" 
 ---
 
-# Send your first email {#first-email}
+# Create your first email {#first-email}
 
+>[!CONTEXTUALHELP]
+>id="acw_homepage_learning_card3"
+>title="Get started with emails"
+>abstract="You can create a standalone email delivery, or create an email in the context of a campaign workflow. Learn how to create the delivery, select the audience, and design the email content."
+
+
+<!--TO REMOVE BELOW-->
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card3"
 >title="Get started with emails"
 >abstract="You can create a standalone email delivery, or create an email in the context of a campaign workflow. Learn how to create the delivery, select the audience, and design the email content."
+<!--TO REMOVE ABOVE-->
+
+
 
 Learn how to create your first targeted email. In this use case, you schedule the sending of an email to Silver and Gold loyalty members on a specific date.
 
@@ -35,7 +45,7 @@ To create a new standalone email delivery, follow the steps below.
 
 1. Browse to the **[!UICONTROL Deliveries]** menu on the left rail, and click the  **[!UICONTROL Create delivery]** button.
 
-    ![](assets/delivery-list.png)
+    ![](../msg/assets/create-a-delivery.png)
 
 1. Select **[!UICONTROL Email]** as the channel and choose an email delivery template from the list.
 
@@ -67,7 +77,7 @@ To create a new standalone email delivery, follow the steps below.
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="Select an audience for your delivery"
->abstract="Select the best audience for your marketing message. You can choose an existing audience (already defined in a Campaign v8 instance or from Adobe Experience Platform), create a new audience using the rule builder, or upload a file containing your audience. Control groups are not enabled for the **Select from file** option and vice versa."
+>abstract="Select the best audience for your marketing message. You can choose an existing audience (already defined in a Campaign v8 instance or from Adobe Experience Platform), create a new audience using the query modeler, or upload a file containing your audience. Control groups are not enabled for the **Select from file** option and vice versa."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html" text="Select the main audiences"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="Set a control group"
 

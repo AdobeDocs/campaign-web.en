@@ -10,7 +10,7 @@ exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_push"
 >title="Reporting sending"
->abstract="he **Sending** tab within your report provides in-depth insights into your visitors' interactions with your deliveries and any potential errors they may have encountered."
+>abstract="The **Sending** tab within your report provides in-depth insights into your visitors' interactions with your deliveries and any potential errors they may have encountered."
 
 The **Push delivery report** provides a thorough overview of the push channel, offering extensive insights and specific data. It offers comprehensive information regarding the performance, effectiveness, and results of each delivery.
 

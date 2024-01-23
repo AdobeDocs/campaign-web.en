@@ -5,7 +5,7 @@ description: Learn how to send a push notification delivery with Adobe Campaign 
 badge: label="Limited Availability"
 exl-id: 16b3b33b-36db-4635-8e44-707694b859db
 ---
-# Preview and send a push notification delivery {#send-push-delivery}
+# Preview and send a push delivery {#send-push-delivery}
 
 ## Preview your push notification delivery {#preview-push}
 
