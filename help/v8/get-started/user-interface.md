@@ -399,4 +399,7 @@ Deprecated IDs - to remove in GA: -->
 >title="This template is ready only"
 >abstract="TBC"
 
-
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_generatesubsets"
+>title="Generate all subsets in the same table"
+>abstract="TBC"
