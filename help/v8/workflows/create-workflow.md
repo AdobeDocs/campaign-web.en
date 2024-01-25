@@ -48,6 +48,11 @@ Your workflow is now created and available in the list of worklows. You can now 
 >title="Workflow templates"
 >abstract="Workflow templates contain pre-configured settings and activities which can be reused for creating new workflows."
 
+>[!CONTEXTUALHELP]
+>id="acw_workflow_template_creation_properties"
+>title="Workflow properties"
+>abstract="Workflow templates contain pre-configured settings and activities which can be reused for creating new workflows. In this screen, enter the label of the workflow template and configure its settings such as its internal name, folder and execution folders, timezone, and supervisor group."
+
 Workflow templates contain pre-configured settings and activities which can be reused for creating new workflows. You can select the template of your workflow from the workflow properties, when creating a workflow. An empty template is provided by default.
 
 You can create a template from an existing workflow, or create a new template from scratch. Both methods are detailed below.
