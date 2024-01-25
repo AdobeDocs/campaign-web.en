@@ -10,7 +10,7 @@ In Adobe Campaign Web, a **profile** is an individual stored in the database, se
 
 **Audiences** are sets of profiles who share similar behaviors and/or characteristics. This collection of people can either be generated, selected, or loaded.  Once created, audiences can be leveraged as the target population of your deliveries.
 
-In addition, Adobe Campaign web can be used to manage and create **services** such as newsletters, and to check the subscriptions or unsubscriptions to these services. Once done, you can add subscribers, unsubscribe profiles, and send messages to the subscribers of your services.
+In addition, Adobe Campaign Web can be used to manage and create **services** such as newsletters, and to check the subscriptions or unsubscriptions to these services. Once done, you can add subscribers, unsubscribe profiles, and send messages to the subscribers of your services.
 
 Now that you have an understanding of what you can do in Adobe Campaign Web, it's time to dive deeper into these documentation sections to start working with it.
 

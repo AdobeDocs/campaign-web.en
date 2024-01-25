@@ -12,7 +12,7 @@ exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 >title="Create and manage services"
 >abstract="Use Adobe Campaign to create and monitor your services such as newsletters, and to check the subscriptions or unsubscriptions to these services. Subscriptions only apply to email and SMS delivery."
 
-Use Adobe Campaign web to manage and create your services such as newsletters, and to check the subscriptions or unsubscriptions to these services.
+Use Adobe Campaign Web to manage and create your services such as newsletters, and to check the subscriptions or unsubscriptions to these services.
 
 >[!NOTE]
 >

@@ -1,6 +1,6 @@
 ---
 title: Create conditional content
-description: Learn how to define conditions to personalize your content in Adobe Campaign web UI
+description: Learn how to define conditions to personalize your content in Adobe Campaign Web
 feature: Personalization
 topic: Personalization
 role: Data Engineer

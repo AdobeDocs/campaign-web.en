@@ -1,6 +1,6 @@
 ---
 title: Personalize your content in Campaign
-description: Learn how to personalize your content in Adobe Campaign web UI
+description: Learn how to personalize your content in Adobe Campaign Web
 feature: Personalization
 topic: Personalization
 role: Data Engineer
