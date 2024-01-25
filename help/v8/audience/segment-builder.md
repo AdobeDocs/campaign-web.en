@@ -9,7 +9,7 @@ badge: label="Beta"
 
 The rule builder allows you to define the population targeted by your delivery by filtering data contained in the database. You can use it to build an audience either from a workflow using a **[!UICONTROL Build audience]** activity, or directly when creating a delivery to create a one-time audience.
 
-* [Learn how to create an audience](create-audience.md)
+* [Learn how to create and save an audience](create-audience.md)
 * [Learn how to create a one-time audience for a delivery](one-time-audience.md)
 
 ## The palette
