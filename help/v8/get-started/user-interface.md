@@ -236,10 +236,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Recipients read only profile"
 >abstract="Recipients read only profile"
 
->[!CONTEXTUALHELP]
->id="acw_subscriptions_delivery_template"
->title="Subscriptions delivery template"
->abstract="Subscriptions delivery template"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"

@@ -86,6 +86,17 @@ You can now:
 
 ## Create a confirmation message {#create-confirmation-message}
 
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_delivery_template"
+>title="Select the subscriptions delivery template"
+>abstract="To send confirmation messages to the users who subscribe to your service, you must select a specific delivery template based on the **[!UICONTROL Subscriptions]** target mapping, without a defined target."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_unsubscriptions_delivery_template"
+>title="Select the unsubscriptions delivery template"
+>abstract="To send confirmation messages to the users who unsubscribe from your service, you must select a specific delivery template based on the **[!UICONTROL Subscriptions]** target mapping, without a defined target."
+
 To send confirmation messages to the users who subscribe to or unsubscribe from your service, you must create a delivery template with the **[!UICONTROL Subscriptions]** target mapping, without a defined target. To do so, follow the steps below.
 
 1. Create a delivery template for the susbscription confirmation. [Learn how to create a template](../msg/delivery-template.md)
