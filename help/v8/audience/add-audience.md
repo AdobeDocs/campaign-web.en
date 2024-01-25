@@ -30,11 +30,15 @@ To select an existing audience for your message, follow the steps below:
 
     ![](assets/create-audience2.png)
 
-   To choose an audience from Adobe Experience Platform, browse to the `AEP Audiences folder` from the filter section of the screen. [Learn how to use an Adobe Experience Platform audience](aep-audience.md)
+   To choose an audience from Adobe Experience Platform, browse to the `AEP Audiences folder` from the filter section of the screen.
 
     ![](assets/select-audience-folder.png)
 
 1. The filter section allows you to access filtering options to refine the audiences list. To do this, click **Add rules** to access the query modeler, which lets you create advanced filters for the list of audiences. [Learn how to use the query modeler](../query/query-modeler-overview.md)
+
+    For example, you can define a rule to filter on the origin of the audiences, as shown below:
+
+    ![](assets/filter-on-aep-audience.png)
 
 1. Click **Confirm** to add your audience as the delivery main target. Once done, you can still refine the audience using the query modeler by clicking the **Edit rules** button.
 
