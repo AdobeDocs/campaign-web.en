@@ -86,8 +86,10 @@ hide: yes
   + [Get started with profiles and audiences](audience/gs-audiences-recipients.md)
   + [Targeting dimensions](audience/targeting-dimensions.md)
   + Work with profiles {#work-with-profiles}
-    + [Monitor and manage profiles](audience/about-recipients.md)
-    + [Create and manage test profiles](audience/test-profiles.md)
+    + [Get started with profiles](audience/about-recipients.md)
+    + [Explore profiles' details](audience/profile-view.md)
+    + [Create a profile](audience/create-profile.md)
+    + [Work with test profiles](audience/test-profiles.md)
   + Work with audiences {#audiences}
     + [Create audiences](audience/create-audience.md)
     + [Monitor and manage audiences](audience/manage-audience.md)
