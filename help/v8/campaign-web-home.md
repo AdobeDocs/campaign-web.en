@@ -20,7 +20,7 @@ badge: label="Limited Availability"
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list1"
 >title="Item 1"
->abstract="New Email, SMS and Push notifications design experience"
+>abstract="New email, SMS, and push notifications design experience"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list2"
@@ -30,12 +30,12 @@ badge: label="Limited Availability"
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list3"
 >title="Item 3"
->abstract="Reimagined UX for Audiences, subscription, AEM Assets, landing pages"
+>abstract="Reimagined UX for audiences, subscription, AEM Assets, landing pages"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list4"
 >title="Item 4"
->abstract="Next Generation Query modeler and Email designer"
+>abstract="Next generation query modeler and email designer"
 
 <!--
 >[!CONTEXTUALHELP]
@@ -127,7 +127,7 @@ Create new profiles, and monitor them through powerful reports and tools. Access
     </td>
     <td>
     <a href="email/get-started-email-designer.md"><img src="assets/do-not-localize/menu-email.png"></a>
-    <div><strong>Meet the Email Designer</strong><br/>Learn how to start from a template, or use Adobe Campaign’s new Email Designer to create emails without having to write a single line of code.
+    <div><strong>Meet the Email Designer</strong><br/>Learn how to start from a template, or use Adobe Campaign's new Email Designer to create emails without having to write a single line of code.
     </div></td>
     <td>
     <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>
