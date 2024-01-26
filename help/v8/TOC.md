@@ -1,16 +1,16 @@
 ---
 audience: end-user
-user-guide-title: Campaign v8 Web
-user-guide-description: Product documentation for Campaign v8 Web.
-title: Adobe Campaign v8 Web Documentation
-description: Campaign v8 Web documentation
-breadcrumb-title: Campaign v8 Web
+user-guide-title: Adobe Campaign Web
+user-guide-description: Product documentation for Adobe Campaign Web.
+title: Adobe Campaign Web Documentation
+description: Campaign Web documentation
+breadcrumb-title: Campaign Web
 hide: yes
 ---
 
-# Adobe Campaign v8 Web documentation {#v8}
+# Adobe Campaign Web documentation {#v8}
 
-+ [Campaign v8 Web documentation](campaign-web-home.md)
++ [Adobe Campaign Web documentation](campaign-web-home.md)
 + [What's new?](rn/whats-new.md)
 + [Documentation updates](rn/documentation-updates.md)
 + Get started with Adobe Campaign {#start}

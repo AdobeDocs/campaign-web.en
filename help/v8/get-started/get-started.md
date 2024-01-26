@@ -1,26 +1,26 @@
 ---
 audience: end-user
-title: Get started with Campaign v8 Web
-description: Get started with Campaign v8 Web
+title: Get started with Adobe Campaign Web
+description: Get started with Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Limited Availability" 
 ---
-# Get started with Campaign v8 Web {#get-started}
+# Get started with Adobe Campaign Web {#get-started}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_learnmore"
 >title="Get started"
->abstract="The new Campaign v8 Web interface offers an integrated, intuitive, and consistent user experience."
+>abstract="The new Adobe Campaign Web interface offers an integrated, intuitive, and consistent user experience."
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_learnmore"
 >title="Get started"
->abstract="The new Campaign v8 Web interface offers an integrated, intuitive, and consistent user experience."
+>abstract="The new Adobe Campaign Web interface offers an integrated, intuitive, and consistent user experience."
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
 >title="Get started"
->abstract="The new Campaign v8 Web interface offers an integrated, intuitive, and consistent user experience."
+>abstract="The new Adobe Campaign Web interface offers an integrated, intuitive, and consistent user experience."
 
 Adobe Campaign provides a platform for designing cross-channel customer experiences and an environment for visual campaign orchestration, real-time interaction management and cross channel execution.
 
@@ -44,7 +44,7 @@ As an administrator or expert user, if you need to access Campaign v8 capabiliti
 
 >[!NOTE]
 >
->Campaign v8 Web is currently in Limited Availability (LA) version. Access is restricted to a small set of LA customers. Please be aware that product interface, capabilities and usage flows can change without notice.
+>Adobe Campaign Web is currently in Limited Availability (LA) version. Access is restricted to a small set of LA customers. Please be aware that product interface, capabilities and usage flows can change without notice.
 
 Learn how to connect to Adobe Campaign Web in [this page](connect-to-campaign.md).
 

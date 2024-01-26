@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: Discover the interface
-description: Campaign v8 Web user interface
+description: Adobe Campaign Web user interface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Limited Availability" 
 ---
 # Discover the interface {#user-interface}
 
-The new Campaign v8 Web interface offers a modern and intuitive user experience to simplify marketing campaign design and delivery. This new interface is integrated with Adobe Experience Cloud apps and solutions. 
+The new Adobe Campaign Web interface offers a modern and intuitive user experience to simplify marketing campaign design and delivery. This new interface is integrated with Adobe Experience Cloud apps and solutions. 
 
 Learn how to connect to Adobe Campaign and discover Experience Cloud navigation basics [in this article](connect-to-campaign.md).
 
@@ -33,11 +33,11 @@ The **Key performance indicators** lets you check your platform effectiveness th
 
 The **Recents** list provides shortcuts to the recently created and modified deliveries. This list shows their channel, status, owner, creation and modification dates. Click the **Show more** link to load more deliveries.
 
-In addition, you can access Campaign v8 Web key help pages from the **Learning** section of the page.
+In addition, you can access Adobe Campaign Web key help pages from the **Learning** section of the page.
 
 ## Left navigation menu {#user-interface-left-nav}
 
-Browse the links on the left to access Campaign v8 Web capabilities. Several links display lists of objects which can be sorted and filtered. You can also configure columns to display all the information you need. See this [section](#list-screens). Some list screens are read-only. The items displayed in the left navigation menu and in the lists depend on your user permissions. Learn more about permissions in [this section](permissions.md).
+Browse the links on the left to access Adobe Campaign Web capabilities. Several links display lists of objects which can be sorted and filtered. You can also configure columns to display all the information you need. See this [section](#list-screens). Some list screens are read-only. The items displayed in the left navigation menu and in the lists depend on your user permissions. Learn more about permissions in [this section](permissions.md).
 
 
 ### Explorer {#user-interface-explorer} 

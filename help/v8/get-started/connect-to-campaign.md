@@ -1,12 +1,12 @@
 ---
 title: Connect to Adobe Campaign Web interface
-description: Learn how to connect to Adobe Campaign v8 Web user interface
+description: Learn how to connect to Adobe Campaign Web user interface
 badge: label="Limited Availability"
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 ---
 # Connect to Adobe Campaign {#connect-to-campaign}
 
-Experience Cloud is Adobe's integrated family of digital marketing applications, products, and services. From its intuitive interface, you can quickly access your cloud applications, product features, and services. Learn how to connect to Adobe Experience Cloud, and access Adobe Campaign v8 Web interface in this page.
+Experience Cloud is Adobe's integrated family of digital marketing applications, products, and services. From its intuitive interface, you can quickly access your cloud applications, product features, and services. Learn how to connect to Adobe Experience Cloud, and access Adobe Campaign Web interface in this page.
 
 ## Sign in to Adobe Experience Cloud {#sign-in-to-exc}
 
@@ -58,11 +58,11 @@ Browse the top bar of the interface to:
 
 ## Supported browsers {#browsers}
 
-Campaign v8 Web is designed to work optimally in the latest version of Google Chrome, Safari, and Microsoft Edge. You might have trouble using certain features on older versions, or other browsers.
+Adobe Campaign Web is designed to work optimally in the latest version of Google Chrome, Safari, and Microsoft Edge. You might have trouble using certain features on older versions, or other browsers.
 
 ## Language preferences {#language-pref}
 
-Campaign v8 Web is currently available in the following languages:
+Adobe Campaign Web is currently available in the following languages:
 
 * English (US) - EN-US
 * French - FR

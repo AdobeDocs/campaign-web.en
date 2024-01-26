@@ -8,7 +8,7 @@ exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
 
 # Key principles of workflow creation {#gs-workflow-creation}
 
-With Campaign v8 Web, you can build workflows into a visual canvas to design cross-channel processes such as segmentation, campaign execution, file processing.
+With Adobe Campaign Web, you can build workflows into a visual canvas to design cross-channel processes such as segmentation, campaign execution, file processing.
 
 
 ## What's inside a workflow? {#gs-workflow-inside}
