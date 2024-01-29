@@ -18,21 +18,20 @@ exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
 >abstract="Content components are empty content placeholders that you can use to create the layout of a landing page. To define specific content that will enable users to select and submit their choices, use the form component."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/content-components.html#add-content-components" text="Add content components"
 
-
 Set the subscription form to the appropriate fields from the database to make sure it will work correctly.
 
-The default fields are already there for the selected template. You can also use the same components as for an email > to check in UI if similar to AJO.
-
+The landing page default fields are already there for the selected template.
     
 To design your landing page content, you can use the same components as for an email. [Learn more](../email/content-components.md#add-content-components)
 
 To design specific content that will enable users to select and submit their choices, [use the form component](#use-form-component) and define its [landing page-specific styles](#lp-form-styles).
 
+<!--
 >[!NOTE]
 >
 >You can also create a click-through landing page without a **[!UICONTROL Form]** component. In that case, the landing page will be displayed to users, but they will not be required to submit any form. This can be useful if you only want to showcase a landing page without requiring any action from your recipients such as opt-in or opt out, or want to provide information that doesn't require user input.
 
-Using the landing page content designer, you can also leverage contextual data coming from the primary page in a subpage. [Learn more](#use-primary-page-context)
+Using the landing page content designer, you can also leverage contextual data coming from the primary page in a subpage. [Learn more](#use-primary-page-context)-->
 
 ## Use the form component {#use-form-component}
 
@@ -49,7 +48,7 @@ Using the landing page content designer, you can also leverage contextual data c
 
 To define specific content that will enable users to select and submit their choices from your landing page, use the **[!UICONTROL Form]** component. To do so, follow the steps below.
 
-1. Drag and drop the landing page-specific **[!UICONTROL Form]** component from the left palette into the main workspace.
+1. The landing page-specific **[!UICONTROL Form]** component is already displayed in the canvan for the selected template.
 
     ![](assets/lp_designer-form-component.png)
 
@@ -66,6 +65,27 @@ To define specific content that will enable users to select and submit their cho
     >Switch to the **[!UICONTROL Styles]** tab at any time to edit the styles of your form component content. [Learn more](#define-lp-styles)
 
 1. From the **[!UICONTROL Checkbox 1]** section, you can edit the label corresponding to this checkbox.
+
+1. Check the **[!UICONTROL Make form field mandatory]** option if needed. In that case, the landing page can only be submitted if the user has filled in this field. If a mandatory field is not filled in, an error message will display when the user submits the page.
+
+1. Once you added all the desired checkboxes and/or text fields, click **[!UICONTROL Call to action]** to expand the corresponding section. It enables you to define the behavior of the button in the **[!UICONTROL Form]** component.
+
+    ![](assets/lp-call-to-action.png)
+
+1. Define what will happen upon clicking the button:
+
+    * **[!UICONTROL Redirect URL]**: Enter the URL of the page the users will be redirected to.
+    * **[!UICONTROL Confirmation page]**: Type the confirmation text that will be displayed.
+
+1. If you want to make additional updates upon submitting the form, select Addtional updates, choose **[!UICONTROL Opt in]** or **[!UICONTROL Opt out]**, and define if you want to update a subscription list, the channel or just the email address used.
+
+    ![](assets/lp_designer-form-additionnal-update.png)
+
+1. Save your content to go back to the [landing page properties](create-lp.md).
+
+
+
+## Other section
 
 1. Define if this checkbox is to opt users in or out: do they agree to receive communications or do they ask not to be contacted anymore?
 
@@ -164,90 +184,3 @@ To define specific content that will enable users to select and submit their cho
 
     ![](assets/lp_designer-form-error-preview.png)
 
-## Use primary page context {#use-primary-page-context}
-
-You can use contextual data coming from another page within the same landing page.
-
-For example, if you link a checkbox <!-- or the submission of the page--> to a [subscription list](subscription-list.md) on the primary landing page, you can use that subscription list on the "thank you" subpage.
-
-Let's say you link two checkboxes on your primary page to two different subscription lists. If a user subscribes to one of these, you want to display a specific message upon submitting the form, depending on which checkbox they selected.
-
-To do so, follow the steps below:
-
-1. On the primary page, link each checkbox of the **[!UICONTROL Form]** component to the relevant subscription list. [Learn more](#use-form-component).
-
-    ![](assets/lp_designer-form-luma-newsletter.png)
-
-1. On the subpage, place the pointer of your mouse where you want to insert your text and select **[!UICONTROL Add personalization]** from the contextual toolbar.
-
-    ![](assets/lp_designer-form-subpage-perso.png)
-
-1. In the **[!UICONTROL Edit personalization]** window, select **[!UICONTROL Contextual attributes]** > **[!UICONTROL Landing Pages]** > **[!UICONTROL Primary Page Context]** > **[!UICONTROL Subscription]**.
-
-1. All the subscription lists that you selected on the primary page are listed. Select the relevant items using the + icon.
-
-    ![](assets/lp_designer-form-add-subscription.png)
-
-1. Add the relevant conditions using the Expression editor helper functions. [Learn more](../personalization/functions/functions.md)
-
-    ![](assets/lp_designer-form-add-subscription-condition.png)
-
-    >[!CAUTION]
-    >
-    >If there is a special character such as a hyphen in the expression, you must escape the text including the hyphen.
-
-1. Save your changes.
-
-Now when users select one of the checkboxes,
-
-![](assets/lp_designer-form-preview-checked-box.png)
-
-the message corresponding to the selected checkbox is displayed upon submitting the form.
-
-![](assets/lp_designer-form-thankyou-preview.png)
-
-<!--![](assets/lp_designer-form-subscription-preview.png)-->
-
->[!NOTE]
->
->If a user selects the two checkboxes, both texts will display.
-
-<!--
-## Use landing page additional data {#use-additional-data}
-
-When [configuring the primary page](create-lp.md#configure-primary-page), you can create additional data to enable storing information when the landing page is being submitted.
-
->[!NOTE]
->
->This data may not be visible to users who visit the page.
-
-If you defined one or more keys with their corresponding values when [configuring the primary page](create-lp.md#configure-primary-page), you can leverage these keys in the content of your primary page and subpages using the [Expression editor](../personalization/personalization-build-expressions.md).
-
-///When you reuse the same text on a page, this enables you to dynamically change that text if needed, without going through each occurrence.
-
-For example, if you define the company name as a key, you can quickly update it everywhere (on all the pages of a given landing page) by changing it only once in the [primary page settings](create-lp.md#configure-primary-page).///
-
-To leverage these keys in a landing page, follow the steps below:
-
-1. When configuring the primary page, define a key and its corresponding value in the **[!UICONTROL Additional data]** section. [Learn more](create-lp.md#configure-primary-page)
-
-    ![](assets/lp_create-lp-additional-data.png)
-
-1. When editing your primary page with the designer, place the pointer of your mouse where you want to insert your key and select **[!UICONTROL Add personalization]** from the contextual toolbar.
-
-    ![](assets/lp_designer-context-add-perso.png)
-
-1. In the **[!UICONTROL Edit Personalization]** window, select **[!UICONTROL Contextual attributes]** > **[!UICONTROL Landing Pages]** > **[!UICONTROL Additional Context]**.
-
-    ![](assets/lp_designer-contextual-attributes.png)
-
-1. All the keys that you created when configuring the primary page are listed. Select the key of your choice using the + icon.
-
-    ![](assets/lp_designer-context-select-key.png)
-
-1. Save your changes and repeat the steps above as many times as needed.
-
-    ![](assets/lp_designer-context-keys-inserted.png)
-
-    You can see that the personalization item corresponding to your key is now displayed everywhere you inserted it.
--->
