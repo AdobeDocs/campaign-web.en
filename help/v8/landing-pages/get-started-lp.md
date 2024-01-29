@@ -18,9 +18,9 @@ A landing page is a standalone web page that a user is directed to after clickin
 
 * Leverage [!DNL Adobe Campaign] content design capabilities to easily build **responsive landing pages**.
 * Set up **opt-in and opt-out flows** quickly and seamlessly.
-* Create subscription lists to enable users to **subscribe to a service**. [Read more](lp-use-cases.md#subscription-to-a-service)
-* Provide your recipients with the **capability to unsubscribe** from receiving your communications. [Read more](lp-use-cases.md#opt-out)
-* Send a **confirmation email** upon opt-in or opt-out. [Read more](lp-use-cases.md#send-confirmation-email)
+* Create subscription services to enable users to **subscribe to a service**.
+* Provide your recipients with the **capability to unsubscribe** from receiving your communications.
+* Send a **confirmation email** upon opt-in or opt-out.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -32,11 +32,11 @@ A landing page is a standalone web page that a user is directed to after clickin
 <p>
 </td>
 <td>
-<a href="subscription-list.md">
+<a href="../audience/manage-services.md">
 <img alt="Infrequent" src="../assets/do-not-localize/lp-list.jpg">
 </a>
 <div>
-<a href="subscription-list.md"><strong>Create subscription lists</strong></a>
+<a href="../audience/manage-services.md"><strong>Create subscription services</strong></a>
 </div>
 <p></td>
 <td>
@@ -49,11 +49,11 @@ A landing page is a standalone web page that a user is directed to after clickin
 <p>
 </td>
 <td>
-<a href="../reports/lp-report-live.md">
+<a href="../reporting/gs-reports.md">
 <img alt="Validation" src="../assets/do-not-localize/lp-reporting.jpg">
 </a>
 <div>
-<a href="../reports/lp-report-live.md"><strong>Reporting</strong></a>
+<a href="../reporting/gs-reports.md"><strong>Reporting</strong></a>
 </div>
 <p>
 </td>
