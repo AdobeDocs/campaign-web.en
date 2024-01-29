@@ -24,7 +24,7 @@ To balance the load, you can divide deliveries into several batches. Configure t
 >
 >You can only define the size and the delay between two consecutive waves. The recipient selection criteria for each wave cannot be configured.
 
-1. Open the delivery properties window and click the **[!UICONTROL Delivery]** tab.
+1. Open the [delivery settings](delivery-settings.md#retries) and go to the **[!UICONTROL Delivery]** tab.
 1. Select the **[!UICONTROL Send using multiple waves]** option and click the **[!UICONTROL Define waves...]** link.
 
 1. To configure waves, you can either:
@@ -39,17 +39,17 @@ To balance the load, you can divide deliveries into several batches. Configure t
 
       In the example below, the first wave represents 25% of the total number of messages included in the delivery and will start immediately. The next two waves complete the delivery and are set to begin at six-hour intervals.
 
-   A specific typology rule, **[!UICONTROL Wave scheduling check]**, ensures that the last wave is planned before the delivery validity limit. Campaign typologies and their rules, configured in the **[!UICONTROL Typology]** tab of the delivery properties, are presented in [Validation process with typologies](steps-validating-the-delivery.md#validation-process-with-typologies).
+      A specific typology control rule, **[!UICONTROL Wave scheduling check]**, ensures that the last wave is planned before the delivery validity limit. Campaign typologies and their rules are configured in the **[!UICONTROL Typology]** tab of the delivery settings. Learn more on control rules in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html)
 
-   >[!IMPORTANT]
-   >
-   >Make sure the last waves do not exceed the delivery deadline, which is defined in the **[!UICONTROL Validity]** tab. Otherwise some messages might not be sent.  
-   >
-   >You must also allow enough time for retries when configuring the last waves. See [this section](steps-sending-the-delivery.md#configuring-retries).
+      >[!IMPORTANT]
+      >
+      >Make sure the last waves do not exceed the delivery deadline, which is defined in the **[!UICONTROL Validity]** tab. Otherwise some messages might not be sent. [Learn more](delivery-settings.md#retries)
+      >
+      >You must also allow enough time for retries when configuring the last waves. [Learn more](delivery-settings.md#retries)
 
 1. To monitor your sends, go to the [delivery logs](delivery-logs.md).
 
-   You can see the deliveries that were already sent in the processed waves (**[!UICONTROL Sent]** status) and the deliveries to be sent in the remaining waves (**[!UICONTROL Pending]** status).
+  You can see the deliveries that were already sent in the processed waves (**[!UICONTROL Sent]** status) and the deliveries to be sent in the remaining waves (**[!UICONTROL Pending]** status).
 
 The two examples below are the most common use cases for using multiple waves.
 
