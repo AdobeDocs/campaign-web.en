@@ -43,11 +43,11 @@ To balance the load, you can divide deliveries into several batches. Configure t
 
       >[!IMPORTANT]
       >
-      >Make sure the last waves do not exceed the delivery deadline, which is defined in the **[!UICONTROL Validity]** tab. Otherwise some messages might not be sent. [Learn more](delivery-settings.md#retries)
+      >Make sure the last waves do not exceed the delivery deadline, which is defined in the **[!UICONTROL Validity]** tab. Otherwise some messages might not be sent. [Learn more](delivery-settings.md#validity)
       >
       >You must also allow enough time for retries when configuring the last waves. [Learn more](delivery-settings.md#retries)
 
-1. To monitor your sends, go to the [delivery logs](delivery-logs.md).
+1. To monitor your sends, go to the [delivery logs](../monitor/delivery-logs.md).
 
   You can see the deliveries that were already sent in the processed waves (**[!UICONTROL Sent]** status) and the deliveries to be sent in the remaining waves (**[!UICONTROL Pending]** status).
 
