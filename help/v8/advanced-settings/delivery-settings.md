@@ -131,6 +131,8 @@ You can define the following **[!UICONTROL Sending]** settings:
 
 * **[!UICONTROL Email BCC]**: This option is used to store emails on an external system through BCC by simply adding a BCC email address to your message target. Learn more in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
+* **[!UICONTROL Send using multiple waves]**: You can progressively increase the volume sent using waves. This will avoid your messages being marked as spam or when you want to restrict the number of messages per day. Using waves you can divide deliveries into several batches instead of sending high volumes of messages at the same time. [Learn more](send-using-waves.md)
+
 You can also change the format of the email messages sent:
 
 * **[!UICONTROL Use recipient preferences]** (default mode)
