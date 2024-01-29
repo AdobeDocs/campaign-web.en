@@ -58,8 +58,9 @@ hide: yes
         + [Add inline styling attributes](email/inline-styling.md)
     + Send and monitor the email {#monitor}
       + [Prepare and send an email](monitor/prepare-send.md)
-      + [Monitor delivery logs](monitor/delivery-logs.md)
       + [Email delivery settings](advanced-settings/delivery-settings.md)
+      + [Send using multiple waves](advanced-settings/send-using-waves.md)
+      + [Monitor delivery logs](monitor/delivery-logs.md)    
   + Push notifications {#push}
     + [Get started with push notifications](push/gs-push.md)
     + [Create a push notification delivery](push/create-push.md)

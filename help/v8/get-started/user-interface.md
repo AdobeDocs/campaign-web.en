@@ -148,22 +148,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Permission required"
 >abstract="Your administrator must grant you permission before you can create a segment."
 
-
-<!-- Waves-->
-
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_waves_definition"
->title="Waves definition"
->abstract="Define waves to split deliveries into several batches instead of sending high volumes of messages at the same time."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_waves_size"
->title="Size of the wave"
->abstract="The size of the wave is required. Enter either a numerical value (number of messages), or a percentage (0-100%) in the size field."
-
-
-
 <!-- Workflows-->
 
 
