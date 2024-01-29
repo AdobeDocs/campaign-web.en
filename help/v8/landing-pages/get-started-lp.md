@@ -35,11 +35,11 @@ A landing page is a standalone web page that a user is directed to after clickin
 </div>
 <p></td>
 <td>
-<a href="design-lp.md">
+<a href="lp-content.md">
 <img alt="Validation" src="../assets/do-not-localize/lp-design.jpg">
 </a>
 <div>
-<a href="design-lp.md"><strong>Design landing pages</strong></a>
+<a href="lp-content.md"><strong>Design landing pages</strong></a>
 </div>
 <p>
 </td>
