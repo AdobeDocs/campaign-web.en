@@ -1,14 +1,8 @@
 ---
-solution: Journey Optimizer
-product: journey optimizer
 title: Define landing page-specific content
-description: Learn how to design landing page specific content in Journey Optimizer
-feature: Landing Pages
-topic: Content Management
-role: User
-level: Beginner
-keywords: landing, landing page, creation, page, form, component
-exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
+description: Learn how to design landing page specific content in Campaign Web
+badge: label="Limited Availability" 
+
 ---
 # Define landing page-specific content {#lp-content}
 
@@ -16,17 +10,20 @@ exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
 >id="ac_lp_components"
 >title="Use content components"
 >abstract="Content components are empty content placeholders that you can use to create the layout of a landing page. To define specific content that will enable users to select and submit their choices, use the form component."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/content-components.html#add-content-components" text="Add content components"
+
+When editing the content of any page of your landing page, it is already pre-filled.
+
+The primary page is the page that is immediately displayed to the users after they click the link to your landing page, such as from an email or a website. The primary page is already pre-filled with the [landing page-specific form component](#use-form-component) to enable users to select and submit their choices. You can also define [landing page-specific styles](#lp-form-styles).
+
+To further design your landing page content, you can use the same components as for an email. [Learn more](../email/content-components.md#add-content-components)
+
+<!--
+The content of the **[!UICONTROL Confirmation]**, **[!UICONTROL Error]** and **[!UICONTROL Expiration]** pages is also pre-filled. Edit them as needed.
 
 Set the subscription form to the appropriate fields from the database to make sure it will work correctly.
 
 The landing page default fields are already there for the selected template.
-    
-To design your landing page content, you can use the same components as for an email. [Learn more](../email/content-components.md#add-content-components)
 
-To design specific content that will enable users to select and submit their choices, [use the form component](#use-form-component) and define its [landing page-specific styles](#lp-form-styles).
-
-<!--
 >[!NOTE]
 >
 >You can also create a click-through landing page without a **[!UICONTROL Form]** component. In that case, the landing page will be displayed to users, but they will not be required to submit any form. This can be useful if you only want to showcase a landing page without requiring any action from your recipients such as opt-in or opt out, or want to provide information that doesn't require user input.
@@ -39,7 +36,6 @@ Using the landing page content designer, you can also leverage contextual data c
 >id="ac_lp_formfield"
 >title="Set the form component fields"
 >abstract="Define how your recipients will see and submit their choices from your landing page."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content.html#lp-form-styles" text="Define landing page form styles"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_calltoaction"
@@ -48,9 +44,7 @@ Using the landing page content designer, you can also leverage contextual data c
 
 To define specific content that will enable users to select and submit their choices from your landing page, use the **[!UICONTROL Form]** component. To do so, follow the steps below.
 
-1. The landing page-specific **[!UICONTROL Form]** component is already displayed in the canvan for the selected template.
-
-    ![](assets/lp_designer-form-component.png)
+1. The landing page-specific **[!UICONTROL Form]** component is already displayed in the canvas for the selected template.
 
     >[!NOTE]
     >
@@ -58,15 +52,32 @@ To define specific content that will enable users to select and submit their cho
 
 1. Select it. The **[!UICONTROL Form content]** tab displays in the right palette to let you edit the different fields of the form.
 
-    ![](assets/lp_designer-form-content-options.png)
+    ![](assets/lp-form-component.png)
 
     >[!NOTE]
     >
-    >Switch to the **[!UICONTROL Styles]** tab at any time to edit the styles of your form component content. [Learn more](#define-lp-styles)
+    >Switch to the **[!UICONTROL Styles]** tab at any time to edit the styles of your form component content. [Learn more](#lp-form-styles)
 
-1. From the **[!UICONTROL Checkbox 1]** section, you can edit the label corresponding to this checkbox.
+1. Expand the first text field. From the **[!UICONTROL Text field 1]** section, you can edit the field type, the field from the database, the label, and the text that will be displayed inside the field before the user fills in the field.
 
-1. Check the **[!UICONTROL Make form field mandatory]** option if needed. In that case, the landing page can only be submitted if the user has filled in this field. If a mandatory field is not filled in, an error message will display when the user submits the page.
+    ![](assets/lp-form-text-field.png)
+
+1. Check the **[!UICONTROL Make form field mandatory]** option if needed. In that case, the landing page can only be submitted if the user has filled in this field.
+
+    >[!NOTE]
+    >
+    >If a mandatory field is not filled in, an error message will display when the user submits the page.
+
+1. Add a checkbox. Select if that checkbox should update a service or a field from the database.
+
+    ![](assets/lp-form-checkbox.png)
+
+    Define if this checkbox is to opt users in or out. Select amongst the two options below:
+
+    * **[!UICONTROL Subscribe if checked]**: Users need to check the box to consent (opt-in).
+    * **[!UICONTROL Unsubscribe if checked]**: Users need to check the box to remove their consent (opt-out).
+
+1. You can delete and add as many text fields and/or checkboxes as needed.
 
 1. Once you added all the desired checkboxes and/or text fields, click **[!UICONTROL Call to action]** to expand the corresponding section. It enables you to define the behavior of the button in the **[!UICONTROL Form]** component.
 
@@ -74,85 +85,15 @@ To define specific content that will enable users to select and submit their cho
 
 1. Define what will happen upon clicking the button:
 
+    * **[!UICONTROL Confirmation page]**: The user will be redirected to the **[!UICONTROL Confirmation]** page set for the current landing page.
+
     * **[!UICONTROL Redirect URL]**: Enter the URL of the page the users will be redirected to.
-    * **[!UICONTROL Confirmation page]**: Type the confirmation text that will be displayed.
 
-1. If you want to make additional updates upon submitting the form, select Addtional updates, choose **[!UICONTROL Opt in]** or **[!UICONTROL Opt out]**, and define if you want to update a subscription list, the channel or just the email address used.
+1. If you want to make additional updates upon submitting the form, select **[!UICONTROL Addtional updates]**, choose **[!UICONTROL Opt in]** or **[!UICONTROL Opt out]**, and define if you want to update a subscription list, the channel or just the email address used.
 
-    ![](assets/lp_designer-form-additionnal-update.png)
+    ![](assets/lp-form-additionnal-updates.png)
 
 1. Save your content to go back to the [landing page properties](create-lp.md).
-
-
-
-## Other section
-
-1. Define if this checkbox is to opt users in or out: do they agree to receive communications or do they ask not to be contacted anymore?
-
-    ![](assets/lp_designer-form-update.png)
-
-    Select amongst the three options below:
-
-    * **[!UICONTROL Opt in if checked]**: users need to check the box to consent (opt-in).
-    * **[!UICONTROL Opt out if checked]**: users need to check the box to remove their consent (opt-out).
-    * **[!UICONTROL Opt in if checked, opt out if unchecked]**: this option enables you to insert a single checkbox for opt-in/opt-out. Users need to check the box to consent (opt-in), and uncheck it to remove their consent (opt-out).
-
-1. Choose what will be updated between the three following options:
-
-    ![](assets/lp_designer-form-update-options.png)
-
-    * **[!UICONTROL Subscription list]**: You must select the subscription list that will be updated if the profile selects this checkbox. Learn more on [subscription lists](subscription-list.md).
-
-        <!--![](assets/lp_designer-form-subs-list.png)-->
-
-    * **[!UICONTROL Channel (email)]**: The opt-in or opt-out applies to the whole channel. For example, if a profile that opts out has two email addresses, both addresses will be excluded from all your communications.
-
-    * **[!UICONTROL Email identity]**: The opt-in or opt-out only applies to the email address that was used to access the landing page. For example, if a profile has two email addresses, only the one that was used to opt in will receive communications from your brand.
-
-1. Click **[!UICONTROL Add field]** > **[!UICONTROL Checkbox]** to add another checkbox. Repeat the steps above to define its properties.
-
-    ![](assets/lp_designer-form-checkbox-2.png)
-
-1. You can also add a **[!UICONTROL Text field]**.
-
-    ![](assets/lp_designer-form-add-text-field.png)
-
-    * Enter the **[!UICONTROL Label]** that will be displayed on top of the field in the form.
-    
-    * Enter a **[!UICONTROL Placeholder]** text. It will be displayed inside the field before the user fills in the field.
-
-    * Check the **[!UICONTROL Make form field mandatory]** option if needed. In that case, the landing page can only be submitted if the user has filled in this field. If a mandatory field is not filled in, an error message will display when the user submits the page.
-
-    ![](assets/lp_designer-form-text-field.png)
-
-1. Once you added all the desired checkboxes and/or text fields, click **[!UICONTROL Call to action]** to expand the corresponding section. It enables you to define the behavior of the button in the **[!UICONTROL Form]** component.
-
-    ![](assets/lp_designer-form-call-to-action.png)
-
-1. Define what will happen upon clicking the button:
-
-    * **[!UICONTROL Redirect URL]**: Enter the URL of the page the users will be redirected to.
-    * **[!UICONTROL Confirmation text]**: Type the confirmation text that will be displayed.
-    * **[!UICONTROL Link to a subpage]**: Configure a [subpage](create-lp.md#configure-subpages) and select it from the drop-down list that displays.
-
-    ![](assets/lp_designer-form-confirmation-action.png)
-
-1. Define what will happen upon clicking the button in case an error occurs:
-
-    * **[!UICONTROL Redirect URL]**: Enter the URL of the page the users will be redirected to.
-    * **[!UICONTROL Error text]**: Type the error text that will be displayed. You can preview the error text when defining the [form styles](#define-lp-styles).
-
-    * **[!UICONTROL Link to a subpage]**: Configure a [subpage](create-lp.md#configure-subpages) and select it from the drop-down list that displays.
-
-    ![](assets/lp_designer-form-error.png)
-
-1. If you want to make additional updates upon submitting the form, select **[!UICONTROL Opt in]** or **[!UICONTROL Opt out]**, and define if you want to update a subscription list, the channel or just the email address used.
-
-    ![](assets/lp_designer-form-additionnal-update.png)
-
-1. Save your content and click the arrow next to the page name to go back to the [landing page properties](create-lp.md#configure-primary-page).
-
-    ![](assets/lp_designer-form-save.png)
 
 ## Define landing page form styles {#lp-form-styles}
 
@@ -174,13 +115,12 @@ To define specific content that will enable users to select and submit their cho
 
     You can preview some of your settings such as button label color on hover by using the **[!UICONTROL Simulate content]** button. Learn more on testing landing pages [here](create-lp.md#test-landing-page).
 
-    <!--![](assets/lp_designer-form-style-buttons-preview.png)-->
-
 1. Expand the **[!UICONTROL Form layout]** section to edit the layout settings such as the background color, padding, or margin.
 
     ![](assets/lp_designer-form-style-layout.png)
 
+<!--
 1. Expand the **[!UICONTROL Form error]** section to adjust the display of the error message that displays in case a problem occurs. Check the corresponding option to preview the error text on the form.
 
-    ![](assets/lp_designer-form-error-preview.png)
+    ![](assets/lp_designer-form-error-preview.png)-->
 

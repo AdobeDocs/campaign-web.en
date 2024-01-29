@@ -1,14 +1,9 @@
 ---
-solution: Journey Optimizer
-product: journey optimizer
+audience: end-user
 title: Get started with landing pages
 description: Learn about landing pages in Campaign Web
-feature: Landing Pages, Subscriptions
-topic: Content Management
-role: User
-level: Beginner
-keywords: landing, landing page, start, get start
-exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
+badge: label="Limited Availability"
+
 ---
 # Get started with landing pages {#get-sarted-lp}
 
@@ -18,7 +13,7 @@ A landing page is a standalone web page that a user is directed to after clickin
 
 * Leverage [!DNL Adobe Campaign] content design capabilities to easily build **responsive landing pages**.
 * Set up **opt-in and opt-out flows** quickly and seamlessly.
-* Create subscription services to enable users to **subscribe to a service**.
+* Create subscription services to enable users to **subscribe to a service**. [Learn more](../audience/manage-services.md)
 * Provide your recipients with the **capability to unsubscribe** from receiving your communications.
 * Send a **confirmation email** upon opt-in or opt-out.
 
@@ -49,11 +44,11 @@ A landing page is a standalone web page that a user is directed to after clickin
 <p>
 </td>
 <td>
-<a href="../reporting/gs-reports.md">
+<a href="lp-templates.md">
 <img alt="Validation" src="../assets/do-not-localize/lp-reporting.jpg">
 </a>
 <div>
-<a href="../reporting/gs-reports.md"><strong>Reporting</strong></a>
+<a href="lp-templates.md"><strong>Work with content templates</strong></a>
 </div>
 <p>
 </td>
