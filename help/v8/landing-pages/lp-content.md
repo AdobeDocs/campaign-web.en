@@ -42,7 +42,7 @@ Using the landing page content designer, you can also leverage contextual data c
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content.html#lp-form-styles" text="Define landing page form styles"
 
 >[!CONTEXTUALHELP]
->id="ac_lp_submission"
+>id="acw_landingpages_calltoaction"
 >title="What happens when clicking the button"
 >abstract="Define what will happen upon users submitting the landing page form."
 

@@ -68,11 +68,6 @@ You can duplicate or delete a landing page. Click the three dots next to a landi
 >title="Landing Pages subscription"
 >abstract="Landing Pages subscription"
 
->[!CONTEXTUALHELP]
->id="acw_landingpages_calltoaction"
->title="Landing Pages call to action"
->abstract="Landing Pages call to action"
-
 <!--The main steps to create landing pages are as follows:
 
 ![](assets/lp-creation-process.png)-->
