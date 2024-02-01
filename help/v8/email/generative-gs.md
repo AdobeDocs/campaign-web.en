@@ -9,11 +9,7 @@ hidefromtoc: yes
 ---
 # Get started with the Content Assistant {#generative-gs}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn5"
->title="Gen AI for email content"
->abstract="Our Gen AI technology utilizes advanced algorithms to generate highly engaging and personalized content. Drive higher open rates, click-through rates, and conversions with Gen AI's intelligent content generation."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="See release notes"
+
 
 <!--TO REMOVE BELOW-->
 >[!CONTEXTUALHELP]

@@ -7,6 +7,14 @@ badge: label="Limited Availability"
 ---
 # Get started with landing pages {#get-sarted-lp}
 
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn5"
+>title="Landing pages"
+>abstract="Discover the new landing page experience. Instantly create, design, and share landing pages to direct your users to online web pages where you can manage profile data acquisition, and opt-in/opt-out flows quickly and seamlessly.
+."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="See release notes"
+
+
 A landing page is a standalone web page that a user is directed to after clicking through from an email, a website, an ad, or any other digital location.
 
 [!DNL Adobe Campaign] allows you to create and design landing pages to direct your users to online forms where they can opt in or opt out from receiving your communications, or subscribe to a specific service such as a newsletter.
