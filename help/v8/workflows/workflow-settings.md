@@ -14,7 +14,7 @@ These settings are pre-configured in the template selected when creating the wor
 
 To do this, click the **[!UICONTROL Settings]** button available in the actions bar above the workflow canvas.
 
-![](assets/workflow-settings.png)
+![](assets/workflow-settings-button.png){width="70%" align="left"}
 
 ## Workflow properties {#properties}
 
@@ -23,10 +23,15 @@ To do this, click the **[!UICONTROL Settings]** button available in the actions 
 >title="Workflow properties"
 >abstract="This section provides generic workflow properties that are also accessible when creating the workflow. You can choose the template to use to create the workflow and specify a label. Expand the Additional options section to configure specific settings such as the workflow storing folder or timezone."
 
-The **[!UICONTROL Properties]** section provides generic settings that are also accessible when creating the workflow. These properties are:
+The **[!UICONTROL Properties]** section provides generic settings that are also accessible when creating the workflow. 
+
+![](assets/workflow-settings.png){width="70%" align="left"}
+
+
+These properties are:
 
 * The **[!UICONTROL Label]** of the workflow that displays in the list.
-* The internal **[!UICONTROL Name]** of the workflow.
+* The **[!UICONTROL Internal name]** of the workflow.
 * The **[!UICONTROL Folder]** where the workflow should be saved.
 * The default **[!UICONTROL Timezone]** to use in all the workflow's activities. By default, the workflow's time zone is the one defined for the current Campaign operator.
     Possible values are:
