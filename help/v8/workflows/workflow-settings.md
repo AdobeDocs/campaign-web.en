@@ -23,23 +23,24 @@ To do this, click the **[!UICONTROL Settings]** button available in the actions 
 >title="Workflow properties"
 >abstract="This section provides generic workflow properties that are also accessible when creating the workflow. You can choose the template to use to create the workflow and specify a label. Expand the Additional options section to configure specific settings such as the workflow storing folder or timezone."
 
-The **[!UICONTROL Properties]** section provides generic settings that are also accessible when creating the workflow.
+The **[!UICONTROL Properties]** section provides generic settings that are also accessible when creating the workflow. These properties are:
 
-* **[!UICONTROL Label]**: The label of the workflow that displays in the list.
-* **[!UICONTROL Name]**: The internal name of the workflow.
-* **[!UICONTROL Folder]**: The folder where the workflow should be saved.
-* **[!UICONTROL Linked campaign]**: This field display if the workflow has been created within a campaign. It allows you to open the associated campaign.
-* **[!UICONTROL Timezone]**: Define a specific time zone to use by default in all the workflow's activities. By default, the workflow's time zone is the one defined for the current Campaign operator. 
-    Other possible values are:
+* The **[!UICONTROL Label]** of the workflow that displays in the list.
+* The internal **[!UICONTROL Name]** of the workflow.
+* The **[!UICONTROL Folder]** where the workflow should be saved.
+* The default **[!UICONTROL Timezone]** to use in all the workflow's activities. By default, the workflow's time zone is the one defined for the current Campaign operator.
+    Possible values are:
     * **Server time zone** to use the time zone of the Adobe Campaign application server
     * **Operator time zone** to uses the time zone of the Adobe Campaign operator who executes the workflow, as defined in the operator's profile, in the client console
     * **Time zone of the database** to use the time zone of the database server
     * A specific time zone
+* When a workflow fails, the operators belonging to the operators group selected in the **[!UICONTROL Supervisor(s)]** field are notified by email.
+* *You can also enter a **[!UICONTROL Description]** of your workflow.
 
-* **[!UICONTROL Supervisor(s)]**: When a workflow fails, the operators belonging to the operators group selected in this field are notified by email.
-* **[!UICONTROL Description]**: Use this field to provide a description of your workflow.
+When the workflow is [associated to a campaign](create-workflow.md), it is displayed in the **[!UICONTROL Linked campaign]** field. You can open the associated campaign from that field.
 
-## Segmentation settings
+
+## Segmentation settings  {#segmentation-settings}
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_segmentation"
@@ -50,9 +51,9 @@ The **[!UICONTROL Properties]** section provides generic settings that are also 
 
 * **[!UICONTROL Keep the result of interim populations between two executions]**: By default, only the working tables of the last execution of the workflow are kept. Working tables from previous executions are purged by a technical workflow, which runs on a daily basis.
 
-    If this option is enabled, working tables will be kept even after the workflow has been executed. You can use it for testing purposes and hence must be used only on development or staging environments. It must never be checked in a production workflow.
+    If this option is enabled, working tables will be kept even after the workflow has been executed. You can use it for testing purposes and hence must be used **only** on development or staging environments. It must never be checked in a production workflow.
 
-## Execution settings
+## Execution settings  {#exec-settings}
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_execution"
@@ -67,16 +68,16 @@ The **[!UICONTROL Properties]** section provides generic settings that are also 
 
 * **[!UICONTROL Default affinity]**: If your installation includes several workflow servers, use this field to choose the machine which the workflow will be executed on. If the value defined in this field does not exist on any server, the workflow will remain pending.
     
-* **[!UICONTROL Save SQL queries in log]**: allows you to save the SQL queries from the workflow into the logs. This functionality is reserved for advanced users. It applies to workflows that contain targeting activities like **[!UICONTROL Build audience]**. When this option is enabled, the SQL queries sent to the database during workflow execution are displayed in the workflow's logs, allowing you to analyze them to optimize queries or diagnose issues.
+* **[!UICONTROL Save SQL queries in log]**: Check this option to you to save the SQL queries from the workflow into the logs. This functionality is reserved for advanced users. It applies to workflows that contain targeting activities like **[!UICONTROL Build audience]**. When this option is enabled, the SQL queries sent to the database during workflow execution are displayed in the workflow's logs, allowing you to analyze them to optimize queries or diagnose issues.
 
-## Error management settings
+## Error management settings  {#error-settings}
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_error"
 >title="Error management settings"
->abstract="In this section, you can manage how the workflow should behave when an error occurs during its execution (pause/stop its execution or ignore errors)."
+>abstract="In this section, you can define how the workflow should manage errors during its execution. You can choose to pause the process, ignore a certain number of errors, or stop the workflow execution."
 
-* **[!UICONTROL Error management]**: This field lets you define the actions to be taken if a workflow task has errors. There are two possible options:
+* **[!UICONTROL Error management]**: This field lets you define the actions to be taken if a workflow task has errors. There are three possible options:
     
     * **[!UICONTROL Suspend the process]**: The workflow is automatically paused and its status changes to **[!UICONTROL Failed]**. Once the issue is solved, resume the workflow using the **[!UICONTROL Resume]** buttons.
     * **[!UICONTROL Ignore]**: The status of the task that triggered the error changes to **[!UICONTROL Failed]**, but the workflow keeps the **[!UICONTROL Started]** status. <!-- TO ADD ONCE SCHEUDLER IS AVAILABLE This configuration is relevant for recurring tasks: if the branch includes a scheduler, it will start normally next time the workflow is executed.-->
