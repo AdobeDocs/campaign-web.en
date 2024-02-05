@@ -9,9 +9,9 @@ badge: label="Limited Availability"
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="Create and manage landing pages"
->abstract="Adobe Campaign allows you to create and design landing pages to direct your users to online forms where they can opt in or opt out from receiving your communications, or subscribe to a specific service such as a newsletter."
+>abstract="Adobe Campaign allows you to create, design, and share landing pages to direct your users to online web pages where you can manage, acquisition, subscriptions/unsubscriptions and deny list use cases, based on built-in templates."
 
-To direct your customers to a defined web page that you want to display when they click a specific link, create a landing page in [!DNL Adobe Campaign], design its content, test it and publish it.
+Adobe Campaign allows you to create, design, and share landing pages to direct your users to online web pages where you can manage, acquisition, subscriptions/unsubscriptions and deny list use cases, based on built-in templates.
 
 ## Access landing pages {#access-landing-pages}
 
