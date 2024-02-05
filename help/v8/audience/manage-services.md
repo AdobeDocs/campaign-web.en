@@ -64,11 +64,11 @@ To create a subscription service, follow the steps below.
 
 1. By default, services are stored in the **[!UICONTROL Services and Subscriptions]** folder. You can change it by browsing to the desired location. [Learn how to work with folders](../get-started/permissions.md#folders)
 
-1. By default, subscriptions are unlimited. You can disable the **[!UICONTROL Unlimited validity period]** option to define a validity duration for the service.
+1. By default, subscriptions are unlimited. 
 
-    In the example below, after 20 days:
-    * No recipients will be able to subscribe to this service anymore.
-    * All subscribers to this service will be automatically unsubscribed after 20 days. [Learn more](#automatic-unsubscription)
+    You can disable the **[!UICONTROL Unlimited validity period]** option to define a validity duration for the service. Once the validity period ends:
+    * No recipients can subscribe to this service anymore
+    * All subscribers to this service are automatically unsubscribed
 
     ![](assets/service-create-validity-period.png)
 
