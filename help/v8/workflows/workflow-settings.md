@@ -71,7 +71,12 @@ When the workflow is [associated to a campaign](create-workflow.md), it is displ
     >
     >If the **[!UICONTROL History in days]** field is left blank, its value will be considered as "1", meaning that the history will purged after 1 day.
 
-* **[!UICONTROL Default affinity]**: If your installation includes several workflow servers, use this field to choose the machine which the workflow will be executed on. If the value defined in this field does not exist on any server, the workflow will remain pending.
+* **[!UICONTROL Default affinity]**: If your installation includes several workflow servers, use this field to specify the server which the workflow will be executed on. This forces the execution of that workflow on a particular server. You can choose any existing affinity name, but make sure you do not use spaces or punctuation marks. If you use different servers, specify different names, separated by commas.
+
+    >[!IMPORTANT]
+    >
+    >If the value defined in this field does not exist on any server, the workflow will remain pending.
+
     
 * **[!UICONTROL Save SQL queries in log]**: Check this option to you to save the SQL queries from the workflow into the logs. This functionality is reserved for advanced users. It applies to workflows that contain targeting activities like **[!UICONTROL Build audience]**. When this option is enabled, the SQL queries sent to the database during workflow execution are displayed in the workflow's logs, allowing you to analyze them to optimize queries or diagnose issues.
 
