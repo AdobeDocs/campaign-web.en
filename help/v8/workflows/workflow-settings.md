@@ -40,7 +40,7 @@ These properties are:
     * **Time zone of the database** to use the time zone of the database server
     * A specific time zone
 * When a workflow fails, the operators belonging to the operators group selected in the **[!UICONTROL Supervisor(s)]** field are notified by email.
-* *You can also enter a **[!UICONTROL Description]** of your workflow.
+* You can also enter a **[!UICONTROL Description]** of your workflow.
 
 When the workflow is [associated to a campaign](create-workflow.md), it is displayed in the **[!UICONTROL Linked campaign]** field. You can open the associated campaign from that field.
 
