@@ -119,9 +119,11 @@ In the **[!UICONTROL Exclusion]** field, you can select to exclude recipients wh
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
 >title="Delivery settings for the delivery"
->abstract="Delivery parameters are technical settings which apply to your delivery. You can activate BCC for the delivery, and change the delivery and routine modes. These options are restricted to expert users only."
+>abstract="Delivery parameters are technical settings which apply to your delivery. You can change the delivery and routine modes, activate Email BCC, send using waves, and also choose the format of the email messages sent. These options are restricted to expert users only."
 
-**[!UICONTROL Delivery]** parameters are technical settings which apply to your delivery. 
+**[!UICONTROL Delivery]** parameters are technical settings which apply to your delivery.
+
+![](assets/delivery-settings-delivery.png)
 
 The integrated email **[!UICONTROL Routing]** external account is provided by default. It contains the technical parameters that allow the application to send emails.
 

@@ -29,7 +29,11 @@ To balance the load, you can divide deliveries into several batches. Configure t
 
 1. To configure waves, you can either:
 
-    * **[!UICONTROL Schedule multiple waves of the same size]**. For example, if you enter **[!UICONTROL 30%]** in the corresponding field, each wave will represent 30% of the messages included in the delivery, except the last one, which will represent 10% of the messages.
+    * **[!UICONTROL Schedule multiple waves of the same size]**.
+    
+      For example, if you enter **[!UICONTROL 30%]** in the corresponding field, each wave will represent 30% of the messages included in the delivery, except the last one, which will represent 10% of the messages.
+
+      ![](assets/waves-same-size.png)
 
       In the **[!UICONTROL Interval]** section, specify the delay between the start of two consecutive waves. For example, if you enter **[!UICONTROL 2d]**, the first wave will start immediately, the second wave will start in two days, the third wave in four days, and so on.
 
@@ -39,7 +43,9 @@ To balance the load, you can divide deliveries into several batches. Configure t
 
       In the example below, the first wave represents 25% of the total number of messages included in the delivery and will start immediately. The next two waves complete the delivery and are set to begin at six-hour intervals.
 
-      A specific typology control rule, **[!UICONTROL Wave scheduling check]**, ensures that the last wave is planned before the delivery validity limit. Campaign typologies and their rules are configured in the **[!UICONTROL Typology]** tab of the delivery settings. Learn more on control rules in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html)
+      ![](assets/waves-calendar.png)
+
+      A specific typology control rule, **[!UICONTROL Wave scheduling check]**, ensures that the last wave is planned before the delivery validity limit. Campaign typologies and their rules are configured in the **[!UICONTROL Typology]** tab of the delivery settings. Learn more on control rules in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html).
 
       >[!IMPORTANT]
       >
@@ -61,6 +67,8 @@ The two examples below are the most common use cases for using multiple waves.
 
   To do so, use the **[!UICONTROL Schedule waves according to a calendar]** option. For example, set the first wave to 10%, the second to 15%, and so on.
 
+  ![](assets/waves-ramp-up.png)
+
 * **Campaigns involving a call center**
 
   When managing a telephone loyalty campaign, your organization has a limited capacity to process the number of calls to contact subscribers.
@@ -68,3 +76,5 @@ The two examples below are the most common use cases for using multiple waves.
   Using waves, you can restrict the number of messages to 20 per day, which is the daily processing capacity of a call center.
 
   To do this, select the **[!UICONTROL Schedule multiple waves of the same size]** option. Enter **[!UICONTROL 20]** as the wave's size and **[!UICONTROL 1d]** in the **[!UICONTROL Period]** field.
+
+  ![](assets/waves-call-center.png)
