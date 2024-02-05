@@ -137,11 +137,9 @@ To start creating your email content, follow the steps below. In this use case, 
 
 ## Schedule the sending {#schedule}
 
-To schedule the sending of the email, follow the steps below.
+When a delivery is sent in the context of a workflow, you must use the **Scheduler** activity. Learn more in [this page](../workflows/activities/scheduler.md). Steps below only apply to standalone deliveries.
 
-Additional instructions on how to schedule the delivery sending are detailed in [this section](../msg/gs-messages.md#gs-schedule).
-
-1. Browse to the **[!UICONTROL Schedule]** section.
+1. Browse to the **[!UICONTROL Schedule]** section of the delivery properties.
 
 1. Use the **[!UICONTROL Enable scheduling]** toggle to activate it.
 
@@ -149,7 +147,9 @@ Additional instructions on how to schedule the delivery sending are detailed in 
 
     ![](assets/schedule.png)
 
-Once you send the delivery, the actual sending will start on the contact date you have defined.
+Once you send the delivery, the actual sending starts on the contact date you have defined.
+
+Learn more about delivery scheduling in [this section](../msg/gs-deliveries.md#schedule-the-delivery-sending).
 
 ## Preview and test the email {#preview-test}
 

@@ -83,10 +83,21 @@ From this screen, you can also [simulate your content](../preview-test/preview-t
 
 ## Schedule your delivery sending {#schedule-push}
 
-To schedule your delivery to a specific date and time, switch on the **[!UICONTROL Enable scheduling]** option. After you initiate the delivery, the message will be automatically sent on the exact date and time that you have defined for the recipient. Learn more about delivery scheduling in [this section](../msg/gs-messages.md#gs-schedule)
+When a delivery is sent in the context of a workflow, you must use the **Scheduler** activity. Learn more in [this page](../workflows/activities/scheduler.md). Steps below only apply to standalone deliveries.
+
+To schedule a standalone push delivery to a specific date and time, follow these steps:
+
+1. Browse to the **[!UICONTROL Schedule]** section of the delivery properties.
+
+1. Use the **[!UICONTROL Enable scheduling]** toggle to activate it.
+
+1. Set the desired date and time for sending.
+
+After you initiate the delivery, the message is automatically sent on the exact date and time that you have defined for the recipient. 
 
 ![](assets/push_create_3.png)
 
+Learn more about delivery scheduling in [this section](../msg/gs-messages.md#gs-schedule)
 
 ## Delivery advanced settings {#adv-push}
 
