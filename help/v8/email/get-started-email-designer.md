@@ -1,7 +1,7 @@
 ---
 audience: end-user
 title: Edit the email content
-description: Learn how to start building your content using the Email Designer in Campaign Web UI
+description: Learn how to start building your content using the Email Designer in Campaign Web user interface
 badge: label="Limited Availability"
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
 ---

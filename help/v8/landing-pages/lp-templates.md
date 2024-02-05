@@ -51,4 +51,4 @@ Next time you create a landing page, you can use this template to build your con
 
 1. Edit your content as desired using the landing page designer.
 
-<!--Primary page templates and subpage templates are managed separately, meaning that you cannot use a primary page template to create a subpage, and vice versa. TBC in Web UI-->
+<!--Primary page templates and subpage templates are managed separately, meaning that you cannot use a primary page template to create a subpage, and vice versa. TBC in Web user interface-->

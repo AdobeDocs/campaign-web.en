@@ -1,7 +1,7 @@
 ---
 audience: end-user
 title: Send your first email
-description: Learn how to send your first email with Campaign Web UI
+description: Learn how to send your first email with Campaign Web user interface
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Limited Availability" 
 ---

@@ -47,7 +47,7 @@ You are now connected to Campaign. Learn how to start using the user interface i
 
 Browse the top bar of the interface to:
 
-* share feedback about Campaign web UI
+* share feedback about Campaign Web user interface
 * switch between your organizations
 * switch between your Adobe Experience Cloud solutions and apps
 * search for help on [Adobe Experience League](https://experienceleague.adobe.com/docs/){target="_blank"}

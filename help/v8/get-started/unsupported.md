@@ -1,7 +1,7 @@
 ---
 audience: end-user
-title: Unsupported features in Campaign Web UI
-description: List of unsupported features in Campaign Web UI
+title: Unsupported features in Campaign Web user interface
+description: List of unsupported features in Campaign Web user interface
 badge: label="Beta"
 hide: yes
 hidefromtoc: yes

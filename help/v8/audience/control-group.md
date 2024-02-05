@@ -1,7 +1,7 @@
 ---
 audience: end-user
 title: Set a control group
-description: Learn how to set a control group for your messages in Campaign Web UI
+description: Learn how to set a control group for your messages in Campaign Web user interface
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Limited Availability" 
 ---

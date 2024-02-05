@@ -1,7 +1,7 @@
 ---
 audience: end-user
-title: Permission management in Campaign web
-description: Learn more about permissions in Campaign web v8
+title: Permission management in Campaign Web user interface
+description: Learn more about permissions in Campaign Web user interface
 badge: label="Limited Availability"
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
 ---

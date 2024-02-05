@@ -9,7 +9,7 @@ exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card4"
 >title="Predefined filter management"
->abstract="Campaign web now offers you an user-friendly interface to effortlessly manage and customize predefined filters to meet your specific needs. Create once and save for future use."
+>abstract="Campaign Web user interface offers an user-friendly interface to effortlessly manage and customize predefined filters to meet your specific needs. Create once and save for future use."
 
 
 <!--TO REMOVE BELOW-->
@@ -23,7 +23,7 @@ exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-dashboard"
 >title="Predefined filters"
->abstract="Campaign web now offers you an user-friendly interface to effortlessly manage and customize predefined filters to meet your specific needs. Create once and save for future use."
+>abstract="Campaign Web user interface offers you an user-friendly interface to effortlessly manage and customize predefined filters to meet your specific needs. Create once and save for future use."
 
 Predefined filters are custom filters which are created and saved to be available for future use. They can be used as shortcuts during any filtering operations with the query modeler, for example when filtering a list of data, or creating the audience of a delivery. 
 

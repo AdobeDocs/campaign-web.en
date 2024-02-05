@@ -1,7 +1,7 @@
 ---
 audience: end-user
 title: Edit the email content
-description: Learn how to edit the email content in Campaign Web UI
+description: Learn how to edit the email content in Campaign Web user interface
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Limited Availability" 
 ---

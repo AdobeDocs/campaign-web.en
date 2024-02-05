@@ -1,7 +1,7 @@
 ---
 audience: end-user
 title: Preview delivery content
-description: Learn how to preview your delivery content with Campaign Web UI
+description: Learn how to preview your delivery content with Campaign Web user interface
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Limited Availability"
 ---
@@ -24,21 +24,18 @@ To preview the content of your delivery, follow the steps below.
 
     * **[!UICONTROL Add subscriber(s)]** for previewing push notifications
 
-1. You can combine test profiles and profiles to preview your email or SMS message.
+1. You can combine profiles and test profiles to preview your email or SMS message.
 
     * The **[!UICONTROL Test profiles]** tab lists all seed addresses, which are additional and fictitious recipients in the database.
-
         ![](assets/simulate-select-profiles.png)
     
-        >[!NOTE]
-        >
-        >Test profiles can be created from the **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]** menu. [Learn more](../audience/test-profiles.md#create-test-profiles)
+        Test profiles can be created from the **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]** menu. [Learn more](../audience/test-profiles.md#create-test-profiles)
 
-    * The **[!UICONTROL Profiles]** tab lists all the recipients stored into the **[!UICONTROL Profiles and Targets]** folder from the [!DNL Campaign] console. Learn more in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html){target="_blank"}. 
-    
-        >[!NOTE]
-        >
-        >You can also view and manage profiles from the corresponding tab in the Campaign web UI. [Learn more](../audience/about-recipients.md)
+
+    * The **[!UICONTROL Profiles]** tab lists all the recipients stored into the **[!UICONTROL Profiles and Targets]** folder from the [!DNL Campaign] client console. Learn more in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html){target="_blank"}. 
+        
+        You can view, create, and manage profiles from the **[!UICONTROL Profiles]** tab. [Learn more](../audience/about-recipients.md)
+
 
 1. When browsing the test profile or profile lists, you can use filters to refine your search.
 

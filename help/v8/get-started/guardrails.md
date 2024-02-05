@@ -1,50 +1,50 @@
 ---
-title: Guardrails and limitations in Campaign Web UI
-description: Guardrails and limitations in Campaign Web UI
+title: Guardrails and limitations in Campaign Web user interface
+description: Guardrails and limitations in Campaign Web user interface
 badge: label="Beta"
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
 ---
 # Guardrails and limitations {#guardrails-limitations}
 
-When working in Campaign web UI with components created or modified in Campaign client console, the guardrails and limitations listed below apply.
+When working in Campaign Web user interface with components created or modified in Campaign client console, the guardrails and limitations listed below apply.
 
 ## Workflows {#wf-guardrails-limitations}
 
 ### Activities
 
-Workflow activities that are not supported yet in the web UI are read-only and displayed as incompatible activities. You can still execute the workflow, send messages, check the logs, etc. Workflow activities that are available both in the web UI and the client console are editable. 
+Workflow activities that are not supported yet in Campaign Web user interface are read-only and displayed as incompatible activities. You can still execute the workflow, send messages, check the logs, etc. Workflow activities that are available both in the Campaign Web user interface and the Campaign client console are editable. 
 
-| Console | Web UI |
+| Console | Web |
 | --- | --- |
 | ![](assets/limitations-activities-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-activities-web.png){width="800px" align="left" zoomable="yes"} |
 
-Workflow activity settings that are not supported yet in the web UI are not displayed. However, when the worflow is executed, these settings apply.
+Workflow activity settings that are not supported yet in the Web user interface are not displayed. However, when the worflow is executed, these settings apply.
 
-| Console | Web UI |
+| Console | Web |
 | --- | --- |
 | ![](assets/limitations-options-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){width="800px" align="left" zoomable="yes"} |
 
-In the console, the **Enrichment** activity can perform both reconciliation and enrichment. In the web UI, reconciliation capabilities are not available yet. If you have defined, in the console, reconciliation settings in the **Enrichment** activity, it will be displayed as a non-compatible read-only activity in the web UI. 
+In the console, the **Enrichment** activity can perform both reconciliation and enrichment. In Campaign Web user interface, reconciliation capabilities are not available yet. If you have defined, in the client console, reconciliation settings in the **Enrichment** activity, it will be displayed as a non-compatible read-only activity in the Campaign Web user interface. 
 
-| Console | Web UI |
+| Console | Web |
 | --- | --- |
 | ![](assets/limitations-options-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){width="800px" align="left" zoomable="yes"} |
 
 ### Canvas
 
-When creating a new workflow in the web UI, the canvas only supports one entry point. However, if you created a worflow in the console with multiple entry points, you can open and edit it in the web UI. 
+When creating a new workflow in Campaign Web user interface, the canvas only supports one entry point. However, if you created a worflow in the console with multiple entry points, you can open and edit it in Campaign Web user interface. 
 
-| Console | Web UI |
+| Console | Web |
 | --- | --- |
 | ![](assets/limitations-multiple-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-multiple-web.png){width="800px" align="left" zoomable="yes"} |
 
-Loops are not available yet in the web UI. If you created a wokflow including a loop using the console, you cannot access it from the web UI. An error message is displayed.
+Loops are not available yet in Campaign Web user interface. If you created a wokflow including a loop using the console, you cannot access it from the Campaign Web user interface. An error message is displayed.
 
-| Console | Web UI |
+| Console | Web |
 | --- | --- |
 | ![](assets/limitations-loops-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-loops-web.png){width="800px" align="left" zoomable="yes"} |
 
-The positioning of the nodes is refreshed everytime an activity is added or removed. If you create a workflow in the console, modify it using the web UI and re-open it in the console, you may notice some minor positioning imperfections. This has no impact on the workflow's processes and tasks.
+The positioning of the nodes is refreshed everytime an activity is added or removed. If you create a workflow in the console, modify it using Campaign Web user interface and re-open it in the console, you may notice some minor positioning imperfections. This has no impact on the workflow's processes and tasks.
 
 | Initial workflow | Positionning change |
 | --- | --- |
