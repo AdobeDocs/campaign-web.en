@@ -29,7 +29,7 @@ Predefined filters are custom filters which are created and saved to be availabl
 
 You can use existing built-in filters to access a specific sub-set of your data, or create your own predefined filters and save them.
 
-![](assets/predefined-filters-menu.png)
+![](assets/predefined-filters-menu.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
