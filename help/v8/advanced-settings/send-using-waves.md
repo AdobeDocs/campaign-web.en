@@ -76,7 +76,11 @@ If you select this option, you need to define the start day/time for each wave y
 
 * In the **[!UICONTROL Size]** column, enter a fixed number or a percentage.
 
-Add as many waves as needed.
+Add as many waves as you want. You can reorder them according to your needs.
+
+>[!NOTE]
+>
+>If you are using percentages, the total for all waves should not exceed 100%.
 
 In the example below, the first wave represents 25% of the total number of messages included in the delivery and starts immediately. The next two waves complete the delivery and are set to begin at six-hour intervals.
 
