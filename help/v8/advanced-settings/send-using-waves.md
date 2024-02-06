@@ -2,6 +2,7 @@
 audience: end-user
 title: Sending using waves
 description: Learn more about delivery settings in Campaign Web 
+feature: Email
 badge: label="Limited Availability"
 
 ---
@@ -18,7 +19,7 @@ badge: label="Limited Availability"
 >title="Define the size of each wave"
 >abstract="You must enter a size for all the waves you are adding. Enter either a numerical value (number of messages for each wave), or a percentage (0-100%)."
 
-To balance the load, you can divide deliveries into several batches. Configure the number of batches and their proportion with respect to the entire delivery, as well as the interval between two waves.
+To balance the load, you can divide email deliveries into several batches. Configure the number of batches and their proportion with respect to the entire delivery, as well as the interval between two waves.
 
 >[!NOTE]
 >
@@ -41,15 +42,11 @@ To send deliveries using waves, follow the steps below.
 
     >[!CAUTION]
     >
-    >Make sure the last waves do not exceed the delivery deadline, which is defined in the **[!UICONTROL Validity]** tab. Otherwise some messages might not be sent. [Learn more](delivery-settings.md#validity)
+    >Make sure the last waves do not exceed the delivery deadline, defined in the [Validity](delivery-settings.md#validity) tab, otherwise some messages might not be sent. A specific typology control rule, **[!UICONTROL Wave scheduling check]**, ensures that the last wave is planned before the delivery validity limit. Learn more on control rules in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html).
     >
     >You must also allow enough time for retries when configuring the last waves. [Learn more](delivery-settings.md#retries)
 
-1. To monitor your sends, go to the [delivery logs](../monitor/delivery-logs.md).
-
-    You can see the deliveries that were already sent in the processed waves (**[!UICONTROL Sent]** status) and the deliveries to be sent in the remaining waves (**[!UICONTROL Pending]** status).
-
-A specific typology control rule, **[!UICONTROL Wave scheduling check]**, ensures that the last wave is planned before the delivery validity limit. Campaign typologies and their rules are configured in the **[!UICONTROL Typology]** tab of the delivery settings. Learn more on control rules in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html).
+1. To monitor your sends, go to the [delivery logs](../monitor/delivery-logs.md). You can see the deliveries that were already sent in the processed waves (**[!UICONTROL Sent]** status) and the deliveries to be sent in the remaining waves (**[!UICONTROL Pending]** status).
 
 ## Schedule multiple waves of the same size {#waves-same-size}
     
@@ -59,7 +56,7 @@ If you select this option, all the waves have the same size (except the last one
 
 * Specify the size for all the waves you are splitting the delivery into. You can enter a percentage or a numerical value. Only the last wave can vary in size as it must include the remaining number of messages. 
 
-  For example, if you enter **[!UICONTROL 30%]** in the corresponding field, the first three waves represent 30% of all the messages included in the delivery, and the fourth one stands for the remaining 10%.
+  For example, if you enter **[!UICONTROL 30%]** in the **[!UICONTROL Waves size]** field, the first three waves represent 30% of all the messages included in the delivery, and the fourth one stands for the remaining 10%.
 
 * In the **[!UICONTROL Interval]** section, specify the delay between the start of two consecutive waves. For example, if you enter **[!UICONTROL 2 days]**, the first wave starts immediately, the second wave will start in two days, the third wave in four days, and so on.
 
@@ -75,7 +72,7 @@ To do this, select the **[!UICONTROL Schedule multiple waves of the same size]**
 
 If you select this option, you need to define the start day/time for each wave you are sending, as well as the size of each wave.
 
-* In the **[!UICONTROL Start]** column, specify the delay between the start of two consecutive waves.
+* In the **[!UICONTROL Start]** fields, specify the delay between the start of two consecutive waves.
 
 * In the **[!UICONTROL Size]** column, enter a fixed number or a percentage.
 

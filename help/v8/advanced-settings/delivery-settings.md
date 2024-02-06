@@ -2,6 +2,7 @@
 audience: end-user
 title: Delivery Settings
 description: Learn more about delivery settings in Campaign Web 
+feature: Email
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Limited Availability"
 ---
@@ -127,15 +128,23 @@ In the **[!UICONTROL Exclusion]** field, you can select to exclude recipients wh
 
 The integrated email **[!UICONTROL Routing]** external account is provided by default. It contains the technical parameters that allow the application to send emails.
 
-You can define the following **[!UICONTROL Sending]** settings:
+You can define the **[!UICONTROL Sending]** settings below.
 
-* **[!UICONTROL Test SMTP delivery]**: This option is used to test sending via SMTP. The delivery is processed up to connection to the SMTP server but is not sent: for every recipient of the delivery, Campaign connects to the SMTP provider server, executes the SMTP RCPT TO command, and closes the connection before the SMTP DATA command.
+* **[!UICONTROL Delivery priority]**: Use this option to change the sending order for your deliveries by setting their priority level: normal, high or low. 
+
+* **[!UICONTROL Message batch quantity]**: Use this option to define the number of messages grouped within the same XML delivery package. If the parameter is set to 0, the messages are automatically grouped. The package size is defined by the calculation `<delivery size>/1024`, with a minimum of 8 and a maximum of 256 messages by package.
+
+  >[!IMPORTANT]
+  >
+  >When the delivery is created by duplicating an existing one, this parameter is reset.
+
+* **[!UICONTROL Test SMTP delivery]**: This option is used to test sending via SMTP. The delivery is processed up to connection to the SMTP server, but is not sent: for every recipient of the delivery, Campaign connects to the SMTP provider server, executes the SMTP RCPT TO command, and closes the connection before the SMTP DATA command.
 
 * **[!UICONTROL Email BCC]**: This option is used to store emails on an external system through BCC by simply adding a BCC email address to your message target. Learn more in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
-* **[!UICONTROL Send using multiple waves]**: You can progressively increase the volume sent using waves. This will avoid your messages being marked as spam or when you want to restrict the number of messages per day. Using waves you can divide deliveries into several batches instead of sending high volumes of messages at the same time. [Learn more](send-using-waves.md)
+In the **[!UICONTROL Wave definition]** section, select the **[!UICONTROL Send using multiple waves]** option to progressively increase the volume sent using waves. This will avoid your messages being marked as spam or when you want to restrict the number of messages per day. Using waves you can divide deliveries into several batches instead of sending high volumes of messages at the same time. [Learn more](send-using-waves.md)
 
-You can also change the format of the email messages sent:
+You can also change the **[!UICONTROL Mail formats]** of the email messages sent as detailed below.
 
 * **[!UICONTROL Use recipient preferences]** (default mode)
 
