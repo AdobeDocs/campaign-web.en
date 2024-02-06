@@ -1,7 +1,7 @@
 ---
 audience: end-user
-title: What's new in Campaign Web v8
-description: Discover new feature coming with Campaign Web v8
+title: What's new in Campaign Web User Interface
+description: Discover new feature coming with Campaign Web User Interface
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Limited Availability" 
 ---
@@ -13,7 +13,12 @@ badge: label="Limited Availability"
 >title="Release Notes"
 >abstract="Our latest release is packed with intuitive features designed to simplify the creation of personalized cross-channel campaigns, drive exceptional results, and give you a competitive advantage across all channels."
 
-We are thrilled to introduce the new version of Adobe Campaign Web User Interface. Our latest release is packed with intuitive features designed to simplify the creation of personalized cross-channel campaigns, drive exceptional results, and give you a competitive advantage across all channels. Campaign Web User Interface brings a connected canvas with Adobe Experience Platform for a unified experience. This version is available to all users starting Campaign v8.6 release.
+We are thrilled to introduce the new version of **Adobe Campaign Web User Interface**. Our latest release is packed with intuitive features designed to simplify the creation of personalized cross-channel campaigns, drive exceptional results, and give you a competitive advantage across all channels. Campaign Web User Interface (UI) brings a connected canvas with Adobe Experience Platform for a unified experience. 
+
+
+>[!AVAILABILITY]
+>
+>This version is available to all users starting Campaign v8.6 release. Learn more about Adobe Campaign releases in [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
 
 
 ## Key capabilities {#key-features}
@@ -22,7 +27,7 @@ This new Campaign Web user interface comes with the following capabilities:
 
 **Modern, friendly, and unified experience**
 
-Campaign new Web user interface offers a new user experience, aligned with all Adobe Experience Cloud solutions and apps. It offers:
+Campaign new Web user interface offers a new user experience, connected with all Adobe Experience Cloud solutions and apps. It offers:
 
 * Access to the new Campaign interface, and your other Adobe solutions with a single and shared user session
 * New navigation experience, with all menus and folders available from the left rail

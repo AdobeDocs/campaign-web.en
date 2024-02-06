@@ -21,7 +21,7 @@ hide: yes
   + [Work with predefined filters](get-started/predefined-filters.md)
   + [Access and permissions](get-started/permissions.md)
   + [Guardrails and limitations](get-started/guardrails.md)
-  + [Unsupported capabilites](get-started/unsupported.md)
+  + [Unsupported capabilites](get-started/capability-matrix.md)
   + [AI-powered contextual help](get-started/using-ai.md)
 + Messages and deliveries {#msg}
   + [Get started with messages](msg/gs-messages.md)
