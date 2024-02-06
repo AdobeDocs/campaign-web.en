@@ -13,15 +13,8 @@ badge: label="Limited Availability"
 >title="Release Notes"
 >abstract="Our latest release is packed with intuitive features designed to simplify the creation of personalized cross-channel campaigns, drive exceptional results, and give you a competitive advantage across all channels."
 
-<!--TO REMOVE BELOW-->
->[!CONTEXTUALHELP]
->id="acw_homepage_card2"
->title="Release Notes"
->abstract="Our latest release is packed with intuitive features designed to simplify the creation of personalized cross-channel campaigns, drive exceptional results, and give you a competitive advantage across all channels."
-<!--TO REMOVE ABOVE-->
+We are thrilled to introduce the new version of Adobe Campaign Web User Interface. Our latest release is packed with intuitive features designed to simplify the creation of personalized cross-channel campaigns, drive exceptional results, and give you a competitive advantage across all channels. Campaign Web User Interface brings a connected canvas with Adobe Experience Platform for a unified experience. This version is available to all users starting Campaign v8.6 release.
 
-
-We are thrilled to introduce the new version of Adobe Campaign Web User Interface. Our latest release is packed with intuitive features designed to simplify the creation of personalized cross-channel campaigns, drive exceptional results, and give you a competitive advantage across all channels.
 
 ## Key capabilities {#key-features}
 
