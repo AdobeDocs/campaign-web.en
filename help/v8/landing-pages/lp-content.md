@@ -1,6 +1,7 @@
 ---
 title: Define landing page-specific content
 description: Learn how to design landing page specific content in Campaign Web
+feature: Landing Pages
 badge: label="Limited Availability" 
 
 ---

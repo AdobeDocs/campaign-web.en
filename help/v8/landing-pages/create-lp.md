@@ -1,6 +1,7 @@
 ---
 title: Create a landing page
 description: Learn how to configure and publish a landing page in Campaign Web
+feature: Landing Pages
 badge: label="Limited Availability" 
 
 ---
