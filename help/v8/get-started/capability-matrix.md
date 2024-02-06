@@ -29,7 +29,7 @@ Use the provided links to browse the Campaign v8 (client console) documentation 
 * Marketing Resource Management (MRM), goals, simulations, and cost control. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html){target="_blank"}
 * Task management. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html){target="_blank"}
 
-## Communication channels{ #channels-capabilities}
+## Communication channels {#channels-capabilities}
 
 With Campaign Web user interface, you can create, design and send email, SMS and push notifications, and measure their impact using various dedicated reports, as detailed [in this section](../msg/gs-messages.md). However, the following channels are not available in this version.
 
