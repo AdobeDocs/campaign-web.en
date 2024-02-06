@@ -13,10 +13,11 @@ badge: label="Limited Availability"
 >abstract="Discover the new landing page experience. Instantly create, design, and share landing pages to direct your users to online web pages where you can manage acquisition, subscriptions/unsubscriptions and deny list use cases, based on built-in templates."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="See release notes"
 
+Adobe Campaign allows you to create, design, and share landing pages. In the context of marketing campaigns, a landing page is a standalone web page where a visitor is directed after they click on a link in an email, SMS, or push delivery, or a website. 
 
-A landing page is a standalone web page that a user is directed to after clicking through from an email, a website, an ad, or any other digital location.
+[!DNL Adobe Campaign] allows you to create and design landing pages to direct your users to online forms where they can opt-in/out from receiving your communications, or subscribe to a specific service such as a newsletter. Adobe Campaign comes with four templates to manage acquisition, subscriptions, unsubscriptions, and denylist use cases.
 
-[!DNL Adobe Campaign] allows you to create and design landing pages to direct your users to online forms where they can opt in or opt out from receiving your communications, or subscribe to a specific service such as a newsletter.
+Key capabilities are listed below:
 
 * Leverage [!DNL Adobe Campaign] content design capabilities to easily build **responsive landing pages**.
 * Set up **opt-in and opt-out flows** quickly and seamlessly.

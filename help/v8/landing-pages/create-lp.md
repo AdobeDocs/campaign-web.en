@@ -9,9 +9,9 @@ badge: label="Limited Availability"
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="Create and manage landing pages"
->abstract="Adobe Campaign allows you to create, design, and share landing pages to direct your users to online web pages where you can manage acquisition, subscriptions/unsubscriptions and deny list use cases, based on built-in templates."
+>abstract="Adobe Campaign allows you to create, design, and share landing pages to direct your users to online web pages where you can manage acquisition, subscriptions/unsubscriptions and denylist use cases, based on built-in templates."
 
-Adobe Campaign allows you to create, design, and share landing pages to direct your users to online web pages where you can manage acquisition, subscriptions/unsubscriptions and deny list use cases, based on built-in templates.
+Adobe Campaign allows you to create, design, and share landing pages. In the context of marketing campaigns, a landing page is a standalone web page where a visitor is directed after they click on a link in an email, SMS, push delivery, or in a website. Adobe Campaign comes with four templates to manage **acquisition**, **subscriptions**, **unsubscriptions**, and **denylist** use cases.
 
 ## Access landing pages {#access-landing-pages}
 
