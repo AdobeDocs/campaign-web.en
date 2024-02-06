@@ -9,9 +9,9 @@ badge: label="Limited Availability"
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="Create and manage landing pages"
->abstract="Adobe Campaign allows you to create, design, and share landing pages to direct your users to online web pages where you can manage, acquisition, subscriptions/unsubscriptions and deny list use cases, based on built-in templates."
+>abstract="Adobe Campaign allows you to create, design, and share landing pages to direct your users to online web pages where you can manage acquisition, subscriptions/unsubscriptions and deny list use cases, based on built-in templates."
 
-Adobe Campaign allows you to create, design, and share landing pages to direct your users to online web pages where you can manage, acquisition, subscriptions/unsubscriptions and deny list use cases, based on built-in templates.
+Adobe Campaign allows you to create, design, and share landing pages to direct your users to online web pages where you can manage acquisition, subscriptions/unsubscriptions and deny list use cases, based on built-in templates.
 
 ## Access landing pages {#access-landing-pages}
 
@@ -25,9 +25,9 @@ The **[!UICONTROL Landing pages]** inventory displays all the created items. You
 
 <!--From this list, you can access the [landing page Live report](../reports/lp-report-live.md) or [landing page Global report](../reports/lp-report-global.md) for published items.-->
 
->[!NOTE]
+>[!CAUTION]
 >
->You cannot display landing pages created from the client console in Campaign Web. Learn more in the [Campaign console documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
+>You cannot display or edit landing pages created from the client console in Campaign Web. Learn more in the [Campaign console documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
 
 <!--If you unpublish a landing page which is referenced in a message, the link to the landing page will be broken and an error page will be displayed. You cannot delete a published landing page. To delete it, you must first unpublish it.-->
 
@@ -93,7 +93,7 @@ You can duplicate or delete a landing page. Click the three dots next to a landi
 
     ![](assets/lp-pages.png)
 
-1. The **[!UICONTROL Update the preloaded record]** is selected by default. If you wish to update the profiles stored in the database via the landing page, you can use a preloading box. The preloading box lets you indicate how to find the record to be updated in the database. You can also choose from the fields in the current context of the landing page, those that will be used to find the corresponding profile in the database.
+1. The **[!UICONTROL Update the preloaded record]** option is selected by default. If you wish to update the profiles stored in the database via the landing page, you can use a preloading box. The preloading box lets you indicate how to find the record to be updated in the database. You can also choose from the fields in the current context of the landing page, those that will be used to find the corresponding profile in the database.
 
     ![](assets/lp-storage-schedule.png)
 
