@@ -30,11 +30,6 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 ## Configure the Build audience activity{#build-audience-configuration}
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_build_audience_dimension"
->title="Select the targeting dimension"
->abstract="The targeting dimension lets you define the population targeted by the operation: recipients, contract beneficiaries, operator, subscribers, etc. By default, the target is selected from the recipients."
-
 Follow these steps to configure the **Build audience** activity:
 
 ![](../assets/workflow-audience.png)
