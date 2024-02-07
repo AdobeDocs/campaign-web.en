@@ -11,6 +11,11 @@ exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
 >title="Select the targeting dimension"
 >abstract="The targeting dimension lets you define the population targeted by the operation: recipients, contract beneficiaries, operator, subscribers, etc. By default, the target is selected from the recipients."
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_reconciliation_targeting"
+>title="Targeting dimension"
+>abstract="Select the new targeting dimension. A dimension lets you define the targeted population: recipients, app subscribers, operators, subscribers, etc. By default, the current targeting dimension is selected." 
+
 The targeting dimension, aka. target mapping, is the type of data that an operation is handling. It lets you define the targeted population: profiles, contract beneficiaries, operators, subscribers, etc.
 
 ## Workflows' targeting dimensions {#workflow}
