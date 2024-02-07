@@ -42,11 +42,9 @@ Use the provided links to browse the Campaign v8 (client console) documentation 
 
 ## Landing pages and web applications {#Webapps-capabilities}
 
-Adobe Campaign allows you to create, design, and share landing pages.  Learn more about landing page in Campaign Web user interface [in this section](../landing-pages/get-started-lp.md).
+Adobe Campaign allows you to create, design, and share landing pages. The landing pages experience has been entirely reimagined in the new interface. Discover how to create, design, and publish landing page in Campaign Web user interface [in this section](../landing-pages/get-started-lp.md).
 
-Landing pages have been entirely redesigned in Campaign Web user interface. As a consequence, in Campaign client console, you cannot edit, update or modify a landing page created in the Web interface - and conversely.
-
-In addition, the following types of web applications are not available in Campaign Web user interface. However, they are visible in the list of landing pages. Use the provided links to browse the Campaign Classic v7 documentation and learn more about these web apps.
+As a consequence, in Campaign client console, you cannot edit, update nor modify a landing page created in the Web interface - and conversely. The following types of web applications are not available in Campaign Web user interface. However, they are visible in the list of landing pages. Use the provided links to browse the Campaign Classic v7 documentation and learn more about these web apps:
 
 * Web applications. [Learn more](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/about-web-applications.html){target="_blank"}
 * Web forms. [Learn more](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html){target="_blank"}
@@ -55,15 +53,19 @@ In addition, the following types of web applications are not available in Campai
 
 ## Profiles, test profiles, and audiences {#profiles-audiences-capabilities}
 
-You can create, manage, and update profiles and test profiles in both Campaign client console and Campaign Web user interface. All changes performed in one UI is visible in the other. Note that the term of 'recipient' has been changed to 'profile' in the new Web user interface. However, some specific recipient settings and advanced parameters can be missing from the new Campaign Web user interface. 
+You can create, manage, and update profiles and test profiles in both Campaign client console and Campaign Web user interface. All changes performed in one UI is visible in the other. However, some specific recipient settings and advanced parameters can be missing from the new Campaign Web user interface.  Note that the term of 'recipient' has been changed to 'profile' in the new Web user interface.
 
-Audience composition is a new capability coming with Campaign Web user interface. As a consequence, in Campaign client console, you cannot edit, update or modify an [audience created with the Query modeler](../query/query-modeler-overview.md). All audiences created in Campaign client console or in Adobe Experience Platform are available in Campaign Web user interface.
+Audience composition is a new capability coming with Campaign Web user interface. As a consequence, in Campaign client console, you cannot edit, update or modify an [audience created with the Query modeler](../query/query-modeler-overview.md). 
+
+All audiences created in Campaign client console or in Adobe Experience Platform are available in Campaign Web user interface.
 
 One-shot import/export jobs as described in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/import-profiles.html#import-jobs){target="_blank"} are not available in Campaign Web user interface. <!--To import profiles into Campaign Web user interface, you must create a workflow as detailed in [this section]().-->
 
 ## Transactional messaging {#mc-capabilities}
 
-Transactional messaging capabilities coming with the Message Center product package are not available in this version of the new Campaign Web user interface. Browse the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html){target="_blank"} and learn more about real-time messaging capabilities, such as:
+Transactional messaging capabilities coming with the Message Center product package are not available in this version of the new Campaign Web user interface. 
+
+Browse the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html){target="_blank"} and learn more about real-time messaging capabilities, such as:
 
 * Realtime message authoring and execution on email, SMS and push
 * Message enrichment and personalization
@@ -79,7 +81,7 @@ With this new user interface, you can also use Assets from Adobe Experience Mana
 Note that the following capabilities are not available in this version of the product. Use the provided links to browse the Campaign v8 (client console) documentation and learn more about these features (features with an `*` are not supported in Campaign client console neither).
 
 * AMP for emails.  [Learn more in Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html){target="_blank"}
-* Content from public resources
+* Content from public resources -  SCOPË TO CONFIRM
 * Custom personalization block creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}
 * Content from custom forms (Content management module). [Learn more](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/about-content-management.html){target="_blank"}
 * Content from a URL`*`
@@ -87,11 +89,13 @@ Note that the following capabilities are not available in this version of the pr
 * Email fragments`*`
 * Multivariant / Multilingual use case`*`
 
-## Typology rules {#rules-capabilities}
+## Typologies and typology rules {#rules-capabilities}
 
-Typology rules can be selected for a delivery, or a delivery template, in Campaign Web user interface, however rules and typology rules creation, management, and customzation are only available in Campaign client console.
+Typologies are sets of typology rules that are executed during the preparation phase in order to easily apply multiple filtering rules to a delivery at once. They allow marketers to standardize business practices across all deliveries as they let them control, filter, and prioritize the sending of deliveries.
 
-Use the provided links to browse the Campaign v8 (client console) documentation and learn more about typology rules.
+Typology rules can be selected for a delivery, or a delivery template, in Campaign Web user interface, as detailed [in this section](../advanced-settings/delivery-settings.md#typology). However rules and typology rules creation, management, and customzation are only available in Campaign client console.
+
+Use the provided links to browse the Campaign v8 (client console) documentation and learn more about typology rules:
 
 * Control rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html){target="_blank"}
 * Fatigue / Pressure rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}
@@ -109,6 +113,8 @@ Note that the following capabilities are only available in the Campaign client c
 * Scripting in workflows
 * ETL activities: Export, Edit schema, Data loading, Data extract, SQL code
 
+Learn more about available workflow activities in Adobe Campaign v8 (console) workflow documentation [here](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html){target="_blank"}.
+
 ## Offer management {#offer-capabilities}
 
 Adobe Campaign Web allows you to send with your deliveries offers that have been created in the console using the **[!UICONTROL Interaction]** module. Offer design, eligibility rules, and offer management is only available in the Campaign client console. [Learn more](../msg/offers.md)
@@ -119,9 +125,7 @@ Learn how to manage an offer catalog in the  [Campaign v8 (client console) docum
 
 The new Campaign modern UI simplifies marketing campaign design and delivery, and brings consistency, along with other Adobe solutions, including Adobe Experience Platform and Adobe Experience Manager.
 
-The following integrations are available from Adobe Campaign client console, and not yet available in this version of Campaign Web user interface.
-
-Use the provided links to browse the Campaign v8 (client console) documentation and learn more about typology rules.
+The following integrations are available from Adobe Campaign client console, and not yet available in this version of Campaign Web user interface. Use the provided links to browse the Campaign v8 (client console) documentation and learn more about these integrations:
 
 * Adobe Analytics data usage and KPI sharing. [Learn more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html){target="_blank"}
 * Audience sharing with Adobe Experience Cloud (Adobe Audience Manager). [Learn more](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html){target="_blank"}
@@ -145,17 +149,28 @@ Some capabilities are only available from the client console. Browse the provide
 
 Campaign Web user interface does not surface the following capabilities. They are only available in the client console. 
 
-* External accounts
-* Schema extension
-* Data management workflow activities: Data loading, Extraction (file), Update data, Edit schema, Import/export technical workflows
-* Campaign configuration and connection to external systems
+Browse the provided links to browse the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html){target="_blank"} and learn more.
+
+* External accounts. [Learn more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html){target="_blank"}
+* Schema creation and extension. [Learn more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/schemas.html){target="_blank"}
+* Data management workflow activities: Data loading, Extraction (file), Update data, Edit schema, Import/export technical workflows. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html#data-management){target="_blank"}
+* Campaign configuration and connection to external systems. [Learn more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html){target="_blank"}
 
 ## Approvals {#approvals-capabilities}
 
-Campaign Web user interface does not surface the following capabilities. They are only available in the client console. 
+Campaign Web user interface does not surface approval management for content, deliveries, workflows, campaigns and targets. They are only available in the client console.
 
-* Content approval
-* Delivery approval
-* Campaign approval
-* Target approval
+Learn how to manage approvals in workflows in the  [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/executing-a-workflow/define-approvals.html){target="_blank"}.
+
+
+Learn how to manage delivery, content and target approvals in campaigns in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html){target="_blank"}.
+
+
+## Permissions  {#permissions-capabilities}
+
+Campaign users can only access Campaign Web user interface with their Adobe ID, based on Adobe Identity Management System (IMS).
+
+Permissions are defined in Adobe Admin Console and Adobe Campaign client console as detailed [in this section](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html). No action on permissions is possible from Adobe Campaign Web user interface.
+
+
 
