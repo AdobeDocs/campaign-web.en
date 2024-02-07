@@ -20,7 +20,6 @@ hide: yes
   + [Browse and filter lists](get-started/list-filters.md)
   + [Work with predefined filters](get-started/predefined-filters.md)
   + [Access and permissions](get-started/permissions.md)
-  + [Guardrails and limitations](get-started/guardrails.md)
   + [Unsupported capabilites](get-started/capability-matrix.md)
   + [AI-powered contextual help](get-started/using-ai.md)
 + Messages and deliveries {#msg}
@@ -113,6 +112,7 @@ hide: yes
   + [Create your first campaign](campaigns/create-campaigns.md)
 + Workflows {#wf}
   + [Get started with workflows](workflows/gs-workflows.md)
+  + [Guardrails and limitations](get-started/guardrails.md)
   + [Access and manage workflows](workflows/access-monitor.md)
   + Create and run your first workflow {#create-workflow}
     + [Key principles of workflow creation](workflows/gs-workflow-creation.md)
