@@ -53,7 +53,7 @@ As a consequence, in Campaign client console, you cannot edit, update nor modify
 
 ## Profiles, test profiles, and audiences {#profiles-audiences-capabilities}
 
-You can create, manage, and update profiles and test profiles in both Campaign client console and Campaign Web user interface. All changes performed in one UI is visible in the other. However, some specific recipient settings and advanced parameters can be missing from the new Campaign Web user interface.  Note that the term of 'recipient' has been changed to 'profile' in the new Web user interface.
+You can create, manage, and update profiles and test profiles in both Campaign client console and Campaign Web user interface. All changes performed in one UI is visible in the other. However, some specific recipient settings and advanced parameters can be missing from the new Campaign Web user interface. Note that the term of 'recipient' has been changed to 'profile' in the new Web user interface.
 
 Audience composition is a new capability coming with Campaign Web user interface. As a consequence, in Campaign client console, you cannot edit, update or modify an [audience created with the Query modeler](../query/query-modeler-overview.md). 
 
@@ -80,10 +80,10 @@ With this new user interface, you can also use Assets from Adobe Experience Mana
 
 Note that the following capabilities are not available in this version of the product. Use the provided links to browse the Campaign v8 (client console) documentation and learn more about these features (features with an `*` are not supported in Campaign client console neither).
 
-* AMP for emails.  [Learn more in Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html){target="_blank"}
-* Content from public resources -  SCOPË TO CONFIRM
+* Content from public resources - SCOPË TO CONFIRM
 * Custom personalization block creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}
 * Content from custom forms (Content management module). [Learn more](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/about-content-management.html){target="_blank"}
+* AMP for emails. [Learn more in Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html){target="_blank"}
 * Content from a URL`*`
 * Save an HTML content as a template`*`
 * Email fragments`*`
@@ -119,7 +119,7 @@ Learn more about available workflow activities in Adobe Campaign v8 (console) wo
 
 Adobe Campaign Web allows you to send with your deliveries offers that have been created in the console using the **[!UICONTROL Interaction]** module. Offer design, eligibility rules, and offer management is only available in the Campaign client console. [Learn more](../msg/offers.md)
 
-Learn how to manage an offer catalog in the  [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
+Learn how to manage an offer catalog in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
 
 ## Integrations with Adobe Experience Cloud solutions {#exc-capabilities}
 
@@ -160,13 +160,13 @@ Browse the provided links to browse the [Campaign v8 (client console) documentat
 
 Campaign Web user interface does not surface approval management for content, deliveries, workflows, campaigns and targets. They are only available in the client console.
 
-Learn how to manage approvals in workflows in the  [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/executing-a-workflow/define-approvals.html){target="_blank"}.
+Learn how to manage approvals in workflows in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/executing-a-workflow/define-approvals.html){target="_blank"}.
 
 
 Learn how to manage delivery, content and target approvals in campaigns in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html){target="_blank"}.
 
 
-## Permissions  {#permissions-capabilities}
+## Permissions {#permissions-capabilities}
 
 Campaign users can only access Campaign Web user interface with their Adobe ID, through Adobe Identity Management System (IMS).
 
