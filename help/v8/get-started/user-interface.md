@@ -137,7 +137,6 @@ REFER TO
 https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
 
-
 >[!CONTEXTUALHELP]
 >id="acw_push_permission_for_segment"
 >title="Permission required"
@@ -148,11 +147,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Permission required"
 >abstract="Your administrator must grant you permission before you can create a segment."
 
-<!-- Workflows-->
-
-
 <!-- delivery template settings-->
-
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sending"
@@ -168,8 +163,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_campaign_workflow_list"
 >title="Workflow list in a campaign"
 >abstract="Workflow list in a campaign"
-
-<!-- delivery settings-->
 
 
 <!-- FOR BETA (alignment) -->
@@ -316,6 +309,13 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_directmail_properties_content"
 >title="Content properties for Direct Mail"
 >abstract="Content properties for Direct Mail"
+
+<!-- FOR POST-GA -->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_change_data_source"
+>title="Change Data Source"
+>abstract="The **Change Data Source** activity allows you to select a different data source for the working table of your workflow."
 
 
 <!--
