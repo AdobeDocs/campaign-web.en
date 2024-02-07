@@ -122,7 +122,6 @@ Thanks to Campaign Gen AI's capabilities, this assistant transforms your experie
 Learn more in [this section](using-ai.md).
 
 
-
 ## Learn more {#learn-more}
 
 Learn how to browse, search, and filter lists available in your Campaign environment [in this page](list-filters.md).

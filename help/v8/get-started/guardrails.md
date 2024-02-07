@@ -1,7 +1,7 @@
 ---
 title: Guardrails and limitations in Campaign Web user interface
 description: Guardrails and limitations in Campaign Web user interface
-badge: label="Beta"
+badge: label="Limited Availability"
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
 ---
 # Guardrails and limitations {#guardrails-limitations}
