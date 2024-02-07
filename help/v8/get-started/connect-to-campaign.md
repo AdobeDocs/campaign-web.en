@@ -10,7 +10,7 @@ Experience Cloud is Adobe's integrated family of digital marketing applications,
 
 ## Sign in to Adobe Experience Cloud {#sign-in-to-exc}
 
-Typically, Experience Cloud administrators grant access to applications and services. Follow the steps in your email invitation to the Experience Cloud.
+You can only use Single Sign-On (SSO) to connect to Campaign. Typically, Experience Cloud administrators grant access to applications and services. Follow the steps in your email invitation to the Experience Cloud.
 
 To sign in to Adobe Experience Cloud, basic steps are:
 

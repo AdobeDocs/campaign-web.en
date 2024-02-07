@@ -168,7 +168,7 @@ Learn how to manage delivery, content and target approvals in campaigns in the [
 
 ## Permissions  {#permissions-capabilities}
 
-Campaign users can only access Campaign Web user interface with their Adobe ID, based on Adobe Identity Management System (IMS).
+Campaign users can only access Campaign Web user interface with their Adobe ID, through Adobe Identity Management System (IMS).
 
 Permissions are defined in Adobe Admin Console and Adobe Campaign client console as detailed [in this section](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html). No action on permissions is possible from Adobe Campaign Web user interface.
 
