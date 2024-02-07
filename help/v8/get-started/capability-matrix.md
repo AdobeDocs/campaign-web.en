@@ -178,8 +178,13 @@ Permissions are defined in Adobe Admin Console and Adobe Campaign client console
 
 Campaign platform monitoring capabitilies are only available in the client console and Campaign Control panel. They do not surface in Campaign Web user interface.
 
-Browse the provided links to the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html){target="_blank"} to learn more.
+Browse the provided links to the Campaign v8 (client console) documentation and Control panel documentation to learn more.
 
 * [Workflow monitoring](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-technical-workflows.html){target="_blank"}
 * [Workflow heat map](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/heatmap.html){target="_blank"}
+* [Performance monitoring](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html){target="_blank"}
+* [Deliverabiltiy monitoring](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/monitoring-deliverability.html){target="_blank"}
+
+
+
 
