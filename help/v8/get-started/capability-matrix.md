@@ -10,7 +10,7 @@ exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
 
 Key Campaign capabilities are available in Campaign Web user interface. This interface was primary designed for marketers to plan, launch and measure their marketing campaigns. All capabilities are listed [in this page](../rn/whats-new.md). 
 
-Campaign platform customization based on business and data needs, and connection to other systems are managed in the Campaign client console. As a consequence, some settings and features can only be accessed, created, or managed from Campaign Client Console. Some will be available in a later version of Campaign Web user interface.
+Campaign platform customization based on business and data needs, and connection to other systems are managed in the Campaign client console. As a consequence, some settings and features can only be accessed, created, or managed from Campaign Client Console. Some will be available in a later update of Campaign Web user interface.
 
 <!--
 **Homepage**
@@ -20,7 +20,7 @@ Campaign platform customization based on business and data needs, and connection
 
 ## Campaign Management {#campaign-mgt-capabilities}
 
-With Campaign Web user interface, you can create cross channel campaigns as detailed [in this section](../campaigns/gs-campaigns.md). In the current version, the following capabilities are only available in Campaign client console. They are not accessible in the Campaign Web user interface - but some can be visible from the [Explorer menu](user-interface.md#user-interface-explorer).
+With Campaign Web user interface, you can create cross channel campaigns as detailed [in this section](../campaigns/gs-campaigns.md). The following capabilities are only available in Campaign client console. They are not accessible in the Campaign Web user interface - but some can be visible from the [Explorer menu](user-interface.md#user-interface-explorer).
 
 Use the provided links to browse the Campaign v8 (client console) documentation and learn how to use these capabilities.
 
@@ -33,7 +33,7 @@ Use the provided links to browse the Campaign v8 (client console) documentation 
 
 ## Communication channels {#channels-capabilities}
 
-With Campaign Web user interface, you can create, design and send email, SMS and push notifications, and measure their impact using various dedicated reports, as detailed [in this section](../msg/gs-messages.md). However, the following channels are not available in this version.
+With Campaign Web user interface, you can create, design and send email, SMS and push notifications, and measure their impact using various dedicated reports, as detailed [in this section](../msg/gs-messages.md). However, the following channels are currently not available.
 
 Use the provided links to browse the Campaign v8 (client console) documentation and learn more about these channels.
 
@@ -65,7 +65,7 @@ One-shot import/export jobs as described in [Campaign v8 (client console) docume
 
 ## Transactional messaging {#mc-capabilities}
 
-Transactional messaging capabilities coming with the Message Center product package are not available in this version of the new Campaign Web user interface. 
+Transactional messaging capabilities coming with the Message Center product package are currently not available in the new Campaign Web user interface. 
 
 Browse the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html){target="_blank"} and learn more about real-time messaging capabilities, such as:
 
@@ -80,9 +80,8 @@ The new Email Designer coming with Adobe Campaign Web user interface lets you ea
 
 With this new user interface, you canmanage email template synchronization from Adobe Experience Manager, and integrate with Adobe Experience Manager as a Cloud Service.
 
-Note that the following capabilities are not available in this version of the product. Use the provided links to browse the Campaign v8 (client console) documentation and learn more about these features.
+Note that the following capabilities are not available for now in Campaign Web user interface. Use the provided links to browse the Campaign v8 (client console) documentation and learn more about these features.
 
-* Content from public resources - SCOPË TO CONFIRM
 * Custom personalization block creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}
 * Content from custom forms (Content management module). [Learn more](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/about-content-management.html){target="_blank"}
 * AMP for emails. [Learn more in Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html){target="_blank"}
@@ -108,7 +107,7 @@ Use the provided links to browse the Campaign v8 (client console) documentation 
 
 ## Workflows {#wf-capabilities}
 
-The new Campaign Web user interface brings a reimagined workflow canvas interface to design and manage your processes. Key workflow activities are already available in their new design, some will come in a future version. Learn more about workflow capabilities, including guardrails and limitations [in this section](../get-started/guardrails.md).
+The new Campaign Web user interface brings a reimagined workflow canvas interface to design and manage your processes. Key workflow activities are already available in their new design, some will come in a future update. Learn more about workflow capabilities, including guardrails and limitations [in this section](../get-started/guardrails.md).
 
 Note that the following capabilities are only available in the Campaign client console:
 
@@ -127,7 +126,7 @@ Learn how to manage an offer catalog in the [Campaign v8 (client console) docume
 
 The new Campaign modern UI simplifies marketing campaign design and delivery, and brings consistency, along with other Adobe solutions, including Adobe Experience Platform and Adobe Experience Manager.
 
-The following integrations are available from Adobe Campaign client console, and not yet available in this version of Campaign Web user interface. Use the provided links to browse the Campaign v8 (client console) documentation and learn more about these integrations:
+The following integrations are available from Adobe Campaign client console, and not yet available in Campaign Web user interface. Use the provided links to browse the Campaign v8 (client console) documentation and learn more about these integrations:
 
 * Adobe Analytics data usage and KPI sharing. [Learn more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html){target="_blank"}
 * Audience sharing with Adobe Experience Cloud (Adobe Audience Manager). [Learn more](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html){target="_blank"}
