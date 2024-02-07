@@ -10,9 +10,11 @@ badge: label="Limited Availability"
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="Create and manage landing pages"
->abstract="Adobe Campaign allows you to create, design, and share landing pages to direct your users to online web pages where you can manage acquisition, subscriptions/unsubscriptions and denylist use cases, based on built-in templates."
+>abstract="Adobe Campaign allows you to create, design, and share landing pages to direct your users to online web pages where you can manage acquisition, subscription/unsubscription and denylist use cases, based on built-in templates."
 
-Adobe Campaign allows you to create, design, and share landing pages. In the context of marketing campaigns, a landing page is a standalone web page where a visitor is directed after they click on a link in an email, SMS, push delivery, or in a website. Adobe Campaign comes with four templates to manage **acquisition**, **subscriptions**, **unsubscriptions**, and **denylist** use cases.
+The Campaign Web user interface allows you to create, design, and publish landing pages. Once published, you can insert a link to your form in a delivery. After the recipients click that link, they are directed to the corresponding landing page.
+
+[!DNL Adobe Campaign] comes with four templates to manage the following use cases: **acquisition**, **subscription**, **unsubscription**, and **denylist**.
 
 ## Access landing pages {#access-landing-pages}
 
@@ -28,11 +30,11 @@ The **[!UICONTROL Landing pages]** inventory displays all the created items. You
 
 >[!CAUTION]
 >
->You cannot display or edit landing pages created from the client console in Campaign Web. Learn more in the [Campaign console documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
+>You cannot display or edit landing pages created from the client console (web forms) in the Campaign Web user interface. Learn more in the [Campaign console documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
 
 <!--If you unpublish a landing page which is referenced in a message, the link to the landing page will be broken and an error page will be displayed. You cannot delete a published landing page. To delete it, you must first unpublish it.-->
 
-You can duplicate or delete a landing page. Click the three dots next to a landing page to select the desired action.
+You can duplicate or delete a landing page. Click the ellipsis next to a landing page to select the desired action.
 
 ## Create a landing page {#create-landing-page}
 
@@ -43,14 +45,13 @@ You can duplicate or delete a landing page. Click the three dots next to a landi
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_pages_list"
->title="Define the pages' content"
->abstract="Edit the content of each page that is part of this landing page."
+>title="Define the content of each page"
+>abstract="Adjust the content of each page that is part of this landing page, such as the form itself, the confirmation page that is displayed upon submitting the form, or the page users are directed to in case an error occurs."
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_schedule"
 >title="Schedule your landing page"
->abstract="You can define a start date and an end date for your landing page. When the page is expired, the **Expiration** page is displayed."
-
+>abstract="You can define a start date and an end date for your landing page. When the page reaches the end of the validity period, the form is no longer available. The **Expiration** page is displayed instead."
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_primarypage"
@@ -71,16 +72,18 @@ You can duplicate or delete a landing page. Click the three dots next to a landi
     ![](assets/lp-create-button.png)
 
 1. Select a template:
-    * **[!UICONTROL Acquisition]**: This is the default template for landing pages, which enables you to capture and update profile data.
-    * **[!UICONTROL Subscription]**: Use this template to offer subscriptions to a service.
-    * **[!UICONTROL Unsubscription]**: This template can be linked from an email sent to subscribers to a service, to allow them to unsubscribe from this service.
+    * **[!UICONTROL Acquisition]**: This is the default template for landing pages, which allows you to capture and update profile data.
+    * **[!UICONTROL Subscription]**: Use this template to enable users to subscribe to a specific [service](manage-services.md).
+    * **[!UICONTROL Unsubscription]**: This template can be used in a delivery sent to the subscribers of a service, to allow them to unsubscribe from this [service](manage-services.md).
     * **[!UICONTROL Denylist]**: This template should be used when a profile no longer wants to be contacted by Campaign. Learn more about denylist management
 
     ![](assets/lp-templates.png)
 
 1. Click **[!UICONTROL Create]**.
 
-1. Fill in the properties fields such as the label. By default, landing pages are stored in the **[!UICONTROL Web applications]** folder. You can change it by browsing to the desired location in the **[!UICONTROL Additional options]**. [Learn how to work with folders](../get-started/permissions.md#folders)
+1. Fill in the **[!UICONTROL Properties]** fields such as the label.
+
+    By default, landing pages are stored in the **[!UICONTROL Web applications]** folder. You can change it by browsing to the desired location in the **[!UICONTROL Additional options]**. [Learn how to work with folders](../get-started/permissions.md#folders)
 
     ![](assets/lp-properties.png)
 
@@ -94,15 +97,31 @@ You can duplicate or delete a landing page. Click the three dots next to a landi
 
     ![](assets/lp-pages.png)
 
-1. The **[!UICONTROL Update the preloaded record]** option is selected by default. If you wish to update the profiles stored in the database via the landing page, you can use a preloading box. The preloading box lets you indicate how to find the record to be updated in the database. You can also choose from the fields in the current context of the landing page, those that will be used to find the corresponding profile in the database.
+1. The **[!UICONTROL Update the preloaded record]** option is selected by default. It enables to update the profiles stored in the database via the landing page. The preloading box lets you indicate how to find the record to be updated in the database. 
+    
+    You can also choose from the fields in the current context of the landing page, those that will be used to find the corresponding profile in the database. To do so, unselect the **[!UICONTROL Update the preloaded record]** option and check the desired fields under **[!UICONTROL Reconciliation options]**.
 
-    ![](assets/lp-storage-schedule.png)
+    ![](assets/lp-storage.png)
 
-1. You can define a start date and an end date for your landing page. Select **[!UICONTROL Enable scheduling]** and set the dates. When the page is expired, the **[!UICONTROL Expiration]** page is displayed.
+1. You can define a start date and an end date for your landing page. Select **[!UICONTROL Enable scheduling]** and set the dates.
+
+    ![](assets/lp-schedule.png)
+
+    * The landing page is automatically published on the specified start date/time.
+    
+        >[!NOTE]
+        >
+        >If no start date is defined, the landing page becomes live as soon as it is published.
+
+    * When the page reaches the end date, the landing page is automatically unpublished and the form is no longer available. The **[!UICONTROL Expiration]** page is displayed instead.
+
+        >[!NOTE]
+        >
+        >For security reasons and platform performances, Adobe recommends that you set an end date.
 
 1. Click **[!UICONTROL Review and publish]**.
 
-Once you configured and designed all the pages, you can [test](#test-landing-page) and [publish](#publish-landing-page) your landing page.
+Once you defined all the settings and [designed](lp-content.md) all the pages, you can [test](#test-landing-page) and [publish](#publish-landing-page) your landing page.
 
 ## Test the landing page {#test-landing-page}
 
@@ -120,9 +139,9 @@ Once your landing page settings and content have been defined, you can use test 
 
 >[!CAUTION]
 >
->You must have test profiles available to be able to preview your messages and send proofs. Learn how to [create test profiles](../audience/test-profiles.md).
+>You must have test profiles available to be able to preview your messages and send proofs. [Learn more on test profiles](../audience/test-profiles.md)
 
-1. From the landing page interface, click the **[!UICONTROL Simulate content]** button to access the test profile selection.
+1. After you click **[!UICONTROL Review and publish]**, select the **[!UICONTROL Simulate content]** button from the landing page dashboard to access the test profile selection.
 
     ![](assets/lp-simulate-content.png)
 
@@ -136,6 +155,8 @@ Once your landing page settings and content have been defined, you can use test 
 
 1. The preview of your landing page opens in a new tab. Personalized elements are replaced by the selected test profile data.
 
+    If you selected the **[!UICONTROL Pre-fill with the data referenced in the form]** option in the landing page settings, the form fields are automatically pre-filled with the corresponding test profile data.<!--TBC-->
+
     ![](assets/lp-preview.png)
 
 1. Select other test profiles to preview the rendering for each variant of your landing page.
@@ -144,12 +165,14 @@ Once your landing page settings and content have been defined, you can use test 
 
 ## Publish the landing page {#publish-landing-page}
 
-Once your landing page is ready, you can publish it to make it available for use in a message.
+Once your landing page is ready, publish it to make it available for use in a delivery using the corresponding button.
 
-Once your landing page is published, it is added to the landing page list with the **[!UICONTROL Published]** status. It is now live and ready to be used.
+Once published:
+
+* The landing page is added to the landing page list with the **[!UICONTROL Published]** status. It is now live and ready to be referenced in your contents.
+
+* You can copy-paste the **[!UICONTROL Landing page URL]** that is displayed on top of the page into a web browser.
 
 ![](assets/lp-published.png)
 
-Once published, you can copy-paste the **[!UICONTROL Landing page URL]** that is displayed on top of the page into a web browser. 
-
-You can monitor your landing page impacts through logs and specific reports.
+You can monitor your landing page impacts through logs<!--and specific reports-->. Click the **[!UICONTROL Logs]** button.

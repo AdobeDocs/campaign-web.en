@@ -11,14 +11,22 @@ badge: label="Limited Availability"
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="Landing pages"
->abstract="Discover the new landing page experience. Instantly create, design, and share landing pages to direct your users to online web pages where you can manage acquisition, subscriptions/unsubscriptions and deny list use cases, based on built-in templates."
+>abstract="Discover the new landing page experience. Instantly create, design, and share landing pages to direct your users to online web pages where you can manage acquisition, subscription/unsubscription and denylist use cases, based on built-in templates."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="See release notes"
 
-Adobe Campaign allows you to create, design, and share landing pages. In the context of marketing campaigns, a landing page is a standalone web page where a visitor is directed after they click on a link in an email, SMS, or push delivery, or a website. 
+[!DNL Adobe Campaign] allows you to create, design, and share landing pages.
 
-[!DNL Adobe Campaign] allows you to create and design landing pages to direct your users to online forms where they can opt-in/out from receiving your communications, or subscribe to a specific service such as a newsletter. Adobe Campaign comes with four templates to manage acquisition, subscriptions, unsubscriptions, and denylist use cases.
+In the context of marketing campaigns, a landing page is a standalone web page where a visitor is directed after they click on a link in an email, SMS, push delivery, or on a website. 
 
-Key capabilities are listed below:
+Landing pages enables you to direct your users to online forms where they can opt-in/out from receiving your communications, or subscribe to a specific service such as a newsletter.
+
+>[!CAUTION]
+>
+>Landing pages that you create in the Campaign Web user interface are different from the web forms created from the client console. You cannot display or edit web forms in the Campaign Web user interface.
+>
+>Learn more on web forms in the [Campaign console documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
+
+Landing pages key capabilities are listed below:
 
 * Leverage [!DNL Adobe Campaign] content design capabilities to easily build **responsive landing pages**.
 * Set up **opt-in and opt-out flows** quickly and seamlessly.
