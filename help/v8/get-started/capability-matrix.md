@@ -108,7 +108,7 @@ Use the provided links to browse the Campaign v8 (client console) documentation 
 
 ## Workflows {#wf-capabilities}
 
-The new Campaign Web user interface brings a reimagined workflow canvas interface to design and manage your processes. Key workflow activities are already available in their new design, some will come in a future version. Learn more about workflow capabilities, including guardrails and limitations [in this section](../workflows/gs-workflows.md)
+The new Campaign Web user interface brings a reimagined workflow canvas interface to design and manage your processes. Key workflow activities are already available in their new design, some will come in a future version. Learn more about workflow capabilities, including guardrails and limitations [in this section](../get-started/guardrails.md).
 
 Note that the following capabilities are only available in the Campaign client console:
 
