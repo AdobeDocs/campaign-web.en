@@ -8,7 +8,7 @@ exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
 ---
 # Campaign Web user interface/client console capability matrix {#capabilities-matrix}
 
-The following capabilities are accessible only from Campaign Client Console. Some will be available in a later version of Campaign Web User Interface. 
+Key Campaign capabilities are available in Campaign Web user interface. However, some settings and features can only be accessed, created, or managed from Campaign Client Console. Some will be available in a later version of Campaign Web user interface. 
 
 <!--
 **Homepage**
