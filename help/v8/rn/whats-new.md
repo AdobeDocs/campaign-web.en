@@ -162,7 +162,7 @@ As an existing Campaign user, note that some concepts have been renamed to align
 
 The limitations below apply to this version:
 
-* Editable objects are: Recipients, Deliveries, Campaigns, Workflows, Audiences, Subscription Services, Predefined Filters, and Templates. The others are read-only. Use filters and create rules to browse them all.
+* Editable objects are: Recipients, Deliveries, Campaigns, Workflows, Audiences, Subscription Services, Predefined Filters, Templates, and Landing Pages. The others are read-only. Use filters and create rules to browse them all.
 * The Administration and advanced configuration capabilities are not available in Campaign Web user interface.
 * Reporting metrics (such as opens and tracking data) are updated every hour.
 * Delivery dashboard KPIs are updated every 5 min. - but the Delivery preparation is real-time.
