@@ -2,15 +2,13 @@
 audience: end-user
 title: Campaign Web user interface/client console capability matrix
 description: List of features supported in Campaign Web user interface
-hide: yes
-hidefromtoc: yes
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
 ---
-# Campaign Web user interface/client console capability matrix {#capabilities-matrix}
+# Capability Matrix {#capabilities-matrix}
 
 Key Campaign capabilities are available in Campaign Web user interface. This interface was primary designed for marketers to plan, launch and measure their marketing campaigns. All capabilities are listed [in this page](../rn/whats-new.md). 
 
-Campaign platform customization based on business and data needs, and connection to other systems are managed in the Campaign client console. As a consequence, some settings and features can only be accessed, created, or managed from Campaign Client Console. Some will be available in a later update of Campaign Web user interface.
+Campaign platform customization based on business and data needs, and connection to other systems are managed in the Campaign client console. As a consequence, some settings and features can only be accessed, created, or managed from Campaign client console. Some will be available in a later update of Campaign Web user interface. 
 
 <!--
 **Homepage**
@@ -55,7 +53,9 @@ As a consequence, in Campaign client console, you cannot edit, update nor modify
 
 ## Profiles, test profiles, and audiences {#profiles-audiences-capabilities}
 
-You can create, manage, and update profiles and test profiles in both Campaign client console and Campaign Web user interface. All changes performed in one UI is visible in the other. However, some specific recipient settings and advanced parameters can be missing from the new Campaign Web user interface. Note that the term of 'recipient' has been changed to 'profile' in the new Web user interface.
+You can create, manage, and update profiles and test profiles in both Campaign client console and Campaign Web user interface. All changes performed in one UI is visible in the other. However, some specific recipient settings and advanced parameters can be missing from the new Campaign Web user interface. 
+
+Note that the term of 'recipient' has been changed to 'profile' in the new Web user interface, and 'Seed addresses' are now 'Test profiles'
 
 <!--Audience composition is a new capability coming with Campaign Web user interface. As a consequence, in Campaign client console, you cannot edit, update or modify an [audience created with the Query modeler](../query/query-modeler-overview.md). -->
 
@@ -149,7 +149,7 @@ Some capabilities are only available from the client console. Browse the provide
 
 Campaign Web user interface does not surface the following capabilities. They are only available in the client console. 
 
-Browse the provided links in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html){target="_blank"} and learn more.
+Browse the provided links in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html){target="_blank"} to learn more.
 
 * External accounts. [Learn more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html){target="_blank"}
 * Schema creation and extension. [Learn more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/schemas.html){target="_blank"}
