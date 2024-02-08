@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: landing, landing page, use case
-exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
+
 ---
 # How to use a landing page {#lp-use-cases}
 
@@ -164,8 +164,6 @@ You can set up a **[!UICONTROL Denylist]** landing page that will enable users t
 To give users the ability to opt out from all deliveries, you have to create and publish a **[!UICONTROL Denylist]** landing page.
 
 Once a user clicks on the landing page link, the **[!UICONTROL No longer contact (by any channel)]** option in the profile is automatically selected.
-
-![](assets/blocklisting_allchannels.png)
 
 define an **[!UICONTROL Opt-out]** checkbox and choose to update **[!UICONTROL Channel (email)]**: the profile that checks the opt-out box on your landing page will be opted out from all your communications.
 
