@@ -26,17 +26,15 @@ badge: label="Limited Availability"
 
 ## What is a profile? {#what} 
 
-A profile in Adobe Campaign Web is an individual stored in the database, serving as a key component to [create audiences](create-audience.md) for deliveries and [add personalization](../personalization/personalize.md) data to your content.
+A **profile**, also known as "recipients" in the client console, represents an individual stored in the Campaign database, serving as a key component to [create audiences](create-audience.md) for deliveries and [add personalization](../personalization/personalize.md) data to your content. Adobe Campaign allows you to seamlessly manage profiles, from creating new entries to accessing a comprehensive view of all your profiles' attributes and services subscriptions, all through the Campaign Web user interface.
 
-Adobe Campaign allows you to create and monitor your profiles directly from the interface. From there, you can create profiles, access a detailed view of your profiles, and edit them.
+Moreover, **[!UICONTROL test profiles]**, identified as "seed profiles" in the client console, allow you to target additional recipients who do not match the targeting criteria of a given delivery. These profiles contain fictitious contact information, or contact information controlled by the sender. They can be added to a message’s audience to detect any fraudulent use of your recipient database or to ensure that the emails arrive in the inboxes. [Learn how to work with test profiles](test-profiles.md)
 
-Other types of profiles are stored in the database such as **[!UICONTROL Test profiles]**, which are designed to test your deliveries before they are sent to the final audience. [Learn how to work with test profiles](test-profiles.md)
+Both profiles and test profiles can be used to test your deliveries before they reach the intended audience. By doing so, you can preview the message content and personalization, send proofs for testing and validation, evaluate email rendering across various platform and devices, and test your landing pages. [Learn how to preview and test deliveries](../preview-test/preview-test.md)
 
 ## Access the list of profiles {#access}
 
-Profiles are accessible and editable in Adobe Campaign Web from the **[!UICONTROL Customer management]** > **Profiles** entry in the left navigation rail.
-
-You can also access them through the **[!UICONTROL Explorer]** view, from the **[!UICONTROL Profiles & Targets]** > **[!UICONTROL Recipients]** node. From there you can browse, create and manage folders or subfolders, as well as check associated permissions. [Learn how to create folders](../get-started/permissions.md#folders)
+Profiles are accessible and editable in Adobe Campaign Web from the **[!UICONTROL Customer management]** > **Profiles** entry in the left navigation rail. You can also access them in the **[!UICONTROL Explorer]** view, from the **[!UICONTROL Profiles & Targets]** > **[!UICONTROL Recipients]** node. From there you can browse, create and manage folders or subfolders, as well as check associated permissions. [Learn how to create folders](../get-started/permissions.md#folders)
 
 >[!NOTE]
 >

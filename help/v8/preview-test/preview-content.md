@@ -26,22 +26,17 @@ To preview the content of your delivery, follow the steps below.
 
 1. You can combine profiles and test profiles to preview your email or SMS message.
 
-    * The **[!UICONTROL Test profiles]** tab lists all seed addresses, which are additional and fictitious recipients in the database.
-        ![](assets/simulate-select-profiles.png)
+    * The **[!UICONTROL Test profiles]** tab lists all test profiles, which are additional and fictitious recipients in the database. [Learn how to work with test profiles](../audience/test-profiles.md)
+
+    * The **[!UICONTROL Profiles]** tab lists all the profiles stored in your database. [Learn how to work with profiles](../audience/about-recipients.md)
     
-        Test profiles can be created from the **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]** menu. [Learn more](../audience/test-profiles.md#create-test-profiles)
-
-
-    * The **[!UICONTROL Profiles]** tab lists all the recipients stored into the **[!UICONTROL Profiles and Targets]** folder from the [!DNL Campaign] client console. Learn more in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html){target="_blank"}. 
-        
-        You can view, create, and manage profiles from the **[!UICONTROL Profiles]** tab. [Learn more](../audience/about-recipients.md)
-
+    ![](assets/simulate-select-profiles.png)
 
 1. When browsing the test profile or profile lists, you can use filters to refine your search.
 
     ![](assets/simulate-test-profile-filter.png)
 
-    For example, you can define a rule to find all test profiles whith the **[!UICONTROL Prospect]** status. Learn how to add rules using the [query modeler](../query/query-modeler-overview.md).
+    For example, you can define a rule to find all test profiles whith the **[!UICONTROL Prospect]** status. [Learn how to add rules using the query modeler](../query/query-modeler-overview.md).
 
 1. Click **[!UICONTROL Select]** to confirm your selection.
 

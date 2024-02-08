@@ -19,7 +19,7 @@ To do this, you can leverage your **Litmus** account into [!DNL Adobe Campaign] 
 To access email rendering capabilities, you need to:
 
 * Have a Litmus account
-* Select test profiles - Learn how in [this section](preview-content.md)
+* Select profiles and/or test profiles - Learn how in [this section](preview-content.md)
 
 Then, follow the steps below.
 
