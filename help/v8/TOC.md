@@ -87,6 +87,7 @@ hide: yes
   + [Create and publish a landing page](landing-pages/create-lp.md)
   + [Design landing page content](landing-pages/lp-content.md)
   + [Work with landing page templates](landing-pages/lp-templates.md)
+  + [Learn with use cases](landing-pages/lp-use-cases.md)
 + Profiles and audiences {#audiences}
   + [Get started with profiles and audiences](audience/gs-audiences-recipients.md)
   + [Targeting dimensions](audience/targeting-dimensions.md)
