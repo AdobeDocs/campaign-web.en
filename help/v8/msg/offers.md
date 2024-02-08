@@ -8,7 +8,8 @@ badge: label="Limited Availability"
 
 # Add offers to your messages {#offers-content}
 
-You can add offers to your deliveries in the Adobe Campaign Web user interface. These offers must have been created in the Campaign client console, using the **[!UICONTROL Interaction]** module. For more information on Interaction and how to manage an offer catalog in the console, refer to the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
+You can add offers to your deliveries in the Adobe Campaign Web user interface. These offers are available from the **Offers** left menu which lets you access to the list of offers. All these offers are read-only, and must have been created in the Campaign client console, using the **[!UICONTROL Interaction]** module. For more information on Interaction and how to manage an offer catalog in the console, refer to the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
+
 
 The steps to send offers with an delivery are as follows:
 
