@@ -73,8 +73,8 @@ You can duplicate or delete a landing page. Click the ellipsis next to a landing
 
 1. Select a template:
     * **[!UICONTROL Acquisition]**: This is the default template for landing pages, which allows you to capture and update profile data.
-    * **[!UICONTROL Subscription]**: Use this template to enable users to subscribe to a specific [service](manage-services.md).
-    * **[!UICONTROL Unsubscription]**: This template can be used in a delivery sent to the subscribers of a service, to allow them to unsubscribe from this [service](manage-services.md).
+    * **[!UICONTROL Subscription]**: Use this template to enable users to subscribe to a specific [service](../audience/manage-services.md).
+    * **[!UICONTROL Unsubscription]**: This template can be used in a delivery sent to the subscribers of a service, to allow them to unsubscribe from this [service](../audience/manage-services.md).
     * **[!UICONTROL Denylist]**: This template should be used when a profile no longer wants to be contacted by Campaign. Learn more about denylist management
 
     ![](assets/lp-templates.png)
