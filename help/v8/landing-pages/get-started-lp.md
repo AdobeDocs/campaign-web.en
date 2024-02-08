@@ -18,7 +18,7 @@ badge: label="Limited Availability"
 
 In the context of marketing campaigns, a landing page is a standalone web page where a visitor is directed after they click on a link in an email, SMS, push delivery, or on a website. 
 
-Landing pages enables you to direct your users to online forms where they can opt-in/out from receiving your communications, or subscribe to a specific service such as a newsletter.
+Landing pages enable you to direct your users to online forms where they can opt-in/out from receiving your communications, or subscribe to a specific service such as a newsletter.
 
 >[!CAUTION]
 >
