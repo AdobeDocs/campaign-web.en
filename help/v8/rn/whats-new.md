@@ -152,20 +152,20 @@ With Campaign Web user interface, the user interface reflects the user's permiss
 
 As an existing Campaign user, note that some concepts have been renamed to align with the latest terminology standards. These changes only apply to Campaign Web user interface and are not reflected in the client console. They are summarized below.
 
-* Proofs are now **Test emails**: to send a proof, use the **Test** button in the email delivery UI. The target of the proofs is now refered as **Test profiles**. [Learn more](../preview-test/test-deliveries.md).
-* Seed addresses are now used as **Test profiles**: send the test email to seed addresses, which are additional recipients in the database. [Learn more](../preview-test/test-deliveries.md).
+* Recipients are now **Profiles**. [Learn more](../audience/gs-audiences-recipients.md).
+* Seed addresses are now **Test profiles**. [Learn more](../preview-test/test-deliveries.md).
 * Delivery analysis is now the **delivery preparation**. When you need to launch the message preparation, click the **Prepare** button. [Learn more](../monitor/prepare-send.md).
 * Email Preview is now available throught the **Simulate content** button. [Learn more](../preview-test/preview-test.md)
-* Lists are now **Audiences**. [Learn more](../audience/about-recipients.md).
+* Lists are now **Audiences**. [Learn more](../audience/gs-audiences-recipients.md).
 
 ## Limitations{#limitations-beta}
 
 The limitations below apply to this version:
 
 * Editable objects are: Recipients, Deliveries, Campaigns, Workflows, Audiences, Subscription Services, Predefined Filters, and Templates. The others are read-only. Use filters and create rules to browse them all.
-* The Administration user interface is not available.
+* The Administration and advanced configuration capabilities are not available in Campaign Web user interface.
 * Reporting metrics (such as opens and tracking data) are updated every hour.
 * Delivery dashboard KPIs are updated every 5 min. - but the Delivery preparation is real-time.
 * Adobe Experience Cloud Notifications and Unified Help available in the top bar are not yet integrated.
 
-For more guardrails and limitations, refer to [this page](../get-started/guardrails.md).
+Learn more about supported/unsupported capabilities and interoperability between Campaign Web user interface and Campaign client console, [in this page](../get-started/capability-matrix.md).

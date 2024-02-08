@@ -20,7 +20,7 @@ hide: yes
   + [Browse and filter lists](get-started/list-filters.md)
   + [Work with predefined filters](get-started/predefined-filters.md)
   + [Access and permissions](get-started/permissions.md)
-  + [Unsupported capabilites](get-started/capability-matrix.md)
+  + [Campaign Web and Campaign client console](get-started/capability-matrix.md)
   + [AI-powered contextual help](get-started/using-ai.md)
 + Messages and deliveries {#msg}
   + [Get started with messages](msg/gs-messages.md)

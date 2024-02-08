@@ -4,7 +4,7 @@ title: Campaign Web user interface/client console capability matrix
 description: List of features supported in Campaign Web user interface
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
 ---
-# Capability Matrix {#capabilities-matrix}
+# Campaign Web and Campaign Client Console {#capabilities-matrix}
 
 Key Campaign capabilities are available in Campaign Web user interface. This interface was primary designed for marketers to plan, launch and measure their marketing campaigns. All capabilities are listed [in this page](../rn/whats-new.md). 
 
