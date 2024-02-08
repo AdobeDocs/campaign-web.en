@@ -11,7 +11,6 @@ badge: label="Limited Availability"
 >id="acw_deliveries_simulate"
 >title="Preview and test your content"
 >abstract="Once your content has been defined, you can use test profiles to preview and test it."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-content.html" text="Preview the message content"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html" text="Send test deliveries"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#test-landing-page" text="Test landing pages"
 
