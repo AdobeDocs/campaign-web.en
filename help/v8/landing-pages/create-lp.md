@@ -171,7 +171,11 @@ Once published:
 
 * The landing page is added to the landing page list with the **[!UICONTROL Published]** status. It is now live and ready to be referenced in your contents.
 
-* You can copy-paste the **[!UICONTROL Landing page URL]** that is displayed on top of the page into a web browser.
+* You can copy-paste the **[!UICONTROL Landing page URL]** that is displayed on top of the page into a web browser to preview your landing page.
+
+>[!CAUTION]
+>
+>To fully test or leverage your landing page, you cannot copy this link directly into a web browser or into your deliveries. Instead, use the [Simulate content](#test-landing-page) function to test it, and follow the steps described in [this section](lp-use-cases.md) to make proper use of your landing page.
 
 ![](assets/lp-published.png)
 

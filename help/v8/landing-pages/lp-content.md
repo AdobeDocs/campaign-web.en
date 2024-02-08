@@ -14,22 +14,11 @@ badge: label="Limited Availability"
 
 When editing the content of any page of your landing page, it is already pre-filled.
 
-The primary page is the page that is immediately displayed to the users after they click the link to your landing page, such as from an email or a website. The primary page is already pre-filled with the [landing page-specific form component](#use-form-component) to enable users to select and submit their choices. You can also define [landing page-specific styles](#lp-form-styles).
+The first page, which is immediately displayed to the users after they click the link to your landing page, is already pre-filled with the [landing page-specific form component](#use-form-component) for the selected template to enable users to select and submit their choices. You can also define [landing page-specific styles](#lp-form-styles).
 
 To further design your landing page content, you can use the same components as for an email. [Learn more](../email/content-components.md#add-content-components)
 
-<!--
 The content of the **[!UICONTROL Confirmation]**, **[!UICONTROL Error]** and **[!UICONTROL Expiration]** pages is also pre-filled. Edit them as needed.
-
-Set the subscription form to the appropriate fields from the database to make sure it will work correctly.
-
-The landing page default fields are already there for the selected template.
-
->[!NOTE]
->
->You can also create a click-through landing page without a **[!UICONTROL Form]** component. In that case, the landing page will be displayed to users, but they will not be required to submit any form. This can be useful if you only want to showcase a landing page without requiring any action from your recipients such as opt-in or opt out, or want to provide information that doesn't require user input.
-
-Using the landing page content designer, you can also leverage contextual data coming from the primary page in a subpage. [Learn more](#use-primary-page-context)-->
 
 ## Use the form component {#use-form-component}
 
@@ -75,7 +64,7 @@ To define specific content that will enable users to select and submit their cho
 
     Define if this checkbox is to opt users in or out. Select amongst the two options below:
 
-    * **[!UICONTROL Subscribe if checked]**: Users need to check the box to consent (opt-in).
+    * **[!UICONTROL Subscribe in if checked]**: Users need to check the box to consent (opt-in).
     * **[!UICONTROL Unsubscribe if checked]**: Users need to check the box to remove their consent (opt-out).
 
 1. You can delete and add as many text fields and/or checkboxes as needed.
@@ -90,7 +79,7 @@ To define specific content that will enable users to select and submit their cho
 
     * **[!UICONTROL Redirect URL]**: Enter the URL of the page the users will be redirected to.
 
-1. If you want to make additional updates upon submitting the form, select **[!UICONTROL Addtional updates]**, choose **[!UICONTROL Opt in]** or **[!UICONTROL Opt out]**, and define if you want to update a subscription list, the channel or just the email address used.
+1. If you want to make additional updates upon submitting the form, select **[!UICONTROL Additional updates]**, choose **[!UICONTROL Opt in]** or **[!UICONTROL Opt out]**, and define if you want to update a subscription list, the channel or just the email address used.
 
     ![](assets/lp-form-additionnal-updates.png)
 
