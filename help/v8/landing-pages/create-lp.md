@@ -75,9 +75,13 @@ You can duplicate or delete a landing page. Click the ellipsis next to a landing
     * **[!UICONTROL Acquisition]**: This is the default template for landing pages, which allows you to capture and update profile data.
     * **[!UICONTROL Subscription]**: Use this template to enable users to subscribe to a specific [service](../audience/manage-services.md).
     * **[!UICONTROL Unsubscription]**: This template can be used in a delivery sent to the subscribers of a service, to allow them to unsubscribe from this [service](../audience/manage-services.md).
-    * **[!UICONTROL Denylist]**: This template should be used when a profile no longer wants to be contacted by Campaign. Learn more about denylist management
+    * **[!UICONTROL Denylist]**: This template should be used when a profile no longer wants to be contacted by Campaign.
 
     ![](assets/lp-templates.png)
+
+    >[!NOTE]
+    >
+    >Learn how to implement the different use cases corresponding to each template in [this section](lp-use-cases.md).
 
 1. Click **[!UICONTROL Create]**.
 
@@ -89,7 +93,7 @@ You can duplicate or delete a landing page. Click the ellipsis next to a landing
 
 1. In the **[!UICONTROL Data preload]** section, the two options below are selected by default:
 
-    * The **[!UICONTROL Pre-fill with the data referenced in the form]** option lets you automatically preload the data that matches input and merge fields in the form.
+    * When the **[!UICONTROL Pre-fill with the data referenced in the form]** option is selected, if the visitor of the landing page matches a profile from the database, the profile's information is automatically preloaded in the form. The user just has to fill in the missing fields, and update the existing values if needed. This allows to merge data for existing profiles instead of creating duplicates.
 
     * The **[!UICONTROL Skip preloading if no ID]** option must be selected if you do not wish to update profiles. In this case, each profile entered will be added to the database after approval of the form. This option is used, for example, when the form is posted on a website.
 
@@ -113,7 +117,7 @@ You can duplicate or delete a landing page. Click the ellipsis next to a landing
         >
         >If no start date is defined, the landing page becomes live as soon as it is published.
 
-    * When the page reaches the end date, the landing page is automatically unpublished and the form is no longer available. The **[!UICONTROL Expiration]** page is displayed instead.
+    * When the page reaches the end date, <!--the landing page is automatically unpublished and -->the form is no longer available. The **[!UICONTROL Expiration]** page is displayed instead.
 
         >[!NOTE]
         >
