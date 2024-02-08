@@ -35,8 +35,8 @@ With Campaign Web user interface, you can create, design and send email, SMS and
 
 Use the provided links to browse the Campaign v8 (client console) documentation and learn more about these channels.
 
-* Direct mail. [Learn more](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/about-direct-mail-channel.html){target="_blank"}
-* LINE messaging. [Learn more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html){target="_blank"}
+* **Direct mail**. Direct mail channel enables you to send a physical correspondence to your customers, clients, suppliers, or others, such as notices, invoices, statements, marketing offer, and more. This channel is only available in the client console.  [Learn more](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/about-direct-mail-channel.html){target="_blank"}
+* **LINE messaging**. LINE is an application for free instant messaging, voice and video calls, available on all mobile devices and on PC. Adobe Campaign allows you to send LINE messages from the client console only.[Learn more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html){target="_blank"}
 * Call center and Custom channels. [Learn more](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels.html#other-channels){target="_blank"}
 * Social marketing with X (Twitter). [Learn more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html){target="_blank"}
 
