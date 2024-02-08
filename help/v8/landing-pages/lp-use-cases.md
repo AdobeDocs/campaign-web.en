@@ -140,6 +140,8 @@ Once they receive the email, if your recipients click the link to the landing pa
 
 ## Unsubscription {#lp-unsubscription}
 
+You can enable your customers to unsubscribe from a service using a landing page.
+
 1. Make sure you have created a confirmation template for users unsubscribing from your service, so that you can select it easily when creating the service. [Learn more](../audience/manage-services.md#create-confirmation-message)
 
 1. In your [subscription service](../audience/manage-services.md), select the template that you created as the confirmation email the users will receive upon unsubscribing.
@@ -162,11 +164,11 @@ Once they receive the email, if your recipients click the link to the landing pa
 
 1. Review and [publish](create-lp.md#publish-landing-page) your landing page.
 
-1. Create an [email](../email/create-email.md) and [add a link](../email/message-tracking.md#insert-links) to drive traffic to the registration landing page.
+1. Create an [email](../email/create-email.md) and [add a link](../email/message-tracking.md#insert-links) to the landing page.
 
-Once they receive the email, if your recipients click the link to the landing page, and submit the form, they will be directed to the unsubscription confirmation page and they will be removed from the subscription list.
+Once they receive the email, if your recipients click the link to the landing page, and submit the form, they will be directed to the unsubscription confirmation page and they will be removed from the corresponding subscription service.
 
-## Setting up opt-out landing pages {#lp-denylist}
+## Denylist {#lp-denylist}
 
 Providing the capability to recipients to unsubscribe from receiving communications from a brand is a legal requirement. Therefore, you must always include an **unsubscribe link** in every email sent out to recipients. Upon clicking this link, the recipients will be directed to a landing page including a button to confirm opting out.
 
