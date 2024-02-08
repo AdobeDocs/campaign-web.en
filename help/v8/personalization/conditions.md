@@ -23,7 +23,7 @@ By configuring conditional content fields, you can create advanced dynamic perso
 
 To create conditional content, you need to create conditions in the **expression editor** using specific helper functions. This method is available for all delivery channels, in any field where you can access the expression editor, such as the subject line, or email links and text/button content components. [Learn how to access the expression editor](gs-personalization.md/#access)
 
-<!--In addition to the expression editor, you can leverage a dedicated **conditional content builder** when designing an email that allows you to build conditions using profile attributes only. [Learn how to create conditional content in emails](#condition-condition-builder)-->
+In addition to the expression editor, you can leverage a dedicated **conditional content builder** when designing an email that allows you to create multiple variants for an element of your email body. [Learn how to create conditional content in emails](#condition-condition-builder)
 
 ## Create conditions in the expression editor {#condition-perso-editor}
 
@@ -73,15 +73,15 @@ To define conditional content for a delivery using the expression editor, follow
 
 1. Once your condition is ready, you can save your content and check its rendering by simulating your content.
 
-<!--SECTION REMOVED FOR LA > CONDITIONAL CONTENT NOT AVAILABLE ANYMORE FROM THE DEDICATED MENU IN THE EMAIL DESIGNER. ONLY THE EXPRESSION EDITOR IS AVAILABLE FOR NOW
-
 ## Create conditional content in emails {#condition-condition-builder}
 
 Conditional content in emails can be created in two ways:
 * In the expression editor by building a condition with helper functions,
 * In a dedicated conditional content builder that is accessible when designing an email.
 
-Detailed information on how to create conditions using the expression editor is available [here](#condition-perso-editor). The following section provides step-by-step instructions on how to create conditions using the email designer's conditional content capability. In this example, we want to create an email message with multiple variants based on the recipients' language. Follow these steps:
+The following section provides step-by-step instructions on how to create conditions using the email designer's conditional content capability. Detailed information on how to create conditions using the expression editor is available [here](#condition-perso-editor).
+
+In this example, we want to create an email message with multiple variants based on the recipients' language. Follow these steps:
 
 1. Create or open an email delivery, edit its content, and click the **[!UICONTROL Edit email body]** button to open the email designing workspace.
 
@@ -91,11 +91,19 @@ Detailed information on how to create conditions using the expression editor is 
 
 1. The **[!UICONTROL Conditional Content]** pane opens on the left-hand side of the screen. In this pane, you can create multiple variants of the selected content component using conditions.
 
-1. Configure your first variant. Hover over **[!UICONTROL Variant - 1]** in the **[!UICONTROL Conditional Content]** pane and click the **[!UICONTROL Add condition]** icon.
+1. Configure your first variant. Hover over **[!UICONTROL Variant - 1]** in the **[!UICONTROL Conditional Content]** pane and click the **[!UICONTROL Add condition]** button.
 
-1. A query modeler appears. Use profile attributes to create the condition for the first variant of the message and click **[!UICONTROL Confirm]**. In this example, we are creating a rule targeting recipients whose language is 'French'.
+    ![](assets/condition-add-condition.png){width="800" align="center"}
 
-    ![](assets/condition-email-rule.png){width="800" align="center"}
+1. A rule builder appears. It provides **Profile**, **Message**, and **Delivery** attributes that you can leverage to create your condition.
+
+    In addition, the **Conditions** menu provides pre-built conditions that you can add to the canvas to easily build your variant. To use them, click the **Add** button then replace the elements between `<` and `>`symbols by the desired elements. Make sure that the value you specify for the `<value>` object is in quotation marks.
+
+    ![](assets/condition-syntax.png){width="800" align="center"}
+
+1. Once the condition for the first variant of the message is ready, click **[!UICONTROL Confirm]**. In this example, we are creating a rule targeting recipients whose language is 'French'.
+
+    ![](assets/condition-example.png){width="800" align="center"}
 
 1. The rule is now associated to the variant. For better readability, we recommend renaming the variant by clicking the ellipsis menu.
 
@@ -107,4 +115,3 @@ Detailed information on how to create conditions using the expression editor is 
 
     >[!NOTE]
     >If none of the rules defined in the variants are met when sending the message, the content component will display the content defined in the **[!UICONTROL Default variant]** from the **[!UICONTROL Conditional Content]** pane.
--->
