@@ -16,9 +16,9 @@ badge: label="Limited Availability"
 
 [!DNL Adobe Campaign] allows you to create, design, and share landing pages.
 
-In the context of marketing campaigns, a landing page is a standalone web page where a visitor is directed after they click on a link in an email, SMS, push delivery, or on a website. 
+In the context of marketing campaigns, a landing page is a standalone web page where a visitor is directed after they click a link in an delivery or on a website. 
 
-Landing pages enable you to direct your users to online forms where they can opt-in/out from receiving your communications, or subscribe to a specific service such as a newsletter.
+Landing pages enable you to direct your users to online forms where they can update their data, opt-in/out from receiving your communications, or subscribe to a specific service such as a newsletter.
 
 >[!CAUTION]
 >
@@ -28,10 +28,11 @@ Landing pages enable you to direct your users to online forms where they can opt
 
 Landing pages key capabilities are listed below:
 
-* Leverage [!DNL Adobe Campaign] content design capabilities to easily build **responsive landing pages**.
-* Set up **opt-in and opt-out flows** quickly and seamlessly.
-* Create subscription services to enable users to **subscribe to a service**. [Learn more](../audience/manage-services.md)
-* Provide your recipients with the **capability to unsubscribe** from receiving your communications.
+* Instantly create, design, and share landing pages using ready-to-use **pre-filled templates** matching different use cases. [Learn more](create-lp.md)
+* Leverage [!DNL Adobe Campaign] content design capabilities to easily build **responsive landing pages**. [Learn more](lp-content.md)
+* Set up **opt-in and opt-out flows** quickly and seamlessly. [Learn more](lp-use-cases.md)
+* Create subscription services to enable users to **subscribe to a service**. [Learn more](lp-use-cases.md#lp-subscription)
+* Provide your recipients with the **capability to unsubscribe** from receiving your communications. [Learn more](lp-use-cases.md#lp-unsubscription)
 <!--Send a **confirmation email** upon opt-in or opt-out.-->
 
 <table style="table-layout:fixed"><tr style="border: 0;">
