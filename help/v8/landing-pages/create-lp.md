@@ -175,7 +175,7 @@ Once published:
 
 >[!CAUTION]
 >
->To fully test or leverage your landing page, you cannot copy this link directly into a web browser or into your deliveries. Instead, use the [Simulate content](#test-landing-page) function to test it, and follow the steps described in [this section](lp-use-cases.md) to make proper use of your landing page.
+>To fully test or leverage your landing page, you cannot copy-paste this link directly into a web browser or into your deliveries. Instead, use the [Simulate content](#test-landing-page) function to test it, and follow the steps described in [this section](lp-use-cases.md) to make proper use of your landing page.
 
 ![](assets/lp-published.png)
 

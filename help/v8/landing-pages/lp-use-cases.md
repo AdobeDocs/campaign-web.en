@@ -15,13 +15,13 @@ exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_url"
 >title="Copy URL with caution"
->abstract="To fully test or leverage your landing page, you cannot paste this link directly into a web browser or into your deliveries. Instead, use the **Simulate content** function to test it, and follow the steps described in documentation to make proper use of your landing page."
+>abstract="To fully test or leverage your landing page, you cannot copy-paste this link directly into a web browser or into your deliveries. Instead, use the **Simulate content** function to test it, and follow the steps described in documentation to make proper use of your landing page."
 
 To make proper use of your landing page, you should reference it as a link in a delivery using the dedicated option.
 
 >[!CAUTION]
 >
->To fully leverage your landing page, you cannot paste the link displayed in the published delivery dashboard directly into your deliveries or into a web page.
+>To fully leverage your landing page, you cannot copy-paste the link displayed in the published delivery dashboard directly into your deliveries or into a web page.
 
 In the [!DNL Adobe Campaign Web] inferface, four out-of-the-box templates allow you to implement different use cases. However, the main steps remain the same and are detailed below.
 
