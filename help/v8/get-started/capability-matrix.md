@@ -31,7 +31,7 @@ Use the provided links to browse the Campaign v8 (client console) documentation 
 
 ## Communication channels {#channels-capabilities}
 
-With Campaign Web user interface, you can create, design and send email, SMS and push notifications, and measure their impact using various dedicated reports, as detailed [in this section](../msg/gs-messages.md). However, the following channels are currently not available.
+With Campaign Web user interface, you can create, design and send **email**, **SMS** and **push notifications**, and measure their impact using various dedicated reports, as detailed [in this section](../msg/gs-messages.md). However, the following channels are currently **not** available: in-app, direct mail, LINE, Call center/Custom channel, Social marketing with X (Twitter).
 
 Use the provided links to browse the Campaign v8 (client console) documentation and learn more about these channels.
 
