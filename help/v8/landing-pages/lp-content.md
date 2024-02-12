@@ -10,13 +10,16 @@ feature: Landing Pages
 >title="Use content components"
 >abstract="Content components are empty content placeholders that you can use to create the layout of a landing page. To define specific content that will enable users to select and submit their choices, use the form component."
 
-When editing the content of any page of your landing page, it is already pre-filled.
+You can edit the content of any page of your landing page.
 
-The first page, which is immediately displayed to the users after they click the link to your landing page, is already pre-filled with the [landing page-specific form component](#use-form-component) for the selected template<!-- to enable users to select and submit their choices-->. You can also define [styles for your landing page](#lp-form-styles).
 
-To further design your landing page content, you can use the same components as for an email. [Learn more](../email/content-components.md#add-content-components)
+The first page, which is immediately displayed to the users after they click the link to your landing page, is already pre-filled with the [landing page-specific form component](#use-form-component) for the selected template<!-- to enable users to select and submit their choices-->. 
 
 The content of the **[!UICONTROL Confirmation]**, **[!UICONTROL Error]** and **[!UICONTROL Expiration]** pages is also pre-filled. Edit them as needed.
+
+You can also define [styles for your landing page](#lp-form-styles).
+
+To further design your landing page content, you can use the same components as for an email. [Learn more](../email/content-components.md#add-content-components)
 
 ## Use the form component {#use-form-component}
 
@@ -30,7 +33,7 @@ The content of the **[!UICONTROL Confirmation]**, **[!UICONTROL Error]** and **[
 >title="What happens when clicking the button"
 >abstract="Define what will happen upon users submitting the landing page form."
 
-To define specific content that will enable users to select and submit their choices from your landing page, use the **[!UICONTROL Form]** component. To do so, follow the steps below.
+To define specific content that will enable users to select and submit their choices from your landing page, edit the **[!UICONTROL Form]** component. To do so, follow the steps below.
 
 1. The landing page-specific **[!UICONTROL Form]** component is already displayed in the canvas for the selected template.
 

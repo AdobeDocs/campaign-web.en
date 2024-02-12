@@ -65,6 +65,8 @@ You can duplicate or delete a landing page. Click the ellipsis next to a landing
 
 ![](assets/lp-creation-process.png){zoomable="yes"}-->
 
+To create a landing page, follow these steps:
+
 1. From the **[!UICONTROL Landing pages]** inventory, click **[!UICONTROL Create landing page]**.
 
     ![](assets/lp-create-button.png){zoomable="yes"}
@@ -73,13 +75,13 @@ You can duplicate or delete a landing page. Click the ellipsis next to a landing
     * **[!UICONTROL Acquisition]**: This is the default template for landing pages, which allows you to capture and update profile data.
     * **[!UICONTROL Subscription]**: Use this template to enable users to subscribe to a specific [service](../audience/manage-services.md).
     * **[!UICONTROL Unsubscription]**: This template can be used in a delivery sent to the subscribers of a service, to allow them to unsubscribe from this [service](../audience/manage-services.md).
-    * **[!UICONTROL Denylist]**: This template should be used when a profile no longer wants to be contacted by Campaign.
+    * **[!UICONTROL Denylist]**: This template should be used when a profile clicks on an opt-out link in a delivery, and no longer wants to be contacted.
 
     ![](assets/lp-templates.png){zoomable="yes"}
 
     >[!NOTE]
     >
-    >Learn how to implement the different use cases corresponding to each template in [this section](lp-use-cases.md).
+    >Learn how to implement the different use cases corresponding to each template in [this page](lp-use-cases.md).
 
 1. Click **[!UICONTROL Create]**.
 
@@ -95,7 +97,7 @@ You can duplicate or delete a landing page. Click the ellipsis next to a landing
 
     * The **[!UICONTROL Skip preloading if no ID]** option must be selected if you do not wish to update profiles. In this case, each profile entered will be added to the database after approval of the form. This option is used, for example, when the form is posted on a website.
 
-1. In the **[!UICONTROL Pages]** section, click the **[!UICONTROL Edit content]** button for each page that you want to design for this landing page. The content of each page is already pre-filled. Edit them as needed. [Learn more](lp-content.md)
+1. A landing page can have subsequent pages. To add pages, browset the **[!UICONTROL Pages]** section, and click the **[!UICONTROL Edit content]** button for each page that you want to design for this landing page. The content of each page is already pre-filled. Edit them as needed. [Learn more](lp-content.md)
 
     ![](assets/lp-pages.png){zoomable="yes"}
 
@@ -110,7 +112,7 @@ You can duplicate or delete a landing page. Click the ellipsis next to a landing
     ![](assets/lp-schedule.png){zoomable="yes"}
 
     * The landing page is automatically published on the specified start date/time.
-    
+
         >[!NOTE]
         >
         >If no start date is defined, the landing page becomes live as soon as it is published.
@@ -123,7 +125,7 @@ You can duplicate or delete a landing page. Click the ellipsis next to a landing
 
 1. Click **[!UICONTROL Review and publish]**.
 
-Once you defined all the settings and [designed](lp-content.md) all the pages, you can [test](#test-landing-page) and [publish](#publish-landing-page) your landing page.
+Once you defined all the settings and [designed](lp-content.md) all the pages, you can [test](#test-landing-page) and [publish](#publish-landing-page) your landing page as detailed below.
 
 ## Test the landing page {#test-landing-page}
 
@@ -142,6 +144,8 @@ Once your landing page settings and content have been defined, you can use test 
 >[!CAUTION]
 >
 >You must have test profiles available to be able to preview your messages and send proofs. [Learn more on test profiles](../audience/test-profiles.md)
+
+To test your landing page, follow these steps:
 
 1. After you click **[!UICONTROL Review and publish]**, select the **[!UICONTROL Simulate content]** button from the landing page dashboard to access the test profile selection.
 
@@ -167,7 +171,7 @@ Once your landing page settings and content have been defined, you can use test 
 
 ## Publish the landing page {#publish-landing-page}
 
-Once your landing page is ready, publish it to make it available for use in a delivery using the corresponding button.
+Once your landing page is ready and validated, publish it to make it available for use in a delivery using the corresponding button.
 
 Once published:
 

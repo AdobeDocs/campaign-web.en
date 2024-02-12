@@ -20,9 +20,9 @@ Landing pages enable you to direct your users to online forms where they can upd
 
 >[!CAUTION]
 >
->Landing pages that you create in the Campaign Web user interface are different from the web forms created from the client console. You cannot display or edit web forms in the Campaign Web user interface.
+>Landing pages that you create in the Campaign Web user interface are different from the web forms created from the client console. You cannot display or edit web forms created in the client console in the Campaign Web user interface.
 >
->Learn more on web forms in the [Campaign console documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
+>Learn more on web forms in the [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
 
 Landing pages key capabilities are listed below:
 
