@@ -6,7 +6,6 @@ exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
 ---
 # Work with the query modeler {#segment-builder}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card5"
 >title="New Query modeler"
@@ -25,7 +24,9 @@ exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
 >title="Query modeler"
 >abstract="Define filtering criteria for recipients or any other targeting dimension from the database. Take advantage of your Adobe Experience Platform audience to further refine your target audience and maximize the impact of your campaign."
 
-Adobe Campaign Web features a query modeler that simplifies the process of filtering databases to select specific targets based on various criteria. This includes the use of advanced expressions and operators. 
+Adobe Campaign Web user interface features a query modeler that simplifies the process of filtering the database based on various criteria. It ensures full compatibility with the queries created in the client console, facilitating a seamless transition to the web user interface.
+
+Additionally, the query modeler can manage very complex and long queries efficiently, offering enhanced flexibility and precision. Furthermore, it supports predefined filters within conditions, empowering you to refine your queries with ease while utilizing advanced expressions and operators for comprehensive audience targeting and segmentation strategies.
 
 ## Access the query modeler
 
