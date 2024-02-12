@@ -17,11 +17,11 @@ Thanks to Campaign Gen AI's capabilities, this component transforms your experie
 
 >[!AVAILABILITY]
 >
->AI-powered contextual help is available in its Beta version and subject to change without prior notice.
+>* AI-powered contextual help is available in its Beta version and subject to change without prior notice.
 >
->This capability is only available in **English**. Other languages are not supported in this version. As a consequence, make sure [your prefered language](connect-to-campaign.md#language-pref) is set to English before using this capability.
+>* This capability is only available in **English**. Other languages are not supported in this version. As a consequence, make sure [your prefered language](connect-to-campaign.md#language-pref) is set to English before using this capability.
 >
->AI-powered contextual help is not available in Campaign Email Designer for now.
+>* AI-powered contextual help is not available in Campaign Email Designer for now.
 
 
 <!--
