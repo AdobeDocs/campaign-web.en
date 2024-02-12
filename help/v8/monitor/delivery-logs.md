@@ -3,7 +3,7 @@ audience: end-user
 title: Monitor delivery logs
 description: Learn how to monitor delivery logs
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-badge: label="Limited Availability"
+
 ---
 # Monitor delivery logs {#delivery-logs}
 
@@ -35,39 +35,39 @@ All the validation steps, warnings, and errors are listed. Colored icons show th
 * The yellow icon indicates a non-critical processing error.
 * The red icon indicates a critical error that prevents sending the delivery. Critical errors must be fixed for the delivery to be sent.
 
-![](assets/logs.png)
+![](assets/logs.png){zoomable="yes"}
 
 
 ## Deliveries {#deliveries-tab}
 
 The **Sending logs** tab offers a history of every occurrence of this delivery. The list of sent messages and their statuses is stored here. It allows you to view the delivery status for each recipient.
 
-![](assets/logs2.png)
+![](assets/logs2.png){zoomable="yes"}
 
 ## Exclusions {#exclusion-tab}
 
 The **Exclusion logs** tab lists all the messages that have been excluded from the target and specifies the reason for the send failure.
 
-![](assets/logs3.png)
+![](assets/logs3.png){zoomable="yes"}
 
 ## Exclusion causes {#exclusion-causes-tab}
 
 The **Exclusion causes** tab displays, for each possible cause, the number of messages which have been excluded from the target.
 
-![](assets/logs4.png)
+![](assets/logs4.png){zoomable="yes"}
 
 ## Tracked URLs {#tracked-urls-tab}
 
 The **Tracked URLs** tab regroups the URLs contained in the sent messages, including their URL type, and their source URL.
 
-![](assets/logs5.png)
+![](assets/logs5.png){zoomable="yes"}
 
 ## Tracking {#tracking-tab}
 
 The **Tracking** tab lists the tracking history for this delivery. This tab displays tracking data for the messages sent, i.e. all URLs subject to tracking by Adobe Campaign.
 
 
-![](assets/logs6.png)
+![](assets/logs6.png){zoomable="yes"}
 
 >[!NOTE]
 >

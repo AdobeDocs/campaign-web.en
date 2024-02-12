@@ -2,7 +2,6 @@
 audience: end-user
 title: Create audiences
 description: Learn how to create audiences in Adobe Campaign Web
-badge: label="Limited Availability"
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
 ---
 # Create audiences {#create-audiences}
@@ -48,7 +47,7 @@ To create an audience, follow these steps:
 
     * The "New audience" **[!UICONTROL Save audience]** activity represents the final step in your workflow, enabling you to save the results as a new audience.
 
-    ![](assets/create-audience-blank.png)
+    ![](assets/create-audience-blank.png){zoomable="yes"}
 
     >[!IMPORTANT]
     >
@@ -64,7 +63,7 @@ To create an audience, follow these steps:
     >
     >Channel activities are not available for use in audience workflows.
 
-    ![](assets/audience-creation-canvas.png)
+    ![](assets/audience-creation-canvas.png){zoomable="yes"}
 
 1. Configure the **[!UICONTROL Save audience]** activity to specify how you want to save the population computed upstream in the workflow. [Learn how to configure a Save audience activity](../workflows/activities/save-audience.md)
 
@@ -78,7 +77,7 @@ You can now use this audience as the main target of a delivery. [Learn more](add
 
 The example below shows an audience workflow configured to target female customers living in New York and create two new audiences depending on their latest purchase (Yoga or Running gear).
 
-![](assets/audiences-example.png)
+![](assets/audiences-example.png){zoomable="yes"}
 
 1. The **[!UICONTROL Build audience]** activity targets all female profiles living in New York.
 1. The **[!UICONTROL Enrichment]** activity enriches the audience with information from the Purchases table to identify which type of product the customers purchased.
@@ -97,4 +96,4 @@ By default, rerunning an audience workflow replaces the entire content of the au
 
 If you prefer not to replace the existing audience results, configure the **Save audience** activities to align with your requirements. For example, you can change the **Audience label** field to store the new results into a new audience, or add the new results to the existing audience content without erasing previous data. [Learn how to configure a Save audience acitivty](../workflows/activities/save-audience.md)
 
-![](assets/edit-audience-save.png)
+![](assets/edit-audience-save.png){zoomable="yes"}

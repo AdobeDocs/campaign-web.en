@@ -2,7 +2,6 @@
 audience: end-user
 title: Campaign reports
 description: Learn how to access and use campaign reports
-badge: label="Limited Availability"
 exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
 ---
 # Get started with campaign reports {#campaign-reports}
@@ -33,27 +32,27 @@ To access and manage your campaign reports, follow these steps:
 
 1. Navigate to the **[!UICONTROL Campaigns]** menu. Click the **Reports** button from your campaign's dashboard.
 
-    ![](assets/manage_campaign_report_2.png)
+    ![](assets/manage_campaign_report_2.png){zoomable="yes"}
 
     Alternatively, you can use the three dots **More actions** button next to the campaign name in the campaign list and select **[!UICONTROL View report]**.
         
-    ![](assets/manage_campaign_report_1.png)
+    ![](assets/manage_campaign_report_1.png){zoomable="yes"}
 
 1. From the left menu, select a report from the list and navigate through the tab to display data from each channel.
 
-    ![](assets/manage_campaign_report_4.png)
+    ![](assets/manage_campaign_report_4.png){zoomable="yes"}
 
 1. From your dashboard, click **[!UICONTROL Select deliveries]** if you want to target one specific delivery included in your campaign.
 
 1. In the **[!UICONTROL Delivery throughput]** menu, choose a **Start** and **[!UICONTROL End time]** to target specific data.
 
-    ![](assets/manage_campaign_report_3.png)
+    ![](assets/manage_campaign_report_3.png){zoomable="yes"}
 
 1. From the **[!UICONTROL Pick folder]** field, select if you want to target deliveries or campaign from specific folder.
 
     You can also select **[!UICONTROL Add rules]** to start building queries to better filter reporting data. [Learn how to use the query modeler](../query/query-modeler-overview.md)
 
-    ![](assets/manage_campaign_report_4.png)
+    ![](assets/manage_campaign_report_4.png){zoomable="yes"}
 
 1. From the **[!UICONTROL URLs and click streams]**, you can also choose the **[!UICONTROL Top visited Links]** or the **[!UICONTROL Time period]**.
 

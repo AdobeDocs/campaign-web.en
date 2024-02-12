@@ -2,7 +2,6 @@
 audience: end-user
 title: Use the Reconciliation workflow activity
 description: Learn how to use the Reconciliation workflow activity
-badge: label="Limited Availability"
 exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
 ---
 # Reconciliation {#reconciliation}

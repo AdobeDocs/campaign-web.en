@@ -2,7 +2,6 @@
 audience: end-user
 title: Use the AND-join workflow activity
 description: Learn how to use the AND-join workflow activity
-badge: label="Limited Availability"
 exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
 ---
 # AND-join {#join}

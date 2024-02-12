@@ -1,7 +1,6 @@
 ---
 title: Connect to Adobe Campaign Web interface
 description: Learn how to connect to Adobe Campaign Web user interface
-badge: label="Limited Availability"
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 ---
 # Connect to Adobe Campaign {#connect-to-campaign}
@@ -20,11 +19,11 @@ To sign in to Adobe Experience Cloud, basic steps are:
     
     After signing in to Experience Cloud, you can quickly access all your solutions and apps.
 
-    ![](assets/exc-home.png)
+    ![](assets/exc-home.png){zoomable="yes"}
 
 1. Verify that you are in the right organization. 
 
-    ![](assets/exc-orgs.png){width="50%" align="left"}
+    ![](assets/exc-orgs.png){zoomable="yes"}{width="50%" align="left"}
 
     Learn more about Organizations in Adobe Experience Cloud in [this article](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html){target="_blank"}.
 
@@ -35,11 +34,11 @@ To access your Campaign environment, select **Campaign** from the **Quick Access
 
 If you are already connected to another Adobe Experience Cloud solution, you can also browse to your Campaign environment from the solution switcher on the top right of your screen.
 
-![](assets/solution-switcher.png)
+![](assets/solution-switcher.png){zoomable="yes"}
 
 If you have access to multiple environments, including Campaign Control Panel, click the **Launch** button for the correct instance. 
 
-![](assets/launch-campaign.png)
+![](assets/launch-campaign.png){zoomable="yes"}
 
 You are now connected to Campaign. Learn how to start using the user interface in [this page](user-interface.md).
 
@@ -54,7 +53,7 @@ Browse the top bar of the interface to:
 * check your product notifications
 * edit your Adobe profile and manage settings, such as [update your favorite language](#language-pref) or [switch to light/dark theme](#dark-theme)
 
-![](assets/do-not-localize/unified-shell.png){width="50%" align="left"}
+![](assets/do-not-localize/unified-shell.png){zoomable="yes"}{width="50%" align="left"}
 
 ## Supported browsers {#browsers}
 

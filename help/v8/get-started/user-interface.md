@@ -3,7 +3,7 @@ audience: end-user
 title: Discover the interface
 description: Adobe Campaign Web user interface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-badge: label="Limited Availability" 
+ 
 ---
 # Discover the interface {#user-interface}
 
@@ -27,7 +27,7 @@ Campaign home page lets you quickly and easily browse key resources, indicators,
 
 The upper section of the home page provides details about latest updates and new capabilities available in the product, with link to Release Notes and detailed documentation. Use the left arrow to scroll feature cards. 
 
-![](assets/home.png)
+![](assets/home.png){zoomable="yes"}
 
 The **Key performance indicators** lets you check your platform effectiveness through common KPIs. Learn more about these KPIs in [this page](../reporting/kpis.md).
 
@@ -65,7 +65,7 @@ In the CAMPAIGN MANAGEMENT section, you can access marketing campaigns, deliveri
 
     Use the **More actions** button to delete or duplicate a delivery.
 
-    ![](assets/more-actions.png){width="70%" align="left"}
+    ![](assets/more-actions.png){zoomable="yes"}{width="70%" align="left"}
 
 * **Workflows** - In this screen, you can access the full list of workflows and workflow templates. You can check their status, last/next execution dates, and create a new workflow or a new workflow template. You can filter the list with the same criteria as for other objects. In addition, you can filter workflows which belong to a campaign, or not. Learn more about workflows [in this section](../workflows/gs-workflows.md).
 
@@ -113,7 +113,7 @@ Learn how to create and send offers in emails and SMS in [this section](../msg/o
 
 A contextual help is available in the interface. When available, click on the `?` icon to display help information and related documentation links. 
 
-![](assets/do-not-localize/context-help.png){width="40%" align="left"}
+![](assets/do-not-localize/context-help.png){zoomable="yes"}{width="40%" align="left"}
 
 Currently released as a Beta version within the new Campaign Web user interface, the **AI-powered Knowledge Assistant** embedded within contextual help revolutionizes documentation searching and answering how-to questions with effortlessly sifting through vast documentation repositories, instantly pinpointing the precise information you need.
 

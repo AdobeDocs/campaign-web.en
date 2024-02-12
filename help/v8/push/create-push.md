@@ -2,7 +2,6 @@
 audience: end-user
 title: Create a push notification delivery
 description: Learn how to create a push notification delivery with Adobe Campaign Web
-badge: label="Limited Availability"
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
 ---
 # Create a push notification delivery {#create-push}
@@ -31,7 +30,7 @@ To create a new standalone push delivery, follow these steps:
 
 1. Click the **[!UICONTROL Create delivery]** button to confirm.
 
-    ![](assets/push_create_1.png)
+    ![](assets/push_create_1.png){zoomable="yes"}
 
 ## Configure the delivery settings {#configure-push-settings}
 
@@ -63,7 +62,7 @@ You must first select the app, and then you can refine the Push notification aud
 
 1. From the **[!UICONTROL Audience]** section, select the application you want to use for this delivery. By default, your push notification is sent to all subscribers of the application. You can refine to a specific audience by clicking the **[!UICONTROL Select audience]** button.
 
-    ![](assets/push_create_2.png)
+    ![](assets/push_create_2.png){zoomable="yes"}
 
 1. Select an existing audience, or create your own audience, to refine the target population for your Push delivery. For Push notification, the default [target dimension](../audience/about-recipients.md#targeting-dimensions) is **Subscriber application** (nms:appSubscriptionRcp), which is linked to the recipients table. 
 
@@ -77,7 +76,7 @@ You must first select the app, and then you can refine the Push notification aud
 
 To define the content of your notification, click **[!UICONTROL Edit content]**. [Learn more](content-push.md)
 
-![](assets/push_create_5.png)
+![](assets/push_create_5.png){zoomable="yes"}
 
 From this screen, you can also [simulate your content](../preview-test/preview-test.md) and [set up offers](../msg/offers.md).
 
@@ -95,7 +94,7 @@ To schedule a standalone push delivery to a specific date and time, follow these
 
 After you initiate the delivery, the message is automatically sent on the exact date and time that you have defined for the recipient. 
 
-![](assets/push_create_3.png)
+![](assets/push_create_3.png){zoomable="yes"}
 
 Learn more about delivery scheduling in [this section](../msg/gs-messages.md#gs-schedule)
 
@@ -103,4 +102,4 @@ Learn more about delivery scheduling in [this section](../msg/gs-messages.md#gs-
 
 Click **[!UICONTROL Configure delivery settings]** to access advanced options related to your delivery template. [Learn more](../advanced-settings/delivery-settings.md)
 
-![](assets/push_create_4.png)
+![](assets/push_create_4.png){zoomable="yes"}

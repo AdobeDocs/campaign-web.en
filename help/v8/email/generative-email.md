@@ -30,7 +30,7 @@ To generate an email content with the Content Assistant, follow the steps below.
 
 1. From the right-hand menu, select **[!UICONTROL Experience generation]**.
 
-    ![](assets/email-genai-1.png)
+    ![](assets/email-genai-1.png){zoomable="yes"}
 
 1. Fine tune the content by describing what you want to generate. 
 
@@ -40,7 +40,7 @@ To generate an email content with the Content Assistant, follow the steps below.
     * For Feedbacks and Surveys: Create an email inviting customers to provide feedback on their recent software experience and participate in a product improvement survey.
     * For Anniversary or Birthday Emails: Generate a birthday email, celebrating the customer's special day and offering them a birthday discount.
     
-    ![](assets/email-genai-2.png)
+    ![](assets/email-genai-2.png){zoomable="yes"}
 
 1. Select **[!UICONTROL Upload file]** if you want to add any brand asset which contains content that can provide additional context the Content Assistant.  
 
@@ -50,7 +50,7 @@ To generate an email content with the Content Assistant, follow the steps below.
 
 1. Choose the **[!UICONTROL Language]** and **[!UICONTROL Tone]** that you want the generated text to have. This will ensure that the text is appropriate for your audience and purpose.
 
-    ![](assets/email-genai-3.png)  
+    ![](assets/email-genai-3.png){zoomable="yes"}  
 
 1. Customize the **[!UICONTROL Content type]** assets settings to match your desired asset characteristics.
 
@@ -58,16 +58,16 @@ To generate an email content with the Content Assistant, follow the steps below.
 
 1. Browse the **[!UICONTROL Variation suggestions]** to find the desired email. Click **[!UICONTROL Preview]** to view a full-screen version of the selected variation.
 
-    ![](assets/email-genai-4.png)
+    ![](assets/email-genai-4.png){zoomable="yes"}
 
 1. Click **[!UICONTROL Select]** once you found the appropriate content.
 
-    ![](assets/email-genai-5.png)
+    ![](assets/email-genai-5.png){zoomable="yes"}
 
 1. Insert personalization fields to customize your email content based on profiles data or further personalize your content if needed. [Learn more about content personalization](../personalization/personalize.md)
 
 1. After defining your email content, click the **[!UICONTROL Simulate content]** button to control the rendering, and check personalization settings with test profiles.  [Learn more](../preview-test/preview-content.md)
 
-    ![](assets/email-genai-6.png)
+    ![](assets/email-genai-6.png){zoomable="yes"}
 
 1. When you have defined your content, audience and schedule, you are ready to prepare your email delivery. [Learn more](../monitor/prepare-send.md)

@@ -27,15 +27,15 @@ You can make your message content dynamic by inserting JavaScript constructs in 
 
 * **Personalize your messages** to each specific recipient by leveraging profile data such as their first name, interests, where they live, what they bought, and much more. You can select any field available in the database from the personalization editor related to the recipient, the message or the delivery. These personalization attributes can be inserted in the subject line or the body of your messages. The following syntax inserts the city of the recipient in your content: <%= recipient.location.city %>.
 
-    ![](assets/perso-subject-line.png){width="800" align="center"}
+    ![](assets/perso-subject-line.png){zoomable="yes"}{width="800" align="center"}
 
 * **Create conditional content** to adapt your deliveries to each recipient and only show the content that is relevant for a given customer based on the information you have about them. This allows you to display specific text blocks and/or images based on conditions. For example, adapt an email banner based on the recipients' subscription to a specific service. 
 
-    ![](assets/condition-sample.png){width="800" align="center"}
+    ![](assets/condition-sample.png){zoomable="yes"}{width="800" align="center"}
     
 * **Use personalization blocks** to save time and leverage easily reusable personalizated content into your messages. Campaign comes with a set of personalization blocks which contain a specific rendering that you can insert into your deliveries. For example, you can add a logo, a greeting message, or a link to the mirror page of an email message. Content blocks are available from a dedicated entry in the personalization editor.
 
-    ![](assets/content-blocks.png){width="800" align="center"}
+    ![](assets/content-blocks.png){zoomable="yes"}{width="800" align="center"}
 
 ## Access the expression editor {#access}
 
@@ -45,15 +45,15 @@ Here are some examples on how to access the expression editor depending on the c
 
 * *Accessing the expression editor from the Sender name field*
 
-    ![](assets/expression-editor-access.png){width="800" align="center"}
+    ![](assets/expression-editor-access.png){zoomable="yes"}{width="800" align="center"}
 
 * *Accessing the expression editor from an email text component*
 
-    ![](assets/expression-editor-access-email.png){width="800" align="center"}
+    ![](assets/expression-editor-access-email.png){zoomable="yes"}{width="800" align="center"}
 
 * *Accessing the expression editor from a link in an email*
 
-    ![](assets/perso-link-insert-icon.png){width="800" align="center"}
+    ![](assets/perso-link-insert-icon.png){zoomable="yes"}{width="800" align="center"}
 
 >[!NOTE]
 >

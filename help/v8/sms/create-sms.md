@@ -2,7 +2,6 @@
 audience: end-user
 title: Create a SMS delivery
 description: Learn how to create and send SMS with Adobe Campaign Web
-badge: label="Limited Availability"
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
 ---
 # Create an SMS delivery {#create-sms}
@@ -36,7 +35,7 @@ To create a new standalone SMS delivery, follow these steps:
 
 1. Click the **[!UICONTROL Create delivery]** button to confirm.
 
-    ![](assets/sms_create_1.png)
+    ![](assets/sms_create_1.png){zoomable="yes"}
 
 1. Enter a **[!UICONTROL Label]** for the delivery and access the **[!UICONTROL Additional options]** drop-down. If your delivery is based on an extended schema, specific **Custom options** fields are available.
 
@@ -50,7 +49,7 @@ To create a new standalone SMS delivery, follow these steps:
 
 1. Click the **[!UICONTROL Select audience]** button to target an existing audience or create your own. [Learn more about audiences](../audience/about-recipients.md).
 
-    ![](assets/sms_create_2.png)
+    ![](assets/sms_create_2.png){zoomable="yes"}
 
     Learn how to select an existing audience in [this page](../audience/add-audience.md)
 
@@ -60,7 +59,7 @@ To create a new standalone SMS delivery, follow these steps:
 
 1. Click **[!UICONTROL Edit content]** to start designing the content of your SMS message. [Learn more](content-sms.md)
 
-    ![](assets/sms_create_4.png)
+    ![](assets/sms_create_4.png){zoomable="yes"}
 
     From this screen, you can also [simulate your content](../preview-test/preview-test.md) and [set up offers](../msg/offers.md).
 
@@ -72,4 +71,4 @@ To create a new standalone SMS delivery, follow these steps:
 
 1. Click **[!UICONTROL Settings]** to access advanced options related to your delivery template. [Learn more](../advanced-settings/delivery-settings.md)
 
-    ![](assets/sms_create_3.png)
+    ![](assets/sms_create_3.png){zoomable="yes"}

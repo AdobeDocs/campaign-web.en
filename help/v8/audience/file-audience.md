@@ -2,7 +2,7 @@
 audience: end-user
 title: Target recipients from a file
 description: Learn how to use recipients from an external file to build your email audience
-badge: label="Limited Availability" 
+ 
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 ---
 # Load an email audience from a file {#audience-from-file}
@@ -44,7 +44,7 @@ To target profiles from a local file directly from the email interface, follow t
 1. Open an existing email delivery, or [create a new email delivery](../email/create-email.md).
 1. In the email delivery creation window, from the **Audience** section, click the **Select audience** button and choose the **Select from file** option.
 
-    ![](assets/select-from-file.png)
+    ![](assets/select-from-file.png){zoomable="yes"}
 
 1. Select the local file to use. The format must align with the [sample file](#sample-file). 
 1. Preview and check how data is mapped in the central section of the screen.
@@ -54,7 +54,7 @@ To target profiles from a local file directly from the email interface, follow t
 
 When creating and personalizing the message content, you can select fields from the input file in the [Personalization editor](../personalization/gs-personalization.md).
 
-![](assets/select-external-perso.png)
+![](assets/select-external-perso.png){zoomable="yes"}
 
 ## Sample file {#sample-file}
 
@@ -87,7 +87,7 @@ Campaign Web allows you to preview and send test emails when using an audience u
 
 1. A preview of the delivery content displays in the right pane of the screen. Personalized elements are replaced with the data from the profile selected in the left pane. [Learn more on delivery content preview](../preview-test/preview-content.md) 
 
-    ![](assets/file-upload-preview.png)
+    ![](assets/file-upload-preview.png){zoomable="yes"}
 
 1. To send test emails, click the **[!UICONTROL Test]** button.
 
@@ -99,6 +99,6 @@ Campaign Web allows you to preview and send test emails when using an audience u
 
 1. When the proof recipients are added and you are ready to send the proofs, click the **[!UICONTROL Send test email]** button and confirm the sending.
 
-    ![](assets/file-upload-test.png)
+    ![](assets/file-upload-test.png){zoomable="yes"}
 
 1. You can monitor the sending of the test email using the **[!UICONTROL View test email log]** button at any time. [Learn more on test emails monitoring](../preview-test/test-deliveries.md#access-test-deliveries)

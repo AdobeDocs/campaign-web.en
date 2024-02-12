@@ -2,7 +2,6 @@
 audience: end-user
 title: Global reports for the Push channel
 description: Understand global reports for the Push channel
-badge: label="Limited Availability"
 exl-id: 829a9b68-5c41-47dd-843c-412b6d255e8b
 ---
 # Global reports for the Push channel {#campaign-reports-push}
@@ -22,7 +21,7 @@ Navigate to the **[!UICONTROL Reports]** menu within the **[!UICONTROL Reporting
 
 The **[!UICONTROL Delivery Overview]** report provides key performance indicators (KPIs) that give detailed information about how your visitors engage with every push notification delivery. Metrics are detailed below.
     
-![](assets/global_report_push_delivery_overview.png)
+![](assets/global_report_push_delivery_overview.png){zoomable="yes"}
 
 +++Learn more on Delivery overview metrics.
 
@@ -45,7 +44,7 @@ The **[!UICONTROL Delivery Overview]** report provides key performance indicator
 
 The **[!UICONTROL Targeted audience]** table and graph present data related to your recipients for each sent Push notification delivery. Metrics are detailed below.
 
-![](assets/global_report_push_targeted_audience.png)
+![](assets/global_report_push_targeted_audience.png){zoomable="yes"}
 
 +++Learn more on Targeted audience metrics.
 
@@ -66,7 +65,7 @@ The **[!UICONTROL Targeted audience]** table and graph present data related to y
 
 The **[!UICONTROL Delivery statistics]** table details the success of every Push notification delivery. Metrics are detailed below.
 
-![](assets/global_report_push_delivery_statistics.png)
+![](assets/global_report_push_delivery_statistics.png){zoomable="yes"}
 
 +++Learn more on Delivery statistics metrics.
 
@@ -100,6 +99,6 @@ Push notifications error types are listed in the [Adobe Campaign v8 (client cons
 >title="Delivery throughput report"
 >abstract="The **Delivery throughput** report presents detailed information regarding the push notification delivery throughput of the entire platform within a specified timeframe."
 
-![](assets/global_report_push_delivery_throughput.png)
+![](assets/global_report_push_delivery_throughput.png){zoomable="yes"}
 
 The **[!UICONTROL Delivery Throughput]** report offers comprehensive insights into the effectiveness of the push notification delivery system, offering a detailed summary of success and error rates over a specified period.

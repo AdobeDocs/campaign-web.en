@@ -1,7 +1,7 @@
 ---
 title: Get started with profiles
 description: Learn how to monitor and manage profiles in Campaign Web.
-badge: label="Limited Availability"
+
 ---
 # Get started with profiles {#profiles}
 
@@ -42,7 +42,7 @@ Profiles are accessible and editable in Adobe Campaign Web from the **[!UICONTRO
 
 You can filter the **[!UICONTROL Profiles]** list using the search field or filters available from the **Show filters** button. You can restrict the results to a specific [folder](../get-started/permissions.md#folders) using the drop-down list, or add rules using the [query modeler](../query/query-modeler-overview.md).
 
-![](assets/profiles-list-filters.png)
+![](assets/profiles-list-filters.png){zoomable="yes"}
 
 To access the details of a profiles, click on its name from the list. A detailed view of the profile opens, allowing you to explore its attributes and the services he subscribed to. [Learn how to explore profiles' details](create-profile.md)
 

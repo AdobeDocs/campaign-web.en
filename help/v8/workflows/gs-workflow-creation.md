@@ -2,7 +2,6 @@
 audience: end-user
 title: Key principles of workflow creation
 description: Learn key principles of workflows with Adobe Campaign Web
-badge: label="Limited Availability"
 exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
 ---
 
@@ -15,7 +14,7 @@ With Adobe Campaign Web, you can build workflows into a visual canvas to design 
 
 The workflow diagram is a representation of what is supposed to happen. It describes the various tasks to be performed and how they are linked together. 
 
-![](assets/workflow-example.png) {zoomable="yes"}
+![](assets/workflow-example.png){zoomable="yes"} {zoomable="yes"}
 
 Each workflow contains:
 
@@ -34,16 +33,16 @@ Campaigns offers two ways to create a workflow:
 
 1. Workflows can be created as standalone workflows, from the **Workflows** menu.
 
-    ![](assets/create-a-standalone-wf.png)
+    ![](assets/create-a-standalone-wf.png){zoomable="yes"}
 
 1. Workflows can be created directly within a campaign, from the **Workflow** tab of the campaign. When included in a campaign, the workflow is executed along with all the other campaign's workflows, and the reporting metrics are all grouped at the campaign level.
 
-    ![](assets/create-a-wf-from-a-campaign.png)
+    ![](assets/create-a-wf-from-a-campaign.png){zoomable="yes"}
 
     
 Key steps to create workflows are as follows:
 
-![](assets/workflow-creation-process.png)
+![](assets/workflow-creation-process.png){zoomable="yes"}
 
 These steps are detailed in the following section:
 

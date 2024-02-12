@@ -1,7 +1,6 @@
 ---
 title: Targeting dimensions
 description: Learn more about targeting dimensions in Adobe Campaign Web
-badge: label="Limited Availability"
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
 ---
 # Targeting dimensions {#targeting-dimensions}
@@ -21,7 +20,7 @@ Note that you can switch the targeting dimension in a workflow using a [Change d
 
 When selecting a targeting dimension (in the workflow settings, or in activites such as **Build audience**, **Reconciliation** or **Change dimension**), a selection of commonly used schemas is displayed by default in the list. To show all available schemas, toggle on the **[!UICONTROL Show all schemas]** button. The option selection is saved for each user.
 
-![](assets/targeting-dimension-show-all.png)
+![](assets/targeting-dimension-show-all.png){zoomable="yes"}
 
 ## Targeting dimensions {#list}
 

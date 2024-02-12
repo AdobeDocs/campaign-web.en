@@ -3,7 +3,7 @@ audience: end-user
 title: Track your messages
 description: Learn how to add links and track sent messages
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-badge: label="Limited Availability" 
+ 
 ---
 # Add links and track messages {#tracking}
 
@@ -21,7 +21,7 @@ To insert links into your email content, follow the steps below:
 
 1. Select an element and click **[!UICONTROL Insert link]** from the contextual toolbar.
 
-    ![](assets/message-tracking-insert-link.png)
+    ![](assets/message-tracking-insert-link.png){zoomable="yes"}
 
 1. Add a **[!UICONTROL Label]** and a **[!UICONTROL Link]**.
 
@@ -32,7 +32,7 @@ To insert links into your email content, follow the steps below:
     * You can edit the link and change its **[!UICONTROL Target]**.
     * You can choose to underline the link or not by checking the corresponding option.
 
-    ![](assets/message-tracking-link-settings.png)
+    ![](assets/message-tracking-link-settings.png){zoomable="yes"}
 
 >[!NOTE]
 >
@@ -50,11 +50,11 @@ The [Email Designer](create-email-content.md) allows you to manage the tracked U
 
 1. To edit a link, click the corresponding pencil icon.
 
-    ![](assets/message-tracking-edit-links.png)
+    ![](assets/message-tracking-edit-links.png){zoomable="yes"}
 
 1. You can modify the **[!UICONTROL Tracking Type]** if needed:
 
-   ![](assets/message-tracking-edit-a-link.png)
+   ![](assets/message-tracking-edit-a-link.png){zoomable="yes"}
 
     For each tracked URL, you can set the tracking mode to one of these values:
 
@@ -65,6 +65,6 @@ The [Email Designer](create-email-content.md) allows you to manage the tracked U
 
 1. Add a **[!UICONTROL Category]** to your link to group tracked links and click **[!UICONTROL Save]**.
 
-    ![](assets/message-tracking-edit-a-link_2.png)
+    ![](assets/message-tracking-edit-a-link_2.png){zoomable="yes"}
 
 1. After sending your delivery, access your delivery report. Under the **[!UICONTROL Tracking]** menu, the **[!UICONTROL URLs and click streams]** report displays which URLs from your delivery are the most visited. [Learn more](../reporting/gs-reports.md)

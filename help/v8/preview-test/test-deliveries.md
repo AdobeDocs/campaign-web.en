@@ -3,7 +3,7 @@ audience: end-user
 title: Send test deliveries
 description: Learn how to define and send test deliveries
 exl-id: b2677579-c95d-443d-b207-466af364c208
-badge: label="Limited Availability"
+
 ---
 # Send test deliveries {#send-test-deliveries}
 
@@ -31,7 +31,7 @@ To start testing your message content:
 1. Click the **[!UICONTROL Simulate content]** button. 
 1. Click the **[!UICONTROL Test]** button to send test deliveries.
 
-    ![](assets/simulate-test-button-email.png)
+    ![](assets/simulate-test-button-email.png){zoomable="yes"}
 
 1. Select your test recipients.
 
@@ -75,7 +75,7 @@ The steps to send test deliveries to seed addresses are detailed below.
 
 1. From the **[!UICONTROL Mode]** drop-down list, choose **[!UICONTROL Test profiles]** to target fictitious recipients that will receive the test email or SMS delivery.
 
-    ![](assets/simulate-profile-mode.png)
+    ![](assets/simulate-profile-mode.png){zoomable="yes"}
 
     >[!NOTE]
     >
@@ -85,13 +85,13 @@ The steps to send test deliveries to seed addresses are detailed below.
 
 1. When browsing the test profile or profile lists, you can use filters to refine your search.
 
-    ![](assets/simulate-test-profile-filter.png)
+    ![](assets/simulate-test-profile-filter.png){zoomable="yes"}
 
     For example, you can define a rule to find all test profiles whith the **[!UICONTROL Prospect]** status. Learn how to add rules using the [query modeler](../query/query-modeler-overview.md).
 
 1. To also send the final message to the recipients of the test delivery, select the **[!UICONTROL Include test population in the main target]** option.
 
-    ![](assets/simulate-include-test.png)
+    ![](assets/simulate-include-test.png){zoomable="yes"}
 
 1. Once the test profiles are selected, you can [send the test delivery](#send-test).
 
@@ -112,7 +112,7 @@ To substitute profile data from the main target, follow the steps below:
 
 1. Click the **[!UICONTROL Add address]** button and specify the email address or phone number that will receive the test delivery.
 
-    ![](assets/simulate-add-substitution-address.png)
+    ![](assets/simulate-add-substitution-address.png){zoomable="yes"}
 
     >[!NOTE]
     >
@@ -122,7 +122,7 @@ To substitute profile data from the main target, follow the steps below:
 
 1. Confirm the recipient and repeat the operation to add as many email addresses or phone numbers as needed.
 
-    ![](assets/simulate-profile-substitute.png)
+    ![](assets/simulate-profile-substitute.png){zoomable="yes"}
 
 1. To also send the final message to the recipients of the test delivery, select the **[!UICONTROL Include test population in the main target]** option.
 
@@ -134,13 +134,13 @@ When designing with push notifications, test deliveries can be only sent to your
 
 1. From the content of your push delivery, click the **[!UICONTROL Simulate content]** button, and the **[!UICONTROL Test]** button.
 
-    ![](assets/simulate-test-button-push.png)
+    ![](assets/simulate-test-button-push.png){zoomable="yes"}
 
 1. If you have already selected subscribers to [preview the delivery](preview-content.md) in the content simulation screen, those profiles are pre-selected as test subscribers.
 
     You can clear your selection and/or add additional subscribers using the dedicated button.
 
-    ![](assets/simulate-test-subscribers.png)
+    ![](assets/simulate-test-subscribers.png){zoomable="yes"}
 
 1. To also send the final push notification to the test subscribers, select the **[!UICONTROL Include test population in the main target]** option.
 
@@ -154,7 +154,7 @@ To send the test delivery to the selected recipients, follow the steps below.
 
 1. Confirm the sending.
 
-    ![](assets/simulate-send-test.png)
+    ![](assets/simulate-send-test.png){zoomable="yes"}
 
 1. Send as many tests as necessary until you have finalized the content of your delivery.
 
@@ -170,8 +170,8 @@ Once the test deliveries have been sent, you can access dedicated logs from the 
 
 These logs allow you to access all the tests sent for the selected delivery, and to visualize specific statistics related to their sending. [Learn how to monitor delivery logs](../monitor/delivery-logs.md)
 
-![](assets/simulate-test-log.png)
+![](assets/simulate-test-log.png){zoomable="yes"}
 
 You can also access sent tests from the [delivery list](../msg/gs-messages.md), like any delivery.
 
-![](assets/simulate-deliveries-list.png)
+![](assets/simulate-deliveries-list.png){zoomable="yes"}

@@ -3,7 +3,7 @@ audience: end-user
 title: Design emails in the Email Designer
 description: Learn how to design your emails content from scratch
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-badge: label="Limited Availability" 
+ 
 ---
 # Start your email content from scratch {#create-email-content}
 
@@ -54,7 +54,7 @@ To start building your email content, follow the steps below.
 
 1. From the [Email Designer](get-started-email-designer.md#start-authoring) home page, select the **[!UICONTROL Design from scratch]** option.
 
-    ![](assets/email_designer-from-scratch.png)
+    ![](assets/email_designer-from-scratch.png){zoomable="yes"}
 
 1. Start designing your email content by drag and dropping **[!UICONTROL Structures]** into the canvas to define the layout of your email.
 
@@ -64,7 +64,7 @@ To start building your email content, follow the steps below.
 
 1. Add as many **[!UICONTROL Structures]** as needed and edit their settings in the dedicated pane on the right.
 
-    ![](assets/email_designer_structure_components.png)
+    ![](assets/email_designer_structure_components.png){zoomable="yes"}
 
 1. You can select the **[!UICONTROL n:n column]** component to define the number of columns of your choice (between 3 and 10). You can also define the width of each column by moving the arrows at the bottom of each column.
 
@@ -76,7 +76,7 @@ To start building your email content, follow the steps below.
 
 1. Each component can be further customized using the **[!UICONTROL Settings]** or **[!UICONTROL Style]** tabs on the right. For example, you can change the text style, padding or margin of each component. [Learn more about alignment and padding](alignment-and-padding.md)
 
-    ![](assets/email_designer-styles.png)
+    ![](assets/email_designer-styles.png){zoomable="yes"}
 
 1. Insert personalization fields to customize your email content based on profiles data. [Learn more about content personalization](../personalization/personalize.md)
 
@@ -86,7 +86,7 @@ To start building your email content, follow the steps below.
     
     [Learn more about links and message tracking](message-tracking.md)
 
-    ![](assets/email_designer-links.png)
+    ![](assets/email_designer-links.png){zoomable="yes"}
 
 1. If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. This allows you to edit the email source code, for example to add tracking or custom HTML tags. [Learn more about the code editor](code-content.md)
 
@@ -96,7 +96,7 @@ To start building your email content, follow the steps below.
 
 1. Once your content is ready, click **[!UICONTROL Simulate content]** to check your email rendering. You can choose the desktop or mobile view. [Learn more about previewing your email](../preview-test/preview-test.md)
 
-    ![](assets/email_designer-simulate.png)
+    ![](assets/email_designer-simulate.png){zoomable="yes"}
 
 1. When your email is ready, click **[!UICONTROL Save]**.
 

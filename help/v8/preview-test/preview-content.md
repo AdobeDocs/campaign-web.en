@@ -3,7 +3,7 @@ audience: end-user
 title: Preview delivery content
 description: Learn how to preview your delivery content with Campaign Web user interface
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-badge: label="Limited Availability"
+
 ---
 
 # Preview the message content {#preview-content} 
@@ -16,7 +16,7 @@ To preview the content of your delivery, follow the steps below.
 
 1. Click the **[!UICONTROL Simulate content]** button.
 
-    ![](assets/simulate-button.png)
+    ![](assets/simulate-button.png){zoomable="yes"}
 
 1. To select the profiles that will be used to preview your personalized content, use:
 
@@ -30,11 +30,11 @@ To preview the content of your delivery, follow the steps below.
 
     * The **[!UICONTROL Profiles]** tab lists all the profiles stored in your database. [Learn how to work with profiles](../audience/about-recipients.md)
     
-    ![](assets/simulate-select-profiles.png)
+    ![](assets/simulate-select-profiles.png){zoomable="yes"}
 
 1. When browsing the test profile or profile lists, you can use filters to refine your search.
 
-    ![](assets/simulate-test-profile-filter.png)
+    ![](assets/simulate-test-profile-filter.png){zoomable="yes"}
 
     For example, you can define a rule to find all test profiles whith the **[!UICONTROL Prospect]** status. [Learn how to add rules using the query modeler](../query/query-modeler-overview.md).
 
@@ -42,7 +42,7 @@ To preview the content of your delivery, follow the steps below.
 
     A preview of the delivery content is displayed in the right pane of the **[!UICONTROL Simulate]** screen. Personalized elements are replaced with the data from the profile selected in the left pane.
 
-    ![](assets/simulate-preview.png)
+    ![](assets/simulate-preview.png){zoomable="yes"}
 
 1. If you have added multiple profiles, you can switch between them in the list to preview the corresponding delivery content. You can also add more test profiles and clear your selection using the corresponding buttons on the left pane.
 

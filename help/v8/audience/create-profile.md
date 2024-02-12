@@ -1,7 +1,6 @@
 ---
 title: Create a profile
 description: Learn how to create a profile in Campaign Web.
-badge: label="Limited Availability"
 exl-id: 0680b726-8f2f-45bf-8aa0-c1d4aa1c2990
 ---
 # Create a profile {#profiles}
@@ -47,7 +46,7 @@ To create a profile, follow these steps:
 
 1. The list of attributes available for the profile display, organized into different sections detailed in the table below.
 
-    ![](assets/create-profile.png)
+    ![](assets/create-profile.png){zoomable="yes"}
 
     |Attributes section|Description|
     |  ---  |  ---  |

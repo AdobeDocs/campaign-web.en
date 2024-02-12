@@ -2,7 +2,6 @@
 audience: end-user
 title: Use the Build audience workflow activity
 description: Learn how to use the Build audience workflow activity
-badge: label="Limited Availability"
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
 ---
 # Build audience {#build-audience}

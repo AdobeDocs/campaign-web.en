@@ -2,7 +2,6 @@
 audience: end-user
 title: Send an SMS delivery
 description: Learn how to send SMS with Adobe Campaign Web
-badge: label="Limited Availability"
 exl-id: 901faf3b-fcdd-4a4e-8de7-7d088686250f
 ---
 # Preview and send an SMS delivery {#send-sms-delivery}
@@ -20,18 +19,18 @@ The main steps to preview your SMS delivery are as follows. More details on how 
 
 1. From your delivery content page, use **[!UICONTROL Simulate content]** to preview your personalized content.
 
-    ![](assets/sms_send_1.png)
+    ![](assets/sms_send_1.png){zoomable="yes"}
 
 1. Click **[!UICONTROL Add test profile(s)]** to select one or several test profiles or profiles.
     
     <!--
     Once your test profiles are selected, click **[!UICONTROL Select]**.
-    ![](assets/sms_send_2.png)
+    ![](assets/sms_send_2.png){zoomable="yes"}
     -->
 
 1. In the right pane, you will find a preview of the SMS delivery, where personalized elements are dynamically replaced with data from the selected profile. 
 
-    ![](assets/sms_send_3.png)
+    ![](assets/sms_send_3.png){zoomable="yes"}
 
 You can now review and send your SMS message to your audience.
 
@@ -43,13 +42,13 @@ Sending test SMS is an important step in ensuring the quality and effectiveness 
 
 ![](../assets/do-not-localize/book.png) Learn how to send test SMS in [this section](../preview-test/test-deliveries.md).
 
-![](assets/sms_send_6.png)
+![](assets/sms_send_6.png){zoomable="yes"}
 
 ## Send your SMS delivery {#send-sms}
 
 1. After personalizing your SMS content, click **[!UICONTROL Review & send]** from your **[!UICONTROL Delivery]** page.
 
-    ![](assets/sms_send_4.png)
+    ![](assets/sms_send_4.png){zoomable="yes"}
 
 1. Click **[!UICONTROL Prepare]** and monitor the progress and statistics provided. 
 
@@ -57,7 +56,7 @@ Sending test SMS is an important step in ensuring the quality and effectiveness 
 
 1. Send the messages by clicking on **[!UICONTROL Send]** to proceed with the final sending process.
 
-    ![](assets/sms_send_5.png)
+    ![](assets/sms_send_5.png){zoomable="yes"}
 
     If the SMS delivery has been scheduled, click the **[!UICONTROL Send as scheduled]** button. Learn more about delivery scheduling in [this section](../msg/gs-messages.md#schedule-the-delivery-sending).
 

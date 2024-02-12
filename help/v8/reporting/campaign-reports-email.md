@@ -2,7 +2,6 @@
 audience: end-user
 title: Campaign reports for the email channel
 description: Learn more about campaign reports for the email channel
-badge: label="Limited Availability"
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
 ---
 # Campaign reports for the email channel {#campaign-reports-email-channel}
@@ -20,7 +19,7 @@ Each campaign report is divided into different widgets detailing your campaign's
 
 The **[!UICONTROL Delivery Overview]** report provides key performance indicators (KPIs) that give detailed information about how your visitors engage with your email delivery. Metrics are detailed below.
 
-![](assets/campaign_report_email_1.png) 
+![](assets/campaign_report_email_1.png){zoomable="yes"} 
 
 +++Learn more on Email campaign report metrics.
 
@@ -45,7 +44,7 @@ The **[!UICONTROL Delivery Overview]** report provides key performance indicator
 
 The **[!UICONTROL Initial target audience statistics]** table displays data relative to your recipients. Metrics are detailed below.
 
-![](assets/campaign_report_email_2.png)
+![](assets/campaign_report_email_2.png){zoomable="yes"}
 
 +++Learn more on Email campaign report metrics.
 
@@ -66,7 +65,7 @@ The **[!UICONTROL Initial target audience statistics]** table displays data rela
 
 The **[!UICONTROL Execution statistics]** table details the success of your delivery. Metrics are detailed below.
 
-![](assets/campaign_report_email_3.png)
+![](assets/campaign_report_email_3.png){zoomable="yes"}
 
 +++Learn more on Email campaign report metrics.
 
@@ -91,7 +90,7 @@ The **[!UICONTROL Execution statistics]** table details the success of your deli
 
 The **[!UICONTROL Reaction statistics]** table contains the available data for recipient activity for your delivery. Metrics are detailed below.
 
-![](assets/campaign_report_email_4.png)
+![](assets/campaign_report_email_4.png){zoomable="yes"}
 
 +++Learn more on Email campaign report metrics.
 
@@ -115,7 +114,7 @@ The **[!UICONTROL Reaction statistics]** table contains the available data for r
 
 The **[!UICONTROL Generated click streams]** table displays data relative to how your recipients interacted with your delivery. Metrics are detailed below.
 
-![](assets/campaign_report_email_5.png) 
+![](assets/campaign_report_email_5.png){zoomable="yes"} 
 
 +++Learn more on Email campaign report metrics.
 
@@ -140,7 +139,7 @@ The **[!UICONTROL Breakdown of errors per type]** table and graph contain the av
     
 The errors shown in this report trigger the quarantine process. For more on quarantine management, refer to [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
 
-![](assets/campaign_report_email_6.png)
+![](assets/campaign_report_email_6.png){zoomable="yes"}
 
 +++Learn more on Email campaign report metrics.
 
@@ -180,7 +179,7 @@ The **[!UICONTROL Breakdown of errors per domain]** table and graph contain the 
 
 The **[!UICONTROL Delivery statistics]** metrics provides key performance indicators (KPIs) that give detailed information about data available for sent emails. Metrics are detailed below.
  
-![](assets/campaign_report_email_7.png)
+![](assets/campaign_report_email_7.png){zoomable="yes"}
 
 +++Learn more on Email campaign report metrics.
 
@@ -206,7 +205,7 @@ The **[!UICONTROL Delivery statistics]** metrics provides key performance indica
 
 The **[!UICONTROL Open and click-trough rate]** table displays data relative to your recipients. Metrics are detailed below.
 
-![](assets/campaign_report_email_8.png) 
+![](assets/campaign_report_email_8.png){zoomable="yes"} 
 
 +++ Learn more on Email campaign report metrics.
 
@@ -231,7 +230,7 @@ The **[!UICONTROL Open and click-trough rate]** table displays data relative to 
 
 The **[!UICONTROL URLs and click streams]** report provides key performance indicators (KPIs) that give detailed information about the URLs that were clicked the most during a delivery. Metrics are detailed below.
 
-![](assets/campaign_report_email_9.png)
+![](assets/campaign_report_email_9.png){zoomable="yes"}
 
 +++ Learn more on Email campaign report metrics.
 
@@ -254,7 +253,7 @@ The **[!UICONTROL URLs and click streams]** report provides key performance indi
 
 The **[!UICONTROL Top 10 most visited links]** graph and table contain the available data for recipient behavior per link. Metrics are detailed below.
 
-![](assets/campaign_report_email_10.png)
+![](assets/campaign_report_email_10.png){zoomable="yes"}
 
 +++Learn more on Email campaign report metrics.
 
@@ -273,7 +272,7 @@ The **[!UICONTROL Top 10 most visited links]** graph and table contain the avail
 
 The **[!UICONTROL Breakdown of clicks over time]** graph contains the available data for recipient behavior per link. 
 
-![](assets/campaign_report_email_11.png)
+![](assets/campaign_report_email_11.png){zoomable="yes"}
 
 ## User Activities {#user-activities-email}
 
@@ -284,7 +283,7 @@ The **[!UICONTROL Breakdown of clicks over time]** graph contains the available 
 
 The **[!UICONTROL User activities]** report shows the breakdown of opens and clicks in the form of a chart. Metrics for this report are detailed below.
 
-![](assets/campaign_report_email_user_activities.png){align="center"}
+![](assets/campaign_report_email_user_activities.png){zoomable="yes"}{align="center"}
 
 +++Learn more on Email delivery report metrics.
 

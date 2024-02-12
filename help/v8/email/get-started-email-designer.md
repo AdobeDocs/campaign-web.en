@@ -2,7 +2,6 @@
 audience: end-user
 title: Edit the email content
 description: Learn how to start building your content using the Email Designer in Campaign Web user interface
-badge: label="Limited Availability"
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
 ---
 # Get started with the Email Designer {#get-started-email-designer}
@@ -54,4 +53,4 @@ From the email delivery dashboard, go through the [Edit content](edit-content.md
 
 * **Select an existing content** from a list of built-in or custom templates. Learn how to work with email templates [this section](create-email-templates.md).
 
-    ![](assets/email_designer_create_options.png)
+    ![](assets/email_designer_create_options.png){zoomable="yes"}

@@ -2,7 +2,6 @@
 audience: end-user
 title: Use the Load file workflow activity
 description: Learn how to use the Load file workflow activity
-badge: label="Limited Availability"
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
 ---
 # Load file {#load-file}

@@ -3,7 +3,7 @@ audience: end-user
 title: Delivery reports
 description: Learn how to access and use delivery reports
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-badge: label="Limited Availability"
+
 ---
 # Get started with delivery reports {#reports}
 
@@ -30,24 +30,24 @@ To display and manage reports, follow these steps:
 
 1. From your **[!UICONTROL Delivery]** dashboard, click **[!UICONTROL Reports]**.
 
-    ![](assets/manage_delivery_report_1.png)
+    ![](assets/manage_delivery_report_1.png){zoomable="yes"}
 
     Alternatively, you can use the three dots **More actions** button next to the delivery name in the deliveries list and select **[!UICONTROL View report]**.
 
-    ![](assets/manage_delivery_report_2.png)
+    ![](assets/manage_delivery_report_2.png){zoomable="yes"}
 
 1. From the left menu, select a report from the list.
 
-    ![](assets/manage_delivery_report_3.png)
+    ![](assets/manage_delivery_report_3.png){zoomable="yes"}
 
 1. If your delivery is recurring, select a specific delivery to report on by clicking **[!UICONTROL Select deliveries]**. 
 
     You can also apply a time period to your report by selecting the **[!UICONTROL Contact date]**.
 
-    ![](assets/delivery-recurring.png)
+    ![](assets/delivery-recurring.png){zoomable="yes"}
 
 1. From the **[!UICONTROL URLs and click streams]**, you can also choose the **[!UICONTROL Top visited Links]** or the **[!UICONTROL Time period]**.
 
     The **[!UICONTROL View by]** options allow you to filter on URLs, Labels or Categories.
 
-    ![](assets/manage_delivery_report_5.png)
+    ![](assets/manage_delivery_report_5.png){zoomable="yes"}

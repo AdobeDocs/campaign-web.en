@@ -1,7 +1,6 @@
 ---
 title: Guardrails and limitations in Campaign Web user interface
 description: Guardrails and limitations in Campaign Web user interface
-badge: label="Limited Availability"
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
 ---
 # Guardrails and limitations {#guardrails-limitations}
@@ -18,19 +17,19 @@ Workflow activities that are not supported yet in Campaign Web user interface ar
 
 | Console | Web |
 | --- | --- |
-| ![](assets/limitations-activities-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-activities-web.png){width="800px" align="left" zoomable="yes"} |
+| ![](assets/limitations-activities-console.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![](assets/limitations-activities-web.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
 
 When a **Query** or an **Enrichment** activity is configured with additional data in the console, the enrichment data is taken into account in Campaign Web and passed into the outbound transition, but it cannot be edited.
 
 | Console | Web |
 | --- | --- |
-| ![](assets/limitations-options-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){width="800px" align="left" zoomable="yes"} |
+| ![](assets/limitations-options-console.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
 
 In the console, the **Enrichment** activity can perform both reconciliation and enrichment. If you have defined, in the client console, reconciliation settings in the **Enrichment** activity, it will be displayed as a **Reconciliation** activity in Campaign Web user interface.
 
 | Console | Web |
 | --- | --- |
-| ![](assets/limitations-enrichment-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-enrichment-web.png){width="800px" align="left" zoomable="yes"} |
+| ![](assets/limitations-enrichment-console.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![](assets/limitations-enrichment-web.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
 
 ## Workflow canvas {#wkf-canvas}
 
@@ -38,10 +37,10 @@ When creating a new workflow in Campaign Web user interface, the canvas only sup
 
 | Console | Web |
 | --- | --- |
-| ![](assets/limitations-multiple-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-multiple-web.png){width="800px" align="left" zoomable="yes"} |
+| ![](assets/limitations-multiple-console.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![](assets/limitations-multiple-web.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
 
 The positioning of the nodes is refreshed everytime an activity is added or removed. If you create a workflow in the console, modify it using Campaign Web user interface and re-open it in the console, you may notice some minor positioning imperfections. This has no impact on the workflow's processes and tasks.
 
 | Initial workflow | Positionning change |
 | --- | --- |
-| ![](assets/limitations-positioning1.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-positioning2.png){width="800px" align="left" zoomable="yes"} |
+| ![](assets/limitations-positioning1.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![](assets/limitations-positioning2.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |

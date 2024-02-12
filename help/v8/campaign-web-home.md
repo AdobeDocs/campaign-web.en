@@ -3,7 +3,7 @@ keywords: Campaign Web;home;popular topics
 description: Campaign Web help center
 title: Adobe Campaign Web product documentation
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-badge: label="Limited Availability"
+
 ---
 # Adobe Campaign Web Documentation {#campaign-documentation}
 

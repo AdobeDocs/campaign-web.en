@@ -5,7 +5,7 @@ description: Learn how to create your first delivery in Campaign Web
 feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
-badge: label="Limited Availability" 
+ 
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
 ---
 # Work with deliveries {#work-with-deliveries}
@@ -29,12 +29,12 @@ To create a standalone delivery, follow these steps:
 
 1. Browse to the **[!UICONTROL Deliveries]** menu on the left navigation, and click the **[!UICONTROL Create delivery]** button.
 
-    ![](assets/create-a-delivery.png)
+    ![](assets/create-a-delivery.png){zoomable="yes"}
     
 1. Choose a channel for the delivery.
 1. Define the delivery audience, for the main target and the control group. Learn more about audiences in [this section](../audience/about-recipients.md).
 
-    ![](assets/select-audience.png){width="70%" align="left"}
+    ![](assets/select-audience.png){zoomable="yes"}{width="70%" align="left"}
 
 1. Define the message content. Learn more about delivery channels and how to define a delivery content in these sections: 
 
@@ -57,13 +57,13 @@ To create a delivery in a workflow, follow these steps:
 1. Add and configure a **[!UICONTROL Build audience]** activity. Learn more about the **[!UICONTROL Build audience]** activity in [this section](../workflows/activities/build-audience.md).
 1. Click the `+` icon and select a delivery activity: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification (Android)]** or **[!UICONTROL Push notification (iOS)]**. Learn more about delivery channel activities in a workflow, and how to define a delivery content in this [section](../workflows/activities/channels.md).
 
-    ![](assets/add-delivery-in-wf.png)
+    ![](assets/add-delivery-in-wf.png){zoomable="yes"}
     
 1. Start the workflow, and check logs.
 
 You can also add deliveries in a campaign without creating a workflow. To achieve this, browse to the **[!UICONTROL Deliveries]** tab of your campaign and click the **[!UICONTROL Create delivery]** button.
 
-![](assets/new-campaign-delivery.png)
+![](assets/new-campaign-delivery.png){zoomable="yes"}
 
 Configuration steps are similar as for standalone deliveries.
 
@@ -111,7 +111,7 @@ You can set the date and the exact time for sending your messages. By choosing t
 
 To schedule the sending of the a delivery, open your delivery and browse to the **[!UICONTROL Schedule]** section. Use the **[!UICONTROL Enable scheduling]** toggle to activate it, and set the desired date and time for sending. Once you send the delivery, the actual sending will start on the contact date you have defined.
 
-![](assets/schedule.png)
+![](assets/schedule.png){zoomable="yes"}
 
 By default, the **[!UICONTROL Enable confirmation before sending]** option is enabled. This option requires you to confirm the sending before the delivery is sent at the scheduled date and time. If you need to send the delivery automatically on the scheduled date and time, you can disable this option.
 

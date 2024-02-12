@@ -2,7 +2,6 @@
 audience: end-user
 title: Create workflows with Adobe Campaign Web
 description: Learn how to build workflows with Adobe Campaign Web
-badge: label="Limited Availability"
 exl-id: c9c41189-0150-49a4-bdb3-317fe543eb2c
 ---
 # Start and monitor your workflows {#start-monitor}
@@ -17,7 +16,7 @@ Once the workflow is running, each activity in the canvas is executed in a seque
 
 You can track the progress of targeted profiles in real-time using a visual flow. This allows you to quickly identify the status of each activity and the number of profiles transitioning between them.
 
-![](assets/workflow-execution.png)
+![](assets/workflow-execution.png){zoomable="yes"}
 
 ## Workflow transitions {#transitions}
 
@@ -26,7 +25,7 @@ In workflows, data transported from one activity to another through transitions 
 * Click **[!UICONTROL Preview schema]** to display the schema of the work table.
 * Click **[!UICONTROL Preview results]** to visualize the data transported in the selected transition.
 
-![](assets/transition.png)
+![](assets/transition.png){zoomable="yes"}
 
 ## Monitor activity execution {#activities}
 
@@ -34,10 +33,10 @@ Visual indicators in the upper-right corner of each activity box allows you to c
 
 |Visual indicator | Description | 
 |-----|------------|
-|![](assets/activity-status-pending.png){width="70%"}| The activity is currently being executed. |
-|![](assets/activity-status-orange.png){width="70%"}| The activity requires your attention. This may involve confirming the sending of a delivery or taking a necessary action. |
-|![](assets/activity-status-red.png){width="70%"}|The activity has encountered an error. To resolve the issue, open the workflow logs for more information.|
-|![](assets/activity-status-green.png){width="70%"}|The activity has been succesfully executed. | 
+|![](assets/activity-status-pending.png){zoomable="yes"}{width="70%"}| The activity is currently being executed. |
+|![](assets/activity-status-orange.png){zoomable="yes"}{width="70%"}| The activity requires your attention. This may involve confirming the sending of a delivery or taking a necessary action. |
+|![](assets/activity-status-red.png){zoomable="yes"}{width="70%"}|The activity has encountered an error. To resolve the issue, open the workflow logs for more information.|
+|![](assets/activity-status-green.png){zoomable="yes"}{width="70%"}|The activity has been succesfully executed. | 
 
 ## Monitor logs and tasks {#logs-tasks}
 
@@ -45,7 +44,7 @@ Monitoring workflows logs and tasks is a key step to analyze your workflows and 
 
 The **[!UICONTROL Logs and tasks]** menu provides an history of the workflow execution, recording all user actions and encountered errors. This history is saved for the duration specified in the workflow [execution options](workflow-settings.md). During this duration, all the messages are saved, even after a restart of the workflow. If you do not want to save the messages from a previous execution, click the **[!UICONTROL Purge history]** button.
 
-![](assets/workflow-logs.png)
+![](assets/workflow-logs.png){zoomable="yes"}
 
 Two types of information are available:
 

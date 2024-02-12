@@ -3,7 +3,7 @@ audience: end-user
 title: Add offers in your messages
 description: Learn how to add and send offers
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-badge: label="Limited Availability"
+
 ---
 
 # Add offers to your messages {#offers-content}
@@ -34,13 +34,13 @@ To select the offers to add to your delivery, follow the steps below.
 
 1. Click the **[!UICONTROL Set up offers]** button from the delivery content edition screen.
 
-    ![](assets/offer-setup.png)
+    ![](assets/offer-setup.png){zoomable="yes"}
 
 1. Configure which offers should be proposed to the recipients.
 
     First select the **[!UICONTROL Offer space]** that matches your offer environment. Learn how to create an offer space in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html){target="_blank"}.
 
-    ![](assets/offer-create-content.png)
+    ![](assets/offer-create-content.png){zoomable="yes"}
 
 1. To refine the engine's choice of offers, select a specific **[!UICONTROL Offer category]** in which offers are sorted.
 
@@ -84,7 +84,7 @@ To insert an offer using the expression editor, follow the steps below.
 
 1. Place the cursor of your mouse where you want to insert the offer and open the expression editor using the personalization icon.
 
-    ![](assets/offer-insert-perso-icon.png)
+    ![](assets/offer-insert-perso-icon.png){zoomable="yes"}
 
 1. Select the **[!UICONTROL Propositions]** menu. Available propositions display in the list.
 
@@ -94,7 +94,7 @@ To insert an offer using the expression editor, follow the steps below.
 
 1. Define each proposition using the personalization fields, rendering functions or offer attributes available.
 
-    ![](assets/offer-inserted.png)
+    ![](assets/offer-inserted.png){zoomable="yes"}
 
     >[!NOTE]
     >

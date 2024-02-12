@@ -4,7 +4,7 @@ title: Delivery Settings
 description: Learn more about delivery settings in Campaign Web 
 feature: Email
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-badge: label="Limited Availability"
+
 ---
 
 # Email delivery settings {#email-del-settings}
@@ -38,7 +38,7 @@ When associating a typology with a message or message template, the typology rul
 
 Typologies allow you to make sure your emails always contain certain elements (such as an unsubscription link or a subject line) or filtering rules to exclude groups from your intended target (like unsubscribers, competitors, or non-loyalty customers).
 
-![](assets/delivery-settings-typology.png)
+![](assets/delivery-settings-typology.png){zoomable="yes"}
 
 >[!NOTE]
 >
@@ -124,7 +124,7 @@ In the **[!UICONTROL Exclusion]** field, you can select to exclude recipients wh
 
 **[!UICONTROL Delivery]** parameters are technical settings which apply to your delivery.
 
-![](assets/delivery-settings-delivery.png)
+![](assets/delivery-settings-delivery.png){zoomable="yes"}
 
 The integrated email **[!UICONTROL Routing]** external account is provided by default. It contains the technical parameters that allow the application to send emails.
 
@@ -244,7 +244,7 @@ You can also choose to specify dates. To do this, select **[!UICONTROL Explicitl
 
 **[!UICONTROL Resources validity limit]** is used for uploaded resources, mainly for the mirror page and images. The resources on this page are valid for a limited time (to save disk space). After this limit, these resources are no longer available.
 
-![](assets/delivery-settings-validity.png)
+![](assets/delivery-settings-validity.png){zoomable="yes"}
 
 <!--Change screenshot to be consistent with prod > not sure which version is correct-->
 

@@ -3,7 +3,7 @@ audience: end-user
 title: Adjust vertical alignment and padding in Email Designer
 description: Learn how to adjust vertical alignment and padding
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
-badge: label="Limited Availability" 
+ 
 ---
 
 # Adjust vertical alignment and padding {#alignment-and-padding}
@@ -12,15 +12,15 @@ In this example, we adjust padding and vertical alignment inside a structure com
 
 1. Select the structure component directly in the email or using the **[!UICONTROL Navigation tree]** available in the left pane.
 
-   ![](assets/alignment_1.png)
+   ![](assets/alignment_1.png){zoomable="yes"}
 
 1. From the contextual toolbar, click **[!UICONTROL Select a column]** and choose the one that you want to edit. You can also select it from the structure tree on the left.
 
-   ![](assets/alignment_2.png)
+   ![](assets/alignment_2.png){zoomable="yes"}
 
 1. The editable parameters for that column are displayed in the **[!UICONTROL Styles]** tab. Adjust the **[!UICONTROL Alignment]** using the dedicated section.
 
-   ![](assets/alignment_3.png)
+   ![](assets/alignment_3.png){zoomable="yes"}
 
    For example, select **[!UICONTROL Bottom]**. The content component moves to the bottom of the column.
 
@@ -30,7 +30,7 @@ In this example, we adjust padding and vertical alignment inside a structure com
    >
    >Click the lock icon to break synchronization between the top/bottom or left/right padding.
 
-   ![](assets/alignment_4.png)
+   ![](assets/alignment_4.png){zoomable="yes"}
 
 1. Proceed similarly to adjust the other columns' alignment and padding.
 

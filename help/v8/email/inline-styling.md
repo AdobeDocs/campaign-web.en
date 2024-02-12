@@ -3,7 +3,7 @@ audience: end-user
 title: Add inline styling attributes
 description: Learn how to add inline styling attributes
 exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
-badge: label="Limited Availability" 
+ 
 ---
 
 # Add inline styling attributes {#adding-inline-styling-attributes}
@@ -14,13 +14,13 @@ In the Email Designer interface, when you select an element and display its sett
 
 1. From the **[!UICONTROL Styles]** tab, click the **[!UICONTROL Advanced]** drop-down.
 
-   ![](assets/styles_1.png)
+   ![](assets/styles_1.png){zoomable="yes"}
 
 1. Modify the values of the existing attributes.
 
 1. You can add new properties using the **+** button. You can add any attribute and value that is CSS-compliant.
 
-   ![](assets/styles_2.png)
+   ![](assets/styles_2.png){zoomable="yes"}
 
 The styling is applied to the selected element.
 

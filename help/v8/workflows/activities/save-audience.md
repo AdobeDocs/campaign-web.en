@@ -2,7 +2,6 @@
 audience: end-user
 title: Use the Save audience workflow activity
 description: Learn how to use the Fork workflow activity
-badge: label="Limited Availability"
 exl-id: 0f7cbc34-0536-493e-bb3b-0b1ac93d1232
 ---
 # Save audience {#save-audience}

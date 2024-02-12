@@ -2,7 +2,7 @@
 title: Create a landing page
 description: Learn how to configure and publish a landing page in Campaign Web
 feature: Landing Pages
-badge: label="Limited Availability" 
+ 
 
 ---
 # Create and publish landing pages {#create-lp}
@@ -20,11 +20,11 @@ The Campaign Web user interface allows you to create, design, and publish landin
 
 To access the landing page list, select **[!UICONTROL Campaign management]** > **[!UICONTROL Landing pages]** from the left menu.
 
-![](assets/lp-inventory.png)
+![](assets/lp-inventory.png){zoomable="yes"}
 
 The **[!UICONTROL Landing pages]** inventory displays all the created items. You can filter them using the **Show filters** button. You can restrict the results to a specific [folder](../get-started/permissions.md#folders) using the drop-down list, or add rules using the [query modeler](../query/query-modeler-overview.md).
 
-![](assets/lp-inventory-filter.png)
+![](assets/lp-inventory-filter.png){zoomable="yes"}
 
 <!--From this list, you can access the [landing page Live report](../reports/lp-report-live.md) or [landing page Global report](../reports/lp-report-global.md) for published items.-->
 
@@ -65,11 +65,11 @@ You can duplicate or delete a landing page. Click the ellipsis next to a landing
 
 <!--The main steps to create landing pages are as follows:
 
-![](assets/lp-creation-process.png)-->
+![](assets/lp-creation-process.png){zoomable="yes"}-->
 
 1. From the **[!UICONTROL Landing pages]** inventory, click **[!UICONTROL Create landing page]**.
 
-    ![](assets/lp-create-button.png)
+    ![](assets/lp-create-button.png){zoomable="yes"}
 
 1. Select a template:
     * **[!UICONTROL Acquisition]**: This is the default template for landing pages, which allows you to capture and update profile data.
@@ -77,7 +77,7 @@ You can duplicate or delete a landing page. Click the ellipsis next to a landing
     * **[!UICONTROL Unsubscription]**: This template can be used in a delivery sent to the subscribers of a service, to allow them to unsubscribe from this [service](../audience/manage-services.md).
     * **[!UICONTROL Denylist]**: This template should be used when a profile no longer wants to be contacted by Campaign.
 
-    ![](assets/lp-templates.png)
+    ![](assets/lp-templates.png){zoomable="yes"}
 
     >[!NOTE]
     >
@@ -89,7 +89,7 @@ You can duplicate or delete a landing page. Click the ellipsis next to a landing
 
     By default, landing pages are stored in the **[!UICONTROL Web applications]** folder. You can change it by browsing to the desired location in the **[!UICONTROL Additional options]**. [Learn how to work with folders](../get-started/permissions.md#folders)
 
-    ![](assets/lp-properties.png)
+    ![](assets/lp-properties.png){zoomable="yes"}
 
 1. In the **[!UICONTROL Data preload]** section, the two options below are selected by default:
 
@@ -99,17 +99,17 @@ You can duplicate or delete a landing page. Click the ellipsis next to a landing
 
 1. In the **[!UICONTROL Pages]** section, click the **[!UICONTROL Edit content]** button for each page that you want to design for this landing page. The content of each page is already pre-filled. Edit them as needed. [Learn more](lp-content.md)
 
-    ![](assets/lp-pages.png)
+    ![](assets/lp-pages.png){zoomable="yes"}
 
 1. The **[!UICONTROL Update the preloaded record]** option is selected by default. It enables to update the profiles stored in the database via the landing page. The preloading box lets you indicate how to find the record to be updated in the database. 
     
     You can also choose from the fields in the current context of the landing page, those that will be used to find the corresponding profile in the database. To do so, unselect the **[!UICONTROL Update the preloaded record]** option and check the desired fields under **[!UICONTROL Reconciliation options]**.
 
-    ![](assets/lp-storage.png)
+    ![](assets/lp-storage.png){zoomable="yes"}
 
 1. You can define a start date and an end date for your landing page. Select **[!UICONTROL Enable scheduling]** and set the dates.
 
-    ![](assets/lp-schedule.png)
+    ![](assets/lp-schedule.png){zoomable="yes"}
 
     * The landing page is automatically published on the specified start date/time.
     
@@ -147,7 +147,7 @@ Once your landing page settings and content have been defined, you can use test 
 
 1. After you click **[!UICONTROL Review and publish]**, select the **[!UICONTROL Simulate content]** button from the landing page dashboard to access the test profile selection.
 
-    ![](assets/lp-simulate-content.png)
+    ![](assets/lp-simulate-content.png){zoomable="yes"}
 
 1. From the **[!UICONTROL Simulate]** screen, select one or more test profiles.
 
@@ -155,13 +155,13 @@ Once your landing page settings and content have been defined, you can use test 
 
 1. Select **[!UICONTROL Open preview]** to test your landing page.
 
-    ![](assets/lp-open-preview.png)
+    ![](assets/lp-open-preview.png){zoomable="yes"}
 
 1. The preview of your landing page opens in a new tab. Personalized elements are replaced by the selected test profile data.
 
     If you selected the **[!UICONTROL Pre-fill with the data referenced in the form]** option in the landing page settings, the form fields are automatically pre-filled with the corresponding test profile data.<!--TBC-->
 
-    ![](assets/lp-preview.png)
+    ![](assets/lp-preview.png){zoomable="yes"}
 
 1. Select other test profiles to preview the rendering for each variant of your landing page.
 
@@ -181,6 +181,6 @@ Once published:
 >
 >To fully test or leverage your landing page, you cannot copy-paste this link directly into a web browser or into your deliveries. Instead, use the [Simulate content](#test-landing-page) function to test it, and follow the steps described in [this section](lp-use-cases.md) to make proper use of your landing page.
 
-![](assets/lp-published.png)
+![](assets/lp-published.png){zoomable="yes"}
 
 You can monitor your landing page impacts through logs<!--and specific reports-->. Click the **[!UICONTROL Logs]** button.

@@ -2,7 +2,6 @@
 audience: end-user
 title: Monitor and manage audiences
 description: Learn how to monitor and manage audiences in Adobe Campaign Web
-badge: label="Limited Availability"
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 ---
 # Monitor and manage audiences {#monitor}
@@ -39,7 +38,7 @@ When targeting an audience, you can also define **control groups** to avoid send
 
 The list of audiences available for use in Campaign Web is accessible from the **[!UICONTROL Audiences]** menu.
 
-![](assets/audiences-list.png)
+![](assets/audiences-list.png){zoomable="yes"}
 
 Audiences can originate from multiple sources. The **[!UICONTROL Origin]** columns indicates where a given audience has been created:
 
@@ -57,6 +56,6 @@ To get more information on an audience, open it from the list. The audience prop
 
 The **[!UICONTROL Data]** tab allows you to vizualise the profiles that are part of the audience. You can customize this view by adding more columns or leverage advanced filters to refine the displayed data.
 
-![](assets/audiences-details.png)
+![](assets/audiences-details.png){zoomable="yes"}
 
 To duplicate or delete an audience, click the **[!UICONTROL More action]** button available in the audiences list next to the audience name or inside an audience details screen.

@@ -2,7 +2,6 @@
 audience: end-user
 title: Global reports for the SMS channel
 description: Understand global reports for the SMS channel
-badge: label="Limited Availability"
 exl-id: 346cf2ff-b6e4-4d8f-ba26-197eadeaf5e6
 ---
 # Global reports for the SMS channel {#campaign-reports-sms}
@@ -22,7 +21,7 @@ Navigate to the **[!UICONTROL Reports]** menu within the **[!UICONTROL Reporting
 
 The **[!UICONTROL Delivery Overview]** report offers comprehensive key performance indicators (KPIs) providing in-depth insights into the interaction patterns of your visitors with each SMS delivery. The following metrics are outlined below.
     
-![](assets/global_report_sms_delivery_overview.png)
+![](assets/global_report_sms_delivery_overview.png){zoomable="yes"}
 
 +++Learn more on Delivery overview metrics.
 
@@ -45,7 +44,7 @@ The **[!UICONTROL Delivery Overview]** report offers comprehensive key performan
 
 The **[!UICONTROL Targeted audience]** table and graph present data related to your recipients for each sent SMS delivery. Metrics are detailed below.
 
-![](assets/global_report_sms_targeted_audience.png)
+![](assets/global_report_sms_targeted_audience.png){zoomable="yes"}
 
 +++Learn more on Targeted audience metrics.
 
@@ -66,7 +65,7 @@ The **[!UICONTROL Targeted audience]** table and graph present data related to y
 
 The **[!UICONTROL Delivery statistics]** table details the success of your every SMS delivery. Metrics are detailed below.
 
-![](assets/global_report_sms_delivery_statistics.png)
+![](assets/global_report_sms_delivery_statistics.png){zoomable="yes"}
 
 +++Learn more on Delivery statistics metrics.
 
@@ -93,7 +92,7 @@ The **[!UICONTROL Causes of exclusion]** graph and table display the reasons tha
 
 Error types are listed in the [Adobe Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}.
 
-![](assets/global_report_sms_causes_exclusion.png)
+![](assets/global_report_sms_causes_exclusion.png){zoomable="yes"}
 
 ## Delivery throughput {#delivery-throughput-sms}
 
@@ -102,6 +101,6 @@ Error types are listed in the [Adobe Campaign v8 (client console) documentation]
 >title="SMS delivery throughput"
 >abstract="The **Delivery throughput** report provides extensive insights into the efficiency of the SMS message delivery system, presenting a detailed overview of success and error rates within a specified timeframe."
 
-![](assets/global_report_sms_delivery_throughput.png)
+![](assets/global_report_sms_delivery_throughput.png){zoomable="yes"}
 
 The **[!UICONTROL Delivery Throughput]** report offers comprehensive insights into the effectiveness of the SMS messages delivery system, offering a detailed summary of success and error rates over a specified period.

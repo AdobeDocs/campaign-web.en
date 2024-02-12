@@ -3,7 +3,7 @@ audience: end-user
 title: Get started with Adobe Campaign Web
 description: Get started with Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-badge: label="Limited Availability" 
+ 
 ---
 # Get started with Adobe Campaign Web {#get-started}
 
@@ -35,7 +35,7 @@ Use Campaign to:
 
 Initially only available through a rich [client console](#ac-client), Campaign now provides a new web user interface (UI) with enhanced usability, accessibility, and a new design to significantly improve your user experience. This new modern UI simplifies marketing campaign design and delivery, and brings consistency, along with other Adobe solutions, including Adobe Experience Platform.
 
-![](assets/home.png)
+![](assets/home.png){zoomable="yes"}
 
 This new Web user interface first serves the needs of the **business practitioner** – all typical administration tasks are not available in this first version, but will be addressed in subsequent versions. Note that not every single functionality or option available in the client console is available for now in the new UI. New use-cases, options and features will be available in future releases.
 

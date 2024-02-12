@@ -3,7 +3,7 @@ audience: end-user
 title: Get started with landing pages
 description: Learn about landing pages in Campaign Web
 feature: Landing Pages
-badge: label="Limited Availability"
+
 
 ---
 # Get started with landing pages {#get-sarted-lp}

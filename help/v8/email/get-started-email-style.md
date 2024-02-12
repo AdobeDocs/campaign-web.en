@@ -3,7 +3,7 @@ audience: end-user
 title: Get started with email style
 description: Discover the different ways you can adjust your email content style
 exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
-badge: label="Limited Availability" 
+ 
 ---
 # Get started with email style {#get-started-email-style}
 
@@ -11,7 +11,7 @@ Once you started creating your email content in [!DNL Adobe Campaign], you can a
 
 You can either apply your changes to the email body, to a structure component or to a content component.
 
-![](assets/email_designer_content_components_settings.png)
+![](assets/email_designer_content_components_settings.png){zoomable="yes"}
 
 Follow the links below to discover how to adjust some of the style settings in your email.
 

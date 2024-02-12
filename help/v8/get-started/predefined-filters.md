@@ -1,7 +1,6 @@
 ---
 title: Work with predefined filters
 description: Learn how to create and manage predefined filters in Adobe Campaign Web
-badge: label="Limited Availability"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 ---
 # Work with predefined filters {#predefined-filters}
@@ -29,7 +28,7 @@ Predefined filters are custom filters which are created and saved to be availabl
 
 You can use existing built-in filters to access a specific sub-set of your data, or create your own predefined filters and save them.
 
-![](assets/predefined-filters-menu.png){zoomable="yes"}
+![](assets/predefined-filters-menu.png){zoomable="yes"}{zoomable="yes"}
 
 >[!IMPORTANT]
 >
@@ -55,11 +54,11 @@ You can save a custom filter from the [query modeler](../query/query-modeler-ove
 1. Open the query modeler and define your filtering conditions. In the example below, you filter recipients who live in Madrid and subscribed to a Newsletter.
 1. Click the **Select or save filter** button, and select **Save as a filter**.
 
-    ![](assets/predefined-filters-save.png)
+    ![](assets/predefined-filters-save.png){zoomable="yes"}
 
 1. Select **Create a new filter**, and enter a name and a description for that filter.
     
-    ![](assets/predefined-filters-save-filter.png)
+    ![](assets/predefined-filters-save-filter.png){zoomable="yes"}
 
     You can save the filter as a favorite if needed. Learn more in [this section](#fav-filter).
 
@@ -79,12 +78,12 @@ You can create a filter from the **Predefined filters** entry in the left menu. 
     
 1. Define the rule for the filter. For example, profiles older than 30.
 
-    ![](assets/filter-30+.png)
+    ![](assets/filter-30+.png){zoomable="yes"}
 
 
 1. Save your changes. 
 
-    ![](assets/new-filter.png)
+    ![](assets/new-filter.png){zoomable="yes"}
 
 
 The filter is added to the predefined filter list. You can save the filter as a favorite if needed. Learn more in [this section](#fav-filter).
@@ -97,7 +96,7 @@ When creating a predefined filter, you can enable the **Save as favorite** optio
 
 When a filter is saved as a favorite, it is available to all users in the **Favorite filters** section of the filter creation list, as shown below:
 
-![](assets/predefined-filters-favorite.png){width="30%" align="left"}
+![](assets/predefined-filters-favorite.png){zoomable="yes"}{width="30%" align="left"}
 
 ## Use a predefined filter {#use-predefined-filter}
 
@@ -114,21 +113,21 @@ For example, to build an audience from a predefined filter, follow these steps:
 1. Enter the audience name, and click the **Create Audience** button.
 1. Select the **Query** activity, and, from the right pane, click **Create audience** button.
 
-    ![](assets/build-audience-from-filter.png)
+    ![](assets/build-audience-from-filter.png){zoomable="yes"}
 
 1. From the **Select or save filter button**, choose the **Select custom filter** option. 
 
-    ![](assets/build-audience-select-custom-filter.png)
+    ![](assets/build-audience-select-custom-filter.png){zoomable="yes"}
 
 1. Browse to the predefined filter to use to create the audience, select it, and confirm.
 
-    ![](assets/build-audience-filter-list.png)
+    ![](assets/build-audience-filter-list.png){zoomable="yes"}
 
 1. Check the rule properties for this filter and confirm.
 
     The filter is now used as a query in the **Query** activity.
 
-    ![](assets/build-audience-confirm.png)
+    ![](assets/build-audience-confirm.png){zoomable="yes"}
 
 1. Save your changes and click the **Start** button to build the audience and make it available in the audience list.
 
@@ -136,7 +135,7 @@ For example, to build an audience from a predefined filter, follow these steps:
 
 Predefined filters are all grouped in the dedicated entry of the left navigation menu.
 
-![](assets/list-of-filters.png)
+![](assets/list-of-filters.png){zoomable="yes"}
 
 From this list, you can create a new filter as detailed above, and:
 

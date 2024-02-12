@@ -29,13 +29,13 @@ In the [!DNL Adobe Campaign Web] inferface, four out-of-the-box templates allow 
 
 1. Define the landing page properties and settings.
 
-    ![](assets/lp-uc-properties.png)
+    ![](assets/lp-uc-properties.png){zoomable="yes"}
 
 1. According to your case, select the **[!UICONTROL Acquisition]**, **[!UICONTROL Subscription]**, **[!UICONTROL Unsubscription]** or **[!UICONTROL Denylist]** page.
 
 1. The content of the page is displayed. Select the part corresponding to the landing page form.
 
-    ![](assets/lp-uc-form.png)
+    ![](assets/lp-uc-form.png){zoomable="yes"}
 
 1. Edit your content according to the selected template:
 
@@ -48,7 +48,7 @@ In the [!DNL Adobe Campaign Web] inferface, four out-of-the-box templates allow 
 
 1. Edit the **[!UICONTROL Confirmation]** page as needed, as well as the **[!UICONTROL Error]** and **[!UICONTROL Expiration]** pages. The **[!UICONTROL Confirmation]** page will be displayed to your recipients once they submit the form.
 
-    ![](assets/lp-uc-confirmation-page.png)
+    ![](assets/lp-uc-confirmation-page.png){zoomable="yes"}
 
 1. [Test](create-lp.md#test-landing-page) and [publish](create-lp.md#publish-landing-page) your landing page.
 
@@ -56,7 +56,7 @@ In the [!DNL Adobe Campaign Web] inferface, four out-of-the-box templates allow 
 
 1. [Insert a link](../email/message-tracking.md#insert-links) into your message content. Select **[!UICONTROL Landing page]** as the **[!UICONTROL Link type]** and choose the landing page that you created.
 
-    ![](assets/lp-uc-email-link.png)
+    ![](assets/lp-uc-email-link.png){zoomable="yes"}
 
     >[!NOTE]
     >
@@ -84,7 +84,7 @@ The first template enables you to add or update a profile to the Campaign databa
 
 1. Additionally, you can add a checkbox inviting your customers to subscribe to your newsletter service. [Learn how to create a service](../audience/manage-services.md)
 
-    ![](assets/lp-uc-acquisition-page.png)
+    ![](assets/lp-uc-acquisition-page.png){zoomable="yes"}
 
 1. Adjust your content as needed and save your changes.
 
@@ -94,11 +94,11 @@ The first template enables you to add or update a profile to the Campaign databa
 
 Once they receive the email, if your recipients click the link to the landing page and submit the form, their profile will be added to the Campaign database, or updated with the information they provided.
 
-![](assets/lp-uc-profile-updated.png)
+![](assets/lp-uc-profile-updated.png){zoomable="yes"}
 
 If they opted in to receive your newsletter, they will be subscribed to the corresponding service.
 
-![](assets/lp-uc-newsletter-subscriber.png)
+![](assets/lp-uc-newsletter-subscriber.png){zoomable="yes"}
 
 ## Subscription to a service {#lp-subscription}
 
@@ -108,13 +108,13 @@ One of the most common use cases consists in inviting your customers to [subscri
 
 1. Start by creating a confirmation template for users subscribing to your event, so that you can select it easily when creating the service. [Learn more](../audience/manage-services.md#create-confirmation-message)
 
-    ![](assets/lp-uc-confirmation-email.png)
+    ![](assets/lp-uc-confirmation-email.png){zoomable="yes"}
 
 1. Create a subscription service, which will store the registered users to your event. [Learn how to create a service](../audience/manage-services.md)
 
 1. Select the template that you created as the confirmation email the users will receive upon subscribing.
 
-    ![](assets/lp-uc-subscription-service.png)
+    ![](assets/lp-uc-subscription-service.png){zoomable="yes"}
 
 1. [Create a landing page](create-lp.md#create-landing-page) to enable your recipients to register for your event. Select the **[!UICONTROL Subscription]** template.
 
@@ -124,7 +124,7 @@ One of the most common use cases consists in inviting your customers to [subscri
 
 1. In the **[!UICONTROL Subscriptions & services]** field, select the service that you created for your event. Leave the **[!UICONTROL Subscribe in if checked]** option enabled.
 
-    ![](assets/lp-uc-subscription-checkbox-1.png)
+    ![](assets/lp-uc-subscription-checkbox-1.png){zoomable="yes"}
 <!--
 1. You can add an additional checkbox to offer subscription to your newsletter for example.-->
 
@@ -154,11 +154,11 @@ You can enable your customers to unsubscribe from a service using a landing page
 
 1. You can add a **[!UICONTROL Checkbox]** section, select the service and select the **[!UICONTROL Unsubscribe if checked]** option.
 
-    ![](assets/lp-uc-unsubscription-checkbox-1.png)
+    ![](assets/lp-uc-unsubscription-checkbox-1.png){zoomable="yes"}
 
 1. You can also expand the **[!UICONTROL Call to action]** section and select the **[!UICONTROL Additional updates]** option. Select the service and check the **[!UICONTROL Opt out]** option.
 
-    ![](assets/lp-uc-unsubscription-call-to-action.png)
+    ![](assets/lp-uc-unsubscription-call-to-action.png){zoomable="yes"}
 
 1. Adjust your content as needed and save your changes.
 
@@ -182,7 +182,7 @@ You can set up a **[!UICONTROL Denylist]** landing page that will enable users t
 
 1. From the corresponding drop-down list, select **[!UICONTROL Channel (email)]** to enable your recipients to opt out from email communications only. You can also select **[!UICONTROL By all channel]** for opting them all from all communications on all channels.
 
-    ![](assets/lp-uc-denylist.png)
+    ![](assets/lp-uc-denylist.png){zoomable="yes"}
 
 1. Adjust your content as needed and save your changes.
 
@@ -196,7 +196,7 @@ To check that the corresponding profile's choice has been updated, browse to the
 
 For example, if you chose to update the **[!UICONTROL Channel (email)]** option in your landing page, the **[!UICONTROL No longer contact by email]** option will be checked.
 
-![](assets/lp-uc-denylist-profile.png)
+![](assets/lp-uc-denylist-profile.png){zoomable="yes"}
 
 This profile will not receive email communications from your brand unless subscribed again.
 

@@ -5,7 +5,6 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Beginner
-badge: label="Limited Availability"
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
 ---
 # Build conditional content{#add-conditions}
@@ -35,7 +34,7 @@ To define conditional content for a delivery using the expression editor, follow
 
 1. Click the **[!UICONTROL Open personalization dialog]** icon next to the field to open the expression editor.
 
-    ![](assets/open-perso-editor-sms.png)
+    ![](assets/open-perso-editor-sms.png){zoomable="yes"}
 
 1. In the personalization editor, browse to the **[!UICONTROL Helper functions]** menu on the left.
 
@@ -45,7 +44,7 @@ To define conditional content for a delivery using the expression editor, follow
     * Replace `<VALUE>` with the value to satisfy. For example, `'French'`.
     * Replace `Ìnsert content here` with the content that you want to display to the profiles that meet the specified condition.
 
-        ![](assets/condition-sample1.png){width="800" align="center"}
+        ![](assets/condition-sample1.png){zoomable="yes"}{width="800" align="center"}
 
 1. Specify the content that should be displayed if the recipients do not meet the condition. To do this use an **else** helper function:
 
@@ -53,11 +52,11 @@ To define conditional content for a delivery using the expression editor, follow
 
     1. Replace `Ìnsert content here` with the content you want to display to the profiles that do not meet the if function's condition.
 
-    ![](assets/condition-sample2.png){width="800" align="center"}
+    ![](assets/condition-sample2.png){zoomable="yes"}{width="800" align="center"}
 
     You can also use the **else if** helper function to build conditions with multiple content variants. For example, the expression below displays three variants of a message depending on the recipients' language:
 
-    ![](assets/condition-sample3.png){width="800" align="center"}
+    ![](assets/condition-sample3.png){zoomable="yes"}{width="800" align="center"}
 
     >[!NOTE]
     >
@@ -87,29 +86,29 @@ In this example, we want to create an email message with multiple variants based
 
 1. Select a content component and click the **[!UICONTROL Enable conditional content]** icon.
 
-    ![](assets/condition-email-enable.png){width="800" align="center"}
+    ![](assets/condition-email-enable.png){zoomable="yes"}{width="800" align="center"}
 
 1. The **[!UICONTROL Conditional Content]** pane opens on the left-hand side of the screen. In this pane, you can create multiple variants of the selected content component using conditions.
 
 1. Configure your first variant. Hover over **[!UICONTROL Variant - 1]** in the **[!UICONTROL Conditional Content]** pane and click the **[!UICONTROL Add condition]** button.
 
-    ![](assets/condition-add-condition.png){width="800" align="center"}
+    ![](assets/condition-add-condition.png){zoomable="yes"}{width="800" align="center"}
 
 1. A rule builder appears. It provides **Profile**, **Message**, and **Delivery** attributes that you can leverage to create your condition.
 
     In addition, the **Conditions** menu provides pre-built conditions that you can add to the canvas to easily build your variant. To use them, click the **Add** button then replace the elements between `<` and `>`symbols by the desired elements. Make sure that the value you specify for the `<value>` object is in quotation marks.
 
-    ![](assets/condition-syntax.png){width="800" align="center"}
+    ![](assets/condition-syntax.png){zoomable="yes"}{width="800" align="center"}
 
 1. Once the condition for the first variant of the message is ready, click **[!UICONTROL Confirm]**. In this example, we are creating a rule targeting recipients whose language is 'French'.
 
-    ![](assets/condition-example.png){width="800" align="center"}
+    ![](assets/condition-example.png){zoomable="yes"}{width="800" align="center"}
 
 1. The rule is now associated to the variant. For better readability, we recommend renaming the variant by clicking the ellipsis menu.
 
 1. Configure how the component should display if the rule is met when sending the message. In this example, we want to display the text in French if it is the recipient's preferred language.
 
-    ![](assets/condition-email-variant1.png){width="800" align="center"}
+    ![](assets/condition-email-variant1.png){zoomable="yes"}{width="800" align="center"}
 
 1. Add as many variants as needed for the content component. You can switch between the variants at any time to check how the content component will display based on their conditional rules.
 

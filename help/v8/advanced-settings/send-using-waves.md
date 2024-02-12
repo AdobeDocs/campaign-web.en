@@ -3,7 +3,7 @@ audience: end-user
 title: Sending using waves
 description: Learn more about delivery settings in Campaign Web 
 feature: Email
-badge: label="Limited Availability"
+
 
 ---
 
@@ -52,7 +52,7 @@ To send deliveries using waves, follow the steps below.
     
 If you select this option, all the waves have the same size (except the last one), and the delay between each wave is always the same.
 
-![](assets/waves-same-size.png)
+![](assets/waves-same-size.png){zoomable="yes"}
 
 * Specify the size for all the waves you are splitting the delivery into. You can enter a percentage or a numerical value. Only the last wave can vary in size as it must include the remaining number of messages. 
 
@@ -66,7 +66,7 @@ Using waves, you can restrict the number of messages to 20 per day, which is the
 
 To do this, select the **[!UICONTROL Schedule multiple waves of the same size]** option. Enter **[!UICONTROL 20]** as the waves size and **[!UICONTROL 1 day]** in the **[!UICONTROL Interval]** field.
 
-![](assets/waves-call-center.png)
+![](assets/waves-call-center.png){zoomable="yes"}
 
 ## Schedule waves according to a calendar {#waves-calendar}
 
@@ -84,7 +84,7 @@ Add as many waves as you want. You can reorder them according to your needs.
 
 In the example below, the first wave represents 25% of the total number of messages included in the delivery and starts immediately. The next two waves complete the delivery and are set to begin at six-hour intervals.
 
-![](assets/waves-calendar.png)
+![](assets/waves-calendar.png){zoomable="yes"}
 
 One common use case for using multiple waves according to a calendar is during ramp-up process.
 
@@ -94,7 +94,7 @@ To avoid being marked as spam, you can progressively increase the volume sent us
 
 To do so, use the **[!UICONTROL Schedule waves according to a calendar]** option. For example, set the first wave to 10%, the second to 15%, the third to 20%, and so on.
 
-![](assets/waves-ramp-up.png)
+![](assets/waves-ramp-up.png){zoomable="yes"}
 
 
   

@@ -2,7 +2,6 @@
 audience: end-user
 title: Work with subscription services
 description: Learn how to access, create and manage subscription services in Adobe Campaign Web
-badge: label="Limited Availability"
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 ---
 # Create and manage subscription services {#manage-services}
@@ -28,11 +27,11 @@ To access subscription services available for your platform, follow the steps be
 
 1. Browse to the **[!UICONTROL Subscription services]** menu on the left navigation rail.
 
-    ![](assets/service-list.png)
+    ![](assets/service-list.png){zoomable="yes"}
 
 1. The list of all existing subscription services is displayed. You can search the services and filter on the channel, the folder or add rules using the [query modeler](../query/query-modeler-overview.md).
 
-    ![](assets/service-filters.png)
+    ![](assets/service-filters.png){zoomable="yes"}
 
 1. To edit an existing service, click its name.
 
@@ -54,13 +53,13 @@ To create a subscription service, follow the steps below.
 
 1. Select the **[!UICONTROL Create subscription service]** button.
 
-    ![](assets/service-create-button.png)
+    ![](assets/service-create-button.png){zoomable="yes"}
 
 1. Select a channel: **[!UICONTROL Email]** or **[!UICONTROL SMS]**.
 
 1. In the service properties, enter a label and define **[!UICONTROL Additional options]** as wanted.
 
-    ![](assets/service-create-properties.png)
+    ![](assets/service-create-properties.png){zoomable="yes"}
 
 1. By default, services are stored in the **[!UICONTROL Services and Subscriptions]** folder. You can change it by browsing to the desired location. [Learn how to work with folders](../get-started/permissions.md#folders)
 
@@ -70,11 +69,11 @@ To create a subscription service, follow the steps below.
     * No recipients can subscribe to this service anymore
     * All subscribers to this service are automatically unsubscribed
 
-    ![](assets/service-create-validity-period.png)
+    ![](assets/service-create-validity-period.png){zoomable="yes"}
 
 1. When a user subscribes to or unsubscribes from a service, you can send a confirmation message. Select the templates to use for that message according to your use case. These templates must be configured with the **[!UICONTROL Subscriptions]** target mapping. [Learn more](#create-confirmation-message)
 
-    ![](assets/service-create-confirmation-msg.png)
+    ![](assets/service-create-confirmation-msg.png){zoomable="yes"}
 
 1. Click **[!UICONTROL Save and review]**. The new service is added to the **[!UICONTROL Subscription services]** list.
 
@@ -103,7 +102,7 @@ To send confirmation messages to the users who subscribe to or unsubscribe from 
 
 1. Do not select an audience for this delivery. Instead, access the delivery **[!UICONTROL Settings]**, go to the [Audience](../advanced-settings/delivery-settings.md#audience) tab and select the **[!UICONTROL Subscriptions]** target mapping from the list.
 
-    ![](assets/service-confirmation-template-mapping.png)
+    ![](assets/service-confirmation-template-mapping.png){zoomable="yes"}
 
     >[!NOTE]
     >
@@ -111,7 +110,7 @@ To send confirmation messages to the users who subscribe to or unsubscribe from 
 
 1. Edit the content of your delivery template, save and close it.
 
-    ![](assets/service-confirmation-template.png)
+    ![](assets/service-confirmation-template.png){zoomable="yes"}
 
     >[!NOTE]
     >
@@ -142,13 +141,13 @@ To measure the effectiveness of your subscription services for SMS and email cha
 
 1. Select an existing service from the **[!UICONTROL Subscription services]** list. Click **[!UICONTROL Calculate]** the get the total number of subscribers.
 
-    ![](assets/service-logs-subscribers-count.png)
+    ![](assets/service-logs-subscribers-count.png){zoomable="yes"}
 
 1. From the service dashboard, select **[!UICONTROL Logs]** to view the the list of subscribers to this service.
 
     You can check the total number of subscribers, the name and address of each recipient, and when they susbscribed or unsubscribed. You can also filter on them.
 
-    ![](assets/service-logs.png)
+    ![](assets/service-logs.png){zoomable="yes"}
 
 1. From the service dashboard, select **[!UICONTROL Reports]**. Check the following indicators:
 
@@ -156,7 +155,7 @@ To measure the effectiveness of your subscription services for SMS and email cha
 
     * You can view the number of subscriptions and unsubscriptions over a selected period. Use the drop-down list to change the time range.
 
-        ![](assets/service-reports.png)
+        ![](assets/service-reports.png){zoomable="yes"}
 
     * The **[!UICONTROL Overall evolution of subscriptions]** graph shows the breakdown by period, including subscriptions, unsubcriptions, the evolution in numbers and the loyalty percentage.<!--what is Registered?-->
 

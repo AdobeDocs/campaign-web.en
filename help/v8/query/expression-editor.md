@@ -2,7 +2,6 @@
 audience: end-user
 title: Build your first query using the query modeler
 description: Learn how to build your first query in Adobe Campaign Web query modeler.
-badge: label="Limited Availability"
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
 ---
 # Edit expressions {#expression}
@@ -19,7 +18,7 @@ The expression editor is available from the query modeler **[!UICONTROL Edit exp
 
 |Access from the **Attribute** field|Access from the **Value** field|
 |  ---  |  ---  |
-|![](assets/expression-editor-attribute.png){width="200" align="center" zoomable="yes"}|![](assets/edit-expression.png){width="200" align="center" zoomable="yes"}|
+|![](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}|![](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}|
 
 The expression editor provides:
 
@@ -29,13 +28,13 @@ The expression editor provides:
 
 Edit the expression by entering an expression directly in the input field. To add a field or a helper function, place your cursor in the expression where you want to add it and click the + button.
 
-![](assets/expression-editor.png)
+![](assets/expression-editor.png){zoomable="yes"}
 
 When your expression is ready, click the **[!UICONTROL Confirm]** button. The expression displays in the selected field. To edit it, open the expression editor and make the desired changes.
 
 The example below shows an expression configured for the **[!UICONTROL Value]** field. To edit it, you need to open the expression editor using the **[!UICONTROL Edit expression]** button.
 
-![](assets/edit-expression-value.png)
+![](assets/edit-expression-value.png){zoomable="yes"}
 
 ## Helper functions
 
