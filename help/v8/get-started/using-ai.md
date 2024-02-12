@@ -12,7 +12,7 @@ The **Contextual Help with Gen AI** embedded within contextual help revolutioniz
 
 Thanks to Campaign Gen AI's capabilities, this component transforms your experience, making information retrieval and problem-solving a breeze. Whether you're seeking guidance in a complex task or navigating extensive documents, the AI-powered Contextual Help is your ultimate companion, providing unmatched efficiency and accuracy in every interaction.
 
-<img src="assets/AI_CH.gif" width="80%"/>
+<img src="assets/do-not-localize/CH+AI-BETA.gif" width="80%"/>
 
 
 >[!AVAILABILITY]
@@ -38,19 +38,25 @@ The knowledge assistant AI capability does not use your data to train our models
 For information specific to Adobe AI policies in Experience Cloud apps and solutions, refer to [this page](https://business.adobe.com/products/sensei/adobe-sensei.html){target="_blank"}.
 --> 
 
+## Suggested questions {#questions-ai}
+
+From the input field, Adobe Campaign AI-powered Contextual Help brings three suggested questions. These questions are AI-generated, relate to the help box and the current product context. Select a question to get the answer.
+
 ## Answers {#answers-ai}
 
 Adobe Campaign AI-powered Contextual Help offers assistance, but you should verify facts. It may output incorrect information, inaccurate or misleading answers. Make sure to check product documentation which is linked in every help box. 
 
-Artificial intelligence and machine learning models improve over time to better address specific use cases. Campaign AI-powered Contextual Help will continue to get better in the coming months. We strongly advice you to use the <img src="assets/do-not-localize/thumb.png" width="10%"/> buttons anytime you read an anwser, to flag any inappropriate responses to our engineers.
+You can copy an answer to the clipboard using the **Copy** icon at the bottom of the help popover.
 
+## Feedback {#feedback-ai}
+
+Artificial intelligence and machine learning models improve over time to better address specific use cases. Campaign AI-powered Contextual Help will continue to get better in the coming months. We strongly advice you to use the <img src="assets/do-not-localize/thumb.png" width="10%"/> buttons anytime you read an anwser, to flag any inappropriate responses to our engineers.
 
 ## Recommendations  {#recommendations-ai}
 
 When asking a question in the AI-powered Contextual Help, the current product context, i.e the screen you are in, and the content of the current help box,  are taken into account.
 
 As a consequence, best practice is to ask questions related to the user interface context. For example, if you need to learn how to send a push delivery in a workflow, browse to the **Workflow** left menu entry, and use a contextual help box in that specific context. To learn more about reporting metrics, browse to the campaign or delivery reports, and start from there.
-
 
 In addition, to get the best of the AI-powered Contextual Help, when asking a question, we advice you to:
 

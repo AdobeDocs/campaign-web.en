@@ -4,7 +4,7 @@ description: Campaign Web help center
 title: Adobe Campaign Web product documentation
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 ---
-# Adobe Campaign Web Documentation {#campaign-documentation}
+# Adobe Campaign Web User Interface Documentation {#campaign-documentation}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card1"
@@ -76,9 +76,6 @@ exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 <!--TO REMOVE ABOVE-->
 
 We are thrilled to introduce the new version of Adobe Campaign Web User Interface. Our latest release is packed with intuitive features designed to simplify the creation of personalized cross-channel campaigns, drive exceptional results, and give you a competitive advantage across all channels. This new modern UI simplifies marketing campaign design and delivery, and brings consistency, along with other Adobe solutions, including Adobe Experience Platform.
-
->[!AVAILABILITY]
-> Adobe Campaign Web is currently in Limited Availability (LA) version. Access is restricted to a small set of LA customers. Please be aware that product interface, capabilities and usage flows can change without notice.
 
 ## What's New
 
