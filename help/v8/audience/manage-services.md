@@ -13,13 +13,11 @@ exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 
 Use Adobe Campaign Web to manage and create your services such as newsletters, and to check the subscriptions or unsubscriptions to these services.
 
+Several services can be defined in parallel, for example: newsletters for specific product categories, themes or areas of a web site, subscriptions to various types of alert messages, and real-time notifications.
+
 >[!NOTE]
 >
 >Subscriptions only apply to email and SMS delivery.
-
-Several services can be defined in parallel, for example: newsletters for specific product categories, themes or areas of a web site, subscriptions to various types of alert messages, and real-time notifications.
-
-To learn more on managing subscriptions and unsubscriptions, refer to the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/subscriptions.html){target="_blank"}.
 
 ## Access subscription services {#access-services}
 
@@ -96,7 +94,7 @@ You can now:
 >title="Select the unsubscriptions delivery template"
 >abstract="To send confirmation messages to the users who unsubscribe from your service, you must select a specific delivery template based on the **[!UICONTROL Subscriptions]** target mapping, without a defined target."
 
-To send confirmation messages to the users who subscribe to or unsubscribe from your service, you must create a delivery template with the **[!UICONTROL Subscriptions]** target mapping, without a defined target. To do so, follow the steps below.
+To send confirmation messages to the users who subscribe to or unsubscribe from your service, you must create a delivery template with the **[!UICONTROL Subscriptions]** target mapping, without a defined target. To do so, follow the steps below:
 
 1. Create a delivery template for the susbscription confirmation. [Learn how to create a template](../msg/delivery-template.md)
 
@@ -106,7 +104,7 @@ To send confirmation messages to the users who subscribe to or unsubscribe from 
 
     >[!NOTE]
     >
-    >If you do not select the  **[!UICONTROL Subscriptions]** target mapping, your susbscribers will not receive the confirmation message. Target mappings are defined in the Campaign v8 console. Learn more in the [Adobe Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
+    >If you do not select the  **[!UICONTROL Subscriptions]** target mapping, your susbscribers will not receive the confirmation message. Learn more about target mappings in [this section](../audience/targeting-dimensions.md) .
 
 1. Edit the content of your delivery template, save and close it.
 
