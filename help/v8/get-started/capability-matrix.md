@@ -71,7 +71,6 @@ Browse the [Campaign v8 (client console) documentation](https://experienceleague
 
 * Realtime message authoring and execution on email, SMS and push
 * Message enrichment and personalization
-* Triggers (Adobe Analytics cart abandonment)
 * Reporting and monitoring on transactional messaging
 
 ## Content design {#content-capabilities}
