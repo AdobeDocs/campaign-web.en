@@ -21,11 +21,11 @@ description: Learn how to monitor and manage profiles in Campaign Web.
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="Profiles"
->abstract="A profile is an individual who is targeted to receive messages sent by Adobe Campaign. From this list, you can view the profiles' details, based on your permissions. Use the filtering options to browse this list. You can edit and update a small set of your profiles' attributes."
+>abstract="A profile is a record who is targeted to receive messages sent by Adobe Campaign. From this list, you can view the profiles' details, based on your permissions. Use the filtering options to browse this list. You can edit and update a small set of your profiles' attributes."
 
 ## What is a profile? {#what} 
 
-A **profile**, also known as "recipients" in the client console, represents an individual stored in the Campaign database, serving as a key component to [create audiences](create-audience.md) for deliveries and [add personalization](../personalization/personalize.md) data to your content. Adobe Campaign allows you to seamlessly manage profiles, from creating new entries to accessing a comprehensive view of all your profiles' attributes and services subscriptions, all through the Campaign Web user interface.
+A **profile**, also known as "recipients" in the client console, represents a record stored in the Campaign database, serving as a key component to [create audiences](create-audience.md) for deliveries and [add personalization](../personalization/personalize.md) data to your content. Adobe Campaign allows you to seamlessly manage profiles, from creating new entries to accessing a comprehensive view of all your profiles' attributes and services subscriptions, all through the Campaign Web user interface.
 
 Moreover, **[!UICONTROL test profiles]**, identified as "seed profiles" in the client console, allow you to target additional recipients who do not match the targeting criteria of a given delivery. These profiles contain fictitious contact information, or contact information controlled by the sender. They can be added to a message's audience to detect any fraudulent use of your recipient database or to ensure that the emails arrive in the inboxes. [Learn how to work with test profiles](test-profiles.md)
 
