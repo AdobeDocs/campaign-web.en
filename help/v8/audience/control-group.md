@@ -3,7 +3,6 @@ audience: end-user
 title: Set a control group
 description: Learn how to set a control group for your messages in Campaign Web user interface
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
- 
 ---
 # Set a control group {#control-group}
 

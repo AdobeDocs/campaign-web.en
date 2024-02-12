@@ -4,7 +4,6 @@ title: Delivery Settings
 description: Learn more about delivery settings in Campaign Web 
 feature: Email
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-
 ---
 
 # Email delivery settings {#email-del-settings}

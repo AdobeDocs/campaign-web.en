@@ -3,7 +3,6 @@ audience: end-user
 title: Select an existing audience
 description: Learn how to select an audience
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
- 
 ---
 
 # Select an existing audience {#add-audience}

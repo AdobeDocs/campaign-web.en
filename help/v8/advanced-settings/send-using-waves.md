@@ -3,8 +3,6 @@ audience: end-user
 title: Sending using waves
 description: Learn more about delivery settings in Campaign Web 
 feature: Email
-
-
 ---
 
 # Send using waves {#send-using-waves}

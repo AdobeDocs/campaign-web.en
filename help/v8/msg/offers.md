@@ -3,7 +3,6 @@ audience: end-user
 title: Add offers in your messages
 description: Learn how to add and send offers
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-
 ---
 
 # Add offers to your messages {#offers-content}

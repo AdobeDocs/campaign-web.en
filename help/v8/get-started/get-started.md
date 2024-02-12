@@ -3,7 +3,6 @@ audience: end-user
 title: Get started with Adobe Campaign Web
 description: Get started with Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
- 
 ---
 # Get started with Adobe Campaign Web {#get-started}
 

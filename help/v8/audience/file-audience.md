@@ -2,7 +2,6 @@
 audience: end-user
 title: Target recipients from a file
 description: Learn how to use recipients from an external file to build your email audience
- 
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 ---
 # Load an email audience from a file {#audience-from-file}

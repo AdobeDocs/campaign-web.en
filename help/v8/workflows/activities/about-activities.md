@@ -2,7 +2,6 @@
 audience: end-user
 title: Work with workflows activities
 description: Learn how to workflow activities
- 
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
 ---
 

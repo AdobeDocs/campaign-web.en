@@ -8,7 +8,6 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: landing, landing page, use case
-
 ---
 # How to use a landing page {#lp-use-cases}
 

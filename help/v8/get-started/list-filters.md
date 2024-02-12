@@ -2,7 +2,6 @@
 audience: end-user
 title: Browse and filter lists
 description: Discover how to browse and filter lists Campaign Web v8
-badge: label="Limited Availabilty"
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
 ---
 # Browse and filter lists {#list-screens}

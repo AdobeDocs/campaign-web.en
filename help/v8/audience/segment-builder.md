@@ -3,7 +3,6 @@ audience: end-user
 title: Build an audience with Campaign rule builder
 description: Learn how to work with the rule builder
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-badge: label="Beta" 
 ---
 # Work with the rule builder {#segment-builder}
 

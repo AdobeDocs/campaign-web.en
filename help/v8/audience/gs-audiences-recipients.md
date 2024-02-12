@@ -2,7 +2,6 @@
 title: Get started with profiles & audiences
 description: Learn how to work with profiles and audiences in Campaign Web
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
-
 ---
 # Get started with profiles and audiences {#about-profiles}
 

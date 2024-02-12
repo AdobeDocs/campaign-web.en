@@ -3,7 +3,6 @@ audience: end-user
 title: Create the text version of an email
 description: Learn how to create the text version of an email
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
- 
 ---
 # Create the text version of an email {#text-version-email}
 

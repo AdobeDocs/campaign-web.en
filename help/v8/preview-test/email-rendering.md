@@ -3,7 +3,6 @@ audience: end-user
 title: Test email rendering
 description: Learn how to test your email rendering in Campaign Web user interface
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
-
 ---
 
 # Test the email rendering {#email-rendering}

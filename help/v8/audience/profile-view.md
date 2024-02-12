@@ -1,7 +1,6 @@
 ---
 title: Explore profiles' details
 description: Learn how to explore the details of a profile.
-
 ---
 # Explore profiles' details {#profile-view}
 

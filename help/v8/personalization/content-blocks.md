@@ -5,7 +5,6 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Beginner
-badge: label="Beta"
 exl-id: 45cdd310-7c0c-4b57-bb7f-0576d8eca19d
 ---
 # Add built-in content blocks {#ootb-content-blocks}

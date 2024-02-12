@@ -2,7 +2,6 @@
 audience: end-user
 title: Global reports for the direct mail channel
 description: Learn more about Global reports for the direct mail channel
-
 ---
 # Global reports for the direct mail channel {#global-report-direct}
 

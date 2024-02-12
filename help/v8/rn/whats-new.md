@@ -3,7 +3,6 @@ audience: end-user
 title: What's new in Campaign Web User Interface
 description: Discover new feature coming with Campaign Web User Interface
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
- 
 ---
 
 # What's new? {#new}

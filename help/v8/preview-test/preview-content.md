@@ -3,7 +3,6 @@ audience: end-user
 title: Preview delivery content
 description: Learn how to preview your delivery content with Campaign Web user interface
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-
 ---
 
 # Preview the message content {#preview-content} 
