@@ -16,7 +16,7 @@ The integration of the Adobe Campaign Web interface with Adobe Experience Manage
 
 1. Navigate to your [!DNL Adobe Experience Manager] author instance and click Adobe Experience at the upper left corner of the page. Choose **[!UICONTROL Sites]** from the menu.
 
-1. Access **[!UICONTROL Campaigns > Name of your brand > Main Area > Email]**.
+1. Access **[!UICONTROL Campaigns > Name of your brand > Main Area > Name of your page]**.
 
 1. Click **[!UICONTROL Create]** and select **[!UICONTROL Page]** from the dropdown menu.
 
