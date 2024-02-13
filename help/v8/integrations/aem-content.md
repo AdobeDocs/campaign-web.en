@@ -2,7 +2,6 @@
 audience: end-user
 title: Manage assets with Adobe Experience Manager as a Cloud service
 description: Learn how to manage content with Adobe Experience Manager as a Cloud service
-badge: label="Limited Availability"
 ---
 # Manage templates with [!DNL Adobe Experience Manager as a Cloud service]{#aem-assets}
 
