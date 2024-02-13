@@ -30,11 +30,6 @@ You can use existing built-in filters to access a specific sub-set of your data,
 
 ![](assets/predefined-filters-menu.png){zoomable="yes"}{zoomable="yes"}
 
->[!IMPORTANT]
->
->In that version of the product, when building rules, selecting the audience of a delivery, or when building an audience in a workflow, some predefined filters are not available in the user interface. You can still use them. [Learn more](guardrails.md#predefined-filters-filters-guardrails-limitations)
-
-
 ## Create a predefined filter {#create-predefined-filter}
 
 >[!CONTEXTUALHELP]
@@ -102,20 +97,17 @@ When a filter is saved as a favorite, it is available to all users in the **Favo
 
 Predefined filters are available when defining rule properties. To access predefined filters, choose the **Select custom filter** option in the drop down of the query modeler.
 
-You can then access the full list of predefined filters available for the current context.
-
-You can also use the filter shortcuts available in the **Favorite filters** section of the drop-down. Learn more about favorites in [this section](#fav-filter).
+You can then access the full list of predefined filters available for the current context, and use shortcuts available in the **Favorite filters** section of the drop-down. Learn more about favorites in [this section](#fav-filter).
 
 For example, to build an audience from a predefined filter, follow these steps:
 
-1. Browse the the **Audiences** entry in the left menu.
-1. Click the **Create Audience** button.
+1. Browse to the **Audiences** entry in the left menu and click the **Create Audience** button in the upper-left corner of the audiences list.
 1. Enter the audience name, and click the **Create Audience** button.
-1. Select the **Query** activity, and, from the right pane, click **Create audience** button.
+1. Select the **Query** activity, and, from the right pane, click the **Create audience** button.
 
     ![](assets/build-audience-from-filter.png){zoomable="yes"}
 
-1. From the **Select or save filter button**, choose the **Select custom filter** option. 
+1. From the **Select or save filter** button, choose the **Select custom filter** option. 
 
     ![](assets/build-audience-select-custom-filter.png){zoomable="yes"}
 
@@ -133,17 +125,17 @@ For example, to build an audience from a predefined filter, follow these steps:
 
 ## Manage your predefined filters {#manage-predefined-filter}
 
-Predefined filters are all grouped in the dedicated entry of the left navigation menu.
+All predefined filters are grouped together in the dedicated entry of the left navigation menu.
 
 ![](assets/list-of-filters.png){zoomable="yes"}
 
-From this list, you can create a new filter as detailed above, and:
+From this list, you can create a new filter as detailed above, and perform the actions listed below:
 
-* edit an existing filter, and change it rules and properties
-* duplicate a predefined filter
-* delete a predefined filter
+* Edit an existing filter, change it rules and properties.
+* Duplicate a predefined filter.
+* Delete a predefined filter.
 
-You can add a predefined filter as a favorite for a quick access when building your audiences. Learn more in [this section](#fav-filter).
+You can also add a predefined filter as a favorite for a quick access when building your audiences. Learn more in [this section](#fav-filter).
 
 <!--
 ## Built-in predefined filters {#ootb-predefined-filter}
