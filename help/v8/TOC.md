@@ -43,7 +43,6 @@ hide: yes
         + [Add a link to the mirror page](email/mirror-page.md)
         + [Add a preheader](email/preheader.md)
         + [Generate the text version](email/text-version-email.md)
-        + [Manage assets with Adobe Experience Manager Assets as a Cloud Service](email/aem-assets.md)
       + Content Assistant {#content-assistant}
         + [Get started with the Content Assistant](email/generative-gs.md)
         + [Text generation with the Content Assistant](email/generative-content.md)
@@ -162,3 +161,7 @@ hide: yes
     + [Email global report](reporting/global-report-email.md)
     + [Push global report](reporting/global-report-push.md)
     + [SMS global report](reporting/global-report-sms.md)
++ Integrations {#integrations}
+  + [Manage assets with Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
+  + [Manage templates with Adobe Experience Manager as a Cloud service](integrations/aem-content.md)
+
