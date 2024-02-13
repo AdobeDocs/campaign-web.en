@@ -32,7 +32,7 @@ To create a standalone delivery, follow these steps:
     ![](assets/create-a-delivery.png){zoomable="yes"}
     
 1. Choose a channel for the delivery.
-1. Define the delivery audience, for the main target and the control group. Learn more about audiences in [this section](../audience/about-recipients.md).
+1. Define the delivery audience, for the main target and the control group. [Learn more about audiences](../audience/about-recipients.md).
 
     ![](assets/select-audience.png){zoomable="yes"}{width="70%" align="left"}
 
@@ -46,16 +46,16 @@ To create a standalone delivery, follow these steps:
 1. Click the  **[!UICONTROL Review and send]** button to check your settings.
 1. Use the  **[!UICONTROL Simulate content]** button to test your delivery, and personalization settings. Learn more about message simulation in [this section](../preview-test/preview-test.md).
 1. Click the  **[!UICONTROL Prepare]** button to compute the target population and generate the messages. Preparation step can take a few minutes. When preparation is complete, messages are ready for sending. In case of an error, browse to the **Logs** to check alerts and warning.
-1. Check results, and click the  **[!UICONTROL Send]** button to start sending messages.
+1. Check results, and click the **[!UICONTROL Send]** button to start sending messages.
 1. Once messages are sent, browse to the **Reports** section to access key metrics. Learn more about delivery reports in [this section](../reporting/delivery-reports.md).
 
 >[!TAB Create a delivery in a workflow]
 
 To create a delivery in a workflow, follow these steps:
 
-1. Create a workflow or open an existing workflow. Learn more about workflows in [this page](../workflows/gs-workflow-creation.md#gs-workflow-steps)
-1. Add and configure a **[!UICONTROL Build audience]** activity. Learn more about the **[!UICONTROL Build audience]** activity in [this section](../workflows/activities/build-audience.md).
-1. Click the `+` icon and select a delivery activity: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification (Android)]** or **[!UICONTROL Push notification (iOS)]**. Learn more about delivery channel activities in a workflow, and how to define a delivery content in this [section](../workflows/activities/channels.md).
+1. Create a workflow or open an existing workflow. [Learn more about workflows](../workflows/gs-workflow-creation.md#gs-workflow-steps)
+1. Add and configure a [**[!UICONTROL Build audience]**](../workflows/activities/build-audience.md) activity.
+1. Click the `+` icon and select a delivery activity: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification (Android)]** or **[!UICONTROL Push notification (iOS)]**. Learn more about delivery channel activities in a workflow, and how to define a delivery content in [this section](../workflows/activities/channels.md).
 
     ![](assets/add-delivery-in-wf.png){zoomable="yes"}
     

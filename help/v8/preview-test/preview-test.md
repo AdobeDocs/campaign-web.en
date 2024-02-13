@@ -13,11 +13,9 @@ exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html" text="Send test deliveries"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#test-landing-page" text="Test landing pages"
 
-Once your delivery content has been defined, you can use profiles and test profiles to preview and test it before sending the message.
+Once your delivery content has been defined, you can use profiles and test profiles to preview and test it before sending the message. This is a crucial step to ensure that it is accurate but also free of errors both in content and personalization settings.
 
-This is an crucial step to ensure that it is accurate but also free of errors both in content and personalization settings.
-
-To do this, [!DNL Adobe Campaign] allows you to:
+[!DNL Adobe Campaign Web user interface] allows you to:
 
 * [Preview the message content and personalization](preview-content.md)
 * [Send test deliveries](test-deliveries.md) (proofs) to specific recipients or subscribers for testing and validation

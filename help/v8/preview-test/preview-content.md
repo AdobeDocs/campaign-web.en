@@ -17,11 +17,7 @@ To preview the content of your delivery, follow the steps below.
 
     ![](assets/simulate-button.png){zoomable="yes"}
 
-1. To select the profiles that will be used to preview your personalized content, use:
-
-    * **[!UICONTROL Add test profile(s)]** for previewing email and SMS deliveries
-
-    * **[!UICONTROL Add subscriber(s)]** for previewing push notifications
+1. Select the profiles to use to preview your content. To do this, click the **[!UICONTROL Add test profile(s)]** button (for email and SMS) or the **[!UICONTROL Add subscriber(s)]** button (for push notifications).
 
 1. You can combine profiles and test profiles to preview your email or SMS message.
 
@@ -31,11 +27,9 @@ To preview the content of your delivery, follow the steps below.
     
     ![](assets/simulate-select-profiles.png){zoomable="yes"}
 
-1. When browsing the test profile or profile lists, you can use filters to refine your search.
+1. When browsing the test profile or profile lists, you can use filters to refine your search. For example, you can define a rule to find all test profiles whith the **[!UICONTROL Prospect]** status. [Learn how to add rules using the query modeler](../query/query-modeler-overview.md).
 
     ![](assets/simulate-test-profile-filter.png){zoomable="yes"}
-
-    For example, you can define a rule to find all test profiles whith the **[!UICONTROL Prospect]** status. [Learn how to add rules using the query modeler](../query/query-modeler-overview.md).
 
 1. Click **[!UICONTROL Select]** to confirm your selection.
 

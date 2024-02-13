@@ -36,9 +36,7 @@ To start testing your message content:
 
     Depending on the message channel, test deliveries can be sent to the following types of recipients: 
 
-    * For SMS and emails, you can use [test profiles](#test-profiles), which are specific additional recipients in the database. [Learn more](../audience/test-profiles.md)
-        
-    * For SMS and emails, you can also use the [substitution from main target](#substitution-profiles) mode, which sends the test deliveries to an email test address or phone number, and use personalization data of an existing profile. This allows you to experience the message as the recipients would, giving you an accurate representation of the content that the profile will receive.
+    * For SMS and emails, you can use [test profiles](#test-profiles), which are specific additional recipients in the database. You can also use the [substitution from main target](#substitution-profiles) mode, which sends the test deliveries to an email test address or phone number, and use personalization data of an existing profile. This allows you to experience the message as the recipients would, giving you an accurate representation of the content that the profile will receive.
 
     * For push messages, you can use [subscribers](#subscribers), which are fictitious subscribers added to the database. They are created in the [!DNL Campaign] console. Learn more in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
@@ -66,9 +64,9 @@ To start testing your message content:
 >title="Include test profiles in the main audience"
 >abstract="Enable this option to also send the final message to the recipients of the test delivery."
 
-Test profiles are seed addresses, which are additional recipients in the database. They can be created from the **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]** menu. [Learn more](../audience/test-profiles.md#create-test-profiles)
+Test profiles are additional recipients in the database. They are created from the **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]** menu. [Learn more](../audience/test-profiles.md#create-test-profiles)
 
-The steps to send test deliveries to seed addresses are detailed below. 
+The steps to send test deliveries to test profiles are detailed below. 
 
 1. From the content of your delivery, click the **[!UICONTROL Simulate content]** button, and the **[!UICONTROL Test]** button.
 
@@ -76,17 +74,11 @@ The steps to send test deliveries to seed addresses are detailed below.
 
     ![](assets/simulate-profile-mode.png){zoomable="yes"}
 
-    >[!NOTE]
-    >
-    >Test profiles are created from the **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]** menu. Learn how to create and manage them in [this section](../audience/test-profiles.md#create-test-profiles).
-
 1. If you have already selected profiles to [preview the message](preview-content.md) in the content simulation screen, those profiles are pre-selected as test recipients. You can clear your selection and/or add additional recipients using the **[!UICONTROL Add test profile(s)]** button.
 
-1. When browsing the test profile or profile lists, you can use filters to refine your search.
+1. When browsing the test profile or profile lists, you can use filters to refine your search. For example, you can define a rule to find all test profiles whith the **[!UICONTROL Prospect]** status. Learn how to add rules using the [query modeler](../query/query-modeler-overview.md).
 
     ![](assets/simulate-test-profile-filter.png){zoomable="yes"}
-
-    For example, you can define a rule to find all test profiles whith the **[!UICONTROL Prospect]** status. Learn how to add rules using the [query modeler](../query/query-modeler-overview.md).
 
 1. To also send the final message to the recipients of the test delivery, select the **[!UICONTROL Include test population in the main target]** option.
 
@@ -99,7 +91,6 @@ The steps to send test deliveries to seed addresses are detailed below.
 Use profile substitution to send test deliveries to a specific email address or phone number, while displaying data from an existing profile of the [!DNL Adobe Campaign] database. This mode can only be selected if the audience of the delivery has been defined.
 
 To substitute profile data from the main target, follow the steps below:
-
 
 1. From the content of your delivery, click the **[!UICONTROL Simulate content]** button, and the **[!UICONTROL Test]** button.
 
