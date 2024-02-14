@@ -5,7 +5,6 @@ user-guide-description: Product documentation for Adobe Campaign Web User Interf
 title: Adobe Campaign Web Documentation
 description: Campaign Web documentation
 breadcrumb-title: Campaign Web User Interface
-hide: yes
 ---
 
 # Adobe Campaign Web documentation {#v8}

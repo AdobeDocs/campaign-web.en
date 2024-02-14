@@ -5,6 +5,7 @@ version: v8 Web User Interface
 product: adobe campaign-web
 feature-set: Campaign
 type: Documentation
+git-repo: https://github.com/AdobeDocs/campaign-web.en
 index: yes
 ---
 
