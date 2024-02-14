@@ -75,7 +75,7 @@ Once the Experience Manager template is available in Adobe Campaign Web as a con
 
     ![](assets/aem_8.png)
 
-1. If changes are made to your templates directly in Adobe Experience Manager, simply select **[!UICONTROL Refresh AEM content]** to have the latest version of your template.
+1. Note that content is not automatically synchronized. If changes are made to your templates directly in Adobe Experience Manager, simply select **[!UICONTROL Refresh AEM content]** to have the latest version of your template.
 
 1. To remove linkage between Experience Manager and Campaign or to further personalize your Experience Manager template in the Email designer, click **[!UICONTROL Unlink AEM content]**.
 
