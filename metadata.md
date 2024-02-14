@@ -1,10 +1,11 @@
 ---
 cloud: Experience Cloud
-solution: Campaign, Campaign v8 Web
+solution: Campaign, Campaign v8 Web User Interface
+version: v8 Web User Interface
 product: adobe campaign-web
 feature-set: Campaign
 type: Documentation
-hide: yes
+index: yes
 ---
 
 # Metadata for internal use
