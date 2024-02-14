@@ -1,9 +1,9 @@
 ---
-title: Guardrails and limitations in Campaign Web user interface
-description: Guardrails and limitations in Campaign Web user interface
+title: Guardrails and limitations in Campaign Web user interface workflows
+description: Guardrails and limitations when working with workflows in Campaign Web user interface
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
 ---
-# Guardrails and limitations {#guardrails-limitations}
+# Guardrails and limitations for workflows {#guardrails-limitations}
 
 When working in Campaign Web user interface with workflows created or modified in Campaign client console, the guardrails and limitations listed below apply.
 

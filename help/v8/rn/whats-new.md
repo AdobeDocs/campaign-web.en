@@ -124,11 +124,13 @@ Learn more in [this section](../msg/offers.md).
 
 ## Transition to Campaign Web user interface
 
-As a Campaign user, you can still access the client console to build and manage Campaign resources and components. Data and settings are synchronized from an environment to another. Learn more in [this section](../get-started/get-started.md#about-campaign-client-consoleac-client).
+As a Campaign user, you can still access the client console to build and manage Campaign resources and components. Data and settings are synchronized from an environment to another. Learn more in [this section](../get-started/get-started.md#ac-client).
 
-In addition, all your data and settings already available in the client console are visible in the Campaign Web user interface, from the Explorer left navigation. Learn more about the Explorer view in [this section](../get-started/user-interface.md#explorer-user-interface-explorer).
+In addition, all your data and settings already available in the client console are visible in the Campaign Web user interface, from the Explorer left navigation. Learn more about the Explorer view in [this section](../get-started/user-interface.md#user-interface-explorer).
 
-With Campaign Web user interface, the user interface reflects the user's permissions. Learn more about permissions in [this page](../get-started/permissions.md)
+With Campaign Web user interface, the user interface reflects the user's permissions. Learn more about permissions in [this page](../get-started/permissions.md).
+
+Supported and unsupported capabilities and interoperability between Campaign Web user interface and Campaign client console [in this page](../get-started/capability-matrix.md). 
 
 ## Terminology updates {#terminology-updates}
 
@@ -150,4 +152,6 @@ The limitations below apply to this version:
 * Delivery dashboard KPIs are updated every 5 min. - but the Delivery preparation is real-time.
 * Adobe Experience Cloud Notifications and Unified Help available in the top bar are not yet integrated.
 
-Learn more about supported/unsupported capabilities and interoperability between Campaign Web user interface and Campaign client console, [in this page](../get-started/capability-matrix.md).
+When working in Campaign Web user interface with workflows created or modified in Campaign client console, specific guardrails and limitations apply. They are listed [in this section](../get-started/guardrails.md).
+
+Learn more about supported/unsupported capabilities and interoperability between Campaign Web user interface and Campaign client console [in this page](../get-started/capability-matrix.md). 
