@@ -5,7 +5,7 @@ version: v8 Web User Interface
 product: adobe campaign-web
 feature-set: Campaign
 type: Documentation
-hide: yes
+index: yes
 ---
 
 # Metadata for internal use
