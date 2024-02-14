@@ -41,10 +41,6 @@ This new Web user interface first serves the needs of the **business practitione
 As an administrator or expert user, if you need to access Campaign v8 capabilities which are not available in Campaign Web user interface, you can connect to the [client console](#ac-client). 
 
 
->[!NOTE]
->
->Adobe Campaign Web is currently in Limited Availability (LA) version. Access is restricted to a small set of LA customers. Please be aware that product interface, capabilities and usage flows can change without notice.
-
 Learn how to connect to Adobe Campaign Web in [this page](connect-to-campaign.md).
 
 ## About Campaign client console {#ac-client}

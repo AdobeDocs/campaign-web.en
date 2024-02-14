@@ -74,30 +74,19 @@ Use the new Campaign Web user interface to:
 * Monitor send and measure results with built-in reports - [Learn more](../reporting/delivery-reports.md)
 
 
-## Latest release updates {#latest-release}
 
-Key capabilities coming with Campaign Web Limited Availability release are listed below.
+**New and redesigned campaign workflow activities**
 
-* **More Campaign Workflow activities**
-
-    Supercharge your marketing campaigns with our **expanded set of workflow activities**. Unlock new possibilities for automation and optimization, allowing you to create more dynamic and personalized customer journeys. From advanced segmentation to conditional triggers, our additional workflow activities empower you to deliver targeted messages and drive better campaign performance.
-
-    New activities coming with the latest LA release are: **Reconciliation**, **Load file**, and **Save audience**.
-
-    Learn more in [this section](../workflows/gs-workflows.md).
+Supercharge your marketing campaigns with our **expanded set of workflow activities**. Unlock new possibilities for automation and optimization, allowing you to create more dynamic and personalized customer journeys. From advanced segmentation to conditional triggers, our additional workflow activities empower you to deliver targeted messages and drive better campaign performance. Learn more in [this section](../workflows/gs-workflows.md).
 
 
-* **Target Audience with the query modeler**
+**Target Audience with the query modeler**
 
-    Adobe Campaign Web features a **powerful and intuitive query modeler** that simplifies the process of filtering databases to select specific targets based on various criteria. This includes the use of advanced expressions and operators. The query modeler is available in every context where you need to define rules to filter data.
+Adobe Campaign Web features a **powerful and intuitive query modeler** that simplifies the process of filtering databases to select specific targets based on various criteria. This includes the use of advanced expressions and operators. The query modeler is available in every context where you need to define rules to filter data. Learn more in [this section](../query/query-modeler-overview.md).
 
-    Learn more in [this section](../query/query-modeler-overview.md).
+**Easy profile creation and management**
 
-* **Easy profile creation and management**
-
-    You can use the new Campaign Web user interface to **create and update recipients** in the database directly from the Recipients menu. A simplified profile editing form allows you to enter the recipient's contact information and attributes, and update an existing recipient, without using to the Client console.
-   
-    Learn more in [this section](../audience/about-recipients.md).
+You can use the new Campaign Web user interface to **create and update recipients** in the database directly from the Recipients menu. A simplified profile editing form allows you to enter the recipient's contact information and attributes, and update an existing recipient, without using to the Client console. Learn more in [this section](../audience/about-recipients.md).
 
 <!--
 * Adobe Experience Manager (AEM) Integration
@@ -114,30 +103,24 @@ Key capabilities coming with Campaign Web Limited Availability release are liste
     Learn more in [this section](../email/generative-gs.md).
 -->
 
-* **AI-powered Contextual Help**
+**AI-powered Contextual Help**
 
-    Ask questions and find guidance directly from the product user interface. The new **AI-powered Contextual Help** helps you learn and grow your expertise on new Campaign features. Based on the latest product documentation, it assists you to find help and get step-by-step guidance instantly, as you are building your use cases. This feature is currently available in Beta, for a limited set of users.
-       
-    Learn more in [this section](../get-started/using-ai.md).
+Ask questions and find guidance directly from the product user interface. The new **AI-powered Contextual Help** helps you learn and grow your expertise on new Campaign features. Based on the latest product documentation, it assists you to find help and get step-by-step guidance instantly, as you are building your use cases. This feature is currently available in Beta, for a limited set of users. Learn more in [this section](../get-started/using-ai.md).
 
-* **Predefined Filters**
+**Predefined Filters**
     
-    Introducing Predefined Filter Management. Campaign Web user interface offers you an user-friendly interface to effortlessly **manage and customize predefined filters** to meet your specific needs. Create once and save for future use.
+Introducing Predefined Filter Management. Campaign Web user interface offers you an user-friendly interface to effortlessly **manage and customize predefined filters** to meet your specific needs. Create once and save for future use. Learn more in [this section](../get-started/predefined-filters.md).
 
-    Learn more in [this section](../get-started/predefined-filters.md).
+**HTML Converter for email design**
 
-* **HTML Converter for email design**
-
-    You can now **import and convert any HTML content** in Campaign's email editor. Content blocks are automatically identified, and available in the email designer: use its powerful design capabilities to update and personalize it!
-
-    Learn more in [this section](../email/existing-content.md).
+You can now **import and convert any HTML content** in Campaign's email editor. Content blocks are automatically identified, and available in the email designer: use its powerful design capabilities to update and personalize it! Learn more in [this section](../email/existing-content.md).
 
 
-* **SMS with offers**
+**SMS with offers**
 
-    The new Campaign Web user interface enables you to **integrate offers with SMS** in addition to Email. Reach your audience on their mobile devices, delivering promotions, and timely notifications. Elevate your marketing efforts by harnessing the power of integrated offers through SMS on our advanced web platform.
+The new Campaign Web user interface enables you to **integrate offers with SMS** in addition to Email. Reach your audience on their mobile devices, delivering promotions, and timely notifications. Elevate your marketing efforts by harnessing the power of integrated offers through SMS on our advanced web platform.
    
-    Learn more in [this section](../msg/offers.md).
+Learn more in [this section](../msg/offers.md).
 
 ## Transition to Campaign Web user interface
 
