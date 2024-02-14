@@ -17,7 +17,7 @@ We are thrilled to introduce the new version of **Adobe Campaign Web User Interf
 
 >[!AVAILABILITY]
 >
->This version is available to all users starting Campaign v8.6 release. Learn more about Adobe Campaign releases in [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
+>This version is available to all users starting [Campaign v8.6 release](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html). Learn more about Adobe Campaign releases in [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html){target="_blank"}.
 
 
 ## Key capabilities {#key-features}

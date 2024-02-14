@@ -139,7 +139,7 @@ You can define the **[!UICONTROL Sending]** settings below.
 
 * **[!UICONTROL Test SMTP delivery]**: This option is used to test sending via SMTP. The delivery is processed up to connection to the SMTP server, but is not sent: for every recipient of the delivery, Campaign connects to the SMTP provider server, executes the SMTP RCPT TO command, and closes the connection before the SMTP DATA command.
 
-* **[!UICONTROL Email BCC]**: This option is used to store emails on an external system through BCC by simply adding a BCC email address to your message target. Learn more in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
+* **[!UICONTROL Email BCC]**: This option is used to store emails on an external system through BCC by simply adding a BCC email address to your message target. Learn more in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"}.
 
 In the **[!UICONTROL Wave definition]** section, select the **[!UICONTROL Send using multiple waves]** option to progressively increase the volume sent using waves. This will avoid your messages being marked as spam or when you want to restrict the number of messages per day. Using waves you can divide deliveries into several batches instead of sending high volumes of messages at the same time. [Learn more](send-using-waves.md)
 
@@ -186,8 +186,6 @@ You can also define the tags shared with the analytics tool you are using.
 <!--Currently not visible in UI > ??-->
 
 Temporarily undelivered messages due to a Soft or Ignored error are subject to an automatic retry. By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. 
-
-Learn more about retry management in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
 ## Approval {#approval}
 
