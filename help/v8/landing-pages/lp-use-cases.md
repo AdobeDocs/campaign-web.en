@@ -1,6 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
+version: ''
 title: Landing page use cases
 description: Discover the most common use cases with landing pages in Journey Optimizer
 feature: Landing Pages, Subscriptions
