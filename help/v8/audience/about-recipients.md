@@ -31,6 +31,8 @@ Moreover, **[!UICONTROL test profiles]**, identified as "seed profiles" in the c
 
 Both profiles and test profiles can be used to test your deliveries before they reach the intended audience. By doing so, you can preview the message content and personalization, send proofs for testing and validation, evaluate email rendering across various platform and devices, and test your landing pages. [Learn how to preview and test deliveries](../preview-test/preview-test.md)
 
+➡️ [Discover this feature in video](#video) 
+
 ## Access the list of profiles {#access}
 
 Profiles are accessible and editable in Adobe Campaign Web from the **[!UICONTROL Customer management]** > **Profiles** entry in the left navigation rail. You can also access them in the **[!UICONTROL Explorer]** view, from the **[!UICONTROL Profiles & Targets]** > **[!UICONTROL Recipients]** node. From there you can browse, create and manage folders or subfolders, as well as check associated permissions. [Learn how to create folders](../get-started/permissions.md#folders)
@@ -46,3 +48,9 @@ You can filter the **[!UICONTROL Profiles]** list using the search field or filt
 To access the details of a profiles, click on its name from the list. A detailed view of the profile opens, allowing you to explore its attributes and the services he subscribed to. [Learn how to explore profiles' details](create-profile.md)
 
 To delete a profile, select the corresponding option from the **[!UICONTROL More actions]** menu.
+
+## How-to video {#video}
+
+Learn how to access, manage, and explore profiles using the Campaign Web user interface.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12)
