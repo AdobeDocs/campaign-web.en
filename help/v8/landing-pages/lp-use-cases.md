@@ -1,8 +1,7 @@
 ---
-solution: Journey Optimizer, Campaign, Campaign v8 Web User Interface
-product: journey optimizer
+solution: Campaign, Campaign v8 Web User Interface
 title: Landing page use cases
-description: Discover the most common use cases with landing pages in Journey Optimizer
+description: Discover the most common use cases with landing pages in Campaign Web User Interface
 feature: Landing Pages, Subscriptions
 topic: Content Management
 role: User
