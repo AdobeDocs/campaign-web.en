@@ -83,6 +83,12 @@ Get a glimpse of the newest enhancements in Adobe Campaign Web product and docum
 
 >[!BEGINTABS]
 
+>[!TAB Adobe Experience Manager as a Cloud service integration] 
+
+The integration between Adobe Campaign Web Interface and Adobe Experience Manager as a Cloud Service streamlines email content management. You can now create and edit email content directly in Adobe Experience Manager, then seamlessly import the finished templates into Adobe Campaign for your deliveries.
+
+[![image](assets/do-not-localize/learn-more-button.svg)](integrations/aem-content.md)
+
 >[!TAB Cross-channel workflows] 
 
 Unlock new possibilities for automation and optimization, allowing you to create more dynamic and personalized customer journeys. From advanced segmentation to conditional triggers, our additional workflow activities empower you to deliver targeted messages and drive better campaign performance.
