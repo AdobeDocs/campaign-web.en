@@ -107,12 +107,6 @@ Campaign Email Designer enables you to create captivating, individually tailored
 
 [![image](assets/do-not-localize/learn-more-button.svg)](email/get-started-email-designer.md)
 
->[!TAB Profile 360]
-
-Create new profiles, and monitor them through powerful reports and tools. Access your profiles' attributes, interactions and logs. Use the filtering options to browse the profiles list, edit and update their profile.
-
-[![image](assets/do-not-localize/learn-more-button.svg)](audience/gs-audiences-recipients.md)
-
 >[!ENDTABS]
 
 ## Start with the basics
