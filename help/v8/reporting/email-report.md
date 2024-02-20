@@ -24,12 +24,11 @@ The **Email delivery report** offers comprehensive insights and data specific to
 
 The **[!UICONTROL Initial target population]** graph displays data relative to your recipients. Metrics are calculated during delivery preparation and show: the initial audience, the number of messages to send, the number of recipients excluded.
 
-![](assets/reporting_email_1.png){zoomable="yes"}{width="30%" align="left" zoomable="yes"}
+![](assets/reporting_email_1.png){zoomable="yes"}
 
 Mouse-over a portion of the graph to display the exact number.
 
-![](assets/reporting_email_1.1.png){zoomable="yes"}{width="30%" align="left" zoomable="yes"}
-
+![](assets/reporting_email_1.1.png){zoomable="yes"}
 
 +++Learn more on Email delivery report metrics.
 
@@ -49,7 +48,7 @@ Mouse-over a portion of the graph to display the exact number.
 
 The **[!UICONTROL Delivery statistics]** graph details the success of your delivery. Metrics are detailed below.
 
-![](assets/reporting_email_2.png){zoomable="yes"}{width="30%" align="left" zoomable="yes"}
+![](assets/reporting_email_2.png){zoomable="yes"}
 
 +++Learn more on Email campaign report metrics.
 
