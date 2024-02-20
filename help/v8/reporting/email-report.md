@@ -42,12 +42,10 @@ Mouse-over a portion of the graph to display the exact number.
 
 ### Delivery statistics {#email-delivery-stats}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_summary"
 >title="Delivery statistics"
 >abstract="The **Delivery statistics** graph details the success of your delivery, and errors that occurred."
-
 
 The **[!UICONTROL Delivery statistics]** graph details the success of your delivery. Metrics are detailed below.
 
@@ -141,7 +139,12 @@ The **[!UICONTROL Broadcast statistics]** table contains the available data for 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type"
 >title="Breakdown of errors per type"
->abstract="The **Breakdown of errors per type** table and graph contain the available data for each error type encountered: user unknown, mailbox full, invalid domain, and more."
+>abstract="The **Breakdown of errors per type** graph contains the available data for each error type encountered: user unknown, mailbox full, invalid domain, and more."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_error_type_table"
+>title="Breakdown of errors per type"
+>abstract="The **Breakdown of errors per type** table provides a comprehensive breakdown of the occurrence of each error type."
 
 The **[!UICONTROL Breakdown of errors per type]** table and graph contain the available data for error type. Metrics are detailed below.
 
@@ -167,15 +170,17 @@ The errors shown in this report trigger the quarantine process. For more on quar
 
 +++
 
-
 ### Breakdown of errors per domain {#email-delivery-breakdown-domain}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain"
 >title="Breakdown of errors per domain"
->abstract="The **Breakdown of errors per domain** table and graph display the available data for each error type encountered depending on each domain."
+>abstract="The **Breakdown of errors per domain** graph displays the available data for each error type encountered depending on each domain."
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_error_domain_table"
+>title="Breakdown of errors per domain"
+>abstract="The **Breakdown of errors per domain** table provides a comprehensive breakdown of the occurrence of each error depending on the domain used."
 
 The **[!UICONTROL Breakdown of errors per domain]** table and graph display the available data for possible errors encountered with each domain. 
 
