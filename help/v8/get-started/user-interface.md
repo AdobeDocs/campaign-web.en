@@ -365,11 +365,3 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_orchestration_subscription_outboundtransition"
 >title="Subscription services outbound transition"
 >abstract="TBC"
-
-
-<!-- EMAGICA-->
-
->[!CONTEXTUALHELP]
->id="acw_emagica_generate"
->title="Generate button"
->abstract="TBC"
