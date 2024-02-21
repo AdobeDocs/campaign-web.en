@@ -8,6 +8,8 @@ exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 
 A control group is a sub-population excluded from the delivery. You can define a control group to avoid sending messages to a portion of your audience, and compare post-delivery behavior with the main target. This option helps you measure the impact of your campaign.
 
+➡️ [Discover this feature in video](create-audience.md#video)
+
 ## Enable control group{#add-a-control-group}
 
 To add a control group, enable the option when defining the audience of your delivery. The control group can be extracted randomly from the main target and/or selected from a specific population. Consequently, there are two main ways you can define a control group:
@@ -116,5 +118,3 @@ The profiles included in the audience or matching the result of the query are **
 Once the delivery is sent, you can extract the sending logs to compare behavior between the profiles which did not receive the communication and the effective target. You can also use the delivery logs to build a new targeting.
 
 To see which profiles were removed from the target, check the **Delivery logs**. Learn more [in this section](#check-control-group).
-
-
