@@ -9,7 +9,10 @@ hidefromtoc: yes
 ---
 # Get started with the Content Assistant {#generative-gs}
 
-
+>[!CONTEXTUALHELP]
+>id="acw_emagica_generate"
+>title="Generate button"
+>abstract="The Generate button lets you create multiple variations of your text, email or image based on your original prompt."
 
 <!--TO REMOVE BELOW-->
 >[!CONTEXTUALHELP]

@@ -83,6 +83,12 @@ Get a glimpse of the newest enhancements in Adobe Campaign Web product and docum
 
 >[!BEGINTABS]
 
+>[!TAB Adobe Experience Manager as a Cloud service integration] 
+
+The integration between Adobe Campaign Web Interface and Adobe Experience Manager as a Cloud Service streamlines email content management. You can now create and edit email content directly in Adobe Experience Manager, then seamlessly import the finished templates into Adobe Campaign for your deliveries.
+
+[![image](assets/do-not-localize/learn-more-button.svg)](integrations/aem-content.md)
+
 >[!TAB Cross-channel workflows] 
 
 Unlock new possibilities for automation and optimization, allowing you to create more dynamic and personalized customer journeys. From advanced segmentation to conditional triggers, our additional workflow activities empower you to deliver targeted messages and drive better campaign performance.
@@ -100,12 +106,6 @@ Create new audiences into a visual workflow canvas. Beyond starting from scratch
 Campaign Email Designer enables you to create captivating, individually tailored emails through an intuitive drag-and-drop interface. Whether you're starting from a blank slate, importing an existing content or leveraging existing templates, design and refine all content for every email!
 
 [![image](assets/do-not-localize/learn-more-button.svg)](email/get-started-email-designer.md)
-
->[!TAB Profile 360]
-
-Create new profiles, and monitor them through powerful reports and tools. Access your profiles' attributes, interactions and logs. Use the filtering options to browse the profiles list, edit and update their profile.
-
-[![image](assets/do-not-localize/learn-more-button.svg)](audience/gs-audiences-recipients.md)
 
 >[!ENDTABS]
 

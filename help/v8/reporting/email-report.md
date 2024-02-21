@@ -24,12 +24,11 @@ The **Email delivery report** offers comprehensive insights and data specific to
 
 The **[!UICONTROL Initial target population]** graph displays data relative to your recipients. Metrics are calculated during delivery preparation and show: the initial audience, the number of messages to send, the number of recipients excluded.
 
-![](assets/reporting_email_1.png){zoomable="yes"}{width="50%" align="left" zoomable="yes"}
+![](assets/reporting_email_1.png){zoomable="yes"}
 
 Mouse-over a portion of the graph to display the exact number.
 
-![](assets/reporting_email_1.1.png){zoomable="yes"}{width="50%" align="left" zoomable="yes"}
-
+![](assets/reporting_email_1.1.png){zoomable="yes"}
 
 +++Learn more on Email delivery report metrics.
 
@@ -42,16 +41,14 @@ Mouse-over a portion of the graph to display the exact number.
 
 ### Delivery statistics {#email-delivery-stats}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_summary"
 >title="Delivery statistics"
 >abstract="The **Delivery statistics** graph details the success of your delivery, and errors that occurred."
 
-
 The **[!UICONTROL Delivery statistics]** graph details the success of your delivery. Metrics are detailed below.
 
-![](assets/reporting_email_2.png){zoomable="yes"}{width="50%" align="left" zoomable="yes"}
+![](assets/reporting_email_2.png){zoomable="yes"}
 
 +++Learn more on Email campaign report metrics.
 
@@ -141,7 +138,12 @@ The **[!UICONTROL Broadcast statistics]** table contains the available data for 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type"
 >title="Breakdown of errors per type"
->abstract="The **Breakdown of errors per type** table and graph contain the available data for each error type encountered: user unknown, mailbox full, invalid domain, and more."
+>abstract="The **Breakdown of errors per type** graph contains the available data for each error type encountered: user unknown, mailbox full, invalid domain, and more."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_error_type_table"
+>title="Breakdown of errors per type"
+>abstract="The **Breakdown of errors per type** table provides a comprehensive breakdown of the occurrence of each error type."
 
 The **[!UICONTROL Breakdown of errors per type]** table and graph contain the available data for error type. Metrics are detailed below.
 
@@ -167,15 +169,17 @@ The errors shown in this report trigger the quarantine process. For more on quar
 
 +++
 
-
 ### Breakdown of errors per domain {#email-delivery-breakdown-domain}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain"
 >title="Breakdown of errors per domain"
->abstract="The **Breakdown of errors per domain** table and graph display the available data for each error type encountered depending on each domain."
+>abstract="The **Breakdown of errors per domain** graph displays the available data for each error type encountered depending on each domain."
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_error_domain_table"
+>title="Breakdown of errors per domain"
+>abstract="The **Breakdown of errors per domain** table provides a comprehensive breakdown of the occurrence of each error depending on the domain used."
 
 The **[!UICONTROL Breakdown of errors per domain]** table and graph display the available data for possible errors encountered with each domain. 
 

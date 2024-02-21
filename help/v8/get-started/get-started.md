@@ -31,6 +31,7 @@ Use Campaign to:
 * **Integrate** email, mobile, online and offline channels into the customer journey
 * **Automate** the delivery of meaningful and timely messages and offers 
 
+## Discover Campaign Web use interface {#web}
 
 Initially only available through a rich [client console](#ac-client), Campaign now provides a new web user interface (UI) with enhanced usability, accessibility, and a new design to significantly improve your user experience. This new modern UI simplifies marketing campaign design and delivery, and brings consistency, along with other Adobe solutions, including Adobe Experience Platform.
 
@@ -40,8 +41,9 @@ This new Web user interface first serves the needs of the **business practitione
 
 As an administrator or expert user, if you need to access Campaign v8 capabilities which are not available in Campaign Web user interface, you can connect to the [client console](#ac-client). 
 
-
 Learn how to connect to Adobe Campaign Web in [this page](connect-to-campaign.md).
+
+➡️ [Discover Campaign Web in video](#video) 
 
 ## About Campaign client console {#ac-client}
 
@@ -52,3 +54,9 @@ Campaign data is stored in the application server. Data is available both from t
 Some objects can only be created and managed in the client console. They can be visible and used in Campaign Web user interface, but cannot be created nor modified from this environment. All Campaign objects and components are available from the Explorer view, available from the left navigation.
 
 For more information on how to use Campaign v8 with its client console, refer to [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html){target="_blank"}.
+
+## How-to video {#video}
+
+Learn how to access and navigate the Campaign Web user interface and how to customize the inventory lists. Discover the AI powered Knowledge Assistant.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3427278?quality=12)
