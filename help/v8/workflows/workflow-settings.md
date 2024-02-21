@@ -7,11 +7,16 @@ exl-id: 3aef912b-086b-4aa4-9556-c09396112313
 
 # Configure workflow settings {#workflow-settings}
 
-When orchestrating workflow activities in the canvas, you can access advanced settings related to the workflow. For example, you can set a specific timezone for the workflow, manage how the workflow should behave in case of error, or manage the delay after which the workflow history should be purged.
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_creation_properties"
+>title="Workflow properties"
+>abstract="In this screen, choose the template to use to create the workflow and specify a label. Expand the **Additional options** section to configure more settings such as the workflow internal name, its folder, timezone, and supervisor group. It is highly recommended to select a supervisor group so that operators are alerted if an error occurs."
+
+When creating a workflow or orchestrating workflow activities in the canvas, you can access advanced settings related to the workflow. For example, you can set a specific timezone for the workflow, manage how the workflow should behave in case of error, or manage the delay after which the workflow history should be purged.
 
 These settings are pre-configured in the template selected when creating the workflow, but can be edited as needed for this specific workflow.
 
-To do this, click the **[!UICONTROL Settings]** button available in the actions bar above the workflow canvas.
 
 ![](assets/workflow-settings-button.png){zoomable="yes"}{width="70%" align="left"}
 
@@ -22,7 +27,8 @@ To do this, click the **[!UICONTROL Settings]** button available in the actions 
 >title="Workflow properties"
 >abstract="This section provides generic workflow properties that are also accessible when creating the workflow. You can choose the template to use to create the workflow and specify a label. Expand the Additional options section to configure specific settings such as the workflow storing folder or timezone."
 
-The **[!UICONTROL Properties]** section provides generic settings that are also accessible when creating the workflow. 
+The **[!UICONTROL Properties]** section provides generic settings which can be configured when creating a workflow. To access the properties of an existing workflow, click the **[!UICONTROL Settings]** button available in the actions bar above the workflow canvas.
+
 
 ![](assets/workflow-settings.png){zoomable="yes"}{width="70%" align="left"}
 
