@@ -9,10 +9,15 @@ hidefromtoc: yes
 ---
 # Get started with the Content Assistant {#generative-gs}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="acw_emagica_generate"
->title="Generate button"
->abstract="The Generate button lets you create multiple variations of your text, email or image based on your original prompt."
+>title="Adobe Generative AI terms"
+>abstract="Access to this feature is subject to your agreement to the Adobe Experience Cloud Generative AI User Guidelines, and the following:
+* Any prompts, context, or supplemental information, or other input you provide to this feature (a) must be tied to specific context, which can include your branding materials, website content, data, schemas for such data, templates, or other trusted documents, and (b) must not contain any personal information (personal information includes anything that can be linked back to a specific invidual).
+* You should review any output from this feature for accuracy and ensure that it is appropriate for your use case."
+>additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe Generative AI User Guidelines"
+-->
 
 <!--TO REMOVE BELOW-->
 >[!CONTEXTUALHELP]

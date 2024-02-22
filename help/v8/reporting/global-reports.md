@@ -8,6 +8,8 @@ exl-id: e64d9765-f602-4fee-9923-a3665130c63a
 
 The **Global reports** serve as an effective tool, offering a consolidated overall summary of traffic and engagement metrics for each channel within your Campaign instance. These reports consist of various widgets, each offering a distinct perspective on your campaign or delivery performance.
 
+Key Performance Indicators (KPIs) are refreshed hourly, ensuring up-to-date insights. By default, data is filtered to cover the past 30 days, offering a current and relevant perspective on your campaigns and deliveries performance.
+
 The full list of reports and associated metrics for each channel is available in the following pages:
 
 * [Email global reports](global-report-email.md)

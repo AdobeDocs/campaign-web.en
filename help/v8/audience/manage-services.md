@@ -122,8 +122,13 @@ You can now select these messages when [creating a subscription service](#create
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_totalnumber_subscribers"
->title="Total number of subscribers"
+>title="Subscribers count"
 >abstract="Click **Calculate** the get the total number of subscribers for this service."
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_totalnumber_subscribers_report"
+>title="Total number of subscribers"
+>abstract="The Key Performance Indicator (KPI) provides a comprehensive view of the subscriber base, showcasing the total count of individuals who have subscribed to this service."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overtheperiod_subscribers"

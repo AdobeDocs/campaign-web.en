@@ -35,6 +35,8 @@ Campaign Web allows you to create new audiences into a visual workflow canvas. B
 
 Once you've crafted your workflow, the resulting audiences are automatically stored within Campaign database alongside your existing ones. These audiences can then be targeted in workflows or standalone deliveries.
 
+➡️ [Discover this feature in video](#video) 
+
 ## Create your first audience {#create}
 
 To create an audience, follow these steps:
@@ -97,3 +99,9 @@ By default, rerunning an audience workflow replaces the entire content of the au
 If you prefer not to replace the existing audience results, configure the **Save audience** activities to align with your requirements. For example, you can change the **Audience label** field to store the new results into a new audience, or add the new results to the existing audience content without erasing previous data. [Learn how to configure a Save audience acitivty](../workflows/activities/save-audience.md)
 
 ![](assets/edit-audience-save.png){zoomable="yes"}
+
+## How-to video {#video}
+
+Learn how to build and manage audiences, how to select audiences for a delivery, and define control groups.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12)
