@@ -365,3 +365,49 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_orchestration_subscription_outboundtransition"
 >title="Subscription services outbound transition"
 >abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_command"
+>title="Load File Command"
+>abstract="Allowing arbitrary command for pre-processing is a security concern, disable security option XtkSecurity_Disable_Preproc to force the use of a predefined list of commands."
+
+
+
+
+<!--Update file-->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_updatedata"
+>title="Update Data"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_updatedata_operationtype"
+>title="Update Data"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_updatedata_recordid"
+>title="Update Data"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_updatedata_fieldsupdate"
+>title="Update Data"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_updatedata_advancedoptions"
+>title="Update Data"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_updatedata_outboundtransition"
+>title="Update Data"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_updatedata_outboundtransition_rejects"
+>title="Update Data"
+>abstract="TBC"
+
