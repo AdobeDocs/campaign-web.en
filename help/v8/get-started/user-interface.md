@@ -371,6 +371,11 @@ Deprecated IDs - to remove in GA: -->
 >title="Load File Command"
 >abstract="Allowing arbitrary command for pre-processing is a security concern, disable security option XtkSecurity_Disable_Preproc to force the use of a predefined list of commands."
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_delete"
+>title="Delete file after import"
+>abstract="TBC"
+
 
 
 
