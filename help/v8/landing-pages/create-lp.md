@@ -12,7 +12,7 @@ feature: Landing Pages
 
 The Campaign Web user interface allows you to create, design, and publish landing pages. Once published, you can insert a link to your form in a delivery. After the recipients click that link, they are directed to the corresponding landing page.
 
-[!DNL Adobe Campaign] comes with four templates to manage the following use cases: **acquisition**, **subscription**, **unsubscription**, and **denylist**.
+[!DNL Adobe Campaign] comes with four templates to manage the following use cases: **acquisition**, **subscription**, **unsubscription**, and **denylist**. [Learn more](lp-use-cases.md)
 
 ## Access landing pages {#access-landing-pages}
 
@@ -52,14 +52,14 @@ You can duplicate or delete a landing page. Click the ellipsis next to a landing
 >abstract="You can define a start date and an end date for your landing page. When the page reaches the end of the validity period, the form is no longer available. The **Expiration** page is displayed instead."
 
 >[!CONTEXTUALHELP]
->id="acw_landingpages_primarypage"
->title="Define the primary page settings"
->abstract="The primary page is immediately displayed to the users after they click the link to your landing page, such as from an email or a website."
+>id="acw_landingpages_preload"
+>title="Define pre-loading options"
+>abstract="When the **Pre-fill with the data referenced in the form** option is selected, if the visitor of the landing page matches a profile from the database, the profile's information is automatically preloaded in the form. With the **Skip preloading if no ID** option selected, each profile entered will be added to the database after approval of the form."
 
 >[!CONTEXTUALHELP]
->id="acw_landingpages_subscription"
->title="Set your subscription landing page"
->abstract="A subscription page allows your customers to subscribe to a service."
+>id="acw_landingpages_storage"
+>title="Define storage options"
+>abstract="The preloading section lets you indicate how to find the record to be updated in the database."
 
 <!--The main steps to create landing pages are as follows:
 

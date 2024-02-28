@@ -15,11 +15,17 @@ keywords: landing, landing page, use case
 >title="Copy URL with caution"
 >abstract="To fully test or leverage your landing page, you cannot copy-paste this link directly into a web browser or into your deliveries. Instead, use the **Simulate content** function to test it, and follow the steps described in documentation to make proper use of your landing page."
 
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_templates"
+>title="Copy URL with caution"
+>abstract="When creating a landing page, four out-of-the-box templates allow you to implement different use cases: add or update a profile to the Campaign database, subscribe customers to a service, unsubscribe them from a service, or opt users out."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#create-landing-page" text="Create a landing page"
+
 To make proper use of your landing page, you should reference it as a link in a delivery using the dedicated option.
 
 >[!CAUTION]
 >
->To fully leverage your landing page, you cannot copy-paste the link displayed in the published delivery dashboard directly into your deliveries or into a web page.
+>To fully leverage your landing page, you cannot copy-paste the link displayed in the published delivery dashboard directly into your deliveries or into a web page. Learn how to do it properly in this section.
 
 In the [!DNL Adobe Campaign Web] inferface, four out-of-the-box templates allow you to implement different use cases. However, the main steps remain the same and are detailed below.
 
@@ -99,6 +105,11 @@ If they opted in to receive your newsletter, they will be subscribed to the corr
 ![](assets/lp-uc-newsletter-subscriber.png){zoomable="yes"}
 
 ## Subscription to a service {#lp-subscription}
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_subscription"
+>title="Set your subscription landing page"
+>abstract="A subscription page allows your customers to subscribe to a service."
 
 One of the most common use cases consists in inviting your customers to [subscribe to a service](../audience/manage-services.md) (such as a newsletter or an event) through a landing page. Follow the steps below.
 
