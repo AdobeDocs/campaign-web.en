@@ -7,8 +7,6 @@ exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
 
 # Create the workflow {#create-first-workflow}
 
-
-
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"
 >title="List of workflows in the campaign"

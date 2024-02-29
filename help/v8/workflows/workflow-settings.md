@@ -7,7 +7,6 @@ exl-id: 3aef912b-086b-4aa4-9556-c09396112313
 
 # Configure workflow settings {#workflow-settings}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_workflow_creation_properties"
 >title="Workflow properties"
@@ -16,7 +15,6 @@ exl-id: 3aef912b-086b-4aa4-9556-c09396112313
 When creating a workflow or orchestrating workflow activities in the canvas, you can access advanced settings related to the workflow. For example, you can set a specific timezone for the workflow, manage how the workflow should behave in case of error, or manage the delay after which the workflow history should be purged.
 
 These settings are pre-configured in the template selected when creating the workflow, but can be edited as needed for this specific workflow.
-
 
 ![](assets/workflow-settings-button.png){zoomable="yes"}{width="70%" align="left"}
 

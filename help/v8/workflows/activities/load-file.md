@@ -56,6 +56,15 @@ exl-id: 230177e2-1926-451a-8a66-0db962ada514
 >title="Value remapping for Load File activity"
 >abstract="Value remapping for Load File activity"
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_command"
+>title="Load File Command"
+>abstract="Allowing arbitrary command for pre-processing is a security concern, disable security option XtkSecurity_Disable_Preproc to force the use of a predefined list of commands."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_delete"
+>title="Delete file after import"
+>abstract="TBC"
 
 The **Load file** activity is a **Data management** activity. Use this activity to work with profiles and data stored in an external file. Profiles and data are not added to the database, but all fields in the input file are available for [personalization](../../personalization/gs-personalization.md), or to update profiles, or any other table. 
 

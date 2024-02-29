@@ -31,7 +31,6 @@ These activities are specific to targeting, manipulating and enriching populatio
 * Use the [Change dimension](change-dimension.md) activity to change the targeting dimension as you are building your workflow.
 * Use the [Load file](load-file.md) activity to work with profiles and data stored in an external file. 
 
-
 ## Channel activities {#channel}
 
 Adobe Campaign Web allows you to automate and execute marketing campaigns across multiple channels. You can combine channel activities into the canvas to create cross-channel workflows that can trigger actions based on customer behavior. The following **Channel** activities are available: Email, SMS, Android and iOS Push notifications. [Learn how to set up a delivery in the context of a workflow](channels.md).

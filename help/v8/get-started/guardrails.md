@@ -11,7 +11,10 @@ Please note that, while this page identifies key considerations when working wit
 
 ## Workflow activities {#wkf-activities}
 
-Workflow activities that are not supported yet in the Campaign Web are read-only and displayed as incompatible activities. You can still execute the workflow, send messages, check the logs, etc. Workflow activities that are available both in the Campaign Web and the client console are editable. 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_query_enrichment_noneditable"
+>title="Activity non editable"
+>abstract="When a **Query** or an **Enrichment** activity is configured with additional data in the console, the enrichment data is taken into account in Campaign Web and passed into the outbound transition, but it cannot be edited."
 
 Workflow activities that are not supported yet in Campaign Web user interface are read-only and displayed as incompatible activities. You can still execute the workflow, send messages, check the logs, etc. Workflow activities that are available both in the Campaign Web user interface and the Campaign client console are editable. 
 

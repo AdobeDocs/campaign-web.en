@@ -9,7 +9,6 @@ exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
 
 With Adobe Campaign Web, you can build workflows into a visual canvas to design cross-channel processes such as segmentation, campaign execution, file processing.
 
-
 ## What's inside a workflow? {#gs-workflow-inside}
 
 The workflow diagram is a representation of what is supposed to happen. It describes the various tasks to be performed and how they are linked together. 
@@ -38,7 +37,6 @@ Campaigns offers two ways to create a workflow:
 1. Workflows can be created directly within a campaign, from the **Workflow** tab of the campaign. When included in a campaign, the workflow is executed along with all the other campaign's workflows, and the reporting metrics are all grouped at the campaign level.
 
     ![](assets/create-a-wf-from-a-campaign.png){zoomable="yes"}
-
     
 Key steps to create workflows are as follows:
 

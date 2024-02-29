@@ -11,18 +11,20 @@ exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
 >title="Permission required"
 >abstract="Your admin must grant you permission before you can create this object."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_audiences_read_only"
 >title="This audience is read only"
 >abstract="You do not have permissions to edit this audience. If needed, contact your administrator to grant you access."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_subscription_services_read_only"
 >title="This service is read only"
 >abstract="You do not have permissions to edit this service. If needed, contact your administrator to grant you access."
 
+>[!CONTEXTUALHELP]
+>id="acw_recipients_readonlyprofile"
+>title="Recipients read only profile"
+>abstract="You do not have permissions to edit this profike. If needed, contact your administrator to grant you access."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_read_only"

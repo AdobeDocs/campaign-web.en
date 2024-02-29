@@ -230,7 +230,11 @@ In the example below, we have created an intermediate group to include results f
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_ruleproperties"
 >title="Rule properties"
->abstract="Rule properties"
+>abstract="Once you've built your query in the canvas, you can check it using the **Rule properties** pane located on the right hand side.
+>
+>This pane allows you to display the resulting data, to retrieve an SQL code version of the query, and check the number of targeted records.
+>
+>Use the **Select or save filter** button to save your query as a predefined filter, or replace the canvas content with an existing filter."
 
 Once you've built your query in the canvas, you can check it using the **Rule properties** pane located on the right hand side. Available operations are:
 
