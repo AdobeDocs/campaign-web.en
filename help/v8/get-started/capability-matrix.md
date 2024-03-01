@@ -146,14 +146,27 @@ Some capabilities are only available from the client console. Browse the provide
 
 ## Data modeling and data ingestion {#data-capabilities}
 
-Campaign Web user interface does not surface the following capabilities. They are only available in the client console. 
+Campaign Web user interface does not surface the following capabilities. They are only available in the client console:
 
-Browse the provided links in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html){target="_blank"} to learn more.
+### External accounts {#external}
 
-* **External accounts**. Adobe Campaign comes with a set of pre-defined external accounts to connect with external systems. As a Campaign System Administrator, you can create and manage external accounts from the client console only.[Learn more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html){target="_blank"}
-* **Schema creation and extension**. Schema creation, modification, and extension are restricted to advanced users. These capabilities are only available from the client console. [Learn more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/schemas.html){target="_blank"}
-* **Data management** workflow activities. Data Management combines a set of activities for solving complex targeting issues by offering more efficient and flexible tools. These activities include: Data loading, Extraction (file), Update data, Edit schema, Import/export technical workflows. They are only available in the client console. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html#data-management){target="_blank"}
-* **Federated Data Access**. Campaign configuration and connection to external systems are restricted to advanced users and only available from the client console. [Learn more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html){target="_blank"}
+Adobe Campaign comes with a set of pre-defined external accounts to connect with external systems. As a Campaign System Administrator, you can create and manage external accounts from the client console only.[Learn more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html){target="_blank"}
+
+### Schema creation and extension {#schema}
+
+Schema creation, modification, and extension are restricted to advanced users. These capabilities are only available from the client console. [Learn more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/schemas.html){target="_blank"}
+
+### Workflows data management capabilities {#data}
+
+Data Management combines a set of activities for solving complex targeting issues by offering more efficient and flexible tools such as Data loading, Extraction (file), Update data, Edit schema, or Import/export technical workflows. [Discover workflows data management capabilities in the client console](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html#data-management){target="_blank"}
+    
+>[!NOTE]
+>
+>While some of these activities are available in the client console only, some are available in Campaign Web user interface such as the **Enrichment**, **Load file** or **Change dimension** activities. [Learn more on targeting and data management activites in Campaign Web user interface](../workflows/activities/about-activities.md#targeting)
+
+### Federated Data Access configuration {#fda}
+
+Campaign configuration and connection to external systems are restricted to advanced users and only available from the client console. [Learn more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html){target="_blank"}
 
 ## Approvals {#approvals-capabilities}
 
