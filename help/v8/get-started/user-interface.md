@@ -295,10 +295,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 <!-- FOR POST-GA -->
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_change_data_source"
->title="Change Data Source"
->abstract="The **Change Data Source** activity allows you to select a different data source for the working table of your workflow."
 
 
 <!--
