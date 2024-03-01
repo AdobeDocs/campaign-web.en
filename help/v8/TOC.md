@@ -123,6 +123,7 @@ breadcrumb-title: Campaign Web User Interface
     + [About workflow activites](workflows/activities/about-activities.md)
     + [And-join](workflows/activities/and-join.md)
     + [Build audience](workflows/activities/build-audience.md)
+    + [Change Data Source](workflows/activities/change-data-source.md)
     + [Change dimension](workflows/activities/change-dimension.md)
     + [Combine](workflows/activities/combine.md)
     + [Deduplication](workflows/activities/deduplication.md)
