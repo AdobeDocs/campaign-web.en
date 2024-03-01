@@ -16,11 +16,11 @@ The **Change Data Source** activity is a **targeting** activity. This activity a
 >
 >The **[!UICONTROL Change Data Source]** activity is available with the "Access to external data (Federated Data Access)" package only. [Learn more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html){target="_blank"}
 
-## What is a Working table {#working-table}
+## What is a Working table ? {#working-table}
 
 In workflows, data is transported from one activity to another is stored in a temporary **Working table**. By default, Working tables are created in the same database as the source of the data we query on. For example, when querying the "Profiles" table, stored on the Cloud database, a Working table is automatically created on the same Cloud database.
 
-To change this, you can add a **Change Data Source **activity to choose a different data source for your Working table. This allows you to leverage data from external databases to perform operations such as enrichment or querying. 
+To change this, you can add a **Change Data Source** activity to choose a different data source for your Working table. This allows you to leverage data from external databases to perform operations such as enrichment or querying. 
 
 Note that, after changing the data source of your Working table, you need to switch it back to the Cloud database to continue the workflow execution by adding another **Change Data Source** activity.
 
