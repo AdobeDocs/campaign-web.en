@@ -1,35 +1,32 @@
 ---
 audience: end-user
-title: What's new in Campaign Web v8
-description: Discover new feature coming with Campaign Web v8
+title: What's new in Campaign Web User Interface
+description: Discover new feature coming with Campaign Web User Interface
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-badge: label="Limited Availability" 
 ---
 
-# What's new? {#new}
+# What's new {#new}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card2"
 >title="Release Notes"
 >abstract="Our latest release is packed with intuitive features designed to simplify the creation of personalized cross-channel campaigns, drive exceptional results, and give you a competitive advantage across all channels."
 
-<!--TO REMOVE BELOW-->
->[!CONTEXTUALHELP]
->id="acw_homepage_card2"
->title="Release Notes"
->abstract="Our latest release is packed with intuitive features designed to simplify the creation of personalized cross-channel campaigns, drive exceptional results, and give you a competitive advantage across all channels."
-<!--TO REMOVE ABOVE-->
+We are thrilled to introduce the new version of **Adobe Campaign Web User Interface**. Our latest release is packed with intuitive features designed to simplify the creation of personalized cross-channel campaigns, drive exceptional results, and give you a competitive advantage across all channels. Campaign Web User Interface (UI) brings a connected canvas with Adobe Experience Platform for a unified experience. 
 
 
-We are thrilled to introduce the new version of Adobe Campaign Web User Interface. Our latest release is packed with intuitive features designed to simplify the creation of personalized cross-channel campaigns, drive exceptional results, and give you a competitive advantage across all channels.
+>[!AVAILABILITY]
+>
+>This version is available to all users starting [Campaign v8.6 release](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html). Learn more about Adobe Campaign releases in [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html){target="_blank"}.
+
 
 ## Key capabilities {#key-features}
 
-This new Campaign web interface is currently available in **Limited Availability** with the following capabilities:
+This new Campaign Web user interface comes with the following capabilities:
 
 **Modern, friendly, and unified experience**
 
-Campaign new Web UI offers a new user experience, aligned with all Adobe Experience Cloud solutions and apps. It offers:
+Campaign new Web user interface offers a new user experience, connected with all Adobe Experience Cloud solutions and apps. It offers:
 
 * Access to the new Campaign interface, and your other Adobe solutions with a single and shared user session
 * New navigation experience, with all menus and folders available from the left rail
@@ -41,14 +38,14 @@ Learn how to sign in to Adobe Experience Cloud and connect to Campaign in [this 
 
 **New powerful capabilities and seamless processes**
 
-Adobe Campaign Web UI provides a comprehensive graphical environment that empowers you to design complex processes that can help you manage your marketing campaigns with ease. It comes with:
+Adobe Campaign Web user interface provides a comprehensive graphical environment that empowers you to design complex processes that can help you manage your marketing campaigns with ease. It comes with:
 
 * Reimagined workflow canvas interface to design and manage your processes
 * Dynamic content to deliver highly targeted and personalized experiences to your audience
 * Native integration with Adobe Experience Platform audiences
 * Template management for workflows, deliveries, campaigns, and content
 
-Learn more about the new UI in [this page](../get-started/user-interface.md).
+Learn more about the new Web user interface in [this page](../get-started/user-interface.md).
 
 **New simplified and intuitive query modeler**
 
@@ -67,7 +64,7 @@ Learn more in [this section](../query/query-modeler-overview.md).
 
 With Adobe Campaign, you can send cross-channel campaigns including emails, SMS, and Push notifications, and measure their effectiveness using various dedicated reports. By adding multiple workflows and deliveries specific to the campaign, you can create personalized experiences across various channels, ensuring that each touchpoint resonates with the intended audience. 
 
-Use the new Campaign Web UI to:
+Use the new Campaign Web user interface to:
 
 * Create, design, personalize, schedule, and send email, SMS, and push notifications - [Learn more](../msg/gs-messages.md)
 * Design personalized email content with the email designer - [Learn more](../email/edit-content.md)
@@ -77,30 +74,19 @@ Use the new Campaign Web UI to:
 * Monitor send and measure results with built-in reports - [Learn more](../reporting/delivery-reports.md)
 
 
-## Latest release updates {#latest-release}
 
-Key capabilities coming with Campaign Web Limited Availability release are listed below.
+**New and redesigned campaign workflow activities**
 
-* **More Campaign Workflow activities**
-
-    Supercharge your marketing campaigns with our **expanded set of workflow activities**. Unlock new possibilities for automation and optimization, allowing you to create more dynamic and personalized customer journeys. From advanced segmentation to conditional triggers, our additional workflow activities empower you to deliver targeted messages and drive better campaign performance.
-
-    New activities coming with the latest LA release are: **Reconciliation**, **Load file**, and **Save audience**.
-
-    Learn more in [this section](../workflows/gs-workflows.md).
+Supercharge your marketing campaigns with our **expanded set of workflow activities**. Unlock new possibilities for automation and optimization, allowing you to create more dynamic and personalized customer journeys. From advanced segmentation to conditional triggers, our additional workflow activities empower you to deliver targeted messages and drive better campaign performance. Learn more in [this section](../workflows/gs-workflows.md).
 
 
-* **Target Audience with the query modeler**
+**Target Audience with the query modeler**
 
-    Adobe Campaign Web features a **powerful and intuitive query modeler** that simplifies the process of filtering databases to select specific targets based on various criteria. This includes the use of advanced expressions and operators. The query modeler is available in every context where you need to define rules to filter data.
+Adobe Campaign Web features a **powerful and intuitive query modeler** that simplifies the process of filtering databases to select specific targets based on various criteria. This includes the use of advanced expressions and operators. The query modeler is available in every context where you need to define rules to filter data. Learn more in [this section](../query/query-modeler-overview.md).
 
-    Learn more in [this section](../query/query-modeler-overview.md).
+**Easy profile creation and management**
 
-* **Easy profile creation and management**
-
-    You can use the new web UI to **create and update recipients** in the database directly from the Recipients menu. A simplified profile editing form allows you to enter the recipient's contact information and attributes, and update an existing recipient, without using to the Client console.
-   
-    Learn more in [this section](../audience/about-recipients.md).
+You can use the new Campaign Web user interface to **create and update recipients** in the database directly from the Recipients menu. A simplified profile editing form allows you to enter the recipient's contact information and attributes, and update an existing recipient, without using to the Client console. Learn more in [this section](../audience/about-recipients.md).
 
 <!--
 * Adobe Experience Manager (AEM) Integration
@@ -117,57 +103,55 @@ Key capabilities coming with Campaign Web Limited Availability release are liste
     Learn more in [this section](../email/generative-gs.md).
 -->
 
-* **AI-powered Contextual Help**
+**AI-powered Contextual Help**
 
-    Ask questions and find guidance directly from the product user interface. The new **AI-powered Contextual Help** helps you learn and grow your expertise on new Campaign features. Based on the latest product documentation, it assists you to find help and get step-by-step guidance instantly, as you are building your use cases. This feature is currently available in Beta, for a limited set of users.
-       
-    Learn more in [this section](../get-started/using-ai.md).
+Ask questions and find guidance directly from the product user interface. The new **AI-powered Contextual Help** helps you learn and grow your expertise on new Campaign features. Based on the latest product documentation, it assists you to find help and get step-by-step guidance instantly, as you are building your use cases. This feature is currently available in Beta, for a limited set of users. Learn more in [this section](../get-started/using-ai.md).
 
-* **Predefined Filters**
+**Predefined Filters**
     
-    Introducing Predefined Filter Management. Campaign web UI now offers you an user-friendly interface to effortlessly **manage and customize predefined filters** to meet your specific needs. Create once and save for future use.
+Introducing Predefined Filter Management. Campaign Web user interface offers you an user-friendly interface to effortlessly **manage and customize predefined filters** to meet your specific needs. Create once and save for future use. Learn more in [this section](../get-started/predefined-filters.md).
 
-    Learn more in [this section](../get-started/predefined-filters.md).
+**HTML Converter for email design**
 
-* **HTML Converter for email design**
-
-    You can now **import and convert any HTML content** in Campaign's email editor. Content blocks are automatically identified, and available in the email designer: use its powerful design capabilities to update and personalize it!
-
-    Learn more in [this section](../email/existing-content.md).
+You can now **import and convert any HTML content** in Campaign's email editor. Content blocks are automatically identified, and available in the email designer: use its powerful design capabilities to update and personalize it! Learn more in [this section](../email/existing-content.md).
 
 
-* **SMS with offers**
+**SMS with offers**
 
-    The new web UI now enables you to **integrate offers with SMS** in addition to Email. Reach your audience on their mobile devices, delivering promotions, and timely notifications. Elevate your marketing efforts by harnessing the power of integrated offers through SMS on our advanced web platform.
+The new Campaign Web user interface enables you to **integrate offers with SMS** in addition to Email. Reach your audience on their mobile devices, delivering promotions, and timely notifications. Elevate your marketing efforts by harnessing the power of integrated offers through SMS on our advanced web platform.
    
-    Learn more in [this section](../msg/offers.md).
+Learn more in [this section](../msg/offers.md).
 
-## Transition to Campaign Web UI
+## Transition to Campaign Web user interface
 
-As a Campaign user, you can still access the client console to build and manage Campaign resources and components. Data and settings are synchronized from an environment to another. Learn more in [this section](../get-started/get-started.md#about-campaign-client-consoleac-client).
+As a Campaign user, you can still access the client console to build and manage Campaign resources and components. Data and settings are synchronized from an environment to another. Learn more in [this section](../get-started/get-started.md#ac-client).
 
-In addition, all your data and settings already available in the client console are visible in the Campaign Web UI, from the Explorer left navigation. Learn more about the Explorer view in [this section](../get-started/user-interface.md#explorer-user-interface-explorer).
+In addition, all your data and settings already available in the client console are visible in the Campaign Web user interface, from the Explorer left navigation. Learn more about the Explorer view in [this section](../get-started/user-interface.md#user-interface-explorer).
 
-With Campaign Web UI release, the user interface reflects the user's permissions. Learn more about permissions in [this page](../get-started/permissions.md)
+With Campaign Web user interface, the user interface reflects the user's permissions. Learn more about permissions in [this page](../get-started/permissions.md).
+
+Supported and unsupported capabilities and interoperability between Campaign Web user interface and Campaign client console [in this page](../get-started/capability-matrix.md). 
 
 ## Terminology updates {#terminology-updates}
 
-As an existing Campaign user, note that some concepts have been renamed to align with the latest terminology standards. These changes only apply to Campaign Web UI and are not reflected in the client console. They are summarized below.
+As an existing Campaign user, note that some concepts have been renamed to align with the latest terminology standards. These changes only apply to Campaign Web user interface and are not reflected in the client console. They are summarized below.
 
-* Proofs are now **Test emails**: to send a proof, use the **Test** button in the email delivery UI. The target of the proofs is now refered as **Test profiles**. [Learn more](../preview-test/test-deliveries.md).
-* Seed addresses are now used as **Test profiles**: send the test email to seed addresses, which are additional recipients in the database. [Learn more](../preview-test/test-deliveries.md).
+* Recipients are now **Profiles**. [Learn more](../audience/gs-audiences-recipients.md).
+* Seed addresses are now **Test profiles**. [Learn more](../preview-test/test-deliveries.md).
 * Delivery analysis is now the **delivery preparation**. When you need to launch the message preparation, click the **Prepare** button. [Learn more](../monitor/prepare-send.md).
 * Email Preview is now available throught the **Simulate content** button. [Learn more](../preview-test/preview-test.md)
-* Lists are now **Audiences**. [Learn more](../audience/about-recipients.md).
+* Lists are now **Audiences**. [Learn more](../audience/gs-audiences-recipients.md).
 
 ## Limitations{#limitations-beta}
 
 The limitations below apply to this version:
 
-* Editable objects are: Recipients, Deliveries, Campaigns, Workflows, Audiences, Subscription Services, Predefined Filters, and Templates. The others are read-only. Use filters and create rules to browse them all.
-* The Administration user interface is not available.
+* Editable objects are: Recipients, Deliveries, Campaigns, Workflows, Audiences, Subscription Services, Predefined Filters, Templates, and Landing Pages. The others are read-only. Use filters and create rules to browse them all.
+* The Administration and advanced configuration capabilities are not available in Campaign Web user interface.
 * Reporting metrics (such as opens and tracking data) are updated every hour.
 * Delivery dashboard KPIs are updated every 5 min. - but the Delivery preparation is real-time.
 * Adobe Experience Cloud Notifications and Unified Help available in the top bar are not yet integrated.
 
-For more guardrails and limitations, refer to [this page](../get-started/guardrails.md).
+When working in Campaign Web user interface with workflows created or modified in Campaign client console, specific guardrails and limitations apply. They are listed [in this section](../get-started/guardrails.md).
+
+Learn more about supported/unsupported capabilities and interoperability between Campaign Web user interface and Campaign client console [in this page](../get-started/capability-matrix.md). 

@@ -1,11 +1,10 @@
 ---
 keywords: Campaign Web;home;popular topics
-description: Campaign Web v8 help center
-title: Adobe Campaign Web v8 product documentation
+description: Campaign Web help center
+title: Adobe Campaign Web product documentation
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-badge: label="Limited Availability"
 ---
-# Adobe Campaign v8 Web Documentation {#campaign-documentation}
+# Adobe Campaign Web User Interface Documentation {#campaign-documentation}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card1"
@@ -20,7 +19,7 @@ badge: label="Limited Availability"
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list1"
 >title="Item 1"
->abstract="New Email, SMS and Push notifications design experience"
+>abstract="New email, SMS, and push notifications design experience"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list2"
@@ -30,12 +29,12 @@ badge: label="Limited Availability"
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list3"
 >title="Item 3"
->abstract="Reimagined UX for Audiences, subscription, AEM Assets, landing pages"
+>abstract="Reimagined UX for audiences, subscription, AEM Assets, landing pages"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list4"
 >title="Item 4"
->abstract="Next Generation Query modeler and Email designer"
+>abstract="Next generation query modeler and email designer"
 
 <!--
 >[!CONTEXTUALHELP]
@@ -78,14 +77,17 @@ badge: label="Limited Availability"
 
 We are thrilled to introduce the new version of Adobe Campaign Web User Interface. Our latest release is packed with intuitive features designed to simplify the creation of personalized cross-channel campaigns, drive exceptional results, and give you a competitive advantage across all channels. This new modern UI simplifies marketing campaign design and delivery, and brings consistency, along with other Adobe solutions, including Adobe Experience Platform.
 
->[!AVAILABILITY]
-> Campaign v8 Web is currently in Limited Availability (LA) version. Access is restricted to a small set of LA customers. Please be aware that product interface, capabilities and usage flows can change without notice.
-
 ## What's New
 
-Get a glimpse of the newest enhancements in Adobe Campaign v8 Web product and documentation! For a comprehensive list of key capabilities and release updates features, check out [this page](rn/whats-new.md).
+Get a glimpse of the newest enhancements in Adobe Campaign Web product and documentation! For a comprehensive list of key capabilities and release updates features, check out [this page](rn/whats-new.md).
 
 >[!BEGINTABS]
+
+>[!TAB Adobe Experience Manager as a Cloud service integration] 
+
+The integration between Adobe Campaign Web Interface and Adobe Experience Manager as a Cloud Service streamlines email content management. You can now create and edit email content directly in Adobe Experience Manager, then seamlessly import the finished templates into Adobe Campaign for your deliveries.
+
+[![image](assets/do-not-localize/learn-more-button.svg)](integrations/aem-content.md)
 
 >[!TAB Cross-channel workflows] 
 
@@ -105,12 +107,6 @@ Campaign Email Designer enables you to create captivating, individually tailored
 
 [![image](assets/do-not-localize/learn-more-button.svg)](email/get-started-email-designer.md)
 
->[!TAB Profile 360]
-
-Create new profiles, and monitor them through powerful reports and tools. Access your profiles' attributes, interactions and logs. Use the filtering options to browse the profiles list, edit and update their profile.
-
-[![image](assets/do-not-localize/learn-more-button.svg)](audience/gs-audiences-recipients.md)
-
 >[!ENDTABS]
 
 ## Start with the basics
@@ -119,7 +115,7 @@ Create new profiles, and monitor them through powerful reports and tools. Access
   <tr style="border: 0;">
     <td>
     <a href="get-started/user-interface.md"><img src="assets/do-not-localize/menu-ui.jpeg"></a>
-    <div><strong>Discover the new user interface</strong><br/>Explore Campaign v8 Web's new interface and navigation experience integrated with Adobe Experience Platform.</div>
+    <div><strong>Discover the new user interface</strong><br/>Explore Adobe Campaign Web's new interface and navigation experience integrated with Adobe Experience Platform.</div>
     </td>
     <td>
     <a href="workflows/gs-workflows.md"><img src="assets/do-not-localize/menu-workflows.jpeg"></a>
@@ -127,7 +123,7 @@ Create new profiles, and monitor them through powerful reports and tools. Access
     </td>
     <td>
     <a href="email/get-started-email-designer.md"><img src="assets/do-not-localize/menu-email.png"></a>
-    <div><strong>Meet the Email Designer</strong><br/>Learn how to start from a template, or use Adobe Campaign’s new Email Designer to create emails without having to write a single line of code.
+    <div><strong>Meet the Email Designer</strong><br/>Learn how to start from a template, or use Adobe Campaign's new Email Designer to create emails without having to write a single line of code.
     </div></td>
     <td>
     <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>

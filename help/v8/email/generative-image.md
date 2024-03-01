@@ -29,11 +29,11 @@ In the example below, learn how to leverage the Content Assistant to optimize an
 
 1. From the right-hand menu, select **[!UICONTROL Experience generation]**.
 
-    ![](assets/image-genai-1.png)
+    ![](assets/image-genai-1.png){zoomable="yes"}
 
 1. Add a prompt to better fine-tune your results.
 
-    ![](assets/image-genai-2.png)
+    ![](assets/image-genai-2.png){zoomable="yes"}
 
 1. Select **[!UICONTROL Upload file]** if you want to add any brand asset which contains content that can provide additional context the Content Assistant.  
 
@@ -45,20 +45,20 @@ In the example below, learn how to leverage the Content Assistant to optimize an
 
 1. Customize the **[!UICONTROL Color & tone]**, **[!UICONTROL Content type]**, **[!UICONTROL Lighting]** and **[!UICONTROL Composition]** settings to match your desired asset characteristics.
 
-    ![](assets/image-genai-3.png)  
+    ![](assets/image-genai-3.png){zoomable="yes"}  
 
 1. Once you are satisfied with your prompt configuration, click **[!UICONTROL Generate]**.
 
 1. Browse the **[!UICONTROL Variation suggestions]** to find the desired Asset. Click **[!UICONTROL Preview]** to view a full-screen version of the selected variation.
 
-    ![](assets/image-genai-5.png)  
+    ![](assets/image-genai-5.png){zoomable="yes"}  
 
 1. Click **[!UICONTROL Select]** once you found the appropriate content.
 
-    ![](assets/image-genai-6.png)  
+    ![](assets/image-genai-6.png){zoomable="yes"}  
 
 1. After defining your message content, click the **[!UICONTROL Simulate content]** button to control the rendering, and check personalization settings with test profiles.  [Learn more](../preview-test/preview-content.md)
 
-    ![](assets/image-genai-7.png)
+    ![](assets/image-genai-7.png){zoomable="yes"}
 
 1. When you have defined your content, audience and schedule, you are ready to prepare your email delivery. [Learn more](../monitor/prepare-send.md)

@@ -2,7 +2,6 @@
 audience: end-user
 title: Export your reports
 description: Understand how to export your reports
-badge: label="Limited Availability"
 exl-id: ac48e541-7735-4961-80ee-ce9d24c8b9ad
 ---
 # Export your reports {#export-reports}
@@ -16,7 +15,7 @@ You can easily export your different reports to PDF or CSV format, which enables
 
 1. From your report, click **[!UICONTROL Export]** and select **[!UICONTROL Export as PDF file]** or **[!UICONTROL Export as CSV file]**.
 
-    ![](assets/global_report_export.png)
+    ![](assets/global_report_export.png){zoomable="yes"}
 
 1. Locate the folder where you want to save your file, rename it if needed and click **[!UICONTROL Save]**.
 

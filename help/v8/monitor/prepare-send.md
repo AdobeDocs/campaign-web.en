@@ -1,9 +1,8 @@
 ---
 audience: end-user
 title: Prepare and send an email
-description: Learn how to prepare and send an email with Campaign Web UI
+description: Learn how to prepare and send an email with Campaign Web user interface
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-badge: label="Limited Availability"
 ---
 
 # Prepare and send your email {#prepare-send}
@@ -20,12 +19,12 @@ The main steps to prepare the send are listed below.
 
 1. From the delivery dashboard, click **[!UICONTROL Review and send]**.
 
-    ![](assets/email-review-and-send.png)
+    ![](assets/email-review-and-send.png){zoomable="yes"}
 
 
 1. Click the **[!UICONTROL Prepare]** button located in the top right corner and confirm.
 
-    ![](assets/email-prepare.png)
+    ![](assets/email-prepare.png){zoomable="yes"}
 
     >[!NOTE]
     >
@@ -35,14 +34,14 @@ The main steps to prepare the send are listed below.
 
     You can stop the preparation at any time using the **[!UICONTROL Stop preparation]** button.
 
-    ![](assets/email-stop-preparation.png)
+    ![](assets/email-stop-preparation.png){zoomable="yes"}
 
     >[!NOTE]
     >During the preparation phase, no messages are sent. You can therefore start or stop this without risk of impacting anything.
 
 1. When the preparation is finished, check the KPIs. If the number of messages to send does not match your expectations, modify your audience and restart the preparation.
 
-    ![](assets/email-preparation-complete.png)
+    ![](assets/email-preparation-complete.png){zoomable="yes"}
     
     Here are the different KPIs displayed:
 
@@ -52,11 +51,11 @@ The main steps to prepare the send are listed below.
 
 1. Click the **[!UICONTROL Logs]** button and check that there is no error. The last log message displays any error messages and the number of errors. [Learn more](delivery-logs.md)
 
-    ![](assets/email-prepare-logs.png)
+    ![](assets/email-prepare-logs.png){zoomable="yes"}
 
 1. If the preparation detects a critical error preventing the delivery from being sent, the preparation status appears as failed in the delivery dashboard.
 
-    ![](assets/email-prepare-error.png)
+    ![](assets/email-prepare-error.png){zoomable="yes"}
 
 1. If you make any changes to your delivery after the preparation, you must restart the preparation for those changes to be taken into account. 
 
@@ -75,7 +74,7 @@ To immediately send an email, follow the steps below.
 
 1. From the delivery dashboard, click the **[!UICONTROL Send]** button in the top right corner.
 
-    ![](assets/email-send.png)
+    ![](assets/email-send.png){zoomable="yes"}
 
 1. Confirm this action to immediately send the message to the main target.
 
@@ -89,7 +88,7 @@ If you scheduled your email to send it at a later date and time, follow the step
 
 1. From the delivery dashboard, click the **[!UICONTROL Send as scheduled button]** button in the top right corner.
 
-    ![](assets/email-send-as-scheduled.png)
+    ![](assets/email-send-as-scheduled.png){zoomable="yes"}
 
 1. Click **[!UICONTROL Confirm sending]**. The delivery will be sent on the scheduled date to the main target.
 
@@ -105,7 +104,7 @@ Whether your delivery is scheduled or not<!--TBC-->, two actions can be performe
 
 * Click **[!UICONTROL Stop sending]** to immediately interrupt sending. Neither preparation nor sending can be resumed once stopped.
 
-![](assets/email-send-pause-or-stop.png)
+![](assets/email-send-pause-or-stop.png){zoomable="yes"}
 
 ## Check the KPIs {#check-kpis}
 
@@ -145,7 +144,7 @@ Whether your delivery is scheduled or not<!--TBC-->, two actions can be performe
 
 Once the send is complete, you can check the KPIs displayed:
 
-![](assets/email-send-kpis.png)
+![](assets/email-send-kpis.png){zoomable="yes"}
 
 * **[!UICONTROL Sent]**: the number of messages delivered. The percentage displayed is based on the total number of messages to deliver.
 

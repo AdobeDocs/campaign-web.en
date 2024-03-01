@@ -2,7 +2,6 @@
 audience: end-user
 title: Design a push notification delivery
 description: Learn how to design a push notification delivery with Adobe Campaign Web
-badge: label="Limited Availability"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
 ---
 # Design a push delivery {#content-push}
@@ -50,7 +49,7 @@ With Firebase Cloud Messaging, you can choose between two types of messages:
     To define the content, personalize data, and add dynamic content, click on the **[!UICONTROL Message]** field and use the Expression editor. You can access this editor to customize your messages.
     In the **[!UICONTROL Application variables]** menu, your Application variables are automatically added. These variables allow you to define notification behavior. For example, you can configure a specific application screen to be displayed when the user activates the notification.
     
-    ![](assets/push_content_4.png)
+    ![](assets/push_content_4.png){zoomable="yes"}
 
 * The **[!UICONTROL Notification message]**, handled automatically by the FCM SDK. FCM automatically displays the message on your users' devices on behalf of the client app. Notification messages contain a predefined set of parameters and options but can still be further personalized with custom application variables.
 
@@ -58,7 +57,7 @@ With Firebase Cloud Messaging, you can choose between two types of messages:
     
     To further personalize your push notification, you can choose an image to add to your push notification, the notification's icon to display on your profiles' devices and its color.
 
-    ![](assets/push_content_3.png)
+    ![](assets/push_content_3.png){zoomable="yes"}
 
 >[!TAB iOS]
 
@@ -68,7 +67,7 @@ You can add a **[!UICONTROL Subtitle]**, value of the subtitle parameter of the 
 
 The Silent Push mode allows a "silent" notification to be sent to a mobile application. The user is not made aware of the notification's arrival. It is transferred directly to the application.
 
-![](assets/push_content_1.png)
+![](assets/push_content_1.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -121,7 +120,7 @@ Advanced options depend on the mobile operating system: Android or iOS. Browse t
 
 >[!TAB Android]
 
-![](assets/push_content_5.png)
+![](assets/push_content_5.png){zoomable="yes"}
 
 |Parameter | Description |
 |---------|---------|
@@ -137,7 +136,7 @@ Advanced options depend on the mobile operating system: Android or iOS. Browse t
 
 >[!TAB iOS]
 
-![](assets/push_content_2.png)
+![](assets/push_content_2.png){zoomable="yes"}
 
 |Parameter | Description |
 |---------|---------|

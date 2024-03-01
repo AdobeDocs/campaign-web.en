@@ -2,7 +2,6 @@
 audience: end-user
 title: Use the Reconciliation workflow activity
 description: Learn how to use the Reconciliation workflow activity
-badge: label="Limited Availability"
 exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
 ---
 # Reconciliation {#reconciliation}
@@ -119,4 +118,4 @@ It is built with the following activities:
 
 ## Compatibility {#reconciliation-compat}
 
-The **Reconciliation** activity does not exist in the Client console. All **Enrichments** activities created in the Client console with the reconciliation options enabled are displayed as **Reconciliation** activities in Campaign Web UI.
+The **Reconciliation** activity does not exist in the Client console. All **Enrichments** activities created in the Client console with the reconciliation options enabled are displayed as **Reconciliation** activities in Campaign Web user interface.

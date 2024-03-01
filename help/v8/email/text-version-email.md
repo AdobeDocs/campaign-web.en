@@ -3,7 +3,6 @@ audience: end-user
 title: Create the text version of an email
 description: Learn how to create the text version of an email
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
-badge: label="Limited Availability" 
 ---
 # Create the text version of an email {#text-version-email}
 
@@ -15,15 +14,15 @@ If you prefer using a different content for the plain text version, follow the s
 
 1. From your email, select the **[!UICONTROL Plain text]** tab.
 
-    ![](assets/text_version_3.png)
+    ![](assets/text_version_3.png){zoomable="yes"}
 
 1. Use the **[!UICONTROL Sync with HTML]** toggle to disable synchronization.
 
-    ![](assets/text_version_1.png)
+    ![](assets/text_version_1.png){zoomable="yes"}
 
 1. Click the check mark to confirm your choice.
 
-    ![](assets/text_version_2.png)
+    ![](assets/text_version_2.png){zoomable="yes"}
 
 1. You can then edit the plain text version as desired.
 

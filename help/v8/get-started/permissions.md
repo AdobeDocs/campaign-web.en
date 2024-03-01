@@ -1,8 +1,7 @@
 ---
 audience: end-user
-title: Permission management in Campaign web
-description: Learn more about permissions in Campaign web v8
-badge: label="Limited Availability"
+title: Permission management in Campaign Web user interface
+description: Learn more about permissions in Campaign Web user interface
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
 ---
 # Access and permissions {#access-and-permissions}
@@ -12,18 +11,20 @@ exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
 >title="Permission required"
 >abstract="Your admin must grant you permission before you can create this object."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_audiences_read_only"
 >title="This audience is read only"
 >abstract="You do not have permissions to edit this audience. If needed, contact your administrator to grant you access."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_subscription_services_read_only"
 >title="This service is read only"
 >abstract="You do not have permissions to edit this service. If needed, contact your administrator to grant you access."
 
+>[!CONTEXTUALHELP]
+>id="acw_recipients_readonlyprofile"
+>title="Recipients read only profile"
+>abstract="You do not have permissions to edit this profike. If needed, contact your administrator to grant you access."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_read_only"
@@ -61,11 +62,11 @@ To view permissions for a folder, follow these steps:
 1. From the **Explorer** left nav menu, select a folder.
 1. Click the three dots on the upper right corner and select **Folder permissions**.
 
-    ![](assets/permissions-view-menu.png){width="70%" align="left" zoomable="yes"}
+    ![](assets/permissions-view-menu.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 1. Check details in the screen, as below:
 
-    ![](assets/permissions-view-screen.png){width="70%" align="left" zoomable="yes"}
+    ![](assets/permissions-view-screen.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
     A group, or an operator, can have Read, Write, and/or Delete permissions on data which are stored in the selected folder. 
     
@@ -90,8 +91,8 @@ To create a folder, follow these steps:
 1. Click the three dots on the upper right corner and choose **Create new subfolder**.
 1. Enter the name of the folder and save. 
 
-    ![](assets/create-new-subfolder.png){width="70%" align="left" zoomable="yes"}
+    ![](assets/create-new-subfolder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
-    The folder is added as a subfolder of the current folder. Browse to that new folder to create components directly into it. You can also create a component from any folder, and save it in that new folder, from the **Additional Options** section of the propertes, as shown below for a delivery:
+    The folder is added as a subfolder of the current folder. Browse to that new folder to create components directly into it. You can also create a component from any folder, and save it in that new folder, from the **Additional Options** section of the properties, as shown below for a delivery:
 
-    ![](assets/delivery-properties-folder.png){width="70%" align="left" zoomable="yes"}
+    ![](assets/delivery-properties-folder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}

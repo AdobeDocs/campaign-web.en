@@ -1,9 +1,8 @@
 ---
 audience: end-user
 title: Send your first email
-description: Learn how to send your first email with Campaign Web UI
+description: Learn how to send your first email with Campaign Web user interface
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-badge: label="Limited Availability" 
 ---
 
 # Create your first email {#first-email}
@@ -53,7 +52,7 @@ To create a new standalone email delivery, follow the steps below.
     >
     >Templates are pre-configured delivery settings saved for future use. [Learn more](../msg/delivery-template.md)
 
-    ![](assets/channel-template.png)
+    ![](assets/channel-template.png){zoomable="yes"}
 
 1. Click the **[!UICONTROL Create delivery]** button to confirm.
 1. Enter a label for the delivery and configure additional options based on your needs:
@@ -68,7 +67,7 @@ To create a new standalone email delivery, follow the steps below.
     >
     >If you have extended your schema with specific custom fields, you can access them in the **[!UICONTROL Custom options]** section.
 
-    ![](assets/email-properties.png)
+    ![](assets/email-properties.png){zoomable="yes"}
 
 1. Additionally, advanced settings, such as typology rules and target mappings, can be accessed via the **[!UICONTROL Settings]** button located on the top right of the screen. These settings are pre-configured in the selected template, but can be edited as needed for this specific email. [Learn more](../advanced-settings/delivery-settings.md)
 
@@ -89,7 +88,7 @@ Additional instructions on how to work with audiences are available in [this sec
 
     In this example, we want to use an existing audience targeting customers belonging to the silver and gold loyalty points levels.
 
-    ![](assets/create-audience.png)
+    ![](assets/create-audience.png){zoomable="yes"}
 
     >[!NOTE]
     >
@@ -97,7 +96,7 @@ Additional instructions on how to work with audiences are available in [this sec
 
 1. Once the audience is selected, you can further refine the target by applying additional rules.
 
-    ![](assets/audience-selected.png)
+    ![](assets/audience-selected.png){zoomable="yes"}
 
 1. You can also set a control group to analyze the behavior of the email recipients compared to those who were not targeted. [Learn how to work with control groups](../audience/control-group.md)
 
@@ -109,47 +108,47 @@ To start creating your email content, follow the steps below. In this use case, 
 
 1. From the email delivery dashboard, click the **[!UICONTROL Edit content]** button.
 
-    ![](assets/email-edit-content.png)
+    ![](assets/email-edit-content.png){zoomable="yes"}
 
    This brings you to a dedicated interface where you can configure the email content and access the Email Designer. [Learn more](edit-content.md)
 
-    ![](assets/edit-content.png)
+    ![](assets/edit-content.png){zoomable="yes"}
 
 1. Enter the subject line of your email and personalize it using the Expression Editor. [Learn how to personalize your content](../personalization/personalize.md)
 
-    ![](assets/subject-line.png)
+    ![](assets/subject-line.png){zoomable="yes"}
 
 1. To design the content of the email, click the **[!UICONTROL Edit email body]** button.
 
     Choose the method to use to create your email content. In this example, use a [predefined content template](create-email-templates.md).
 
-    ![](assets/select-template.png)
+    ![](assets/select-template.png){zoomable="yes"}
 
 1. Once you have selected the template, it is displayed in the [Email Designer](create-email-content.md), where you can make any necessary edits and add personalization.
 
     For example, to add personalization to the email title, select the component block and click **[!UICONTROL Add Personalization]**.
 
-    ![](assets/add-perso.png)
+    ![](assets/add-perso.png){zoomable="yes"}
 
 1. Once you are satisfied with the content, save and close your design. Click **[!UICONTROL Save]** to return to the email creation screen.
 
-    ![](assets/save-content.png)
+    ![](assets/save-content.png){zoomable="yes"}
 
 ## Schedule the sending {#schedule}
 
-To schedule the sending of the email, follow the steps below.
+When a delivery is sent in the context of a workflow, you must use the **Scheduler** activity. Learn more in [this page](../workflows/activities/scheduler.md). Steps below only apply to standalone deliveries.
 
-Additional instructions on how to schedule the delivery sending are detailed in [this section](../msg/gs-messages.md#gs-schedule).
-
-1. Browse to the **[!UICONTROL Schedule]** section.
+1. Browse to the **[!UICONTROL Schedule]** section of the delivery properties.
 
 1. Use the **[!UICONTROL Enable scheduling]** toggle to activate it.
 
 1. Set the desired date and time for sending.
 
-    ![](assets/schedule.png)
+    ![](assets/schedule.png){zoomable="yes"}
 
-Once you send the delivery, the actual sending will start on the contact date you have defined.
+Once you send the delivery, the actual sending starts on the contact date you have defined.
+
+Learn more about delivery scheduling in [this section](../msg/gs-deliveries.md#schedule-the-delivery-sending).
 
 ## Preview and test the email {#preview-test}
 
@@ -163,13 +162,13 @@ Additional information on how to preview and test emails are available in [this 
 
 1. To preview the email and send test versions, click the **[!UICONTROL Simulate content]** button. 
 
-    ![](assets/review-email.png)
+    ![](assets/review-email.png){zoomable="yes"}
 
 1. On the left-hand side, select the profile(s) you want to use to preview the email.
 
     The right pane displays a preview of the email based on the selected profile. If you have added multiple profiles, you can switch between them to preview the corresponding email.
 
-    ![](assets/preview.png)
+    ![](assets/preview.png){zoomable="yes"}
 
     <!--Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering
     -->
@@ -178,19 +177,19 @@ Additional information on how to preview and test emails are available in [this 
 
     In this example, use the **[!UICONTROL Substitute from main target]** mode, which sends test versions to specific email addresses while impersonating some of the profiles targeted by the email.
 
-    ![](assets/proof-mode.png)
+    ![](assets/proof-mode.png){zoomable="yes"}
 
 1. Click **[!UICONTROL Add address]** and specify the email address(es) which receive the test versions.
 
     For each email address, select the profile to impersonate. You can also let Adobe Campaign select a random profile from the target.
 
-    ![](assets/proof-test-profile.png)
+    ![](assets/proof-test-profile.png){zoomable="yes"}
 
 1. Click **[!UICONTROL Send test email]** and confirm the sending.
 
     Test versions are sent to the specified email addresses using the selected profile with the **[Proof x]** prefix.
 
-    ![](assets/proof-sent.png)
+    ![](assets/proof-sent.png){zoomable="yes"}
 
     You can check the status of the sending and access the sent test emails at any time by clicking the **[!UICONTROL View test email log]** button in the simulate content screen.
 
@@ -200,19 +199,19 @@ After reviewing and testing your email, you can launch its preparation and send 
 
 1. To launch the preparation of the email, click **[!UICONTROL Prepare]**. [Learn how to prepare an email](../monitor/prepare-send.md)
 
-    ![](assets/preparation.png)
+    ![](assets/preparation.png){zoomable="yes"}
  
 1. Once your email is ready to be sent, click the **[!UICONTROL Send]** button (or **[!UICONTROL Send as scheduled]** if you have scheduled its sending) and confirm the sending.
 
 1. During the sending process, you can track its progress and view statistics in real-time directly in this screen.
 
-    ![](assets/sending-email.png)
+    ![](assets/sending-email.png){zoomable="yes"}
 
     <!--
-    ![](assets/sent-email.png)-->
+    ![](assets/sent-email.png){zoomable="yes"}-->
 
     You can also access detailed information on the sending by clicking the **[!UICONTROL Logs]** button. [Learn how to monitor delivery logs](../monitor/delivery-logs.md)     
 
 1. After the email has been sent, you can access dedicated reports for further analysis by clicking the **[!UICONTROL Reporting]** button.
 
-![](assets/reports.png)
+![](assets/reports.png){zoomable="yes"}

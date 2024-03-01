@@ -2,7 +2,6 @@
 audience: end-user
 title: Campaign reports for the Push channel
 description: Understand campaign reports for the Push channel
-badge: label="Limited Availability"
 exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
 ---
 # Campaign reports for the Push channel {#campaign-reports-push-channel}
@@ -18,7 +17,7 @@ Each campaign report is divided into different widgets detailing your campaign's
 
 The **[!UICONTROL Delivery Overview]** report provides key performance indicators (KPIs) that give detailed information about how your visitors engage with your push notification delivery. Metrics are detailed below.
     
-![](assets/campaign-reporting-push-summary.png)
+![](assets/campaign-reporting-push-summary.png){zoomable="yes"}
 
 
 +++Learn more on Push campaign report metrics.
@@ -43,7 +42,7 @@ The **[!UICONTROL Delivery Overview]** report provides key performance indicator
 
 The **[!UICONTROL Initial target audience statistics]** table displays data relative to your recipients. Metrics are detailed below.
 
-![](assets/campaign-reporting-push-target.png)
+![](assets/campaign-reporting-push-target.png){zoomable="yes"}
 
 
 +++Learn more on Push campaign report metrics.
@@ -65,7 +64,7 @@ The **[!UICONTROL Initial target audience statistics]** table displays data rela
 
 The **[!UICONTROL Execution statistics]** table details the success of your delivery. Metrics are detailed below.
 
-![](assets/campaign-reporting-push-exec.png)
+![](assets/campaign-reporting-push-exec.png){zoomable="yes"}
 
 
 +++Learn more on Push campaign report metrics.
@@ -91,7 +90,7 @@ The **[!UICONTROL Execution statistics]** table details the success of your deli
 
 The **[!UICONTROL Generated click streams]** table displays data relative to how your recipients interacted with your delivery. Metrics are detailed below.
 
-![](assets/campaign-reporting-push-clicks.png)
+![](assets/campaign-reporting-push-clicks.png){zoomable="yes"}
 
 +++Learn more on Push campaign report metrics.
 

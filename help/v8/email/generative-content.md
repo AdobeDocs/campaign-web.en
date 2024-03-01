@@ -29,13 +29,13 @@ To generate and improve an email content with the Content Assistant, follow the 
 
 1. Select the **[!UICONTROL Text component]** you want to update and access the Experience generation menu.
 
-    ![](assets/text-genai-1.png)
+    ![](assets/text-genai-1.png){zoomable="yes"}
 
 1. Fine tune the content by describing what you want to generate. 
     
     Enable the **[!UICONTROL Enhance with current context]** option for the Content Assistant to personalize new content based on your delivery, delivery name, and selected audience.
 
-    ![](assets/text-genai-3.png)
+    ![](assets/text-genai-3.png){zoomable="yes"}
 
 1. Select **[!UICONTROL Upload file]** to add any brand asset which contains content that can provide additional context the Content Assistant.  
 
@@ -45,7 +45,7 @@ To generate and improve an email content with the Content Assistant, follow the 
 
 1. Choose the **[!UICONTROL Language]** and **[!UICONTROL Tone]** that you want the generated text to have. This will ensure that the text is appropriate for your audience and purpose.
 
-    ![](assets/text-genai-4.png)  
+    ![](assets/text-genai-4.png){zoomable="yes"}  
 
 1. Use the slider control to set the length of the generated text.
 
@@ -53,14 +53,14 @@ To generate and improve an email content with the Content Assistant, follow the 
 
 1. Browse through the generated **[!UICONTROL Variations]** and click **[!UICONTROL Apply]** once you found the appropriate content.
 
-    ![](assets/text-genai-5.png)  
+    ![](assets/text-genai-5.png){zoomable="yes"}  
 
 1. Insert personalization fields to customize your email content based on profiles data. [Learn more about content personalization](../personalization/personalize.md)
 
-    ![](assets/text-genai-6.png)  
+    ![](assets/text-genai-6.png){zoomable="yes"}  
 
 1. After defining your message content, click the **[!UICONTROL Simulate content]** button to control the rendering, and check personalization settings with test profiles. [Learn more](../preview-test/preview-content.md)
 
-    ![](assets/text-genai-7.png)
+    ![](assets/text-genai-7.png){zoomable="yes"}
 
 1. When you have defined your content, audience and schedule, you are ready to prepare your email delivery. [Learn more](../monitor/prepare-send.md)

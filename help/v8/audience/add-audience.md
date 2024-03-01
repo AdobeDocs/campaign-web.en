@@ -3,7 +3,6 @@ audience: end-user
 title: Select an existing audience
 description: Learn how to select an audience
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-badge: label="Limited Availability" 
 ---
 
 # Select an existing audience {#add-audience}
@@ -24,20 +23,24 @@ To select an existing audience for your message, follow the steps below:
 
 1. From the **Audience** section of the delivery creation assistant, click the **[!UICONTROL Select audience]** button then choose **[!UICONTROL Select audience]** to use an existing audience. 
 
-   ![](assets/create-audience.png)
+   ![](assets/create-audience.png){zoomable="yes"}
 
 1. This screen displays all existing audiences, for the current folder.
 
-    ![](assets/create-audience2.png)
+    ![](assets/create-audience2.png){zoomable="yes"}
 
-   To choose an audience from Adobe Experience Platform, browse to the `AEP Audiences folder` from the filter section of the screen. [Learn how to use an Adobe Experience Platform audience](aep-audience.md)
+   To choose an audience from Adobe Experience Platform, browse to the `AEP Audiences folder` from the filter section of the screen.
 
-    ![](assets/select-audience-folder.png)
+    ![](assets/select-audience-folder.png){zoomable="yes"}
 
 1. The filter section allows you to access filtering options to refine the audiences list. To do this, click **Add rules** to access the query modeler, which lets you create advanced filters for the list of audiences. [Learn how to use the query modeler](../query/query-modeler-overview.md)
 
+    For example, you can define a rule to filter on the origin of the audiences, as shown below:
+
+    ![](assets/filter-on-aep-audience.png){zoomable="yes"}
+
 1. Click **Confirm** to add your audience as the delivery main target. Once done, you can still refine the audience using the query modeler by clicking the **Edit rules** button.
 
-   ![](assets/refine-audience.png)
+   ![](assets/refine-audience.png){zoomable="yes"}
 
    You can also set a control group to measure the impact of your campaigns. The control group do not receive the message. This allows you to compare the behavior of the population which received the message with the behavior of contacts which did not. [Learn more](control-group.md)

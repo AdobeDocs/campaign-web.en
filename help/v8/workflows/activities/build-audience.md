@@ -2,7 +2,6 @@
 audience: end-user
 title: Use the Build audience workflow activity
 description: Learn how to use the Build audience workflow activity
-badge: label="Limited Availability"
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
 ---
 # Build audience {#build-audience}
@@ -29,11 +28,6 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 -->
 
 ## Configure the Build audience activity{#build-audience-configuration}
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_build_audience_dimension"
->title="Select the targeting dimension"
->abstract="The targeting dimension lets you define the population targeted by the operation: recipients, contract beneficiaries, operator, subscribers, etc. By default, the target is selected from the recipients."
 
 Follow these steps to configure the **Build audience** activity:
 

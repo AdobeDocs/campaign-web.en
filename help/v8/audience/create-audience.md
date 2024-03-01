@@ -2,14 +2,13 @@
 audience: end-user
 title: Create audiences
 description: Learn how to create audiences in Adobe Campaign Web
-badge: label="Limited Availability"
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
 ---
 # Create audiences {#create-audiences}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
->title="Audience Composition"
+>title="Audience composition"
 >abstract="Create new audiences into a visual workflow canvas. Beyond starting from scratch to create a simple audience, you can also leverage workflow activities to refine your audience. Combine multiple audiences into a single one, enrich your audience with external attributes, or divide a it into multiple audiences based on rules of your choice."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="See release notes"
 
@@ -36,6 +35,8 @@ Campaign Web allows you to create new audiences into a visual workflow canvas. B
 
 Once you've crafted your workflow, the resulting audiences are automatically stored within Campaign database alongside your existing ones. These audiences can then be targeted in workflows or standalone deliveries.
 
+➡️ [Discover this feature in video](#video) 
+
 ## Create your first audience {#create}
 
 To create an audience, follow these steps:
@@ -48,7 +49,7 @@ To create an audience, follow these steps:
 
     * The "New audience" **[!UICONTROL Save audience]** activity represents the final step in your workflow, enabling you to save the results as a new audience.
 
-    ![](assets/create-audience-blank.png)
+    ![](assets/create-audience-blank.png){zoomable="yes"}
 
     >[!IMPORTANT]
     >
@@ -64,7 +65,7 @@ To create an audience, follow these steps:
     >
     >Channel activities are not available for use in audience workflows.
 
-    ![](assets/audience-creation-canvas.png)
+    ![](assets/audience-creation-canvas.png){zoomable="yes"}
 
 1. Configure the **[!UICONTROL Save audience]** activity to specify how you want to save the population computed upstream in the workflow. [Learn how to configure a Save audience activity](../workflows/activities/save-audience.md)
 
@@ -78,7 +79,7 @@ You can now use this audience as the main target of a delivery. [Learn more](add
 
 The example below shows an audience workflow configured to target female customers living in New York and create two new audiences depending on their latest purchase (Yoga or Running gear).
 
-![](assets/audiences-example.png)
+![](assets/audiences-example.png){zoomable="yes"}
 
 1. The **[!UICONTROL Build audience]** activity targets all female profiles living in New York.
 1. The **[!UICONTROL Enrichment]** activity enriches the audience with information from the Purchases table to identify which type of product the customers purchased.
@@ -97,4 +98,10 @@ By default, rerunning an audience workflow replaces the entire content of the au
 
 If you prefer not to replace the existing audience results, configure the **Save audience** activities to align with your requirements. For example, you can change the **Audience label** field to store the new results into a new audience, or add the new results to the existing audience content without erasing previous data. [Learn how to configure a Save audience acitivty](../workflows/activities/save-audience.md)
 
-![](assets/edit-audience-save.png)
+![](assets/edit-audience-save.png){zoomable="yes"}
+
+## How-to video {#video}
+
+Learn how to build and manage audiences, how to select audiences for a delivery, and define control groups.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12)

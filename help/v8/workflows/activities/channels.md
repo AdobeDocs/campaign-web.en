@@ -2,7 +2,6 @@
 audience: end-user
 title: Use a delivery workflow activity
 description: Learn how to add a delivery workflow activity (Email, Push, SMS)
-badge: label="Limited Availability"
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
 ---
 # Email, SMS, Push activities {#channel}

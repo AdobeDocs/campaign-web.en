@@ -1,11 +1,10 @@
 ---
 title: Personalize your content in Campaign
-description: Learn how to personalize your content in Adobe Campaign web UI
+description: Learn how to personalize your content in Adobe Campaign Web
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Beginner
-badge: label="Beta"
 exl-id: 45cdd310-7c0c-4b57-bb7f-0576d8eca19d
 ---
 # Add built-in content blocks {#ootb-content-blocks}
@@ -18,13 +17,13 @@ To add a content block into a delivery follow these steps:
 
 1. Locate the field where you want to add a content block and click the **[!UICONTROL Open personalization dialog]** icon to open the expression editor.
 
-    ![](assets/content-block-access.png){width="800" align="center"}
+    ![](assets/content-block-access.png){zoomable="yes"}{width="800" align="center"}
 
 1. In the expression editor, browse to the **[!UICONTROL Content blocks]** left menu.
 
 1. To add a content block, place your cursor at the desired location within your content and click the '+' button to insert it.
 
-    ![](assets/content-blocks.png){width="800" align="center"}
+    ![](assets/content-blocks.png){zoomable="yes"}{width="800" align="center"}
 
 Built-in content blocks are:
 

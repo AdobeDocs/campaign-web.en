@@ -2,7 +2,6 @@
 audience: end-user
 title: Global reports for the direct mail channel
 description: Learn more about Global reports for the direct mail channel
-badge: label="Limited Availability"
 ---
 # Global reports for the direct mail channel {#global-report-direct}
 
@@ -16,7 +15,7 @@ Navigate to the **[!UICONTROL Reports]** menu within the **[!UICONTROL Reporting
 
 The **[!UICONTROL Delivery Overview]** presents key performance metrics (KPIs) offering in-depth insights into the interaction of your visitors with each email delivery. The metrics are outlined below.
 
-![](assets/global_report_email_delivery_overview.png){align="center"}
+![](assets/global_report_email_delivery_overview.png){zoomable="yes"}{align="center"}
 
 +++Learn more on Delivery overview metrics.
 
@@ -33,7 +32,7 @@ The **[!UICONTROL Delivery Overview]** presents key performance metrics (KPIs) o
 
 The table and graph for **[!UICONTROL Targeted Audience]** showcase data related to your recipients, with detailed metrics provided below.
 
-![](assets/global_report_email_targeted_audience.png){align="center"}
+![](assets/global_report_email_targeted_audience.png){zoomable="yes"}{align="center"}
 
 +++Learn more on Targeted audience metrics.
 
@@ -49,7 +48,7 @@ The table and graph for **[!UICONTROL Targeted Audience]** showcase data related
 
 The **[!UICONTROL Delivery statistics]** table provides a breakdown of the success of every direct mail delivery, with detailed metrics outlined below.
 
-![](assets/global_report_email_delivery_statistics.png){align="center"}
+![](assets/global_report_email_delivery_statistics.png){zoomable="yes"}{align="center"}
 
 +++Learn more on Delivery statistics metrics.
 
@@ -65,7 +64,7 @@ The **[!UICONTROL Delivery statistics]** table provides a breakdown of the succe
 
 ### Causes of exclusion {#causes-exclusion}
 
-![](assets/global_report_email_exclusions.png){align="center"}
+![](assets/global_report_email_exclusions.png){zoomable="yes"}{align="center"}
 
 The Exclusions graph and table illustrate the reasons that prevented user profiles, excluded from the targeted profiles, from receiving the message.
 

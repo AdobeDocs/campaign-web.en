@@ -2,7 +2,6 @@
 audience: end-user
 title: Use the Scheduler workflow activity
 description: Learn how to use the Scheduler workflow activity
-badge: label="Limited Availability"
 exl-id: 84142fbe-fd8a-4329-88a5-cf7a8f4e8b8f
 ---
 # Scheduler {#scheduler}

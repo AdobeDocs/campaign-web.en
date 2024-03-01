@@ -1,13 +1,12 @@
 ---
 audience: end-user
 title: Discover the interface
-description: Campaign v8 Web user interface
+description: Adobe Campaign Web user interface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-badge: label="Limited Availability" 
 ---
 # Discover the interface {#user-interface}
 
-The new Campaign v8 Web interface offers a modern and intuitive user experience to simplify marketing campaign design and delivery. This new interface is integrated with Adobe Experience Cloud apps and solutions. 
+The new Adobe Campaign Web interface offers a modern and intuitive user experience to simplify marketing campaign design and delivery. This new interface is integrated with Adobe Experience Cloud apps and solutions. 
 
 Learn how to connect to Adobe Campaign and discover Experience Cloud navigation basics [in this article](connect-to-campaign.md).
 
@@ -27,17 +26,17 @@ Campaign home page lets you quickly and easily browse key resources, indicators,
 
 The upper section of the home page provides details about latest updates and new capabilities available in the product, with link to Release Notes and detailed documentation. Use the left arrow to scroll feature cards. 
 
-![](assets/home.png)
+![](assets/home.png){zoomable="yes"}
 
 The **Key performance indicators** lets you check your platform effectiveness through common KPIs. Learn more about these KPIs in [this page](../reporting/kpis.md).
 
 The **Recents** list provides shortcuts to the recently created and modified deliveries. This list shows their channel, status, owner, creation and modification dates. Click the **Show more** link to load more deliveries.
 
-In addition, you can access Campaign v8 Web key help pages from the **Learning** section of the page.
+In addition, you can access Adobe Campaign Web key help pages from the **Learning** section of the page.
 
 ## Left navigation menu {#user-interface-left-nav}
 
-Browse the links on the left to access Campaign v8 Web capabilities. Several links display lists of objects which can be sorted and filtered. You can also configure columns to display all the information you need. See this [section](#list-screens). Some list screens are read-only. The items displayed in the left navigation menu and in the lists depend on your user permissions. Learn more about permissions in [this section](permissions.md).
+Browse the links on the left to access Adobe Campaign Web capabilities. Several links display lists of objects which can be sorted and filtered. You can also configure columns to display all the information you need. See this [section](#list-screens). Some list screens are read-only. The items displayed in the left navigation menu and in the lists depend on your user permissions. Learn more about permissions in [this section](permissions.md).
 
 
 ### Explorer {#user-interface-explorer} 
@@ -65,7 +64,7 @@ In the CAMPAIGN MANAGEMENT section, you can access marketing campaigns, deliveri
 
     Use the **More actions** button to delete or duplicate a delivery.
 
-    ![](assets/more-actions.png){width="70%" align="left"}
+    ![](assets/more-actions.png){zoomable="yes"}{width="70%" align="left"}
 
 * **Workflows** - In this screen, you can access the full list of workflows and workflow templates. You can check their status, last/next execution dates, and create a new workflow or a new workflow template. You can filter the list with the same criteria as for other objects. In addition, you can filter workflows which belong to a campaign, or not. Learn more about workflows [in this section](../workflows/gs-workflows.md).
 
@@ -113,14 +112,13 @@ Learn how to create and send offers in emails and SMS in [this section](../msg/o
 
 A contextual help is available in the interface. When available, click on the `?` icon to display help information and related documentation links. 
 
-![](assets/do-not-localize/context-help.png){width="40%" align="left"}
+![](assets/do-not-localize/context-help.png){zoomable="yes"}{width="40%" align="left"}
 
-Currently released as a Beta version within the new Campaign web UI, the **AI-powered Knowledge Assistant** embedded within contextual help revolutionizes documentation searching and answering how-to questions with effortlessly sifting through vast documentation repositories, instantly pinpointing the precise information you need.
+Currently released as a Beta version within the new Campaign Web user interface, the **AI-powered Knowledge Assistant** embedded within contextual help revolutionizes documentation searching and answering how-to questions with effortlessly sifting through vast documentation repositories, instantly pinpointing the precise information you need.
 
 Thanks to Campaign Gen AI's capabilities, this assistant transforms your experience, making information retrieval and problem-solving a breeze. Whether you're seeking guidance in a complex task or navigating extensive documents, our AI-powered Knowledge Assistant is your ultimate companion, providing unmatched efficiency and accuracy in every interaction.
 
 Learn more in [this section](using-ai.md).
-
 
 
 ## Learn more {#learn-more}
@@ -137,7 +135,6 @@ REFER TO
 https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
 
-
 >[!CONTEXTUALHELP]
 >id="acw_push_permission_for_segment"
 >title="Permission required"
@@ -148,11 +145,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Permission required"
 >abstract="Your administrator must grant you permission before you can create a segment."
 
-<!-- Workflows-->
-
-
 <!-- delivery template settings-->
-
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sending"
@@ -164,22 +157,9 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Global reports tracking"
 >abstract="Tracking reporting metrics are visible in this screen"
 
->[!CONTEXTUALHELP]
->id="acw_campaign_workflow_list"
->title="Workflow list in a campaign"
->abstract="Workflow list in a campaign"
-
-<!-- delivery settings-->
-
-
-
-
-
 
 <!-- FOR BETA (alignment) -->
 <!--https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CBETA%3E-+Official+list-->
-
-
 
 
 <!-- FOR GA -->
@@ -214,67 +194,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_recipients_offers_preview_proposition"
 >title="Recipients offers preview"
 >abstract="Recipients offers preview"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_readonlyprofile"
->title="Recipients read only profile"
->abstract="Recipients read only profile"
-
->[!CONTEXTUALHELP]
->id="acw_subscriptions_delivery_template"
->title="Subscriptions delivery template"
->abstract="Subscriptions delivery template"
-
->[!CONTEXTUALHELP]
->id="acw_landingpages_menu"
->title="Landing Pages"
->abstract="Landing Pages"
-
->[!CONTEXTUALHELP]
->id="acw_landingpages_properties"
->title="Landing Pages properties"
->abstract="Landing Pages properties"
-
->[!CONTEXTUALHELP]
->id="acw_landingpages_pages_list"
->title="Landing Pages pages"
->abstract="Landing Pages pages"
-
->[!CONTEXTUALHELP]
->id="acw_landingpages_schedule"
->title="Landing Pages schedule"
->abstract="Landing Pages schedule"
-
->[!CONTEXTUALHELP]
->id="acw_landingpages_primarypage"
->title="Landing Pages primary page"
->abstract="Landing Pages primary page"
-
->[!CONTEXTUALHELP]
->id="acw_landingpages_subscription"
->title="Landing Pages subscription"
->abstract="Landing Pages subscription"
-
->[!CONTEXTUALHELP]
->id="acw_landingpages_calltoaction"
->title="Landing Pages call to action"
->abstract="Landing Pages call to action"
-
->[!CONTEXTUALHELP]
->id="acw_landingpages_simulate"
->title="Landing Pages simulate"
->abstract="Landing Pages simulate"
-
-
-
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_query_enrichment_noneditable"
->title="Activity non editable"
->abstract="Activity non editable"
-
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"
@@ -314,8 +233,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 
-
-
 >[!CONTEXTUALHELP]
 >id="acw_conditionalcontent_savefilter"
 >title="Conditional content save filter"
@@ -341,22 +258,25 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_deliveries_simulate_testprofiles"
 >title="Simulate test profiles"
 >abstract="Simulate test profiles"
+<!--ML: not visible in UI-->
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_profiles_selection"
 >title="Simulate test profiles selection"
 >abstract="Simulate test profiles selection"
+<!-- ML: beta wiki page - not visible in UI-->
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_send_testprofiles"
 >title="Simulate test profiles sending"
 >abstract="Simulate test profiles sending"
+<!-- ML: beta wiki page - not visible in UI-->
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_email_log"
 >title="Simulate email log"
 >abstract="Simulate email log"
-
+<!-- ML: beta wiki page - not visible in UI-->
 
 >[!CONTEXTUALHELP]
 >id="acw_directmail_content"
@@ -372,6 +292,13 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_directmail_properties_content"
 >title="Content properties for Direct Mail"
 >abstract="Content properties for Direct Mail"
+
+<!-- FOR POST-GA -->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_change_data_source"
+>title="Change Data Source"
+>abstract="The **Change Data Source** activity allows you to select a different data source for the working table of your workflow."
 
 
 <!--
@@ -391,3 +318,78 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_rulebuilder_properties_advanced"
 >title="Rule builder advanced attributes"
 >abstract="Only the most common attributes are displayed by default in the attribute list. Activate the **Display advanced attributes** toggle to see all available attributes for the current list in the left palette of the rule builder, such as nodes, groupings, 1-1 links, 1-N links."
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_contenttemplate_readonlymode"
+>title="This template is ready only"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_generatesubsets"
+>title="Generate all subsets in the same table"
+>abstract="TBC"
+<!-- ML: not found in wiki pages-->
+
+
+<!-- Subscription activity-->
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_defaultlp"
+>title="Default Landing Pages"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_subscription"
+>title="Subscription services"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_subscription_general"
+>title="Subscription services parameters"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_subscription_outboundtransition"
+>title="Subscription services outbound transition"
+>abstract="TBC"
+
+
+<!--Update file-->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_updatedata"
+>title="Update Data"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_updatedata_operationtype"
+>title="Update Data"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_updatedata_recordid"
+>title="Update Data"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_updatedata_fieldsupdate"
+>title="Update Data"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_updatedata_advancedoptions"
+>title="Update Data"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_updatedata_outboundtransition"
+>title="Update Data"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_updatedata_outboundtransition_rejects"
+>title="Update Data"
+>abstract="TBC"
+

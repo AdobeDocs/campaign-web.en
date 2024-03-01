@@ -1,16 +1,15 @@
 ---
 audience: end-user
-user-guide-title: Campaign v8 Web
-user-guide-description: Product documentation for Campaign v8 Web.
-title: Adobe Campaign v8 Web Documentation
-description: Campaign v8 Web documentation
-breadcrumb-title: Campaign v8 Web
-hide: yes
+user-guide-title: Adobe Campaign Web User Interface
+user-guide-description: Product documentation for Adobe Campaign Web User Interface.
+title: Adobe Campaign Web Documentation
+description: Campaign Web documentation
+breadcrumb-title: Campaign Web User Interface
 ---
 
-# Adobe Campaign v8 Web documentation {#v8}
+# Adobe Campaign Web documentation {#v8}
 
-+ [Campaign v8 Web documentation](campaign-web-home.md)
++ [Adobe Campaign Web User Interface documentation](campaign-web-home.md)
 + [What's new?](rn/whats-new.md)
 + [Documentation updates](rn/documentation-updates.md)
 + Get started with Adobe Campaign {#start}
@@ -20,8 +19,7 @@ hide: yes
   + [Browse and filter lists](get-started/list-filters.md)
   + [Work with predefined filters](get-started/predefined-filters.md)
   + [Access and permissions](get-started/permissions.md)
-  + [Guardrails and limitations](get-started/guardrails.md)
-  + [Unsupported capabilites](get-started/unsupported.md)
+  + [Campaign Web and Campaign client console](get-started/capability-matrix.md)
   + [AI-powered contextual help](get-started/using-ai.md)
 + Messages and deliveries {#msg}
   + [Get started with messages](msg/gs-messages.md)
@@ -44,7 +42,6 @@ hide: yes
         + [Add a link to the mirror page](email/mirror-page.md)
         + [Add a preheader](email/preheader.md)
         + [Generate the text version](email/text-version-email.md)
-        + [Manage assets with Adobe Experience Manager Assets as a Cloud Service](email/aem-assets.md)
       + Content Assistant {#content-assistant}
         + [Get started with the Content Assistant](email/generative-gs.md)
         + [Text generation with the Content Assistant](email/generative-content.md)
@@ -58,8 +55,9 @@ hide: yes
         + [Add inline styling attributes](email/inline-styling.md)
     + Send and monitor the email {#monitor}
       + [Prepare and send an email](monitor/prepare-send.md)
-      + [Monitor delivery logs](monitor/delivery-logs.md)
       + [Email delivery settings](advanced-settings/delivery-settings.md)
+      + [Send using multiple waves](advanced-settings/send-using-waves.md)
+      + [Monitor delivery logs](monitor/delivery-logs.md)    
   + Push notifications {#push}
     + [Get started with push notifications](push/gs-push.md)
     + [Create a push notification delivery](push/create-push.md)
@@ -82,12 +80,20 @@ hide: yes
     + [Preview the message content](preview-test/preview-content.md)
     + [Send test deliveries](preview-test/test-deliveries.md)
     + [Test the email rendering](preview-test/email-rendering.md)
++ Landing pages {#landing-pages}
+  + [Get started with landing pages](landing-pages/get-started-lp.md)
+  + [Create and publish a landing page](landing-pages/create-lp.md)
+  + [Design landing page content](landing-pages/lp-content.md)
+  + [Work with landing page templates](landing-pages/lp-templates.md)
+  + [Learn through use cases](landing-pages/lp-use-cases.md)
 + Profiles and audiences {#audiences}
   + [Get started with profiles and audiences](audience/gs-audiences-recipients.md)
   + [Targeting dimensions](audience/targeting-dimensions.md)
   + Work with profiles {#work-with-profiles}
-    + [Monitor and manage profiles](audience/about-recipients.md)
-    + [Create and manage test profiles](audience/test-profiles.md)
+    + [Get started with profiles](audience/about-recipients.md)
+    + [Explore profiles' details](audience/profile-view.md)
+    + [Create a profile](audience/create-profile.md)
+    + [Work with test profiles](audience/test-profiles.md)
   + Work with audiences {#audiences}
     + [Create audiences](audience/create-audience.md)
     + [Monitor and manage audiences](audience/manage-audience.md)
@@ -95,7 +101,6 @@ hide: yes
     + [Select an existing audience](audience/add-audience.md)
     + [Build a one-time audience](audience/one-time-audience.md)
     + [Load an email audience from a file](audience/file-audience.md)
-    + [Use an Adobe Experience Platform audience](audience/aep-audience.md)
     + [Set a control group](audience/control-group.md)
   + Work with subscription services {#work-with-services}
     + [Create and manage subscription services](audience/manage-services.md)
@@ -106,6 +111,7 @@ hide: yes
   + [Create your first campaign](campaigns/create-campaigns.md)
 + Workflows {#wf}
   + [Get started with workflows](workflows/gs-workflows.md)
+  + [Guardrails and limitations](get-started/guardrails.md)
   + [Access and manage workflows](workflows/access-monitor.md)
   + Create and run your first workflow {#create-workflow}
     + [Key principles of workflow creation](workflows/gs-workflow-creation.md)
@@ -154,3 +160,7 @@ hide: yes
     + [Email global report](reporting/global-report-email.md)
     + [Push global report](reporting/global-report-push.md)
     + [SMS global report](reporting/global-report-sms.md)
++ Integrations {#integrations}
+  + [Manage assets with Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
+  + [Manage templates with Adobe Experience Manager as a Cloud service](integrations/aem-content.md)
+

@@ -1,9 +1,8 @@
 ---
 audience: end-user
 title: Test email rendering
-description: Learn how to test your email rendering in Campaign Web UI
+description: Learn how to test your email rendering in Campaign Web user interface
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
-badge: label="Limited Availability"
 ---
 
 # Test the email rendering {#email-rendering}
@@ -19,7 +18,7 @@ To do this, you can leverage your **Litmus** account into [!DNL Adobe Campaign] 
 To access email rendering capabilities, you need to:
 
 * Have a Litmus account
-* Select test profiles - Learn how in [this section](preview-content.md)
+* Select profiles and/or test profiles - Learn how in [this section](preview-content.md)
 
 Then, follow the steps below.
 
@@ -27,21 +26,21 @@ Then, follow the steps below.
 
 1. Select the **[!UICONTROL Render email]** button.
 
-    ![](assets/simulate-rendering-button.png)
+    ![](assets/simulate-rendering-button.png){zoomable="yes"}
 
 1. Click **Connect your Litmus account** in the upper right section.
 
-    ![](assets/simulate-rendering-litmus.png)
+    ![](assets/simulate-rendering-litmus.png){zoomable="yes"}
 
 1. Enter your credentials and sign in.
 
-    ![](assets/simulate-rendering-credentials.png)
+    ![](assets/simulate-rendering-credentials.png){zoomable="yes"}
 
 1. Click the **Run test** button to generate email previews.
 
 1. Check your email content in popular desktop, mobile and web-based clients.
 
-    ![](assets/simulate-rendering-previews.png)
+    ![](assets/simulate-rendering-previews.png){zoomable="yes"}
 
 <!--
 TO CHECK IF user is directed to Litmus or if the email rendering is shown directly in the Campaign UI.
@@ -58,7 +57,7 @@ To test the email rendering, follow these steps:
 
     The left pane provides various desktop, mobile and web-based email clients. Select the desired email client to display a preview of your email in the right pane. 
 
-    ![](assets/render-context.png)
+    ![](assets/render-context.png){zoomable="yes"}
 
     >[!NOTE]
     >

@@ -2,7 +2,6 @@
 audience: end-user
 title: Campaign reports for the SMS channel
 description: Understand campaign reports for the SMS channel
-badge: label="Limited Availability"
 exl-id: 0df9b999-84c8-4e42-b5da-857b2ef0dd75
 ---
 # Campaign reports for the SMS channel {#campaign-reports-sms-channel}
@@ -19,7 +18,7 @@ Each campaign report is divided into different widgets detailing your campaign's
 
 The **[!UICONTROL Delivery Overview]** report provides key performance indicators (KPIs) that give detailed information about how your visitors engage with your SMS delivery. Metrics are detailed below.
     
-![](assets/campaign_report_sms_1.png)
+![](assets/campaign_report_sms_1.png){zoomable="yes"}
 
 +++Learn more on SMS campaign report metrics.
 
@@ -44,7 +43,7 @@ The **[!UICONTROL Delivery Overview]** report provides key performance indicator
 The **[!UICONTROL Initial target audience statistics]** table displays data relative to your recipients. Metrics are detailed below.
 
 
-![](assets/campaign_report_sms_2.png)
+![](assets/campaign_report_sms_2.png){zoomable="yes"}
 
 +++Learn more on SMS campaign report metrics.
 
@@ -69,7 +68,7 @@ The **[!UICONTROL Initial target audience statistics]** table displays data rela
 The **[!UICONTROL Execution statistics]** table details the success of your delivery. Metrics are detailed below.
 
 
-![](assets/campaign_report_sms_3.png)
+![](assets/campaign_report_sms_3.png){zoomable="yes"}
 
 +++Learn more on SMS campaign report metrics.
 
@@ -95,7 +94,7 @@ The **[!UICONTROL Execution statistics]** table details the success of your deli
 
 The **[!UICONTROL Generated click streams]** table displays data relative to how your recipients interacted with your delivery. Metrics are detailed below.
 
-![](assets/campaign_report_sms_4.png)
+![](assets/campaign_report_sms_4.png){zoomable="yes"}
 
 +++Learn more on SMS campaign report metrics.
 

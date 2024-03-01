@@ -2,7 +2,6 @@
 audience: end-user
 title: Work with workflows activities
 description: Learn how to workflow activities
-badge: label="Limited Availability" 
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
 ---
 
@@ -31,7 +30,6 @@ These activities are specific to targeting, manipulating and enriching populatio
 * Use the [Deduplication](deduplication.md) activity to delete duplicates in the result(s) of the inbound activities.
 * Use the [Change dimension](change-dimension.md) activity to change the targeting dimension as you are building your workflow.
 * Use the [Load file](load-file.md) activity to work with profiles and data stored in an external file. 
-
 
 ## Channel activities {#channel}
 

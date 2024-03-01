@@ -1,9 +1,8 @@
 ---
 audience: end-user
 title: Edit the email content
-description: Learn how to edit the email content in Campaign Web UI
+description: Learn how to edit the email content in Campaign Web user interface
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-badge: label="Limited Availability" 
 ---
 # Configure the email content {#edit-content}
 
@@ -42,11 +41,11 @@ To configure or edit the content of an email, follow the steps below.
 
 1. Click the **[!UICONTROL Edit content]** button from the [email delivery dashboard](../email/create-email.md) screen.
 
-    ![](assets/email-edit-content-button.png)
+    ![](assets/email-edit-content-button.png){zoomable="yes"}
 
 1. The email content edition screen opens.
 
-    ![](assets/email-edit-content-dashboard.png)
+    ![](assets/email-edit-content-dashboard.png){zoomable="yes"}
 
     >[!NOTE]
     >
@@ -66,7 +65,7 @@ To configure or edit the content of an email, follow the steps below.
 
 1. Expand the **[!UICONTROL Reply-to fields]** section. The sender's name and addresses are used by default for replies. However, Adobe recommends using an existing real address such as your brand's customer care. In this case, if a recipient sends a reply, the customer care will be able to handle it.
 
-    ![](assets/email-edit-content-reply-to.png)
+    ![](assets/email-edit-content-reply-to.png){zoomable="yes"}
 
 1. Define the email **[!UICONTROL Subject line]**. Type your subject directly into the dedicated field, or open the Expression Editor to add [personalization](../personalization/personalize.md) using various attributes and content blocks, or offers.
 

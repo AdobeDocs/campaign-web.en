@@ -2,7 +2,6 @@
 audience: end-user
 title: Email delivery reports
 description: Learn how to access and use email delivery reports
-badge: label="Limited Availability"
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
 ---
 # Email delivery report {#email-report}
@@ -25,12 +24,11 @@ The **Email delivery report** offers comprehensive insights and data specific to
 
 The **[!UICONTROL Initial target population]** graph displays data relative to your recipients. Metrics are calculated during delivery preparation and show: the initial audience, the number of messages to send, the number of recipients excluded.
 
-![](assets/reporting_email_1.png){width="50%" align="left" zoomable="yes"}
+![](assets/reporting_email_1.png){zoomable="yes"}
 
 Mouse-over a portion of the graph to display the exact number.
 
-![](assets/reporting_email_1.1.png){width="50%" align="left" zoomable="yes"}
-
+![](assets/reporting_email_1.1.png){zoomable="yes"}
 
 +++Learn more on Email delivery report metrics.
 
@@ -43,16 +41,14 @@ Mouse-over a portion of the graph to display the exact number.
 
 ### Delivery statistics {#email-delivery-stats}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_summary"
 >title="Delivery statistics"
 >abstract="The **Delivery statistics** graph details the success of your delivery, and errors that occurred."
 
-
 The **[!UICONTROL Delivery statistics]** graph details the success of your delivery. Metrics are detailed below.
 
-![](assets/reporting_email_2.png){width="50%" align="left" zoomable="yes"}
+![](assets/reporting_email_2.png){zoomable="yes"}
 
 +++Learn more on Email campaign report metrics.
 
@@ -75,7 +71,7 @@ The **[!UICONTROL Delivery statistics]** graph details the success of your deliv
 
 The **[!UICONTROL Causes of exclusion]** graph and table show the breakdown per rule of messages rejected during the delivery preparation. Exclusion rules are detailed in the [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
 
-![](assets/reporting_email_3.png){align="center" zoomable="yes"}
+![](assets/reporting_email_3.png){zoomable="yes"}{align="center" zoomable="yes"}
 
 +++Learn more on Email delivery report metrics.
 
@@ -104,7 +100,7 @@ The **[!UICONTROL Causes of exclusion]** graph and table show the breakdown per 
 
 This report presents detailed information regarding the delivery throughput of the entire platform within a specified timeframe. The primary metric used to measure the speed of message delivery is the number of messages sent per hour.
 
-![](assets/reporting_email_3.1.png){align="center" zoomable="yes"}
+![](assets/reporting_email_3.1.png){zoomable="yes"}{align="center" zoomable="yes"}
 
 
 ## Broadcast statistics {#broadcast-statistics}
@@ -116,7 +112,7 @@ This report presents detailed information regarding the delivery throughput of t
 
 The **[!UICONTROL Broadcast statistics]** table contains the available data for possible errors encountered with each domain. Metrics are detailed below.
 
-![](assets/reporting_email_4.png){align="center" zoomable="yes"}
+![](assets/reporting_email_4.png){zoomable="yes"}{align="center" zoomable="yes"}
 
 +++Learn more on Email delivery report metrics.
 
@@ -142,13 +138,18 @@ The **[!UICONTROL Broadcast statistics]** table contains the available data for 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type"
 >title="Breakdown of errors per type"
->abstract="The **Breakdown of errors per type** table and graph contain the available data for each error type encountered: user unknown, mailbox full, invalid domain, and more."
+>abstract="The **Breakdown of errors per type** graph contains the available data for each error type encountered: user unknown, mailbox full, invalid domain, and more."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_error_type_table"
+>title="Breakdown of errors per type"
+>abstract="The **Breakdown of errors per type** table provides a comprehensive breakdown of the occurrence of each error type."
 
 The **[!UICONTROL Breakdown of errors per type]** table and graph contain the available data for error type. Metrics are detailed below.
 
 The errors shown in this report trigger the quarantine process. For more on quarantine management, refer to [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
 
-![](assets/campaign_report_email_6.png){align="left" zoomable="yes"}
+![](assets/campaign_report_email_6.png){zoomable="yes"}{align="left" zoomable="yes"}
 
 +++Learn more on Email delivery report metrics.
 
@@ -168,23 +169,25 @@ The errors shown in this report trigger the quarantine process. For more on quar
 
 +++
 
-
 ### Breakdown of errors per domain {#email-delivery-breakdown-domain}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain"
 >title="Breakdown of errors per domain"
->abstract="The **Breakdown of errors per domain** table and graph display the available data for each error type encountered depending on each domain."
+>abstract="The **Breakdown of errors per domain** graph displays the available data for each error type encountered depending on each domain."
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_error_domain_table"
+>title="Breakdown of errors per domain"
+>abstract="The **Breakdown of errors per domain** table provides a comprehensive breakdown of the occurrence of each error depending on the domain used."
 
 The **[!UICONTROL Breakdown of errors per domain]** table and graph display the available data for possible errors encountered with each domain. 
 
-![](assets/campaign_report_email_6.1.png){align="left" zoomable="yes"}
+![](assets/campaign_report_email_6.1.png){zoomable="yes"}{align="left" zoomable="yes"}
 
 Click the icon next to the name of each domain to see details.
 
-![](assets/campaign_report_email_6.1.png){align="left" zoomable="yes"}
+![](assets/campaign_report_email_6.1.png){zoomable="yes"}{align="left" zoomable="yes"}
 
 Metrics available are the same as for the [Breakdown of errors by type](#email-delivery-breakdown-type) described above.
 
@@ -207,7 +210,7 @@ Metrics available are the same as for the [Breakdown of errors by type](#email-d
 
 The **[!UICONTROL Delivery statistics]** report provides key performance indicators (KPIs) that give detailed information about data available for sent emails. Metrics are detailed below.
 
-![](assets/reporting_email_5.png){align="center"}
+![](assets/reporting_email_5.png){zoomable="yes"}{align="center"}
 
 +++Learn more on Email delivery report metrics.
 
@@ -235,7 +238,7 @@ The **[!UICONTROL Delivery statistics]** report provides key performance indicat
 
 The **[!UICONTROL Open and click-through rate]** table displays data relative to your recipients. Metrics are detailed below.
 
-![](assets/reporting_email_6.png){align="center"}
+![](assets/reporting_email_6.png){zoomable="yes"}{align="center"}
 
 +++Learn more on Email delivery report metrics.
 
@@ -260,7 +263,7 @@ The **[!UICONTROL Open and click-through rate]** table displays data relative to
 
 The **[!UICONTROL URLs and click streams]** report provides key performance indicators (KPIs) that give detailed information about the URLs that were clicked the most during a delivery.
 
-![](assets/reporting_email_7.png){align="center"}
+![](assets/reporting_email_7.png){zoomable="yes"}{align="center"}
 
 +++Learn more on Email delivery report metrics.
 
@@ -285,7 +288,7 @@ The **[!UICONTROL URLs and click streams]** report provides key performance indi
 
 The **[!UICONTROL Top 10 most visited links]** graph and table contain the available data for recipient behavior per link.
 
-![](assets/reporting_email_8.png){align="center"}
+![](assets/reporting_email_8.png){zoomable="yes"}{align="center"}
 
 +++Learn more on Email delivery report metrics.
 
@@ -306,7 +309,7 @@ The **[!UICONTROL Top 10 most visited links]** graph and table contain the avail
 
 The **[!UICONTROL Breakdown of clicks over time]** graph contains the available data for recipient behavior per link.
 
-![](assets/reporting_email_9.png){align="center"}
+![](assets/reporting_email_9.png){zoomable="yes"}{align="center"}
 
 ## User Activities {#user-activities-email}
 
@@ -317,7 +320,7 @@ The **[!UICONTROL Breakdown of clicks over time]** graph contains the available 
 
 The **[!UICONTROL User activities]** report shows the breakdown of opens and clicks in the form of a chart. You can choose the time period to target data: last day or hour or 30 minutes.
 
-![](assets/reporting_email_10.png){align="center"}
+![](assets/reporting_email_10.png){zoomable="yes"}{align="center"}
 
 +++Learn more on Email delivery report metrics.
 
@@ -336,7 +339,7 @@ The **[!UICONTROL User activities]** report shows the breakdown of opens and cli
 
 The **[!UICONTROL Tracking Statistics]** graph provides statistics on opens and clicks. You have the option to select the specific time frame for targeting data.
 
-![](assets/reporting_email_11.png){align="center"}
+![](assets/reporting_email_11.png){zoomable="yes"}{align="center"}
 
 +++Learn more on Email delivery report metrics.
 
@@ -359,7 +362,7 @@ The **Breakdown by device** report shows the breakdown of opens by device for th
 
 For each category, two charts are used. The first displays statistics regarding opens on a computer and mobile devices. The second displays the exact number and percentage for each device type.
 
-![](assets/reporting_email_13.png){align="center"}
+![](assets/reporting_email_13.png){zoomable="yes"}{align="center"}
 
 
 ### Breakdown of opens by OS {#breakdown-opens-os}
@@ -373,7 +376,7 @@ The **Breakdown by OS** report shows the breakdown of opens by operating system 
 
 For each category, two charts are used. The first displays statistics regarding opens on a computer and mobile operating systems. The second displays the exact number and percentage for each operating system.
 
-![](assets/reporting_email_13.1.png){align="center"}
+![](assets/reporting_email_13.1.png){zoomable="yes"}{align="center"}
 
 ### Breakdown of opens by browser {#breakdown-opens-browser}
 
@@ -386,7 +389,7 @@ The **Breakdown by browser** report shows the breakdown of opens by browser: Chr
 
 For each category, two charts are used. The first displays statistics regarding opens on a computer and mobile operating systems. The second displays the exact number and percentage for each browser.
 
-![](assets/reporting_email_13.2.png){align="center"}
+![](assets/reporting_email_13.2.png){zoomable="yes"}{align="center"}
 
 
 ## Hotclicks {#hotclicks}
@@ -398,4 +401,4 @@ For each category, two charts are used. The first displays statistics regarding 
 
 This report shows the message content (HTML and/or text) with, on each link, the percentage of clicks on links. Personalization blocks, unsubscription links, mirror page links, and offer links are taken into account in the total cumulated clicks, but are not displayed in the report.
 
-![](assets/reporting11.png)
+![](assets/reporting11.png){zoomable="yes"}

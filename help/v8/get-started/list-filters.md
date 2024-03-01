@@ -2,7 +2,6 @@
 audience: end-user
 title: Browse and filter lists
 description: Discover how to browse and filter lists Campaign Web v8
-badge: label="Limited Availabilty"
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
 ---
 # Browse and filter lists {#list-screens}
@@ -13,17 +12,17 @@ Most of the links from the left navigation menu display lists of objects, such a
 
 The lists are displayed in columns. You can display additional information by changing the column configuration. To do this, click the **Configure column for a custom layout** icon in the top right corner of the list. 
 
-![](assets/config-columns.png){width="70%" align="left" zoomable="yes"}
+![](assets/config-columns.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 In the **Configure columns** screen, add or remove columns, and change the order in which they are displayed.
 
 For example, for these settings:
 
-![](assets/columns.png){width="70%" align="left" zoomable="yes"}
+![](assets/columns.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 The list shows the following columns:
 
-![](assets/column-sample.png){width="70%" align="left" zoomable="yes"}
+![](assets/column-sample.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 ## Sort data {#sort-lists}
 
@@ -35,7 +34,7 @@ For numeric or date columns, the **Up** arrow indicates that the list is sorted 
 
 To find items quicker, you can use the search bar, or built-in and custom filters to adapt the list based on contextual criteria. 
 
-![](assets/filter.png){width="70%" align="left" zoomable="yes"}
+![](assets/filter.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 Detailed information on how to use filters and create your own custom filters it is available in [this section](../query/filter.md).
 
@@ -63,5 +62,5 @@ Only most common attributes are displayed by default in the attribute list and f
 Activate the **Display advanced attributes** toggle to see all available attributes for the current list in the left palette of the rule builder, such as nodes, groupings, 1-1 links, 1-N links. The attribute list is updated instantly.
 
 
-![](assets/adv-toggle.png){width="70%" align="left" zoomable="yes"}
+![](assets/adv-toggle.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 -->

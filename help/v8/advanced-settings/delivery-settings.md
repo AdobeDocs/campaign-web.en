@@ -2,8 +2,8 @@
 audience: end-user
 title: Delivery Settings
 description: Learn more about delivery settings in Campaign Web 
+feature: Email
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-badge: label="Limited Availability"
 ---
 
 # Email delivery settings {#email-del-settings}
@@ -37,7 +37,7 @@ When associating a typology with a message or message template, the typology rul
 
 Typologies allow you to make sure your emails always contain certain elements (such as an unsubscription link or a subject line) or filtering rules to exclude groups from your intended target (like unsubscribers, competitors, or non-loyalty customers).
 
-![](assets/delivery-settings-typology.png)
+![](assets/delivery-settings-typology.png){zoomable="yes"}
 
 >[!NOTE]
 >
@@ -119,19 +119,31 @@ In the **[!UICONTROL Exclusion]** field, you can select to exclude recipients wh
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
 >title="Delivery settings for the delivery"
->abstract="Delivery parameters are technical settings which apply to your delivery. You can activate BCC for the delivery, and change the delivery and routine modes. These options are restricted to expert users only."
+>abstract="Delivery parameters are technical settings which apply to your delivery. You can change the delivery and routine modes, activate Email BCC, send using waves, and also choose the format of the email messages sent. These options are restricted to expert users only."
 
-**[!UICONTROL Delivery]** parameters are technical settings which apply to your delivery. 
+**[!UICONTROL Delivery]** parameters are technical settings which apply to your delivery.
+
+![](assets/delivery-settings-delivery.png){zoomable="yes"}
 
 The integrated email **[!UICONTROL Routing]** external account is provided by default. It contains the technical parameters that allow the application to send emails.
 
-You can define the following **[!UICONTROL Sending]** settings:
+You can define the **[!UICONTROL Sending]** settings below.
 
-* **[!UICONTROL Test SMTP delivery]**: This option is used to test sending via SMTP. The delivery is processed up to connection to the SMTP server but is not sent: for every recipient of the delivery, Campaign connects to the SMTP provider server, executes the SMTP RCPT TO command, and closes the connection before the SMTP DATA command.
+* **[!UICONTROL Delivery priority]**: Use this option to change the sending order for your deliveries by setting their priority level: normal, high or low. 
 
-* **[!UICONTROL Email BCC]**: This option is used to store emails on an external system through BCC by simply adding a BCC email address to your message target. Learn more in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
+* **[!UICONTROL Message batch quantity]**: Use this option to define the number of messages grouped within the same XML delivery package. If the parameter is set to 0, the messages are automatically grouped. The package size is defined by the calculation `<delivery size>/1024`, with a minimum of 8 and a maximum of 256 messages by package.
 
-You can also change the format of the email messages sent:
+  >[!IMPORTANT]
+  >
+  >When the delivery is created by duplicating an existing one, this parameter is reset.
+
+* **[!UICONTROL Test SMTP delivery]**: This option is used to test sending via SMTP. The delivery is processed up to connection to the SMTP server, but is not sent: for every recipient of the delivery, Campaign connects to the SMTP provider server, executes the SMTP RCPT TO command, and closes the connection before the SMTP DATA command.
+
+* **[!UICONTROL Email BCC]**: This option is used to store emails on an external system through BCC by simply adding a BCC email address to your message target. Learn more in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"}.
+
+In the **[!UICONTROL Wave definition]** section, select the **[!UICONTROL Send using multiple waves]** option to progressively increase the volume sent using waves. This will avoid your messages being marked as spam or when you want to restrict the number of messages per day. Using waves you can divide deliveries into several batches instead of sending high volumes of messages at the same time. [Learn more](send-using-waves.md)
+
+You can also change the **[!UICONTROL Mail formats]** of the email messages sent as detailed below.
 
 * **[!UICONTROL Use recipient preferences]** (default mode)
 
@@ -174,8 +186,6 @@ You can also define the tags shared with the analytics tool you are using.
 <!--Currently not visible in UI > ??-->
 
 Temporarily undelivered messages due to a Soft or Ignored error are subject to an automatic retry. By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. 
-
-Learn more about retry management in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
 ## Approval {#approval}
 
@@ -231,7 +241,7 @@ You can also choose to specify dates. To do this, select **[!UICONTROL Explicitl
 
 **[!UICONTROL Resources validity limit]** is used for uploaded resources, mainly for the mirror page and images. The resources on this page are valid for a limited time (to save disk space). After this limit, these resources are no longer available.
 
-![](assets/delivery-settings-validity.png)
+![](assets/delivery-settings-validity.png){zoomable="yes"}
 
 <!--Change screenshot to be consistent with prod > not sure which version is correct-->
 

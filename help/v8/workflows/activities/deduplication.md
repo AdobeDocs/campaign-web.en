@@ -2,7 +2,6 @@
 audience: end-user
 title: Use the Deduplication workflow activity
 description: Learn how to use the Deduplication workflow activity
-badge: label="Limited Availability"
 exl-id: 8efdc140-6cae-430d-b585-ff581993ff60
 ---
 # Deduplication {#deduplication}

@@ -3,7 +3,6 @@ audience: end-user
 title: Personalize your email background
 description: Learn how to personalize your email background
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
-badge: label="Limited Availability" 
 ---
 # Personalize your email background {#backgrounds}
 
@@ -22,15 +21,15 @@ Below are the available background settings that you can use.
 
 * Set a **[!UICONTROL Background color]** for the whole email. Make sure you select the body settings in the navigation tree accessible from the left pane.
 
-  ![](assets/background_1.png)
+  ![](assets/background_1.png){zoomable="yes"}
 
 * Set the same background color for all structure components by selecting **[!UICONTROL Viewport background color]**. This option enables you to select a different setting from the background color.
 
-  ![](assets/background_2.png)
+  ![](assets/background_2.png){zoomable="yes"}
 
 * Set a different background color for each structure component. Select a structure in the navigation tree on the left pane to apply a specific background color only to that structure.
 
-  ![](assets/background_3.png)
+  ![](assets/background_3.png){zoomable="yes"}
 
   >[!NOTE]
   >
@@ -38,7 +37,7 @@ Below are the available background settings that you can use.
 
 * Set a **[!UICONTROL Background image]** for the content of a structure component.
 
-  ![](assets/background_4.png)
+  ![](assets/background_4.png){zoomable="yes"}
 
   >[!NOTE]
   >
@@ -46,7 +45,7 @@ Below are the available background settings that you can use.
 
 * Set a background color at the column level.
 
-  ![](assets/background_5.png)
+  ![](assets/background_5.png){zoomable="yes"}
 
   >[!NOTE]
   >

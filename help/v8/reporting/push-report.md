@@ -2,7 +2,6 @@
 audience: end-user
 title: Push delivery reports
 description: Learn how to access and use push delivery reports
-badge: label="Limited Availability"
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
 ---
 # Push delivery reports {#push-report}
@@ -25,7 +24,7 @@ The **Push delivery report** provides a thorough overview of the push channel, o
 
 The **[!UICONTROL Delivery overview]** report provides key performance indicators (KPIs) that give detailed information about how your visitors engage with your push messages.
 
-![](assets/reporting_push_3.png)
+![](assets/reporting_push_3.png){zoomable="yes"}
 
 +++Learn more on Push delivery report metrics.
 
@@ -48,7 +47,7 @@ The **[!UICONTROL Delivery overview]** report provides key performance indicator
 
 The **Targeted population** graph and table display data relative to your audience: messages to deliver and exclusions. Metrics are detailed below.
 
-![](assets/reporting_push_4.png)
+![](assets/reporting_push_4.png){zoomable="yes"}
 
 +++Learn more on Push delivery report metrics.
 
@@ -67,7 +66,7 @@ The **Targeted population** graph and table display data relative to your audien
 
 The **Overall statistics** report presents data for the sent push notifications: success, errors and quarantines. Metrics are detailed below.
 
-![](assets/reporting_push_5.png) 
+![](assets/reporting_push_5.png){zoomable="yes"} 
 
 +++Learn more on Push delivery report metrics.
 
@@ -89,7 +88,7 @@ The **Overall statistics** report presents data for the sent push notifications:
 The **[!UICONTROL Exclusions]** graph and table display the various reasons that prevented user profiles, which were excluded from the targeted profiles, from receiving the message. Exclusion rules are detailed in the [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}.
 
 
-![](assets/reporting_push_6.png) 
+![](assets/reporting_push_6.png){zoomable="yes"} 
 
 ## Delivery throughput {#delivery-throughput}
 
@@ -100,4 +99,4 @@ The **[!UICONTROL Exclusions]** graph and table display the various reasons that
 
 The **Delivery throughput** report presents detailed information regarding the delivery throughput of the entire platform within a specified timeframe. The primary metric used to measure the speed of message delivery is the number of messages sent per hour.
 
-![](assets/reporting_push_2.png)
+![](assets/reporting_push_2.png){zoomable="yes"}

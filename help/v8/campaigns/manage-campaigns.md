@@ -2,7 +2,6 @@
 audience: end-user
 title: Get started with campaigns
 description: Learn how to start with cross-channel campaigns
-badge: label="Limited Availability"
 exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
 ---
 # Access and manage your campaigns{#manage-campaigns}
@@ -40,6 +39,11 @@ For example, you can filter on your campaign schedule. Open the filter panel and
 >id="acw_campaign_delivery_list"
 >title="List of deliveries in the campaign"
 >abstract="The **Deliveries** tab lists all deliveries linked to the current campaign. Click the name of a delivery to edit it. Use the Create delivery button to add a new delivery for this campaign."
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_workflow_list"
+>title="Workflow list in a campaign"
+>abstract="Workflow list in a campaign"
 
 In the **Browse** tab of the campaign list, click a campaign name to display its details. 
 

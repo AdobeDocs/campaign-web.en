@@ -2,7 +2,6 @@
 audience: end-user
 title: Create workflows with Adobe Campaign Web
 description: Learn how to build workflows with Adobe Campaign Web
-badge: label="Limited Availability"
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
 ---
 # Orchestrate activities {#orchestrate}
@@ -15,11 +14,11 @@ At this stage of the configuration, the diagram is displayed with a start icon, 
 
 A list of activities that can be added to the diagram appears. The available activities depend on your position within the workflow diagram. For example, when adding your first activity, you can start your workflow by targeting an audience, splitting the workflow path, or setting a **Wait** activity to delay the workflow execution. On the other hand, after a **Build audience** activity, you can refine your target with targeting activites, send a delivery to your audience with channel activites, or organize the workflow process with flow control activities.
 
-![](assets/workflow-start.png)
+![](assets/workflow-start.png){zoomable="yes"}
 
 Once an activity has been added to the diagram, a right pane appears, allowing you to configure the newly added activity with specific settings. Detailed information on how to configure each activity is available in [this section](activities/about-activities.md).
 
-![](assets/workflow-configure-activities.png)
+![](assets/workflow-configure-activities.png){zoomable="yes"}
 
 Repeat this process to add as many activites as desired depending on the tasks that you want your workflow to perform. Note that you can also insert a new activity between two activites. To do this, click the **+** button on the transition between the activities, select the desired activity and configure it in the right pane.
 
@@ -39,13 +38,13 @@ When adding activites, action buttons are available in the properties pane, allo
 * Access the activity's **Logs and tasks**.
 * **Pause/Resume** the activity. When the workflow is executed, it pauses at the paused activity. The corresponding task as well as all those that follow it in the same path are not executed.
 
-![](assets/activity-action.png){width="50%"}
+![](assets/activity-action.png){zoomable="yes"}{width="50%"}
 
 ## Example {#example}
 
 Here is a workflow example designed to send an email to all customers (other than VIP customers) with an email who are interested in coffee machines.
 
-![](assets/workflow-example.png){zoomable="yes"}
+![](assets/workflow-example.png){zoomable="yes"}{zoomable="yes"}
 
 To achieve this, activities below have been added:
 

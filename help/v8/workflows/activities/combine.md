@@ -2,7 +2,6 @@
 audience: end-user
 title: Use the Combine workflow activity
 description: Learn how to use the Combine workflow activity
-badge: label="Limited Availability"
 exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
 ---
 # Combine {#combine}

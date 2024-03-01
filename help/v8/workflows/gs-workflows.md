@@ -2,7 +2,7 @@
 audience: end-user
 title: Get started with workflows
 description: Learn how to start with workflows
-badge: label="Limited Availability" 
+ 
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
 ---
 # Get started with workflows {#workflows}
@@ -12,7 +12,6 @@ exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
 >title="Cross-channel workflows"
 >abstract="Unlock new possibilities for automation and optimization, allowing you to create more dynamic and personalized customer journeys. From advanced segmentation to conditional triggers, our additional workflow activities empower you to deliver targeted messages and drive better campaign performance."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="See release notes"
-
 
 <!--TO REMOVE BELOW-->
 >[!CONTEXTUALHELP]

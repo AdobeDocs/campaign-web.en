@@ -2,7 +2,6 @@
 audience: end-user
 title: Design a SMS delivery
 description: Learn how to design your SMS delivery
-badge: label="Limited Availability"
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
 ---
 # Design an SMS delivery {#design-sms}
@@ -25,11 +24,11 @@ To design the content of an SMS delivery, follow these steps:
 
     Additionally, by clicking **[!UICONTROL Open personalization dialog]**, you can include personalization fields, content blocks, and dynamic content in your message.
 
-    ![](assets/sms_content_1.png)
+    ![](assets/sms_content_1.png){zoomable="yes"}
 
 1. Type-in your text message in the **[!UICONTROL Message]** field or click the **[!UICONTROL Open personalization dialog]** option to define content and add dynamic content. [Learn more](../personalization/gs-personalization.md)
 
-    ![](assets/sms_content_2.png)
+    ![](assets/sms_content_2.png){zoomable="yes"}
 
 1. By default, tracking is enabled for deliveries. You can disable this option from the **[!UICONTROL Optional features section]**.
 

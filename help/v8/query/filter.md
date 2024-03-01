@@ -2,7 +2,6 @@
 audience: end-user
 title: Filter lists
 description: Learn how to filters Adobe Campaign Web lists using built-in and custom filters.
-badge: label="Limited Availability"
 exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
 ---
 # Filter lists {#filter-lists}
@@ -15,7 +14,7 @@ To apply filters to a list, click the **[!UICONTROL Show filters]** button locat
 
 The filters pane opens, displaying available filters for the selected list. For example, you can filters campaigns on their status, start and end dates or storage folder, while the subscription services list can be filtered on their channel and storage folder.
 
-![](assets/filters-pane.png){width="70%" align="left" zoomable="yes"}
+![](assets/filters-pane.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 To filter a list based on your own criteria, create a custom filter. To do this, browse to the bottom of the filters pane and click the **Add rules** button. [Learn how to create custom filters](#custom)
  
@@ -30,6 +29,6 @@ Custom filters allow you to refine lists based on your own specific criteria. Th
 
     The example below shows a custom filter designed to display in the campaigns list SMS campaigns runned by operators from the Running or Yoga departments.
 
-    ![](assets/filters-sample.png){width="70%" align="left" zoomable="yes"}
+    ![](assets/filters-sample.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 1. Once your custom filter is configured, click **[!UICONTROL Confirm]** to apply it to the list.

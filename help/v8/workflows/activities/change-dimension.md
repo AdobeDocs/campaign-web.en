@@ -2,7 +2,6 @@
 audience: end-user
 title: Use the Change dimension workflow activity
 description: Learn how to use the Change dimension workflow activity
-badge: label="Limited Availability"
 exl-id: 08870946-91c6-4ab0-84de-4d9b968884b3
 ---
 # Change dimension {#change-dimension}

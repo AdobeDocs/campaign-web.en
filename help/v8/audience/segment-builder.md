@@ -3,20 +3,19 @@ audience: end-user
 title: Build an audience with Campaign rule builder
 description: Learn how to work with the rule builder
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-badge: label="Beta" 
 ---
 # Work with the rule builder {#segment-builder}
 
 The rule builder allows you to define the population targeted by your delivery by filtering data contained in the database. You can use it to build an audience either from a workflow using a **[!UICONTROL Build audience]** activity, or directly when creating a delivery to create a one-time audience.
 
-* [Learn how to create an audience](create-audience.md)
+* [Learn how to create and save an audience](create-audience.md)
 * [Learn how to create a one-time audience for a delivery](one-time-audience.md)
 
 ## The palette
 
 The palette, located on the left side contains all the elements that you can filter on to create your audience. You can use the search bar to find elements quickly. The tiles contained in the palette must be moved into the center canvas in order to be configured and taken into account.
 
-![](assets/segment-builder2.png){width="70%" align="left"}
+![](assets/segment-builder2.png){zoomable="yes"}{width="70%" align="left"}
     
 The palette is divided into two tabs:
 
@@ -32,13 +31,13 @@ The palette is divided into two tabs:
 
 The canvas is the central zone in which you can configure and combine rules based on the elements added from the palette. To add a new rule, drag a tile from the palette and drop it onto the canvas. You can then be presented with context-specific options according to the type of data being added. 
 
-![](assets/segment-builder4.png){width="70%" align="left"}
+![](assets/segment-builder4.png){zoomable="yes"}{width="70%" align="left"}
 
 ## The rule properties pane
 
 On the right side, the **Rule properties** pane allows you to perform the  actions listed below.
 
-![](assets/segment-builder5.png){width="70%" align="left"}
+![](assets/segment-builder5.png){zoomable="yes"}{width="70%" align="left"}
 
 * **View results:** displays the list of recipients targeted by the audience.
 * **Code view**: displays a code-based version of the audience in SQL.
@@ -58,26 +57,26 @@ In this example, we build an audience to target all customers living in Atlanta 
 
 1. In the **Attributes** tab of the palette, search for the **Date of birth** field. Drag the tile and drop it onto the canvas. 
 
-    ![](assets/segment-builder6.png)
+    ![](assets/segment-builder6.png){zoomable="yes"}
 
 1. In the canvas, choose the **After** operator and enter the desired date.
 
-    ![](assets/segment-builder7.png)
+    ![](assets/segment-builder7.png){zoomable="yes"}
 
 1. In the palette, search for the **City** field and add it to the canvas below the first rule. 
 
-    ![](assets/segment-builder8.png)
+    ![](assets/segment-builder8.png){zoomable="yes"}
 
 1. In the text field, enter the first city name, then press enter. 
 
-    ![](assets/segment-builder9.png)
+    ![](assets/segment-builder9.png){zoomable="yes"}
 
 1. Repeat this action for the second city name.
 
-    ![](assets/segment-builder10.png)
+    ![](assets/segment-builder10.png){zoomable="yes"}
 
 1. Click **View results** to display the list and number of recipients matching the query. You can also add columns to visualize and check the data. In our example, add the **City** column and should see Atlanta and Seattle.
 
-    ![](assets/segment-builder11.png)
+    ![](assets/segment-builder11.png){zoomable="yes"}
 
 1. Click **Confirm**.

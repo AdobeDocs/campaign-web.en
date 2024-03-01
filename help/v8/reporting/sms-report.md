@@ -2,7 +2,6 @@
 audience: end-user
 title: SMS delivery reports
 description: Learn how to access and use sms delivery reports
-badge: label="Limited Availability"
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
 ---
 # SMS delivery reports {#sms-report}
@@ -25,7 +24,7 @@ The **SMS delivery overview** offers a comprehensive overview of your SMS delive
 
 The **[!UICONTROL Delivery overview]** report provides key performance indicators (KPIs) that give detailed information about success and error rates, and how your visitors engage with your SMS messages.
 
-![](assets/reporting_sms_3.png)
+![](assets/reporting_sms_3.png){zoomable="yes"}
 
 +++Learn more on SMS delivery report metrics.
 
@@ -48,7 +47,7 @@ The **[!UICONTROL Delivery overview]** report provides key performance indicator
 
 The **Targeted population** graph and table display data relative to your audience. Metrics are detailed below.
 
-![](assets/reporting_sms_4.png)
+![](assets/reporting_sms_4.png){zoomable="yes"}
 
 +++Learn more on SMS delivery report metrics.
 
@@ -67,7 +66,7 @@ The **Targeted population** graph and table display data relative to your audien
 
 The **Overall statistics** report presents data for the sent SMS messages. Metrics are detailed below.
 
-![](assets/reporting_sms_5.png)
+![](assets/reporting_sms_5.png){zoomable="yes"}
 
 +++Learn more on SMS delivery report metrics.
 
@@ -87,7 +86,7 @@ The **Overall statistics** report presents data for the sent SMS messages. Metri
 
 The **[!UICONTROL Exclusions]** graph and table display the reasons that prevented user profiles, which were excluded from the targeted profiles, from receiving the message. Exclusion rules are detailed in the [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){_blank}.
 
-![](assets/reporting_sms_6.png)
+![](assets/reporting_sms_6.png){zoomable="yes"}
 
 ## Delivery throughput {#delivery-throughput}
 
@@ -98,4 +97,4 @@ The **[!UICONTROL Exclusions]** graph and table display the reasons that prevent
 
 This report presents detailed information regarding the delivery throughput within a specified timeframe. The primary metric used to measure the speed of message delivery is the number of messages sent per hour.
 
-![](assets/reporting_sms_2.png)
+![](assets/reporting_sms_2.png){zoomable="yes"}

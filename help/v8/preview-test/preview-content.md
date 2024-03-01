@@ -1,9 +1,8 @@
 ---
 audience: end-user
 title: Preview delivery content
-description: Learn how to preview your delivery content with Campaign Web UI
+description: Learn how to preview your delivery content with Campaign Web user interface
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-badge: label="Limited Availability"
 ---
 
 # Preview the message content {#preview-content} 
@@ -16,41 +15,27 @@ To preview the content of your delivery, follow the steps below.
 
 1. Click the **[!UICONTROL Simulate content]** button.
 
-    ![](assets/simulate-button.png)
+    ![](assets/simulate-button.png){zoomable="yes"}
 
-1. To select the profiles that will be used to preview your personalized content, use:
+1. Select the profiles to use to preview your content. To do this, click the **[!UICONTROL Add test profile(s)]** button (for email and SMS) or the **[!UICONTROL Add subscriber(s)]** button (for push notifications).
 
-    * **[!UICONTROL Add test profile(s)]** for previewing email and SMS deliveries
+1. You can combine profiles and test profiles to preview your email or SMS message.
 
-    * **[!UICONTROL Add subscriber(s)]** for previewing push notifications
+    * The **[!UICONTROL Test profiles]** tab lists all test profiles, which are additional and fictitious recipients in the database. [Learn how to work with test profiles](../audience/test-profiles.md)
 
-1. You can combine test profiles and profiles to preview your email or SMS message.
-
-    * The **[!UICONTROL Test profiles]** tab lists all seed addresses, which are additional and fictitious recipients in the database.
-
-        ![](assets/simulate-select-profiles.png)
+    * The **[!UICONTROL Profiles]** tab lists all the profiles stored in your database. [Learn how to work with profiles](../audience/about-recipients.md)
     
-        >[!NOTE]
-        >
-        >Test profiles can be created from the **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]** menu. [Learn more](../audience/test-profiles.md#create-test-profiles)
+    ![](assets/simulate-select-profiles.png){zoomable="yes"}
 
-    * The **[!UICONTROL Profiles]** tab lists all the recipients stored into the **[!UICONTROL Profiles and Targets]** folder from the [!DNL Campaign] console. Learn more in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html){target="_blank"}. 
-    
-        >[!NOTE]
-        >
-        >You can also view and manage profiles from the corresponding tab in the Campaign web UI. [Learn more](../audience/about-recipients.md)
+1. When browsing the test profile or profile lists, you can use filters to refine your search. For example, you can define a rule to find all test profiles whith the **[!UICONTROL Prospect]** status. [Learn how to add rules using the query modeler](../query/query-modeler-overview.md).
 
-1. When browsing the test profile or profile lists, you can use filters to refine your search.
-
-    ![](assets/simulate-test-profile-filter.png)
-
-    For example, you can define a rule to find all test profiles whith the **[!UICONTROL Prospect]** status. Learn how to add rules using the [query modeler](../query/query-modeler-overview.md).
+    ![](assets/simulate-test-profile-filter.png){zoomable="yes"}
 
 1. Click **[!UICONTROL Select]** to confirm your selection.
 
     A preview of the delivery content is displayed in the right pane of the **[!UICONTROL Simulate]** screen. Personalized elements are replaced with the data from the profile selected in the left pane.
 
-    ![](assets/simulate-preview.png)
+    ![](assets/simulate-preview.png){zoomable="yes"}
 
 1. If you have added multiple profiles, you can switch between them in the list to preview the corresponding delivery content. You can also add more test profiles and clear your selection using the corresponding buttons on the left pane.
 

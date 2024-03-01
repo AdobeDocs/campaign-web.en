@@ -1,13 +1,14 @@
 ---
 audience: end-user
 title: Set a control group
-description: Learn how to set a control group for your messages in Campaign Web UI
+description: Learn how to set a control group for your messages in Campaign Web user interface
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-badge: label="Limited Availability" 
 ---
 # Set a control group {#control-group}
 
 A control group is a sub-population excluded from the delivery. You can define a control group to avoid sending messages to a portion of your audience, and compare post-delivery behavior with the main target. This option helps you measure the impact of your campaign.
+
+➡️ [Discover this feature in video](create-audience.md#video)
 
 ## Enable control group{#add-a-control-group}
 
@@ -61,7 +62,7 @@ For example, to create a control group with the 100 new youngest recipients, fol
 1. Add the **Creation Date** field. Change to the **Descending** sort option.
 1. Define 100 as the threshold in the **Size limit** section.
 
-    ![](assets/control-group2.png)
+    ![](assets/control-group2.png){zoomable="yes"}
 
 These 100 new youngest recipients are then excluded from the main target. 
 
@@ -69,27 +70,27 @@ These 100 new youngest recipients are then excluded from the main target.
 
 You can view the logs to check and identify the exluded profiles. Let's take the example of a random exclusion on five profiles.
 
-![](assets/control-group4.png)
+![](assets/control-group4.png){zoomable="yes"}
 
 After the delivery preparation, you can review how the exclusions were applied:
 
 * In delivery dashboard, before the sending, check the **To exclude** KPI.
 
-    ![](assets/control-group5.png)
+    ![](assets/control-group5.png){zoomable="yes"}
 
 * In the delivery logs, the Logs tab shows the exclusion step.
 
-    ![](assets/control-group-sample-logs.png)
+    ![](assets/control-group-sample-logs.png){zoomable="yes"}
 <!--
 
  * The **Exclusion logs** tab displays each profile and the related exclusion **Reason**.
 
-    ![](assets/control-group6.png)
+    ![](assets/control-group6.png){zoomable="yes"}
 -->
 
 * The **Exclusion causes** tab displays the number of excluded profile for each typology rule.
 
-    ![](assets/control-group7.png)
+    ![](assets/control-group7.png){zoomable="yes"}
 
 For more information on delivery logs, refer to this [section](../monitor/delivery-logs.md).
 
@@ -104,7 +105,7 @@ Another way to define a control group is to select a specific population in an e
 
 From the **Extra population** section of the **Control Group** definition screen, click the **[!UICONTROL Select Audience]** button.
 
-![](assets/control-group3.png)
+![](assets/control-group3.png){zoomable="yes"}
 
 * To use an existing audience, click **Select audience**. Learn more in [this section](add-audience.md). 
 
@@ -117,5 +118,3 @@ The profiles included in the audience or matching the result of the query are **
 Once the delivery is sent, you can extract the sending logs to compare behavior between the profiles which did not receive the communication and the effective target. You can also use the delivery logs to build a new targeting.
 
 To see which profiles were removed from the target, check the **Delivery logs**. Learn more [in this section](#check-control-group).
-
-

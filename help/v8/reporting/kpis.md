@@ -1,7 +1,6 @@
 ---
 title: Key Performance Indicators
 description: Learn how understand Key Performance Indicators
-badge: label="Limited Availability"
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
 ---
 # Key Performance Indicators {#kpis}
@@ -22,7 +21,7 @@ Metrics are calculated for deliveries sent over the previous 7 days by default. 
 
 You can select the channel to display. By default, these indicators reflect metrics for the email channel.
 
-![](assets/kpi.png)
+![](assets/kpi.png){zoomable="yes"}
 
 ## Message delivered {#ui-delivered-kpi} 
 
