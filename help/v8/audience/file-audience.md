@@ -78,7 +78,7 @@ Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
 
 ## Preview and test your email {#test}
 
-Campaign Web allows you to preview and send test emails when using an audience uploaded from a file. To do this, follow these steps:
+Campaign Web allows you to preview and send proofs when using an audience uploaded from a file. To do this, follow these steps:
 
 1. Click the **[!UICONTROL Simulate content button]** from your delivery content editing screen and click the **[!UICONTROL Add test profile(s)]** button. 
 
@@ -88,7 +88,7 @@ Campaign Web allows you to preview and send test emails when using an audience u
 
     ![](assets/file-upload-preview.png){zoomable="yes"}
 
-1. To send test emails, click the **[!UICONTROL Test]** button.
+1. To send proofs, click the **[!UICONTROL Send proof]** button.
 
 1. Click the **[!UICONTROL Upload proof profiles]** button and select the .txt or .csv file that contains your proof recipients.
 
@@ -96,8 +96,8 @@ Campaign Web allows you to preview and send test emails when using an audience u
     >
     >Ensure that the file format matches the one used for uploading your audience. Any format errors will display an alert.
 
-1. When the proof recipients are added and you are ready to send the proofs, click the **[!UICONTROL Send test email]** button and confirm the sending.
+1. When the proof recipients are added and you are ready to send the proofs, click the **[!UICONTROL Send proof]** button and confirm the sending.
 
     ![](assets/file-upload-test.png){zoomable="yes"}
 
-1. You can monitor the sending of the test email using the **[!UICONTROL View test email log]** button at any time. [Learn more on test emails monitoring](../preview-test/test-deliveries.md#access-test-deliveries)
+1. You can monitor the sending of the proof using the **[!UICONTROL View proofs]** button at any time. [Learn more on proofs monitoring](../preview-test/test-deliveries.md#access-test-deliveries)

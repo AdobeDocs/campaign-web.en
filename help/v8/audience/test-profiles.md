@@ -17,7 +17,7 @@ Test profiles are created as seed addresses. They are additional recipients in t
 
 <!--Learn more on test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
-The steps to send test messages to seed addresses are detailed in [this section](../preview-test/test-deliveries.md#test-profiles).
+The steps to send proofs to seed addresses are detailed in [this section](../preview-test/test-deliveries.md#test-profiles).
 
 >[!NOTE]
 >
@@ -94,6 +94,6 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
 1. Click the **[!UICONTROL Save]** button.
 
-The test profile you just created is now ready to be used to send a test. [Learn more](../preview-test/test-deliveries.md#test-profiles)
+The test profile you just created is now ready to be used to send a proof. [Learn more](../preview-test/test-deliveries.md#test-profiles)
 
 <!--Use test profiles in Direct mail? cf v7/v8-->

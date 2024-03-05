@@ -46,7 +46,7 @@ Once the email is sent, when the recipients click the mirror page link, the cont
 
 >[!NOTE]
 >
->In the test email sent to the test profiles, the link to the mirror page is not active. It is only activated in the final messages.
+>In the proof sent to the test profiles, the link to the mirror page is not active. It is only activated in the final messages.
 
 By default, the retention period for a mirror page is 60 days. After that delay, the mirror page is no longer available.
 

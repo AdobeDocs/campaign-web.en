@@ -150,17 +150,17 @@ Once you send the delivery, the actual sending starts on the contact date you ha
 
 Learn more about delivery scheduling in [this section](../msg/gs-deliveries.md#schedule-the-delivery-sending).
 
-## Preview and test the email {#preview-test}
+## Preview an email & send proofs {#preview-test}
 
 Before sending your email, you can preview and test it to ensure it meets your expectations.
 
-In this use case, you preview the email and send test versions to specific email addresses while impersonating some of the targeted profiles.
+In this use case, you preview the email and send proofs to specific email addresses while impersonating some of the targeted profiles.
 
-Additional information on how to preview and test emails are available in [this section](../preview-test/preview-test.md).
+Additional information on how to preview an email and send proofs are available in [this section](../preview-test/preview-test.md).
 
 1. To review your email, click **[!UICONTROL Review and send]**. This displays a preview of your email, along with al the configured properties, audience and schedule. You can edit any of these elements by clicking the modify button.
 
-1. To preview the email and send test versions, click the **[!UICONTROL Simulate content]** button. 
+1. To preview the email and send proofs, click the **[!UICONTROL Simulate content]** button. 
 
     ![](assets/review-email.png){zoomable="yes"}
 
@@ -173,25 +173,25 @@ Additional information on how to preview and test emails are available in [this 
     <!--Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering
     -->
 
-1. To send test versions of your email, click the **[!UICONTROL Test]** button then choose the mode you want to use.
+1. To send proofs, click the **[!UICONTROL Send proofs]** button then choose the mode you want to use.
 
-    In this example, use the **[!UICONTROL Substitute from main target]** mode, which sends test versions to specific email addresses while impersonating some of the profiles targeted by the email.
+    In this example, use the **[!UICONTROL Substitute from main target]** mode, which sends proofs to specific email addresses while impersonating some of the profiles targeted by the email.
 
     ![](assets/proof-mode.png){zoomable="yes"}
 
-1. Click **[!UICONTROL Add address]** and specify the email address(es) which receive the test versions.
+1. Click **[!UICONTROL Add address]** and specify the email address(es) which receive the proofs.
 
     For each email address, select the profile to impersonate. You can also let Adobe Campaign select a random profile from the target.
 
     ![](assets/proof-test-profile.png){zoomable="yes"}
 
-1. Click **[!UICONTROL Send test email]** and confirm the sending.
+1. Click **[!UICONTROL Send proof]** and confirm the sending.
 
-    Test versions are sent to the specified email addresses using the selected profile with the **[Proof x]** prefix.
+    Proofs are sent to the specified email addresses using the selected profile with the **[Proof x]** prefix.
 
     ![](assets/proof-sent.png){zoomable="yes"}
 
-    You can check the status of the sending and access the sent test emails at any time by clicking the **[!UICONTROL View test email log]** button in the simulate content screen.
+    You can check the status of the sending and access the sent proofs  at any time by clicking the **[!UICONTROL View proofs]** button in the simulate content screen.
 
 ## Send and monitor the email {#prepare-send}
 

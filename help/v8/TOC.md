@@ -76,9 +76,9 @@ breadcrumb-title: Campaign Web User Interface
   + [Add offers to your messages](msg/offers.md)
   + [Send messages to your subscribers](msg/send-to-subscribers.md)
   + Preview and test your delivery {#preview-test}
-    + [About preview and test](preview-test/preview-test.md) 
+    + [About preview and proofs](preview-test/preview-test.md) 
     + [Preview the message content](preview-test/preview-content.md)
-    + [Send test deliveries](preview-test/test-deliveries.md)
+    + [Send proofs](preview-test/test-deliveries.md)
     + [Test the email rendering](preview-test/email-rendering.md)
 + Landing pages {#landing-pages}
   + [Get started with landing pages](landing-pages/get-started-lp.md)

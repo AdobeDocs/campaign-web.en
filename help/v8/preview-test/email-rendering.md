@@ -13,7 +13,7 @@ To do this, you can leverage your **Litmus** account into [!DNL Adobe Campaign] 
 
 >[!CAUTION]
 >
->Using email rendering in Campaign sends a test email to a third-party system. By connecting your Litmus account with [!DNL Campaign], you acknowledge that Adobe is not responsible for any data you may send to that third party. Litmus data retention email policy applies to these emails, including personalization data that may be included in these test messages. To access or delete such data, you will need to contact Litmus directly.
+>Using email rendering in Campaign sends a proof to a third-party system. By connecting your Litmus account with [!DNL Campaign], you acknowledge that Adobe is not responsible for any data you may send to that third party. Litmus data retention email policy applies to these emails, including personalization data that may be included in these proofs. To access or delete such data, you will need to contact Litmus directly.
 
 To access email rendering capabilities, you need to:
 
