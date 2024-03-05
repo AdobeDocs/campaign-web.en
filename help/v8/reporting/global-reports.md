@@ -6,6 +6,11 @@ exl-id: e64d9765-f602-4fee-9923-a3665130c63a
 ---
 # Get started with global reports {#global-report-gs}
 
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_global_report"
+>title="Global report"
+>abstract="Global Reports offer a powerful and efficient way to analyze your campaign performance. These reports provide a consolidated view of key traffic and engagement metrics for each channel within your campaign."
+
 The **Global reports** serve as an effective tool, offering a consolidated overall summary of traffic and engagement metrics for each channel within your Campaign instance. These reports consist of various widgets, each offering a distinct perspective on your campaign or delivery performance.
 
 Key Performance Indicators (KPIs) are refreshed hourly, ensuring up-to-date insights. By default, data is filtered to cover the past 30 days, offering a current and relevant perspective on your campaigns and deliveries performance.
