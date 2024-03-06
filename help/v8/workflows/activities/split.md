@@ -11,6 +11,11 @@ exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
 >title="Split activity"
 >abstract="The **Split** activity allows you to segment incoming populations into multiple subsets based on different selection criteria, such as filtering rules or population size."
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_generatesubsets"
+>title="Generate all subsets in the same table"
+>abstract="TBC"
+
 The **Split** activity is a **Targeting** activity that allows you to segment incoming populations into multiple subsets based on different selection criteria, such as filtering rules or population size.
 
 ## Configure the Split activity {#split-configuration}
