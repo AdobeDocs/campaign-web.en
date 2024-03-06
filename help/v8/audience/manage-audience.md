@@ -4,7 +4,7 @@ title: Monitor and manage audiences
 description: Learn how to monitor and manage audiences in Adobe Campaign Web
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 ---
-# Monitor and manage audiences {#monitor}
+# Monitor and manage audiences {#monitor-manage}
 
 ## What is an audience? {#what}
 
