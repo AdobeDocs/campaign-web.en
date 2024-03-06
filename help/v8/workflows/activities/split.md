@@ -14,7 +14,7 @@ exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_generatesubsets"
 >title="Generate all subsets in the same table"
->abstract="TBC"
+>abstract="Toggle on this option to group all the subsets into a single output transition."
 
 The **Split** activity is a **Targeting** activity that allows you to segment incoming populations into multiple subsets based on different selection criteria, such as filtering rules or population size.
 
