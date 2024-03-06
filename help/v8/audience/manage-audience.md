@@ -6,20 +6,7 @@ exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 ---
 # Monitor and manage audiences {#monitor}
 
->[!CONTEXTUALHELP]
->id="acw_audiences_properties"
->title="Properties"
->abstract="Here you can find a summary of the audience properties such its origin, storage folder, or its status. Click the link in the **Last workflow** section to open the workflow that has been used to create the audience."
-
->[!CONTEXTUALHELP]
->id="acw_audiences_count"
->title="Audience size"
->abstract="Here you can find the total number of profiles within the audience. Click the Calculate button to update and recalculate the audience results."
-
->[!CONTEXTUALHELP]
->id="acw_audiences_workflow_error_data_execution"
->title="Audience error"
->abstract="Audience data is not available. Please wait the end of the workflow execution."
+## What is an audience? {#what}
 
 The audience is the main target of your delivery: the recipients who receive the messages. The type of audience depends on the target mapping defined in the delivery template. Learn more about delivery templates in [this page](../msg/delivery-template.md). 
 
@@ -36,6 +23,23 @@ When targeting an audience, you can also define **control groups** to avoid send
 >
 >When sending messages in the context of a campaign workflow, the audience is defined in a specific **Build audience** workflow activity. In this context, you cannot load an audience from a file for an email delivery, and the audience is defined only in this dedicated activity. Learn how to define the audience of your delivery in a campaign workflow in [this section](../workflows/activities/build-audience.md)
 
+## Monitor audiences {#monitor}
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_properties"
+>title="Properties"
+>abstract="Here you can find a summary of the audience properties such its origin, storage folder, or its status. Click the link in the **Last workflow** section to open the workflow that has been used to create the audience."
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_count"
+>title="Audience size"
+>abstract="Here you can find the total number of profiles within the audience. Click the Calculate button to update and recalculate the audience results."
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_workflow_error_data_execution"
+>title="Audience error"
+>abstract="Audience data is not available. Please wait the end of the workflow execution."
+
 The list of audiences available for use in Campaign Web is accessible from the **[!UICONTROL Audiences]** menu.
 
 ![](assets/audiences-list.png){zoomable="yes"}
@@ -46,9 +50,7 @@ Audiences can originate from multiple sources. The **[!UICONTROL Origin]** colum
 
 * **[!UICONTROL Adobe Experience Platform:]** These audiences are created within Adobe Experience Platform and are integrated into Campaign Web using the Adobe Sources and Destinations integration. Learn how to set up this integration in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
 
->[!NOTE]
->
->To use Adobe Experience Platform audiences in Campaign, you need to configure the integration with Adobe Sources and Destinations. Refer to [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
+    ➡️ [Discover this feature in video](#video) 
 
 * **[!UICONTROL Adobe Campaign WebUI]**: These audiences are created using Campaign Web audience workflows. [Learn how to create audiences](create-audience.md)
 
@@ -59,3 +61,11 @@ The **[!UICONTROL Data]** tab allows you to vizualise the profiles that are part
 ![](assets/audiences-details.png){zoomable="yes"}
 
 To duplicate or delete an audience, click the **[!UICONTROL More action]** button available in the audiences list next to the audience name or inside an audience details screen.
+
+## How-to video {#video}
+
+Learn how to create a destination to use an Experience Platform audience in Adobe Campaign Web user interface.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3427635?quality=12)
+
+Detailed information on how to set up the Adobe Sources and Destinations integration is available in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
