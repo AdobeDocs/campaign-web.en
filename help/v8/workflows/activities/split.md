@@ -40,6 +40,11 @@ The **Split** activity is a **Targeting** activity that allows you to segment in
 >title="Split generate complement"
 >abstract="Once that you have configured all the subsets, you can select the remaining population that did not match any of the subsets and include them into an additional outbound transition. To do this, toggle on the **Generate complement** option." 
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_generatesubsets"
+>title="Generate all subsets in the same table"
+>abstract="Toggle on this option to group all the subsets into a single output transition."
+
 Follow these steps to configure the **Split** activity:
 
 1. Add a **Split** activity to your workflow.
@@ -71,12 +76,11 @@ Follow these steps to configure the **Split** activity:
         >
         >When setting a population limit for a subset, you can rank the selected profiles based on a specific profile attribute, in ascending or descending order. To do this, toggle on the **[!UICONTROL Enable sorting]** option. For instance, you can restrict a subset to include only the top 50 profiles with the highest purchase amount.
 
-
 1. Once that you have configured all the subsets, you can select the remaining population that did not match any of the subsets and include them into an additional outbound transition. To do this, toggle on the **[!UICONTROL Generate complement]** option.
 
     ![](../assets/workflow-split-complement.png)
 
-The activity is now configured. At workflow execution, the population will be segmented into the different subsets, in the order they have been added to the activity. 
+The activity is now configured. At workflow execution, the population will be segmented into the different subsets, in the order they have been added to the activity.
 
 ## Example{#split-example}
 

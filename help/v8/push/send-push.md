@@ -30,10 +30,8 @@ You can now review and send your push notification to your audience.
 
 ## Test your push notification delivery {#test-push}
 
-Using **Adobe Campaign**, you have the ability to test push notifications before sending them to your main audience. This step is important in validating your delivery and identifying any issues. 
-Test recipients can review elements such as links, images, and personalization settings, ensuring optimal performance and detecting any errors. This process helps you refine and optimize your push notifications before reaching your main audience.
-
-![](../assets/do-not-localize/book.png) Learn how to send test push notifications in [this section](../preview-test/test-deliveries.md#subscribers).
+Using **Adobe Campaign**, you have the ability to send proofs before sending them to your main audience. This step is important in validating your delivery and identifying any issues. 
+Test recipients can review elements such as links, images, and personalization settings, ensuring optimal performance and detecting any errors. This process helps you refine and optimize your push notifications before reaching your main audience. [Learn how to send proofs](../preview-test/test-deliveries.md#subscribers)
 
 ![](assets/push_send_6.png){zoomable="yes"}
 

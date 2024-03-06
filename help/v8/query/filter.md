@@ -6,7 +6,7 @@ exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
 ---
 # Filter lists {#filter-lists}
 
-Adobe Campaign Web provides filters within each list of objects, enabling you to filter information based on specific contextual criteria. For example, you can filter deliveries on their status, channel, contact date, or folder. You can also hide tests.
+Adobe Campaign Web provides filters within each list of objects, enabling you to filter information based on specific contextual criteria. For example, you can filter deliveries on their status, channel, contact date, or folder. You can also hide proofs.
 
 ## Apply filters{#apply}
 

@@ -29,7 +29,7 @@ To select an existing audience for your message, follow the steps below:
 
     ![](assets/create-audience2.png){zoomable="yes"}
 
-   To choose an audience from Adobe Experience Platform, browse to the `AEP Audiences folder` from the filter section of the screen.
+   To choose an audience from Adobe Experience Platform, browse to the `AEP Audiences folder` from the filter section of the screen. [Learn more on Adobe Experience Platform audiences](manage-audience.md#monitor)
 
     ![](assets/select-audience-folder.png){zoomable="yes"}
 

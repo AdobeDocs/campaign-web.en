@@ -42,8 +42,8 @@ To preview the content of your delivery, follow the steps below.
 1. For email deliveries, you can adjust the **[!UICONTROL Zoom level]** and preview your content on desktop or mobile device using the dedicated icon in the top right corner.
 
 1. From the **[!UICONTROL Simulate]** screen you can also:
-    * Send test deliveries to specific recipients for validation - [Learn more](test-deliveries.md)
-    * Access the logs of the sent test deliveries - [Learn more](test-deliveries.md#access-test-deliveries)
+    * Send proofs to specific recipients for validation - [Learn more](test-deliveries.md)
+    * Access the logs of the sent proofs - [Learn more](test-deliveries.md#access-test-deliveries)
     * For email only, check the message content rendering in popular email clients - [Learn more](email-rendering.md)
 
 
