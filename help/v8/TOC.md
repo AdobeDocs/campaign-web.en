@@ -55,7 +55,6 @@ breadcrumb-title: Campaign Web User Interface
         + [Add inline styling attributes](email/inline-styling.md)
     + Send and monitor the email {#monitor}
       + [Prepare and send an email](monitor/prepare-send.md)
-      + [Email delivery settings](advanced-settings/delivery-settings.md)
       + [Send using multiple waves](advanced-settings/send-using-waves.md)
       + [Monitor delivery logs](monitor/delivery-logs.md)    
   + Push notifications {#push}
@@ -75,6 +74,7 @@ breadcrumb-title: Campaign Web User Interface
     + [Add built-in content blocks](personalization/content-blocks.md)
   + [Add offers to your messages](msg/offers.md)
   + [Send messages to your subscribers](msg/send-to-subscribers.md)
+  + [Configure delivery settings](advanced-settings/delivery-settings.md)
   + Preview and test your delivery {#preview-test}
     + [About preview and proofs](preview-test/preview-test.md) 
     + [Preview the message content](preview-test/preview-content.md)

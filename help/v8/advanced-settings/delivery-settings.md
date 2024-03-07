@@ -1,18 +1,14 @@
 ---
 audience: end-user
-title: Delivery Settings
-description: Learn more about delivery settings in Campaign Web 
-feature: Email
+title: Configure delivery Settings
+description: Learn how to configure delivery settings in Campaign Web
+feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 ---
 
-# Email delivery settings {#email-del-settings}
+# Configure delivery settings {#del-settings}
 
-Email delivery settings are **technical delivery parameters** that are defined in the email template. They can be overloaded for each delivery.
-
-These settings are available from the **Settings** button available when editing an email delivery or an email delivery template.
-
-## Email delivery settings {#email-delivery-settings}
+Delivery settings are **technical delivery parameters** that are defined in the delivery template. They can be overloaded for each delivery. These settings are available from the **Settings** button available when editing a delivery or a delivery template.
 
 >[!CAUTION]
 >
@@ -30,12 +26,11 @@ These settings are available from the **Settings** button available when editing
 >title="Typology settings for the delivery"
 >abstract="Typology rules allow marketers to standardize business practices, across all deliveries. A typology is a collection of typology rules which lets you control, filter, and prioritize the sending of deliveries. Profiles which match criteria within a typology rule are excluded from the delivery audiences at the preparation phase. Typologies and typology rules are created in the Campaign client console."
 
-
 Typologies are sets of **typology rules** that are executed during the preparation phase in order to easily apply multiple filtering rules to a delivery at once. They allow marketers to standardize business practices across all deliveries as they let them control, filter, and prioritize the sending of deliveries.
 
 When associating a typology with a message or message template, the typology rules included in the typology are executed to check the delivery validity during message preparation. Profiles which match criteria within a typology rule are then excluded from the delivery audiences.
 
-Typologies allow you to make sure your emails always contain certain elements (such as an unsubscription link or a subject line) or filtering rules to exclude groups from your intended target (like unsubscribers, competitors, or non-loyalty customers).
+Typologies allow you to make sure your deliveries always contain certain elements (such as an unsubscription link or a subject line) or filtering rules to exclude groups from your intended target (like unsubscribers, competitors, or non-loyalty customers).
 
 ![](assets/delivery-settings-typology.png){zoomable="yes"}
 
@@ -49,7 +44,6 @@ Typologies allow you to make sure your emails always contain certain elements (s
 >id="acw_email_settings_pressure_parameters"
 >title="Pressure parameters for the delivery"
 >abstract="Delivery weights let you identify top-priority deliveries within the framework of fatigue management. Messages with the highest weight have priority."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_delivery_weight"
@@ -85,15 +79,14 @@ Use the **[!UICONTROL Delivery mode]** field to select the target evaluation mod
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_capacity_settings"
 >title="Capacity settings for the delivery"
->abstract="Before delivering messages, use capacity rules to make sure your organization can process the delivery, the inbound messages which the delivery may generate, and the number of calls to be made to contact subscribers for example. Capacity rules are defined in the Adobe Campaign v8 console. In this screen, select a rule associated to the email channel."
+>abstract="Before delivering messages, use capacity rules to make sure your organization can process the delivery, the inbound messages which the delivery may generate, and the number of calls to be made to contact subscribers for example. Capacity rules are defined in the Adobe Campaign v8 console. In this screen, select a rule associated to the channel."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_recipient_importance"
 >title="Importance of the recipient"
 >abstract="The importance of the recipient is a formula used to determine which recipients are kept when the capacity typology rules are exceeded."
 
-
-In this section, you can select a capacity rule defined in the Adobe Campaign v8 console. This rule is associated to the email channel.
+In this section, you can select a capacity rule defined in the Adobe Campaign v8 console. This rule is associated to the channel.
 
 The **[!UICONTROL Importance of the recipient]** field is a formula used to determine which recipients are kept when the capacity typology rules are exceeded.
 
@@ -106,11 +99,9 @@ The **[!UICONTROL Importance of the recipient]** field is a formula used to dete
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_audience"
 >title="Audience settings for the delivery"
->abstract="Select a **target mapping** among those available. Target mappings are defined in the Adobe Campaign v8 console. You can also set the exclusion parameters for the delivery. "
+>abstract="Select a **target mapping** among those available. Target mappings are defined in the Adobe Campaign v8 console. You can also set the exclusion parameters for the delivery."
 
-In this section, you can select a **target mapping** among those available. Target mappings are defined in the Adobe Campaign v8 console. The target mapping is the type of data that an operation is handling. It lets you define the targeted population: recipients, contract beneficiaries, operators, subscribers, etc.
-
-Learn more about target mappings in [this section](../audience/targeting-dimensions.md).
+In this section, you can select a **target mapping** among those available. Target mappings are defined in the Adobe Campaign v8 console. The target mapping is the type of data that an operation is handling. It lets you define the targeted population: recipients, contract beneficiaries, operators, subscribers, etc. [Learn more on target mappings](../audience/targeting-dimensions.md).
 
 In the **[!UICONTROL Exclusion]** field, you can select to exclude recipients who no longer want to be contacted or who are quarantined. [Learn more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
 
@@ -125,7 +116,7 @@ In the **[!UICONTROL Exclusion]** field, you can select to exclude recipients wh
 
 ![](assets/delivery-settings-delivery.png){zoomable="yes"}
 
-The integrated email **[!UICONTROL Routing]** external account is provided by default. It contains the technical parameters that allow the application to send emails.
+The integrated **[!UICONTROL Routing]** external account is provided by default. It contains the technical parameters that allow the application to send deliveries.
 
 You can define the **[!UICONTROL Sending]** settings below.
 
@@ -137,29 +128,23 @@ You can define the **[!UICONTROL Sending]** settings below.
   >
   >When the delivery is created by duplicating an existing one, this parameter is reset.
 
-* **[!UICONTROL Test SMTP delivery]**: This option is used to test sending via SMTP. The delivery is processed up to connection to the SMTP server, but is not sent: for every recipient of the delivery, Campaign connects to the SMTP provider server, executes the SMTP RCPT TO command, and closes the connection before the SMTP DATA command.
+* **[!UICONTROL Test SMTP delivery]** (email channel): This option is used to test sending via SMTP. The email is processed up to connection to the SMTP server, but is not sent: for every recipient of the email, Campaign connects to the SMTP provider server, executes the SMTP RCPT TO command, and closes the connection before the SMTP DATA command.
 
-* **[!UICONTROL Email BCC]**: This option is used to store emails on an external system through BCC by simply adding a BCC email address to your message target. Learn more in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"}.
+* **[!UICONTROL Email BCC]** (email channel): This option is used to store emails on an external system through BCC by simply adding a BCC email address to your message target. Learn more in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"}.
 
 In the **[!UICONTROL Wave definition]** section, select the **[!UICONTROL Send using multiple waves]** option to progressively increase the volume sent using waves. This will avoid your messages being marked as spam or when you want to restrict the number of messages per day. Using waves you can divide deliveries into several batches instead of sending high volumes of messages at the same time. [Learn more](send-using-waves.md)
 
-You can also change the **[!UICONTROL Mail formats]** of the email messages sent as detailed below.
+For emails, you can also change the **[!UICONTROL Mail formats]** of the messages sent as detailed below.
 
-* **[!UICONTROL Use recipient preferences]** (default mode)
+* **[!UICONTROL Use recipient preferences]** (default mode): The email format is defined according to the data stored in the recipient profile. If a recipient wishes to receive emails in a certain format, this is the format sent. If the field is not filled in, a multipart-alternative email is sent (see below).
 
-  The message format is defined according to the data stored in the recipient profile. If a recipient wishes to receive messages in a certain format, this is the format sent. If the field is not filled in, a multipart-alternative message is sent (see below).
-
-* **[!UICONTROL Let recipient mail client choose the most appropriate format]**
-
-  The message contains both formats: text and HTML. The format displayed on reception depends on the configuration of the recipient's mail software (multipart-alternative).
+* **[!UICONTROL Let recipient mail client choose the most appropriate format]**: The email contains both formats: text and HTML. The format displayed on reception depends on the configuration of the recipient's mail software (multipart-alternative).
 
   >[!IMPORTANT]
   >
-  >This option includes both versions of the document. It therefore impacts the delivery rate, because the message size is greater.
+  >This option includes both versions of the document. It therefore impacts the delivery rate, because the email size is greater.
 
-* **[!UICONTROL Send all messages in text format]**
-
-  The message is sent in text format. HTML format will not be sent, but used for the mirror page only when the recipient clicks the message.
+* **[!UICONTROL Send all messages in text format]**: The email is sent in text format. HTML format will not be sent, but used for the mirror page only when the recipient clicks the email.
 
 ## Web Analytics {#web-analytics}
 
@@ -187,7 +172,7 @@ You can also define the tags shared with the analytics tool you are using.
 
 Temporarily undelivered messages due to a Soft or Ignored error are subject to an automatic retry. By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. 
 
-## Approval {#approval}
+## Approval (email channel) {#approval}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
@@ -199,14 +184,12 @@ Temporarily undelivered messages due to a Soft or Ignored error are subject to a
 >title="Approval mode for the deliveries"
 >abstract="Select the approval mode for deliveries based on this template. If warnings are generated during the delivery preparation, you can configure the delivery to define whether or not it should still be executed."
 
-If warnings are generated during the delivery preparation, you can configure the delivery to define whether or not it should still be executed. By default, the user must confirm the sending of messages at the end of the analysis phase: this is **manual** validation.
+If warnings are generated during an email delivery preparation, you can configure the delivery to define whether or not it should still be executed. By default, the user must confirm the sending of emails at the end of the analysis phase: this is **manual** validation.
 
 You can select another approval mode in the appropriate field. Available modes are: 
 
-* ****[!UICONTROL Manual]****: At the end of the analysis phase, the user must confirm delivery to start sending. 
-
+* **[!UICONTROL Manual]**: At the end of the analysis phase, the user must confirm delivery to start sending. 
 * **[!UICONTROL Semi-Automatic]**: Sending begins automatically if the analysis phase generates no warning messages.
-
 * **[!UICONTROL Automatic]**: Sending begins automatically at the end of the analysis phase, irrespective of its result.
 
 ## Validity {#validity}
@@ -247,16 +230,15 @@ You can also choose to specify dates. To do this, select **[!UICONTROL Explicitl
 
 Learn more about delivery validity period in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html#validity-period){target="_blank"}.
 
-### Mirror page management {#mirror}
+### Mirror page management (email channel) {#mirror}
 
-The mirror page is an HTML page accessible online via a web browser. Its content is identical to the email. By default, the mirror page is generated if the link is inserted in the content of the mail. 
+The mirror page is an HTML page accessible online via a web browser. Its content is identical to the email. By default, the mirror page is generated if the link is inserted in the content of the email. 
 
 In addition to the default mode, the following options are also available:
 
-* **[!UICONTROL Force the generation of the mirror page]**: Use this mode to generate the mirror page even if no link to the mirror page is inserted in the delivery.
-* **[!UICONTROL Do not generate the mirror page]**: Use this mode to avoid generating a mirror page, even if the link is present in the delivery.
+* **[!UICONTROL Force the generation of the mirror page]**: Use this mode to generate the mirror page even if no link to the mirror page is inserted in the email.
+* **[!UICONTROL Do not generate the mirror page]**: Use this mode to avoid generating a mirror page, even if the link is present in the email.
 * **[!UICONTROL Generates a mirror page accessible using only the message identifier]**: When the mirror page link is not present in the email content, use this option to enable access the content of the mirror page, in the delivery log window, from the client console. 
-
 
 ### Tracking {#tracking}
 
@@ -274,9 +256,8 @@ In addition to the default mode, the following options are also available:
 
 **[!UICONTROL Tracking]** parameters are defined in the related section. Possible options are:
 
-**[!UICONTROL Tracking validity limit]**: Use this option to change the duration for which the tracking is activated on the URLs.
-
-**[!UICONTROL Substitution URL for expired URLs]**: Use this option to enter a URL to a fallback web page: it is displayed once the tracking has expired.
+* **[!UICONTROL Tracking validity limit]**: Use this option to change the duration for which the tracking is activated on the URLs.
+* **[!UICONTROL Substitution URL for expired URLs]**: Use this option to enter a URL to a fallback web page: it is displayed once the tracking has expired.
 
 ## Proof settings {#test-setttings}
 
@@ -289,14 +270,11 @@ In addition to the default mode, the following options are also available:
 
 You can set the exclusion parameters in this section. Available options are:
 
-* ****[!UICONTROL Keep doubles]**** lets you authorize multiple deliveries to recipients who satisfy several targeting criteria.
-
+* **[!UICONTROL Keep doubles]** lets you authorize multiple deliveries to recipients who satisfy several targeting criteria.
 * **[!UICONTROL Keep denylisted addresses]** lets you keep from the target any profiles no longer being targeted by the delivery, such as after an unsubscription (opt-out).
-
 * **[!UICONTROL Keep quarantined addresses]** lets you keep from the target any profiles with an address that does not respond. 
 
 You can also customize the lable of the proofs:
 
 * Use the **[!UICONTROL Keep the delivery code for the proof]** to associate to the proof the same delivery code as the one defined for the delivery to which it relates.
-
 * By default, the subject of the proof is prefixed by 'PROOF #', where # is the number of the proof. You can change this prefix in the **[!UICONTROL Label prefix]** field.
