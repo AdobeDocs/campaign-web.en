@@ -3,6 +3,7 @@ audience: end-user
 title: Work with landing page content templates
 description: Learn how save landing page content as a design template and reuse it in Campaign Web
 feature: Landing Pages
+exl-id: 2298265b-6ca6-461f-8c69-c60d98e8f445
 ---
 # Work with landing page content templates {#work-with-templates}
 

@@ -2,6 +2,7 @@
 audience: end-user
 title: Manage assets with Adobe Experience Manager as a Cloud service
 description: Learn how to manage content with Adobe Experience Manager as a Cloud service
+exl-id: 43b186c8-294e-4cbe-b269-e127065515ed
 ---
 # Manage templates with [!DNL Adobe Experience Manager as a Cloud service]{#aem-assets}
 
@@ -89,4 +90,4 @@ Once the Experience Manager template is available in Adobe Campaign Web as a con
 
     If needed, additional test profiles can be added through the **[!UICONTROL Manage test profiles]** button.
 
-Your delivery is now ready to be sent. 
+Your delivery is now ready to be sent.

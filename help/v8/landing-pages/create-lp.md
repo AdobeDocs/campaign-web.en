@@ -2,6 +2,7 @@
 title: Create a landing page
 description: Learn how to configure and publish a landing page in Campaign Web
 feature: Landing Pages
+exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
 ---
 # Create and publish landing pages {#create-lp}
 
