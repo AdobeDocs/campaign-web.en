@@ -3,6 +3,7 @@ audience: end-user
 title: Get started with landing pages
 description: Learn about landing pages in Campaign Web
 feature: Landing Pages
+exl-id: edd313a3-93f4-4596-8dd6-dfc2bc3db21b
 ---
 # Get started with landing pages {#get-sarted-lp}
 

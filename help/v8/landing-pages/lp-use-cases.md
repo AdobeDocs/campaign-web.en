@@ -7,6 +7,7 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: landing, landing page, use case
+exl-id: e51cf54c-9db1-4704-bc5b-0df098d67c7d
 ---
 # How to use a landing page {#lp-use-cases}
 
@@ -208,14 +209,3 @@ For example, if you chose to update the **[!UICONTROL Channel (email)]** option 
 ![](assets/lp-uc-denylist-profile.png){zoomable="yes"}
 
 This profile will not receive email communications from your brand unless subscribed again.
-
-
-
-
-
-
-
-
-
-
-

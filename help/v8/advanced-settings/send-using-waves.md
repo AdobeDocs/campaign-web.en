@@ -1,10 +1,10 @@
 ---
 audience: end-user
 title: Sending using waves
-description: Learn more about delivery settings in Campaign Web 
+description: Learn more about delivery settings in Campaign Web
 feature: Email
+exl-id: d4cd5fe5-f9ac-44ac-a961-ae45131aeb3e
 ---
-
 # Send using waves {#send-using-waves}
 
 >[!CONTEXTUALHELP]
@@ -93,6 +93,3 @@ To avoid being marked as spam, you can progressively increase the volume sent us
 To do so, use the **[!UICONTROL Schedule waves according to a calendar]** option. For example, set the first wave to 10%, the second to 15%, the third to 20%, and so on.
 
 ![](assets/waves-ramp-up.png){zoomable="yes"}
-
-
-  

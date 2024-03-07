@@ -2,7 +2,7 @@
 title: Define landing page-specific content
 description: Learn how to design landing page specific content in Campaign Web
 feature: Landing Pages
-
+exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
 ---
 # Define landing page-specific content {#lp-content}
 

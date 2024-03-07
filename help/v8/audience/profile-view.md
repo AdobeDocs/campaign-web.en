@@ -1,6 +1,7 @@
 ---
 title: Explore profiles' details
 description: Learn how to explore the details of a profile.
+exl-id: 172dec7d-24c6-4c35-bb45-5dc3ce9fadeb
 ---
 # Explore profiles' details {#profile-view}
 
