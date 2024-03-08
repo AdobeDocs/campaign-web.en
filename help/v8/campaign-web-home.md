@@ -36,44 +36,6 @@ exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 >title="Item 4"
 >abstract="Next generation query modeler and email designer"
 
-<!--
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_list5"
->title="Item 5"
->abstract="Additional Item"-->
-
-<!-- TO REMOVE BELOW-->
-
->[!CONTEXTUALHELP]
->id="acw_homepage_card1"
->title="Help and Documentation"
->abstract="Campaign now provides a new web user interface (UI) with enhanced usability, accessibility, and a new design to significantly improve your user experience. This new modern UI simplifies marketing campaign design and delivery, and brings consistency, along with other Adobe solutions."
-
->[!CONTEXTUALHELP]
->id="acw_homepage_title"
->title="Experience the new Adobe Campaign User Interface"
->abstract="More modern, intuitive and dynamic."
-
->[!CONTEXTUALHELP]
->id="acw_homepage_list1"
->title="Item 1"
->abstract="New Email, SMS and Push notifications design experience"
-
->[!CONTEXTUALHELP]
->id="acw_homepage_list2"
->title="Item 2"
->abstract="Simplified workflow canvas interface"
-
->[!CONTEXTUALHELP]
->id="acw_homepage_list3"
->title="Item 3"
->abstract="Reimagined UX for Audiences, subscription and services, AEM Assets"
-
->[!CONTEXTUALHELP]
->id="acw_homepage_list4"
->title="Item 4"
->abstract="Email Gen AI: Prompt based email generation"
-<!--TO REMOVE ABOVE-->
 
 We are thrilled to introduce the new version of Adobe Campaign Web User Interface. Our latest release is packed with intuitive features designed to simplify the creation of personalized cross-channel campaigns, drive exceptional results, and give you a competitive advantage across all channels. This new modern UI simplifies marketing campaign design and delivery, and brings consistency, along with other Adobe solutions, including Adobe Experience Platform.
 

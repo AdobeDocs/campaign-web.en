@@ -11,13 +11,6 @@ exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
 >title="New Query modeler"
 >abstract="Adobe Campaign Web features a query modeler that simplifies the process of filtering databases to select specific targets based on various criteria. This includes the use of advanced expressions and operators. The query modeler is available in every context where you need to define rules to filter data."
 
-<!--TO REMOVE BELOW-->
->[!CONTEXTUALHELP]
->id="acw_homepage_card5"
->title="New Query modeler"
->abstract="Adobe Campaign Web features a query modeler that simplifies the process of filtering databases to select specific targets based on various criteria. This includes the use of advanced expressions and operators. The query modeler is available in every context where you need to define rules to filter data."
-<!--TO REMOVE ABOVE-->
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_querymessage"
