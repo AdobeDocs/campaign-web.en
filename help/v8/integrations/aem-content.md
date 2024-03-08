@@ -1,18 +1,18 @@
 ---
 audience: end-user
-title: Manage assets with Adobe Experience Manager as a Cloud service
-description: Learn how to manage content with Adobe Experience Manager as a Cloud service
+title: Manage assets with Adobe Experience Manager as a Cloud Service
+description: Learn how to manage content with Adobe Experience Manager as a Cloud Service
 exl-id: 43b186c8-294e-4cbe-b269-e127065515ed
 ---
-# Manage templates with [!DNL Adobe Experience Manager as a Cloud service]{#aem-assets}
+# Manage templates with [!DNL Adobe Experience Manager as a Cloud Service]{#aem-assets}
 
-## Get started with [!DNL Adobe Experience Manager as a Cloud service]{#create-aem}
+## Get started with [!DNL Adobe Experience Manager as a Cloud Service]{#create-aem}
 
 The integration of the Adobe Campaign Web interface with Adobe Experience Manager facilitates the streamlined management of email delivery content and forms directly within the Adobe Experience Manager platform.
 
-![](assets/do-not-localize/book.png)[Learn more on Adobe Experience Manager as a Cloud service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=en)
+![](assets/do-not-localize/book.png)[Learn more on Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=en)
 
-## Create a template in [!DNL Adobe Experience Manager as a Cloud service]{#create-aem-template}
+## Create a template in [!DNL Adobe Experience Manager as a Cloud Service]{#create-aem-template}
 
 1. Navigate to your [!DNL Adobe Experience Manager] author instance and click Adobe Experience at the upper left corner of the page. Choose **[!UICONTROL Sites]** from the menu.
 
@@ -42,7 +42,7 @@ The integration of the Adobe Campaign Web interface with Adobe Experience Manage
 
 Your newsletter is now ready and synchronized in Adobe Campaign.
 
-## Import an Adobe Experience Manager  as a Cloud service template{#aem-templates-perso}
+## Import an Adobe Experience Manager  as a Cloud Service template{#aem-templates-perso}
 
 Once the Experience Manager template is available in Adobe Campaign Web as a content template, you can identify and incorporate the necessary content for the email, including personalization.
 

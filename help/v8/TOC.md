@@ -161,6 +161,7 @@ breadcrumb-title: Campaign Web User Interface
     + [Push global report](reporting/global-report-push.md)
     + [SMS global report](reporting/global-report-sms.md)
 + Integrations {#integrations}
+  + [Work with other Adobe solutions](integrations/integration.md)
   + [Manage assets with Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
-  + [Manage templates with Adobe Experience Manager as a Cloud service](integrations/aem-content.md)
+  + [Manage templates with Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
 
