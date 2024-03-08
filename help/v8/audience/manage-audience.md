@@ -8,7 +8,7 @@ exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 
 ## What is an audience? {#what}
 
-The audience is the main target of your delivery: the recipients who receive the messages. The type of audience depends on the target mapping defined in the delivery template. Learn more about delivery templates in [this page](../msg/delivery-template.md). 
+The audience is the main target of your delivery: the profiles who receive the messages. The type of audience depends on the target mapping defined in the delivery template. Learn more about delivery templates in [this page](../msg/delivery-template.md). 
 
 To define the population of an audience, you can:
 

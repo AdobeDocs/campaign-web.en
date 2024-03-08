@@ -27,7 +27,7 @@ exl-id: 0680b726-8f2f-45bf-8aa0-c1d4aa1c2990
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_nolongercontact"
->title="Recipients No longer contact"
+>title="No longer contact"
 >abstract="This section offers insights into the contact preferences of the profile. To modify any information, make your changes directly within the respective field and click the **Save** button located in the upper-right corner of the screen."
 
 >[!CONTEXTUALHELP]

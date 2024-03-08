@@ -64,7 +64,9 @@ In the **[!UICONTROL Weight type]** field, three options are available:
 
 Use the **[!UICONTROL Delivery weight]** field to define the delivery priority. Each delivery has a weight which represents its level of priority. By default, the weight of a delivery is set to 5. Pressure rules let you define the weight of the deliveries which they are applied to. Weights can be either set or calculated via a formula to suit recipients. For example, you can define the weight of a delivery based on recipient interests.
 
-Use the **[!UICONTROL Delivery mode]** field to select the target evaluation mode. Three modes are available:
+Use the **[!UICONTROL Delivery mode]** field to select the target evaluation mode. 
+
+Three modes are available:
 
 * **[!UICONTROL Target estimation and message personalization]**
 * **[!UICONTROL Estimation and approval of the provisional target]**
@@ -72,7 +74,7 @@ Use the **[!UICONTROL Delivery mode]** field to select the target evaluation mod
 
 >[!NOTE]
 >
->Fatigue management is configured in the Campaign client console. Learn more in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}.
+>Fatigue management and pressure rules are configured in the Campaign client console. Learn more in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}.
 
 ### Capacity settings {#capacity-settings}
 
@@ -84,11 +86,11 @@ Use the **[!UICONTROL Delivery mode]** field to select the target evaluation mod
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_recipient_importance"
 >title="Importance of the recipient"
->abstract="The importance of the recipient is a formula used to determine which recipients are kept when the capacity typology rules are exceeded."
+>abstract="The importance of the recipient is a formula used to determine which profiles are kept when the capacity typology rules are exceeded."
 
 In this section, you can select a capacity rule defined in the Adobe Campaign v8 console. This rule is associated to the channel.
 
-The **[!UICONTROL Importance of the recipient]** field is a formula used to determine which recipients are kept when the capacity typology rules are exceeded.
+The **[!UICONTROL Importance of the recipient]** field is a formula used to determine which profiles are kept when the capacity typology rules are exceeded.
 
 >[!NOTE]
 >
@@ -103,7 +105,7 @@ The **[!UICONTROL Importance of the recipient]** field is a formula used to dete
 
 In this section, you can select a **target mapping** among those available. Target mappings are defined in the Adobe Campaign v8 console. The target mapping is the type of data that an operation is handling. It lets you define the targeted population: recipients, contract beneficiaries, operators, subscribers, etc. [Learn more on target mappings](../audience/targeting-dimensions.md).
 
-In the **[!UICONTROL Exclusion]** field, you can select to exclude recipients who no longer want to be contacted or who are quarantined. [Learn more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
+In the **[!UICONTROL Exclusion]** field, you can select to exclude profiles who no longer want to be contacted or who are quarantined. [Learn more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
 
 ## Delivery {#delivery}
 
@@ -270,7 +272,7 @@ In addition to the default mode, the following options are also available:
 
 You can set the exclusion parameters in this section. Available options are:
 
-* **[!UICONTROL Keep doubles]** lets you authorize multiple deliveries to recipients who satisfy several targeting criteria.
+* **[!UICONTROL Keep doubles]** lets you authorize multiple deliveries to profiles who satisfy several targeting criteria.
 * **[!UICONTROL Keep denylisted addresses]** lets you keep from the target any profiles no longer being targeted by the delivery, such as after an unsubscription (opt-out).
 * **[!UICONTROL Keep quarantined addresses]** lets you keep from the target any profiles with an address that does not respond. 
 

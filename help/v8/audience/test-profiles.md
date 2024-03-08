@@ -11,17 +11,19 @@ exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
 >[!CONTEXTUALHELP]
 >id="acw_recipients_testprofiles_menu"
 >title="Create test profiles"
->abstract="Test profiles are created as seed addresses. They are additional recipients in the database used to target fictitious profiles who do not match the defined target criteria."
+>abstract="Test profiles are additional recipients which let you preview and test the personalization and rendering before sending your messages. You can select a test profile when previewing a message content, and send proofs to the test profiles to control and validate your message content and settings."
 
-Test profiles are created as seed addresses. They are additional recipients in the database used to target fictitious profiles who do not match the defined target criteria. They let you preview and test the personalization and rendering before sending your delivery, by sending them proofs.
+Test profiles are used to send proofs, and validate your message content and settings. These profiles are additional recipients which let you preview and test the personalization and rendering before sending your messages. You can select a test profile when previewing a message content, and send proofs to the test profiles to control and validate your message content and settings.
 
 <!--Learn more on test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
-The steps to send proofs to seed addresses are detailed in [this section](../preview-test/test-deliveries.md#test-profiles).
+The steps to send proofs to test profiles are detailed in [this section](../preview-test/test-deliveries.md#test-profiles).
 
 >[!NOTE]
 >
->Test profiles are automatically excluded from reports on the following delivery statistics: **[!UICONTROL Clicks]**, **[!UICONTROL Opens]**, **[!UICONTROL Unsubscriptions]**. [Learn more on reports]
+>* Test profiles are created as seed addresses in the Client console. 
+>
+>* Test profiles are automatically excluded from reports on the following delivery statistics: **[!UICONTROL Clicks]**, **[!UICONTROL Opens]**, **[!UICONTROL Unsubscriptions]**.
 
 ## Access and manage test profiles {#access-test-profiles}
 
@@ -56,7 +58,7 @@ From the **[!UICONTROL Explorer]** view you can also filter, delete, edit and [c
 >title="Test profiles Additional Data"
 >abstract="Enter the personalization data used for the deliveries created in the Data management workflows and which you want to assign a specific value to."
 
-To create a test profile, follow the steps below.
+To create a test profile, follow the steps below:
 
 1. Browse to **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]** and select the **[!UICONTROL Test profiles]** tab.
 

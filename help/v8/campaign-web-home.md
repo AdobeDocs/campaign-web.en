@@ -127,7 +127,7 @@ Campaign Email Designer enables you to create captivating, individually tailored
     </div></td>
     <td>
     <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>
-    <div><strong>Make your content dynamic</strong><br/>Learn how to customize your content based on the information you have gathered about your recipients to make your content more appealing and increase the likelihood of it being read.</div>
+    <div><strong>Make your content dynamic</strong><br/>Learn how to customize your content based on the information you have gathered about your profiles to make your content more appealing and increase the likelihood of it being read.</div>
     </td>
   </tr>
   <tr style="border: 0;">

@@ -39,7 +39,7 @@ On the right side, the **Rule properties** pane allows you to perform the  actio
 
 ![](assets/segment-builder5.png){zoomable="yes"}{width="70%" align="left"}
 
-* **View results:** displays the list of recipients targeted by the audience.
+* **View results:** displays the list of profiles targeted by the audience.
 * **Code view**: displays a code-based version of the audience in SQL.
 * **Display advanced attributes**: check this option if you want to view the complete list of attributes in the left palette: nodes, groupings, 1-1 links, 1-N links.
 * **Calculate**: updates and displays the number of profiles targeted by your query.

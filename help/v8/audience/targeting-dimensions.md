@@ -8,7 +8,7 @@ exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_dimension"
 >title="Select the targeting dimension"
->abstract="The targeting dimension lets you define the population targeted by the operation: recipients, contract beneficiaries, operator, subscribers, etc. By default, the target is selected from the recipients."
+>abstract="The targeting dimension lets you define the population targeted by the operation: recipients, contract beneficiaries, operator, subscribers, etc. By default, for emails and SMS, the target is selected from the Recipients built-in table. For Push notifications, the default target dimension is Subscriber applications."
 
 The targeting dimension, aka. target mapping, is the type of data that an operation is handling. It lets you define the targeted population: profiles, contract beneficiaries, operators, subscribers, etc.
 
@@ -30,12 +30,12 @@ You can also use other built-in target mappings in your workflows and deliveries
 
 |  Name  | Use to | Schema  |
 |---|---|---|
-|  Recipients  | Deliver to recipients (built-in recipient table)  | nms:recipient  |
+|  Recipients  | Deliver to profiles / recipients (built-in recipient table)  | nms:recipient  |
 |  Visitors  | Deliver to visitors whose profiles have been collected via referral (viral marketing) for ex.  | mns:visitor  |
-|  Subscriptions  | Deliver to recipients who are subscribed to an information service such as a newsletter | nms:subscription  |
+|  Subscriptions  | Deliver to profiles who are subscribed to an information service such as a newsletter | nms:subscription  |
 |  Visitor subscriptions  | Deliver to visitors who are subscribed to an information service  | nms:visitorSub  |
 |  Operators  | Deliver to Adobe Campaign operators  | nms:operator  |
 |  External file  | Deliver via a file that contains all information needed for delivery  | No linked schema, no target entered  |
-|  Subscriber applications  | Deliver to recipients who are subscribed to an application | nms:appSubscriptionRcp  |
+|  Subscriber applications  | Deliver to profiles who are subscribed to an application | nms:appSubscriptionRcp  |
 
-In addition, you can create a new target mapping depending on your needs. This is performed from the client console. Learn more in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping){target="_blank"}.
+In addition, you can create a new target mapping depending on your needs. This operation is performed from the client console only. Learn more in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping){target="_blank"}.

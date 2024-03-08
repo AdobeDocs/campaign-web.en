@@ -1,7 +1,7 @@
 ---
 audience: end-user
-title: Target recipients from a file
-description: Learn how to use recipients from an external file to build your email audience
+title: Load an email audience from a file
+description: Learn how to load profiles from an external file to build your email audience
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 ---
 # Load an email audience from a file {#audience-from-file}
@@ -96,7 +96,7 @@ Campaign Web allows you to preview and send proofs when using an audience upload
     >
     >Ensure that the file format matches the one used for uploading your audience. Any format errors will display an alert.
 
-1. When the proof recipients are added and you are ready to send the proofs, click the **[!UICONTROL Send proof]** button and confirm the sending.
+1. When the proof profiles are added and you are ready to send the proofs, click the **[!UICONTROL Send proof]** button and confirm the sending.
 
     ![](assets/file-upload-test.png){zoomable="yes"}
 

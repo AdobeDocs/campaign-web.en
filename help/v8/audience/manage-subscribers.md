@@ -36,7 +36,7 @@ The profiles added are displayed in the **[!UICONTROL Subscribers]** tab. They a
 
 ## Remove subscribers from your service {#remove-subscribers}
 
-### Manually unsubscribe recipients {#manual-unsubscription}
+### Manually unsubscribe profiles {#manual-unsubscription}
 
 Once you [added subscribers](#add-subscribers) to your service, you can manually unsubscribe each of them. Follow the steps below.
 
@@ -56,7 +56,7 @@ The recipient is removed from the **[!UICONTROL Subscribers]** tab and is no lon
 
 ### Automatically unsubscribe recipients {#automatic-unsubscription}
 
-A subscription service can have a limited duration. Recipients are automatically unsubscribed when the period of validity expires.
+A subscription service can have a limited duration. Profiles are automatically unsubscribed when the period of validity expires.
 
 This period is specified when [creating the service](manage-services.md#create-service). From the **[!UICONTROL Additional options]**, disable the **[!UICONTROL Unlimited validity period]** option and define a validity period for the service.
 

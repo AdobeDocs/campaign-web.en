@@ -15,7 +15,7 @@ Once your message content has been defined, you can preview and test it by sendi
 
 To detect possible errors in the message content or personalization settings, send proofs to test profiles before sending it to the target audience. A proof should be sent each time a change is made, to validate the latest content. Sending proofs is an important step in validating your campaign and identifying potential issues. The proof recipients can check various elements such as links, opt-out links, images, or mirror pages, as well as detect any errors in the rendering, content, personalization settings and delivery configuration.
 
-## Simulate content with test recipients {#simulate-content-test-deliveries}
+## Simulate content with test profiles {#simulate-content-test-deliveries}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
