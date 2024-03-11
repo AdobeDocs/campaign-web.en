@@ -22,7 +22,7 @@ hidefromtoc: yes
 
 
 >[!CONTEXTUALHELP]
->id="acw_generate_emagica"
+>id="acw_emagica_generate"
 >title="Adobe Generative AI terms"
 >abstract="Access to this feature is subject to your agreement to the Adobe Experience Cloud Generative AI User Guidelines. Any prompts, context, or supplemental information, or other input you provide to this feature must be tied to specific context, which can include your branding materials, website content, data, schemas for such data, templates, or other trusted documents and must not contain any personal information (personal information includes anything that can be linked back to a specific invidual). You should review any output from this feature for accuracy and ensure that it is appropriate for your use case"
 >additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe Generative AI User Guidelines"
