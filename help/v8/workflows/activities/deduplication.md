@@ -56,6 +56,6 @@ Follow these steps to configure the **Deduplication** activity:
 
 ## Example{#deduplication-example}
 
-In the following example, use a deduplication activity to exclude duplicates from the target before sending a delivery. The identified duplicated recipients are added to a dedicated audience that can be reused if necessary. Choose the **Email** address to identify the duplicates. Keep 1 entry and select the **Random** deduplication method.
+In the following example, use a deduplication activity to exclude duplicates from the target before sending a delivery. The identified duplicated profiles are added to a dedicated audience that can be reused if necessary. Choose the **Email** address to identify the duplicates. Keep 1 entry and select the **Random** deduplication method.
 
 ![](../assets/workflow-deduplication-example.png)

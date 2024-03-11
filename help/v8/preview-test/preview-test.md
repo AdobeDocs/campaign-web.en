@@ -18,7 +18,7 @@ Once your delivery content has been defined, you can use profiles and test profi
 [!DNL Adobe Campaign Web user interface] allows you to:
 
 * [Preview the message content and personalization](preview-content.md)
-* [Send proofs](test-deliveries.md) (proofs) to specific recipients or subscribers for testing and validation
+* [Send proofs](test-deliveries.md) to specific recipients or subscribers for testing and validation
 * [Check the email rendering](email-rendering.md) in popular desktop, mobile and web-based clients
 * [Preview and test your landing pages](../landing-pages/create-lp.md#test-landing-page)
 

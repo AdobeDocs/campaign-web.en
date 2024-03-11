@@ -12,16 +12,6 @@ exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 >title="Get started with emails"
 >abstract="You can create a standalone email delivery, or create an email in the context of a campaign workflow. Learn how to create the delivery, select the audience, and design the email content."
 
-
-<!--TO REMOVE BELOW-->
->[!CONTEXTUALHELP]
->id="acw_homepage_card3"
->title="Get started with emails"
->abstract="You can create a standalone email delivery, or create an email in the context of a campaign workflow. Learn how to create the delivery, select the audience, and design the email content."
-<!--TO REMOVE ABOVE-->
-
-
-
 Learn how to create your first targeted email. In this use case, you schedule the sending of an email to Silver and Gold loyalty members on a specific date.
 
 Based on a predefined [design template](../email/create-email-templates.md), the email also features personalized content based on customer profile attributes.

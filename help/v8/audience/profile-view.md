@@ -1,12 +1,13 @@
 ---
 title: Explore profiles' details
 description: Learn how to explore the details of a profile.
+exl-id: 172dec7d-24c6-4c35-bb45-5dc3ce9fadeb
 ---
 # Explore profiles' details {#profile-view}
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_subscription_list"
->title="Recipients subscriptions list"
+>title="Subscriptions list"
 >abstract="This tab lists all the services the profile is subscribed to."
 
 To access the details of a profiles, browse to **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]** then click on the profile you want to access.

@@ -19,14 +19,6 @@ hidefromtoc: yes
 >additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe Generative AI User Guidelines"
 -->
 
-<!--TO REMOVE BELOW-->
->[!CONTEXTUALHELP]
->id="acw_homepage_rn5"
->title="Gen AI for email content"
->abstract="Our Gen AI technology utilizes advanced algorithms to generate highly engaging and personalized content. Drive higher open rates, click-through rates, and conversions with Gen AI's intelligent content generation."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="See release notes"
-<!--TO REMOVE ABOVE-->
-
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
 >title="Content Assistant"

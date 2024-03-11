@@ -56,7 +56,7 @@ Then use the **Size limit** section to set the number of profiles that you need 
 
 ### Sample of control group{#control-group-sample}
 
-For example, to create a control group with the 100 new youngest recipients, follow these steps:
+For example, to create a control group with the 100 new youngest profiles, follow these steps:
 
 1. Select the **Age** field as a sorting criterion. Leave the **Ascending** sort option. 
 1. Add the **Creation Date** field. Change to the **Descending** sort option.
@@ -64,7 +64,7 @@ For example, to create a control group with the 100 new youngest recipients, fol
 
     ![](assets/control-group2.png){zoomable="yes"}
 
-These 100 new youngest recipients are then excluded from the main target. 
+These 100 new youngest profiles are then excluded from the main target. 
 
 ### Check your control group {#check-control-group}
 

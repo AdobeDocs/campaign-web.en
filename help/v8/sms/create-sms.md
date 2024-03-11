@@ -44,7 +44,7 @@ To create a new standalone SMS delivery, follow these steps:
     * **[!UICONTROL Folder]**: Store the delivery in a specific folder.
     * **[!UICONTROL Delivery code]**: Organize your deliveries using your own naming convention.
     * **[!UICONTROL Description]**: Provide a description for the delivery.
-    * **[!UICONTROL Nature]**: Specify the email's nature for classification purposes.
+    * **[!UICONTROL Nature]**: Specify the delivery's nature for classification purposes.
     +++
 
 1. Click the **[!UICONTROL Select audience]** button to target an existing audience or create your own. [Learn more about audiences](../audience/about-recipients.md).

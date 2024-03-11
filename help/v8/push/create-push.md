@@ -45,7 +45,7 @@ Configure your delivery settings as detailed below:
     * **[!UICONTROL Folder]**: Store the delivery in a specific folder.
     * **[!UICONTROL Delivery code]**: Organize your deliveries using your own naming convention.
     * **[!UICONTROL Description]**: Provide a description for the delivery.
-    * **[!UICONTROL Nature]**: Specify the email's nature for classification purposes.
+    * **[!UICONTROL Nature]**: Specify the delivery's nature for classification purposes.
     +++
 
 

@@ -10,9 +10,9 @@ Push notifications are essential for reaching out to your mobile app users, even
 
 To create push notifications, you have three options:
 
-* **Workflows**: After adding a Push channel activity to your workflow and configuring the basic settings, you can then craft the content of your push notifications from your right pane menu. For detailed instructions on how to configure workflow, refer to this page.
+* **Workflows**: After adding a Push channel activity to your workflow and configuring the basic settings, you can then craft the content of your push notifications from your right pane menu. For detailed instructions on how to configure workflow, refer to [this page](../workflows/gs-workflows.md).
 
-* **Campaigns**: Once you have created a campaign, you can create a Push notification delivery. For more information on setting up your campaign, refer to this page.
+* **Campaigns**: Once you have created a campaign, you can create a Push notification delivery. For more information on setting up your campaign, refer to [this page](../campaigns/gs-campaigns.md).
 
 * **Stand-alone deliveries**: Engage customers directly and instantly with individual push notification delivery, without the need for workflows or campaigns.
 

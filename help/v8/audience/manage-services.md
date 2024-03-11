@@ -64,7 +64,7 @@ To create a subscription service, follow the steps below.
 1. By default, subscriptions are unlimited. 
 
     You can disable the **[!UICONTROL Unlimited validity period]** option to define a validity duration for the service. Once the validity period ends:
-    * No recipients can subscribe to this service anymore
+    * No profile can subscribe to this service anymore
     * All subscribers to this service are automatically unsubscribed
 
     ![](assets/service-create-validity-period.png){zoomable="yes"}
@@ -77,7 +77,7 @@ To create a subscription service, follow the steps below.
 
 You can now:
 
-* Add subscribers to this service, and unsubscribe recipients. [Learn more](../msg/send-to-subscribers.md)
+* Add subscribers to this service, and unsubscribe profiles. [Learn more](../msg/send-to-subscribers.md)
 
 * Send messages to the subscribers of this service. [Learn how](../msg/send-to-subscribers.md)
 

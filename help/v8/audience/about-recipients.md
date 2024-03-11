@@ -1,6 +1,7 @@
 ---
 title: Get started with profiles
 description: Learn how to monitor and manage profiles in Campaign Web.
+exl-id: 0b28741a-28f6-4f46-8c4c-820c5036aeda
 ---
 # Get started with profiles {#profiles}
 
@@ -10,14 +11,6 @@ description: Learn how to monitor and manage profiles in Campaign Web.
 >abstract="Create new profiles, and monitor them through powerful reports and tools. Access your profiles' attributes, interactions and logs. Use the filtering options to browse the profiles list, edit and update their profile."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="See release notes"
 
-<!--TO REMOVE BELOW-->
->[!CONTEXTUALHELP]
->id="acw_homepage_rn4"
->title="360 view of your profiles"
->abstract="Create new profiles, and monitor them through powerful reports and tools. Access your profiles' attributes, interactions and logs. Use the filtering options to browse the profiles list, edit and update their profile."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="See release notes"
-<!--TO REMOVE ABOVE-->
-
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="Profiles"
@@ -25,9 +18,9 @@ description: Learn how to monitor and manage profiles in Campaign Web.
 
 ## What is a profile? {#what} 
 
-A **profile**, also known as "recipients" in the client console, represents a record stored in the Campaign database, serving as a key component to [create audiences](create-audience.md) for deliveries and [add personalization](../personalization/personalize.md) data to your content. Adobe Campaign allows you to seamlessly manage profiles, from creating new entries to accessing a comprehensive view of all your profiles' attributes and services subscriptions, all through the Campaign Web user interface.
+A **profile**, also known as a "recipient" in the client console, represents a record stored in the Campaign database, serving as a key component to [create audiences](create-audience.md) for deliveries and [add personalization](../personalization/personalize.md) data to your content. Adobe Campaign allows you to seamlessly manage profiles, from creating new entries to accessing a comprehensive view of all your profiles' attributes and services subscriptions, all through the Campaign Web user interface.
 
-Moreover, **[!UICONTROL test profiles]**, identified as "seed profiles" in the client console, allow you to target additional recipients who do not match the targeting criteria of a given delivery. These profiles contain fictitious contact information, or contact information controlled by the sender. They can be added to a message's audience to detect any fraudulent use of your recipient database or to ensure that the emails arrive in the inboxes. [Learn how to work with test profiles](test-profiles.md)
+Moreover, **[!UICONTROL test profiles]**, identified as "seed profiles" in the client console, allow you to target additional recipients who do not match the targeting criteria of a given delivery. These profiles contain fictitious contact information, or contact information controlled by the sender. Test profiles are proof recipients: they are used to test your messages by sending proofs. [Learn how to work with test profiles](test-profiles.md)
 
 Both profiles and test profiles can be used to test your deliveries before they reach the intended audience. By doing so, you can preview the message content and personalization, send proofs for testing and validation, evaluate email rendering across various platform and devices, and test your landing pages. [Learn how to preview and test deliveries](../preview-test/preview-test.md)
 
