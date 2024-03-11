@@ -67,6 +67,11 @@ breadcrumb-title: Campaign Web User Interface
     + [Create an SMS delivery](sms/create-sms.md)
     + [Design an SMS delivery ](sms/content-sms.md)
     + [Preview and send an SMS delivery ](sms/send-sms.md)
+  + Direct mail {#direct-mail}
+    + [Get started with direct mail deliveries](direct-mail/gs-direct-mail.md)
+    + [Create a direct mail delivery](direct-mail/create-direct-mail.md)
+    + [Design a direct mail delivery ](direct-mail/content-direct-mail.md)
+    + [Preview and send a direct mail delivery ](direct-mail/send-direct-mail.md)
   + Make your content dynamic {#dynamic-content}
     + [Get started with dynamic content](personalization/gs-personalization.md)
     + [Add personalization](personalization/personalize.md)
@@ -127,7 +132,7 @@ breadcrumb-title: Campaign Web User Interface
     + [Change dimension](workflows/activities/change-dimension.md)
     + [Combine](workflows/activities/combine.md)
     + [Deduplication](workflows/activities/deduplication.md)
-    + [Email, SMS, Push](workflows/activities/channels.md)
+    + [Email, SMS, Push, Direct mail](workflows/activities/channels.md)
     + [Enrichment](workflows/activities/enrichment.md)
     + [Fork](workflows/activities/fork.md)
     + [Load file](workflows/activities/load-file.md)
