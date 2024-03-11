@@ -33,7 +33,7 @@ Filtering components allow you to refine your query by using:
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_customcondition"
 >title="Custom condition"
->abstract="Custom condition"
+>abstract="Custom conditions are filtering components that allow you to filter your query by building your own condition with attributes from the database and advanced expressions."
 
 To filter your query using a custom condition, follow these steps:
 
