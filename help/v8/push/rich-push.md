@@ -17,6 +17,16 @@ With Firebase Cloud Messaging, you can choose between two types of messages:
 
 Once your push delivery is created, you can define its content. Browse the tabs below to learn how to compose your message for each templates. 
 
+Three templates are available:
+
+* **Default Template** allows you to send notifications with a simple icon and an accompanying image.
+
+* **Basic Template** can include text, images, and buttons in your notifications.
+
+* **Carousel Template** enables you to send notifications with text and multiple images that users can swipe through.
+
+Navigate through the tabs below to learn more on how to personalize these templates.
+
 >[!BEGINTABS]
 
 >[!TAB Default template]
@@ -91,17 +101,17 @@ Once you have defined your message content, you can use test subscribers to prev
 
 Once you have defined your message content, you can use test subscribers to preview and test the message.
 
->[!TAB Carrousel template]
+>[!TAB Carousel template]
 
-1. From the **[!UICONTROL Template]** drop-down, select **[!UICONTROL Carrousel]**.
+1. From the **[!UICONTROL Template]** drop-down, select **[!UICONTROL Carousel]**.
 
-    ![](assets/rich_push_carrousel.png)
+    ![](assets/rich_push_carousel.png)
 
 1. To compose your message, enter your text in the **[!UICONTROL Title]**, **[!UICONTROL Message]** and **[!UICONTROL Expanded message]** fields. 
 
     The **[!UICONTROL Message]** text appears in the collapsed view while the **[!UICONTROL Expanded message]** is displayed when the notification is expanded.
 
-    ![](assets/rich_push_carrousel_1.png)
+    ![](assets/rich_push_carousel_1.png)
 
 1. Use the Expression editor to define content, personalize data and add dynamic content. [Learn more](../personalization/personalize.md)
 
@@ -117,11 +127,11 @@ Once you have defined your message content, you can use test subscribers to prev
 
     For more information on how to handle Android App Links, refer to [Android Developers documentation](https://developer.android.com/training/app-links).
 
-    ![](assets/rich_push_carrousel_2.png)
+    ![](assets/rich_push_carousel_2.png)
 
 1. To further personalize your push notification, you can choose the notification's **[!UICONTROL Icon]** to display on your profiles' devices.
 
-1. Choose how the **[!UICONTROL Carrousel]** is operated: 
+1. Choose how the **[!UICONTROL carousel]** is operated: 
 
     * **[!UICONTROL Auto]**: automatically cycles through images as slides, transitioning at predefined intervals.
     * **[!UICONTROL Manual]**: allows users to manually swipe between slides to navigate through the images.     
@@ -131,6 +141,8 @@ Once you have defined your message content, you can use test subscribers to prev
 1. Click **[!UICONTROL Add image]** and enter your image URL and text.
 
     Ensure that you include a minimum of three images and a maximum of five images.
+
+    ![](assets/rich_push_carousel_3.png)
 
 1. Handle the order of your images with the Down and Up arrow. 
 
