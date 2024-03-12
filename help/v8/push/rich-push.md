@@ -15,9 +15,7 @@ With Firebase Cloud Messaging, you can choose between two types of messages:
 
 ## Define the content of the notification {#push-message}
 
-Once your push delivery is created, you can define its content. Browse the tabs below to learn how to compose your message for each templates. 
-
-Three templates are available:
+Once your push delivery is created, you can define its content. Three templates are available:
 
 * **Default Template** allows you to send notifications with a simple icon and an accompanying image.
 
@@ -25,7 +23,7 @@ Three templates are available:
 
 * **Carousel Template** enables you to send notifications with text and multiple images that users can swipe through.
 
-Navigate through the tabs below to learn more on how to personalize these templates.
+Browse the tabs below to learn how to compose your message for each templates.
 
 >[!BEGINTABS]
 
