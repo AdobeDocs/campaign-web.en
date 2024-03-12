@@ -23,13 +23,19 @@ Once your push delivery is created, you can define its content. Browse the tabs 
 
 1. From the **[!UICONTROL Template]** drop-down, select **[!UICONTROL Default]**.
 
-1. To compose your message, enter your text in the **[!UICONTROL Title]** and **[!UICONTROL Message]** fields. 
+    ![](assets/rich_push_default.png)
+
+1. To compose your message, enter your text in the **[!UICONTROL Title]** and **[!UICONTROL Message]** fields.
+
+    ![](assets/rich_push_default_2.png)
 
 1. Use the Expression editor to define content, personalize data and add dynamic content. [Learn more](../personalization/personalize.md)
 
 1. Define the **[!UICONTROL Click action]** associated with a user click on your notification. This determines the behavior when the user interacts with the notification, such as opening a specific screen or performing a specific action in your app.
 
 1. To further personalize your push notification, you can choose an **[!UICONTROL Image]** URL to add to your push notification and the notification's **[!UICONTROL Icon]** to display on your profiles' devices.
+
+    ![](assets/rich_push_default_3.png)
 
 1. Configure the **[!UICONTROL Advanced settings]** of your push notification. [Learn more](#push-advanced)
 
@@ -39,9 +45,13 @@ Once you have defined your message content, you can use test subscribers to prev
 
 1. From the **[!UICONTROL Template]** drop-down, select **[!UICONTROL Basic]**.
 
+    ![](assets/rich_push_basic.png)
+
 1. To compose your message, enter your text in the **[!UICONTROL Title]**, **[!UICONTROL Message]** and **[!UICONTROL Expanded message]** fields. 
 
     The **[!UICONTROL Message]** text appears in the collapsed view while the **[!UICONTROL Expanded message]** is displayed when the notification is expanded.
+
+    ![](assets/rich_push_basic_2.png)
 
 1. Use the Expression editor to define content, personalize data and add dynamic content. [Learn more](../personalization/personalize.md)
 
@@ -56,18 +66,26 @@ Once you have defined your message content, you can use test subscribers to prev
     * **[!UICONTROL Open App]**: Open App URLs allow you to directly connect to content within an application. It enables your application to establish itself as the default handler for a specific type of link, bypassing the disambiguation dialog. 
 
     For more information on how to handle Android App Links, refer to [Android Developers documentation](https://developer.android.com/training/app-links).
- 
+
+    ![](assets/rich_push_basic_3.png)
+
 1. To further personalize your push notification, you can choose an **[!UICONTROL Image]** URL to add to your push notification and the notification's **[!UICONTROL Icon]** to display on your profiles' devices.
 
 1. Click **[!UICONTROL Add button]** and enter the **[!UICONTROL Label]**.
 
     You can add up to 2 buttons along with the Remind Later button.
 
+    ![](assets/rich_push_basic_4.png)
+
 1. Add the URL which defines the **[!UICONTROL Click action]** associated with a user click on your button.
     
     Select the **[!UICONTROL Link type]** of the URL.
 
-1. Click **[!UICONTROL Add remind later]** button to add a Remind me later option to your push notification. Enter a **[!UICONTROL Label]** and **[!UICONTROL Timestamp]**.
+1. Click **[!UICONTROL Add remind later]** button to add a Remind me later option to your push notification. Enter a **[!UICONTROL Label]** and **[!UICONTROL Timestamp]**. 
+
+    The Timestamp field expects a value representing an epoch in seconds.
+
+    ![](assets/rich_push_basic_5.png)
 
 1. Configure the **[!UICONTROL Advanced settings]** of your push notification. [Learn more](#push-advanced)
 
@@ -77,9 +95,13 @@ Once you have defined your message content, you can use test subscribers to prev
 
 1. From the **[!UICONTROL Template]** drop-down, select **[!UICONTROL Carrousel]**.
 
+    ![](assets/rich_push_carrousel.png)
+
 1. To compose your message, enter your text in the **[!UICONTROL Title]**, **[!UICONTROL Message]** and **[!UICONTROL Expanded message]** fields. 
 
     The **[!UICONTROL Message]** text appears in the collapsed view while the **[!UICONTROL Expanded message]** is displayed when the notification is expanded.
+
+    ![](assets/rich_push_carrousel_1.png)
 
 1. Use the Expression editor to define content, personalize data and add dynamic content. [Learn more](../personalization/personalize.md)
 
@@ -94,6 +116,8 @@ Once you have defined your message content, you can use test subscribers to prev
     * **[!UICONTROL Open App]**: Open App URLs allow you to directly connect to content within an application. It enables your application to establish itself as the default handler for a specific type of link, bypassing the disambiguation dialog. 
 
     For more information on how to handle Android App Links, refer to [Android Developers documentation](https://developer.android.com/training/app-links).
+
+    ![](assets/rich_push_carrousel_2.png)
 
 1. To further personalize your push notification, you can choose the notification's **[!UICONTROL Icon]** to display on your profiles' devices.
 
