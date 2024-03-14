@@ -6,7 +6,7 @@ description: Learn how to create a direct mail delivery with Adobe Campaign Web
 
 # Create a direct mail delivery {#create-direct-mail}
 
-You can create a standalone direct mail delivery, or create a direct mail delivery in the context of a campaign workflow. The steps below detail the procedure for a standalone (one-shot) direct mail delivery. If you are working in the context of a campaign workflow, creation steps are details in [this section](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+You can create a standalone direct mail delivery, or create a direct mail delivery in the context of a campaign workflow. The steps below detail the procedure for a standalone (one-shot) direct mail delivery. If you are working in the context of a campaign workflow, creation steps are detailed in [this section](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
 To create a new standalone direct mail delivery, follow these steps:
 
@@ -19,6 +19,8 @@ To create a new standalone direct mail delivery, follow these steps:
     ![](assets/dm-create.png){zoomable="yes"}
 
 1. Enter a **[!UICONTROL Label]** for the delivery and access the **[!UICONTROL Additional options]** drop-down. If your delivery is based on an extended schema, specific **Custom options** fields are available.
+
+    ![](assets/dm-properties.png){zoomable="yes"}
 
     +++Configure the following settings based on your requirements.
     * **[!UICONTROL Internal name]**: Assign a unique identifier to the delivery.
@@ -39,13 +41,11 @@ To create a new standalone direct mail delivery, follow these steps:
     >
     >Direct mail recipients must contain at least their names and postal addresses. An address is considered to be complete if the name, ZIP/Postal code field, and town/city fields are not empty. Any recipients with incomplete addresses will be excluded from direct mail deliveries.
 
-1. Switch on the **[!UICONTROL Enable control group]** option to set a control group to measure the impact of your delivery. Messages are not sent to that control group, so that you can compare the behavior of the population who received the message with the behavior of contacts who did not. [Learn more](../audience/control-group.md)
+1. Switch on the **[!UICONTROL Enable control group]** option to set a control group to measure the impact of your delivery. Messages are not sent to that control group, so that you can compare the behavior of the population who received the message with the behavior of contacts who did not. [Learn how to design the exctraction file](../audience/control-group.md)
 
-1. Click **[!UICONTROL Edit content]** to define the information (columns) to be exported into the extraction file.[Learn more](content-direct-mail.md)
+1. Click **[!UICONTROL Edit content]** to define the information (columns) to be exported into the extraction file. [Learn more](content-direct-mail.md)
 
     ![](assets/dm-content.png){zoomable="yes"}
-
-    From this screen, you can also [simulate your content](../preview-test/preview-test.md) and [set up offers](../msg/offers.md).
 
 1. To schedule your delivery to a specific date and time, switch on the **[!UICONTROL Enable scheduling]** option. After you initiate the delivery, the message will be automatically sent on the exact date and time that you have defined for the recipient. [Learn how to schedule deliveries](../msg/gs-messages.md#gs-schedule).
 

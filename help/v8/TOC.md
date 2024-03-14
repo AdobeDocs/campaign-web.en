@@ -71,7 +71,7 @@ breadcrumb-title: Campaign Web User Interface
   + Direct mail {#direct-mail}
     + [Get started with direct mail deliveries](direct-mail/gs-direct-mail.md)
     + [Create a direct mail delivery](direct-mail/create-direct-mail.md)
-    + [Design a direct mail delivery ](direct-mail/content-direct-mail.md)
+    + [Design the extraction file ](direct-mail/content-direct-mail.md)
     + [Preview and send a direct mail delivery ](direct-mail/send-direct-mail.md)
   + Make your content dynamic {#dynamic-content}
     + [Get started with dynamic content](personalization/gs-personalization.md)

@@ -4,7 +4,7 @@ title: Design a direct mail delivery
 description: Learn how to design your direct mail delivery with Adobe Campaign Web
 ---
 
-# Design a direct mail extraction file {#design-direct-mail}
+# Design the extraction file {#design-direct-mail}
 
 >[!CONTEXTUALHELP]
 >id="acw_directmail_content"
@@ -21,11 +21,7 @@ description: Learn how to design your direct mail delivery with Adobe Campaign W
 >title="Content"
 >abstract="In this section, specify the columns to display in the extraction file. Once done, you can get a preview of the extraction file using the **Simulate content** button."
 
-To design the content of a direct mail delivery, click the **[!UICONTROL Edit content]** button from your delivery page then configure the extraction file properties and content.
-
-The extraction file is required by direct mail providers to send mail to your customers.
-
-![](assets/dm-content-details.png){zoomable="yes"}
+To design the content of a direct mail delivery, click the **[!UICONTROL Edit content]** button from your delivery page then configure the properties and content of the extraction file that is required by direct mail providers to send mail to your customers.
 
 ## Configure the extraction file properties {#properties}
 
@@ -35,9 +31,9 @@ The extraction file is required by direct mail providers to send mail to your cu
 
 1. In the **[!UICONTROL File format]** field, choose the desired format for the extraction file; **Text**, **Text using fixed with columns**, **CSV (Excel)** or **XML**. 
 
-    Available values depend on the selected format
+1. Expand the **[!UICONTROL Extraction format]** secttion to access specific options realted to the extraction format. Available values depend on the selected format.
 
-    +++ Extraction format options
+    +++ Configure Extraction format options
     
     * **[!UICONTROL Use first line as column header]** (Text / CSV (Excel) format): Toggle this option on to use the first column as header for extraction files in text or CSV file formats.
     * **[!UICONTROL Column separator]** (Text format): Specify the character to use as column separator for extraction files in text format.
@@ -46,20 +42,11 @@ The extraction file is required by direct mail providers to send mail to your cu
     * **[!UICONTROL Encoding]**: Choose the encoding of the extraction file.
     * **[!UICONTROL Date format and separators]**: Specify how dates should be formatted in the extraction file.
     * **[!UICONTROL Number format]**: Specify how numbers should be formatted in the exactrion file.
-    * **[!UICONTROL Export labels instead of internal values of enumerations]**: ?
-
-    +++
-
-1. **[!UICONTROL Requested quantity]**: ?
-
-## Configure the extraction file columns {#content}
-
-In the **[!UICONTROL Content]** section, specify the columns to display in the extraction file. To do this, follow these steps:
-
-1. Click the **[!UICONTROL Add Attribute]** button to create a new column.
+    * **[!UICONTROL Export labels instead of internal values of enumerations]**: Toggle this option on in case you export enumeration values and you want to retrieve columns labels, which are easier to understand, rather than internal IDs.
+*[!UICONTROL Add Attribute]** button to create a new column.
 1. Choose the attribute to display in the column then confirm.
 1. The column is added to the extraction file content. You can change its label and modify the corresponding attribute using the edit icon.
-1. Repeat these steps to add as many columns as needed for your extraction file. You can add up to xx columns ?.
+1. Repeat these steps to add as many columns as needed for your extraction file.
 1. To sort the extraction file using one of the columns, click the icon in the **[!UICONTROL Sorting]** column and select the desired sorting method.
 1. To change the position of a column, use the up and down arrows.
 
