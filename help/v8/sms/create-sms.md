@@ -55,7 +55,7 @@ To create a new standalone SMS delivery, follow these steps:
 
     Learn how to create a new audience in [this page](../audience/one-time-audience.md)
 
-1. Switch on the **[!UICONTROL Enable control group]** option to set a control group to measure the impact of your delivery. Messages are not sent to that control group, so that you can compare the behavior of the population which received the message with the behavior of contacts which did not. [Learn more](../audience/control-group.md)
+1. Switch on the **[!UICONTROL Enable control group]** option to set a control group to measure the impact of your delivery. Messages are not sent to that control group, so that you can compare the behavior of the population who received the message with the behavior of contacts who did not. [Learn more](../audience/control-group.md)
 
 1. Click **[!UICONTROL Edit content]** to start designing the content of your SMS message. [Learn more](content-sms.md)
 

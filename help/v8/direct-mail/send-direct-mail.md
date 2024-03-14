@@ -24,6 +24,8 @@ The main steps to preview your extraction file are as follows. More details on h
 
 ## Test your direct mail delivery {#test-push}
 
+what is sent as proof ? the extraction file or the mail to the provider?
+
 Using **Adobe Campaign**, you have the ability to send proofs before sending them to your main audience. This step is important in validating your delivery and identifying any issues. 
 
 Test recipients can review elements such as personalization settings, ensuring optimal performance and detecting any errors. This process helps you refine and optimize your extraction file before reaching your main audience. [Learn how to send proofs](../preview-test/test-deliveries.md#subscribers)
@@ -31,6 +33,8 @@ Test recipients can review elements such as personalization settings, ensuring o
 ![](assets/dm-preview-proof.png){zoomable="yes"}
 
 ## Send your direct mail delivery {#send-push}
+
+Once that you direct mail is ready to be sent to your customers, you can send the delivery in order to generate the extraction file to share it with your direct mail provider. To do this, follow these steps:
 
 1. After designing the content of your extraction file, click **[!UICONTROL Review & send]** from your **[!UICONTROL Delivery]** page.
 

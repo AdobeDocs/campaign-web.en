@@ -12,7 +12,7 @@ To create a new standalone direct mail delivery, follow these steps:
 
 1. Browse to the **[!UICONTROL Deliveries]** menu on the left rail, and click the  **[!UICONTROL Create delivery]** button.
 
-1. Under the **[!UICONTROL Channel]** section, choose Direct mail as the channel, and select a template. [Learn more about templates](../msg/delivery-template.md)
+1. Under the **[!UICONTROL Channel]** section, choose **[!UICONTROL Direct mail]** as the channel, and select a template. [Learn more about templates](../msg/delivery-template.md)
 
 1. Click the **[!UICONTROL Create delivery]** button to confirm.
 
@@ -35,9 +35,13 @@ To create a new standalone direct mail delivery, follow these steps:
 
     ![](assets/dm-audience.png){zoomable="yes"}
 
-1. Switch on the **[!UICONTROL Enable control group]** option to set a control group to measure the impact of your delivery. Messages are not sent to that control group, so that you can compare the behavior of the population which received the message with the behavior of contacts which did not. [Learn more](../audience/control-group.md)
+    >[!NOTE]
+    >
+    >Direct mail recipients must contain at least their names and postal addresses. An address is considered to be complete if the name, ZIP/Postal code field, and town/city fields are not empty. Any recipients with incomplete addresses will be excluded from direct mail deliveries.
 
-1. Click **[!UICONTROL Edit content]** to start designing the content of your direct mail delivery. [Learn more](content-direct-mail.md)
+1. Switch on the **[!UICONTROL Enable control group]** option to set a control group to measure the impact of your delivery. Messages are not sent to that control group, so that you can compare the behavior of the population who received the message with the behavior of contacts who did not. [Learn more](../audience/control-group.md)
+
+1. Click **[!UICONTROL Edit content]** to define the information (columns) to be exported into the extraction file.[Learn more](content-direct-mail.md)
 
     ![](assets/dm-content.png){zoomable="yes"}
 
@@ -53,4 +57,5 @@ To create a new standalone direct mail delivery, follow these steps:
 
     ![](assets/dm-settings.png){zoomable="yes"}
 
-1. Once your direct mail delivery is ready, click the **[!UICONTROL Review and send]** button. [Learn how to preview and send a direct mail delivery](send-direct-mail.md)
+1. Once your direct mail delivery is ready, click the **[!UICONTROL Review and send]** button to validate and send your delivery. [Learn how to preview and send a direct mail delivery](send-direct-mail.md)
+
