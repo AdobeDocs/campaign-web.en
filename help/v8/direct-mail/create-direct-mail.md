@@ -41,13 +41,13 @@ To create a new standalone direct mail delivery, follow these steps:
     >
     >Direct mail recipients must contain at least their names and postal addresses. An address is considered to be complete if the name, ZIP/Postal code field, and town/city fields are not empty. Any recipients with incomplete addresses will be excluded from direct mail deliveries.
 
-1. Switch on the **[!UICONTROL Enable control group]** option to set a control group to measure the impact of your delivery. Messages are not sent to that control group, so that you can compare the behavior of the population who received the message with the behavior of contacts who did not. [Learn how to design the exctraction file](../audience/control-group.md)
+1. Switch on the **[!UICONTROL Enable control group]** option to set a control group to measure the impact of your delivery. Messages are not sent to that control group, so that you can compare the behavior of the population who received the message with the behavior of contacts who did not. [Learn how to work with control groups](../audience/control-group.md)
 
 1. Click **[!UICONTROL Edit content]** to define the information (columns) to be exported into the extraction file. [Learn more](content-direct-mail.md)
 
     ![](assets/dm-content.png){zoomable="yes"}
 
-1. To schedule your delivery to a specific date and time, switch on the **[!UICONTROL Enable scheduling]** option. After you initiate the delivery, the message will be automatically sent on the exact date and time that you have defined for the recipient. [Learn how to schedule deliveries](../msg/gs-messages.md#gs-schedule).
+1. To schedule your delivery to a specific date and time, switch on the **[!UICONTROL Enable scheduling]** option. After you initiate the delivery, the extraction file will be generated automatically at the exact date and time that you have defined. [Learn how to schedule deliveries](../msg/gs-messages.md#gs-schedule).
 
     >[!NOTE]
     >
@@ -57,5 +57,5 @@ To create a new standalone direct mail delivery, follow these steps:
 
     ![](assets/dm-settings.png){zoomable="yes"}
 
-1. Once your direct mail delivery is ready, click the **[!UICONTROL Review and send]** button to validate and send your delivery. [Learn how to preview and send a direct mail delivery](send-direct-mail.md)
+1. Once your direct mail delivery is ready, click the **[!UICONTROL Review and send]** button to validate and send your delivery and generate the extraction file. [Learn how to preview and send a direct mail delivery](send-direct-mail.md)
 

@@ -16,7 +16,8 @@ To create direct mail deliveries, you have three options:
 * **Campaigns**: Once you have created a campaign, you can create a direct mail delivery. For more information on setting up your campaign, refer to [this page](../campaigns/gs-campaigns.md).
 * **Stand-alone deliveries**: Engage customers directly and instantly with individual direct mail delivery, without the need for workflows or campaigns. [Learn how to create a delivery](../msg/gs-deliveries.md)
 
-<!--<table style="table-layout:fixed"><tr style="border: 0;">
+<!--
+<table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-push.md">
 <img alt="Lead" src="assets/do-not-localize/push_create.jpeg">
@@ -51,4 +52,5 @@ To create direct mail deliveries, you have three options:
 </div>
 <p>
 </td>
-</tr></table>-->
+</tr></table>
+-->

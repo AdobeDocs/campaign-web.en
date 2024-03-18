@@ -6,7 +6,7 @@ description: Learn how to preview & send a direct mail delivery with Adobe Campa
 
 # Preview & send a direct mail delivery {#send-direct-mail}
 
-Once you have configured the extraction file for your direct mail delivery, you can utilize test profiles to preview it and send proofs. If you have included personalized content, you can examine how this content is displayed in the columns by using test profile data. This allows you to ensure that the file content is being rendered correctly and that the personalized elements are being appropriately incorporated. Learn how to [preview the extraction file](#preview-dm) and [send proofs](#test-dm)
+Once you have configured the extraction file for your direct mail delivery, you can utilize test profiles to preview it. If you have included personalized content, you can examine how this content is displayed in the columns by using test profile data. This allows you to ensure that the file content is being rendered correctly and that the personalized elements are being appropriately incorporated.
 
 When the extraction file is ready, you can send the direct mail delivery in order to generate the file and share it with your direct mail provider. [Learn how to send your direct mail delivery](#dm-send)
 
@@ -26,21 +26,25 @@ The main steps to preview your extraction file are as follows. More details on h
 
 ## Send proofs {#test-dm}
 
-<!-- what does the proof do ? does it send an email with extraction file attached?-->
+Using **Adobe Campaign**, you have the ability to send proofs before sending them to your main audience. This step is important in validating your delivery and identifying any issues. Test recipients can review elements such as personalization settings, ensuring optimal performance and detecting any errors. This process helps you refine and optimize your extraction file before reaching your main audience.
 
-what is sent as proof ? the extraction file or the mail to the provider?
+For direct mail deliveries, sending proofs generates a sample of the extraction file using data from the selected test profiles. To access it, follow these steps:
 
-Using **Adobe Campaign**, you have the ability to send proofs before sending them to your main audience. This step is important in validating your delivery and identifying any issues. 
+1. From the simulate content screen, click the **[!UICONTROL Send proof]** button and follow the same steps as for any type of delivery to send a proof. [Learn how to send proofs](../preview-test/test-deliveries.md)
 
-Test recipients can review elements such as personalization settings, ensuring optimal performance and detecting any errors. This process helps you refine and optimize your extraction file before reaching your main audience. [Learn how to send proofs](../preview-test/test-deliveries.md#subscribers)
+1. Once the proof has been sent, you can access it from the **[!UICONTROL View proofs]** button or from the deliveries list. [Learn how to access sent proofs](../preview-test/test-deliveries.md#access-test-deliveries)
 
-![](assets/dm-preview-proof.png){zoomable="yes"}
+1. In the proof delivery dashaboard, click the **[!UICONTROL Preview file]** button to access a preview of the extraction file.
+
+    ![](assets/dm-proof.png){zoomable="yes"}
+
+    >[!NOTE]
+    >
+    >Only the first 100 lines are displayed in the preview file.
 
 ## Send your direct mail delivery {#send-dm}
 
 Once that you direct mail is ready to be sent to your customers, you can send the delivery in order to start the data extraction in the specified extraction file. To do this, follow these steps:
-
-Once that you direct mail is ready to be sent to your customers, you can send the delivery in order to generate the extraction file to share it with your direct mail provider. To do this, follow these steps:
 
 1. After designing the content of your extraction file, click **[!UICONTROL Review & send]** from your **[!UICONTROL Delivery]** page.
 
@@ -62,4 +66,4 @@ Once your delivery is sent, the extraction file is automatically generated and e
 
 You can track your KPIs (Key Performance Indicator) data from your delivery page and data from the **[!UICONTROL Logs]** menu.
 
-<!-- Released later on ? to check when : You can also start measuring the impact of your message with built-in reports. [Learn more](../reporting/push-report.md)-->
+You can also start measuring the impact of your message with built-in reports. [Learn more](../reporting/direct-mail.md)

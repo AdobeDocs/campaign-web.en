@@ -45,7 +45,7 @@ To filter your query using a custom condition, follow these steps:
 
     >[!NOTE]
     >
-    >The Edit expression button allows you to leverage Campaign Web expression editor to manually define an expression using fields from the database and helper functions. [Learn how to edit expressions](expression-editor.md)
+    >The **[!UICONTROL Edit expression]** button allows you to leverage Campaign Web expression editor to manually define an expression using fields from the database and helper functions. [Learn how to edit expressions](expression-editor.md)
 
 1. Select the operator to apply from the drop-down list. Various operators are available for use. Note that operators available in the drop-down list depend on the attribute's data type. 
 
