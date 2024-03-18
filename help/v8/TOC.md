@@ -169,7 +169,6 @@ breadcrumb-title: Campaign Web User Interface
     + [Email global report](reporting/global-report-email.md)
     + [Push global report](reporting/global-report-push.md)
     + [SMS global report](reporting/global-report-sms.md)
-    + [SMS global report](reporting/global-report-sms.md)
     + [Direct mail global report](reporting/global-report-direct.md)
 + Integrations {#integrations}
   + [Work with other Adobe solutions](integrations/integration.md)
