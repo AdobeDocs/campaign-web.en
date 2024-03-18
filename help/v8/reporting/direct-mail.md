@@ -116,4 +116,4 @@ The **[!UICONTROL Exclusions]** table provides an in-depth breakdown, categorize
 
 ![](assets/direct-mail-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"}
 
-Metrics available are the same as for the [Causes of exclusion](direct-mail-delivery-exclusions) described above.
+Metrics available are the same as for the [Causes of exclusion](#direct-mail-delivery-exclusions) described above.
