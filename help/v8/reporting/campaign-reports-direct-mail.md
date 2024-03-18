@@ -1,47 +1,43 @@
 ---
 audience: end-user
-title: Global reports for the direct mail channel
-description: Learn more about Global reports for the direct mail channel
+title: Campaign reports for the Direct mail channel
+description: Understand campaign reports for the Direct mail channel
 ---
-# Global reports for the direct mail channel {#global-report-direct}
+# Campaign reports for the Direct mail channel {#campaign-reports-direct-mail}
 
-The Direct mail global reports provide users with a comprehensive overview of traffic and engagement metrics at a channel-level.
-
-Navigate to the **[!UICONTROL Reports]** menu within the **[!UICONTROL Reporting]** section. You can filter your data depending on the Report date, folder or rules. [Learn more](global-reports.md)
+Each campaign report is divided into different widgets detailing your campaign's success and errors. For the Direct mail channel, reports and metrics are detailed below. Learn how to access your campaign reports in [this page](campaign-reports.md).
 
 ## Delivery summary {#delivery-summary-direct}
 
 ### Delivery overview {#delivery-overview-direct}
 
 >[!CONTEXTUALHELP]
->id="acw_global_reporting_delivery_overview_direct_mail"
+>id="acw_campaign_reporting_delivery_overview_direct_mail"
 >title="Delivery overview"
 >abstract="The **Delivery Overview** presents key performance metrics (KPIs) offering in-depth insights into the interaction of your visitors with each direct mail delivery. The metrics are outlined below."
 
-The **[!UICONTROL Delivery Overview]** presents key performance metrics (KPIs) offering in-depth insights into the interaction of your visitors with each direct mail delivery. The metrics are outlined below.
+The **[!UICONTROL Delivery Overview]** presents key performance metrics (KPIs) offering in-depth insights into the interaction of your visitors with each Direct mail delivery. The metrics are outlined below.
 
-![](assets/global_report_direct_mail_delivery_overview.png){zoomable="yes"}{align="center"}
+![](assets/direct-overview.png){zoomable="yes"}{align="center"}
 
 +++Learn more on Delivery overview metrics.
 
 * **[!UICONTROL Messages to deliver]**: Total number of messages processed during the delivery preparation.
 
-* **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
+* **[!UICONTROL Targeted]**: Number of messages successfully sent, in relation to the total number of sent messages.
 
-* **[!UICONTROL Errors]**: Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.
-
-* **[!UICONTROL Unsubscribes]**: Number of recipients who clicked unsubscriptions.
+* **[!UICONTROL To exclude]**: Number of recipients who clicked unsubscriptions.
 +++
 
 ### Targeted audience {#delivery-summary-direct-initial-target}
 
 >[!CONTEXTUALHELP]
->id="acw_global_reporting_target_audience_direct_mail_graph"
+>id="acw_campaign_reporting_target_audience_direct_mail_graph"
 >title="Targeted audience"
 >abstract="The recipient data and message information are displayed in the **Targeted audience** graph, reflecting the delivery preparation analysis."
 
 >[!CONTEXTUALHELP]
->id="acw_global_reporting_target_audience_direct_mail_table"
+>id="acw_campaign_reporting_target_audience_direct_mail_table"
 >title="Targeted audience"
 >abstract="The **Targeted audience** table provides a detailed breakdown of your recipients and the corresponding messages, based on the results of the delivery preparation process."
 
@@ -49,20 +45,19 @@ The table and graph for **[!UICONTROL Targeted Audience]** showcase data related
 
 ![](assets/global_report_direct_mail_targeted_audience.png){zoomable="yes"}{align="center"}
 
-+++Learn more on Targeted audience metrics.
++++Learn more on Delivery overview metrics.
 
-* **[!UICONTROL Targeted audience]**: Total number of targeted recipients.
+* **[!UICONTROL Messages to deliver]**: Total number of messages processed during the delivery preparation.
 
-* **[!UICONTROL Message to deliver]**: Total number of messages to be delivered after delivery preparation.
+* **[!UICONTROL Targeted]**: Number of user profiles who qualify as target profiles for your direct mail messages.
 
-* **[!UICONTROL Exclusion]**: Total number of addresses ignored during the analysis when applying rules: address missing, quarantined, on denylist, etc.
-
+* **[!UICONTROL Exclusion]**: Number of user profiles, excluded from the targeted profiles, who will not receive your direct mail messages.
 +++
 
 ### Delivery statistics {#delivery-summary-direct-exec-stats}
 
 >[!CONTEXTUALHELP]
->id="acw_global_reporting_delivery_statistics_summary_direct_mail"
+>id="acw_campaign_reporting_delivery_statistics_summary_direct_mail"
 >title="Delivery statistics"
 >abstract="The **Delivery statistics** graph details the success of your Direct mail delivery, and errors that occurred."
 
@@ -83,18 +78,18 @@ The **[!UICONTROL Delivery statistics]** table provides a breakdown of the succe
 ### Causes of exclusion {#causes-exclusion}
 
 >[!CONTEXTUALHELP]
->id="acw_global_reporting_exclusions_direct_mail_table"
+>id="acw_campaign_reporting_exclusions_direct_mail_table"
 >title="Exclusions"
 >abstract="The **Causes of exclusion** table displays a detailed breakdown, by rule, of messages that were rejected during the delivery preparation process."
 
 >[!CONTEXTUALHELP]
->id="acw_global_reporting_causes_exclusion_direct_mail_graph"
+>id="acw_campaign_reporting_causes_exclusion_direct_mail_graph"
 >title="Delivery Causes of exclusion"
 >abstract="The **Causes of exclusion** graph illustrates the distribution of rejected messages during the preparation for delivery, categorized by each rule."
 
 ![](assets/global_report_direct_mail_exclusions.png){zoomable="yes"}{align="center"}
 
-The Exclusions graph and table illustrate the reasons that prevented user profiles, excluded from the targeted profiles, from receiving the message.
+The **Causes of exclusion** graph and table illustrate the reasons that prevented user profiles, excluded from the targeted profiles, from receiving the message.
 
 +++Learn more on Causes of exclusion metrics.
 
@@ -113,4 +108,3 @@ The Exclusions graph and table illustrate the reasons that prevented user profil
 * **[!UICONTROL Target limited in size]**: 
 
 +++
-
