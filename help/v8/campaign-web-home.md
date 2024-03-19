@@ -45,29 +45,27 @@ Get a glimpse of the newest enhancements in Adobe Campaign Web product and docum
 
 >[!BEGINTABS]
 
->[!TAB Adobe Experience Manager as a Cloud Service integration] 
+>[!TAB Direct mail channel] 
 
-The integration between Adobe Campaign Web Interface and Adobe Experience Manager as a Cloud Service streamlines email content management. You can now create and edit email content directly in Adobe Experience Manager, then seamlessly import the finished templates into Adobe Campaign for your deliveries.
+**Direct mail** channel is now available for use in workflows and as standalone deliveries. Direct mail is an offline channel that allows you to create, personalize and generate an extraction files, and share it with your direct mail providers to send mail to your customers.
 
-[![image](assets/do-not-localize/learn-more-button.svg)](integrations/aem-content.md)
+![image](assets/do-not-localize/direct-mail.gif)
 
->[!TAB Cross-channel workflows] 
+[![image](assets/do-not-localize/learn-more-button.svg)](../direct-mail/gs-direct-mail.md)
 
-Unlock new possibilities for automation and optimization, allowing you to create more dynamic and personalized customer journeys. From advanced segmentation to conditional triggers, our additional workflow activities empower you to deliver targeted messages and drive better campaign performance.
+>[!TAB Query modeler in the Email Designer] 
 
-[![image](assets/do-not-localize/learn-more-button.svg)](workflows/gs-workflows.md)
+The query modeler is now available for use in the Email Designer. It allows you to build conditions when creating conditional content.
 
->[!TAB Audience composition]
+[![image](assets/do-not-localize/learn-more-button.svg)](../personalization/conditions.md)
 
-Create new audiences into a visual workflow canvas. Beyond starting from scratch to create a simple audience, you can also leverage workflow activities to refine your audience. Combine multiple audiences into a single one, enrich your audience with external attributes, or divide a it into multiple audiences based on rules of your choice.
+>[!TAB New Change data source workflow activity]
 
-[![image](assets/do-not-localize/learn-more-button.svg)](audience/create-audience.md)
+The **Change data source** targeting activity allows you to change the data source used by your workflow's working table. This activity provides more flexibility by allowing you to manage data across your different databases and improve performances.
 
->[!TAB Email Designer]
+![image](assets/do-not-localize/change-data-source.gif)
 
-Campaign Email Designer enables you to create captivating, individually tailored emails through an intuitive drag-and-drop interface. Whether you're starting from a blank slate, importing an existing content or leveraging existing templates, design and refine all content for every email!
-
-[![image](assets/do-not-localize/learn-more-button.svg)](email/get-started-email-designer.md)
+[![image](assets/do-not-localize/learn-more-button.svg)](../workflows/activities/change-data-source.md)
 
 >[!ENDTABS]
 
