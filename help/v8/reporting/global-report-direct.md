@@ -108,9 +108,9 @@ The Exclusions graph and table illustrate the reasons that prevented user profil
 
 * **[!UICONTROL Double]**: Error type generated when the recipient was excluded because its keys values were not unique.
 
-* **[!UICONTROL Control group]**: 
+* **[!UICONTROL Control group]**: The recipient's address is part of the control group.
 
-* **[!UICONTROL Target limited in size]**: 
+* **[!UICONTROL Target limited in size]**: The maximum delivery size was reached for the recipient.
 
 +++
 
