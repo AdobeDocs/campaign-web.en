@@ -11,7 +11,6 @@ exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
 >title="New Query modeler"
 >abstract="Adobe Campaign Web features a query modeler that simplifies the process of filtering databases to select specific targets based on various criteria. This includes the use of advanced expressions and operators. The query modeler is available in every context where you need to define rules to filter data."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_querymessage"
 >title="Query modeler"
@@ -27,20 +26,12 @@ The query modeler is available in every context where you need to define rules t
 
 |Usage|Example|
 |  ---  |  ---  |
-|**Define audiences**: Specify the population you want to target in your messages or workflows, and effortlessly create new audiences tailored to your needs.|![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}|
-|**Customize workflow activities**: apply rules within workflow activities, such as Split and Reconciliation, to align with your specific requirements.|![](assets/access-workflow.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}|
-|**Predefined filters**: Create predefined filters that serve as shortcuts during various filtering operations, whether you're working with data lists or forming the audience for a delivery.|![](assets/access-predefined-filter.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}|
-|**Filter reports data**: Add rule to filter the data displayed in reports.|![](assets/access-reports.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}|
-|**Customize lists**: Create custom rules to filter the data displayed in lists such as recipients, deliveries lists etc.|![](assets/access-lists.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}|
-
-<!--**Dynamize content**: make your content dynamic by creating conditions that define which content should be displayed to different recipients, ensuring personalized and relevant messaging.
-
-+++Example
-
-![](assets/access-audience.png){zoomable="yes"}
-
- +++
--->
+|**Define audiences**: Specify the population you want to target in your messages or workflows, and effortlessly create new audiences tailored to your needs. [Learn how to build audiences](../audience/one-time-audience.md)|![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}|
+|**Customize workflow activities**: apply rules within workflow activities, such as **Split** and **Reconciliation**, to align with your specific requirements. [Learn more on workflow activities](../workflows/activities/about-activities.md)|![](assets/access-workflow.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}|
+|**Predefined filters**: Create predefined filters that serve as shortcuts during various filtering operations, whether you're working with data lists or forming the audience for a delivery. [Learn how to work with predefined filters](../get-started/predefined-filters.md)|![](assets/access-predefined-filter.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}|
+|**Filter reports data**: Add rule to filter the data displayed in reports. [Learn how to work with reports](../reporting/gs-reports.md)|![](assets/access-reports.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}|
+|**Customize lists**: Create custom rules to filter the data displayed in lists such as recipients, deliveries lists etc. [Learn how to filter lists](../get-started/list-filters.md#list-built-in-filters)|![](assets/access-lists.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}|
+|**Build conditional content**: make email content dynamic by creating conditions that define which content should be displayed to different recipients, ensuring personalized and relevant messaging. [Learn how to build conditional content](../personalization/conditions.md)|![](assets/conditional-content.png){width="200" align="center" zoomable="yes"}|
 
 ## Query modeler interface {#interface}
 

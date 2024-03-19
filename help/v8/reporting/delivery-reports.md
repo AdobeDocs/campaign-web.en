@@ -18,6 +18,7 @@ The full list of reports and associated metrics for each channel is available in
 * [Email delivery reports](email-report.md)
 * [SMS delivery reports](sms-report.md)
 * [Push delivery reports](push-report.md)
+* [Direct mail delivery reports](direct-mail.md)
 
 ## Manage your report dashboard {#manage-reports}
 

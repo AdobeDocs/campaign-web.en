@@ -25,6 +25,7 @@ The full list of reports and associated metrics for each channel is available in
 * [Email campaign channel](campaign-reports-email.md) 
 * [SMS campaign channel](campaign-reports-sms.md)
 * [Push campaign channel](campaign-reports-push.md)
+* [Direct mail campaign channel](campaign-reports-direct-mail.md)
 
 ## Manage your report dashboard {#manage-reports}
 

@@ -23,7 +23,8 @@ The **Split** activity is a **Targeting** activity that allows you to segment in
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_filter"
 >title="Split activity filter"
->abstract="To apply a filtering condition to the subset, click **[!UICONTROL Create filter]** and configure the desired filtering rule. For example, include profiles from the incoming population whose email address exist in the database."
+>abstract="To apply a filtering condition to the subset, click **[!UICONTROL Create filter]** and configure the desired filtering rule using the query modeler. For example, include profiles from the incoming population whose email address exist in the database."
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/query-database/query-modeler-overview" text="Work with the query modeler"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_limit"
@@ -65,7 +66,7 @@ Follow these steps to configure the **Split** activity:
 
     1. Open the subset to display its properties.
 
-    1. To apply a filtering condition to the subset, click **[!UICONTROL Create filter]** and configure the desired filtering rule. For example, include profiles from the incoming population whose email address exist in the database.
+    1. To apply a filtering condition to the subset, click **[!UICONTROL Create filter]** and configure the desired filtering rule using the query modeler. For example, include profiles from the incoming population whose email address exist in the database. [Learn how to work with the query modeler](../../query/query-modeler-overview.md)
 
     1. To limit the number of profiles selected by the subset, toggle on the **[!UICONTROL Enable limit]** option, and specify the number or percentages of the population to include.
 
@@ -80,6 +81,10 @@ Follow these steps to configure the **Split** activity:
 
     ![](../assets/workflow-split-complement.png)
 
+    >[!NOTE]
+    >
+    >The **[!UICONTROL Generate all subsets in the same table]** option allows you to group all the subsets into a single output transition.
+    
 The activity is now configured. At workflow execution, the population will be segmented into the different subsets, in the order they have been added to the activity.
 
 ## Example{#split-example}

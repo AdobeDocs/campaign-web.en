@@ -20,7 +20,9 @@ You can import existing HTML content in the Email Designer. This content can be:
     >
     >There are no constraints on the .zip file structure. However, references must be relative and fit within the tree structure of the .zip folder.
 
-To import a file containing HTML content, follow the steps below:
+➡️ [Discover this feature in video](#video)
+
+To import a file containing HTML content, follow the steps below.
 
 1. On the [Email Designer](get-started-email-designer.md) home page, select **[!UICONTROL Import HTML]**.
 
@@ -44,3 +46,8 @@ To import a file containing HTML content, follow the steps below:
 
 1. You can now personalize your imported file as needed with the Email Designer functionalities [Learn more](content-components.md).
 
+## How-to video {#video}
+
+Learn how to create an email by uploading HTML, how to make it compatible with the Email designer and how to convert it to a template.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3427633/?quality=12)

@@ -14,10 +14,7 @@ exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 
 We are thrilled to introduce the new version of **Adobe Campaign Web User Interface**. Our latest release is packed with intuitive features designed to simplify the creation of personalized cross-channel campaigns, drive exceptional results, and give you a competitive advantage across all channels. Campaign Web User Interface (UI) brings a connected canvas with Adobe Experience Platform for a unified experience. 
 
-
->[!AVAILABILITY]
->
->This version is available to all users starting [Campaign v8.6 release](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html). Learn more about Adobe Campaign releases in [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html){target="_blank"}.
+Changes, new capabilities and improvements are listed in the [monthly release notes](release-notes.md).
 
 
 ## Key capabilities {#key-features}

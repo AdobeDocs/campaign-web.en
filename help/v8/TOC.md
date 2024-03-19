@@ -10,8 +10,10 @@ breadcrumb-title: Campaign Web User Interface
 # Adobe Campaign Web documentation {#v8}
 
 + [Adobe Campaign Web User Interface documentation](campaign-web-home.md)
-+ [What's new?](rn/whats-new.md)
-+ [Documentation updates](rn/documentation-updates.md)
++ Release notes {#release-notes}
+  + [What's new?](rn/whats-new.md)
+  + [Latest release](rn/release-notes.md)
+  + [Documentation updates](rn/documentation-updates.md)
 + Get started with Adobe Campaign {#start}
   + [Get started](get-started/get-started.md)
   + [Connect to Campaign](get-started/connect-to-campaign.md)
@@ -67,6 +69,11 @@ breadcrumb-title: Campaign Web User Interface
     + [Create an SMS delivery](sms/create-sms.md)
     + [Design an SMS delivery ](sms/content-sms.md)
     + [Preview and send an SMS delivery ](sms/send-sms.md)
+  + Direct mail {#direct-mail}
+    + [Get started with direct mail deliveries](direct-mail/gs-direct-mail.md)
+    + [Create a direct mail delivery](direct-mail/create-direct-mail.md)
+    + [Design the extraction file ](direct-mail/content-direct-mail.md)
+    + [Preview and send a direct mail delivery ](direct-mail/send-direct-mail.md)
   + Make your content dynamic {#dynamic-content}
     + [Get started with dynamic content](personalization/gs-personalization.md)
     + [Add personalization](personalization/personalize.md)
@@ -123,6 +130,7 @@ breadcrumb-title: Campaign Web User Interface
     + [About workflow activites](workflows/activities/about-activities.md)
     + [And-join](workflows/activities/and-join.md)
     + [Build audience](workflows/activities/build-audience.md)
+    + [Change data source](workflows/activities/change-data-source.md)
     + [Change dimension](workflows/activities/change-dimension.md)
     + [Combine](workflows/activities/combine.md)
     + [Deduplication](workflows/activities/deduplication.md)
@@ -150,16 +158,19 @@ breadcrumb-title: Campaign Web User Interface
     + [Email delivery report](reporting/email-report.md)
     + [Push delivery report](reporting/push-report.md)
     + [SMS delivery report](reporting/sms-report.md)
+    + [Direct mail delivery report](reporting/direct-mail.md)
   + Campaign reports {#campaign-report}
     + [Get started with campaign reports](reporting/campaign-reports.md)
     + [Email campaign report](reporting/campaign-reports-email.md)
     + [Push campaign report](reporting/campaign-reports-push.md)
     + [SMS campaign report](reporting/campaign-reports-sms.md)
+    + [Direct mail campaign report](reporting/campaign-reports-direct-mail.md)
   + Global reports {#global-report}
     + [Get started with global reports](reporting/global-reports.md)
     + [Email global report](reporting/global-report-email.md)
     + [Push global report](reporting/global-report-push.md)
     + [SMS global report](reporting/global-report-sms.md)
+    + [Direct mail global report](reporting/global-report-direct.md)
 + Integrations {#integrations}
   + [Work with other Adobe solutions](integrations/integration.md)
   + [Manage assets with Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)

@@ -278,27 +278,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Simulate email log"
 <!-- ML: beta wiki page - not visible in UI-->
 
->[!CONTEXTUALHELP]
->id="acw_directmail_content"
->title="Content for Direct Mail"
->abstract="Content for Direct Mail"
-
->[!CONTEXTUALHELP]
->id="acw_directmail_properties_file"
->title="File properties for Direct Mail"
->abstract="File properties for Direct Mail"
-
->[!CONTEXTUALHELP]
->id="acw_directmail_properties_content"
->title="Content properties for Direct Mail"
->abstract="Content properties for Direct Mail"
-
 <!-- FOR POST-GA -->
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_change_data_source"
->title="Change Data Source"
->abstract="The **Change Data Source** activity allows you to select a different data source for the working table of your workflow."
 
 
 <!--
@@ -318,8 +299,6 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_rulebuilder_properties_advanced"
 >title="Rule builder advanced attributes"
 >abstract="Only the most common attributes are displayed by default in the attribute list. Activate the **Display advanced attributes** toggle to see all available attributes for the current list in the left palette of the rule builder, such as nodes, groupings, 1-1 links, 1-N links."
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_readonlymode"

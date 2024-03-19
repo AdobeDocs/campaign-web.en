@@ -47,7 +47,8 @@ While the **Enrichment** activity allows you to define additional data to proces
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_rules"
 >title="Reconciliation rules"
->abstract="Select the reconciliation field(s) to use for the deduplication. You can use one or more reconciliation criteria." 
+>abstract="Select reconciliation rules to use for the deduplication. To use attributes, select the **Simple attributes** option and choose the source and destination fields. To create your own reconciliation condition using the query modeler, select the **Advanced reconciliation conditions** option."
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/query-database/query-modeler-overview" text="Work with the query modeler"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting_selection"
@@ -79,9 +80,9 @@ Follow these steps to configure the **Reconciliation** activity:
 
         ![](../assets/workflow-reconciliation-criteria.png)
 
-    1. To use other attributes to reconcile data, select the **Advanced reconciliation conditions** option. You can then create your own reconciliation condition using the query modeler. Learn how to use the query modeler in [this section](../../query/query-modeler-overview.md).
+    1. To use other attributes to reconcile data, select the **Advanced reconciliation conditions** option. You can then create your own reconciliation condition using the query modeler. [Learn how to work with the query modeler](../../query/query-modeler-overview.md).
 
-1. You can filter data to reconciliate using the **Create filter** button. This lets you create a custom condition using the [query modeler](../../query/query-modeler-overview.md).
+1. You can filter data to reconciliate using the **Create filter** button. This lets you create a custom condition using the query modeler. [Learn how to work with the query modeler](../../query/query-modeler-overview.md)
 
 By default, non reconcilied data are kept in the outbound transition and available in the worktable for future use. To remove unreconciled data, desactivate the **Keep unreconciled data** option.
 
@@ -93,7 +94,7 @@ The workflow is designed as follows:
 
 ![](../assets/workflow-reconciliation-sample-1.0.png)
 
-
+ 
 It is built with the following activities:
 
 * A [Load file](load-file.md) activity uploads a file containing profiles data that were extracted from an external tool.

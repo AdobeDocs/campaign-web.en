@@ -20,6 +20,7 @@ The full list of reports and associated metrics for each channel is available in
 * [Email global reports](global-report-email.md)
 * [SMS global reports](global-report-sms.md)
 * [Push global reports](global-report-push.md)
+* [Direct mail global reports](global-report-direct.md)
 
 ## Manage your report dashboard {#manage-reports}
 

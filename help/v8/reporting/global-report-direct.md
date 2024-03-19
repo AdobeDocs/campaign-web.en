@@ -5,7 +5,7 @@ description: Learn more about Global reports for the direct mail channel
 ---
 # Global reports for the direct mail channel {#global-report-direct}
 
-The Global reports provide users with a comprehensive overview of traffic and engagement metrics at a channel-level.
+The Direct mail global reports provide users with a comprehensive overview of traffic and engagement metrics at a channel-level.
 
 Navigate to the **[!UICONTROL Reports]** menu within the **[!UICONTROL Reporting]** section. You can filter your data depending on the Report date, folder or rules. [Learn more](global-reports.md)
 
@@ -13,9 +13,14 @@ Navigate to the **[!UICONTROL Reports]** menu within the **[!UICONTROL Reporting
 
 ### Delivery overview {#delivery-overview-direct}
 
-The **[!UICONTROL Delivery Overview]** presents key performance metrics (KPIs) offering in-depth insights into the interaction of your visitors with each email delivery. The metrics are outlined below.
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_delivery_overview_direct_mail"
+>title="Delivery overview"
+>abstract="The **Delivery Overview** presents key performance metrics (KPIs) offering in-depth insights into the interaction of your visitors with each direct mail delivery. The metrics are outlined below."
 
-![](assets/global_report_email_delivery_overview.png){zoomable="yes"}{align="center"}
+The **[!UICONTROL Delivery Overview]** presents key performance metrics (KPIs) offering in-depth insights into the interaction of your visitors with each direct mail delivery. The metrics are outlined below.
+
+![](assets/global_report_direct_mail_delivery_overview.png){zoomable="yes"}{align="center"}
 
 +++Learn more on Delivery overview metrics.
 
@@ -30,9 +35,19 @@ The **[!UICONTROL Delivery Overview]** presents key performance metrics (KPIs) o
 
 ### Targeted audience {#delivery-summary-direct-initial-target}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_target_audience_direct_mail_graph"
+>title="Targeted audience"
+>abstract="The recipient data and message information are displayed in the **Targeted audience** graph, reflecting the delivery preparation analysis."
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_target_audience_direct_mail_table"
+>title="Targeted audience"
+>abstract="The **Targeted audience** table provides a detailed breakdown of your recipients and the corresponding messages, based on the results of the delivery preparation process."
+
 The table and graph for **[!UICONTROL Targeted Audience]** showcase data related to your recipients, with detailed metrics provided below.
 
-![](assets/global_report_email_targeted_audience.png){zoomable="yes"}{align="center"}
+![](assets/global_report_direct_mail_targeted_audience.png){zoomable="yes"}{align="center"}
 
 +++Learn more on Targeted audience metrics.
 
@@ -46,9 +61,17 @@ The table and graph for **[!UICONTROL Targeted Audience]** showcase data related
 
 ### Delivery statistics {#delivery-summary-direct-exec-stats}
 
-The **[!UICONTROL Delivery statistics]** table provides a breakdown of the success of every direct mail delivery, with detailed metrics outlined below.
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_delivery_statistics_summary_direct_mail_graph"
+>title="Delivery statistics"
+>abstract="The **Delivery statistics** graph provides insights into the effectiveness of your Direct mail deliveries, including successful deliveries and any encountered errors."
 
-![](assets/global_report_email_delivery_statistics.png){zoomable="yes"}{align="center"}
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_delivery_statistics_summary_direct_mail_table"
+>title="Delivery statistics"
+>abstract="The **Delivery statistics** table details the success of your Direct mail delivery, and errors that occurred."
+
+The **[!UICONTROL Delivery statistics]** graph and table provide a breakdown of the success of every direct mail delivery, with detailed metrics outlined below.
 
 +++Learn more on Delivery statistics metrics.
 
@@ -64,41 +87,35 @@ The **[!UICONTROL Delivery statistics]** table provides a breakdown of the succe
 
 ### Causes of exclusion {#causes-exclusion}
 
-![](assets/global_report_email_exclusions.png){zoomable="yes"}{align="center"}
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_exclusions_direct_mail_table"
+>title="Exclusions"
+>abstract="The **Causes of exclusion** table displays a detailed breakdown, by rule, of messages that were rejected during the delivery preparation process."
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_causes_exclusion_direct_mail_graph"
+>title="Delivery Causes of exclusion"
+>abstract="The **Causes of exclusion** graph illustrates the distribution of rejected messages during the preparation for delivery, categorized by each rule."
+
+![](assets/global_report_direct_mail_exclusions.png){zoomable="yes"}{align="center"}
 
 The Exclusions graph and table illustrate the reasons that prevented user profiles, excluded from the targeted profiles, from receiving the message.
 
-## Delivery throughput {#delivery-throughput}
++++Learn more on Causes of exclusion metrics.
 
-This report provides comprehensive details on the delivery throughput within a specified timeframe. The key metric used to measure the speed of message delivery is the number of messages sent per hour.
+* **[!UICONTROL Address in quarantine]**: Error type generated when address is placed in quarantine.
 
-## Non-deliverables {#non-deliverables-direct}
+* **[!UICONTROL Address not specified]**: Error type generated when sending a delivery to indicate that the address does not exist.
 
-### Breakdown of errors per type {#delivery-summary-direct-breakdown-per-type}
+* **[!UICONTROL Bad quality address]**: Error type generated when postal address quality rating is too low.
 
-The **[!UICONTROL Breakdown of errors per type]** table and graph present the data related to potential errors experienced in various domains, with specific metrics provided below.
-    
-The errors shown in this report trigger the quarantine process. For more on quarantine management, refer to [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
+* **[!UICONTROL Denylisted address]**: Error type generated when the recipient was denylisted when the delivery was performed.
 
-+++Learn more on Breakdown of errors per type metrics.
+* **[!UICONTROL Double]**: Error type generated when the recipient was excluded because its keys values were not unique.
 
-* **[!UICONTROL User unknown]**: Error type generated during delivery to indicate that the address is invalid.
+* **[!UICONTROL Control group]**: The recipient's address is part of the control group.
 
-* **[!UICONTROL Invalid domain]**: Error type generated when sending a delivery to indicate that the domain of the address is wrong or does not exist.
-
-* **[!UICONTROL Mailbox full]**: Error type generated after five delivery attempts to indicate that the recipients' inbox contains too many messages.
-
-* **[!UICONTROL Account disabled]**: Error type generated when sending a delivery to indicate that the address no longer exists.
-
-* **[!UICONTROL Refused]**: Error type generated when an address is rejected by the IAP (Internet Access Provider), for instance following the application of a security rule (anti-spam software).
-
-* **[!UICONTROL Unreachable]**: Error type which occurs in the message distribution string: incident on the SMTP relay, domain temporarily unreachable, etc
-
-* **[!UICONTROL Not connected]**: Error type to indicate that the recipients' mobile phone is switched off or disconnected from the network at the time of sending.
+* **[!UICONTROL Target limited in size]**: The maximum delivery size was reached for the recipient.
 
 +++
-
-### Breakdown of errors per domain {#delivery-summary-email-breakdown-per-domain}
-
-The **[!UICONTROL Breakdown of errors per domain]** table and graph showcase the data related to potential errors within each domain. Metrics are common with the **[!UICONTROL Breakdown of errors per type]** table and graph detailed above.
 

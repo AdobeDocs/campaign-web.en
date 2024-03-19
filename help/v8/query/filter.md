@@ -25,6 +25,7 @@ Once applied to a list, filters are visible below the search bar. You can remove
 Custom filters allow you to refine lists based on your own specific criteria. They are designed using the Campaign query modeler. To create a custom filter, follow these steps:
 
 1. Open the filters pane and click the **Add rules** button located at the bottom of the pane.
+
 1. The query modeler opens. Define and combine your filter criteria to suit your needs. Detailed information on how to use the query modeler is available in [this section](../query/query-modeler-overview.md).
 
     The example below shows a custom filter designed to display in the campaigns list SMS campaigns runned by operators from the Running or Yoga departments.

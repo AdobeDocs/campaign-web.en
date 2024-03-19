@@ -31,11 +31,10 @@ Use the provided links to browse the Campaign v8 (client console) documentation 
 
 ## Communication channels {#channels-capabilities}
 
-With Campaign Web user interface, you can create, design and send **email**, **SMS** and **push notifications**, and measure their impact using various dedicated reports, as detailed [in this section](../msg/gs-messages.md). However, the following channels are currently **not** available: in-app, direct mail, LINE, Call center/Custom channel, Social marketing with X (Twitter).
+With Campaign Web user interface, you can create, design and send **email**, **SMS**, **push notifications**, **direct mail** and measure their impact using various dedicated reports, as detailed [in this section](../msg/gs-messages.md). However, the following channels are currently **not** available: in-app, LINE, Call center/Custom channel, Social marketing with X (Twitter).
 
 Use the provided links to browse the Campaign v8 (client console) documentation and learn more about these channels.
 
-* **Direct mail**. Direct mail channel enables you to send a physical correspondence to your customers, clients, suppliers, or others, such as notices, invoices, statements, marketing offer, and more. This channel is only available in the client console.  [Learn more](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/about-direct-mail-channel.html){target="_blank"}
 * **LINE messaging**. LINE is an application for free instant messaging, voice and video calls, available on all mobile devices and on PC. Adobe Campaign allows you to send LINE messages from the client console only. [Learn more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html){target="_blank"}
 * **Call center and Custom channels**. Call center and other custom channels can be implemented in your Campaign environment. These channels can only be available in the client console. [Learn more in Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels.html#other-channels){target="_blank"}
 * **Social marketing** with X (Twitter). You interact with your customers via X (Twitter) by posting messages and sending direct messages. This capability, coming with the Social Marketing add-on, is only available from the client console - [Learn more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html){target="_blank"}
@@ -162,7 +161,7 @@ Data Management combines a set of activities for solving complex targeting issue
     
 >[!NOTE]
 >
->While some of these activities are available in the client console only, some are available in Campaign Web user interface such as the **Enrichment**, **Load file** or **Change dimension** activities. [Learn more on targeting and data management activites in Campaign Web user interface](../workflows/activities/about-activities.md#targeting)
+>While some of these activities are available in the client console only, some are available in Campaign Web user interface such as the **Enrichment**, **Load file**, **Change data source** or **Change dimension** activities. [Learn more on targeting and data management activites in Campaign Web user interface](../workflows/activities/about-activities.md#targeting)
 
 ### Federated Data Access configuration {#fda}
 
