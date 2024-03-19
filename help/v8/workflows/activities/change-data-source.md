@@ -5,6 +5,13 @@ description: Learn how to use the Change data source workflow activity
 ---
 # Change data source {#change-data-source}
 
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn2"
+>title="Change data source in workflows"
+>abstract="The Change data source targeting activity allows you to change the data source used by your workflow's working table. This activity provides more flexibility by allowing you to manage data across your different databases and improve performances."
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/release-notes" text="See release notes"
+
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_data_source"
 >title="Change data source"
@@ -12,7 +19,7 @@ description: Learn how to use the Change data source workflow activity
 
 The **Change data source** activity is a **targeting** activity. This activity allows you to change the data source used by your workflow's Working table. This provides more flexibility by allowing you to manage data across your different databases and improve performances.
 
-In workflows, data transported from one activity to another through transitions is stored in a temporary **Working table**. By default, Working tables are created in the same database as the source of the processed data. For example, when querying the “Profiles” table, stored on the Cloud database, a Working table is created on the same Cloud database.
+In workflows, data transported from one activity to another through transitions is stored in a temporary **Working table**. By default, Working tables are created in the same database as the source of the processed data. For example, when querying the "Profiles" table, stored on the Cloud database, a Working table is created on the same Cloud database.
 
 In some cases, either data is not available on the current database or is not efficient enough to perform unitary operations. You may therefore need to force the workflow to use a different database to perform such operations by adding a **[!UICONTROL Change data source]** activity.
 

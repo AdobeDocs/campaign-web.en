@@ -11,7 +11,7 @@ exl-id: edd313a3-93f4-4596-8dd6-dfc2bc3db21b
 >id="acw_homepage_welcome_rn5"
 >title="Landing pages"
 >abstract="Discover the new landing page experience. Instantly create, design, and share landing pages to direct your users to online web pages where you can manage acquisition, subscription/unsubscription and denylist use cases, based on built-in templates."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="See release notes"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/release-notes" text="See release notes"
 
 [!DNL Adobe Campaign] allows you to create, design, and share landing pages.
 

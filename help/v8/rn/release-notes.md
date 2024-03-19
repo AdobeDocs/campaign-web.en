@@ -4,6 +4,7 @@ description: Discover new feature coming with Campaign Web User Interface
 ---
 # Release notes {#latest-release}
 
+
 <!--Last update: **March 19, 2024**-->
 
 Adobe Campaign Web user interface releases operate on a continuous delivery model which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.

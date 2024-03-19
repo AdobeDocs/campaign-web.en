@@ -5,10 +5,6 @@ exl-id: 0b28741a-28f6-4f46-8c4c-820c5036aeda
 ---
 # Get started with profiles {#profiles}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="360 view of your profiles"
->abstract="Create new profiles, and monitor them through powerful reports and tools. Access your profiles' attributes, interactions and logs. Use the filtering options to browse the profiles list, edit and update their profile."
 
 <!--additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new" text="See release notes"-->
 
