@@ -5,9 +5,6 @@ exl-id: 0b28741a-28f6-4f46-8c4c-820c5036aeda
 ---
 # Get started with profiles {#profiles}
 
-
-<!--additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new" text="See release notes"-->
-
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="Profiles"
