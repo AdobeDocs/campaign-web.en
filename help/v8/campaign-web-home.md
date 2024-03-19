@@ -51,13 +51,13 @@ Get a glimpse of the newest enhancements in Adobe Campaign Web product and docum
 
 ![image](assets/do-not-localize/direct-mail.gif)
 
-[![image](assets/do-not-localize/learn-more-button.svg)](../direct-mail/gs-direct-mail.md)
+[![image](assets/do-not-localize/learn-more-button.svg)](direct-mail/gs-direct-mail.md)
 
 >[!TAB Query modeler in the Email Designer] 
 
 The query modeler is now available for use in the Email Designer. It allows you to build conditions when creating conditional content.
 
-[![image](assets/do-not-localize/learn-more-button.svg)](../personalization/conditions.md)
+[![image](assets/do-not-localize/learn-more-button.svg)](personalization/conditions.md)
 
 >[!TAB New Change data source workflow activity]
 
@@ -65,7 +65,7 @@ The **Change data source** targeting activity allows you to change the data sour
 
 ![image](assets/do-not-localize/change-data-source.gif)
 
-[![image](assets/do-not-localize/learn-more-button.svg)](../workflows/activities/change-data-source.md)
+[![image](assets/do-not-localize/learn-more-button.svg)](workflows/activities/change-data-source.md)
 
 >[!ENDTABS]
 
