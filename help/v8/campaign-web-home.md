@@ -45,6 +45,12 @@ Get a glimpse of the newest enhancements in Adobe Campaign Web product and docum
 
 >[!BEGINTABS]
 
+>[!TAB March release is live!]
+
+Discover new features and improvements coming with Adobe Campaign Web User Interface 24.3 release.
+
+[![learn more](using/assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
+
 >[!TAB Direct mail channel] 
 
 **Direct mail** channel is now available for use in workflows and as standalone deliveries. Direct mail is an offline channel that allows you to create, personalize and generate an extraction files, and share it with your direct mail providers to send mail to your customers.
@@ -52,12 +58,6 @@ Get a glimpse of the newest enhancements in Adobe Campaign Web product and docum
 ![image](assets/do-not-localize/direct-mail.gif)
 
 [![image](assets/do-not-localize/learn-more-button.svg)](direct-mail/gs-direct-mail.md)
-
->[!TAB Query modeler in the Email Designer] 
-
-The query modeler is now available for use in the Email Designer. It allows you to build conditions when creating conditional content.
-
-[![image](assets/do-not-localize/learn-more-button.svg)](personalization/conditions.md)
 
 >[!TAB New Change data source workflow activity]
 
