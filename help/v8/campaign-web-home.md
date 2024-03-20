@@ -49,7 +49,7 @@ Get a glimpse of the newest enhancements in Adobe Campaign Web product and docum
 
 Discover new features and improvements coming with Adobe Campaign Web User Interface 24.3 release.
 
-[![learn more](using/assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
+[![image](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
 >[!TAB Direct mail channel] 
 
