@@ -7,11 +7,6 @@ exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 
 # What's new {#new}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_learning_card2"
->title="Release Notes"
->abstract="Our latest release is packed with intuitive features designed to simplify the creation of personalized cross-channel campaigns, drive exceptional results, and give you a competitive advantage across all channels."
-
 We are thrilled to introduce the new version of **Adobe Campaign Web User Interface**. Our latest release is packed with intuitive features designed to simplify the creation of personalized cross-channel campaigns, drive exceptional results, and give you a competitive advantage across all channels. Campaign Web User Interface (UI) brings a connected canvas with Adobe Experience Platform for a unified experience. 
 
 Changes, new capabilities and improvements are listed in the [monthly release notes](release-notes.md).
