@@ -38,7 +38,7 @@ The AI Assistant can help you optimize the impact of your deliveries by suggesti
 
 1. Personalize your email as needed. [Learn more](content-components.md)
 
-1. Access the **[!UICONTROL Experience generation]** menu.
+1. Access the **[!UICONTROL AI assistant]** menu.
 
     You can also select a **[!UICONTROL Text component]** to only target a specific content.
 
@@ -98,7 +98,7 @@ In the example below, learn how to leverage the AI Assistant to optimize and imp
 
 1. Select the asset you want to change with the AI Assistant.
 
-1. From the right-hand menu, select **[!UICONTROL Experience generation]**.
+1. From the right-hand menu, select **[!UICONTROL AI Assistant]**.
 
     ![](assets/image-genai-1.png){zoomable="yes"}
 
