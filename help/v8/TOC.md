@@ -42,11 +42,6 @@ breadcrumb-title: Campaign Web User Interface
         + [Add a link to the mirror page](email/mirror-page.md)
         + [Add a preheader](email/preheader.md)
         + [Generate the text version](email/text-version-email.md)
-      + Content Assistant {#content-assistant}
-        + [Get started with the Content Assistant](email/generative-gs.md)
-        + [Text generation with the Content Assistant](email/generative-content.md)
-        + [Image generation with the Content Assistant](email/generative-image.md)
-        + [Email generation with the Content Assistant](email/generative-email.md)
       + Style your content {#style}
         + [Get started with email style](email/get-started-email-style.md)
         + [Edit background settings](email/backgrounds.md)
@@ -73,6 +68,11 @@ breadcrumb-title: Campaign Web User Interface
     + [Create a direct mail delivery](direct-mail/create-direct-mail.md)
     + [Design the extraction file ](direct-mail/content-direct-mail.md)
     + [Preview and send a direct mail delivery ](direct-mail/send-direct-mail.md)
+  + AI Assistant {#ai-assistant}
+    + [Get started with the AI Assistant](email/generative-gs.md)
+    + [Email generation with the AI Assistant](email/generative-content.md)
+    + [SMS generation with the AI Assistant](email/generative-sms.md)
+    + [Push notification generation with the AI Assistant](email/generative-push.md)
   + Make your content dynamic {#dynamic-content}
     + [Get started with dynamic content](personalization/gs-personalization.md)
     + [Add personalization](personalization/personalize.md)
