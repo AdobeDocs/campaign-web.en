@@ -134,7 +134,7 @@ breadcrumb-title: Campaign Web User Interface
     + [Change dimension](workflows/activities/change-dimension.md)
     + [Combine](workflows/activities/combine.md)
     + [Deduplication](workflows/activities/deduplication.md)
-    + [Email, SMS, Push](workflows/activities/channels.md)
+    + [Email, SMS, Push, Direct mail](workflows/activities/channels.md)
     + [Enrichment](workflows/activities/enrichment.md)
     + [Fork](workflows/activities/fork.md)
     + [Load file](workflows/activities/load-file.md)
