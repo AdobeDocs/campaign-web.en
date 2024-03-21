@@ -1,14 +1,14 @@
 ---
 audience: end-user
 title: Use a delivery workflow activity
-description: Learn how to add a delivery workflow activity (Email, Push, SMS)
+description: Learn how to add a delivery workflow activity (Email, Push, SMS, Direct mail)
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
 ---
-# Email, SMS, Push activities {#channel}
+# Email, SMS, Push, Direct mail activities {#channel}
 
-Adobe Campaign Web allows you to automate and execute marketing campaigns across email, SMS and push channels. You can combine channel activities into the workflow canvas to create cross-channel workflows that can trigger actions based on customer behavior and data. 
+Adobe Campaign Web allows you to automate and execute marketing campaigns across email, SMS, Direct mail and push channels. You can combine channel activities into the workflow canvas to create cross-channel workflows that can trigger actions based on customer behavior and data. 
 
-For example, you can create a welcome email campaign that includes a series of messages across different channels, such as email, SMS, and push. You can also send a follow-up email after a customer has completed a purchase, or send a personalized birthday message to a customer via SMS. 
+For example, you can create a welcome email campaign that includes a series of messages across different channels, such as email, SMS, push and direct mail. You can also send a follow-up email after a customer has completed a purchase, or send a personalized birthday message to a customer via SMS. 
 
 By using channel activities, you can create comprehensive and personalized campaigns that engage customers across multiple touchpoints and drive conversions.
 
@@ -18,6 +18,7 @@ By using channel activities, you can create comprehensive and personalized campa
 >* [Create standalone email delivery](../../email/create-email.md)
 >* [Create standalone SMS delivery](../../sms/create-sms.md)
 >* [Create standalone push delivery](../../push/create-push.md)
+>* [Create standalone direct mail delivery](../../direct-mail/create-direct-mail.md)
 
 ## Prerequisites {#channel-activity-prereq}
 
@@ -33,10 +34,7 @@ Start building your workflow with the relevant activities:
 
         ![](../assets/workflow-reconciliation-criteria.png)
 
-
-
 * To send a recurring delivery, start your workflow with a **Scheduler** activity. You can also use a **Scheduler** activity for one-shot single deliveries to set the contact date for that delivery. That contact date can also be set in the delivery settings. See [this section](scheduler.md).
-
 
 ## Configure the Channel activity {#create-a-delivery-in-a-workflow}
 
@@ -60,9 +58,14 @@ Start building your workflow with the relevant activities:
 >title="Push Android activity"
 >abstract="The Push Android activity streamlines the process of sending Android Push notifications as part of your workflow. It enables the delivery of both one-time and recurring messages, automating the sending Android Push notifications to a predefined target within the same workflow. You can combine channel activities into the workflow canvas to create cross-channel workflows that can trigger actions based on customer behavior and data."
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_directmail"
+>title="Direct mail activity"
+>abstract="The Direct mail activity facilitates direct mail sending within your workflow, allowing for both one-time and recurring messages. It serves to automate the process of generating the extraction file required by direct mail providers. You can combine channel activities into the workflow canvas to create cross-channel workflows that can trigger actions based on customer behavior and data."
+
 To set up a delivery in the context of a workflow, follow the steps below:
 
-1. Add a channel activity: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification (Android)]** or **[!UICONTROL Push notification (iOS)]**.
+1. Add a channel activity: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification (Android)]**, **[!UICONTROL Push notification (iOS)]** or **[!UICONTROL Direct mail]**.
 
 1. Select the **Type of delivery**: single or recurring. 
 
