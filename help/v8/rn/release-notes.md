@@ -21,19 +21,6 @@ Adobe Campaign Web user interface releases operate on a continuous delivery mode
 
 ## March release notes {#24-3-release}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
->title="Direct mail"
->abstract="The Direct mail channel is now available for use in workflows and standalone deliveries. Use the Direct mail offline channel to create, personalize and generate an extraction file, and share it with your direct mail providers to send mail to your customers."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/release-notes" text="See release notes"
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
->title="Change data source"
->abstract="Use the new Change data source workflow targeting activity to change the data source used by your workflow's working table. This activity provides more flexibility by allowing you to manage data across your different databases and improve performances."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/release-notes" text="See release notes"
-
-
 **Release date**: March 19-20, 2024
 
 ### Direct Mail Channel {#24-3-dm}

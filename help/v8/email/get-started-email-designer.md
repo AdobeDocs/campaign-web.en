@@ -10,7 +10,7 @@ exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
 >id="acw_homepage_welcome_rn4"
 >title="New Email Designer"
 >abstract="Campaign Email Designer enables you to create captivating, individually tailored emails through an intuitive drag-and-drop interface. Whether you're starting from a blank slate, importing an existing content or leveraging existing templates, design and refine all content for every email!"
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/release-notes" text="See release notes"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
 
 Once you have created an email in Adobe Campaign, you need to define its content.
 
