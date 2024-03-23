@@ -2,6 +2,7 @@
 audience: end-user
 title: Direct mail reports
 description: Learn how to access and use Direct mail reports
+exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
 ---
 # Direct mail delivery report {#direct-mail-report}
 

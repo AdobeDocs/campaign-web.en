@@ -2,8 +2,8 @@
 audience: end-user
 title: Design a direct mail delivery
 description: Learn how to design your direct mail delivery with Adobe Campaign Web
+exl-id: aefba651-4125-4b1e-992f-1fe90fd95e4c
 ---
-
 # Design the extraction file {#design-direct-mail}
 
 >[!CONTEXTUALHELP]

@@ -4,6 +4,7 @@ description: Learn how to work with Adobe Campaign Web user interface and Adobe 
 feature: Overview
 role: Admin, User
 level: Beginner
+exl-id: a50f3269-b559-4dbf-bd8f-af046f332d23
 ---
 # Work with Campaign and other Adobe solutions {#gs-integration}
 

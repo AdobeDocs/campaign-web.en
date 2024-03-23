@@ -2,6 +2,7 @@
 audience: end-user
 title: Global reports for the direct mail channel
 description: Learn more about Global reports for the direct mail channel
+exl-id: a42536fe-375b-4169-8775-d47ed26692f8
 ---
 # Global reports for the direct mail channel {#global-report-direct}
 
@@ -118,4 +119,3 @@ The Exclusions graph and table illustrate the reasons that prevented user profil
 * **[!UICONTROL Target limited in size]**: The maximum delivery size was reached for the recipient.
 
 +++
-
