@@ -366,3 +366,49 @@ Deprecated IDs - to remove in GA: -->
 >title="Update Data"
 >abstract="TBC"
 
+
+
+<!--External Signal End-->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_externalsignal"
+>title="External Signal"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_externalsignal_parameters"
+>title="External Signal Parameters"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_end"
+>title="End"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_end_trigger"
+>title="End triggers"
+>abstract="TBC"
+
+
+<!--Javascript-->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_javascript"
+>title="Javascript code"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_javascript_snippet"
+>title="Javascript Snippet"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_javascript_execution"
+>title="Javascript Execution"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_javascript_transition"
+>title="Javascript Transition"
+>abstract="TBC"
