@@ -71,7 +71,7 @@ The AI Assistant can help you optimize the impact of your deliveries by suggesti
 
     ![](assets/push-genai-5.png){zoomable="yes"}  
 
-1. Insert personalization fields to customize your email content based on profiles data. [Learn more about content personalization](../personalization/personalize.md)
+1. Insert personalization fields to customize your push content based on profiles data. [Learn more about content personalization](../personalization/personalize.md)
 
     ![](assets/push-genai-6.png){zoomable="yes"}  
 
@@ -79,4 +79,4 @@ The AI Assistant can help you optimize the impact of your deliveries by suggesti
 
     ![](assets/push-genai-7.png){zoomable="yes"}
 
-1. When you have defined your content, audience and schedule, you are ready to prepare your email delivery. [Learn more](../monitor/prepare-send.md)
+1. When you have defined your content, audience and schedule, you are ready to prepare your push delivery. [Learn more](../monitor/prepare-send.md)

@@ -69,7 +69,7 @@ This handy tool provides intelligent suggestions for refining your content, ensu
 
     ![](assets/sms-genai-4.png){zoomable="yes"}  
 
-1. Insert personalization fields to customize your email content based on profiles data. [Learn more about content personalization](../personalization/personalize.md)
+1. Insert personalization fields to customize your SMS content based on profiles data. [Learn more about content personalization](../personalization/personalize.md)
 
     ![](assets/sms-genai-5.png){zoomable="yes"}  
 
@@ -77,4 +77,4 @@ This handy tool provides intelligent suggestions for refining your content, ensu
 
     ![](assets/sms-genai-6.png){zoomable="yes"}
 
-1. When you have defined your content, audience and schedule, you are ready to prepare your email delivery. [Learn more](../monitor/prepare-send.md)
+1. When you have defined your content, audience and schedule, you are ready to prepare your SMS delivery. [Learn more](../monitor/prepare-send.md)

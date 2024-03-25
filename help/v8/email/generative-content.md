@@ -30,7 +30,7 @@ The AI Assistant can help you optimize the impact of your deliveries by suggesti
 
 ## Content generation with the AI Assistant {#generative-text}
 
-1. After creating and configuring your Email delivery, click **[!UICONTROL Edit content]**.
+1. After creating and configuring your email delivery, click **[!UICONTROL Edit content]**.
 
     For more information on how to configure your email delivery, refer to [this page](../email/create-email-content.md).
 
