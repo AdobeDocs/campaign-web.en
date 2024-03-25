@@ -5,7 +5,7 @@ description: Learn how to design a rich push notification delivery with Adobe Ca
 hide: yes
 hidefromtoc: yes
 ---
-# Design an Android rich push delivery {#content-push}
+# Design an Android rich push delivery {#rich-push}
 
 With Firebase Cloud Messaging, you can choose between two types of messages:
 
@@ -17,9 +17,7 @@ With Firebase Cloud Messaging, you can choose between two types of messages:
 
 ## Define the content of the notification {#push-message}
 
-Once your push delivery is created, you can define its content. Browse the tabs below to learn how to compose your message for each templates. 
-
-Three templates are available:
+Once your push delivery is created, you can define its content. Three templates are available:
 
 * **Default Template** allows you to send notifications with a simple icon and an accompanying image.
 

@@ -57,6 +57,7 @@ breadcrumb-title: Campaign Web User Interface
   + Push notifications {#push}
     + [Get started with push notifications](push/gs-push.md)
     + [Create a push notification delivery](push/create-push.md)
+    + [Design an Android rich push delivery](push/rich-push.md)
     + [Design a push delivery](push/content-push.md)
     + [Preview and send a push delivery](push/send-push.md)
   + SMS {#sms}
