@@ -1,22 +1,22 @@
 ---
 audience: end-user
-title: Email generation with the Content Assistant
-description: Get Started with the Content Assistant
+title: Email generation with the AI Assistant in Campaign
+description: Get Started with the AI Assistant in Campaign
 badge: label="Alpha"
 exl-id: f6c9c940-ae85-44e6-a23e-9133df87e67e
 hide: yes
 hidefromtoc: yes
 ---
-# Generate an email with the Content Assistant {#generative-email}
+# Generate an email with the AI Assistant {#generative-email}
 
-The Content Assistant enhances your communication's impact by automatically generating complete email content, saving you time and ensuring consistent quality. Using Generative AI, you can effortlessly craft compelling emails that resonate with your audience, making your communication more effective and efficient.
+The AI Assistant in Campaign enhances your communication's impact by automatically generating complete email content, saving you time and ensuring consistent quality. Using Generative AI, you can effortlessly craft compelling emails that resonate with your audience, making your communication more effective and efficient.
 
 >[!NOTE]
 >
 >Before starting using this capability, read out related [Guardrails and Limitations](generative-gs.md#guardrails-and-limitations).
 
 
-To generate an email content with the Content Assistant, follow the steps below. You can also improve an existing content with the Content Assistant, as detailed in [this page](generative-content.md).
+To generate an email content with the AI Assistant, follow the steps below. You can also improve an existing content with the AI Assistant, as detailed in [this page](generative-content.md).
 
 1. After creating and configuring your Email delivery, click **[!UICONTROL Create content]**.
 
@@ -24,7 +24,7 @@ To generate an email content with the Content Assistant, follow the steps below.
 
 1. Fill in the **[!UICONTROL Basic details]** for your delivery. Once done, click **[!UICONTROL Edit email body]**.
 
-1. Pick the design template that you want the Content Assistant to base the generated email on.
+1. Pick the design template that you want the AI Assistant to base the generated email on.
 
     You can also import an HTML file.
 
@@ -42,7 +42,7 @@ To generate an email content with the Content Assistant, follow the steps below.
     
     ![](assets/email-genai-2.png){zoomable="yes"}
 
-1. Select **[!UICONTROL Upload file]** if you want to add any brand asset which contains content that can provide additional context the Content Assistant.  
+1. Select **[!UICONTROL Upload file]** if you want to add any brand asset which contains content that can provide additional context the AI Assistant.  
 
     You can also click **[!UICONTROL Uploaded content]** to find previously updated files. Note that the uploaded content is exclusively available for reuse by the current user.
 

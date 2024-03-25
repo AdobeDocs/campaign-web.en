@@ -7,7 +7,7 @@ exl-id: 896d7e9b-0fa2-435b-b191-fa5db36e7ea0
 hide: yes
 hidefromtoc: yes
 ---
-# Image generation with the Content Assistant {#generative-image}
+# Email image generation with the Content Assistant {#generative-image}
 
 After you've crafted and personalized your emails, you can enhance your content using the Content Assistant, powered by generative AI. This feature simplifies the process of personalization and content improvement.
 
