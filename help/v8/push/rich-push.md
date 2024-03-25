@@ -4,6 +4,7 @@ title: Design a rich push notification delivery
 description: Learn how to design an Android rich push notification delivery with Adobe Campaign Web
 hide: yes
 hidefromtoc: yes
+exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
 ---
 # Design an Android rich push delivery {#rich-push}
 

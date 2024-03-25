@@ -5,6 +5,7 @@ description: Get Started with the AI Assistant in Campaign
 badge: label="Beta"
 hide: yes
 hidefromtoc: yes
+exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
 ---
 # Push notification generation with the AI Assistant {#generative-push}
 
