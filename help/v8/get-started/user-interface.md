@@ -381,11 +381,6 @@ Deprecated IDs - to remove in GA: -->
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_end"
->title="End"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
 >id="acw_orchestration_end_trigger"
 >title="End triggers"
 >abstract="TBC"
