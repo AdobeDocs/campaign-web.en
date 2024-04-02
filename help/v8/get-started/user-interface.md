@@ -407,3 +407,36 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_orchestration_javascript_transition"
 >title="Javascript Transition"
 >abstract="TBC"
+
+
+<!--ExtractFile-->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_extractfile"
+>title="Extract file"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_extractfile_file"
+>title="File to extract"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_extractfile_destinationformat"
+>title="Destination format"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_extractfile_postprocessing"
+>title="Post processing"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_extractfile_outbound"
+>title="Outbound transition"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_extractfile_error"
+>title="Process error"
+>abstract="TBC"
