@@ -11,6 +11,11 @@ exl-id: 0f7cbc34-0536-493e-bb3b-0b1ac93d1232
 >title="Save an audience"
 >abstract="Use this activity to update an existing audience or create a new audience from the population computed upstream in the workflow. The audiences created are added to the list of audiences, and available via the **Audiences** menu."
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_saveaudience_outbound"
+>title="Generate outbound transition"
+>abstract="Use this option option if you want to add a transition after the **Save audience** activity."
+
 The **Save audience** activity is a **Targeting** activity. This activity allows you to update an existing audience or create a new audience from the population computed upstream in a workflow. The audiences created are added to the list of application audiences, and are made available via the **Audiences** menu.
 
 This activity is essentially used to keep population groups computed in the same workflow, by converting them into reusable audiences. Connect it to other targeting activities such as a **Build audience** or a **Combine** activity. 
