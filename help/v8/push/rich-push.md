@@ -8,6 +8,11 @@ exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
 ---
 # Design an Android rich push delivery {#rich-push}
 
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_remind_later"
+>title="Remind later button"
+>abstract="The **Remind later** button provides the option to schedule a reminder. The Timestamp field requires a value representing epoch in seconds."
+
 With Firebase Cloud Messaging, you can choose between two types of messages:
 
 * The **[!UICONTROL Data message]** is handled by the client app. These messages are sent directly to the mobile application, which generates and displays an Android notification on the device. Data messages contain only your custom application variables.
@@ -94,7 +99,7 @@ Once you have defined your message content, you can use test subscribers to prev
 
 1. Click **[!UICONTROL Add remind later]** button to add a Remind me later option to your push notification. Enter a **[!UICONTROL Label]** and **[!UICONTROL Timestamp]**. 
 
-    The Timestamp field expects a value representing an epoch in seconds.
+    The Timestamp field expects a value representing epoch in seconds.
 
     ![](assets/rich_push_basic_5.png)
 
