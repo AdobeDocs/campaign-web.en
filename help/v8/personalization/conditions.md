@@ -36,7 +36,7 @@ To define conditional content for a delivery using the expression editor, follow
 
     ![](assets/open-perso-editor-sms.png){zoomable="yes"}
 
-1. In the personalization editor, browse to the **[!UICONTROL Helper functions]** menu on the left.
+1. In the personalization editor, browse to the **[!UICONTROL Conditions]** menu on the left.
 
 1. To start building your condition, click the '+' icon next to the **If** function. The following line is added to the central screen:`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } %>`
 
