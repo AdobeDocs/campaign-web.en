@@ -64,7 +64,7 @@ exl-id: 230177e2-1926-451a-8a66-0db962ada514
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_delete"
 >title="Delete file after import"
->abstract="TBC"
+>abstract="Toggle the **Delete file after import** to delete the original file from the server after the file is imported."
 
 The **Load file** activity is a **Data management** activity. Use this activity to work with profiles and data stored in an external file. Profiles and data are not added to the database, but all fields in the input file are available for [personalization](../../personalization/gs-personalization.md), or to update profiles, or any other table. 
 

@@ -303,30 +303,29 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_readonlymode"
 >title="This template is ready only"
->abstract="TBC"
-
+>abstract="You do not have permissions to edit this template. If needed, contact your administrator to grant you access."
 
 <!-- Subscription activity-->
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_defaultlp"
->title="Default Landing Pages"
->abstract="TBC"
+>title="Default landing page"
+>abstract="Select the default landing page associated to this subscription service."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"
->title="Subscription services"
->abstract="TBC"
+>title="Subscription service activity"
+>abstract="Use Adobe Campaign to create and monitor your services such as newsletters, and to check the subscriptions or unsubscriptions to these services. Subscriptions only apply to email and SMS delivery."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_general"
->title="Subscription services parameters"
->abstract="TBC"
+>title="Subscription service parameters"
+>abstract="Select and confirm the settings for the subscription service."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_outboundtransition"
 >title="Subscription services outbound transition"
->abstract="TBC"
+>abstract="Toggle the **Generate an outbound transition** option to add a transition after the activity."
 
 
 <!--Update file-->
@@ -334,37 +333,37 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata"
 >title="Update Data"
->abstract="TBC"
+>abstract="The **Update data** activity performs a mass update of the fields in the database."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_operationtype"
->title="Update Data"
->abstract="TBC"
+>title="Select how to update data"
+>abstract="The **Operation type** field lets you choose the process to be carried out on the data in the database. Select the first option to add data or update (it if it has already been added). You can also only add data, only update data, or delete data. Select the **Update and merge collections** to select a primary record to link duplicates to, and delete those duplicates safely."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_recordid"
->title="Update Data"
->abstract="TBC"
+>title="Record identification"
+>abstract="Specify how to identify the records in the database: if data relate to an existing targeting dimension, select the **Using the targeting dimension** option and select the targeting dimension and fields to update. Otherwise, specify one or more custom links to identify the data in the database, or direct use of reconciliation keys."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_fieldsupdate"
->title="Update Data"
->abstract="TBC"
+>title="Select fields to update"
+>abstract="Select the fields to update and reconciliation settings. You can use the **Auto-mapping** option to automatically identify the fields to be updated."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_advancedoptions"
->title="Update Data"
->abstract="TBC"
+>title="Advanced options to update data"
+>abstract="The **Advanced options** section let you specify additional settings to manage data and duplicates."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition"
->title="Update Data"
->abstract="TBC"
+>title="Generate an outbound transition"
+>abstract="Toggle the **Generate an outbound transition** option to add an outbound transition that will be activated at the end of the execution of the **Update data** activity. The update generally marks the end of a targeting workflow and therefore the option is not activated by default."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition_rejects"
->title="Update Data"
->abstract="TBC"
+>title="Generate an outbound transition for rejects."
+>abstract="Toggle the **Generate an outbound transition for rejects** option to add an outbound transition containing records that have not been correctly processed after the update (for example if there is a duplicate). The update generally marks the end of a targeting workflow and therefore the option is not activated by default."
 
 
 
