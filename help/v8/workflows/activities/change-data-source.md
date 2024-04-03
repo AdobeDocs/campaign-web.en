@@ -1,41 +1,56 @@
 ---
 audience: end-user
-title: Use the Change Data Source workflow activity
-description: Learn how to use the Change Data Source workflow activity
+title: Use the Change data source workflow activity
+description: Learn how to use the Change data source workflow activity
+exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
 ---
-# Change Data Source {#change-data-source}
+# Change data source {#change-data-source}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn2"
+>title="Change data source"
+>abstract="Use the new Change data source workflow targeting activity to change the data source used by your workflow's working table. This activity provides more flexibility by allowing you to manage data across your different databases and improve performances."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_data_source"
->title="Change Data Source"
->abstract="The **Change Data Source** activity allows you to select a different data source for the Working table of your workflow."
+>title="Change data source"
+>abstract="The **Change data source** activity allows you to select a different data source for the Working table of your workflow."
 
-The **Change Data Source** activity is a **targeting** activity. This activity allows you to change the data source used by your workflow Working table. This provides more flexibility by allowing you to manage data across your different databases.
+The **Change data source** activity is a **targeting** activity. This activity allows you to change the data source used by your workflow's Working table. This provides more flexibility by allowing you to manage data across your different databases and improve performances.
 
->[!AVAILABILITY]
->
->The **[!UICONTROL Change Data Source]** activity is available with the "Access to external data (Federated Data Access)" package only. [Learn more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html){target="_blank"}
+In workflows, data transported from one activity to another through transitions is stored in a temporary **Working table**. By default, Working tables are created in the same database as the source of the processed data. For example, when querying the "Profiles" table, stored on the Cloud database, a Working table is created on the same Cloud database.
 
-## What is a Working table ? {#working-table}
+In some cases, either data is not available on the current database or is not efficient enough to perform unitary operations. You may therefore need to force the workflow to use a different database to perform such operations by adding a **[!UICONTROL Change data source]** activity.
 
-In workflows, data is transported from one activity to another is stored in a temporary **Working table**. By default, Working tables are created in the same database as the source of the data we query on. For example, when querying the "Profiles" table, stored on the Cloud database, a Working table is automatically created on the same Cloud database.
+Detailed information on Campaign architecture is available in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html)
 
-To change this, you can add a **Change Data Source** activity to choose a different data source for your Working table. This allows you to leverage data from external databases to perform operations such as enrichment or querying. 
+<!--
 
-Note that, after changing the data source of your Working table, you need to switch it back to the Cloud database to continue the workflow execution by adding another **Change Data Source** activity.
+Let's say you want to send to your  VIP customers a unique offer code that they can redeem on your online store. To do this, you need to:
 
-## Configure the Change Data Source activity {#configure}
+1. Query VIP customers on the "Profiles" table located on the Cloud database,
+1. Retrieve an offer code for each targeted profile through API calls,
+1. Update each profile with the assigned offer code,
+1. Send an email to the profiles with their offer code.
+
+In this situation, it is recommended to execute the offer code assignment operation on the local database, which is better suited for unitary operations. To do this, you need to add a **[!UICONTROL Change data source]** activity before the operation in order to execute it on the Campaign local database.
+
+Before executing the operation, the working table is copied to the local database so that the operation can run there. Once done, the system detects that the profiles that we want to update are on another location. The data is therefore automatically copied back to the Cloud database where the "Profiles" table is located.
+-->
+
+## Configure the Change data source activity {#configure}
 
 Follow these steps to configure the **Change dimension** activity:
 
-1. Add a **Change Data Source** activity to your workflow.
+![](../assets/workflow-change-data-source-add.png)
 
-   ![](../assets/workflow-change-dimension.png)
+1. Add a **Change data source** activity to your workflow.
 
-1. Define the data source where you want to move the worklow Working table:
+1. Define the data source where you want to move the Working table:
 
-   * **[!UICONTROL Default Campaign database (PostgreSQL)]**: Use the default Campaign database.
-   * **[!UICONTROL FDA external account]**: Use external databases connected to Adobe Campaign through Federated Data Access capability.
+   * **[!UICONTROL Default Campaign database (PostgreSQL)]**: Use the default Campaign local database.
+   * **[!UICONTROL FDA external account]**: Use external Cloud databases connected to Adobe Campaign through Federated Data Access capability.
 
       >[!AVAILABILITY]
       >
@@ -43,8 +58,9 @@ Follow these steps to configure the **Change dimension** activity:
 
 1. Configure your workflow to perform the desired operations using the new data source.
 
-   Once done, switch back the Working table data sourcev to the Campaign Cloud database to continue the workflow execution. To do this, add a new **[!UICONTROL Change Data Source]** activity to the workflow and select the **FDA external account** data source.
+<!--
+## Example {#example}
 
-<!--## Example {#example}
+The workflow belows illustrates the use case detailed earlier, i.e. sending VIP customers offer codes that they can redeem on our online store.
 
-In this example, we want to-->
+-->

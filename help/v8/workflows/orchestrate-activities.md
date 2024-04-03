@@ -40,6 +40,10 @@ When adding activites, action buttons are available in the properties pane, allo
 
 ![](assets/activity-action.png){zoomable="yes"}{width="50%"}
 
+Several **Targeting** activities, such as **Combine** or **Deduplication**, allow you to process the remaining population and include it into an additional outbound transition. For example, if you're using a **Split** activity, the complement consists of the population that did not match any of the previously defined subsets. To use this capability, activate the **Generate complement** option. 
+
+![](assets/workflow-split-complement.png)
+
 ## Example {#example}
 
 Here is a workflow example designed to send an email to all customers (other than VIP customers) with an email who are interested in coffee machines.
