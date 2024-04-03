@@ -136,6 +136,7 @@ breadcrumb-title: Campaign Web User Interface
     + [Email, SMS, Push, Direct mail](workflows/activities/channels.md)
     + [Enrichment](workflows/activities/enrichment.md)
     + [Fork](workflows/activities/fork.md)
+    + [JavaScript code](workflows/activities/javascript-code.md)
     + [Load file](workflows/activities/load-file.md)
     + [Reconciliation](workflows/activities/reconciliation.md)
     + [Save audience](workflows/activities/save-audience.md)
