@@ -2,7 +2,6 @@
 audience: end-user
 title: Use the JavaScript code workflow activity
 description: Learn how to use the JavaScript code workflow activity
-exl-id: 230177e2-1926-451a-8a66-0db962ada514
 ---
 # JavaScript code {#javascript-code}
 
