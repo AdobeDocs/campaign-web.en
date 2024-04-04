@@ -38,7 +38,7 @@ Follow these steps to configure the **Load file** activity:
 1. Choose the type of JavaScript activity to configure then confirm:
 
     * **Simple**: Execute one code snippet.
-    * **Advanced**: This option allows you to perform more complex operation by executing two different code snippets in a sequential order. The first code snippet is executed the first time the workflow is started. Each time the workflow runs again, the code snippet defined in the second call is executed.
+    * **Advanced**: This option allows you to perform more complex operations by executing two different code snippets in a sequential order. The first code snippet is executed the first time the workflow is started. Each time the workflow runs again, the code snippet defined in the second call is executed.
 
 1. In the **[!UICONTROL JavaScript snippet]** section, click the **[!UICONTROL Edit code]** button to define the script to execute.
 
@@ -69,7 +69,7 @@ Follow these steps to configure the **Load file** activity:
     >```
     >+++
 
-1. If you want to add multiple output transitions after the JavaScript code activity, click **[!UICONTROL Add transitions]**. This allows you, for example to trigger a specific transition based on a specific condition defined in the JavaScript code activity.
+1. If you want to add multiple output transitions after the JavaScript code activity, click **[!UICONTROL Add transitions]**. This allows you, for example to trigger a specific transition based on a condition defined in the JavaScript code activity.
 
 1. In the **[!UICONTROL Execution]** section, configure the delay to stop the activity after a period of execution. By default, the execution phase cannot exceed 1 hour. After this delay, the process is aborted with an error message and the activity execution fails. To ignore this limit, set the value to 0.
 
@@ -77,7 +77,7 @@ Follow these steps to configure the **Load file** activity:
 
 ## Workflows objects & variables {#event-variables}
 
-JavaScripts executed in the context of a workflow access a series of additional global **objects** such the workflow being executed (`ìnstance`), its various tasks (`task`), or the events that activated a task (`event`).
+JavaScripts executed in the context of a workflow access a series of additional global **objects** such as the workflow itself that is being executed (`ìnstance`), its various tasks (`task`), or the events that activated a given task (`event`).
 
 To each type of **object** is associated a category of **variables** that can be leveraged in your JavaScript code.
 
@@ -85,7 +85,7 @@ To each type of **object** is associated a category of **variables** that can be
 * **Task variables** (`task.vars.xxx`) are comparable to local variables. They are only used by the current task. These variables are used by persistent activities to keep data and are sometimes used to exchange data between the different scripts of a same activity.
 * **Event variables** (`vars.xxx`) enable the exchange of data between the elementary tasks of a workflow process. These variables are passed by the task that activated the task in progress. They are then passed to the following activities.
 
-Event variables are the most often used variables, and they should be used in preference to instance variables. Predefined event variables are available for use in the expression editor left-hand side pane. You can also create new ones by initializing a new variable in your JavaScript code.
+**Event variables** are the most often used variables, and they should be used in preference to instance variables. Predefined event variables are available for use in the expression editor left-hand side pane. You can also create new ones by initializing a new variable in your JavaScript code.
 
 >[!NOTE]
 >
