@@ -2,8 +2,8 @@
 audience: end-user
 title: Select delivery recipients
 description: Learn how to select the recipients of your deliveries
+exl-id: 33366af1-17b5-4ef7-8e0c-b7a8ae6e1e82
 ---
-
 # Select delivery recipients {#add-audience}
  
 To define the recipients of a delivery, you can:
