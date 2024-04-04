@@ -106,6 +106,7 @@ breadcrumb-title: Campaign Web User Interface
     + [Create audiences](audience/create-audience.md)
     + [Monitor and manage audiences](audience/manage-audience.md)
   + Select your delivery recipients {#target-audiences}
+    + [Get started with audience selection](audience/delivery-recipients.md)
     + [Select an existing audience](audience/add-audience.md)
     + [Build a one-time audience](audience/one-time-audience.md)
     + [Load an email audience from a file](audience/file-audience.md)
