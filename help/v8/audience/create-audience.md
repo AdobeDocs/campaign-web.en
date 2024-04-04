@@ -7,20 +7,20 @@ exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
 # Create audiences {#create-audiences}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
+>id="acw_homepage_welcome_rn3"
 >title="Audience composition"
 >abstract="Create new audiences into a visual workflow canvas. Beyond starting from scratch to create a simple audience, you can also leverage workflow activities to refine your audience. Combine multiple audiences into a single one, enrich your audience with external attributes, or divide a it into multiple audiences based on rules of your choice."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="See release notes"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="Audiences"
->abstract="From this screen, you can access the list of all audiences that can be targeted in your deliveries. Click **Create** to create new audiences into a visual canvas using various workflow activities such as **Split** or **Exclude**."
+>abstract="From this screen, you can access the list of all audiences that can be targeted in workflows or standalone deliveries. Click **Create** to create a new audience into a visual canvas using various workflow activities such as **Split** or **Exclude**.<br/><br/>The **[!UICONTROL Origin]** columns indicates audiences' origins: **[!UICONTROL Adobe Campaign]** audiences have been created Adobe Campaign V8 console or Web User Interface, while **[!UICONTROL Adobe Experience Platform:]** audiences have been created within Adobe Experience Platform and integrated into Campaign using the Adobe Sources and Destinations integration.
 
->[!CONTEXTUALHELP]
+<!-->>[!CONTEXTUALHELP]
 >id="acw_audiences_create_settings"
 >title="Audience settings"
->abstract="Enter the name of the audience and additional options, then click the **Create Audience** button."
+>abstract="Enter the name of the audience and additional options, then click the **Create Audience** button."-->
 
 Campaign Web allows you to create new audiences into a visual workflow canvas. Beyond starting from scratch to create a simple audience, you can also leverage workflow activities to refine your audience. For instance, you can combine multiple audiences into a single one, enrich your audience with external attributes, or divide a it into multiple audiences based on rules of your choice.
 
