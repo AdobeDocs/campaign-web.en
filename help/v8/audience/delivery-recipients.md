@@ -13,3 +13,4 @@ To define the recipients of a delivery, you can:
 * [Load an audience from an external file](file-audience.md). This option is available for standalone email deliveries only.
 
 When targeting an audience, you can also define **control groups** to avoid sending messages to a portion of your audience, and measure the impact of your campaigns. [Learn how to set a control group](control-group.md)
+ 

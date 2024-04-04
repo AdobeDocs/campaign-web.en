@@ -85,7 +85,7 @@ You can modify an audience generated from a workflow whenever necessary by re-ex
 1. Navigate to the **Audiences** menu and open the audience you want to edit.
 1. In the **Overview** tab, the **Last workflow** section provides a link to the workflow used to generate the audience. Click on it to access the workflow.
 1. Make the desired changes and click the **Start** button to rerun the workflow again. Upon completion, the audience resulting from the worklow is automatically updated with the latest workflow results.
-
+ 
 By default, rerunning an audience workflow replaces the entire content of the audience with new data, causing the loss of previous data.
 
 If you prefer not to replace the existing audience results, configure the **Save audience** activities to align with your requirements. For example, you can change the **Audience label** field to store the new results into a new audience, or add the new results to the existing audience content without erasing previous data. [Learn how to configure a Save audience acitivty](../workflows/activities/save-audience.md)

@@ -17,7 +17,7 @@ To build a one-time new audience for a delivery, follow these steps:
 1. From the **Audience** section of the delivery creation assistant, click the **[!UICONTROL Select audience]** button.
 
     ![](assets/segment-builder0.png){zoomable="yes"}
-
+ 
 1. Select **Create your own** to open the query modeler, which allows you to define the targeted population by filtering data contained from the database. [Learn how to use the query modeler](../query/query-modeler-overview.md)
 
     ![](assets/query-modeler.png){zoomable="yes"}
