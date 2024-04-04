@@ -25,7 +25,7 @@ description: Learn how to use the JavaScript code workflow activity
 >title="JavaScript Transition"
 >abstract="If you want to add multiple output transitions, click the **[!UICONTROL Add transitions]** button. This allows you, for example to trigger a specific transition based on a specific condition defined in the JavaScript code activity."
 
-The **JavaScript code** activity is a **Data management** activity. Use this activity to execute a JavaScript script in the context of a workflow. This allows you to perform actions, collect information from the database or perform other operation such as initializing event variables in addition to the predefined event variables already available in the expression editor.
+The **JavaScript code** activity is a **Data management** activity. Use this activity to execute a JavaScript script in the context of a workflow. This allows you to perform actions, collect information from the database or perform other operations such as initializing event variables.
 
 ## Configure the JavaScript code activity {#javascript-code-configuration}
 
