@@ -103,8 +103,8 @@ breadcrumb-title: Campaign Web User Interface
     + [Create a profile](audience/create-profile.md)
     + [Work with test profiles](audience/test-profiles.md)
   + Work with audiences {#audiences}
+    + [Get started with audiences](audience/manage-audience.md)
     + [Create audiences](audience/create-audience.md)
-    + [Monitor and manage audiences](audience/manage-audience.md)
   + Select your delivery recipients {#target-audiences}
     + [Get started with audience selection](audience/delivery-recipients.md)
     + [Select an existing audience](audience/add-audience.md)
