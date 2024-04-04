@@ -372,12 +372,13 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal"
 >title="External Signal"
->abstract="TBC"
+>abstract="The **External signal** activity lets you trigger execution of a set of tasks in a workflow from an API or another workflow."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal_parameters"
 >title="External Signal Parameters"
 >abstract="TBC"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_end_trigger"
@@ -385,27 +386,29 @@ Deprecated IDs - to remove in GA: -->
 >abstract="TBC"
 
 
-<!--Javascript-->
+<!--JavaScript-->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript"
->title="Javascript code"
->abstract="TBC"
+>title="JavaScript code"
+>abstract="The **JavaScript code** activity executes a JavaScript code in the context of a workflow."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_snippet"
->title="Javascript Snippet"
->abstract="TBC"
+>title="JavaScript snippet"
+>abstract="Configure the code to execute."
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/api" text="Learn more in Campaign v8 (console) documentation"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_execution"
->title="Javascript Execution"
->abstract="TBC"
+>title="JavaScript Execution"
+>abstract="By default, the execution phase cannot exceed 1 hour. After this delay, the process is aborted with an error message and the activity execution fails. Toggle the **Stop execution after** option to define a custom delay. To ignore this limit, set the value to 0."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
->title="Javascript Transition"
->abstract="TBC"
+>title="Process errors"
+>abstract="Toggle the **Process errors** option to add an outbound transition containing errors."
 
 
 <!--ExtractFile-->
@@ -413,29 +416,29 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile"
 >title="Extract file"
->abstract="TBC"
+>abstract="Extract file activity"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_file"
 >title="File to extract"
->abstract="TBC"
+>abstract="Select the file to extract."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_destinationformat"
 >title="Destination format"
->abstract="TBC"
+>abstract="Select the format."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_postprocessing"
 >title="Post processing"
->abstract="TBC"
+>abstract="Define a post-processing step"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_outbound"
 >title="Outbound transition"
->abstract="TBC"
+>abstract="Toggle the **Generate an outbound transition** option to add an outbound transition after the current activity."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_error"
->title="Process error"
->abstract="TBC"
+>title="Process errors"
+>abstract="Toggle the **Process errors** option to add an outbound transition containing errors."
