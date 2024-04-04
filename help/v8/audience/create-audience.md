@@ -17,7 +17,8 @@ exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
 >title="Audiences"
 >abstract="From this screen, you can access the list of all audiences that can be targeted in workflows or standalone deliveries. Click **Create** to create a new audience into a visual canvas using various workflow activities such as **Split** or **Exclude**.<br/><br/>The **[!UICONTROL Origin]** columns indicates audiences' origins: **[!UICONTROL Adobe Campaign]** audiences have been created Adobe Campaign V8 console or Web User Interface, while **[!UICONTROL Adobe Experience Platform:]** audiences have been created within Adobe Experience Platform and integrated into Campaign using the Adobe Sources and Destinations integration.
 
-<!-->>[!CONTEXTUALHELP]
+<!--
+[!CONTEXTUALHELP]
 >id="acw_audiences_create_settings"
 >title="Audience settings"
 >abstract="Enter the name of the audience and additional options, then click the **Create Audience** button."-->
