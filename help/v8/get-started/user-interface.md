@@ -377,13 +377,13 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal_parameters"
 >title="External Signal Parameters"
->abstract="TBC"
+>abstract="External Signal Parameters"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_end_trigger"
 >title="End triggers"
->abstract="TBC"
+>abstract="End triggers"
 
 
 <!--JavaScript-->

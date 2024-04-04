@@ -32,7 +32,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_audienceselector"
 >title="Audience"
->abstract="TBC"
+>abstract="Audience"
 
 Follow these steps to configure the **Build audience** activity:
 
