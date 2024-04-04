@@ -15,7 +15,7 @@ exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="Audiences"
->abstract="From this screen, you can access the list of all audiences that can be targeted in workflows or standalone deliveries. Click **Create** to create a new audience into a visual canvas using various workflow activities such as **Split** or **Exclude**.<br/><br/>The **[!UICONTROL Origin]** columns indicates audiences' origins: **[!UICONTROL Adobe Campaign]** audiences have been created Adobe Campaign v8 console or Web User Interface, while **[!UICONTROL Adobe Experience Platform:]** audiences have been created within Adobe Experience Platform and integrated into Campaign using the Adobe Sources and Destinations integration."
+>abstract="From this screen, you can access the list of all audiences that can be targeted in workflows or standalone deliveries. Click **Create** to create a new audience into a visual canvas.<br/><br/>Beyond starting from scratch to create a simple audience, you can also leverage workflow activities to refine your audience. For instance, you can combine multiple audiences into a single one, enrich your audience with external attributes, or divide a it into multiple audiences based on rules of your choice."
 
 <!--
 [!CONTEXTUALHELP]
@@ -26,6 +26,8 @@ exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
 Campaign Web allows you to create new audiences into a visual workflow canvas. Beyond starting from scratch to create a simple audience, you can also leverage workflow activities to refine your audience. For instance, you can combine multiple audiences into a single one, enrich your audience with external attributes, or divide a it into multiple audiences based on rules of your choice.
 
 Once you've crafted your workflow, the resulting audiences are automatically stored within Campaign database alongside your existing ones. These audiences can then be targeted in workflows or standalone deliveries.
+
+The **[!UICONTROL Origin]** columns indicates audiences' origins: **[!UICONTROL Adobe Campaign]** audiences have been created Adobe Campaign v8 console or Web User Interface, while **[!UICONTROL Adobe Experience Platform:]** audiences have been created within Adobe Experience Platform and integrated into Campaign using the Adobe Sources and Destinations integration.
 
 ➡️ [Discover this feature in video](#video) 
 
