@@ -137,4 +137,5 @@ To do this, follow these steps:
     else
         task.postEvent(task.transitionByName("yoga"));
     ```
+
 1. Start the workflow. One of the two output transitions is activated, based on the value of the `interest` variable that has been passed through the External signal activity.
