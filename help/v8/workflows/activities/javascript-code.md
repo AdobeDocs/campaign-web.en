@@ -54,18 +54,25 @@ Follow these steps to configure the **JavaScript code** activity:
 
 ## Advanced JavaScript code activities {#advanced}
 
-Advanced JavaScript activities allow you to perform complex operations by executing two different code snippets. The first code snippet is executed the first time the workflow is started. Each time the workflow runs again, the code snippet defined in the second call is executed.
+Advanced JavaScript activities allow you to perform complex operations. It allows you to:
 
-To configure an Advanced JavaScript code activity, choose the **Advanced** type, then configure the code snippets to execute: 
+* Execute two different code snippets. The first code snippet is executed the first time the workflow is started. Each time the workflow runs again, the code snippet defined in the second call is executed.
+* Add multiple output transitions that you can dynamically interact with using a script.
 
-* Click **[!UICONTROL Edit first call code]** to define the script to execute during the first call.
-* Click **[!UICONTROL Edit next call code]** to define the script to execute during the next calls of the workflow.
+To configure an Advanced JavaScript code activity, follow these steps:
 
-Advanced JavaScript code activities allow you to configure output transitions and interact with them dynamically through the code snippets. To add output transitions, click the **[!UICONTROL Add transitions]** button and specify a label and an internal name for each transition.
+1. Select the **Advanced** type, then configure the code snippet(s) to execute: 
 
-In this example we have configured two transitions that are activated by the script in the code snippet based on specific conditions.
+    * Click **[!UICONTROL Edit first call code]** to define the script to execute during the first call.
+    * Click **[!UICONTROL Edit next call code]** to define the script to execute during the next calls of the workflow. (optional)
 
-![](../assets/javascript-transitions.png)
+1. To add one or multiple output transitions, click the **[!UICONTROL Add transitions]** button and specify a label and an internal name for each transition.
+
+    In this example we have configured two transitions that are activated by the script in the code snippet based on specific conditions.
+
+    ![](../assets/javascript-transitions.png)
+
+1. Complete the configuration of the activity and start the workflow.
 
 ## Workflows objects & variables {#event-variables}
 
@@ -138,4 +145,4 @@ To do this, follow these steps:
         task.postEvent(task.transitionByName("yoga"));
     ```
 
-1. Start the workflow. One of the two output transitions is activated, based on the value of the `interest` variable that has been passed through the External signal activity.
+1. Complete the configuration of each transition to suit your needs then start the workflow. One of the two output transitions is activated, based on the value of the `interest` variable that has been passed through the **External signal** activity.
