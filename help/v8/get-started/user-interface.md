@@ -442,3 +442,25 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_orchestration_extractfile_error"
 >title="Process errors"
 >abstract="Toggle the **Process errors** option to add an outbound transition containing errors."
+
+<!-- Workflow settings -->
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_settings_initscript"
+>title="Initialization script"
+>abstract="Initialization script"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_settings_execution_properties"
+>title="Execution properties"
+>abstract="Execution properties"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_settings_execution_error"
+>title="Execution error"
+>abstract="Execution error"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_settings_execution_initscript"
+>title="Execution inititialization script"
+>abstract="Execution inititialization script"

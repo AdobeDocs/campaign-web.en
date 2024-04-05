@@ -46,6 +46,11 @@ The **Split** activity is a **Targeting** activity that allows you to segment in
 >title="Generate all subsets in the same table"
 >abstract="Toggle on this option to group all the subsets into a single output transition."
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_emptytransition"
+>title="Skip empty transition"
+>abstract="Skip empty transition."
+
 Follow these steps to configure the **Split** activity:
 
 1. Add a **Split** activity to your workflow.
