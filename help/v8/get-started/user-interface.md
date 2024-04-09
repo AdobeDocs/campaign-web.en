@@ -478,3 +478,61 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_orchestration_incrementalquery_history"
 >title="Incremental query history"
 >abstract="Incremental query history"
+
+
+<!-- Transfer file activity -->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile"
+>title="Transfer file"
+>abstract="Transfer file"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_options"
+>title="Transfer file options"
+>abstract="Transfer file options"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_activity"
+>title="Transfer file activity"
+>abstract="Transfer file activity"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_remoteserver"
+>title="Transfer file remote server"
+>abstract="Transfer file remote server"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_source"
+>title="Transfer file source"
+>abstract="Transfer file source"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_delete_file"
+>title="Delete the source files after transfer"
+>abstract="Delete the source files after transfer"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_display_logs"
+>title="Display the session logs"
+>abstract="Display the session logs"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_list_files"
+>title="List all files"
+>abstract="List all files"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_historization"
+>title="File historization"
+>abstract="File historization"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_process_missing_file"
+>title="Process missing files"
+>abstract="Process missing files"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_process_errors"
+>title="Process errors"
+>abstract="Process errors"
