@@ -411,6 +411,7 @@ Deprecated IDs - to remove in GA: -->
 >abstract="Toggle the **Process errors** option to add an outbound transition containing errors."
 
 
+
 <!--ExtractFile-->
 
 >[!CONTEXTUALHELP]
@@ -464,3 +465,16 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_workflow_settings_execution_initscript"
 >title="Execution inititialization script"
 >abstract="Execution inititialization script"
+
+
+<!--incremental querry -->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_incrementalquery"
+>title="Incremental query"
+>abstract="Incremental query"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_incrementalquery_history"
+>title="Incremental query history"
+>abstract="Incremental query history"
