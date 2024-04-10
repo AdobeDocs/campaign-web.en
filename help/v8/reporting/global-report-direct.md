@@ -95,7 +95,7 @@ The **[!UICONTROL Delivery statistics]** graph and table provide a breakdown of 
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_causes_exclusion_direct_mail_graph"
->title="Delivery Causes of exclusion"
+>title="Causes of exclusion"
 >abstract="The **Causes of exclusion** graph illustrates the distribution of rejected messages during the preparation for delivery, categorized by each rule."
 
 ![](assets/global_report_direct_mail_exclusions.png){zoomable="yes"}{align="center"}
