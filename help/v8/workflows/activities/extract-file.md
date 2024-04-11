@@ -89,7 +89,7 @@ The **[!UICONTROL Destination]** format section allows you to configure how the 
 
 The **[!UICONTROL Export modification script]** allows you to apply a processing stage to execute during the data extraction such as zipping or encryption. To do this, click the **[!UICONTROL Edit script]** button.
 
-The expression editor opens, allowing you to configure the script to apply. Enter the command to apply to the file. The left hand-side pane provides predefined syntaxes that you can leverage to build your script:
+The expression editor opens, allowing you to enter the command to apply to the file. The left hand-side pane provides predefined syntaxes that you can leverage to build your script:
 
 * The **[!UICONTROL Event variables]** menu allows you to use [events variable](#event-variables) from the workflow into your code.
 * The **[!UICONTROL Conditions]** menu provides functions that allow you to build conditions. [Learn how to create condtions in the expression editor](../../personalization/conditions.md#condition-perso-editor)
