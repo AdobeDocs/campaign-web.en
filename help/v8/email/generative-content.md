@@ -135,11 +135,13 @@ In the example below, learn how to leverage the AI Assistant to optimize and imp
     >
     > Your prompt must always be tied to a specific context.
 
-1. Select the **[!UICONTROL Aspect ratio]** of your asset. This determines the width and height of the asset. 
+1. Tailor your prompt with the different options:
 
-    You have the option to choose from common ratios such as 16:9, 4:3, 3:2, or 1:1, or you can enter a custom size.
-
-1. Customize the **[!UICONTROL Color & tone]**, **[!UICONTROL Content type]**, **[!UICONTROL Lighting]** and **[!UICONTROL Composition]** settings to match your desired asset characteristics.
+    * **[!UICONTROL Aspect ratio]**: This determines the width and height of the asset. You have the option to choose from common ratios such as 16:9, 4:3, 3:2, or 1:1, or you can enter a custom size.
+    * **[!UICONTROL Color & tone]**: The overall appearance of the colors within an image and the mood or atmosphere it conveys.
+    * **[!UICONTROL Content type]**: This categorizes the nature of the visual element, distinguishing between different forms of visual representation such as photos, graphics, or art.
+    * **[!UICONTROL Lighting]**: This refers to the lightning present in an image, which shapes its atmosphere and highlights specific elements.
+    * **[!UICONTROL Composition]**: This refers to the arrangement of elements within the frame of an image
 
     ![](assets/image-genai-3.png){zoomable="yes"}
 
