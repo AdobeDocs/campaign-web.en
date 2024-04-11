@@ -56,7 +56,7 @@ The **[!UICONTROL File to extract]** section allows you to configure the propert
     1. Once the column is added, you can change its **[!UICONTROL Label]** and modify the associated **[!UICONTROL Attribute]**.
     1. If you want to apply a transformation to the column's values, select it from the drop-down list. For example, you can switch all values in the selected column to upper case.
 
-1. Repeat these steps to add as many columns as needed in the extraction file.
+1. Repeat these steps to add as many columns as needed in the extraction file. To change the position of a column, use the up and down arrows.
 
 1. To remove all duplicate rows from the extracted file, toggle on the **[!UICONTROL Remove duplicate rows(Listing)]** option.
 
@@ -107,4 +107,14 @@ Once the output file extraction has been configured, additional options related 
 
 ## Example {#example}
 
-xxxx
+In the following example, we are using a **Build audience** activity followed by an **Extract file** activity to extract all the targeted profiles into a CSV file.
+
+![](../assets/extract-file-example.png)
+
+* The **[!UICONTROL File name]** field is configured to include the date of the extraction.
+
+    ![](../assets/extract-file-example-name.png)
+
+* Columns are added to display the profiles' first and last names, their customer IDs and creation dates in the database.
+
+    ![](../assets/extract-file-example-columns.png)
