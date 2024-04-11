@@ -66,8 +66,6 @@ The **[!UICONTROL File to extract]** section allows you to configure the propert
 
 The **[!UICONTROL Destination]** format section allows you to configure how the extracted file is formatted.
 
-![](../assets/extract-file-format.png)
-
 1. Choose the **[!UICONTROL Output format]** for the extracted file: **Text**, **Text using fixed with columns**, **CSV (Excel)** or **XML**. 
 
 1. Click the **[!UICONTROL Extraction format]** button to access specific options related to the selected output format. Available values depend on the selected format.
@@ -84,6 +82,8 @@ The **[!UICONTROL Destination]** format section allows you to configure how the 
     * **[!UICONTROL Export labels instead of internal values of enumerations]**: Toggle this option on in case you export enumeration values and you want to retrieve columns labels, which are easier to understand, rather than internal IDs.
 
     +++
+    
+    ![](../assets/extract-file-format.png)
 
 ## Add a post-processing stage {#script}
 
@@ -95,7 +95,7 @@ The expression editor opens, allowing you to configure the script to apply. Ente
 * The **[!UICONTROL Conditions]** menu provides functions that allow you to build conditions. [Learn how to create condtions in the expression editor](../../personalization/conditions.md#condition-perso-editor)
 * The **[!UICONTROL Add current date]** menu provides functions related to date formatting.
 
-![](../assets/extract-file-format.png)
+![](../assets/extract-file-script.png)
 
 ## Additional options {#additiona-options}
 
