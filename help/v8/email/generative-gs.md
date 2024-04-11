@@ -38,7 +38,7 @@ hidefromtoc: yes
 >abstract="Access to this feature is subject to your agreement to the Adobe Experience Cloud Generative AI User Guidelines. Any prompts, context, or supplemental information, or other input you provide to this feature must be tied to specific context, which can include your branding materials, website content, data, schemas for such data, templates, or other trusted documents and must not contain any personal information (personal information includes anything that can be linked back to a specific invidual). You should review any output from this feature for accuracy and ensure that it is appropriate for your use case"
 >additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe Generative AI User Guidelines"
 
-The AI Assistant is a valuable tool for improving email content. It simplifies personalization and content enhancement, optimizing your email deliveries to better resonate with your audience. 
+The AI Assistant, powered by Azure OpenAI and Azure AI vision, serves as a valuable tool for improving email content. It simplifies personalization and content enhancement, optimizing your email deliveries to better resonate with your audience. 
 
 This feature saves time and ensures consistent quality by automatically generating complete email content. By using Generative AI, you can create compelling emails effortlessly, improving your communication's effectiveness and efficiency.
 
@@ -54,7 +54,8 @@ General guidelines for using the AI Assistant in Campaign for email generation a
 * Upload brand asset to have accurate, on brand content. Else, content is based on publicly available info. The uploaded content can be in the following formats: PDF, JPEG, PNG, or ZIP files (with supported file formats).
 * The recommended size for uploaded brand asset is less than 50MB. Larger files or lots of images can work but the processing time is increased.
 * Use an Adobe Campaign authored email templates, preferably [built-in email templates](../email/create-email-templates.md), a brand specific template or custom template to create your email content. Email template with up to 8-10 images is recommended.
-
+* Make sure to report any problematic outputs using the thumb up, thumb down or flag icons when selecting variants.
+* Your use of the AI assistant is subject to the Adobe Experience Cloud Generative AI User Guidelines. [Learn more](https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html)
 
 The following limitations apply to AI Assistant in Campaign:
 
@@ -62,8 +63,6 @@ The following limitations apply to AI Assistant in Campaign:
 * Only available for the email, push and SMS channels.
 * GenAI content might not always be accurate: please share your feedback so that our engineers can refine the models.
 * You may upload multiple brand assets, but can leverage only one for a specific generation.
-
-
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

@@ -22,7 +22,7 @@ exl-id: db0459e5-8759-42d9-8945-8c9667450527
 
 Once you have crafted and personalized your SMS messages to suit your audience, take your communication to the next level with the help of the AI Assistant in Campaign, powered by innovative AI technology. 
 
-This handy tool provides intelligent suggestions for refining your content, ensuring that your messages resonate effectively and maximize engagement. 
+This handy tool provides intelligent suggestions for refining your content, ensuring that your messages resonate effectively and maximize engagement.
 
 >[!NOTE]
 >
@@ -40,35 +40,42 @@ This handy tool provides intelligent suggestions for refining your content, ensu
 
     ![](assets/sms-genai-1.png){zoomable="yes"}
 
+1. Enable the **[!UICONTROL Use original content]** option for the AI Assistant to personalize new content based on your delivery, delivery name, and selected audience.
+
+    >[!IMPORTANT]
+    >
+    > Your prompt must always be tied to a specific context by uploading a brand asset or enabling the **[!UICONTROL Enhance current content]** option.
+
 1. Fine tune the content by describing what you want to generate in the **[!UICONTROL Prompt]** field. 
 
     If you are looking for assistance in crafting your prompt, access the **[!UICONTROL Prompt Library]** which provides a diverse range of prompt ideas to improve your deliveries.
 
     ![](assets/sms-genai-2.png){zoomable="yes"}
 
-1. Enable the **[!UICONTROL Enhance with current context]** option for the AI Assistant to personalize new content based on your delivery, delivery name, and selected audience.
-
-    >[!IMPORTANT]
-    >
-    > Your prompt must always be tied to a specific context by uploading a brand asset or enabling the **[!UICONTROL Enhance current content]** option.
-
 1. Select **[!UICONTROL Upload brand asset]** to add any brand asset which contains content that can provide additional context the AI Assistant.
 
-1. Select the **[!UICONTROL Communication strategy]** that best suits your needs. This will affect the tone and style of the generated text.
+1. Tailor your prompt with the different options:
 
-1. Choose the **[!UICONTROL Language]** and **[!UICONTROL Tone]** that you want the generated text to have. This will ensure that the text is appropriate for your audience and purpose.
+    * **[!UICONTROL Communication strategy]**: Select the desired communication approach for the generated text.
+    * **[!UICONTROL Language]**: Choose the language for the variant's content.
+    * **[!UICONTROL Tone]**: Ensure that the text is appropriate for your audience and purpose.
+    * **[!UICONTROL Lenght]**: Select the length of your content using the range slider. 
 
     ![](assets/sms-genai-3.png){zoomable="yes"}  
 
-1. Use the slider control to set the length of the generated text.
-
 1. Once your prompt is ready, click **[!UICONTROL Generate]**.
 
-1. Browse through the generated **[!UICONTROL Variations]** and click **[!UICONTROL Apply]** once you found the appropriate content.
+1. Browse through the generated **[!UICONTROL Variations]** and click **[!UICONTROL Preview]** to view a full-screen version of the selected variation.
 
-    Click **[!UICONTROL Preview]** to view a full-screen version of the selected variation.
+1. Navigate to the **[!UICONTROL Refine]** option within the **[!UICONTROL Preview]** window to access additional customization features and fine-tune your variation to your preferences:
+
+    * **Simplify Language**: The AI assistant helps you write clear, concise messages that everyone can understand.
+
+    * **Rephrase**: The AI Assistant rephrases your message to keep things engaging for different audiences.
 
     ![](assets/sms-genai-4.png){zoomable="yes"}  
+
+1. Click **[!UICONTROL Select]** once you found the appropriate content.
 
 1. Insert personalization fields to customize your SMS content based on profiles data. [Learn more about content personalization](../personalization/personalize.md)
 
@@ -78,4 +85,4 @@ This handy tool provides intelligent suggestions for refining your content, ensu
 
     ![](assets/sms-genai-6.png){zoomable="yes"}
 
-1. When you have defined your content, audience and schedule, you are ready to prepare your SMS delivery. [Learn more](../monitor/prepare-send.md)
+When you have defined your content, audience and schedule, you are ready to prepare your SMS delivery. [Learn more](../monitor/prepare-send.md)

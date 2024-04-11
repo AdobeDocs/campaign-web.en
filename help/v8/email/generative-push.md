@@ -20,13 +20,22 @@ exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
 
 >[!ENDSHADEBOX]
 
-Once you have created and personalized your emails, use the AI Assistant in Campaign powered by generative AI to take your content to the next level.
 
 The AI Assistant can help you optimize the impact of your deliveries by suggesting different content that is more likely to resonate with your audience.
+
+With the AI Assistant, your content can be elevated to new heights. For instance, it can be used to:
+
+* **Summarize**: Condense lengthy content into succinct summaries for push notifications. Get straight to the point and ensure recipients grasp the key message instantly.
+* **Elaborate**: Expand on topics within your push notifications, providing additional details and context for better understanding.
+* **Simplify language**: Make your push notifications accessible to a wider audience by using clear and concise language.
+* **Rephrase**:  Avoid repetition by having the AI Assistant rephrase your message in different ways
+* **Change Tone**: Change the emotional tone of your push notifications. Whether you want to sound informative, playful, or urgent, the AI Assistant can adapt the message accordingly.
 
 >[!NOTE]
 >
 >Before starting using this capability, read out related [Guardrails and Limitations](generative-gs.md#guardrails-and-limitations).
+
+In the following example, we will leverage the AI assistant to craft compelling messaging to create a more engaging customer experience.
 
 1. After creating and configuring your Push notification delivery, click **[!UICONTROL Edit content]**.
 
@@ -81,3 +90,4 @@ The AI Assistant can help you optimize the impact of your deliveries by suggesti
     ![](assets/push-genai-7.png){zoomable="yes"}
 
 1. When you have defined your content, audience and schedule, you are ready to prepare your push delivery. [Learn more](../monitor/prepare-send.md)
+
