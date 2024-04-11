@@ -47,7 +47,7 @@ The **[!UICONTROL File to extract]** section allows you to configure the propert
 
 1. In the **[!UICONTROL File name]** field, enter the desired name for the extracted file.
 
-    You can personalize the extracted file's name using attributes from the database. To do this, click the **[!UICONTROL Open personalization dialog]** icon to open the expression editor. [Learn how to personalize your content](../personalization/personalize.md)
+    You can personalize the extracted file's name using attributes from the database. To do this, click the **[!UICONTROL Open personalization dialog]** icon to open the expression editor. [Learn how to personalize your content](../../personalization/personalize.md)
 
 1. Specify the columns to present in the extracted file. To do this, follow these steps:
 
