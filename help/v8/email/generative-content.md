@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: Text with the AI Assistant
+title: Generative content
 description: Get Started with the AI Assistant in Campaign
 badge: label="Beta"
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
