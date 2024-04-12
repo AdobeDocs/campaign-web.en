@@ -75,9 +75,9 @@ In the following example, we will leverage the AI assistant to refine an existin
 
 1. Navigate to the **[!UICONTROL Refine]** option within the **[!UICONTROL Preview]** window to access additional customization features:
 
-    * **Rephrase**: The AI Assistant can rephrase your message in different ways, keeping your writing fresh and engaging for diverse audiences.
+    * **[!UICONTROL Rephrase]**: The AI Assistant can rephrase your message in different ways, keeping your writing fresh and engaging for diverse audiences.
 
-    * **Use simple Language**: Leverage the AI Assistant to simplify your language, ensuring clarity and accessibility for a wider audience.
+    * **[!UICONTROL Use simple Language]**: Leverage the AI Assistant to simplify your language, ensuring clarity and accessibility for a wider audience.
 
     ![](assets/full-email-5.png){zoomable="yes"}
 
