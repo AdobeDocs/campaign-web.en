@@ -31,3 +31,7 @@ In this example, different transitions are activated based on the number of prof
 * If the targeted profiles fall below 1,000, they are directed to a "do not contact" transition.
 
 ![](../assets/workflow-test-example.png)
+
+To do this, the `vars.recCount` event variable has been leveraged in the "email" and "sms" conditions to count the number of targeted profiles and activate the appropriate transition.
+
+![](../assets/workflow-test-example-config.png)
