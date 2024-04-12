@@ -59,7 +59,7 @@ This handy tool provides intelligent suggestions for refining your content, ensu
     * **[!UICONTROL Communication strategy]**: Select the desired communication approach for the generated text.
     * **[!UICONTROL Language]**: Choose the language for the variant's content.
     * **[!UICONTROL Tone]**: Ensure that the text is appropriate for your audience and purpose.
-    * **[!UICONTROL Lenght]**: Select the length of your content using the range slider. 
+    * **[!UICONTROL Length]**: Select the length of your content using the range slider. 
 
     ![](assets/sms-genai-3.png){zoomable="yes"}  
 
