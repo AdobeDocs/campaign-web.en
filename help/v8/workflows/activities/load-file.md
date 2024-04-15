@@ -77,7 +77,7 @@ This activity can be used with a [Reconciliation](reconciliation.md) activity to
 
 Follow these steps to configure the **Load file** activity:
 
-1. Drag and drop a **Load file** activity into your workflow. Click the **Select from file** button.
+1. Add a **Load file** activity into your workflow. Click the **Select from file** button.
 
 1. Select the local file to use. The format must be aligned with this [sample file](../../audience/file-audience.md#sample-file).
 

@@ -68,7 +68,7 @@ While the **Enrichment** activity allows you to define additional data to proces
 
 Follow these steps to configure the **Reconciliation** activity:
 
-1. Drag and drop a **Reconciliation** activity into your workflow. This activity should be added following a transition containing a population whose targeting dimension does not directly come from Adobe Campaign. 
+1. Add a **Reconciliation** activity into your workflow. This activity should be added following a transition containing a population whose targeting dimension does not directly come from Adobe Campaign. 
 
 1. Select the new targeting dimension. A dimension lets you define the targeted population: recipients, app subscribers, operators, subscribers, etc. [Learn more about targeting dimensions](../../audience/about-recipients.md#targeting-dimensions).
 
