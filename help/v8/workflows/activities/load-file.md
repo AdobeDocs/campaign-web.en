@@ -92,7 +92,22 @@ Follow these steps to configure the activity:
 1. In the sample file selection screen, the left pane lets you define the expected file format:
 
     1. In the **[!UICONTROL File type]** drop-down list, specify if the file is using delimited columns or fixed width columns.
-    1. For delimited columns file types, use the **Columns** section to adjust the data type and width for each column.
+    1. For delimited columns file types, use the **Columns** section to configure the properties of each column.
+
+        +++Available options for file columns
+    
+        * **[!UICONTROL Label]**: Label to display for the column.
+        * **[!UICONTROL Data type]**: Type of data contained in the column.
+        * **[!UICONTROL Width]** (string data type): Maximum number of characters to display in the column.
+        * **[!UICONTROL Data Transformation]** (string data type): Apply transofrmation to the values contained in the column.
+        * **[!UICONTROL White space management]** (string data type): Specify how to manage spaces contained in the column.
+        * **[!UICONTROL Separators"]** (date, time, integer and number data types): Specify the characters to use as separators.
+        * **[!UICONTROL Allow NULLs]**: Specify how to manage empty values in the column. The "Adobe Campaign default" option will throw an error if an empty value is present.
+        * **[!UICONTROL Error processing]** (string data type): Specify the behaviour in case of errors in one of the lines.
+        * **[!UICONTROL Value remapping]**: This option allows you to map specific values with new ones. For example, if the column contains "True"/"False" values, you can add a mapping to automatically replace those values into "0"/"1" characters.
+
+        +++
+
     1. In the **Formatting** section, specify how the file is formatted to ensure that data is correctly imported.
 
         ![](../assets/workflow-load-file-sample.png)
