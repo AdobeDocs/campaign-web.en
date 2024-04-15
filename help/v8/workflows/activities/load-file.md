@@ -32,6 +32,9 @@ This activity can be used with a [Reconciliation](reconciliation.md) activity to
 
 The **Load file** activity configuration involves two steps. First, you need to define the expected file structure by uploading a sample file. Once this is done, you can specify the origin of the file whose data will be imported. Follow the steps below to configure the activity.
 
+
+![](../assets/workflow-load-file.png)
+
 ### Configure the sample file {#sample}
 
 >[!CONTEXTUALHELP]
@@ -52,8 +55,6 @@ The **Load file** activity configuration involves two steps. First, you need to 
 Follow these steps to configure the sample file used to define the expected file structure:
 
 1. Add a **Load file** activity into your workflow.
-
-    ![](../assets/workflow-load-file.png)
 
 1. Select the sample file to use to define the expected file structure. To do this, click the **Select file** button in the **[!UICONTROL Sample file]** section and select the local file to use.
 
@@ -125,7 +126,6 @@ Follow these steps to configure the sample file used to define the expected file
 >title="Reject management for Load file activity"
 >abstract="In the **Reject management** section, specify how the activity should behave in case of rejects. You can define the maximum number of errors to keep, and toggle the **[!UICONTROL Keep rejects in a file]** option to download on the server a file containing errors that occurred during the import. After activating this option, an additional output transition named "Complement" is added after the activity."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_delete"
 >title="Delete file after import"
@@ -136,8 +136,9 @@ Follow these steps to configure the sample file used to define the expected file
     * Define the maximum number of errors to keep.
     * Toggle the **[!UICONTROL Keep rejects in a file]** option to download on the server a file containing errors that occurred during the import. After activating this option, an additional output transition named "Complement" is added after the activity. Specify the desired name for the file in the **[!UICONTROL Rejection File]**.
 
-
 1. To delete the uploaded file from the server after the workflow has been executed, toggle the **[!UICONTROL Delete file after import]** option.
+
+    ![](../assets/workflow-load-file-options.png)
 
 1. Click **Confirm** once settings are correct.
 
