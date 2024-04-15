@@ -86,7 +86,8 @@ Follow these steps to configure the activity:
 1. Select the sample file to use to define the expected file structure. To do this, click the **Select file** button in the **[!UICONTROL Sample file]** section and select the local file to use.
 
     >[!NOTE]
-    The data of the sample file is used for configuring the activity but is not imported. We recommend using a sample file containing little data. The file format must be aligned with this [sample file](../../audience/file-audience.md#sample-file).
+    >
+    >The data of the sample file is used for configuring the activity but is not imported. We recommend using a sample file containing little data. The file format must be aligned with this [sample file](../../audience/file-audience.md#sample-file).
 
 1. In the sample file selection screen, the left pane lets you define the expected file format:
 
@@ -100,7 +101,7 @@ Follow these steps to configure the activity:
 
 * **[!UICONTROL Upload file from local machine]**: Select the file to upload from your machine.
 * **[!UICONTROL Specified in the transition]**: Automatically upload the file specified in the inbound transition.
-* **[!UICONTROL Pre-process the file]**: Apply a pre-processing command to the file, such as **[!UICONTROL Decompression]** or **[!UIONTROL Decrypt]**.
+* **[!UICONTROL Pre-process the file]**: Apply a pre-processing command to the file, such as **[!UICONTROL Decompression]** or **[!UICONTROL Decrypt]**.
 * **[!UICONTROL Calculated]**: Upload the file corresponding to the name specified in the **[!UICONTROL File name]** field.
 
     ![](../assets/workflow-load-file-config.png)
