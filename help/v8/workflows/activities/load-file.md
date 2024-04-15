@@ -9,27 +9,7 @@ exl-id: 230177e2-1926-451a-8a66-0db962ada514
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile"
 >title="Load file activity"
->abstract="The **Load file** activity is a **Data management** activity. Use this activity to work with data stored in an external file."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_samplefile"
->title="Sample file"
->abstract="Sample file"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_nameofthefile"
->title="Name of the file"
->abstract="Name of the file"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_targetdb"
->title="Target database"
->abstract="Target database"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_rejectmgt"
->title="Reject management for Load file activity"
->abstract="Reject management for Load file activity"
+>abstract="The **Load file** activity is a **Data management** activity. Use this activity to work with data stored in an external file. Profiles and data are not added to the database, but all fields in the input file are available for personalization, or to update profiles, or any other table. "
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_outboundtransition"
@@ -41,31 +21,6 @@ exl-id: 230177e2-1926-451a-8a66-0db962ada514
 >title="Reject management outbound transition for rejects"
 >abstract="Reject management outbound transition for rejects"
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_formatting"
->title="Formatting for Load File activity"
->abstract="Formatting for Load File activity"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_targetfile"
->title="Target file for Load File activity"
->abstract="Target file for Load File activity"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_valueremapping"
->title="Value remapping for Load File activity"
->abstract="Value remapping for Load File activity"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_command"
->title="Load File Command"
->abstract="Allowing arbitrary command for pre-processing is a security concern, disable security option XtkSecurity_Disable_Preproc to force the use of a predefined list of commands."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_delete"
->title="Delete file after import"
->abstract="Toggle the **Delete file after import** to delete the original file from the server after the file is imported."
-
 The **Load file** activity is a **Data management** activity. Use this activity to work with profiles and data stored in an external file. Profiles and data are not added to the database, but all fields in the input file are available for [personalization](../../personalization/gs-personalization.md), or to update profiles, or any other table. 
 
 >[!NOTE]
@@ -75,9 +30,26 @@ This activity can be used with a [Reconciliation](reconciliation.md) activity to
 
 ## Configure the Load file activity {#load-configuration}
 
-The **Load file** activity configuration involves two steps. First, you need to define the expected file structure by uploading a sample file. Once this is done, you can specify the origin of the file whose data will be imported.
+The **Load file** activity configuration involves two steps. First, you need to define the expected file structure by uploading a sample file. Once this is done, you can specify the origin of the file whose data will be imported. Follow the steps below to configure the activity.
 
-Follow these steps to configure the activity:
+### Configure the sample file {#sample}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_samplefile"
+>title="Sample file"
+>abstract="Select the expected file structure by uploading a sample file."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_formatting"
+>title="Formatting for Load File activity"
+>abstract="In the **Formatting** section, specify how the file is formatted to ensure that data is correctly imported."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_valueremapping"
+>title="Value remapping for Load File activity"
+>abstract="Use this option to map specific values from the loaded files with new values. For example, if the column contains "True"/"False" values, you can add a mapping to automatically replace those values with "0"/"1" characters."
+
+Follow these steps to configure the sample file used to define the expected file structure:
 
 1. Add a **Load file** activity into your workflow.
 
@@ -111,23 +83,59 @@ Follow these steps to configure the activity:
 
 1. In the **Formatting** section, specify how the file is formatted to ensure that data is correctly imported.
 
+### Define the target file to upload {#target}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_targetfile"
+>title="Target file for Load File activity"
+>abstract="In the **[!UICONTROL Target file]** section, specify how to retrieve the file to upload on the server."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_nameofthefile"
+>title="Name of the file"
+>abstract="Specify the name of the field to upload on the server. Click the **[!UICONTROL Open personalization dialog]** icon to leverage the expression editor, including event variables, to calculate the file name."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_targetdb"
+>title="Target database"
+>abstract="If you are accessing a **[!UICONTROL Load file]** activity that has already been setup in the client console, an additional **[!UICONTROL Target database]** section is available if you have configured the activity to upload the file to an external database."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_command"
+>title="Load File Command"
+>abstract="Allowing arbitrary command for pre-processing is a security concern, disable security option XtkSecurity_Disable_Preproc to force the use of a predefined list of commands."
+
 1. In the **[!UICONTROL Target file]** section, specify how to retrieve the file to upload on the server:
 
     * **[!UICONTROL Upload file from local machine]**: Select the TXT or CSV file to upload from your machine.
     * **[!UICONTROL Specified in the transition]**: Automatically upload the file specified in the inbound transition upcoming from a previous activity.
     * **[!UICONTROL Pre-process the file]**: Apply a pre-processing command such as **[!UICONTROL Decompression]** or **[!UICONTROL Decrypt]** to a file coming from a previous activity through the inbound transition, 
-    * **[!UICONTROL Calculated]**: Upload the file whose name specified in the **[!UICONTROL File name]** field.
+    * **[!UICONTROL Calculated]**: Upload the file whose name specified in the **[!UICONTROL File name]** field. Click the **[!UICONTROL Open personalization dialog]** icon to leverage the expression editor, including event variables, to calculate the file name.
 
     ![](../assets/workflow-load-file-config.png)
 
-    >[NOTE]
+    >[!NOTE]
     >
     >If you are accessing a **[!UICONTROL Load file]** activity that has already been setup in the client console, an additional **[!UICONTROL Target database]** section is available if you have configured the activity to upload the file to an external database.
+
+### Additional options {#options}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_rejectmgt"
+>title="Reject management for Load file activity"
+>abstract="In the **Reject management** section, specify how the activity should behave in case of rejects. You can define the maximum number of errors to keep, and toggle the **[!UICONTROL Keep rejects in a file]** option to download on the server a file containing errors that occurred during the import. After activating this option, an additional output transition named "Complement" is added after the activity."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_delete"
+>title="Delete file after import"
+>abstract="Toggle the **Delete file after import** to delete the original file from the server after the file is imported."
 
 1. In the **Reject management** section, specify how the activity should behave in case of rejects:
 
     * Define the maximum number of errors to keep.
     * Toggle the **[!UICONTROL Keep rejects in a file]** option to download on the server a file containing errors that occurred during the import. After activating this option, an additional output transition named "Complement" is added after the activity. Specify the desired name for the file in the **[!UICONTROL Rejection File]**.
+
 
 1. To delete the uploaded file from the server after the workflow has been executed, toggle the **[!UICONTROL Delete file after import]** option.
 
