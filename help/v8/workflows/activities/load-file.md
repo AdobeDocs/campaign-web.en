@@ -89,41 +89,44 @@ Follow these steps to configure the activity:
     >
     >The data of the sample file is used for configuring the activity but is not imported. We recommend using a sample file containing little data. The file format must be aligned with this [sample file](../../audience/file-audience.md#sample-file).
 
-1. In the sample file selection screen, the left pane lets you define the expected file format:
+1. In the **[!UICONTROL File type]** drop-down list, specify if the file is using delimited columns or fixed width columns.
 
-    1. In the **[!UICONTROL File type]** drop-down list, specify if the file is using delimited columns or fixed width columns.
-    1. For delimited columns file types, use the **Columns** section to configure the properties of each column.
+    ![](../assets/workflow-load-file-sample.png)
 
-        +++Available options for file columns
+1. For delimited columns file types, use the **Columns** section to configure the properties of each column.
+
+    +++Available options for file columns
     
-        * **[!UICONTROL Label]**: Label to display for the column.
-        * **[!UICONTROL Data type]**: Type of data contained in the column.
-        * **[!UICONTROL Width]** (string data type): Maximum number of characters to display in the column.
-        * **[!UICONTROL Data Transformation]** (string data type): Apply transofrmation to the values contained in the column.
-        * **[!UICONTROL White space management]** (string data type): Specify how to manage spaces contained in the column.
-        * **[!UICONTROL Separators"]** (date, time, integer and number data types): Specify the characters to use as separators.
-        * **[!UICONTROL Allow NULLs]**: Specify how to manage empty values in the column. The "Adobe Campaign default" option will throw an error if an empty value is present.
-        * **[!UICONTROL Error processing]** (string data type): Specify the behaviour in case of errors in one of the lines.
-        * **[!UICONTROL Value remapping]**: This option allows you to map specific values with new ones. For example, if the column contains "True"/"False" values, you can add a mapping to automatically replace those values into "0"/"1" characters.
+    * **[!UICONTROL Label]**: Label to display for the column.
+    * **[!UICONTROL Data type]**: Type of data contained in the column.
+    * **[!UICONTROL Width]** *(string data type)*: Maximum number of characters to display in the column.
+    * **[!UICONTROL Data Transformation]** *(string data type)*: Apply transformation to the values contained in the column.
+    * **[!UICONTROL White space management]** *(string data type)*: Specify how to manage spaces contained in the column.
+    * **[!UICONTROL Separators]** *(date, time, integer and number data types)*: Specify the characters to use as separators.
+    * **[!UICONTROL Allow NULLs]**: Specify how to manage empty values in the column. The "Adobe Campaign default" option will throw an error if an empty value is present.
+    * **[!UICONTROL Error processing]** *(string data type)*: Specify the behaviour in case of errors in one of the lines.
+    * **[!UICONTROL Value remapping]**: This option allows you to map specific values with new ones. For example, if the column contains "True"/"False" values, you can add a mapping to automatically replace those values with "0"/"1" characters.
 
-        +++
+    +++
 
-    1. In the **Formatting** section, specify how the file is formatted to ensure that data is correctly imported.
+1. In the **Formatting** section, specify how the file is formatted to ensure that data is correctly imported.
 
-        ![](../assets/workflow-load-file-sample.png)
+1. In the **[!UICONTROL Target file]** section, specify how to retrieve the file to upload on the server:
 
-1. In the **[!UICONTROL Target file]** section, specify the origin of the file whose data will be imported.
-
-* **[!UICONTROL Upload file from local machine]**: Select the file to upload from your machine.
-* **[!UICONTROL Specified in the transition]**: Automatically upload the file specified in the inbound transition.
-* **[!UICONTROL Pre-process the file]**: Apply a pre-processing command to the file, such as **[!UICONTROL Decompression]** or **[!UICONTROL Decrypt]**.
-* **[!UICONTROL Calculated]**: Upload the file corresponding to the name specified in the **[!UICONTROL File name]** field.
+    * **[!UICONTROL Upload file from local machine]**: Select the TXT or CSV file to upload from your machine.
+    * **[!UICONTROL Specified in the transition]**: Automatically upload the file specified in the inbound transition upcoming from a previous activity.
+    * **[!UICONTROL Pre-process the file]**: Apply a pre-processing command such as **[!UICONTROL Decompression]** or **[!UICONTROL Decrypt]** to a file coming from a previous activity through the inbound transition, 
+    * **[!UICONTROL Calculated]**: Upload the file whose name specified in the **[!UICONTROL File name]** field.
 
     ![](../assets/workflow-load-file-config.png)
 
+    >[NOTE]
+    >
+    >If you are accessing a **[!UICONTROL Load file]** activity that has already been setup in the client console, an additional **[!UICONTROL Target database]** section is available if you have configured the activity to upload the file to an external database.
+
 1. In the **Reject management** section, specify how the activity should behave in case of rejects:
 
-    * Define the maximum number of errors allowed when loading the file.
+    * Define the maximum number of errors to keep.
     * Toggle the **[!UICONTROL Keep rejects in a file]** option to download on the server a file containing errors that occurred during the import. After activating this option, an additional output transition named "Complement" is added after the activity. Specify the desired name for the file in the **[!UICONTROL Rejection File]**.
 
 1. To delete the uploaded file from the server after the workflow has been executed, toggle the **[!UICONTROL Delete file after import]** option.
