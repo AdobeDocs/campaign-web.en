@@ -64,7 +64,7 @@ exl-id: 230177e2-1926-451a-8a66-0db962ada514
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_delete"
 >title="Delete file after import"
->abstract="TBC"
+>abstract="Toggle the **Delete file after import** to delete the original file from the server after the file is imported."
 
 The **Load file** activity is a **Data management** activity. Use this activity to work with profiles and data stored in an external file. Profiles and data are not added to the database, but all fields in the input file are available for [personalization](../../personalization/gs-personalization.md), or to update profiles, or any other table. 
 
@@ -75,22 +75,45 @@ This activity can be used with a [Reconciliation](reconciliation.md) activity to
 
 ## Configure the Load file activity {#load-configuration}
 
-Follow these steps to configure the **Load file** activity:
+The **Load file** activity configuration involves two steps. First, you need to define the expected file structure by uploading a sample file. Once this is done, you can specify the origin of the file whose data will be imported.
 
-1. Drag and drop a **Load file** activity into your workflow. Click the **Select from file** button.
+Follow these steps to configure the activity:
 
-1. Select the local file to use. The format must be aligned with this [sample file](../../audience/file-audience.md#sample-file).
+1. Add a **Load file** activity into your workflow.
 
-1. Preview and check how data is mapped in the central section of the screen.
+    ![](../assets/workflow-load-file.png)
 
-    ![](../assets/load-file.png)
+1. Select the sample file to use to define the expected file structure. To do this, click the **Select file** button in the **[!UICONTROL Sample file]** section and select the local file to use.
 
-1. Use the **Columns** section in the left pane to adjust the data type and width for each column.
+    >[!NOTE]
+    The data of the sample file is used for configuring the activity but is not imported. We recommend using a sample file containing little data. The file format must be aligned with this [sample file](../../audience/file-audience.md#sample-file).
 
-1. In the **Formatting** section located under the columns configuration, specify how the external file is formatted to ensure that data is correctly imported.
+1. In the sample file selection screen, the left pane lets you define the expected file format:
+
+    1. In the **[!UICONTROL File type]** drop-down list, specify if the file is using delimited columns or fixed width columns.
+    1. For delimited columns file types, use the **Columns** section to adjust the data type and width for each column.
+    1. In the **Formatting** section, specify how the file is formatted to ensure that data is correctly imported.
+
+        ![](../assets/workflow-load-file-sample.png)
+
+1. In the **[!UICONTROL Target file]** section, specify the origin of the file whose data will be imported.
+
+* **[!UICONTROL Upload file from local machine]**: Select the file to upload from your machine.
+* **[!UICONTROL Specified in the transition]**: Automatically upload the file specified in the inbound transition.
+* **[!UICONTROL Pre-process the file]**: Apply a pre-processing command to the file, such as **[!UICONTROL Decompression]** or **[!UIONTROL Decrypt]**.
+* **[!UICONTROL Calculated]**: Upload the file corresponding to the name specified in the **[!UICONTROL File name]** field.
+
+    ![](../assets/workflow-load-file-config.png)
+
+1. In the **Reject management** section, specify how the activity should behave in case of rejects:
+
+    * Define the maximum number of errors allowed when loading the file.
+    * Toggle the **[!UICONTROL Keep rejects in a file]** option to download on the server a file containing errors that occurred during the import. After activating this option, an additional output transition named "Complement" is added after the activity. Specify the desired name for the file in the **[!UICONTROL Rejection File]**.
+
+1. To delete the uploaded file from the server after the workflow has been executed, toggle the **[!UICONTROL Delete file after import]** option.
 
 1. Click **Confirm** once settings are correct.
 
-## Example{#load-example}
+## Example {#load-example}
 
 A sample of an external file loading used with the **Reconciliation** activity is available in [this section](reconciliation.md#reconciliation-example).
