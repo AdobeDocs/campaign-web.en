@@ -28,13 +28,25 @@ To remove an activity, select it in the canvas and click the **Delete** icon in 
 >
 >You have the option to personalize the name of the transitions between each activity. To do this, select the transition and change its label in the right pane.
 
+### The toolbar {#toolbar}
+
+The toolbar located in the upper-right corner of the canvas provides options to easily manipulate the activities and navigate in the canvas:
+
+* **Multiple selection mode**: Select multiple activities to delete them all at once or copy and paste them. See xx.
+* **Rotate**: Switch the canvas vertically.
+* **Fit to screen**: Adapt the canvas zoom level to your screen.
+* **Zoom out** / **Zoom in**: Zoom out or in the canvas.
+* **Display map**: Opens a snapshot of the canvas showing you are located.
+
+![](assets/workflow-toolbar.png){zoomable="yes"}{width="50%"}
+
 ## Manage activities {#manage}
 
 When adding activites, action buttons are available in the properties pane, allowing you to perform multiple operations. You can:
 
 * **Delete** the activity from the canvas.
 * **Disable/Enable** the activity. When the workflow is executed, disabled activities and the following activities on the same path are not executed and the workflow is stopped.
-* **Copy** the activity. You can then paste it in any workflow by cliking the **+** button on a transition and selecting "Paste 1 activity".
+* **Copy** the activity. See xx.
 * Access the activity's **Logs and tasks**.
 * **Pause/Resume** the activity. When the workflow is executed, it pauses at the paused activity. The corresponding task as well as all those that follow it in the same path are not executed.
 
@@ -43,6 +55,24 @@ When adding activites, action buttons are available in the properties pane, allo
 Several **Targeting** activities, such as **Combine** or **Deduplication**, allow you to process the remaining population and include it into an additional outbound transition. For example, if you're using a **Split** activity, the complement consists of the population that did not match any of the previously defined subsets. To use this capability, activate the **Generate complement** option. 
 
 ![](assets/workflow-split-complement.png)
+
+## Copy activities {#copy}
+
+You can copy workflow activities and paste them in any worflow. The destination workflow can be in a different browser tab. 
+
+To copy activities, you have two choices:
+
+* copy one activity using the action button.
+
+    ![](assets/workflow-copy.png){zoomable="yes"}{width="70%"}
+
+* copy multiple acivities using the toolbar button.
+
+    ![](assets/workflow-copy-2.png){zoomable="yes"}{width="70%"}
+
+To paste the copied activities, click the **+** button on a transition and select "Paste X activity". 
+
+![](assets/workflow-copy-3.png){zoomable="yes"}{width="50%"}
 
 ## Example {#example}
 
