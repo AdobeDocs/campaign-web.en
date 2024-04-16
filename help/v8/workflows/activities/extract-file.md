@@ -8,32 +8,7 @@ description: Learn how to use the Extract file workflow activity
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile"
 >title="Extract file"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile_file"
->title="File to extract"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile_destinationformat"
->title="Destination format"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile_postprocessing"
->title="Post processing"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile_outbound"
->title="Outbound transition"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile_error"
->title="Process error"
->abstract="TBC"
+>abstract="Extract file activity"
 
 The **Extract file** activity is a **Data management** activity. Use this activity to export data from Adobe Campaign in an external file stored on your Campaign server. The activity must be placed after a **[!UICONTROL Build audience]** activity in order to be used.
 
@@ -41,18 +16,23 @@ To configure the **Extract file** activity, add an **Extract file** activity int
 
 ## Configure the file to extract {#extract-configuration}
 
-The **[!UICONTROL File to extract]** section allows you to configure the properties of the file to extract and the data to include. 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_extractfile_file"
+>title="File to extract"
+>abstract="Select the file to extract."
+
+The **[!UICONTROL File to extract]** section allows you to configure the file properties and the data to include. 
 
 ![](../assets/extract-file-file.png)
 
-1. In the **[!UICONTROL File name]** field, enter the desired name for the extracted file.
+1. In the **[!UICONTROL File name]** field, enter the desired name for the file to extract.
 
-    You can personalize the extracted file's name using attributes from the database. To do this, click the **[!UICONTROL Open personalization dialog]** icon to open the expression editor. [Learn how to personalize your content](../../personalization/personalize.md)
+    You can personalize the file's name using event variables, conditions and date/time functions. To do this, click the **[!UICONTROL Open personalization dialog]** icon to open the expression editor.
 
 1. Specify the columns to present in the extracted file. To do this, follow these steps:
 
     1. Click the **[!UICONTROL Add output column]**.
-    1. Choose the attribute to display in the column then confirm. Available attributes depend on the targeting dimension selected in the Build audience activity.   
+    1. Choose the attribute to display in the column then confirm. Available attributes depend on the targeting dimension selected in the previous **[!UICONTROL Build audience]** activity.   
     1. Once the column is added, you can change its **[!UICONTROL Label]** and modify the associated **[!UICONTROL Attribute]**.
     1. If you want to apply a transformation to the column's values, select it from the drop-down list. For example, you can switch all values in the selected column to upper case.
 
@@ -64,11 +44,16 @@ The **[!UICONTROL File to extract]** section allows you to configure the propert
 
 ## Configure the extracted file format {#file}
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_extractfile_destinationformat"
+>title="Destination format"
+>abstract="Select the format."
+
 The **[!UICONTROL Destination]** format section allows you to configure how the extracted file is formatted.
 
 1. Choose the **[!UICONTROL Output format]** for the extracted file: **Text**, **Text using fixed with columns**, **CSV (Excel)** or **XML**. 
 
-1. Click the **[!UICONTROL Extraction format]** button to access specific options related to the selected output format. Available values depend on the selected format.
+1. Click the **[!UICONTROL Extraction format]** button to access specific options related to the selected format.
 
     +++ Available Extraction format options
     
@@ -87,6 +72,11 @@ The **[!UICONTROL Destination]** format section allows you to configure how the 
 
 ## Add a post-processing stage {#script}
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_extractfile_postprocessing"
+>title="Post processing"
+>abstract="Define a post-processing step"
+
 The **[!UICONTROL Export modification script]** allows you to apply a processing stage to execute during the data extraction such as zipping or encryption. To do this, click the **[!UICONTROL Edit script]** button.
 
 The expression editor opens, allowing you to enter the command to apply to the file. The left hand-side pane provides predefined syntaxes that you can leverage to build your script:
@@ -98,6 +88,16 @@ The expression editor opens, allowing you to enter the command to apply to the f
 ![](../assets/extract-file-script.png)
 
 ## Additional options {#additiona-options}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_extractfile_outbound"
+>title="Outbound transition"
+>abstract="Toggle the **Generate an outbound transition** option to add an outbound transition after the current activity."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_extractfile_error"
+>title="Process errors"
+>abstract="Toggle the **Process errors** option to add an outbound transition containing errors."
 
 Once the output file extraction has been configured, additional options related to transitions and error management are available: 
 
