@@ -121,6 +121,7 @@ breadcrumb-title: Campaign Web User Interface
 + Workflows {#wf}
   + [Get started with workflows](workflows/gs-workflows.md)
   + [Guardrails and limitations](get-started/guardrails.md)
+  + [Workflow event variables](workflows/event-variables.md)
   + [Access and manage workflows](workflows/access-monitor.md)
   + Create and run your first workflow {#create-workflow}
     + [Key principles of workflow creation](workflows/gs-workflow-creation.md)
