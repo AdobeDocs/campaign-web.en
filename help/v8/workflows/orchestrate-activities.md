@@ -74,6 +74,32 @@ To paste the copied activities, click the **+** button on a transition and selec
 
 ![](assets/workflow-copy-3.png){zoomable="yes"}{width="50%"}
 
+## Execution options {#execution}
+
+All activities allow you to manage their execution options. Select an activity and click on the **Execution options** button. This lets you define the activity’s execution mode and behavior in case of errors.
+
+![](assets/workflow-execution-options.png){zoomable="yes"}{width="70%"}
+
+### Properties
+
+The **Execution** field allows you to define the action to be carried out when the task is started.
+
+The **Maximum execution duration** field allows you to specify a duration such as "30s" or "1h". If the activity is not finished after the duration specified has been elapsed, an alert is triggered. This has no impact on how the workflow functions.
+
+The **Time zone** field allows you to select the time zone of the activity. Adobe Campaign allows you to manage the time differences between multiple countries on the same instance. The setting applied is configured when the instance is created.
+
+**The Affinity** field allows you to force a workflow or a workflow activity to execute on a particular machine. To do this, you must specify one or several affinities for the workflow or activity in question.
+
+The **Behavior** field allows you to define the procedure to follow if asynchronous tasks are used.
+
+### Error management
+
+The **In case of error** field allows you to specify the action to be carried out should the activity encounter an error.
+
+### Initialization script
+
+The **Initialization script** field lets you initialize variables or modify activity properties.
+
 ## Example {#example}
 
 Here is a workflow example designed to send an email to all customers (other than VIP customers) with an email who are interested in coffee machines.
