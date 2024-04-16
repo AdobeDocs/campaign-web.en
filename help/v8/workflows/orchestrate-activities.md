@@ -32,7 +32,7 @@ To remove an activity, select it in the canvas and click the **Delete** icon in 
 
 The toolbar located in the upper-right corner of the canvas provides options to easily manipulate the activities and navigate in the canvas:
 
-* **Multiple selection mode**: Select multiple activities to delete them all at once or copy and paste them. See xx.
+* **Multiple selection mode**: Select multiple activities to delete them all at once or copy and paste them. See [this section](#copy).
 * **Rotate**: Switch the canvas vertically.
 * **Fit to screen**: Adapt the canvas zoom level to your screen.
 * **Zoom out** / **Zoom in**: Zoom out or in the canvas.
@@ -46,7 +46,7 @@ When adding activites, action buttons are available in the properties pane, allo
 
 * **Delete** the activity from the canvas.
 * **Disable/Enable** the activity. When the workflow is executed, disabled activities and the following activities on the same path are not executed and the workflow is stopped.
-* **Copy** the activity. See xx.
+* **Copy** the activity. See [this section](#copy).
 * Access the activity's **Logs and tasks**.
 * **Pause/Resume** the activity. When the workflow is executed, it pauses at the paused activity. The corresponding task as well as all those that follow it in the same path are not executed.
 
