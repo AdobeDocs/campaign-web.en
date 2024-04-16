@@ -2,6 +2,7 @@
 audience: end-user
 title: Workflow event variables
 description: Learn how to leverage event variables in your workflows.
+exl-id: 526dc98f-391d-4f3f-a687-c980bf60b93b
 ---
 # Workflow event variables {#event-variables}
 
