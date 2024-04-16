@@ -28,7 +28,7 @@ To remove an activity, select it in the canvas and click the **Delete** icon in 
 >
 >You have the option to personalize the name of the transitions between each activity. To do this, select the transition and change its label in the right pane.
 
-### The toolbar {#toolbar}
+## The toolbar {#toolbar}
 
 The toolbar located in the upper-right corner of the canvas provides options to easily manipulate the activities and navigate in the canvas:
 
