@@ -20,7 +20,7 @@ Conditional content is a powerful feature that allows you to create dynamic pers
 
 By configuring conditional content fields, you can create advanced dynamic personalization based on the recipient's profile for example. Text blocks, links, subject line, and/or images are replaced in the message content when a particular condition is satisfied. For example, you can display 'Mr' or 'Mrs' according to the value of the Gender field in Adobe Campaign database, or include a different link based on the recipient preferred language.
 
-To create conditional content, you need to create conditions in the **expression editor** using specific helper functions. This method is available for all delivery channels, in any field where you can access the expression editor, such as the subject line, or email links and text/button content components. [Learn how to access the expression editor](gs-personalization.md/#access)
+To create conditional content, you need to create conditions in the **expression editor** using specific helper functions. This method is available for all delivery channels, in any field where you can access the expression editor, such as the subject line, or email links and text/button content components. [Learn how to access the expression editor](gs-personalization.md#access)
 
 In addition to the expression editor, you can leverage a dedicated **conditional content builder** when designing an email that allows you to create multiple variants for an element of your email body. [Learn how to create conditional content in emails](#condition-condition-builder)
 

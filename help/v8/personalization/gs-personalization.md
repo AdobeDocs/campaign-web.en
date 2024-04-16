@@ -33,7 +33,7 @@ You can make your message content dynamic by inserting JavaScript constructs in 
 
     ![](assets/condition-sample.png){zoomable="yes"}{width="800" align="center"}
     
-* **Use personalization blocks** to save time and leverage easily reusable personalizated content into your messages. Campaign comes with a set of personalization blocks which contain a specific rendering that you can insert into your deliveries. For example, you can add a logo, a greeting message, or a link to the mirror page of an email message. Content blocks are available from a dedicated entry in the personalization editor.
+* **Use personalization blocks** to save time and leverage easily reusable personalizated content into your messages. Campaign comes with a set of personalization blocks which contain a specific rendering that you can insert into your deliveries. For example, you can add a logo, a greeting message, or a link to the mirror page of an email message. Content blocks are available from a dedicated entry in the personalization editor. 
 
     ![](assets/content-blocks.png){zoomable="yes"}{width="800" align="center"}
 
