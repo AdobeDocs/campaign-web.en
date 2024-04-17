@@ -537,7 +537,59 @@ Deprecated IDs - to remove in GA: -->
 >title="Process errors"
 >abstract="Process errors"
 
+<!-- Delivery alerting -->
+
 >[!CONTEXTUALHELP]
->id="acw_deliveries_alerting"
->title="Delivery alerting"
+>id="acw_delivery_alerting_criteria"
+>title="Delivery alerting criteria dashboard"
+>abstract="Delivery alerting criteria dashboard"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_dashboards"
+>title="Delivery alerting dashboard"
+>abstract="Delivery alerting dashboard"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_criteria_create"
+>title="Create delivery alerting critera"
+>abstract="Create delivery alerting critera"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_criteria_create_indicators"
+>title="Indicators to add in alerts"
+>abstract="Indicators to add in alerts"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_criteria_create_ alert"
+>title="Alert type"
+>abstract="Alert type"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_criteria_create_ frequency"
+>title="Criterion frequency"
+>abstract="Criterion frequency"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_create_criteria_add"
+>title="Delivery alerting criteria"
+>abstract="Delivery alerting criteria"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_create_general"
+>title="Delivery alerting general parameters"
 >abstract="Delivery alerting"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_create_criteria_parameters"
+>title="Delivery alerting criteria parameters"
+>abstract="Delivery alerting"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_dashboard_alerts"
+>title="Delivery alerts sent"
+>abstract="Delivery alerts sent"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_dashboard_history"
+>title="Delivery alerts history"
+>abstract="Delivery alerts history"
