@@ -84,7 +84,7 @@ Every time the activity is executed, the folder is checked as follows:
 
     * **[!UICONTROL Delete the source files after transfer]**: Erase the source files after a successfull transfer.
     * **[!UICONTROL Display the session logs]**: When this option is activated, information related to the transfer operation displays in the workflow logs after the workflow has been executed.
-    * **[!UICONTROL List all files]** (File listing actions): This option indexes all the files present on the server in the `vars.filenames` event variable, in which the file names are separated by the `n` characters. [[Learn how to work with event variables](../event-variables.md)]
+    * **[!UICONTROL List all files]** (File listing actions): This option indexes all the files present on the server in the `vars.filenames` event variable, in which the file names are separated by the `n` characters. [Learn how to work with event variables](../event-variables.md)
 
     +++
 
