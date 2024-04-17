@@ -177,4 +177,6 @@ breadcrumb-title: Campaign Web User Interface
   + [Work with other Adobe solutions](integrations/integration.md)
   + [Manage assets with Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
   + [Manage templates with Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
++ Administration {#administration}
+  + [Configure custom fields](administration/custom-fields.md)
 
