@@ -11,7 +11,7 @@ The **Transfer file** activity is a **Data Management** activity. It allows you 
 >
 >With the Campaign Web User Interface, we have consolidated two activities into one by merging both **File transfer** and **Web download** capabilities. This consolidation does not impact the functionality of the activity in any way.
 
-Follow these steps to configure the **Transfer file** activity:
+Follow the steps detailed below to configure the **Transfer file** activity.
 
 ![](../assets/workflow-transfer-file-activity.png)
 
@@ -22,21 +22,29 @@ Follow these steps to configure the **Transfer file** activity:
     * For HTTP protocol, select **[!UICONTROL Web Download]**. This allows you to perform a GET or POST download a file on an explicit URL, an external account, or an Adobe Campaign instance.
     * For other server-to-server protocols and related actions, select **[!UICONTROL File transfer]**.
 
-1. Select the action to perform with the activity. Available actions depend on the type of transfer your have selected:
+1. Select the action to perform with the activity. Available actions depend on the type of transfer your have selected. Expand the sections below for more information.
 
-    *** File transfer**:
-        * **[!UICONTROL File download]**: Download a file from the server.
-        * **[!UICONTROL File upload]**: Upload a file on the server.
-        * **[!UICONTROL Test to see if file exists]**: Check if a given file is present on the server. Generates two outbound transitions after the activity: "File exists" and "File does not exist".
-        * **[!UICONTROL File listing]**: List all the files available on the server.
+    +++Actions available with **File transfer** type activities
 
-    * **Web download**:
-        * **[!UICONTROL Simple transfer (GET)]**: Retrieve a file.
-        * **[!UICONTROL Transfer using a form (POST)]**: Upload a file and additional parameters.
+    * **[!UICONTROL File download]**: Download a file from the server.
+    * **[!UICONTROL File upload]**: Upload a file on the server.
+    * **[!UICONTROL Test to see if file exists]**: Check if a given file is present on the server. Generates two outbound transitions after the activity: "File exists" and "File does not exist".
+    * **[!UICONTROL File listing]**: List all the files available on the server.
 
-1. By default, for file upload actions, the activity uses the file specified in the previous activity.
+    +++
 
-    To choose a different file to upload, toggle the **[!UICONTROL Use file from previous activity]** option off and click the **[!UICONTROL Add file]** button. In the **[!UICONTROL Source]** field, enter the desired file name, or use the expression editor to calculate the file name using event variables. [Learn how to work with event variables and the expression editor](../event-variables.md). Repeat the operation to add as many files as needed.
+    +++Actions available with **Web download** type activities
+
+    * **[!UICONTROL Simple transfer (GET)]**: Retrieve a file.
+    * **[!UICONTROL Transfer using a form (POST)]**: Upload a file and additional parameters.
+
+    +++
+
+    ![](../assets/workflow-transfer-file-action.png)
+
+1. By default, for file upload actions, the activity uses the file specified in the previous activity. To use a different file, toggle the **[!UICONTROL Use file from previous activity]** option off and click the **[!UICONTROL Add file]** button.
+
+    In the **[!UICONTROL Source]** field, enter the desired file name, or use the expression editor to calculate the file name using event variables. [Learn how to work with event variables and the expression editor](../event-variables.md). Repeat the operation to add as many files as needed.
 
 ## Define the transfer destination {#destination}
 
@@ -44,7 +52,9 @@ Follow these steps to configure the **Transfer file** activity:
 
     * **[!UICONTROL Use connection parameters defined in an external account]**: Connect to a server using the connection parameters of an external account. In the **[!UICONTROL Server folder]** field, specify the path to the file (or to the folder for file listing actions).
     * **[!UICONTROL Quick configuration]**: Enter the URL of the file (or folder for file listing actions).
-    * **[!UICONTROL Adobe Campaign instance]** (Web download tranfers): Downloads a file from an Adobe Campaign instance server. 
+    * **[!UICONTROL Adobe Campaign instance]** (Web download type activities): Download a file from an Adobe Campaign instance server. 
+
+    ![](../assets/workflow-transfer-file-server.png)
 
 1. For Web download POST actions, you can pass additional parameters with the operation. To do this, click the **[!UICONTROL Add parameter]** button then specify the name and value of the parameters. You can add as many parameters as needed.
 
@@ -53,6 +63,8 @@ Follow these steps to configure the **Transfer file** activity:
 ## Historization settings {#historization}
 
 Every time a **[!UICONTROL Transfer file]** activity is executed, it stores the uploaded or downloaded files in a dedicated folder. One folder is created for each Transfer file activity of a workflow. By default, files are saved on the default storage directory of the Adobe Campaign installation folder (`/vars`) before being processed. To use a specific folder, toggle the **[!UICONTROL Use a default storage directory]** option off and enter the path of the directory.
+
+![](../assets/workflow-transfer-file-historization.png)
 
 It is important to be able to limit the size of this folder in order to preserve physical space on the server. To do that, you can define a maximum number of files or total size for the activity’s folder. By default, 100 files and 50 MB are authorized.
 
@@ -68,13 +80,13 @@ Every time the activity is executed, the folder is checked as follows:
 
 ## Advanced options {#advanced}
 
-1. In the **[!UICONTROL Advanced options]**, additional options are available based on the type of activity that you are configuring:
+1. In the **[!UICONTROL Advanced options]**, additional options are available based on the type of activity that you are configuring. Expand the sections below for more information.
 
     +++Additional options for **[!UICONTROL File transfer]** type activities
 
-    * **[!UICONTROL Delete the source files after transfer]**: erase the source files after a successfull transfer.
-    * **[!UICONTROL Display the session logs]**: When this option is activated, information related to the transfer operation will display in the workflow logs.
-    * **[!UICONTROL List all files]** (File listing actions): This option indexes all the files present on the server in the `vars.filenames` event variable, in which the file names are separated by the `n` characters.
+    * **[!UICONTROL Delete the source files after transfer]**: Erase the source files after a successfull transfer.
+    * **[!UICONTROL Display the session logs]**: When this option is activated, information related to the transfer operation displays in the workflow logs after the workflow has been executed.
+    * **[!UICONTROL List all files]** (File listing actions): This option indexes all the files present on the server in the `vars.filenames` event variable, in which the file names are separated by the `n` characters. [[Learn how to work with event variables](../event-variables.md)]
 
     +++
 
@@ -86,11 +98,11 @@ Every time the activity is executed, the folder is checked as follows:
 
     +++
 
-## Missing file and error management {#error}
+## Error management {#error}
 
-1. For **File transfer** type activities, the **[!UICONTROL Process missing file]** option allows you to activate a "No file" outbound transition after the acitvity if the file is not available on the specified path.
+1. For **File transfer** type activities, the **[!UICONTROL Process missing file]** option allows you to activate a "No file" outbound transition after the activity if the file is not available on the specified path.
 
-1. Toggle the **[!UICONTROL Process errors]** on to activate an "Error" outbound transition after the activity if any error occurs during the transfer (insufficient permissions to access a file for example).
+1. The **[!UICONTROL Process errors]** option allows you to activate an "Error" outbound transition after the activity if any error occurs during the transfer, such as insufficient permissions to access a file.
 
 ## Example
 
