@@ -13,8 +13,6 @@ The **Transfer file** activity is a **Data Management** activity. It allows you 
 
 Follow the steps detailed below to configure the **Transfer file** activity.
 
-![](../assets/workflow-transfer-file-activity.png)
-
 ## Choose the transfer protocol and operation {#protocol}
 
 1. Add a **Transfer file** activity into your workflow then specify the type of transfer to perform depending on the protocol that you want to use:
