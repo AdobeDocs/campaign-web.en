@@ -143,6 +143,7 @@ breadcrumb-title: Campaign Web User Interface
     + [Scheduler](workflows/activities/scheduler.md)
     + [Split](workflows/activities/split.md)
     + [Test](workflows/activities/test.md)
+    + [Transfer file](workflows/activities/transfer-file.md)
     + [Wait](workflows/activities/wait.md)
 + Query the database {#query-database}
   + [Work with the query modeler](query/query-modeler-overview.md)
