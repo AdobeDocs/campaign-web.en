@@ -106,11 +106,11 @@ Follow these steps to configure the sample file used to define the expected file
 >title="Load File Command"
 >abstract="Allowing arbitrary command for pre-processing is a security concern, disable security option XtkSecurity_Disable_Preproc to force the use of a predefined list of commands."
 
-1. In the **[!UICONTROL Target file]** section, specify how to retrieve the file to upload on the server:
+1. In the **[!UICONTROL Target file]** section, specify the action to perform when retrieving the file to upload on the server:
 
     * **[!UICONTROL Upload file from local machine]**: Select the TXT or CSV file to upload from your machine.
-    * **[!UICONTROL Specified in the transition]**: Automatically upload the file specified in the inbound transition upcoming from a previous activity.
-    * **[!UICONTROL Pre-process the file]**: Apply a pre-processing command such as **[!UICONTROL Decompression]** or **[!UICONTROL Decrypt]** to a file coming from a previous activity through the inbound transition, 
+    * **[!UICONTROL Specified in the transition]**: Upload the file specified in the inbound transition upcoming from a previous activity such as **[!UICONTROL Transfer file]**.
+    * **[!UICONTROL Pre-process the file]**: Upload the file specified in the previous transition and apply a pre-processing command to it such as **[!UICONTROL Decompression]** or **[!UICONTROL Decrypt]**.
     * **[!UICONTROL Calculated]**: Upload the file whose name specified in the **[!UICONTROL File name]** field. Click the **[!UICONTROL Open personalization dialog]** icon to leverage the expression editor, including event variables, to calculate the file name.
 
     ![](../assets/workflow-load-file-config.png)
@@ -133,8 +133,10 @@ Follow these steps to configure the sample file used to define the expected file
 
 1. In the **Reject management** section, specify how the activity should behave in case of rejects:
 
-    * Define the maximum number of errors to keep.
-    * Toggle the **[!UICONTROL Keep rejects in a file]** option to download on the server a file containing errors that occurred during the import. After activating this option, an additional output transition named "Complement" is added after the activity. Specify the desired name for the file in the **[!UICONTROL Rejection File]**.
+    * In the **[!UICONTROL Number of errors allowed]** field, specficy the maximum number of errors that are authorized when processing the file to load. For example, if the value is set to "20", the workflow execution will fail if there are more than 20 errors when loading the file. 
+    * To keep the errors that occurred when loading the file, toggle the **[!UICONTROL Keep rejects in a file]** option on and specify the desired name for the file in the **[!UICONTROL Rejection File]** field. 
+    
+      After activating this option, an additional output transition named "Complement" is added after the activity. Any error that will occur during the import will be stored in the specified file on the server.
 
 1. To delete the uploaded file from the server after the workflow has been executed, toggle the **[!UICONTROL Delete file after import]** option.
 
