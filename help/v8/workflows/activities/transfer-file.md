@@ -78,7 +78,7 @@ Every time the activity is executed, the folder is checked as follows:
 >
 >If the activity is not executed again, its folder will not be checked nor purged. With this in mind, be cautious when transferring large files.
 
-## Advanced options {#advanced}
+## Advanced & error management options {#advanced}
 
 1. In the **[!UICONTROL Advanced options]**, additional options are available based on the type of activity that you are configuring. Expand the sections below for more information.
 
@@ -98,12 +98,6 @@ Every time the activity is executed, the folder is checked as follows:
 
     +++
 
-## Error management {#error}
+1. The **[!UICONTROL Process errors]** option allows you to activate an "Error" outbound transition after the activity if any error occurs during the transfer.
 
-1. For **File transfer** type activities, the **[!UICONTROL Process missing file]** option allows you to activate a "No file" outbound transition after the activity if the file is not available on the specified path.
-
-1. The **[!UICONTROL Process errors]** option allows you to activate an "Error" outbound transition after the activity if any error occurs during the transfer, such as insufficient permissions to access a file.
-
-## Example
-
-
+    Additionally, for **File transfer** type activities, the **[!UICONTROL Process missing file]** option allows you to activate a "No file" outbound transition after the activity if the file is not available on the specified path.
