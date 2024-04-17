@@ -8,14 +8,18 @@ Custom fields are additional attributes added to the out-of-the-box schemas thro
 
 These custom fields are displayed in various screens, for example the details of a profile or a test profile.
 
-In the web user interface, you cannot create custom fields, but you can modify the way they display.
+In the web user interface, you cannot create custom fields, but you can modify the way they display. Modifications apply to all users.
+
+>[!NOTE]
+>
+>You need to have administrator rights to modify custom fields.
 
 Custom fields are available in the following schemas:
 
 * Recipients (nms)
 * Campaigns (nms)
 * Deliveries (nms)
-* Seed adresses (nms)
+* Seed addresses (nms)
 
 To configure custom fields, follow these steps:
 
