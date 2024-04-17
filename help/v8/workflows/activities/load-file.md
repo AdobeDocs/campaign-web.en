@@ -72,12 +72,12 @@ Follow these steps to configure the sample file used to define the expected file
     
     * **[!UICONTROL Label]**: Label to display for the column.
     * **[!UICONTROL Data type]**: Type of data contained in the column.
-    * **[!UICONTROL Width]** *(string data type)*: Maximum number of characters to display in the column.
-    * **[!UICONTROL Data Transformation]** *(string data type)*: Apply transformation to the values contained in the column.
-    * **[!UICONTROL White space management]** *(string data type)*: Specify how to manage spaces contained in the column.
-    * **[!UICONTROL Separators]** *(date, time, integer and number data types)*: Specify the characters to use as separators.
+    * **[!UICONTROL Width]** (string data type): Maximum number of characters to display in the column.
+    * **[!UICONTROL Data Transformation]** (string data type): Apply transformation to the values contained in the column.
+    * **[!UICONTROL White space management]** (string data type): Specify how to manage spaces contained in the column.
+    * **[!UICONTROL Separators]** (date, time, integer and number data types)*: Specify the characters to use as separators.
     * **[!UICONTROL Allow NULLs]**: Specify how to manage empty values in the column. The "Adobe Campaign default" option will throw an error if an empty value is present.
-    * **[!UICONTROL Error processing]** *(string data type)*: Specify the behaviour in case of errors in one of the lines.
+    * **[!UICONTROL Error processing]** (string data type): Specify the behaviour in case of errors in one of the lines.
     * **[!UICONTROL Value remapping]**: This option allows you to map specific values with new ones. For example, if the column contains "True"/"False" values, you can add a mapping to automatically replace those values with "0"/"1" characters.
 
     +++
@@ -108,32 +108,36 @@ Follow these steps to configure the sample file used to define the expected file
 
 1. In the **[!UICONTROL Target file]** section, specify the action to perform when retrieving the file to upload on the server:
 
-    * **[!UICONTROL Upload file from local machine]**: Select the TXT or CSV file to upload from your machine.
+    * **[!UICONTROL Upload file from local machine]**: Select the file to upload from your machine.
+
     * **[!UICONTROL Specified in the transition]**: Upload the file specified in the inbound transition upcoming from a previous activity such as **[!UICONTROL Transfer file]**.
+
     * **[!UICONTROL Pre-process the file]**: Upload the file specified in the previous transition and apply a pre-processing command to it such as **[!UICONTROL Decompression]** or **[!UICONTROL Decrypt]**.
-    * **[!UICONTROL Calculated]**: Upload the file whose name specified in the **[!UICONTROL File name]** field. Click the **[!UICONTROL Open personalization dialog]** icon to leverage the expression editor, including event variables, to calculate the file name.
+
+    * **[!UICONTROL Calculated]**: Upload the file whose name is specified in the **[!UICONTROL File name]** field. Click the **[!UICONTROL Open personalization dialog]** icon to leverage the expression editor, including event variables, to calculate the file name.
 
     ![](../assets/workflow-load-file-config.png)
 
     >[!NOTE]
     >
-    >If you are accessing a **[!UICONTROL Load file]** activity that has already been setup in the client console, an additional **[!UICONTROL Target database]** section is available if you have configured the activity to upload the file to an external database.
+    >If you are accessing a **[!UICONTROL Load file]** activity that has already been setup in the client console, an additional **[!UICONTROL Target database]** section is displays if you have configured the activity to upload the file to an external database. It allows you to specify if you want to upload the file on the Campaign server or on the external database.
 
 ### Additional options {#options}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_rejectmgt"
 >title="Reject management for Load file activity"
->abstract="In the **Reject management** section, specify how the activity should behave in case of rejects. You can define the maximum number of errors to keep, and toggle the **[!UICONTROL Keep rejects in a file]** option to download on the server a file containing errors that occurred during the import. After activating this option, an additional output transition named "Complement" is added after the activity."
+>abstract="In the **Reject management** section, specify how the activity should behave in case of errors. You can define the maximum number of errors to allow, and toggle the **[!UICONTROL Keep rejects in a file]** option to download on the server a file containing the errors that occurred during the import."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_delete"
 >title="Delete file after import"
 >abstract="Toggle the **Delete file after import** to delete the original file from the server after the file is imported."
 
-1. In the **Reject management** section, specify how the activity should behave in case of rejects:
+1. In the **Reject management** section, specify how the activity should behave in case of errors:
 
     * In the **[!UICONTROL Number of errors allowed]** field, specficy the maximum number of errors that are authorized when processing the file to load. For example, if the value is set to "20", the workflow execution will fail if there are more than 20 errors when loading the file. 
+
     * To keep the errors that occurred when loading the file, toggle the **[!UICONTROL Keep rejects in a file]** option on and specify the desired name for the file in the **[!UICONTROL Rejection File]** field. 
     
       After activating this option, an additional output transition named "Complement" is added after the activity. Any error that will occur during the import will be stored in the specified file on the server.
