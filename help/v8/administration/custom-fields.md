@@ -23,7 +23,7 @@ To configure custom fields, follow these steps:
 
     ![](assets/custom-fields.png){zoomable="yes"}
 
-1. Locate the desired schema, for example the **Recipient (nms)** schema.
+1. Locate the desired schema, for example the **Recipients (nms)** schema.
 
     ![](assets/custom-fields2.png){zoomable="yes"}
 
@@ -31,13 +31,17 @@ To configure custom fields, follow these steps:
 
     ![](assets/custom-fields3.png){zoomable="yes"}
 
-    The **Edit custom details** screen displays all custom fields and their type. 
+    The **Edit custom detail** screen displays all custom fields and their type. 
 
     ![](assets/custom-fields4.png){zoomable="yes"}
 
-    It allows you to perform the following actions on these fields:
+    This screen allows you to perform the following actions:
 
     * change the order of the different fields using the up and down arrows.
     * make the field mandatory: check the **Mandatory** box. 
     * make the field visible or hide it: click the **Visible** button.
-    * add a visibility condition: click the **Visible if** button and write your xtf expression using the available xtk function.
+    * add a visibility condition: click the **Visible if** button and write your xtk expression using the available xtk functions.
+
+1. Navigate to the screen which display the custom field. In our example, it's the profile details screen.
+
+    ![](assets/custom-fields5.png){zoomable="yes"}
