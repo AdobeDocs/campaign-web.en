@@ -27,11 +27,15 @@ To configure custom fields, follow these steps:
 
     ![](assets/custom-fields2.png){zoomable="yes"}
 
-1. Click the **More actions** button and select **Edit custom details**. 
+1. Click the **More actions** button and select **Edit custom detail**. 
 
     ![](assets/custom-fields3.png){zoomable="yes"}
 
-    The **Edit custom details** screen displays all custom fields and their type. It allows you to perform the following actions on these fields:
+    The **Edit custom details** screen displays all custom fields and their type. 
+
+    ![](assets/custom-fields4.png){zoomable="yes"}
+
+    It allows you to perform the following actions on these fields:
 
     * change the order of the different fields using the up and down arrows.
     * make the field mandatory: check the **Mandatory** box. 
