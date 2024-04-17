@@ -560,12 +560,12 @@ Deprecated IDs - to remove in GA: -->
 >abstract="Indicators to add in alerts"
 
 >[!CONTEXTUALHELP]
->id="acw_delivery_alerting_criteria_create_ alert"
+>id="acw_delivery_alerting_criteria_create_alert"
 >title="Alert type"
 >abstract="Alert type"
 
 >[!CONTEXTUALHELP]
->id="acw_delivery_alerting_criteria_create_ frequency"
+>id="acw_delivery_alerting_criteria_create_frequency"
 >title="Criterion frequency"
 >abstract="Criterion frequency"
 
