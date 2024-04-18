@@ -1,96 +1,74 @@
 ---
 audience: end-user
-title: Use the Load file workflow activity
-description: Learn how to use the Load file workflow activity
-exl-id: 230177e2-1926-451a-8a66-0db962ada514
+title: Use the Update data workflow activity
+description: Learn how to use the Update data workflow activity
 ---
-# Load file {#load-file}
+# Update data {#update-data}
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile"
->title="Load file activity"
->abstract="The **Load file** activity is a **Data management** activity. Use this activity to work with data stored in an external file."
+The **Update data** activity is a **Data Management** activity. It allows you to perform a mass update on fields in the database. Several options allow you to personalize the data update.
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_samplefile"
->title="Sample file"
->abstract="Sample file"
+<!--
+The **Operation type** field lets you choose the process to be carried out on the data in the database. Select the first option to add data or update (it if it has already been added). You can also only add data, only update data, or delete data. Select the **Update and merge collections** to select a primary record to link duplicates to, and delete those duplicates safely
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_nameofthefile"
->title="Name of the file"
->abstract="Name of the file"
+Specify how to identify the records in the database: if data relate to an existing targeting dimension, select the **Using the targeting dimension** option and select the targeting dimension and fields to update. Otherwise, specify one or more custom links to identify the data in the database, or direct use of reconciliation keys.
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_targetdb"
->title="Target database"
->abstract="Target database"
+Select the fields to update and reconciliation settings. You can use the **Auto-mapping** option to automatically identify the fields to be updated.
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_rejectmgt"
->title="Reject management for Load file activity"
->abstract="Reject management for Load file activity"
+The **Advanced options** section let you specify additional settings to manage data and duplicates.
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_outboundtransition"
->title="Reject management outbound transition"
->abstract="Reject management outbound transition"
+Toggle the **Generate an outbound transition** option to add an outbound transition that will be activated at the end of the execution of the **Update data** activity. The update generally marks the end of a targeting workflow and therefore the option is not activated by default.
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_outboundtransition_reject"
->title="Reject management outbound transition for rejects"
->abstract="Reject management outbound transition for rejects"
+Toggle the **Generate an outbound transition for rejects** option to add an outbound transition containing records that have not been correctly processed after the update (for example if there is a duplicate). The update generally marks the end of a targeting workflow and therefore the option is not activated by default.
+-->
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_formatting"
->title="Formatting for Load File activity"
->abstract="Formatting for Load File activity"
+## Configure the Update data activity{#update-data-configuration}
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_targetfile"
->title="Target file for Load File activity"
->abstract="Target file for Load File activity"
+To configure the **Update data** activity, start by adding the activity to your workflow.
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_valueremapping"
->title="Value remapping for Load File activity"
->abstract="Value remapping for Load File activity"
+![](../assets/workflow-update-data.png)
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_command"
->title="Load File Command"
->abstract="Allowing arbitrary command for pre-processing is a security concern, disable security option XtkSecurity_Disable_Preproc to force the use of a predefined list of commands."
+### Operation type
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_delete"
->title="Delete file after import"
->abstract="Toggle the **Delete file after import** to delete the original file from the server after the file is imported."
+The Operation type field lets you choose the process to be carried out on the data in the database:
 
-The **Load file** activity is a **Data management** activity. Use this activity to work with profiles and data stored in an external file. Profiles and data are not added to the database, but all fields in the input file are available for [personalization](../../personalization/gs-personalization.md), or to update profiles, or any other table. 
+* **Insert or update**: add data or update it if it has already been added.
+* **Insert**: only add data.
+* **Update**: only update data.
+* **Update and merge collections**: update data and choose a primary record, then link elements linked to the duplicates in this primary record. Duplicates can then be deleted without creating orphan attached elements.
+* **Delete**: delete data.
 
->[!NOTE]
->Supported file formats are: text (TXT) and comma-separated value (CSV).
+The **Batch size** field lets you select the number of inbound transition elements to be updated. For example, if you state 500, the first 500 records dealt with will be updated.
 
-This activity can be used with a [Reconciliation](reconciliation.md) activity to link unidentified data to existing resources. For example, the **Load file** activity can be placed before a **Reconciliation** activity if you import non-standard data into the database. 
+### Record identification
 
-## Configure the Load file activity {#load-configuration}
+Specify how to identify the records in the database:
 
-Follow these steps to configure the **Load file** activity:
+* If data entries relate to an existing targeting dimension, select the **Using the targeting dimension** option and select it in the Targeting dimenstion to update**.
+* You can also select the **Using custom links** and specify one or more links which will enable identification of the data in the database 
+* If the operation type selected requires an update, you must use the **Using reconciliation keys** option.
 
-1. Add a **Load file** activity into your workflow. Click the **Select from file** button.
+### Fields to update
 
-1. Select the local file to use. The format must be aligned with this [sample file](../../audience/file-audience.md#sample-file).
+In the **Fields to update** section, add the fields on which the update will be applied and, if necessary, add conditions so that this update is carried out. To do this, use the **Taken into account if** field. The conditions are applied one after the other in list order. Use the arrows on the right to change the order of the updates. You can use the same destination field multiple times.
 
-1. Preview and check how data is mapped in the central section of the screen.
+You can automatically link fields using the **Auto-mapping** button. Automatic linking detects fields with the same name.
 
-    ![](../assets/load-file.png)
+During an **Insert or update** operation type, you can individually select the operation to apply for each field. To do this, select the value you would like in the **Operation type** field.
 
-1. Use the **Columns** section in the left pane to adjust the data type and width for each column.
+### Advanced options
 
-1. In the **Formatting** section located under the columns configuration, specify how the external file is formatted to ensure that data is correctly imported.
+The Advanced options lets you specify additional options to deal with updating data as well as managing duplicates:
 
-1. Click **Confirm** once settings are correct.
+* **Disable automatic key management**
+* **Disable audit**
+* **Empty the destination value if the source value is empty**
+* **Update all columns with matching names**
+* **Ignore records which concern the same target**: only the first in the list of expressions will be considered
 
-## Example{#load-example}
+**Generate an outbound transition**
 
-A sample of an external file loading used with the **Reconciliation** activity is available in [this section](reconciliation.md#reconciliation-example).
+Creates an outbound transition that will be activated at the end of execution. Updating usually signals the end of a targeting workflow, and the option is therefore not activated by default.
+
+**Generate an outbound transition for the rejects**
+
+Creates an outbound transition containing records that have not been correctly processed after the update (for example if there is a duplicate). The update generally marks the end of a targeting workflow and therefore the option is not activated by default.
