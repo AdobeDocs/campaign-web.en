@@ -27,7 +27,7 @@ The **[!UICONTROL File to extract]** section allows you to configure the file pr
 
 1. In the **[!UICONTROL File name]** field, enter the desired name for the file to extract.
 
-    You can personalize the file's name using event variables, conditions and date/time functions. To do this, click the **[!UICONTROL Open personalization dialog]** icon to open the expression editor.
+    You can personalize the file's name using event variables, conditions and date/time functions. To do this, click the **[!UICONTROL Open personalization dialog]** icon to open the expression editor. [Learn how to work with event variables and the expression editor](../event-variables.md) 
 
 1. Specify the columns to present in the extracted file. To do this, follow these steps:
 
@@ -79,11 +79,7 @@ The **[!UICONTROL Destination]** format section allows you to configure how the 
 
 The **[!UICONTROL Export modification script]** allows you to apply a processing stage to execute during the data extraction such as zipping or encryption. To do this, click the **[!UICONTROL Edit script]** button.
 
-The expression editor opens, allowing you to enter the command to apply to the file. The left hand-side pane provides predefined syntaxes that you can leverage to build your script:
-
-* The **[!UICONTROL Event variables]** menu allows you to use [events variable](#event-variables) from the workflow into your code.
-* The **[!UICONTROL Conditions]** menu provides functions that allow you to build conditions. [Learn how to create condtions in the expression editor](../../personalization/conditions.md#condition-perso-editor)
-* The **[!UICONTROL Add current date]** menu provides functions related to date formatting.
+The expression editor opens, allowing you to enter the command to apply to the file. The left hand-side pane provides predefined syntaxes that you can leverage to build your script. [Learn how to work with event variables and the expression editor](../event-variables.md) 
 
 ![](../assets/extract-file-script.png)
 
