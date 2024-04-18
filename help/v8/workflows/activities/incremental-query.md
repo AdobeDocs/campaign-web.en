@@ -43,7 +43,7 @@ Follow these steps to configure the **Incremental query** activity:
 
     * **[!UICONTROL Exclude results of previous execution]**: Each time the activity is executed, the results of the previous executions are excluded. History in days ?
 
-    Records already targeted in previous executions can be logged a maximum number of days from the day they were targeted. If this value is zero, the recipients are never purged from the log.
+        Records already targeted in previous executions can be logged a maximum number of days from the day they were targeted. If this value is zero, the recipients are never purged from the log.
 
     * **[!UICONTROL Use a date field]**: This option allows you to exclude results from previous executions based on a specific date field. To do this, choose the desired date field from the list of attributes available for the selected targeting dimension. The next executions will only take into account the results having the specified date field greater or equal to the last execution date of the Incremental query activity.
 
