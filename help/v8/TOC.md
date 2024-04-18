@@ -138,7 +138,7 @@ breadcrumb-title: Campaign Web User Interface
     + [Enrichment](workflows/activities/enrichment.md)
     + [Extract file](workflows/activities/extract-file.md)
     + [Fork](workflows/activities/fork.md)
-    + [Increment query](workflows/activities/incremental-query.md)
+    + [Incremental query](workflows/activities/incremental-query.md)
     + [Load file](workflows/activities/load-file.md)
     + [Reconciliation](workflows/activities/reconciliation.md)
     + [Save audience](workflows/activities/save-audience.md)
