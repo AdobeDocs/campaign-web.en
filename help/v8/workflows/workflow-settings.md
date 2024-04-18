@@ -100,5 +100,5 @@ When the workflow is [associated to a campaign](create-workflow.md), it is displ
 
 ## Initialization script {#initialization-script}
 
-The **Initialization script** field lets you initialize variables or modify activity properties. Click the **Edit code** button and type the snippet of code to execute.
+The **Initialization script** lets you initialize variables or modify activity properties. Click the **Edit code** button and type the snippet of code to execute. The script is called when the workflow executes. Refer to the section related to [event variables](../workflows/event-variables.md)
 
