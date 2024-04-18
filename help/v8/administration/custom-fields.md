@@ -8,7 +8,7 @@ Custom fields are additional attributes added to the out-of-the-box schemas thro
 
 These custom fields are displayed in various screens, for example the details of a profile or a test profile.
 
-In the web user interface, you cannot create custom fields, but you can modify the way they display. Modifications apply to all users.
+In the web user interface, you cannot create custom fields, but you can modify the way they display. Modifications apply to all Campaign users.
 
 >[!NOTE]
 >
