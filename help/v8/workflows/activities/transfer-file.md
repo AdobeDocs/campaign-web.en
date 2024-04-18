@@ -90,11 +90,9 @@ Every time the activity is executed, the folder is checked as follows:
 
     +++Additional options for **[!UICONTROL Web download]** type activities
 
-    * **[!UICONTROL Follow redirections]**: 
-    * **[!UICONTROL Add the HTTP headers to the file]**: 
-    * **[!UICONTROL Ignore the HTTP return code]**: 
-
-    +++
+    * **[!UICONTROL Follow redirections]**: File redirection lets you use overrides to direct data input or output to a device of a different type.
+    * **[!UICONTROL Add the HTTP headers to the file]**: In some cases, you may wish to add additional HTTP headers to a file. Most commonly, these headers will be used to provide additional information for troubleshooting purposes, for [Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/docs/Web/HTTP/CORS), or to set specific caching directives.
+    * **[!UICONTROL Ignore the HTTP return code]**: HTTP return codes, also known as HTTP status codes, indicate the outcome of an HTTP request.
 
 1. The **[!UICONTROL Process errors]** option allows you to activate an "Error" outbound transition after the activity if any error occurs during the transfer.
 
