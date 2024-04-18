@@ -23,29 +23,28 @@ Toggle the **Generate an outbound transition for rejects** option to add an outb
 
 ## Configure the Update data activity{#update-data-configuration}
 
-To configure the **Update data** activity, start by adding the activity to your workflow.
+To configure the **Update data** activity, start by adding the activity to your workflow and defining a label.
 
 ![](../assets/workflow-update-data.png)
 
 ### Operation type
 
-The Operation type field lets you choose the process to be carried out on the data in the database:
+The **Operation type** field lets you choose the process to be carried out on the data in the database:
 
-* **Insert or update**: add data or update it if it has already been added.
-* **Insert**: only add data.
-* **Update**: only update data.
-* **Update and merge collections**: update data and choose a primary record, then link elements linked to the duplicates in this primary record. Duplicates can then be deleted without creating orphan attached elements.
+* **Insert or update**: insert data or update it if it the records already exist in the database.
+* **Insert**: insert data only. The records that already exist are not updated. If reconciliation criteria are defined, only the non-reconciled records will be added.
+* **Update**: update data of the records that already exist in the database only.
 * **Delete**: delete data.
 
 The **Batch size** field lets you select the number of inbound transition elements to be updated. For example, if you state 500, the first 500 records dealt with will be updated.
 
 ### Record identification
 
-Specify how to identify the records in the database:
+This section allows you to specify how to identify the records in the database:
 
-* If data entries relate to an existing targeting dimension, select the **Using the targeting dimension** option and select it in the Targeting dimenstion to update**.
+* If data entries relate to an existing targeting dimension, select the **Using the targeting dimension** option and select from in the **Targeting dimenstion to update** field.
 * You can also select the **Using custom links** and specify one or more links which will enable identification of the data in the database 
-* If the operation type selected requires an update, you must use the **Using reconciliation keys** option.
+* If the operation type selected requires an update, you must use the **Using reconciliation rules** option.
 
 ### Fields to update
 
@@ -57,18 +56,18 @@ During an **Insert or update** operation type, you can individually select the o
 
 ### Advanced options
 
-The Advanced options lets you specify additional options to deal with updating data as well as managing duplicates:
+The Advanced options lets you specify additional options to deal with updating data as well as managing duplicates.
 
+<!--
 * **Disable automatic key management**
 * **Disable audit**
 * **Empty the destination value if the source value is empty**
 * **Update all columns with matching names**
 * **Ignore records which concern the same target**: only the first in the list of expressions will be considered
+-->
 
-**Generate an outbound transition**
+The last two options allow you to perform specific actions:
 
-Creates an outbound transition that will be activated at the end of execution. Updating usually signals the end of a targeting workflow, and the option is therefore not activated by default.
+* **Generate an outbound transition**: creates an outbound transition that will be activated at the end of execution. Updating usually signals the end of a targeting workflow, and the option is therefore not activated by default.
 
-**Generate an outbound transition for the rejects**
-
-Creates an outbound transition containing records that have not been correctly processed after the update (for example if there is a duplicate). The update generally marks the end of a targeting workflow and therefore the option is not activated by default.
+* **Generate an outbound transition for the rejects**: creates an outbound transition containing records that have not been correctly processed after the update (for example if there is a duplicate). The update generally marks the end of a targeting workflow and therefore the option is not activated by default.
