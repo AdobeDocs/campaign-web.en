@@ -53,7 +53,7 @@ The **[!UICONTROL Destination]** format section allows you to configure how the 
 
 1. Choose the **[!UICONTROL Output format]** for the extracted file: **Text**, **Text using fixed with columns**, **CSV (Excel)** or **XML**. 
 
-1. Click the **[!UICONTROL Extraction format]** button to access specific options related to the selected format.
+1. Click the **[!UICONTROL Extraction format]** button to access specific options related to the selected format. Expand the section to bellow for more information.
 
     +++ Available Extraction format options
     
