@@ -144,6 +144,7 @@ breadcrumb-title: Campaign Web User Interface
     + [Save audience](workflows/activities/save-audience.md)
     + [Scheduler](workflows/activities/scheduler.md)
     + [Split](workflows/activities/split.md)
+    + [Subscription services](workflows/activities/subscription-services.md)
     + [Test](workflows/activities/test.md)
     + [Transfer file](workflows/activities/transfer-file.md)
     + [Wait](workflows/activities/wait.md)
