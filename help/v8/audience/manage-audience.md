@@ -1,58 +1,37 @@
 ---
 audience: end-user
-title: Monitor and manage audiences
-description: Learn how to monitor and manage audiences in Adobe Campaign Web
+title: Get started with audiences
+description: Learn how to work with audiences in Adobe Campaign Web
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 ---
-# Monitor and manage audiences {#monitor-manage}
-
-## What is an audience? {#what}
-
-The audience is the main target of your delivery: the profiles who receive the messages. The type of audience depends on the target mapping defined in the delivery template. Learn more about delivery templates in [this page](../msg/delivery-template.md). 
-
-To define the population of an audience, you can:
-
-* [Create new audiences](create-audience.md) from the **[!UICONTROL Audiences]** menu,
-* [Select an existing audience](add-audience.md) created as a list in the client console or coming from Adobe Experience Platform,
-* [Build a new audience](../query/query-modeler-overview.md) with the query modeler by defining and combining filtering criteria,
-* [Use an audience from an external file](file-audience.md). This option is only available for standalone email deliveries, and cannot be used in campaign deliveries.
-
-When targeting an audience, you can also define **control groups** to avoid sending messages to a portion of your audience, and measure the impact of your campaigns. [Learn how to set a control group](control-group.md)
-
->[!NOTE]
->
->When sending messages in the context of a campaign workflow, the audience is defined in a specific **Build audience** workflow activity. In this context, you cannot load an audience from a file for an email delivery, and the audience is defined only in this dedicated activity. Learn how to define the audience of your delivery in a campaign workflow in [this section](../workflows/activities/build-audience.md)
-
-## Monitor audiences {#monitor}
+# Get started with audiences {#monitor-manage}
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_properties"
 >title="Properties"
->abstract="Here you can find a summary of the audience properties such its origin, storage folder, or its status. Click the link in the **Last workflow** section to open the workflow that has been used to create the audience."
+>abstract="Here you can find a summary of the audience properties such its origin or its storage folder. Click the link in the **Last workflow** section to open the workflow that has been used to create the audience."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_count"
 >title="Audience size"
->abstract="Here you can find the total number of profiles within the audience. Click the Calculate button to update and recalculate the audience results."
+>abstract="Here you can find the total number of profiles within the audience. Click the **Calculate** button to update and recalculate the audience results."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_workflow_error_data_execution"
 >title="Audience error"
 >abstract="Audience data is not available. Please wait the end of the workflow execution."
 
-The list of audiences available for use in Campaign Web is accessible from the **[!UICONTROL Audiences]** menu.
+The audience is the main target of your delivery: the profiles who receive the messages. The list of audiences available for use in Campaign Web is accessible from the **[!UICONTROL Audiences]** menu.
 
 ![](assets/audiences-list.png){zoomable="yes"}
-
+ 
 Audiences can originate from multiple sources. The **[!UICONTROL Origin]** columns indicates where a given audience has been created:
 
-* **[!UICONTROL Adobe Campaign]**: These audiences are created in the Adobe Campaign V8 console. Learn more in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html){target="_blank"}.
+* **[!UICONTROL Adobe Campaign]**: These audiences have been created in [Adobe Campaign Web User Interface](create-audience.md) or in the [Adobe Campaign v8 client console](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html){target="_blank"}.
 
-* **[!UICONTROL Adobe Experience Platform:]** These audiences are created within Adobe Experience Platform and are integrated into Campaign Web using the Adobe Sources and Destinations integration. Learn how to set up this integration in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
+* **[!UICONTROL Adobe Experience Platform:]** These audiences have been created within Adobe Experience Platform and are integrated into Campaign Web using the Adobe Sources and Destinations integration. Learn how to set up this integration in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
 
     ➡️ [Discover this feature in video](#video) 
-
-* **[!UICONTROL Adobe Campaign WebUI]**: These audiences are created using Campaign Web audience workflows. [Learn how to create audiences](create-audience.md)
 
 To get more information on an audience, open it from the list. The audience properties display, alongside with the number of profiles included in the audience. You can refresh the audience count at any time using the **[!UICONTROL Calculate]** button.
 

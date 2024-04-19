@@ -303,30 +303,29 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_readonlymode"
 >title="This template is ready only"
->abstract="TBC"
-
+>abstract="You do not have permissions to edit this template. If needed, contact your administrator to grant you access."
 
 <!-- Subscription activity-->
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_defaultlp"
->title="Default Landing Pages"
->abstract="TBC"
+>title="Default landing page"
+>abstract="Select the default landing page associated to this subscription service."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"
->title="Subscription services"
->abstract="TBC"
+>title="Subscription service activity"
+>abstract="Use Adobe Campaign to create and monitor your services such as newsletters, and to check the subscriptions or unsubscriptions to these services. Subscriptions only apply to email and SMS delivery."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_general"
->title="Subscription services parameters"
->abstract="TBC"
+>title="Subscription service parameters"
+>abstract="Select and confirm the settings for the subscription service."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_outboundtransition"
 >title="Subscription services outbound transition"
->abstract="TBC"
+>abstract="Toggle the **Generate an outbound transition** option to add a transition after the activity."
 
 
 <!--Update file-->
@@ -334,37 +333,37 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata"
 >title="Update Data"
->abstract="TBC"
+>abstract="The **Update data** activity performs a mass update of the fields in the database."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_operationtype"
->title="Update Data"
->abstract="TBC"
+>title="Select how to update data"
+>abstract="The **Operation type** field lets you choose the process to be carried out on the data in the database. Select the first option to add data or update (it if it has already been added). You can also only add data, only update data, or delete data. Select the **Update and merge collections** to select a primary record to link duplicates to, and delete those duplicates safely."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_recordid"
->title="Update Data"
->abstract="TBC"
+>title="Record identification"
+>abstract="Specify how to identify the records in the database: if data relate to an existing targeting dimension, select the **Using the targeting dimension** option and select the targeting dimension and fields to update. Otherwise, specify one or more custom links to identify the data in the database, or direct use of reconciliation keys."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_fieldsupdate"
->title="Update Data"
->abstract="TBC"
+>title="Select fields to update"
+>abstract="Select the fields to update and reconciliation settings. You can use the **Auto-mapping** option to automatically identify the fields to be updated."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_advancedoptions"
->title="Update Data"
->abstract="TBC"
+>title="Advanced options to update data"
+>abstract="The **Advanced options** section let you specify additional settings to manage data and duplicates."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition"
->title="Update Data"
->abstract="TBC"
+>title="Generate an outbound transition"
+>abstract="Toggle the **Generate an outbound transition** option to add an outbound transition that will be activated at the end of the execution of the **Update data** activity. The update generally marks the end of a targeting workflow and therefore the option is not activated by default."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition_rejects"
->title="Update Data"
->abstract="TBC"
+>title="Generate an outbound transition for rejects."
+>abstract="Toggle the **Generate an outbound transition for rejects** option to add an outbound transition containing records that have not been correctly processed after the update (for example if there is a duplicate). The update generally marks the end of a targeting workflow and therefore the option is not activated by default."
 
 
 
@@ -373,40 +372,44 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal"
 >title="External Signal"
->abstract="TBC"
+>abstract="The **External signal** activity lets you trigger execution of a set of tasks in a workflow from an API or another workflow."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal_parameters"
 >title="External Signal Parameters"
->abstract="TBC"
+>abstract="External Signal Parameters"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_end_trigger"
 >title="End triggers"
->abstract="TBC"
+>abstract="End triggers"
 
 
-<!--Javascript-->
+<!--JavaScript-->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript"
->title="Javascript code"
->abstract="TBC"
+>title="JavaScript code"
+>abstract="The **JavaScript code** activity executes a JavaScript code in the context of a workflow."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_snippet"
->title="Javascript Snippet"
->abstract="TBC"
+>title="JavaScript snippet"
+>abstract="Configure the code to execute."
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/api" text="Learn more in Campaign v8 (console) documentation"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_execution"
->title="Javascript Execution"
->abstract="TBC"
+>title="JavaScript Execution"
+>abstract="By default, the execution phase cannot exceed 1 hour. After this delay, the process is aborted with an error message and the activity execution fails. Toggle the **Stop execution after** option to define a custom delay. To ignore this limit, set the value to 0."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
->title="Javascript Transition"
->abstract="TBC"
+>title="Process errors"
+>abstract="Toggle the **Process errors** option to add an outbound transition containing errors."
+
 
 
 <!--ExtractFile-->
@@ -414,29 +417,179 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile"
 >title="Extract file"
->abstract="TBC"
+>abstract="Extract file activity"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_file"
 >title="File to extract"
->abstract="TBC"
+>abstract="Select the file to extract."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_destinationformat"
 >title="Destination format"
->abstract="TBC"
+>abstract="Select the format."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_postprocessing"
 >title="Post processing"
->abstract="TBC"
+>abstract="Define a post-processing step"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_outbound"
 >title="Outbound transition"
->abstract="TBC"
+>abstract="Toggle the **Generate an outbound transition** option to add an outbound transition after the current activity."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_error"
->title="Process error"
->abstract="TBC"
+>title="Process errors"
+>abstract="Toggle the **Process errors** option to add an outbound transition containing errors."
+
+<!-- Workflow settings -->
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_settings_initscript"
+>title="Initialization script"
+>abstract="Initialization script"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_settings_execution_properties"
+>title="Execution properties"
+>abstract="Execution properties"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_settings_execution_error"
+>title="Execution error"
+>abstract="Execution error"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_settings_execution_initscript"
+>title="Execution inititialization script"
+>abstract="Execution inititialization script"
+
+
+<!--incremental querry -->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_incrementalquery"
+>title="Incremental query"
+>abstract="Incremental query"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_incrementalquery_history"
+>title="Incremental query history"
+>abstract="Incremental query history"
+
+
+<!-- Transfer file activity -->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile"
+>title="Transfer file"
+>abstract="Transfer file"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_options"
+>title="Transfer file options"
+>abstract="Transfer file options"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_activity"
+>title="Transfer file activity"
+>abstract="Transfer file activity"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_remoteserver"
+>title="Transfer file remote server"
+>abstract="Transfer file remote server"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_source"
+>title="Transfer file source"
+>abstract="Transfer file source"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_delete_file"
+>title="Delete the source files after transfer"
+>abstract="Delete the source files after transfer"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_display_logs"
+>title="Display the session logs"
+>abstract="Display the session logs"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_list_files"
+>title="List all files"
+>abstract="List all files"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_historization"
+>title="File historization"
+>abstract="File historization"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_process_missing_file"
+>title="Process missing files"
+>abstract="Process missing files"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_process_errors"
+>title="Process errors"
+>abstract="Process errors"
+
+<!-- Delivery alerting -->
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_criteria"
+>title="Delivery alerting criteria dashboard"
+>abstract="Delivery alerting criteria dashboard"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_dashboards"
+>title="Delivery alerting dashboard"
+>abstract="Delivery alerting dashboard"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_criteria_create"
+>title="Create delivery alerting critera"
+>abstract="Create delivery alerting critera"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_criteria_create_indicators"
+>title="Indicators to add in alerts"
+>abstract="Indicators to add in alerts"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_criteria_create_alert"
+>title="Alert type"
+>abstract="Alert type"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_criteria_create_frequency"
+>title="Criterion frequency"
+>abstract="Criterion frequency"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_create_criteria_add"
+>title="Delivery alerting criteria"
+>abstract="Delivery alerting criteria"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_create_general"
+>title="Delivery alerting general parameters"
+>abstract="Delivery alerting"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_create_criteria_parameters"
+>title="Delivery alerting criteria parameters"
+>abstract="Delivery alerting"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_dashboard_alerts"
+>title="Delivery alerts sent"
+>abstract="Delivery alerts sent"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_dashboard_history"
+>title="Delivery alerts history"
+>abstract="Delivery alerts history"

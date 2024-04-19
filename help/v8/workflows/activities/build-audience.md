@@ -32,7 +32,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_audienceselector"
 >title="Audience"
->abstract="TBC"
+>abstract="Audience"
 
 Follow these steps to configure the **Build audience** activity:
 
@@ -52,7 +52,7 @@ To create your own query, follow these steps:
 1. Select **Create your own (query)**.
 1. Choose the **Targeting dimension**. The targeting dimension lets you define the population targeted by the operation: recipients, contract beneficiaries, operator, subscribers, etc. By default, the target is selected from the recipients. [Learn more about targeting dimensions](../../audience/about-recipients.md#targeting-dimensions)
 1. Click **Continue**.
-1. Use the query modeler to define your query, the same way you create an audience when designing a new email. [Learn how to work with the query modeler](../../audience/../query/query-modeler-overview.md)
+1. Use the query modeler to define your query, the same way you create an audience when designing a new email. [Learn how to work with the query modeler](../../query/query-modeler-overview.md)
 
 >[!TAB Read audience]
 

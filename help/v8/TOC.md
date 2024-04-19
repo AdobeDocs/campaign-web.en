@@ -103,9 +103,10 @@ breadcrumb-title: Campaign Web User Interface
     + [Create a profile](audience/create-profile.md)
     + [Work with test profiles](audience/test-profiles.md)
   + Work with audiences {#audiences}
+    + [Get started with audiences](audience/manage-audience.md)
     + [Create audiences](audience/create-audience.md)
-    + [Monitor and manage audiences](audience/manage-audience.md)
   + Select your delivery recipients {#target-audiences}
+    + [Get started with audience selection](audience/delivery-recipients.md)
     + [Select an existing audience](audience/add-audience.md)
     + [Build a one-time audience](audience/one-time-audience.md)
     + [Load an email audience from a file](audience/file-audience.md)
@@ -120,6 +121,7 @@ breadcrumb-title: Campaign Web User Interface
 + Workflows {#wf}
   + [Get started with workflows](workflows/gs-workflows.md)
   + [Guardrails and limitations](get-started/guardrails.md)
+  + [Workflow event variables](workflows/event-variables.md)
   + [Access and manage workflows](workflows/access-monitor.md)
   + Create and run your first workflow {#create-workflow}
     + [Key principles of workflow creation](workflows/gs-workflow-creation.md)

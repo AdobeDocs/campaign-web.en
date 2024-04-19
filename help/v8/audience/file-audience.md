@@ -26,32 +26,39 @@ exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 >title="Preview your file"
 >abstract="Check the preview of the columns of the external file. This screen only shows up to 30 records."
 
-You can target profiles stored in an external file. Profiles are not added to the database, but all fields in the input file are available for [personalization](../personalization/gs-personalization.md). Supported file formats are: text (TXT) and comma-separated value (CSV). This article describes how to load external profile when creating a standalone email delivery. To load data from a file in a workflow, refer to [this page](../workflows/activities/load-file.md).
+Adobe Campaign Web User Interface allows you to target profiles stored in an external file. Once the profiles have been loaded, all fields from the input file are available for use to personalize your delivery [Learn how to personalize your content](../personalization/personalize.md).  
 
->[!CAUTION]
->
->* This capability is only available for **email deliveries**. It cannot be used with SMS or Push deliveries.
->
->* You cannot use [control groups](control-group.md) when loading the target population from an external file.
->
->* Profiles are not added to the database, and only loaded and available for this specific standalone email delivery.
+Profiles from the input file are not added to the database. They are loaded and available for this specific standalone email delivery only.
 
-## Select and configure your file {#upload}
+>[!NOTE]
+>
+>This page describes how to load external profiles from a file when creating a standalone email delivery. To load data from a file in the context of a workflow, refer to [this page](../workflows/activities/load-file.md).
+ 
+## Must-read {#must-read}
 
-To target profiles from a local file directly from the email interface, follow these steps:
+* This capability is available for **email deliveries** only.
+* Supported file formats are: text (TXT) and comma-separated value (CSV).
+* You cannot use [control groups](control-group.md) when loading the target population from an external file.
+
+## Select and configure the input file {#upload}
+
+To target profiles from a file in your emails, follow these steps:
 
 1. Open an existing email delivery, or [create a new email delivery](../email/create-email.md).
-1. In the email delivery creation window, from the **Audience** section, click the **Select audience** button and choose the **Select from file** option.
+1. In the **Audience** section, click the **Select audience** button then choose **Select from file**.
 
     ![](assets/select-from-file.png){zoomable="yes"}
 
-1. Select the local file to use. The format must align with the [sample file](#sample-file). 
+1. Select the local file to load. The file format must align with the [sample file](#sample-file). 
 1. Preview and check how data is mapped in the central section of the screen.
-1. Choose the column which contains the email address from the **Address Field** drop-down. You can also select the denylist colum if you have such information in the input file.
-1. Adjust the column settings, and how to format data from the available options.
+
+    ![](assets/select-from-file-map.png)
+
+1. Specify the column which contains the email address from the **Address Field** drop-down list. You can also select the denylist colum if you have such information in the input file.
+1. Adjust the column settings, and how to format the data from the available options.
 1. Click **Confirm** once settings are correct.
 
-When creating and personalizing the message content, you can select fields from the input file in the [Personalization editor](../personalization/gs-personalization.md).
+When creating the message content, you can add personalization by leveraging fields from the input file. [Learn how to personalize content](../personalization/personalize.md)
 
 ![](assets/select-external-perso.png){zoomable="yes"}
 
@@ -62,19 +69,21 @@ When creating and personalizing the message content, you can select fields from 
 >title="Load an audience from a file"
 >abstract="Supported file formats are TXT and CSV. Use first line as column header. Align your file format with the sample file provided in the link below."
 
-Supported formats are TXT and CSV. The first line is the column header.
+When loading an external file to target profiles in your deliveries, make sure the input file matches the recommendations below:
 
-Align your file format with the sample file below:
+* Supported formats are TXT and CSV.
+* The first line in the file is your column header.
+* Align your file format with the sample file below:
 
-```javascript
-{
-lastname,firstname,city,birthdate,email,denylist
-Smith,Hayden,Paris,23/05/1985,hayden.smith@example.com,0
-Mars,Daniel,London,17/11/1999,danny.mars@example.com,0
-Smith,Clara,Roma,08/02/1979,clara.smith@example.com,0
-Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
-}
-```
+    ```javascript
+    {
+    lastname,firstname,city,birthdate,email,denylist
+    Smith,Hayden,Paris,23/05/1985,hayden.smith@example.com,0
+    Mars,Daniel,London,17/11/1999,danny.mars@example.com,0
+    Smith,Clara,Roma,08/02/1979,clara.smith@example.com,0
+    Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
+    }
+    ```
 
 ## Preview and test your email {#test}
 
