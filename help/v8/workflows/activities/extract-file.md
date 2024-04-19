@@ -10,7 +10,7 @@ description: Learn how to use the Extract file workflow activity
 >title="Extract file"
 >abstract="Extract file activity"
 
-The **Extract file** activity is a **Data management** activity. Use this activity to export data from Adobe Campaign in an external file stored on your Campaign server. The activity must be placed after a **[!UICONTROL Build audience]** activity in order to be used.
+The **Extract file** activity is a **Data management** activity. Use this activity to export data from Adobe Campaign in the form of an external file. The data can then be exported to a server location such as SFTP, Cloud storage or your campaign server using a Transfer file activity.
 
 To configure the **Extract file** activity, add an **Extract file** activity into your workflow then follow the steps below.
 
@@ -32,7 +32,7 @@ The **[!UICONTROL File to extract]** section allows you to configure the file pr
 1. Specify the columns to present in the extracted file. To do this, follow these steps:
 
     1. Click the **[!UICONTROL Add output column]**.
-    1. Choose the attribute to display in the column then confirm. Available attributes depend on the targeting dimension selected in the previous **[!UICONTROL Build audience]** activity.   
+    1. Choose the attribute to display in the column then confirm. Available attributes depend on the workflow's targeting dimension.
     1. Once the column is added, you can change its **[!UICONTROL Label]** and modify the associated **[!UICONTROL Attribute]**.
     1. If you want to apply a transformation to the column's values, select it from the drop-down list. For example, you can switch all values in the selected column to upper case.
 
@@ -40,7 +40,7 @@ The **[!UICONTROL File to extract]** section allows you to configure the file pr
 
 1. To remove all duplicate rows from the extracted file, toggle on the **[!UICONTROL Remove duplicate rows(Listing)]** option.
 
-1. To sort the extracted file based on an attribute, toggle on the **[!UICONTROL Enable Sorting]** option then select the attribute to use to sort the file and the sorting method to use (ascending or descending).
+1. To sort the extracted file based on an attribute, toggle on the **[!UICONTROL Enable Sorting]** option then choose the attribute you want to sort the file by, along with the desired sorting method (ascending or descending). You can sort on any attribute from the current targeting dimension, regardless of wether it has been added to the file's columns or not.
 
 ## Configure the extracted file format {#file}
 
