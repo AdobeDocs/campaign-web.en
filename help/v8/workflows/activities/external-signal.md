@@ -34,6 +34,8 @@ Follow these steps to configure the **External signal** activity and trigger its
 
 1. Complete the configuration of your workflow and start its execution. The **[!UICONTROL External Signal]** activity displays as "Pending", waiting to be triggered.
 
+    ![](../assets/external-signal-pending.png)
+
 1. Retrieve the information below:
 
     * The **workflow's internal name**, which displays next to its label.
