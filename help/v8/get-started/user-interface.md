@@ -308,27 +308,6 @@ Deprecated IDs - to remove in GA: -->
 >abstract="TBC"
 
 
-<!-- Subscription activity-->
-
->[!CONTEXTUALHELP]
->id="acw_subscriptions_defaultlp"
->title="Default Landing Pages"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_subscription"
->title="Subscription services"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_subscription_general"
->title="Subscription services parameters"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_subscription_outboundtransition"
->title="Subscription services outbound transition"
->abstract="TBC"
 
 
 <!--Update file-->
