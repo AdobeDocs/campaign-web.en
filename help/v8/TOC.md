@@ -136,6 +136,7 @@ breadcrumb-title: Campaign Web User Interface
     + [Deduplication](workflows/activities/deduplication.md)
     + [Email, SMS, Push, Direct mail](workflows/activities/channels.md)
     + [Enrichment](workflows/activities/enrichment.md)
+    + [External signal](workflows/activities/external-signal.md)
     + [Extract file](workflows/activities/extract-file.md)
     + [Fork](workflows/activities/fork.md)
     + [Incremental query](workflows/activities/incremental-query.md)
