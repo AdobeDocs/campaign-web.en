@@ -109,7 +109,7 @@ Follow these steps to configure the sample file used to define the expected file
 
 >[!CAUTION]
 >
->Before loading the target file, ensure it adheres to the sample file formatting.Any discrepancies in the file format, column structure, or number of columns may lead to errors during workflow execution.
+>Before loading the target file, ensure it adheres to the sample file formatting.  Any discrepancies in the file format, column structure, or number of columns may lead to errors during workflow execution.
 
 1. In the **[!UICONTROL Target file]** section, specify the action to perform when retrieving the file to upload on the server.
 
