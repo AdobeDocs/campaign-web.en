@@ -15,11 +15,16 @@ description: Learn how to use the Incremental query workflow activity
 >title="Incremental query history"
 >abstract="Incremental query history"
 
-The **Incremental query** activity is a **Targeting** activity which allows you to query the database using the Query modeler. Each time this activity is executed, the results from the previous executions are excluded. This allows you to target only new elements.
+The **Incremental query** activity is a **Targeting** activity which allows you to query the database on a scheduled basis. Each time this activity is executed, the results from the previous executions are excluded. This allows you to target only new elements.
 
-The Incremental query activity can be used for various types of uses:
+>[!NOTE]
+>
+>While the Campaign client console integrates the **[!UICONTROL Incremental query]** activity with a built-in scheduler, the Campaig Web User Interface treats this functionality separately. To schedule incremental query executions, you must add a **[!UICONTROL Scheduler]** activity in the workflow before the **[!UICONTROL Incremental query]** activity. [Learn how to configure a Scheduler activity](scheduler.md)
+
+The **[!UICONTROL Incremental query]** activity can be used for various types of uses:
+
 * Segmenting individuals to define the target of a message, audience, etc.
-* Exporting data. For example, you can use an Incremental query activity to regularly export new logs in files. It can be useful if you want to use your log data in external reporting or BI tools.
+* Exporting data. For example, you can use the activity to regularly export new logs in files. It can be useful if you want to use your log data in external reporting or BI tools.
 
 The population already targeted by previous executions is stored in the workflow. This means that two workflows started from the same template do not share the same log. However, two tasks based on the same incremental query in the same workflow use the same log.
 
@@ -45,7 +50,9 @@ Follow these steps to configure the **Incremental query** activity:
 
         Records already targeted in previous executions can be logged a maximum number of days from the day they were targeted. To do this, use the **[!UICONTROL History in days]** field. If this value is zero, the recipients are never purged from the log.
 
-    * **[!UICONTROL Use a date field]**: This option allows you to exclude results from previous executions based on a specific date field. To do this, choose the desired date field from the list of attributes available for the selected targeting dimension. The next executions will only take into account the results having the specified date field greater or equal to the last execution date of the Incremental query activity.
+    * **[!UICONTROL Use a date field]**: This option allows you to exclude results from previous executions based on a specific date field. To do this, choose the desired date field from the list of attributes available for the selected targeting dimension. On the next executions of the workflow, only data that has been modified or created after the last execution date will be retrieved.
+
+        After the first execution of the workflow, the **[!UICONTROL Last execution date]** field becomes available. It specifies the date that will be used for the next execution, and is automatically updated every time the workflow is executed. You still have the possibility to override this value by manually entering a new one so that it fits your needs.
 
     >[!NOTE]
     >
