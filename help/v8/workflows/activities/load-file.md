@@ -24,14 +24,13 @@ exl-id: 230177e2-1926-451a-8a66-0db962ada514
 The **Load file** activity is a **Data management** activity. Use this activity to work with profiles and data stored in an external file. Profiles and data are not added to the database, but all fields in the input file are available for [personalization](../../personalization/gs-personalization.md), or to update profiles, or any other table. 
 
 >[!NOTE]
->Supported file formats are: text (TXT) and comma-separated value (CSV).
+>Supported file formats are: text (TXT) and comma-separated value (CSV). You can load files with a maximum size of 50MB.
 
 This activity can be used with a [Reconciliation](reconciliation.md) activity to link unidentified data to existing resources. For example, the **Load file** activity can be placed before a **Reconciliation** activity if you import non-standard data into the database. 
 
 ## Configure the Load file activity {#load-configuration}
 
 The **Load file** activity configuration involves two steps. First, you need to define the expected file structure by uploading a sample file. Once this is done, you can specify the origin of the file whose data will be imported. Follow the steps below to configure the activity.
-
 
 ![](../assets/workflow-load-file.png)
 
@@ -61,6 +60,8 @@ Follow these steps to configure the sample file used to define the expected file
     >[!NOTE]
     >
     >The data of the sample file is used for configuring the activity but is not imported. We recommend using a sample file containing little data. The file format must be aligned with this [sample file](../../audience/file-audience.md#sample-file).
+
+1. A preview of the sample file is shown, displaying a maximum of 30 lines.
 
 1. In the **[!UICONTROL File type]** drop-down list, specify if the file is using delimited columns or fixed width columns.
 
@@ -106,7 +107,11 @@ Follow these steps to configure the sample file used to define the expected file
 >title="Load File Command"
 >abstract="Allowing arbitrary command for pre-processing is a security concern, disable security option XtkSecurity_Disable_Preproc to force the use of a predefined list of commands."
 
-1. In the **[!UICONTROL Target file]** section, specify the action to perform when retrieving the file to upload on the server:
+>[!CAUTION]
+>
+>Before loading the target file, ensure it adheres to the sample file formatting.Any discrepancies in the file format, column structure, or number of columns may lead to errors during workflow execution.
+
+1. In the **[!UICONTROL Target file]** section, specify the action to perform when retrieving the file to upload on the server.
 
     * **[!UICONTROL Upload file from local machine]**: Select the file to upload from your machine.
 
@@ -120,7 +125,7 @@ Follow these steps to configure the sample file used to define the expected file
 
     >[!NOTE]
     >
-    >If you are accessing a **[!UICONTROL Load file]** activity that has already been setup in the client console, an additional **[!UICONTROL Target database]** section is displays if you have configured the activity to upload the file to an external database. It allows you to specify if you want to upload the file on the Campaign server or on the external database.
+    >If you are accessing a **[!UICONTROL Load file]** activity that has already been setup in the client console, an additional **[!UICONTROL Target database]** section displays if you have configured the activity to upload the file to an external database. It allows you to specify if you want to upload the file on the Campaign server or on the external database.
 
 ### Additional options {#options}
 
