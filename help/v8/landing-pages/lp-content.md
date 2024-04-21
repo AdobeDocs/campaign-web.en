@@ -93,11 +93,18 @@ To define specific content that will enable users to select and submit their cho
 
 1. If you want to make additional updates upon submitting the form, select **[!UICONTROL Additional updates]**, and select the item you want to update:
     * A subscription service - in that case, define if you want to opt in or opt out users upon submitting the form.
+
+        >[!NOTE]
+        >
+        >Do not select this option if you would like to use several services with the landing page.
+
     * The email addressed used when filling the form.
     * All channels - upon submitting the form, users will be opted in or out (depending on the selected template) to/from all communications from your brand on all channels.
     * A field from the database - select a field from the attributes list, and define if it should be set to True or False upon submitting the form.
 
     ![](assets/lp-form-additionnal-updates.png)
+
+1. Use the **[!UICONTROL From URL]** option to allow the landing page to be used for several services. If you select this option, you must reference the landing page when configuring the services. [Learn more](../audience/manage-services.md#create-service) <!--+select the correct option i.e. Landing page in the email when inserting a link?? Select Specific service to link the landing page to a single service. vs Select Specified service in the URL option to allow the landing page to be used for several services.-->
 
 1. Save your content to go back to the [landing page properties](create-lp.md#create-landing-page).
 
