@@ -308,11 +308,6 @@ Deprecated IDs - to remove in GA: -->
 <!-- Subscription activity-->
 
 >[!CONTEXTUALHELP]
->id="acw_subscriptions_defaultlp"
->title="Default landing page"
->abstract="Select the default landing page associated to this subscription service."
-
->[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"
 >title="Subscription service activity"
 >abstract="Use Adobe Campaign to create and monitor your services such as newsletters, and to check the subscriptions or unsubscriptions to these services. Subscriptions only apply to email and SMS delivery."

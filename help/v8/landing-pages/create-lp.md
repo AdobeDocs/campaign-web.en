@@ -98,7 +98,7 @@ To create a landing page, follow these steps:
 
     * The **[!UICONTROL Skip preloading if no ID]** option must be selected if you do not wish to update profiles. In this case, each profile entered will be added to the database after approval of the form. This option is used, for example, when the form is posted on a website.
 
-    * The **[!UICONTROL Authorize unidentified visitors]** option allows any visitor to access the landing page. If you unselect this option, only identified users can access and/or<!--cannot access the LP or submit the form?--> submit the form. This option is unchecked by default for **[!UICONTROL Unsubscription]** and **[!UICONTROL Denylist]** templates and cannot be modified<!--as per ticket - TBC? in that case, is it greyed out or doesn't display?-->.
+    * The **[!UICONTROL Authorize absence of ID / unidentified visitors]** option allows any visitor to access the landing page. If you unselect this option, only identified users can access and/or<!--cannot access the LP or submit the form?--> submit the form. This option is unchecked by default for **[!UICONTROL Unsubscription]** and **[!UICONTROL Denylist]** templates and cannot be modified<!--as per ticket - TBC? in that case, is it greyed out or doesn't display?-->.
 
 1. A landing page can have subsequent pages. To add pages, browset the **[!UICONTROL Pages]** section, and click the **[!UICONTROL Edit content]** button for each page that you want to design for this landing page. The content of each page is already pre-filled. Edit them as needed. [Learn more](lp-content.md)
 

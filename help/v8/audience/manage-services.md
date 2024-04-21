@@ -47,6 +47,11 @@ To access subscription services available for your platform, follow the steps be
 >title="Select a confirmation message"
 >abstract="When a user subscribes to or unsubscribes from a service, you can send a confirmation message. Select the templates to use for that message."
 
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_defaultlp"
+>title="Default landing page"
+>abstract="Select the default landing pages associated with this service."
+
 To create a subscription service, follow the steps below.
 
 1. Select the **[!UICONTROL Create subscription service]** button.
@@ -75,9 +80,15 @@ To create a subscription service, follow the steps below.
 
 1. Click **[!UICONTROL Save and review]**. The new service is added to the **[!UICONTROL Subscription services]** list.
 
+1. You can also select the default subscription and unsubscription landing pages associated with this service.<!--explain what it does: so when you select a LP in the email, you can select the service??-->
+
+    ![](assets/service-create-default-lp.png){zoomable="yes"}
+
 You can now:
 
-* Add subscribers to this service, and unsubscribe profiles. [Learn more](../msg/send-to-subscribers.md)
+* Manually add subscribers to this service, and unsubscribe profiles. [Learn more](../audience/manage-subscribers.md)
+
+* Invite your customers to subscribe to this service through a landing page. [Learn more](../landing-pages/lp-use-cases.md#lp-subscription)
 
 * Send messages to the subscribers of this service. [Learn how](../msg/send-to-subscribers.md)
 
