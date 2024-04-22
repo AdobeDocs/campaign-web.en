@@ -72,9 +72,11 @@ In the following example, we will leverage the AI assistant to craft compelling 
 
 1. Navigate to the **[!UICONTROL Refine]** option within the **[!UICONTROL Preview]** window to access additional customization features:
 
+    * **[!UICONTROL Use as reference content]**: The chosen variant will serve as the reference content for generating other results.
+
     * **[!UICONTROL Rephrase]**: The AI Assistant can rephrase your message in different ways, keeping your writing fresh and engaging for diverse audiences.
 
-    * **[!UICONTROL Use simple Language]**: Leverage the AI Assistant to simplify your language, ensuring clarity and accessibility for a wider audience.
+    * **[!UICONTROL Use simpler language]**: Leverage the AI Assistant to simplify your language, ensuring clarity and accessibility for a wider audience.
 
     ![](assets/push-genai-5.png){zoomable="yes"}
 
