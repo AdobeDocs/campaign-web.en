@@ -55,7 +55,9 @@ You can duplicate or delete a landing page. Click the ellipsis next to a landing
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_preload"
 >title="Define pre-loading options"
->abstract="When the **Pre-fill with the data referenced in the form** option is selected, if the visitor of the landing page matches a profile from the database, the profile's information is automatically preloaded in the form. With the **Skip preloading if no ID** option selected, each profile entered will be added to the database after approval of the form."
+>abstract="When the **Pre-fill with the data referenced in the form** option is selected, if the visitor of the landing page matches a profile from the database, the profile's information is automatically preloaded in the form. With the **Authorize absence of ID** option selected, any visitor, including anonymous users, can access the landing page."
+
+<!--With the **Skip preloading if no ID** option selected, each profile entered will be added to the database after approval of the form."-->
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_storage"
@@ -92,13 +94,21 @@ To create a landing page, follow these steps:
 
     ![](assets/lp-properties.png){zoomable="yes"}
 
-1. In the **[!UICONTROL Data preload]** section, the two options below are selected by default:
+1. In the **[!UICONTROL Data preload]** section, the two options below are available:
 
     * When the **[!UICONTROL Pre-fill with the data referenced in the form]** option is selected, if the visitor of the landing page matches a profile from the database, the profile's information is automatically preloaded in the form. The user just has to fill in the missing fields, and update the existing values if needed. This allows to merge data for existing profiles instead of creating duplicates.
 
-    * The **[!UICONTROL Skip preloading if no ID]** option must be selected if you do not wish to update profiles. In this case, each profile entered will be added to the database after approval of the form. This option is used, for example, when the form is posted on a website.
+        >[!NOTE]
+        >
+        >This option is selected by default for all landing page templates.
 
-    * The **[!UICONTROL Authorize absence of ID / unidentified visitors]** option allows any visitor to access the landing page. If you unselect this option, only identified users can access and/or<!--cannot access the LP or submit the form?--> submit the form. This option is unchecked by default for **[!UICONTROL Unsubscription]** and **[!UICONTROL Denylist]** templates and cannot be modified<!--as per ticket - TBC? in that case, is it greyed out or doesn't display?-->.
+    <!--* The **[!UICONTROL Skip preloading if no ID]** option must be selected if you do not wish to update profiles. In this case, each profile entered will be added to the database after approval of the form. This option is used, for example, when the form is posted on a website.-->
+
+    * The **[!UICONTROL Authorize absence of ID]** option allows any visitor to access the landing page. Unselecting this option prevents anonymous visitors to use it, meaning that only identified users can access and/or<!--cannot access the LP or submit the form?--> submit the form.
+    
+        >[!NOTE]
+        >
+        >For the **[!UICONTROL Acquisition]** and **[!UICONTROL Subscription]** templates, this option is selected by default. For the **[!UICONTROL Unsubscription]** and **[!UICONTROL Denylist]** templates, this option is unselected by default and cannot be modified<!--as per ticket - TBC? in that case, is it greyed out or doesn't display?-->.
 
 1. A landing page can have subsequent pages. To add pages, browset the **[!UICONTROL Pages]** section, and click the **[!UICONTROL Edit content]** button for each page that you want to design for this landing page. The content of each page is already pre-filled. Edit them as needed. [Learn more](lp-content.md)
 
