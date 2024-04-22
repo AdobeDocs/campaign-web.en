@@ -44,7 +44,7 @@ This handy tool provides intelligent suggestions for refining your content, ensu
 
     >[!IMPORTANT]
     >
-    > Your prompt must always be tied to a specific context by uploading a brand asset or enabling the **[!UICONTROL Enhance current content]** option.
+    > Your prompt must always be tied to your current content.
 
 1. Fine tune the content by describing what you want to generate in the **[!UICONTROL Prompt]** field. 
 
