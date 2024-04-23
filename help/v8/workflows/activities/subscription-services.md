@@ -39,18 +39,26 @@ Follow these steps to configure the **Subscription services** activity:
 1. Select the operation to be executed: **Subscribe** or **Unsubscribe**. 
 
     If the service is defined in the inbound transition, you can choose how to retrieve the operation to perform:
-    
-    ![](../assets/workflow-subscription-service-inbound.png)
 
     * **Select a specific operation type**: Manually select the operation to perform (**Subscribe** or **Unsubscribe**)
 
-    * **Select an operation type from a path of inbound transition**: Use the operation specified in the inbound transition. For example, you can import a file which specifies the operation to perform for each line in an "operation" column. 
+    * **Select an operation type from a path of inbound transition**: Select the column of the inbound data that specifies the operation to perform for each record. For example, you can import a file which specifies the operation to perform for each line in an "operation" column.
 
       >[!NOTE]
       >
       >Only Boolean or Integer fields can be selected here. Make sure that the data containing the operation to perform matches this format. For example, if you are loading data from a Load file activity, check that you have correctly set the format of the column containing the operation in the **[!UICONTROL Load file]** activity. An example is presented in [this section](#uc2).
 
+    ![](../assets/workflow-subscription-service-inbound.png)
+
 1. To notify recipients that they are subscribed to or unsubscribed from the selected service, toggle the **[!UICONTROL Send a confirmation message]** option on. The content of this notification is defined in a delivery template associated to the information service.
+
+1. If you are using data from an inbound transition, an **[!UICONTROL Additional information]** section displays, allowing you to specify the data and origin of the subscription for each record. You can leave this section empty, in which case no date or origin will be set when running the workflow.
+
+  If the inbound data contain a column indicating the subscription date of the profile to the service, you can select it in the **[!UICONTROL Date]** field.
+
+  In the **[!UICONTROL Origin path]** field, define the origin of the subscription. You can set it to one of the fields of the inbound data or to a constant value of your choice by checking the **[!UICONTROL Set a constant as origin]** option. 
+
+  ![](../assets/workflow-subscription-service-additional.png)
 
 1. To add an outbound transition after the activity, toggle the **[!UICONTROL Generate an outbound transition]** option on.
 
