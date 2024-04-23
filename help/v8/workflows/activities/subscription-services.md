@@ -36,12 +36,9 @@ Follow these steps to configure the **Subscription services** activity:
 
     ![](../assets/workflow-subscription-service.png)
 
-1. Select the operation to be executed: **Subscribe** or **Unsubscribe**. 
+1. Select the operation to perform: **Subscribe** or **Unsubscribe**. 
 
-
-    ![](../assets/workflow-subscription-service-inbound.png)
-
-    If the service is defined in the inbound transition, you can choose how to retrieve the operation to perform:
+    If the service is defined in the inbound transition, you can choose how to retrieve this operation:
 
     * **Select a specific operation type**: Manually select the operation to perform (**Subscribe** or **Unsubscribe**)
 
@@ -49,7 +46,9 @@ Follow these steps to configure the **Subscription services** activity:
 
       >[!NOTE]
       >
-      >Only Boolean or Integer fields can be selected here. Make sure that the data containing the operation to perform matches this format. For example, if you are loading data from a Load file activity, check that you have correctly set the format of the column containing the operation in the **[!UICONTROL Load file]** activity. An example is presented in [this section](#uc2).
+      >Only boolean or integer fields can be selected here. Make sure that the data containing the operation to perform matches this format. For example, if you are loading data from a Load file activity, check that you have correctly set the format of the column containing the operation in the **[!UICONTROL Load file]** activity. An example is presented in [this section](#uc2).
+
+    ![](../assets/workflow-subscription-service-inbound.png)
 
 1. To notify recipients that they are subscribed to or unsubscribed from the selected service, toggle the **[!UICONTROL Send a confirmation message]** option on. The content of this notification is defined in a delivery template associated to the information service.
 
