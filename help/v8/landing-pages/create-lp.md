@@ -104,7 +104,7 @@ To create a landing page, follow these steps:
 
     <!--* The **[!UICONTROL Skip preloading if no ID]** option must be selected if you do not wish to update profiles. In this case, each profile entered will be added to the database after approval of the form. This option is used, for example, when the form is posted on a website.-->
 
-    * The **[!UICONTROL Authorize absence of ID]** option allows any visitor to access the landing page. Unselecting this option prevents anonymous visitors to use it, meaning that only identified users can access and/or<!--cannot access the LP or submit the form?--> submit the form.
+    * The **[!UICONTROL Authorize absence of ID]** option allows any visitor to access the landing page. Unselecting this option prevents anonymous visitors to use it, meaning that only identified users can access and submit the form.
     
         >[!NOTE]
         >
@@ -114,11 +114,15 @@ To create a landing page, follow these steps:
 
     ![](assets/lp-pages.png){zoomable="yes"}
 
-1. The **[!UICONTROL Update the preloaded record]** option is selected by default. It enables to update the profiles stored in the database via the landing page. The preloading box lets you indicate how to find the record to be updated in the database. 
+1. In the **[!UICONTROL Storage]** section, the **[!UICONTROL Update the preloaded record]** option is selected by default. It enables to update the profiles stored in the database via the landing page. The preloading box lets you indicate how to find the record to be updated in the database. 
     
     You can also choose from the fields in the current context of the landing page, those that will be used to find the corresponding profile in the database. To do so, unselect the **[!UICONTROL Update the preloaded record]** option and check the desired fields under **[!UICONTROL Reconciliation options]**.
 
     ![](assets/lp-storage.png){zoomable="yes"}
+
+1. Create **[!UICONTROL Additional data]** to store internal data when the landing page is being submitted. This data is not visible to users who visit the page. Only constant values are taken into account.
+
+    ![](assets/lp-additional-data.png){zoomable="yes"}
 
 1. You can define a start date and an end date for your landing page. Select **[!UICONTROL Enable scheduling]** and set the dates.
 
@@ -167,6 +171,8 @@ To test your landing page, follow these steps:
 1. From the **[!UICONTROL Simulate]** screen, select one or more test profiles.
 
     The steps to select test profiles are the same as when testing a message. They are detailed in the [Preview and test](../preview-test/preview-test.md) section.
+
+1. When testing a dynamic landing page (with the **[!UICONTROL Service from URL]** option selected - [learn more](../landing-pages/create-lp.md#define-actions-on-form-submission)
 
 1. Select **[!UICONTROL Open preview]** to test your landing page.
 

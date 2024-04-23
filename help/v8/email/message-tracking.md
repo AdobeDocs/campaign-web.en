@@ -20,7 +20,25 @@ To insert links into your email content, follow the steps below:
 
 1. Select an element and click **[!UICONTROL Insert link]** from the contextual toolbar.
 
+1. Choose the type of link you want to create:
+
     ![](assets/message-tracking-insert-link.png){zoomable="yes"}
+
+    * **[!UICONTROL External link]**: Insert a link to an external URL.
+
+    * **[!UICONTROL Landing page]**: Insert a link to a landing page. If you select a dynamic landing page (with the **[!UICONTROL Service from URL]** option selected), you can select any service from the list. [Learn more ](../landing-pages/create-lp.md#define-actions-on-form-submission)
+
+        ![](assets/email-link-to-landing-page.png){zoomable="yes"}
+
+    * **[!UICONTROL Subscription link]**: Insert a link to a service. When users click the link, they will be directed to the subscription landing page referenced in the selected service. [Learn more ](../audience/manage-services.md#create-service)
+
+        ![](assets/service-create-default-lp-link.png){zoomable="yes"}
+
+    * **[!UICONTROL Unsubscription link]**: Insert a link to a service. When subscribers click the link, they will be directed to the unsubscription landing page referenced in the selected service. [Learn more ](../audience/manage-services.md#create-service)
+
+    <!--* **[!UICONTROL Mirror page]**: Add a link to display the email content in a web browser. [Learn more]-->
+
+1. Enter the desired URL in the corresponding field, or select a landing page or a service, and define the link settings and styles. 
 
 1. Add a **[!UICONTROL Label]** and a **[!UICONTROL Link]**.
 

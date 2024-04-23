@@ -80,9 +80,15 @@ To create a subscription service, follow the steps below.
 
 1. Click **[!UICONTROL Save and review]**. The new service is added to the **[!UICONTROL Subscription services]** list.
 
-1. You can also select the default subscription and unsubscription landing pages associated with this service. With this option, users can subscribe to or unsubscribe from the service upon submitting the selected landing page form.<!--To do so, you must have selected the **[!UICONTROL From URL]** option in the corresponding LP? This is what ACS doc says. Explain what it does: so when you select a LP in the email, you can select the service?? If you don't select this option in the LP content, can you reference the same LP in several services?-->
+1. You can also select the default subscription and unsubscription landing pages associated with this service.
 
     ![](assets/service-create-default-lp.png){zoomable="yes"}
+
+    Once done, when [inserting a link](../email/message-tracking.md) in an email, select **[!UICONTROL Subscription link]** or **[!UICONTROL Unsubscription link]**. Upon clicking that link, users will be directed to the subscription or unsubscription landing page referenced in the service. <!--After submitting the form, they will be subscribed to / unsubscribed from the service.-->
+
+    ![](assets/service-create-default-lp-link.png){zoomable="yes"}
+
+1. Save and review your changes.
 
 You can now:
 
