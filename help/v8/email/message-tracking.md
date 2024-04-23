@@ -30,11 +30,11 @@ To insert links into your email content, follow the steps below:
 
         ![](assets/email-link-to-landing-page.png){zoomable="yes"}
 
-    * **[!UICONTROL Subscription link]**: Insert a link to a service. When users click the link, they will be directed to the subscription landing page referenced in the selected service. [Learn more ](../audience/manage-services.md#create-service)
+    * **[!UICONTROL Subscription link]**: Insert a link to a subscription service. When users click the link, they will be directed to the subscription landing page referenced in the selected service. [Learn more ](../audience/manage-services.md#create-service)
 
         ![](assets/service-create-default-lp-link.png){zoomable="yes"}
 
-    * **[!UICONTROL Unsubscription link]**: Insert a link to a service. When subscribers click the link, they will be directed to the unsubscription landing page referenced in the selected service. [Learn more ](../audience/manage-services.md#create-service)
+    * **[!UICONTROL Unsubscription link]**: Insert a link to an unsubscription service. When subscribers click the link, they will be directed to the unsubscription landing page referenced in the selected service. [Learn more ](../audience/manage-services.md#create-service)
 
     <!--* **[!UICONTROL Mirror page]**: Add a link to display the email content in a web browser. [Learn more]-->
 
