@@ -20,15 +20,13 @@ description: Learn how to use the Subscription services workflow activity
 >title="Generate an outbound transition"
 >abstract="Toggle the **Generate an outbound transition** option to add a transition after the activity."
 
-The **Subscription services** activity is a **Data Management** activity. It allows you to create or delete a subscription to an information service for the population specified in the transition. You can use this activity after targeting profiles or importing a file with identified data.
+The **Subscription services** activity is a **Data Management** activity. It allows you to create or delete a subscription to an information service for the population specified in the transition.
 
 ## Configure the Subscription services activity {#subscription-services-configuration}
 
 Follow these steps to configure the **Subscription services** activity:
 
-![](../assets/workflow-subscription-service.png)
-
-1. Add a **Subscription services** activity into your workflow.
+1. Add a **Subscription services** activity into your workflow. You can use this activity after targeting profiles or importing a file with identified data.
 
 1. Select the service for which you would like to manage the subscriptions using one of the following options:
 
@@ -36,7 +34,12 @@ Follow these steps to configure the **Subscription services** activity:
 
     * **[!UICONTROL From inbound transition]**: Use the service specified in the inbound transition. For example, you can import a file which specifies the service to manage for each line. The service on which to perform the operation is then dynamically selected for each profile.
 
+    ![](../assets/workflow-subscription-service.png)
+
 1. Select the operation to be executed: **Subscribe** or **Unsubscribe**. 
+
+
+    ![](../assets/workflow-subscription-service-inbound.png)
 
     If the service is defined in the inbound transition, you can choose how to retrieve the operation to perform:
 
@@ -48,17 +51,15 @@ Follow these steps to configure the **Subscription services** activity:
       >
       >Only Boolean or Integer fields can be selected here. Make sure that the data containing the operation to perform matches this format. For example, if you are loading data from a Load file activity, check that you have correctly set the format of the column containing the operation in the **[!UICONTROL Load file]** activity. An example is presented in [this section](#uc2).
 
-    ![](../assets/workflow-subscription-service-inbound.png)
-
 1. To notify recipients that they are subscribed to or unsubscribed from the selected service, toggle the **[!UICONTROL Send a confirmation message]** option on. The content of this notification is defined in a delivery template associated to the information service.
 
 1. If you are using data from an inbound transition, an **[!UICONTROL Additional information]** section displays, allowing you to specify the data and origin of the subscription for each record. You can leave this section empty, in which case no date or origin will be set when running the workflow.
 
-  If the inbound data contain a column indicating the subscription date of the profile to the service, you can select it in the **[!UICONTROL Date]** field.
+    * If the inbound data contain a column indicating the subscription date of the profile to the service, you can select it in the **[!UICONTROL Date]** field.
 
-  In the **[!UICONTROL Origin path]** field, define the origin of the subscription. You can set it to one of the fields of the inbound data or to a constant value of your choice by checking the **[!UICONTROL Set a constant as origin]** option. 
+    * In the **[!UICONTROL Origin path]** field, define the origin of the subscription. You can set it to one of the fields of the inbound data or to a constant value of your choice by checking the **[!UICONTROL Set a constant as origin]** option. 
 
-  ![](../assets/workflow-subscription-service-additional.png)
+    ![](../assets/workflow-subscription-service-additional.png)
 
 1. To add an outbound transition after the activity, toggle the **[!UICONTROL Generate an outbound transition]** option on.
 
