@@ -163,3 +163,18 @@ To measure the effectiveness of your subscription services for SMS and email cha
     * The **[!UICONTROL Overall evolution of subscriptions]** graph shows the breakdown by period, including subscriptions, unsubcriptions, the evolution in numbers and the loyalty percentage.<!--what is Registered?-->
 
 1. Use the **[!UICONTROL Reload]** button to retrieve the last values from the execution and schedule of the tracking workflow.
+
+<!--## Best practices {#best-practices}
+
+It is recommended to send a confirmation message to the new subscribers of a service. To do so, create a delivery template and select it when creating a subscription service. [Learn more](#create-confirmation-message).
+
+Send communications targeting your subscribers only. [Learn how](../msg/send-to-subscribers.md)
+
+Always provide your subscribers the capability to unsubscribe from your services. [Learn how](consent.md#email-opt-out)
+
+* When creating a confirmation message:
+
+    * Do not select an audience for this delivery.
+
+    * Select the **[!UICONTROL Subscriptions]** target mapping. Otherwise, your subscribers will not receive the confirmation message.
+-->
