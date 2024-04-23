@@ -10,7 +10,7 @@ description: Learn how to use the External signal workflow activity
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal"
 >title="External Signal"
->abstract="The **External signal** activity lets you trigger the execution of a workflow deom another workflow or an API call."
+>abstract="The **External signal** activity lets you trigger the execution of a workflow from another workflow or an API call."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal_parameters"

@@ -8,7 +8,7 @@ description: Learn how to use the Extract file workflow activity
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile"
 >title="Extract file"
->abstract="Extract file activity"
+>abstract="The **Extract file** activity allows you to export data from Adobe Campaign in the form of an external file. The data can then be exported to a server location such as SFTP, Cloud storage or your campaign server using a Transfer file activity."
 
 The **Extract file** activity is a **Data management** activity. Use this activity to export data from Adobe Campaign in the form of an external file. The data can then be exported to a server location such as SFTP, Cloud storage or your campaign server using a Transfer file activity.
 
