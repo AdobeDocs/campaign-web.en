@@ -6,7 +6,16 @@ description: Discover Campaign Web User Interface
 
 # Welcome to Adobe Campaign Web{#welcome}
 
+<!--
 We are thrilled to annonce that you, as a Campaign Standard user, can now benefit from the new version of Adobe Campaign Web User Interface. The migration is seemless and will allow you to use all the intuitive features designed to simplify the creation of personalized cross-channel campaigns. Campaign Web User Interface also brings a connected canvas with Adobe Experience Platform for a unified experience.
+-->
+
+We are excited to announce that Adobe Campaign Standard users are now eligible to transition to Adobe Campaign Managed Cloud Services v8. This transition brings many benefits:
+
+* Robust IT Infrastructure: With Managed Cloud Services v8, clients can leverage a more robust IT infrastructure, ensuring enhanced performance, reliability, and scalability for their campaigns.
+* Enhanced Support: Our Managed Cloud Services team is committed to providing top-notch assistance to ensure a smooth transition and ongoing monitoring of your platform. From troubleshooting to proactive maintenance, we've got you covered.
+* Integration with Adobe Experience Platform: Managed Cloud Services v8 seamlessly connects with Adobe Experience Platform, empowering clients to leverage the full potential of their data and deliver personalized, impactful campaigns across channels.
+* Consistent User Interface and Experience: Rest assured, transitioning to Managed Cloud Services v8 won't disrupt your workflow. You'll continue to enjoy the familiar user interface and user experience, ensuring a minimal learning curve for your team.
 
 <!--
 As a Campaign Standard user, we now offer you a way to migrate to Adobe Campaign v8. You will benefit from both the new Campaign Web interface and the v8 console.
@@ -14,7 +23,7 @@ As a Campaign Standard user, we now offer you a way to migrate to Adobe Campaign
 
 ## Key capabilities {#key-features}
 
-Here are the diffent key capabilities that Campaign v8 offer:
+Let's dig deeper in what key capabilities Campaign v8 will offer you:
 
 * Modern, friendly, and unified experience. [Learn more](../get-started/connect-to-campaign.md).
 * New powerful capabilities and seamless processes. [Learn more](../get-started/user-interface.md)
