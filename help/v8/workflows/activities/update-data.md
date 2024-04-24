@@ -23,7 +23,7 @@ Toggle the **Generate an outbound transition for rejects** option to add an outb
 
 ## Configure the Update data activity{#update-data-configuration}
 
-To configure the **Update data** activity, start by adding the activity to your workflow and defining a label.
+To configure the **Update data** activity, start by adding the activity to your workflow and define a label.
 
 ![](../assets/workflow-update-data.png)
 
@@ -31,7 +31,7 @@ To configure the **Update data** activity, start by adding the activity to your 
 
 The **Operation type** field lets you choose the process to be carried out on the data in the database:
 
-* **Insert or update**: insert data or update it if it the records already exist in the database.
+* **Insert or update**: insert data or update it if the records already exist in the database.
 * **Insert**: insert data only. The records that already exist are not updated. If reconciliation criteria are defined, only the non-reconciled records will be added.
 * **Update**: update data of the records that already exist in the database only.
 * **Delete**: delete data.
@@ -42,7 +42,7 @@ The **Batch size** field lets you select the number of inbound transition elemen
 
 This section allows you to specify how to identify the records in the database:
 
-* If data entries relate to an existing targeting dimension, select the **Using the targeting dimension** option and select from in the **Targeting dimenstion to update** field.
+* If data entries relate to an existing targeting dimension, select the **Using the targeting dimension** option and select it from in the **Targeting dimension to update** field.
 * You can also select the **Using custom links** and specify one or more links which will enable identification of the data in the database 
 * If the operation type selected requires an update, you must use the **Using reconciliation rules** option.
 
@@ -56,7 +56,7 @@ During an **Insert or update** operation type, you can individually select the o
 
 ### Advanced options
 
-The Advanced options lets you specify additional options to deal with updating data as well as managing duplicates.
+The **Advanced options** lets you specify additional options to deal with updating data as well as managing duplicates.
 
 <!--
 * **Disable automatic key management**

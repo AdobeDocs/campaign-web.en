@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: Migrating from Campaign Standard to Adobe Campaign Web
+title: Transition from Campaign Standard to Adobe Campaign Web
 description: Discover Campaign Web User Interface
 ---
 
@@ -39,7 +39,7 @@ Let's dig deeper in what key capabilities Campaign v8 will offer you:
 
 ## Console and Web interface {#console}
 
-As a Campaign v8 user, you will have access to both the new Campaign Web interface and the v8 console. Data and settings are synchronized from an environment to another. All your data and settings available in the client console is visible in the Campaign Web user interface, from the Explorer left navigation. 
+As a Campaign v8 user, you will have access to both the new Campaign Web interface and the v8 console. Data and settings are synchronized from an environment to another. All your data and settings available in the client console is visible in the Campaign Web user interface, from the Explorer left navigation. [Learn more](../get-started/user-interface.md#user-interface-explorer)
 
 Supported and unsupported capabilities and interoperability between Campaign Web user interface and Campaign client console [in this page](../get-started/capability-matrix.md)
 
@@ -54,7 +54,7 @@ Most concepts are similar between Campaign Web interface and Campaign Standard. 
 
 ## New features {#new-features}
 
-For you to be able to migrate, we've added key capabilities from Campaign Standard to v8:
+For you to be able to transition, we've added key capabilities from Campaign Standard to v8:
 
 * Dynamic Reporting: Dynamic Reporting provides fully customizable and real-time reports to measure the impact of your marketing activities. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks.
 
