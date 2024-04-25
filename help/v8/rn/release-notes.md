@@ -47,7 +47,7 @@ This new activity allows you to query the database on a scheduled basis. Each ti
 
 >[!AVAILABILITY]
 >
->These features are released in Limited Availability are available only for Adobe Campaign Standard users.
+>The following capabilities are in Limited Availability (LA). They are restricted to customers migrating from Adobe Campaign Standard to Adobe Campaign v8, and cannot be deployed on any other environment.
 
 * **Branding**: Technical administrators can now define one or several brands to centralize the parameters that affect a brand’s identity. This includes the brand logo, the domain of the landing pages’ access URL, or message tracking settings. You can now create these brands and link them to messages or landing pages. This configuration is managed in templates.
 * **Dynamic Reporting**: The Dynamic report feature provides fully customizable and real-time reports to measure the impact of your marketing activities within your Adobe Campaign Web Interface instance.
