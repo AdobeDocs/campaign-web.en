@@ -9,10 +9,6 @@ exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 
 Adobe Campaign Web user interface releases operate on a continuous delivery model which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
->[!AVAILABILITY]
->
->This version is available to all users starting [Campaign (console) v8.6 release](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html). Learn more about Adobe Campaign client console releases and upgrades in [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html){target="_blank"}.
-
 ## April release notes {#24-4-release}
 
 **Release date**: April 30, 2024
@@ -108,6 +104,10 @@ This new activity allows you to query the database on a scheduled basis. Each ti
 * Custom fields are additional attributes added to the out-of-the-box schemas through the Adobe Campaign console. In Campaign web, These custom fields are displayed in various screens, for example the details of a profile or a test profile. In the web user interface, you cannot create custom fields, but you can now modify the way they display. 
 
 ## March release notes {#24-3-release}
+
+>[!AVAILABILITY]
+>
+>This version is available to all users starting [Campaign (console) v8.6 release](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html). Learn more about Adobe Campaign client console releases and upgrades in [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html){target="_blank"}.
 
 **Release date**: March 19-20, 2024
 
