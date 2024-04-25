@@ -13,7 +13,7 @@ exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 
 Use Adobe Campaign Web to manage and create your services such as newsletters, and to check the subscriptions or unsubscriptions to these services.
 
-Several services can be defined in parallel, for example: newsletters for specific product categories, themes or areas of a web site, subscriptions to various types of alert messages, and real-time notifications.
+Several services can be defined in parallel, for example: newsletters for specific product categories, themes or areas of a web site, subscriptions to various types of alert messages, and real-time notifications. 
 
 >[!NOTE]
 >

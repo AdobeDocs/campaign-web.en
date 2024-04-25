@@ -26,7 +26,7 @@ To insert links into your email content, follow the steps below:
 
     * **[!UICONTROL External link]**: Insert a link to an external URL.
 
-    * **[!UICONTROL Landing page]**: Insert a link to a landing page. If you select a dynamic landing page (with the **[!UICONTROL Service from URL]** option selected), you can select any service from the list. [Learn more ](../landing-pages/create-lp.md#define-actions-on-form-submission)
+    * **[!UICONTROL Landing page]**: Insert a link to a landing page. If you select a dynamic landing page (with the **[!UICONTROL Service from URL]** option selected), you can select any service from the list. [Learn more ](../landing-pages/create-lp.md#define-actions-on-form-submission) 
 
         ![](assets/email-link-to-landing-page.png){zoomable="yes"}
 

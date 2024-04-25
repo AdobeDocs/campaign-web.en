@@ -11,7 +11,7 @@ exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
 >title="Create and manage landing pages"
 >abstract="Adobe Campaign allows you to create, design, and share landing pages to direct your users to online web pages where you can manage acquisition, subscription/unsubscription and denylist use cases, based on built-in templates."
 
-The Campaign Web user interface allows you to create, design, and publish landing pages. Once published, you can insert a link to your form in a delivery. After the recipients click that link, they are directed to the corresponding landing page.
+The Campaign Web user interface allows you to create, design, and publish landing pages. Once published, you can insert a link to your form in a delivery. After the recipients click that link, they are directed to the corresponding landing page. 
 
 [!DNL Adobe Campaign] comes with four templates to manage the following use cases: **acquisition**, **subscription**, **unsubscription**, and **denylist**. [Learn more](lp-use-cases.md)
 
