@@ -32,47 +32,27 @@ Adobe Campaign Web user interface releases operate on a continuous delivery mode
 The Audit trail feature constantly records a detailed log of actions and events taking place within the Adobe Campaign instance in real-time. It offers a convenient method to access a chronological record of data, addressing queries such as: the status of workflows, the latest individuals to modify them, or the activities performed by users within the instance.
 -->
 
-**Features restricted to Campaign Standard users**
+**Capabilities restricted to Campaign Standard users**
 
 >[!AVAILABILITY]
 >
 >The following capabilities are in Limited Availability (LA). They are restricted to customers migrating **from Adobe Campaign Standard to Adobe Campaign v8**, and cannot be deployed on any other environment.
 
-* **Branding** -  As a Campaign Stardard migrated user, your technical administrators can now define one or several brands to centralize the parameters that affect a brand's identity. This includes the brand logo, the domain of the landing pages' access URL, or message tracking settings. You can create these brands and link them to messages or landing pages. This configuration is managed in templates.
+* **Branding** -  As a Campaign Standard migrated user, your technical administrators can now define one or several brands to centralize the parameters that affect a brand's identity. This includes the brand logo, the domain of the landing pages' access URL, or message tracking settings. You can create these brands and link them to messages or landing pages. This configuration is managed in templates.
 
-* **Rest APIs** - As a Campaign Stardard migrated user, you can use Rest APIs to create integrations for Adobe Campaign and build your own ecosystem by interfacing Adobe Campaign with the panel of technologies that you use. 
+* **Rest APIs** - As a Campaign Standard migrated user, you can use Rest APIs to create integrations for Adobe Campaign and build your own ecosystem by interfacing Adobe Campaign with the panel of technologies that you use. 
 
-* **Dynamic Reporting** - As a Campaign Stardard migrated user, you can access Dynamic Reporting which provides fully customizable and real-time reports to measure the impact of your marketing activities. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks.
+* **Dynamic Reporting** - As a Campaign Standard migrated user, you can access Dynamic Reporting which provides fully customizable and real-time reports to measure the impact of your marketing activities. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks.
+
+* **Landing Pages** - The following improvements to landing pages are only available to users transitioning from Campaign Standard:
+
+    * You can now reference a default subscription/unsubscription landing page when configuring a service. When designing an email, if you define a link to that landing page, users submitting the landing page form are automatically subscribed to or unsubscribed from this service.
+    * A new option in the landing page configuration allows anonymous visitors to access the landing page. If you unselect this option, only identified users can access and submit the form.
+    * A new option in the landing page configuration allows to store additional internal data when the landing page is being submitted.
+    * A new option enables to use a landing page for several services, making it dynamic. When adding a link to an email, if you select a dynamic landing page, you can select any service. If you select a landing page that has a specific service associated, this service will be automatically used (you cannot select another one).
+    * Conditional content is now supported in landing pages.
 
 ### General improvements {#improvements-24-4}
-
-**Landing pages**
-
-<!--**Autorize Unidentified Visitor in Landing Pages**: -->
-
-* A new option in the landing page configuration allows any visitor to access the landing page. If you unselect this option, only identified users can access and submit the form.
-
-<!--Landing pages - Storing additional data on submission-->
-
-* A new option in the landing page configuration allows to store additional internal data when the landing page is being submitted.
-
-<!--**Landing pages - Referencing landing page while configuring a service**: It is now possible to-->
-
-* You can now reference a default subscription/unsubscription landing page when configuring a service. When designing an email, if you define a link to that landing page, users submitting the landing page form are automatically subscribed to or unsubscribed from this service.
-
-<!--**Landing Pages: Linking Landing page to subscription service**: It is now possible to * **Branding + Landing Pages**: TBD-->
-
-* You can now link a landing page to a service so that profiles can subscribe to or unsubscribe from a specific service upon submitting the landing page.
-
-<!--**Landing Page - Option to call different services on a user action**: -->
-
-* A new option enables to use a landing page for several services, making it dynamic. When adding a link to an email, if you select a dynamic landing page, you can select any service. If you select a landing page that has a specific service associated, this service will be automatically used (you cannot select another one).
-
-<!--Landing Pages - Support conditional content-->
-
-* Conditional content is now supported in landing pages.
-
-**Workflows**
 
 <!--**Workflow - Copy/Paste into another tab**: -->
 
