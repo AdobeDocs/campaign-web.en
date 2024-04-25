@@ -39,7 +39,7 @@ Adobe Campaign Web user interface releases operate on a continuous delivery mode
 <!--
 * **Audit Trail**
 
-The Audit trail feature constantly records a detailed log of actions and events taking place within the Adobe Campaign instance in real-time. It offers a convenient method to access a chronological record of data, addressing queries such as: the status of workflows, the latest individuals to modify them, or the activities performed by users within the instance.	
+The Audit trail feature constantly records a detailed log of actions and events taking place within the Adobe Campaign instance in real-time. It offers a convenient method to access a chronological record of data, addressing queries such as: the status of workflows, the latest individuals to modify them, or the activities performed by users within the instance.
 -->
 **Update data activity** 
 
@@ -62,7 +62,7 @@ This new activity allows you to subscribe to or unsubscribe multiple profiles fr
 
 **Incremental query**
 
-This new activity allows you to query the database on a scheduled basis. Each time this activity is executed, the results from the previous executions are excluded. This allows you to target only new elements.	
+This new activity allows you to query the database on a scheduled basis. Each time this activity is executed, the results from the previous executions are excluded. This allows you to target only new elements.
 
 ### General improvements {#improvements-24-4}
 
@@ -70,15 +70,15 @@ This new activity allows you to query the database on a scheduled basis. Each ti
 
 <!--**Autorize Unidentified Visitor in Landing Pages**: -->
 
-* A new option in the landing page configuration allows any visitor to access the landing page. If you unselect this option, only identified users can access and submit the form.	
+* A new option in the landing page configuration allows any visitor to access the landing page. If you unselect this option, only identified users can access and submit the form.
 
 <!--Landing pages - Storing additional data on submission-->
 
-* A new option in the landing page configuration allows to store additional internal data when the landing page is being submitted.	
+* A new option in the landing page configuration allows to store additional internal data when the landing page is being submitted.
 
 <!--**Landing pages - Referencing landing page while configuring a service**: It is now possible to-->
 
-* You can now reference a default subscription/unsubscription landing page when configuring a service. When designing an email, if you define a link to that landing page, users submitting the landing page form are automatically subscribed to or unsubscribed from this service.	
+* You can now reference a default subscription/unsubscription landing page when configuring a service. When designing an email, if you define a link to that landing page, users submitting the landing page form are automatically subscribed to or unsubscribed from this service.
 
 <!--**Landing Pages: Linking Landing page to subscription service**: It is now possible to * **Branding + Landing Pages**: TBD-->
 
@@ -86,7 +86,7 @@ This new activity allows you to query the database on a scheduled basis. Each ti
 
 <!--**Landing Page - Option to call different services on a user action**: -->
 
-* A new option enables to use a landing page for several services, making it dynamic. When adding a link to an email, if you select a dynamic landing page, you can select any service. If you select a landing page that has a specific service associated, this service will be automatically used (you cannot select another one).	
+* A new option enables to use a landing page for several services, making it dynamic. When adding a link to an email, if you select a dynamic landing page, you can select any service. If you select a landing page that has a specific service associated, this service will be automatically used (you cannot select another one).
 
 <!--Landing Pages - Support conditional content-->
 
