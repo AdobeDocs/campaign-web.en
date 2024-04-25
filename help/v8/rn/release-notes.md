@@ -114,8 +114,6 @@ This new activity allows you to query the database on a scheduled basis. Each ti
 
 * Custom fields are additional attributes added to the out-of-the-box schemas through the Adobe Campaign console. In Campaign web, These custom fields are displayed in various screens, for example the details of a profile or a test profile. In the web user interface, you cannot create custom fields, but you can now modify the way they display. 
 
-* **Workflow - Extract file activity (post-processing zip)**: TBD
-
 ## March release notes {#24-3-release}
 
 **Release date**: March 19-20, 2024
