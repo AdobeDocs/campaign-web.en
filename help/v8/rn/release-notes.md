@@ -15,16 +15,6 @@ Adobe Campaign Web user interface releases operate on a continuous delivery mode
 
 ### New features {#new-24-4}
 
-**Features for Campaign Standard users**
-
->[!AVAILABILITY]
->
->These features are released in Limited Availability are available only for Adobe Campaign Standard users.
-
-* **Branding**: Technical administrators can now define one or several brands to centralize the parameters that affect a brand’s identity. This includes the brand logo, the domain of the landing pages’ access URL, or message tracking settings. You can now create these brands and link them to messages or landing pages. This configuration is managed in templates.
-* **Dynamic Reporting**: The Dynamic report feature provides fully customizable and real-time reports to measure the impact of your marketing activities within your Adobe Campaign Web Interface instance.
-* **Rest APIs**: As a Campaign Stardard migrated user, you can use Rest APIs to create integrations for Adobe Campaign and build your own ecosystem by interfacing Adobe Campaign with the panel of technologies that you use.
-
 <!--
 * **Audit Trail**
 
@@ -52,6 +42,16 @@ This new activity allows you to subscribe to or unsubscribe multiple profiles fr
 **Incremental query**
 
 This new activity allows you to query the database on a scheduled basis. Each time this activity is executed, the results from the previous executions are excluded. This allows you to target only new elements.
+
+**Features for Campaign Standard users**
+
+>[!AVAILABILITY]
+>
+>These features are released in Limited Availability are available only for Adobe Campaign Standard users.
+
+* **Branding**: Technical administrators can now define one or several brands to centralize the parameters that affect a brand’s identity. This includes the brand logo, the domain of the landing pages’ access URL, or message tracking settings. You can now create these brands and link them to messages or landing pages. This configuration is managed in templates.
+* **Dynamic Reporting**: The Dynamic report feature provides fully customizable and real-time reports to measure the impact of your marketing activities within your Adobe Campaign Web Interface instance.
+* **Rest APIs**: As a Campaign Stardard migrated user, you can use Rest APIs to create integrations for Adobe Campaign and build your own ecosystem by interfacing Adobe Campaign with the panel of technologies that you use.
 
 ### General improvements {#improvements-24-4}
 
