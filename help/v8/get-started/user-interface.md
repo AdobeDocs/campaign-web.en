@@ -598,3 +598,8 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_delivery_alerting_dashboard_history"
 >title="Delivery alerts history"
 >abstract="Delivery alerts history"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_dashboard_create"
+>title="Create delivery alerting dashboard"
+>abstract="Create delivery alerting dashboard"
