@@ -55,7 +55,9 @@ You can duplicate or delete a landing page. Click the ellipsis next to a landing
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_preload"
 >title="Define pre-loading options"
->abstract="When the **Pre-fill with the data referenced in the form** option is selected, if the visitor of the landing page matches a profile from the database, the profile's information is automatically preloaded in the form. With the **Skip preloading if no ID** option selected, each profile entered will be added to the database after approval of the form."
+>abstract="When the **Pre-fill with the data referenced in the form** option is selected, if the visitor of the landing page matches a profile from the database, the profile's information is automatically preloaded in the form. With the **Authorize absence of ID** option selected, any visitor, including anonymous users, can access the landing page."
+
+<!--With the **Skip preloading if no ID** option selected, each profile entered will be added to the database after approval of the form."-->
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_storage"
@@ -92,21 +94,35 @@ To create a landing page, follow these steps:
 
     ![](assets/lp-properties.png){zoomable="yes"}
 
-1. In the **[!UICONTROL Data preload]** section, the two options below are selected by default:
+1. In the **[!UICONTROL Data preload]** section, the two options below are available:
 
     * When the **[!UICONTROL Pre-fill with the data referenced in the form]** option is selected, if the visitor of the landing page matches a profile from the database, the profile's information is automatically preloaded in the form. The user just has to fill in the missing fields, and update the existing values if needed. This allows to merge data for existing profiles instead of creating duplicates.
 
-    * The **[!UICONTROL Skip preloading if no ID]** option must be selected if you do not wish to update profiles. In this case, each profile entered will be added to the database after approval of the form. This option is used, for example, when the form is posted on a website.
+        >[!NOTE]
+        >
+        >This option is selected by default for all landing page templates.
+
+    <!--* The **[!UICONTROL Skip preloading if no ID]** option must be selected if you do not wish to update profiles. In this case, each profile entered will be added to the database after approval of the form. This option is used, for example, when the form is posted on a website.-->
+
+    * The **[!UICONTROL Authorize absence of ID]** option allows any visitor to access the landing page. Unselecting this option prevents anonymous visitors to use it, meaning that only identified users can access and submit the form.
+    
+        >[!NOTE]
+        >
+        >For the **[!UICONTROL Acquisition]** and **[!UICONTROL Subscription]** templates, this option is selected by default. For the **[!UICONTROL Unsubscription]** and **[!UICONTROL Denylist]** templates, this option is unselected by default and cannot be modified<!--as per ticket - TBC? in that case, is it greyed out or doesn't display?-->.
 
 1. A landing page can have subsequent pages. To add pages, browset the **[!UICONTROL Pages]** section, and click the **[!UICONTROL Edit content]** button for each page that you want to design for this landing page. The content of each page is already pre-filled. Edit them as needed. [Learn more](lp-content.md)
 
     ![](assets/lp-pages.png){zoomable="yes"}
 
-1. The **[!UICONTROL Update the preloaded record]** option is selected by default. It enables to update the profiles stored in the database via the landing page. The preloading box lets you indicate how to find the record to be updated in the database. 
+1. In the **[!UICONTROL Storage]** section, the **[!UICONTROL Update the preloaded record]** option is selected by default. It enables to update the profiles stored in the database via the landing page. The preloading box lets you indicate how to find the record to be updated in the database. 
     
     You can also choose from the fields in the current context of the landing page, those that will be used to find the corresponding profile in the database. To do so, unselect the **[!UICONTROL Update the preloaded record]** option and check the desired fields under **[!UICONTROL Reconciliation options]**.
 
     ![](assets/lp-storage.png){zoomable="yes"}
+
+1. Create **[!UICONTROL Additional data]** to store internal data when the landing page is being submitted. This data is not visible to users who visit the page. Only constant values are taken into account.
+
+    ![](assets/lp-additional-data.png){zoomable="yes"}
 
 1. You can define a start date and an end date for your landing page. Select **[!UICONTROL Enable scheduling]** and set the dates.
 
@@ -155,6 +171,8 @@ To test your landing page, follow these steps:
 1. From the **[!UICONTROL Simulate]** screen, select one or more test profiles.
 
     The steps to select test profiles are the same as when testing a message. They are detailed in the [Preview and test](../preview-test/preview-test.md) section.
+
+1. When testing a dynamic landing page (with the **[!UICONTROL Service from URL]** option selected - [learn more](../landing-pages/create-lp.md#define-actions-on-form-submission)
 
 1. Select **[!UICONTROL Open preview]** to test your landing page.
 

@@ -15,7 +15,7 @@ exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 This section explains how to select an existing audience when defining the target population of a delivery. When defining the main target of a delivery, you can also:
 * [Build a one-time audience](one-time-audience.md) using the query modeler.
 * [Load an audience from an external file](file-audience.md) (for emails only).
-
+ 
 Audiences that can be targeted in deliveries are accessible from the **Audience** left menu. They originate from multiple sources such as the Client console, Campaign Web audience workflows or Adobe Experience Platform. [Learn more on audiences](manage-audience.md)
 
 To select an existing audience for your message, follow the steps below:

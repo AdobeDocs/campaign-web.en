@@ -47,6 +47,11 @@ To access subscription services available for your platform, follow the steps be
 >title="Select a confirmation message"
 >abstract="When a user subscribes to or unsubscribes from a service, you can send a confirmation message. Select the templates to use for that message."
 
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_defaultlp"
+>title="Default landing page"
+>abstract="Select the default landing pages associated with this service."
+
 To create a subscription service, follow the steps below.
 
 1. Select the **[!UICONTROL Create subscription service]** button.
@@ -75,9 +80,21 @@ To create a subscription service, follow the steps below.
 
 1. Click **[!UICONTROL Save and review]**. The new service is added to the **[!UICONTROL Subscription services]** list.
 
+1. You can also select the default subscription and unsubscription landing pages associated with this service.
+
+    ![](assets/service-create-default-lp.png){zoomable="yes"}
+
+    Once done, when [inserting a link](../email/message-tracking.md) in an email, select **[!UICONTROL Subscription link]** or **[!UICONTROL Unsubscription link]**. Upon clicking that link, users will be directed to the subscription or unsubscription landing page referenced in the service. <!--After submitting the form, they will be subscribed to / unsubscribed from the service.-->
+
+    ![](assets/service-create-default-lp-link.png){zoomable="yes"}
+
+1. Save and review your changes.
+
 You can now:
 
-* Add subscribers to this service, and unsubscribe profiles. [Learn more](../msg/send-to-subscribers.md)
+* Manually add subscribers to this service, and unsubscribe profiles. [Learn more](../audience/manage-subscribers.md)
+
+* Invite your customers to subscribe to this service through a landing page. [Learn more](../landing-pages/lp-use-cases.md#lp-subscription)
 
 * Send messages to the subscribers of this service. [Learn how](../msg/send-to-subscribers.md)
 
@@ -163,3 +180,18 @@ To measure the effectiveness of your subscription services for SMS and email cha
     * The **[!UICONTROL Overall evolution of subscriptions]** graph shows the breakdown by period, including subscriptions, unsubcriptions, the evolution in numbers and the loyalty percentage.<!--what is Registered?-->
 
 1. Use the **[!UICONTROL Reload]** button to retrieve the last values from the execution and schedule of the tracking workflow.
+
+<!--## Best practices {#best-practices}
+
+It is recommended to send a confirmation message to the new subscribers of a service. To do so, create a delivery template and select it when creating a subscription service. [Learn more](#create-confirmation-message).
+
+Send communications targeting your subscribers only. [Learn how](../msg/send-to-subscribers.md)
+
+Always provide your subscribers the capability to unsubscribe from your services. [Learn how](consent.md#email-opt-out)
+
+* When creating a confirmation message:
+
+    * Do not select an audience for this delivery.
+
+    * Select the **[!UICONTROL Subscriptions]** target mapping. Otherwise, your subscribers will not receive the confirmation message.
+-->

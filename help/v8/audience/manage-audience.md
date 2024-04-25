@@ -24,7 +24,7 @@ exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 The audience is the main target of your delivery: the profiles who receive the messages. The list of audiences available for use in Campaign Web is accessible from the **[!UICONTROL Audiences]** menu.
 
 ![](assets/audiences-list.png){zoomable="yes"}
-
+ 
 Audiences can originate from multiple sources. The **[!UICONTROL Origin]** columns indicates where a given audience has been created:
 
 * **[!UICONTROL Adobe Campaign]**: These audiences have been created in [Adobe Campaign Web User Interface](create-audience.md) or in the [Adobe Campaign v8 client console](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html){target="_blank"}.

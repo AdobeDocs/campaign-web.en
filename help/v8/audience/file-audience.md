@@ -33,7 +33,7 @@ Profiles from the input file are not added to the database. They are loaded and 
 >[!NOTE]
 >
 >This page describes how to load external profiles from a file when creating a standalone email delivery. To load data from a file in the context of a workflow, refer to [this page](../workflows/activities/load-file.md).
-
+ 
 ## Must-read {#must-read}
 
 * This capability is available for **email deliveries** only.

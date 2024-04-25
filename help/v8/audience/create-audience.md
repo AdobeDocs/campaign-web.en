@@ -15,7 +15,7 @@ exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="Audiences"
->abstract="From this screen, you can access the list of all audiences that can be targeted in workflows or standalone deliveries. Click **Create** to create a new audience into a visual canvas using various workflow activities such as **Split** or **Exclude**.<br/><br/>The **[!UICONTROL Origin]** columns indicates audiences' origins: **[!UICONTROL Adobe Campaign]** audiences have been created Adobe Campaign v8 console or Web User Interface, while **[!UICONTROL Adobe Experience Platform:]** audiences have been created within Adobe Experience Platform and integrated into Campaign using the Adobe Sources and Destinations integration."
+>abstract="From this screen, you can access the list of all audiences that can be targeted in workflows or standalone deliveries. Click **Create** to create a new audience into a visual canvas.<br/><br/>Beyond starting from scratch to create a simple audience, you can also leverage workflow activities to refine your audience. For instance, you can combine multiple audiences into a single one, enrich your audience with external attributes, or divide a it into multiple audiences based on rules of your choice."
 
 <!--
 [!CONTEXTUALHELP]
@@ -26,6 +26,8 @@ exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
 Campaign Web allows you to create new audiences into a visual workflow canvas. Beyond starting from scratch to create a simple audience, you can also leverage workflow activities to refine your audience. For instance, you can combine multiple audiences into a single one, enrich your audience with external attributes, or divide a it into multiple audiences based on rules of your choice.
 
 Once you've crafted your workflow, the resulting audiences are automatically stored within Campaign database alongside your existing ones. These audiences can then be targeted in workflows or standalone deliveries.
+
+The **[!UICONTROL Origin]** columns indicates audiences' origins: **[!UICONTROL Adobe Campaign]** audiences have been created Adobe Campaign v8 console or Web User Interface, while **[!UICONTROL Adobe Experience Platform:]** audiences have been created within Adobe Experience Platform and integrated into Campaign using the Adobe Sources and Destinations integration.
 
 ➡️ [Discover this feature in video](#video) 
 
@@ -85,7 +87,7 @@ You can modify an audience generated from a workflow whenever necessary by re-ex
 1. Navigate to the **Audiences** menu and open the audience you want to edit.
 1. In the **Overview** tab, the **Last workflow** section provides a link to the workflow used to generate the audience. Click on it to access the workflow.
 1. Make the desired changes and click the **Start** button to rerun the workflow again. Upon completion, the audience resulting from the worklow is automatically updated with the latest workflow results.
-
+ 
 By default, rerunning an audience workflow replaces the entire content of the audience with new data, causing the loss of previous data.
 
 If you prefer not to replace the existing audience results, configure the **Save audience** activities to align with your requirements. For example, you can change the **Audience label** field to store the new results into a new audience, or add the new results to the existing audience content without erasing previous data. [Learn how to configure a Save audience acitivty](../workflows/activities/save-audience.md)
