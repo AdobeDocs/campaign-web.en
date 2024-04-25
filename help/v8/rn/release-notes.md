@@ -15,43 +15,34 @@ Adobe Campaign Web user interface releases operate on a continuous delivery mode
 
 ### New features {#new-24-4}
 
+**New workflow activities**
+
+* **Update data** - Use this activity to perform mass updates on fields in the database. Several options allow you to personalize the data update.
+* **Subscription services** - Use this activity to subscribe to or unsubscribe multiple profiles to/from a service in a single action.
+* **Extract file** - Use this activity to export data from Adobe Campaign to another system as an external file.
+* **Transfer file** - Use this activity to receive or send files, test for file presence, or list files on a server. The protocol used can be either server-to-server protocol or HTTP protocol.
+* **Test** - Use this activity to enable transitions based on specified conditions.
+* **JavaScript code** - Use this activity to execute a JavaScript code snippet in the context of a workflow.
+* **External signal** - Use this activity to trigger the execution of a workflow from another workflow,* or an API call.
+* **Incremental query** - Use this activity to query the database on a scheduled basis. Each time this activity is executed, the results from the previous executions are excluded. This allows you to target only new elements.
+
 <!--
 * **Audit Trail**
 
 The Audit trail feature constantly records a detailed log of actions and events taking place within the Adobe Campaign instance in real-time. It offers a convenient method to access a chronological record of data, addressing queries such as: the status of workflows, the latest individuals to modify them, or the activities performed by users within the instance.
 -->
-**Update data activity** 
 
-This new activity allows you to perform a mass update on fields in the database. Several options allow you to personalize the data update.
-
-**Subscription services activity**
-
-This new activity allows you to subscribe to or unsubscribe multiple profiles from a service in a single action.
-
-**File management activities**
-
-* **Extract file**: Export data from Adobe Campaign in the form of an external file.
-* **Transfer file**: Receive or send files, test for file presence, or list files on a server. The protocol used can be either server-to-server protocol or HTTP protocol.
-
-**Advanced activities**
-
-* **Test**: Enable transitions based on specified conditions.
-* **JavaScript code**: Execute a JavaScript code snippet in the context of a workflow.
-* **External signal**: Trigger the execution of a workflow from another workflow or an API call.
-
-**Incremental query**
-
-This new activity allows you to query the database on a scheduled basis. Each time this activity is executed, the results from the previous executions are excluded. This allows you to target only new elements.
-
-**Features for Campaign Standard users**
+**Features restricted to Campaign Standard users**
 
 >[!AVAILABILITY]
 >
->The following capabilities are in Limited Availability (LA). They are restricted to customers migrating from Adobe Campaign Standard to Adobe Campaign v8, and cannot be deployed on any other environment.
+>The following capabilities are in Limited Availability (LA). They are restricted to customers migrating **from Adobe Campaign Standard to Adobe Campaign v8**, and cannot be deployed on any other environment.
 
-* **Branding**: Technical administrators can now define one or several brands to centralize the parameters that affect a brand’s identity. This includes the brand logo, the domain of the landing pages’ access URL, or message tracking settings. You can now create these brands and link them to messages or landing pages. This configuration is managed in templates.
-* **Dynamic Reporting**: The Dynamic report feature provides fully customizable and real-time reports to measure the impact of your marketing activities within your Adobe Campaign Web Interface instance.
-* **Rest APIs**: As a Campaign Stardard migrated user, you can use Rest APIs to create integrations for Adobe Campaign and build your own ecosystem by interfacing Adobe Campaign with the panel of technologies that you use.
+* **Branding** -  As a Campaign Stardard migrated user, your technical administrators can now define one or several brands to centralize the parameters that affect a brand's identity. This includes the brand logo, the domain of the landing pages' access URL, or message tracking settings. You can create these brands and link them to messages or landing pages. This configuration is managed in templates.
+
+* **Rest APIs** - As a Campaign Stardard migrated user, you can use Rest APIs to create integrations for Adobe Campaign and build your own ecosystem by interfacing Adobe Campaign with the panel of technologies that you use. 
+
+* **Dynamic Reporting** - As a Campaign Stardard migrated user, you can access Dynamic Reporting which provides fully customizable and real-time reports to measure the impact of your marketing activities. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks.
 
 ### General improvements {#improvements-24-4}
 
@@ -85,23 +76,24 @@ This new activity allows you to query the database on a scheduled basis. Each ti
 
 <!--**Workflow - Copy/Paste into another tab**: -->
 
-* You can now copy paste activities to another workflow from a different browser tab.
+* You can now copy/paste activities from a workflow to another workflow from a different browser tab.
 
 <!--**Workflow - Execution options**: -->
 
-* All workflow activities now allow you to manage their execution options. This lets you define the activity’s execution mode and behavior in case of errors.
+* All workflow activities now allow you to manage their execution options. This lets you define the activity's execution mode and behavior in case of errors.
 
 <!-- **Workflow - Split Activity - Support Skipping Empty Transition**: -->
 
-* The "Do not activate the transition if the population is empty" option in the Split activity allows you to choose whether the workflow should transition to the next activity when the segment result is empty.
+* The "Do not activate the transition if the population is empty" option in the **Split activity** allows you to choose whether the workflow should transition to the next activity when the segment result is empty.
 
 <!--* **Workflow - Load file activity improvements**-->
 
-* The Load file activity has been enhanced with several sections allowing you to upload a sample file, to manage errors and rejects and delete uploaded files after the activity has been executed.
+* The **Load file** activity has been enhanced with several sections allowing you to upload a sample file, to manage errors and rejects and delete uploaded files after the activity has been executed.
 
 <!--* **Support of custom fields**-->
 
-* Custom fields are additional attributes added to the out-of-the-box schemas through the Adobe Campaign console. In Campaign web, These custom fields are displayed in various screens, for example the details of a profile or a test profile. In the web user interface, you cannot create custom fields, but you can now modify the way they display. 
+* Custom fields are additional attributes added to the out-of-the-box schemas through the Adobe Campaign console. In Campaign web user interface, these custom fields are now visible in various screens, for example the details of a profile or a test profile. In the web user interface, you cannot create custom fields, but you can now modify the way they display. 
+
 
 ## March release notes {#24-3-release}
 
