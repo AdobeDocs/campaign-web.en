@@ -479,6 +479,11 @@ Deprecated IDs - to remove in GA: -->
 >title="Incremental query history"
 >abstract="Incremental query history"
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_incrementalquery_processeddata"
+>title="Incremental query Processed data"
+>abstract="Incremental query Processed data"
+
 
 <!-- Transfer file activity -->
 
