@@ -19,7 +19,7 @@ Adobe Campaign Web user interface releases operate on a continuous delivery mode
 
 >[!AVAILABILITY]
 >
->These features are released in Limited Availability.
+>These features are released in Limited Availability are available only for Adobe Campaign Standard users.
 
 * **Branding**: Technical administrators can now define one or several brands to centralize the parameters that affect a brand’s identity. This includes the brand logo, the domain of the landing pages’ access URL, or message tracking settings. You can now create these brands and link them to messages or landing pages. This configuration is managed in templates.
 * **Dynamic Reporting**: The Dynamic report feature provides fully customizable and real-time reports to measure the impact of your marketing activities within your Adobe Campaign Web Interface instance.
