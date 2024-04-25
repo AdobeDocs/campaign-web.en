@@ -45,12 +45,18 @@ Supported and unsupported capabilities and interoperability between Campaign Web
 
 ## Terminology {#terminology}
 
-Most concepts are similar between Campaign Web interface and Campaign Standard. However, on the console, they can slightly differ. Here are some examples of terminology differences between Campaign Standard and the v8 console:
+Most concepts are similar between Campaign Web interface and Campaign Standard. However, there are a few differences. Here are some examples of terminology differences between Campaign Standard and the Campaign Web interface:
 
+<!--
 * Profiles are **Recipients** in the console. [Learn more](../audience/gs-audiences-recipients.md).
 * Test profiles are **Seed addresses**. [Learn more](../preview-test/test-deliveries.md).
 * The delivery preparation is the **Delivery analysis**. [Learn more](../monitor/prepare-send.md).
 * Audiences are **Lists**. [Learn more](../audience/gs-audiences-recipients.md).
+-->
+
+* Custom resources are **Schemas** in Campaign Web user interface.
+* Marketing activities do not exist anymore.
+* Messages are **Deliveries**. 
 
 ## New features {#new-features}
 
