@@ -161,7 +161,7 @@ Data Management combines a set of activities for solving complex targeting issue
     
 >[!NOTE]
 >
->While some of these activities are available in the client console only, some are available in Campaign Web user interface such as the **Enrichment**, **Load file**, **Change data source** or **Change dimension** activities. [Learn more on targeting and data management activites in Campaign Web user interface](../workflows/activities/about-activities.md#targeting)
+>While some of these activities are available in the client console only, some are available in Campaign Web user interface such as the **Enrichment**, **Load file**, **Change data source** or **Change dimension** activities. [Learn more on targeting and data management activities in Campaign Web user interface](../workflows/activities/about-activities.md#targeting)
 
 ### Federated Data Access configuration {#fda}
 

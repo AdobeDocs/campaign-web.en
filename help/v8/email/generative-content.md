@@ -46,7 +46,7 @@ In the following example, we will leverage the AI assistant to refine an existin
 
 1. Enable the **[!UICONTROL Use original content]** option for the AI Assistant to personalize new content based on your delivery, delivery name, and selected audience.
     
-     Your prompt must always be tied to a specific context by uploading a brand asset or enabling the **[!UICONTROL Enhance current content]** option.
+    Your prompt must always be tied to your current content.
 
 1. Fine tune the content by describing what you want to generate in the **[!UICONTROL Prompt]** field. 
 
@@ -75,9 +75,11 @@ In the following example, we will leverage the AI assistant to refine an existin
 
 1. Navigate to the **[!UICONTROL Refine]** option within the **[!UICONTROL Preview]** window to access additional customization features:
 
+    * **[!UICONTROL Use as reference content]**: The chosen variant will serve as the reference content for generating other results.
+
     * **[!UICONTROL Rephrase]**: The AI Assistant can rephrase your message in different ways, keeping your writing fresh and engaging for diverse audiences.
 
-    * **[!UICONTROL Use simple Language]**: Leverage the AI Assistant to simplify your language, ensuring clarity and accessibility for a wider audience.
+    * **[!UICONTROL Use simpler language]**: Leverage the AI Assistant to simplify your language, ensuring clarity and accessibility for a wider audience.
 
     ![](assets/full-email-5.png){zoomable="yes"}
 
@@ -103,7 +105,7 @@ In the following example, we will leverage the AI assistant to enhance the conte
 
 1. Enable the **[!UICONTROL Use original content]** option for the AI Assistant to personalize new content based on your delivery, delivery name, and selected audience.
 
-     Your prompt must always be tied to a specific context by uploading a brand asset or enabling the **[!UICONTROL Enhance current content]** option.
+    Your prompt must always be tied to your current content.
 
 1. Fine tune the content by describing what you want to generate in the **[!UICONTROL Prompt]** field. 
 
@@ -130,15 +132,15 @@ In the following example, we will leverage the AI assistant to enhance the conte
 
 1. Navigate to the **[!UICONTROL Refine]** option within the **[!UICONTROL Preview]** window to access additional customization features:
 
-    * **Use as reference content**: The chosen variant will serve as the reference content for generating other results.
+    * **[!UICONTROL Use as reference content]**: The chosen variant will serve as the reference content for generating other results.
 
-    * **Elaborate**: The AI Assistant can help you expand on specific topics, providing additional details for better understanding and engagement.
+    * **[!UICONTROL Elaborate]**: The AI Assistant can help you expand on specific topics, providing additional details for better understanding and engagement.
 
-    * **Summarize**: Lengthy information can overload email recipients. Use the AI Assistant to condense key points into clear, concise summaries that grab attention and encourage them to read further.
+    * **[!UICONTROL Summarize]**: Lengthy information can overload email recipients. Use the AI Assistant to condense key points into clear, concise summaries that grab attention and encourage them to read further.
 
-    * **Rephrase**:The AI Assistant can rephrase your message in different ways, keeping your writing fresh and engaging for diverse audiences.
+    * **[!UICONTROL Rephrase]**:The AI Assistant can rephrase your message in different ways, keeping your writing fresh and engaging for diverse audiences.
 
-    * **Use simple Language**: Leverage the AI Assistant to simplify your language, ensuring clarity and accessibility for a wider audience.
+    * **[!UICONTROL Use simpler language]**: Leverage the AI Assistant to simplify your language, ensuring clarity and accessibility for a wider audience.
 
     ![](assets/text-genai-5.png){zoomable="yes"}
 

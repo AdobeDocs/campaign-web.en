@@ -44,7 +44,7 @@ This handy tool provides intelligent suggestions for refining your content, ensu
 
     >[!IMPORTANT]
     >
-    > Your prompt must always be tied to a specific context by uploading a brand asset or enabling the **[!UICONTROL Enhance current content]** option.
+    > Your prompt must always be tied to your current content.
 
 1. Fine tune the content by describing what you want to generate in the **[!UICONTROL Prompt]** field. 
 
@@ -69,9 +69,11 @@ This handy tool provides intelligent suggestions for refining your content, ensu
 
 1. Navigate to the **[!UICONTROL Refine]** option within the **[!UICONTROL Preview]** window to access additional customization features and fine-tune your variation to your preferences:
 
-    * **Simplify Language**: The AI assistant helps you write clear, concise messages that everyone can understand.
+    * **[!UICONTROL Use as reference content]**: The chosen variant will serve as the reference content for generating other results.
 
-    * **Rephrase**: The AI Assistant rephrases your message to keep things engaging for different audiences.
+    * **[!UICONTROL Use simpler language]**: The AI assistant helps you write clear, concise messages that everyone can understand.
+
+    * **[!UICONTROL Rephrase]**: The AI Assistant rephrases your message to keep things engaging for different audiences.
 
     ![](assets/sms-genai-4.png){zoomable="yes"}  
 

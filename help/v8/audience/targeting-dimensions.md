@@ -18,7 +18,7 @@ The targeting dimension of a workflow is defined by the first **[!UICONTROL Buil
 
 Note that you can switch the targeting dimension in a workflow using a [Change dimension activity](../workflows/activities/change-dimension.md). This allows you, for example, to query the database on a specific table such as purchases or subscriptions, and then change the targeting dimension to Recipients in order send deliveries to the corresponding profiles.
 
-When selecting a targeting dimension (in the workflow settings, or in activites such as **Build audience**, **Reconciliation** or **Change dimension**), a selection of commonly used schemas is displayed by default in the list. To show all available schemas, toggle on the **[!UICONTROL Show all schemas]** button. The option selection is saved for each user.
+When selecting a targeting dimension (in the workflow settings, or in activities such as **Build audience**, **Reconciliation** or **Change dimension**), a selection of commonly used schemas is displayed by default in the list. To show all available schemas, toggle on the **[!UICONTROL Show all schemas]** button. The option selection is saved for each user.
 
 ![](assets/targeting-dimension-show-all.png){zoomable="yes"}
 
