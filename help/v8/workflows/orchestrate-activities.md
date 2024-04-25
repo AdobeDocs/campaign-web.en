@@ -12,7 +12,7 @@ Once that you have [created a workflow](create-workflow.md), wether from the wor
 
 At this stage of the configuration, the diagram is displayed with a start icon, representing the beginning of your workflow. To add your first activity, click the **+** button connected to the start icon.
 
-A list of activities that can be added to the diagram appears. The available activities depend on your position within the workflow diagram. For example, when adding your first activity, you can start your workflow by targeting an audience, splitting the workflow path, or setting a **Wait** activity to delay the workflow execution. On the other hand, after a **Build audience** activity, you can refine your target with targeting activites, send a delivery to your audience with channel activites, or organize the workflow process with flow control activities.
+A list of activities that can be added to the diagram appears. The available activities depend on your position within the workflow diagram. For example, when adding your first activity, you can start your workflow by targeting an audience, splitting the workflow path, or setting a **Wait** activity to delay the workflow execution. On the other hand, after a **Build audience** activity, you can refine your target with targeting activities, send a delivery to your audience with channel activities, or organize the workflow process with flow control activities.
 
 ![](assets/workflow-start.png){zoomable="yes"}
 
@@ -20,7 +20,7 @@ Once an activity has been added to the diagram, a right pane appears, allowing y
 
 ![](assets/workflow-configure-activities.png){zoomable="yes"}
 
-Repeat this process to add as many activites as desired depending on the tasks that you want your workflow to perform. Note that you can also insert a new activity between two activites. To do this, click the **+** button on the transition between the activities, select the desired activity and configure it in the right pane.
+Repeat this process to add as many activities as desired depending on the tasks that you want your workflow to perform. Note that you can also insert a new activity between two activities. To do this, click the **+** button on the transition between the activities, select the desired activity and configure it in the right pane.
 
 To remove an activity, select it in the canvas and click the **Delete** icon in the activity properties.
 
@@ -30,7 +30,7 @@ To remove an activity, select it in the canvas and click the **Delete** icon in 
 
 ## Manage activities {#manage}
 
-When adding activites, action buttons are available in the properties pane, allowing you to perform multiple operations. You can:
+When adding activities, action buttons are available in the properties pane, allowing you to perform multiple operations. You can:
 
 * **Delete** the activity from the canvas.
 * **Disable/Enable** the activity. When the workflow is executed, disabled activities and the following activities on the same path are not executed and the workflow is stopped.

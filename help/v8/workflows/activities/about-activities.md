@@ -56,6 +56,6 @@ The following activities are specific to organizing and executing workflows. The
 overview: what they're used for
 which use case you can perform with them
 
-list available activites + short description + ref to section
+list available activities + short description + ref to section
 -->
 

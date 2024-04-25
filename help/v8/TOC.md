@@ -130,7 +130,7 @@ breadcrumb-title: Campaign Web User Interface
     + [Configure workflow settings](workflows/workflow-settings.md)
     + [Start and monitor your workflows](workflows/start-monitor-workflows.md)
   + Work with workflow activities {#design-workflows}
-    + [About workflow activites](workflows/activities/about-activities.md)
+    + [About workflow activities](workflows/activities/about-activities.md)
     + [And-join](workflows/activities/and-join.md)
     + [Build audience](workflows/activities/build-audience.md)
     + [Change data source](workflows/activities/change-data-source.md)
