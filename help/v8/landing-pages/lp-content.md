@@ -30,6 +30,10 @@ To further design your landing page content:
 
 * You can add conditional content to your landing pages, in the same way as you would do for an email. [Learn more](../personalization/conditions.md#condition-condition-builder)
 
+    >[!AVAILABILITY]
+    >
+    >This capability is in Limited Availability (LA). It is restricted to customers migrating **from Adobe Campaign Standard to Adobe Campaign v8**, and cannot be deployed on any other environment.
+
 ## Use the form component {#use-form-component}
 
 >[!CONTEXTUALHELP]
@@ -115,6 +119,10 @@ To define specific content that will enable users to select and submit their cho
     ![](assets/lp-form-additionnal-updates.png){zoomable="yes"}
 
 1. Select the **[!UICONTROL Service from URL]** option to allow the landing page to be used for several services, making it dynamic. Define if you want to opt in or opt out users upon submitting the form.
+
+    >[!AVAILABILITY]
+    >
+    >This capability is in Limited Availability (LA). It is restricted to customers migrating **from Adobe Campaign Standard to Adobe Campaign v8**, and cannot be deployed on any other environment.
 
     ![](assets/lp-form-service-from-url.png){zoomable="yes"}
 
