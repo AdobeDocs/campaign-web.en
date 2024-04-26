@@ -105,10 +105,12 @@ To create a landing page, follow these steps:
     <!--* The **[!UICONTROL Skip preloading if no ID]** option must be selected if you do not wish to update profiles. In this case, each profile entered will be added to the database after approval of the form. This option is used, for example, when the form is posted on a website.-->
 
     * The **[!UICONTROL Authorize absence of ID]** option allows any visitor to access the landing page. Unselecting this option prevents anonymous visitors to use it, meaning that only identified users can access and submit the form.
-    
-        >[!NOTE]
+
+        >[!AVAILABILITY]
         >
-        >For the **[!UICONTROL Acquisition]** and **[!UICONTROL Subscription]** templates, this option is selected by default. For the **[!UICONTROL Unsubscription]** and **[!UICONTROL Denylist]** templates, this option is unselected by default and cannot be modified<!--as per ticket - TBC? in that case, is it greyed out or doesn't display?-->.
+        >This capability is in Limited Availability (LA). It is restricted to customers migrating **from Adobe Campaign Standard to Adobe Campaign v8**, and cannot be deployed on any other environment.
+        
+        For the **[!UICONTROL Acquisition]** and **[!UICONTROL Subscription]** templates, this option is selected by default. For the **[!UICONTROL Unsubscription]** and **[!UICONTROL Denylist]** templates, this option is unselected by default and cannot be modified.
 
 1. A landing page can have subsequent pages. To add pages, browset the **[!UICONTROL Pages]** section, and click the **[!UICONTROL Edit content]** button for each page that you want to design for this landing page. The content of each page is already pre-filled. Edit them as needed. [Learn more](lp-content.md)
 
@@ -121,6 +123,10 @@ To create a landing page, follow these steps:
     ![](assets/lp-storage.png){zoomable="yes"}
 
 1. Create **[!UICONTROL Additional data]** to store internal data when the landing page is being submitted. This data is not visible to users who visit the page. Only constant values are taken into account.
+
+    >[!AVAILABILITY]
+    >
+    >This capability is in Limited Availability (LA). It is restricted to customers migrating **from Adobe Campaign Standard to Adobe Campaign v8**, and cannot be deployed on any other environment.
 
     ![](assets/lp-additional-data.png){zoomable="yes"}
 

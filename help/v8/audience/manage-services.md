@@ -82,9 +82,13 @@ To create a subscription service, follow the steps below.
 
 1. You can also select the default subscription and unsubscription landing pages associated with this service.
 
+    >[!AVAILABILITY]
+    >
+    >This capability is in Limited Availability (LA). It is restricted to customers migrating **from Adobe Campaign Standard to Adobe Campaign v8**, and cannot be deployed on any other environment.
+
     ![](assets/service-create-default-lp.png){zoomable="yes"}
 
-    Once done, when [inserting a link](../email/message-tracking.md) in an email, select **[!UICONTROL Subscription link]** or **[!UICONTROL Unsubscription link]**. Upon clicking that link, users will be directed to the subscription or unsubscription landing page referenced in the service. <!--After submitting the form, they will be subscribed to / unsubscribed from the service.-->
+    Once done, when [inserting a link](../email/message-tracking.md) in an email, select **[!UICONTROL Subscription link]** or **[!UICONTROL Unsubscription link]**. Upon clicking that link, users will be directed to the subscription or unsubscription landing page referenced in the service.
 
     ![](assets/service-create-default-lp-link.png){zoomable="yes"}
 
