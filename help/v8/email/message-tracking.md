@@ -26,6 +26,10 @@ To insert links into your email content, follow the steps below:
 
     * **[!UICONTROL External link]**: Insert a link to an external URL.
 
+        >[!AVAILABILITY]
+        >
+        >The following capabilities (link to **[!UICONTROL Landing page]**, **[!UICONTROL Subscription link]** and **[!UICONTROL Unsubscription link]**) are in Limited Availability (LA). They are restricted to customers migrating **from Adobe Campaign Standard to Adobe Campaign v8**, and cannot be deployed on any other environment.
+
     * **[!UICONTROL Landing page]**: Insert a link to a landing page. If you select a dynamic landing page (with the **[!UICONTROL Service from URL]** option selected), you can select any service from the list. [Learn more ](../landing-pages/create-lp.md#define-actions-on-form-submission)
 
         ![](assets/email-link-to-landing-page.png){zoomable="yes"}
