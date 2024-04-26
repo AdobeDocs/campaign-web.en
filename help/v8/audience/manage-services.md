@@ -47,6 +47,11 @@ To access subscription services available for your platform, follow the steps be
 >title="Select a confirmation message"
 >abstract="When a user subscribes to or unsubscribes from a service, you can send a confirmation message. Select the templates to use for that message."
 
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_defaultlp"
+>title="Default landing page"
+>abstract="Select the default landing pages associated with this service."
+
 To create a subscription service, follow the steps below.
 
 1. Select the **[!UICONTROL Create subscription service]** button.
@@ -75,9 +80,25 @@ To create a subscription service, follow the steps below.
 
 1. Click **[!UICONTROL Save and review]**. The new service is added to the **[!UICONTROL Subscription services]** list.
 
+1. You can also select the default subscription and unsubscription landing pages associated with this service.
+
+    >[!AVAILABILITY]
+    >
+    >This capability is in Limited Availability (LA). It is restricted to customers migrating **from Adobe Campaign Standard to Adobe Campaign v8**, and cannot be deployed on any other environment.
+
+    ![](assets/service-create-default-lp.png){zoomable="yes"}
+
+    Once done, when [inserting a link](../email/message-tracking.md) in an email, select **[!UICONTROL Subscription link]** or **[!UICONTROL Unsubscription link]**. Upon clicking that link, users will be directed to the subscription or unsubscription landing page referenced in the service. <!--After submitting the form, they will be subscribed to / unsubscribed from the service.-->
+
+    ![](assets/service-create-default-lp-link.png){zoomable="yes"}
+
+1. Save and review your changes.
+
 You can now:
 
-* Add subscribers to this service, and unsubscribe profiles. [Learn more](../msg/send-to-subscribers.md)
+* Manually add subscribers to this service, and unsubscribe profiles. [Learn more](../audience/manage-subscribers.md)
+
+* Invite your customers to subscribe to this service through a landing page. [Learn more](../landing-pages/lp-use-cases.md#lp-subscription)
 
 * Send messages to the subscribers of this service. [Learn how](../msg/send-to-subscribers.md)
 
