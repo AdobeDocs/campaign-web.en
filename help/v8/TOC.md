@@ -146,6 +146,7 @@ breadcrumb-title: Campaign Web User Interface
     + [Save audience](workflows/activities/save-audience.md)
     + [Scheduler](workflows/activities/scheduler.md)
     + [Split](workflows/activities/split.md)
+    + [Update data](workflows/activities/update-data.md)
     + [Wait](workflows/activities/wait.md)
 + Query the database {#query-database}
   + [Work with the query modeler](query/query-modeler-overview.md)
