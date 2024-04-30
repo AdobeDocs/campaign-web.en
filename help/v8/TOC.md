@@ -14,6 +14,7 @@ breadcrumb-title: Campaign Web User Interface
   + [What's new?](rn/whats-new.md)
   + [Latest release](rn/release-notes.md)
   + [Documentation updates](rn/documentation-updates.md)
+  + [Campaign Standard transition to Campaign v8](rn/acs-migration.md)
 + Get started with Adobe Campaign {#start}
   + [Get started](get-started/get-started.md)
   + [Connect to Campaign](get-started/connect-to-campaign.md)
@@ -178,4 +179,6 @@ breadcrumb-title: Campaign Web User Interface
   + [Work with other Adobe solutions](integrations/integration.md)
   + [Manage assets with Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
   + [Manage templates with Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
++ Administration {#administration}
+  + [Configure custom fields](administration/custom-fields.md)
 
