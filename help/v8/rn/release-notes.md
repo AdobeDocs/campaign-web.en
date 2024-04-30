@@ -17,7 +17,7 @@ Adobe Campaign Web user interface releases operate on a continuous delivery mode
 
 **New workflow activities**
 
-* **Update data** - Use this activity to perform mass updates on fields in the database. Several options allow you to personalize the data update.
+* **Update data** - Use this activity to perform mass updates on fields in the database. Several options allow you to personalize the data update. [Read more](../workflows/activities/update-data.md)
 * **Subscription services** - Use this activity to subscribe to or unsubscribe multiple profiles to/from a service in a single action.
 * **Extract file** - Use this activity to export data from Adobe Campaign to another system as an external file.
 * **Transfer file** - Use this activity to receive or send files, test for file presence, or list files on a server. The protocol used can be either server-to-server protocol or HTTP protocol.
@@ -37,6 +37,7 @@ The Audit trail feature constantly records a detailed log of actions and events 
 >[!AVAILABILITY]
 >
 >The following capabilities are in Limited Availability (LA). They are restricted to customers migrating **from Adobe Campaign Standard to Adobe Campaign v8**, and cannot be deployed on any other environment.
+>Refer to the following [documentation](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html).
 
 * **Branding** -  As a Campaign Standard migrated user, your technical administrators can now define one or several brands to centralize the parameters that affect a brand's identity. This includes the brand logo, the domain of the landing pages' access URL, or message tracking settings. You can create these brands and link them to messages or landing pages. This configuration is managed in templates.
 
@@ -56,11 +57,11 @@ The Audit trail feature constantly records a detailed log of actions and events 
 
 <!--**Workflow - Copy/Paste into another tab**: -->
 
-* You can now copy/paste activities from a workflow to another workflow from a different browser tab.
+* You can now copy/paste activities from a workflow to another workflow from a different browser tab. [Read more](../workflows/orchestrate-activities.md#copy-activities-copy)
 
 <!--**Workflow - Execution options**: -->
 
-* All workflow activities now allow you to manage their execution options. This lets you define the activity's execution mode and behavior in case of errors.
+* All workflow activities now allow you to manage their execution options. This lets you define the activity's execution mode and behavior in case of errors. [Read more](../workflows/orchestrate-activities.md#execution-options-execution)
 
 <!-- **Workflow - Split Activity - Support Skipping Empty Transition**: -->
 
@@ -72,7 +73,7 @@ The Audit trail feature constantly records a detailed log of actions and events 
 
 <!--* **Support of custom fields**-->
 
-* Custom fields are additional attributes added to the out-of-the-box schemas through the Adobe Campaign console. In Campaign web user interface, these custom fields are now visible in various screens, for example the details of a profile or a test profile. In the web user interface, you cannot create custom fields, but you can now modify the way they display. 
+* Custom fields are additional attributes added to the out-of-the-box schemas through the Adobe Campaign console. In Campaign web user interface, these custom fields are now visible in various screens, for example the details of a profile or a test profile. In the web user interface, you cannot create custom fields, but you can now modify the way they display. [Read more](../administration/custom-fields.md)
 
 
 ## March release notes {#24-3-release}
