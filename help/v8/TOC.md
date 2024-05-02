@@ -14,7 +14,7 @@ breadcrumb-title: Campaign Web User Interface
   + [What's new?](rn/whats-new.md)
   + [Latest release](rn/release-notes.md)
   + [Documentation updates](rn/documentation-updates.md)
-  + [Campaign Standard transition to Campaign v8](rn/acs-migration.md)
+  + [From Campaign Standard to v8](rn/acs-migration.md)
 + Get started with Adobe Campaign {#start}
   + [Get started](get-started/get-started.md)
   + [Connect to Campaign](get-started/connect-to-campaign.md)
