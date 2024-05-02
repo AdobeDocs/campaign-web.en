@@ -124,6 +124,8 @@ With Campaign Web user interface, the user interface reflects the user's permiss
 
 Supported and unsupported capabilities and interoperability between Campaign Web user interface and Campaign client console [in this page](../get-started/capability-matrix.md). 
 
+As a Campaign Standard user transitioning to Campaign v8, [refer to this page](../rn/acs-migration.md).
+
 ## Terminology updates {#terminology-updates}
 
 As an existing Campaign user, note that some concepts have been renamed to align with the latest terminology standards. These changes only apply to Campaign Web user interface and are not reflected in the client console. They are summarized below.
