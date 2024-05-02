@@ -14,6 +14,7 @@ breadcrumb-title: Campaign Web User Interface
   + [What's new?](rn/whats-new.md)
   + [Latest release](rn/release-notes.md)
   + [Documentation updates](rn/documentation-updates.md)
+  + [Campaign Standard transition to Campaign v8](rn/acs-migration.md)
 + Get started with Adobe Campaign {#start}
   + [Get started](get-started/get-started.md)
   + [Connect to Campaign](get-started/connect-to-campaign.md)
@@ -139,12 +140,20 @@ breadcrumb-title: Campaign Web User Interface
     + [Deduplication](workflows/activities/deduplication.md)
     + [Email, SMS, Push, Direct mail](workflows/activities/channels.md)
     + [Enrichment](workflows/activities/enrichment.md)
+    + [External signal](workflows/activities/external-signal.md)
+    + [Extract file](workflows/activities/extract-file.md)
     + [Fork](workflows/activities/fork.md)
+    + [Incremental query](workflows/activities/incremental-query.md)
+    + [JavaScript code](workflows/activities/javascript-code.md)
     + [Load file](workflows/activities/load-file.md)
     + [Reconciliation](workflows/activities/reconciliation.md)
     + [Save audience](workflows/activities/save-audience.md)
     + [Scheduler](workflows/activities/scheduler.md)
     + [Split](workflows/activities/split.md)
+    + [Subscription services](workflows/activities/subscription-services.md)
+    + [Test](workflows/activities/test.md)
+    + [Transfer file](workflows/activities/transfer-file.md)
+    + [Update data](workflows/activities/update-data.md)
     + [Wait](workflows/activities/wait.md)
 + Query the database {#query-database}
   + [Work with the query modeler](query/query-modeler-overview.md)
@@ -178,4 +187,6 @@ breadcrumb-title: Campaign Web User Interface
   + [Work with other Adobe solutions](integrations/integration.md)
   + [Manage assets with Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
   + [Manage templates with Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
++ Administration {#administration}
+  + [Configure custom fields](administration/custom-fields.md)
 

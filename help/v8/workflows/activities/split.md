@@ -49,7 +49,7 @@ The **Split** activity is a **Targeting** activity that allows you to segment in
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_emptytransition"
 >title="Skip empty transition"
->abstract="Skip empty transition."
+>abstract="Toggle the **[!UICONTROL Skip empty transition]** option on to disable the output transition for this subset if the incoming population is empty."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_enable_overlapping"
@@ -79,6 +79,8 @@ Follow these steps to configure the **Split** activity:
     1. To apply a filtering condition to the subset, click **[!UICONTROL Create filter]** and configure the desired filtering rule using the query modeler. For example, include profiles from the incoming population whose email address exist in the database. [Learn how to work with the query modeler](../../query/query-modeler-overview.md)
 
     1. To limit the number of profiles selected by the subset, toggle on the **[!UICONTROL Enable limit]** option, and specify the number or percentages of the population to include.
+
+    1. To disable a transition if the incoming population is empty, toggle the **[!UICONTROL Skip empty transition]** option on. If no profile matches the subset, the workflow will not transition to the next activity.
 
         ![](../assets/workflow-split-subset.png)
 

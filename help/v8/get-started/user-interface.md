@@ -275,29 +275,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 <!-- FOR POST-GA -->
 
-<!-- Subscription activity-->
-
->[!CONTEXTUALHELP]
->id="acw_subscriptions_defaultlp"
->title="Default landing page"
->abstract="Select the default landing page associated to this subscription service."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_subscription"
->title="Subscription service activity"
->abstract="Use Adobe Campaign to create and monitor your services such as newsletters, and to check the subscriptions or unsubscriptions to these services. Subscriptions only apply to email and SMS delivery."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_subscription_general"
->title="Subscription service parameters"
->abstract="Select and confirm the settings for the subscription service."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_subscription_outboundtransition"
->title="Subscription services outbound transition"
->abstract="Toggle the **Generate an outbound transition** option to add a transition after the activity."
-
-
 <!--Update file-->
 
 >[!CONTEXTUALHELP]
@@ -335,85 +312,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Generate an outbound transition for rejects."
 >abstract="Toggle the **Generate an outbound transition for rejects** option to add an outbound transition containing records that have not been correctly processed after the update (for example if there is a duplicate). The update generally marks the end of a targeting workflow and therefore the option is not activated by default."
 
-
-
-<!--External Signal End-->
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_externalsignal"
->title="External Signal"
->abstract="The **External signal** activity lets you trigger execution of a set of tasks in a workflow from an API or another workflow."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_externalsignal_parameters"
->title="External Signal Parameters"
->abstract="External Signal Parameters"
-
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_end_trigger"
->title="End triggers"
->abstract="End triggers"
-
-
-<!--JavaScript-->
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_javascript"
->title="JavaScript code"
->abstract="The **JavaScript code** activity executes a JavaScript code in the context of a workflow."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_javascript_snippet"
->title="JavaScript snippet"
->abstract="Configure the code to execute."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/api" text="Learn more in Campaign v8 (console) documentation"
-
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_javascript_execution"
->title="JavaScript Execution"
->abstract="By default, the execution phase cannot exceed 1 hour. After this delay, the process is aborted with an error message and the activity execution fails. Toggle the **Stop execution after** option to define a custom delay. To ignore this limit, set the value to 0."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_javascript_transition"
->title="Process errors"
->abstract="Toggle the **Process errors** option to add an outbound transition containing errors."
-
-
-
-<!--ExtractFile-->
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile"
->title="Extract file"
->abstract="Extract file activity"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile_file"
->title="File to extract"
->abstract="Select the file to extract."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile_destinationformat"
->title="Destination format"
->abstract="Select the format."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile_postprocessing"
->title="Post processing"
->abstract="Define a post-processing step"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile_outbound"
->title="Outbound transition"
->abstract="Toggle the **Generate an outbound transition** option to add an outbound transition after the current activity."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile_error"
->title="Process errors"
->abstract="Toggle the **Process errors** option to add an outbound transition containing errors."
-
 <!-- Workflow settings -->
 
 >[!CONTEXTUALHELP]
@@ -435,82 +333,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_workflow_settings_execution_initscript"
 >title="Execution inititialization script"
 >abstract="Execution inititialization script"
-
-
-<!--incremental querry -->
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_incrementalquery"
->title="Incremental query"
->abstract="Incremental query"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_incrementalquery_history"
->title="Incremental query history"
->abstract="Incremental query history"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_incrementalquery_processeddata"
->title="Incremental query Processed data"
->abstract="Incremental query Processed data"
-
-
-<!-- Transfer file activity -->
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile"
->title="Transfer file"
->abstract="Transfer file"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_options"
->title="Transfer file options"
->abstract="Transfer file options"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_activity"
->title="Transfer file activity"
->abstract="Transfer file activity"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_remoteserver"
->title="Transfer file remote server"
->abstract="Transfer file remote server"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_source"
->title="Transfer file source"
->abstract="Transfer file source"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_delete_file"
->title="Delete the source files after transfer"
->abstract="Delete the source files after transfer"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_display_logs"
->title="Display the session logs"
->abstract="Display the session logs"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_list_files"
->title="List all files"
->abstract="List all files"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_historization"
->title="File historization"
->abstract="File historization"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_process_missing_file"
->title="Process missing files"
->abstract="Process missing files"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_process_errors"
->title="Process errors"
->abstract="Process errors"
 
 <!-- Delivery alerting -->
 
@@ -555,6 +377,9 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Delivery alerting"
 
 >[!CONTEXTUALHELP]
+>id="acw_subscriptions_defaultlp"
+>title="Default landing page"
+>abstract="Select the default landing page associated to this subscription service."
 >id="acw_delivery_alerting_create_criteria_parameters"
 >title="Delivery alerting criteria parameters"
 >abstract="Delivery alerting"

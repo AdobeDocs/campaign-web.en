@@ -13,6 +13,10 @@ exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
 >title="Remind later button"
 >abstract="The **Remind later** button provides the option to schedule a reminder. The Timestamp field requires a value representing epoch in seconds."
 
+>[!AVAILABILITY]
+>
+>This feature is in **Limited Availability** (LA).
+
 With Firebase Cloud Messaging, you can choose between two types of messages:
 
 * The **[!UICONTROL Data message]** is handled by the client app. These messages are sent directly to the mobile application, which generates and displays an Android notification on the device. Data messages contain only your custom application variables.
