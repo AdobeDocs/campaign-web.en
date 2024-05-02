@@ -8,10 +8,9 @@ exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
 ---
 # Design an Android rich push delivery {#rich-push}
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_push_remind_later"
->title="Remind later button"
->abstract="The **Remind later** button provides the option to schedule a reminder. The Timestamp field requires a value representing epoch in seconds."
+>[!AVAILABILITY]
+>
+>This feature is in **Limited Availability** (LA).
 
 With Firebase Cloud Messaging, you can choose between two types of messages:
 
