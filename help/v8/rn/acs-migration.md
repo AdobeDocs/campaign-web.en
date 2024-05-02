@@ -66,7 +66,7 @@ Most concepts are similar between Campaign Web interface and Campaign Standard. 
 
 ## New features {#new-features}
 
-For you to be able to transition, we've added key capabilities from Campaign Standard to v8:
+For you to be able to transition, we've added [key capabilities](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html) from Campaign Standard to v8:
 
 * **Dynamic Reporting**: Dynamic Reporting provides fully customizable and real-time reports to measure the impact of your marketing activities. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks. [Learn more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html)
 
