@@ -28,7 +28,7 @@ Adobe Campaign Web user interface releases operate on a continuous delivery mode
 
 **Rich Push Notification templates** - 
 
-You can now send rich push notifications via Android. Rich push notification is an enhanced form of mobile notification that goes beyond simple text messages by incorporating multimedia elements such as images, interactive buttons, or other rich media content.
+You can now send rich push notifications via Android. Rich push notification is an enhanced form of mobile notification that goes beyond simple text messages by incorporating multimedia elements such as images, interactive buttons, or other rich media content. [Read more](../push/rich-push.md)
 
 Note that this feature is in **Limited Availability** (LA).
 
