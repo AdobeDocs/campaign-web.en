@@ -112,7 +112,7 @@ To create a landing page, follow these steps:
     
         For the **[!UICONTROL Acquisition]** and **[!UICONTROL Subscription]** templates, this option is selected by default. For the **[!UICONTROL Unsubscription]** and **[!UICONTROL Denylist]** templates, this option is unselected by default and cannot be modified<!--as per ticket - TBC? in that case, is it greyed out or doesn't display?-->.
 
-1. A landing page can have subsequent pages. To add pages, browset the **[!UICONTROL Pages]** section, and click the **[!UICONTROL Edit content]** button for each page that you want to design for this landing page. The content of each page is already pre-filled. Edit them as needed. [Learn more](lp-content.md)
+1. A landing page can have subsequent pages. To add pages, browse the **[!UICONTROL Pages]** section, and click the **[!UICONTROL Edit content]** button for each page that you want to design for this landing page. The content of each page is already pre-filled. Edit them as needed. [Learn more](lp-content.md)
 
     ![](assets/lp-pages.png){zoomable="yes"}
 
