@@ -18,14 +18,13 @@ Adobe Campaign Web user interface releases operate on a continuous delivery mode
 **New workflow activities**
 
 * **Update data** - Use this activity to perform mass updates on fields in the database. Several options allow you to personalize the data update. [Read more](../workflows/activities/update-data.md)
-* **Subscription services** - Use this activity to subscribe to or unsubscribe multiple profiles to/from a service in a single action.
-* **Extract file** - Use this activity to export data from Adobe Campaign to another system as an external file.
-* **Transfer file** - Use this activity to receive or send files, test for file presence, or list files on a server. The protocol used can be either server-to-server protocol or HTTP protocol.
-* **Test** - Use this activity to enable transitions based on specified conditions.
-* **JavaScript code** - Use this activity to execute a JavaScript code snippet in the context of a workflow.
-* **External signal** - Use this activity to trigger the execution of a workflow from another workflow,* or an API call.
-* **Incremental query** - Use this activity to query the database on a scheduled basis. Each time this activity is executed, the results from the previous executions are excluded. This allows you to target only new elements.
-
+* **Subscription services** - Use this activity to subscribe to or unsubscribe multiple profiles to/from a service in a single action. [Read more](../workflows/activities/subscription-services.md)
+* **Extract file** - Use this activity to export data from Adobe Campaign to another system as an external file. [Read more](../workflows/activities/extract-file.md)
+* **Transfer file** - Use this activity to receive or send files, test for file presence, or list files on a server. The protocol used can be either server-to-server protocol or HTTP protocol. [Read more](../workflows/activities/transfer-file.md)
+* **Test** - Use this activity to enable transitions based on specified conditions. [Read more](../workflows/activities/test.md)
+* **JavaScript code** - Use this activity to execute a JavaScript code snippet in the context of a workflow. [Read more](../workflows/activities/javascript-code.md)
+* **External signal** - Use this activity to trigger the execution of a workflow from another workflow,* or an API call. [Read more](../workflows/activities/external-signal.md)
+* **Incremental query** - Use this activity to query the database on a scheduled basis. Each time this activity is executed, the results from the previous executions are excluded. This allows you to target only new elements. [Read more](../workflows/activities/incremental-query.md)
 
 **Rich Push Notification templates** - 
 
@@ -52,6 +51,8 @@ The Audit trail feature constantly records a detailed log of actions and events 
 
 * **Dynamic Reporting** - As a Campaign Standard migrated user, you can access Dynamic Reporting which provides fully customizable and real-time reports to measure the impact of your marketing activities. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html)
 
+* **Load file activity** - As a Campaign Standard migrated user, you can use the Load file activity in your workflows to work with profiles and data stored in an external file. Profiles and data are not added to the database, but all fields in the input file are available for personalization, or to update profiles, or any other table. [Read more](../workflows/activities/load-file.md)
+
 * **Landing Pages** - The following improvements to landing pages are only available to users transitioning from Campaign Standard:
 
     * You can now reference a default subscription/unsubscription landing page when configuring a service. When designing an email, if you define a link to that landing page, users submitting the landing page form are automatically subscribed to or unsubscribed from this service. [Read more](../audience/manage-services.md#create-service)
@@ -72,11 +73,7 @@ The Audit trail feature constantly records a detailed log of actions and events 
 
 <!-- **Workflow - Split Activity - Support Skipping Empty Transition**: -->
 
-* The "Do not activate the transition if the population is empty" option in the **Split activity** allows you to choose whether the workflow should transition to the next activity when the segment result is empty.
-
-<!--* **Workflow - Load file activity improvements**-->
-
-* The **Load file** activity has been enhanced with several sections allowing you to upload a sample file, to manage errors and rejects and delete uploaded files after the activity has been executed.
+* The "Do not activate the transition if the population is empty" option in the **Split activity** allows you to choose whether the workflow should transition to the next activity when the segment result is empty. [Read more](../workflows/activities/split.md)
 
 <!--* **Support of custom fields**-->
 
