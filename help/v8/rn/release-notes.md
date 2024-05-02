@@ -15,6 +15,8 @@ Adobe Campaign Web user interface releases operate on a continuous delivery mode
 
 ### New features {#new-24-4}
 
+The following features are available to all users starting April release.
+
 **New workflow activities**
 
 * **Update data** - Use this activity to perform mass updates on fields in the database. Several options allow you to personalize the data update. [Read more](../workflows/activities/update-data.md)
@@ -26,7 +28,7 @@ Adobe Campaign Web user interface releases operate on a continuous delivery mode
 * **External signal** - Use this activity to trigger the execution of a workflow from another workflow,* or an API call. [Read more](../workflows/activities/external-signal.md)
 * **Incremental query** - Use this activity to query the database on a scheduled basis. Each time this activity is executed, the results from the previous executions are excluded. This allows you to target only new elements. [Read more](../workflows/activities/incremental-query.md)
 
-**Rich Push Notification templates** - 
+**Rich Push Notification templates**
 
 You can now send rich push notifications via Android. Rich push notification is an enhanced form of mobile notification that goes beyond simple text messages by incorporating multimedia elements such as images, interactive buttons, or other rich media content. [Read more](../push/rich-push.md)
 
@@ -38,7 +40,7 @@ Note that this feature is in **Limited Availability** (LA).
 The Audit trail feature constantly records a detailed log of actions and events taking place within the Adobe Campaign instance in real-time. It offers a convenient method to access a chronological record of data, addressing queries such as: the status of workflows, the latest individuals to modify them, or the activities performed by users within the instance.
 -->
 
-**Capabilities restricted to Campaign Standard users**
+### New features in Limited Availability {#acs-24-4}
 
 >[!AVAILABILITY]
 >
@@ -52,7 +54,7 @@ The Audit trail feature constantly records a detailed log of actions and events 
 
 * **Dynamic Reporting** - As a Campaign Standard migrated user, you can access Dynamic Reporting which provides fully customizable and real-time reports to measure the impact of your marketing activities. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html)
 
-* **Load file activity** - As a Campaign Standard migrated user, you can use the Load file activity in your workflows to work with profiles and data stored in an external file. Profiles and data are not added to the database, but all fields in the input file are available for personalization, or to update profiles, or any other table. [Read more](../workflows/activities/load-file.md)
+* **Load file activity improvement** - The **Load file** activity has been enhanced with several sections allowing you to upload a sample file, to manage errors and rejects, and delete uploaded files after the activity has been executed. [Read more](../workflows/activities/load-file.md)
 
 * **Landing Pages** - The following improvements to landing pages are only available to users transitioning from Campaign Standard:
 
@@ -64,6 +66,7 @@ The Audit trail feature constantly records a detailed log of actions and events 
 
 ### General improvements {#improvements-24-4}
 
+The improvements below are available to all customers starting April release.
 <!--**Workflow - Copy/Paste into another tab**: -->
 
 * You can now copy/paste activities from a workflow to another workflow from a different browser tab. [Read more](../workflows/orchestrate-activities.md#copy-activities-copy)

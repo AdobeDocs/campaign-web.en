@@ -21,9 +21,6 @@ exl-id: 230177e2-1926-451a-8a66-0db962ada514
 >title="Reject management outbound transition for rejects"
 >abstract="Reject management outbound transition for rejects"
 
->[!AVAILABILITY]
->
->This capability is in Limited Availability (LA). It is restricted to customers migrating **from Adobe Campaign Standard to Adobe Campaign v8**, and cannot be deployed on any other environment.
 
 The **Load file** activity is a **Data management** activity. Use this activity to work with profiles and data stored in an external file. Profiles and data are not added to the database, but all fields in the input file are available for [personalization](../../personalization/gs-personalization.md), or to update profiles, or any other table. 
 
@@ -39,6 +36,10 @@ The **Load file** activity configuration involves two steps. First, you need to 
 ![](../assets/workflow-load-file.png)
 
 ### Configure the sample file {#sample}
+
+>[!AVAILABILITY]
+>
+>This capability is in Limited Availability (LA). It is restricted to customers running on a Campaign server v8.7 and cannot be deployed on any other environment.
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_samplefile"
@@ -143,9 +144,14 @@ Follow these steps to configure the sample file used to define the expected file
 >title="Delete file after import"
 >abstract="Toggle the **Delete file after import** to delete the original file from the server after the file is imported."
 
+
+>[!AVAILABILITY]
+>
+>These options are in Limited Availability (LA). They are restricted to customers running on a Campaign server v8.7 and cannot be deployed on any other environment.
+
 1. In the **Reject management** section, specify how the activity should behave in case of errors:
 
-    * In the **[!UICONTROL Number of errors allowed]** field, specficy the maximum number of errors that are authorized when processing the file to load. For example, if the value is set to "20", the workflow execution will fail if there are more than 20 errors when loading the file. 
+    * In the **[!UICONTROL Dele]** field, specficy the maximum number of errors that are authorized when processing the file to load. For example, if the value is set to "20", the workflow execution will fail if there are more than 20 errors when loading the file. 
 
     * To keep the errors that occurred when loading the file, toggle the **[!UICONTROL Keep rejects in a file]** option on and specify the desired name for the file in the **[!UICONTROL Rejection File]** field. 
     
