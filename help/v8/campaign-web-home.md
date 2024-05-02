@@ -105,7 +105,7 @@ The **Change data source** targeting activity allows you to change the data sour
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>Get started</strong><br/><a href="get-started/user-interface.md">User interface</a> - <a href="get-started/connect-to-campaign.md">Connect to Campaign</a> - <a href="get-started/using-ai.md">AI-powered contextual help</a> - <a href="get-started/permissions.md">Access & Permissions</a>
+      <strong>Get started</strong><br/><a href="get-started/user-interface.md">User interface</a> - <a href="get-started/connect-to-campaign.md">Connect to Campaign</a> - <a href="get-started/permissions.md">Access & Permissions</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">

@@ -34,7 +34,6 @@ Let's dig deeper in what key capabilities Campaign v8 will offer you:
 * New and redesigned campaign workflow activities. [Learn more](../workflows/gs-workflows.md)
 * Target Audience with the query modeler. [Learn more](../query/query-modeler-overview.md)
 * Easy profile creation and management. [Learn more](../audience/about-recipients.md)
-* AI-powered Contextual Help. [Learn more](../get-started/using-ai.md)
 * Predefined Filters. [Learn more](../get-started/predefined-filters.md)
 * HTML Converter for email design. [Learn more](../email/existing-content.md)
 * SMS with offers. [Learn more](../msg/offers.md)

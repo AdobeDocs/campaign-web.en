@@ -107,7 +107,7 @@ Learn how to create and send offers in emails and SMS in [this section](../msg/o
 
 * **Reports** - The **Report** entry offers a consolidated overall summary of traffic and engagement metrics for each channel within your Campaign environment. These reports consist of various widgets, each offering a distinct perspective on your campaign or delivery performance. Learn more in [this section](../reporting/global-reports.md).
 
-
+<!--
 ## Contextual Help {#user-interface-help} 
 
 A contextual help is available in the interface. When available, click on the `?` icon to display help information and related documentation links. 
@@ -120,6 +120,7 @@ Thanks to Campaign Gen AI's capabilities, this assistant transforms your experie
 
 Learn more in [this section](using-ai.md).
 
+-->
 
 ## Learn more {#learn-more}
 

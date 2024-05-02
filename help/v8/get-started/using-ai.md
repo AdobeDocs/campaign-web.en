@@ -2,6 +2,8 @@
 title: Using AI-powered contextual help in Campaign Web
 description: Ask questions in Campaign Web help popovers
 badge: label="Beta"
+hide: yes
+hidefromtoc: yes
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
 ---
 # AI-powered contextual help {#using-ai}
