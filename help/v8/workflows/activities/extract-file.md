@@ -2,6 +2,7 @@
 audience: end-user
 title: Use the Extract file workflow activity
 description: Learn how to use the Extract file workflow activity
+exl-id: fa50ab5b-2539-4517-9d7b-93315f1e505c
 ---
 # Extract file {#extract-file}
 

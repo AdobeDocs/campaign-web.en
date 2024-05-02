@@ -2,6 +2,7 @@
 audience: end-user
 title: Use the Incremental query workflow activity
 description: Learn how to use the Incremental query workflow activity
+exl-id: 72bd307b-eba2-42a0-9744-05e089c34925
 ---
 # Incremental query {#incremental-query}
 
