@@ -7,6 +7,12 @@ exl-id: 72bd307b-eba2-42a0-9744-05e089c34925
 # Incremental query {#incremental-query}
 
 >[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn5"
+>title="Incremental Query activity"
+>abstract="Use the new Incremental Query activity to query the database on a scheduled basis. Each time this activity is executed, the results from the previous executions are excluded. This allows you to target only new elements."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
+
+>[!CONTEXTUALHELP]
 >id="acw_orchestration_incrementalquery"
 >title="Incremental query"
 >abstract="The **Incremental query** activity is a **Targeting** activity which allows you to query the database using the Query modeler. Each time this activity is executed, the results from the previous executions are excluded. This allows you to target only new elements."
@@ -29,7 +35,7 @@ The **[!UICONTROL Incremental query]** activity can be used for various types of
 
 The population already targeted by previous executions is stored in the workflow. This means that two workflows started from the same template do not share the same log. However, two tasks based on the same incremental query in the same workflow use the same log.
 
-If the result of an incremental query is equal to 0 during one of its executions, the workflow is paused until the query’s next programmed execution. The transitions and activities that follow the incremental query are therefore not processed before the following execution.
+If the result of an incremental query is equal to 0 during one of its executions, the workflow is paused until the query's next programmed execution. The transitions and activities that follow the incremental query are therefore not processed before the following execution.
 
 ## Configure the Incremental query activity {#incremental-query-configuration} 
 

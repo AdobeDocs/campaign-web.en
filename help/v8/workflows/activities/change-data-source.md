@@ -7,12 +7,6 @@ exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
 # Change data source {#change-data-source}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
->title="Change data source"
->abstract="Use the new Change data source workflow targeting activity to change the data source used by your workflow's working table. This activity provides more flexibility by allowing you to manage data across your different databases and improve performances."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
-
->[!CONTEXTUALHELP]
 >id="acw_orchestration_change_data_source"
 >title="Change data source"
 >abstract="The **Change data source** activity allows you to select a different data source for the Working table of your workflow."

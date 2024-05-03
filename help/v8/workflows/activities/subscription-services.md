@@ -6,6 +6,14 @@ exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
 ---
 # Subscription services {#subscriptipon-services}
 
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn2"
+>title="Subscription Services activity"
+>abstract="Use the new Subscription Services workflow activity to manage subscriptions to a service. You can subscribe or unsubscribe a population, and also update multiple subscriptions from an external file. As an option, it is also possible to send a confirmation message to notify your subscribers."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
+
+
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"
 >title="Subscription services activity"
