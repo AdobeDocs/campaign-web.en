@@ -1,10 +1,11 @@
 ---
 audience: end-user
-title: Work with fragments
-description: Learn how to work with fragments
+title: Create content fragments
+description: Learn how to create with content fragments
 hidefromtoc: yes
+hide: yes
 ---
-# Work with fragments {#fragments}
+# Create content fragments {#fragments}
 
 
 >[!CONTEXTUALHELP]
