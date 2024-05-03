@@ -200,13 +200,11 @@ or [Expression fragment](#create-expression-fragment).
 
 ### Create a visual fragment {#create-visual-fragment}
 
-<!--
 >[!CONTEXTUALHELP]
->id="ajo_create_visual_fragment"
+>id="acw_create_visual_fragment"
 >title="Select the visual type"
 >abstract="Create a standalone visual fragment to make your content reusable in an email within a journey or a campaign, or in a content template."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments.html" text="Add visual fragments to your emails"
--->
 
 1. [Create a fragment](#create-from-scratch) from the **[!UICONTROL Content Management]** > **[!UICONTROL Fragments]** left menu and select the **[!UICONTROL Visual fragment]** type.
 
