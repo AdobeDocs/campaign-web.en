@@ -5,6 +5,11 @@ exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 ---
 # Release notes {#latest-release}
 
+>[!CONTEXTUALHELP]
+>id="acw_homepage_learning_card2"
+>title="Release notes"
+>abstract="Adobe Campaign Web user interface releases operate on a continuous delivery model which allows for a more scalable, phased approach to feature deployment. Accordingly, Campaign release notes get updated several times a month, with latest features, improvements, and fixes. We recommend you to check them regularly."
+
 <!--Last update: **March 19, 2024**-->
 
 Adobe Campaign Web user interface releases operate on a continuous delivery model which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
