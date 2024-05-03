@@ -36,7 +36,7 @@ These activities are specific to targeting. They let you build one or more targe
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
->title="Extract File and Load File activities"
+>title="Extract and Load File activities"
 >abstract="New data management activities are available in workflows. Use the Extract File activity to export data from Adobe Campaign to another system as an external file. Use the Load File activity to work with profiles and data stored in an external file."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
 
