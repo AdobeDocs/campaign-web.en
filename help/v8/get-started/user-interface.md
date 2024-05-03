@@ -191,40 +191,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Recipients offers preview"
 >abstract="Recipients offers preview"
 
->[!CONTEXTUALHELP]
->id="acw_fragments_menu"
->title="Fragments"
->abstract="Fragments"
-
->[!CONTEXTUALHELP]
->id="acw_fragments_save"
->title="Fragments save"
->abstract="Fragments save"
-
->[!CONTEXTUALHELP]
->id="acw_fragments_create"
->title="Fragments creation"
->abstract="Fragments creation"
-
->[!CONTEXTUALHELP]
->id="acw_fragments_properties"
->title="Fragments properties"
->abstract="Fragments properties"
-
->[!CONTEXTUALHELP]
->id="acw_fragments_type"
->title="Fragments type"
->abstract="Fragments type"
-
->[!CONTEXTUALHELP]
->id="acw_fragments_list"
->title="Fragments list"
->abstract="Fragments list"
-
->[!CONTEXTUALHELP]
->id="acw_fragments_details"
->title="Fragments details"
->abstract="Fragments details"
 
 
 
