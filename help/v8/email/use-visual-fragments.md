@@ -2,6 +2,7 @@
 audience: end-user
 title: Add visual fragments to your emails
 description: Learn how to add visual fragments to your emails
+hide: yes
 ---
 # Add visual fragments to your emails {#use-visual-fragments}
 
@@ -16,6 +17,8 @@ You can use a visual fragment in an [email](get-started-email-designer.md) withi
 -->
 
 ## Use a fragment {#use-fragment}
+
+To insert a fragment in an email content, follow the steps below:
 
 1. Open any email or template content using the [Email Designer](get-started-email-designer.md).
 
@@ -33,40 +36,29 @@ You can use a visual fragment in an [email](get-started-email-designer.md) withi
     >
     >Fragments are sorted by creation date: recently added visual fragments are shown first in the list.
 
-1. You can search and refresh the list.
+    If some fragments were modified or added while you are editing your content, click the **Refresh** icon to update the list with the latest changes.
 
-    >[!NOTE]
-    >
-    >If some fragments were modified or added while you are editing your content, the list will be updated with the latest changes.
+1. Drag and drop any fragment from the list into the area where you want to insert it. Like any other component, you can move the fragment around in your content.
 
-1. Drag and drop any fragment from the list into the area where you want to insert it.
-
-    ![](assets/fragment-insert.png)
-
-1. Like any other component, you can move the fragment around in your content.
-
-1. Select the fragment to display the corresponding pane on the right. From there, you can delete the fragment from your content, or duplicate it. You can also perform these actions directly from the contextual menu that displays on top of the fragment.
+1. Select the fragment to display its options on the right pane. 
 
     ![](assets/fragment-right-pane.png)
-
-1. From the **[!UICONTROL Settings]** tab, you can:
+    
+    From the **[!UICONTROL Settings]** tab, you can:
 
     * Choose the devices you want the fragment to be displayed on.
     * Open the fragment in a new tab to edit it if needed. [Learn more](../email/fragments.md#edit-fragments)
 
-1. You can further customize your fragment using the **[!UICONTROL Styles]** tab.
+    You can further customize your fragment using the **[!UICONTROL Styles]** tab.
 
-1. If needed, you can break the inheritance with the original fragment. [Learn more](#break-inheritance)
+1. If needed, you can break the inheritance with the original fragment. [Learn more](#break-inheritance) 
+    You can also delete the fragment from your content, or duplicate it. These actions can be performed directly from the contextual menu that displays on top of the fragment.
 
 1. Add as many fragments as you want and **[!UICONTROL Save]** your changes.
 
 ## Break inheritance {#break-inheritance}
 
-When you edit a visual fragment, the changes are synchronized. They are automatically propagated to all **[!UICONTROL Draft]** campaigns and content templates containing that fragment.
-
->[!NOTE]
->
->The changes are not propagated to emails used in **[!UICONTROL Live]** campaigns.
+When you edit a visual fragment, the changes are synchronized. They are automatically propagated to all email deliveries and content templates containing that fragment.
 
 When added to an email or a content template, fragments are synchronized by default.
 

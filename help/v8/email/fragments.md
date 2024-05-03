@@ -2,163 +2,62 @@
 audience: end-user
 title: Work with fragments
 description: Learn how to work with fragments
+hidefromtoc: yes
 ---
 # Work with fragments {#fragments}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_menu"
+>title="Define your own fragments"
+>abstract="A fragment is a reusable component that can be referenced in one or more emails across campaigns."
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_save"
+>title="Fragments save"
+>abstract="Fragments save"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_create"
+>title="Define your own fragments"
+>abstract="A fragment is a reusable component that can be referenced in one or more emails across campaigns."
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_properties"
+>title="Fragments properties"
+>abstract="Fragments properties"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_type"
+>title="Type of fragment"
+>abstract="Select the type of fragment. For now, only visual fragments for emails are available."
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_list"
+>title="Define your own fragments"
+>abstract="A fragment is a reusable component that can be referenced in one or more emails across campaigns. You can also use fragments in your email templates. For now, only visual fragments are available."
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_details"
+>title="Fragments details"
+>abstract="Fragments details"
 
 >[!CONTEXTUALHELP]
 >id="acw_create_fragment"
 >title="Define your own fragments"
->abstract="Create and manage standalone fragments to make your content reusable across multiple journeys and campaigns."
+>abstract="A fragment is a reusable component that can be referenced in one or more emails across campaigns."
 
-A fragment is a reusable component that can be referenced in one or more emails across campaigns.
+A fragment is a reusable component that can be referenced in one or more emails across campaigns. When modifying a fragment, every content using it is updated.
 
 This functionality allows to prebuild multiple custom content blocks that can be used by marketing users to quickly assemble email contents in an improved design process.
 
-![](assets/fragments.gif)
-
-<!--
-➡️ [Learn how to manage, author and use fragments in these videos](#video-fragments)
--->
-
 To make the best use of fragments:
 
-* Create your own visual fragments. [Learn more](#create-fragments)
+* Create your own visual fragments, as detailed below.
 
-<!--
-    or expression fragments.
--->
+* Use them as many times as needed in your content, via the Email Designer. See [Add visual fragments](../email/use-visual-fragments.md)
 
-* Use them as many times as needed in your content. See [Add visual fragments](../email/use-visual-fragments.md)
-
-<!--
- and [Leverage expression fragments](../personalization/use-expression-fragments.md)
--->
-
->[!NOTE]
->
->**Visual fragments** can be used in the [Email Designer](../email/get-started-email-designer.md).
-
-<!--
-whereas **expression fragments** are accessible through the [Expression editor](../personalization/personalization-build-expressions.md).
--->
-
-<!--
-In addition, you can leverage Journey Optimizer **Content REST API** to manage content fragments. For more on this, refer to the [Journey Optimizer APIs documentation](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
--->
-
-## Before starting {#fragment-prerequisites}
-
->[!CAUTION]
->
->To create fragments, you must have the corresponding permission.
-
-<!--
->To create, edit, and archive fragments, you must have the **[!DNL Manage library items]** permission included in the **[!DNL Content Library Manager]** product profile. [Learn more](../administration/ootb-product-profiles.md#content-library-manager)
--->
-
-In this version, visual fragments are only available for the Email channel
-
-<!--
-* Expression fragments are not available for the Web and In-app channels
--->
-
-## Access and manage fragments {#access-manage-fragments}
-
-To access the fragment list, select **[!UICONTROL Content Management]** > **[!UICONTROL Fragments]** from the left menu.
-
-![](assets/fragment-list.png)
-
-All the fragments that were created - either [from the **[!UICONTROL Fragments]** menu](#create-fragments), either using the [Save as fragment](#save-as-fragment) option - are displayed.
-
-You can filter fragments on their name, creation or modification date.
-
-<!--
-* Type: **[!UICONTROL Visual]** or **[!UICONTROL Expression]**
-* Tags
-* Creation or modification date
-
-You can choose to show all fragments, or only the items that the current user created or modified.
-
-You can also display the **[!UICONTROL Archived]** fragments. [Learn more](#archive-fragments)
--->
-
-![](assets/fragment-list-filters.png)
-
-From the **[!UICONTROL More actions]** button next to each fragment, you can:
-
-* Duplicate a fragment
-
-* Delete a frament
-
-<!--
-* Use the **[!UICONTROL Explore references]** option to see the emails or templates where it is used. [Learn more](#explore-references)
-
-
-* Archive a fragment. [Learn more](#archive-fragments)
-
-* Edit a fragment's [tags](../start/search-filter-categorize.md#tags).
-
--->
-
-![](assets/fragment-list-more-actions.png)
-
-### Edit fragments {#edit-fragments}
-
-To edit a fragment, follow the steps below.
-
-1. Click the desired item from the **[!UICONTROL Fragments]** list.
-
-<!--
-1. From the fragment properties, you can [explore references](#explore-references), [manage its access](../administration/object-based-access.md), and update the fragment details including [tags](../start/search-filter-categorize.md#tags).
--->
-    ![](assets/fragment-edit-content.png)
-
-1. Select the corresponding button to edit content as you would do when creating a fragment from scratch. [Learn more](#create-from-scratch)
-
-<!--
->[!NOTE]
->
->When you edit a fragment, the changes are automatically propagated to all contents using that fragment, except content used in **[!UICONTROL Live]** journeys or campaigns. You can also break inheritance from the original fragment. Learn more in the [Add visual fragments to your emails](../email/use-visual-fragments.md#break-inheritance) and [Leverage expression fragments](../personalization/use-expression-fragments.md#break-inheritance) sections.
--->
-
-<!--
-### Explore references {#explore-references}
-
-You can display the list of the campaigns and content templates that are currently using a fragment. 
-
-To do so, select **[!UICONTROL Explore references]** either from the **[!UICONTROL More actions]** menu in the fragment list or from the fragment properties screen.
-
-![](assets/fragment-explore-references.png)
-
-Select a tab to toggle between campaigns, templates and fragments. You can see their status and click a name to be redirected to the corresponding item where the fragment is referenced.
-
-![](assets/fragment-usage-screen.png)
-
->[!NOTE]
->
->If the fragment is used in a campaign or template that has a label preventing you from accessing it, you will see an alert message on top of the selected tab. [Learn more on Object Level Access Control (OLAC)](../administration/object-based-access.md)
--->
-<!--
-### Archive fragments {#archive-fragments}
-
-You can clean the fragment list from the items that are no longer relevant to your brand.
-
-To do so, click the **[!UICONTROL More actions]** button next to the desired fragment and select **[!UICONTROL Archive]**. It will disappear from the fragment list, which prevents users from using it in future emails or templates.
-
-![](assets/fragment-list-archive.png)
-
->[!NOTE]
->
->If you archive a fragment that is used in a content, that content will not be affected.
-
-it will remain in the email or template, but you won't be able to select it from the fragment list to edit it
-
-To unarchive a fragment, filter on the **[!UICONTROL Archived]** items and select **[!UICONTROL Unarchive]** from the **[!UICONTROL More actions]** menu. It is now again accessible from the fragment list, and can be used in any email or template.
-
-![](assets/fragment-list-unarchive.png)
--->
-
-## Create fragments {#create-fragments}
+## Create a visual fragment {#create-fragments}
 
 There are two ways you can create fragments:
 
@@ -166,113 +65,52 @@ There are two ways you can create fragments:
 
 * When designing content, save a portion of your content as fragment. [Learn how](#save-as-fragment)
 
-Once saved, your fragment is available for use in an email or a template. Whether created from scratch or from an existing content, you can now use this fragment when building any content within Campaign. See [Add visual fragments](../email/use-visual-fragments.md).
+Once saved, your fragment is available for use in an email or an email template. Whether created from scratch or from an existing content, you can now use this fragment when building any content within Campaign. See [Add visual fragments](../email/use-visual-fragments.md).
 
-<!--
-and [Leverage expression fragments](../personalization/use-expression-fragments.md)
--->
-
-### Create from scratch {#create-from-scratch}
+### Create a fragment from scratch {#create-from-scratch}
 
 To create a fragment from scratch, follow the steps below.
 
 1. [Access the fragment list](#access-manage-fragments) through the **[!UICONTROL Content Management]** > **[!UICONTROL Fragments]** left menu.
 
+    ![](assets/fragments-list.png)
+    
 1. Select **[!UICONTROL Create fragment]**.
 
-1. Fill in the fragment details, i.e. name and description (if needed).
+1. Enter the label of the fragment. 
 
-    ![](assets/fragment-details.png)
-
-1. Select the fragment type: [Visual fragment](#create-visual-fragment) 
-
-<!--
-or [Expression fragment](#create-expression-fragment).
--->
-
-<!--
-1. To assign custom or core data usage labels to the fragment, select **[!UICONTROL Manage access]**. [Learn more on Object Level Access Control (OLAC)](../administration/object-based-access.md).
-
-1. Select or create Adobe Experience Platform tags from the **[!UICONTROL Tags]** field to categorize your fragment for improved search. [Learn more](../start/search-filter-categorize.md#tags)
-
-1. Click **[!UICONTROL Create]**.
--->
-
-### Create a visual fragment {#create-visual-fragment}
-
->[!CONTEXTUALHELP]
->id="acw_create_visual_fragment"
->title="Select the visual type"
->abstract="Create a standalone visual fragment to make your content reusable in an email within a journey or a campaign, or in a content template."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments.html" text="Add visual fragments to your emails"
-
-1. [Create a fragment](#create-from-scratch) from the **[!UICONTROL Content Management]** > **[!UICONTROL Fragments]** left menu and select the **[!UICONTROL Visual fragment]** type.
+    ![](assets/fragment-create.png)
+    
+1. If needed, you can define additional options, such as the fragment internal name, its folder, and a description.
 
     >[!NOTE]
     >
-    >Currently for visual fragments only the **Email** channel is supported.
+    >For now, you can only create visual fragments.
 
-1. The [Email Designer](../email/get-started-email-designer.md) displays. Edit your content as needed, the same way you would do for any email inside a campaign.
+1. Click the **Create** button to configure the content of your fragment.
 
-    >[!NOTE]
-    >
-    >You can add personalization fields and dynamic content, but contextual attributes are not supported in fragments.
+1. The [Email Designer](../email/get-started-email-designer.md) displays. Edit your content as needed, the same way you would do for any email inside a campaign. You can add images, link, personalization fields and dynamic content.
 
     ![](assets/fragment-designer.png)
 
-1. Once your fragment is ready, click **[!UICONTROL Save]**. It is added to the [fragment list](#access-manage-fragments).
+1. Once your fragment is ready, click **[!UICONTROL Save & close]**. It is added to the [fragment list](#access-manage-fragments).
 
 1. If needed, click the arrow next to the fragment name to go back to the **[!UICONTROL Details]** screen and edit it.
-
-    ![](assets/fragment-designer-back.png)
 
 This fragment is now ready to be used when building any [email](../email/get-started-email-designer.md) or [content template](use-email-templates.md) within Campaign. [Learn how](../email/use-visual-fragments.md)
 
-<!--
-### Create an expression fragment {#create-expression-fragment}
 
->[!CONTEXTUALHELP]
->id="ajo_create_expression_fragment"
->title="Select the expression type"
->abstract="Create a standalone expression fragment to make your content reusable across multiple journeys and campaigns. When using the Expression editor, you can leverage all the expression fragments that have been created on the current sandbox."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments.html" text="Leverage expression fragments"
+### Save a content as fragment {#save-as-fragment}
 
-1. [Create a fragment](#create-from-scratch) from the **[!UICONTROL Content Management]** > **[!UICONTROL Fragments]** left menu and select the **[!UICONTROL Expression fragment]** type.
+Any email content can be saved as fragment for future reuse. When designing a [content template](use-email-templates.md) or an [email](../email/get-started-email-designer.md) delivery, you can save a portion of your content as visual fragment. To do this, follow the steps below:
 
-1. Select the type of code you want to use: **[!UICONTROL HTML]**, **[!UICONTROL JSON]** or **[!UICONTROL Text]**.
-
-    ![](assets/fragment-expression-type.png)
-
-    Expression fragments can be used in any channel.
-
-1. Click **[!UICONTROL Create]**. The Expression editor opens.
-
-1. You can leverage the Campaign Expression editor with all its personalization and authoring capabilities. [Learn more](../personalization/personalization-build-expressions.md)
-
-    ![](assets/fragment-expression-editor.png)
-
-1. Once your fragment is ready, click **[!UICONTROL Save]**. It is added to the [fragment list](#access-manage-fragments).
-
-1. If needed, click the arrow next to the fragment name to go back to the **[!UICONTROL Details]** screen and edit it.
-
-This fragment is now ready to be used when building any content within the Campaign Expression editor. [Learn how](../personalization/use-expression-fragments.md)
--->
-
-## Save as fragment {#save-as-fragment}
-
-When editing content in Campaign, you can save all or part of your content as fragment for future reuse.
-
-### Save as visual fragment {#save-as-visual-fragment}
-
-When designing a [content template](use-email-templates.md) or an [email](../email/get-started-email-designer.md) in a campaign, you can save a portion of your content as visual fragment. To do this, follow the steps below.
-
-1. In the [Email Designer](../email/get-started-email-designer.md), click the ellipsis on top right of the screen.
+1. In the [Email Designer](../email/get-started-email-designer.md), click the **More** button on top right of the screen.
 
 1. Select **[!UICONTROL Save as fragment]** from the drop-down menu.
 
     ![](assets/fragment-save-as.png)
 
-1. The **[!UICONTROL Save as fragment]** screen displays. There select the elements you want to include into your fragment, including personalization fields and dynamic content. Note that contextual attributes are not supported in fragments.
+1. The **[!UICONTROL Save as fragment]** screen displays. There select the elements you want to include into your fragment, including personalization fields and dynamic content.
 
     >[!CAUTION]
     >
@@ -280,63 +118,56 @@ When designing a [content template](use-email-templates.md) or an [email](../ema
 
     ![](assets/fragment-save-as-screen.png)
 
-1. Click **[!UICONTROL Create]**. Fill in the fragment details, i.e. name and description (if needed).
+1. Click **[!UICONTROL Create]**. Fill in the fragment name and save it.
 
-<!--
-1. To assign custom or core data usage labels to the fragment, select **[!UICONTROL Manage access]**. [Learn more on Object Level Access Control (OLAC)](../administration/object-based-access.md).
+    ![](assets/fragment-save-confirm.png)
 
-1. Select or create Adobe Experience Platform tags from the **Tags** field to categorize your template for improved search. [Learn more](../start/search-filter-categorize.md#tags)
--->
-
-1. Click **[!UICONTROL Save]**. The fragment is saved into added to the [fragment list](#access-manage-fragments), accessible from the Campaign dedicated menu.
-
-    It becomes a standalone fragment that can be [accessed](#access-manage-fragments) and [edited](#edit-fragments) as any other item on that list.
-
-<!--
-and [archived](#archive-fragments)
--->
-
-You can now use this fragment when building any [email](../email/get-started-email-designer.md) or [content template](use-email-templates.md) within Campaign. [Learn how](../email/use-visual-fragments.md)
+    This content is now a standalone fragment , added to the [fragment list](#manage-fragments), and accessible from the dedicated menu. You can now use this fragment when building any [email](../email/get-started-email-designer.md) or [content template](use-email-templates.md) within Campaign. [Learn how](../email/use-visual-fragments.md)
 
 >[!NOTE]
 >
 >Any change to that new fragment is not propagated to the email or template it comes from. Similarly, when the original content is edited within that email or template, the new fragment is not modified.
 
-<!--
-### Save as expression fragment {#save-as-expression-fragment}
+## Manage your fragments {#manage-fragments}
 
->[!CONTEXTUALHELP]
->id="ajo_perso_library"
->title="Save as expression fragment"
->abstract="The [!DNL Journey Optimizer] Expression editor allows you to save content as expression fragments. These expressions are then available to build personalized content."
+You can edit, update, duplicate or delete a fragment from the fragment list.
 
-The Campaign Expression editor allows you to save content as expression fragments. These expressions are then available to build personalized content.
+### Edit and update a fragment {#edit-fragments}
 
-To save content as an expression fragment, follow the steps below.
+To edit a fragment, follow the steps below.
 
-1. In the [Expression editor](../personalization/personalization-build-expressions.md) interface, build an expression, then click **[!UICONTROL Save as fragment]**. 
+1. Click on the name of the fragment to edit from the **[!UICONTROL Fragments]** list.
+1. Click the **Edit content** button to open the content of this fragment.
 
-1. In the right pane, enter a name and a description for the expression to help users find it more easily.
+    ![](assets/fragment-edit-content.png)
 
-    ![](assets/expression-fragment-save-as.png)
+1. Make the necessary changes and save your modifications.
 
-1. Click **[!UICONTROL Save fragment]**.
-
-An expression fragment cannot be nested inside another fragment.
-
-1. The expression fragment is added to the [fragment list](#access-manage-fragments). You can now use it to build personalized content.
-
->[!NOTE]
+>[!CAUTION]
 >
->Expressions cannot exceed 200KB.
+>Any change to a fragment is propagated to the email deliveries or templates using it. 
 
-## How-to video {#video-fragments}
 
-Learn how to manage, author, and use visual fragments in [!DNL Journey Optimizer].
+### Delete a fragment {#delete-fragments}
 
->[!VIDEO](https://video.tv.adobe.com/v/3419932/?quality=12)
+To delete a Fragment, follow these steps:
 
-Learn how to manage, author, and use expression fragments in [!DNL Journey Optimizer].
+1. Browse to the fragment list, and click the **[!UICONTROL More actions]** button next to the fragment to delete. 
+1. Click **Delete** and confirm.
 
->[!VIDEO](https://video.tv.adobe.com/v/3424587/?quality=12)
--->
+    ![](assets/fragment-list-more-actions.png)
+
+>[!CAUTION]
+>
+>When deleting a content fragment, email deliveries and templates using it are updated and the fragment is removed from their message content. You can break inheritance if needed. [Learn more](use-visual-fragments.md#break-inheritance)
+>
+
+### Duplicate a fragment {#duplicate-fragments}
+
+You can easily duplicate a fragment to create a new one. To duplicate an existing fragment, follow these steps:
+
+1. Browse to the fragment list, and click the **[!UICONTROL More actions]** button next to the fragment to delete. 
+1. Click **Duplicate** and confirm.
+1. Enter the label of the new fragment and save your changes.
+
+    The fragment is added to the list of fragments. You can edit it and configure it as needed.
