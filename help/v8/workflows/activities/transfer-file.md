@@ -2,6 +2,7 @@
 audience: end-user
 title: Use the Transfer file activity
 description: Learn how to use the Transfer file workflow activity
+exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
 ---
 # Transfer file {#transfer-file}
 

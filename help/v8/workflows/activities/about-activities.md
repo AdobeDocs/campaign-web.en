@@ -21,15 +21,23 @@ All activities are detailed in the sections below:
 
 These activities are specific to targeting, manipulating and enriching population data. They let you build one or more targets by defining an audience and splitting or combining these audiences using intersection, union or exclusion operations.
 
-* Use the [Save audience](save-audience.md) activity to update an existing audience or create a new audience from the population computed upstream in a workflow.
-* Use the [Build audience](build-audience.md) activity to define your target population. You can either select an existing audience or use the query modeler to define your own query. 
-* Use the [Combine](combine.md) activity to perform segmentation on your inbound population. You can use a union, an intersection or an exclusion.
-* Use the [Split](split.md) activity to segment incoming population into several subsets.
-* Use the [Reconciliation](reconciliation.md) activity to define the link between the data in the Adobe Campaign database and the data in a work table, for example data loaded from an external file.
-* Use the [Enrichment](enrichment.md) activity to define additional data to process in your workflow. With this activity, you can leverage the inbound transition and configure the activity to complete the output transition with additional data.
-* Use the [Deduplication](deduplication.md) activity to delete duplicates in the result(s) of the inbound activities.
-* Use the [Change dimension](change-dimension.md) activity to change the targeting dimension as you are building your workflow.
-* Use the [Load file](load-file.md) activity to work with profiles and data stored in an external file. 
+* [Build audience](build-audience.md): Define your target population. You can either select an existing audience or use the query modeler to define your own query.
+* [Change dimension](change-dimension.md): Change the targeting dimension as you are building your workflow.
+* [Combine](combine.md): Perform segmentation on your inbound population. You can use a union, an intersection or an exclusion.
+* [Deduplication](deduplication.md): Delete duplicates in the result(s) of the inbound activities.
+* [Enrichment](enrichment.md): Define additional data to process in your workflow. With this activity, you can leverage the inbound transition and configure the activity to complete the output transition with additional data.
+* [External signal](load-file.md): Trigger the execution of a workflow from another workflow, or an API call. 
+* [Extract file](load-file.md): Export data from Adobe Campaign to another system as an external file.
+* [Incremental query](load-file.md): Query the database on a scheduled basis. Each time this activity is executed, the results from the previous executions are excluded. This allows you to target only new elements. 
+* [JavaScript code](load-file.md): Execute a JavaScript code snippet in the context of a workflow.
+* [Load file](load-file.md): Work with profiles and data stored in an external file. 
+* [Reconciliation](reconciliation.md): Define the link between the data in the Adobe Campaign database and the data in a work table, for example data loaded from an external file.
+* [Save audience](save-audience.md): Update an existing audience or create a new audience from the population computed upstream in a workflow.
+* [Split](split.md): Segment incoming population into several subsets.
+* [Subscription services](load-file.md): Subscribe or unsubscribe multiple profiles to/from a service in a single action.
+* [Test](load-file.md): Enable transitions based on specified conditions.
+* [Transfer file](load-file.md): Receive or send files, test for file presence, or list files on a server. The protocol used can be either server-to-server protocol or HTTP protocol.
+* [Update data](load-file.md): Perform mass updates on fields in the database. Several options allow you to personalize the data update.
 
 ## Channel activities {#channel}
 

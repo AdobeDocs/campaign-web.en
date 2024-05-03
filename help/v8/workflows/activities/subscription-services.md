@@ -2,6 +2,7 @@
 audience: end-user
 title: Use the Subscription services activity
 description: Learn how to use the Subscription services workflow activity
+exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
 ---
 # Subscription services {#subscriptipon-services}
 

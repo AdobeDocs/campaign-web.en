@@ -2,6 +2,7 @@
 audience: end-user
 title: Use the Update data workflow activity
 description: Learn how to use the Update data workflow activity
+exl-id: db978482-43f6-48a7-8d8d-4b921eb610b2
 ---
 # Update data {#update-data}
 

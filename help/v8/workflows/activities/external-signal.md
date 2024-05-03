@@ -2,6 +2,7 @@
 audience: end-user
 title: Use the External signal activity
 description: Learn how to use the External signal workflow activity
+exl-id: e4244ecc-5e37-41a6-a4dd-6e32da6d5512
 ---
 # External signal {#external-signal}
 
