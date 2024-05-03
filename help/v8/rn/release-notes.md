@@ -54,8 +54,6 @@ The Audit trail feature constantly records a detailed log of actions and events 
 
 * **Dynamic Reporting** - As a Campaign Standard migrated user, you can access Dynamic Reporting which provides fully customizable and real-time reports to measure the impact of your marketing activities. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html)
 
-* **Load file activity improvement** - The **Load file** activity has been enhanced with several sections allowing you to upload a sample file, to manage errors and rejects, and delete uploaded files after the activity has been executed. [Read more](../workflows/activities/load-file.md)
-
 * **Landing Pages** - The following improvements to landing pages are only available to users transitioning from Campaign Standard:
 
     * You can now reference a default subscription/unsubscription landing page when configuring a service. When designing an email, if you define a link to that landing page, users submitting the landing page form are automatically subscribed to or unsubscribed from this service. [Read more](../audience/manage-services.md#create-service)
@@ -69,11 +67,14 @@ The Audit trail feature constantly records a detailed log of actions and events 
 The improvements below are available to all customers starting April release.
 <!--**Workflow - Copy/Paste into another tab**: -->
 
-* You can now copy/paste activities from a workflow to another workflow from a different browser tab. [Read more](../workflows/orchestrate-activities.md#copy-activities-copy)
+* The **Load file** activity has been enhanced with several sections allowing you to upload a sample file, to manage errors and rejects, and delete uploaded files after the activity has been executed. [Read more](../workflows/activities/load-file.md)
+
+
+* You can now **copy/paste activities** from a workflow to another workflow from a different browser tab. [Read more](../workflows/orchestrate-activities.md#copy-activities-copy)
 
 <!--**Workflow - Execution options**: -->
 
-* All workflow activities now allow you to manage their execution options. This lets you define the activity's execution mode and behavior in case of errors. [Read more](../workflows/orchestrate-activities.md#execution-options-execution)
+* All workflow activities now allow you to manage their **execution options**. This lets you define the activity's execution mode and behavior in case of errors. [Read more](../workflows/orchestrate-activities.md#execution-options-execution)
 
 <!-- **Workflow - Split Activity - Support Skipping Empty Transition**: -->
 
@@ -81,7 +82,7 @@ The improvements below are available to all customers starting April release.
 
 <!--* **Support of custom fields**-->
 
-* Custom fields are additional attributes added to the out-of-the-box schemas through the Adobe Campaign console. In Campaign web user interface, these custom fields are now visible in various screens, for example the details of a profile or a test profile. In the web user interface, you cannot create custom fields, but you can now modify the way they display. [Read more](../administration/custom-fields.md)
+* **Custom fields** are additional attributes added to the out-of-the-box schemas through the Adobe Campaign console. In Campaign web user interface, these custom fields are now visible in various screens, for example the details of a profile or a test profile. In the web user interface, you cannot create custom fields, but you can now modify the way they display. [Read more](../administration/custom-fields.md)
 
 
 ## March release notes {#24-3-release}

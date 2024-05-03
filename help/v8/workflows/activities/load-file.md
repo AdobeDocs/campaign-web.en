@@ -37,10 +37,6 @@ The **Load file** activity configuration involves two steps. First, you need to 
 
 ### Configure the sample file {#sample}
 
->[!AVAILABILITY]
->
->This capability is in Limited Availability (LA). It is restricted to customers running on a Campaign server v8.7 and cannot be deployed on any other environment.
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_samplefile"
 >title="Sample file"
@@ -116,6 +112,8 @@ Follow these steps to configure the sample file used to define the expected file
 >
 >Before loading the target file, ensure it adheres to the sample file formatting. Any discrepancies in the file format, column structure, or number of columns may lead to errors during workflow execution.
 
+To define the target file to upload, follow these steps:
+
 1. In the **[!UICONTROL Target file]** section, specify the action to perform when retrieving the file to upload on the server.
 
     * **[!UICONTROL Upload file from local machine]**: Select the file to upload from your machine.
@@ -144,10 +142,6 @@ Follow these steps to configure the sample file used to define the expected file
 >title="Delete file after import"
 >abstract="Toggle the **Delete file after import** to delete the original file from the server after the file is imported."
 
-
->[!AVAILABILITY]
->
->These options are in Limited Availability (LA). They are restricted to customers running on a Campaign server v8.7 and cannot be deployed on any other environment.
 
 1. In the **Reject management** section, specify how the activity should behave in case of errors:
 
