@@ -4,6 +4,7 @@ title: Create content fragments
 description: Learn how to create with content fragments
 hidefromtoc: yes
 hide: yes
+exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
 ---
 # Create content fragments {#fragments}
 
