@@ -51,10 +51,12 @@ A fragment is a reusable component that can be referenced in one or more emails 
 
 This functionality allows to prebuild multiple custom content blocks that can be used by marketing users to quickly assemble email contents in an improved design process.
 
+![](assets/fragments.gif)
+
+
 To make the best use of fragments:
 
 * Create your own visual fragments, as detailed below.
-
 * Use them as many times as needed in your content, via the Email Designer. See [Add visual fragments](../email/use-visual-fragments.md)
 
 ## Create a visual fragment {#create-fragments}
