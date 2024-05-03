@@ -20,12 +20,12 @@ The following features are available to all users starting April release.
 **New workflow activities**
 
 * **Update data** - Use this activity to perform mass updates on fields in the database. Several options allow you to personalize the data update. [Read more](../workflows/activities/update-data.md)
-* **Subscription services** - Use this activity to subscribe to or unsubscribe multiple profiles to/from a service in a single action. [Read more](../workflows/activities/subscription-services.md)
+* **Subscription services** - Use this activity to subscribe or unsubscribe multiple profiles to/from a service in a single action. [Read more](../workflows/activities/subscription-services.md)
 * **Extract file** - Use this activity to export data from Adobe Campaign to another system as an external file. [Read more](../workflows/activities/extract-file.md)
 * **Transfer file** - Use this activity to receive or send files, test for file presence, or list files on a server. The protocol used can be either server-to-server protocol or HTTP protocol. [Read more](../workflows/activities/transfer-file.md)
 * **Test** - Use this activity to enable transitions based on specified conditions. [Read more](../workflows/activities/test.md)
 * **JavaScript code** - Use this activity to execute a JavaScript code snippet in the context of a workflow. [Read more](../workflows/activities/javascript-code.md)
-* **External signal** - Use this activity to trigger the execution of a workflow from another workflow,* or an API call. [Read more](../workflows/activities/external-signal.md)
+* **External signal** - Use this activity to trigger the execution of a workflow from another workflow, or an API call. [Read more](../workflows/activities/external-signal.md)
 * **Incremental query** - Use this activity to query the database on a scheduled basis. Each time this activity is executed, the results from the previous executions are excluded. This allows you to target only new elements. [Read more](../workflows/activities/incremental-query.md)
 
 **Rich Push Notification templates**
