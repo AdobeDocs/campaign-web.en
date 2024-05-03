@@ -36,7 +36,7 @@ To make the best use of fragments:
 
 >[!NOTE]
 >
->**Visual fragments** can be used in the [Email Designer](../email/get-started-email-design.md).
+>**Visual fragments** can be used in the Email Designer.
 
 <!--
 whereas **expression fragments** are accessible through the [Expression editor](../personalization/personalization-build-expressions.md).

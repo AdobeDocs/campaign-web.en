@@ -52,8 +52,8 @@ You can use a visual fragment in an [email](get-started-email-designer.md) withi
 1. From the **[!UICONTROL Settings]** tab, you can:
 
     * Choose the devices you want the fragment to be displayed on.
-    * Open the fragment in a new tab to edit it if needed. [Learn more](../content-management/fragments.md#edit-fragments)
-    * Explore references. [Learn more](../content-management/fragments.md#explore-references)
+    * Open the fragment in a new tab to edit it if needed. 
+    * Explore references. 
 
 1. You can further customize your fragment using the **[!UICONTROL Styles]** tab.
 
