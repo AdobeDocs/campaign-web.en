@@ -45,27 +45,23 @@ Get a glimpse of the newest enhancements in Adobe Campaign Web product and docum
 
 >[!BEGINTABS]
 
->[!TAB March release is live!]
+>[!TAB April release is live!]
 
-Discover new features and improvements coming with Adobe Campaign Web User Interface 24.3 release.
+Discover new features and improvements coming with Adobe Campaign Web User Interface 24.4 release.
 
 [![image](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB Direct mail channel] 
+>[!TAB New workflow activities] 
 
-**Direct mail** channel is now available for use in workflows and as standalone deliveries. Direct mail is an offline channel that allows you to create, personalize and generate an extraction files, and share it with your direct mail providers to send mail to your customers.
+This release comes with the following workflow activities:  Update data, Subscription services, Extract file, Transfer file, Test, JavaScript code, External signal, Incremental query.
 
-![image](assets/do-not-localize/direct-mail.gif)
+[![image](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
-[![image](assets/do-not-localize/learn-more-button.svg)](direct-mail/gs-direct-mail.md)
+>[!TAB Rich push notification]
 
->[!TAB New Change data source workflow activity]
+You can now send rich push notifications via Android. Rich push notification is an enhanced form of mobile notification that goes beyond simple text messages by incorporating multimedia elements such as images, interactive buttons, or other rich media content. 
 
-The **Change data source** targeting activity allows you to change the data source used by your workflow's working table. This activity provides more flexibility by allowing you to manage data across your different databases and improve performances.
-
-![image](assets/do-not-localize/change-data-source.gif)
-
-[![image](assets/do-not-localize/learn-more-button.svg)](workflows/activities/change-data-source.md)
+[![image](assets/do-not-localize/learn-more-button.svg)](push/rich-push.md)
 
 >[!ENDTABS]
 
