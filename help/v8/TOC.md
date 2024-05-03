@@ -32,11 +32,10 @@ breadcrumb-title: Campaign Web User Interface
     + [Create your first email](email/create-email.md)
     + Define email content {#content}
       + [Configure the email content](email/edit-content.md)
-      + [Work with content templates](email/create-email-templates.md)
       + Manage reusable content {#manage-reusable-content}
         + [Work with content templates](email/create-email-templates.md)
         + [Work with fragments](email/fragments.md)
-        + [Add visual fragments to your emails](email/use-vidual-fragments.md) 
+        + [Add visual fragments to your emails](email/use-visual-fragments.md) 
       + Start shaping your email {#start-design}
         + [Get started with the Email Designer](email/get-started-email-designer.md)
         + [Start from scratch ](email/create-email-content.md)
