@@ -3,6 +3,7 @@ audience: end-user
 title: Add visual fragments to your emails
 description: Learn how to add visual fragments to your emails
 hide: yes
+hidefromtoc: yes
 ---
 # Add visual fragments to your emails {#use-visual-fragments}
 
