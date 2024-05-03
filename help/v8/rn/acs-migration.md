@@ -58,10 +58,10 @@ Most concepts are similar between Campaign Web interface and Campaign Standard. 
 * Custom resources are **Schemas** in Campaign Web user interface.
 * Marketing activities do not exist anymore.
 * Messages are **Deliveries**. 
-* Operators are **Users**.
-* Named Rights are **Roles**.
-* Operator Groups are **Security Groups**.
-* Folder Permissions are **Organizational units**
+* Users are **Operators**.
+* Roles are **Named Rights**.
+* Security Groups are **Operator Groups**.
+* Organizational units are **Folder Permissions**
 
 ## New features {#new-features}
 
