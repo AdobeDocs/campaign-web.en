@@ -6,8 +6,7 @@ hide: yes
 ---
 # Add visual fragments to your emails {#use-visual-fragments}
 
-You can use a visual fragment in an [email delivery](get-started-email-designer.md), or in a [content template](use-email-templates.md).
-
+You can use a visual fragment in an [email delivery](get-started-email-designer.md), or in a [content template](use-email-templates.md). Steps are detailed below.
 
 
 >[!NOTE]

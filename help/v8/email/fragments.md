@@ -57,7 +57,7 @@ This functionality allows to prebuild multiple custom content blocks that can be
 To make the best use of fragments:
 
 * Create your own visual fragments, as detailed below.
-* Use them as many times as needed in your content, via the Email Designer. See [Add visual fragments](../email/use-visual-fragments.md)
+* Use them as many times as needed in your content, via the Email Designer. See [Add visual fragments to your emails](../email/use-visual-fragments.md).
 
 ## Create a visual fragment {#create-fragments}
 
@@ -96,8 +96,6 @@ To create a fragment from scratch, follow the steps below.
     ![](assets/fragment-designer.png)
 
 1. Once your fragment is ready, click **[!UICONTROL Save & close]**. It is added to the [fragment list](#access-manage-fragments).
-
-1. If needed, click the arrow next to the fragment name to go back to the **[!UICONTROL Details]** screen and edit it.
 
 This fragment is now ready to be used when building any [email](../email/get-started-email-designer.md) or [content template](use-email-templates.md) within Campaign. [Learn how](../email/use-visual-fragments.md)
 
