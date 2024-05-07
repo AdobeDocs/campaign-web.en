@@ -365,3 +365,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_delivery_alerting_dashboard_create"
 >title="Create delivery alerting dashboard"
 >abstract="Create delivery alerting dashboard"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_editcustomfields"
+>title="Edit custom attributes"
+>abstract="Edit custom attributes"
