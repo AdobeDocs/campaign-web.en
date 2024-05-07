@@ -210,8 +210,10 @@ In the example below, learn how to leverage the AI Assistant to optimize and imp
 
 >[!ENDTABS]
 
+<!--
 ## How-to video {#video}
 
 Learn how to use the AI assistant to generate full email, text or images.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428341)
+-->
