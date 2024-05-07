@@ -12,7 +12,7 @@ exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"
 >title="Define your own fragments"
->abstract="A fragment is a reusable component that can be referenced in one or more emails across campaigns."
+>abstract="A fragment is a reusable component that can be referenced in one or more emails across campaigns. This capability is used to prebuild multiple custom content blocks that can be used by marketing users to quickly assemble email contents in an improved design process."
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_save"
