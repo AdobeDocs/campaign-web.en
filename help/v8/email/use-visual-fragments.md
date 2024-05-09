@@ -47,7 +47,7 @@ To insert a fragment in an email content, follow the steps below:
     From the **[!UICONTROL Settings]** tab, you can:
 
     * Choose the devices you want the fragment to be displayed on.
-    * 1. Click the **Edit content** button to open the content of this fragment. [Learn more](../email/fragments.md#edit-fragments)
+    * Click the **Edit content** button to open the content of this fragment. [Learn more](../email/fragments.md#edit-fragments)
         
         You can further customize your fragment using the **[!UICONTROL Styles]** tab.
 
