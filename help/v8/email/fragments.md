@@ -161,7 +161,7 @@ To delete a Fragment, follow these steps:
 
 >[!CAUTION]
 >
->When deleting a content fragment, email deliveries and templates using it are updated and the fragment is removed from their message content. You can break inheritance if needed. [Learn more](use-visual-fragments.md#break-inheritance)
+>When deleting a content fragment, email deliveries and templates using it are updated: the fragment is removed from the email content, but still referenced. To keep the fragment content in those deliveries and templates, you must break inheritance before deleting the fragment, [as detailed in this section](use-visual-fragments.md#break-inheritance).
 >
 
 ### Duplicate a fragment {#duplicate-fragments}

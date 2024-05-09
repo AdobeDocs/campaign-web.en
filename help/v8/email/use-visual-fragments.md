@@ -47,9 +47,9 @@ To insert a fragment in an email content, follow the steps below:
     From the **[!UICONTROL Settings]** tab, you can:
 
     * Choose the devices you want the fragment to be displayed on.
-    * Open the fragment in a new tab to edit it if needed. [Learn more](../email/fragments.md#edit-fragments)
-
-    You can further customize your fragment using the **[!UICONTROL Styles]** tab.
+    * 1. Click the **Edit content** button to open the content of this fragment. [Learn more](../email/fragments.md#edit-fragments)
+        
+        You can further customize your fragment using the **[!UICONTROL Styles]** tab.
 
 1. If needed, you can break the inheritance with the original fragment. [Learn more](#break-inheritance) 
     You can also delete the fragment from your content, or duplicate it. These actions can be performed directly from the contextual menu that displays on top of the fragment.

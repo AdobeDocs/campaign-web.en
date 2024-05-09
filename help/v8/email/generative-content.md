@@ -14,7 +14,7 @@ hidefromtoc: yes
 **Table of content**
 
 * [Get started with the AI Assistant](generative-gs.md)
-* **[Email generation with the AI Assistant](generative-content.md)**
+* Email generation with the AI Assistant
 * [SMS generation with the AI Assistant](generative-sms.md)
 * [Push notification generation with the AI Assistant](generative-push.md)
 
@@ -210,10 +210,10 @@ In the example below, learn how to leverage the AI Assistant to optimize and imp
 
 >[!ENDTABS]
 
-<!--
+
 ## How-to video {#video}
 
-Learn how to use the AI assistant to generate full email, text or images.
+Learn how to use the AI Assistant to generate full email content, text, and images.
 
->[!VIDEO](https://video.tv.adobe.com/v/3428341)
--->
+>[!VIDEO](https://video.tv.adobe.com/v/3428984)
+
