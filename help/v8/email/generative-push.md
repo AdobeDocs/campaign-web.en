@@ -24,7 +24,7 @@ The AI Assistant can help you optimize the impact of your deliveries by suggesti
 
 >[!NOTE]
 >
->Before starting using this capability, read out related [Guardrails and Limitations](generative-gs.md#guardrails-and-limitations).
+>Before starting using this capability, read out related [Guardrails and Limitations](generative-gs.md#generative-guardrails).
 
 In the following example, we will leverage the AI assistant to craft compelling messaging to create a more engaging customer experience.
 

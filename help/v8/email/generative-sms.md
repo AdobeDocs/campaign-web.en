@@ -26,7 +26,7 @@ This handy tool provides intelligent suggestions for refining your content, ensu
 
 >[!NOTE]
 >
->Before starting using this capability, read out related [Guardrails and Limitations](generative-gs.md#guardrails-and-limitations).
+>Before starting using this capability, read out related [Guardrails and Limitations](generative-gs.md#generative-guardrails).
 
 1. After creating and configuring your SMS delivery, click **[!UICONTROL Edit content]**.
 

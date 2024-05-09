@@ -22,7 +22,7 @@ hidefromtoc: yes
 
 >[!NOTE]
 >
->Before starting using this capability, read out related [Guardrails and Limitations](generative-gs.md#guardrails-and-limitations).
+>Before starting using this capability, read out related [Guardrails and Limitations](generative-gs.md#generative-guardrails).
 
 Once you have created and personalized your emails, use the AI Assistant in Campaign powered by generative AI to take your content to the next level.
 
