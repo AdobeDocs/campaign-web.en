@@ -6,8 +6,7 @@ exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
 ---
 # Add visual fragments to your emails {#use-visual-fragments}
 
-You can use a visual fragment in an [email delivery](get-started-email-designer.md), or in a [content template](use-email-templates.md). Steps are detailed below.
-
+You can use a visual fragment in an [email delivery](../email/get-started-email-designer.md), or in a [content template](../email/use-email-templates.md). Steps are detailed below.
 
 >[!NOTE]
 >
@@ -18,7 +17,7 @@ You can use a visual fragment in an [email delivery](get-started-email-designer.
 
 To insert a fragment in an email content, follow the steps below:
 
-1. Open any email or template content using the [Email Designer](get-started-email-designer.md).
+1. Open any email or template content using the [Email Designer](../email/get-started-email-designer.md).
 
 1. Select the **[!UICONTROL Fragments]** icon from the left rail.
 
@@ -45,7 +44,7 @@ To insert a fragment in an email content, follow the steps below:
     From the **[!UICONTROL Settings]** tab, you can:
 
     * Choose the devices you want the fragment to be displayed on.
-    * Click the **Edit content** button to open the content of this fragment. [Learn more](../content/fragments.md#edit-fragments)
+    * Click the **Edit content** button to open the content of this fragment. [Learn more](fragments.md#edit-fragments)
         
         You can further customize your fragment using the **[!UICONTROL Styles]** tab.
 
@@ -70,4 +69,4 @@ To break inheritance, follow the steps below:
 
     ![](assets/fragment-break-inheritance.png)
 
-1. That fragment becomes a standalone element that is not linked anymore to the original fragment. Edit it as any other content component in your content. [Learn more](content-components.md)
+1. That fragment becomes a standalone element that is not linked anymore to the original fragment. Edit it as any other content component in your content. [Learn more](../email/content-components.md)

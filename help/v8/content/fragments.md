@@ -6,7 +6,6 @@ exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
 ---
 # Create content fragments {#fragments}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"
 >title="Define your own fragments"
@@ -57,7 +56,7 @@ This functionality allows to prebuild multiple custom content blocks that can be
 To make the best use of fragments:
 
 * Create your own visual fragments, as detailed below.
-* Use them as many times as needed in your content, via the Email Designer. See [Add visual fragments to your emails](../content/use-visual-fragments.md).
+* Use them as many times as needed in your content, via the Email Designer. See [Add visual fragments to your emails](use-visual-fragments.md).
 
 ## Create a visual fragment {#create-fragments}
 
@@ -67,7 +66,7 @@ There are two ways you can create fragments:
 
 * When designing content, save a portion of your content as fragment. [Learn how](#save-as-fragment)
 
-Once saved, your fragment is available for use in an email or an email template. Whether created from scratch or from an existing content, you can now use this fragment when building any content within Campaign. See [Add visual fragments](../content/use-visual-fragments.md).
+Once saved, your fragment is available for use in an email or an email template. Whether created from scratch or from an existing content, you can now use this fragment when building any content within Campaign. See [Add visual fragments](use-visual-fragments.md).
 
 ### Create a fragment from scratch {#create-from-scratch}
 
@@ -97,12 +96,12 @@ To create a fragment from scratch, follow the steps below.
 
 1. Once your fragment is ready, click **[!UICONTROL Save & close]**. It is added to the [fragment list](#access-manage-fragments).
 
-This fragment is now ready to be used when building any [email](../email/get-started-email-designer.md) or [content template](use-email-templates.md) within Campaign. [Learn how](../content/use-visual-fragments.md)
+This fragment is now ready to be used when building any [email](../email/get-started-email-designer.md) or [content template](../email/use-email-templates.md) within Campaign. [Learn how](use-visual-fragments.md)
 
 
 ### Save a content as fragment {#save-as-fragment}
 
-Any email content can be saved as fragment for future reuse. When designing a [content template](use-email-templates.md) or an [email](../email/get-started-email-designer.md) delivery, you can save a portion of your content as visual fragment. To do this, follow the steps below:
+Any email content can be saved as fragment for future reuse. When designing a [content template](../email/use-email-templates.md) or an [email](../email/get-started-email-designer.md) delivery, you can save a portion of your content as visual fragment. To do this, follow the steps below:
 
 1. In the [Email Designer](../email/get-started-email-designer.md), click the **More** button on top right of the screen.
 
@@ -122,7 +121,7 @@ Any email content can be saved as fragment for future reuse. When designing a [c
 
     ![](assets/fragment-save-confirm.png)
 
-    This content is now a standalone fragment , added to the [fragment list](#manage-fragments), and accessible from the dedicated menu. You can now use this fragment when building any [email](../email/get-started-email-designer.md) or [content template](use-email-templates.md) within Campaign. [Learn how](../content/use-visual-fragments.md)
+    This content is now a standalone fragment , added to the [fragment list](#manage-fragments), and accessible from the dedicated menu. You can now use this fragment when building any [email](../email/get-started-email-designer.md) or [content template](../email/use-email-templates.md) within Campaign. [Learn how](use-visual-fragments.md)
 
 >[!NOTE]
 >
