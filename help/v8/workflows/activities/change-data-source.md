@@ -19,6 +19,10 @@ In some cases, either data is not available on the current database or is not ef
 
 Detailed information on Campaign architecture is available in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html)
 
+>[!IMPORTANT]
+>
+>Please note that the **[!UICONTROL Change Dimension]** and **[!UICONTROL Change Data source]** activities should not be added in one row. If you need to use both activities consecutively, make sure you include an **[!UICONTROOL Enrichement]** activity in between them. This ensures proper execution and prevents potential conflicts or errors.
+
 <!--
 
 Let's say you want to send to your  VIP customers a unique offer code that they can redeem on your online store. To do this, you need to:

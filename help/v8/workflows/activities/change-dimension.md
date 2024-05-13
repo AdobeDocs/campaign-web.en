@@ -20,6 +20,10 @@ The **Change dimension** activity is a **Targeting** activity. This activity all
 
 For example, you can switch a workflow's targeting dimension from "Recipients" to "Subscribers application" in order to send push notifications to the targeted recipients.
 
+>[!IMPORTANT]
+>
+>Please note that the **[!UICONTROL Change Dimension]** and **[!UICONTROL Change Data source]** activities should not be added in one row. If you need to use both activities consecutively, make sure you include an **[!UICONTROOL Enrichement]** activity in between them. This ensures proper execution and prevents potential conflicts or errors.
+
 ## Configure the Change dimension activity {#configure}
 
 Follow these steps to configure the **Change dimension** activity:
