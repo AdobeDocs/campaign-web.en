@@ -30,30 +30,7 @@ breadcrumb-title: Campaign Web User Interface
   + [Use delivery templates](msg/delivery-template.md)
   + Emails {#email}
     + [Create your first email](email/create-email.md)
-    + Define email content {#content}
-      + [Configure the email content](email/edit-content.md)
-      + Manage reusable content {#manage-reusable-content}
-        + [Work with content templates](email/create-email-templates.md)
-        + [Work with visual fragments](email/fragments.md)
-        + [Add visual fragments to your emails](email/use-visual-fragments.md) 
-      + Start shaping your email {#start-design}
-        + [Get started with the Email Designer](email/get-started-email-designer.md)
-        + [Start from scratch ](email/create-email-content.md)
-        + [Import your email content](email/existing-content.md)
-        + [Code your own content](email/code-content.md)
-        + [Use email content templates](email/use-email-templates.md)
-      + Design your content {#design-content}
-        + [Use content components](email/content-components.md)
-        + [Add links and track messages](email/message-tracking.md)
-        + [Add a link to the mirror page](email/mirror-page.md)
-        + [Add a preheader](email/preheader.md)
-        + [Generate the text version](email/text-version-email.md)
-      + Style your content {#style}
-        + [Get started with email style](email/get-started-email-style.md)
-        + [Edit background settings](email/backgrounds.md)
-        + [Adjust vertical alignment and padding](email/alignment-and-padding.md)
-        + [Define a style for links](email/styling-links.md)
-        + [Add inline styling attributes](email/inline-styling.md)
+    + [Configure the email content](email/edit-content.md) 
     + Send and monitor the email {#monitor}
       + [Prepare and send an email](monitor/prepare-send.md)
       + [Send using multiple waves](advanced-settings/send-using-waves.md)
@@ -79,11 +56,6 @@ breadcrumb-title: Campaign Web User Interface
     + [Email generation with the AI Assistant](email/generative-content.md)
     + [SMS generation with the AI Assistant](email/generative-sms.md)
     + [Push notification generation with the AI Assistant](email/generative-push.md)
-  + Make your content dynamic {#dynamic-content}
-    + [Get started with dynamic content](personalization/gs-personalization.md)
-    + [Add personalization](personalization/personalize.md)
-    + [Build conditional content](personalization/conditions.md)
-    + [Add built-in content blocks](personalization/content-blocks.md)
   + [Add offers to your messages](msg/offers.md)
   + [Send messages to your subscribers](msg/send-to-subscribers.md)
   + [Configure delivery settings](advanced-settings/delivery-settings.md)
@@ -92,6 +64,35 @@ breadcrumb-title: Campaign Web User Interface
     + [Preview the message content](preview-test/preview-content.md)
     + [Send proofs](preview-test/test-deliveries.md)
     + [Test the email rendering](preview-test/email-rendering.md)
++ Content management {#content}
+  + Make your content dynamic {#dynamic-content}
+    + [Get started with dynamic content](personalization/gs-personalization.md)
+    + [Add personalization](personalization/personalize.md)
+    + [Build conditional content](personalization/conditions.md)
+    + [Add built-in content blocks](personalization/content-blocks.md)
+  + Manage reusable content {#manage-reusable-content}
+    + [Work with content templates](email/create-email-templates.md)
+    + [Work with visual fragments](email/fragments.md)
+    + [Add visual fragments to your emails](email/use-visual-fragments.md)
+  + Design emails {#email-design}
+    + Start shaping your email {#start-design}
+      + [Get started with the Email Designer](email/get-started-email-designer.md)
+      + [Start from scratch ](email/create-email-content.md)
+      + [Import your email content](email/existing-content.md)
+      + [Code your own content](email/code-content.md)
+      + [Use email content templates](email/use-email-templates.md)
+    + Design your content {#design-content}
+      + [Use content components](email/content-components.md)
+      + [Add links and track messages](email/message-tracking.md)
+      + [Add a link to the mirror page](email/mirror-page.md)
+      + [Add a preheader](email/preheader.md)
+      + [Generate the text version](email/text-version-email.md)
+    + Style your content {#style}
+      + [Get started with email style](email/get-started-email-style.md)
+      + [Edit background settings](email/backgrounds.md)
+      + [Adjust vertical alignment and padding](email/alignment-and-padding.md)
+      + [Define a style for links](email/styling-links.md)
+      + [Add inline styling attributes](email/inline-styling.md)
 + Landing pages {#landing-pages}
   + [Get started with landing pages](landing-pages/get-started-lp.md)
   + [Create and publish a landing page](landing-pages/create-lp.md)
