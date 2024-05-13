@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 45cdd310-7c0c-4b57-bb7f-0576d8eca19d
 ---
-# Add built-in content blocks {#ootb-content-blocks}
+# Work with content blocks {#ootb-content-blocks}
 
-Adobe Campaign offers a list of pre-configured content blocks. These content blocks are dynamic, personalized and have a specific rendering that you can insert into your deliveries. For example, you can add a logo, a greeting message, or a link to a mirror page. 
+Adobe Campaign comes with a set of content blocks which contain a specific rendering that you can insert into your deliveries. For example, you can add a logo, a greeting message, or a link to the mirror page of an email message. Content blocks are available from a dedicated entry in the personalization editor. 
 
 To add a content block into a delivery follow these steps:
 
