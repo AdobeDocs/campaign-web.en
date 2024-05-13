@@ -65,11 +65,11 @@ breadcrumb-title: Campaign Web User Interface
     + [Send proofs](preview-test/test-deliveries.md)
     + [Test the email rendering](preview-test/email-rendering.md)
 + Content management {#content}
-  + Make your content dynamic {#dynamic-content}
+  + Personalized & conditional content {#dynamic-content}
     + [Get started with dynamic content](personalization/gs-personalization.md)
     + [Add personalization](personalization/personalize.md)
     + [Build conditional content](personalization/conditions.md)
-  + Manage reusable content {#manage-reusable-content}
+  + Reuse content {#manage-reusable-content}
     + [Work with content templates](email/create-email-templates.md)
     + [Add built-in content blocks](personalization/content-blocks.md)
     + [Work with visual fragments](email/fragments.md)

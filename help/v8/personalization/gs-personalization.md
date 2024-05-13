@@ -1,5 +1,5 @@
 ---
-title: Get started with dynamic content
+title: Get started with personalized & conditional content
 description: Learn how to make your content dynamic using personalization and conditional content.
 audience: automating
 content-type: reference
@@ -10,7 +10,7 @@ role: Data Architect
 level: Intermediate
 exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
 ---
-# Get started with dynamic content {#gs-dynamic-content}
+# Get started with personalized & conditional content {#gs-dynamic-content}
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_dashboard"
