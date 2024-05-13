@@ -67,7 +67,7 @@ To configure or edit the content of an email, follow the steps below.
 
     ![](assets/email-edit-content-reply-to.png){zoomable="yes"}
 
-1. Define the email **[!UICONTROL Subject line]**. Type your subject directly into the dedicated field, or open the Expression Editor to add [personalization](../personalization/personalize.md) using various attributes and content blocks, or offers.
+1. Define the email **[!UICONTROL Subject line]**. Type your subject directly into the dedicated field, or open the Expression Editor to add [personalization](../personalization/personalize.md) using various attributes and expression fragments, or offers.
 
 1. If you want to attach a file to the email, click the **[!UICONTROL Add attachment]** button then select one or multiple file(s).
     

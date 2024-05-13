@@ -71,9 +71,11 @@ breadcrumb-title: Campaign Web User Interface
     + [Build conditional content](personalization/conditions.md)
   + Reuse content {#manage-reusable-content}
     + [Work with content templates](email/create-email-templates.md)
-    + [Add built-in content blocks](personalization/content-blocks.md)
-    + [Work with visual fragments](email/fragments.md)
-    + [Add visual fragments to your emails](email/use-visual-fragments.md)
+    + Content fragments {#fragments}
+      + [Get started with content fragments](content/fragments.md)
+      + [Create a content fragment](content/create-fragment.md)
+      + [Use visual fragments in your emails](content/use-visual-fragments.md)
+      + [Use expression fragments in the expression editor](content/use-expression-fragments.md)
   + Design emails {#email-design}
     + [Get started with the Email Designer](email/get-started-email-designer.md)
     + Start shaping your email {#start-design}

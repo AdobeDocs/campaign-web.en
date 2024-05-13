@@ -34,7 +34,7 @@ To add a link to a mirror page in your email:
 
     ![](assets/message-tracking-mirror-page_3.png){zoomable="yes"}
 
-    For more on custom content blocks insertion, refer to [this section](../personalization/personalize.md#personalize-emails).
+    For more on custom expression fragments insertion, refer to [this section](../personalization/personalize.md#personalize-emails).
 
 The mirror page is automatically created.
 

@@ -84,9 +84,9 @@ You can personalize the message content by:
 
     Personalization fields are used for first-level personalization of your messages. You can select any field available in the database from the personalization editor. For a delivery, you can select any field related to the recipient, the message or the delivery. These personalization attributes can be inserted in the subject line or the body of your messages. [Learn more](../personalization/personalize.md)
     
-* Inserting pre-defined **content blocks**
+* Inserting pre-defined **expression fragments**
     
-    Campaign comes with a set of personalization blocks which contain a specific rendering that you can insert into your deliveries. For example, you can add a logo, a greeting message, or a link to the mirror page of the message. Content blocks are available from a dedicated entry un the personalization editor. [Learn more](../personalization/personalize.md#ootb-content-blocks)
+    Campaign comes with a set of personalization blocks which contain a specific rendering that you can insert into your deliveries. For example, you can add a logo, a greeting message, or a link to the mirror page of the message. expression fragments are available from a dedicated entry un the personalization editor. [Learn more](../personalization/personalize.md#ootb-content-blocks)
 
 * Create **conditional content**
 
