@@ -7,12 +7,6 @@ exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
 # Change data source {#change-data-source}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
->title="Change data source"
->abstract="Use the new Change data source workflow targeting activity to change the data source used by your workflow's working table. This activity provides more flexibility by allowing you to manage data across your different databases and improve performances."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
-
->[!CONTEXTUALHELP]
 >id="acw_orchestration_change_data_source"
 >title="Change data source"
 >abstract="The **Change data source** activity allows you to select a different data source for the Working table of your workflow."
@@ -24,6 +18,10 @@ In workflows, data transported from one activity to another through transitions 
 In some cases, either data is not available on the current database or is not efficient enough to perform unitary operations. You may therefore need to force the workflow to use a different database to perform such operations by adding a **[!UICONTROL Change data source]** activity.
 
 Detailed information on Campaign architecture is available in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html)
+
+>[!IMPORTANT]
+>
+>Please note that the **[!UICONTROL Change Dimension]** and **[!UICONTROL Change Data source]** activities should not be added in one row. If you need to use both activities consecutively, make sure you include an **[!UICONTROOL Enrichement]** activity in between them. This ensures proper execution and prevents potential conflicts or errors.
 
 <!--
 

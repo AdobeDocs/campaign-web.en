@@ -21,6 +21,7 @@ exl-id: 230177e2-1926-451a-8a66-0db962ada514
 >title="Reject management outbound transition for rejects"
 >abstract="Reject management outbound transition for rejects"
 
+
 The **Load file** activity is a **Data management** activity. Use this activity to work with profiles and data stored in an external file. Profiles and data are not added to the database, but all fields in the input file are available for [personalization](../../personalization/gs-personalization.md), or to update profiles, or any other table. 
 
 >[!NOTE]
@@ -111,6 +112,8 @@ Follow these steps to configure the sample file used to define the expected file
 >
 >Before loading the target file, ensure it adheres to the sample file formatting. Any discrepancies in the file format, column structure, or number of columns may lead to errors during workflow execution.
 
+To define the target file to upload, follow these steps:
+
 1. In the **[!UICONTROL Target file]** section, specify the action to perform when retrieving the file to upload on the server.
 
     * **[!UICONTROL Upload file from local machine]**: Select the file to upload from your machine.
@@ -139,9 +142,10 @@ Follow these steps to configure the sample file used to define the expected file
 >title="Delete file after import"
 >abstract="Toggle the **Delete file after import** to delete the original file from the server after the file is imported."
 
+
 1. In the **Reject management** section, specify how the activity should behave in case of errors:
 
-    * In the **[!UICONTROL Number of errors allowed]** field, specficy the maximum number of errors that are authorized when processing the file to load. For example, if the value is set to "20", the workflow execution will fail if there are more than 20 errors when loading the file. 
+    * In the **[!UICONTROL Dele]** field, specficy the maximum number of errors that are authorized when processing the file to load. For example, if the value is set to "20", the workflow execution will fail if there are more than 20 errors when loading the file. 
 
     * To keep the errors that occurred when loading the file, toggle the **[!UICONTROL Keep rejects in a file]** option on and specify the desired name for the file in the **[!UICONTROL Rejection File]** field. 
     

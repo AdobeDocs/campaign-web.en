@@ -2,8 +2,15 @@
 audience: end-user
 title: Use the Incremental query workflow activity
 description: Learn how to use the Incremental query workflow activity
+exl-id: 72bd307b-eba2-42a0-9744-05e089c34925
 ---
 # Incremental query {#incremental-query}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn5"
+>title="Incremental Query activity"
+>abstract="Use the new Incremental Query activity to query the database on a scheduled basis. Each time this activity is executed, the results from the previous executions are excluded. This allows you to target only new elements."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_incrementalquery"
@@ -15,11 +22,16 @@ description: Learn how to use the Incremental query workflow activity
 >title="Incremental query history"
 >abstract="Incremental query history"
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_incrementalquery_processeddata"
+>title="Incremental query Processed data"
+>abstract="Incremental query Processed data"
+
 The **Incremental query** activity is a **Targeting** activity which allows you to query the database on a scheduled basis. Each time this activity is executed, the results from the previous executions are excluded. This allows you to target only new elements.
 
 >[!NOTE]
 >
->While the Campaign client console integrates the **[!UICONTROL Incremental query]** activity with a built-in scheduler, the Campaig Web User Interface treats this functionality separately. To schedule incremental query executions, you must add a **[!UICONTROL Scheduler]** activity in the workflow before the **[!UICONTROL Incremental query]** activity. [Learn how to configure a Scheduler activity](scheduler.md)
+>While the Campaign client console integrates the **[!UICONTROL Incremental query]** activity with a built-in scheduler, the Campaign Web User Interface treats this functionality separately. To schedule incremental query executions, you must add a **[!UICONTROL Scheduler]** activity in the workflow before the **[!UICONTROL Incremental query]** activity. [Learn how to configure a Scheduler activity](scheduler.md)
 
 The **[!UICONTROL Incremental query]** activity can be used for various types of uses:
 
@@ -28,7 +40,7 @@ The **[!UICONTROL Incremental query]** activity can be used for various types of
 
 The population already targeted by previous executions is stored in the workflow. This means that two workflows started from the same template do not share the same log. However, two tasks based on the same incremental query in the same workflow use the same log.
 
-If the result of an incremental query is equal to 0 during one of its executions, the workflow is paused until the query’s next programmed execution. The transitions and activities that follow the incremental query are therefore not processed before the following execution.
+If the result of an incremental query is equal to 0 during one of its executions, the workflow is paused until the query's next programmed execution. The transitions and activities that follow the incremental query are therefore not processed before the following execution.
 
 ## Configure the Incremental query activity {#incremental-query-configuration} 
 

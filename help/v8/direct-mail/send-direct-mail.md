@@ -2,8 +2,8 @@
 audience: end-user
 title: Preview & send a direct mail delivery
 description: Learn how to preview & send a direct mail delivery with Adobe Campaign Web
+exl-id: 06ce7535-e84d-4aed-bea9-b85b4ee0d008
 ---
-
 # Preview & send a direct mail delivery {#send-direct-mail}
 
 Once you have configured the extraction file for your direct mail delivery, you can utilize test profiles to preview it. If you have included personalized content, you can examine how this content is displayed in the columns by using test profile data. This allows you to ensure that the file content is being rendered correctly and that the personalized elements are being appropriately incorporated.

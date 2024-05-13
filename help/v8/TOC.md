@@ -10,9 +10,11 @@ breadcrumb-title: Campaign Web User Interface
 # Adobe Campaign Web documentation {#v8}
 
 + [Adobe Campaign Web User Interface documentation](campaign-web-home.md)
-+ [Release notes](rn/release-notes.md)
-+ [What's new?](rn/whats-new.md)
-+ [Documentation updates](rn/documentation-updates.md)
++ Release notes {#release-notes}
+  + [What's new?](rn/whats-new.md)
+  + [Latest release](rn/release-notes.md)
+  + [Documentation updates](rn/documentation-updates.md)
+  + [From Campaign Standard to v8](rn/acs-migration.md)
 + Get started with Adobe Campaign {#start}
   + [Get started](get-started/get-started.md)
   + [Connect to Campaign](get-started/connect-to-campaign.md)
@@ -20,7 +22,7 @@ breadcrumb-title: Campaign Web User Interface
   + [Browse and filter lists](get-started/list-filters.md)
   + [Work with predefined filters](get-started/predefined-filters.md)
   + [Access and permissions](get-started/permissions.md)
-  + [Campaign Web and Campaign client console](get-started/capability-matrix.md)
+  + [Campaign Web and Client console](get-started/capability-matrix.md)
   + [AI-powered contextual help](get-started/using-ai.md)
 + Messages and deliveries {#msg}
   + [Get started with messages](msg/gs-messages.md)
@@ -30,7 +32,10 @@ breadcrumb-title: Campaign Web User Interface
     + [Create your first email](email/create-email.md)
     + Define email content {#content}
       + [Configure the email content](email/edit-content.md)
-      + [Work with content templates](email/create-email-templates.md)
+      + Manage reusable content {#manage-reusable-content}
+        + [Work with content templates](email/create-email-templates.md)
+        + [Work with visual fragments](email/fragments.md)
+        + [Add visual fragments to your emails](email/use-visual-fragments.md) 
       + Start shaping your email {#start-design}
         + [Get started with the Email Designer](email/get-started-email-designer.md)
         + [Start from scratch ](email/create-email-content.md)
@@ -56,8 +61,8 @@ breadcrumb-title: Campaign Web User Interface
   + Push notifications {#push}
     + [Get started with push notifications](push/gs-push.md)
     + [Create a push notification delivery](push/create-push.md)
-    + [Design a push delivery](push/content-push.md)
     + [Design an Android rich push delivery](push/rich-push.md)
+    + [Design a push delivery](push/content-push.md)
     + [Preview and send a push delivery](push/send-push.md)
   + SMS {#sms}
     + [Get started with SMS deliveries](sms/gs-sms.md)
@@ -102,9 +107,10 @@ breadcrumb-title: Campaign Web User Interface
     + [Create a profile](audience/create-profile.md)
     + [Work with test profiles](audience/test-profiles.md)
   + Work with audiences {#audiences}
+    + [Get started with audiences](audience/manage-audience.md)
     + [Create audiences](audience/create-audience.md)
-    + [Monitor and manage audiences](audience/manage-audience.md)
   + Select your delivery recipients {#target-audiences}
+    + [Get started with audience selection](audience/delivery-recipients.md)
     + [Select an existing audience](audience/add-audience.md)
     + [Build a one-time audience](audience/one-time-audience.md)
     + [Load an email audience from a file](audience/file-audience.md)
@@ -128,7 +134,7 @@ breadcrumb-title: Campaign Web User Interface
     + [Configure workflow settings](workflows/workflow-settings.md)
     + [Start and monitor your workflows](workflows/start-monitor-workflows.md)
   + Work with workflow activities {#design-workflows}
-    + [About workflow activites](workflows/activities/about-activities.md)
+    + [About workflow activities](workflows/activities/about-activities.md)
     + [And-join](workflows/activities/and-join.md)
     + [Build audience](workflows/activities/build-audience.md)
     + [Change data source](workflows/activities/change-data-source.md)
@@ -137,8 +143,8 @@ breadcrumb-title: Campaign Web User Interface
     + [Deduplication](workflows/activities/deduplication.md)
     + [Email, SMS, Push, Direct mail](workflows/activities/channels.md)
     + [Enrichment](workflows/activities/enrichment.md)
-    + [Extract file](workflows/activities/extract-file.md)
     + [External signal](workflows/activities/external-signal.md)
+    + [Extract file](workflows/activities/extract-file.md)
     + [Fork](workflows/activities/fork.md)
     + [Incremental query](workflows/activities/incremental-query.md)
     + [JavaScript code](workflows/activities/javascript-code.md)
@@ -150,6 +156,7 @@ breadcrumb-title: Campaign Web User Interface
     + [Subscription services](workflows/activities/subscription-services.md)
     + [Test](workflows/activities/test.md)
     + [Transfer file](workflows/activities/transfer-file.md)
+    + [Update data](workflows/activities/update-data.md)
     + [Wait](workflows/activities/wait.md)
 + Query the database {#query-database}
   + [Work with the query modeler](query/query-modeler-overview.md)
@@ -159,7 +166,6 @@ breadcrumb-title: Campaign Web User Interface
   + [Filter lists](query/filter.md)
 + Reporting {#reports}
   + [Get started with reports](reporting/gs-reports.md)
-  + [Audit trail](reporting/audit-trail.md)
   + [Export your reports](reporting/export-reports.md)
   + [Key performance indicators](reporting/kpis.md)
   + Delivery reports {#delivery-report}
@@ -184,4 +190,6 @@ breadcrumb-title: Campaign Web User Interface
   + [Work with other Adobe solutions](integrations/integration.md)
   + [Manage assets with Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
   + [Manage templates with Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
++ Administration {#administration}
+  + [Configure custom fields](administration/custom-fields.md)
 

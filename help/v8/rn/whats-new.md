@@ -7,17 +7,9 @@ exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 
 # What's new {#new}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_learning_card2"
->title="Release Notes"
->abstract="Our latest release is packed with intuitive features designed to simplify the creation of personalized cross-channel campaigns, drive exceptional results, and give you a competitive advantage across all channels."
-
 We are thrilled to introduce the new version of **Adobe Campaign Web User Interface**. Our latest release is packed with intuitive features designed to simplify the creation of personalized cross-channel campaigns, drive exceptional results, and give you a competitive advantage across all channels. Campaign Web User Interface (UI) brings a connected canvas with Adobe Experience Platform for a unified experience. 
 
-
->[!AVAILABILITY]
->
->This version is available to all users starting [Campaign v8.6 release](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html). Learn more about Adobe Campaign releases in [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html){target="_blank"}.
+Changes, new capabilities and improvements are listed in the [monthly release notes](release-notes.md).
 
 
 ## Key capabilities {#key-features}
@@ -102,10 +94,10 @@ You can use the new Campaign Web user interface to **create and update recipient
 
     Learn more in [this section](../email/generative-gs.md).
 -->
-
+<!--
 **AI-powered Contextual Help**
 
-Ask questions and find guidance directly from the product user interface. The new **AI-powered Contextual Help** helps you learn and grow your expertise on new Campaign features. Based on the latest product documentation, it assists you to find help and get step-by-step guidance instantly, as you are building your use cases. This feature is currently available in Beta, for a limited set of users. Learn more in [this section](../get-started/using-ai.md).
+Ask questions and find guidance directly from the product user interface. The new **AI-powered Contextual Help** helps you learn and grow your expertise on new Campaign features. Based on the latest product documentation, it assists you to find help and get step-by-step guidance instantly, as you are building your use cases. This feature is currently available in Beta, for a limited set of users. Learn more in [this section](../get-started/using-ai.md).-->
 
 **Predefined Filters**
     
@@ -131,6 +123,8 @@ In addition, all your data and settings already available in the client console 
 With Campaign Web user interface, the user interface reflects the user's permissions. Learn more about permissions in [this page](../get-started/permissions.md).
 
 Supported and unsupported capabilities and interoperability between Campaign Web user interface and Campaign client console [in this page](../get-started/capability-matrix.md). 
+
+As a Campaign Standard user transitioning to Campaign v8, [refer to this page](../rn/acs-migration.md).
 
 ## Terminology updates {#terminology-updates}
 

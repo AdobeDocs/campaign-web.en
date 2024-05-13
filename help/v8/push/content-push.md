@@ -16,12 +16,6 @@ exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
 >title="Push iOS content"
 >abstract="Define the content of your push notification for iOS devices. To start composing your message, click the **Edit content** button."
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_push_remind_later"
->title="Remind later button"
->abstract="TBD"
-
-
 ## Define the content of the notification {#push-message}
 
 >[!CONTEXTUALHELP]
@@ -34,8 +28,6 @@ exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
 >id="acw_deliveries_push_android_msg"
 >title="Push Android message"
 >abstract="Define the content of your push notification for Android devices. To compose your message, click the **Title** and **Message** fields. Use the Expression editor to personalize data and add dynamic content. To further personalize your push notification, you can choose an image to add to your push notification, the notification's icon to display on your profiles' devices, and its color. For more custom configuration, browse to the **Advanced settings** section."
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_silent"

@@ -1,9 +1,19 @@
 ---
 audience: end-user
 title: Design a rich push notification delivery
-description: Learn how to design a rich push notification delivery with Adobe Campaign Web
+description: Learn how to design an Android rich push notification delivery with Adobe Campaign Web
+exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
 ---
-# Design an Android rich push delivery {#content-push}
+# Design an Android rich push delivery {#rich-push}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_remind_later"
+>title="Remind later button"
+>abstract="The **Remind later** button provides the option to schedule a reminder. The Timestamp field requires a value representing epoch in seconds."
+
+>[!AVAILABILITY]
+>
+>This feature is in **Limited Availability** (LA).
 
 With Firebase Cloud Messaging, you can choose between two types of messages:
 
@@ -23,7 +33,7 @@ Once your push delivery is created, you can define its content. Three templates 
 
 * **Carousel Template** enables you to send notifications with text and multiple images that users can swipe through.
 
-Browse the tabs below to learn how to compose your message for each templates.
+Navigate through the tabs below to learn more on how to personalize these templates.
 
 >[!BEGINTABS]
 
@@ -67,7 +77,7 @@ Once you have defined your message content, you can use test subscribers to prev
 
 1. Select the **[!UICONTROL Link type]** of the URL you added to the **[!UICONTROL Click action]** field:
 
-    * **[!UICONTROL Web UR]**L: Web URLs direct users to online content. Upon clicking, they prompt the device's default web browser to open and navigate to the designated URL.
+    * **[!UICONTROL Web URL]**: Web URLs direct users to online content. Upon clicking, they prompt the device's default web browser to open and navigate to the designated URL.
 
     * **[!UICONTROL Deeplink]**: Deep links are URLs guiding users to specific sections within an app even if the app is closed. When clicked, a dialog can appear, allowing users to choose from various apps capable of handling the link.
 
@@ -79,19 +89,19 @@ Once you have defined your message content, you can use test subscribers to prev
 
 1. To further personalize your push notification, you can choose an **[!UICONTROL Image]** URL to add to your push notification and the notification's **[!UICONTROL Icon]** to display on your profiles' devices.
 
-1. Click **[!UICONTROL Add button]** and enter the **[!UICONTROL Label]**.
+1. Click **[!UICONTROL Add button]** and fill in the following fields:
 
-    You can add up to 2 buttons along with the Remind Later button.
+    * **[!UICONTROL Label]**: Text displayed on the button.
+    * **[!UICONTROL Link URI]**: Specify the URI to be executed upon clicking the button.
+    * **[!UICONTROL Link type]**: Type of link either **[!UICONTROL Web URL]**, **[!UICONTROL Deeplink]**, or **[!UICONTROL Open App]**.
+
+    You have the option to include up to three buttons in your push notification. If you opt for the **[!UICONTROL Remind later button]**, you can only include a maximum of two buttons.
 
     ![](assets/rich_push_basic_4.png)
 
-1. Add the URL which defines the **[!UICONTROL Click action]** associated with a user click on your button.
-    
-    Select the **[!UICONTROL Link type]** of the URL.
-
 1. Click **[!UICONTROL Add remind later]** button to add a Remind me later option to your push notification. Enter a **[!UICONTROL Label]** and **[!UICONTROL Timestamp]**. 
 
-    The Timestamp field expects a value representing an epoch in seconds.
+    The Timestamp field expects a value representing epoch in seconds.
 
     ![](assets/rich_push_basic_5.png)
 

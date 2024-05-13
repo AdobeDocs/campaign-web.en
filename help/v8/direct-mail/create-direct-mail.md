@@ -2,8 +2,8 @@
 audience: end-user
 title: Create a direct mail delivery
 description: Learn how to create a direct mail delivery with Adobe Campaign Web
+exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
 ---
-
 # Create a direct mail delivery {#create-direct-mail}
 
 You can create a standalone direct mail delivery, or create a direct mail delivery in the context of a campaign workflow. The steps below detail the procedure for a standalone (one-shot) direct mail delivery. If you are working in the context of a campaign workflow, creation steps are detailed in [this section](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
@@ -58,4 +58,3 @@ To create a new standalone direct mail delivery, follow these steps:
     ![](assets/dm-settings.png){zoomable="yes"}
 
 1. Once your direct mail delivery is ready, click the **[!UICONTROL Review and send]** button to validate and send your delivery and generate the extraction file. [Learn how to preview and send a direct mail delivery](send-direct-mail.md)
-

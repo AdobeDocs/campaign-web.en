@@ -51,6 +51,11 @@ The **Split** activity is a **Targeting** activity that allows you to segment in
 >title="Skip empty transition"
 >abstract="Toggle the **[!UICONTROL Skip empty transition]** option on to disable the output transition for this subset if the incoming population is empty."
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_enable_overlapping"
+>title="Enable overlapping of output populations"
+>abstract="Enable overlapping of output populations"
+
 Follow these steps to configure the **Split** activity:
 
 1. Add a **Split** activity to your workflow.

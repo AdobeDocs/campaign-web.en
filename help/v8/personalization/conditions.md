@@ -16,11 +16,11 @@ exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
 
 ## Get started with conditional content {#gs}
 
-Conditional content is a powerful feature that allows you to create dynamic personalization based on the recipient's profile, automatically replacing text blocks and images when certain conditions are met. This feature can take your campaigns to new heights and deliver highly targeted, personalized experiences to your audience.
+Conditional content is a powerful feature that allows you to create dynamic personalization based on the recipient's profile data, automatically replacing text blocks and images when certain conditions are met. This feature can take your campaigns to new heights and deliver highly targeted, personalized experiences to your audience.
 
 By configuring conditional content fields, you can create advanced dynamic personalization based on the recipient's profile for example. Text blocks, links, subject line, and/or images are replaced in the message content when a particular condition is satisfied. For example, you can display 'Mr' or 'Mrs' according to the value of the Gender field in Adobe Campaign database, or include a different link based on the recipient preferred language.
 
-To create conditional content, you need to create conditions in the **expression editor** using specific helper functions. This method is available for all delivery channels, in any field where you can access the expression editor, such as the subject line, or email links and text/button content components. [Learn how to access the expression editor](gs-personalization.md/#access)
+To create conditional content, you need to create conditions in the **expression editor** using specific helper functions. This method is available for all delivery channels, in any field where you can access the expression editor, such as the subject line, or email links and text/button content components. [Learn how to access the expression editor](gs-personalization.md#access)
 
 In addition to the expression editor, you can leverage a dedicated **conditional content builder** when designing an email that allows you to create multiple variants for an element of your email body. [Learn how to create conditional content in emails](#condition-condition-builder)
 
@@ -36,7 +36,7 @@ To define conditional content for a delivery using the expression editor, follow
 
     ![](assets/open-perso-editor-sms.png){zoomable="yes"}
 
-1. In the personalization editor, browse to the **[!UICONTROL Helper functions]** menu on the left.
+1. In the personalization editor, browse to the **[!UICONTROL Conditions]** menu on the left.
 
 1. To start building your condition, click the '+' icon next to the **If** function. The following line is added to the central screen:`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } %>`
 
@@ -78,7 +78,7 @@ Conditional content in emails can be created in two ways:
 * In the expression editor by building a condition with helper functions,
 * In a dedicated conditional content builder that is accessible when designing an email.
 
-The following section provides step-by-step instructions on how to create conditions using the email designer's conditional content capability. Detailed information on how to create conditions using the expression editor is available [here](#condition-perso-editor).
+The following section provides step-by-step instructions on how to create conditions using the Email Designer's conditional content capability. Detailed information on how to create conditions using the expression editor is available [here](#condition-perso-editor).
 
 In this example, we want to create an email message with multiple variants based on the recipients' language. Follow these steps:
 
@@ -94,13 +94,9 @@ In this example, we want to create an email message with multiple variants based
 
     ![](assets/condition-add-condition.png){zoomable="yes"}{width="800" align="center"}
 
-1. A rule builder appears. It provides **Profile**, **Message**, and **Delivery** attributes that you can leverage to create your condition.
+1. The query modeler opens. It allows you to build a condition by filtering the recipient's profile data. [Learn how to work with the query modeler](../query/query-modeler-overview.md).
 
-    In addition, the **Conditions** menu provides pre-built conditions that you can add to the canvas to easily build your variant. To use them, click the **Add** button then replace the elements between `<` and `>`symbols by the desired elements. Make sure that the value you specify for the `<value>` object is in quotation marks.
-
-    ![](assets/condition-syntax.png){zoomable="yes"}{width="800" align="center"}
-
-1. Once the condition for the first variant of the message is ready, click **[!UICONTROL Confirm]**. In this example, we are creating a rule targeting recipients whose language is 'French'.
+    Once the condition for the first variant of the message is ready, click **[!UICONTROL Confirm]**. In this example, we are creating a rule targeting recipients whose language is 'French'.
 
     ![](assets/condition-example.png){zoomable="yes"}{width="800" align="center"}
 

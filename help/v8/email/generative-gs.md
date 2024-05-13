@@ -13,7 +13,7 @@ hidefromtoc: yes
 
 **Table of content**
 
-* **[Get started with the AI Assistant](generative-gs.md)**
+* Get started with the AI Assistant
 * [Email generation with the AI Assistant](generative-content.md)
 * [SMS generation with the AI Assistant](generative-sms.md)
 * [Push notification generation with the AI Assistant](generative-push.md)
@@ -38,13 +38,13 @@ hidefromtoc: yes
 >abstract="Access to this feature is subject to your agreement to the Adobe Experience Cloud Generative AI User Guidelines. Any prompts, context, or supplemental information, or other input you provide to this feature must be tied to specific context, which can include your branding materials, website content, data, schemas for such data, templates, or other trusted documents and must not contain any personal information (personal information includes anything that can be linked back to a specific invidual). You should review any output from this feature for accuracy and ensure that it is appropriate for your use case"
 >additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe Generative AI User Guidelines"
 
-The AI Assistant is a valuable tool for improving email content. It simplifies personalization and content enhancement, optimizing your email deliveries to better resonate with your audience. 
+As the Marketing industry becomes more competitive, brands are seeking efficient ways to generate impactful content in an efficient and quick manner. AI Assistant in Campaign is Adobe's AI-powered content generation capability that revolutionizes the way marketers create professional and brand-consistent content across channels like Email, SMS, Push. With advanced GenAI models and deep understanding of brand guidelines, AI Assistant auto-generates personalized, engaging, and effective content based on the marketing objective with content optimized for brand outlined styles, layouts, tone, and more. 
 
-This feature saves time and ensures consistent quality by automatically generating complete email content. By using Generative AI, you can create compelling emails effortlessly, improving your communication's effectiveness and efficiency.
+AI Assistant makes the creation and execution of marketing campaigns across channels like Email, SMS and Push intuitive, simple and hassle-free while saving time, improving efficiency, and driving better results.
 
 >[!NOTE]
 >
->This capability is available in its Alpha version and subject to change without prior notice. It will be activated early October.
+>This capability is available in its Beta version and subject to change without prior notice.
 
 ## Guardrails and limitations {#generative-guardrails}
 
@@ -52,18 +52,17 @@ General guidelines for using the AI Assistant in Campaign for email generation a
 
 * The quality of the generated content is strongly influenced by the marketing objective / prompt you define. Use well defined prompt for the GenAI model to accurately interpret. 
 * Upload brand asset to have accurate, on brand content. Else, content is based on publicly available info. The uploaded content can be in the following formats: PDF, JPEG, PNG, or ZIP files (with supported file formats).
-* The recommended size for uploaded brand asset is less than 10MB. Larger files or lots of images can work but the processing time is increased.
-* Use an Adobe Campaign authored email templates, or preferably [built-in email templates](../email/create-email-templates.md) to create your email content. Email template with up to 8-10 images is recommended.
-
+* The maximum size for uploaded brand asset is 50MB. Larger files or lots of images can work but the processing time is increased.
+* Use an Adobe Campaign authored email templates, preferably [built-in email templates](../email/create-email-templates.md), a brand specific template or custom template to create your email content. Email template with up to 8-10 images is recommended.
+* Make sure to report any problematic outputs using the thumb up, thumb down or flag icons when selecting variants.
+* Your use of the AI assistant is subject to the Adobe Experience Cloud Generative AI User Guidelines. [Learn more](https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html)
 
 The following limitations apply to AI Assistant in Campaign:
 
-* Supported language is English only
-* Only available for the email channel
-* GenAI content might not always be accurate: please share your feedback so that our engineers can refine the models
-* You may upload multiple brand assets, but can leverage only one for a specific generation
-
-
+* Supported language is English only.
+* Only available for the email, push and SMS channels.
+* GenAI content might not always be accurate: please share your feedback so that our engineers can refine the models.
+* You may upload multiple brand assets, but can leverage only one for a specific generation.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

@@ -49,6 +49,8 @@ exl-id: 23e71da3-434d-4619-a48a-334281592d85
 
 The Email Designer allows you to easily define the structure of your email. By adding and moving structural elements with simple drag-and-drop actions, you can design the body of your email within seconds.
 
+➡️ [Discover this feature in video](#video) 
+
 To start building your email content, follow the steps below.
 
 1. From the [Email Designer](get-started-email-designer.md#start-authoring) home page, select the **[!UICONTROL Design from scratch]** option.
@@ -99,3 +101,8 @@ To start building your email content, follow the steps below.
 
 1. When your email is ready, click **[!UICONTROL Save]**.
 
+## How-to video {#video}
+
+Understand how to navigate the Email Designer. Learn how to structure and design an email from scratch, how to personalize, and test your email.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425867/?quality=12)

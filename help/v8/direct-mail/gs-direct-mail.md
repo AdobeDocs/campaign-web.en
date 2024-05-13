@@ -2,8 +2,8 @@
 audience: end-user
 title: Get started with direct mail deliveries
 description: Learn how to create and send direct mail deliveries with Adobe Campaign Web
+exl-id: a1c778e2-e950-4b8f-875a-87b39eb732c2
 ---
-
 # Get started with direct mail deliveries {#gs-direct-mail}
 
 Direct mail is an offline channel that allows you to produce files to mass deliver personalized letters to your customers such as postcards, flyers, or catalogs.

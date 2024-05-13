@@ -10,15 +10,17 @@ To start building a query, access the query modeler from the location of your ch
 
 You can add two types of elements:  
 
-* **Filtering components** (Custom condition, Select audience, Predefined filter) allow you to build your own rules, select an audience or a predefined filter to refine your query. [Learn how to work with filtering components](#filtering)
+* **Filtering components** (Custom condition, Select audience, Predefined filter) allow you to build your own rules, select an audience or a predefined filter to refine your query. They are added at the start of your query and on dotted transitions. [Learn how to work with filtering components](#filtering)
 
-    *Recipients who subscribed to the 'Sports' newsletter*. *Recipients living in New York*, *Recipients living in San Francisco*
+    Example: *Recipients who subscribed to the 'Sports' newsletter*. *Recipients living in New York*, *Recipients living in San Francisco*
 
-* **Group operators** (AND, OR, EXCEPT) allow you to group together filtering components in the diagram to suit your needs. [Learn how to work with operators](#filtering)
+    ![](assets/query-add-component.png){zoomable="yes"}
+
+* **Group operators** (AND, OR, EXCEPT) allow you to group together filtering components in the diagram. They are added on existing transitions before a filtering component. [Learn how to work with operators](#filtering)
     
-    *Recipients who subscribed to the "Sports" newsletter **AND** who live in New York **OR** San Francisco*.
+    Example: *Recipients who subscribed to the "Sports" newsletter **AND** who live in New York **OR** San Francisco*.
 
-![](assets/query-add-component.png){zoomable="yes"}
+    ![](assets/query-add-operator.png){zoomable="yes"}
 
 ## Add filtering components {#filtering}
 
@@ -45,7 +47,7 @@ To filter your query using a custom condition, follow these steps:
 
     >[!NOTE]
     >
-    >The **[!UICONTROL Edit expression]** button allows you to leverage Campaign Web expression editor to manually define an expression using fields from the database and helper functions. [Learn how to edit expressions](expression-editor.md)
+    >The **Edit expression** button allows you to leverage Campaign Web expression editor to manually define an expression using fields from the database and helper functions. [Learn how to edit expressions](expression-editor.md)
 
 1. Select the operator to apply from the drop-down list. Various operators are available for use. Note that operators available in the drop-down list depend on the attribute's data type. 
 
@@ -77,6 +79,10 @@ To filter your query using a custom condition, follow these steps:
     *Query example returning all profiles aged 21 or more:*
 
     ![](assets/query-custom-condition.png){zoomable="yes"}
+
+    For date-type attributes, predefined values are available using the **[!UICONTROL Presets]** option.
+
+    ![](assets/date-presets.png){zoomable="yes"}
 
 #### Custom conditions on linked tables (1-1 and 1-N links){#links}
 
@@ -205,7 +211,7 @@ To copy-paste filtering components, follow these steps:
 
 Each time you add a new filtering component to your query, it is automatically linked to the other component by an **AND** operator. This means that results from the two filtering components are combined.
 
-In this example, we have added a new audience-type filtering components on the second transition. The component is linked to the predefined filter type condition with an **AND** operator, meaning that the query results includes recipients targeted by the "Madridians" predefined filter AND belonging to the "Discount hunters" audience.
+In this example, we have added a new audience-type filtering components on the second transition. The component is linked to the predefined filter condition with an **AND** operator, meaning that the query results include recipients targeted by the "Madridians" predefined filter AND belonging to the "Discount hunters" audience.
 
 ![](assets/query-operator.png){zoomable="yes"}
 

@@ -2,6 +2,7 @@
 audience: end-user
 title: Campaign reports for the Direct mail channel
 description: Understand campaign reports for the Direct mail channel
+exl-id: 7817d4c5-1f97-4b17-8a5f-f1a5b8701fe9
 ---
 # Campaign reports for the Direct mail channel {#campaign-reports-direct-mail}
 

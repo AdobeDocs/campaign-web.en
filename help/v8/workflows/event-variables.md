@@ -6,7 +6,7 @@ exl-id: 526dc98f-391d-4f3f-a687-c980bf60b93b
 ---
 # Workflow event variables {#event-variables}
 
-Some workflow activities allow you to edit scripts in the expression editor to perform specific actions such as retrieving data coming from previous activites, building conditions, or computing file names based on event variables.
+Some workflow activities allow you to edit scripts in the expression editor to perform specific actions such as retrieving data coming from previous activities, building conditions, or computing file names based on event variables.
  
 ## What are event variables {#scripting}
 

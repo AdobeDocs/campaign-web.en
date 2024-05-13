@@ -18,7 +18,7 @@ exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
 >title="Push delivery properties"
 >abstract="Define your Push delivery properties. Enter the label of the push and use the **Additional Options** to configure the internal name, delivery folder and code. You can also enter a custom description."
 
-You can create a standalone push notification delivery, or create a push notification in the context of a campaign workflow. The steps below detail the procedure for a standalone (one-shot) push delivery. If you are working in the context of a campaign workflow, creation steps are detailed in [this section](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+You can create a standalone push notification delivery, or create a push notification in the context of a campaign workflow. The steps below detail the procedure for a standalone (one-shot) push delivery. If you are working in the context of a campaign workflow, creation steps are details in [this section](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
 ## Create a push delivery {#create-push-delivery}
 
@@ -70,7 +70,7 @@ You must first select the app, and then you can refine the Push notification aud
 
     Learn how to create a new audience in [this page](../audience/one-time-audience.md)
 
-1. Switch on the **[!UICONTROL Enable control group]** option to set a control group to measure the impact of your delivery. Messages are not sent to that control group, so that you can compare the behavior of the population who received the message with the behavior of contacts who did not. [Learn more](../audience/control-group.md)
+1. Switch on the **[!UICONTROL Enable control group]** option to set a control group to measure the impact of your delivery. Messages are not sent to that control group, so that you can compare the behavior of the population which received the message with the behavior of contacts which did not. [Learn more](../audience/control-group.md)
 
 ## Define the Push notification content {#create-content-push}
 

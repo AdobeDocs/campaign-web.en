@@ -2,6 +2,7 @@
 audience: end-user
 title: Global reports for the direct mail channel
 description: Learn more about Global reports for the direct mail channel
+exl-id: a42536fe-375b-4169-8775-d47ed26692f8
 ---
 # Global reports for the direct mail channel {#global-report-direct}
 
@@ -62,11 +63,16 @@ The table and graph for **[!UICONTROL Targeted Audience]** showcase data related
 ### Delivery statistics {#delivery-summary-direct-exec-stats}
 
 >[!CONTEXTUALHELP]
->id="acw_global_reporting_delivery_statistics_summary_direct_mail"
+>id="acw_global_reporting_delivery_statistics_summary_direct_mail_graph"
 >title="Delivery statistics"
->abstract="The **Delivery statistics** graph details the success of your Direct mail delivery, and errors that occurred."
+>abstract="The **Delivery statistics** graph provides insights into the effectiveness of your Direct mail deliveries, including successful deliveries and any encountered errors."
 
-The **[!UICONTROL Delivery statistics]** table provides a breakdown of the success of every direct mail delivery, with detailed metrics outlined below.
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_delivery_statistics_summary_direct_mail_table"
+>title="Delivery statistics"
+>abstract="The **Delivery statistics** table details the success of your Direct mail delivery, and errors that occurred."
+
+The **[!UICONTROL Delivery statistics]** graph and table provide a breakdown of the success of every direct mail delivery, with detailed metrics outlined below.
 
 +++Learn more on Delivery statistics metrics.
 
@@ -89,7 +95,7 @@ The **[!UICONTROL Delivery statistics]** table provides a breakdown of the succe
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_causes_exclusion_direct_mail_graph"
->title="Delivery Causes of exclusion"
+>title="Causes of exclusion"
 >abstract="The **Causes of exclusion** graph illustrates the distribution of rejected messages during the preparation for delivery, categorized by each rule."
 
 ![](assets/global_report_direct_mail_exclusions.png){zoomable="yes"}{align="center"}
@@ -113,4 +119,3 @@ The Exclusions graph and table illustrate the reasons that prevented user profil
 * **[!UICONTROL Target limited in size]**: The maximum delivery size was reached for the recipient.
 
 +++
-

@@ -107,7 +107,7 @@ Learn how to create and send offers in emails and SMS in [this section](../msg/o
 
 * **Reports** - The **Report** entry offers a consolidated overall summary of traffic and engagement metrics for each channel within your Campaign environment. These reports consist of various widgets, each offering a distinct perspective on your campaign or delivery performance. Learn more in [this section](../reporting/global-reports.md).
 
-
+<!--
 ## Contextual Help {#user-interface-help} 
 
 A contextual help is available in the interface. When available, click on the `?` icon to display help information and related documentation links. 
@@ -120,6 +120,7 @@ Thanks to Campaign Gen AI's capabilities, this assistant transforms your experie
 
 Learn more in [this section](using-ai.md).
 
+-->
 
 ## Learn more {#learn-more}
 
@@ -166,11 +167,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 <!-- Aligned with https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CGA%3E-+Official+list -->
 
 >[!CONTEXTUALHELP]
->id="acw_recipients_creation_list"
->title="Recipients creation"
->abstract="Recipients creation"
-
->[!CONTEXTUALHELP]
 >id="acw_recipients_creation_cardoverview"
 >title="Recipients card overview"
 >abstract="Recipients card overview"
@@ -195,40 +191,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Recipients offers preview"
 >abstract="Recipients offers preview"
 
->[!CONTEXTUALHELP]
->id="acw_fragments_menu"
->title="Fragments"
->abstract="Fragments"
-
->[!CONTEXTUALHELP]
->id="acw_fragments_save"
->title="Fragments save"
->abstract="Fragments save"
-
->[!CONTEXTUALHELP]
->id="acw_fragments_create"
->title="Fragments creation"
->abstract="Fragments creation"
-
->[!CONTEXTUALHELP]
->id="acw_fragments_properties"
->title="Fragments properties"
->abstract="Fragments properties"
-
->[!CONTEXTUALHELP]
->id="acw_fragments_type"
->title="Fragments type"
->abstract="Fragments type"
-
->[!CONTEXTUALHELP]
->id="acw_fragments_list"
->title="Fragments list"
->abstract="Fragments list"
-
->[!CONTEXTUALHELP]
->id="acw_fragments_details"
->title="Fragments details"
->abstract="Fragments details"
 
 
 
@@ -280,70 +242,131 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 <!-- FOR POST-GA -->
 
-
-
-<!--
-Deprecated IDs - to remove in GA: -->
-
->[!CONTEXTUALHELP]
->id="acw_attributepicker_advancedfields"
->title="Display advanced attributes"
->abstract="Only the most common attributes are displayed by default in the attribute list. Activate the **Display advanced attributes** toggle to see all available attributes for the current list in the left palette of the rule builder, such as nodes, groupings, 1-1 links, 1-N links."
-
->[!CONTEXTUALHELP]
->id="acw_rulebuilder_advancedfields"
->title="Rule builder advanced fields"
->abstract="Only the most common attributes are displayed by default in the attribute list. Activate the **Display advanced attributes** toggle to see all available attributes for the current list in the left palette of the rule builder, such as nodes, groupings, 1-1 links, 1-N links."
-
->[!CONTEXTUALHELP]
->id="acw_rulebuilder_properties_advanced"
->title="Rule builder advanced attributes"
->abstract="Only the most common attributes are displayed by default in the attribute list. Activate the **Display advanced attributes** toggle to see all available attributes for the current list in the left palette of the rule builder, such as nodes, groupings, 1-1 links, 1-N links."
-
-
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_readonlymode"
->title="This template is ready only"
->abstract="TBC"
-
-
-
-
 <!--Update file-->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata"
 >title="Update Data"
->abstract="TBC"
+>abstract="The **Update data** activity performs a mass update of the fields in the database."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_operationtype"
->title="Update Data"
->abstract="TBC"
+>title="Select how to update data"
+>abstract="The **Operation type** field lets you choose the process to be carried out on the data in the database. Select the first option to add data or update (it if it has already been added). You can also only add data, only update data, or delete data. Select the **Update and merge collections** to select a primary record to link duplicates to, and delete those duplicates safely."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_recordid"
->title="Update Data"
->abstract="TBC"
+>title="Record identification"
+>abstract="Specify how to identify the records in the database: if data relate to an existing targeting dimension, select the **Using the targeting dimension** option and select the targeting dimension and fields to update. Otherwise, specify one or more custom links to identify the data in the database, or direct use of reconciliation keys."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_fieldsupdate"
->title="Update Data"
->abstract="TBC"
+>title="Select fields to update"
+>abstract="Select the fields to update and reconciliation settings. You can use the **Auto-mapping** option to automatically identify the fields to be updated."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_advancedoptions"
->title="Update Data"
->abstract="TBC"
+>title="Advanced options to update data"
+>abstract="The **Advanced options** section let you specify additional settings to manage data and duplicates."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition"
->title="Update Data"
->abstract="TBC"
+>title="Generate an outbound transition"
+>abstract="Toggle the **Generate an outbound transition** option to add an outbound transition that will be activated at the end of the execution of the **Update data** activity. The update generally marks the end of a targeting workflow and therefore the option is not activated by default."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition_rejects"
->title="Update Data"
->abstract="TBC"
+>title="Generate an outbound transition for rejects."
+>abstract="Toggle the **Generate an outbound transition for rejects** option to add an outbound transition containing records that have not been correctly processed after the update (for example if there is a duplicate). The update generally marks the end of a targeting workflow and therefore the option is not activated by default."
 
+<!-- Workflow settings -->
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_settings_initscript"
+>title="Initialization script"
+>abstract="Initialization script"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_settings_execution_properties"
+>title="Execution properties"
+>abstract="Execution properties"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_settings_execution_error"
+>title="Execution error"
+>abstract="Execution error"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_settings_execution_initscript"
+>title="Execution inititialization script"
+>abstract="Execution inititialization script"
+
+<!-- Delivery alerting -->
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_criteria"
+>title="Delivery alerting criteria dashboard"
+>abstract="Delivery alerting criteria dashboard"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_dashboards"
+>title="Delivery alerting dashboard"
+>abstract="Delivery alerting dashboard"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_criteria_create"
+>title="Create delivery alerting critera"
+>abstract="Create delivery alerting critera"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_criteria_create_indicators"
+>title="Indicators to add in alerts"
+>abstract="Indicators to add in alerts"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_criteria_create_alert"
+>title="Alert type"
+>abstract="Alert type"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_criteria_create_frequency"
+>title="Criterion frequency"
+>abstract="Criterion frequency"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_create_criteria_add"
+>title="Delivery alerting criteria"
+>abstract="Delivery alerting criteria"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_create_general"
+>title="Delivery alerting general parameters"
+>abstract="Delivery alerting"
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_defaultlp"
+>title="Default landing page"
+>abstract="Select the default landing page associated to this subscription service."
+>id="acw_delivery_alerting_create_criteria_parameters"
+>title="Delivery alerting criteria parameters"
+>abstract="Delivery alerting"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_dashboard_alerts"
+>title="Delivery alerts sent"
+>abstract="Delivery alerts sent"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_dashboard_history"
+>title="Delivery alerts history"
+>abstract="Delivery alerts history"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_dashboard_create"
+>title="Create delivery alerting dashboard"
+>abstract="Create delivery alerting dashboard"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_editcustomfields"
+>title="Edit custom attributes"
+>abstract="Edit custom attributes"

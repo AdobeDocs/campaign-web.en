@@ -22,7 +22,7 @@ The **[!UICONTROL Delivery Overview]** report provides key performance indicator
 
 +++Learn more on Push campaign report metrics.
 
-* **[!UICONTROL Total sent]**: Total number of messages processed during the delivery preparation.
+* **[!UICONTROL Messages to deliver]**: Total number of messages processed during the delivery preparation.
 
 * **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
 
@@ -65,7 +65,6 @@ The **[!UICONTROL Initial target audience statistics]** table displays data rela
 The **[!UICONTROL Execution statistics]** table details the success of your delivery. Metrics are detailed below.
 
 ![](assets/campaign-reporting-push-exec.png){zoomable="yes"}
-
 
 +++Learn more on Push campaign report metrics.
 

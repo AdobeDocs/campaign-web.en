@@ -2,6 +2,7 @@
 audience: end-user
 title: Direct mail reports
 description: Learn how to access and use Direct mail reports
+exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
 ---
 # Direct mail delivery report {#direct-mail-report}
 
@@ -110,7 +111,7 @@ The **[!UICONTROL Causes of exclusion]** graph  provides a detailed breakdown of
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusions_direct_mail"
 >title="Exclusions"
->abstract="The **Causes of exclusion** table displays a detailed breakdown, by rule, of messages that were rejected during the delivery preparation process."
+>abstract="The **[!UICONTROL Exclusions]** table displays a detailed breakdown, by rule, of messages that were rejected during the delivery preparation process."
 
 The **[!UICONTROL Exclusions]** table provides an in-depth breakdown, categorized by specific rules, of messages that were rejected during the preparation phase of delivery. This comprehensive breakdown allows for a clear understanding of the reasons behind the exclusion of these messages from the delivery process.
 

@@ -45,29 +45,23 @@ Get a glimpse of the newest enhancements in Adobe Campaign Web product and docum
 
 >[!BEGINTABS]
 
->[!TAB Adobe Experience Manager as a Cloud Service integration] 
+>[!TAB April release is live!]
 
-The integration between Adobe Campaign Web Interface and Adobe Experience Manager as a Cloud Service streamlines email content management. You can now create and edit email content directly in Adobe Experience Manager, then seamlessly import the finished templates into Adobe Campaign for your deliveries.
+Discover new features and improvements coming with Adobe Campaign Web User Interface 24.4 release.
 
-[![image](assets/do-not-localize/learn-more-button.svg)](integrations/aem-content.md)
+[![image](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB Cross-channel workflows] 
+>[!TAB New workflow activities] 
 
-Unlock new possibilities for automation and optimization, allowing you to create more dynamic and personalized customer journeys. From advanced segmentation to conditional triggers, our additional workflow activities empower you to deliver targeted messages and drive better campaign performance.
+This release comes with the following workflow activities:  Update data, Subscription services, Extract file, Transfer file, Test, JavaScript code, External signal, Incremental query.
 
-[![image](assets/do-not-localize/learn-more-button.svg)](workflows/gs-workflows.md)
+[![image](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB Audience composition]
+>[!TAB Rich push notification]
 
-Create new audiences into a visual workflow canvas. Beyond starting from scratch to create a simple audience, you can also leverage workflow activities to refine your audience. Combine multiple audiences into a single one, enrich your audience with external attributes, or divide a it into multiple audiences based on rules of your choice.
+You can now send rich push notifications via Android. Rich push notification is an enhanced form of mobile notification that goes beyond simple text messages by incorporating multimedia elements such as images, interactive buttons, or other rich media content. 
 
-[![image](assets/do-not-localize/learn-more-button.svg)](audience/create-audience.md)
-
->[!TAB Email Designer]
-
-Campaign Email Designer enables you to create captivating, individually tailored emails through an intuitive drag-and-drop interface. Whether you're starting from a blank slate, importing an existing content or leveraging existing templates, design and refine all content for every email!
-
-[![image](assets/do-not-localize/learn-more-button.svg)](email/get-started-email-designer.md)
+[![image](assets/do-not-localize/learn-more-button.svg)](push/rich-push.md)
 
 >[!ENDTABS]
 
@@ -107,7 +101,7 @@ Campaign Email Designer enables you to create captivating, individually tailored
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>Get started</strong><br/><a href="get-started/user-interface.md">User interface</a> - <a href="get-started/connect-to-campaign.md">Connect to Campaign</a> - <a href="get-started/using-ai.md">AI-powered contextual help</a> - <a href="get-started/permissions.md">Access & Permissions</a>
+      <strong>Get started</strong><br/><a href="get-started/user-interface.md">User interface</a> - <a href="get-started/connect-to-campaign.md">Connect to Campaign</a> - <a href="get-started/permissions.md">Access & Permissions</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">

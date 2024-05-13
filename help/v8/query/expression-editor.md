@@ -6,7 +6,7 @@ exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
 ---
 # Edit expressions {#expression}
 
-Editing an expression involves manually entering conditions to form a rule. This mode allows you to use advanced functions, whichlet you manipulate the values used to carry out specific queries such as manipulating dates, strings, numerical fields, sorting, etc.
+Editing an expression involves manually entering conditions to form a rule. This mode allows you to use advanced functions, which let you manipulate the values used to carry out specific queries such as manipulating dates, strings, numerical fields, sorting, etc.
 
 >[!IMPORTANT]
 >

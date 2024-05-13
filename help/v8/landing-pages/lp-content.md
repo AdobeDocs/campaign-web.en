@@ -16,7 +16,7 @@ exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
 >title="Define the primary page settings"
 >abstract="The primary page is immediately displayed to the users after they click the link to your landing page, such as from an email or a website."
 
-You can edit the content of any page of your landing page. 
+You can edit the content of any page of your landing page.
 
 The first page, which is immediately displayed to the users after they click the link to your landing page, is already pre-filled with the [landing page-specific form component](#use-form-component) for the selected template<!-- to enable users to select and submit their choices-->.
 

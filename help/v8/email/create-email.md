@@ -16,6 +16,8 @@ Learn how to create your first targeted email. In this use case, you schedule th
 
 Based on a predefined [design template](../email/create-email-templates.md), the email also features personalized content based on customer profile attributes.
 
+➡️ [Discover this feature in video](#video) 
+
 ## Create the email delivery {#create-email}
 
 >[!CONTEXTUALHELP]
@@ -205,3 +207,9 @@ After reviewing and testing your email, you can launch its preparation and send 
 1. After the email has been sent, you can access dedicated reports for further analysis by clicking the **[!UICONTROL Reporting]** button.
 
 ![](assets/reports.png){zoomable="yes"}
+
+## How-to video {#video}
+
+Learn how to create an email delivery from scratch, define the audience, design the content, simulate preview, and send a proof.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)

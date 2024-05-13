@@ -13,7 +13,7 @@ exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 
 Use Adobe Campaign Web to manage and create your services such as newsletters, and to check the subscriptions or unsubscriptions to these services.
 
-Several services can be defined in parallel, for example: newsletters for specific product categories, themes or areas of a web site, subscriptions to various types of alert messages, and real-time notifications. 
+Several services can be defined in parallel, for example: newsletters for specific product categories, themes or areas of a web site, subscriptions to various types of alert messages, and real-time notifications.
 
 >[!NOTE]
 >
@@ -88,7 +88,7 @@ To create a subscription service, follow the steps below.
 
     ![](assets/service-create-default-lp.png){zoomable="yes"}
 
-    Once done, when [inserting a link](../email/message-tracking.md) in an email, select **[!UICONTROL Subscription link]** or **[!UICONTROL Unsubscription link]**. Upon clicking that link, users will be directed to the subscription or unsubscription landing page referenced in the service.
+    Once done, when [inserting a link](../email/message-tracking.md) in an email, select **[!UICONTROL Subscription link]** or **[!UICONTROL Unsubscription link]**. Upon clicking that link, users will be directed to the subscription or unsubscription landing page referenced in the service. <!--After submitting the form, they will be subscribed to / unsubscribed from the service.-->
 
     ![](assets/service-create-default-lp-link.png){zoomable="yes"}
 
