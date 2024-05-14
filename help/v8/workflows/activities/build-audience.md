@@ -27,12 +27,12 @@ To define the audience population, you can:
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
 -->
 
-## Configure the Build audience activity{#build-audience-configuration}
+## Configure the Build audience activity {#build-audience-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_audienceselector"
 >title="Audience"
->abstract="Audience"
+>abstract="Select your audience, the same way you use an audience when designing a new delivery."
 
 Follow these steps to configure the **Build audience** activity:
 

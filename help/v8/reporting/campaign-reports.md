@@ -6,18 +6,6 @@ exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
 ---
 # Get started with campaign reports {#campaign-reports}
 
-<!-- CAN BE REMOVED___
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_sending"
->title="Reporting Sending"
->abstract="The Sending tab within your report provides in-depth insights into your visitors' interactions with your deliveries and any potential errors they may have encountered."
-
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_tracking"
->title="Reporting tracking"
->abstract="The Tracking tab within your report offers valuable data, including recipient behavior per link, breakdown of opens and clicks, as well as detailed information about the most frequently clicked URLs during a delivery."
--->
-
 The **Campaign reports** provide a comprehensive overview of your **campaign**, incorporating all pertinent information regarding the different deliveries included. These reports offer a thorough analysis of each delivery's performance, per channel: success rates, audience engagement, and other essential metrics. They allow you to evaluate the overall effectiveness and impact of your campaign. 
 
 The full list of reports and associated metrics for each channel is available in the following pages:

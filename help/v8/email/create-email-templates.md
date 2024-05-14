@@ -47,12 +47,12 @@ From the list, you can edit, duplicate, or delete existing content templates. Us
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_design"
 >title="Content template design"
->abstract="Content template design"
+>abstract="Design your email content template."
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_selection"
 >title="Content template selection"
->abstract="Content template selection"
+>abstract="Select your email content template."
 
 Content templates can be created by [saving an existing email as a template](#save-as-template), or from the list of email templates, through the **Create content template** button, [as detailed below](#create-template-from-scratch).
 

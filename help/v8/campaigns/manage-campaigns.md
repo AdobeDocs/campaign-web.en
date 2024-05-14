@@ -43,7 +43,7 @@ For example, you can filter on your campaign schedule. Open the filter panel and
 >[!CONTEXTUALHELP]
 >id="acw_campaign_workflow_list"
 >title="Workflow list in a campaign"
->abstract="Workflow list in a campaign"
+>abstract="The **Workflow** tab lists all the workflow linked to the current campaign."
 
 In the **Browse** tab of the campaign list, click a campaign name to display its details. 
 

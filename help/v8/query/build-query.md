@@ -151,7 +151,7 @@ Custom conditions allow you to perform aggregate operations. To do this, you nee
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_selectaudience"
 >title="Select audience"
->abstract="Select audience"
+>abstract="By using the **Select audience** option, you can choose the audience that you want to use to filter your query."
 
 To filter your query using an existing audience, follow these steps:
 
@@ -168,7 +168,7 @@ To filter your query using an existing audience, follow these steps:
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_predefinedfilter"
 >title="Predefined filter"
->abstract="Predefined filter"
+>abstract="By using the **Predefined filter** option, you can select a predefined filter from the list of custom filters or from favorites."
 
 To filter your query using a predefined filter, follow these steps:
 
@@ -207,7 +207,7 @@ To copy-paste filtering components, follow these steps:
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_group"
 >title="Group"
->abstract="Group"
+>abstract="In this pane, you can change the operator used to link filtering conditions together."
 
 Each time you add a new filtering component to your query, it is automatically linked to the other component by an **AND** operator. This means that results from the two filtering components are combined.
 
