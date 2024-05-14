@@ -8,14 +8,14 @@ exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
 
 You can use a visual fragment in an [email delivery](../email/get-started-email-designer.md), or in a [content template](../email/use-email-templates.md). Steps are detailed below.
 
+
 >[!NOTE]
 >
->Learn how to create and manage fragments in [this section](fragments.md).
+>Learn how to create and manage content fragments in [this section](fragments.md).
 
+## Use a vosiam fragment {#use-fragment}
 
-## Use a fragment {#use-fragment}
-
-To insert a fragment in an email content, follow the steps below:
+To insert a visual fragment in an email content, follow the steps below:
 
 1. Open any email or template content using the [Email Designer](../email/get-started-email-designer.md).
 
@@ -31,11 +31,11 @@ To insert a fragment in an email content, follow the steps below:
 
     >[!NOTE]
     >
-    >Fragments are sorted by creation date: recently added visual fragments are shown first in the list.
+    >Fragments are sorted by creation date: recently added fragments are shown first in the list.
 
-    If some fragments were modified or added while you are editing your content, click the **Refresh** icon to update the list with the latest changes.
+    If some visual fragments were modified or added while you are editing your content, click the **Refresh** icon to update the list with the latest changes.
 
-1. Drag and drop any fragment from the list into the area where you want to insert it. Like any other component, you can move the fragment around in your content.
+1. Drag and drop any visual fragment from the list into the area where you want to insert it. Like any other component, you can move the fragment around in your content.
 
 1. Select the fragment to display its options on the right pane. 
 
@@ -44,14 +44,14 @@ To insert a fragment in an email content, follow the steps below:
     From the **[!UICONTROL Settings]** tab, you can:
 
     * Choose the devices you want the fragment to be displayed on.
-    * Click the **Edit content** button to open the content of this fragment. [Learn more](fragments.md#edit-fragments)
+    * Click the **Edit content** button to open the content of this fragment. [Learn more](../content/fragments.md#edit-fragments)
         
         You can further customize your fragment using the **[!UICONTROL Styles]** tab.
 
-1. If needed, you can break the inheritance with the original fragment. [Learn more](#break-inheritance) 
+1. If needed, you can break the inheritance with the original visual fragment. [Learn more](#break-inheritance) 
     You can also delete the fragment from your content, or duplicate it. These actions can be performed directly from the contextual menu that displays on top of the fragment.
 
-1. Add as many fragments as you want and **[!UICONTROL Save]** your changes.
+1. Add as many visual fragments as you want and **[!UICONTROL Save]** your changes.
 
 ## Break inheritance {#break-inheritance}
 
@@ -63,7 +63,7 @@ However, you can break the inheritance from the original fragment. In that case,
 
 To break inheritance, follow the steps below:
 
-1. Select the fragment.
+1. Select the visual fragment.
 
 1. Click the unlock icon from the contextual toolbar.
 

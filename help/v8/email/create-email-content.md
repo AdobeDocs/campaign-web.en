@@ -19,7 +19,7 @@ exl-id: 23e71da3-434d-4619-a48a-334281592d85
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_fragment"
 >title="Add structures"
->abstract="Structures define the layout of the fragment. Drag and drop a **Structure** component into the canvas to start designing your fragment content."
+>abstract="Structures define the layout of the content fragment. Drag and drop a **Structure** component into the canvas to start designing your fragment content."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_template"
@@ -39,8 +39,8 @@ exl-id: 23e71da3-434d-4619-a48a-334281592d85
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_fragment"
->title="Defining fragment columns"
->abstract="The Email Designer allows you to easily define the layout of your fragment by defining column structure."
+>title="Defining content fragment columns"
+>abstract="The Email Designer allows you to easily define the layout of your content fragment by defining column structure."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_template"
