@@ -24,7 +24,7 @@ exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_remoteserver"
 >title="Transfer file remote server"
->abstract="Transfer file remote server"
+>abstract="Specify the server to connect."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_source"
@@ -34,17 +34,17 @@ exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_delete_file"
 >title="Delete the source files after transfer"
->abstract="Delete the source files after transfer"
+>abstract="Erase the source files after a successfull transfer."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_display_logs"
 >title="Display the session logs"
->abstract="Display the session logs"
+>abstract="Information related to the transfer operation are displayed in the workflow logs."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_list_files"
 >title="List all files"
->abstract="List all files"
+>abstract="This option indexes all the files present on the server in the **vars.filenames** event variable."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_historization"
@@ -54,12 +54,12 @@ exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_missing_file"
 >title="Process missing files"
->abstract="Process missing files"
+>abstract="This option allows you to activate a "No file" outbound transition after the activity."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_errors"
 >title="Process errors"
->abstract="Process errors"
+>abstract="This option allows you to activate an "Error" outbound transition after the activity."
 
 The **Transfer file** activity is a **Data Management** activity. It allows you to receive or send files, test for file presence, or list files on a server. The protocol used can be either server-to-server protocol or HTTP protocol.
 
@@ -102,7 +102,7 @@ Follow the steps detailed below to configure the **Transfer file** activity.
 
 ## Define the transfer destination {#destination}
 
-1. In the **[!UICONTROL Remote server]** section, specify the server to connect to using one of these methods:
+1. In the **[!UICONTROL Remote server]** section, specify the server to connect by using one of these methods:
 
     * **[!UICONTROL Use connection parameters defined in an external account]**: Connect to a server using the connection parameters of an external account. In the **[!UICONTROL Server folder]** field, specify the path to the file (or to the folder for file listing actions).
     * **[!UICONTROL Quick configuration]**: Enter the URL of the file (or folder for file listing actions).
@@ -120,7 +120,7 @@ Every time a **[!UICONTROL Transfer file]** activity is executed, it stores the 
 
 ![](../assets/workflow-transfer-file-historization.png)
 
-It is important to be able to limit the size of this folder in order to preserve physical space on the server. To do that, you can define a maximum number of files or total size for the activity’s folder. By default, 100 files and 50 MB are authorized.
+It is important to be able to limit the size of this folder in order to preserve physical space on the server. To do that, you can define a maximum number of files or total size for the activity's folder. By default, 100 files and 50 MB are authorized.
 
 Every time the activity is executed, the folder is checked as follows:
 
@@ -139,7 +139,7 @@ Every time the activity is executed, the folder is checked as follows:
     +++Additional options for **[!UICONTROL File transfer]** type activities
 
     * **[!UICONTROL Delete the source files after transfer]**: Erase the source files after a successfull transfer.
-    * **[!UICONTROL Display the session logs]**: When this option is activated, information related to the transfer operation displays in the workflow logs after the workflow has been executed.
+    * **[!UICONTROL Display the session logs]**: When this option is activated, information related to the transfer operation are displayed in the workflow logs once the workflow has been executed.
     * **[!UICONTROL List all files]** (File listing actions): This option indexes all the files present on the server in the `vars.filenames` event variable, in which the file names are separated by the `n` characters. [Learn how to work with event variables](../event-variables.md)
 
     +++
