@@ -29,7 +29,7 @@ exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_source"
 >title="Transfer file source"
->abstract="Transfer file source"
+>abstract="Enter the desired file name."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_delete_file"
@@ -54,12 +54,12 @@ exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_missing_file"
 >title="Process missing files"
->abstract="This option allows you to activate a "No file" outbound transition after the activity."
+>abstract="This option allows you to activate a **No file** outbound transition after the activity."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_errors"
 >title="Process errors"
->abstract="This option allows you to activate an "Error" outbound transition after the activity."
+>abstract="This option allows you to activate an **Error** outbound transition after the activity."
 
 The **Transfer file** activity is a **Data Management** activity. It allows you to receive or send files, test for file presence, or list files on a server. The protocol used can be either server-to-server protocol or HTTP protocol.
 
