@@ -23,7 +23,7 @@ exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_simplejoin"
->title="Simple join"
+>title="Link definition"
 >abstract="Simple join"
 
 >[!CONTEXTUALHELP]
@@ -47,15 +47,21 @@ Once the enrichment data has been added to the workflow, it can be used in the a
 
 For instance, you can add to the workflow working table information related to customers' purchases and use this data to personalize emails with their latest purchase or the amount spent on these purchases.
 
-## Configure the Enrichment activity {#enrichment-configuration}
+## Add an Enrichment activity {#enrichment-configuration}
 
 Follow these steps to configure the **Enrichment** activity:
 
 1. Add activities such as **Build audience** and **Combine** activities.
 1. Add an **Enrichment** activity.
+1. If multiple transitions have been configured in your workflow, you can use the **[!UICONTROL Primary set]** field to define which transition should be used as primary set to enrich with data.
+
+## Add enrichment data {#enrichment-add}
+
 1. Click **Add enrichment data** and select the attribute to use to enrich the data.
 
-    You can select two types of enrichment data: a [single enrichment attribute](#single-attribute) from the target dimension, or a [collection link](#collection-link).
+    You can select two types of enrichment data: a single enrichment attribute from the target dimension, or a collection link. Each of these types is detailed in the examples below:
+    * [Single enrichment attribute](#single-attribute)
+    * [Collection lnk](#collection-link)
 
     >[!NOTE]
     >
@@ -63,7 +69,39 @@ Follow these steps to configure the **Enrichment** activity:
 
     ![](../assets/workflow-enrichment1.png)
 
-## Single enrichment attribute {#single-attribute}
+## Create links between tables {#enrichment-add}
+
+The **[!UICONTROL Link definition]** section allows you to create a link between the working table data and the Adobe Campaign database. For example, if you load data from a file which contains the account number, country and email of recipients, you have to create a link towards the country table in order to update this information in their profiles.
+
+There are several types of links available:
+
+* **[!UICONTROL 1 cardinality simple link]**: Each record from the primary set can be associated with one and only one record from the linked data.
+* **[!UICONTROL 0 or 1 cardinality simple link]**: Each record from the primary set can be associated with 0 or 1 record from the linked data, but not more than one.
+* **[!UICONTROL N cardinality collection link]**: Each record from the primary set can be associated with 0, 1 or more (N) records from the linked data.
+
+To create a link, follow these steps:
+
+1. In the **[!UICONTROL Link definition]** section, click the **[!UICONTROL Add link]** button.
+
+    ![](../assets/workflow-enrichment-link.png)
+
+1. In the **Relation type** drop-down list, choose the type of link you want to create.
+
+1. Identify the target you want to link the primary set to:
+
+    * To link an existing table in the database, choose **[!UICONTROL Database schema]** and select the desired table from the **[!UICONTROL Target schema]** field.
+    * To link with data from the input transition, choose **Temporary schema** and select the transition whose data you want to use.
+
+1. Define the reconciliation criteria to match data from the primary set with the linked schema. There are two types of joins available:
+
+    * **Simple join**: Select a specific attribute to match data from the two schemas. Click **Add join** and select the **Source** and **Destination** attributes to use as reconciliation criteria. 
+    * **Advanced join**: Create a join using advanced conditions. Click **Add join** and click the **Create condition** button to open the query modeler.
+
+A workflow example using links is available in the [Examples](#link-example) section.
+
+## Examples {#example}
+
+### Single enrichment attribute {#single-attribute}
 
 Here, we are just adding a single enrichment attribute, for example, the date of birth. Follow these steps:
 
@@ -73,7 +111,7 @@ Here, we are just adding a single enrichment attribute, for example, the date of
 
 ![](../assets/workflow-enrichment2.png)
 
-## Collection link {#collection-link}
+### Collection link {#collection-link}
 
 In this more complex use case, we will select a collection link which is a link with a 1-N cardinality between tables. Let's retrieve the three latest purchases that are less than 100$. For this you need to define:
 
@@ -82,7 +120,7 @@ In this more complex use case, we will select a collection link which is a link 
 * a filter: filter out items that are greater than 100$
 * a sorting: descendant sorting on the **Order date** field. 
 
-### Add the attribute {#add-attribute}
+#### Add the attribute {#add-attribute}
 
 This is where you select the collection link to use as enrichment data.
 
@@ -92,7 +130,7 @@ This is where you select the collection link to use as enrichment data.
 
 ![](../assets/workflow-enrichment3.png)
 
-### Define the collection settings{#collection-settings}
+#### Define the collection settings{#collection-settings}
 
 Then, define how the data is collected and the number of records to retrieve.
 
@@ -105,7 +143,7 @@ If you want, for example, to get the average amount of purchases for a customer,
 
 ![](../assets/workflow-enrichment5.png)
 
-### Define the filters{#collection-filters}
+#### Define the filters{#collection-filters}
 
 Here, we define the maximum value for the enrichment attribute. We filter out items that are greater than 100$. [Learn how to work with the query modeler](../../query/query-modeler-overview.md)
 
@@ -115,7 +153,7 @@ Here, we define the maximum value for the enrichment attribute. We filter out it
 
 ![](../assets/workflow-enrichment6.png)
 
-### Define the sorting{#collection-sorting}
+#### Define the sorting{#collection-sorting}
 
 We now need to apply sorting in order to retrieve the three **latest** purchases.
 
@@ -126,6 +164,20 @@ We now need to apply sorting in order to retrieve the three **latest** purchases
 1. Select **Descending** from the **Sort** drop-down.
 
 ![](../assets/workflow-enrichment7.png)
+
+
+### Enrichment with linked data {#link-example}
+
+The example below shows a workflow configured to create a link between two transitions. The first transitions targets profile data using a Query activity, while the second transition includes purchase data stored into a file loaded through a Load file activity.
+
+* The first **Enrichment** activity links our primary set (data from the **Query** activity) with the schema from the **Load file** activity. This allows us to match each profile targeted by the query with the corresponding purchase data.
+* A second **Enrichment** activity is added in order to enrich data from the workflow table with the purchase data coming from the **Load file** activity. This allows us to use those data in further activities, for example, to personalize messages sent to the customers with information on their purchase.
+
+    ![](../assets/workflow-enrichment-example.png)
+
+
+
+
 
 <!--
 

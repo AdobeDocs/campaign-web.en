@@ -48,7 +48,7 @@ The **[!UICONTROL File to extract]** section allows you to configure the file pr
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_destinationformat"
 >title="Destination format"
->abstract="Select the format."
+>abstract="Select the different options to configure how the extracted file is formatted."
 
 The **[!UICONTROL Destination]** format section allows you to configure how the extracted file is formatted.
 
@@ -76,7 +76,7 @@ The **[!UICONTROL Destination]** format section allows you to configure how the 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_postprocessing"
 >title="Post processing"
->abstract="Define a post-processing step"
+>abstract="Define a post-processing step to apply like zipping or encryption."
 
 The **[!UICONTROL Export modification script]** allows you to apply a processing stage to execute during the data extraction such as zipping or encryption. To do this, click the **[!UICONTROL Edit script]** button.
 
