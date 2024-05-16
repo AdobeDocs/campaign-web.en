@@ -69,7 +69,7 @@ Follow these steps to configure the **Enrichment** activity:
 
     ![](../assets/workflow-enrichment1.png)
 
-## Create links between tables {#enrichment-add}
+## Create links between tables {#create-links}
 
 The **[!UICONTROL Link definition]** section allows you to create a link between the working table data and the Adobe Campaign database. For example, if you load data from a file which contains the account number, country and email of recipients, you have to create a link towards the country table in order to update this information in their profiles.
 
