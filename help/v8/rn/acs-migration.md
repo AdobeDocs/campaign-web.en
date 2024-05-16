@@ -4,7 +4,7 @@ title: Transition from Campaign Standard to Adobe Campaign Web
 description: Discover Campaign Web User Interface
 exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
 ---
-# Campaign Standard transition to Campaign v8{#welcome}
+# Campaign Standard transition to Campaign v8 {#welcome}
 
 <!--
 We are thrilled to annonce that you, as a Campaign Standard user, can now benefit from the new version of Adobe Campaign Web User Interface. The migration is seemless and will allow you to use all the intuitive features designed to simplify the creation of personalized cross-channel campaigns. Campaign Web User Interface also brings a connected canvas with Adobe Experience Platform for a unified experience.
@@ -40,7 +40,7 @@ Let's dig deeper in what key capabilities Campaign v8 will offer you:
 
 ## Console and Web interface {#console}
 
-As a Campaign v8 user, you will have access to both the new Campaign Web interface and the v8 console. Data and settings are synchronized from an environment to another. All your data and settings available in the client console is visible in the Campaign Web user interface, from the Explorer left navigation. [Learn more](../get-started/user-interface.md#user-interface-explorer)
+As a Campaign v8 user, you have access to both the new Campaign Web interface and the v8 console. Data and settings are synchronized from an environment to another. All your data and settings available in the client console is visible in the Campaign Web user interface, from the Explorer left navigation. [Learn more](../get-started/user-interface.md#user-interface-explorer)
 
 Supported and unsupported capabilities and interoperability between Campaign Web user interface and Campaign client console [in this page](../get-started/capability-matrix.md)
 
