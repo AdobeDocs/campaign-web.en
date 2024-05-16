@@ -47,7 +47,7 @@ There are two ways you can create content fragments:
 
 * When designing content, save a portion of your content as fragment. [Learn how](#save-as-fragment)
 
-    [!NOTE]
+    >[!NOTE]
     >
     >This capability is available for visual fragments only. Expression fragments are exclusively created from the **Fragments** menu.
 
