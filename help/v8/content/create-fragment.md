@@ -7,11 +7,6 @@ description: Learn how to create with content fragments
 # Create content fragments {#fragments}
 
 >[!CONTEXTUALHELP]
->id="acw_fragments_menu"
->title="Define your own content fragments"
->abstract="A content fragment is a reusable component that can be referenced in one or more emails across campaigns. This capability is used to prebuild multiple custom content blocks that can be used by marketing users to quickly assemble email contents in an improved design process."
-
->[!CONTEXTUALHELP]
 >id="acw_fragments_save"
 >title="Fragments save"
 >abstract="Fragments save"
@@ -46,61 +41,53 @@ description: Learn how to create with content fragments
 >title="Define your own content fragments"
 >abstract="A content fragment is a reusable component that can be referenced in one or more emails across campaigns."
 
-A content fragment is a reusable component that can be referenced in one or more emails across campaigns. When modifying a fragment, every content using it is updated.
-
-This functionality allows to prebuild multiple custom content blocks that can be used by marketing users to quickly assemble email contents in an improved design process.
-
-![](assets/fragments.gif)
-
-To make the best use of content fragments:
-
-* Create your own content fragments, as detailed below.
-* Use them as many times as needed in your content, via the Email Designer. See [Add visual fragments to your emails](../content/use-visual-fragments.md).
-
-## Create a visual fragment {#create-fragments}
-
 There are two ways you can create content fragments:
 
 * Create a fragment from scratch, using the **[!UICONTROL Fragments]** dedicated menu. [Learn how](#create-from-scratch)
 
 * When designing content, save a portion of your content as fragment. [Learn how](#save-as-fragment)
 
-Once saved, your content fragment is available for use in an email or an email template. Whether created from scratch or from an existing content, you can now use this fragment when building any content within Campaign. See [Add visual fragments](../content/use-visual-fragments.md).
+    [!NOTE]
+    >
+    >This capability is available for visual fragments only. Expression fragments are exclusively created from the **Fragments** menu.
 
-### Create a content fragment from scratch {#create-from-scratch}
+Once saved, your content fragment is available for use in any delivery or content template.
+
+## Create a content fragment from scratch {#create-from-scratch}
 
 To create a content fragment from scratch, follow the steps below.
 
-1. [Access the fragment list](#access-manage-fragments) through the **[!UICONTROL Content Management]** > **[!UICONTROL Fragments]** left menu.
+1. [Access the fragment list](#access-manage-fragments) through the **[!UICONTROL Content Management]** > **[!UICONTROL Fragments]** left menu and select **[!UICONTROL Create fragment]**.
 
     ![](assets/fragments-list.png)
-    
-1. Select **[!UICONTROL Create fragment]**.
 
-1. Enter the label of the fragment. 
+1. Enter the label of the fragment. If needed, you can define additional options, such as the fragment internal name, its folder, and a description.
+
+1. Choose the type of fragment you want to create: **Visual fragment** or **Expression fragment**. [Learn the differences between visual and expression fragments](fragments.md)
 
     ![](assets/fragment-create.png)
     
-1. If needed, you can define additional options, such as the fragment internal name, its folder, and a description.
-
-    >[!NOTE]
-    >
-    >For now, you can only create visual fragments.
-
 1. Click the **Create** button to configure the content of your fragment.
 
-1. The [Email Designer](../email/get-started-email-designer.md) displays. Edit your content as needed, the same way you would do for any email inside a campaign. You can add images, link, personalization fields and dynamic content.
+    * For **visual fragments**, the [Email Designer](../email/get-started-email-designer.md) displays. Edit your content as needed, the same way you would do for any email inside a campaign then click the **Save & close** button. You can add images, link, personalization fields and dynamic content.
 
-    ![](assets/fragment-designer.png)
+        ![](assets/fragment-designer.png)
 
-1. Once your fragment is ready, click **[!UICONTROL Save & close]**. It is added to the [fragment list](#access-manage-fragments).
+    * For **expression fragments**, the Expression editor opens. Leverage its personalization and authoring capabilities to build your content then click **Confirm**. [Learn how to work with the expression editor](../personalization/personalize.md)
 
-This content fragment is now ready to be used when building any [email](../email/get-started-email-designer.md) or [content template](../email/use-email-templates.md) within Campaign. [Learn how](../content/use-visual-fragments.md)
+        ![](assets/fragment-expression.png)
 
+1. Once your content is ready, click **Save**.
 
-### Save a content as content fragment {#save-as-fragment}
+The content fragment is now ready to be used when building any delivery or [content template](../email/use-email-templates.md) within Campaign.
 
-Any email content can be saved as content fragment for future reuse. When designing a [content template](../email/use-email-templates.md) or an [email](../email/get-started-email-designer.md) delivery, you can save a portion of your content as visual fragment. To do this, follow the steps below:
+Learn how to use visual and expression fragments in these section:
+* [Add visual fragments to your emails](use-visual-fragments.md)
+* [Add expression fragment to the expression editor](use-expression-fragments.md)
+
+## Save a content as visual fragment {#save-as-fragment}
+
+Any email content can be saved as visual fragment for future reuse. When designing a [content template](../email/use-email-templates.md) or an [email](../email/get-started-email-designer.md) delivery, you can save a portion of your content as visual fragment. To do this, follow the steps below:
 
 1. In the [Email Designer](../email/get-started-email-designer.md), click the **More** button on top right of the screen.
 
@@ -144,7 +131,6 @@ To edit a content fragment, follow the steps below.
 >[!CAUTION]
 >
 >Any change to a fragment is propagated to the email deliveries or templates using it. 
-
 
 ### Delete a content fragment {#delete-fragments}
 

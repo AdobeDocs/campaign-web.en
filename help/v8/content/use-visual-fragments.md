@@ -6,14 +6,11 @@ exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
 ---
 # Add visual fragments to your emails {#use-visual-fragments}
 
-You can use a visual fragment in an [email delivery](../email/get-started-email-designer.md), or in a [content template](../email/use-email-templates.md). Steps are detailed below.
+You can use a visual fragment in an [email delivery](../email/get-started-email-designer.md), or in a [content template](../email/use-email-templates.md). Steps are detailed below. [Learn how to create and manage content fragments](fragments.md).
 
+![](assets/fragments.gif)
 
->[!NOTE]
->
->Learn how to create and manage content fragments in [this section](fragments.md).
-
-## Use a vosiam fragment {#use-fragment}
+## Use a visual fragment {#use-fragment}
 
 To insert a visual fragment in an email content, follow the steps below:
 
