@@ -85,10 +85,9 @@ The improvements below are available to all customers starting April release.
 
 * The "Do not activate the transition if the population is empty" option in the **Split activity** allows you to choose whether the workflow should transition to the next activity when the segment result is empty. [Read more](../workflows/activities/split.md)
 
-<!--* **Support of custom fields**-->
-
+<!--* **Support of custom fields**
 * **Custom fields** are additional attributes added to the out-of-the-box schemas through the Adobe Campaign console. In Campaign web user interface, these custom fields are now visible in various screens, for example the details of a profile or a test profile. In the web user interface, you cannot create custom fields, but you can now modify the way they display. [Read more](../administration/custom-fields.md)
-
+-->
 
 ## March release notes {#24-3-release}
 
