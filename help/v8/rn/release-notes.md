@@ -14,6 +14,45 @@ exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 
 Adobe Campaign Web user interface releases operate on a continuous delivery model which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
+
+
+
+## May release notes {#24-5-release}
+
+**Release date**: May 21, 2024
+
+The following features and improvements are available to all users starting May release.
+
+### Audit trail  {#24-4-1}
+
+The new **Audit trail** capability provides a detailed and chronological record of all actions and events that have been made to your Adobe Campaign instance in real-time. It offers a convenient method to trace all changes to your Campaign data, addressing queries such as: the status of workflows, the latest individuals to modify them, or the activities performed by users within the instance.
+
+### Custom fields {#24-4-2}
+
+**Custom fields** are additional attributes added to the out-of-the-box schemas through the Adobe Campaign console. In Campaign web user interface, these custom fields are now visible in various screens, for example the details of a profile or a test profile. In the web user interface, you cannot create custom fields, but you can now modify the way they display. [Read more](../administration/custom-fields.md)
+
+
+### Content fragments {#24-4-3}
+
+* You can now author, use, and save **visual fragments** to quickly assemble your emails and content templates. A fragment is a prebuilt reusable component that can be referenced in multiple emails across Adobe Campaign for an improved and accelerated design process.
+
+* You can now author, use, and manage **expression fragments** to quickly build personalized content. A fragment is a prebuilt reusable component that can be referenced in multiple contents across Adobe Campaign for an improved and accelerated design process.
+
+
+### General improvements {#improvements-24-5}
+
+* **Direct mail** - You can now leverage the expression editor to select the attributes to display in direct mail extraction files.
+
+* **Folder management** - You can now create a sub-folder of a different type than the parent folder.
+
+* **Enrichment activity in workflows** - A new option has been added to the **Enrichment** activity, allowing you to enrich your data by creating a link with another table.
+
+* * **Execution options for workflows** - You can now define execution options for your workflows, such as the maximum duration, the affinity, or the time zone.
+
+
+* **Globalization** - As part of our ongoing effort to deliver a unified user experience, we harmonize the terminology used in the Adobe Experience Cloud products and apps. This affects the German term "Titel" which is changed to "Label" when it relates to the name of an object. The changes will be progressively rolled out in the UI and documentation.
+
+
 ## April release notes {#april-24-4-release}
 
 **Release date**: May 2, 2024
@@ -39,11 +78,6 @@ You can now send rich push notifications via Android. Rich push notification is 
 
 Note that this feature is in **Limited Availability** (LA).
 
-<!--
-* **Audit Trail**
-
-The Audit trail feature constantly records a detailed log of actions and events taking place within the Adobe Campaign instance in real-time. It offers a convenient method to access a chronological record of data, addressing queries such as: the status of workflows, the latest individuals to modify them, or the activities performed by users within the instance.
--->
 
 ### New features in Limited Availability {#acs-24-4}
 
@@ -85,9 +119,7 @@ The improvements below are available to all customers starting April release.
 
 * The "Do not activate the transition if the population is empty" option in the **Split activity** allows you to choose whether the workflow should transition to the next activity when the segment result is empty. [Read more](../workflows/activities/split.md)
 
-<!--* **Support of custom fields**
-* **Custom fields** are additional attributes added to the out-of-the-box schemas through the Adobe Campaign console. In Campaign web user interface, these custom fields are now visible in various screens, for example the details of a profile or a test profile. In the web user interface, you cannot create custom fields, but you can now modify the way they display. [Read more](../administration/custom-fields.md)
--->
+
 
 ## March release notes {#24-3-release}
 
