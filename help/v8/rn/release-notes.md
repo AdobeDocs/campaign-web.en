@@ -26,8 +26,12 @@ The new **Audit trail** capability provides a detailed and chronological record 
 
 **Custom fields** are additional attributes added to the out-of-the-box schemas through the Adobe Campaign console. In Campaign web user interface, these custom fields are now visible in various screens, for example the details of a profile or a test profile. In the web user interface, you cannot create custom fields, but you can now modify the way they display. [Read more](../administration/custom-fields.md)
 
+### Create links between tables {#24-5-3}
 
-### Content fragments {#24-5-3}
+You can now create links with another table in the **Enrichment** workflow activity. Use the new **Link definition** section in the activity parameters to create a link between the working table data and the Adobe Campaign database. For example, if you load data from a file which contains the account number, country and email of recipients, you can now create a link towards the country table in order to update this information in their profiles.
+
+
+### Content fragments {#24-5-4}
 
 * You can now author, use, and save **visual fragments** to quickly assemble your emails and content templates. A fragment is a prebuilt reusable component that can be referenced in multiple emails across Adobe Campaign for an improved and accelerated design process. [Learn more](../email/fragments.md)
 
@@ -40,7 +44,6 @@ The new **Audit trail** capability provides a detailed and chronological record 
 
 * **Folder management** - You can now create a sub-folder of a different type than the parent folder.
 
-* **Enrichment activity in workflows** - A new option has been added to the **Enrichment** activity, allowing you to enrich your data by creating a link with another table.
 
 <!--* **Execution options for workflows** - You can now define execution options for your workflows, such as the maximum duration, the affinity, or the time zone.-->
 
