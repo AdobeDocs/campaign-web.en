@@ -71,6 +71,12 @@ Follow these steps to configure the **Enrichment** activity:
 
 ## Create links between tables {#create-links}
 
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn3"
+>title="Links between tables"
+>abstract="You can now create a link between the working table data and the Adobe Campaign database in the Enrichment workflow activity."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
+
 The **[!UICONTROL Link definition]** section allows you to create a link between the working table data and the Adobe Campaign database. For example, if you load data from a file which contains the account number, country and email of recipients, you have to create a link towards the country table in order to update this information in their profiles.
 
 There are several types of links available:

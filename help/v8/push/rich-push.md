@@ -6,6 +6,14 @@ exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
 ---
 # Design an Android rich push delivery {#rich-push}
 
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn4"
+>title="Rich push delivery"
+>abstract="You can now send rich push notifications via Android. For now, this capability is in Limited Availability."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
+
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_remind_later"
 >title="Remind later button"

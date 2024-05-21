@@ -34,12 +34,6 @@ These activities are specific to targeting. They let you build one or more targe
 
 ## Data management activities {#data}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="Extract and Load File activities"
->abstract="New data management activities are available in workflows. Use the Extract File activity to export data from Adobe Campaign to another system as an external file. Use the Load File activity to work with profiles and data stored in an external file."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
-
 These activities are specific to manipulating and enriching population data.
 
 * [Extract file](extract-file.md): Export data from Adobe Campaign to another system as an external file.
@@ -54,15 +48,6 @@ These activities are specific to manipulating and enriching population data.
 Adobe Campaign Web allows you to automate and execute marketing campaigns across multiple channels. You can combine channel activities into the canvas to create cross-channel workflows that can trigger actions based on customer behavior. The following **Channel** activities are available: Email, SMS, Android and iOS Push notifications. [Learn how to set up a delivery in the context of a workflow](channels.md).
 
 ## Flow control activities {#flow-control}
-
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="Advanced workflow activities"
->abstract="You can now configure Test, JavaScript Code, and External Signal activities in a workflow. Use the Test activity to enable workflow transitions based on conditions. Add a JavaScript Code activity to execute a JS code snippet in the context of your workflow. Configure an External Signal activity to trigger the execution of your workflow from an API, or another workflow."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_end"

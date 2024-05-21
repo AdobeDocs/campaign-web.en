@@ -6,12 +6,19 @@ feature: Audit Trail, Monitoring, Workflows
 ---
 # Audit trail{#audit-trail}
 
->[!IMPORTANT]
->
->Adobe Campaign Web User Interface is not auditing changes made within user rights, templates, personalization or campaigns.  
->Audit trail can only be managed by administrators of the instance.
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="Audit trail"
+>abstract="The new Audit trail capability provides a detailed and chronological record of all actions and events that have been made to your Adobe Campaign instance in real-time."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
+
 
 In Adobe Campaign Web User Interface, the **[!UICONTROL Audit trail]** feature provides users with full visibility into all modifications made to important entities within your instance, typically those that significantly impact a smooth operation of the instance.
+
+>[!IMPORTANT]
+>
+>* Adobe Campaign Web User Interface is not auditing changes made within user rights, templates, personalization, or campaigns.  
+>* Audit trail can only be managed by administrators of the instance.
 
 **[!UICONTROL Audit trail]** feature constantly records a detailed log of actions and events taking place within the Adobe Campaign instance in real-time. It offers a convenient method to access a chronological record of data, addressing queries such as: the status of workflows, the latest individuals to modify them, or the activities performed by users within the instance.
 
