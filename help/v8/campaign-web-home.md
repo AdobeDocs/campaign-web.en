@@ -45,23 +45,29 @@ Get a glimpse of the newest enhancements in Adobe Campaign Web product and docum
 
 >[!BEGINTABS]
 
->[!TAB April release is live!]
+>[!TAB May release is live!]
 
 Discover new features and improvements coming with Adobe Campaign Web User Interface 24.4 release.
 
 [![image](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB New workflow activities] 
+>[!TAB Audit trail] 
 
-This release comes with the following workflow activities:  Update data, Subscription services, Extract file, Transfer file, Test, JavaScript code, External signal, Incremental query.
+The new Audit trail capability provides a detailed and chronological record of all actions and events that have been made to your Adobe Campaign instance in real-time. 
 
-[![image](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
+[![image](assets/do-not-localize/learn-more-button.svg)](reporting/audit-trail.md)
 
->[!TAB Rich push notification]
+>[!TAB Custom fields]
 
-You can now send rich push notifications via Android. Rich push notification is an enhanced form of mobile notification that goes beyond simple text messages by incorporating multimedia elements such as images, interactive buttons, or other rich media content. 
+Custom fields are additional attributes added to the out-of-the-box schemas through the Adobe Campaign console. They are now available in the Web user interface.
 
-[![image](assets/do-not-localize/learn-more-button.svg)](push/rich-push.md)
+[![image](assets/do-not-localize/learn-more-button.svg)](administration/custom-fields.md)
+
+>[!TAB Link tables]
+
+You can now create a link between the working table data and the Adobe Campaign database in the Enrichment workflow activity.  
+
+[![image](assets/do-not-localize/learn-more-button.svg)](workflows/activities/enrichment.md#create-links)
 
 >[!ENDTABS]
 
