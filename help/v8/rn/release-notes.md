@@ -42,7 +42,7 @@ You can now create links with another table in the **Enrichment** workflow activ
 
 * **Direct mail** - You can now leverage the expression editor to select the attributes to display in direct mail extraction files.
 
-* **Folder management** - You can now create a sub-folder of a different type than the parent folder.
+* **Folder management** - You can now create a sub-folder of a different type than the parent folder. [Read more](../get-started/permissions.md#folders)
 
 
 <!--* **Execution options for workflows** - You can now define execution options for your workflows, such as the maximum duration, the affinity, or the time zone.-->
