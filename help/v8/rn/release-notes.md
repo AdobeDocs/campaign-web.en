@@ -30,12 +30,12 @@ The new **Audit trail** capability provides a detailed and chronological record 
 
 You can now create links with another table in the **Enrichment** workflow activity. Use the new **Link definition** section in the activity parameters to create a link between the working table data and the Adobe Campaign database. For example, if you load data from a file which contains the account number, country and email of recipients, you can now create a link towards the country table in order to update this information in their profiles.
 
-
+<!--
 ### Content fragments {#24-5-4}
 
 * You can now author, use, and save **visual fragments** to quickly assemble your emails and content templates. A fragment is a prebuilt reusable component that can be referenced in multiple emails across Adobe Campaign for an improved and accelerated design process. [Learn more](../email/fragments.md)
 
-* You can now author, use, and manage **expression fragments** to quickly build personalized content. A fragment is a prebuilt reusable component that can be referenced in multiple contents across Adobe Campaign for an improved and accelerated design process.
+* You can now author, use, and manage **expression fragments** to quickly build personalized content. A fragment is a prebuilt reusable component that can be referenced in multiple contents across Adobe Campaign for an improved and accelerated design process.-->
 
 
 ### General improvements {#improvements-24-5}
