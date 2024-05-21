@@ -42,7 +42,7 @@ The new **Audit trail** capability provides a detailed and chronological record 
 
 * **Enrichment activity in workflows** - A new option has been added to the **Enrichment** activity, allowing you to enrich your data by creating a link with another table.
 
-* **Execution options for workflows** - You can now define execution options for your workflows, such as the maximum duration, the affinity, or the time zone.
+<!--* **Execution options for workflows** - You can now define execution options for your workflows, such as the maximum duration, the affinity, or the time zone.-->
 
 * **Globalization** - As part of our ongoing effort to deliver a unified user experience, we harmonize the terminology used in the Adobe Experience Cloud products and apps. This affects the German term "Titel" which is changed to "Label" when it relates to the name of an object. The changes will be progressively rolled out in the UI and documentation.
 
