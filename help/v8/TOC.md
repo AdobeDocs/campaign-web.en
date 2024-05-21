@@ -14,7 +14,6 @@ breadcrumb-title: Campaign Web User Interface
   + [What's new?](rn/whats-new.md)
   + [Latest release](rn/release-notes.md)
   + [Documentation updates](rn/documentation-updates.md)
-  + [From Campaign Standard to v8](rn/acs-migration.md)
 + Get started with Adobe Campaign {#start}
   + [Get started](get-started/get-started.md)
   + [Connect to Campaign](get-started/connect-to-campaign.md)
@@ -23,6 +22,7 @@ breadcrumb-title: Campaign Web User Interface
   + [Work with predefined filters](get-started/predefined-filters.md)
   + [Access and permissions](get-started/permissions.md)
   + [Campaign Web and Client console](get-started/capability-matrix.md)
+  + [From Campaign Standard to v8](rn/acs-migration.md)
   + [AI-powered contextual help](get-started/using-ai.md)
 + Messages and deliveries {#msg}
   + [Get started with messages](msg/gs-messages.md)
