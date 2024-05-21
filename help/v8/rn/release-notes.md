@@ -20,7 +20,7 @@ The following features and improvements are available to all users starting May 
 
 ### Audit trail  {#24-5-1}
 
-The new **Audit trail** capability provides a detailed and chronological record of all actions and events that have been made to your Adobe Campaign instance in real-time. It offers a convenient method to trace all changes to your Campaign data, addressing queries such as: the status of workflows, the latest individuals to modify them, or the activities performed by users within the instance.
+The new **Audit trail** capability provides a detailed and chronological record of all actions and events that have been made to your Adobe Campaign instance in real-time. It offers a convenient method to trace all changes to your Campaign data, addressing queries such as: the status of workflows, the latest individuals to modify them, or the activities performed by users within the instance. [Read more](../reporting/audit-trail.md)
 
 ### Custom fields {#24-5-2}
 
