@@ -28,7 +28,7 @@ The new **Audit trail** capability provides a detailed and chronological record 
 
 ### Create links between tables {#24-5-3}
 
-You can now create links with another table in the **Enrichment** workflow activity. Use the new **Link definition** section in the activity parameters to create a link between the working table data and the Adobe Campaign database. For example, if you load data from a file which contains the account number, country and email of recipients, you can now create a link towards the country table in order to update this information in their profiles.
+You can now create links with another table in the **Enrichment** workflow activity. Use the new **Link definition** section in the activity parameters to create a link between the working table data and the Adobe Campaign database. For example, if you load data from a file which contains the account number, country and email of recipients, you can now create a link towards the country table in order to update this information in their profiles. [Read more](../workflows/activities/enrichment.md#create-links)
 
 <!--
 ### Content fragments {#24-5-4}
@@ -40,7 +40,7 @@ You can now create links with another table in the **Enrichment** workflow activ
 
 ### General improvements {#improvements-24-5}
 
-* **Direct mail** - You can now leverage the expression editor to select the attributes to display in direct mail extraction files.
+* **Direct mail** - You can now leverage the expression editor to select the attributes to display in direct mail extraction files. [Read more](../direct-mail/content-direct-mail.md)
 
 * **Folder management** - You can now create a sub-folder of a different type than the parent folder. [Read more](../get-started/permissions.md#folders)
 
