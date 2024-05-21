@@ -167,6 +167,7 @@ breadcrumb-title: Campaign Web User Interface
   + [Filter lists](query/filter.md)
 + Reporting {#reports}
   + [Get started with reports](reporting/gs-reports.md)
+  + [Audit trail](reporting/audit-trail.md)
   + [Export your reports](reporting/export-reports.md)
   + [Key performance indicators](reporting/kpis.md)
   + Delivery reports {#delivery-report}
