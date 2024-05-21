@@ -42,10 +42,7 @@ exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
 >title="This workflow is read only"
 >abstract="You do not have permissions to edit this workflow. If needed, contact your administrator to grant you access."
 
->[!CONTEXTUALHELP]
->id="acw_wf_read_only_canvas"
->title="This workflow is read only"
->abstract="You cannot edit this workflow due to unsupported or incompatible canvas."
+
 
 Access control can restrict access to objects and data from main lists, such as deliveries, recipients, or worklows. These restrictions also apply in the **Explorer** navigation tree. In addition, you need permissions to create, delete, duplicate, and edit objects from the user interface.
 

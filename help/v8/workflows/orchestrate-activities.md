@@ -76,7 +76,7 @@ To paste the copied activities, click the **+** button on a transition and selec
 
 ## Execution options {#execution}
 
-All activities allow you to manage their execution options. Select an activity and click on the **Execution options** button. This lets you define the activity’s execution mode and behavior in case of errors.
+All activities allow you to manage their execution options. Select an activity and click on the **Execution options** button. This lets you define the activity's execution mode and behavior in case of errors.
 
 ![](assets/workflow-execution-options.png){zoomable="yes"}{width="70%"}
 

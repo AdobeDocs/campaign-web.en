@@ -127,6 +127,7 @@ breadcrumb-title: Campaign Web User Interface
   + [Guardrails and limitations](get-started/guardrails.md)
   + [Workflow event variables](workflows/event-variables.md)
   + [Access and manage workflows](workflows/access-monitor.md)
+  + [About read-only workflows](workflows/readonly-workflows.md)
   + Create and run your first workflow {#create-workflow}
     + [Key principles of workflow creation](workflows/gs-workflow-creation.md)
     + [Create the workflow](workflows/create-workflow.md)
@@ -166,6 +167,7 @@ breadcrumb-title: Campaign Web User Interface
   + [Filter lists](query/filter.md)
 + Reporting {#reports}
   + [Get started with reports](reporting/gs-reports.md)
+  + [Audit trail](reporting/audit-trail.md)
   + [Export your reports](reporting/export-reports.md)
   + [Key performance indicators](reporting/kpis.md)
   + Delivery reports {#delivery-report}
