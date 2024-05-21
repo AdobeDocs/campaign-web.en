@@ -10,12 +10,7 @@ exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 >title="Release notes"
 >abstract="Adobe Campaign Web user interface releases operate on a continuous delivery model which allows for a more scalable, phased approach to feature deployment. Accordingly, Campaign release notes get updated several times a month, with latest features, improvements, and fixes. We recommend you to check them regularly."
 
-<!--Last update: **March 19, 2024**-->
-
 Adobe Campaign Web user interface releases operate on a continuous delivery model which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
-
-
-
 
 ## May release notes {#24-5-release}
 
@@ -23,16 +18,16 @@ Adobe Campaign Web user interface releases operate on a continuous delivery mode
 
 The following features and improvements are available to all users starting May release.
 
-### Audit trail  {#24-4-1}
+### Audit trail  {#24-5-1}
 
 The new **Audit trail** capability provides a detailed and chronological record of all actions and events that have been made to your Adobe Campaign instance in real-time. It offers a convenient method to trace all changes to your Campaign data, addressing queries such as: the status of workflows, the latest individuals to modify them, or the activities performed by users within the instance.
 
-### Custom fields {#24-4-2}
+### Custom fields {#24-5-2}
 
 **Custom fields** are additional attributes added to the out-of-the-box schemas through the Adobe Campaign console. In Campaign web user interface, these custom fields are now visible in various screens, for example the details of a profile or a test profile. In the web user interface, you cannot create custom fields, but you can now modify the way they display. [Read more](../administration/custom-fields.md)
 
 
-### Content fragments {#24-4-3}
+### Content fragments {#24-5-3}
 
 * You can now author, use, and save **visual fragments** to quickly assemble your emails and content templates. A fragment is a prebuilt reusable component that can be referenced in multiple emails across Adobe Campaign for an improved and accelerated design process. [Learn more](../email/fragments.md)
 
