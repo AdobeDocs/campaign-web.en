@@ -6,10 +6,15 @@ description: Learn why workflows are on read-only mode
 ---
 # About read-only workflows {#readonly-workflows}
 
+>[!CONTEXTUALHELP]
+>id="acw_wf_read_only_canvas"
+>title="This workflow is read only"
+>abstract="You cannot edit this workflow due to your rights or the type of the workflow."
+
 Some workflows may be in read-only mode. You can see it with :
 
 - The mention **[!UICONTROL **Read-only**]**  near the **[!UICONTROL Settings]** button
-- The monitoring buttons not accessible
+- The action buttons not accessible
 
 ![](assets/readonly-workflow.png){zoomable="yes"}
 
@@ -18,7 +23,6 @@ You cannot edit anything in a read-only workflow. You are not allowed to change 
 
 ![](assets/scheduler-readonly.png){zoomable="yes"}
 
-In some activities (like **[!UICONTROL Javascript Code]** for example), you have the possibility to access and change the code content but the modifications will not be saved.
 
 You do not have the rights to delete the workflow also.
 
