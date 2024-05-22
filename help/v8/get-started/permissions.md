@@ -85,10 +85,16 @@ You can create, rename, reorder, and move folders to organize your components an
 To create a folder, follow these steps:
 
 1. From the **Explorer** left nav menu, select a folder.
-1. Click the three dots on the upper right corner and choose **Create new subfolder**.
-1. Enter the name of the folder and save. 
+1. Click the three dots on the upper right corner and choose **Create new folder**.
+1. Enter the name of the folder.
 
     ![](assets/create-new-subfolder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+
+1. Select the folder type. By default, the parent folder type is selected, "Deliveries", in our example. To change the folder type, click the folder icon and select any other type.
+
+    ![](assets/create-new-subfolder2.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+
+1. Click **Create**.
 
     The folder is added as a subfolder of the current folder. Browse to that new folder to create components directly into it. You can also create a component from any folder, and save it in that new folder, from the **Additional Options** section of the properties, as shown below for a delivery:
 
