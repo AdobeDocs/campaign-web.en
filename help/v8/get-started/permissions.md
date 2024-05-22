@@ -74,7 +74,7 @@ To view permissions for a folder, follow these steps:
 Learn more about folder permissions in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/folder-permissions.html){target="_blank"}.
 
 
-## Work with folders {#folders}
+## Work with folders {#folders} 
 
 You can create, rename, reorder, and move folders to organize your components and data. You can also delete folders from the same menu. 
 
