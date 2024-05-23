@@ -76,6 +76,26 @@ Learn more about folder permissions in [Campaign v8 (client console) documentati
 
 ## Work with folders {#folders} 
 
+>[!CONTEXTUALHELP]
+>id="acw_folder_properties"
+>title="Folder properties"
+>abstract="Folder properties"
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_security"
+>title="Folder security"
+>abstract="Folder security"
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_restrictions"
+>title="Folder restrictions"
+>abstract="Folder restrictions"
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_schedule"
+>title="Folder schedule"
+>abstract="Folder schedule"
+
 You can create, rename, reorder, and move folders to organize your components and data. You can also delete folders from the same menu. 
 
 >[!CAUTION]
