@@ -145,7 +145,7 @@ To define the target file to upload, follow these steps:
 
 1. In the **Reject management** section, specify how the activity should behave in case of errors:
 
-    * In the **[!UICONTROL Dele]** field, specficy the maximum number of errors that are authorized when processing the file to load. For example, if the value is set to "20", the workflow execution will fail if there are more than 20 errors when loading the file. 
+    * In the **[!UICONTROL Number of errors allowed]** field, specify the maximum number of errors that are authorized when processing the file to load. For example, if the value is set to "20", the workflow execution will fail if there are more than 20 errors when loading the file. 
 
     * To keep the errors that occurred when loading the file, toggle the **[!UICONTROL Keep rejects in a file]** option on and specify the desired name for the file in the **[!UICONTROL Rejection File]** field. 
     
