@@ -63,10 +63,6 @@ In the context of a campaign workflow, you must use the **[!UICONTROL Scheduler]
 
 ![](assets/schedule-workflow.png){zoomable="yes"}
 
->[!NOTE] 
-The **[!UICONTROL Scheduler]** activity position is important. 
-In our example, it is at the beginning of the workflow. You can start the workflow, the execution of the **[!UICONTROL Scheduler]** will wait for the date and time defined in the activity. The **[!UICONTROL Query]** will be done after this launch of the **[!UICONTROL Scheduler]**, and the **[!UICONTROL Delivery]** will be executed automatically.  
-If the **[!UICONTROL Scheduler]** activity is set after the **[!UICONTROL Query]**, the **[!UICONTROL Query]** will be done at the launch of the workflow, the result will be generated in the transition waiting for the launch of the **[!UICONTROL Scheduler]** at the date and time defined, and the **[!UICONTROL Delivery]** will be executed automatically.
 
 You need to configurate the date and time in the **[!UICONTROL Scheduler]** activity.
 
