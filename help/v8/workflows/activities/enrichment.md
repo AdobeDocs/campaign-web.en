@@ -17,14 +17,14 @@ exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 >abstract="Once enrichment data has been added to the workflow, it can be used in the activities added after the Enrichment activity to segment customers into distinct groups based on their behaviors, preferences, and needs, or to create personalized marketing messages and campaigns that are more likely to resonate with your target audience."
 
 >[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_simplejoin"
+>title="Create a link between the working table data and the Adobe Campaign database. For example, if you load data from a file which contains the account number, country and email of recipients, you have to create a link towards the country table in order to update this information in their profiles."
+>abstract="Link definition"
+
+>[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_reconciliation"
 >title="Enrichment reconciliation"
 >abstract="enrichment reconciliation"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_enrichment_simplejoin"
->title="Link definition"
->abstract="Simple join"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_enrichmentdata"
