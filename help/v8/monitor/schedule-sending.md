@@ -56,10 +56,16 @@ You can also check that the schedule is taken into account :
 
 ![](assets/schedule-push-standalone-prepare.png){zoomable="yes"}
 
+### Standalone delivery in a campaign
+
+You can create a standalone delivery within a campaign without using a workflow. You can setup date and time schedule for this delivery as explained above.
+The campaign may have its schedule, with a beginning date and an end date. This schedule will not interfere with your delivery schedule. 
+
+![](assets/schedule-delivery-standalone.png){zoomable="yes"}
 
 ## Schedule a delivery in a campaign workflow
 
-In the context of a campaign workflow, you must use the **[!UICONTROL Scheduler]** activity to apply a date and time for the sending of a delivery. [Learn more about Scheduler](../workflows/activities/scheduler.md)
+In the context of a campaign workflow, the **best practice** is to use the **[!UICONTROL Scheduler]** activity to apply a date and time which will launch of the workflow, involving the sending of the delivery. [Learn more about Scheduler](../workflows/activities/scheduler.md)
 
 ![](assets/schedule-workflow.png){zoomable="yes"}
 
@@ -70,5 +76,7 @@ You need to configurate the date and time in the **[!UICONTROL Scheduler]** acti
 
 
 >[!NOTE] 
-In the **[!UICONTROL Delivery]** activity settings, you will find a **[!UICONTROL Enable scheduling]** toggle, **do not activate it**, because you already have the **[!UICONTROL Scheduler]** for the date and time precision.
+When you use the **[!UICONTROL Scheduler]** activity to schedule the sending of your delivery in a workflow, **do not activate** the **[!UICONTROL Enable scheduling]** toggle in the **[!UICONTROL Delivery]** activity settings. You delivery will be sent automatically.
+
+In the case you activate the **[!UICONTROL Enable scheduling]** toggle in the **[!UICONTROL Delivery]** activity settings, and setup a date and time there, the delivery will wait to be sent at this date and time. This means that if there is a delay between the date of launch of the workflow and the date of the sending, the audience may be not up to date. 
 
