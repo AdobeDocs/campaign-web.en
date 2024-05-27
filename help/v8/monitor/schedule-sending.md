@@ -16,9 +16,9 @@ See below examples for each type of delivery : email, sms, push notification.
 
 ### Email {#schedule-email-standalone}
 
-For an email delivery, follow the steps below :
+To schedule the sending of an email delivery, follow the steps below:
 
-1. In the **[!UICONTROL Schedule]** section of your delivery properties, click on the **[!UICONTROL Enable scheduling]** toggle to activate it
+1. In the **[!UICONTROL Schedule]** section of your delivery properties, activate the **[!UICONTROL Enable scheduling]** toggle
 
 2. Set the desired date and time for sending, and click on **[!UICONTROL Review and send]** button.
 
@@ -27,11 +27,11 @@ For an email delivery, follow the steps below :
 >[!NOTE]
 By default, the **[!UICONTROL Enable confirmation before sending]** option is enabled. This option requires you to confirm the sending before the delivery is sent at the scheduled date and time. If you need to **send the delivery automatically** on the scheduled date and time, you need to disable this option.
 
-3. You can check that the schedule is taken into account in the new window, and you can click on **[!UICONTROL Prepare]** button. The delivery will be sent on the scheduled date to the main target.
+3. Check that the schedule is correct, and click on **[!UICONTROL Prepare]** button. 
 
 ![](assets/schedule-email-standalone-prepare.png){zoomable="yes"}
 
-4. The new window will display a **[!UICONTROL Send as scheduled]** button. By clicking on this button, you allow the delivery to be sent on the scheduled date and time to the main target.
+4. Once the preparation is complete, messages are ready to be sent. Key metrics for the delivery are displayed: total target population, number of messages to deliver, number of excluded recipients. Click the **[!UICONTROL Send as scheduled]** button to confirm you allow the delivery to be sent on the scheduled date and time to the main target.
 
 ![](assets/schedule-email-standalone-send.png){zoomable="yes"}
 
