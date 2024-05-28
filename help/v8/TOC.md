@@ -57,7 +57,8 @@ breadcrumb-title: Campaign Web User Interface
     + Send and monitor the email {#monitor}
       + [Prepare and send an email](monitor/prepare-send.md)
       + [Send using multiple waves](advanced-settings/send-using-waves.md)
-      + [Monitor delivery logs](monitor/delivery-logs.md)    
+      + [Monitor delivery logs](monitor/delivery-logs.md)   
+      + [Schedule the sending of a delivery](monitor/schedule-sending.md)  
   + Push notifications {#push}
     + [Get started with push notifications](push/gs-push.md)
     + [Create a push notification delivery](push/create-push.md)
