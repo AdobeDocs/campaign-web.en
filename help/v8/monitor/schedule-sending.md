@@ -2,7 +2,6 @@
 audience: end-user
 title: Schedule the sending of a delivery
 description: Learn how to schedule a delivery
-feature: Monitor
 
 ---
 # Schedule the sending of a delivery {#schedule-sending}
