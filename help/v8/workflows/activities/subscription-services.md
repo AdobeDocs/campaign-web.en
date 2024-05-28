@@ -6,10 +6,6 @@ exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
 ---
 # Subscription services {#subscriptipon-services}
 
-
-
-
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"
 >title="Subscription services activity"
@@ -79,6 +75,7 @@ This workflow below shows how to subscribe an audience to an existing service.
 
 * A **[!UICONTROL Subscription Services]** activity lets you select the service to which the profiles must be subscribed.
 
+<!--
 ### Updating multiple subscription statuses from a file {#uc2}
 
 The workflow below shows how to import a file containing profiles and update their subscription to several services specified in the file.
@@ -118,4 +115,4 @@ The workflow below shows how to import a file containing profiles and update the
 
   The **[!UICONTROL Operation type]** is identified as coming from the **operation** field of the file. Only Boolean or Integer fields can be selected here. If the column of your file that contains the operation to perform does not appear in the list, make sure that you have correctly set your column format in the **[!UICONTROL Load file]** activity, as explained earlier in this example.
 
-  ![](../assets/workflow-subscription-service-uc2-subscription.png)
+  ![](../assets/workflow-subscription-service-uc2-subscription.png)-->
