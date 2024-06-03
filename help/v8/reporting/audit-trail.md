@@ -3,6 +3,7 @@ product: campaign
 title: Audit trail
 description: Learn how to monitor your instance with Campaign Audit trail
 feature: Audit Trail, Monitoring, Workflows
+exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
 ---
 # Audit trail{#audit-trail}
 
@@ -94,4 +95,3 @@ To access your instance's **[!UICONTROL Audit trail]**:
     The code block gives you more information on what was changed exactly in your entity.
 
     ![](assets/audit-trail-2.png)
-

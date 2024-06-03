@@ -2,7 +2,7 @@
 audience: end-user
 title: Schedule the sending of a delivery
 description: Learn how to schedule a delivery
-
+exl-id: 0738a148-d550-41c2-a8c2-6054684ba789
 ---
 # Schedule the sending of a delivery {#schedule-sending}
 
@@ -81,5 +81,4 @@ You need to configurate the date and time in the **[!UICONTROL Scheduler]** acti
 >When you use the **[!UICONTROL Scheduler]** activity to schedule the sending of your delivery in a workflow, **do not activate** the **[!UICONTROL Enable scheduling]** toggle in the **[!UICONTROL Delivery]** activity settings. You delivery will be sent automatically.
 >
 
-In the case you activate the **[!UICONTROL Enable scheduling]** toggle in the **[!UICONTROL Delivery]** activity settings, and setup a date and time there, the delivery will wait to be sent at this date and time. This means that if there is a delay between the date of launch of the workflow and the date of the sending, the audience may be not up to date. 
-
+In the case you activate the **[!UICONTROL Enable scheduling]** toggle in the **[!UICONTROL Delivery]** activity settings, and setup a date and time there, the delivery will wait to be sent at this date and time. This means that if there is a delay between the date of launch of the workflow and the date of the sending, the audience may be not up to date.

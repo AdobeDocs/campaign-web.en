@@ -2,7 +2,7 @@
 audience: end-user
 title: About read-only workflows
 description: Learn why workflows are on read-only mode
-
+exl-id: 5eaffe2c-7a9c-4508-8dd1-495cfcf99c59
 ---
 # About read-only workflows {#readonly-workflows}
 
