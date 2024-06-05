@@ -5,15 +5,12 @@ description: Learn how to work with delivery alerting.
 ---
 # Delivery alerting criteria {#delivery-alerting-criteria}
 
->[!CONTEXTUALHELP]<!--OK-->
+>[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria"
 >title="Delivery alerting criteria dashboard"
 >abstract="Delivery alerting criteria dashboard"
 
-
 ![](assets/alerting-criteria-list.png)
-
-
 
 ## Out-of-the-box alerting criteria {#ootb-criteria}
 
@@ -35,22 +32,22 @@ You can add any of them into your delivery alerting dashboard. You can also crea
 
 ## Create alerting criteria {#criteria}
 
->[!CONTEXTUALHELP]<!--OK-->
+>[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create"
 >title="Create delivery alerting critera"
 >abstract="Create delivery alerting critera"
 
->[!CONTEXTUALHELP]<!--OK-->
+>[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_indicators"
 >title="Indicators to add in alerts"
 >abstract="Indicators to add in alerts"
 
->[!CONTEXTUALHELP]<!--OK-->
+>[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_alert"
 >title="Alert type"
 >abstract="Alert type"
 
->[!CONTEXTUALHELP]<!--OK-->
+>[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_frequency"
 >title="Criterion frequency"
 >abstract="Criterion frequency"

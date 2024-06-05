@@ -5,7 +5,7 @@ description: Learn how to work with delivery alerting.
 ---
 # Delivery alerting dashboards {#delivery-alerting-dashboards}
 
->[!CONTEXTUALHELP]<!--OK-->
+>[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_dashboards"
 >title="Delivery alerting dashboards"
 >abstract="Delivery alerting dashboards"
@@ -18,35 +18,25 @@ They are accessible from the **Delivery Alerting** menu in the left navigation p
 
 ## Create a delivery dashboard {#dashboards}
 
->[!CONTEXTUALHELP]<!--OK-->
+>[!CONTEXTUALHELP]
 >id="acw_delery_alerting_dashboard_create"
 >title="Create delivery alerting dashboard"
 >abstract="Create delivery alerting dashboard"
 
->[!CONTEXTUALHELP]<!--OK-->
+>[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_general"
 >title="Delivery alerting general parameters"
 >abstract="Delivery alerting general parameters"
 
->[!CONTEXTUALHELP]<!--OK-->
+>[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_criteria_add"
 >title="Delivery alerting criteria"
 >abstract="Delivery alerting criteria"
 
->[!CONTEXTUALHELP]<!--OK-->
+>[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_criteria_parameters"
 >title="Criteria parameters"
 >abstract="Criteria parameters"
-
->[!CONTEXTUALHELP]<!--OK-->
->id="acw_delivery_alerting_dashboard_alerts"
->title="Delivery alerts sent"
->abstract="Delivery alerts sent"
-
->[!CONTEXTUALHELP]<!--PAS VU SUR STAGE-->
->id="acw_delivery_alerting_dashboard_history"
->title="Delivery alerts history"
->abstract="Delivery alerts history"
 
 To create a delivery dashboard, follow these steps: 
 
@@ -99,6 +89,18 @@ The alerting dashboard opens, with blank data. When you are ready to activate th
 Now each time a delivery meets the criteria that you defined in this dashboard, an alerting notification is sent to the specified operator group.
 
 ## Manage alerting dashboards
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_dashboard_alerts"
+>title="Delivery alerts sent"
+>abstract="Delivery alerts sent"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_dashboard_history"
+>title="Delivery alerts history"
+>abstract="Delivery alerts history"
+
+<!--PAS VU SUR STAGE-->
 
 All created alerting dashboards are accessible from the **Delivery Alerting** menu, in the **Dashboards** tab.
 
