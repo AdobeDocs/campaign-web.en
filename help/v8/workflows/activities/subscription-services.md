@@ -21,6 +21,11 @@ exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
 >title="Generate an outbound transition"
 >abstract="Toggle the **Generate an outbound transition** option to add a transition after the activity."
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_subscription_additionalinfo"
+>title="Additional information"
+>abstract="Additional information"
+
 The **Subscription services** activity is a **Data Management** activity. It allows you to create or delete a subscription to an information service for the population specified in the transition.
 
 ## Configure the Subscription services activity {#subscription-services-configuration}
