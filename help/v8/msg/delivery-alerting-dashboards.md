@@ -10,7 +10,7 @@ description: Learn how to work with delivery alerting.
 >title="Delivery alerting dashboards"
 >abstract="Delivery alerting dashboards"
 
-Delivery alerting dashboards allow you to specify who will receive email alerts, choose and configure the alerting criteria to use to send those alerts, and access the history of all sent notifications.
+Delivery alerting dashboards allow you to specify who will receive email alerts, choose and configure the alerting criteria to use to send those alerts, and access the history of all sent notifications. 
 
 ![](assets/alerting-dashboard-details.png)
 
