@@ -95,6 +95,10 @@ breadcrumb-title: Campaign Web User Interface
       + [Adjust vertical alignment and padding](email/alignment-and-padding.md)
       + [Define a style for links](email/styling-links.md)
       + [Add inline styling attributes](email/inline-styling.md)
+  + Delivery alerting {#delivery-alerting}
+    + [Get started with delivery alerts](msg/delivery-alerting.md)
+    + [Delivery alerting dashboards](msg/delivery-alerting-dashboards.md)
+    + [Delivery alerting criteria](msg/delivery-alerting-criteria.md)
 + Landing pages {#landing-pages}
   + [Get started with landing pages](landing-pages/get-started-lp.md)
   + [Create and publish a landing page](landing-pages/create-lp.md)
