@@ -302,11 +302,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Execution inititialization script"
 
 >[!CONTEXTUALHELP]
->id="acw_subscriptions_defaultlp"
->title="Default landing page"
->abstract="Select the default landing page associated to this subscription service."
-
->[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields"
 >title="Edit custom attributes"
 >abstract="Edit custom attributes"
