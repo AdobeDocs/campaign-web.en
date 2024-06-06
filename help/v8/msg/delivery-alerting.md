@@ -10,6 +10,8 @@ Delivery Alerting is an alert management system that enables groups of users to 
 
 Notifications can be customized based on specific alerting criteria defined through the Adobe Campaign Web User Interface.
 
+For more in formation on how to manage delivery failures, refer to the [Adobe Campaign v8 (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/delivery-failures#send){target="_blank"}
+
 ## Email notification contents {#content}
 
 Email notifications include the following sections:
