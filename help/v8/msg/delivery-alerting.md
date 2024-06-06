@@ -6,23 +6,28 @@ description: Learn how to work with delivery alerting.
 
 # Get started with delivery alerting {#gs-delivery-alerting}
 
-The Delivery alerting feature is an alert management system that enables a group of users to automatically receive email notifications containing information on the execution of their deliveries. The recipients of the alerts can monitor the deliveries that are being processed by Adobe Campaign and take appropriate actions when there are issues in their execution.
+Delivery Alerting is an alert management system that enables groups of users to automatically receive email notifications with information on their delivery executions. Recipients can monitor ongoing deliveries processed by Adobe Campaign and take appropriate actions if issues arise.
 
-These alerting notifications can be customized depending on specific alerting criteria that are defined through a dashboard in the Adobe Campaign interface.
+Notifications can be customized based on specific alerting criteria defined through the Adobe Campaign Web User Interface.
 
-The email notifications received by users contain:
-* A **Summary** displaying the number of deliveries meeting the criteria that you defined and the label/color that you chose for each criterion.
-* A **Details** section listing all of the delivery criteria defined for the corresponding dashboard and all of the deliveries for each criterion.
+## Email notification contents {#content}
+
+Email notifications include the following sections:
+
+* **Summary**: Displays the number of deliveries meeting your defined criteria, with labels and colors for each criterion.
+* **Details**: Lists all defined delivery criteria for the dashboard and the corresponding deliveries for each criterion.
 
 SCREENSHOT OF EMAIL 
 
-To help you set up these alerts, Campaign Web User Interface allows you to create:
+## Set up delivery alerts {#set-up}
 
-* **Delivery alerting dashboards**: These dashboards let you specify who will receive the alerts, configure alerting criteria, and access the history of all sent notifications.
-* **Delivery alerting criteria**:
+To help you set up these alerts, Campaign Web User Interface allows you to create and manage:
 
-Let's say you want to inform the users with administration rights of the failed deliveries only. However, you want the marketing users to receive information on the deliveries with a soft bounce bad error ratio. Therefore, you need to create two different dashboards and define the criteria that you want for each group of recipients.
+* **Delivery alerting dashboards**: Specify recipients, set alerting criteria to include in the dashboard, and access a history of sent alerts. [Learn how to work with dashboards](../msg/delivery-alerting-dashboards.md)
+* **Delivery alerting criteria**: Campaign Web User Interface provides pre-defined alerting criteria (deliveries with low throughput, deliveries whose preparation failed...) that you can add to your dashboard. You can also create your own criteria to suit your needs. [Learn how to work with criteria](../msg/delivery-alerting-criteria.md)
+
+Let's say you want to notify users with administration rights only about failed deliveries, and marketing users about deliveries with a high soft bounce error ratio. To achieve this, create two separate dashboards with the appropriate criteria for each group of recipients.
 
 >[!NOTE]
 >
->To access and configure the dashboards and the alerting criteria, you must have xxx rights.
+>To access and configure dashboards and alerting criteria, you must have **administration rights** or be part of the **Delivery Supervisors** security group. Standard users cannot access dashboards in the Adobe Campaign interface but can receive alerting notifications. [Learn more on access and permissions](../get-started/permissions.md)

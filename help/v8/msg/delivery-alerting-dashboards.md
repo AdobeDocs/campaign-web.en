@@ -10,11 +10,9 @@ description: Learn how to work with delivery alerting.
 >title="Delivery alerting dashboards"
 >abstract="Delivery alerting dashboards"
 
-Delivery alerting dashboards allow you to specify who will receive email alerts, choose and configure the alerting criteria to use to send those alerts, and access the history of all sent notifications. 
+Delivery alerting dashboards allow you to specify who will receive email alerts, choose and configure the alerting criteria to use to send those alerts, and access the history of all sent notifications. They are accessible from the **Delivery Alerting** menu in the left navigation pane, under the **Dashboards** tab.
 
-![](assets/alerting-dashboard-details.png)
-
-They are accessible from the **Delivery Alerting** menu in the left navigation pane, in the **Dashboards** tab.
+![](assets/alerting-dashboard-list.png)
 
 ## Create a delivery dashboard {#dashboards}
 
@@ -44,23 +42,21 @@ To create a delivery dashboard, follow these steps:
 
     ![](assets/alerting-dashboard.png)
 
-1. Name your dashboard in the **Label** field. The Internal name field is automatically populated and is read-only.
+1. Name your dashboard in the **Label** field. The **Internal name** field is automatically populated and read-only.
 
-1. In the **Select alert group** field, specify which **operator group** will receive the alerts sent by this dashboard. All members of the selected operator group will receive the alerts.
+1. In the **Select alert group** field, specify the **operator group** to receive the alerts sent by this dashboard. All members of the selected operator group will receive the alerts.
 
-    Learn more on permissions and operator groups in the [Adobe Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}
+    Learn more on permissions and operator groups in the [Adobe Campaign v8 (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}
 
-1. In the **Delivery alerting criteria** section, add the criteria that you want to use to send alerts. You can as many criteria as needed by clicking the **Add an element button**.
+1. In the **Delivery alerting criteria** section, add criteria that you want to use to send alerts. Choose from pre-defined criteria or create your own criteria to align with specific needs. [Learn how to work with criteria](../msg/delivery-alerting-criteria.md)
 
-    Pre-defined alerting criteria are available with Campaign Web User Interface. You can also create your own criteria to suit your needs.
-
-1. Criteria have default parameters value that define how they must be applied. You can change these values to suit your needs from the **Criteria parameters** section. 
+1. Criteria have default parameters values that define how they must be applied. You can change these values to suit your needs from the **Criteria parameters** section. 
 
     ![](assets/alerting-criteria-parameters.png)
 
     For example, by default, the **Delivery target minimum size** criteria parameter is set to 50, meaning that a delivery will be included in the alert sent by this dashboard only if it targets at least 50 profiles. You can change this parameter if you want to include deliveries targeting less than 50 profiles.
     
-    Expand the section below for more information on each available criteria parameter:
+    Expand the section below for more information on each criteria parameter:
 
     +++Available criteria parameters
 
@@ -76,17 +72,17 @@ To create a delivery dashboard, follow these steps:
 
     +++
 
-1. By default, alerting dashboards are disabled, meaning that email alerts linked to this dashboard are not sent. To enable the dashboard immediately, toggle the **Enabled** option on located in the **General** section, next to the alert group selection field.
+1. By default, alerting dashboards are disabled, meaning that email alerts linked to this dashboard are not sent. To enable the dashboard immediately, toggle the **Enabled** option in the **General** section, next to the alert group selection field.
 
-    You can also save the dashboard and enable it later on when ready.
+    You can also save the dashboard and enable it later on.
 
     ![](assets/alerting-dashboard-enable.png)
 
 1. To save the alerting dashboard, click the **Save** button.
 
-The alerting dashboard opens, with blank data. When you are ready to activate the dashboard, click the **Settings** button and toggle the **Enabled** option on, if you haven't done so previously.
+The alerting dashboard opens with blank data. When you are ready to activate it and send notifications, click the **Settings** button and toggle the **Enabled** option if you haven't done so previously.
 
-Now each time a delivery meets the criteria that you defined in this dashboard, an alerting notification is sent to the specified operator group.
+Now, each time a delivery meets the criteria defined in this dashboard, an alerting notification is sent to the specified operator group.
 
 ## Manage alerting dashboards
 
@@ -100,16 +96,14 @@ Now each time a delivery meets the criteria that you defined in this dashboard, 
 >title="Delivery alerts history"
 >abstract="Delivery alerts history"
 
-<!--PAS VU SUR STAGE-->
-
 All created alerting dashboards are accessible from the **Delivery Alerting** menu, in the **Dashboards** tab.
 
 ![](assets/alerting-dashboard-list.png)
 
 You can duplicate or delete a dashboard using the **More actions** button located next to its name. 
 
-To access a detailed view of a dashboard, click on its name from the list. From this screen, you can visualize the last sent alert for this dashboard. All sent alerts are listed in the left pane. You can click an item to access the corresponding alerts sent on that particular point of time.
+To access a detailed view of a dashboard, click on its name from the list. From this screen, you can visualize the latest sent alert. All sent alerts are listed in the left pane. Click an item to access the corresponding alerts sent at that particular time.
 
 ![](assets/alerting-dashboard-details.png)
 
-To edit the dashboard, click the **Settings** button located in the upper-right corner then make the desired changes.
+To edit the dashboard, click the **Settings** button in the upper-right corner and make the desired changes.
