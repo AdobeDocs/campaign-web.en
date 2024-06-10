@@ -22,3 +22,5 @@ You can change the type of your folder by clicking on the icon of Folder type, a
   ![](assets/folder_type.png){zoomable="yes"}
 
 You will setup the folder type by clicking on **[!UICONTROL Confirm]** button.
+
+If you want to create a folder with no specific type, choose **[!UICONTROL Generic Folder]** type.
