@@ -12,6 +12,7 @@ breadcrumb-title: Campaign Web User Interface
 + [Adobe Campaign Web User Interface documentation](campaign-web-home.md)
 + Release notes {#release-notes}
   + [What's new?](rn/whats-new.md)
+  + [Early release notes](rn/e-release-notes.md)
   + [Latest release](rn/release-notes.md)
   + [Documentation updates](rn/documentation-updates.md)
 + Get started with Adobe Campaign {#start}
