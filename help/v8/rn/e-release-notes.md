@@ -18,9 +18,7 @@ The following features and improvements are available to all users starting June
 
 ### Content fragments {#24-6-1}
 
-* You can now author, use, and save **visual fragments** to quickly assemble your emails and content templates. A fragment is a prebuilt reusable component that can be referenced in multiple emails across Adobe Campaign for an improved and accelerated design process. [Learn more](../email/fragments.md)
-
-* You can now author, use, and manage **expression fragments** to quickly build personalized content. A fragment is a prebuilt reusable component that can be referenced in multiple contents across Adobe Campaign for an improved and accelerated design process.
+You can now author, use, and manage **visual** and **expression** fragments to quickly assemble your emails and content templates. A fragment is a prebuilt reusable component that can be referenced in multiple emails across Adobe Campaign for an improved and accelerated design process.
 
 ### Seed lists {#24-6-2}
 
@@ -36,3 +34,4 @@ You can now create plans and programs to organize your campaigns. By defining a 
 
 ### Improvements {#improvements-24-6}
 
+* **Reconciliation in Enrichment activity**: The Enrichment activity can now be used to reconcile data from the the Campaign database schema with data from another schema, or with data coming from a temporary schema such as data uploaded using a Load file activity. For example, you can use this option to reconcile a profile's country, specified in an uploaded file, with one of the countries available in the dedicated table of the Campaign database.
