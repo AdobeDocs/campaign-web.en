@@ -123,6 +123,7 @@ breadcrumb-title: Campaign Web User Interface
   + [Get started with campaigns](campaigns/gs-campaigns.md)
   + [Access and manage your campaigns](campaigns/manage-campaigns.md)
   + [Create your first campaign](campaigns/create-campaigns.md)
+  + [Plans and Programs](administration/plans-programs.md)
 + Workflows {#wf}
   + [Get started with workflows](workflows/gs-workflows.md)
   + [Guardrails and limitations](get-started/guardrails.md)
@@ -195,4 +196,5 @@ breadcrumb-title: Campaign Web User Interface
   + [Manage templates with Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
 + Configuration {#conf}
   + [Configure custom fields](administration/custom-fields.md)
+  + [Create and Manage a Folder](administration/create-manage-folder.md)
 + [Campaign v8 (console) documentation >](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)
