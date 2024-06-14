@@ -24,3 +24,5 @@ You can change the type of your folder by clicking on the icon of Folder type, a
 You will setup the folder type by clicking on **[!UICONTROL Confirm]** button.
 
 If you want to create a folder with no specific type, choose **[!UICONTROL Generic Folder]** type.
+
+In Adobe Campaign console, you have the process explained [here](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/folders-and-views), and you have the possibility to setup permissions on folders. [Learn more](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
