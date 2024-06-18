@@ -66,7 +66,7 @@ You will have the possibility to configure them :
 
 You have 2 ways to link a campaign to a program :
 
-#### Way #1 : You already have a program and want to create a campaign linked to it
+### Way #1 : You already have a program and want to create a campaign linked to it
 
 To link a new campaign to your program, create directly you campaign in the program : 
 
@@ -76,7 +76,7 @@ The **[!UICONTROL Folder]** settings will be automatically filed with the path t
 
 ![](assets/program_campaign_folder.png){zoomable="yes"}
 
-#### Way #2 : You already have an existing campaign and want to link it to an existing program
+### Way #2 : You already have an existing campaign and want to link it to an existing program
 
 Go to the **[!UICONTROL Settings]** button of the campaign you want to link to your program : 
 
