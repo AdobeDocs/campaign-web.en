@@ -49,7 +49,7 @@ When you confirm your trap addresses, check that you have the correct number und
 
 ### Create condition {#create-condition}
 
-Whith the **[!UICONTROL Create condition]** choice, you will get a new window where you can custom a query to define the seed addresses you want to use :
+With the **[!UICONTROL Create condition]** choice, you will get a new window where you can custom a query to define the seed addresses you want to use :
 
 ![](assets/trap-create-condition.png){zoomable="yes"}
 
