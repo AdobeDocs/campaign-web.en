@@ -12,6 +12,7 @@ breadcrumb-title: Campaign Web User Interface
 + [Adobe Campaign Web User Interface documentation](campaign-web-home.md)
 + Release notes {#release-notes}
   + [What's new?](rn/whats-new.md)
+  + [Early release notes](rn/e-release-notes.md)
   + [Latest release](rn/release-notes.md)
   + [Documentation updates](rn/documentation-updates.md)
 + Get started with Adobe Campaign {#start}
@@ -93,6 +94,10 @@ breadcrumb-title: Campaign Web User Interface
     + [Preview the message content](preview-test/preview-content.md)
     + [Send proofs](preview-test/test-deliveries.md)
     + [Test the email rendering](preview-test/email-rendering.md)
+  + Delivery alerting {#delivery-alerting}
+    + [Get started with delivery alerts](msg/delivery-alerting.md)
+    + [Delivery alerting dashboards](msg/delivery-alerting-dashboards.md)
+    + [Delivery alerting criteria](msg/delivery-alerting-criteria.md)
 + Landing pages {#landing-pages}
   + [Get started with landing pages](landing-pages/get-started-lp.md)
   + [Create and publish a landing page](landing-pages/create-lp.md)
