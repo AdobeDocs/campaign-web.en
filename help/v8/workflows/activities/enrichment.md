@@ -105,6 +105,36 @@ To create a link, follow these steps:
 
 A workflow example using links is available in the [Examples](#link-example) section.
 
+## Data reconciliation {#reconciliation}
+
+The **Enrichment** activity can be used to reconcile data from the the Campaign database schema with data from another schema, or with data coming from a temporary schema such as data uploaded using a Load file activity. This type of link defines a reconciliation towards a unique record. Adobe Campaign creates a link to a target table by adding a foreign key in it for storing a reference to the unique record.
+
+For example, you can use this option to reconcile a profile's country, specified in an uploaded file, with one of the countries available in the dedicated table of the Campaign database. 
+
+Follow the steps to configure an **Enrichment** activity with a reconciliation link: 
+
+1. Click the **Add link** button in the **Reconciliation** section.
+1. Identify the data you want to create a reconciliation link with.
+
+    * To create a reconciliation link with data from the Campaign database, select **Database schema** and choose the schema where the target is stored. 
+    * To create a reconciliation link with data coming from the input transition, select **Temporary schema** and choose the workflow transition where the target data is stored. 
+
+1. The **Label** and **Name** fields are automatically populated based on the selected target schema. You can change their values if necessary.
+
+1. In the **Reconciliation criteria** section, specify how you want to reconcile data from the source and destination tables:
+
+    * **Simple join**: Reconcile a specific field from the source table with another field in the destination table. To do this, click the **Add join** button and specify the **Source** and **Destination** fields to use for the reconciliation.
+
+        >[!NOTE]
+        >
+        >You can use one or more **Simple join** criteria, in which case they must all be verified so that the data can be linked together.
+
+    * **Advanced join**: Use the query modeler to configure the reconciliation criteria. To do this, click the **Create condition** button then define your reconciliation criteria by building your own rule using AND and OR operations.
+
+The example below shows a workflow configured to create a link between the Adobe Campaign database recipients table and a temporary table generated a **Load file** activity. In this example, the Enrichment activity reconciliates both tables using the email address as reconciliation criteria.
+
+![](../assets/enrichment-reconciliation.png)
+
 ## Examples {#example}
 
 ### Single enrichment attribute {#single-attribute}
@@ -171,48 +201,17 @@ We now need to apply sorting in order to retrieve the three **latest** purchases
 
 ![](../assets/workflow-enrichment7.png)
 
-
 ### Enrichment with linked data {#link-example}
 
-The example below shows a workflow configured to create a link between two transitions. The first transitions targets profile data using a Query activity, while the second transition includes purchase data stored into a file loaded through a Load file activity.
+The example below shows a workflow configured to create a link between two transitions. The first transitions targets profile data using a **Query** activity, while the second transition includes purchase data stored into a file loaded through a Load file activity.
 
-* The first **Enrichment** activity links our primary set (data from the **Query** activity) with the schema from the **Load file** activity. This allows us to match each profile targeted by the query with the corresponding purchase data.
+![](../assets/enrichment-uc-link.png)
+
+* The first **Enrichment** activity links the primary set (data from the **Query** activity) with the schema from the **Load file** activity. This allows us to match each profile targeted by the query with the corresponding purchase data.
+
+    ![](../assets/enrichment-uc-link-purchases.png)
+
 * A second **Enrichment** activity is added in order to enrich data from the workflow table with the purchase data coming from the **Load file** activity. This allows us to use those data in further activities, for example, to personalize messages sent to the customers with information on their purchase.
 
-    ![](../assets/workflow-enrichment-example.png)
-
-
-
-
-
-<!--
-
-Add other fields
-use it in delivery
-
-
-cardinality between the tables (1-N)
-1. select attribute to use as enrichment data
-
-    display advanced fields option
-    i button
-
-    note: attributes from the target dimension
-
-1. Select how the data is collected
-1. number of records to retrieve if want to retrieve a collection of multiple records
-1. Apply filters and build rule
-
-    select an existing filter
-    save the filter for reuse
-    view results of the filter visually or in code view
-
-1. sort records using an attribute
-
-leverage enrichment data in campaign
-
-where we can use the enrichment data: personalize email, other use cases?
-
-## Example
-
--->
+    ![](../assets/enrichment-uc-link-data.png)
+ 
