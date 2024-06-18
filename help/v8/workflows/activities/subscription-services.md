@@ -4,7 +4,7 @@ title: Use the Subscription services activity
 description: Learn how to use the Subscription services workflow activity
 exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
 ---
-# Subscription services {#subscriptipon-services}
+# Subscription services {#subscription-services}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"
@@ -50,10 +50,12 @@ Follow these steps to configure the **Subscription services** activity:
 
     * **Select an operation type from a path of inbound transition**: Select the column of the inbound data that specifies the operation to perform for each record. For example, you can import a file which specifies the operation to perform for each line in an "operation" column.
 
-      >[!NOTE]
-      >
-      >Only boolean or integer fields can be selected here. Make sure that the data containing the operation to perform matches this format. For example, if you are loading data from a Load file activity, check that you have correctly set the format of the column containing the operation in the **[!UICONTROL Load file]** activity. An example is presented in [this section](#uc2).
+      Only boolean or integer fields can be selected here. Make sure that the data containing the operation to perform matches this format. For example, if you are loading data from a Load file activity, check that you have correctly set the format of the column containing the operation in the **[!UICONTROL Load file]** activity. An example is presented in [this section](#uc2).
 
+      >[!CAUTION]
+      >
+      >By default, if you select this option, the **Subscription services** activity expects to have a link definition to the **Services (nms)** table set up in the workflow. To do this, ensure you have configured a reconciliation link in an **Enrichment activity** upwards in the workflow. An example showing how to use this option is available [here](#uc2).
+      
     ![](../assets/workflow-subscription-service-inbound.png)
 
 1. To notify recipients that they are subscribed to or unsubscribed from the selected service, toggle the **[!UICONTROL Send a confirmation message]** option on. The content of this notification is defined in a delivery template associated to the information service.
@@ -80,7 +82,6 @@ This workflow below shows how to subscribe an audience to an existing service.
 
 * A **[!UICONTROL Subscription Services]** activity lets you select the service to which the profiles must be subscribed.
 
-<!--
 ### Updating multiple subscription statuses from a file {#uc2}
 
 The workflow below shows how to import a file containing profiles and update their subscription to several services specified in the file.
@@ -98,7 +99,9 @@ The workflow below shows how to import a file containing profiles and update the
   Durance,Alison,San Francisco,15/12/2000,allison.durance@example.com,running,unsub
   ```
 
-  As you may have noticed, the operation is specified in the file as "sub" or "unsub". The system expects a **Boolean** or **Integer** value to recognize the operation to perform: "0" to unsubscribe and "1" to subscribe. To match this requirement, a remapping of values must be performed in the detail of the "operation" column in the sample file configuration screen.
+  As you may have noticed, the operation is specified in the file as "sub" or "unsub". The system expects a **Boolean** or **Integer** value to recognize the operation to perform: "0" to unsubscribe and "1" to subscribe. To match this requirement:
+  * The **Data type** for the "operation" column is set to integer.
+  * A **Value remapping** must be performed to match the the "sub" and "unsub" values with "1" and "0" values.
 
   ![](../assets/workflow-subscription-service-uc2-mapping.png)
 
@@ -106,18 +109,14 @@ The workflow below shows how to import a file containing profiles and update the
 
 * A **[!UICONTROL Reconciliation]** activity identifies the data from the file as belonging to the profile dimension of the Adobe Campaign database. The **email** field of the file is matched to the **email** field of the profile resource.
 
-  ![](../assets/workflow-subscription-service-uc2-enrichment.png)
+  ![](../assets/workflow-subscription-service-uc2-reconciliation.png)
 
-* An **[!UICONTROL Enrichment]** activity creates a link to the "Services (nms)" table and creates a simple join between the "service" column of the uploaded file, and the services "internal name" field in the database.
+* An **[!UICONTROL Enrichment]** activity creates a reconciliation link to the "Services (nms)" table, with a simple join between the "service" column of the uploaded file, and the services "internal name" field in the database.
 
     ![](../assets/workflow-subscription-service-uc2-enrichment.png)
-
-* A **[!UICONTROL Deduplication]** based on the **email** field identifies duplicates. It is important to eliminate duplicates since the subscription to a service will fail for all data in case of duplicates.
-
-  ![](../assets/workflow-subscription-service-uc2-dedup.png)
   
-* A **[!UICONTROL Subscription Services]** identifies the services to update as coming from the transition, through the link created in the **[!UICONTROL Reconciliation]** activity.
+* A **[!UICONTROL Subscription Services]** identifies the services to update as coming from the transition.
 
   The **[!UICONTROL Operation type]** is identified as coming from the **operation** field of the file. Only Boolean or Integer fields can be selected here. If the column of your file that contains the operation to perform does not appear in the list, make sure that you have correctly set your column format in the **[!UICONTROL Load file]** activity, as explained earlier in this example.
 
-  ![](../assets/workflow-subscription-service-uc2-subscription.png)-->
+  ![](../assets/workflow-subscription-service-uc2-subscription.png)
