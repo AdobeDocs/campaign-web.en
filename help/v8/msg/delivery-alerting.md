@@ -2,8 +2,8 @@
 audience: end-user
 title: Delivery alerting
 description: Learn how to work with delivery alerting.
+exl-id: 120afaa0-7017-4644-b6db-229b4a5c8a91
 ---
-
 # Get started with delivery alerting {#gs-delivery-alerting}
 
 Delivery Alerting is an alert management system that enables groups of users to automatically receive email notifications with information on their delivery executions. Recipients can monitor ongoing deliveries processed by Adobe Campaign and take appropriate actions if issues arise.

@@ -2,7 +2,7 @@
 audience: end-user
 title: Create and Manage a Folder
 description: Learn how to create and manage a folder in Adobe Campaign
-
+exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 ---
 # Create and Manage a Folder
 

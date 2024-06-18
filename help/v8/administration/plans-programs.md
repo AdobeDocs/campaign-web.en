@@ -2,7 +2,7 @@
 audience: end-user
 title: Plans and Programs
 description: Learn how to create and configure plans and programs in Adobe Campaign
-
+exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
 ---
 # Plans and Programs
 
