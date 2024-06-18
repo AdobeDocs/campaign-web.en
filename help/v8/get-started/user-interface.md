@@ -301,16 +301,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Execution inititialization script"
 >abstract="Execution inititialization script"
 
->[!CONTEXTUALHELP]
->id="acw_subscriptions_defaultlp"
->title="Default landing page"
->abstract="Select the default landing page associated to this subscription service."
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_filter"
->title="Create an alerting criterion"
->abstract="To create your own delivery filters, create a new predefined filter in the Campaign v8 console from the **Administration** > **Configuration** > **Predefined filters** node."
-
 <!-- IDs -->
 
 
