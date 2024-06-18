@@ -3,6 +3,7 @@ title: Campaign v8 Web User Interface Early Release Notes
 description: Discover new features coming with the next Campaign Web User Interface release
 hide: yes
 hidefromtoc: yes
+exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
 ---
 # Early release notes {#e-release}
 
