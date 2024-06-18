@@ -1,6 +1,8 @@
 ---
 audience: end-user
 title: Use a trap group
+hide: yes
+hidefromtoc: yes
 description: Learn how to use a trap group for your delivery in Campaign Web user interface
 
 ---
