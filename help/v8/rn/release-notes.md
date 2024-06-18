@@ -32,7 +32,7 @@ The Delivery alerting feature is an alert management system that enables a group
 
 ### Plans and programs {#24-6-4}
 
-You can now create plans and programs to organize your campaigns. By defining a folder hierarchy, you can organize your campaigns into programs, and your programs into plans.
+You can now create plans and programs to organize your campaigns. By defining a folder hierarchy, you can organize your campaigns into programs, and your programs into plans. [Read more](../msg/delivery-alerting.md)
 
 ### Improvements {#improvements-24-6}
 
