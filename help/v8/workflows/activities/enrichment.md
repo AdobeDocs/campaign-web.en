@@ -71,12 +71,6 @@ Follow these steps to configure the **Enrichment** activity:
 
 ## Create links between tables {#create-links}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="Links between tables"
->abstract="You can now create a link between the working table data and the Adobe Campaign database in the Enrichment workflow activity."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
-
 The **[!UICONTROL Link definition]** section allows you to create a link between the working table data and the Adobe Campaign database. For example, if you load data from a file which contains the account number, country and email of recipients, you have to create a link towards the country table in order to update this information in their profiles.
 
 There are several types of links available:
@@ -106,6 +100,14 @@ To create a link, follow these steps:
 A workflow example using links is available in the [Examples](#link-example) section.
 
 ## Data reconciliation {#reconciliation}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn3"
+>title="Data reconciliation"
+>abstract="The workflow Enrichment activity can now be used to reconcile data from the the Campaign database schema with data from another schema, or with data coming from a temporary schema such as data uploaded using a Load file activity."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
+
 
 The **Enrichment** activity can be used to reconcile data from the the Campaign database schema with data from another schema, or with data coming from a temporary schema such as data uploaded using a Load file activity. This type of link defines a reconciliation towards a unique record. Adobe Campaign creates a link to a target table by adding a foreign key in it for storing a reference to the unique record.
 

@@ -36,7 +36,7 @@ You can now create plans and programs to organize your campaigns. By defining a 
 
 ### Improvements {#improvements-24-6}
 
-* **Reconciliation in Enrichment activity**: The Enrichment activity can now be used to reconcile data from the the Campaign database schema with data from another schema, or with data coming from a temporary schema such as data uploaded using a Load file activity. For example, you can use this option to reconcile a profile's country, specified in an uploaded file, with one of the countries available in the dedicated table of the Campaign database. [Read more](../workflows/activities/enrichment.md)
+* **Reconciliation in Enrichment activity**: The **Enrichment** activity can now be used to reconcile data from the the Campaign database schema with data from another schema, or with data coming from a temporary schema such as data uploaded using a Load file activity. For example, you can use this option to reconcile a profile's country, specified in an uploaded file, with one of the countries available in the dedicated table of the Campaign database. [Read more](../workflows/activities/enrichment.md)
 
 ## May release notes {#24-5-release}
 
