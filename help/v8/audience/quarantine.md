@@ -2,7 +2,7 @@
 audience: end-user
 title: About quarantine
 description: Understand the management of quarantine addresses
-
+exl-id: 4fddabbe-39ab-418b-a87c-f86fe96fa28b
 ---
 # Quarantine 
 
