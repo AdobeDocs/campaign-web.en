@@ -107,6 +107,7 @@ breadcrumb-title: Campaign Web User Interface
 + Profiles and audiences {#audiences}
   + [Get started with profiles and audiences](audience/gs-audiences-recipients.md)
   + [Targeting dimensions](audience/targeting-dimensions.md)
+  + [Quarantine](audience/quarantine.md)
   + Work with profiles {#work-with-profiles}
     + [Get started with profiles](audience/about-recipients.md)
     + [Explore profiles' details](audience/profile-view.md)
