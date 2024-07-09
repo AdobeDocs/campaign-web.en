@@ -238,7 +238,7 @@ In the example below, we have created an intermediate group to include results f
 >title="Rule properties"
 >abstract="Once you've built your query in the canvas, you can check it using the **Rule properties** pane located on the right hand side.<br/>This pane allows you to display the resulting data, to retrieve an SQL code version of the query, and check the number of targeted records.<br/>Use the **Select or save filter** button to save your query as a predefined filter, or replace the canvas content with an existing filter."
 
-Once you've built your query in the canvas, you can check it using the **Rule properties** pane located on the right hand side. Available operations are:
+Once you've built your query in the canvas, you can check it using the **Rule properties** pane located on the right hand side  This pane displays when building a query to create an audience. Available operations are:
 
 * **View results:** Displays the data resulting from your query.
 * **Code view**: Displays a code-based version of the query in SQL.
