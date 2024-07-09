@@ -344,17 +344,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Transactional Messaging personalization"
 
 >[!CONTEXTUALHELP]
->id="acw_transacmessages_personalization"
->title="Transactional Messaging personalization"
->abstract="Transactional Messaging personalization"
-
->[!CONTEXTUALHELP]
 >id="acw_transacmessages_exclusionlogs"
 >title="Transactional Messaging exclusion logs"
 >abstract="Transactional Messaging exclusion logs"
 
 >[!CONTEXTUALHELP]
->id="acw_transacmessages_context"
+>id="acw_transacmessages_addcontext"
 >title="Transactional Messaging context"
 >abstract="Transactional Messaging context"
 
