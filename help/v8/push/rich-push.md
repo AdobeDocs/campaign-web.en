@@ -371,7 +371,7 @@ Once you have defined your message content, you can use test subscribers to prev
 
 >[!TAB Zero bezel]
 
-1. From the **[!UICONTROL Notification type]** drop-down, select **[!UICONTROL Default]**.
+1. From the **[!UICONTROL Notification type]** drop-down, select **[!UICONTROL Zero bezel]**.
 
     ![](assets/rich_push_bezel_1.png)
 
