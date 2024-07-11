@@ -217,7 +217,7 @@ Once you have defined your message content, you can use test subscribers to prev
 
     ![](assets/rich_push_input_2.png)
 
-1. Use dynamic personalization fields to define content, personalize data and add dynamic content. [Learn more](../send/personalize.md)
+1. Use dynamic personalization fields to define content, personalize data and add dynamic content. [Learn more](../personalization/personalize.md)
 
 1. Add the URL which defines the **[!UICONTROL Click action]** associated with a user click on your notification. This determines the behavior when the user interacts with the notification, such as opening a specific screen or performing a specific action in your app.
 
@@ -256,7 +256,7 @@ Once you have defined your message content, you can use test subscribers to prev
 
     ![](assets/rich_push_catalog_2.png)
 
-1. Use dynamic personalization fields to define content, personalize data and add dynamic content. [Learn more](../send/personalize.md)
+1. Use dynamic personalization fields to define content, personalize data and add dynamic content. [Learn more](../personalization/personalize.md)
 
 1. Add the URL which defines the **[!UICONTROL Click action]** associated with a user click on your notification. This determines the behavior when the user interacts with the notification, such as opening a specific screen or performing a specific action in your app.
 
@@ -338,7 +338,7 @@ Once you have defined your message content, you can use test subscribers to prev
 
 1. To compose your message, enter your text in the **[!UICONTROL Title]** and **[!UICONTROL Message]** fields.
     
-    Use dynamic personalization fields to define content, personalize data and add dynamic content. [Learn more](../send/personalize.md)
+    Use dynamic personalization fields to define content, personalize data and add dynamic content. [Learn more](../personalization/personalize.md)
     
     ![](assets/rich_push_timer_2.png)
 
@@ -382,7 +382,7 @@ Once you have defined your message content, you can use test subscribers to prev
 
     ![](assets/rich_push_bezel_2.png)
 
-1. Use dynamic personalization fields to define content, personalize data and add dynamic content. [Learn more](../send/personalize.md)
+1. Use dynamic personalization fields to define content, personalize data and add dynamic content. [Learn more](../personalization/personalize.md)
 
 1. Add the URL which defines the **[!UICONTROL Click action]** associated with a user click on your notification. This determines the behavior when the user interacts with the notification, such as opening a specific screen or performing a specific action in your app.
 
