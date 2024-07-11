@@ -190,8 +190,7 @@ Once you have defined your message content, you can use test subscribers to prev
 
 1. Add the URL of your **[!UICONTROL Cancel button image]**.
 
-1. Click **[!UICONTROL Add icon]** and enter your **image URL**, **[!UICONTROL Link URI]**
- and choose your **[!UICONTROL Link type]**.
+1. Click **[!UICONTROL Add icon]** and enter your **image URL**, **[!UICONTROL Link URI]** and choose your **[!UICONTROL Link type]**.
 
     Ensure that you include a minimum of three images and a maximum of five images.
 
