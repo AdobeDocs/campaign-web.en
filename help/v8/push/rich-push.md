@@ -192,7 +192,7 @@ Once you have defined your message content, you can use test subscribers to prev
 
 1. Click **[!UICONTROL Add icon]** and enter your **image URL**, **[!UICONTROL Link URI]** and choose your **[!UICONTROL Link type]**.
 
-    Ensure that you include a minimum of three images and a maximum of five images.
+    Ensure that you include a minimum of three icons and a maximum of five icons.
 
     ![](assets/rich_push_icon_3.png)
     
