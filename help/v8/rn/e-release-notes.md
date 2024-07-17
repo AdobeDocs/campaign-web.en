@@ -11,28 +11,29 @@ Adobe Campaign Web User interface continuously delivers new features, enhancemen
 
 **Early release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the [release notes](release-notes.md), at the release date.
 
-## June release notes {#24-6-release}
+## July release notes {#24-7-release}
 
-**Release date**: June 18-19, 2024
+**Release date**: July 30-31, 2024
 
-The following features and improvements are available to all users starting June release.
+The following features and improvements are available starting July release.
 
-### Content fragments {#24-6-1}
+### Expression fragments {#24-7-1}
 
-You can now author, use, and manage **visual** and **expression** fragments to quickly assemble your emails and content templates. A fragment is a prebuilt reusable component that can be referenced in multiple emails across Adobe Campaign for an improved and accelerated design process.
+You can now author, use, and manage **expression fragments** to quickly build personalized content. A fragment is a prebuilt reusable component that can be referenced in multiple contents across Adobe Campaign for an improved and accelerated design process.
 
-### Seed lists {#24-6-2}
+### Seed lists {#24-7-2}
 
 A seed list, aka. **Trap group**, is a list of seed addresses. It is used to include specific addresses in your deliveries, and then target profiles who do not match the defined target criteria. This way, recipients who are out of the delivery audience can receive the delivery, as any other target recipient would. You can use seed addresses when sending proofs, or to protect your mailing list.
 
-### Delivery alerting {#24-6-3}
+### Rich push notification templates {#24-7.3}
 
-The Delivery alerting feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries.    
+You can now send rich push notifications. A rich push notification is an enhanced form of mobile notification that goes beyond simple text messages by incorporating multimedia elements such as images, interactive buttons, or other rich media content. With this version, a set of templates for rich push notifications are now available for your iOS and Android apps. [Read more](../send/rich-push.md). 
 
-### Plans and programs {#24-6-4}
+>[!AVAILABILITY]
+>
+>This capability requires an update to Campaign v8.6.3 or v8.7.2. [Learn more in Campaign Client console release notes](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/release-notes)
 
-You can now create plans and programs to organize your campaigns. By defining a folder hierarchy, you can organize your campaigns into programs, and your programs into plans.
 
-### Improvements {#improvements-24-6}
+### Improvements {#improvements-24-7}
 
-* **Reconciliation in Enrichment activity**: The Enrichment activity can now be used to reconcile data from the the Campaign database schema with data from another schema, or with data coming from a temporary schema such as data uploaded using a Load file activity. For example, you can use this option to reconcile a profile's country, specified in an uploaded file, with one of the countries available in the dedicated table of the Campaign database.
+* **Folders management** - You can now manage permissions and restrictions on folders.

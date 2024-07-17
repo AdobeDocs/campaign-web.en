@@ -17,14 +17,6 @@ Adobe Campaign Web user interface releases operate on a continuous delivery mode
 **Release date**: June 18-19, 2024
 
 The following features and improvements are available to all users starting June release.
-<!--
-### Visual fragments {#24-6-1}
-
-You can now author, use, and manage **visual** fragments to quickly assemble your emails and content templates. A fragment is a prebuilt reusable component that can be referenced in multiple emails across Adobe Campaign for an improved and accelerated design process.
-
-### Seed lists {#24-6-2}
-
-A seed list, aka. **Trap group**, is a list of seed addresses. It is used to include specific addresses in your deliveries, and then target profiles who do not match the defined target criteria. This way, recipients who are out of the delivery audience can receive the delivery, as any other target recipient would. You can use seed addresses when sending proofs, or to protect your mailing list.-->
 
 ### Delivery alerting {#24-6-3}
 
