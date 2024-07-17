@@ -27,7 +27,7 @@ A seed list, aka. **Trap group**, is a list of seed addresses. It is used to inc
 
 ### Rich push notification templates {#24-7.3}
 
-You can now send rich push notifications. A rich push notification is an enhanced form of mobile notification that goes beyond simple text messages by incorporating multimedia elements such as images, interactive buttons, or other rich media content. With this version, a set of templates for rich push notifications are now available for your iOS and Android apps. [Read more](../send/rich-push.md). 
+You can now send rich push notifications. A rich push notification is an enhanced form of mobile notification that goes beyond simple text messages by incorporating multimedia elements such as images, interactive buttons, or other rich media content. With this version, a set of templates for rich push notifications are now available for your iOS and Android apps. 
 
 >[!AVAILABILITY]
 >
