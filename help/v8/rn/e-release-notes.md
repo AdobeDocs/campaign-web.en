@@ -44,14 +44,13 @@ You can now send rich push notifications. A rich push notification is an enhance
 
 #### Content Fragments {#LA-24-7}
 
-A fragment is a prebuilt reusable component that can be referenced in multiple contents across Adobe Campaign for an improved and accelerated design process.
+You can now create and use content fragments. A content fragment is a reusable component that can be referenced in one or more messages. When modifying a fragment, every content using it is updated. This functionality allows to prebuild multiple custom content blocks that can be used by marketing users to quickly assemble message contents in an improved design process.
 
-* You can now author, use, and manage **expression fragments** to quickly build personalized content. 
+Two types of fragments are available:
 
-* You can now author, use, and save **visual fragments** to quickly assemble your emails and content templates. [Learn more](../email/fragments.md)
+* **Expression fragments** are pre-defined expressions that are available from a dedicated entry in the expression editor.
+* **Visual fragments** are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](../email/fragments.md)
 
-
-
-
-
-
+    >[!AVAILABILITY]
+    >
+    >**Visual fragments** are in Limited Availability (LA). This capability is restricted to customers migrating **from Adobe Campaign Standard to Adobe Campaign v8**, and cannot be deployed on any other environment.
