@@ -2,12 +2,9 @@
 audience: end-user
 title: Create content fragments
 description: Learn how to create with content fragments
-hide: yes
-hidefromtoc: yes
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
 ---
 # Create content fragments {#fragments}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"
@@ -55,11 +52,14 @@ This functionality allows to prebuild multiple custom content blocks that can be
 
 ![](assets/fragments.gif)
 
-
 To make the best use of fragments:
 
 * Create your own visual fragments, as detailed below.
 * Use them as many times as needed in your content, via the Email Designer. See [Add visual fragments to your emails](../email/use-visual-fragments.md).
+
+>[!AVAILABILITY]
+>
+>This capability is in Limited Availability (LA). It is restricted to customers migrating **from Adobe Campaign Standard to Adobe Campaign v8**, and cannot be deployed on any other environment.
 
 ## Create a visual fragment {#create-fragments}
 

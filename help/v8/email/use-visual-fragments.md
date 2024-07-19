@@ -2,19 +2,15 @@
 audience: end-user
 title: Add visual fragments to your emails
 description: Learn how to add visual fragments to your emails
-hide: yes
-hidefromtoc: yes
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
 ---
 # Add visual fragments to your emails {#use-visual-fragments}
 
-You can use a visual fragment in an [email delivery](get-started-email-designer.md), or in a [content template](use-email-templates.md). Steps are detailed below.
+You can use a visual fragment in an [email delivery](get-started-email-designer.md), or in a [content template](use-email-templates.md). Steps are detailed below. Learn how to create and manage fragments in [this section](fragments.md).
 
-
->[!NOTE]
+>[!AVAILABILITY]
 >
->Learn how to create and manage fragments in [this section](fragments.md).
-
+>This capability is in Limited Availability (LA). It is restricted to customers migrating **from Adobe Campaign Standard to Adobe Campaign v8**, and cannot be deployed on any other environment.
 
 ## Use a fragment {#use-fragment}
 
