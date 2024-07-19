@@ -17,10 +17,6 @@ Adobe Campaign Web User interface continuously delivers new features, enhancemen
 
 The following features and improvements are available starting July release.
 
-### Expression fragments {#24-7-1}
-
-You can now author, use, and manage **expression fragments** to quickly build personalized content. A fragment is a prebuilt reusable component that can be referenced in multiple contents across Adobe Campaign for an improved and accelerated design process.
-
 ### Seed lists {#24-7-2}
 
 A seed list, aka. **Trap group**, is a list of seed addresses. It is used to include specific addresses in your deliveries, and then target profiles who do not match the defined target criteria. This way, recipients who are out of the delivery audience can receive the delivery, as any other target recipient would. You can use seed addresses when sending proofs, or to protect your mailing list.
@@ -36,4 +32,26 @@ You can now send rich push notifications. A rich push notification is an enhance
 
 ### Improvements {#improvements-24-7}
 
-* **Folders management** - You can now manage permissions and restrictions on folders.
+**Folders management** - You can now manage permissions and restrictions on folders.
+
+### New features in Limited Availability {#acs-24-4}
+
+>[!AVAILABILITY]
+>
+>The following capabilities are in Limited Availability (LA). They are restricted to customers migrating **from Adobe Campaign Standard to Adobe Campaign v8**, and cannot be deployed on any other environment.
+>
+>Refer to the following documentation pages: [Campaign Standard transition to Campaign v8](../rn/acs-migration.md) and [Features for Campaign Standard users](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html).
+
+#### Content Fragments {#LA-24-7}
+
+A fragment is a prebuilt reusable component that can be referenced in multiple contents across Adobe Campaign for an improved and accelerated design process.
+
+* You can now author, use, and manage **expression fragments** to quickly build personalized content. 
+
+* You can now author, use, and save **visual fragments** to quickly assemble your emails and content templates. [Learn more](../email/fragments.md)
+
+
+
+
+
+
