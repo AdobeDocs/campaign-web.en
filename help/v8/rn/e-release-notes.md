@@ -17,7 +17,7 @@ Adobe Campaign Web User interface continuously delivers new features, enhancemen
 
 The following features and improvements are available starting July release.
 
-#### Content Fragments {#24-7-1}
+### Content Fragments {#24-7-1}
 
 You can now create and use content fragments. A content fragment is a reusable component that can be referenced in one or more messages. When modifying a fragment, every content using it is updated. This functionality allows to prebuild multiple custom content blocks that can be used by marketing users to quickly assemble message contents in an improved design process.
 
