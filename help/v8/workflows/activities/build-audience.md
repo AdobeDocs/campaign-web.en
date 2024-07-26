@@ -17,7 +17,7 @@ To define the audience population, you can:
 
 * Select an existing audience, created as a list in the client console.
 * Select an Adobe Experience Platform audience. 
-* Build a new audience with the query modeler builder by defining and combining filtering criteria.
+* Build a new audience with the query modeler by defining and combining filtering criteria.
 
 >[!NOTE]
 >
