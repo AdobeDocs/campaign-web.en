@@ -103,25 +103,6 @@ breadcrumb-title: Campaign Web User Interface
       + [Use visual fragments in your emails](content/use-visual-fragments.md)
       + [Create and edit expression fragments](content/create-fragment.md)
       + [Use expression fragments in the expression editor](content/use-expression-fragments.md)
-  + Design emails {#email-design}
-    + [Get started with the Email Designer](email/get-started-email-designer.md)
-    + Start shaping your email {#start-design}
-      + [Start from scratch ](email/create-email-content.md)
-      + [Import your email content](email/existing-content.md)
-      + [Code your own content](email/code-content.md)
-      + [Use email content templates](email/use-email-templates.md)
-    + Design your content {#design-content}
-      + [Use content components](email/content-components.md)
-      + [Add links and track messages](email/message-tracking.md)
-      + [Add a link to the mirror page](email/mirror-page.md)
-      + [Add a preheader](email/preheader.md)
-      + [Generate the text version](email/text-version-email.md)
-    + Style your content {#style}
-      + [Get started with email style](email/get-started-email-style.md)
-      + [Edit background settings](email/backgrounds.md)
-      + [Adjust vertical alignment and padding](email/alignment-and-padding.md)
-      + [Define a style for links](email/styling-links.md)
-      + [Add inline styling attributes](email/inline-styling.md)
 + Landing pages {#landing-pages}
   + [Get started with landing pages](landing-pages/get-started-lp.md)
   + [Create and publish a landing page](landing-pages/create-lp.md)
