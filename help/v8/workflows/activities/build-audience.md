@@ -34,11 +34,6 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 >title="Audience"
 >abstract="Select your audience, the same way you use an audience when designing a new delivery."
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_build_audience_audienceselector"
->title="Audience"
->abstract="Audience"
-
 Follow these steps to configure the **Build audience** activity:
 
 ![](../assets/workflow-audience.png)
