@@ -48,9 +48,10 @@ Follow these steps to configure the **Deduplication** activity:
 
 1. Select the **Deduplication method** to use:
 
-    * **Random selection**: randomly selects the record to be kept out of the duplicates.
-    * **Using an expression**: this lets you keep the records in which the value of the expression entered is the smallest or the biggest.
-    * **Following a list of values**: lets you define a value priority for one or more fields. To define the values, click **Attribute** to select a field or create an expression, then add the value(s) into the appropriate table. To define a new field, click the Add button located above the list of values. 
+    * **Random selection**: Randomly selects the record to be kept out of the duplicates.
+    * **Using an expression**: Keep the records in which the value of the expression entered is the smallest or the biggest.
+    * **Non-empty values**: Keep the records for which the expression is not empty.
+    * **Following a list of values**: Define a value priority for one or more fields. To define the values, click **Attribute** to select a field or create an expression, then add the value(s) into the appropriate table. To define a new field, click the **Add button** located above the list of values. 
 
 1. Check the **Generate complement** option if you wish to exploit the remaining population. The complement consists of all the duplicates. An additional transition will then be added to the activity.
 

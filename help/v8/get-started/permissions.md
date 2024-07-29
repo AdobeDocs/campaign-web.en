@@ -42,10 +42,7 @@ exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
 >title="This workflow is read only"
 >abstract="You do not have permissions to edit this workflow. If needed, contact your administrator to grant you access."
 
->[!CONTEXTUALHELP]
->id="acw_wf_read_only_canvas"
->title="This workflow is read only"
->abstract="You cannot edit this workflow due to unsupported or incompatible canvas."
+
 
 Access control can restrict access to objects and data from main lists, such as deliveries, recipients, or worklows. These restrictions also apply in the **Explorer** navigation tree. In addition, you need permissions to create, delete, duplicate, and edit objects from the user interface.
 
@@ -77,7 +74,27 @@ To view permissions for a folder, follow these steps:
 Learn more about folder permissions in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/folder-permissions.html){target="_blank"}.
 
 
-## Work with folders {#folders}
+## Work with folders {#folders} 
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_properties"
+>title="Folder properties"
+>abstract="Folder properties"
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_security"
+>title="Folder security"
+>abstract="Folder security"
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_restrictions"
+>title="Folder restrictions"
+>abstract="Folder restrictions"
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_schedule"
+>title="Folder schedule"
+>abstract="Folder schedule"
 
 You can create, rename, reorder, and move folders to organize your components and data. You can also delete folders from the same menu. 
 
@@ -88,10 +105,16 @@ You can create, rename, reorder, and move folders to organize your components an
 To create a folder, follow these steps:
 
 1. From the **Explorer** left nav menu, select a folder.
-1. Click the three dots on the upper right corner and choose **Create new subfolder**.
-1. Enter the name of the folder and save. 
+1. Click the three dots on the upper right corner and choose **Create new folder**.
+1. Enter the name of the folder.
 
     ![](assets/create-new-subfolder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+
+1. Select the folder type. By default, the parent folder type is selected, "Deliveries", in our example. To change the folder type, click the folder icon and select any other type.
+
+    ![](assets/create-new-subfolder2.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+
+1. Click **Create**.
 
     The folder is added as a subfolder of the current folder. Browse to that new folder to create components directly into it. You can also create a component from any folder, and save it in that new folder, from the **Additional Options** section of the properties, as shown below for a delivery:
 

@@ -5,6 +5,14 @@ exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
 ---
 # Configure custom fields {#custom-fields}
 
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn4"
+>title="Custom fields"
+>abstract="Custom fields are additional attributes added to the out-of-the-box schemas through the Adobe Campaign console. They are now available in the Web user interface."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
+
+
+
 Custom fields are additional attributes added to the out-of-the-box schemas through the Adobe Campaign console. Learn more in the [Adobe Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html){target="_blank"}
 
 These custom fields are displayed in various screens, for example the details of a profile or a test profile.

@@ -12,6 +12,12 @@ You can use a visual fragment in an [email delivery](../email/get-started-email-
 
 ## Use a visual fragment {#use-fragment}
 
+>[!CONTEXTUALHELP]
+>id="acw_fragments_details"
+>title="Fragments options"
+>abstract="This pane provides options related to the selected fragment. It allows you to choose the devices you want the fragment to be displayed on, and to open the content of this fragment. Use the **[!UICONTROL Styles]** tab to further customize your fragment. You can also break the inheritance with the original visual fragment."
+<!-- pas vu dans l'UI-->
+
 To insert a visual fragment in an email content, follow the steps below:
 
 1. Open any email or template content using the [Email Designer](../email/get-started-email-designer.md).

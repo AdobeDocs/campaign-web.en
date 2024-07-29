@@ -6,15 +6,6 @@ exl-id: db978482-43f6-48a7-8d8d-4b921eb610b2
 ---
 # Update data {#update-data}
 
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
->title="Update Data activity"
->abstract="The Update Data activity is now available for use in workflows. Use the Update data activity to perform a mass update on fields in the database. Several options are proposed to personalize the type of update."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
-
-
-
 The **Update data** activity is a **Data Management** activity. It allows you to perform a mass update on fields in the database. Several options allow you to personalize the data update.
 
 <!--

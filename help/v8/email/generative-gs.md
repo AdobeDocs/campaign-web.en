@@ -35,10 +35,10 @@ hidefromtoc: yes
 >[!CONTEXTUALHELP]
 >id="acw_emagica_generate"
 >title="Adobe Generative AI terms"
->abstract="Access to this feature is subject to your agreement to the Adobe Experience Cloud Generative AI User Guidelines. Any prompts, context, or supplemental information, or other input you provide to this feature must be tied to specific context, which can include your branding materials, website content, data, schemas for such data, templates, or other trusted documents and must not contain any personal information (personal information includes anything that can be linked back to a specific invidual). You should review any output from this feature for accuracy and ensure that it is appropriate for your use case"
+>abstract="Access to this feature is subject to your agreement to the Adobe Experience Cloud Generative AI User Guidelines. Please review any output from this feature for accuracy and ensure it is appropriate for your use case."
 >additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe Generative AI User Guidelines"
 
-As the Marketing industry becomes more competitive, brands are seeking efficient ways to generate impactful content in an efficient and quick manner. AI Assistant in Campaign is Adobe's AI-powered content generation capability that revolutionizes the way marketers create professional and brand-consistent content across channels like Email, SMS, Push. With advanced GenAI models and deep understanding of brand guidelines, AI Assistant auto-generates personalized, engaging, and effective content based on the marketing objective with content optimized for brand outlined styles, layouts, tone, and more. 
+As the Marketing industry becomes more competitive, brands are seeking efficient ways to generate impactful content in an efficient and quick manner. AI Assistant in Campaign, powered by Azure OpenAI, is Adobe's AI content generation capability that revolutionizes the way marketers create professional and brand-consistent content across channels like Email, SMS, Push. With advanced GenAI models and deep understanding of brand guidelines, AI Assistant auto-generates personalized, engaging, and effective content based on the marketing objective with content optimized for brand outlined styles, layouts, tone, and more. 
 
 AI Assistant makes the creation and execution of marketing campaigns across channels like Email, SMS and Push intuitive, simple and hassle-free while saving time, improving efficiency, and driving better results.
 

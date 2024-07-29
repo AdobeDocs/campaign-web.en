@@ -45,23 +45,24 @@ Get a glimpse of the newest enhancements in Adobe Campaign Web product and docum
 
 >[!BEGINTABS]
 
->[!TAB April release is live!]
+>[!TAB June release is live!]
 
-Discover new features and improvements coming with Adobe Campaign Web User Interface 24.4 release.
-
-[![image](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
-
->[!TAB New workflow activities] 
-
-This release comes with the following workflow activities:  Update data, Subscription services, Extract file, Transfer file, Test, JavaScript code, External signal, Incremental query.
+Discover new features and improvements coming with Adobe Campaign Web User Interface 24.6 release.
 
 [![image](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB Rich push notification]
+>[!TAB Delivery alerting] 
 
-You can now send rich push notifications via Android. Rich push notification is an enhanced form of mobile notification that goes beyond simple text messages by incorporating multimedia elements such as images, interactive buttons, or other rich media content. 
+Delivery Alerting is an alert management system that enables groups of users to automatically receive email notifications with information on their delivery executions.
 
-[![image](assets/do-not-localize/learn-more-button.svg)](push/rich-push.md)
+[![image](assets/do-not-localize/learn-more-button.svg)](../v8/msg/delivery-alerting.md)
+
+>[!TAB Plans & programs]
+
+Adobe Campaign allows you to configure your folder hierarchy for marketing plans and programs.
+
+[![image](assets/do-not-localize/learn-more-button.svg)](administration/plans-programs.md)
+
 
 >[!ENDTABS]
 

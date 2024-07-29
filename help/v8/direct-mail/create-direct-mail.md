@@ -47,7 +47,7 @@ To create a new standalone direct mail delivery, follow these steps:
 
     ![](assets/dm-content.png){zoomable="yes"}
 
-1. To schedule your delivery to a specific date and time, switch on the **[!UICONTROL Enable scheduling]** option. After you initiate the delivery, the extraction file will be generated automatically at the exact date and time that you have defined. [Learn how to schedule deliveries](../msg/gs-messages.md#gs-schedule).
+1. To schedule your delivery to a specific date and time, switch on the **[!UICONTROL Enable scheduling]** option. After you initiate the delivery, the extraction file will be generated automatically at the exact date and time that you have defined. [Learn how to schedule deliveries](../msg/gs-deliveries.md#gs-schedule).
 
     >[!NOTE]
     >

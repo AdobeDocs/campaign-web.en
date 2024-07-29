@@ -2,9 +2,16 @@
 audience: end-user
 title: Delivery alerting
 description: Learn how to work with delivery alerting.
+exl-id: 120afaa0-7017-4644-b6db-229b4a5c8a91
 ---
-
 # Get started with delivery alerting {#gs-delivery-alerting}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="Delivery alerting"
+>abstract="Delivery Alerting is now available in Campaign. This capabiltiy is an alert management system that enables groups of users to automatically receive email notifications with information on their delivery executions."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
 
 Delivery Alerting is an alert management system that enables groups of users to automatically receive email notifications with information on their delivery executions. Recipients can monitor ongoing deliveries processed by Adobe Campaign and take appropriate actions if issues arise.
 
@@ -19,7 +26,7 @@ Email notifications include the following sections:
 * **Summary**: Displays the number of deliveries meeting your defined criteria, with labels and colors for each criterion.
 * **Details**: Lists all defined delivery criteria for the dashboard and the corresponding deliveries for each criterion.
 
-SCREENSHOT OF EMAIL 
+![](assets/alerting-email.png)
 
 ## Set up delivery alerts {#set-up}
 

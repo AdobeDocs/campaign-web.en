@@ -75,9 +75,9 @@ In the CONTENT MANAGEMENT section, you can view your content templates and fragm
 
 * **Content templates** - For an accelerated and improved design process, you can create standalone templates to easily reuse custom content across [!DNL Adobe Campaign]. Only available for emails, this functionality enables content-oriented users to work on standalone templates so that marketing users can reuse and adapt them inside their own email campaigns. Learn more in [this section](../email/create-email-templates.md).
 
-<!--
-* **Fragments** -
--->
+* **Fragments** - A fragment is a reusable component that can be referenced in one or more deliveries across campaigns. When modifying a fragment, every content using it is updated. [Learn how to work with fragments](../content/fragments.md)
+
+This functionality allows to prebuild multiple custom content blocks that can be used by marketing users to quickly assemble email contents in an improved design process.
 
 ### Customer Management {#user-interface-customer-management}
 
@@ -301,7 +301,70 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Execution inititialization script"
 >abstract="Execution inititialization script"
 
+<!-- IDs -->
+
+
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields"
 >title="Edit custom attributes"
 >abstract="Edit custom attributes"
+
+
+
+<!-- transac messages-->
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages"
+>title="Transactional Messaging"
+>abstract="Transactional Messaging"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_properties"
+>title="Transactional Messaging properties"
+>abstract="Transactional Messaging properties"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_mobileapp"
+>title="Transactional Messaging Mobile App"
+>abstract="Transactional Messaging Mobile App"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_event"
+>title="Transactional Messaging event"
+>abstract="Transactional Messaging event"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_context"
+>title="Transactional Messaging context"
+>abstract="Transactional Messaging context"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_content"
+>title="Transactional Messaging content"
+>abstract="Transactional Messaging content"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_personalization"
+>title="Transactional Messaging personalization"
+>abstract="Transactional Messaging personalization"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_exclusionlogs"
+>title="Transactional Messaging exclusion logs"
+>abstract="Transactional Messaging exclusion logs"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_addcontext"
+>title="Transactional Messaging context"
+>abstract="Transactional Messaging context"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_eventhistory"
+>title="Transactional Messaging event history"
+>abstract="Transactional Messaging event history"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_eventhistory_preview"
+>title="Transactional Messaging event history preview"
+>abstract="Transactional Messaging event history preview"
+

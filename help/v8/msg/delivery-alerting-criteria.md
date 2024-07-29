@@ -2,13 +2,14 @@
 audience: end-user
 title: Delivery alerting
 description: Learn how to work with delivery alerting.
+exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
 ---
 # Delivery alerting criteria {#delivery-alerting-criteria}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria"
 >title="Delivery alerting criteria dashboard"
->abstract="Delivery alerting criteria dashboard"
+>abstract="Campaign Web User Interface provides pre-defined alerting criteria (deliveries with low throughput, deliveries whose preparation failed…) that you can add to your dashboard. You can also create your own criteria to suit your needs."
 
 Campaign Web User Interface provides pre-defined alerting criteria (deliveries with low throughput, deliveries whose preparation failed...) that you can add to your dashboard. You can also create your own criteria to suit your needs.
 
@@ -37,22 +38,27 @@ Pre-defined alerting criteria are available in Campaign Web User Interface. Thes
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create"
 >title="Create delivery alerting critera"
->abstract="Create delivery alerting critera"
+>abstract="In addition to the pre-defined alerting criteria provided by Adobe Campaign, you can create your own criteria to suit your needs."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_indicators"
 >title="Indicators to add in alerts"
->abstract="Indicators to add in alerts"
+>abstract="Select the indicators to display as columns in the "Details" section of the email alerts."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_alert"
 >title="Alert type"
->abstract="Alert type"
+>abstract="Specify the **Alert Type** for the criterion, meaning the label and color to display next to the delivery criterion in the "Summary" section of the alerts."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_frequency"
 >title="Criterion frequency"
->abstract="Criterion frequency"
+>abstract="Control the frequency of alerts per day for each delivery meeting the criterion."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_filter"
+>title="Create an alerting criterion"
+>abstract="To create your own delivery filters, create a new predefined filter in the Campaign v8 console from the **Administration** > **Configuration** > **Predefined filters** node."
 
 To create a new criterion, follow these steps:
 

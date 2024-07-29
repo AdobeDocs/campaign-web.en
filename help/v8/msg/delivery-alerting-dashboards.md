@@ -2,13 +2,14 @@
 audience: end-user
 title: Delivery alerting
 description: Learn how to work with delivery alerting.
+exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
 ---
 # Delivery alerting dashboards {#delivery-alerting-dashboards}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_dashboards"
 >title="Delivery alerting dashboards"
->abstract="Delivery alerting dashboards"
+>abstract="Delivery Alerting is an alert management system that enables groups of users to automatically receive email notifications with information on their delivery executions. Delivery alerting dashboards allow you to specify who will receive email alerts, choose and configure the alerting criteria to use to send those alerts, and access the history of all sent notifications."
 
 Delivery alerting dashboards allow you to specify who will receive email alerts, choose and configure the alerting criteria to use to send those alerts, and access the history of all sent notifications. They are accessible from the **Delivery Alerting** menu in the left navigation pane, under the **Dashboards** tab.
 
@@ -19,22 +20,22 @@ Delivery alerting dashboards allow you to specify who will receive email alerts,
 >[!CONTEXTUALHELP]
 >id="acw_delery_alerting_dashboard_create"
 >title="Create delivery alerting dashboard"
->abstract="Create delivery alerting dashboard"
+>abstract="Creating a delivery alerting dashboard allows you to specify who will receive email alerts, choose and configure the alerting criteria to use to send those alerts, and access the history of all sent notifications."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_general"
 >title="Delivery alerting general parameters"
->abstract="Delivery alerting general parameters"
+>abstract="Specify the delivery alerting dashboard's general properties. The **Select alert group** field allows you to specify the **operator group** to receive the alerts sent by this dashboard."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_criteria_add"
 >title="Delivery alerting criteria"
->abstract="Delivery alerting criteria"
+>abstract="In this section, add criteria that you want to use to send alerts from this dashboard. Choose from pre-defined criteria or create your own criteria to align with specific needs."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_criteria_parameters"
 >title="Criteria parameters"
->abstract="Criteria parameters"
+>abstract="Criteria have default parameters values that define how they must be applied. You can change these values to suit your needs from this section."
 
 To create a delivery dashboard, follow these steps: 
 
@@ -89,12 +90,12 @@ Now, each time a delivery meets the criteria defined in this dashboard, an alert
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_dashboard_alerts"
 >title="Delivery alerts sent"
->abstract="Delivery alerts sent"
+>abstract="This section allows you to visualize information related to the latest sent alerts."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_dashboard_history"
 >title="Delivery alerts history"
->abstract="Delivery alerts history"
+>abstract="The **History** pane contains all the alerts sent from this dashboard. Click an item to access the corresponding alerts sent at that particular time."
 
 All created alerting dashboards are accessible from the **Delivery Alerting** menu, in the **Dashboards** tab.
 

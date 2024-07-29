@@ -54,7 +54,7 @@ The **Split** activity is a **Targeting** activity that allows you to segment in
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_enable_overlapping"
 >title="Enable overlapping of output populations"
->abstract="Enable overlapping of output populations"
+>abstract=" The **[!UICONTROL Enable overlapping of output populations]** option lets you manage populations belonging to several subsets. When the box isn't checked, the split activity makes sure a recipient cannot be present in several output transitions, even if it meets the criteria of several subsets. They will be in the target of the first tab with matching criteria. When the box is checked, the recipients can be found in several subsets if they meet their filter criteria. Adobe Campaign recommends using exclusive criteria."
 
 Follow these steps to configure the **Split** activity:
 
@@ -96,7 +96,12 @@ Follow these steps to configure the **Split** activity:
     >[!NOTE]
     >
     >The **[!UICONTROL Generate all subsets in the same table]** option allows you to group all the subsets into a single output transition.
-    
+
+1. The **[!UICONTROL Enable overlapping of output populations]** option lets you manage populations belonging to several subsets:
+
+    * When the box isn't checked, the split activity makes sure a recipient cannot be present in several output transitions, even if it meets the criteria of several subsets. They will be in the target of the first tab with matching criteria.
+    * When the box is checked, the recipients can be found in several subsets if they meet their filter criteria. Adobe Campaign recommends using exclusive criteria.
+
 The activity is now configured. At workflow execution, the population will be segmented into the different subsets, in the order they have been added to the activity.
 
 ## Example{#split-example}

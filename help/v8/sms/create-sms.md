@@ -63,7 +63,7 @@ To create a new standalone SMS delivery, follow these steps:
 
     From this screen, you can also [simulate your content](../preview-test/preview-test.md) and [set up offers](../msg/offers.md).
 
-1. To schedule your delivery to a specific date and time, switch on the **[!UICONTROL Enable scheduling]** option. After you initiate the delivery, the message will be automatically sent on the exact date and time that you have defined for the recipient. Learn more about delivery scheduling in [this section](../msg/gs-messages.md#gs-schedule).
+1. To schedule your delivery to a specific date and time, switch on the **[!UICONTROL Enable scheduling]** option. After you initiate the delivery, the message will be automatically sent on the exact date and time that you have defined for the recipient. Learn more about delivery scheduling in [this section](../msg/gs-deliveries.md#gs-schedule).
 
     >[!NOTE]
     >

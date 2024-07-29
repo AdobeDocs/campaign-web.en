@@ -12,9 +12,9 @@ breadcrumb-title: Campaign Web User Interface
 + [Adobe Campaign Web User Interface documentation](campaign-web-home.md)
 + Release notes {#release-notes}
   + [What's new?](rn/whats-new.md)
+  + [Early release notes](rn/e-release-notes.md)
   + [Latest release](rn/release-notes.md)
   + [Documentation updates](rn/documentation-updates.md)
-  + [From Campaign Standard to v8](rn/acs-migration.md)
 + Get started with Adobe Campaign {#start}
   + [Get started](get-started/get-started.md)
   + [Connect to Campaign](get-started/connect-to-campaign.md)
@@ -23,6 +23,7 @@ breadcrumb-title: Campaign Web User Interface
   + [Work with predefined filters](get-started/predefined-filters.md)
   + [Access and permissions](get-started/permissions.md)
   + [Campaign Web and Client console](get-started/capability-matrix.md)
+  + [From Campaign Standard to v8](rn/acs-migration.md)
   + [AI-powered contextual help](get-started/using-ai.md)
 + Messages and deliveries {#msg}
   + [Get started with messages](msg/gs-messages.md)
@@ -30,11 +31,31 @@ breadcrumb-title: Campaign Web User Interface
   + [Use delivery templates](msg/delivery-template.md)
   + Emails {#email}
     + [Create your first email](email/create-email.md)
-    + [Configure the email content](email/edit-content.md) 
+    + Define email content {#content}
+      + [Configure the email content](email/edit-content.md)
+      + Start shaping your email {#start-design}
+        + [Get started with the Email Designer](email/get-started-email-designer.md)
+        + [Start from scratch ](email/create-email-content.md)
+        + [Import your email content](email/existing-content.md)
+        + [Code your own content](email/code-content.md)
+        + [Use email content templates](email/use-email-templates.md)
+      + Design your content {#design-content}
+        + [Use content components](email/content-components.md)
+        + [Add links and track messages](email/message-tracking.md)
+        + [Add a link to the mirror page](email/mirror-page.md)
+        + [Add a preheader](email/preheader.md)
+        + [Generate the text version](email/text-version-email.md)
+      + Style your content {#style}
+        + [Get started with email style](email/get-started-email-style.md)
+        + [Edit background settings](email/backgrounds.md)
+        + [Adjust vertical alignment and padding](email/alignment-and-padding.md)
+        + [Define a style for links](email/styling-links.md)
+        + [Add inline styling attributes](email/inline-styling.md)
     + Send and monitor the email {#monitor}
       + [Prepare and send an email](monitor/prepare-send.md)
       + [Send using multiple waves](advanced-settings/send-using-waves.md)
-      + [Monitor delivery logs](monitor/delivery-logs.md)    
+      + [Monitor delivery logs](monitor/delivery-logs.md)   
+      + [Schedule the sending of a delivery](monitor/schedule-sending.md)  
   + Push notifications {#push}
     + [Get started with push notifications](push/gs-push.md)
     + [Create a push notification delivery](push/create-push.md)
@@ -79,8 +100,8 @@ breadcrumb-title: Campaign Web User Interface
     + [Work with content templates](email/create-email-templates.md)
     + Content fragments {#fragments}
       + [Get started with content fragments](content/fragments.md)
-      + [Create a content fragment](content/create-fragment.md)
       + [Use visual fragments in your emails](content/use-visual-fragments.md)
+      + [Create and edit expression fragments](content/create-fragment.md)
       + [Use expression fragments in the expression editor](content/use-expression-fragments.md)
   + Design emails {#email-design}
     + [Get started with the Email Designer](email/get-started-email-designer.md)
@@ -110,6 +131,7 @@ breadcrumb-title: Campaign Web User Interface
 + Profiles and audiences {#audiences}
   + [Get started with profiles and audiences](audience/gs-audiences-recipients.md)
   + [Targeting dimensions](audience/targeting-dimensions.md)
+  + [Quarantine](audience/quarantine.md)
   + Work with profiles {#work-with-profiles}
     + [Get started with profiles](audience/about-recipients.md)
     + [Explore profiles' details](audience/profile-view.md)
@@ -131,6 +153,7 @@ breadcrumb-title: Campaign Web User Interface
   + [Get started with campaigns](campaigns/gs-campaigns.md)
   + [Access and manage your campaigns](campaigns/manage-campaigns.md)
   + [Create your first campaign](campaigns/create-campaigns.md)
+  + [Plans and Programs](administration/plans-programs.md)
 + Workflows {#wf}
   + [Get started with workflows](workflows/gs-workflows.md)
   + [Guardrails and limitations](get-started/guardrails.md)
@@ -176,6 +199,7 @@ breadcrumb-title: Campaign Web User Interface
   + [Filter lists](query/filter.md)
 + Reporting {#reports}
   + [Get started with reports](reporting/gs-reports.md)
+  + [Audit trail](reporting/audit-trail.md)
   + [Export your reports](reporting/export-reports.md)
   + [Key performance indicators](reporting/kpis.md)
   + Delivery reports {#delivery-report}
@@ -200,6 +224,7 @@ breadcrumb-title: Campaign Web User Interface
   + [Work with other Adobe solutions](integrations/integration.md)
   + [Manage assets with Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
   + [Manage templates with Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
-+ Administration {#administration}
++ Configuration {#conf}
   + [Configure custom fields](administration/custom-fields.md)
-
+  + [Create and Manage a Folder](administration/create-manage-folder.md)
++ [Campaign v8 (console) documentation >](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)

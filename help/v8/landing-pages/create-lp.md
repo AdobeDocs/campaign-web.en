@@ -21,7 +21,7 @@ To access the landing page list, select **[!UICONTROL Campaign management]** > *
 
 ![](assets/lp-inventory.png){zoomable="yes"}
 
-The **[!UICONTROL Landing pages]** inventory displays all the created items. You can filter them using the **Show filters** button. You can restrict the results to a specific [folder](../get-started/permissions.md#folders) using the drop-down list, or add rules using the [query modeler](../query/query-modeler-overview.md).
+The **[!UICONTROL Landing pages]** inventory displays all the created items. You can filter them using the **[!UICONTROL Show filters]** button. You can restrict the results to a specific [folder](../get-started/permissions.md#folders) using the drop-down list, or add rules using the [query modeler](../query/query-modeler-overview.md).
 
 ![](assets/lp-inventory-filter.png){zoomable="yes"}
 

@@ -85,6 +85,11 @@ The aggregate functions are used to perform calculations on a set of values.
    <td> <strong>StdDev</strong><br /> </td> 
    <td> Returns the standard deviation of a number, string or date column<br /> </td> 
    <td> StdDev(&lt;value&gt;)<br /></td> 
+  </tr>
+  <tr> 
+   <td> <strong>StringAgg</strong><br /> </td> 
+   <td> Returns the concatenation of the values of a string type column, separated by the character in the second argument<br /> </td> 
+   <td> StringAgg(&lt;Value&gt;, &lt;String&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Sum</strong><br /> </td> 
@@ -139,6 +144,16 @@ The date functions are used to manipulate date or time values.
    <td> <strong>ConvertNTZ</strong><br /> </td> 
    <td> Converts timestamp NTZ (timestamp without timezone) into TZ (timestamp with timezone) applying defined session TZ<br/> </td> 
    <td> ConvertNTZ (&lt;date+time&gt;)<br /> </td>  
+  </tr>
+  <tr> 
+   <!--<td> <strong>ConvertTimezone</strong><br /> </td> 
+   <td> <br/> </td> 
+   <td> ConvertNTZ (&lt;date+time&gt;)<br /> </td>  
+  </tr>-->
+  <tr> 
+   <td> <strong>DateCmp</strong><br /> </td> 
+   <td> Compare two dates<br/> </td> 
+   <td> DateCmp(&lt;date&gt;,&lt;date&gt;)<br /> </td>  
   </tr>
   <tr> 
    <td> <strong>DateOnly</strong><br /> </td> 
@@ -274,6 +289,16 @@ The date functions are used to manipulate date or time values.
    <td> <strong>ToDateTime</strong><br /> </td> 
    <td> Converts a string to a date + time<br /> </td> 
    <td> ToDateTime(&lt;string&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>ToTimestamp</strong><br /> </td> 
+   <td> Converts a string to a timestamp<br /> </td> 
+   <td> ToTimestamp(&lt;string&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>ToTimeZone</strong><br /> </td> 
+   <td> Convert a date + time to time zone<br /> </td> 
+   <td> ToTimeZone(&lt;date&gt;,&lt;time zone&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>TruncDate</strong><br /> </td> 
@@ -456,11 +481,11 @@ This table contains the remaining functions available.
    <td> <strong>Description</strong><br /> </td> 
    <td> <strong>Syntax</strong><br /> </td> 
   </tr> 
-  <!--MISSING INFO<tr> 
+  <tr> 
    <td> <strong>AESEncrypt</strong><br /> </td> 
-   <td> Returns value 1 if the condition is true. If not, it returns value 2.<br /> </td> 
-   <td> Case(When(&lt;condition&gt;, &lt;value 1&gt;), Else(&lt;value 2&gt;))<br /> </td> 
-  </tr> -->
+   <td> Encrypt string provided in argument<br /> </td> 
+   <td> AESEncrypt(&lt;value&gt;)<br /> </td> 
+  </tr>
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
    <td> Returns value 1 if the condition is true. If not, it returns value 2.<br /> </td> 
@@ -516,11 +541,11 @@ This table contains the remaining functions available.
    <td> Returns value 2 if string 1 is empty, otherwise returns value 3<br /> </td> 
    <td> IsEmptyString(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;)<br /> </td>  
   </tr> 
-  <!--<tr> 
+  <tr> 
    <td> <strong>NewUUID</strong><br /> </td> 
-   <td> Returns the empty string if the argument is NULL<br /> </td> 
-   <td> NoNull(&lt;value&gt;)<br /> </td>  
-  </tr> -->
+   <td> Returns a unique ID<br /> </td> 
+   <td> NewUUID()<br /> </td>  
+  </tr> 
   <tr> 
    <td> <strong>NoNull</strong><br /> </td> 
    <td> Returns the empty string if the argument is NULL<br /> </td> 
@@ -625,11 +650,11 @@ The string functions are used to manipulate a set of strings.
    <td> Returns the length of the string<br /> </td> 
    <td> Length(&lt;string&gt;)<br /></td> 
   </tr> 
-  <!--<tr> 
+  <tr> 
    <td> <strong>Line</strong><br /> </td> 
-   <td> Returns the string in lowercase<br /> </td> 
-   <td> Lower(&lt;string&gt;)<br /></td> 
-  </tr> -->
+   <td> Extract line n from string<br /> </td> 
+   <td> Line(&lt;string&gt;,&lt;number&gt;)<br /></td> 
+  </tr>
   <tr> 
    <td> <strong>Lower</strong><br /> </td> 
    <td> Returns the string in lowercase<br /> </td> 
@@ -659,6 +684,11 @@ The string functions are used to manipulate a set of strings.
    <td> <strong>NodeValue</strong><br /> </td> 
    <td> Extracts the value of an XML field from its XPath and the field data<br /> </td> 
    <td> NodeValue (&lt;String&gt;, &lt;String&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Replace</strong><br /> </td> 
+   <td> Replaces all occurrences of a specified string value with another string value.<br /> </td> 
+   <td> Replace(&lt;String&gt;,&lt;String&gt;,&lt;String&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 
