@@ -100,8 +100,8 @@ breadcrumb-title: Campaign Web User Interface
     + [Work with content templates](email/create-email-templates.md)
     + Content fragments {#fragments}
       + [Get started with content fragments](content/fragments.md)
+      + [Create and edit content fragments](content/create-fragment.md)
       + [Use visual fragments in your emails](content/use-visual-fragments.md)
-      + [Create and edit expression fragments](content/create-fragment.md)
       + [Use expression fragments in the expression editor](content/use-expression-fragments.md)
 + Landing pages {#landing-pages}
   + [Get started with landing pages](landing-pages/get-started-lp.md)

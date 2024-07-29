@@ -20,29 +20,25 @@ Two types of fragments are available:
 * **Visual fragments** are pre-defined visual blocks that you can reuse across multiple [email deliveries](../email/get-started-email-designer.md), or in [content templates](../email/use-email-templates.md).
 * **Expression fragments** are pre-defined expressions that are available from a dedicated entry in the expression editor. Campaign comes with a set of pre-defined content blocks which contain a specific rendering that you can insert into your deliveries. For example, you can add a logo, a greeting message, or a link to the mirror page of the message. You can also create your own expression fragments to suit your needs.
 
->[!IMPORTANT]
->
->For now, only **expression fragments** can be created and edited from Adobe Campaign Web User Interface. To create or edit **visual fragments**, you need to use the Campaign client console.
-
 ## Let's dive deeper
 
 Now that you have an understanding of what content fragments are and what you can do with them in Adobe Campaign, it's time to dive deeper into these documentation sections to start working with the feature.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
-<a href="use-visual-fragments.md">
-<img alt="Add visual fragments to your emails" src="assets/do-not-localize/visual.png">
-</a>
-<div><a href="use-visual-fragments.md"><strong>Add visual fragments to your emails</strong>
-</div>
-<p>
-</td>
-<td>
 <a href="create-fragment.md">
 <img alt="Create your own expression fragments" src="assets/do-not-localize/create-fragment.png">
 </a>
 <div>
 <a href="create-fragment.md"><strong>Create your own content fragments</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="use-visual-fragments.md">
+<img alt="Add visual fragments to your emails" src="assets/do-not-localize/visual.png">
+</a>
+<div><a href="use-visual-fragments.md"><strong>Add visual fragments to your emails</strong>
 </div>
 <p>
 </td>

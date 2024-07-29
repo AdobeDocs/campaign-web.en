@@ -52,6 +52,7 @@ To insert a visual fragment in an email content, follow the steps below:
         You can further customize your fragment using the **[!UICONTROL Styles]** tab.
 
 1. If needed, you can break the inheritance with the original visual fragment. [Learn more](#break-inheritance) 
+    
     You can also delete the fragment from your content, or duplicate it. These actions can be performed directly from the contextual menu that displays on top of the fragment.
 
 1. Add as many visual fragments as you want and **[!UICONTROL Save]** your changes.
