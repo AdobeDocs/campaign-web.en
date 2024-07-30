@@ -75,9 +75,9 @@ In the CONTENT MANAGEMENT section, you can view your content templates and fragm
 
 * **Content templates** - For an accelerated and improved design process, you can create standalone templates to easily reuse custom content across [!DNL Adobe Campaign]. Only available for emails, this functionality enables content-oriented users to work on standalone templates so that marketing users can reuse and adapt them inside their own email campaigns. Learn more in [this section](../email/create-email-templates.md).
 
-<!--
-* **Fragments** -
--->
+* **Fragments** - A fragment is a reusable component that can be referenced in one or more deliveries across campaigns. When modifying a fragment, every content using it is updated. [Learn how to work with fragments](../content/fragments.md)
+
+This functionality allows to prebuild multiple custom content blocks that can be used by marketing users to quickly assemble email contents in an improved design process.
 
 ### Customer Management {#user-interface-customer-management}
 

@@ -22,7 +22,7 @@ To better organize them, Adobe recommends the following hierarchy: Plan `>` Prog
 
 ## Create and configure a plan {#create-plan}
 
-To create a plan, you need to create a folder with the folder type **[!UICONTROL Plan]** [Learn more about creating a folder](create-manage-folder.md).
+To create a plan, you need to create a folder with the folder type **[!UICONTROL Plan]** [Learn more about creating a folder](../get-started/work-with-folders.md).
 
 ![](assets/plan_create.png){zoomable="yes"}
 
@@ -48,7 +48,7 @@ You can configure them:
 
 ## Create and configure a program
 
-To create a program in your plan ([Learn more about creating a plan](#create-plan)), you need to be in your plan and create a folder with the folder type **[!UICONTROL Program]** [Learn more about creating a folder](create-manage-folder.md).
+To create a program in your plan ([Learn more about creating a plan](#create-plan)), you need to be in your plan and create a folder with the folder type **[!UICONTROL Program]** [Learn more about creating a folder](../get-started/work-with-folders.md).
 
 ![](assets/program_create.png){zoomable="yes"}
 

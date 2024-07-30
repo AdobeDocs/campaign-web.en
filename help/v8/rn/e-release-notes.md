@@ -24,7 +24,7 @@ You can now create and use content fragments. A content fragment is a reusable c
 Two types of fragments are available:
 
 * **Expression fragments** are pre-defined expressions that are available from a dedicated entry in the expression editor.
-* **Visual fragments** are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](../email/fragments.md)
+* **Visual fragments** are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](../content/fragments.md)
 
     >[!AVAILABILITY]
     >

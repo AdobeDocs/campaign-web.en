@@ -9,7 +9,7 @@ exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
 >title="SMS Content"
->abstract="Create the content of your SMS deliveries and personalize it with personalization fields, content blocks and dynamic content. To start composing your message, click the **Edit content** button."
+>abstract="Create the content of your SMS deliveries and personalize it with personalization fields, expression fragments and dynamic content. To start composing your message, click the **Edit content** button."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_msg"
@@ -22,7 +22,7 @@ To design the content of an SMS delivery, follow these steps:
 
 1. On the **[!UICONTROL Edit content]** page, you can customize the sender name by accessing the **[!UICONTROL Sender field]** and entering the preferred name. 
 
-    Additionally, by clicking **[!UICONTROL Open personalization dialog]**, you can include personalization fields, content blocks, and dynamic content in your message.
+    Additionally, by clicking **[!UICONTROL Open personalization dialog]**, you can include personalization fields, expression fragments, and dynamic content in your message.
 
     ![](assets/sms_content_1.png){zoomable="yes"}
 

@@ -30,11 +30,9 @@ To add a link to a mirror page in your email:
 
     ![](assets/message-tracking-mirror-page_2.png){zoomable="yes"}
 
-1. From the **[!UICONTROL Content block]** menu, select **[!UICONTROL Mirror page URL]** and click **[!UICONTROL Add]**.
+1. From the **[!UICONTROL Fragments]** menu, select **[!UICONTROL Mirror page URL]** and click **[!UICONTROL Add]**. [Learn how to use expression fragments](../content/use-expression-fragments.md)
 
     ![](assets/message-tracking-mirror-page_3.png){zoomable="yes"}
-
-    For more on custom content blocks insertion, refer to [this section](../personalization/personalize.md#personalize-emails).
 
 The mirror page is automatically created.
 
