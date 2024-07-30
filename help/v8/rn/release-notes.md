@@ -41,7 +41,7 @@ You can now send rich push notifications. A rich push notification is an enhance
 
 >[!AVAILABILITY]
 >
->This capability requires an update to Campaign v8.6.3 <!--or v8.7.2-->. Learn more in Campaign v8 Client console [release notes](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/release-notes).
+>This capability requires an update to Campaign v8.6.3 <!--or v8.7.2-->. Learn more in Campaign v8 Client console [release notes](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/release-notes){target="_blank"}.
 
 ### Improvements {#improvements-24-7}
 
