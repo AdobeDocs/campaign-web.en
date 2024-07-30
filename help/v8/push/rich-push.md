@@ -6,15 +6,14 @@ exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
 ---
 # Design an Android rich push delivery {#rich-push}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_remind_later"
 >title="Remind later button"
 >abstract="The **Remind later** button provides the option to schedule a reminder. The Timestamp field requires a value representing epoch in seconds."
 
->[!AVAILABILITY]
+>[!IMPORTANT]
 >
->This feature is in **Limited Availability** (LA).
+>Before designing a Rich Push Notification, you first need to configure your V2 connector. Refer to [this page](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android) for the detailed procedure.
 
 With Firebase Cloud Messaging, you can choose between two types of messages:
 
@@ -26,19 +25,31 @@ With Firebase Cloud Messaging, you can choose between two types of messages:
 
 ## Define the content of the notification {#push-message}
 
-Once your push delivery is created, you can define its content. Three templates are available:
+Once your push delivery is created, you can define its content using one of the following templates:
 
-* **Default Template** allows you to send notifications with a simple icon and an accompanying image.
+* **Default** allows you to send notifications with a simple icon and an accompanying image.
 
-* **Basic Template** can include text, images, and buttons in your notifications.
+* **Basic** can include text, images, and buttons in your notifications.
 
-* **Carousel Template** enables you to send notifications with text and multiple images that users can swipe through.
+* **Carousel** enables you to send notifications with text and multiple images that users can swipe through.
+
+* **Icon buttons** allows you to send notifications with an icon and a corresponding image.
+
+* **Input box** gathers user input and feedback directly through the notification.
+
+* **Product catalog** displays a variety of product images.
+
+* **Product rating** allows users to give feedback and rate products. 
+
+* **Timer** includes a live countdown timer in your notifications.
+
+* **Zero Bezel** uses the entire background surface for an image, with text overlaid seamlessly.
 
 Navigate through the tabs below to learn more on how to personalize these templates.
 
 >[!BEGINTABS]
 
->[!TAB Default template]
+>[!TAB Default]
 
 1. From the **[!UICONTROL Template]** drop-down, select **[!UICONTROL Default]**.
 
@@ -60,7 +71,7 @@ Navigate through the tabs below to learn more on how to personalize these templa
 
 Once you have defined your message content, you can use test subscribers to preview and test the message.
 
->[!TAB Basic template]
+>[!TAB Basic]
 
 1. From the **[!UICONTROL Template]** drop-down, select **[!UICONTROL Basic]**.
 
@@ -110,7 +121,7 @@ Once you have defined your message content, you can use test subscribers to prev
 
 Once you have defined your message content, you can use test subscribers to preview and test the message.
 
->[!TAB Carousel template]
+>[!TAB Carousel]
 
 1. From the **[!UICONTROL Template]** drop-down, select **[!UICONTROL Carousel]**.
 
@@ -140,7 +151,7 @@ Once you have defined your message content, you can use test subscribers to prev
 
 1. To further personalize your push notification, you can choose the notification's **[!UICONTROL Icon]** to display on your profiles' devices.
 
-1. Choose how the **[!UICONTROL carousel]** is operated: 
+1. Choose how the **[!UICONTROL Carousel]** is operated: 
 
     * **[!UICONTROL Auto]**: automatically cycles through images as slides, transitioning at predefined intervals.
     * **[!UICONTROL Manual]**: allows users to manually swipe between slides to navigate through the images.     
@@ -159,6 +170,245 @@ Once you have defined your message content, you can use test subscribers to prev
 
 Once you have defined your message content, you can use test subscribers to preview and test the message.
 
+>[!TAB Icon buttons]
+
+1. From the **[!UICONTROL Template]** drop-down, select **[!UICONTROL Icon buttons]**.
+
+    ![](assets/rich_push_icon_1.png)
+
+1. Add the URL which defines the **[!UICONTROL Click action]** associated with a user click on your notification. This determines the behavior when the user interacts with the notification, such as opening a specific screen or performing a specific action in your app.
+
+1. Select the **[!UICONTROL Link type]** of the URL you added to the **[!UICONTROL Click action]** field:
+
+    * **[!UICONTROL Web URL]**: Web URLs direct users to online content. Upon clicking, they prompt the device's default web browser to open and navigate to the designated URL.
+
+    * **[!UICONTROL Deeplink]**: Deep links are URLs guiding users to specific sections within an app even if the app is closed. When clicked, a dialog can appear, allowing users to choose from various apps capable of handling the link.
+
+    * **[!UICONTROL Open App]**: Open App URLs allow you to directly connect to content within an application. It enables your application to establish itself as the default handler for a specific type of link, bypassing the disambiguation dialog. 
+
+    For more information on how to handle Android App Links, refer to [Android Developers documentation](https://developer.android.com/training/app-links).
+
+    ![](assets/rich_push_icon_2.png)
+
+1. To further personalize your push notification, you can choose the notification's **[!UICONTROL Icon]** to display on your profiles' devices.
+
+1. Add the URL of your **[!UICONTROL Cancel button image]**.
+
+1. Click **[!UICONTROL Add icon]** and enter your **image URL**, **[!UICONTROL Link URI]** and choose your **[!UICONTROL Link type]**.
+
+    Ensure that you include a minimum of three icons and a maximum of five icons.
+
+    ![](assets/rich_push_icon_3.png)
+    
+1. Handle the order of your images with the Down and Up arrow. 
+
+1. Configure the **[!UICONTROL Advanced settings]** of your push notification. [Learn more](#push-advanced)
+
+    ![](assets/rich_push_icon_4.png)
+
+Once you have defined your message content, you can use test subscribers to preview and test the message.
+
+>[!TAB Input box]
+
+1. From the **[!UICONTROL Notification type]** drop-down, select **[!UICONTROL Input box]**.
+
+    ![](assets/rich_push_input_1.png)
+
+1. To compose your message, enter your text in the **[!UICONTROL Title]**, **[!UICONTROL Message]** and **[!UICONTROL Expanded message]** fields. 
+
+    The **[!UICONTROL Message]** text appears in the collapsed view while the **[!UICONTROL Expanded message]** is displayed when the notification is expanded.
+
+    ![](assets/rich_push_input_2.png)
+
+1. Use dynamic personalization fields to define content, personalize data and add dynamic content. [Learn more](../personalization/personalize.md)
+
+1. Add the URL which defines the **[!UICONTROL Click action]** associated with a user click on your notification. This determines the behavior when the user interacts with the notification, such as opening a specific screen or performing a specific action in your app.
+
+1. Select the **[!UICONTROL Link type]** of the URL you added to the **[!UICONTROL Click action]** field:
+
+    * **[!UICONTROL Web URL]**: Web URLs direct users to online content. Upon clicking, they prompt the device's default web browser to open and navigate to the designated URL.
+
+    * **[!UICONTROL Deeplink]**: Deep links are URLs guiding users to specific sections within an app even if the app is closed. When clicked, a dialog can appear, allowing users to choose from various apps capable of handling the link.
+
+    * **[!UICONTROL Open App]**: Open App URLs allow you to directly connect to content within an application. It enables your application to establish itself as the default handler for a specific type of link, bypassing the disambiguation dialog. 
+
+    For more information on how to handle Android App Links, refer to [Android Developers documentation](https://developer.android.com/training/app-links).
+
+1. To further personalize your push notification, you can choose an **[!UICONTROL Image]** URL to add to your push notification and the notification's **[!UICONTROL Icon]** to display on your profiles' devices.
+
+1. Fill-in the following options for your **Input box**:
+
+    * **[!UICONTROL Input receiver name]**: Enter the name or identifier for the receiver of the input. 
+    * **[!UICONTROL Input text]**: Enter the text for the **Input box**.
+    * **[!UICONTROL Feedback text]**: Enter the text to display after a reply.
+    * **[!UICONTROL Feedback image]**: Add the URL for the image displayed after a reply.
+
+    ![](assets/rich_push_input_3.png)
+
+1. Configure the **[!UICONTROL Advanced settings]** of your push notification. [Learn more](#push-advanced)
+
+Once you have defined your message content, you can use test subscribers to preview and test the message.
+
+>[!TAB Product catalog]
+
+1. From the **[!UICONTROL Notification type]** drop-down, select **[!UICONTROL Product catalog]**.
+
+    ![](assets/rich_push_catalog_1.png)
+
+1. To compose your message, enter your text in the **[!UICONTROL Title]** and **[!UICONTROL Message]** fields.
+
+    ![](assets/rich_push_catalog_2.png)
+
+1. Use dynamic personalization fields to define content, personalize data and add dynamic content. [Learn more](../personalization/personalize.md)
+
+1. Add the URL which defines the **[!UICONTROL Click action]** associated with a user click on your notification. This determines the behavior when the user interacts with the notification, such as opening a specific screen or performing a specific action in your app.
+
+1. Select the **[!UICONTROL Link type]** of the URL you added to the **[!UICONTROL Click action]** field:
+
+    * **[!UICONTROL Web URL]**: Web URLs direct users to online content. Upon clicking, they prompt the device's default web browser to open and navigate to the designated URL.
+
+    * **[!UICONTROL Deeplink]**: Deep links are URLs guiding users to specific sections within an app even if the app is closed. When clicked, a dialog can appear, allowing users to choose from various apps capable of handling the link.
+
+    * **[!UICONTROL Open App]**: Open App URLs allow you to directly connect to content within an application. It enables your application to establish itself as the default handler for a specific type of link, bypassing the disambiguation dialog. 
+
+    For more information on how to handle Android App Links, refer to [Android Developers documentation](https://developer.android.com/training/app-links).
+
+1. To further personalize your push notification, you can choose the notification's **[!UICONTROL Icon]** to display on your profiles' devices.
+
+1. Enter your **Click-to-Action text** and **image**.
+
+1. Choose your **[!UICONTROL Display type]** between Horizontal or Vertical.
+
+1. Fill your **[!UICONTROL Catalog]** items information.
+
+    Ensure that you include a minimum of three items and a maximum of five items.
+
+    ![](assets/rich_push_catalog_3.png)
+
+1. Handle the order of your images with the Down and Up arrow. 
+
+1. Configure the **[!UICONTROL Advanced settings]** of your push notification. [Learn more](#push-advanced)
+
+Once you have defined your message content, you can use test subscribers to preview and test the message.
+
+>[!TAB Product rating]
+
+1. From the **[!UICONTROL Notification type]** drop-down, select **[!UICONTROL Product rating]**.
+
+    ![](assets/rich_push_rating_1.png)
+
+1. To compose your message, enter your text in the **[!UICONTROL Title]**, **[!UICONTROL Message]** and **[!UICONTROL Expanded message]** fields. 
+
+    The **[!UICONTROL Message]** text appears in the collapsed view while the **[!UICONTROL Expanded message]** is displayed when the notification is expanded.
+
+    ![](assets/rich_push_rating_2.png)
+
+1. Add the URL which defines the **[!UICONTROL Click action]** associated with a user click on your notification. This determines the behavior when the user interacts with the notification, such as opening a specific screen or performing a specific action in your app.
+
+1. Select the **[!UICONTROL Link type]** of the URL you added to the **[!UICONTROL Click action]** field:
+
+    * **[!UICONTROL Web URL]**: Web URLs direct users to online content. Upon clicking, they prompt the device's default web browser to open and navigate to the designated URL.
+
+    * **[!UICONTROL Deeplink]**: Deep links are URLs guiding users to specific sections within an app even if the app is closed. When clicked, a dialog can appear, allowing users to choose from various apps capable of handling the link.
+
+    * **[!UICONTROL Open App]**: Open App URLs allow you to directly connect to content within an application. It enables your application to establish itself as the default handler for a specific type of link, bypassing the disambiguation dialog. 
+
+    For more information on how to handle Android App Links, refer to [Android Developers documentation](https://developer.android.com/training/app-links).
+
+1. To further personalize your push notification, you can choose an **[!UICONTROL Image]** URL to add to your push notification and the notification's **[!UICONTROL Icon]** to display on your profiles' devices.
+
+1. Add your **[!UICONTROL Rating icon in unselected state]** and **[!UICONTROL Rating icon in selected state]** URLs.
+
+    ![](assets/rich_push_rating_3.png)
+
+1. Click **[!UICONTROL Add rating]** and enter your **[!UICONTROL Link URI]** and **[!UICONTROL Link type]**.
+
+    Ensure that you include a minimum of three ratings and a maximum of five ratings.
+
+    ![](assets/rich_push_rating_4.png)
+
+1. Handle the order of your images with the Down and Up arrow. 
+
+1. Configure the **[!UICONTROL Advanced settings]** of your push notification. [Learn more](#push-advanced)
+
+Once you have defined your message content, you can use test subscribers to preview and test the message.
+
+>[!TAB Timer]
+
+1. From the **[!UICONTROL Notification type]** drop-down, select **[!UICONTROL Timer]**.
+
+    ![](assets/rich_push_timer_1.png)
+
+1. To compose your message, enter your text in the **[!UICONTROL Title]** and **[!UICONTROL Message]** fields.
+    
+    Use dynamic personalization fields to define content, personalize data and add dynamic content. [Learn more](../personalization/personalize.md)
+    
+    ![](assets/rich_push_timer_2.png)
+
+1. Add the URL which defines the **[!UICONTROL Click action]** associated with a user click on your notification. This determines the behavior when the user interacts with the notification, such as opening a specific screen or performing a specific action in your app.
+
+1. Select the **[!UICONTROL Link type]** of the URL you added to the **[!UICONTROL Click action]** field:
+
+    * **[!UICONTROL Web URL]**: Web URLs direct users to online content. Upon clicking, they prompt the device's default web browser to open and navigate to the designated URL.
+
+    * **[!UICONTROL Deeplink]**: Deep links are URLs guiding users to specific sections within an app even if the app is closed. When clicked, a dialog can appear, allowing users to choose from various apps capable of handling the link.
+
+    * **[!UICONTROL Open App]**: Open App URLs allow you to directly connect to content within an application. It enables your application to establish itself as the default handler for a specific type of link, bypassing the disambiguation dialog. 
+
+    For more information on how to handle Android App Links, refer to [Android Developers documentation](https://developer.android.com/training/app-links).
+
+    ![](assets/rich_push_timer_3.png)
+
+1. To further personalize your push notification, you can choose an **[!UICONTROL Image]** URL to add to your push notification and the notification's **[!UICONTROL Icon]** to display on your profiles' devices.
+
+1. Set your **[!UICONTROL Timer duration]** in seconds or the **[!UICONTROL Timer end timestamp]** to a specific epoch timestamp.
+
+    ![](assets/rich_push_timer_4.png)
+
+1. Enter the text and image that will be displayed after the timer has expired in the **[!UICONTROL Alternate title]**, **[!UICONTROL Alternate message]**, **[!UICONTROL Alternate expanded message]** and **[!UICONTROL Alternate launch image]** fields.
+
+    ![](assets/rich_push_timer_5.png)
+
+1. Configure the **[!UICONTROL Advanced settings]** of your push notification. [Learn more](#push-advanced)
+
+Once you have defined your message content, you can use test subscribers to preview and test the message.
+
+>[!TAB Zero bezel]
+
+1. From the **[!UICONTROL Notification type]** drop-down, select **[!UICONTROL Zero bezel]**.
+
+    ![](assets/rich_push_bezel_1.png)
+
+1. To compose your message, enter your text in the **[!UICONTROL Title]**, **[!UICONTROL Message]** and **[!UICONTROL Expanded message]** fields. 
+
+    The **[!UICONTROL Message]** text appears in the collapsed view while the **[!UICONTROL Expanded message]** is displayed when the notification is expanded.
+
+    ![](assets/rich_push_bezel_2.png)
+
+1. Use dynamic personalization fields to define content, personalize data and add dynamic content. [Learn more](../personalization/personalize.md)
+
+1. Add the URL which defines the **[!UICONTROL Click action]** associated with a user click on your notification. This determines the behavior when the user interacts with the notification, such as opening a specific screen or performing a specific action in your app.
+
+1. Select the **[!UICONTROL Link type]** of the URL you added to the **[!UICONTROL Click action]** field:
+
+    * **[!UICONTROL Web URL]**: Web URLs direct users to online content. Upon clicking, they prompt the device's default web browser to open and navigate to the designated URL.
+
+    * **[!UICONTROL Deeplink]**: Deep links are URLs guiding users to specific sections within an app even if the app is closed. When clicked, a dialog can appear, allowing users to choose from various apps capable of handling the link.
+
+    * **[!UICONTROL Open App]**: Open App URLs allow you to directly connect to content within an application. It enables your application to establish itself as the default handler for a specific type of link, bypassing the disambiguation dialog. 
+
+    For more information on how to handle Android App Links, refer to [Android Developers documentation](https://developer.android.com/training/app-links).
+
+1. To further personalize your push notification, you can choose an **[!UICONTROL Image]** URL to add to your push notification and the notification's **[!UICONTROL Icon]** to display on your profiles' devices.
+
+    ![](assets/rich_push_bezel_3.png)
+
+1. Choose your **[!UICONTROL Collapsed notification style]** for your notification whether the notification primarily displays an image or text.
+
+1. Configure the **[!UICONTROL Advanced settings]** of your push notification. [Learn more](#push-advanced)
+
+Once you have defined your message content, you can use test subscribers to preview and test the message.
+
 >[!ENDTABS]
 
 ## Push notification advanced settings {#push-advanced}
@@ -170,6 +420,7 @@ Once you have defined your message content, you can use test subscribers to prev
 |**[!UICONTROL Icon color]** | Set the color of your icon with your Hex color codes. |
 |**[!UICONTROL Title color]**| Set the color of your Title with your Hex color codes.|
 |**[!UICONTROL Message text color]** | Set the color of your Message text with your Hex color codes.|
+|**[!UICONTROL Timer color]** | Set the color of your Timer with your Hex color codes.|
 |**[!UICONTROL Notification background color]**| Set the color of your Notification background with your Hex color codes.|
 |**[!UICONTROL Sound]** | Set the sound to play when the device receives your notification.|
 |**[!UICONTROL Notification Count]**|Set the number of new unread information to be displayed directly on the application icon. This allows the user to quickly see the number of pending notifications. |
