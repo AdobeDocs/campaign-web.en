@@ -2,6 +2,7 @@
 audience: end-user
 title: Add visual fragments to your emails
 description: Learn how to add visual fragments to your emails
+badge: label="Limited Availability"
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
 ---
 # Add visual fragments to your emails {#use-visual-fragments}
