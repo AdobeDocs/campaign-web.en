@@ -8,7 +8,7 @@ exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
 # Audit trail{#audit-trail}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
+>id="acw_homepage_welcome_rn5"
 >title="Audit trail"
 >abstract="The new Audit trail capability provides a detailed and chronological record of all actions and events that have been made to your Adobe Campaign instance in real-time."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
@@ -86,11 +86,11 @@ To access your instance's **[!UICONTROL Audit trail]**:
 
 1. The **[!UICONTROL Audit entity]** window gives you more detailed information on the chosen entity such as:
 
-    * **[!UICONTROL Type]** : Workflow, Options, Deliveries or Schemas.
-    * **[!UICONTROL Entity]** : Internal name of your activities.
-    * **[!UICONTROL Modified by]** : Username of the last person who last modified this entity.
-    * **[!UICONTROL Action]** : Last action performed on this entity, either Created, Modified or Deleted.
-    * **[!UICONTROL Modification date]** : Date of the last action performed on this entity.
+    * **[!UICONTROL Type]**: Workflow, Options, Deliveries or Schemas.
+    * **[!UICONTROL Entity]**: Internal name of your activities.
+    * **[!UICONTROL Modified by]**: Username of the last person who last modified this entity.
+    * **[!UICONTROL Action]**: Last action performed on this entity, either Created, Modified or Deleted.
+    * **[!UICONTROL Modification date]**: Date of the last action performed on this entity.
 
     The code block gives you more information on what was changed exactly in your entity.
 

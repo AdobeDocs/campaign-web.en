@@ -8,7 +8,7 @@ exl-id: 120afaa0-7017-4644-b6db-229b4a5c8a91
 
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
+>id="acw_homepage_welcome_rn4"
 >title="Delivery alerting"
 >abstract="Delivery Alerting is now available in Campaign. This capabiltiy is an alert management system that enables groups of users to automatically receive email notifications with information on their delivery executions."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"

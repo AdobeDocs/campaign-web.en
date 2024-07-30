@@ -13,7 +13,10 @@ exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
 
 >[!IMPORTANT]
 >
->Before designing a Rich Push Notification, you first need to configure your V2 connector. Refer to [this page](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android) for the detailed procedure.
+>* This capability requires an update to Campaign v8.6.3 <!--or v8.7.2-->. Learn more in Campaign v8 Client console [release notes](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/release-notes){target="_blank"}.
+>
+>* Before designing a Rich Push Notification, you first need to configure your V2 connector. Refer to [this page](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"} for the detailed procedure.
+
 
 With Firebase Cloud Messaging, you can choose between two types of messages:
 
