@@ -27,7 +27,7 @@ Quarantine will help you to reduce SMS sending cost by excluding erroneous phone
 
 ## Why an address is sent to quarantine
 
-Many reasons may send an address to quarantine : 
+Many reasons may send an address to quarantine: 
 
 - For SMS, erroneous phone numbers
 - For SMS, when the profile reply to an SMS message with a keyword such as "STOP"

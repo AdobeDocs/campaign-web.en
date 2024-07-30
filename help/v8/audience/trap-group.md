@@ -1,52 +1,56 @@
 ---
 audience: end-user
 title: Use a trap group
-hide: yes
-hidefromtoc: yes
 description: Learn how to use a trap group for your delivery in Campaign Web user interface
-
 ---
-# Use a **[!UICONTROL trap group]** {#trap-group}
+# Use a trap group {#trap-group}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn2"
+>title="Trap group"
+>abstract="You can use a trap group to include specific addresses in your deliveries to monitor and verify the distribution process by targeting profiles who do not match the defined target criteria."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
 
 A **[!UICONTROL trap group]** (also known as **[!UICONTROL Seed list]**) is used to include specific addresses in your deliveries to monitor and verify the distribution process by targeting profiles who do not match the defined target criteria. This way, recipients who are out of the delivery scope can receive the delivery, as any other target recipient would.
-A **[!UICONTROL trap group]** is a group of **[!UICONTROL seed addresses]**, named **[!UICONTROL Test profile]** on AC Web UI.
 
-## Why use **[!UICONTROL Trap group]**
+A **[!UICONTROL trap group]** is a group of **[!UICONTROL seed addresses]**, named **[!UICONTROL Test profile]** on Campaign web user interface.
 
-You can use **[!UICONTROL trap group]** : 
+## Why use a trap group {#why-trap-group}
 
-1. **As a proof** : each member of the **[!UICONTROL Trap group]** will receive the delivery as if they were part of the audience.
+You can use **[!UICONTROL trap group]**:
 
+1. **As a proof**: each member of the **[!UICONTROL Trap group]** will receive the delivery as if they were part of the audience.
 
-1. **To protect your mailing list** : by receiving what the audience will receive, each **[!UICONTROL test profile]** of the **[!UICONTROL Trap group]** will be noticed if the mailing list is used by a third party.
+1. **To protect your mailing list**: by receiving what the audience will receive, each **[!UICONTROL test profile]** of the **[!UICONTROL Trap group]** will be noticed if the mailing list is used by a third party.
 
 >[!NOTE]
 >
->Trap group is different from [sending proofs during the creation of the delivery](../email/create-email.md#preview-test) and from [control group](control-group.md).
+>In addition to [sending proofs during the creation of the delivery](../email/create-email.md#preview-test) and from [control group](control-group.md), adding a trap group is a good way to test your audience.
 
-
-## About **[!UICONTROL Trap group]**
+## About trap groups {#about-trap-group}
 
 Test profiles are automatically excluded from reports on the following delivery statistics: **Clicks**, **Opens**, **Unsubscriptions**. The reports are only about the real audience.
 
 For an email delivery, only email address is needed for the **[!UICONTROL Trap group]**, the personalization of other fields will be filled randomly by Campaign.
 
-## How to setup a **[!UICONTROL Trap group]** in the delivery
+## Add a Trap group in a delivery {#trap-group-in-delivery}
 
 To setup a **[!UICONTROL Trap group]**, go to the **[!UICONTROL Audience]** settings of your delivery. You will have 2 options :
-- [Select test profiles](#select-test-profile)
-- [Create condition](#create-condition)
+
+* [Select test profiles](#select-test-profile)
+* [Create condition](#create-condition)
 
 ![](assets/trap-group.png){zoomable="yes"}
 
 ### Select test profiles {#select-test-profiles}
 
-When you choose "Select test profiles", you will have the window as below where you are invited to **[!UICONTROL Add test profile(s)]** :
+When you choose **Select test profiles**, you can use the **Add test profile(s)** button as shown below:
 
 ![](assets/trap-no-test-profile.png){zoomable="yes"}
 
-When you click on the button, you will have access to the test profiles you can add your **[!UICONTROL trap group]**. Check the ones you want to use.
-You can create new test profiles. [Learn more](#create-seed)
+When you click on the button, you have access to the test profiles you can add your **[!UICONTROL trap group]**. Select the ones you want to use.
+
+You can also create new test profiles. [Learn more](#create-seed)
 
 ![](assets/trap-select-test-profiles.png){zoomable="yes"}
 
@@ -56,20 +60,20 @@ When you confirm your test profiles, check that you have the correct number unde
 
 ### Create condition {#create-condition}
 
-With the **[!UICONTROL Create condition]** choice, you will get a new window where you can custom a query to define the test profiles you want to use :
+With the **[!UICONTROL Create condition]** option, you can create a query to define the test profiles you want to use:
 
 ![](assets/trap-create-condition.png){zoomable="yes"}
 
-Your query will be displayed under **[!UICONTROL Trap group]**.
+Your query is displayed under **[!UICONTROL Trap group]**.
 
 ![](assets/trap-custom.png){zoomable="yes"}
 
-## How to create a new **[!UICONTROL Test profile]** {#create-seed}
+## Create a new test profile {#create-seed}
 
-You can create a new **[!UICONTROL test profile]** in **[!UICONTROL Explorer]** > **[!UICONTROL Ressources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed members]**
+You can create a new **[!UICONTROL test profile]** from the  **[!UICONTROL Explorer]** > **[!UICONTROL Ressources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed members]** folder.
 
 ![](assets/trap-create.png){zoomable="yes"}
 
-You can complete all the details about your **[!UICONTROL test profile]** as if it was an audience profile :
+Configure all settings about your **[!UICONTROL test profile]** as for any profile:
 
 ![](assets/trap-create-contact.png){zoomable="yes"}

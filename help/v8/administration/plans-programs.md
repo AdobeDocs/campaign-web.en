@@ -7,7 +7,7 @@ exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
 # Plans and programs {#plan-and-programs}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
+>id="acw_homepage_welcome_rn3"
 >title="Plans and programs"
 >abstract="You can now configure your folder hierarchy for marketing plans and programs in Campaign Web user interface."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
@@ -68,7 +68,7 @@ To manage the  **[!UICONTROL Custom options]**:
 
 ![](assets/program_edit.png){zoomable="yes"}
 
-You can configure them : 
+You can configure them: 
 
 ![](assets/program_customfields.png){zoomable="yes"}
 
@@ -76,9 +76,9 @@ You can configure them :
 
 You have two ways to link a campaign to a program:
 
-### Way #1 : You already have a program and want to create a campaign linked to it
+### Way #1: You already have a program and want to create a campaign linked to it
 
-To link a new campaign to your program, create directly you campaign in the program : 
+To link a new campaign to your program, create directly you campaign in the program: 
 
 ![](assets/program_campaign_create.png){zoomable="yes"}
 
@@ -86,7 +86,7 @@ The **[!UICONTROL Folder]** settings will be automatically filed with the path t
 
 ![](assets/program_campaign_folder.png){zoomable="yes"}
 
-### Way #2 : You already have an existing campaign and want to link it to an existing program
+### Way #2: You already have an existing campaign and want to link it to an existing program
 
 Go to the **[!UICONTROL Settings]** button of the campaign you want to link to your program: 
 
