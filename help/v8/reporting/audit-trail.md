@@ -8,7 +8,7 @@ exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
 # Audit trail{#audit-trail}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn5"
+>id="acw_homepage_welcome_rn4"
 >title="Audit trail"
 >abstract="The new Audit trail capability provides a detailed and chronological record of all actions and events that have been made to your Adobe Campaign instance in real-time."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
