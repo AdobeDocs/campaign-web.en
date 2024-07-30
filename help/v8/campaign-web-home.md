@@ -45,9 +45,9 @@ Get a glimpse of the newest enhancements in Adobe Campaign Web product and docum
 
 >[!BEGINTABS]
 
->[!TAB June release is live!]
+>[!TAB July release is live!]
 
-Discover new features and improvements coming with Adobe Campaign Web User Interface 24.6 release.
+Discover new features and improvements coming with Adobe Campaign Web User Interface July '24 release.
 
 [![image](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 

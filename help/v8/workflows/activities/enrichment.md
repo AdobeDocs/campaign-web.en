@@ -101,14 +101,6 @@ A workflow example using links is available in the [Examples](#link-example) sec
 
 ## Data reconciliation {#reconciliation}
 
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="Data reconciliation"
->abstract="The workflow Enrichment activity can now be used to reconcile data from the the Campaign database schema with data from another schema, or with data coming from a temporary schema such as data uploaded using a Load file activity."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
-
-
 The **Enrichment** activity can be used to reconcile data from the the Campaign database schema with data from another schema, or with data coming from a temporary schema such as data uploaded using a Load file activity. This type of link defines a reconciliation towards a unique record. Adobe Campaign creates a link to a target table by adding a foreign key in it for storing a reference to the unique record.
 
 For example, you can use this option to reconcile a profile's country, specified in an uploaded file, with one of the countries available in the dedicated table of the Campaign database. 
