@@ -47,7 +47,6 @@ You can now send rich push notifications. A rich push notification is an enhance
 
 **Folders management** - You can now manage permissions and restrictions on folders.
 
-
 ## June release notes {#24-6-release}
 
 **Release date**: June 18-19, 2024
