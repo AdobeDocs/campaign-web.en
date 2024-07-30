@@ -11,7 +11,7 @@ You can schedule the sending of a delivery. The steps for this will depend on wh
 ## Standalone delivery
 
 For standalone deliveries, you can schedule directly the date and time in the delivery.
-See below examples for each type of delivery : email, sms, push notification.
+See below examples for each type of delivery: email, sms, push notification.
 
 ### Email {#schedule-email-standalone}
 
@@ -53,7 +53,7 @@ To schedule a standalone push delivery to a specific date and time, the steps ar
 
 ![](assets/schedule-push-standalone.png){zoomable="yes"}
 
-You can also check that the schedule is taken into account : 
+You can also check that the schedule is taken into account: 
 
 ![](assets/schedule-push-standalone-prepare.png){zoomable="yes"}
 

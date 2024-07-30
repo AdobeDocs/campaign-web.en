@@ -34,12 +34,12 @@ You can create, rename, reorder, and move folders in the navigation tree. You ca
 
   ![](assets/folders.png){zoomable="yes"}
 
-You can set up a folder type. For example : a folder of deliveries. 
+You can set up a folder type. For example: a folder of deliveries. 
 The icon of the folder will change according to this type.
 
 ## Create a new folder
 
-To create a new folder in Adobe Campaign Web UI, follow these steps : 
+To create a new folder in Adobe Campaign Web UI, follow these steps: 
 
 1. In **[!UICONTROL Explorer]**, go to the folder in which you want to create your new folder.
 Under the **[!UICONTROL ...]** menu, You have **[!UICONTROL Create new folder]**
@@ -51,7 +51,7 @@ In our example, we create a folder in the **[!UICONTROL Deliveries]** folder.
 
   ![](assets/folder_new.png){zoomable="yes"}
 
-1. Change the type of your folder by clicking on the icon of Folder type if needed, and choose it in the list presented, as below : 
+1. Change the type of your folder by clicking on the icon of Folder type if needed, and choose it in the list presented, as below: 
 
   ![](assets/folder_type.png){zoomable="yes"}
 

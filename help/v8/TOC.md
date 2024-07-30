@@ -128,6 +128,7 @@ breadcrumb-title: Campaign Web User Interface
     + [Build a one-time audience](audience/one-time-audience.md)
     + [Load an email audience from a file](audience/file-audience.md)
     + [Set a control group](audience/control-group.md)
+    + [Add a trap group](audience/trap-group.md)
   + Work with subscription services {#work-with-services}
     + [Create and manage subscription services](audience/manage-services.md)
     + [Manage subscribers](audience/manage-subscribers.md)

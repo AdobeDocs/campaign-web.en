@@ -273,7 +273,7 @@ The **[!UICONTROL URLs and click streams]** report provides key performance indi
 
 * **[!UICONTROL Clicks]**: Total number of clicks on links in deliveries.
 
-* **[!UICONTROL Platform average]** : This average rate, displayed under each rate (reactivity, distinct clicks, and cumulated clicks), is calculated for deliveries sent over the previous six months. Only deliveries with the same typology and on the same channel are taken into account. Proofs are excluded.
+* **[!UICONTROL Platform average]**: This average rate, displayed under each rate (reactivity, distinct clicks, and cumulated clicks), is calculated for deliveries sent over the previous six months. Only deliveries with the same typology and on the same channel are taken into account. Proofs are excluded.
 
 +++
 
