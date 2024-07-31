@@ -39,6 +39,8 @@ A  **Trap group** is a list of seed addresses. It is used to include specific ad
 
 You can now send rich push notifications. A rich push notification is an enhanced form of mobile notification that goes beyond simple text messages by incorporating multimedia elements such as images, interactive buttons, or other rich media content. With this version, a set of templates for rich push notifications are now available for your iOS and Android apps. 
 
+[Learn more](../push/rich-push.md)
+
 >[!AVAILABILITY]
 >
 >This capability requires an update to Campaign v8.6.3 <!--or v8.7.2-->. Learn more in Campaign v8 Client console [release notes](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/release-notes){target="_blank"}.
