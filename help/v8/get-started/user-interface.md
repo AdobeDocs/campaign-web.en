@@ -324,6 +324,21 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Transactional Messaging properties"
 
 >[!CONTEXTUALHELP]
+>id="acw_transacmessages_email_properties"
+>title="Transactional Messaging Email properties"
+>abstract="Transactional Messaging Email properties"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_sms_properties"
+>title="Transactional Messaging SMS properties"
+>abstract="Transactional Messaging SMS properties"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_push_properties"
+>title="Transactional Messaging Push properties"
+>abstract="Transactional Messaging Push properties"
+
+>[!CONTEXTUALHELP]
 >id="acw_transacmessages_mobileapp"
 >title="Transactional Messaging Mobile App"
 >abstract="Transactional Messaging Mobile App"
