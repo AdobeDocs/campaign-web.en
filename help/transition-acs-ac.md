@@ -75,7 +75,7 @@ To check
 
 https://adobe-my.sharepoint.com/personal/ssahai_adobe_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Fssahai%5Fadobe%5Fcom%2FDocuments%2FDocuments%2FFeatures%2FEuropa%20%2D%20ACS%20to%20ACC%2FDemos%2FEuropa%2EDemo%2EApril%2Emov&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ef947ff92%2Ddbc6%2D4de2%2D99be%2Db8027acba5db&OR=Teams%2DHL&CT=1722944686104&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiI1MC8yNDA2MjcyNDgxNyIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%3D%3D
 
-## Marketer documentation table
+## Marketer documentations table
 
 <table style="table-layout:fixed">
   <tr style="border: 1;">
@@ -181,7 +181,7 @@ https://adobe-my.sharepoint.com/personal/ssahai_adobe_com/_layouts/15/stream.asp
         <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/push/gs-push">Push notification documentation</a><br/>
         Rich push documentation:<br/>
         - <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/push/rich-push/rich-push">For Android</a><br/>
-        - <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/push/rich-push/rich-push-ios ">For iOS</a><br/>
+        - <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/push/rich-push/rich-push-ios">For iOS</a><br/>
     </td>
     <td>
         <div></div>
@@ -223,7 +223,7 @@ https://adobe-my.sharepoint.com/personal/ssahai_adobe_com/_layouts/15/stream.asp
   </tr>
 </table>
 
-## Administator documentation table
+## Administrator documentations table
 
 <table style="table-layout:fixed">
   <tr style="border: 1;">
@@ -233,41 +233,155 @@ https://adobe-my.sharepoint.com/personal/ssahai_adobe_com/_layouts/15/stream.asp
   </tr>
   <tr style="border: 1;">
     <td>
-        <div>The client console</div>
+        <div>Understand general architecture</div>
     </td>
     <td>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign-learn/tutorials/getting-started/install-and-set-up-the-adobe-campaign-client-console">Install and set up</a>
+        <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/general-architecture">Global principles documentation</a><br/>
+        <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/fda-deployment">Campaign FDA deployment documentation</a><br/>
+        <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment">Enterprise FFDA deployment documentation</a><br/>
+        <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/ac-components">Campaign components and processes documentation</a>
     </td>
     <td>
-        <img src="assets/do-not-localize/menu-email.png">
         <div></div>
     </td>
   </tr>
   <tr style="border: 1;">
     <td>
-        <img src="assets/do-not-localize/menu-ui.jpeg">
-        <div>Profiles and audiences</div>
+        <div>Know implementation steps</div>
     </td>
     <td>
-        <img src="assets/do-not-localize/menu-workflows.jpeg">
-        <div></div>
+        <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/implement/implement">Campaign implementation guidelines documentation</a><br/>
     </td>
     <td>
-        <img src="assets/do-not-localize/menu-email.png">
         <div></div>
     </td>
   </tr>
   <tr style="border: 1;">
     <td>
-        <img src="assets/do-not-localize/menu-ui.jpeg">
-        <div>Workflows</div>
+        <div>Install client console</div>
     </td>
     <td>
-        <img src="assets/do-not-localize/menu-workflows.jpeg">
+        <a href="https://experienceleague.adobe.com/en/docs/campaign-learn/tutorials/getting-started/install-and-set-up-the-adobe-campaign-client-console">Install and setup tutorial video</a><br/>
+        <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/connect">Client console installation documentation</a><br/>
+    </td>
+    <td>
         <div></div>
     </td>
+  </tr>
+  <tr style="border: 1;">
     <td>
-        <img src="assets/do-not-localize/menu-email.png">
+        <div>Administate environment</div>
+    </td>
+    <td>
+        <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/connect#create-your-connection">Connection to the application server documentation</a><br/>
+        <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/privacy/security ">Security best practices</a><br/>
+        <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions">User permissions documentation</a><br/>
+        <a href="https://experienceleague.adobe.com/en/docs/control-panel-learn/tutorials/control-panel-overview">Control panel tutorials</a>
+    </td>
+    <td>
+        <div></div>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+        <div>Discover console client interface</div>
+    </td>
+    <td>
+        <a href="https://experienceleague.adobe.com/en/docs/campaign-learn/tutorials/getting-started/explore-the-adobe-campaign-user-interface">Console client interface tutorial video</a><br/>
+        <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui">Client console interface documentation</a><br/>
+    </td>
+    <td>
+        <div></div>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+        <div>Set up user interface</div>
+    </td>
+    <td>
+        <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings">User interface settings documentation</a><br/>
+        <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/conf/custom-fields">Custom fields configuration documentation</a><br/>
+    </td>
+    <td>
+        <div></div>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+        <div>Understand data model creation</div>
+    </td>
+    <td>
+        <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/datamodel">Data model documentation</a><br/>
+        <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas">Schemas creation documentation</a><br/>
+        <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/forms">Input forms creation documentation</a>
+    </td>
+    <td>
+        <div></div>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+        <div>Understand data management</div>
+    </td>
+    <td>
+        <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/workflows">Workflows documentation</a><br/>
+        <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/import">Import data documentation</a><br/>
+    </td>
+    <td>
+        <div></div>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+        <div>About delivery management</div>
+    </td>
+    <td>
+        <a href="https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies">Typology rules documentation</a><br/>
+        <a href="https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates">Campaign template documentation</a><br/>
+        <a href="https://experienceleague.adobe.com/en/docs/campaign-learn/tutorials/sending-messages/configure-and-manage-subscription-services">Subscription services tutorial video</a><br/>
+    </td>
+    <td>
+        <div></div>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+        <div>Manage Adobe Campaign integrations</div>
+    </td>
+    <td>
+        <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/integrations/integration">Campaign connection to other solutions documentation</a><br/>
+        Integration with:<br/>
+        - <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-aa">Adobe Analytics</a><br/>
+        - <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-triggers">Adobe Experience Cloud triggers</a><br/>
+        - <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-aem">Adobe Experience Manager</a><br/>
+        - <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-aep/ac-aep">Adobe Experience Platform</a><br/>
+        - <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-ajo">Adobe Journey Optimizer</a><br/>
+        - <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-at">Adobe Target</a><br/>
+        - <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-workfront">Adobe Workfront</a><br/>
+    </td>
+    <td>
+        <div></div>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+        <div>Use transactional messages</div>
+    </td>
+    <td>
+        <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional">Transactional messages documentation</a><br/>
+    </td>
+    <td>
+        <div></div>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+        <div>Use reporting</div>
+    </td>
+    <td>
+        <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/gs-reporting">Reporting configuration documentation</a><br/>
+    </td>
+    <td>
         <div></div>
     </td>
   </tr>
