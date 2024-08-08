@@ -178,8 +178,11 @@ Here are some terminology differences between Campaign Standard and the Campaign
 
 * **The client console**
 
-The big difference for administrators is the use of the client console
+The big difference for administrators is the use of the client console. It is a native application which communicates with the Adobe Campaign application server. Campaign client console centralizes all capabilities and settings. It is synchronized with the Campaign Web User Interface.
 
+![](assets/client_console.png){zoomable="yes"}
+
+[Learn more about the client console user interface of Adobe Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui#ui-access).
 
 ## Migration video
 
