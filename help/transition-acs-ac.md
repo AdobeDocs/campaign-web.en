@@ -86,11 +86,11 @@ Push notifications are essential for reaching out to your mobile app users, even
 Adobe Campaign v8 is natively integrated with Adobe Experience Manager as a Cloud Services. It helps you provide your customers with personalized, content-led experiences. 
 
 This feature is available for :
-* Asset management : The left pane of the email designer gives you a way to find easily assets and customize it. 
+* *Asset management*: The left pane of the email designer gives you a way to find easily assets and customize it. 
 [Learn more here](v8/campaign-web-home.md)
 ![](v8/integrations/assets/assets_6.png){zoomable="yes"}
 
-- Email template import : You can browse through AEM templates and select one to import to Campaign. 
+- *Email template import* : You can browse through AEM templates and select one to import to Campaign. 
 ![](v8/integrations/assets/aem_6.png){zoomable="yes"}
 
 Adobe Experience Manager as a Cloud Services provides cloud-native agility to accelerate time to value and is extensible to meet your unique business requirements.
@@ -122,15 +122,49 @@ Read out this whitepaper to [learn more about the business value of Adobe Campai
 
 ## Brief experiences differences between Campaign Standard and Campaign v8
 
+Most concepts are similar between Adobe Campaign v8 and Adobe Campaign Standard. However, there are a few differences. 
+
 ### Marketer experiences
 
 * **The UI**
 
-Adobe Campaign v8 VS web UI
+With Adobe Campaign Web User Interface, your experience will have differences
+
 
 * **The terminology**
 
+Here are some examples of terminology differences between Campaign Standard and the Campaign v8:
 
+<table style="table-layout:fixed">
+  <tr style="border: 1;">
+    <td align="center"><strong>Adobe Campaign Standard</strong></td>
+    <td align="center"><strong>Adobe Campaign v8</strong></td>
+  </tr>
+  <tr style="border: 1;">
+    <td align="center">Custom resources</td>
+    <td align="center">Schemas</td>
+  </tr>
+  <tr style="border: 1;">
+    <td align="center">Messages</td>
+    <td align="center">Deliveries</td>
+  </tr>
+  <tr style="border: 1;">
+    <td align="center">Product users</td>
+    <td align="center">Operators</td>
+  </tr>
+  <tr style="border: 1;">
+    <td align="center">Roles</td>
+    <td align="center">Named Rights</td>
+  </tr>
+  <tr style="border: 1;">
+    <td align="center">Security Groups</td>
+    <td align="center">Operator Groups</td>
+  </tr>
+  <tr style="border: 1;">
+    <td align="center">Organizational Units</td>
+    <td align="center">Folder Permissions</td>
+  </tr>
+</table>
 
 ### Administrator experiences
 
