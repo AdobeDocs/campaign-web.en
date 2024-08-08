@@ -47,37 +47,11 @@ Adobe Campaign v8 can send rich push notifications.
 
 ![](v8/push/assets/rich_push.png){zoomable="yes"}
 
-You can define your content using the given templates. According to your customer system, you can design your push accordingly.
+You can define your content using the given templates. According to your customer system, you can design your push accordingly :
 
-For [Android](v8/push/rich-push.md) users, you have :
+* For [Android](v8/push/rich-push.md) users
 
-* *Default* allows you to send notifications with a simple icon and an accompanying image.
-
-* *Basic* can include text, images, and buttons in your notifications.
-
-* *Carousel* enables you to send notifications with text and multiple images that users can swipe through.
-
-* *Icon buttons* allows you to send notifications with an icon and a corresponding image.
-
-* *Input box* gathers user input and feedback directly through the notification.
-
-* *Product catalog* displays a variety of product images.
-
-* *Product rating* allows users to give feedback and rate products. 
-
-* *Timer* includes a live countdown timer in your notifications.
-
-* *Zero Bezel* uses the entire background surface for an image, with text overlaid seamlessly.
-
-For [iOs](v8/push/rich-push.md), you have :
-
-* *Default* allows you to send notifications with a simple icon and an accompanying image.
-
-* *Basic* can include text, images, and buttons in your notifications.
-
-* *Carousel* enables you to send notifications with text and multiple images that users can swipe through.
-
-* *Timer* includes a live countdown timer in your notifications.
+* For [iOs](v8/push/rich-push.md)
 
 Push notifications are essential for reaching out to your mobile app users, even when they're not actively using your app.
 
