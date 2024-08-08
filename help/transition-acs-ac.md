@@ -17,8 +17,11 @@ Get a glimpse of what you get with Adobe Campaign v8!
 ### Enhancement with Adobe Campaign v8
 
 * **Web User Interface**
-With the client console, Adobe Campaign v8 has a Web User Interface that will give a better experience and easier adoption to Adobe Campaign Standard users.
+
+Adobe Campaign v8 is available both with client console and web user interface. With the client console, Adobe Campaign v8 has a Web User Interface that will give a better experience and easier adoption to Adobe Campaign Standard users.
+
 [Learn more about Adobe Campaign Web User Interface](v8/campaign-web-home.md)
+
 ![](assets/home.png){zoomable="yes"}
 
 
@@ -35,37 +38,63 @@ With this redesigned architecture, it allows :
 
 ### New features on Adobe Campaign v8
 * **Rich push**
-Rich push notifications can be handled with Adobe Campaign v8. You are 
 
-* **AEM as a Cloud Services**
-Adobe Campaign v8 is natively integrated with AEM as a Cloud Services for assets and email template import.
-You can browse through AEM templates and select one to import to Campaign. The left pane of the email designer gives you a way to find easily assets and customize it.
+Rich push notifications can be handled with Adobe Campaign v8.  
 
-### AI assistant
+* **Adobe Experience Manager as a Cloud Services**
 
-Create HTML from scratch with GenAI-powered Content Assistant
-Generate variant of email templates
-Generate email copy
-Generate and re-generate images
+Adobe Campaign v8 is natively integrated with Adobe Experience Manager as a Cloud Services. It helps you provide your customers with personalized, content-led experiences. 
 
-![](assets/genAI.png){zoomable="yes"}
+This feature is available for :
+* Asset management : The left pane of the email designer gives you a way to find easily assets and customize it. 
+[Learn more here](v8/campaign-web-home.md)
+![](v8/integrations/assets/assets_6.png){zoomable="yes"}
+
+- Email template import : You can browse through AEM templates and select one to import to Campaign. 
+![](v8/integrations/assets/aem_6.png){zoomable="yes"}
+
+Adobe Experience Manager as a Cloud Services provides cloud-native agility to accelerate time to value and is extensible to meet your unique business requirements.
+
+### AI assistant (bêta)
+
+Adobe Campaign v8 provides an AI assistant to help you generate impactful content in an efficient and quick manner. 
+
+![](v8/email/assets/full-email-1.png){zoomable="yes"}
+
+AI Assistant revolutionizes the way you create professional and brand-consistent content across channels. With advanced GenAI models and deep understanding of your brand guidelines, AI Assistant auto-generates personalized, engaging, and effective content based on the marketing objective with content optimized for brand outlined styles, layouts, tone, and more.
+
+AI Assistant makes the creation and execution of marketing campaigns intuitive, simple and hassle-free while saving time, improving efficiency, and driving better results.
+
+![](v8/email/assets/full-email-2.png){zoomable="yes"}
+
+It provides variant of email templates and generates and re-generates images.
+
+Adobe Campaign v8 has AI assistant available for [Email](v8/email/generative-email.md), [SMS](v8/email/generative-sms.md), and [Push](v8/email/generative-push.md).
 
 ### Managed Services
-https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/whats-new#acms-desc
-No downtime for future upgrades or enhancements
-Accessible via a web browser
+
+Adobe Campaign v8 is available as a Managed Cloud Service, providing proactive oversight, timely alerting, and service governance. Adobe Managed Cloud Service provides marketers with a more agile, secure and scalable cross-channel campaign management solution with a low total cost of ownership. The new offering combines services with proactive oversight and timely alerting.
+
+The managed services approach enables marketers to take advantage of the operational scale and economics of cloud infrastructure without the need for heavy support from internal IT resources. Adobe consulting and implementation teams work with you to assess your marketing plans, existing practices, data requirements, and messaging volume, and then they recommend the most appropriate service, support, and deliverability packages. The Adobe Campaign Managed Cloud Services team can then monitor and report on campaign performance, brand reputation, customer experience metrics, and more.
+
+Read out this whitepaper to [learn more about the business value of Adobe Campaign Managed Cloud Services](https://experienceleague.adobe.com/docs/campaign/assets/IDC-Report-BusinessValueOfAdobeCampaign.pdf?lang=en).
 
 
 ## Brief experiences differences between Campaign Standard and Campaign v8
 
 ### Marketer experiences
 
-* The UI
-* The vocabulary
+* **The UI**
+
+Adobe Campaign v8 VS web UI
+
+* **The terminology**
+
+
 
 ### Administrator experiences
 
-* The client console
+* **The client console**
 
 ## Migration video
 
@@ -216,6 +245,7 @@ https://adobe-my.sharepoint.com/personal/ssahai_adobe_com/_layouts/15/stream.asp
     <td>
         <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/gs-reports">Reporting documentation</a><br/>
         <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/delivery-report/delivery-reports">Delivery reports documentation</a><br/>
+        <a href="https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/reporting/get-started-reporting">Dynamic reporting documentation</a><br/>
     </td>
     <td>
         <div></div>
