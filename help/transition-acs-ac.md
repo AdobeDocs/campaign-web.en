@@ -26,15 +26,18 @@ Adobe Campaign v8 is available both with client console and web user interface. 
 
 
 * **Performance**
-Adobe Campaign v8 can leverage cloud scale database technologies and dramatically improves its performance. 
-With this redesigned architecture, it allows :
-    * **More Storage**: Up to *6TB in total database storage* across production and staging instances
-    * **More Speed and Scale**
-        * Increase batch throughput: up to **15M/h**
-        * Increase transactional throughput: up to **180K/h**
-    * **Snowflake via FDA**
-        * Permit offload high-volume data 
-        * Increase storage, faster segmentations, queries, reports and deliveries
+
+Adobe Campaign v8 can leverage cloud scale database technologies and dramatically improves its performance. It brings the concept of Full Federated Data Access (FFDA): all data is now remote on the Cloud Database.
+
+This redesigned architecture allows :
+
+* *More Storage*: Up to **6TB in total database storage** across production and staging instances
+* *More Speed and Scale*
+    * Increase batch throughput: up to **15M/h**
+    * Increase transactional throughput: up to **180K/h**
+* *Snowflake via FDA*
+    * Permit offload high-volume data 
+    * Increase storage, faster segmentations, queries, reports and deliveries
 
 ### New features on Adobe Campaign v8
 
