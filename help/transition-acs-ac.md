@@ -122,18 +122,26 @@ Read out this whitepaper to [learn more about the business value of Adobe Campai
 
 ## Brief experiences differences between Campaign Standard and Campaign v8
 
-Most concepts are similar between Adobe Campaign v8 and Adobe Campaign Standard. However, there are a few differences. 
+Most concepts are similar between Adobe Campaign v8 and Adobe Campaign Standard. However, there are a few differences as described below. 
 
 ### Marketer experiences
 
-* **The UI**
+* **The User Interface**
 
-With Adobe Campaign Web User Interface, your experience will have differences
+All the data from Adobe Campaign Standard is imported in Adobe Campaign v8. 
 
+You can use your credentials, and connect to your instance. 
+You can find your profiles and your workflows. 
+
+The real difference is in the user interface. You can find here the change here :
+
+![](assets/transition_workflow.png){zoomable="yes"}
+
+[Learn more about the Web User Interface of Adobe Campaign v8](v8/get-started/user-interface.md).
 
 * **The terminology**
 
-Here are some examples of terminology differences between Campaign Standard and the Campaign v8:
+Here are some terminology differences between Campaign Standard and the Campaign v8:
 
 <table style="table-layout:fixed">
   <tr style="border: 1;">
@@ -169,6 +177,9 @@ Here are some examples of terminology differences between Campaign Standard and 
 ### Administrator experiences
 
 * **The client console**
+
+The big difference for administrators is the use of the client console
+
 
 ## Migration video
 
