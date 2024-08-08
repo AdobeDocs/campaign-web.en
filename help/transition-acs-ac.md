@@ -43,7 +43,7 @@ This redesigned architecture allows :
 
 * **Rich push**
 
-Rich push notifications can be handled with Adobe Campaign v8.  
+Adobe Campaign v8 can send rich push notifications.  
 
 ![](v8/push/assets/rich_push.png){zoomable="yes"}
 
@@ -124,22 +124,7 @@ Read out this whitepaper to [learn more about the business value of Adobe Campai
 
 Most concepts are similar between Adobe Campaign v8 and Adobe Campaign Standard. However, there are a few differences as described below. 
 
-### Marketer experiences
-
-* **The User Interface**
-
-All the data from Adobe Campaign Standard is imported in Adobe Campaign v8. 
-
-You can use your credentials, and connect to your instance. 
-You can find your profiles and your workflows. 
-
-The real difference is in the user interface. You can find here the change here :
-
-![](assets/transition_workflow.png){zoomable="yes"}
-
-[Learn more about the Web User Interface of Adobe Campaign v8](v8/get-started/user-interface.md).
-
-* **The terminology**
+### The terminology
 
 Here are some terminology differences between Campaign Standard and the Campaign v8:
 
@@ -147,6 +132,26 @@ Here are some terminology differences between Campaign Standard and the Campaign
   <tr style="border: 1;">
     <td align="center"><strong>Adobe Campaign Standard</strong></td>
     <td align="center"><strong>Adobe Campaign v8</strong></td>
+  </tr>
+  <tr style="border: 1;">
+    <td align="center">Program</td>
+    <td align="center">Campaign</td>
+  </tr>
+  <tr style="border: 1;">
+    <td align="center">Real-time events and Transactional events</td>
+    <td align="center">Triggers</td>
+  </tr>
+  <tr style="border: 1;">
+    <td align="center">Tracking</td>
+    <td align="center">Reporting</td>
+  </tr>
+  <tr style="border: 1;">
+    <td align="center">Profiles</td>
+    <td align="center">Recipients (in certain circumstances)</td>
+  </tr>
+  <tr style="border: 1;">
+    <td align="center">Traps</td>
+    <td align="center">Seeds</td>
   </tr>
   <tr style="border: 1;">
     <td align="center">Custom resources</td>
@@ -174,7 +179,26 @@ Here are some terminology differences between Campaign Standard and the Campaign
   </tr>
 </table>
 
+### Marketing experiences
+
+[Marketer documentations table](transition-acs-ac-marketer.md)
+
+* **The User Interface**
+
+All the data from Adobe Campaign Standard is imported in Adobe Campaign v8. 
+
+You can use your credentials, and connect to your instance. 
+You can find your profiles and your workflows. 
+
+The real difference is in the user interface. You can find here the change here :
+
+![](assets/transition_workflow.png){zoomable="yes"}
+
+[Learn more about the Web User Interface of Adobe Campaign v8](v8/get-started/user-interface.md).
+
 ### Administrator experiences
+
+[Administrator documentations table](transition-acs-ac-admin.md)
 
 * **The client console**
 
@@ -192,318 +216,6 @@ To check
 
 https://adobe-my.sharepoint.com/personal/ssahai_adobe_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Fssahai%5Fadobe%5Fcom%2FDocuments%2FDocuments%2FFeatures%2FEuropa%20%2D%20ACS%20to%20ACC%2FDemos%2FEuropa%2EDemo%2EApril%2Emov&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ef947ff92%2Ddbc6%2D4de2%2D99be%2Db8027acba5db&OR=Teams%2DHL&CT=1722944686104&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiI1MC8yNDA2MjcyNDgxNyIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%3D%3D
 
-## Marketer documentations table
-
-<table style="table-layout:fixed">
-  <tr style="border: 1;">
-    <td align="center"><strong>Activity</strong></td>
-    <td align="center"><strong>Documentation link</strong></td>
-    <td align="center"><strong>Notes</strong></td>
-  </tr>
-  <tr style="border: 1;">
-    <td>
-        Discover the interface
-    </td>
-    <td>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign-web-learn/tutorials/getting-started/explore-the-web-ui">Interface tutorial video</a><br/>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/user-interface">Interface documentation</a>
-    </td>
-    <td>
-        <div></div>
-    </td>
-  </tr>
-  <tr style="border: 1;">
-    <td>
-        <div>Use plans, programs, campaigns</div>
-    </td>
-    <td>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaigns/plans-programs">Plans and programs documentation</a><br/>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaigns/gs-campaigns">Campaigns documentation</a>
-    </td>
-    <td>
-        <div></div>
-    </td>
-  </tr>
-  <tr style="border: 1;">
-    <td>
-        <div>Create and manage profiles and audiences </div>
-    </td>
-    <td>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign-web-learn/tutorials/profiles-and-audiences/explore-profiles">Profiles tutorial video</a><br/>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign-web-learn/tutorials/profiles-and-audiences/manage-and-build-audiences">Audiences tutorial video</a><br/>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/gs-audiences-recipients">Profiles and audiences documentation</a>
-    </td>
-    <td>
-        <div></div>
-    </td>
-  </tr>
-  <tr style="border: 1;">
-    <td>
-        <div>Configure workflows </div>
-    </td>
-    <td>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign-web-learn/tutorials/workflows/create-a-targeting-workflow">Targeting workflow tutorial video</a><br/>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/query-database/query-modeler-overview">Query modeler documentation</a><br/>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/gs-workflows">Workflows documentation</a>
-    </td>
-    <td>
-        <div></div>
-    </td>
-  </tr>
-  <tr style="border: 1;">
-    <td>
-        <div>Work with deliveries</div>
-    </td>
-    <td>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/gs-deliveries">Delivery creation and management documentation</a><br/>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/delivery-template">Delivery template documentation</a><br/>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/delivery-settings">Delivery settings documentation</a><br/>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/dynamic-content/gs-personalization">Dynamic content documentation</a><br/>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/preview-test/preview-test">Preview and test documentation</a>
-    </td>
-    <td>
-        <div></div>
-    </td>
-  </tr>
-  <tr style="border: 1;">
-    <td>
-        <div>Send email</div>
-    </td>
-    <td>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign-web-learn/tutorials/messages-and-deliveries/create-an-email-delivery">Email creation tutorial video</a><br/>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/create-email">Email creation documentation</a><br/>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/email-design/get-started-email-designer">Email designing documentation</a><br/>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign-web-learn/tutorials/messages-and-deliveries/preview-and-proof-an-email-delivery">Email preview and proof tutorial video</a>
-    </td>
-    <td>
-        <div></div>
-    </td>
-  </tr>
-  <tr style="border: 1;">
-    <td>
-        <div>Send SMS</div>
-    </td>
-    <td>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/sms/gs-sms">SMS documentation</a><br/>
-    </td>
-    <td>
-        <div></div>
-    </td>
-  </tr>
-  <tr style="border: 1;">
-    <td>
-        <div>Send push notification</div>
-    </td>
-    <td>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/push/gs-push">Push notification documentation</a><br/>
-        Rich push documentation:<br/>
-        - <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/push/rich-push/rich-push">For Android</a><br/>
-        - <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/push/rich-push/rich-push-ios">For iOS</a><br/>
-    </td>
-    <td>
-        <div></div>
-    </td>
-  </tr>
-  <tr style="border: 1;">
-    <td>
-        <div>Send direct mail</div>
-    </td>
-    <td>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/direct-mail/gs-direct-mail">Direct mail documentation</a><br/>
-    </td>
-    <td>
-        <div></div>
-    </td>
-  </tr>
-  <tr style="border: 1;">
-    <td>
-        <div>Create landing page</div>
-    </td>
-    <td>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/get-started-lp">Landing page documentation</a><br/>
-    </td>
-    <td>
-        <div></div>
-    </td>
-  </tr>
-  <tr style="border: 1;">
-    <td>
-        <div>Use reporting</div>
-    </td>
-    <td>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/gs-reports">Reporting documentation</a><br/>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/delivery-report/delivery-reports">Delivery reports documentation</a><br/>
-        <a href="https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/reporting/get-started-reporting">Dynamic reporting documentation</a><br/>
-    </td>
-    <td>
-        <div></div>
-    </td>
-  </tr>
-</table>
-
-## Administrator documentations table
-
-<table style="table-layout:fixed">
-  <tr style="border: 1;">
-    <td align="center"><strong>Activity</strong></td>
-    <td align="center"><strong>Documentation link</strong></td>
-    <td align="center"><strong>Notes</strong></td>
-  </tr>
-  <tr style="border: 1;">
-    <td>
-        <div>Understand general architecture</div>
-    </td>
-    <td>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/general-architecture">Global principles documentation</a><br/>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/fda-deployment">Campaign FDA deployment documentation</a><br/>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment">Enterprise FFDA deployment documentation</a><br/>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/ac-components">Campaign components and processes documentation</a>
-    </td>
-    <td>
-        <div></div>
-    </td>
-  </tr>
-  <tr style="border: 1;">
-    <td>
-        <div>Know implementation steps</div>
-    </td>
-    <td>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/implement/implement">Campaign implementation guidelines documentation</a><br/>
-    </td>
-    <td>
-        <div></div>
-    </td>
-  </tr>
-  <tr style="border: 1;">
-    <td>
-        <div>Install client console</div>
-    </td>
-    <td>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign-learn/tutorials/getting-started/install-and-set-up-the-adobe-campaign-client-console">Install and setup tutorial video</a><br/>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/connect">Client console installation documentation</a><br/>
-    </td>
-    <td>
-        <div></div>
-    </td>
-  </tr>
-  <tr style="border: 1;">
-    <td>
-        <div>Administate environment</div>
-    </td>
-    <td>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/connect#create-your-connection">Connection to the application server documentation</a><br/>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/privacy/security ">Security best practices</a><br/>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions">User permissions documentation</a><br/>
-        <a href="https://experienceleague.adobe.com/en/docs/control-panel-learn/tutorials/control-panel-overview">Control panel tutorials</a>
-    </td>
-    <td>
-        <div></div>
-    </td>
-  </tr>
-  <tr style="border: 1;">
-    <td>
-        <div>Discover console client interface</div>
-    </td>
-    <td>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign-learn/tutorials/getting-started/explore-the-adobe-campaign-user-interface">Console client interface tutorial video</a><br/>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui">Client console interface documentation</a><br/>
-    </td>
-    <td>
-        <div></div>
-    </td>
-  </tr>
-  <tr style="border: 1;">
-    <td>
-        <div>Set up user interface</div>
-    </td>
-    <td>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings">User interface settings documentation</a><br/>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/conf/custom-fields">Custom fields configuration documentation</a><br/>
-    </td>
-    <td>
-        <div></div>
-    </td>
-  </tr>
-  <tr style="border: 1;">
-    <td>
-        <div>Understand data model creation</div>
-    </td>
-    <td>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/datamodel">Data model documentation</a><br/>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas">Schemas creation documentation</a><br/>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/forms">Input forms creation documentation</a>
-    </td>
-    <td>
-        <div></div>
-    </td>
-  </tr>
-  <tr style="border: 1;">
-    <td>
-        <div>Understand data management</div>
-    </td>
-    <td>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/workflows">Workflows documentation</a><br/>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/import">Import data documentation</a><br/>
-    </td>
-    <td>
-        <div></div>
-    </td>
-  </tr>
-  <tr style="border: 1;">
-    <td>
-        <div>About delivery management</div>
-    </td>
-    <td>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies">Typology rules documentation</a><br/>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates">Campaign template documentation</a><br/>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign-learn/tutorials/sending-messages/configure-and-manage-subscription-services">Subscription services tutorial video</a><br/>
-    </td>
-    <td>
-        <div></div>
-    </td>
-  </tr>
-  <tr style="border: 1;">
-    <td>
-        <div>Manage Adobe Campaign integrations</div>
-    </td>
-    <td>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/integrations/integration">Campaign connection to other solutions documentation</a><br/>
-        Integration with:<br/>
-        - <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-aa">Adobe Analytics</a><br/>
-        - <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-triggers">Adobe Experience Cloud triggers</a><br/>
-        - <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-aem">Adobe Experience Manager</a><br/>
-        - <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-aep/ac-aep">Adobe Experience Platform</a><br/>
-        - <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-ajo">Adobe Journey Optimizer</a><br/>
-        - <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-at">Adobe Target</a><br/>
-        - <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-workfront">Adobe Workfront</a><br/>
-    </td>
-    <td>
-        <div></div>
-    </td>
-  </tr>
-  <tr style="border: 1;">
-    <td>
-        <div>Use transactional messages</div>
-    </td>
-    <td>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional">Transactional messages documentation</a><br/>
-    </td>
-    <td>
-        <div></div>
-    </td>
-  </tr>
-  <tr style="border: 1;">
-    <td>
-        <div>Use reporting</div>
-    </td>
-    <td>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/gs-reporting">Reporting configuration documentation</a><br/>
-    </td>
-    <td>
-        <div></div>
-    </td>
-  </tr>
-</table>
 
 ## Deprecated items
 
