@@ -6,9 +6,13 @@ description: Learn how to transition smoothly to Adobe Campaign v8
 # Transition from Adobe Campaign Standard to Adobe Campaign v8
 
 ## Introduction
-This is a guide for Adobe Campaign Standard customers about the transition to Adobe Campaign v8. 
 
-Adobe Campaign v8 brings significant infrastructure and performance for enterprise scale. It provides robust support for cross-channel campaign management, and communicates with other Adobe solutions, including Adobe Experience Platform.
+This guide is designed for Adobe Campaign Standard customers transitioning to Adobe Campaign v8. Adobe Campaign v8 introduces major improvements in infrastructure and performance, tailored for enterprises that require scalable and efficient campaign management solutions.
+
+With Adobe Campign v8, users benefit from enhanced support for managing cross-channel campaigns thanks to powerful features adapted to marketing 
+usage. This version integrates smoothly with other Adobe solutions, including Adobe Experience Platform, enabling users to leverage a unified ecosystem for their marketing goals.
+
+In this guide, you can find information on the features and capabilities of Adobe Campaign v8, along with documentation tables, to ensure a successful transition from Adobe Campaign Standard.
 
 ## What's new?
 
@@ -18,56 +22,59 @@ Get a glimpse of what you get with Adobe Campaign v8!
 
 * **Web User Interface**
 
-Adobe Campaign v8 is available both with client console and web user interface. With the client console, Adobe Campaign v8 has a Web User Interface that will give a better experience and easier adoption to Adobe Campaign Standard users.
+Adobe Campaign v8 offers both a client console and a web user interface, catering to different user preferences and needs. The client console provides a powerful desktop application experience, while the web user interface is designed to be intuitive and accessible, making it an ideal choice for marketers familiar with Adobe Campaign Standard. 
 
-[Learn more about Adobe Campaign Web User Interface](v8/campaign-web-home.md)
+The web user interface shares many similarities with Adobe Campaign Standard, although some terminologies may differ. 
+
+You can [learn more about Adobe Campaign Web User Interface here](v8/campaign-web-home.md).
 
 ![](assets/home.png){zoomable="yes"}
 
 
 * **Performance**
 
-Adobe Campaign v8 can leverage cloud scale database technologies and dramatically improves its performance. It brings the concept of Full Federated Data Access (FFDA): all data is now remote on the Cloud Database.
+Adobe Campaign v8 takes advantage of advanced cloud-scale database technologies, resulting in significantly improved performance and efficiency. It introduces the concept of Full Federated Data Access (FFDA), where all data is now securely stored on the Cloud Database.
 
-This redesigned architecture allows :
+This redesigned architecture offers several key benefits :
 
-* *More Storage*: Up to **6TB in total database storage** across production and staging instances
-* *More Speed and Scale*
-    * Increase batch throughput: up to **15M/h**
-    * Increase transactional throughput: up to **180K/h**
-* *Snowflake via FDA*
-    * Permit offload high-volume data 
-    * Increase storage, faster segmentations, queries, reports and deliveries
+* *Increased Storage*: Adobe Campaign v8 provides up to **6TB** in total database storage across production and staging instances, accomodating the needs of large-scale enterprises and complex campaign strategies
+* *Enhanced Speed and Scale* : The system now supports a substantial increase in processing capabilities, with batch processing throughput reaching up to **15 million operations per hour** and transactional throughput of up to **180.000 operations per hour**.
+* *Snowflake via FDA* : Integration with Snowflake through Federated Data Access enables the offloading of high-volume data, optimizing performance and resource utilization. This results, with increased storage capacity, in faster segmentations, queries, reports and deliveries, allowing timely execution of marketing strategies.
+
+Overall, Adobe Campaign v8's robust architecture provides a powerful foundation for managing extensive and complex marketing campaigns with enhanced speed, storage, and efficiency.
 
 ### New features on Adobe Campaign v8
 
 * **Rich push**
 
-Adobe Campaign v8 can send rich push notifications.  
+Adobe Campaign v8 offers the capability to send rich push notifications, which can capture users' attention and encourage them to take action. These notifications can include a variety of elements such as text, images, buttons, countdown timers, sounds, etc.
 
 ![](v8/push/assets/rich_push.png){zoomable="yes"}
 
-You can define your content using the given templates. According to your customer system, you can design your push accordingly :
+To facilitate the creation of these rich notifications, Adobe Campaign v8 provides various templates that enable you to design and customize the content of complex notifications, such as carousels or timers.
+
+You can tailor your notifications based on the customer's system :
 
 * For [Android](v8/push/rich-push.md) users
 
-* For [iOs](v8/push/rich-push.md)
+* For [iOs](v8/push/rich-push.md) users
 
-Push notifications are essential for reaching out to your mobile app users, even when they're not actively using your app.
+Push notifications are a crucial tool for engaging mobile app users, allowing you to reach them even when they are not actively using your app.
 
-* **Adobe Experience Manager as a Cloud Services**
+* **Adobe Experience Manager as a Cloud Service**
 
-Adobe Campaign v8 is natively integrated with Adobe Experience Manager as a Cloud Services. It helps you provide your customers with personalized, content-led experiences. 
+Adobe Campaign v8 is seamlessly integrated with Adobe Experience Manager as a Cloud Service, enhancing your ability to deliver personalized and content-rich experiences to your customers. This native integration streamlines content management and leverages Adobe Experience Manager's robust capabilities to optimize your marketing efforts.
 
-This feature is available for :
-* *Asset management*: The left pane of the email designer gives you a way to find easily assets and customize it. 
+Here are the key feature enabled by this integration: 
+
+* *Asset management*: Within Adobe Campaign v8, the email designer provides a picker to access and manage assets. This feature simplifies the integration of elements from Adobe Experience Manager into your delivery, making content management more efficient. 
 [Learn more here](v8/campaign-web-home.md)
 ![](v8/integrations/assets/assets_6.png){zoomable="yes"}
 
-- *Email template import* : You can browse through AEM templates and select one to import to Campaign. 
+* *Email template import* : Adobe Campaign v8 enables you to browse and import email templates from Adobe Experience Manager directly into Campaign.  
 ![](v8/integrations/assets/aem_6.png){zoomable="yes"}
 
-Adobe Experience Manager as a Cloud Services provides cloud-native agility to accelerate time to value and is extensible to meet your unique business requirements.
+Adobe Experience Manager as a Cloud Service offers cloud-native agility, allowing you to accelerate your time to value and adapt to evolving business needs. This integration not only enhances your content management capabilities but also enables you to delivery more personalized and engaging experiences to your customers across all touchpoints.
 
 ### AI assistant (bêta)
 
