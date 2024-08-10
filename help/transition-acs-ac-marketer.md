@@ -5,6 +5,8 @@ description: Learn how to transition smoothly to Adobe Campaign v8 for a Markete
 
 # Transition to Adobe Campaign v8 - Marketer experience
 
+The table below provides essential documentation and resources for marketers using Adobe Campaign v8, helping you navigate and and make full use of its features.
+
 ## Marketer documentations table
 
 <table style="table-layout:fixed">
