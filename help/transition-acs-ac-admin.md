@@ -5,6 +5,8 @@ description: Learn how to transition smoothly to Adobe Campaign v8 for a Adminis
 
 # Transition to Adobe Campaign v8 - Administrator experience
 
+The table below provides essential documentation and resources for administrators using Adobe Campaign v8, assisting you in managing and optimizing its features.
+
 ## Administrator documentations table
 
 <table style="table-layout:fixed">

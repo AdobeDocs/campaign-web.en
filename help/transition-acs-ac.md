@@ -68,10 +68,11 @@ Adobe Campaign v8 is seamlessly integrated with Adobe Experience Manager as a Cl
 Here are the key feature enabled by this integration: 
 
 * *Asset management*: Within Adobe Campaign v8, the email designer provides a picker to access and manage assets. This feature simplifies the integration of elements from Adobe Experience Manager into your delivery, making content management more efficient. 
-[Learn more here](v8/campaign-web-home.md)
+[Learn more about Asset management](v8/integrations/aem-assets.md)
 ![](v8/integrations/assets/assets_6.png){zoomable="yes"}
 
 * *Email template import* : Adobe Campaign v8 enables you to browse and import email templates from Adobe Experience Manager directly into Campaign.  
+[Learn more about Email template import](v8/integrations/aem-content.md)
 ![](v8/integrations/assets/aem_6.png){zoomable="yes"}
 
 Adobe Experience Manager as a Cloud Service offers cloud-native agility, allowing you to accelerate your time to value and adapt to evolving business needs. This integration not only enhances your content management capabilities but also enables you to delivery more personalized and engaging experiences to your customers across all touchpoints.
@@ -96,7 +97,9 @@ Adobe Campaign v8 has AI assistant available for [Email](v8/email/generative-ema
 
 Adobe Campaign v8 is available as a Managed Cloud Service, providing proactive oversight, timely alerting, and service governance. Adobe Managed Cloud Service provides marketers with a more agile, secure and scalable cross-channel campaign management solution with a low total cost of ownership. The new offering combines services with proactive oversight and timely alerting.
 
-The managed services approach enables marketers to take advantage of the operational scale and economics of cloud infrastructure without the need for heavy support from internal IT resources. Adobe consulting and implementation teams work with you to assess your marketing plans, existing practices, data requirements, and messaging volume, and then they recommend the most appropriate service, support, and deliverability packages. The Adobe Campaign Managed Cloud Services team can then monitor and report on campaign performance, brand reputation, customer experience metrics, and more.
+The managed services approach enables marketers to take advantage of the operational scale and economics of cloud infrastructure without the need for heavy support from internal IT resources. 
+
+Adobe consulting and implementation teams work with you to assess your marketing plans, existing practices, data requirements, and messaging volume, and then they recommend the most appropriate service, support, and deliverability packages. The Adobe Campaign Managed Cloud Services team can then monitor and report on campaign performance, brand reputation, customer experience metrics, and more.
 
 Read out this whitepaper to [learn more about the business value of Adobe Campaign Managed Cloud Services](https://experienceleague.adobe.com/docs/campaign/assets/IDC-Report-BusinessValueOfAdobeCampaign.pdf?lang=en).
 
@@ -160,34 +163,35 @@ Here are some terminology differences between Campaign Standard and the Campaign
   </tr>
 </table>
 
-### Marketing experiences
-
-[Marketer documentations table](transition-acs-ac-marketer.md)
+### Marketer experiences
 
 * **The User Interface**
 
-All the data from Adobe Campaign Standard is imported in Adobe Campaign v8. 
+All of your data from Adobe Campaign Standard is imported in Adobe Campaign v8, ensuring a smooth transition with minimal disruption to your ongoing operations. 
 
-You can use your credentials, and connect to your instance. 
-You can find your profiles and your workflows. 
+You can continue to use your existing credentials to log in and connect to your new Adobe Campaign v8 instance. Once logged in, you can find all your profiles and workflows being migrated, allowing you to continue to work on your campaigns. 
 
-The real difference is in the user interface. You can find here the change here :
+The primary difference is in the user interface. Below a comparison of the same workflow in the 2 interfaces :
 
 ![](assets/transition_workflow.png){zoomable="yes"}
 
 [Learn more about the Web User Interface of Adobe Campaign v8](v8/get-started/user-interface.md).
 
-### Administrator experiences
+For guidance on using Adobe Campaign v8 as a marketer, please refer to the [Marketer documentations table](transition-acs-ac-marketer.md).
 
-[Administrator documentations table](transition-acs-ac-admin.md)
+### Administrator experiences
 
 * **The client console**
 
-The big difference for administrators is the use of the client console. It is a native application which communicates with the Adobe Campaign application server. Campaign client console centralizes all capabilities and settings. It is synchronized with the Campaign Web User Interface.
+The major change for administrators is the introduction of the client console, the native application which communicates with the Adobe Campaign application server. 
+
+The Campaign client console centralizes all capabilities and settings. It is stays synchronized with the Campaign Web User Interface, ensuring consitency acrouss both environments.
 
 ![](assets/client_console.png){zoomable="yes"}
 
 [Learn more about the client console user interface of Adobe Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui#ui-access).
+
+For guidance on using Adobe Campaign v8 as an administrator, please refer to the [Administrator documentations table](transition-acs-ac-admin.md).
 
 ## Migration video
 
@@ -200,4 +204,6 @@ https://adobe-my.sharepoint.com/personal/ssahai_adobe_com/_layouts/15/stream.asp
 
 ## Deprecated items
 
-https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features 
+Adobe constantly evaluates product capabilities to identify older features that should be replaced with more modern alternatives to improve overall customer value, always under careful consideration of backward compatibility.
+
+Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features).
