@@ -209,4 +209,8 @@ breadcrumb-title: Campaign Web User Interface
   + [Manage templates with Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
 + Configuration {#conf}
   + [Configure custom fields](administration/custom-fields.md)
++ Transition from Adobe Campaign Standard {#acs}
+  + [From Adobe Campaign Standard to Adobe Campaign v8](../transition-acs-ac.md)
+  + [Marketer experience](../ac-marketer.md)
+  + [Administrator experience](../ac-admin.md)
 + [Campaign v8 (console) documentation >](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)
