@@ -1,11 +1,12 @@
 ---
-title: Transition from Adobe Campaign Stand to Adobe Campaign v8 - Marketer experience
-description: Learn how to transition smoothly to Adobe Campaign v8 for a Marketer user
+title: Adobe Campaign v8 - Marketer experience
+description: Have an overview of the activities in Adobe Campaign v8 for a Marketer user
 ---
 
-# Transition to Adobe Campaign v8 - Marketer experience
+# Adobe Campaign - Marketer experience
 
-The table below provides essential documentation and resources for marketers using Adobe Campaign v8, helping you navigate and and make full use of its features.
+The table below provides essential documentation and resources for marketers using Adobe Campaign v8, helping you navigate and make full use of its features.
+Most activities for marketing user are on the web user interface.
 
 ## Marketer documentations table
 

@@ -177,7 +177,7 @@ The primary difference is in the user interface. Below a comparison of the same 
 
 [Learn more about the Web User Interface of Adobe Campaign v8](v8/get-started/user-interface.md).
 
-For guidance on using Adobe Campaign v8 as a marketer, please refer to the [Marketer documentations table](transition-acs-ac-marketer.md).
+For guidance on using Adobe Campaign v8 as a marketer, please refer to the [Marketer documentations table](ac-marketer.md).
 
 ### Administrator experiences
 
@@ -191,7 +191,7 @@ The Campaign client console centralizes all capabilities and settings. It is sta
 
 [Learn more about the client console user interface of Adobe Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui#ui-access).
 
-For guidance on using Adobe Campaign v8 as an administrator, please refer to the [Administrator documentations table](transition-acs-ac-admin.md).
+For guidance on using Adobe Campaign v8 as an administrator, please refer to the [Administrator documentations table](ac-admin.md).
 
 ## Migration video
 
