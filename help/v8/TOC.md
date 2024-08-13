@@ -21,7 +21,8 @@ breadcrumb-title: Campaign Web User Interface
   + [Discover the interface](get-started/user-interface.md)
   + [Browse and filter lists](get-started/list-filters.md)
   + [Work with predefined filters](get-started/predefined-filters.md)
-  + [Access and permissions](get-started/permissions.md)
+  + [Work with folders](get-started/work-with-folders.md)
+  + [Permissions](get-started/permissions.md)
   + [Campaign Web and Client console](get-started/capability-matrix.md)
   + [From Campaign Standard to v8](rn/acs-migration.md)
   + [AI-powered contextual help](get-started/using-ai.md)
@@ -31,26 +32,7 @@ breadcrumb-title: Campaign Web User Interface
   + [Use delivery templates](msg/delivery-template.md)
   + Emails {#email}
     + [Create your first email](email/create-email.md)
-    + Define email content {#content}
-      + [Configure the email content](email/edit-content.md)
-      + Start shaping your email {#start-design}
-        + [Get started with the Email Designer](email/get-started-email-designer.md)
-        + [Start from scratch ](email/create-email-content.md)
-        + [Import your email content](email/existing-content.md)
-        + [Code your own content](email/code-content.md)
-        + [Use email content templates](email/use-email-templates.md)
-      + Design your content {#design-content}
-        + [Use content components](email/content-components.md)
-        + [Add links and track messages](email/message-tracking.md)
-        + [Add a link to the mirror page](email/mirror-page.md)
-        + [Add a preheader](email/preheader.md)
-        + [Generate the text version](email/text-version-email.md)
-      + Style your content {#style}
-        + [Get started with email style](email/get-started-email-style.md)
-        + [Edit background settings](email/backgrounds.md)
-        + [Adjust vertical alignment and padding](email/alignment-and-padding.md)
-        + [Define a style for links](email/styling-links.md)
-        + [Add inline styling attributes](email/inline-styling.md)
+    + [Configure the email content](email/edit-content.md)
     + Send and monitor the email {#monitor}
       + [Prepare and send an email](monitor/prepare-send.md)
       + [Send using multiple waves](advanced-settings/send-using-waves.md)
@@ -59,10 +41,10 @@ breadcrumb-title: Campaign Web User Interface
   + Push notifications {#push}
     + [Get started with push notifications](push/gs-push.md)
     + [Create a push notification delivery](push/create-push.md)
-    + [Design a push delivery](push/content-push.md)
     + Rich push {#rich-push}
       + [Design an Android rich push delivery](push/rich-push.md)
       + [Design an iOS rich push delivery](push/rich-push-ios.md)
+    + [Design a push delivery](push/content-push.md)
     + [Preview and send a push delivery](push/send-push.md)
   + SMS {#sms}
     + [Get started with SMS deliveries](sms/gs-sms.md)
@@ -103,6 +85,25 @@ breadcrumb-title: Campaign Web User Interface
       + [Create and edit content fragments](content/create-fragment.md)
       + [Use visual fragments in your emails](content/use-visual-fragments.md)
       + [Use expression fragments in the expression editor](content/use-expression-fragments.md)
+  + Design emails {#email-design}
+    + [Get started with the Email Designer](email/get-started-email-designer.md)
+    + Start shaping your email {#start-design}
+      + [Start from scratch ](email/create-email-content.md)
+      + [Import your email content](email/existing-content.md)
+      + [Code your own content](email/code-content.md)
+      + [Use email content templates](email/use-email-templates.md)
+    + Design your content {#design-content}
+      + [Use content components](email/content-components.md)
+      + [Add links and track messages](email/message-tracking.md)
+      + [Add a link to the mirror page](email/mirror-page.md)
+      + [Add a preheader](email/preheader.md)
+      + [Generate the text version](email/text-version-email.md)
+    + Style your content {#style}
+      + [Get started with email style](email/get-started-email-style.md)
+      + [Edit background settings](email/backgrounds.md)
+      + [Adjust vertical alignment and padding](email/alignment-and-padding.md)
+      + [Define a style for links](email/styling-links.md)
+      + [Add inline styling attributes](email/inline-styling.md)
 + Landing pages {#landing-pages}
   + [Get started with landing pages](landing-pages/get-started-lp.md)
   + [Create and publish a landing page](landing-pages/create-lp.md)
@@ -127,6 +128,7 @@ breadcrumb-title: Campaign Web User Interface
     + [Build a one-time audience](audience/one-time-audience.md)
     + [Load an email audience from a file](audience/file-audience.md)
     + [Set a control group](audience/control-group.md)
+    + [Add a trap group](audience/trap-group.md)
   + Work with subscription services {#work-with-services}
     + [Create and manage subscription services](audience/manage-services.md)
     + [Manage subscribers](audience/manage-subscribers.md)
@@ -207,5 +209,4 @@ breadcrumb-title: Campaign Web User Interface
   + [Manage templates with Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
 + Configuration {#conf}
   + [Configure custom fields](administration/custom-fields.md)
-  + [Create and Manage a Folder](administration/create-manage-folder.md)
 + [Campaign v8 (console) documentation >](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)

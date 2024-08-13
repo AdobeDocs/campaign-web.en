@@ -7,6 +7,12 @@ exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
 # Get started with content fragments {#gs-fragments}
 
 >[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="Content fragments"
+>abstract="You can now create and use content fragments. A content fragment is a reusable component that can be referenced in one or more messages. When modifying a fragment, every content using it is updated."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
+
+>[!CONTEXTUALHELP]
 >id="acw_fragments_menu"
 >title="Define your own content fragments"
 >abstract="A content fragment is a reusable component that can be referenced in one or more messages across campaigns. This capability is used to prebuild multiple custom content blocks that can be used by marketing users to quickly assemble contents in an improved design process. There are two types of content fragments: visual fragments, available in the email designer, and expression fragments in the expression editor."
@@ -17,8 +23,13 @@ A content fragment is a reusable component that can be referenced in one or more
 
 Two types of fragments are available:
 
-* **Visual fragments** are pre-defined visual blocks that you can reuse across multiple [email deliveries](../email/get-started-email-designer.md), or in [content templates](../email/use-email-templates.md).
 * **Expression fragments** are pre-defined expressions that are available from a dedicated entry in the expression editor. Campaign comes with a set of pre-defined content blocks which contain a specific rendering that you can insert into your deliveries. For example, you can add a logo, a greeting message, or a link to the mirror page of the message. You can also create your own expression fragments to suit your needs.
+
+* **Visual fragments** are pre-defined visual blocks that you can reuse across multiple [email deliveries](../email/get-started-email-designer.md), or in [content templates](../email/use-email-templates.md).
+
+    >[!AVAILABILITY]
+    >
+    >This capability is in Limited Availability (LA). It is restricted to customers migrating **from Adobe Campaign Standard to Adobe Campaign v8**, and cannot be deployed on any other environment.
 
 ## Let's dive deeper
 

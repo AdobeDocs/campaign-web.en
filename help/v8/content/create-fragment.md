@@ -46,6 +46,10 @@ To create a content fragment from scratch, follow the steps below.
 1. Choose the type of fragment you want to create: **Visual fragment** or **Expression fragment**. [Learn the differences between visual and expression fragments](fragments.md)
 
     ![](assets/fragment-create.png)
+
+    >[!AVAILABILITY]
+    >
+    >Visual fragments are in Limited Availability (LA). They are restricted to customers migrating **from Adobe Campaign Standard to Adobe Campaign v8**, and cannot be deployed on any other environment.
     
 1. Click the **Create** button.
 

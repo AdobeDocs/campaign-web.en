@@ -96,7 +96,7 @@ After you initiate the delivery, the message is automatically sent on the exact 
 
 ![](assets/push_create_3.png){zoomable="yes"}
 
-Learn more about delivery scheduling in [this section](../msg/gs-messages.md#gs-schedule)
+Learn more about delivery scheduling in [this section](../msg/gs-deliveries.md#gs-schedule)
 
 ## Delivery advanced settings {#adv-push}
 

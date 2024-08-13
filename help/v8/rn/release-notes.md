@@ -12,6 +12,43 @@ exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 
 Adobe Campaign Web user interface releases operate on a continuous delivery model which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
+## July release notes {#24-7-release}
+
+**Release date**: July 30-31, 2024
+
+The following features and improvements are available starting July release.
+
+### Content Fragments {#24-7-1}
+
+You can now create and use content fragments. A content fragment is a reusable component that can be referenced in one or more messages. When modifying a fragment, every content using it is updated. This functionality allows to prebuild multiple custom content blocks that can be used by marketing users to quickly assemble message contents in an improved design process.
+
+Two types of fragments are available:
+
+* **Expression fragments** are pre-defined expressions that are available from a dedicated entry in the expression editor.
+* **Visual fragments** are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](../content/fragments.md)
+
+    >[!AVAILABILITY]
+    >
+    >**Visual fragments** are in Limited Availability (LA). This capability is restricted to customers migrating **from Adobe Campaign Standard to Adobe Campaign v8**, and cannot be deployed on any other environment.
+
+### Trap group {#24-7-2}
+
+A  **Trap group** is a list of seed addresses. It is used to include specific addresses in your deliveries, and then target profiles who do not match the defined target criteria. This way, recipients who are out of the delivery audience can receive the delivery, as any other target recipient would. You can use seed addresses when sending proofs, or to protect your mailing list. [Learn more](../audience/trap-group.md)
+
+### Rich push notification templates {#24-7-3}
+
+You can now send rich push notifications. A rich push notification is an enhanced form of mobile notification that goes beyond simple text messages by incorporating multimedia elements such as images, interactive buttons, or other rich media content. With this version, a set of templates for rich push notifications are now available for your iOS and Android apps. 
+
+[Learn more](../push/rich-push.md)
+
+>[!AVAILABILITY]
+>
+>This capability requires an update to Campaign v8.6.3 <!--or v8.7.2-->. Learn more in Campaign v8 Client console [release notes](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/release-notes){target="_blank"}.
+
+### Improvements {#improvements-24-7}
+
+**Folders management** - You can now manage permissions and restrictions on folders.
+
 ## June release notes {#24-6-release}
 
 **Release date**: June 18-19, 2024
@@ -48,22 +85,11 @@ The new **Audit trail** capability provides a detailed and chronological record 
 
 You can now create links with another table in the **Enrichment** workflow activity. Use the new **Link definition** section in the activity parameters to create a link between the working table data and the Adobe Campaign database. For example, if you load data from a file which contains the account number, country and email of recipients, you can now create a link towards the country table in order to update this information in their profiles. [Read more](../workflows/activities/enrichment.md#create-links)
 
-<!--
-### Content fragments {#24-5-4}
-
-* You can now author, use, and save **visual fragments** to quickly assemble your emails and content templates. A fragment is a prebuilt reusable component that can be referenced in multiple emails across Adobe Campaign for an improved and accelerated design process. [Learn more](../email/fragments.md)
-
-* You can now author, use, and manage **expression fragments** to quickly build personalized content. A fragment is a prebuilt reusable component that can be referenced in multiple contents across Adobe Campaign for an improved and accelerated design process.-->
-
-
 ### General improvements {#improvements-24-5}
 
 * **Direct mail** - You can now leverage the expression editor to select the attributes to display in direct mail extraction files. [Read more](../direct-mail/content-direct-mail.md)
 
 * **Folder management** - You can now create a sub-folder of a different type than the parent folder. [Read more](../get-started/permissions.md#folders)
-
-
-<!--* **Execution options for workflows** - You can now define execution options for your workflows, such as the maximum duration, the affinity, or the time zone.-->
 
 * **Globalization** - As part of our ongoing effort to deliver a unified user experience, we harmonize the terminology used in the Adobe Experience Cloud products and apps. This affects the German term "Titel" which is changed to "Label" when it relates to the name of an object. The changes will be progressively rolled out in the UI and documentation.
 
@@ -119,22 +145,15 @@ Note that this feature is in **Limited Availability** (LA).
 ### General improvements {#improvements-24-4}
 
 The improvements below are available to all customers starting April release.
-<!--**Workflow - Copy/Paste into another tab**: -->
 
 * The **Load file** activity has been enhanced with several sections allowing you to upload a sample file, to manage errors and rejects, and delete uploaded files after the activity has been executed. [Read more](../workflows/activities/load-file.md)
 
 
 * You can now **copy/paste activities** from a workflow to another workflow from a different browser tab. [Read more](../workflows/orchestrate-activities.md#copy-activities-copy)
 
-<!--**Workflow - Execution options**: -->
-
 * All workflow activities now allow you to manage their **execution options**. This lets you define the activity's execution mode and behavior in case of errors. [Read more](../workflows/orchestrate-activities.md#execution-options-execution)
 
-<!-- **Workflow - Split Activity - Support Skipping Empty Transition**: -->
-
 * The "Do not activate the transition if the population is empty" option in the **Split activity** allows you to choose whether the workflow should transition to the next activity when the segment result is empty. [Read more](../workflows/activities/split.md)
-
-
 
 ## March release notes {#24-3-release}
 

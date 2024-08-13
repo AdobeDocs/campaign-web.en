@@ -42,6 +42,51 @@ If you have access to multiple environments, including Campaign Control Panel, c
 
 You are now connected to Campaign. Learn how to start using the user interface in [this page](user-interface.md).
 
+### Access control {#access-control}
+
+>[!CONTEXTUALHELP]
+>id="acw_explorer_permissions_create"
+>title="Permission required"
+>abstract="Your admin must grant you permission before you can create this object."
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_read_only"
+>title="This audience is read only"
+>abstract="You do not have permissions to edit this audience. If needed, contact your administrator to grant you access."
+
+>[!CONTEXTUALHELP]
+>id="acw_subscription_services_read_only"
+>title="This service is read only"
+>abstract="You do not have permissions to edit this service. If needed, contact your administrator to grant you access."
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_readonlyprofile"
+>title="Recipients read only profile"
+>abstract="You do not have permissions to edit this profike. If needed, contact your administrator to grant you access."
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_read_only"
+>title="This campaign is read only"
+>abstract="You do not have permissions to edit this campaign. If needed, contact your administrator to grant you access."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_read_only"
+>title="This delivery is read only"
+>abstract="You do not have permissions to edit this delivery. If needed, contact your administrator to grant you access."
+
+>[!CONTEXTUALHELP]
+>id="acw_wf_read_only"
+>title="This workflow is read only"
+>abstract="You do not have permissions to edit this workflow. If needed, contact your administrator to grant you access."
+
+Access control can restrict access to objects and data from main lists, such as deliveries, recipients, or worklows. These restrictions also apply in the Explorer navigation tree. In addition, you need permissions to create, delete, duplicate, and edit objects from the user interface.
+
+All permissions in Campaign Web are synched up with Campaign Client Console permissions. Only Campaign Administrators can define and modify user permissions. 
+
+As you are browsing Campaign Web user interface, you can access data, objects and capabilities depending on your permissions. For example, if you do not have access permissions to a folder, you cannot see it. Your permissions also affect objects and data management. Without Write permissions for a specific folder, you cannot create a delivery in that folder, even if you can see it in the user interface.
+
+You can learn how to [view and manage permissions here](permissions.md).
+
 ## Adobe Experience Cloud top navigation {#top-bar}
 
 Browse the top bar of the interface to:

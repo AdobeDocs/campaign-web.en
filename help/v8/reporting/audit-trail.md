@@ -86,11 +86,11 @@ To access your instance's **[!UICONTROL Audit trail]**:
 
 1. The **[!UICONTROL Audit entity]** window gives you more detailed information on the chosen entity such as:
 
-    * **[!UICONTROL Type]** : Workflow, Options, Deliveries or Schemas.
-    * **[!UICONTROL Entity]** : Internal name of your activities.
-    * **[!UICONTROL Modified by]** : Username of the last person who last modified this entity.
-    * **[!UICONTROL Action]** : Last action performed on this entity, either Created, Modified or Deleted.
-    * **[!UICONTROL Modification date]** : Date of the last action performed on this entity.
+    * **[!UICONTROL Type]**: Workflow, Options, Deliveries or Schemas.
+    * **[!UICONTROL Entity]**: Internal name of your activities.
+    * **[!UICONTROL Modified by]**: Username of the last person who last modified this entity.
+    * **[!UICONTROL Action]**: Last action performed on this entity, either Created, Modified or Deleted.
+    * **[!UICONTROL Modification date]**: Date of the last action performed on this entity.
 
     The code block gives you more information on what was changed exactly in your entity.
 

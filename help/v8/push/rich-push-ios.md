@@ -5,6 +5,10 @@ description: Learn how to design an iOS rich push notification delivery with Ado
 ---
 # Design an iOS rich push delivery {#rich-push}
 
+>[!IMPORTANT]
+>
+>Before designing a Rich Push Notification, you first need to configure your V2 connector. Refer to [this page](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application) for the detailed procedure.
+
 ## Define the content of the notification {#push-message}
 
 Once your push delivery is created, you can define its content using one of the following templates:

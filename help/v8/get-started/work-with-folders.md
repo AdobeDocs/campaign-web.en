@@ -1,0 +1,73 @@
+---
+audience: end-user
+title: Work with Folders
+description: Learn how to manage a folder in Adobe Campaign
+exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
+---
+# Work with folders {#folders}
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_properties"
+>title="Folder properties"
+>abstract="Folder properties"
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_security"
+>title="Folder security"
+>abstract="Folder security"
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_restrictions"
+>title="Folder restrictions"
+>abstract="Folder restrictions"
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_schedule"
+>title="Folder schedule"
+>abstract="Folder schedule"
+
+## About folders
+
+Folders are objects in Adobe Campaign that allow you to organize your components and data.
+
+You can create, rename, reorder, and move folders in the navigation tree. You can also delete them according to your rights. 
+
+  ![](assets/folders.png){zoomable="yes"}
+
+You can set up a folder type. For example: a folder of deliveries. 
+The icon of the folder will change according to this type.
+
+## Create a new folder
+
+To create a new folder in Adobe Campaign Web UI, follow these steps: 
+
+1. In **[!UICONTROL Explorer]**, go to the folder in which you want to create your new folder.
+Under the **[!UICONTROL ...]** menu, You have **[!UICONTROL Create new folder]**
+
+  ![](assets/folder_create.png){zoomable="yes"}
+
+When you create a new folder, by default, the folder type is the type of the folder parent. 
+In our example, we create a folder in the **[!UICONTROL Deliveries]** folder.
+
+  ![](assets/folder_new.png){zoomable="yes"}
+
+1. Change the type of your folder by clicking on the icon of Folder type if needed, and choose it in the list presented, as below: 
+
+  ![](assets/folder_type.png){zoomable="yes"}
+
+Set up the folder type by clicking on **[!UICONTROL Confirm]** button.
+
+If you want to create a folder with no specific type, choose **[!UICONTROL Generic Folder]** type.
+
+You can also [create and manage folders in Adobe Campaign console](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/folders-and-views).
+
+## Delete a folder
+
+>[!CAUTION]
+>
+>When deleting a folder, all data stored in the folder is also deleted.
+
+To delete a folder, select it in your **[!UICONTROL Explorer]** tree, and click on the **[!UICONTROL ...]** menu. 
+Choose **[!UICONTROL Delete folder]**.
+
+![](assets/folder_delete.png){zoomable="yes"}
