@@ -60,29 +60,23 @@ Most activities for administrator users are on the client console.
   </tr>
   <tr style="border: 1;">
     <td>
-        <div>Know implementation steps</div>
-    </td>
-    <td>
-        Learn how to adjust Adobe Campaign to the requirements of your company. Use those guidelines to structure and organize your implementation.<br/>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/implement/implement">Campaign implementation guidelines documentation</a><br/>
-    </td>
-    <td>
-        <div></div>
-    </td>
-  </tr>
-  <tr style="border: 1;">
-    <td>
-        <div>Administate environment</div>
+        <div>Administrate environment</div>
     </td>
     <td>
         Once the client console is installed, follow the steps in this documentation to create the connection to the application server.<br/>
         <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/connect#create-your-connection">Connection to the application server documentation</a><br/><br/>
-        Security practices are deeply ingrained into our internal software development and operations processes and tools and are rigorously followed by our cross-functional teams to prevent, detect, and respond to incidents in an expedient manner. Here are some security best practices.<br/>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/privacy/security">Security best practices</a><br/><br/>
-        As a product administrator, you can add users and grant access to Campaign.<br/>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions">User permissions documentation</a><br/><br/>
+        Adobe Campaign lets you define and manage the rights assigned to users. These permissions are defined by combining operator group permissions, named rights and permissions on folders.<br/>
+        <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions">User permissions documentation</a><br/><br/>
         The Adobe Campaign Control Panel allows Adobe Campaign administrators to monitor key assets and perform administrative tasks, such as managing the SFTP storage by instance, managing GPG keys, or subdomains and certificates.<br/>
-        <a href="https://experienceleague.adobe.com/en/docs/control-panel-learn/tutorials/control-panel-overview">Control panel tutorials</a>
+        <a href="https://experienceleague.adobe.com/en/docs/control-panel-learn/tutorials/control-panel-overview">Control panel tutorials</a><br/><br/>
+        Control Panel allows you to set up new connections to your instances by adding IP addresses ranges to the allow list.<br/>
+        <a href="https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access">IP allow listing documentation</a><br/><br/>
+        Subdomain configuration allows you to configure a sub-section of your domain (technically a "DNS zone") for use with Adobe Campaign.<br/>
+        <a href="https://experienceleague.adobe.com/en/docs/control-panel/using/subdomains-and-certificates/subdomains-branding">Subdomain delegation documentation</a><br/><br/>
+        In the Control Panel, you can interact with all SFTP servers that are connected to Campaign instances that you have access to.<br/>
+        <a href="https://experienceleague.adobe.com/en/docs/control-panel/using/sftp-management/about-sftp-management">SFTP management documentation</a><br/><br/>
+        In Adobe Campaign Web User Interface, the Audit trail feature provides users with full visibility into all modifications made to important entities within your instance, typically those that significantly impact a smooth operation of the instance.<br/>
+        <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/audit-trail">Audit trail documentation</a><br/>
     </td>
     <td>
         <div></div>
@@ -97,6 +91,18 @@ Most activities for administrator users are on the client console.
         <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings">User interface settings documentation</a><br/><br/>
         Custom fields are additional attributes added to the out-of-the-box schemas through the Adobe Campaign console. These custom fields are displayed in various screens, for example the details of a profile or a test profile.<br/>
         <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/conf/custom-fields">Custom fields configuration documentation</a><br/>
+    </td>
+    <td>
+        <div></div>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+        <div>Set up the branding data management</div>
+    </td>
+    <td>
+        Every company has brand guidelines that define both visual elements and technical details. Adobe Campaign helps you manage these guidelines centrally, so you can present a consistent brand image to your customers in everything you do, from logos in emails to the URLs and domains used in your campaigns.<br/>
+        <a href="https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/branding/branding-gs">Branding documentation</a><br/>
     </td>
     <td>
         <div></div>
@@ -127,7 +133,11 @@ Most activities for administrator users are on the client console.
         Use Adobe Campaign workflows to improve the speed and scale of every aspect of your marketing campaigns, from creating segments and preparing messages to delivery.<br/>
         <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/workflows">Workflows documentation</a><br/><br/>
         Campaign helps you add contacts to the Cloud database. You can load a file, schedule and automate multiple contact updates, collect data on the Web, or enter profile information directly into the recipient table.<br/>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/import">Import data documentation</a><br/>
+        <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/import">Import data documentation</a><br/><br/>
+        You can easily export your different reports to PDF or CSV format, which enables you to share, manipulate, or print them.<br/>
+        <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/export-reports">Export data documentation</a><br/><br/>
+        Quarantine is the way to manage the invalid addresses in deliveries.<br/>
+        <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/quarantine">Quarantine documentation</a><br/>
     </td>
     <td>
         <div></div>
@@ -151,6 +161,60 @@ Most activities for administrator users are on the client console.
   </tr>
   <tr style="border: 1;">
     <td>
+        <div>Working with templates</div>
+    </td>
+    <td>
+        Campaign templates contain pre-configured settings which can be reused for creating new campaigns. A set of built-in templates is available to help you get started.<br/>
+        <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaigns/manage-campaigns#manage-campaign-templates">Campaign templates documentation</a><br/><br/>
+        For an accelerated and improved design process, you can create delivery templates to easily reuse custom content and settings across your campaigns. This functionality enables you to standardize the creative look and feel, in order to be quicker in executing and launching campaigns.<br/>
+        <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/delivery-template">Delivery template documentation</a><br/><br/>
+        Workflow templates contain pre-configured settings and activities which can be reused for creating new workflows.<br/>
+        <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/create-workflow/create-workflow">Workflow template documentation</a><br/><br/>
+        Learn how created dynamic content blocks and how to use them to personalize the content of your email delivery.
+        <a href="https://experienceleague.adobe.com/en/docs/campaign-learn/tutorials/content-creation/email/personalize-using-dynamic-content-blocks">Dynamic content block template documentation</a><br/><br/>
+        Once you designed your landing page content, you can save it for future reuse.
+        <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/lp-templates">Landing page template documentation</a><br/><br/>
+        A content fragment is a reusable component that can be referenced in one or more messages. When modifying a fragment, every content using it is updated.
+        <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments">Content fragments documentation</a><br/><br/>
+        Each event can trigger a personalized message. For this to happen, you need to create a message template to match each event type. Templates contain the necessary information for personalizing the transactional message.
+        <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional-template">Transactional messaging template documentation</a><br/><br/>
+        Using a workflow template is a best practice if you need to regularly import files with the same structure.
+        <a href="https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow">Import template documentation</a><br/><br/>
+    </td>
+    <td>
+        <div></div>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+        <div>Use subscription services</div>
+    </td>
+    <td>
+        Use Adobe Campaign Web to manage and create your services such as newsletters, and to check the subscriptions or unsubscriptions to these services.<br/>
+        <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/work-with-services/manage-services">Subscription servies documentation</a><br/>
+    </td>
+    <td>
+        <div></div>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+        <div>Send deliveries</div>
+    </td>
+    <td>
+        Learn how to create your first targeted email. In this use case, you schedule the sending of an email to Silver and Gold loyalty members on a specific date.<br/>
+        <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/create-email">Create your first email</a><br/><br/>
+        SMS deliveries provide a practical and efficient way to send text messages to your customers' mobile devices. With this feature, you can create, personalize, and preview text-based messages for effective communication.<br/>
+        <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/sms/gs-sms">Get started with SMS deliveries</a><br/><br/>
+        Direct mail is an offline channel that allows you to produce files to mass deliver personalized letters to your customers such as postcards, flyers, or catalogs.<br/>
+        <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/direct-mail/gs-direct-mail">Get started with Direct Mail deliveries</a><br/>
+    </td>
+    <td>
+        <div></div>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
         <div>Manage Adobe Campaign integrations</div>
     </td>
     <td>
@@ -167,7 +231,7 @@ Most activities for administrator users are on the client console.
         - <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-workfront">Adobe Workfront</a>: Speed up campaign delivery by pairing Campaign with Adobe Workfront. This integration make it easy for cross-channel teams to intake, collaborate, and execute.<br/>
     </td>
     <td>
-        <div></div>
+        <div>Analytics & Audience will be automated migration.</div>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -188,7 +252,9 @@ Most activities for administrator users are on the client console.
     </td>
     <td>
         Adobe Campaign provides a set of reporting tools<br/>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/gs-reporting">Reporting configuration documentation</a><br/>
+        <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/gs-reporting">Reporting configuration documentation</a><br/><br/>
+        Dynamic Reporting provides fully customizable and real-time reports to measure the impact of your marketing activities. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks.<br/>
+        <a href="https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/reporting/get-started-reporting">Dynamic reporting documentation</a><br/>
     </td>
     <td>
         <div></div>
