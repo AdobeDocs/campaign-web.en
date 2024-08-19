@@ -55,8 +55,10 @@ Some objects can only be created and managed in the client console. They can be 
 
 For more information on how to use Campaign v8 with its client console, refer to [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html){target="_blank"}.
 
+<!--
 ## How-to video {#video}
 
 Learn how to access and navigate the Campaign Web user interface and how to customize the inventory lists. Discover the AI powered Knowledge Assistant.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427278?quality=12)
+-->
