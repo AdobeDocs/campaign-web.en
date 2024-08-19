@@ -91,7 +91,7 @@ AI Assistant makes the creation and execution of marketing campaigns intuitive, 
 
 It provides variant of email templates and generates and re-generates images.
 
-Adobe Campaign v8 has AI assistant available for [Email](v8/email/generative-email.md), [SMS](v8/email/generative-sms.md), and [Push](v8/email/generative-push.md).
+Adobe Campaign v8 has AI assistant available for [Email](v8/email/generative-content.md), [SMS](v8/email/generative-sms.md), and [Push](v8/email/generative-push.md).
 
 ### Managed Services
 
