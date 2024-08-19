@@ -202,10 +202,12 @@ Most activities for administrator users are on the client console.
         <div>Send deliveries</div>
     </td>
     <td>
+        External accounts are used by technical processes such as technical workflows or campaign workflows. For example, when setting up a file transfer in a workflow or a data exchange with any other application (Adobe Target, Experience Manager, etc.), you need to select an external account.<br/>
+        <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/external-accounts">External account configuration</a><br/><br/>
         Learn how to create your first targeted email. In this use case, you schedule the sending of an email to Silver and Gold loyalty members on a specific date.<br/>
         <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/create-email">Create your first email</a><br/><br/>
-        SMS deliveries provide a practical and efficient way to send text messages to your customers' mobile devices. With this feature, you can create, personalize, and preview text-based messages for effective communication.<br/>
-        <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/sms/gs-sms">Get started with SMS deliveries</a><br/><br/>
+        SMS might be limited to sending short text messages with no formatting but its simplicity makes it a valuable communication channel.<br/>
+        <a href="https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol#sending-messages">SMS connector protocol and settings</a><br/><br/>
         Direct mail is an offline channel that allows you to produce files to mass deliver personalized letters to your customers such as postcards, flyers, or catalogs.<br/>
         <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/direct-mail/gs-direct-mail">Get started with Direct Mail deliveries</a><br/>
     </td>
