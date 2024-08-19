@@ -31,7 +31,7 @@ Use Campaign to:
 * **Integrate** email, mobile, online and offline channels into the customer journey
 * **Automate** the delivery of meaningful and timely messages and offers 
 
-## Discover Campaign Web use interface {#web}
+## Discover Campaign Web user interface {#web}
 
 Initially only available through a rich [client console](#ac-client), Campaign now provides a new web user interface (UI) with enhanced usability, accessibility, and a new design to significantly improve your user experience. This new modern UI simplifies marketing campaign design and delivery, and brings consistency, along with other Adobe solutions, including Adobe Experience Platform.
 
