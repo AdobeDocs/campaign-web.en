@@ -136,7 +136,6 @@ Once your delivery content has been defined, you can use profiles and test profi
 
     Dynamic Reporting provides fully customizable and real-time reports to measure the impact of your marketing activities. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks.
 
->[!ENDTABS]
 
 >[!BEGINTABS]
 
@@ -249,7 +248,5 @@ Transactional messaging (Message Center) is a Campaign module designed for manag
 **Use reporting**
 
 Adobe Campaign provides a set of reporting tools
-
-
 
 >[!ENDTABS]
