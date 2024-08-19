@@ -172,13 +172,13 @@ Most activities for administrator users are on the client console.
         <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/create-workflow/create-workflow">Workflow template documentation</a><br/><br/>
         Learn how created dynamic content blocks and how to use them to personalize the content of your email delivery.
         <a href="https://experienceleague.adobe.com/en/docs/campaign-learn/tutorials/content-creation/email/personalize-using-dynamic-content-blocks">Dynamic content block template documentation</a><br/><br/>
-        Once you designed your landing page content, you can save it for future reuse.
+        Once you designed your landing page content, you can save it for future reuse.<br/>
         <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/lp-templates">Landing page template documentation</a><br/><br/>
-        A content fragment is a reusable component that can be referenced in one or more messages. When modifying a fragment, every content using it is updated.
+        A content fragment is a reusable component that can be referenced in one or more messages. When modifying a fragment, every content using it is updated.<br/>
         <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments">Content fragments documentation</a><br/><br/>
-        Each event can trigger a personalized message. For this to happen, you need to create a message template to match each event type. Templates contain the necessary information for personalizing the transactional message.
+        Each event can trigger a personalized message. For this to happen, you need to create a message template to match each event type. Templates contain the necessary information for personalizing the transactional message.<br/>
         <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional-template">Transactional messaging template documentation</a><br/><br/>
-        Using a workflow template is a best practice if you need to regularly import files with the same structure.
+        Using a workflow template is a best practice if you need to regularly import files with the same structure.<br/>
         <a href="https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow">Import template documentation</a><br/><br/>
     </td>
     <td>
