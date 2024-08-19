@@ -47,7 +47,7 @@ Learn how to connect to Adobe Campaign Web in [this page](connect-to-campaign.md
 
 ## About Campaign client console {#ac-client}
 
-The Campaign client console is a browser-based application which is installed on your system. It uses the web services API to connect to your Campaign application server.
+The client console is designed for administrators and advanced users to perform their tasks. The Campaign client console is a browser-based application which is installed on your system. It uses the web services API to connect to your Campaign application server.
 
 Campaign data is stored in the application server. Data is available both from the client console and from Campaign Web user interface. For example, if you create a delivery template using the client console, it is also available in Campaign Web user interface. And if you create an email delivery in Campaign Web user interface, this delivery is also accessible from the client console.
 
