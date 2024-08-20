@@ -24,7 +24,11 @@ breadcrumb-title: Campaign Web User Interface
   + [Work with folders](get-started/work-with-folders.md)
   + [Permissions](get-started/permissions.md)
   + [Campaign Web and Client console](get-started/capability-matrix.md)
-  + [From Campaign Standard to v8](rn/acs-migration.md)
+  + Adoption guide {#adoption}
+    + [From Campaign Standard to v8](rn/acs-migration.md)
+    + [Start with Adobe Campaign v8 after migrating from Campaign Standard](../adoption/get-started/overview.md)
+    + [Get started for marketers](../adoption/get-started/marketers.md)
+    + [Get started for administrators and developers](../adoption/get-started/admin-developers.md)
   + [AI-powered contextual help](get-started/-using-ai.md)
 + Messages and deliveries {#msg}
   + [Get started with messages](msg/gs-messages.md)
