@@ -81,7 +81,7 @@ Use Adobe Campaign Web to manage and create your services such as newsletters, a
 
 ## Create and manage Cross-channel Campaigns and workflows
 
-![Campaign flow](/help/tutorial-get-started-with-acv8-migrating-from-acs/_assets/campaign-flow.png)
+![Campaign flow](_assets/campaign-flow.png)
 
 ### Create a campaign 
 
