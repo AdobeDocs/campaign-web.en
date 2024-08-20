@@ -210,7 +210,6 @@ breadcrumb-title: Campaign Web User Interface
 + Configuration {#conf}
   + [Configure custom fields](administration/custom-fields.md)
 + Transition from Adobe Campaign Standard {#acs}
-  + [Start](adoption/get-started/overview.md)
   + [From Adobe Campaign Standard to Adobe Campaign v8](../transition-acs-ac.md)
   + [Marketer experience](../ac-marketer.md)
   + [Administrator experience](../ac-admin.md)
