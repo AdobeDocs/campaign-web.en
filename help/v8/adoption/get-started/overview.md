@@ -20,13 +20,13 @@ This reference guide has been designed for users who migrated from Campaign Stan
 <table>
 <tr>
   <td>
-    <a href="get-started-for-marketers.md">
+    <a href="marketers.md">
       <img alt="Campaign Manager"src="./_assets/digital_marketing.jpeg"/>
     </a>
     <div>
   </td>
   <td>
-  <a href="get-started-for-administrators-developers.md">
+  <a href="admin-developers.md">
     <img alt="Administrator or developer" src="./_assets/admin.jpeg"/>
     </a>
     <div>
@@ -34,12 +34,12 @@ This reference guide has been designed for users who migrated from Campaign Stan
   </tr>
   <tr>
     <td>
-    <a href="get-started-for-marketers.md">
+    <a href="marketers.md">
     <strong>Marketer</strong>
     </a>
     </td>
     <td>
-      <a href="get-started-for-administrators-developers.md">
+      <a href="admin-developers.md">
       <strong>Administrator or Developer</strong>
       </a>
     </td>
