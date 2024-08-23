@@ -23,6 +23,16 @@ The main administration and configuration tasks are performed in the [Admin Cons
 
 For more information, see [Connect to Campaign with the client console](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/connect){target="_blank"}.
 
+## Discover the client console interface
+
+ Learn about the Adobe Campaign V8 user interface and how to navigate the main features with this tutorial video.
+
+ >[!VIDEO](https://video.tv.adobe.com/v/335375?quality=12&learn=on){transcript=true}
+ 
+        <a href="https://experienceleague.adobe.com/en/docs/campaign-learn/tutorials/getting-started/explore-the-adobe-campaign-user-interface">Console client interface tutorial video</a><br/><br/>
+        You can access to Adobe Campaign via its client console or its Web user interface. You can also use APIs to manage data and perform tasks in your Campaign platform.<br/>
+        <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui">Client console interface documentation</a><br/>
+
 ## Set up and manage access 
 
 Adobe Campaign lets you define and manage the rights assigned to users:
