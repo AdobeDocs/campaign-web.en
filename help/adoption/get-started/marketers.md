@@ -22,6 +22,7 @@ Learn how to access and navigate the Campaign Web User Interface and how to cust
 >[!VIDEO](https://video.tv.adobe.com/v/3427278?quality=12&learn=on){transcript=true}
 
 For more details, please refer to the documentation below :
+
 1. [Discover the Campaign Web User Interface](../../v8/get-started/user-interface.md)
 2. [Browse and Filter List](../../v8/get-started/list-filters.md)
 
@@ -48,6 +49,13 @@ In Adobe Campaign Web, a profile is a record stored in the database, serving as 
 1. [Create and manage test profiles](https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/work-with-profiles/test-profiles){target="_blank"}
 
 ### Manage audiences
+
+>[!AVAILABILITY]
+>
+>1- All audiences created via ACS query activity will get transformed into predefined filter in AC v8 during migration. AC also support query activity. 
+a. Read audience will get transformed to query activity with [predefined filter](https://experienceleague.adobe.com/en/docs/campaign-web/v8/query-database/build-query){target="_blank"}.
+b. Predefined filter will only take the latest value after audience migration to AC v8 (copy by reference). 
+2- File Type audiences in ACS will be migrated as list type without dimensions.
 
 Audiences are sets of profiles who share similar behaviors and/or characteristics. This collection of people can either be generated, selected, or loaded. Once created, audiences can be leveraged as the target population of your deliveries.
 
@@ -109,6 +117,11 @@ Adobe Campaign allows you to easily orchestrate your targeted marketing initiati
 
 ### Create a workflow
 
+>[!AVAILABILITY]
+>
+>Workflow execution [history and logs](../../v8/workflows/start-monitor-workflows.md){target="_blank"} are available in Adebe Campaign v8. 
+Historical logs for workflows executed on ACS instance will not be migrated to Adobe Campaign v8.  
+
 With workflows, you can orchestrate the full range of processes and tasks, improve the speed and scale of every aspect of your marketing campaigns, from creating segments and preparing messages to delivery. Plus, you can get your channels in sync with a single, easy-to-use interface for campaign orchestration.
 
 1. Understand how workflows work and how to create a targeting workflow.
@@ -125,6 +138,12 @@ With workflows, you can orchestrate the full range of processes and tasks, impro
 1. [Guardrails and limitations for workflows](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/guardrails){target="_blank"}
 
 ## Create and manage deliveries
+
+>[!AVAILABILITY]
+>
+>Deliveries in draft state or finished state would be migrated. In transit / In progress / Cancelled / Retry in progress / Preparation error deliveries will be migrated to Adobe Campaign v8 but will have to be prepared again. 
+Canceled / Retry in progress will be migrated as canceled deliveries.
+Tracking links, mirror page URL links, subscription/un-subscription link will work as per as per AC standard. Read [Tracking and Monitoring](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking){target="_blank"}, [Branding](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/branding/branding-gs){target="_blank"} in Adobe Campaign. 
 
 You can create standalone deliveries from the Deliveries left menu, or create deliveries in the context of a workflow, included or not in a campaign. Learn how to create a delivery:
 [Delivery creation and management documentation](../../v8/msg/gs-deliveries.md){target="_blank"}
@@ -226,6 +245,11 @@ Learn how to create your first targeted email. In this use case, you schedule th
 
 ### Create and manage push notifications
 
+>[!AVAILABILITY]
+>
+>Adobe Campaign v8 supports both Android and iOS Push Channel. For transitioning of existing workflows and deliveries using Push Channel please connect with your Adobe Campaign Transition Manager. Learn more on [Channel Set up](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}.  
+
+
 Push notifications are essential for reaching out to your mobile app users, even when they're not actively using your app. They serve various purposes like providing updates, driving specific actions, and notifying about deals.
 
 Adobe Campaign v8 supports both Android&trade; and iOS Push Channel. To transition existing workflows and deliveries that are using the Push Channel, please connect with your Adobe Campaign Transition Manager.  
@@ -307,6 +331,12 @@ Adobe Campaign allows you to create, design, and share landing pages. Landing pa
 
 Dynamic Reporting provides fully customizable and real-time reports to measure the impact of your marketing activities. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks.<br/>
 <a href="https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/reporting/get-started-reporting">Dynamic reporting documentation</a><br/>
+
+>[!AVAILABILITY]
+>
+>1 - [Dynamic reporting](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"} can be used for reporting of email deliveries, campaign with email deliveries and transactional messages. Demographic analysis by Profile dimension is also available.  
+Add https://jira.corp.adobe.com/browse/NEO-79981 
+2- [Adobe Campaign Web User Interface reporting](../../v8/reporting/campaign-reports.md){target="_blank"} is also available for all users transition from Adobe Campaign Standard to Adobe Campaign v8.
 
 Adobe Campaign offers three different reports:
 
