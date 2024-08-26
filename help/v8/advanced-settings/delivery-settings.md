@@ -280,3 +280,9 @@ You can also customize the lable of the proofs:
 
 * Use the **[!UICONTROL Keep the delivery code for the proof]** to associate to the proof the same delivery code as the one defined for the delivery to which it relates.
 * By default, the subject of the proof is prefixed by 'PROOF #', where # is the number of the proof. You can change this prefix in the **[!UICONTROL Label prefix]** field.
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_settings_variable"
+>title="Variables""
+>abstract="Variables"
