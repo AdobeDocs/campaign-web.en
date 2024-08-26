@@ -284,5 +284,5 @@ You can also customize the lable of the proofs:
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_settings_variable"
->title="Variables""
+>title="Variables"
 >abstract="Variables"
