@@ -10,6 +10,14 @@ jira:  KT-15787
 
 This tutorial gives an overview of the key administrative and data management functionality of Campaign v8. It is for administrators and technical marketers migrating from Campaign Standard to Campaign v8.
 
+The major change for you is the introduction of the client console, the native application which communicates with the Adobe Campaign application server. 
+
+The Campaign client console centralizes all capabilities and settings. It is stays synchronized with the Campaign Web User Interface, ensuring consitency acrouss both environments.
+
+![](_assets/client_console.png){zoomable="yes"}
+
+[Learn more about the client console user interface of Adobe Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui#ui-access).
+
 ## Understand the Campaign v8 Architecture
 
 See [Get Started with Campaign architecture](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/architecture){target="_blank"} to understand the Campaign architecture before starting to structure and organize your instance.
@@ -54,6 +62,9 @@ In the Control Panel, you can interact with all SFTP servers that are connected 
 
 In Adobe Campaign Web User Interface, the Audit trail feature provides users with full visibility into all modifications made to important entities within your instance, typically those that significantly impact a smooth operation of the instance.
 [Audit trail documentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/audit-trail){target="_blank"}
+
+You can use data packages to export and import your platform custom settings and data. A package can contain different types of configurations and components, filtered or not.
+[Package import/export](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/packages){target="_blank"}
 
 ## Set up user interface
 
@@ -163,7 +174,11 @@ Direct mail is an offline channel that allows you to produce files to mass deliv
 You can connect your Campaign environment with Adobe Experience Cloud solutions and apps to combine capabilities.
 [Campaign connection to other solutions documentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/integrations/integration){target="_blank"}
 
-Adobe Campaign comes with several connectors that allow you to communicate with external applications, connect to database engines, share and synchronize data. These connections are configured by Adobe.
+Adobe Campaign v8 comes with several connectors that allow you to communicate with external applications, connect to database engines, share and synchronize data. These connections are configured by Adobe.
+
+>[!AVAILABILITY]
+>
+>Analytics & Audience configurations and data will be automated migration.
         
 Here are the possible integrations:
 
@@ -188,25 +203,12 @@ Here are the possible integrations:
 ## Use transactional messages
 
 Transactional messaging (Message Center) is a Campaign module designed for managing trigger messages. These notifications are generated from events triggered from information systems, and can be: invoice, order confirmation, shipping confirmation, password change, product unavailability notification, account statement, website account creation, etc.
-[Transactional messages documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}
+TO BE CHANGED New Web UI – Not console: [Transactional messages documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}
 
 
 ## Use reporting
 
-Adobe Campaign provides a set of reporting tools
-[Reporting configuration documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/gs-reporting){target="_blank"}
+Adobe Campaign provides a set of reporting tools [Reporting configuration documentation](../../v8/reporting/gs-reports.md){target="_blank"}
     
-Dynamic Reporting provides fully customizable and real-time reports to measure the impact of your marketing activities. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks.
+TO BE CHANGED : Dynamic Reporting provides fully customizable and real-time reports to measure the impact of your marketing activities. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks.
 [Dynamic reporting documentation](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"}
-
-
-## Configure your instance 
-
-* [Channel Set up here](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}
-* [Experience Cloud Triggers configuration](https://experienceleague.adobe.com/en/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/experience-triggers/about-triggers){target="_blank"}
-
-## Deployment
-
-* [Package import/export](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/packages){target="_blank"}
-
-

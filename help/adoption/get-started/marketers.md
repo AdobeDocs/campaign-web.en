@@ -12,6 +12,17 @@ This guide gives an overview of the key functionality of Campaign v8. It is for 
 
 You can access Adobe Campaign v8 via the client console or the Web User Interface. The web interface lets you create, manage and execute key marketing actions. 
 
+All of your data from Adobe Campaign Standard is imported in Adobe Campaign v8, ensuring a smooth transition with minimal disruption to your ongoing operations. 
+
+You can continue to use your existing credentials to log in and connect to your new Adobe Campaign v8 instance. Once logged in, you can find all your profiles and workflows being migrated, allowing you to continue to work on your campaigns. 
+
+The primary difference is in the user interface. Below a comparison of the same workflow in the 2 interfaces :
+
+![](_assets/transition_workflow.png){zoomable="yes"}
+
+[Learn more about the Web User Interface of Adobe Campaign v8](../../v8/get-started/user-interface.md).
+
+
 >[!NOTE]
 > Adobe Campaign Web user interface releases operate on a continuous delivery model, which allows for a more scalable, phased approach to feature deployment. Please check the [Release Notes](https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/release-notes) regularly for the latest updates. 
 
