@@ -98,13 +98,17 @@ Adobe Campaign v8 has AI assistant available for [Email](../../v8/email/generati
 
 ### Upgraded SMS infrastructure - SMS v2.0
 
+NEEDS TO BE ADDED WHEN RELEASED
+
 ### Upgraded Push infrastructure
 
 Adobe Campaign v8 is introducing our latest Push notification service, powered by a robust framework built on a modern cutting-edge technology. This service is designed to unlock new levels of scalability, ensuring that your notifications can reach a larger audience with seamless efficiency. With our enhanced infrastructure and optimized processes, you can expect higher scale and reliability, empowering you to engage and connect with your Mobile App users like never before.
-[Learn more about Upgraded Push infrastructure](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-data-collection).
+[Learn more about Upgraded Push infrastructure](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-data-collection)
 
 
 ## Managed Services
+
+NEEDS TO BE CHANGED WHEN INFORMATION IS RECEIVED
 
 Adobe Campaign v8 is available as a Managed Cloud Service, providing proactive oversight, timely alerting, and service governance. Adobe Managed Cloud Service provides marketers with a more agile, secure and scalable cross-channel campaign management solution with a low total cost of ownership. The new offering combines services with proactive oversight and timely alerting.
 
