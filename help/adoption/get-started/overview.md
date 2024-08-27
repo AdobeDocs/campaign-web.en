@@ -40,7 +40,7 @@ Adobe Campaign v8 takes advantage of advanced cloud-scale database technologies,
 
 * *Scale* : The system now supports a substantial increase in processing capabilities, with batch processing throughput reaching up to **20 million operations per hour**. With this new architecture, even higher profiles can be managed with predictable performance.
 * *Speed* : The system has been improved for any marketing activity : segmentation, delivery preparation, or throughput for transactional messages which is now **1 million per hour**. 
-* The fully managed cloud provides user with :
+* The fully managed cloud services provides user with :
   * Real time data exploration: Instantly access and analyze data for quick insights and more informed decision-making.
   * Rapid audience building: Easily create targeted audiences within minutes for more efficient campaign segmentation.
 

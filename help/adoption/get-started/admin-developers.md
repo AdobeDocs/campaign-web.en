@@ -66,6 +66,21 @@ In Adobe Campaign Web User Interface, the Audit trail feature provides users wit
 You can use data packages to export and import your platform custom settings and data. A package can contain different types of configurations and components, filtered or not.
 [Package import/export](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/packages){target="_blank"}
 
+Rest API
+**TO BE CHANGED** 
+1. PKEYs values will change between existing ACS instance Vs migrated ACC instance.  In case  PKEYs are being stored in external DB then the implementation needs to change in a way that they need to call AC v8 main APIs which provides pkeys / hrefs links with pkeys and sub sequent API calls need to be dynamically formed by consuming the pkeys /hrefs from previous API calls​
+
+1. Administrator product profile + Message center product profile, a new product profile needed for accessing transactional APIs from RT instance which is different from ACS. This will be added to ACS existing or pre-created technical accounts. Post migration ACS users should review product profile mapping and assign to the needed product profile if they don't want Admin product profile mapping with their technical account. After migration, any future new integrations we recommend customer to use AC v8 tenant id in the REST URL instead of the previous ACS tenant id.​
+
+1. In AC v8 for the same same body where vehicle linked to profile​
+we would get an error firstName property is not valid for cusVehicle but a request body with just the attributes without link works fine!​
+
+{ "vehicleNumber": "20009", "vehicleName": "Model E", "vehicleOwner":{   "firstName":"tester 11", "lastName":"Smith 11" } }​
+
+1. Timezone will only be shown to user as part of profileAndServicesExt/profile rest api call and not profileAndServices/profile rest api call since it is being added in an extended schema as part of data migration.​
+
+1. ccpaOptOut will only be shown to user as part of profileAndServicesExt/profile rest api call and not profileAndServices/profile rest api call since it is being added in an extended schema as part of data migration. 
+
 ## Set up user interface
 
 Guidelines for managing user interface settings like lists, units, or data display.[User interface settings documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings){target="_blank"}

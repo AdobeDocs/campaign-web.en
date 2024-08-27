@@ -346,7 +346,6 @@ Dynamic Reporting provides fully customizable and real-time reports to measure t
 >[!AVAILABILITY]
 >
 >1 - [Dynamic reporting](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"} can be used for reporting of email deliveries, campaign with email deliveries and transactional messages. Demographic analysis by Profile dimension is also available.  
-Add https://jira.corp.adobe.com/browse/NEO-79981 
 2- [Adobe Campaign Web User Interface reporting](../../v8/reporting/campaign-reports.md){target="_blank"} is also available for all users transition from Adobe Campaign Standard to Adobe Campaign v8.
 
 Adobe Campaign offers three different reports:
