@@ -20,8 +20,6 @@ The primary difference is in the user interface. Below a comparison of the same 
 
 ![](_assets/transition_workflow.png){zoomable="yes"}
 
-[Learn more about the Web User Interface of Adobe Campaign v8](../../v8/get-started/user-interface.md).
-
 
 >[!NOTE]
 > Adobe Campaign Web user interface releases operate on a continuous delivery model, which allows for a more scalable, phased approach to feature deployment. Please check the [Release Notes](https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/release-notes) regularly for the latest updates. 
@@ -37,44 +35,41 @@ For more details, please refer to the documentation below :
 1. [Discover the Campaign Web User Interface](../../v8/get-started/user-interface.md)
 2. [Browse and Filter List](../../v8/get-started/list-filters.md)
 
-## Find help and guidance ?
-
-[Adobe Campaign Web User Interface Documentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home)
 
 ## Create and manage profiles and audiences
 
->[!AVAILABILITY]
+>[!NOTE]
 >
 >The general concept of creating and managing profiles and audiences in Campaign v8 is the same as in Adobe Campaign Standard.
 
-### Profile
+### Manage profiles
 
-In Adobe Campaign Web, a profile is a record stored in the database, serving as a key component to create audiences for deliveries and add personalization data to your content.
+In Adobe Campaign, a profile is a record stored in the database, serving as a key component to create audiences for deliveries and add personalization data to your content.
 
 1. Learn how to access, manage, and explore profiles using the Campaign Web User Interface.
 
     >[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12&learn=on){transcript=true}
     
-    See [Get started with Profiles](https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/work-with-profiles/about-recipients){target="_blank"} for more information.
+    See [Get started with Profiles](../../v8/audience/about-recipients.md){target="_blank"} for more information.
 
-1. [Create and manage test profiles](https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/work-with-profiles/test-profiles){target="_blank"}
+1. [Create and manage test profiles](../../v8/audience/test-profiles.md){target="_blank"}
 
 ### Manage audiences
 
->[!AVAILABILITY]
->
->1- All audiences created via ACS query activity will get transformed into predefined filter in AC v8 during migration. AC also support query activity. 
-a. Read audience will get transformed to query activity with [predefined filter](https://experienceleague.adobe.com/en/docs/campaign-web/v8/query-database/build-query){target="_blank"}.
-b. Predefined filter will only take the latest value after audience migration to AC v8 (copy by reference). 
-2- File Type audiences in ACS will be migrated as list type without dimensions.
-
 Audiences are sets of profiles who share similar behaviors and/or characteristics. This collection of people can either be generated, selected, or loaded. Once created, audiences can be leveraged as the target population of your deliveries.
 
-1. Learn how to build and manage audiences, how to select audiences for a delivery, and define control groups.
+Learn how to build and manage audiences, how to select audiences for a delivery, and define control groups.
 
-    >[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12&learn=on){transcript=true}
 
-    See [Get started with Audiences](https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/audiences/manage-audience){target="_blank"} for more information.
+See [Get started with Audiences](../../v8/audience/manage-audience.md){target="_blank"} for more information.
+
+>[!AVAILABILITY]
+>
+>1- All audiences created via Adobe Campaign Standard query activity will get transformed into predefined filter in Adobe Campaign v8 during migration. Adobe Campaign also support query activity. 
+a. Read audience will get transformed to query activity with [predefined filter](../../v8/query/build-query.md){target="_blank"}.
+b. Predefined filter will only take the latest value after audience migration to Adobe Campaign v8. 
+2- File Type audiences in Adobe Campaign Standard will be migrated as list type without dimensions.
 
 ### Manage subscriptions
 
@@ -122,39 +117,37 @@ Adobe Campaign allows you to easily orchestrate your targeted marketing initiati
 
 ![Campaign flow](_assets/campaign-flow.png)
 
-1. [Get started with campaigns](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaigns/gs-campaigns){target="_blank"}
-2. [Access and manage your campaigns](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaigns/manage-campaigns){target="_blank"}
-3. [Create your first campaign](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaigns/create-campaigns){target="_blank"}
+Follow the documentation below to learn more about campaigns : 
+
+1. [Get started with campaigns](../../v8/campaigns/gs-campaigns.md){target="_blank"}
+2. [Access and manage your campaigns](../../v8/campaigns/manage-campaigns.md){target="_blank"}
+3. [Create your first campaign](../../v8/campaigns/create-campaigns.md){target="_blank"}
+
 
 ### Create a workflow
 
->[!AVAILABILITY]
->
->Workflow execution [history and logs](../../v8/workflows/start-monitor-workflows.md){target="_blank"} are available in Adebe Campaign v8. 
-Historical logs for workflows executed on ACS instance will not be migrated to Adobe Campaign v8.  
-
 With workflows, you can orchestrate the full range of processes and tasks, improve the speed and scale of every aspect of your marketing campaigns, from creating segments and preparing messages to delivery. Plus, you can get your channels in sync with a single, easy-to-use interface for campaign orchestration.
 
-1. Understand how workflows work and how to create a targeting workflow.
+Understand how workflows work and how to create a targeting workflow.
 
-    >[!VIDEO](https://video.tv.adobe.com/v/3425873?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3425873?quality=12&learn=on){transcript=true}
 
-1. [Worklow documentation](../../v8/workflows/gs-workflows.md){target="_blank"}
+Get more details with the [Worklow documentation](../../v8/workflows/gs-workflows.md){target="_blank"}.
 
-1. Adobe Campaign Web user interface features a query modeler that simplifies the process of filtering the database based on various criteria.
-[Query modeler](../../v8/query/query-modeler-overview.md){target="_blank"}
+Adobe Campaign Web user interface features a query modeler in workflows that simplifies the process of filtering the database based on various criteria.
+[Learn more about query modeler](../../v8/query/query-modeler-overview.md){target="_blank"}
 
-1. [Work with workflow activities](../../v8/workflows/activities/about-activities.md){target="_blank"}
+To understand the purpose and functionality of each activity within your workflow, explore the detailed information available on [workflow activities](../../v8/workflows/activities/about-activities.md){target="_blank"}.
 
-1. [Guardrails and limitations for workflows](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/guardrails){target="_blank"}
-
-## Create and manage deliveries
+Maximize your workflow's efficiency by reviewing the [Guardrails and limitations for workflows](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/guardrails){target="_blank"}.
 
 >[!AVAILABILITY]
 >
->Deliveries in draft state or finished state would be migrated. In transit / In progress / Cancelled / Retry in progress / Preparation error deliveries will be migrated to Adobe Campaign v8 but will have to be prepared again. 
-Canceled / Retry in progress will be migrated as canceled deliveries.
-Tracking links, mirror page URL links, subscription/un-subscription link will work as per as per AC standard. Read [Tracking and Monitoring](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking){target="_blank"}, [Branding](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/branding/branding-gs){target="_blank"} in Adobe Campaign. 
+>1 - Workflow execution [history and logs](../../v8/workflows/start-monitor-workflows.md){target="_blank"} are available in Adobe Campaign v8. 
+Historical logs for workflows executed on ACS instance will not be migrated to Adobe Campaign v8.
+2- Organizational Units will be mapped to concept of folder for mapping and ensuring similar access control.
+
+## Create and manage deliveries
 
 You can create standalone deliveries from the Deliveries left menu, or create deliveries in the context of a workflow, included or not in a campaign. Learn how to create a delivery:
 [Delivery creation and management documentation](../../v8/msg/gs-deliveries.md){target="_blank"}
@@ -171,16 +164,18 @@ Adobe Campaign Web dynamic content capabilities allows you to customize your con
 Once your delivery content has been defined, you can use profiles and test profiles to preview and test it before sending the message. This is a crucial step to ensure that it is accurate but also free of errors both in content and personalization settings.
 [Preview and test documentation](../../v8/preview-test/preview-test.md)
 
-[Schedule a stand-alone delivery](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/gs-deliveries#gs-schedule){target="_blank"}
+You can set the date and the exact time for sending your messages. By choosing the most appropriate time for your marketing message, you can maximise open rates. 
+* Learn how to [schedule a stand-alone delivery](../../v8/msg/gs-deliveries.md#gs-schedule){target="_blank"}
+* Learn how to [schedule a delivery in a workflow](../../v8/monitor/schedule-sending.md#schedule-a-delivery-in-a-campaign-workflow){target="_blank"}
 
-[Schedule a delivery in a workflow](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/monitor/schedule-sending#schedule-a-delivery-in-a-campaign-workflow){target="_blank"}
+You can add offers to your deliveries in the Adobe Campaign Web user interface. These offers are available from the Offers left menu which lets you access to the list of offers. 
+[Add offers to your messages](../../v8/msg/offers.md){target="_blank"}
 
-* [Personalize content](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/dynamic-content/personalize){target="_blank"}
-* [Conditional content](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/dynamic-content/conditions){target="_blank"}
-* [Content blocks](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/dynamic-content/content-blocks){target="_blank"}
-
-* [Add offers to your messages](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/offers){target="_blank"}
-
+>[!AVAILABILITY]
+>
+>Deliveries in draft state or finished state would be migrated. In transit / In progress / Cancelled / Retry in progress / Preparation error deliveries will be migrated to Adobe Campaign v8 but will have to be prepared again. 
+Canceled / Retry in progress will be migrated as canceled deliveries.
+Tracking links, mirror page URL links, subscription/un-subscription link will work as per as per AC standard. Read [Tracking and Monitoring](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking){target="_blank"}, [Branding](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/branding/branding-gs){target="_blank"} in Adobe Campaign.
 
 ### Email delivery
 
@@ -189,10 +184,9 @@ Learn how to create an email delivery from scratch, define the audience, design 
 >[!VIDEO](https://video.tv.adobe.com/v/3425866?quality=12&learn=on){transcript=true}
 
 Learn how to create your first targeted email. In this use case, you schedule the sending of an email to Silver and Gold loyalty members on a specific date.
-[Create your first email](../../v8/email/create-email.md){target="_blank"}
+[Create your first email documentation](../../v8/email/create-email.md){target="_blank"}
 
-* [Create email templates](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/content/manage-reusable-content/create-email-templates){target="_blank"}
-
+The detailed steps for sending an email delivery :
 
 1. **Design and define content**
 
@@ -207,7 +201,12 @@ Learn how to create your first targeted email. In this use case, you schedule th
    Learn how to create an email by uploading HTML, how to make it compatible with the Email Designer and how to convert it to a template.
 
     >[!VIDEO](https://video.tv.adobe.com/v/3427633?quality=12&learn=on){transcript=true}
+    
+    A content fragment is a reusable component that can be referenced in one or more messages. Use [Content fragments](../../v8/content/fragments.md) to simplify the creation of your email delivery.
+    <br/>
 
+    For an accelerated and improved design process, you can create standalone templates to easily reuse custom content across Adobe Campaign. 
+    [Create email templates](../../v8/email/create-email-templates.md){target="_blank"}
 
 2. **Preview and test**
 
@@ -216,15 +215,15 @@ Learn how to create your first targeted email. In this use case, you schedule th
     >[!VIDEO](https://video.tv.adobe.com/v/3425862?quality=12&learn=on){transcript=true}
 
 3. **Send email and check logs**
+    When you have defined your content, audience, and schedule, you are ready to prepare your email delivery.
 
-   * [Prepare and send an email](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/monitor/prepare-send){target="_blank"}
-   * [Schedule the sending of a delivery](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/monitor/schedule-sending){target="_blank"}
-   * [Monitor delivery logs](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/monitor/delivery-logs){target="_blank"}
+   * [Prepare and send an email](../../v8/monitor/prepare-send.md){target="_blank"}
+   * [Monitor delivery logs](../../v8/monitor/delivery-logs.md){target="_blank"}
 
-* [Content fragments](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/content/manage-reusable-content/fragments){target="_blank"}
-* [Add visual fragments to your emails](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/content/manage-reusable-content/use-visual-fragments){target="_blank"}
      
 ### SMS delivery
+
+SMS deliveries provide a practical and efficient way to send text messages to your customers' mobile devices. With this feature, you can create, personalize, and preview text-based messages for effective communication.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -256,11 +255,6 @@ Learn how to create your first targeted email. In this use case, you schedule th
 
 ### Create and manage push notifications
 
->[!AVAILABILITY]
->
->Adobe Campaign v8 supports both Android and iOS Push Channel. For transitioning of existing workflows and deliveries using Push Channel please connect with your Adobe Campaign Transition Manager. Learn more on [Channel Set up](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}.  
-
-
 Push notifications are essential for reaching out to your mobile app users, even when they're not actively using your app. They serve various purposes like providing updates, driving specific actions, and notifying about deals.
 
 Adobe Campaign v8 supports both Android&trade; and iOS Push Channel. To transition existing workflows and deliveries that are using the Push Channel, please connect with your Adobe Campaign Transition Manager.  
@@ -291,6 +285,10 @@ Adobe Campaign v8 supports both Android&trade; and iOS Push Channel. To transiti
 </div>
 <p>
 </tr></table>
+
+>[!AVAILABILITY]
+>
+>Adobe Campaign v8 supports both Android and iOS Push Channel. For transitioning of existing workflows and deliveries using Push Channel please connect with your Adobe Campaign Transition Manager. Learn more on [Channel Set up](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}.  
 
 ### Direct mail
 
@@ -337,11 +335,11 @@ Adobe Campaign allows you to create, design, and share landing pages. Landing pa
 
 ## Reporting
 
- Adobe Campaign suite of reporting tools provides valuable insights into the effectiveness of your marketing efforts, allowing you to optimize your campaigns for maximum impact.<br/>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/gs-reports">Reporting documentation</a><br/><br/>
+Adobe Campaign suite of reporting tools provides valuable insights into the effectiveness of your marketing efforts, allowing you to optimize your campaigns for maximum impact.
+[Reporting documentation](../../v8/reporting/gs-reports.md){target="_blank"} 
 
-Dynamic Reporting provides fully customizable and real-time reports to measure the impact of your marketing activities. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks.<br/>
-<a href="https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/reporting/get-started-reporting">Dynamic reporting documentation</a><br/>
+Dynamic Reporting provides fully customizable and real-time reports to measure the impact of your marketing activities. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks.
+[Dynamic reporting documentation](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"} 
 
 >[!AVAILABILITY]
 >
@@ -389,22 +387,5 @@ Adobe Campaign offers three different reports:
 </div>
 <p>
 </td>
-</tr></table>
-
-## Integrations
-
-### Adobe Experience Manager
-
-* [Manage assets with Adobe Experience Manager Assets as a Cloud Service](https://experienceleague.adobe.com/en/docs/campaign-web/v8/integrations/aem-assets){target="_blank"}
-* [Manage templates with Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/en/docs/campaign-web/v8/integrations/aem-content){target="_blank"}
-
-### Other 
-
-The following integrations are available from the Adobe Campaign client console, and not yet available in the Campaign Web User Interface. Use the provided links to browse the Campaign v8 (client console) documentation and learn more about these integrations:
-
-* Adobe Analytics data usage and KPI sharing. [Learn more](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-aa){target="_blank"}
-* Audience sharing with Adobe Experience Cloud (Adobe Audience Manager). [Learn more](https://experienceleague.adobe.com/en/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud){target="_blank"}
-* Integration with Adobe Target. [Learn more](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-at){target="_blank"}
-* Integration with Adobe Experience Cloud Triggers. [Learn more](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-triggers){target="_blank"}
-
-
+</tr>
+</table>
