@@ -36,15 +36,15 @@ You can [learn more about Adobe Campaign Web User Interface here](../../v8/campa
 
 * **Performance**
 
-Adobe Campaign v8 takes advantage of advanced cloud-scale database technologies, resulting in significantly improved performance and efficiency. It introduces the concept of Full Federated Data Access (FFDA), where all data is now securely stored on the Cloud Database.
+Adobe Campaign v8 takes advantage of advanced cloud-scale database technologies, resulting in significantly improved performance and efficiency. This redesigned architecture offers several key benefits :
 
-This redesigned architecture offers several key benefits :
+* *Scale* : The system now supports a substantial increase in processing capabilities, with batch processing throughput reaching up to **20 million operations per hour**. With this new architecture, even higher profiles can be managed with predictable performance.
+* *Speed* : The system has been improved for any marketing activity : segmentation, delivery preparation, or throughput for transactional messages which is now **1 million per hour**. 
+* The fully managed cloud provides user with :
+  * Real time data exploration: Instantly access and analyze data for quick insights and more informed decision-making.
+  * Rapid audience building: Easily create targeted audiences within minutes for more efficient campaign segmentation.
 
-* *Increased Storage*: Adobe Campaign v8 provides up to **6TB** in total database storage across production and staging instances, accomodating the needs of large-scale enterprises and complex campaign strategies
-* *Enhanced Speed and Scale* : The system now supports a substantial increase in processing capabilities, with batch processing throughput reaching up to **15 million operations per hour** and transactional throughput of up to **180.000 operations per hour**.
-* *Snowflake via FDA* : Integration with Snowflake through Federated Data Access enables the offloading of high-volume data, optimizing performance and resource utilization. This results, with increased storage capacity, in faster segmentations, queries, reports and deliveries, allowing timely execution of marketing strategies.
-
-Overall, Adobe Campaign v8's robust architecture provides a powerful foundation for managing extensive and complex marketing campaigns with enhanced speed, storage, and efficiency.
+Overall, Adobe Campaign v8's robust architecture provides a powerful foundation for managing extensive and complex marketing campaigns with enhanced speed and efficiency.
 
 ### New features on Adobe Campaign v8
 
@@ -80,7 +80,7 @@ Here are the key feature enabled by this integration:
 
 Adobe Experience Manager as a Cloud Service offers cloud-native agility, allowing you to accelerate your time to value and adapt to evolving business needs. This integration not only enhances your content management capabilities but also enables you to delivery more personalized and engaging experiences to your customers across all touchpoints.
 
-### AI assistant (bêta)
+### AI assistant
 
 Adobe Campaign v8 provides an AI assistant to help you generate impactful content in an efficient and quick manner. 
 
@@ -98,8 +98,10 @@ Adobe Campaign v8 has AI assistant available for [Email](../../v8/email/generati
 
 ### Upgraded SMS infrastructure - SMS v2.0
 
-### Upgraded Push infrastructure - Herald service
+### Upgraded Push infrastructure
 
+Adobe Campaign v8 is introducing our latest Push notification service, powered by a robust framework built on a modern cutting-edge technology. This service is designed to unlock new levels of scalability, ensuring that your notifications can reach a larger audience with seamless efficiency. With our enhanced infrastructure and optimized processes, you can expect higher scale and reliability, empowering you to engage and connect with your Mobile App users like never before.
+[Learn more about Upgraded Push infrastructure](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-data-collection).
 
 
 ## Managed Services
@@ -133,10 +135,6 @@ Here are some terminology differences between Campaign Standard and the Campaign
   <tr style="border: 1;">
     <td align="center">Real-time events and Transactional events</td>
     <td align="center">Triggers</td>
-  </tr>
-  <tr style="border: 1;">
-    <td align="center">Tracking</td>
-    <td align="center">Reporting</td>
   </tr>
   <tr style="border: 1;">
     <td align="center">Profiles</td>
