@@ -139,31 +139,24 @@ we would get an error firstName property is not valid for cusVehicle but a reque
 Campaign Optimization is the Adobe Campaign module which lets you control, filter and monitor the sending of deliveries. To avoid conflicts between campaigns, Adobe Campaign can test various combinations by applying specific constraint rules. This guarantees that the messages sent meet the needs and expectations of customers and company communication policies.
 [Typology rules documentation](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
-All marketing campaigns are based on a template, which stores main characteristics and capabilities. Campaign comes with a built-in template to create campaigns. This template has all functionalities enabled: Documents, Seed addresses, Approvals, Delivery outlines, etc.
-[Campaign template documentation](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates){target="_blank"}
-
-Learn how to setup and manage subscriptions and target subscribers.
-[Subscription services tutorial video](https://experienceleague.adobe.com/en/docs/campaign-learn/tutorials/sending-messages/configure-and-manage-subscription-services){target="_blank"}
 
 ## Working with templates
 
 Campaign templates contain pre-configured settings which can be reused for creating new campaigns. A set of built-in templates is available to help you get started.
-[Campaign templates documentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaigns/manage-campaigns#manage-campaign-templates){target="_blank"}
+[Campaign templates documentation in Web User Interface](../../v8/campaigns/manage-campaigns.md#manage-campaign-templates){target="_blank"}
+[Campaign templates documentation in Client Console](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates){target="_blank"}
 
 For an accelerated and improved design process, you can create delivery templates to easily reuse custom content and settings across your campaigns. This functionality enables you to standardize the creative look and feel, in order to be quicker in executing and launching campaigns.
-[Delivery template documentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/delivery-template){target="_blank"}
+[Delivery template documentation](../../v8/msg/delivery-template.md){target="_blank"}
 
 Workflow templates contain pre-configured settings and activities which can be reused for creating new workflows.
-[Workflow template documentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/create-workflow/create-workflow){target="_blank"}
+[Workflow template documentation](../../v8/workflows/create-workflow.md){target="_blank"}
 
 Learn how created dynamic content blocks and how to use them to personalize the content of your email delivery.
 [Dynamic content block template documentation](https://experienceleague.adobe.com/en/docs/campaign-learn/tutorials/content-creation/email/personalize-using-dynamic-content-blocks){target="_blank"}
 
 Once you designed your landing page content, you can save it for future reuse.
 [Landing page template documentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/lp-templates){target="_blank"}
-
-A content fragment is a reusable component that can be referenced in one or more messages. When modifying a fragment, every content using it is updated.
-[Content fragments documentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments){target="_blank"}
 
 Each event can trigger a personalized message. For this to happen, you need to create a message template to match each event type. Templates contain the necessary information for personalizing the transactional message.
 [Transactional messaging template documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional-template){target="_blank"}
@@ -174,7 +167,11 @@ Using a workflow template is a best practice if you need to regularly import fil
 
 ## Use subscription services
 
-Use Adobe Campaign Web to manage and create your services such as newsletters, and to check the subscriptions or unsubscriptions to these services.<br/>
+Learn how to setup and manage subscriptions and target subscribers.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334305?quality=12&learn=on){transcript=true}
+
+Use Adobe Campaign Web to manage and create your services such as newsletters, and to check the subscriptions or unsubscriptions to these services.
 [Subscription services documentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/work-with-services/manage-services){target="_blank"}
 
 
