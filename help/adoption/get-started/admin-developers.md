@@ -20,13 +20,13 @@ The Campaign client console centralizes all capabilities and settings. It is sta
 
 ## Understand the Campaign v8 Architecture
 
-See [Get Started with Campaign architecture](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/architecture){target="_blank"} to understand the Campaign architecture before starting to structure and organize your instance.
+See [Get Started with Campaign architecture](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/architecture){target="_blank"} to understand the Campaign architecture before starting to structure your instance.
 
-Review the [Campaign implementation guidelines](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/implement/implement){target="_blank"} to learn how to adjust Adobe Campaign to the requirements of your company and structure and organize your implementation.
+Review the [Campaign components and processes](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/ac-components){target="_blank"} to learn more about them and to know how they are organized.
 
 ## Install the client console
 
-The main administration and configuration tasks are performed in the [Admin Console]. The first step is to set up your environment. The following video explains how to download and install the Adobe Campaign Client Console and manage your connection to your instance.
+The main administration and configuration tasks are performed in the client console. The first step is to set up your environment. The following video explains how to download and install the Adobe Campaign Client Console and manage your connection to your instance.
 
 >[!VIDEO](https://video.tv.adobe.com/v/335375?quality=12&learn=on){transcript=true}
 
@@ -42,11 +42,17 @@ See [Work with the client console](https://experienceleague.adobe.com/en/docs/ca
 
 ## Administrate the environment 
 
-Once the client console is installed, follow the steps in this documentation to create the connection to the application server.<br/>
+Once the client console is installed, follow the steps in this documentation to create the connection to the application server.
 [Connection to the application server documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/connect#create-your-connection){target="_blank"}
+
+Security practices are deeply ingrained into our internal software development and operations processes and tools and are rigorously followed by our cross-functional teams to prevent, detect, and respond to incidents in an expedient manner.
+[Security best practices](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/privacy/security){target="_blank"}
 
 Adobe Campaign lets you define and manage the rights assigned to users. These permissions are defined by combining operator group permissions, named rights and permissions on folders.
 [User permissions documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}
+
+User access migration management
+NEEDS TO BE ADDED WHEN RELEASED
 
 The Adobe Campaign Control Panel allows Adobe Campaign administrators to monitor key assets and perform administrative tasks, such as managing the SFTP storage by instance, managing GPG keys, or subdomains and certificates.
 [Control panel tutorials](https://experienceleague.adobe.com/en/docs/control-panel-learn/tutorials/control-panel-overview){target="_blank"}
@@ -66,21 +72,6 @@ In Adobe Campaign Web User Interface, the Audit trail feature provides users wit
 You can use data packages to export and import your platform custom settings and data. A package can contain different types of configurations and components, filtered or not.
 [Package import/export](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/packages){target="_blank"}
 
-Rest API
-**TO BE CHANGED** 
-1. PKEYs values will change between existing ACS instance Vs migrated ACC instance.  In case  PKEYs are being stored in external DB then the implementation needs to change in a way that they need to call AC v8 main APIs which provides pkeys / hrefs links with pkeys and sub sequent API calls need to be dynamically formed by consuming the pkeys /hrefs from previous API calls​
-
-1. Administrator product profile + Message center product profile, a new product profile needed for accessing transactional APIs from RT instance which is different from ACS. This will be added to ACS existing or pre-created technical accounts. Post migration ACS users should review product profile mapping and assign to the needed product profile if they don't want Admin product profile mapping with their technical account. After migration, any future new integrations we recommend customer to use AC v8 tenant id in the REST URL instead of the previous ACS tenant id.​
-
-1. In AC v8 for the same same body where vehicle linked to profile​
-we would get an error firstName property is not valid for cusVehicle but a request body with just the attributes without link works fine!​
-
-{ "vehicleNumber": "20009", "vehicleName": "Model E", "vehicleOwner":{   "firstName":"tester 11", "lastName":"Smith 11" } }​
-
-1. Timezone will only be shown to user as part of profileAndServicesExt/profile rest api call and not profileAndServices/profile rest api call since it is being added in an extended schema as part of data migration.​
-
-1. ccpaOptOut will only be shown to user as part of profileAndServicesExt/profile rest api call and not profileAndServices/profile rest api call since it is being added in an extended schema as part of data migration. 
-
 ## Set up user interface
 
 Guidelines for managing user interface settings like lists, units, or data display.[User interface settings documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings){target="_blank"}
@@ -98,14 +89,14 @@ Every company has brand guidelines that define both visual elements and technica
 Adobe Campaign comes with a pre-defined data model. This section gives some details on the built-in tables of the Adobe Campaign data model and their interaction. Adobe Campaign relies on a Cloud database containing tables that are linked together.
 [Data model documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/datamodel){target="_blank"}
 
-A schema is an XML document associated with a database table. It defines data structure and describes the SQL definition of the table.<br/>
+A schema is an XML document associated with a database table. It defines data structure and describes the SQL definition of the table.
 [Schemas creation documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}
 
 Learn how to create a schema and how to extend an existing schema.
 
 >[!VIDEO](https://video.tv.adobe.com/v/337939?quality=12&learn=on){transcript=true}
 
-When you create or extend a schema, you need to create or modify the associated input forms to make those changes visible to end-users. An input form lets you edit an instance associated with a data schema from the Adobe Campaign client console. The form is identified by its name and namespace.<br/>
+When you create or extend a schema, you need to create or modify the associated input forms to make those changes visible to end-users. An input form lets you edit an instance associated with a data schema from the Adobe Campaign client console. The form is identified by its name and namespace.
 [Input forms creation documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/forms){target="_blank"}
 
 ## Understand data management
@@ -121,10 +112,27 @@ Campaign helps you add contacts to the Cloud database. You can load a file, sche
 [Import data documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/import){target="_blank"}
 
 You can easily export your different reports to PDF or CSV format, which enables you to share, manipulate, or print them.
-[Export data documentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/export-reports){target="_blank"}
+[Export data documentation](../../v8/reporting/export-reports.md){target="_blank"}
 
 Quarantine is the way to manage the invalid addresses in deliveries.
 [Quarantine documentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/quarantine){target="_blank"}
+
+Rest API
+[Rest API documentation](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/get-started-apis){target="_blank"}
+
+**TO BE CHANGED** 
+1. PKEYs values will change between existing ACS instance Vs migrated ACC instance.  In case  PKEYs are being stored in external DB then the implementation needs to change in a way that they need to call AC v8 main APIs which provides pkeys / hrefs links with pkeys and sub sequent API calls need to be dynamically formed by consuming the pkeys /hrefs from previous API calls​
+
+1. Administrator product profile + Message center product profile, a new product profile needed for accessing transactional APIs from RT instance which is different from ACS. This will be added to ACS existing or pre-created technical accounts. Post migration ACS users should review product profile mapping and assign to the needed product profile if they don't want Admin product profile mapping with their technical account. After migration, any future new integrations we recommend customer to use AC v8 tenant id in the REST URL instead of the previous ACS tenant id.​
+
+1. In AC v8 for the same same body where vehicle linked to profile​
+we would get an error firstName property is not valid for cusVehicle but a request body with just the attributes without link works fine!​
+
+{ "vehicleNumber": "20009", "vehicleName": "Model E", "vehicleOwner":{   "firstName":"tester 11", "lastName":"Smith 11" } }​
+
+1. Timezone will only be shown to user as part of profileAndServicesExt/profile rest api call and not profileAndServices/profile rest api call since it is being added in an extended schema as part of data migration.​
+
+1. ccpaOptOut will only be shown to user as part of profileAndServicesExt/profile rest api call and not profileAndServices/profile rest api call since it is being added in an extended schema as part of data migration. 
 
 ## About delivery management
 

@@ -143,7 +143,7 @@ Maximize your workflow's efficiency by reviewing the [Guardrails and limitations
 
 >[!AVAILABILITY]
 >
->1 - Workflow execution [history and logs](../../v8/workflows/start-monitor-workflows.md){target="_blank"} are available in Adobe Campaign v8. 
+>1 - Workflow execution [history and logs](../../v8/workflows/start-monitor-workflows.md#logs-tasks){target="_blank"} are available in Adobe Campaign v8. 
 Historical logs for workflows executed on ACS instance will not be migrated to Adobe Campaign v8.
 2- Organizational Units will be mapped to concept of folder for mapping and ensuring similar access control.
 
