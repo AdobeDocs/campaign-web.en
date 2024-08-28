@@ -63,6 +63,7 @@ Learn how to access and navigate the Campaign Web user interface and how to cust
 >[!VIDEO](https://video.tv.adobe.com/v/3427278?quality=12)
 -->
 
+<!--
 ## Get started for marketers and administrators
 
 
@@ -240,3 +241,5 @@ Transactional messaging (Message Center) is a Campaign module designed for manag
 Adobe Campaign provides a set of reporting tools
 
 >[!ENDTABS]
+
+-->

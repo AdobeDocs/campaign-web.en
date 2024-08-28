@@ -38,8 +38,8 @@ Adobe Campaign v8 takes advantage of advanced cloud-scale database technologies,
 This redesigned architecture offers several key benefits :
 
 * *Increased Storage*: Adobe Campaign v8 provides up to **6TB** in total database storage across production and staging instances, accomodating the needs of large-scale enterprises and complex campaign strategies
-* *Enhanced Speed and Scale* : The system now supports a substantial increase in processing capabilities, with batch processing throughput reaching up to **15 million operations per hour** and transactional throughput of up to **180.000 operations per hour**.
-* *Snowflake via FDA* : Integration with Snowflake through Federated Data Access enables the offloading of high-volume data, optimizing performance and resource utilization. This results, with increased storage capacity, in faster segmentations, queries, reports and deliveries, allowing timely execution of marketing strategies.
+* *Enhanced Speed and Scale*: The system now supports a substantial increase in processing capabilities, with batch processing throughput reaching up to **15 million operations per hour** and transactional throughput of up to **180.000 operations per hour**.
+* *Snowflake via FDA*: Integration with Snowflake through Federated Data Access enables the offloading of high-volume data, optimizing performance and resource utilization. This results, with increased storage capacity, in faster segmentations, queries, reports and deliveries, allowing timely execution of marketing strategies.
 
 Overall, Adobe Campaign v8's robust architecture provides a powerful foundation for managing extensive and complex marketing campaigns with enhanced speed, storage, and efficiency.
 
@@ -71,7 +71,7 @@ Here are the key feature enabled by this integration:
 [Learn more about Asset management](v8/integrations/aem-assets.md)
 ![](v8/integrations/assets/assets_6.png){zoomable="yes"}
 
-* *Email template import* : Adobe Campaign v8 enables you to browse and import email templates from Adobe Experience Manager directly into Campaign.  
+* *Email template import*: Adobe Campaign v8 enables you to browse and import email templates from Adobe Experience Manager directly into Campaign.  
 [Learn more about Email template import](v8/integrations/aem-content.md)
 ![](v8/integrations/assets/aem_6.png){zoomable="yes"}
 

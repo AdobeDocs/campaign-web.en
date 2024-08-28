@@ -17,7 +17,7 @@ In our example, we create a folder in the **[!UICONTROL Deliveries]** folder.
 
   ![](assets/folder_new.png){zoomable="yes"}
 
-You can change the type of your folder by clicking on the icon of Folder type, and you can choose it in the list presented : 
+You can change the type of your folder by clicking on the icon of Folder type, and you can choose it in the list presented: 
 
   ![](assets/folder_type.png){zoomable="yes"}
 

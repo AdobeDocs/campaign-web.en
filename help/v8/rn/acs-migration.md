@@ -2,6 +2,8 @@
 audience: end-user
 title: Transition from Campaign Standard to Adobe Campaign Web
 description: Discover Campaign Web User Interface
+hide: yes
+hidefromtoc: yes
 exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
 ---
 # Campaign Standard transition to Campaign v8 {#welcome}
