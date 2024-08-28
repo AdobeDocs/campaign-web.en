@@ -42,11 +42,14 @@ Key enhancements coming with Adobe Campaign v8 are listed below.
 
   * *Scale*: The system now supports a substantial increase in processing capabilities, with batch processing throughput reaching up to **20 million operations per hour**. With this new architecture, even higher profiles can be managed with predictable performance.
   * *Speed*: The system has been improved for any marketing activity: segmentation, delivery preparation, or throughput for transactional messages which is now **1 million per hour**. 
-  * The fully managed cloud services provides user with:
-    * Real time data exploration: Instantly access and analyze data for quick insights and more informed decision-making.
-    * Rapid audience building: Easily create targeted audiences within minutes for more efficient campaign segmentation.
 
-Overall, Adobe Campaign v8's robust architecture provides a powerful foundation for managing extensive and complex marketing campaigns with enhanced speed and efficiency.
+  The fully managed cloud services provides user with:
+
+  * Real time data exploration: Instantly access and analyze data for quick insights and more informed decision-making.
+
+  * Rapid audience building: Easily create targeted audiences within minutes for more efficient campaign segmentation.
+
+  Overall, Adobe Campaign v8's robust architecture provides a powerful foundation for managing extensive and complex marketing campaigns with enhanced speed and efficiency.
 
 ### New features on Adobe Campaign v8 {#ac-new-features}
 
@@ -128,56 +131,24 @@ Read out this whitepaper to [learn more about the business value of Adobe Campai
 
 Most concepts are similar between Adobe Campaign v8 and Adobe Campaign Standard. However, there are a few differences as described below. 
 
-### Terrminology changes {#terminology-changes}
+### Terminology changes {#terminology-changes}
 
-Here are some terminology differences between Campaign Standard and the Campaign v8:
+Below are some terminology differences between Campaign Standard and the Campaign v8. 
 
-<table style="table-layout:fixed">
-  <tr style="border: 1;">
-    <td align="center"><strong>Adobe Campaign Standard</strong></td>
-    <td align="center"><strong>Adobe Campaign v8</strong></td>
-  </tr>
-  <!--tr style="border: 1;">
-    <td align="center">Program</td>
-    <td align="center">Campaign</td>
-  </tr>
-  <tr style="border: 1;">
-    <td align="center">Real-time events and Transactional events</td>
-    <td align="center">Triggers</td>
-  </tr-->
-  <tr style="border: 1;">
-    <td align="center">Profiles</td>
-    <td align="center">Recipients (in the client console only)</td>
-  </tr>
-  <!--tr style="border: 1;">
-    <td align="center">Traps</td>
-    <td align="center">Seeds</td>
-  </tr-->
-  <tr style="border: 1;">
-    <td align="center">Custom resources</td>
-    <td align="center">Schemas</td>
-  </tr>
-  <!--tr style="border: 1;">
-    <td align="center">Messages</td>
-    <td align="center">Deliveries</td>
-  </tr-->
-  <tr style="border: 1;">
-    <td align="center">Product users</td>
-    <td align="center">Operators</td>
-  </tr>
-  <tr style="border: 1;">
-    <td align="center">Roles</td>
-    <td align="center">Named Rights</td>
-  </tr>
-  <tr style="border: 1;">
-    <td align="center">Security Groups</td>
-    <td align="center">Operator Groups</td>
-  </tr>
-  <!--tr style="border: 1;">
-    <td align="center">Organizational Units</td>
-    <td align="center">Folder Permissions</td>
-  </tr-->
-</table>
+* Custom resources are **Schemas**
+* Messages are referred as **Deliveries**
+* Product users are **Operators**
+* Roles are configured with **Named Rights**
+* Security Groups are **Operator Groups**
+* Organizational units are managed through **Folder Permissions**
+
+Also, as an existing Campaign user, note that some concepts have been renamed to align with the latest terminology standards. These changes only apply to Campaign Web user interface and are not reflected in the client console. They are summarized below.
+
+* Recipients are now **Profiles**. [Learn more](../../v8/audience/gs-audiences-recipients.md).    
+* Seed addresses are now **Test profiles**. [Learn more](../../v8/preview-test/test-deliveries.md).
+* Delivery analysis is now the **delivery preparation**. When you need to launch the message preparation, click the **Prepare** button. [Learn more](../../v8/monitor/prepare-send.md).
+* Email Preview is now available throught the **Simulate content** button. [Learn more](../../v8/preview-test/preview-test.md)
+* Lists are now **Audiences**. [Learn more](../../v8/audience/gs-audiences-recipients.md).
 
 ### New user experience
 

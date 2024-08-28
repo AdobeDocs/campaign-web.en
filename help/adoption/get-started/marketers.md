@@ -138,8 +138,7 @@ Understand how workflows work and how to create a targeting workflow in this vid
 
 Get more details with the [Worklow documentation](../../v8/workflows/gs-workflows.md).
 
-Adobe Campaign Web user interface features a query modeler in workflows that simplifies the process of filtering the database based on various criteria.
-[Learn more about query modeler](../../v8/query/query-modeler-overview.md)
+Adobe Campaign Web user interface features a query modeler in workflows that simplifies the process of filtering the database based on various criteria. [Learn more about the query modeler](../../v8/query/query-modeler-overview.md)
 
 To understand the purpose and functionality of each activity within your workflow, explore the detailed information available on [workflow activities](../../v8/workflows/activities/about-activities.md)
 
@@ -304,7 +303,7 @@ Direct mail is an offline channel that allows you to produce files to mass deliv
 
 ## Create and manage landing pages {#acs-gs-marketers-lp}
 
-Adobe Campaign allows you to create, design, and share landing pages. Landing pages enable you to direct your users to online forms where they can update their data, opt-in/out from receiving your communications, or subscribe to a specific service such as a newsletter.
+Adobe Campaign allows you to create, design, and share landing pages. Landing pages enable you to direct your users to online forms where they can update their data, opt-in/out from receiving your communications, or subscribe to a specific service such as a newsletter. Learn more about landing pages in the following sections:
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
