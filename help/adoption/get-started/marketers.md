@@ -36,7 +36,7 @@ For more details, please refer to the documentation below:
 1. [Browse and Filter List](../../v8/get-started/list-filters.md)
 
 
-## Create and manage profiles and audiences {#acs-gs-marketers-audiences}
+## Create and manage profiles and audiences {#acs-gs-marketers-profiles-and-audiences}
 
 The general concepts for creating and managing profiles and audiences in Campaign v8 is the same as in Adobe Campaign Standard.
 
