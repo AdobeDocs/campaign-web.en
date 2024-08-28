@@ -64,6 +64,9 @@ Learn how to build and manage audiences, how to select audiences for a delivery,
 
 See [Get started with Audiences](../../v8/audience/manage-audience.md){target="_blank"} for more information.
 
+A control group is a sub-population excluded from the delivery. You can define a control group to avoid sending messages to a portion of your audience, and compare post-delivery behavior with the main target. This option helps you measure the impact of your campaign.
+Learn how to [set a control group](../../v8/audience/control-group.md){target="_blank"}
+
 >[!AVAILABILITY]
 >
 >1- All audiences created via Adobe Campaign Standard query activity will get transformed into predefined filter in Adobe Campaign v8 during migration. Adobe Campaign also support query activity. 
@@ -208,13 +211,13 @@ The detailed steps for sending an email delivery :
     For an accelerated and improved design process, you can create standalone templates to easily reuse custom content across Adobe Campaign. 
     [Create email templates](../../v8/email/create-email-templates.md){target="_blank"}
 
-2. **Preview and test**
+1. **Preview and test**
 
     Learn how to preview email message content and personalization, send test deliveries (proofs) and check the email rendering in popular desktop, mobile and web-based clients.
 
     >[!VIDEO](https://video.tv.adobe.com/v/3425862?quality=12&learn=on){transcript=true}
 
-3. **Send email and check logs**
+1. **Send email and check logs**
     When you have defined your content, audience, and schedule, you are ready to prepare your email delivery.
 
    * [Prepare and send an email](../../v8/monitor/prepare-send.md){target="_blank"}
