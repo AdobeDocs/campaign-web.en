@@ -37,11 +37,20 @@ Browse the sections below to learn how to create and send messages.
     <a href="../sms/create-sms.md">
       <img alt="SMS" src="assets/do-not-localize/sms.jpg">
     </a>
+    </div>
     <div>
     <a href="../sms/create-sms.md"><strong>Create SMS messages</strong></a>
     </div>
     <p>
     </td>
+    <td>
+    <a href="../direct-mail/gs-direct-mail.md">
+      <img alt="Push" src="assets/do-not-localize/direct-mail.jpg">
+    </a>
+    <div>
+    <a href="../direct-mail/gs-direct-mail.md"><strong>Create direct mail messages</strong></a>
+    </div>
+    <p>
+    </td>
     </tr>
-    </table>
-
+</table>
