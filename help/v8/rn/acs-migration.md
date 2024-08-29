@@ -2,8 +2,6 @@
 audience: end-user
 title: Transition from Campaign Standard to Adobe Campaign Web
 description: Discover Campaign Web User Interface
-hide: yes
-hidefromtoc: yes
 exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
 ---
 # Campaign Standard transition to Campaign v8 {#welcome}
@@ -21,9 +19,10 @@ We are excited to announce that Adobe Campaign Standard users are now eligible t
 * Integration with Adobe Experience Platform: Managed Cloud Services v8 seamlessly connects with Adobe Experience Platform, empowering clients to leverage the full potential of their data and deliver personalized, impactful campaigns across channels.
 * Consistent User Interface and Experience: Rest assured, transitioning to Managed Cloud Services v8 won't disrupt your workflow. You'll continue to enjoy the familiar user interface and user experience, ensuring a minimal learning curve for your team.
 
+**As a Campaign Standard user transitioning to Campaign v8, learn how to start [in this document](../../adoption/home.md).**
 <!--
 As a Campaign Standard user, we now offer you a way to migrate to Adobe Campaign v8. You will benefit from both the new Campaign Web interface and the v8 console.
--->
+
 
 ## Key capabilities {#key-features}
 
@@ -49,7 +48,7 @@ Supported and unsupported capabilities and interoperability between Campaign Web
 ## Terminology {#terminology}
 
 Most concepts are similar between Campaign v8 and Campaign Standard. However, there are a few differences. Here are some examples of terminology differences between Campaign Standard and the Campaign v8:
-
+-->
 <!--
 * Profiles are **Recipients** in the console. [Learn more](../audience/gs-audiences-recipients.md).
 * Test profiles are **Seed addresses**. [Learn more](../preview-test/test-deliveries.md).
@@ -57,6 +56,7 @@ Most concepts are similar between Campaign v8 and Campaign Standard. However, th
 * Audiences are **Lists**. [Learn more](../audience/gs-audiences-recipients.md).
 -->
 
+<!--
 * Custom resources are **Schemas**
 * Messages are referred as **Deliveries**
 * Product users are **Operators**
