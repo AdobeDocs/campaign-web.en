@@ -16,7 +16,7 @@ As a Campaign Standard transitioning to Campaign v8, this documentation helps yo
 
 >[!BEGINTABS]
 
->[!TAB Transition] 
+>[!TAB What's new] 
 
 Start by learning what is new on Adobe Campaign v8.
 

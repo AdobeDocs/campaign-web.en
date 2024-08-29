@@ -9,9 +9,6 @@ exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
 <!--
 We are thrilled to annonce that you, as a Campaign Standard user, can now benefit from the new version of Adobe Campaign Web User Interface. The migration is seemless and will allow you to use all the intuitive features designed to simplify the creation of personalized cross-channel campaigns. Campaign Web User Interface also brings a connected canvas with Adobe Experience Platform for a unified experience.
 -->
-
-Welcome to Adobe Campaign Managed Cloud Services v8!
-
 We are excited to announce that Adobe Campaign Standard users are now eligible to transition to Adobe Campaign Managed Cloud Services v8. This transition brings many benefits:
 
 * Robust IT Infrastructure: With Managed Cloud Services v8, clients can leverage a more robust IT infrastructure, ensuring enhanced performance, reliability, and scalability for their campaigns.
