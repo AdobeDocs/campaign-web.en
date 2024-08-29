@@ -35,7 +35,7 @@ Understand the experience differences between Adobe Campaign Standard and Adobe 
 
 Understand the experience differences between Adobe Campaign Standard and Adobe Campaign v8 for admin/developer users.
 
-[![image](../v8/assets/do-not-localize/learn-more-button.svg)](get-started/admin-delevopers.md)
+[![image](../v8/assets/do-not-localize/learn-more-button.svg)](get-started/admin-developers.md)
 
 >[!ENDTABS]
 
