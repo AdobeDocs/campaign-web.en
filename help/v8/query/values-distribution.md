@@ -9,9 +9,11 @@ The distribution of values helps to know the percentage of a value in a column w
 
 ## Distribution of values in a folder {#distribution-values-folder}
 
+To know the distribution of values in a folder, proceed as below :
+
 For example, among the deliveries, we want to know the distribution of values of the **Channel** column.
 
-To get this information, go to the deliveries folder and click on **[!UICONTROL Configure columns]** button.
+To get this information, go to the **[!UICONTROL Deliveries]** folder and click on **[!UICONTROL Configure columns]** icon.
 
 In the **[!UICONTROL Configure columns]** window, click on the **[!UICONTROL Information]** icon of the column you want to know. Then, click on the **[!UICONTROL Distribution of values]** button.
 
@@ -25,7 +27,9 @@ You will get the percentage of the values in the **[!UICONTROL Channel]** column
 >
 > For columns with many values, only the first twenty values will be displayed. A notification **[!UICONTROL Partial load]** will warn you.
 
-It is also possible to have the distribution of values though a link. To do this, click on the **+** button of the link, then select the field you want to analyze.
+You can also have the distribution of values of a link. 
+
+In the attributes list, click the **+** button next to the desired link, as shown below. This adds the link to the **[!UICONTROL Output columns]**. You can have now the **[!UICONTROL Information]** icon, allowing you to view the distribution of its values. If you do not want to keep the link in the **[!UICONTROL Output columns]**, make sure to click on the **[!UICONTROL Cancel]** button.
 
 ![](assets/values_link.png){zoomable="yes"}
 
