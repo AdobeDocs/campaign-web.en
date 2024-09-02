@@ -7,7 +7,7 @@ level: Beginner, Experienced
 
 # Get started for marketers {#acs-gs-marketers}
 
-This guide gives an overview of the key functionalities of Campaign v8, for marketers migrating from Campaign Standard to Campaign v8.
+This guide gives an overview of the key functionalities of Campaign v8, for marketers transitioning from Campaign Standard to Campaign v8.
 
 You can access Adobe Campaign v8 via the client console or the Web User Interface. The web interface lets you create, manage and execute key marketing actions. The new Adobe Campaign Web interface offers a modern and intuitive user experience to simplify marketing campaign design and delivery. Learn more in this section. [Learn more](../../v8/get-started/user-interface.md).
 
@@ -67,7 +67,7 @@ Learn how to [set a control group](../../v8/audience/control-group.md){target="_
 
 >[!AVAILABILITY]
 >
->* All audiences created via Campaign Standard Query activity is transformed into predefined filter in Campaign v8 during migration. Campaign v8 also support the Query activity. 
+>* All audiences created via Campaign Standard Query activity is transformed into predefined filter in Campaign v8 during transition. Campaign v8 also support the Query activity. 
 >
 >* Read audience gets transformed into Query activity with [predefined filter](../../v8/query/build-query.md)
 >

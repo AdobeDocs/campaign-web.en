@@ -7,7 +7,7 @@ level: Beginner, Experienced
 
 # Get started for administrators and developers {#acs-gs-admin}
 
-This page gives an overview of the key administrative and data management functionality of Campaign v8. It is for administrators and technical marketers migrating from Campaign Standard to Campaign v8.
+This page gives an overview of the key administrative and data management functionality of Campaign v8. It is for administrators and technical marketers transitioning from Campaign Standard to Campaign v8.
 
 The major change for you is the introduction of the client console, the native application which communicates with the Adobe Campaign application server. 
 
@@ -44,31 +44,34 @@ See [Work with the client console](https://experienceleague.adobe.com/en/docs/ca
 ## Administrate the environment  {#acs-gs-admin-env}
 
 Once the client console is installed, follow the steps in this documentation to create the connection to the application server.
-
 [Connection to the application server documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/connect#create-your-connection){target="_blank"}
 
-Security practices are deeply ingrained into our internal software development and operations processes and tools and are rigorously followed by our cross-functional teams to prevent, detect, and respond to incidents in an expedient manner.
-
+Security practices are deeply ingrained into our internal software development and operations processes and tools and are rigorously followed by our cross-functional teams to prevent, detect, and respond to incidents in an expedient manner
 [Security best practices](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/privacy/security){target="_blank"}
 
 Adobe Campaign lets you define and manage the rights assigned to users. These permissions are defined by combining operator group permissions, named rights and permissions on folders.
-
 [User permissions documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}
 
 User access migration management
 NEEDS TO BE ADDED WHEN RELEASED
 
-The Adobe Campaign Control Panel allows Adobe Campaign administrators to monitor key assets and perform administrative tasks, such as managing the SFTP storage by instance, managing GPG keys, or subdomains and certificates. See [Control panel tutorials](https://experienceleague.adobe.com/en/docs/control-panel-learn/tutorials/control-panel-overview){target="_blank"}
+The Adobe Campaign Control Panel allows Adobe Campaign administrators to monitor key assets and perform administrative tasks, such as managing the SFTP storage by instance, managing GPG keys, or subdomains and certificates.
+See [Control panel tutorials](https://experienceleague.adobe.com/en/docs/control-panel-learn/tutorials/control-panel-overview){target="_blank"}
 
-Control Panel allows you to set up new connections to your instances by adding IP addresses ranges to the allow list. Learn more in the [IP allow listing documentation](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access){target="_blank"}
+Control Panel allows you to set up new connections to your instances by adding IP addresses ranges to the allow list.
+Learn more in the [IP allow listing documentation](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access){target="_blank"}
 
-Subdomain configuration allows you to configure a sub-section of your domain (technically a "DNS zone") for use with Adobe Campaign. Learn more in the [Subdomain delegation documentation](https://experienceleague.adobe.com/en/docs/control-panel/using/subdomains-and-certificates/subdomains-branding){target="_blank"}
+Subdomain configuration allows you to configure a sub-section of your domain (technically a "DNS zone") for use with Adobe Campaign. 
+Learn more in the [Subdomain delegation documentation](https://experienceleague.adobe.com/en/docs/control-panel/using/subdomains-and-certificates/subdomains-branding){target="_blank"}
 
-In the Control Panel, you can interact with all SFTP servers that are connected to Campaign instances that you have access to. See [SFTP management documentation](https://experienceleague.adobe.com/en/docs/control-panel/using/sftp-management/about-sftp-management){target="_blank"}
+In the Control Panel, you can interact with all SFTP servers that are connected to Campaign instances that you have access to. 
+See [SFTP management documentation](https://experienceleague.adobe.com/en/docs/control-panel/using/sftp-management/about-sftp-management){target="_blank"}
 
-In Adobe Campaign Web User Interface, the Audit trail feature provides users with full visibility into all modifications made to important entities within your instance, typically those that significantly impact a smooth operation of the instance. See the [Audit trail documentation](../../v8/reporting/audit-trail.md)
+In Adobe Campaign Web User Interface, the Audit trail feature provides users with full visibility into all modifications made to important entities within your instance, typically those that significantly impact a smooth operation of the instance. 
+See the [Audit trail documentation](../../v8/reporting/audit-trail.md)
 
-You can use data packages to export and import your platform custom settings and data. A package can contain different types of configurations and components, filtered or not. See [Package import/export](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/packages){target="_blank"}
+You can use data packages to export and import your platform custom settings and data. A package can contain different types of configurations and components, filtered or not. 
+See [Package import/export](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/packages){target="_blank"}
 
 <!--
 MISSING LINKS: 
@@ -122,7 +125,7 @@ Campaign REST APIs are aimed at letting you create integrations for Adobe Campai
 >
 >* PKEYs values change between existing Campaign Standard instance and migrated Campaign v8 instance. In case, PKEYs are being stored in external database then the implementation needs to change in a way that they need to call Adobe Campaign v8 main APIs which provides pkeys / hrefs links with pkeys and sub sequent API calls need to be dynamically formed by consuming the pkeys /hrefs from previous API calls​
 >
->* Administrator product profile and Message center product profile: a new product profile needed for accessing transactional APIs from RT instance which is different from Campaign Standard. This is added to Campaign Standard existing or pre-created technical accounts. Post migration Campaign Standard, as an administrator, you should review product profile mapping and assign to the needed product profile if they do not want Administrator product profile mapping with their technical account. After the migration, any future new integrations we recommend customer to use Campaign v8 tenant id in the REST URL instead of the previous Campaign Standard tenant ID.​
+>* Administrator product profile and Message center product profile: a new product profile needed for accessing transactional APIs from RT instance which is different from Campaign Standard. This is added to Campaign Standard existing or pre-created technical accounts. Post transition Campaign Standard, as an administrator, you should review product profile mapping and assign to the needed product profile if they do not want Administrator product profile mapping with their technical account. After the transition, any future new integrations we recommend customer to use Campaign v8 tenant id in the REST URL instead of the previous Campaign Standard tenant ID.​
 >
 >* In Campaign v8, for the same body where vehicle linked to profile​ we would get an error firstName property is not valid for `cusVehicle` but a request body with just the attributes without link works fine. `{ "vehicleNumber": "20009", "vehicleName": "Model E", "vehicleOwner":{   "firstName":"tester 11", "lastName":"Smith 11" } }​`
 >

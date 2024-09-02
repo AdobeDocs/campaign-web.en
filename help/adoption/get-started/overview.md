@@ -1,11 +1,11 @@
 ---
-title: Get started with Adobe Campaign v8 after migrating from Campaign Standard
+title: Get started with Adobe Campaign v8 after transitioning from Campaign Standard
 description: Learn steps required to get started with your new Campaign v8 application
 role: User, Admin, Developer
 level: Beginner
 ---
 
-# Get started with Campaign v8 after migrating from Campaign Standard {#ac-acs}
+# Get started with Campaign v8 after transitioning from Campaign Standard {#ac-acs}
 
 Welcome to Adobe Campaign v8!
 
@@ -53,7 +53,7 @@ Key enhancements coming with Adobe Campaign v8 are listed below.
 
 ### New features on Adobe Campaign v8 {#ac-new-features}
 
-As a Campaign Standard user migrating to Adobe Campaign v8, the following features are now available to you:
+As a Campaign Standard user transitioning to Adobe Campaign v8, the following features are now available to you:
 
 * **Rich push**
 
@@ -65,9 +65,9 @@ As a Campaign Standard user migrating to Adobe Campaign v8, the following featur
 
   You can tailor your notifications based on the customer's system :
 
-  * For [Android](../../v8/push/rich-push.md) users
+  * For [Android](../../v8/push/rich-push.md) templates
 
-  * For [iOs](../../v8/push/rich-push.md) users
+  * For [iOs](../../v8/push/rich-push.md) templates
 
   Push notifications are a crucial tool for engaging mobile app users, allowing you to reach them even when they are not actively using your app.
 
