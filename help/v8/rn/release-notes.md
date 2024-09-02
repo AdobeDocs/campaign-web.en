@@ -18,8 +18,6 @@ Adobe Campaign Web user interface releases operate on a continuous delivery mode
 
 The following features and improvements are available starting August release.
 
-* **External delivery** -  You can now define External deliveries, and External delivery templates, in Campaign web user interface. With this mode, messages are generated in an input file which can be shared with your external provider. The External delivery mode is the default mode for the direct mail channel.
-
 * **Visual fragments** - You can now archive visual content fragments.
 
 * **Distribution of values** - When accessing the list of fields for personalization, you can now check how values are distributed for each field. A dedicated popup window shows the number and percentage for each value.
