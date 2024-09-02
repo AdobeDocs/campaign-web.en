@@ -30,7 +30,8 @@ breadcrumb-title: Campaign Web User Interface
   + [AI-powered contextual help](get-started/using-ai.md)
 + Messages and deliveries {#msg}
   + [Get started with messages](msg/gs-messages.md)
-  + [Work with deliveries](msg/gs-deliveries.md)
+  + [Access deliveries](msg/gs-deliveries.md)
+  + [Create a delivery](msg/create-deliveries.md)
   + [Use delivery templates](msg/delivery-template.md)
   + Emails {#email}
     + [Create your first email](email/create-email.md)

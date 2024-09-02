@@ -16,6 +16,11 @@ exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
 >title="Query modeler"
 >abstract="Define filtering criteria for recipients or any other targeting dimension from the database. Take advantage of your Adobe Experience Platform audience to further refine your target audience and maximize the impact of your campaign."
 
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_refine_target"
+>title="Refine target"
+>abstract="These rules can only be changed in the client console."
+
 Adobe Campaign Web user interface features a query modeler that simplifies the process of filtering the database based on various criteria. It ensures full compatibility with the queries created in the client console, facilitating a seamless transition to the web user interface.
 
 Additionally, the query modeler can manage very complex and long queries efficiently, offering enhanced flexibility and precision. Furthermore, it supports predefined filters within conditions, empowering you to refine your queries with ease while utilizing advanced expressions and operators for comprehensive audience targeting and segmentation strategies.
@@ -32,6 +37,12 @@ The query modeler is available in every context where you need to define rules t
 |**Filter reports data**: Add rule to filter the data displayed in reports. [Learn how to work with reports](../reporting/gs-reports.md)|![](assets/access-reports.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}|
 |**Customize lists**: Create custom rules to filter the data displayed in lists such as recipients, deliveries lists etc. [Learn how to filter lists](../get-started/list-filters.md#list-built-in-filters)|![](assets/access-lists.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}|
 |**Build conditional content**: make email content dynamic by creating conditions that define which content should be displayed to different recipients, ensuring personalized and relevant messaging. [Learn how to build conditional content](../personalization/conditions.md)|![](assets/conditional-content.png){width="200" align="center" zoomable="yes"}|
+
+>[!NOTE]
+>
+>When accessing an object created in the client console where rules have been applied such as an audience or a predefined filter, the **[!UICONTROL Refine target]** section may display. This means that additional parameters have been configured to refine the rule target. These parameters can be modified in the console only.
+>
+>![](assets/target-warning.png){zoomable="yes"}
 
 ## Query modeler interface {#interface}
 
