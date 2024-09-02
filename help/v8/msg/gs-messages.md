@@ -16,7 +16,7 @@ Browse the sections below to learn how to create and send messages.
 
 <table style="table-layout:fixed">
     <tr style="border: 0;">
-    <td>
+    <td align="center">
     <a href="../email/create-email.md">
     <img alt="Email" src="assets/do-not-localize/email.jpg">
     </a>
@@ -24,7 +24,7 @@ Browse the sections below to learn how to create and send messages.
     </div>
     <p>
     </td>
-    <td>
+    <td align="center">
     <a href="../push/create-push.md">
       <img alt="Push" src="assets/do-not-localize/push.jpg">
     </a>
@@ -33,15 +33,24 @@ Browse the sections below to learn how to create and send messages.
     </div>
     <p>
     </td>
-    <td>
+    <td align="center">
     <a href="../sms/create-sms.md">
       <img alt="SMS" src="assets/do-not-localize/sms.jpg">
     </a>
+    </div>
     <div>
     <a href="../sms/create-sms.md"><strong>Create SMS messages</strong></a>
     </div>
     <p>
     </td>
+    <td align="center">
+    <a href="../direct-mail/gs-direct-mail.md">
+      <img alt="Push" src="assets/do-not-localize/direct-mail.jpg">
+    </a>
+    <div>
+    <a href="../direct-mail/gs-direct-mail.md"><strong>Create direct mail messages</strong></a>
+    </div>
+    <p>
+    </td>
     </tr>
-    </table>
-
+</table>

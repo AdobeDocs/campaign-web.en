@@ -12,6 +12,16 @@ exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 >title="Select an existing audience"
 >abstract="Browse the list to select an existing audience. Use the 'Show filters' icon to filter the list, or select a specific folder."
 
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_refine_target"
+>title="Refine target"
+>abstract="These rules can only be changed in the desktop console."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_additional_target"
+>title="Additional target"
+>abstract="These rules can only be changed in the desktop console."
+
 This section explains how to select an existing audience when defining the target population of a delivery. When defining the main target of a delivery, you can also:
 * [Build a one-time audience](one-time-audience.md) using the query modeler.
 * [Load an audience from an external file](file-audience.md) (for emails only).
