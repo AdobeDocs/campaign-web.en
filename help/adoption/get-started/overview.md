@@ -105,7 +105,9 @@ As a Campaign Standard user transitioning to Adobe Campaign v8, the following fe
 
 * **Upgraded SMS infrastructure - SMS v2.0**
 
-  NEEDS TO BE ADDED WHEN RELEASED
+  The simplicity and ease of use of SMS make it a very valuable communication channel in addition to its robustness and unrivaled compatibility over billions of terminals. 
+  Adobe Campaign v8 comes with a new infrastructure improving the sending of SMS.
+  [Learn more about new SMS settings](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}.
 
 * **Upgraded Push infrastructure**
 
