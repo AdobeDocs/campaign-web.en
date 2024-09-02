@@ -91,8 +91,13 @@ To create a landing page, follow these steps:
 1. Fill in the **[!UICONTROL Properties]** fields such as the label.
 
     By default, landing pages are stored in the **[!UICONTROL Web applications]** folder. You can change it by browsing to the desired location in the **[!UICONTROL Additional options]**. [Learn how to work with folders](../get-started/permissions.md#folders)
+    You can find the captcha settings in the **[!UICONTROL Additional options]** also. Activate the **[!UICONTROL Additional Enable captcha solution]** toggle to protect your landing page from spam and abuse.
 
     ![](assets/lp-properties.png){zoomable="yes"}
+
+    To check the captcha settings, click on **[!UICONTROL Review and publish]** button, and **[!UICONTROL Simulate content]**. When submitting the form, you see the captcha widget working during validation as below.
+
+    ![](assets/lp-captcha.png){zoomable="yes"}
 
 1. In the **[!UICONTROL Data preload]** section, the two options below are available:
 
