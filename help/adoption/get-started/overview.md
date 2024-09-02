@@ -118,13 +118,7 @@ As a Campaign Standard user transitioning to Adobe Campaign v8, the following fe
 
 ## Managed Services {#ac-managed-services}
 
-NEEDS TO BE CHANGED WHEN INFORMATION IS RECEIVED
-
 Adobe Campaign v8 is available as a Managed Cloud Service, providing proactive oversight, timely alerting, and service governance. Adobe Managed Cloud Service provides marketers with a more agile, secure and scalable cross-channel campaign management solution with a low total cost of ownership. The new offering combines services with proactive oversight and timely alerting.
-
-The managed services approach enables marketers to take advantage of the operational scale and economics of cloud infrastructure without the need for heavy support from internal IT resources. 
-
-Adobe consulting and implementation teams work with you to assess your marketing plans, existing practices, data requirements, and messaging volume, and then they recommend the most appropriate service, support, and deliverability packages. The Adobe Campaign Managed Cloud Services team can then monitor and report on campaign performance, brand reputation, customer experience metrics, and more.
 
 
 ## Key differences between Campaign Standard and Campaign v8 {#experiences}
