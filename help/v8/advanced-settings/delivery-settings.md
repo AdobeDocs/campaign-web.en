@@ -300,8 +300,7 @@ You can add additional SMTP parameters to your email delivery. You can do it in 
 
 ### Character encoding {#character-encoding}
 
-The **[!UICONTROL Character encoding]** section allows you to set a specific encoding.
-The default encoding is UTF-8, which works for most characters. However, some email providers might not display special characters correctly if they do not support the UTF-8 standard encoding.
+The **[!UICONTROL Character encoding]** section allows you to set a specific encoding. The default encoding is UTF-8, which works for most characters. However, some email providers might not display special characters correctly if they do not support the UTF-8 standard encoding.
 
 For example, if you want to send an email with Japanese characters, it is better to use an encoding that specifically supports those characters, so your audience in Japan can see everything correctly.
 
