@@ -101,7 +101,7 @@ To create a landing page, follow these steps:
 
     >[!NOTE]
     >
-    >The captcha widget works in floating mode. It is displayed floating during validation and disapears after.
+    >The captcha widget operates in floating mode. It appears during validation and disappears once the process is complete.
 
 1. In the **[!UICONTROL Data preload]** section, the two options below are available:
 
