@@ -17,9 +17,10 @@ Adobe Campaign Web User interface continuously delivers new features, enhancemen
 
 The following features and improvements are available starting August release.
 
-* **Visual fragments** - You can now archive visual content fragments.
-
 * **Distribution of values** - When accessing the list of fields for personalization, you can now check how values are distributed for each field. A dedicated popup window shows the number and percentage for each value.
+
+* **Landing pages captcha** - You can now add captcha to protect your landing page from spam and abuse caused by bots. This is non-intrusive for your customers since it does not require any interaction from them and is based on interactions with your site.
+
 
 ### New features in Limited Availability {#acs-24-8}
 
@@ -31,9 +32,10 @@ The following features and improvements are available starting August release.
 
 * **Branding for Direct Mail** - Technical administrators can now define one or several brands to centralize the parameters that affect a brand's identity. This includes the brand logo, the domain of the landing pages' access URL, or message tracking settings. You can now create these brands and link them to messages or landing pages. This configuration is managed in templates.
 
-* **Landing pages reCaptcha** - You can now use Google reCAPTCHA mechanism to protect your landing page from spam and abuse caused by bots. This is non-intrusive for your customers since it does not require any interaction from them and is based on interactions with your site.
+* **Subscriptions with Landing pages** - You can now link a landing page to a service, and send a confirmation message when users validate it.
 
-* **Subscriptions with Landing pages** - You can now link a landing page to a service so that profiles can subscribe to a specific service when validating it.
+* **Visual fragments** - You can now archive visual content fragments.
+
 
 
 
