@@ -45,23 +45,23 @@ Get a glimpse of the newest enhancements in Adobe Campaign Web product and docum
 
 >[!BEGINTABS]
 
->[!TAB July release is live!]
+>[!TAB August release is live!]
 
 Discover new features and improvements coming with Adobe Campaign Web User Interface July '24 release.
 
 [![image](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB Delivery alerting] 
+>[!TAB Distribution of values] 
 
-Delivery Alerting is an alert management system that enables groups of users to automatically receive email notifications with information on their delivery executions.
+When accessing the list of fields for personalization, you can now check how values are distributed for each field.
 
-[![image](assets/do-not-localize/learn-more-button.svg)](../v8/msg/delivery-alerting.md)
+[![image](assets/do-not-localize/learn-more-button.svg)](../v8/query/build-query.md#distribution-values-query)
 
->[!TAB Plans & programs]
+>[!TAB Captcha in landing pages]
 
-Adobe Campaign allows you to configure your folder hierarchy for marketing plans and programs.
+You can now add captcha to protect your landing page from spam and abuse caused by bots. This capability is in Limited Availability.
 
-[![image](assets/do-not-localize/learn-more-button.svg)](administration/plans-programs.md)
+[![image](assets/do-not-localize/learn-more-button.svg)](../v8/landing-pages/create-lp.md#captcha)
 
 
 >[!ENDTABS]

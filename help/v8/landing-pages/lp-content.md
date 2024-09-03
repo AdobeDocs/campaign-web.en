@@ -130,6 +130,20 @@ To define specific content that will enable users to select and submit their cho
 
     ![](assets/email-link-to-landing-page.png){zoomable="yes"}
 
+1. You can send a message on the submission of your landing page. [Learn more here](#lp-message) 
+
+### Send a message after submission {#lp-message}
+
+>[!AVAILABILITY]
+>
+>This capability is in Limited Availability (LA). It is restricted to customers migrating **from Adobe Campaign Standard to Adobe Campaign v8**, and cannot be deployed on any other environment.
+
+To send automatically a confirmation message after the submission of a landing page, follow these steps : 
+1. In the **[!UICONTROL CALL TO ACTION]** section, check the **[!UICONTROL Send confirmation email]** option.
+1. In the associated drop-down list, choose the transactional message template that needs to be sent out.
+
+![](assets/lp-confirmation.png){zoomable="yes"}
+
 ## Define landing page form styles {#lp-form-styles}
 
 1. To modify the styles of your form component content, switch at any time to the **[!UICONTROL Styles]** tab.

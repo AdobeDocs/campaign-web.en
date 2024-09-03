@@ -91,6 +91,8 @@ To create a landing page, follow these steps:
 1. Fill in the **[!UICONTROL Properties]** fields such as the label.
 
     By default, landing pages are stored in the **[!UICONTROL Web applications]** folder. You can change it by browsing to the desired location in the **[!UICONTROL Additional options]**. [Learn how to work with folders](../get-started/permissions.md#folders)
+    
+    You can also setup the captcha to secure your landing page. [Learn more here](#captcha).
 
     ![](assets/lp-properties.png){zoomable="yes"}
 
@@ -149,6 +151,28 @@ To create a landing page, follow these steps:
 1. Click **[!UICONTROL Review and publish]**.
 
 Once you defined all the settings and [designed](lp-content.md) all the pages, you can [test](#test-landing-page) and [publish](#publish-landing-page) your landing page as detailed below.
+
+## Secure your landing page with a captcha {#captcha}
+
+>[!AVAILABILITY]
+>
+>This capability is in Limited Availability (LA). It is restricted to customers using **Adobe Campaign v8.7.2 upgraded with the last fix version**, and cannot be deployed on any other environment.
+
+Setting up a captcha helps you to protect your landing page from spam and abuse.
+
+To use it, go to the **[!UICONTROL Properties]** of your landing page.
+In the **[!UICONTROL Additional options]** also. Activate the **[!UICONTROL Additional Enable captcha solution]** toggle.
+
+![](assets/lp-properties-captcha.png){zoomable="yes"}
+
+To check the captcha settings, click on **[!UICONTROL Review and publish]** button, and **[!UICONTROL Simulate content]**. When submitting the form, you see the captcha widget working during validation as below.
+
+![](assets/lp-captcha.png){zoomable="yes"}
+
+>[!NOTE]
+>
+>The captcha widget in Adobe Campaign v8 is ALTCHA operating in floating mode. It appears during validation and disappears once the process is complete.
+    
 
 ## Test the landing page {#test-landing-page}
 

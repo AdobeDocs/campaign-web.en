@@ -14,6 +14,8 @@ breadcrumb-title: Campaign Web User Interface
   + [What's new?](rn/whats-new.md)
   + [Early release notes](rn/e-release-notes.md)
   + [Latest release](rn/release-notes.md)
+  + Previous releases {#previous-release-notes}
+      + [2024 releases](rn/release-notes-24.md)
   + [Documentation updates](rn/documentation-updates.md)
 + Get started with Adobe Campaign {#start}
   + [Get started](get-started/get-started.md)
@@ -28,7 +30,8 @@ breadcrumb-title: Campaign Web User Interface
   + [AI-powered contextual help](get-started/using-ai.md)
 + Messages and deliveries {#msg}
   + [Get started with messages](msg/gs-messages.md)
-  + [Work with deliveries](msg/gs-deliveries.md)
+  + [Access deliveries](msg/gs-deliveries.md)
+  + [Create a delivery](msg/create-deliveries.md)
   + [Use delivery templates](msg/delivery-template.md)
   + Emails {#email}
     + [Create your first email](email/create-email.md)
