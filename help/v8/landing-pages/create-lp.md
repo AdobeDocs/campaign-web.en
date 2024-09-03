@@ -99,6 +99,10 @@ To create a landing page, follow these steps:
 
     ![](assets/lp-captcha.png){zoomable="yes"}
 
+    >[!NOTE]
+    >
+    >The captcha widget works in floating mode. It is displayed floating during validation and disapears after.
+
 1. In the **[!UICONTROL Data preload]** section, the two options below are available:
 
     * When the **[!UICONTROL Pre-fill with the data referenced in the form]** option is selected, if the visitor of the landing page matches a profile from the database, the profile's information is automatically preloaded in the form. The user just has to fill in the missing fields, and update the existing values if needed. This allows to merge data for existing profiles instead of creating duplicates.
