@@ -71,3 +71,33 @@ To delete a folder, select it in your **[!UICONTROL Explorer]** tree, and click 
 Choose **[!UICONTROL Delete folder]**.
 
 ![](assets/folder_delete.png){zoomable="yes"}
+
+## Distribution of values in a folder {#distribution-values-folder}
+
+The distribution of values helps to know the percentage of a value in a column within a table. 
+
+To know the distribution of values in a folder, proceed as below :
+
+For example, among the deliveries, we want to know the distribution of values of the **Channel** column.
+
+To get this information, go to the **[!UICONTROL Deliveries]** folder and click on **[!UICONTROL Configure columns]** icon.
+
+In the **[!UICONTROL Configure columns]** window, click on the **[!UICONTROL Information]** icon of the column you want to know. Then, click on the **[!UICONTROL Distribution of values]** button.
+
+![](assets/values_deliveries.png){zoomable="yes"}
+
+You will get the percentage of the values in the **[!UICONTROL Channel]** column.
+
+![](assets/values_percentage.png){zoomable="yes"}
+
+>[!NOTE]
+>
+> For columns with many values, only the first twenty values will be displayed. A notification **[!UICONTROL Partial load]** will warn you.
+
+You can also have the distribution of values of a link. 
+
+In the attributes list, click the **+** button next to the desired link, as shown below. This adds the link to the **[!UICONTROL Output columns]**. You can have now the **[!UICONTROL Information]** icon, allowing you to view the distribution of its values. If you do not want to keep the link in the **[!UICONTROL Output columns]**, make sure to click on the **[!UICONTROL Cancel]** button.
+
+![](assets/values_link.png){zoomable="yes"}
+
+It is also possible to have the distribution of values in a query modeler. [Learn more here](../query/build-query.md#distribution-of-values-in-a-query).

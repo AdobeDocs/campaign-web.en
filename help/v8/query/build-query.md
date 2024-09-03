@@ -22,6 +22,22 @@ You can add two types of elements:
 
     ![](assets/query-add-operator.png){zoomable="yes"}
 
+## Distribution of values in a query {#distribution-values-query}
+
+The distribution of values helps to know the percentage of a value in a field within a table. Knowing the distribution of values within a query can assist you in refining your segmentation. 
+
+To access the feature, in your query, click the attribute selection button as shown below. Then, click on the **[!UICONTROL Information]** icon next to the selected attribute. You can have access there to the **[!UICONTROL Distribution of values]** button.
+
+![](assets/values_query.png){zoomable="yes"}
+
+>[!NOTE]
+>
+> For fields with many values, only the first twenty values will be displayed. A notification **[!UICONTROL Partial load]** will warn you.
+
+>[!NOTE]
+>
+> The **[!UICONTROL Distribution of values]** feature is accessible in every attribute picker.
+
 ## Add filtering components {#filtering}
 
 Filtering components allow you to refine your query by using:
