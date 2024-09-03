@@ -334,4 +334,4 @@ Values are encoded automatically if necessary.
 >[!IMPORTANT]
 >
 >Adding a script for inserting additional SMTP headers is reserved for advanced users. The syntax of this script must comply with the requirements of this content type: no unused space, no empty line, etc.
->
+
