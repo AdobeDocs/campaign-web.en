@@ -321,7 +321,7 @@ These two fields can be personalized as described in [this section](../personali
 
 ![](assets/smtp_bounce.png){zoomable="yes"}
 
-### Additional SMTP headers
+### Additional SMTP headers {#smtp-headers}
 
 You can add **[!UICONTROL SMTP headers]** to your email delivery, in the SMTP tab of the delivery settings.
 
@@ -329,9 +329,10 @@ The script entered in this window must reference one header per line in the foll
 
 Values are encoded automatically if necessary.
 
+![](assets/smtp_headers.png){zoomable="yes"}
+
+
 >[!IMPORTANT]
 >
->Adding a script for inserting additional SMTP headers is reserved for advanced users.
-The syntax of this script must comply with the requirements of this content type: no unused space, no empty line, etc.
-
-![](assets/smtp_headers.png){zoomable="yes"}
+>Adding a script for inserting additional SMTP headers is reserved for advanced users. The syntax of this script must comply with the requirements of this content type: no unused space, no empty line, etc.
+>
