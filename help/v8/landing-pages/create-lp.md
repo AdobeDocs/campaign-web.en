@@ -154,6 +154,10 @@ Once you defined all the settings and [designed](lp-content.md) all the pages, y
 
 ## Secure your landing page with a captcha {#captcha}
 
+>[!AVAILABILITY]
+>
+>This capability is in Limited Availability (LA). It is restricted to customers using **Adobe Campaign v8.7.2 upgraded with the last fix version**, and cannot be deployed on any other environment.
+
 Setting up a captcha helps you to protect your landing page from spam and abuse.
 
 To use it, go to the **[!UICONTROL Properties]** of your landing page.
