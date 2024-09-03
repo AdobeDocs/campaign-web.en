@@ -144,8 +144,7 @@ Use the **[!UICONTROL HTML]** component to copy-paste the different parts of you
 
 >[!IMPORTANT]
 >
->Access to the Assets menu is limited to users with an active Adobe Experience Essentials license. If you do not hold this license, the Assets menu will be unavailable.
-
+>Access to the Assets menu is limited to users with an active Adobe Experience Manager as a Cloud Service license. If you do not hold this license, the Assets menu will be unavailable.
 
 Use the **[!UICONTROL Image]** component to insert an image file from your computer in your email.
 
