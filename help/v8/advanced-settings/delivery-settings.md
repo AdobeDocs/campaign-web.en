@@ -292,7 +292,7 @@ You can also customize the lable of the proofs:
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_smtp"
 >title="SMTP parameters"
->abstract="DESCRIPTION OF THE OPTIONS"
+>abstract="You can add additional SMTP parameters to your email delivery."
 
 You can add additional SMTP parameters to your email delivery. You can do it in the SMTP tab of the delivery settings.
 
