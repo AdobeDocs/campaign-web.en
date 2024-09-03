@@ -282,10 +282,7 @@ You can also customize the lable of the proofs:
 * By default, the subject of the proof is prefixed by 'PROOF #', where # is the number of the proof. You can change this prefix in the **[!UICONTROL Label prefix]** field.
 
 
->[!CONTEXTUALHELP]
->id="acw_delivery_settings_variable"
->title="Variables"
->abstract="Variables"
+
 
 ## SMTP settings for email delivery {#smtp}
 
@@ -335,3 +332,18 @@ Values are encoded automatically if necessary.
 >
 >Adding a script for inserting additional SMTP headers is reserved for advanced users. The syntax of this script must comply with the requirements of this content type: no unused space, no empty line, etc.
 
+## Adding variables {#variables-delivery}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_settings_variable"
+>title="Variables"
+>abstract="Variables"
+
+You can add variables to your delivery, which can be useful for tracking. To do this,
+navigate to the **[!UICONTROL Variables]** tab as shown below. 
+
+![](assets/variables-tab.png){zoomable="yes"}
+
+Click the **[!UICONTROL Add Variables]** button to enter the details of your variable, then click **[!UICONTROL Confirm]** to save your changes.
+
+![](assets/variables-add.png){zoomable="yes"}
