@@ -22,7 +22,7 @@ The following features and improvements are available starting August release.
 
 * **SMTP parameters** - SMTP settings are now available in the email delivery settings. [Learn more](../advanced-settings/delivery-settings.md#smtp)
 
-* **Global variables** - You can now define global variables to define values for your deliveries. [Learn more](../advanced-settings/delivery-settings.md#smtp)
+* **Global variables** - You can now define global variables to define values for your deliveries. [Learn more](../advanced-settings/delivery-settings.md#variables-delivery)
 
 ### New features in Limited Availability {#acs-24-8}
 
