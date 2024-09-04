@@ -337,9 +337,8 @@ Values are encoded automatically if necessary.
 >[!CONTEXTUALHELP]
 >id="acw_delivery_settings_variable"
 >title="Variables"
->abstract="You can add variables to your delivery, which can be useful for tracking and personalization. These variables are accessible from your delivery content and your workflows."
+>abstract="You can add variables to your delivery, which can be useful for tracking and personalization. These variables are accessible from both your delivery content and your workflows."
 
-You can add variables to your delivery, which can be useful for tracking and personalization. These variables are accessible from your delivery content and your workflows.
 
 To add a variable, browse to the **[!UICONTROL Variables]** tab as shown below. 
 
