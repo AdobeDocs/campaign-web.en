@@ -182,7 +182,7 @@ MISSING LINKS :
 - email properties
 -->
 
-**SMS** might be limited to sending short text messages with no formatting but its simplicity makes it a valuable communication channel. See [SMS connector protocol and settings](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol#sending-messages){target="_blank"}
+**SMS** might be limited to sending short text messages with no formatting but its simplicity makes it a valuable communication channel. See [how to configure SMS channel](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/config-sms/sms-mid-sourcing){target="_blank"}
 
 TO BE CHANGED WHEN NEW DOC RELEASED
 
