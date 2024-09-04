@@ -1,6 +1,8 @@
 ---
 title: Adobe Campaign v8 - Marketer experience
 description: Have an overview of the activities in Adobe Campaign v8 for a Marketer user
+hide: yes
+hidefromtoc: yes
 ---
 
 # Adobe Campaign - Marketer experience

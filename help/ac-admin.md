@@ -1,6 +1,8 @@
 ---
 title: Adobe Campaign v8 - Administrator experience
 description: Have an overview of the activities in Adobe Campaign v8 for an Administrator user
+hide: yes
+hidefromtoc: yes
 ---
 
 # Adobe Campaign v8 - Administrator experience

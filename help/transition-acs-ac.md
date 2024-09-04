@@ -1,6 +1,8 @@
 ---
 title: Transition from Adobe Campaign Stand to Adobe Campaign v8
 description: Learn how to transition smoothly to Adobe Campaign v8
+hide: yes
+hidefromtoc: yes
 ---
 
 # Transition from Adobe Campaign Standard to Adobe Campaign v8
