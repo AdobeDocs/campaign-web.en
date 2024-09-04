@@ -339,8 +339,7 @@ Values are encoded automatically if necessary.
 >title="Variables"
 >abstract="Variables"
 
-You can add variables to your delivery, which can be useful for tracking. To do this,
-navigate to the **[!UICONTROL Variables]** tab as shown below. 
+You can add variables to your delivery, which can be useful for tracking. To do this, navigate to the **[!UICONTROL Variables]** tab as shown below. 
 
 ![](assets/variables-tab.png){zoomable="yes"}
 
