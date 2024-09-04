@@ -5,7 +5,7 @@ role: Admin, Developer
 level: Beginner, Experienced
 ---
 
-# Get started for administrators and developers {#acs-gs-admin}
+# Get started for admin/developers {#acs-gs-admin}
 
 This page gives an overview of the key administrative and data management functionality of Campaign v8. It is for administrators and technical marketers transitioning from Campaign Standard to Campaign v8.
 
@@ -33,6 +33,8 @@ The main administration and configuration tasks are performed in the client cons
 
 For more information, see [Connect to Campaign with the client console](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/connect){target="_blank"}.
 
+Note that the client console must be installed in a supported environment. Learn more in [Campaign v8 (console) compatibility matrix](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/compatibility-matrix#ClientConsoleoperatingsystems){target="_blank"}.
+
 ## Discover the client console interface  {#acs-gs-ui}
 
 Learn about the Adobe Campaign V8 user interface and how to navigate the main features with this tutorial video.
@@ -41,37 +43,38 @@ Learn about the Adobe Campaign V8 user interface and how to navigate the main fe
 
 See [Work with the client console](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"} for more details.
 
-## Administrate the environment  {#acs-gs-admin-env}
+## Administrate the environment {#acs-gs-admin-env}
 
-Once the client console is installed, follow the steps in this documentation to create the connection to the application server.
-[Connection to the application server documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/connect#create-your-connection){target="_blank"}
+Once the client console is installed, follow the steps in this documentation to create the connection to the application server: [Connection to the application server documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/connect#create-your-connection){target="_blank"}
 
-Security practices are deeply ingrained into our internal software development and operations processes and tools and are rigorously followed by our cross-functional teams to prevent, detect, and respond to incidents in an expedient manner
-[Security best practices](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/privacy/security){target="_blank"}
+Security practices are deeply ingrained into our internal software development and operations processes and tools and are rigorously followed by our cross-functional teams to prevent, detect, and respond to incidents in an expedient manner. Learn more in [Campaign Security best practices](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/privacy/security){target="_blank"}.
 
-Adobe Campaign lets you define and manage the rights assigned to users. These permissions are defined by combining operator group permissions, named rights and permissions on folders.
-[User permissions documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}
+Adobe Campaign lets you define and manage the rights assigned to users. These permissions are defined by combining operator group permissions, named rights and permissions on folders. See the [User permissions documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}.
 
-User access migration management
-NEEDS TO BE ADDED WHEN RELEASED
 
-The Adobe Campaign Control Panel allows Adobe Campaign administrators to monitor key assets and perform administrative tasks, such as managing the SFTP storage by instance, managing GPG keys, or subdomains and certificates.
-See [Control panel tutorials](https://experienceleague.adobe.com/en/docs/control-panel-learn/tutorials/control-panel-overview){target="_blank"}
+### Campaign Control Panel {#acs-gs-admin-cp}
 
-Control Panel allows you to set up new connections to your instances by adding IP addresses ranges to the allow list.
-Learn more in the [IP allow listing documentation](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access){target="_blank"}
+As for Campaign Standard, you can use the Control Panel to administrate your environment. Note that for v8, the Control Panel provides additional capabilities.
 
-Subdomain configuration allows you to configure a sub-section of your domain (technically a "DNS zone") for use with Adobe Campaign. 
+Campaign Control Panel helps you increase efficiency in your work as a product admin of Adobe Campaign, by allowing you to manage settings and track usages for each of your instances. Its intuitive interface lets you easily monitor usage of key assets, as well as perform administrative tasks such as IP addresses allow list addition, SFTP storage monitoring, key management, and more.
+
+Learn more in the [Control panel tutorials](https://experienceleague.adobe.com/en/docs/control-panel-learn/tutorials/control-panel-overview){target="_blank"} and the [Control panel documentation](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html){target="_blank"}.
+
+* **Add IP addresses** - Campaign Control Panel allows you to set up new connections to your instances by adding IP addresses ranges to the allow list. Learn more in the [IP allow listing documentation](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access){target="_blank"}
+
+* **Subdomain configuration** - You can configure a sub-section of your domain (technically a "DNS zone") for use with Adobe Campaign. 
 Learn more in the [Subdomain delegation documentation](https://experienceleague.adobe.com/en/docs/control-panel/using/subdomains-and-certificates/subdomains-branding){target="_blank"}
 
-In the Control Panel, you can interact with all SFTP servers that are connected to Campaign instances that you have access to. 
-See [SFTP management documentation](https://experienceleague.adobe.com/en/docs/control-panel/using/sftp-management/about-sftp-management){target="_blank"}
+* **Manage SFTP servers** - In the Control Panel, you can interact with all SFTP servers that are connected to Campaign instances that you have access to. Learn more in the [SFTP management documentation](https://experienceleague.adobe.com/en/docs/control-panel/using/sftp-management/about-sftp-management){target="_blank"}
 
-In Adobe Campaign Web User Interface, the Audit trail feature provides users with full visibility into all modifications made to important entities within your instance, typically those that significantly impact a smooth operation of the instance. 
-See the [Audit trail documentation](../../v8/reporting/audit-trail.md)
 
-You can use data packages to export and import your platform custom settings and data. A package can contain different types of configurations and components, filtered or not. 
-See [Package import/export](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/packages){target="_blank"}
+### Audit trail {#acs-gs-admin-audit-trail}
+
+In Adobe Campaign Web User Interface, the Audit trail capability provides users with full visibility into all modifications made to important entities within your instance, typically those that significantly impact a smooth operation of the instance.  Learn more in the [Audit trail documentation](../../v8/reporting/audit-trail.md)
+
+### Data packages {#acs-gs-admin-audit-packages}
+
+You can use data packages to export and import your platform custom settings and data. A package can contain different types of configurations and components, filtered or not. Learn more about [Package import/export](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/packages){target="_blank"}
 
 <!--
 MISSING LINKS: 
@@ -79,23 +82,25 @@ MISSING LINKS:
 - System options
 - Data Encryption/Decryption-->
 
-## Set up user interface
+## Set up user interface {#acs-gs-admin-ui}
 
-Guidelines for managing user interface settings like lists, units, or data display are available in this document: [User interface settings documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings){target="_blank"}
+Several options are available to you to customize the user interface in the client console, such as:
 
-Folders are objects in Adobe Campaign that allow you to organize your components and data. Learn how to [work with folders](../../v8/get-started/work-with-folders.md).
+* **List and data display** - Guidelines for managing user interface settings like lists, units, or data display are available in this document: [User interface settings documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings){target="_blank"}
 
-Custom fields are additional attributes added to the out-of-the-box schemas through the Adobe Campaign console. These custom fields are displayed in various screens, for example the details of a profile or a test profile. Learn more in the [custom fields configuration documentation](../../v8/administration/custom-fields.md).
+* **Folder management** - Folders are objects in Adobe Campaign that allow you to organize your components and data. Learn how to [work with folders](../../v8/get-started/work-with-folders.md).
 
-## Set up the branding data management
+* **Custom fields** - Custom fields are additional attributes added to the out-of-the-box schemas through the Adobe Campaign console. These custom fields are displayed in various screens, for example the details of a profile or a test profile. Learn more in the [custom fields configuration documentation](../../v8/administration/custom-fields.md).
 
-Every company has brand guidelines that define both visual elements and technical details. Adobe Campaign helps you manage these guidelines centrally, so you can present a consistent brand image to your customers in everything you do, from logos in emails to the URLs and domains used in your campaigns.
+## Set up the branding {#acs-gs-admin-branding}
 
-Learn more in the [Branding documentation](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/branding/branding-gs){target="_blank".}
+Every company has brand guidelines that define both visual elements and technical details. As for Adobe Campaign Standard, Adobe Campaign v8 helps you manage these guidelines centrally, so you can present a consistent brand image to your customers in everything you do, from logos in emails to the URLs and domains used in your campaigns.
 
-## Understand data model creation
+Learn more in the [Branding documentation](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/branding/branding-gs){target="_blank"}
 
-Adobe Campaign comes with a pre-defined data model. This section gives some details on the built-in tables of the Adobe Campaign data model and their interaction. Adobe Campaign relies on a Cloud database containing tables that are linked together. Learn more in the [Data model documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/datamodel){target="_blank"}.
+## Understand data model creation {#acs-gs-admin-data-model-creation}
+
+Adobe Campaign v8 comes with its pre-defined data model. Adobe Campaign relies on a Cloud database containing tables that are linked together. Learn more in the [Data model documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/datamodel){target="_blank"}.
 
 A schema is an XML document associated with a database table. It defines data structure and describes the SQL definition of the table. See the [Schemas creation documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}
 
@@ -105,40 +110,53 @@ Learn how to create a schema and how to extend an existing schema in this video:
 
 When you create or extend a schema, you need to create or modify the associated input forms to make those changes visible to end-users. An input form lets you edit an instance associated with a data schema from the Adobe Campaign client console. The form is identified by its name and namespace. See the [Input forms creation documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/forms){target="_blank"}
 
-## Understand data management
+## Understand data management {#acs-gs-admin-data-management}
 
 Learn what targeting dimensions and working tables are, and how Adobe Campaign manages data across different data sources in this video:
 
 >[!VIDEO](https://video.tv.adobe.com/v/339992?quality=12&learn=on){transcript=true}
 
-Use Adobe Campaign workflows to improve the speed and scale of every aspect of your marketing campaigns, from creating segments and preparing messages to delivery. Learn more in the [Workflows (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/workflows){target="_blank"}
+Use Adobe Campaign workflows to improve the speed and scale of every aspect of your marketing campaigns, from creating segments and preparing messages to delivery. Campaign v8 workflows are similar to Campaign Standard workflows. Learn how to create workflows in the client console in the [Workflows (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/workflows){target="_blank"}
     
 Campaign helps you add contacts to the Cloud database. You can load a file, schedule and automate multiple contact updates, collect data on the Web, or enter profile information directly into the recipient table.  Learn more in the [Import data (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/import){target="_blank"}
 
 You can easily export your different reports to PDF or CSV format, which enables you to share, manipulate, or print them. Learn more in the [Export data documentation](../../v8/reporting/export-reports.md).
 
-Quarantine is the way to manage the invalid addresses in deliveries. See [Quarantine documentation](../../v8/audience/quarantine.md)
 
-Campaign REST APIs are aimed at letting you create integrations for Adobe Campaign and build your own ecosystem by interfacing Adobe Campaign with the panel of technologies that you use. See [Rest API documentation](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/get-started-apis){target="_blank"}.
+## REST APIs {#acs-gs-admin-apis}
+
+Campaign REST APIs are aimed at letting you create integrations for Adobe Campaign and build your own ecosystem by interfacing Adobe Campaign with the panel of technologies that you use.
+
+As a Campaign Standard user transitioning to Campaign v8, REST APIs are available to you. 
+
+Learn more in the [Rest API documentation](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/get-started-apis){target="_blank"}.
 
 >[!AVAILABILITY]
 >
->* PKEYs values change between existing Campaign Standard instance and migrated Campaign v8 instance. In case, PKEYs are being stored in external database then the implementation needs to change in a way that they need to call Adobe Campaign v8 main APIs which provides pkeys / hrefs links with pkeys and sub sequent API calls need to be dynamically formed by consuming the pkeys /hrefs from previous API calls​
+>* PKEYs values change between existing Campaign Standard instance and migrated Campaign v8 instance. In case PKEYs are being stored in external database then the implementation needs to change in a way that they need to call Adobe Campaign v8 main APIs which provides pkeys / hrefs links with PKEYs and sub sequent API calls need to be dynamically formed by consuming the pkeys /hrefs from previous API calls​
 >
->* Administrator product profile and Message center product profile: a new product profile needed for accessing transactional APIs from RT instance which is different from Campaign Standard. This is added to Campaign Standard existing or pre-created technical accounts. Post transition Campaign Standard, as an administrator, you should review product profile mapping and assign to the needed product profile if they do not want Administrator product profile mapping with their technical account. After the transition, any future new integrations we recommend customer to use Campaign v8 tenant id in the REST URL instead of the previous Campaign Standard tenant ID.​
+>* Administrator product profile and Message center product profile: a new product profile needed for accessing transactional APIs from Real-Time instance which is different from Campaign Standard. This is added to Campaign Standard existing or pre-created technical accounts. Post transition, as an administrator, you should review product profile mapping and assign to the needed product profile if you do not want Administrator product profile mapping with your technical account. After the transition, for any future new integrations, use Campaign v8 tenant ID in the REST URL instead of the previous Campaign Standard tenant ID.​
 >
->* In Campaign v8, for the same body where vehicle linked to profile​ we would get an error firstName property is not valid for `cusVehicle` but a request body with just the attributes without link works fine. `{ "vehicleNumber": "20009", "vehicleName": "Model E", "vehicleOwner":{   "firstName":"tester 11", "lastName":"Smith 11" } }​`
+>TO REMOVE?? :
 >
->* Timezone is shown to user as part of profileAndServicesExt/profile rest api call and not profileAndServices/profile rest api call since it is being added in an extended schema as part of data migration.​
+>* In Campaign v8, for the same body where vehicle linked to profile,​ we would get an error firstName property is not valid for `cusVehicle` but a request body with just the attributes without link works fine. `{ "vehicleNumber": "20009", "vehicleName": "Model E", "vehicleOwner":{   "firstName":"tester 11", "lastName":"Smith 11" } }​`
 >
->* `ccpaOptOut` is only shown to user as part of profileAndServicesExt/profile rest api call and not profileAndServices/profile rest api call since it is being added in an extended schema as part of data migration. 
+>* Timezone is shown to user as part of `profileAndServicesExt/profile` REST API call and not `profileAndServices/profile` REST API call since it is being added in an extended schema as part of data migration.​
+>
+>* The `ccpaOptOut` is only shown to user as part of `profileAndServicesExt/profile` REST API call and not `profileAndServices/profile` REST API call since it is being added in an extended schema as part of data migration. 
+>
 
-## About delivery management
+## About delivery management - TO REMOVE?
+
+Same as in Adobe Campaign Standard, in Campaign v8, typology rules are business rules that allow you to perform checks and filtering on your message before sending it. 
 
 Campaign Optimization is the Adobe Campaign module which lets you control, filter and monitor the sending of deliveries. To avoid conflicts between campaigns, Adobe Campaign can test various combinations by applying specific constraint rules. This guarantees that the messages sent meet the needs and expectations of customers and company communication policies. Learn more in the [Typology rules documentation](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
 
-## Working with templates
+Quarantine is the way to manage the invalid addresses in deliveries. See [Quarantine documentation](../../v8/audience/quarantine.md)
+
+
+## Working with templates - TO REMOVE?
 
 Campaign templates contain pre-configured settings which can be reused for creating new campaigns. A set of built-in templates is available to help you get started.
 See [Campaign templates documentation in Web User Interface](../../v8/campaigns/manage-campaigns.md#manage-campaign-templates) and [Campaign templates documentation in Client Console](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates){target="_blank"}
@@ -159,7 +177,7 @@ Each event can trigger a personalized message. For this to happen, you need to c
 
 Using a workflow template is a best practice if you need to regularly import files with the same structure. See the [Import template documentation](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow){target="_blank"}
 
-## Use subscription services
+## Use subscription services - TO REMOVE?
 
 Learn how to setup and manage subscriptions and target subscribers.
 
@@ -168,7 +186,7 @@ Learn how to setup and manage subscriptions and target subscribers.
 Manage and create your services such as newsletters, and check the subscriptions or unsubscriptions to these services. See the [subscription services documentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/work-with-services/manage-services){target="_blank"}
 
 
-## Configure delivery channels
+## Configure delivery channels - TO REMOVE?
 
 External accounts are used by technical processes such as technical workflows or campaign workflows. For example, when setting up a file transfer in a workflow or a data exchange with any other application (Adobe Target, Experience Manager, etc.), you need to select an external account. See [External account configuration](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/external-accounts){target="_blank"}
 

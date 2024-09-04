@@ -5,7 +5,7 @@ role: User, Admin, Developer
 level: Beginner
 ---
 
-# Get started with Campaign v8 after transitioning from Campaign Standard {#ac-acs}
+# From Campaign Standard to v8 {#ac-acs}
 
 Welcome to Adobe Campaign v8!
 
@@ -17,7 +17,7 @@ As a user transitioning from Campaign Standard to Campaign v8, this reference gu
 
 ## What's new? {#new}
 
-Get a glimpse of what you get with Adobe Campaign v8.
+Get a glimpse of the newest enhancements in Adobe Campaign Web user interface in this page. For a comprehensive list of key capabilities and release updates features, check out [this section](../../v8/rn/whats-new.md).
 
 ### Enhancements with Campaign v8 {#ac-enhancements}
 
@@ -87,9 +87,9 @@ As a Campaign Standard user transitioning to Adobe Campaign v8, the following fe
 
   Adobe Experience Manager as a Cloud Service offers cloud-native agility, allowing you to accelerate your time to value and adapt to evolving business needs. This integration not only enhances your content management capabilities but also enables you to delivery more personalized and engaging experiences to your customers across all touchpoints.
 
-* **AI assistant**
+* **AI Assistant - Content Accelerator**
 
-  Adobe Campaign v8 provides an AI assistant to help you generate impactful content in an efficient and quick manner. 
+  Campaign AI Assistant makes the creation and execution of marketing campaigns across channels like Email, SMS and Push intuitive, simple and hassle-free while saving time, improving efficiency, and driving better results.
 
   ![](../../v8/email/assets/full-email-1.png){zoomable="yes"}
 
@@ -99,15 +99,13 @@ As a Campaign Standard user transitioning to Adobe Campaign v8, the following fe
 
   ![](../../v8/email/assets/full-email-2.png){zoomable="yes"}
 
-  It provides variant of email templates and generates and re-generates images.
-
-  Adobe Campaign v8 has AI assistant available for [Email](../../v8/email/generative-content.md), [SMS](../../v8/email/generative-sms.md), and [Push](../../v8/email/generative-push.md).
+  It provides variant of email templates and generates and re-generates images. Learn more about the AI Assistant - Content Accelerator in [this section](../../v8/email/generative-content.md). Adobe Campaign v8 has AI assistant available for [Email](../../v8/email/generative-content.md), [SMS](../../v8/email/generative-sms.md), and [Push](../../v8/email/generative-push.md).
 
 * **Upgraded SMS infrastructure - SMS v2.0**
 
   The simplicity and ease of use of SMS make it a very valuable communication channel in addition to its robustness and unrivaled compatibility over billions of terminals. 
-  Adobe Campaign v8 comes with a new infrastructure improving the sending of SMS.
-  [Learn more about new SMS settings](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}.
+
+  Adobe Campaign v8 comes with a new infrastructure improving the sending of SMS. [Learn more about new SMS settings](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}.
 
 * **Upgraded Push infrastructure**
 
@@ -119,7 +117,6 @@ As a Campaign Standard user transitioning to Adobe Campaign v8, the following fe
 ## Managed Services {#ac-managed-services}
 
 Adobe Campaign v8 is available as a Managed Cloud Service, providing proactive oversight, timely alerting, and service governance. Adobe Managed Cloud Service provides marketers with a more agile, secure and scalable cross-channel campaign management solution with a low total cost of ownership. The new offering combines services with proactive oversight and timely alerting.
-
 
 ## Key differences between Campaign Standard and Campaign v8 {#experiences}
 
@@ -144,7 +141,7 @@ Also, as an existing Campaign user, note that some concepts have been renamed to
 * Email Preview is now available throught the **Simulate content** button. [Learn more](../../v8/preview-test/preview-test.md)
 * Lists are now **Audiences**. [Learn more](../../v8/audience/gs-audiences-recipients.md).
 
-### New user experience
+## New user experience
 
 Access to the relevant reference guide for your role to discover the new user experience with Adobe Campaign v8.
 

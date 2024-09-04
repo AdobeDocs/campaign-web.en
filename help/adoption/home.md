@@ -18,18 +18,22 @@ As a Campaign Standard transitioning to Campaign v8, this documentation helps yo
 
 >[!TAB What's new] 
 
-Start by learning what is new on Adobe Campaign v8.
+Get a glimpse of the newest enhancements coming with Adobe Campaign v8, and get familiar with the new Campaign Web user interface.
 
 [![image](../v8//assets/do-not-localize/learn-more-button.svg)](get-started/overview.md)
 
+
+>[!TAB Key differences] 
+
+Most concepts are similar between Adobe Campaign v8 and Adobe Campaign Standard. Few differences are listed in the section below.
+
+[![image](../v8//assets/do-not-localize/learn-more-button.svg)](get-started/overview.md#experiences)
 
 >[!TAB Get started as a marketer]
 
 Understand the experience differences between Adobe Campaign Standard and Adobe Campaign v8 for marketer users.
 
 [![image](../v8/assets/do-not-localize/learn-more-button.svg)](get-started/marketers.md)
-
-
 
 >[!TAB Get started as an admin/developer]
 
