@@ -12,15 +12,11 @@ The AI Assistant for Content Accelerator can help you optimize the impact of you
 >
 >Before starting using this capability, read out related [Guardrails and Limitations](generative-gs.md#generative-guardrails).
 
-In the following example, we will leverage the AI assistant for Content Accelerator to craft compelling messaging to create a more engaging customer experience.
+In the following example, we will leverage the AI assistant to craft compelling messaging to create a more engaging customer experience.
 
 1. After creating and configuring your Push notification delivery, click **[!UICONTROL Edit content]**.
 
     For more information on how to configure your push delivery, refer to [this page](../push/create-push.md).
-
-1. Fill in the **[!UICONTROL Basic details]** for your delivery. Once done, click **[!UICONTROL Edit content]**.
-
-1. Personalize your push notification as needed. [Learn more](../push/content-push.md)
 
 1. Access the **[!UICONTROL Show AI Assistant]** menu.
 
@@ -28,29 +24,33 @@ In the following example, we will leverage the AI assistant for Content Accelera
 
 1. Enable the **[!UICONTROL Use original content]** option for the AI Assistant to personalize new content based on your delivery, delivery name, and selected audience.
 
-    >[!IMPORTANT]
-    >
-    > Your prompt must always be tied to your current content.
-
-    ![](assets/push-genai-3.png){zoomable="yes"}
-
 1. Fine tune the content by describing what you want to generate in the **[!UICONTROL Prompt]** field. 
 
     If you are looking for assistance in crafting your prompt, access the **[!UICONTROL Prompt Library]** which provides a diverse range of prompt ideas to improve your deliveries.
     
     ![](assets/push-genai-2.png){zoomable="yes"}
 
-1. Select **[!UICONTROL Upload brand asset]** to add any brand asset which contains content that can provide additional context the AI Assistant.
+1. Choose which field you want to generate: **[!UICONTROL Title]**, **[!UICONTROL Message]** and/or **[!UICONTROL Image]**.
 
-1. Choose which field you want to generate: **[!UICONTROL Title]**, **[!UICONTROL Subtitle]** or **[!UICONTROL Message]**.
-
-1. Tailor your prompt with the different options:
+1. Tailor your prompt with the **[!UICONTROL Text settings]** option:
 
     * **[!UICONTROL Communication strategy]**: Choose the most suitable communication style for your generated text.
-    * **[!UICONTROL Language]**: Select the language in which you want your content to be generated.
     * **[!UICONTROL Tone]**: The tone of your email should resonate with your audience. Whether you want to sound informative, playful, or persuasive, the AI Assistant can adapt the message accordingly.
 
-    ![](assets/push-genai-4.png){zoomable="yes"}  
+    ![](assets/push-genai-3.png){zoomable="yes"} 
+
+1. Choose your **[!UICONTROL Image settings]**:
+
+    * **[!UICONTROL Content type]**: This categorizes the nature of the visual element, distinguishing between different forms of visual representation such as photos, graphics, or art.
+    * **[!UICONTROL Visual intensity]**: You can control the image's impact by adjusting its intensity. A lower setting (2) will create a softer, more restrained appearance, while a higher setting (10) will make the image more vibrant and visually powerful.
+    * **[!UICONTROL Lighting]**: This refers to the lightning present in an image, which shapes its atmosphere and highlights specific elements.
+    * **[!UICONTROL Composition]**: This refers to the arrangement of elements within the frame of an image
+
+    ![](assets/push-genai-4.png){zoomable="yes"} 
+
+1. From the **[!UICONTROL Brand assets]** menu, click **[!UICONTROL Upload brand asset]** to add any brand asset which contains content that can provide additional context the AI Assistant or select a previously uploaded one.
+
+    Previously uploaded files are available in the **[!UICONTROL Uploaded brand assets]** drop-down. Simply toggle the assets you wish to include in your generation.
 
 1. Once your prompt is ready, click **[!UICONTROL Generate]**.
 
@@ -63,6 +63,8 @@ In the following example, we will leverage the AI assistant for Content Accelera
     * **[!UICONTROL Rephrase]**: The AI Assistant can rephrase your message in different ways, keeping your writing fresh and engaging for diverse audiences.
 
     * **[!UICONTROL Use simpler language]**: Leverage the AI Assistant to simplify your language, ensuring clarity and accessibility for a wider audience.
+    
+    You can also change the **[!UICONTROL Tone]** and **[!UICONTROL Communication strategy]** of your text.
 
     ![](assets/push-genai-5.png){zoomable="yes"}
 
