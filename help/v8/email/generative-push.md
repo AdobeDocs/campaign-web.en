@@ -2,31 +2,17 @@
 audience: end-user
 title: Push notification with the AI Assistant in Campaign
 description: Get Started with the AI Assistant in Campaign
-badge: label="Beta"
-hide: yes
-hidefromtoc: yes
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
 ---
-# Push notification generation with the AI Assistant {#generative-push}
+# Push notification generation with the AI Assistant for Content Accelerator{#generative-push}
 
->[!BEGINSHADEBOX]
-
-**Table of content**
-
-* [Get started with the AI Assistant](generative-gs.md)
-* [Email generation with the AI Assistant](generative-content.md)
-* [SMS generation with the AI Assistant](generative-sms.md)
-* Push notification generation with the AI Assistant
-
->[!ENDSHADEBOX]
-
-The AI Assistant can help you optimize the impact of your deliveries by suggesting different content that is more likely to resonate with your audience.
+The AI Assistant for Content Accelerator can help you optimize the impact of your deliveries by suggesting different content that is more likely to resonate with your audience.
 
 >[!NOTE]
 >
 >Before starting using this capability, read out related [Guardrails and Limitations](generative-gs.md#generative-guardrails).
 
-In the following example, we will leverage the AI assistant to craft compelling messaging to create a more engaging customer experience.
+In the following example, we will leverage the AI assistant for Content Accelerator to craft compelling messaging to create a more engaging customer experience.
 
 1. After creating and configuring your Push notification delivery, click **[!UICONTROL Edit content]**.
 

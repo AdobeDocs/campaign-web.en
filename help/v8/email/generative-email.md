@@ -1,73 +1,205 @@
 ---
 audience: end-user
-title: Email generation with the AI Assistant in Campaign
+title: Generative content
 description: Get Started with the AI Assistant in Campaign
-badge: label="Alpha"
-exl-id: f6c9c940-ae85-44e6-a23e-9133df87e67e
-hide: yes
-hidefromtoc: yes
+exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 ---
-# Generate an email with the AI Assistant {#generative-email}
-
-The AI Assistant in Campaign enhances your communication's impact by automatically generating complete email content, saving you time and ensuring consistent quality. Using Generative AI, you can effortlessly craft compelling emails that resonate with your audience, making your communication more effective and efficient.
+# Email generation with the AI Assistant for Content Accelerator{#generative-content}
 
 >[!NOTE]
 >
->Before starting using this capability, read out related [Guardrails and Limitations](generative-gs.md#guardrails-and-limitations).
+>Before starting using this capability, read out related [Guardrails and Limitations](generative-gs.md#generative-guardrails).
 
+Once you have created and personalized your emails, use the AI Assistant for Content Accelerator in Campaign powered by generative AI to take your content to the next level.
 
-To generate an email content with the AI Assistant, follow the steps below. You can also improve an existing content with the AI Assistant, as detailed in [this page](generative-content.md).
+The AI Assistant for Content Accelerator can help you optimize the impact of your deliveries by generating entire emails, targeted text content, and even images specifically tailored to resonate with your audience. This optimizes your email campaigns for better engagement.
 
-1. After creating and configuring your Email delivery, click **[!UICONTROL Create content]**.
+With your email campaigns, you can use the AI assistant to generate full email, text or images. Explore the tabs below to learn how to use the AI Assistant for Content Accelerator in Campaign.
+
+>[!BEGINTABS]
+
+>[!TAB Full email generation]
+
+In the following example, we will leverage the AI assistant for Content Accelerator to refine an existing email, customizing it for a special event.
+
+1. After creating and configuring your email delivery, click **[!UICONTROL Edit content]**.
 
     For more information on how to configure your email delivery, refer to [this page](../email/create-email-content.md).
 
-1. Fill in the **[!UICONTROL Basic details]** for your delivery. Once done, click **[!UICONTROL Edit email body]**.
+1. Personalize your email as needed and access the **[!UICONTROL AI Assistant]** menu.
 
-1. Pick the design template that you want the AI Assistant to base the generated email on.
+    ![](assets/full-email-1.png){zoomable="yes"}
 
-    You can also import an HTML file.
-
-1. From the right-hand menu, select **[!UICONTROL Experience generation]**.
-
-    ![](assets/email-genai-1.png){zoomable="yes"}
-
-1. Fine tune the content by describing what you want to generate. 
-
-    Here are some prompt examples:
-
-    * For a Newsletter: Generate a monthly newsletter featuring travel articles, destination highlights, and exclusive subscriber offers.
-    * For Feedbacks and Surveys: Create an email inviting customers to provide feedback on their recent software experience and participate in a product improvement survey.
-    * For Anniversary or Birthday Emails: Generate a birthday email, celebrating the customer's special day and offering them a birthday discount.
+1. Enable the **[!UICONTROL Use original content]** option for the AI Assistant to personalize new content based on your delivery, delivery name, and selected audience.
     
-    ![](assets/email-genai-2.png){zoomable="yes"}
+    Your prompt must always be tied to your current content.
 
-1. Select **[!UICONTROL Upload file]** if you want to add any brand asset which contains content that can provide additional context the AI Assistant.  
+1. Fine tune the content by describing what you want to generate in the **[!UICONTROL Prompt]** field. 
 
-    You can also click **[!UICONTROL Uploaded content]** to find previously updated files. Note that the uploaded content is exclusively available for reuse by the current user.
+    If you are looking for assistance in crafting your prompt, access the **[!UICONTROL Prompt Library]** which provides a diverse range of prompt ideas to improve your deliveries.
 
-1. Select the **[!UICONTROL Communication strategy]** that best suits your needs. This will affect the tone and style of the generated email.
+    ![](assets/full-email-2.png){zoomable="yes"}
 
-1. Choose the **[!UICONTROL Language]** and **[!UICONTROL Tone]** that you want the generated text to have. This will ensure that the text is appropriate for your audience and purpose.
+1. You can toggle the **[!UICONTROL Subject line]** or **[!UICONTROL Preheader]** to include them to the variant generation.
 
-    ![](assets/email-genai-3.png){zoomable="yes"}  
+1. Click **[!UICONTROL Upload brand asset]** to add any brand asset which contains content that can provide additional context the AI Assistant or select a previously uploaded one.
 
-1. Customize the **[!UICONTROL Content type]** assets settings to match your desired asset characteristics.
+    ![](assets/full-email-3.png){zoomable="yes"}
+
+1. Tailor your prompt with the different options:
+
+    * **[!UICONTROL Communication strategy]**: Choose the most suitable communication style for your generated text.
+    * **[!UICONTROL Language]**: Select the language in which you want your content to be generated.
+    * **[!UICONTROL Tone]**: The tone of your email should resonate with your audience. Whether you want to sound informative, playful, or persuasive, the AI Assistant can adapt the message accordingly.
+    * **[!UICONTROL Length]**: Choose the desired length of your content using the range slider.
+
+    ![](assets/full-email-4.png){zoomable="yes"}
 
 1. Once your prompt is ready, click **[!UICONTROL Generate]**.
 
-1. Browse the **[!UICONTROL Variation suggestions]** to find the desired email. Click **[!UICONTROL Preview]** to view a full-screen version of the selected variation.
+1. Browse through the generated **[!UICONTROL Variations]** and click **[!UICONTROL Preview]** to view a full-screen version of the selected variation.
 
-    ![](assets/email-genai-4.png){zoomable="yes"}
+1. Navigate to the **[!UICONTROL Refine]** option within the **[!UICONTROL Preview]** window to access additional customization features:
+
+    * **[!UICONTROL Use as reference content]**: The chosen variant will serve as the reference content for generating other results.
+
+    * **[!UICONTROL Rephrase]**: The AI Assistant can rephrase your message in different ways, keeping your writing fresh and engaging for diverse audiences.
+
+    * **[!UICONTROL Use simpler language]**: Leverage the AI Assistant to simplify your language, ensuring clarity and accessibility for a wider audience.
+
+    ![](assets/full-email-5.png){zoomable="yes"}
 
 1. Click **[!UICONTROL Select]** once you found the appropriate content.
 
-    ![](assets/email-genai-5.png){zoomable="yes"}
+1. Insert personalization fields to customize your email content based on profiles data. Then, click the **[!UICONTROL Simulate content]** button to control the rendering, and check personalization settings with test profiles. [Learn more](../preview-test/preview-content.md)
 
-1. Insert personalization fields to customize your email content based on profiles data or further personalize your content if needed. [Learn more about content personalization](../personalization/personalize.md)
+    ![](assets/full-email-6.png){zoomable="yes"}
 
-1. After defining your email content, click the **[!UICONTROL Simulate content]** button to control the rendering, and check personalization settings with test profiles.  [Learn more](../preview-test/preview-content.md)
+When you have defined your content, audience and schedule, you are ready to prepare your email delivery. [Learn more](../monitor/prepare-send.md)
 
-    ![](assets/email-genai-6.png){zoomable="yes"}
+>[!TAB Text generation]
+
+In the following example, we will leverage the AI assistant to enhance the content of our email invitation for our upcoming event.
+
+1. After creating and configuring your email delivery, click **[!UICONTROL Edit content]**.
+
+    For more information on how to configure your email delivery, refer to [this page](../email/create-email-content.md).
+
+1. Select a **[!UICONTROL Text component]** to only target a specific content. and access the **[!UICONTROL AI Assistant]** menu.
+
+    ![](assets/text-genai-1.png){zoomable="yes"}
+
+1. Enable the **[!UICONTROL Use original content]** option for the AI Assistant to personalize new content based on your delivery, delivery name, and selected audience.
+
+    Your prompt must always be tied to your current content.
+
+1. Fine tune the content by describing what you want to generate in the **[!UICONTROL Prompt]** field. 
+
+    If you are looking for assistance in crafting your prompt, access the **[!UICONTROL Prompt Library]** which provides a diverse range of prompt ideas to improve your deliveries.
+
+    ![](assets/text-genai-2.png){zoomable="yes"}
+
+1. Click **[!UICONTROL Upload brand asset]** to add any brand asset which contains content that can provide additional context the AI Assistant.
+
+    ![](assets/text-genai-3.png){zoomable="yes"}
+
+1. Tailor your prompt with the different options:
+
+    * **[!UICONTROL Communication strategy]**: Select the desired communication approach for the generated text.
+    * **[!UICONTROL Language]**: Choose the language for the variant's content.
+    * **[!UICONTROL Tone]**: Ensure that the text is appropriate for your audience and purpose.
+    * **[!UICONTROL Length]**: Select the length of your content using the range slider. 
+
+    ![](assets/text-genai-4.png){zoomable="yes"}
+
+1. Once your prompt is ready, click **[!UICONTROL Generate]**.
+
+1. Browse through the generated **[!UICONTROL Variations]** and click **[!UICONTROL Preview]** to view a full-screen version of the selected variation.
+
+1. Navigate to the **[!UICONTROL Refine]** option within the **[!UICONTROL Preview]** window to access additional customization features:
+
+    * **[!UICONTROL Use as reference content]**: The chosen variant will serve as the reference content for generating other results.
+
+    * **[!UICONTROL Elaborate]**: The AI Assistant can help you expand on specific topics, providing additional details for better understanding and engagement.
+
+    * **[!UICONTROL Summarize]**: Lengthy information can overload email recipients. Use the AI Assistant to condense key points into clear, concise summaries that grab attention and encourage them to read further.
+
+    * **[!UICONTROL Rephrase]**:The AI Assistant can rephrase your message in different ways, keeping your writing fresh and engaging for diverse audiences.
+
+    * **[!UICONTROL Use simpler language]**: Leverage the AI Assistant to simplify your language, ensuring clarity and accessibility for a wider audience.
+
+    ![](assets/text-genai-5.png){zoomable="yes"}
+
+1. Click **[!UICONTROL Select]** once you found the appropriate content.
+
+1. Insert personalization fields to customize your email content based on profiles data. Then, click the **[!UICONTROL Simulate content]** button to control the rendering, and check personalization settings with test profiles. [Learn more](../preview-test/preview-content.md)
+
+    ![](assets/text-genai-7.png){zoomable="yes"}
+
+When you have defined your content, audience and schedule, you are ready to prepare your email delivery. [Learn more](../monitor/prepare-send.md)
+
+>[!TAB Image generation]
+
+In the example below, learn how to leverage the AI Assistant to optimize and improve your assets, ensuring a more user-friendly experience. 
+
+1. After creating and configuring your email delivery, click **[!UICONTROL Edit content]**.
+
+    For more information on how to configure your email delivery, refer to [this page](../email/create-email-content.md).
+
+1. Fill in the **[!UICONTROL Basic details]** for your delivery. Once done, click **[!UICONTROL Edit email content]**.
+
+1. Select the asset you want to change with the AI Assistant.
+
+1. From the right-hand menu, select **[!UICONTROL AI Assistant]**.
+
+    ![](assets/image-genai-1.png){zoomable="yes"}
+
+1. Fine tune the content by describing what you want to generate in the **[!UICONTROL Prompt]** field. 
+
+    If you are looking for assistance in crafting your prompt, access the **[!UICONTROL Prompt Library]** which provides a diverse range of prompt ideas to improve your deliveries.
+
+    ![](assets/image-genai-2.png){zoomable="yes"}
+
+1. Click **[!UICONTROL Upload brand asset]** to add any brand asset which contains content that can provide additional context the AI Assistant.
+
+    Your prompt must always be tied to a specific context.
+
+1. Tailor your prompt with the different options:
+
+    * **[!UICONTROL Aspect ratio]**: This determines the width and height of the asset. You have the option to choose from common ratios such as 16:9, 4:3, 3:2, or 1:1, or you can enter a custom size.
+    * **[!UICONTROL Color & tone]**: The overall appearance of the colors within an image and the mood or atmosphere it conveys.
+    * **[!UICONTROL Content type]**: This categorizes the nature of the visual element, distinguishing between different forms of visual representation such as photos, graphics, or art.
+    * **[!UICONTROL Lighting]**: This refers to the lightning present in an image, which shapes its atmosphere and highlights specific elements.
+    * **[!UICONTROL Composition]**: This refers to the arrangement of elements within the frame of an image
+
+    ![](assets/image-genai-3.png){zoomable="yes"}
+
+1. Once you are satisfied with your prompt configuration, click **[!UICONTROL Generate]**.
+
+1. Browse the **[!UICONTROL Variation suggestions]** to find the desired Asset.
+
+    Click **[!UICONTROL Preview]** to view a full-screen version of the selected variation.
+
+    ![](assets/image-genai-5.png){zoomable="yes"}
+
+1. Choose **[!UICONTROL Show Similar]** if you want to view related images to this variant.
+
+1. Click **[!UICONTROL Select]** once you found the appropriate content.
+
+    ![](assets/image-genai-6.png){zoomable="yes"}
+
+1. After defining your message content, click the **[!UICONTROL Simulate content]** button to control the rendering, and check personalization settings with test profiles.  [Learn more](../preview-test/preview-content.md)
+
+    ![](assets/image-genai-7.png){zoomable="yes"}
 
 1. When you have defined your content, audience and schedule, you are ready to prepare your email delivery. [Learn more](../monitor/prepare-send.md)
+
+>[!ENDTABS]
+
+
+## How-to video {#video}
+
+Learn how to use the AI Assistant to generate full email content, text, and images.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3428984)
+

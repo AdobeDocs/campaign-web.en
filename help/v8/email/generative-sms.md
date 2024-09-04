@@ -2,25 +2,11 @@
 audience: end-user
 title: SMS with the AI Assistant in Campaign
 description: Get Started with the AI Assistant in Campaign
-badge: label="Beta"
-hide: yes
-hidefromtoc: yes
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
 ---
-# SMS generation with the AI Assistant {#generative-sms}
+# SMS generation with the AI Assistant for Content Accelerator{#generative-sms}
 
->[!BEGINSHADEBOX]
-
-**Table of content**
-
-* [Get started with the AI Assistant](generative-gs.md)
-* [Email generation with the AI Assistant](generative-content.md)
-* SMS generation with the AI Assistant
-* [Push notification generation with the AI Assistant](generative-push.md)
-
->[!ENDSHADEBOX]
-
-Once you have crafted and personalized your SMS messages to suit your audience, take your communication to the next level with the help of the AI Assistant in Campaign, powered by innovative AI technology. 
+Once you have crafted and personalized your SMS messages to suit your audience, take your communication to the next level with the help of the AI Assistant for Content Accelerator in Campaign, powered by innovative AI technology. 
 
 This handy tool provides intelligent suggestions for refining your content, ensuring that your messages resonate effectively and maximize engagement.
 
