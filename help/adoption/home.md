@@ -1,6 +1,6 @@
 ---
 keywords: Campaign Classic;home;popular topics
-description: Adobe Campaign Adoption Guide
+description: Campaign Standard users transitioning to Campaign v8, learn how to get started.
 title: Adobe Campaign Adoption Guide
 ---
 # Adobe Campaign v8 Adoption Guide {#campaign-adoption}
