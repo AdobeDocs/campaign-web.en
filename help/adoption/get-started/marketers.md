@@ -38,19 +38,21 @@ For more details, please refer to the documentation below:
 
 ## Create and manage profiles and audiences {#acs-gs-marketers-profiles-and-audiences}
 
-The general concepts for creating and managing profiles and audiences in Campaign v8 is the same as in Adobe Campaign Standard.
+The general concepts for creating and managing profiles and audiences in Campaign v8 is the same as in Adobe Campaign Standard. Learn how to start with profiles and audiences in [this section](../../v8/audience/gs-audiences-recipients.md).
+
+You can find below a few useful links for you to start with.
 
 ### Manage profiles {#acs-gs-marketers-profiles}
 
 In Adobe Campaign, a profile is a record stored in the database, serving as a key component to create audiences for deliveries and add personalization data to your content.
 
-1. Learn how to access, manage, and explore profiles using the Campaign Web User Interface.
+1. Learn how to access, manage, and explore profiles using the Campaign Web User Interface in this video:
 
     >[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12&learn=on){transcript=true}
     
-    Learn more in this section: [Get started with Profiles](../../v8/audience/about-recipients.md)
+    Learn more in the [Get started with Profiles](../../v8/audience/about-recipients.md) documentation.
 
-1. Learn how to [create and manage test profiles](../../v8/audience/test-profiles.md)
+1. Learn how to [create and manage test profiles](../../v8/audience/test-profiles.md) in Campaign v8.
 
 ### Manage audiences {#acs-gs-marketers-audiences}
 
@@ -62,8 +64,8 @@ Learn how to build and manage audiences, how to select audiences for a delivery,
 
 Refer to [Get started with Audiences](../../v8/audience/manage-audience.md){target="_blank"} for more information.
 
-A control group is a sub-population excluded from the delivery. You can define a control group to avoid sending messages to a portion of your audience, and compare post-delivery behavior with the main target. This option helps you measure the impact of your campaign.
-Learn how to [set a control group](../../v8/audience/control-group.md){target="_blank"}
+As in Campaign Standard, you can add a control group to your delivery. You can define a control group to avoid sending messages to a portion of your audience, and compare post-delivery behavior with the main target. This option helps you measure the impact of your campaign.
+Learn how to [set a control group](../../v8/audience/control-group.md){target="_blank"}.
 
 >[!AVAILABILITY]
 >
@@ -77,7 +79,7 @@ Learn how to [set a control group](../../v8/audience/control-group.md){target="_
 
 ### Manage subscriptions {#acs-gs-marketers-sub}
 
-Use Adobe Campaign Web User interface to manage and create your services such as newsletters, and to check the subscriptions or unsubscriptions to these services. Learn more: 
+You can manage and create your services such as newsletters, and to check the subscriptions or unsubscriptions to these services. Key steps are globaly the same as in Campaign Standard. Learn more in the pages below: 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -132,7 +134,7 @@ Follow the documentation below to learn more about campaigns:
 
 ### Create a workflow {#acs-gs-marketers-wf}
 
-With workflows, you can orchestrate the full range of processes and tasks, improve the speed and scale of every aspect of your marketing campaigns, from creating segments and preparing messages to delivery. Plus, you can get your channels in sync with a single, easy-to-use interface for campaign orchestration.
+The workflow user interface has been fully reimagined in Campaign Web User Interface to facilitate usage, configuration, execution, and troubleshooting. As you already experienced in Campaign Standard, with workflows, you can orchestrate the full range of processes and tasks, improve the speed and scale of every aspect of your marketing campaigns, from creating segments and preparing messages to delivery. Plus, you can get your channels in sync with a single, easy-to-use interface for campaign orchestration.
 
 Understand how workflows work and how to create a targeting workflow in this video:
 
@@ -146,7 +148,6 @@ To understand the purpose and functionality of each activity within your workflo
 
 Maximize your workflow's efficiency by reviewing the [Guardrails and limitations for workflows](../../v8/get-started/guardrails.md).
 
-
 >[!AVAILABILITY]
 >
 >* Workflow execution [history and logs](../../v8/workflows/start-monitor-workflows.md#logs-tasks) are available in Adobe Campaign v8. 
@@ -158,22 +159,24 @@ Maximize your workflow's efficiency by reviewing the [Guardrails and limitations
 
 ## Create and manage deliveries {#acs-gs-marketers-deliveries}
 
-You can create standalone deliveries from the **Deliveries** left menu, or create deliveries in the context of a workflow, included or not in a campaign. Learn how to create a delivery in the following section: [Delivery creation and management documentation](../../v8/msg/gs-deliveries.md)
+With Campaign Web User Interface, as a marketer, you can create standalone deliveries from the **Deliveries** left menu, or create deliveries in the context of a workflow, included or not in a campaign. Key steps are aligned with your previous experience in Campaign Standard. Learn how to create a delivery in the following section: [Delivery creation and management documentation](../../v8/msg/gs-deliveries.md).
 
-For an accelerated and improved design process, you can create delivery templates to easily reuse custom content and settings across your campaigns. This functionality enables you to standardize the creative look and feel, in order to be quicker in executing and launching campaigns/ Learn more in the [Delivery template](../../v8/msg/delivery-template.md) page.
+Useful links:
 
-Delivery settings are technical delivery parameters that are defined in the delivery template. They can be overloaded for each delivery. These settings are available from the Settings button available when editing a delivery or a delivery template. Learn more in the [Delivery settings](../../v8/advanced-settings/delivery-settings.md) section.
+* **Delivery templates** - For an accelerated and improved design process, you can create delivery templates to easily reuse custom content and settings across your campaigns. This functionality enables you to standardize the creative look and feel, in order to be quicker in executing and launching campaigns/ Learn more in the [Delivery template](../../v8/msg/delivery-template.md) page.
 
-Adobe Campaign Web dynamic content capabilities allows you to customize your content based on the information you have gathered about your recipients. By utilizing dynamic content, you ensure that your marketing efforts are more relevant, avoiding marketing unwanted or unnecessary products or services. Learn more in the [Dynamic content](../../v8/personalization/gs-personalization.md) section.
+* **Delivery settings** - Delivery settings are technical delivery parameters that are defined in the delivery template. They can be overloaded for each delivery. These settings are available from the Settings button available when editing a delivery or a delivery template. Learn more in the [Delivery settings](../../v8/advanced-settings/delivery-settings.md) section.
 
-Once your delivery content has been defined, you can use profiles and test profiles to preview and test it before sending the message. This is a crucial step to ensure that it is accurate but also free of errors both in content and personalization settings. See [Preview and test](../../v8/preview-test/preview-test.md).
+* **Dynamic content** - Adobe Campaign Web dynamic content capabilities allows you to customize your content based on the information you have gathered about your recipients. By utilizing dynamic content, you ensure that your marketing efforts are more relevant, avoiding marketing unwanted or unnecessary products or services. Learn more in the [Dynamic content](../../v8/personalization/gs-personalization.md) section.
 
-You can set the date and the exact time for sending your messages. By choosing the most appropriate time for your marketing message, you can maximise open rates. 
+* **Test and proofs** - Once your delivery content has been defined, you can use profiles and test profiles to preview and test it before sending the message. This is a crucial step to ensure that it is accurate but also free of errors both in content and personalization settings. See [Preview and test](../../v8/preview-test/preview-test.md).
 
-* Learn how to [schedule a stand-alone delivery](../../v8/msg/gs-deliveries.md#gs-schedule)
-* Learn how to [schedule a delivery in a workflow](../../v8/monitor/schedule-sending.md#schedule-a-delivery-in-a-campaign-workflow)
+* **Scheduling** - You can set the date and the exact time for sending your messages. By choosing the most appropriate time for your marketing message, you can maximise open rates. 
 
-You can add offers to your deliveries in the Adobe Campaign Web user interface. These offers are available from the Offers left menu which lets you access to the list of offers.  Learn how to [add offers to your messages](../../v8/msg/offers.md)
+    * Learn how to [schedule a stand-alone delivery](../../v8/msg/gs-deliveries.md#gs-schedule)
+    * Learn how to [schedule a delivery in a workflow](../../v8/monitor/schedule-sending.md#schedule-a-delivery-in-a-campaign-workflow)
+
+* **ADD offers** - You can add offers to your deliveries in the Adobe Campaign Web user interface. These offers are available from the Offers left menu which lets you access to the list of offers.  Learn how to [add offers to your messages](../../v8/msg/offers.md)
 
 >[!AVAILABILITY]
 >
@@ -309,13 +312,15 @@ In Campaign v8, the detailed steps for creating, testing, and sending a direct m
 1. [Define the extraction file](../../v8/direct-mail/content-direct-mail.md) 
 1. [Preview and send](../../v8/direct-mail/send-direct-mail.md)
 
+### In-App channel {#acs-gs-marketers-in-app}
+
+Note that the In-App channel is not available in Campaign v8. If you need to send in-app notifications, reach out to your Adobe Representative.
 
 ## Create and manage landing pages {#acs-gs-marketers-lp}
 
-**TO UPDATE > Explain changes for ACS users**
-
-
 Adobe Campaign v8 web user interface comes with a reimagined user experience for landing pages. Campaign allows you to create, design, and share landing pages. Landing pages enable you to direct your users to online forms where they can update their data, opt-in/out from receiving your communications, or subscribe to a specific service such as a newsletter. 
+
+As a Campaign Standard user transitoning to Campaign v8, your existing landing pages have been migrated to Campaign Web user interface. You can access the same range of capabilities.
 
 Learn more about landing pages in the following sections:
 
@@ -353,7 +358,7 @@ Learn more about landing pages in the following sections:
 
 Adobe Campaign suite of reporting tools provides valuable insights into the effectiveness of your marketing efforts, allowing you to optimize your campaigns for maximum impact. Learn more in the [Reporting documentation](../../v8/reporting/gs-reports.md).
 
-Dynamic Reporting provides fully customizable and real-time reports to measure the impact of your marketing activities. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks. See the [Dynamic reporting documentation](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"} 
+In addition, for emails, Dynamic Reporting provides fully customizable and real-time reports to measure the impact of your marketing activities. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks. See the [Dynamic reporting documentation](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"} 
 
 >[!AVAILABILITY]
 >

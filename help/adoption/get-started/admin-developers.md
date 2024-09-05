@@ -27,7 +27,7 @@ Useful link for you to start:
 
 * Refer to [Get Started with Campaign architecture](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/architecture){target="_blank"} to understand the Campaign architecture before starting to structure your instance.
 
-    Two deployment models are available: **Campaign FDA deployment** (P1-P3) and **Campaign Enterprise (FFDA)** deployment (P4). As a customer transitioning from Campaign Standard, your deployment model is **Campaign FDA**.
+<!-->    Two deployment models are available: **Campaign FDA deployment** (P1-P3) and **Campaign Enterprise (FFDA)** deployment (P4). As a customer transitioning from Campaign Standard, your deployment model is **Campaign FDA**.-->
 
 * Transactional messaging (Message Center) is the Campaign v8 module designed for managing triggered messages. It relies on a specific architecture model which is detailed in [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/architecture#transac-msg-archi){target="_blank"}.
 
@@ -56,14 +56,19 @@ See [Work with the client console](https://experienceleague.adobe.com/en/docs/ca
 
 ## Administrate the environment {#acs-gs-admin-env}
 
-**TO UPDATE > Explain changes for ACS users**
-
-
-Once the client console is installed, follow the steps in this documentation to create the connection to the application server: [Connection to the application server documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/connect#create-your-connection){target="_blank"}
+Once the client console is installed, follow the steps in this documentation to create the connection to the application server: [Connection to the application server documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/connect#create-your-connection){target="_blank"}. 
 
 Security practices are deeply ingrained into our internal software development and operations processes and tools and are rigorously followed by our cross-functional teams to prevent, detect, and respond to incidents in an expedient manner. Learn more in [Campaign Security best practices](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/privacy/security){target="_blank"}.
 
-Adobe Campaign lets you define and manage the rights assigned to users. These permissions are defined by combining operator group permissions, named rights and permissions on folders. See the [User permissions documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}.
+### Access rights and permissions {#acs-gs-admin-rights}
+
+Adobe Campaign lets you define and manage the rights assigned to users. These permissions are defined by combining operator group permissions, named rights and permissions on folders.
+
+As a Campaign Standard user transitioning to Campaign v8, your permissions and access rights remain the same. Security groups have been moved by Adobe to the Campaign v8 operator groups, and your permissions per organizational units have been transitioned to folder permissions. Campaign users   use their Adobe ID to connect to Campaign v8, and then can use the same login and password as in Campaign Standard.
+
+Campaign [folders](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/folders-and-views){target="_blank"} are nodes in the explorer tree of the client console. Based on their type, they contain certain types of data. Programs are materialized by folders in Campaign v8. You can create folders and manage permissions to them to restrict access. [Learn more](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target="_blank"}.
+
+Learn more in the [User permissions documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}.
 
 
 ### Campaign Control Panel {#acs-gs-admin-cp}
@@ -158,15 +163,11 @@ As a Campaign Standard user transitioning to Campaign v8, REST APIs are availabl
 
 Learn more in the [Rest API documentation](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/get-started-apis){target="_blank"}.
 
-Note that some recommendations and limitations apply to REST APIs when transitioning from Campaign Standard to Campaign v8. They are listed in [this page](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/limitations){target="_blank"}.
+Note that some recommendations and limitations apply to REST APIs when transitioning from Campaign Standard to Campaign v8. They are listed in [this page](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/limitations){target="_blank"}. Specific restrictions also apply when transitioning to Campaign v8 as listed in the Availability note below:
 
 >[!AVAILABILITY]
 >
 >* PKEYs values change between existing Campaign Standard instance and migrated Campaign v8 instance. In case PKEYs are being stored in external database then the implementation needs to change in a way that they need to call Adobe Campaign v8 main APIs which provides pkeys / hrefs links with PKEYs and sub sequent API calls need to be dynamically formed by consuming the pkeys /hrefs from previous API calls​
->
->* Administrator product profile and Message center product profile: a new product profile needed for accessing transactional APIs from Real-Time instance which is different from Campaign Standard. This is added to Campaign Standard existing or pre-created technical accounts. Post transition, as an administrator, you should review product profile mapping and assign to the needed product profile if you do not want Administrator product profile mapping with your technical account. After the transition, for any future new integrations, use Campaign v8 tenant ID in the REST URL instead of the previous Campaign Standard tenant ID.​
->
->TO REMOVE?? :
 >
 >* In Campaign v8, for the same body where vehicle linked to profile,​ we would get an error firstName property is not valid for `cusVehicle` but a request body with just the attributes without link works fine. `{ "vehicleNumber": "20009", "vehicleName": "Model E", "vehicleOwner":{   "firstName":"tester 11", "lastName":"Smith 11" } }​`
 >
@@ -175,49 +176,63 @@ Note that some recommendations and limitations apply to REST APIs when transitio
 >* The `ccpaOptOut` is only shown to user as part of `profileAndServicesExt/profile` REST API call and not `profileAndServices/profile` REST API call since it is being added in an extended schema as part of data migration. 
 >
 
-## About delivery management - TO REMOVE?
+## Typology rules {#acs-gs-admin-rules}
 
-Same as in Adobe Campaign Standard, in Campaign v8, typology rules are business rules that allow you to perform checks and filtering on your message before sending it. 
+As an administrator, you are responsible for creating and maintaining typology rules for your deliveries. Same as in Adobe Campaign Standard, in Campaign v8, typology rules are business rules that allow you to perform checks and filtering on your message before sending it. 
 
-Campaign Optimization is the Adobe Campaign module which lets you control, filter and monitor the sending of deliveries. To avoid conflicts between campaigns, Adobe Campaign can test various combinations by applying specific constraint rules. This guarantees that the messages sent meet the needs and expectations of customers and company communication policies. Learn more in the [Typology rules documentation](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
+In Campaign v8, typology rules come with a specific Campaign Optimization module. This module which lets you control, filter and monitor the sending of deliveries. To avoid conflicts between campaigns, Adobe Campaign can test various combinations by applying specific constraint rules. This guarantees that the messages sent meet the needs and expectations of customers and company communication policies. Learn more in the [Typology rules documentation](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
+## Quarantine management {#acs-gs-admin-quarantine}
 
-Quarantine is the way to manage the invalid addresses in deliveries. See [Quarantine documentation](../../v8/audience/quarantine.md)
+All quarantined addresses and quarantine rules have been migrated from your Campaign Standard environment to Campaign v8. No specific action is needed for quarantines.
 
+Get familiar with quarantine management in Campaign v8 in [this page](../../v8/audience/quarantine.md).
 
+<!--
 ## Working with templates - TO REMOVE?
 
-Campaign templates contain pre-configured settings which can be reused for creating new campaigns. A set of built-in templates is available to help you get started.
-See [Campaign templates documentation in Web User Interface](../../v8/campaigns/manage-campaigns.md#manage-campaign-templates) and [Campaign templates documentation in Client Console](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates){target="_blank"}
 
-For an accelerated and improved design process, you can create delivery templates to easily reuse custom content and settings across your campaigns. This functionality enables you to standardize the creative look and feel, in order to be quicker in executing and launching campaigns.
-[Delivery template documentation](../../v8/msg/delivery-template.md)
 
 Workflow templates contain pre-configured settings and activities which can be reused for creating new workflows.
 [Workflow template documentation](../../v8/workflows/create-workflow.md)
 
-Learn how created dynamic content blocks and how to use them to personalize the content of your email delivery in this video:
-
->[!VIDEO](https://video.tv.adobe.com/v/342088?quality=12&learn=on){transcript=true}
 
 You can design your landing page content, and save it for future reuse. See the [landing page template documentation](../../v8/landing-pages/lp-templates.md).
 
 Each event can trigger a personalized message. For this to happen, you need to create a message template to match each event type. Templates contain the necessary information for personalizing the transactional message. See the [Transactional messaging template documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional-template)
 
 Using a workflow template is a best practice if you need to regularly import files with the same structure. See the [Import template documentation](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow){target="_blank"}
+-->
 
-## Use subscription services - TO REMOVE?
+## Subscription services {#acs-gs-admin-sub}
+
+Like in Campaign Standard, as an administrator, you can create subscription services and marketers can send messages to their subscribers. Key concepts and implementations steps are aligned with Campaign Standard. You can find useful links and video below.
 
 Learn how to setup and manage subscriptions and target subscribers.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334305?quality=12&learn=on){transcript=true}
 
-Manage and create your services such as newsletters, and check the subscriptions or unsubscriptions to these services. See the [subscription services documentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/work-with-services/manage-services){target="_blank"}
+* See the subscription services [web user interface documentation](../../v8/audience/manage-subscribers.md).
+
+* See also the documentation to set subscriptions services in the client console in [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/subscriptions){target="_blank"}.
 
 
-## Configure delivery channels - TO REMOVE?
+## Configure delivery channels {#acs-gs-admin-channels}
 
-External accounts are used by technical processes such as technical workflows or campaign workflows. For example, when setting up a file transfer in a workflow or a data exchange with any other application (Adobe Target, Experience Manager, etc.), you need to select an external account. See [External account configuration](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/external-accounts){target="_blank"}
+As Campaign Standard, Adobe Campaign v8 helps you send cross-channel campaigns including emails, SMS, Push notifications and direct mails, and measure their effectiveness using various dedicated reports. These messages are designed and sent though deliveries, and can be personalized for each recipient. Core functionalities include targeting, definition and personalization of messages, execution of communications, and the associated operational reports. The main functional access point is the delivery assistant. This access point leads to multiple capabilities covered by Adobe Campaign. 
+
+As an administrator, you must define your channel configurations. Refer to the links below to learn more.
+
+* **Email** - Email settings are all detailed in [this page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/email-parameters){target="_blank"}.
+* **SMS** - Learn how to configure your SMS channel in [this documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}.
+* **Push notifications** - Steps to configure the push notifications channel are detailed [in this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}.
+* **Transactional messaging** - Steps to configure [Transactional messaging](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"} in Campaign v8 are detailed [in this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/transactional-msg-settings) 
+
+**External accounts**
+
+As an administrator, you are responsible for configuring and maintaining Campaign external accounts. As in Campaign Standard, external accounts are used by technical processes such as technical workflows or campaign workflows. For example, when setting up a file transfer in a workflow or a data exchange with any other application (Adobe Target, Experience Manager, etc.), you need to select an external account. Learn more in the [External account configuration](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/external-accounts){target="_blank"} documentation.
+
+
 
 <!--
 **Email**
@@ -229,12 +244,6 @@ MISSING LINKS :
 - email properties
 -->
 
-**SMS** might be limited to sending short text messages with no formatting but its simplicity makes it a valuable communication channel. See [how to configure SMS channel](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/config-sms/sms-mid-sourcing){target="_blank"}
-
-TO BE CHANGED WHEN NEW DOC RELEASED
-
-**Direct mail** is an offline channel that allows you to produce files to mass deliver personalized letters to your customers such as postcards, flyers, or catalogs.
-[Get started with Direct Mail deliveries](../../v8/direct-mail/gs-direct-mail.md)
 <!--
 MISSING LINKS: 
 - Setting external account 
@@ -249,52 +258,45 @@ MISSING LINKS:
 - Channel-specific application configuration
 -->
 
+**Dynamic content**
+
+Use Campaign to create dynamic content and send personalized messages. Personalization capabilities can be combined to improve your messages and create a custom user experience.
+
+With Campaign v8, as an administrator, you can define dynamic content blocks and how to use them to personalize the content of your email delivery in this video:
+
+>[!VIDEO](https://video.tv.adobe.com/v/342088?quality=12&learn=on){transcript=true}
+
+Useful links:
+
+* [Get started with personalization](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/personalize/personalize){target="_blank"}
+* [Use personalization blocks](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/personalize/personalization-blocks){target="_blank"}
+* [Create conditional content](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/personalize/conditions){target="_blank"}
+* [Personalization data sources](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/personalize/personalization-data){target="_blank"}
+
+**Templates**
+
+Using delivery templates is a requirement in Campaign v8, like in Campaign Standard.
+
+For an accelerated and improved design process, create delivery templates to easily reuse custom content and settings across your campaigns. This functionality enables you to standardize the creative look and feel, in order to be quicker in executing and launching campaigns.
+[Delivery template documentation](../../v8/msg/delivery-template.md).
+
+
 ## Manage Adobe Campaign integrations
 
-**TO UPDATE > Explain changes for ACS users**
+You can connect your Campaign instance with Adobe Experience Cloud solutions to combine capabilities. Adobe Campaign comes with several connectors that allow you to communicate with external applications, connect to database engines, share and synchronize data. Learn how to combine your solutions in [this documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/integration){target="_blank"}?
 
-You can connect your Campaign environment with Adobe Experience Cloud solutions and apps to combine capabilities. See [Campaign connection to other solutions documentation](../../v8/integrations/integration.md)
+As a Campaign Standard user migrating to Campaign v8, the following applies to you:
 
-Adobe Campaign v8 comes with several connectors that allow you to communicate with external applications, connect to database engines, share and synchronize data. These connections are configured by Adobe.
-        
-Here are the available integrations and related links into Campaign (console) documentation:
-
-* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-aa){target="_blank"}: This integration sends indicators and attributes of email campaigns delivered by Adobe Campaign to Adobe Analytics
-        
-* [Adobe Experience Cloud triggers](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-triggers){target="_blank"}: You can use Experience Cloud Triggers to connect data between Adobe Campaign and Adobe Analytics using the pipeline. The pipeline retrieves user's actions or triggers from your website. A cart abandonment is an example of trigger. Triggers are processed in Adobe Campaign to send emails in near real time.
-        
-* [Adobe Experience Manager](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"}: Integration between Adobe Campaign and Adobe Experience Manager allows you to manage the content of your email deliveries as well as your forms directly in Adobe Experience Manager.
-
-* [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-aep/ac-aep){target="_blank"}: With this integration, you can: send Adobe Experience Platform audiences over to Adobe Campaign, and send back delivery and tracking logs into Adobe Experience Platform for analysis purpose, bring Adobe Experience Platform profile attributes into Adobe Campaign and have a sync process in place so that they can be updated on a regular basis.
-        
-* [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-ajo){target="_blank"}: Integration between Adobe Campaign and Adobe Journey Optimizer allows you orchestrate customer journeys in Adobe Journey Optimizer and send emails, push notifications and/or SMS using Adobe Campaign Transactional Messaging capabilities.
-        
-* [Adobe Target](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-at){target="_blank"}: This integration helps to include an offer from Adobe Target in an Adobe Campaign email delivery.
-
-* [Adobe Workfront](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-workfront){target="_blank"}: Speed up campaign delivery by pairing Campaign with Adobe Workfront. This integration make it easy for cross-channel teams to intake, collaborate, and execute.
-
->[!AVAILABILITY]
->
->Analytics & Audience configurations and data will be automated migration.
-
-
-## Use transactional messages
-
-**TO UPDATE > Explain changes for ACS users**
-
-
-Transactional messaging (Message Center) is a Campaign module designed for managing trigger messages. These notifications are generated from events triggered from information systems, and can be: invoice, order confirmation, shipping confirmation, password change, product unavailability notification, account statement, website account creation, etc.
-
-See the [Transactional messages documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}
-
+* If you were using these integrations with Campaign Standard, your **Adobe Analytics** and **Audience Manager** configurations and data have been migrated by Adobe.
+* If your Campaign Standard environment was integrated with **Adobe Experience Manager**, Adobe recommends you to move to **Adobe Experience Manager as a Cloud Service** so that you can use this capability when designing emails in the Campaign Web user interface, and facilitate the streamlined management of email delivery content and forms directly within the Adobe Experience Manager platform.. Learn more in [this page](../../v8/integrations/aem-content.md). Note that Campaign can also be integrated with Adobe Experience Manager 6.5. To configure this integration, refer to [this documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"}.
+* If your Campaign Standard environment was integrated with **Triggers**, you must set up and configure this integration in Campaign v8 as detailed in [this page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-triggers){target="_blank"}.
+* If your Campaign Standard environment was integrated with **Adobe Target**, you must set up and configure this integration in Campaign v8 as detailed in [this page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-at){target="_blank"}.
 
 ## Use reporting
 
-**TO UPDATE > Explain changes for ACS users __ NO CHANGE?**
-
-Adobe Campaign provides a set of reporting tools [Reporting configuration documentation](../../v8/reporting/gs-reports.md){target="_blank"}
+Adobe Campaign provides a set of [reporting tools](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/gs-reporting){target="_blank"}. As an administrator, you can create and configure reports to share with other Campaign users.
     
-Dynamic Reporting provides fully customizable and real-time reports to measure the impact of your marketing activities. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks. See the [Dynamic reporting documentation](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"}
+In addition, aligned with the Adobe Campaign Standard experience, the Dynamic Reporting is available to you in Campaign v8, for your email deliveries. Itprovides fully customizable and real-time reports to measure the impact of your marketing activities. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks. Learn more in the [Dynamic reporting documentation](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"}
 
-Reports can also be created and managed based on profile data created during the recipient schema extension. Learn more in the following documentation: [Creating a profile dimension](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/reporting/customizing-reports/creating-a-custom-profile-dimension){target="_blank"}
+Reports can also be created and managed based on profile data created during the recipient schema extension. Learn more in the [Creating a profile dimension](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/reporting/customizing-reports/creating-a-custom-profile-dimension){target="_blank"} documentation.
 
