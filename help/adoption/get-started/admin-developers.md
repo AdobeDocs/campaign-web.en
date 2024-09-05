@@ -128,7 +128,7 @@ Learn how to create a schema and how to extend an existing schema in Campaign v8
 
 Similar to the capabilities available in Campaign Standard, you can create custom resources. IN Campaign v8, custom resources are custom or extended **schemas**. 
 
-+ Learn how to work with schema in [this page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}.
+* Learn how to work with schema in [this page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}.
 
 * Learn how to extend an existing schema in [this page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema){target="_blank"}.
 
