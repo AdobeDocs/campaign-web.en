@@ -24,6 +24,9 @@ When an address is quarantined in Adobe Campaign, the profile will be excluded a
 
 Quarantine will help you to reduce SMS sending cost by excluding erroneous phone numbers from deliveries.
 
+Learn more about quarantines in the [Campaign v8 (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/quarantines){target="_blank"}.
+
+
 ## Why an address is sent to quarantine {#quarantines-why}
 
 Many reasons may send an address to quarantine: 
@@ -33,7 +36,7 @@ Many reasons may send an address to quarantine:
 * For email, when your message is reported as spam. The message is automatically redirected towards a technical mailbox managed by Adobe. The user's email address is then automatically sent to quarantine with the Denylisted status.
 * An email address can be quarantined, for example, when the mailbox is full, if the address does not exist, or if the email server is unavailable.
 
-[Learn more about delivery failures](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures)
+Learn more about delivery failures in the [Campaign v8 (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/delivery-failures){target="_blank"}.
 
 ## Where to find the quarantine addresses {#quarantines-where}
 
