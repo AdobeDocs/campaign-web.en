@@ -202,6 +202,8 @@ In Campaign v8, the detailed steps for creating, testing, and sending an email d
 
 1. **Design and define content**
 
+   Campaign v8 Email designer is similar to the one available in Campaign Standard. As a reminder, Campaign Standard[ legacy email editor was deprecated](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"} a few years ago. You should have already transitioned to Campaign Email Designer to create and personalize your email content.
+   
    Understand how to navigate the Email Designer. Learn how to structure and design an email from scratch, how to personalize, and test your email in the following video:
    
    >[!VIDEO](https://video.tv.adobe.com/v/3425867?quality=12&learn=on){transcript=true}
@@ -301,7 +303,10 @@ In Campaign v8, the detailed steps for creating, testing, and sending a push not
 
 >[!AVAILABILITY]
 >
->Adobe Campaign v8 supports both Android and iOS Push Channel. For transitioning of existing workflows and deliveries using Push Channel please connect with your Adobe Campaign Transition Manager. Learn more on [Channel Set up](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}.  
+>* Adobe Campaign v8 supports both Android and iOS Push Channel. For transitioning of existing workflows and deliveries using Push Channel please connect with your Adobe Campaign Transition Manager. Learn more on [Channel Set up](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}. 
+>
+>* Note that the SDK V4 for mobile applications was [deprecated in Campaign Standard](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"} a few years ago. You should have already transitioned to Adobe Experience Platform SDK, which is the same used in Campaign v8.
+> 
 
 ### Direct mail {#acs-gs-marketers-direct-mail}
 
