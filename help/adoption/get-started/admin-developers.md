@@ -19,15 +19,26 @@ The Campaign client console centralizes all capabilities and settings. It is sta
 
 ## Understand the Campaign v8 architecture {#acs-gs-admi-archi}
 
-Campaign architecture is detailed in Campaign v8 (console) documentation.
+Campaign architecture is detailed in Campaign v8 (console) documentation. Learn basics in [this page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/general-architecture){target="_blank"}.
 
-See [Get Started with Campaign architecture](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/architecture){target="_blank"} to understand the Campaign architecture before starting to structure your instance.
+Useful link for you to start:
 
-Review the [Campaign components and processes](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/ac-components){target="_blank"} to learn more about them and to know how they are organized.
+* Adobe Campaign components and global architecture are described in [this page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/ac-components){target="_blank"}.
+
+* Refer to [Get Started with Campaign architecture](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/architecture){target="_blank"} to understand the Campaign architecture before starting to structure your instance.
+
+    Two deployment models are available: **Campaign FDA deployment** (P1-P3) and **Campaign Enterprise (FFDA)** deployment (P4). As a customer transitioning from Campaign Standard, your deployment model is **Campaign FDA**.
+
+* Transactional messaging (Message Center) is the Campaign v8 module designed for managing triggered messages. It relies on a specific architecture model which is detailed in [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/architecture#transac-msg-archi){target="_blank"}.
+
 
 ## Install the client console {#acs-gs-admin-console}
 
-The main administration and configuration tasks are performed in the client console. The first step is to set up your environment. The following video explains how to download and install the Adobe Campaign Client Console and manage your connection to your instance.
+Administration and configuration tasks are performed in the client console. The first step is to set up your environment. 
+
+Campaign client console is a native application which communicates with the Adobe Campaign application server through standard internet protocols, such as SOAP and HTTP. Campaign client console centralizes all capabilities and settings, and requires minimal bandwidth as it relies on a local cache. Designed for easy deployment, Campaign client console can be deployed from an internet browser, updated automatically, and does not require any specific network configuration as it only generates HTTP(S) traffic.
+
+The following video explains how to download and install the Adobe Campaign Client Console and manage your connection to your instance.
 
 >[!VIDEO](https://video.tv.adobe.com/v/335375?quality=12&learn=on){transcript=true}
 
@@ -44,6 +55,9 @@ Learn about the Adobe Campaign V8 user interface and how to navigate the main fe
 See [Work with the client console](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"} for more details.
 
 ## Administrate the environment {#acs-gs-admin-env}
+
+**TO UPDATE > Explain changes for ACS users**
+
 
 Once the client console is installed, follow the steps in this documentation to create the connection to the application server: [Connection to the application server documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/connect#create-your-connection){target="_blank"}
 
@@ -70,11 +84,15 @@ Learn more in the [Subdomain delegation documentation](https://experienceleague.
 
 ### Audit trail {#acs-gs-admin-audit-trail}
 
-In Adobe Campaign Web User Interface, the Audit trail capability provides users with full visibility into all modifications made to important entities within your instance, typically those that significantly impact a smooth operation of the instance.  Learn more in the [Audit trail documentation](../../v8/reporting/audit-trail.md)
+As already available in Campaign Standard, the Audit trail can be used in Campaign v8 to access the complete history of changes made within your instance.
+
+In Adobe Campaign Web User Interface, the Audit trail capability provides users with full visibility into all modifications made to important entities within your instance, typically those that significantly impact a smooth operation of the instance. Learn more in the [Audit trail documentation](../../v8/reporting/audit-trail.md)
 
 ### Data packages {#acs-gs-admin-audit-packages}
 
-You can use data packages to export and import your platform custom settings and data. A package can contain different types of configurations and components, filtered or not. Learn more about [Package import/export](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/packages){target="_blank"}
+Similar to what can be achieved in Campaign Standard, administrators can define packages to exchange resources between different Adobe Campaign instances through structured XML files. These can be configuration parameters or data.
+
+You can use data packages to export and import your platform custom settings and data. A package can contain different types of configurations and components, filtered or not. Learn how to work with data packages in Campaign v8 in [this documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/packages){target="_blank"}.
 
 <!--
 MISSING LINKS: 
@@ -100,28 +118,37 @@ Learn more in the [Branding documentation](https://experienceleague.adobe.com/en
 
 ## Understand data model creation {#acs-gs-admin-data-model-creation}
 
-Adobe Campaign v8 comes with its pre-defined data model. Adobe Campaign relies on a Cloud database containing tables that are linked together. Learn more in the [Data model documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/datamodel){target="_blank"}.
+Similar to Campaign Standard, Adobe Campaign v8 comes with its pre-defined data model. Adobe Campaign relies on a Cloud database containing tables that are linked together. Learn more in the [Data model documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/datamodel){target="_blank"}.
 
 A schema is an XML document associated with a database table. It defines data structure and describes the SQL definition of the table. See the [Schemas creation documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}
 
-Learn how to create a schema and how to extend an existing schema in this video:
+Learn how to create a schema and how to extend an existing schema in Campaign v8 in this video:
 
 >[!VIDEO](https://video.tv.adobe.com/v/337939?quality=12&learn=on){transcript=true}
 
-When you create or extend a schema, you need to create or modify the associated input forms to make those changes visible to end-users. An input form lets you edit an instance associated with a data schema from the Adobe Campaign client console. The form is identified by its name and namespace. See the [Input forms creation documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/forms){target="_blank"}
+Similar to the capabilities available in Campaign Standard, you can create custom resources. IN Campaign v8, custom resources are custom or extended **schemas**. 
+
++ Learn how to work with schema in [this page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}.
+
+* Learn how to extend an existing schema in [this page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema){target="_blank"}.
+
+* Learn how to create an new schema in [this page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/create-schema){target="_blank"}.
+
+* When you create or extend a schema, you need to create or modify the associated input forms to make those changes visible to end-users. An input form lets you edit an instance associated with a data schema from the Adobe Campaign client console. The form is identified by its name and namespace. See the [Input forms creation documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/forms){target="_blank"}.
 
 ## Understand data management {#acs-gs-admin-data-management}
 
-Learn what targeting dimensions and working tables are, and how Adobe Campaign manages data across different data sources in this video:
+Same as with Adobe Campaign Standard, Adobe Campaign v8 includes a workflow module that empowers you to orchestrate the full range of processes and tasks across the different modules of the application server. This comprehensive graphical environment lets you design processes including segmentation, campaign execution, file processing, human participation, etc. The workflow engine executes and tracks these processes. Learn how to start with workflows in Campaign v8 in [this documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/workflows){target="_blank"}. 
 
->[!VIDEO](https://video.tv.adobe.com/v/339992?quality=12&learn=on){transcript=true}
+See links to other useful resources below:
 
-Use Adobe Campaign workflows to improve the speed and scale of every aspect of your marketing campaigns, from creating segments and preparing messages to delivery. Campaign v8 workflows are similar to Campaign Standard workflows. Learn how to create workflows in the client console in the [Workflows (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/workflows){target="_blank"}
-    
-Campaign helps you add contacts to the Cloud database. You can load a file, schedule and automate multiple contact updates, collect data on the Web, or enter profile information directly into the recipient table.  Learn more in the [Import data (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/import){target="_blank"}
+* Learn what targeting dimensions and working tables are, and how Adobe Campaign manages data across different data sources in this video:
 
-You can easily export your different reports to PDF or CSV format, which enables you to share, manipulate, or print them. Learn more in the [Export data documentation](../../v8/reporting/export-reports.md).
+    >[!VIDEO](https://video.tv.adobe.com/v/339992?quality=12&learn=on){transcript=true}
 
+* Campaign helps you add contacts to the Cloud database. You can load a file, schedule and automate multiple contact updates, collect data on the Web, or enter profile information directly into the recipient table.  Learn more in the [Import data (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/import){target="_blank"}.
+
+* You can easily export your different reports to PDF or CSV format, which enables you to share, manipulate, or print them. Learn more in the [Export data documentation](../../v8/reporting/export-reports.md).
 
 ## REST APIs {#acs-gs-admin-apis}
 
@@ -130,6 +157,8 @@ Campaign REST APIs are aimed at letting you create integrations for Adobe Campai
 As a Campaign Standard user transitioning to Campaign v8, REST APIs are available to you. 
 
 Learn more in the [Rest API documentation](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/get-started-apis){target="_blank"}.
+
+Note that some recommendations and limitations apply to REST APIs when transitioning from Campaign Standard to Campaign v8. They are listed in [this page](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/limitations){target="_blank"}.
 
 >[!AVAILABILITY]
 >
@@ -222,6 +251,8 @@ MISSING LINKS:
 
 ## Manage Adobe Campaign integrations
 
+**TO UPDATE > Explain changes for ACS users**
+
 You can connect your Campaign environment with Adobe Experience Cloud solutions and apps to combine capabilities. See [Campaign connection to other solutions documentation](../../v8/integrations/integration.md)
 
 Adobe Campaign v8 comes with several connectors that allow you to communicate with external applications, connect to database engines, share and synchronize data. These connections are configured by Adobe.
@@ -249,12 +280,17 @@ Here are the available integrations and related links into Campaign (console) do
 
 ## Use transactional messages
 
+**TO UPDATE > Explain changes for ACS users**
+
+
 Transactional messaging (Message Center) is a Campaign module designed for managing trigger messages. These notifications are generated from events triggered from information systems, and can be: invoice, order confirmation, shipping confirmation, password change, product unavailability notification, account statement, website account creation, etc.
 
 See the [Transactional messages documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}
 
 
 ## Use reporting
+
+**TO UPDATE > Explain changes for ACS users __ NO CHANGE?**
 
 Adobe Campaign provides a set of reporting tools [Reporting configuration documentation](../../v8/reporting/gs-reports.md){target="_blank"}
     

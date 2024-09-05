@@ -33,7 +33,7 @@ For more details, please refer to the documentation below:
 
 1. [Discover the Campaign Web User Interface](../../v8/get-started/user-interface.md)
 
-1. [Browse and Filter List](../../v8/get-started/list-filters.md)
+1. [Browse and Filter Lists](../../v8/get-started/list-filters.md)
 
 
 ## Create and manage profiles and audiences {#acs-gs-marketers-profiles-and-audiences}
@@ -71,9 +71,9 @@ Learn how to [set a control group](../../v8/audience/control-group.md){target="_
 >
 >* Read audience gets transformed into Query activity with [predefined filter](../../v8/query/build-query.md)
 >
->* Predefined filter only takesthe latest value after audience migration to Campaign v8.
+>* Predefined filter only takes the latest value after audience migration to Campaign v8.
 >
->* File Type audiences in Campaign Standard are migrated as list type without dimensions.
+>* File-type audiences in Campaign Standard are migrated as List-type without dimensions.
 
 ### Manage subscriptions {#acs-gs-marketers-sub}
 
@@ -110,9 +110,11 @@ Use Adobe Campaign Web User interface to manage and create your services such as
 
 ## Use plans, programs and campaigns {#acs-gs-marketers-plans}
 
-Adobe Campaign allows you to configure your folder hierarchy for marketing plans and programs.
+Adobe Campaign v8 allows you to configure your folder hierarchy for marketing plans and programs. Plans, programs and campaigns capabilities are similar with Camapign Standard and with Campaign v8. 
 
-Learn more in the [Plans and programs documentation](../../v8/administration/plans-programs.md)
+Learn more in the [Plans and programs documentation](../../v8/administration/plans-programs.md).
+
+You can find below useful links to start with. Changes which can affect your user experience are highlighted in the Availability notes.
 
 
 ### Create a campaign {#acs-gs-marketers-campaign}
@@ -177,11 +179,11 @@ You can add offers to your deliveries in the Adobe Campaign Web user interface. 
 >
 >* Deliveries in draft state or finished state have been migrated.
 >
->* In transit / In progress / Cancelled / Retry in progress / Preparation error deliveries have been migrated to Adobe Campaign v8 but must be prepared again. 
+>* In transit / In progress / Cancelled / Retry in progress / Preparation error deliveries have been migrated to Adobe Campaign v8, but must be prepared again. 
 >
->* For Canceled / Retry in progress will be migrated as canceled deliveries: Tracking links, mirror page URL links, subscription/un-subscription link will work as per as per Campaign Standard. 
+>* For Canceled / Retry in progress have been migrated as canceled deliveries: Tracking links, mirror page URL links, subscription/un-subscription links work as in Campaign Standard. 
 >
->See also: [Tracking and Monitoring](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking){target="_blank"}, [Branding](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/branding/branding-gs){target="_blank"} in Adobe Campaign.
+>See also the following sections: [Tracking and Monitoring](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking){target="_blank"}, [Branding](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/branding/branding-gs){target="_blank"} in Adobe Campaign.
 
 ### Email delivery {#acs-gs-marketers-email}
 
@@ -191,7 +193,7 @@ Learn how to create an email delivery from scratch, define the audience, design 
 
 Learn how to create your first targeted email in the [Create your first email documentation](../../v8/email/create-email.md)
 
-The detailed steps for sending an email delivery are:
+In Campaign v8, the detailed steps for creating, testing, and sending an email delivery are similar to Campaign Standard.
 
 1. **Design and define content**
 
@@ -227,6 +229,9 @@ The detailed steps for sending an email delivery are:
 
 SMS deliveries provide a practical and efficient way to send text messages to your customers' mobile devices. With this feature, you can create, personalize, and preview text-based messages for effective communication.
 
+In Campaign v8, the detailed steps for creating, testing, and sending an SMS delivery are similar to Campaign Standard.
+
+
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/sms/create-sms">
@@ -257,9 +262,10 @@ SMS deliveries provide a practical and efficient way to send text messages to yo
 
 ### Create and manage push notifications {#acs-gs-marketers-push}
 
-Push notifications are essential for reaching out to your mobile app users, even when they're not actively using your app. They serve various purposes like providing updates, driving specific actions, and notifying about deals.
+Push notifications are essential for reaching out to your mobile app users, even when they are not actively using your app. They serve various purposes like providing updates, driving specific actions, and notifying about deals.
 
-Adobe Campaign v8 supports both Android and iOS Push Channel. To transition existing workflows and deliveries that are using the Push Channel, please connect with your Adobe Campaign Transition Manager.  
+In Campaign v8, the detailed steps for creating, testing, and sending a push notification delivery are similar to Campaign Standard.
+
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -296,6 +302,9 @@ Adobe Campaign v8 supports both Android and iOS Push Channel. To transition exis
 
 Direct mail is an offline channel that allows you to produce files to mass deliver personalized letters to your customers such as postcards, flyers, or catalogs. When creating a direct mail delivery, Adobe Campaign automatically generates an extraction file containing all the targeted profiles and selected data, such as postal addresses and profile attributes.
 
+In Campaign v8, the detailed steps for creating, testing, and sending a direct mail delivery are similar to Campaign Standard.
+
+
 1. [Create Direct Mail delivery](../../v8/direct-mail/create-direct-mail.md)
 1. [Define the extraction file](../../v8/direct-mail/content-direct-mail.md) 
 1. [Preview and send](../../v8/direct-mail/send-direct-mail.md)
@@ -303,7 +312,12 @@ Direct mail is an offline channel that allows you to produce files to mass deliv
 
 ## Create and manage landing pages {#acs-gs-marketers-lp}
 
-Adobe Campaign allows you to create, design, and share landing pages. Landing pages enable you to direct your users to online forms where they can update their data, opt-in/out from receiving your communications, or subscribe to a specific service such as a newsletter. Learn more about landing pages in the following sections:
+**TO UPDATE > Explain changes for ACS users**
+
+
+Adobe Campaign v8 web user interface comes with a reimagined user experience for landing pages. Campaign allows you to create, design, and share landing pages. Landing pages enable you to direct your users to online forms where they can update their data, opt-in/out from receiving your communications, or subscribe to a specific service such as a newsletter. 
+
+Learn more about landing pages in the following sections:
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
