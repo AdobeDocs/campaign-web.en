@@ -11,7 +11,7 @@ This page gives an overview of the key administrative and data management functi
 
 The major change for you is the introduction of the client console, the native application which communicates with the Adobe Campaign application server. 
 
-The Campaign client console centralizes all capabilities and settings. It is stays synchronized with the Campaign Web User Interface, ensuring consitency acrouss both environments.
+The Campaign client console centralizes all capabilities and settings. It is stays synchronized with the Campaign Web user interface, ensuring consitency acrouss both environments.
 
 ![](_assets/client_console.png){zoomable="yes"}
 
@@ -27,7 +27,7 @@ Useful link for you to start:
 
 * Refer to [Get Started with Campaign architecture](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/architecture){target="_blank"} to understand the Campaign architecture before starting to structure your instance.
 
-<!-->    Two deployment models are available: **Campaign FDA deployment** (P1-P3) and **Campaign Enterprise (FFDA)** deployment (P4). As a customer transitioning from Campaign Standard, your deployment model is **Campaign FDA**.-->
+<!--Two deployment models are available: **Campaign FDA deployment** (P1-P3) and **Campaign Enterprise (FFDA)** deployment (P4). As a customer transitioning from Campaign Standard, your deployment model is **Campaign FDA**.-->
 
 * Transactional messaging (Message Center) is the Campaign v8 module designed for managing triggered messages. It relies on a specific architecture model which is detailed in [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/architecture#transac-msg-archi){target="_blank"}.
 
@@ -36,7 +36,7 @@ Useful link for you to start:
 
 Administration and configuration tasks are performed in the client console. The first step is to set up your environment. 
 
-Campaign client console is a native application which communicates with the Adobe Campaign application server through standard internet protocols, such as SOAP and HTTP. Campaign client console centralizes all capabilities and settings, and requires minimal bandwidth as it relies on a local cache. Designed for easy deployment, Campaign client console can be deployed from an internet browser, updated automatically, and does not require any specific network configuration as it only generates HTTP(S) traffic.
+Campaign client console is a native application, which communicates with the Adobe Campaign application server through standard internet protocols, such as SOAP and HTTP. Campaign client console centralizes all capabilities and settings, and requires minimal bandwidth as it relies on a local cache. Designed for easy deployment, Campaign client console can be deployed from an internet browser, updated automatically, and does not require any specific network configuration as it only generates HTTP(S) traffic.
 
 The following video explains how to download and install the Adobe Campaign Client Console and manage your connection to your instance.
 
@@ -212,7 +212,7 @@ Learn how to setup and manage subscriptions and target subscribers.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334305?quality=12&learn=on){transcript=true}
 
-* See the subscription services [web user interface documentation](../../v8/audience/manage-subscribers.md).
+* See the subscription services [Web user interface documentation](../../v8/audience/manage-subscribers.md).
 
 * See also the documentation to set subscriptions services in the client console in [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/subscriptions){target="_blank"}.
 

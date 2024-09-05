@@ -9,7 +9,7 @@ level: Beginner, Experienced
 
 This guide gives an overview of the key functionalities of Campaign v8, for marketers transitioning from Campaign Standard to Campaign v8.
 
-You can access Adobe Campaign v8 via the client console or the Web User Interface. The web interface lets you create, manage and execute key marketing actions. The new Adobe Campaign Web interface offers a modern and intuitive user experience to simplify marketing campaign design and delivery. Learn more in this section. [Learn more](../../v8/get-started/user-interface.md).
+You can access Adobe Campaign v8 via the client console or the Web user interface. The web interface lets you create, manage and execute key marketing actions. The new Adobe Campaign Web interface offers a modern and intuitive user experience to simplify marketing campaign design and delivery. Learn more in this section. [Learn more](../../v8/get-started/user-interface.md).
 
 With the migration, all your data from Campaign Standard is imported in Campaign v8, ensuring a smooth transition with minimal disruption to your ongoing operations. 
 
@@ -25,13 +25,13 @@ The primary difference is in the user interface. Below a comparison of the same 
 
 ## Discover the Campaign Web User Interface {#acs-gs-marketers-ui}
 
-In the video below, learn how to access and navigate the Campaign Web User Interface and how to customize the inventory lists.
+In the video below, learn how to access and navigate the Campaign Web user interface and how to customize the inventory lists.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427278?quality=12&learn=on){transcript=true}
 
 For more details, please refer to the documentation below:
 
-1. [Discover the Campaign Web User Interface](../../v8/get-started/user-interface.md)
+1. [Discover the Campaign Web user interface](../../v8/get-started/user-interface.md)
 
 1. [Browse and Filter Lists](../../v8/get-started/list-filters.md)
 
@@ -46,7 +46,7 @@ You can find below a few useful links for you to start with.
 
 In Adobe Campaign, a profile is a record stored in the database, serving as a key component to create audiences for deliveries and add personalization data to your content.
 
-1. Learn how to access, manage, and explore profiles using the Campaign Web User Interface in this video:
+1. Learn how to access, manage, and explore profiles using the Campaign Web user interface in this video:
 
     >[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12&learn=on){transcript=true}
     
@@ -121,7 +121,7 @@ You can find below useful links to start with. Changes which can affect your use
 
 ### Create a campaign {#acs-gs-marketers-campaign}
 
-Adobe Campaign allows you to easily orchestrate your targeted marketing initiatives, using the built-in campaign management capability. With the ability to define a schedule, you can plan the duration and timing of your campaigns to align with strategic objectives and maximize audience engagement.
+Adobe Campaign allows you to orchestrate easily your targeted marketing initiatives, using the built-in campaign management capability. With the ability to define a schedule, you can plan the duration and timing of your campaigns to align with strategic objectives and maximize audience engagement.
 
 ![Campaign flow](_assets/campaign-flow.png)
 
@@ -134,7 +134,7 @@ Follow the documentation below to learn more about campaigns:
 
 ### Create a workflow {#acs-gs-marketers-wf}
 
-The workflow user interface has been fully reimagined in Campaign Web User Interface to facilitate usage, configuration, execution, and troubleshooting. As you already experienced in Campaign Standard, with workflows, you can orchestrate the full range of processes and tasks, improve the speed and scale of every aspect of your marketing campaigns, from creating segments and preparing messages to delivery. Plus, you can get your channels in sync with a single, easy-to-use interface for campaign orchestration.
+The workflow user interface has been fully reimagined in Campaign Web user interface to facilitate usage, configuration, execution, and troubleshooting. As you already experienced in Campaign Standard, with workflows, you can orchestrate the full range of processes and tasks, improve the speed and scale of every aspect of your marketing campaigns, from creating segments and preparing messages to delivery. Plus, you can get your channels in sync with a single, easy-to-use interface for campaign orchestration.
 
 Understand how workflows work and how to create a targeting workflow in this video:
 
@@ -163,28 +163,30 @@ With Campaign Web User Interface, as a marketer, you can create standalone deliv
 
 Useful links:
 
-* **Delivery templates** - For an accelerated and improved design process, you can create delivery templates to easily reuse custom content and settings across your campaigns. This functionality enables you to standardize the creative look and feel, in order to be quicker in executing and launching campaigns/ Learn more in the [Delivery template](../../v8/msg/delivery-template.md) page.
+* **Delivery templates** - For an accelerated and improved design process, you can create delivery templates to reuse easily custom content and settings across your campaigns. This functionality enables you to standardize the creative look and feel, in order to be quicker in executing and launching campaigns/ Learn more in the [Delivery template](../../v8/msg/delivery-template.md) page.
 
 * **Delivery settings** - Delivery settings are technical delivery parameters that are defined in the delivery template. They can be overloaded for each delivery. These settings are available from the Settings button available when editing a delivery or a delivery template. Learn more in the [Delivery settings](../../v8/advanced-settings/delivery-settings.md) section.
 
 * **Dynamic content** - Adobe Campaign Web dynamic content capabilities allows you to customize your content based on the information you have gathered about your recipients. By utilizing dynamic content, you ensure that your marketing efforts are more relevant, avoiding marketing unwanted or unnecessary products or services. Learn more in the [Dynamic content](../../v8/personalization/gs-personalization.md) section.
 
-* **Test and proofs** - Once your delivery content has been defined, you can use profiles and test profiles to preview and test it before sending the message. This is a crucial step to ensure that it is accurate but also free of errors both in content and personalization settings. See [Preview and test](../../v8/preview-test/preview-test.md).
+* **Test and proofs** - Once your delivery content has been defined, you can use profiles and test profiles to preview and test it before sending the message. This step is crucial to ensure that it is accurate but also free of errors both in content and personalization settings. See [Preview and test](../../v8/preview-test/preview-test.md).
 
 * **Scheduling** - You can set the date and the exact time for sending your messages. By choosing the most appropriate time for your marketing message, you can maximise open rates. 
 
     * Learn how to [schedule a stand-alone delivery](../../v8/msg/gs-deliveries.md#gs-schedule)
     * Learn how to [schedule a delivery in a workflow](../../v8/monitor/schedule-sending.md#schedule-a-delivery-in-a-campaign-workflow)
 
-* **ADD offers** - You can add offers to your deliveries in the Adobe Campaign Web user interface. These offers are available from the Offers left menu which lets you access to the list of offers.  Learn how to [add offers to your messages](../../v8/msg/offers.md)
+* **ADD offers** - You can add offers to your deliveries in the Adobe Campaign Web user interface. These offers are available from the Offers left menu, which lets you access to the list of offers.  Learn how to [add offers to your messages](../../v8/msg/offers.md)
 
 >[!AVAILABILITY]
 >
 >* Deliveries in draft state or finished state have been migrated.
 >
->* In transit / In progress / Cancelled / Retry in progress / Preparation error deliveries have been migrated to Adobe Campaign v8, but must be prepared again. 
+>* Deliveries which are in one of the following status have been migrated to Adobe Campaign v8, but must be prepared again: In transit / In progress / Cancelled / Retry in progress / Preparation error.
 >
->* For Canceled / Retry in progress have been migrated as canceled deliveries: Tracking links, mirror page URL links, subscription/un-subscription links work as in Campaign Standard. 
+>* Deliveries which are in one of the following status have been migrated as canceled deliveries: For Canceled / Retry in progress. 
+>
+>* Tracking links, mirror page URL links, subscription/un-subscription links work as in Campaign Standard. 
 >
 >See also the following sections: [Tracking and Monitoring](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking){target="_blank"}, [Branding](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/branding/branding-gs){target="_blank"} in Adobe Campaign.
 
@@ -364,7 +366,7 @@ In addition, for emails, Dynamic Reporting provides fully customizable and real-
 >
 >* [Dynamic reporting](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"} can be used for reporting of email deliveries, campaign with email deliveries and transactional messages. Demographic analysis by Profile dimension is also available.  
 >
-> * [Adobe Campaign Web User Interface reporting](../../v8/reporting/campaign-reports.md) is also available for all users transition from Adobe Campaign Standard to Adobe Campaign v8.
+> * [Adobe Campaign Web user interface reporting](../../v8/reporting/campaign-reports.md) is also available for all users transition from Adobe Campaign Standard to Adobe Campaign v8.
 
 Adobe Campaign offers three different reports:
 
