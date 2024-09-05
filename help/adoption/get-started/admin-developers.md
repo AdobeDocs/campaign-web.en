@@ -268,15 +268,13 @@ Useful links:
 
 Using delivery templates is a requirement in Campaign v8, like in Campaign Standard.
 
-For an accelerated and improved design process, create delivery templates to easily reuse custom content and settings across your campaigns. This functionality enables you to standardize the creative look and feel, in order to be quicker in executing and launching campaigns.
-[Delivery template documentation](../../v8/msg/delivery-template.md).
-
+For an accelerated and improved design process, create delivery templates to easily reuse custom content and settings across your campaigns. This functionality enables you to standardize the creative look and feel, in order to be quicker in executing and launching campaigns. Learn how to create delivery templates in [Campaign web user interface](../../v8/msg/delivery-template.md). See also how to create delivery templates in the client console in [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/create-templates){target="_blank"}.
 
 ### Typology rules {#acs-gs-admin-rules}
 
 As an administrator, you are responsible for creating and maintaining typology rules for your deliveries. Same as in Adobe Campaign Standard, in Campaign v8, typology rules are business rules that allow you to perform checks and filtering on your message before sending it. 
 
-In Campaign v8, typology rules come with a specific Campaign Optimization module. This module which lets you control, filter and monitor the sending of deliveries. To avoid conflicts between campaigns, Adobe Campaign can test various combinations by applying specific constraint rules. This guarantees that the messages sent meet the needs and expectations of customers and company communication policies. Learn more in the [Typology rules documentation](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
+In Campaign v8, typology rules come with a specific Campaign Optimization module. This module which lets you control, filter and monitor the sending of deliveries. To avoid conflicts between campaigns, Adobe Campaign can test various combinations by applying specific constraint rules. This guarantees that the messages sent meet the needs and expectations of customers and company communication policies. Learn more in the [Typology rules documentation](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}.
 
 ### Quarantine management {#acs-gs-admin-quarantine}
 
@@ -286,7 +284,7 @@ Get familiar with quarantine management in Campaign v8 in [this page](../../v8/a
 
 ## Manage Adobe Campaign integrations {#acs-gs-integrations}
 
-You can connect your Campaign instance with Adobe Experience Cloud solutions to combine capabilities. Adobe Campaign comes with several connectors that allow you to communicate with external applications, connect to database engines, share and synchronize data. Learn how to combine your solutions in [this documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/integration){target="_blank"}?
+You can connect your Campaign instance with Adobe Experience Cloud solutions to combine capabilities. Adobe Campaign comes with several connectors that allow you to communicate with external applications, connect to database engines, share and synchronize data. Learn how to combine your solutions in [this documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/integration){target="_blank"}.
 
 As a Campaign Standard user migrating to Campaign v8, the following applies to you:
 
