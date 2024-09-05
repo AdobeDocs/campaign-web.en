@@ -221,8 +221,11 @@ As an administrator, you must define your channel configurations. Refer to the l
 
 ### External accounts {#acs-gs-ext-accounts}
 
-As an administrator, you are responsible for configuring and maintaining Campaign external accounts. As in Campaign Standard, external accounts are used by technical processes such as technical workflows or campaign workflows. For example, when setting up a file transfer in a workflow or a data exchange with any other application (Adobe Target, Experience Manager, etc.), you need to select an external account. Learn more in the [External account configuration](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/external-accounts){target="_blank"} documentation.
+As an administrator, you are responsible for configuring and maintaining Campaign external accounts. As in Campaign Standard, external accounts are used by technical processes such as technical workflows or campaign workflows.
 
+The transition process to Campaign v8 takes care of your existing Campaign Standard external accounts: they are now available in the client console.
+
+Learn more about the [External account configuration](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/external-accounts){target="_blank"}.
 
 
 <!--
@@ -283,7 +286,7 @@ In Campaign v8, typology rules come with a specific Campaign Optimization ass-on
 All quarantined addresses and quarantine rules have been migrated from your Campaign Standard environment to Campaign v8. No specific action is needed for quarantine management.
 
 As an administrator, get familiar with quarantine management in Campaign v8 starting from [this page](../../v8/audience/quarantine.md). See also the client console detailed documentation about quarantine management in [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/quarantines#access-quarantined-addresses){target="_blank"}.
-.
+
 
 ## Manage Adobe Campaign integrations {#acs-gs-integrations}
 
