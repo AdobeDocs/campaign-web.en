@@ -265,7 +265,7 @@ In Campaign v8, the detailed steps for creating, testing, and sending an SMS del
 </td>
 </tr></table>
 
-### Create and manage push notifications {#acs-gs-marketers-push}
+### Push notifications {#acs-gs-marketers-push}
 
 Push notifications are essential for reaching out to your mobile app users, even when they are not actively using your app. They serve various purposes like providing updates, driving specific actions, and notifying about deals.
 

@@ -5,7 +5,7 @@ role: Admin, Developer
 level: Beginner, Experienced
 ---
 
-# Get started for admin/developers {#acs-gs-admin}
+# Get started for admin & developers {#acs-gs-admin}
 
 This page gives an overview of the key administrative and data management functionality of Campaign v8. It is for administrators and technical marketers transitioning from Campaign Standard to Campaign v8.
 
