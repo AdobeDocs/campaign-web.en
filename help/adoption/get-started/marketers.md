@@ -358,9 +358,11 @@ Learn more about landing pages in the following sections:
 
 ## Reporting {#acs-gs-marketers-reporting}
 
+Adobe Campaign provides a set of [reporting tools](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/gs-reporting){target="_blank"}. As an administrator, you can create and configure reports to share with other Campaign users.
+
 Adobe Campaign suite of reporting tools provides valuable insights into the effectiveness of your marketing efforts, allowing you to optimize your campaigns for maximum impact. Learn more in the [Reporting documentation](../../v8/reporting/gs-reports.md).
 
-In addition, for emails, Dynamic Reporting provides fully customizable and real-time reports to measure the impact of your marketing activities. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks. See the [Dynamic reporting documentation](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"} 
+In addition, aligned with the Adobe Campaign Standard experience, the Dynamic Reporting is available to you in Campaign v8, for your email deliveries. Itprovides fully customizable and real-time reports to measure the impact of your marketing activities. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks. Learn more in the [Dynamic reporting documentation](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"}
 
 >[!AVAILABILITY]
 >
@@ -380,7 +382,7 @@ Adobe Campaign offers three different reports:
 </div>
 <p>
 <div>
-<a>Provide detailed information on the performance, effectiveness, and outcomes of your individual deliveries, providing you with a comprehensive overview.</a>
+<p>Provide detailed information on the performance, effectiveness, and outcomes of your individual deliveries, providing you with a comprehensive overview.</p>
 </div>
 <p>
 </td>
@@ -392,7 +394,7 @@ Adobe Campaign offers three different reports:
 </div>
 <p>
 <div>
-<a>Offer a thorough analysis of each delivery's performance, per channel: success rates, audience engagement, and other essential metrics. They allow you to evaluate the overall effectiveness and impact of your campaign.</a>
+<p>Offer a thorough analysis of each delivery's performance, per channel: success rates, audience engagement, and other essential metrics. They allow you to evaluate the overall effectiveness and impact of your campaign.</p>
 </div>
 <p>
 </td>
@@ -405,7 +407,7 @@ Adobe Campaign offers three different reports:
 </div>
 <p>
 <div>
-<a>Offer a consolidated overall summary of traffic and engagement metrics for each channel within your Campaign instance. These reports consist of various widgets, each offering a distinct perspective on your campaign or delivery performance.</a>
+<p>Offer a consolidated overall summary of traffic and engagement metrics for each channel within your Campaign instance. These reports consist of various widgets, each offering a distinct perspective on your campaign or delivery performance.</p>
 </div>
 <p>
 </td>
