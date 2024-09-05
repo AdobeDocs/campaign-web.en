@@ -2,6 +2,7 @@
 audience: end-user
 title: Design an iOS rich push notification delivery
 description: Learn how to design an iOS rich push notification delivery with Adobe Campaign Web
+exl-id: e6058d60-9f34-412b-aac2-6e319a3ab898
 ---
 # Design an iOS rich push delivery {#rich-push}
 
@@ -204,4 +205,3 @@ Once you have defined your message content, you can use test subscribers to prev
 |**[!UICONTROL Thread-id]** | Set the identifier used to group related notifications together. |
 |**[!UICONTROL Category]**| Set the name of your category ID which will display action buttons. These notifications give the user a faster way to perform different tasks in response to a notification without opening or navigating in the application.|
 |**[!UICONTROL Target content ID]**| Set an identifier used to target which application window to brought forward when the notification is opened.|
-

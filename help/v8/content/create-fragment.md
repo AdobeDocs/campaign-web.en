@@ -2,8 +2,8 @@
 audience: end-user
 title: Create content fragments
 description: Learn how to create content fragments
+exl-id: 8f37e9e6-3085-4a68-9746-8ca34cfa4242
 ---
-
 # Create content fragments {#fragments}
 
 >[!CONTEXTUALHELP]
