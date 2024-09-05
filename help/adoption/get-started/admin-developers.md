@@ -272,15 +272,18 @@ For an accelerated and improved design process, create delivery templates to eas
 
 ### Typology rules {#acs-gs-admin-rules}
 
-As an administrator, you are responsible for creating and maintaining typology rules for your deliveries. Same as in Adobe Campaign Standard, in Campaign v8, typology rules are business rules that allow you to perform checks and filtering on your message before sending it. 
+As an administrator, you are responsible for creating and maintaining typology rules for your deliveries. Same as in Adobe Campaign Standard, in Campaign v8, typology rules are business rules that allow you to perform checks and filtering on your message before sending it.
 
-In Campaign v8, typology rules come with a specific Campaign Optimization module. This module which lets you control, filter and monitor the sending of deliveries. To avoid conflicts between campaigns, Adobe Campaign can test various combinations by applying specific constraint rules. This guarantees that the messages sent meet the needs and expectations of customers and company communication policies. Learn more in the [Typology rules documentation](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}.
+When transitioning to Campaign v8 from a Campaign Standard environment, your typoligy rules are moved to Campaign v8.
+
+In Campaign v8, typology rules come with a specific Campaign Optimization ass-on. This module which lets you control, filter and monitor the sending of deliveries. To avoid conflicts between campaigns, Adobe Campaign can test various combinations by applying specific constraint rules. This guarantees that the messages sent meet the needs and expectations of customers and company communication policies. Learn more in the [Typology rules documentation](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}.
 
 ### Quarantine management {#acs-gs-admin-quarantine}
 
-All quarantined addresses and quarantine rules have been migrated from your Campaign Standard environment to Campaign v8. No specific action is needed for quarantines.
+All quarantined addresses and quarantine rules have been migrated from your Campaign Standard environment to Campaign v8. No specific action is needed for quarantine management.
 
-Get familiar with quarantine management in Campaign v8 in [this page](../../v8/audience/quarantine.md). 
+As an administrator, get familiar with quarantine management in Campaign v8 starting from [this page](../../v8/audience/quarantine.md). See also the client console detailed documentation about quarantine management in [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/quarantines#access-quarantined-addresses){target="_blank"}.
+.
 
 ## Manage Adobe Campaign integrations {#acs-gs-integrations}
 
