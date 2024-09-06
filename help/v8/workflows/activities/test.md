@@ -6,6 +6,16 @@ exl-id: 1bb25ad4-2cab-4656-85bd-4ed018e8477b
 ---
 # Test {#test}
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_test"
+>title="Test activity"
+>abstract="The **Test** activity allows you to enable transitions based on specified conditions. By default, the activity presents a simple boolean test. If the condition defined in the "True" transition is met, this trans ition will be activated. Otherwise, a default "False" transition will be activated. You can configure the conditions to suit your needs."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_test_conditions"
+>title="Conditions"
+>abstract="Click the **[!UICONTROL Add condition]** button to add multiple output transitions to the activity. During workflow execution, each condition is tested sequentially until one of them is met. If none of the conditions are met, the workflow continues along the path of the **[!UICONTROL Default condition]**. If no default condition is activated, the workflows stops at this point."
+
 The **Test** activity is a **Flow control** activity. It allows you to enable transitions based on specified conditions.
 
 ## Configure the Test activity {#test-configuration}
