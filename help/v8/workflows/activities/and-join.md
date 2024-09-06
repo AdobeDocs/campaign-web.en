@@ -20,7 +20,7 @@ This activity only triggers its outbound transition once all the inbound transit
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join_merging"
->title="Configure the AND-join activity"
+>title="Merging options"
 >abstract="Select which activities you want to join. In the **Primary set** drop-down, choose which inbound transition population you want to keep."
 
 Follow these steps to configure the **AND-join** activity:

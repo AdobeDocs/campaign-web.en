@@ -36,7 +36,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_options"
 >title="Select the segmentation type"
->abstract="Select how to combine audiences: union, intersection or exclusion."
+>abstract="Select how to combine audiences. The **Union** allows you to regroup the result of multiple activities into a single target. The **Intersection** allows you to keep only the elements common to the different inbound populations in the activity. The **Exclusion** allows you to exclude elements from one population according to certain criteria. "
 
 Follow these common steps to start configuring the **Combine** activity:
 
@@ -51,14 +51,9 @@ Follow these common steps to start configuring the **Combine** activity:
 ## Union {#combine-union}
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_intersection_reconciliation_options"
->title="Intersection reconciliation options"
->abstract="Select the reconciliation type to define how duplicates are handled."
-
->[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_reconciliation"
 >title="Reconciliation options"
->abstract="Select the **Reconciliation type** to define how to handle duplicates."
+>abstract="Select the **Reconciliation type** to define how to handle duplicates. By default, the **Keys** option is activated, meaning that the activity only keeps one element when elements from the different inbound transitions have the same key. Use the **A selection of columns** option to define the list of columns on which the data reconciliation is applied."
 
 In the **Combine** activity, you can configure a **Union**. For this, you need to select the **Reconciliation type** to define how duplicates are handled:
 
@@ -66,6 +61,11 @@ In the **Combine** activity, you can configure a **Union**. For this, you need t
 * **A selection of columns**: select this option to define the list of columns on which the data reconciliation is applied. You must first select the primary set (that which contains the source data), then the columns to use for the join.
 
 ## Intersection {#combine-intersection}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_intersection_reconciliation_options"
+>title="Intersection reconciliation options"
+>abstract="Select the **Reconciliation type** to define how to handle duplicates. By default, the **Keys** option is activated, meaning that the activity only keeps one element when elements from the different inbound transitions have the same key. Use the **A selection of columns** option to define the list of columns on which the data reconciliation is applied."
 
 In the **Combine** activity, you can configure an **Intersection**. For this, you need to follow the extra steps below:
 
