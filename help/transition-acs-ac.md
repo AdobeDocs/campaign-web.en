@@ -2,7 +2,7 @@
 title: Transition from Adobe Campaign Stand to Adobe Campaign v8
 description: Learn how to transition smoothly to Adobe Campaign v8
 hide: yes
-hidefromtoc: yes
+hidefromtoc: yes 
 ---
 
 # Transition from Adobe Campaign Standard to Adobe Campaign v8
@@ -79,7 +79,7 @@ Here are the key feature enabled by this integration:
 
 Adobe Experience Manager as a Cloud Service offers cloud-native agility, allowing you to accelerate your time to value and adapt to evolving business needs. This integration not only enhances your content management capabilities but also enables you to delivery more personalized and engaging experiences to your customers across all touchpoints.
 
-### AI assistant (bêta)
+### AI assistant (beta)
 
 Adobe Campaign v8 provides an AI assistant to help you generate impactful content in an efficient and quick manner. 
 
