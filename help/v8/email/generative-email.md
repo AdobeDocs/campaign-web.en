@@ -157,6 +157,8 @@ In the example below, learn how to leverage the AI Assistant to optimize and imp
 
     ![](assets/image-genai-1.png){zoomable="yes"}
 
+1. Enable the **[!UICONTROL Reference style]** option to upload a reference asset to your prompt.
+
 1. Fine tune the content by describing what you want to generate in the **[!UICONTROL Prompt]** field. 
 
     If you are looking for assistance in crafting your prompt, access the **[!UICONTROL Prompt Library]** which provides a diverse range of prompt ideas to improve your deliveries.
