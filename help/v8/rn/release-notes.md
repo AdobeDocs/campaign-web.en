@@ -23,7 +23,7 @@ Adobe Campaign Web user interface releases operate on a continuous delivery mode
 <tbody>
 <tr>
 <td>
-<p>Once you've crafted and tailored your message, take it to the next level with the AI Assistant for Content Accelerator. This powerful tool allows you to optimize the impact of your content by generating a range of engaging main titles and visually appealing images.</p>
+<p>Once you have crafted and tailored your message, take it to the next level with the AI Assistant for Content Accelerator. This powerful tool allows you to optimize the impact of your content by generating a range of engaging text, main titles and visually appealing images.</p>
 <p>For more information, refer to the <a href="../email/generative-gs.md">detailed documentation</a>.</p>
 <img src="assets/do-not-localize/ai-content-webui.gif"/>
 </td>
