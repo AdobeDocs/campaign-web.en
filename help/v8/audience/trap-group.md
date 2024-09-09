@@ -2,6 +2,7 @@
 audience: end-user
 title: Use a trap group
 description: Learn how to use a trap group for your delivery in Campaign Web user interface
+exl-id: 48c34581-8825-4798-b24e-c462303f7645
 ---
 # Use a trap group {#trap-group}
 

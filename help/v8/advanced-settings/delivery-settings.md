@@ -337,10 +337,11 @@ Values are encoded automatically if necessary.
 >[!CONTEXTUALHELP]
 >id="acw_delivery_settings_variable"
 >title="Variables"
->abstract="Variables"
+>abstract="You can add variables to your delivery, which can be useful for tracking and personalization. These variables are accessible from both your delivery content and your workflows."
 
-You can add variables to your delivery, which can be useful for tracking. To do this,
-navigate to the **[!UICONTROL Variables]** tab as shown below. 
+You can add variables to your delivery, which can be useful for tracking and personalization. These variables are accessible from both your delivery content and your workflows. Stored variables are used to set values that remain constant across all messages within the delivery. They can also be configured in delivery templates.
+
+To add a variable, browse to the **[!UICONTROL Variables]** tab as shown below. 
 
 ![](assets/variables-tab.png){zoomable="yes"}
 

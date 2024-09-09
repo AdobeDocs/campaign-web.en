@@ -5,8 +5,8 @@ description: Learn how to create your first delivery in Campaign Web
 feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
+exl-id: 803a20ac-e75f-45c6-af89-054b84eb3405
 ---
-
 # Create a delivery {#create-delivery}
 
 You can create standalone deliveries from the **[!UICONTROL Deliveries]** left menu, or create deliveries in the context of a workflow, included or not in a campaign. 

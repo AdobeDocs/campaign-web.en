@@ -24,7 +24,12 @@ exl-id: ca040ef8-5e0d-44e0-818d-08cfe99100be
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
 >title="JavaScript Transition"
->abstract="If you want to add multiple output transitions, click the **[!UICONTROL Add transitions]** button. This allows you, for example to trigger a specific transition based on a specific condition defined in the JavaScript code activity. This option is available for **Advanced** JavaScript code activities only."
+>abstract="Toggle on the **[!UICONTROL Process errors]** option to keep errors that occur during the script execution in an additional output transition."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_javascript_processerrors"
+>title="Process errors"
+>abstract="process errors"
 
 The **JavaScript code** activity is a **Data management** activity. Use this activity to execute a JavaScript script in the context of a workflow. This allows you to collect information from the database or perform other complex operations.
 

@@ -1,6 +1,7 @@
 ---
 title: Campaign v8 Web User Interface previous Release Notes
 description: 2024 Campaign Web User Interface releases
+exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
 ---
 # 2024 release notes {#2024-release}
 
@@ -173,4 +174,4 @@ You can now use the **Generate all subsets in the same table** option in the **S
 
 * The query modeler is now available for use in the Email Designer. It allows you to build conditions when creating conditional content.
 * Predefined values are now available for date-type attributes when creating a custom condition. 
-* Operators can no longer be added on a new transition in the diagram. They can only be added on an existing transition before filtering components to group them together. 
+* Operators can no longer be added on a new transition in the diagram. They can only be added on an existing transition before filtering components to group them together.
