@@ -12,6 +12,25 @@ exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 
 Adobe Campaign Web user interface releases operate on a continuous delivery model which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
+## September updates {#9-2024}
+
+<table>
+<thead>
+<tr>
+<th><strong>AI Assistant for Content Accelerator</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Once you've crafted and tailored your message, take it to the next level with the AI Assistant for Content Accelerator. This powerful tool allows you to optimize the impact of your content by generating a range of engaging main titles and visually appealing images.</p>
+<p>For more information, refer to the <a href="../email/generative-gs.md">detailed documentation</a>.</p>
+<img src="assets/do-not-localize/ai-content-webui.gif"/>
+</td>
+</tr>
+</tbody>
+</table>
+
 ## August release notes {#24-8-release}
 
 **Release date**: Sept 3, 2024
