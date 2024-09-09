@@ -1,26 +1,30 @@
 ---
 audience: end-user
 title: Generative content
-description: Get Started with the AI Assistant in Campaign
+description: Get Started with the AI Assistant in Adobe Campaign Web for Content Acceleration 
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 ---
-# Email generation with the AI Assistant for Content Accelerator{#generative-content}
+# Email generation with the AI Assistant in Adobe Campaign Web - Content Accelerator {#generative-content}
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Before starting using this capability, read out related [Guardrails and Limitations](generative-gs.md#generative-guardrails).
+>Before starting using this capability, read out related [Guardrails and Limitations](gs-generative.md#generative-guardrails).
+></br>
+>
+>You must agree to a [user agreement](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) before you can use the AI Assistant in Adobe Campaign Web for Content Acceleration. For more information, contact your Adobe representative.
 
-Once you have created and personalized your emails, use the AI Assistant for Content Accelerator in Campaign powered by generative AI to take your content to the next level.
 
-The AI Assistant for Content Accelerator can help you optimize the impact of your deliveries by generating entire emails, targeted text content, and even images specifically tailored to resonate with your audience. This optimizes your email campaigns for better engagement.
+Once you have created and personalized your emails, use the AI Assistant in Adobe Campaign Web for Content Acceleration in Campaign powered by generative AI to take your content to the next level.
 
-With your email campaigns, you can use the AI assistant to generate full email, text or images. Explore the tabs below to learn how to use the AI Assistant for Content Accelerator in Campaign.
+The AI Assistant in Adobe Campaign Web for Content Acceleration can help you optimize the impact of your deliveries by generating entire emails, targeted text content, and even images specifically tailored to resonate with your audience. This optimizes your email campaigns for better engagement.
+
+With your email campaigns, you can use the AI assistant to generate full email, text or images. Explore the tabs below to learn how to use the AI Assistant in Adobe Campaign Web for Content Acceleration in Campaign.
 
 >[!BEGINTABS]
 
 >[!TAB Full email generation]
 
-In the following example, we will leverage the AI assistant for Content Accelerator to refine an existing email, customizing it for a special event.
+In the following example, we will leverage the AI assistant in Adobe Campaign Web for Content Acceleration to refine an existing email, customizing it for a special event.
 
 1. After creating and configuring your email delivery, click **[!UICONTROL Edit content]**.
 

@@ -1,18 +1,21 @@
 ---
 audience: end-user
-title: SMS with the AI Assistant in Campaign
-description: Get Started with the AI Assistant in Campaign
+title: SMS with the AI Assistant in Adobe Campaign Web for Content Acceleration
+description: Get Started with the AI Assistant in Adobe Campaign Web for Content Acceleration 
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
 ---
-# SMS generation with the AI Assistant for Content Accelerator{#generative-sms}
+# SMS generation with the AI Assistant in Adobe Campaign Web - Content Accelerator {#generative-sms}
 
-Once you have crafted and personalized your SMS messages to suit your audience, take your communication to the next level with the help of the AI Assistant for Content Accelerator in Campaign, powered by innovative AI technology. 
+>[!IMPORTANT]
+>
+>Before starting using this capability, read out related [Guardrails and Limitations](gs-generative.md#generative-guardrails).
+></br>
+>
+>You must agree to a [user agreement](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) before you can use the AI Assistant in Adobe Campaign Web for Content Acceleration. For more information, contact your Adobe representative.
+
+Once you have crafted and personalized your SMS messages to suit your audience, take your communication to the next level with the help of the AI Assistant in Adobe Campaign Web for Content Acceleration in Campaign, powered by innovative AI technology. 
 
 This handy tool provides intelligent suggestions for refining your content, ensuring that your messages resonate effectively and maximize engagement.
-
->[!NOTE]
->
->Before starting using this capability, read out related [Guardrails and Limitations](generative-gs.md#generative-guardrails).
 
 >[!BEGINTABS]
 
@@ -90,7 +93,7 @@ When you have defined your content, audience and schedule, you are ready to prep
 
     ![](assets/sms-text-1.png){zoomable="yes"}
 
-1. Enable the **[!UICONTROL Use reference content]** option for the AI Assistant for Content Accelerator to personalize new content based on your campaign content, name, and selected audience.
+1. Enable the **[!UICONTROL Use reference content]** option for the AI Assistant for Content Acceleration to personalize new content based on your campaign content, name, and selected audience.
 
 1. Fine tune the content by describing what you want to generate in the **[!UICONTROL Prompt]** field. 
 
