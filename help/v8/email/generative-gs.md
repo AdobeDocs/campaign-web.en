@@ -53,11 +53,11 @@ The following limitations apply to AI Assistant in Campaign:
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
-<a href="generative-content.md">
+<a href="generative-email.md">
 <img alt="Email generation" src="assets/do-not-localize/text-genai.jpeg">
 </a>
 <div>
-<a href="generative-content.md"><strong>Email generation with the AI Assistant</strong></a>
+<a href="generative-email.md"><strong>Email generation with the AI Assistant</strong></a>
 </div>
 <p>
 </td>
