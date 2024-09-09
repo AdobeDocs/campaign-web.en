@@ -8,7 +8,7 @@ exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
 
 >[!IMPORTANT]
 >
->Before starting using this capability, read out related [Guardrails and Limitations](gs-generative.md#generative-guardrails).
+>Before starting using this capability, read out related [Guardrails and Limitations](generative-gs.md#generative-guardrails).
 ></br>
 >
 >You must agree to a [user agreement](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) before you can use the AI Assistant in Adobe Campaign Web for Content Acceleration. For more information, contact your Adobe representative.
