@@ -345,6 +345,27 @@ To add a variable, browse to the **[!UICONTROL Variables]** tab as shown below.
 
 ![](assets/variables-tab.png){zoomable="yes"}
 
-Click the **[!UICONTROL Add Variables]** button to enter the details of your variable, then click **[!UICONTROL Confirm]** to save your changes.
+Click the **[!UICONTROL Add Variables]** button to enter the details of your variable. You can add directly its value or use an expression for it by activating the checkbox **[!UICONTROL Value is the result of an expression]**. Then click **[!UICONTROL Confirm]** to save your changes.
 
 ![](assets/variables-add.png){zoomable="yes"}
+
+### Using variables for personalization
+
+The variables can be used for personalizing your delivery. 
+
+For example, we have the variable "deliveryType" defined as below.
+
+![](assets/variables-deliveryType.png){zoomable="yes"}
+
+This variable can be used in the content of the delivery, by using the **[!UICONTROL Add Personalization]** icon and use the expression *<%= variables.deliveryType %>*
+
+![](assets/variables-perso.png){zoomable="yes"}
+
+You can check the use of your variable with **[!UICONTROL Simulate Content]** button. 
+
+![](assets/variables-simulate.png){zoomable="yes"}
+
+### Using variables for dynamic content
+
+The variables can also be used for conditional content in your delivery.
+Learn more about [building conditional content](../personalization/conditions.md).
