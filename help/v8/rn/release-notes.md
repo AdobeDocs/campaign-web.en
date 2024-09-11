@@ -17,7 +17,7 @@ Adobe Campaign Web user interface releases operate on a continuous delivery mode
 <table>
 <thead>
 <tr>
-<th><strong>AI Assistant in Adobe Campaign Web - Content Accelerator</strong><br/></th>
+<th><strong>AI Assistant - Content Accelerator</strong><br/></th>
 </tr>
 </thead>
 <tbody>
