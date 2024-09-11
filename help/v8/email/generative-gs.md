@@ -47,14 +47,18 @@ AI Assistant makes the creation and execution of marketing campaigns across chan
 
 ## Access the AI Assistant - Content Accelerator {#generative-access}
 
+AI Assistant - Content Accelerator for emails, push notifications, and SMS, is now in General Availability (GA), and available to all users. Required permissions and steps to grant access to users are detailed below.
+
 +++  Learn how to assign Content generation related permissions
 
-1. **Create Product Profile** -  In [Admin Console](https://stage.adminconsole.adobe.com/) create a product profile with thie specific pattern: `Campaign - <instance-name> - AIAssistant`
+1. **Create Product Profile** -  In [Admin Console](https://stage.adminconsole.adobe.com/) create a product profile with the following specific pattern: 
+    `Campaign - <instance-name> - AIAssistant`
 
 1. **Add users** -  Add required user to that product profile, 
     or 
-    
     **Create User Group** and add that user group to product profile and add users to that product profile.
+
+Learn how to define permissions in Campaign in [this section](../get-started/permissions.md).
 
 +++
 
