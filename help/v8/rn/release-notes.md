@@ -27,6 +27,7 @@ Adobe Campaign Web user interface releases operate on a continuous delivery mode
 <p>Immerse yourself in a hands-on experience with <a href="https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator">our live feature preview</a>, designed to let you explore its features firsthand and fully understand its capabilities.</a>.</p>
 <p>For more information, refer to the <a href="../email/generative-gs.md">detailed documentation</a>.</p>
 <img src="assets/do-not-localize/ai-content-webui.gif"/>
+<p>Availability date: Sept 12</p>
 </td>
 </tr>
 </tbody>
