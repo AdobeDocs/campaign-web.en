@@ -41,7 +41,7 @@ General guidelines for using the AI Assistant in Adobe Campaign Web for Content 
 * The quality of the generated content is strongly influenced by the marketing objective / prompt you define. Use well defined prompt for the GenAI model to accurately interpret. 
 * Upload brand asset to have accurate, on brand content. Else, content is based on publicly available info. The uploaded content can be in the following formats: PDF, JPEG, PNG, or ZIP files (with supported file formats).
 * The maximum size for uploaded brand asset is 50MB. Larger files or lots of images can work but the processing time is increased.
-* Use an Adobe Campaign authored email templates, preferably [built-in email templates](../email/create-email-templates.md), a brand specific template or custom template to create your email content. Email template with up to 8-10 images is recommended.
+* Use [built-in email templates](../email/create-email-templates.md), brand specific template or custom template to create your email content using Content Accelerator. Email templates with up to 8-10 images is recommended.
 * Make sure to report any problematic outputs using the thumb up, thumb down or flag icons when selecting variants.
 * Your use of the AI assistant is subject to the Adobe Experience Cloud Generative AI User Guidelines. [Learn more](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
 * As part of Adobe's commitment to promote transparency in the use of generative AI tools in media creation, Adobe will apply Content Credentials when content or a project that included a Firefly generated asset is downloaded or exported. [Learn more](https://helpx.adobe.com/firefly/using/content-credentials.html)
