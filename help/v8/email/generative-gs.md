@@ -29,14 +29,26 @@ exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 
 >[!IMPORTANT]
 >
->Before starting using this capability, read out related [Guardrails and Limitations](#generative-guardrails).
-></br>
+>* Before starting using this capability, read out related [Guardrails and Limitations](#generative-guardrails).
 >
->You must agree to a [user agreement](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) before you can use the AI Assistant in Adobe Campaign Web for Content Acceleration. For more information, contact your Adobe representative.
+>* You must agree to a [user agreement](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) before you can use the AI Assistant in Adobe Campaign Web for Content Acceleration. For more information, contact your Adobe representative.
 
 As the Marketing industry becomes more competitive, brands are seeking efficient ways to generate impactful content in an efficient and quick manner. AI Assistant in Adobe Campaign Web for Content Acceleration, powered by Microsoft Azure OpenAI and Adobe Firefly, is Adobe's AI content generation capability that revolutionizes the way marketers create professional and brand-consistent content across channels like Email, SMS, Push. With advanced GenAI models and deep understanding of brand guidelines, AI Assistant auto-generates personalized, engaging, and effective content based on the marketing objective with content optimized for brand outlined styles, layouts, tone, and more. 
 
 AI Assistant makes the creation and execution of marketing campaigns across channels like Email, SMS and Push intuitive, simple and hassle-free while saving time, improving efficiency, and driving better results.
+
+## Access the AI Assistant Content Accelerator {#generative-access}
+
++++  Learn how to assign Content generation related permissions
+
+1. **Create Product Profile** -  In [Admin Console](https://stage.adminconsole.adobe.com/) create a product profile with thie specific pattern: `Campaign - <instance-name> - AIAssistant`
+
+1. **Add users** -  Add required user to that product profile, 
+    or 
+    
+    **Create User Group** and add that user group to product profile and add users to that product profile.
+
++++
 
 ## Guardrails and limitations {#generative-guardrails}
 
@@ -56,6 +68,8 @@ The following limitations apply to AI Assistant in Adobe Campaign Web for Conten
 * Only available for the email, push and SMS channels.
 * GenAI content might not always be accurate: please share your feedback so that our engineers can refine the models.
 * You may upload multiple brand assets, but can leverage only one for a specific generation.
+
+## AI Assistant content generation capabilities {#generative-features}
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
