@@ -104,9 +104,9 @@ breadcrumb-title: Campaign Web User Interface
       + [Add inline styling attributes](email/inline-styling.md)
   + AI Assistant for Content Accelerator {#ai-assistant}
     + [Get started with the AI Assistant - Content Accelerator](email/generative-gs.md)
-    + [Email generation with the AI Assistant](email/generative-content.md)
-    + [SMS generation with the AI Assistant](email/generative-sms.md)
-    + [Push notification generation with the AI Assistant](email/generative-push.md)
+    + [Email generation with AI](email/generative-content.md)
+    + [SMS generation with AI](email/generative-sms.md)
+    + [Push notification generation with AI](email/generative-push.md)
 + Landing pages {#landing-pages}
   + [Get started with landing pages](landing-pages/get-started-lp.md)
   + [Create and publish a landing page](landing-pages/create-lp.md)
