@@ -1,10 +1,10 @@
 ---
 audience: end-user
-title: Push notification with the AI Assistant in Journey Optimizer for Content Acceleration
-description: Get Started with the AI Assistant in Journey Optimizer for Content Acceleration
+title: Push notification with the AI Assistant for Content Acceleration
+description: Get Started with the AI Assistant for Content Acceleration
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
 ---
-# Push notification generation with the AI Assistant in Journey Optimizer - Content Accelerator  {#generative-push}
+# Push notification generation with the AI Assistant - Content Accelerator {#generative-push}
 
 >[!IMPORTANT]
 >
@@ -13,7 +13,7 @@ exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
 >
 >You must agree to a [user agreement](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) before you can use the AI Assistant in Adobe Campaign Web for Content Acceleration. For more information, contact your Adobe representative.
 
-The AI Assistant in Journey Optimizer for Content Acceleration can help you optimize the impact of your deliveries by suggesting different content that is more likely to resonate with your audience.
+The AI Assistant for Content Acceleration can help you optimize the impact of your deliveries by suggesting different content that is more likely to resonate with your audience.
 
 In the following example, we will leverage the AI assistant to craft compelling messaging to create a more engaging customer experience.
 
