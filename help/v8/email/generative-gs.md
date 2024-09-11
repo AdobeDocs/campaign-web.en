@@ -23,6 +23,10 @@ exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 >abstract="Access to this feature is subject to your agreement to the Adobe Experience Cloud Generative AI User Guidelines. Please review any output from this feature for accuracy and ensure it is appropriate for your use case."
 >additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe Generative AI User Guidelines"
 
+>[!INFO]
+>
+>Immerse yourself in a hands-on experience with [our interactive demo](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator), designed to let you explore its features firsthand and fully understand its capabilities.
+
 >[!IMPORTANT]
 >
 >Before starting using this capability, read out related [Guardrails and Limitations](#generative-guardrails).
