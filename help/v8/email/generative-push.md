@@ -25,7 +25,7 @@ In the following example, we will leverage the AI assistant to craft compelling 
 
     ![](assets/push-genai-1.png){zoomable="yes"}
 
-1. Enable the **[!UICONTROL Use original content]** option for the AI Assistant to personalize new content based on your delivery, delivery name, and selected audience.
+1. Enable the **[!UICONTROL Use original content]** option for the AI Assistant to personalize new content based on the selected content.
 
 1. Fine tune the content by describing what you want to generate in the **[!UICONTROL Prompt]** field. 
 

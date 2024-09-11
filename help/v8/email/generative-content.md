@@ -34,7 +34,7 @@ In the following example, we will leverage the AI assistant in Adobe Campaign We
 
     ![](assets/full-email-1.png){zoomable="yes"}
 
-1. Enable the **[!UICONTROL Use original content]** option for the AI Assistant to personalize new content based on your delivery, delivery name, and selected audience.
+1. Enable the **[!UICONTROL Use original content]** option for the AI Assistant to personalize new content based on the selected content.
     
 1. Fine tune the content by describing what you want to generate in the **[!UICONTROL Prompt]** field. 
 
@@ -99,7 +99,7 @@ In the following example, we will leverage the AI assistant to enhance the conte
 
     ![](assets/text-genai-1.png){zoomable="yes"}
 
-1. Enable the **[!UICONTROL Use original content]** option for the AI Assistant to personalize new content based on your delivery, delivery name, and selected audience.
+1. Enable the **[!UICONTROL Use original content]** option for the AI Assistant to personalize new content based on the selected content.
 
 1. Fine tune the content by describing what you want to generate in the **[!UICONTROL Prompt]** field. 
 
@@ -161,7 +161,7 @@ In the example below, learn how to leverage the AI Assistant to optimize and imp
 
     ![](assets/image-genai-1.png){zoomable="yes"}
 
-1. Enable the **[!UICONTROL Reference style]** option to upload a reference asset to your prompt.
+1. Enable the **[!UICONTROL Reference style]** option for the AI Assistant to personalize new content based on the selected content.
 
 1. Fine tune the content by describing what you want to generate in the **[!UICONTROL Prompt]** field. 
 
