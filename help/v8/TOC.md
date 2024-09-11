@@ -59,11 +59,6 @@ breadcrumb-title: Campaign Web User Interface
     + [Create a direct mail delivery](direct-mail/create-direct-mail.md)
     + [Design the extraction file ](direct-mail/content-direct-mail.md)
     + [Preview and send a direct mail delivery ](direct-mail/send-direct-mail.md)
-  + AI Assistant {#ai-assistant}
-    + [Get started with the AI Assistant](email/generative-gs.md)
-    + [Email generation with the AI Assistant](email/generative-content.md)
-    + [SMS generation with the AI Assistant](email/generative-sms.md)
-    + [Push notification generation with the AI Assistant](email/generative-push.md)
   + [Add offers to your messages](msg/offers.md)
   + [Send messages to your subscribers](msg/send-to-subscribers.md)
   + [Configure delivery settings](advanced-settings/delivery-settings.md)
@@ -107,6 +102,11 @@ breadcrumb-title: Campaign Web User Interface
       + [Adjust vertical alignment and padding](email/alignment-and-padding.md)
       + [Define a style for links](email/styling-links.md)
       + [Add inline styling attributes](email/inline-styling.md)
+  + AI Assistant for Content Accelerator {#ai-assistant}
+    + [Get started with the AI Assistant](email/generative-gs.md)
+    + [Email generation with the AI Assistant](email/generative-content.md)
+    + [SMS generation with the AI Assistant](email/generative-sms.md)
+    + [Push notification generation with the AI Assistant](email/generative-push.md)
 + Landing pages {#landing-pages}
   + [Get started with landing pages](landing-pages/get-started-lp.md)
   + [Create and publish a landing page](landing-pages/create-lp.md)
