@@ -11,7 +11,7 @@ exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 >Before starting using this capability, read out related [Guardrails and Limitations](generative-gs.md#generative-guardrails).
 ></br>
 >
->You must agree to a [user agreement](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) before you can use the AI Assistant in Adobe Campaign Web for Content Acceleration. For more information, contact your Adobe representative.
+>You must agree to a [user agreement](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} before you can use the AI Assistant in Adobe Campaign Web for Content Acceleration. For more information, contact your Adobe representative.
 
 
 Once you have created and personalized your emails, use the AI Assistant in Adobe Campaign Web for Content Acceleration in Campaign powered by generative AI to take your content to the next level.

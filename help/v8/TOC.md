@@ -103,7 +103,7 @@ breadcrumb-title: Campaign Web User Interface
       + [Define a style for links](email/styling-links.md)
       + [Add inline styling attributes](email/inline-styling.md)
   + AI Assistant for Content Accelerator {#ai-assistant}
-    + [Get started with the AI Assistant](email/generative-gs.md)
+    + [Get started with the AI Assistant - Content Accelerator](email/generative-gs.md)
     + [Email generation with the AI Assistant](email/generative-content.md)
     + [SMS generation with the AI Assistant](email/generative-sms.md)
     + [Push notification generation with the AI Assistant](email/generative-push.md)

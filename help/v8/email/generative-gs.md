@@ -4,7 +4,7 @@ title: Get started with the AI Assistant in Adobe Campaign Web - Content Acceler
 description: Get Started with the AI Assistant in Adobe Campaign Web - Content Accelerator 
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 ---
-# Get started with the AI Assistant in Adobe Campaign Web - Content Accelerator  {#generative-gs}
+# Get started with the AI Assistant - Content Accelerator  {#generative-gs}
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
