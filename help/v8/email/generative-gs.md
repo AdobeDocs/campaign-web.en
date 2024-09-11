@@ -4,7 +4,7 @@ title: Get started with the AI Assistant - Content Accelerator
 description: Get Started with the AI Assistant - Content Accelerator 
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 ---
-# Get started with the AI Assistant - Content Accelerator  {#generative-gs}
+# Work with the AI Assistant - Content Accelerator  {#generative-gs}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
