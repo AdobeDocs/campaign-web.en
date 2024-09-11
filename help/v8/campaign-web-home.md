@@ -45,11 +45,11 @@ Get a glimpse of the newest enhancements in Adobe Campaign Web product and docum
 
 >[!BEGINTABS]
 
->[!TAB AI Assistant in Adobe Campaign Web - Content Accelerator]
+>[!TAB AI Assistant - Content Accelerator]
 
-Immerse yourself in a hands-on experience with our live feature preview, designed to let you explore its features firsthand and fully understand its capabilities.
+Immerse yourself in a hands-on experience with our [AI Assistant Content Accelerator](../v8/email/generative-gs.md) live feature preview, designed to let you explore its features firsthand and fully understand its capabilities. 
 
-[![image](assets/do-not-localize/learn-more-button.svg)](../v8/email/generative-gs.md)
+[![image](assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
 >[!TAB Distribution of values] 
 
