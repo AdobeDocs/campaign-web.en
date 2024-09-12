@@ -4,7 +4,7 @@ title: Generative content
 description: Get Started with the AI Assistant for Content Acceleration 
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 ---
-# Email generation with the AI Assistant - Content Accelerator {#generative-content}
+# Email generation with the AI Assistant Content Accelerator {#generative-content}
 
 >[!IMPORTANT]
 >

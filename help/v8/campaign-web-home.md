@@ -45,7 +45,7 @@ Get a glimpse of the newest enhancements in Adobe Campaign Web product and docum
 
 >[!BEGINTABS]
 
->[!TAB AI Assistant - Content Accelerator]
+>[!TAB AI Assistant Content Accelerator]
 
 ✨ Immerse yourself in a hands-on experience with our [AI Assistant Content Accelerator](../v8/email/generative-gs.md) live feature preview, designed to let you explore its features firsthand and fully understand its capabilities. 
 

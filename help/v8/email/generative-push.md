@@ -4,7 +4,7 @@ title: Push notification with the AI Assistant for Content Acceleration
 description: Get Started with the AI Assistant for Content Acceleration
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
 ---
-# Push notification generation with the AI Assistant - Content Accelerator {#generative-push}
+# Push notification generation with the AI Assistant Content Accelerator {#generative-push}
 
 >[!IMPORTANT]
 >

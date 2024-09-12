@@ -4,7 +4,7 @@ title: SMS with the AI Assistant for Content Acceleration
 description: Get Started with the AI Assistant for Content Acceleration 
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
 ---
-# SMS generation with the AI Assistant - Content Accelerator {#generative-sms}
+# SMS generation with the AI Assistant Content Accelerator {#generative-sms}
 
 >[!IMPORTANT]
 >
