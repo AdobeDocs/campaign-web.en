@@ -32,7 +32,7 @@ exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 
 >[!INFO]
 >
->Immerse yourself in a hands-on experience with [our interactive demo](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator), designed to let you explore its features firsthand and fully understand its capabilities.
+>Immerse yourself in a hands-on experience with [our live feature preview](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator), designed to let you explore its features firsthand and fully understand its capabilities.
 
 
 As the Marketing industry becomes more competitive, brands are seeking efficient ways to generate impactful content in an efficient and quick manner. AI Assistant in Adobe Campaign Web for Content Acceleration, powered by Microsoft Azure OpenAI and Adobe Firefly, is Adobe's AI content generation capability that revolutionizes the way marketers create professional and brand-consistent content across channels like Email, SMS, Push. With advanced GenAI models and deep understanding of brand guidelines, AI Assistant auto-generates personalized, engaging, and effective content based on the marketing objective with content optimized for brand outlined styles, layouts, tone, and more. 
