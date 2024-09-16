@@ -23,24 +23,26 @@ As a Campaign Standard user, we now offer you a way to migrate to Adobe Campaign
 
 ## Key capabilities {#key-features}
 
-Let's dig deeper in what key capabilities Campaign v8 will offer you:
+As a Campaign v8 user, you have access to both the new Campaign Web interface and the v8 console. Data and settings are synchronized from an environment to another. All your data and settings available in the client console is visible in the Campaign Web user interface, from the Explorer left navigation. [Learn more](../get-started/user-interface.md#user-interface-explorer)
+
+Campaign web user interface is designed for marketers to easily build and orchestrate their campaigns. Let's dig deeper in what key capabilities Campaign v8 web user interface will offer you:
 
 * Modern, friendly, and unified experience. [Learn more](../get-started/connect-to-campaign.md).
 * New powerful capabilities and seamless processes. [Learn more](../get-started/user-interface.md)
 * New simplified and intuitive query modeler. [Learn more](../query/query-modeler-overview.md)
 * Built-in cross-channel campaign management capabilities. [Learn more](../msg/gs-messages.md)
 * New and redesigned campaign workflow activities. [Learn more](../workflows/gs-workflows.md)
-* Target Audience with the query modeler. [Learn more](../query/query-modeler-overview.md)
 * Easy profile creation and management. [Learn more](../audience/about-recipients.md)
 * Predefined Filters. [Learn more](../get-started/predefined-filters.md)
 * HTML Converter for email design. [Learn more](../email/existing-content.md)
 * SMS with offers. [Learn more](../msg/offers.md)
 
-## Console and Web interface {#console}
+Campaign client console is designed for administrators and developers to confgure and customize their environment. Key capabilities available in Campaign client console are detailed in [this documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/whats-new){target="_blank"}.
 
-As a Campaign v8 user, you have access to both the new Campaign Web interface and the v8 console. Data and settings are synchronized from an environment to another. All your data and settings available in the client console is visible in the Campaign Web user interface, from the Explorer left navigation. [Learn more](../get-started/user-interface.md#user-interface-explorer)
-
-Supported and unsupported capabilities and interoperability between Campaign Web user interface and Campaign client console [in this page](../get-started/capability-matrix.md)
+>[!NOTE]
+>
+>Learn more about supported and unsupported capabilities, and interoperability between Campaign Web user interface and Campaign client console [in this page](../get-started/capability-matrix.md)
+>
 
 ## Terminology {#terminology}
 
@@ -56,14 +58,15 @@ Most concepts are similar between Campaign v8 and Campaign Standard. However, th
 <!--
 * Custom resources are **Schemas**
 * Messages are referred as **Deliveries**
-* Product users are **Operators**
 * Roles are configured with **Named Rights**
 * Security Groups are **Operator Groups**
 * Organizational units are managed through **Folder Permissions**
+* Product users are **Operators** in the client console
+* Delivery preparation is the **Delivery analysis** in the client console
 
-## New features {#new-features}
+## Specific features {#new-features}
 
-For you to transition smoothly to Campaign v8, key Campaign Standard capabilities have been added to Campaign v8. They are detailed in [this documentation](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html){target="_blank"}.
+For you to transition smoothly to Campaign v8, key Campaign Standard capabilities have been added to Campaign v8. They are detailed in [this documentation](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html){target="_blank"}, and are only available to users transitioning from Campaign Standard.
 
 * **Dynamic Reporting**: Dynamic Reporting provides fully customizable and real-time reports to measure the impact of your marketing activities. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks. [Learn more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html){target="_blank"}.
 

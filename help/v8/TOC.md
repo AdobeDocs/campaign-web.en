@@ -14,6 +14,8 @@ breadcrumb-title: Campaign Web User Interface
   + [What's new?](rn/whats-new.md)
   + [Early release notes](rn/e-release-notes.md)
   + [Latest release](rn/release-notes.md)
+  + Previous releases {#previous-release-notes}
+      + [2024 releases](rn/release-notes-24.md)
   + [Documentation updates](rn/documentation-updates.md)
 + Get started with Adobe Campaign {#start}
   + [Get started](get-started/get-started.md)
@@ -28,7 +30,8 @@ breadcrumb-title: Campaign Web User Interface
   + [AI-powered contextual help](get-started/-using-ai.md)
 + Messages and deliveries {#msg}
   + [Get started with messages](msg/gs-messages.md)
-  + [Work with deliveries](msg/gs-deliveries.md)
+  + [Access deliveries](msg/gs-deliveries.md)
+  + [Create a delivery](msg/create-deliveries.md)
   + [Use delivery templates](msg/delivery-template.md)
   + Emails {#email}
     + [Create your first email](email/create-email.md)
@@ -56,11 +59,6 @@ breadcrumb-title: Campaign Web User Interface
     + [Create a direct mail delivery](direct-mail/create-direct-mail.md)
     + [Design the extraction file ](direct-mail/content-direct-mail.md)
     + [Preview and send a direct mail delivery ](direct-mail/send-direct-mail.md)
-  + AI Assistant {#ai-assistant}
-    + [Get started with the AI Assistant](email/generative-gs.md)
-    + [Email generation with the AI Assistant](email/generative-content.md)
-    + [SMS generation with the AI Assistant](email/generative-sms.md)
-    + [Push notification generation with the AI Assistant](email/generative-push.md)
   + [Add offers to your messages](msg/offers.md)
   + [Send messages to your subscribers](msg/send-to-subscribers.md)
   + [Configure delivery settings](advanced-settings/delivery-settings.md)
@@ -104,6 +102,11 @@ breadcrumb-title: Campaign Web User Interface
       + [Adjust vertical alignment and padding](email/alignment-and-padding.md)
       + [Define a style for links](email/styling-links.md)
       + [Add inline styling attributes](email/inline-styling.md)
+  + AI Assistant for Content Accelerator {#ai-assistant}
+    + [Work with the AI Assistant Content Accelerator](email/generative-gs.md)
+    + [Email generation with AI](email/generative-content.md)
+    + [SMS generation with AI](email/generative-sms.md)
+    + [Push notification generation with AI](email/generative-push.md)
 + Landing pages {#landing-pages}
   + [Get started with landing pages](landing-pages/get-started-lp.md)
   + [Create and publish a landing page](landing-pages/create-lp.md)

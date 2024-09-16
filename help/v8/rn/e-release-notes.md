@@ -11,37 +11,31 @@ Adobe Campaign Web User interface continuously delivers new features, enhancemen
 
 **Early release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the [release notes](release-notes.md), at the release date.
 
-## July release notes {#24-7-release}
+## August release notes {#24-8-release}
 
-**Release date**: July 30-31, 2024
+**Release date**: Sept 3, 2024
 
-The following features and improvements are available starting July release.
+The following features and improvements are available starting August release.
 
-### Content Fragments {#24-7-1}
+**Distribution of values** - When accessing the list of fields for personalization, you can now check how values are distributed for each field. A dedicated popup window shows the number and percentage for each value.
 
-You can now create and use content fragments. A content fragment is a reusable component that can be referenced in one or more messages. When modifying a fragment, every content using it is updated. This functionality allows to prebuild multiple custom content blocks that can be used by marketing users to quickly assemble message contents in an improved design process.
 
-Two types of fragments are available:
-
-* **Expression fragments** are pre-defined expressions that are available from a dedicated entry in the expression editor.
-* **Visual fragments** are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](../content/fragments.md)
-
-    >[!AVAILABILITY]
-    >
-    >**Visual fragments** are in Limited Availability (LA). This capability is restricted to customers migrating **from Adobe Campaign Standard to Adobe Campaign v8**, and cannot be deployed on any other environment.
-
-### Seed lists {#24-7-2}
-
-A seed list, aka. **Trap group**, is a list of seed addresses. It is used to include specific addresses in your deliveries, and then target profiles who do not match the defined target criteria. This way, recipients who are out of the delivery audience can receive the delivery, as any other target recipient would. You can use seed addresses when sending proofs, or to protect your mailing list.
-
-### Rich push notification templates {#24-7-3}
-
-You can now send rich push notifications. A rich push notification is an enhanced form of mobile notification that goes beyond simple text messages by incorporating multimedia elements such as images, interactive buttons, or other rich media content. With this version, a set of templates for rich push notifications are now available for your iOS and Android apps. 
+### New features in Limited Availability {#acs-24-8}
 
 >[!AVAILABILITY]
 >
->This capability requires an update to Campaign v8.6.3 or v8.7.2. Learn more in [Campaign v8 Client console release notes](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/release-notes)
+>The following capabilities are in Limited Availability (LA). They are restricted to customers migrating **from Adobe Campaign Standard to Adobe Campaign v8**, and cannot be deployed on any other environment.
+>
+>Refer to the following documentation pages: [Campaign Standard transition to Campaign v8](../rn/acs-migration.md) and [Features for Campaign Standard users](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html){target="_blank"}.
 
-### Improvements {#improvements-24-7}
+* **Branding for Direct Mail** - Technical administrators can now define one or several brands to centralize the parameters that affect a brand's identity. This includes the brand logo, the domain of the landing pages' access URL, or message tracking settings. You can now create these brands and link them to messages or landing pages. This configuration is managed in templates.
 
-**Folders management** - You can now manage permissions and restrictions on folders.
+* **Subscriptions with Landing pages** - You can now link a landing page to a service, and send a confirmation message when users validate it.
+
+* **Visual fragments** - You can now archive visual content fragments.
+
+* **Landing pages captcha** - You can now add captcha to protect your landing page from spam and abuse caused by bots. This is non-intrusive for your customers since it does not require any interaction from them and is based on interactions with your site.
+
+* **Rest APIs** --  As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html){target="_blank"}.
+
+

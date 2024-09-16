@@ -24,7 +24,7 @@ exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_additionalinfo"
 >title="Additional information"
->abstract="Additional information"
+>abstract="Specify the data and origin of the subscription for each record. You can leave this section empty, in which case no date or origin will be set when running the workflow. If the inbound data contain a column indicating the subscription date of the profile to the service, you can select it in the **[!UICONTROL Date]** field. In the **[!UICONTROL Origin path]** field, define the origin of the subscription. You can set it to one of the fields of the inbound data or to a constant value of your choice by checking the **[!UICONTROL Set a constant as origin]** option."
 
 The **Subscription services** activity is a **Data Management** activity. It allows you to create or delete a subscription to an information service for the population specified in the transition.
 

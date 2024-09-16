@@ -94,7 +94,7 @@ When the workflow is [associated to a campaign](create-workflow.md), it is displ
     
     * **[!UICONTROL Suspend the process]**: The workflow is automatically paused and its status changes to **[!UICONTROL Failed]**. Once the issue is solved, resume the workflow using the **[!UICONTROL Resume]** buttons.
     * **[!UICONTROL Ignore]**: The status of the task that triggered the error changes to **[!UICONTROL Failed]**, but the workflow keeps the **[!UICONTROL Started]** status. <!-- TO ADD ONCE SCHEUDLER IS AVAILABLE This configuration is relevant for recurring tasks: if the branch includes a scheduler, it will start normally next time the workflow is executed.-->
-    * **[!UICONTROL Abord the process]**: The workflow is automically stopped and its status changes to **[!UICONTROL Failed]**. Once the issue is solved, restart the workflow using the **[!UICONTROL Start]** buttons.
+    * **[!UICONTROL Abort the process]**: The workflow is automatically stopped and its status changes to **[!UICONTROL Failed]**. Once the issue is solved, restart the workflow using the **[!UICONTROL Start]** buttons.
 
 * **[!UICONTROL Consecutive errors]**: This field becomes available when the **[!UICONTROL Ignore]** value is selected in the **[!UICONTROL In case of errors]** field. You can specify the number of errors that can be ignored before the process is stopped. Once this number is reached, the workflow status changes to **[!UICONTROL Failed]**. If the value of this field is 0, the workflow will never be stopped regardless of the number of errors.
 

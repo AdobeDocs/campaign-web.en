@@ -2,11 +2,12 @@
 audience: end-user
 title: Use a trap group
 description: Learn how to use a trap group for your delivery in Campaign Web user interface
+exl-id: 48c34581-8825-4798-b24e-c462303f7645
 ---
 # Use a trap group {#trap-group}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
+>id="acw_homepage_welcome_rn3"
 >title="Trap group"
 >abstract="You can use a trap group to include specific addresses in your deliveries to monitor and verify the distribution process by targeting profiles who do not match the defined target criteria."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"

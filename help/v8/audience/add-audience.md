@@ -42,4 +42,4 @@ To select an existing audience for your message, follow the steps below:
 
    ![](assets/refine-audience.png){zoomable="yes"}
 
-   You can also set a control group to measure the impact of your campaigns. The control group do not receive the message. This allows you to compare the behavior of the population which received the message with the behavior of contacts which did not. [Learn more](control-group.md)
+1. You can also set a control group to measure the impact of your campaigns. The control group do not receive the message. This allows you to compare the behavior of the population which received the message with the behavior of contacts which did not. [Learn more](control-group.md)

@@ -31,36 +31,6 @@ exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
 >title="Transfer file source"
 >abstract="Enter the desired file name."
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_delete_file"
->title="Delete the source files after transfer"
->abstract="Erase the source files after a successfull transfer."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_display_logs"
->title="Display the session logs"
->abstract="Information related to the transfer operation are displayed in the workflow logs."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_list_files"
->title="List all files"
->abstract="This option indexes all the files present on the server in the **vars.filenames** event variable."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_historization"
->title="File historization"
->abstract="File historization"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_process_missing_file"
->title="Process missing files"
->abstract="This option allows you to activate a **No file** outbound transition after the activity."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_process_errors"
->title="Process errors"
->abstract="This option allows you to activate an **Error** outbound transition after the activity."
-
 The **Transfer file** activity is a **Data Management** activity. It allows you to receive or send files, test for file presence, or list files on a server. The protocol used can be either server-to-server protocol or HTTP protocol.
 
 >[!NOTE]
@@ -116,6 +86,11 @@ Follow the steps detailed below to configure the **Transfer file** activity.
 
 ## Historization settings {#historization}
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_historization"
+>title="File historization"
+>abstract="Every time a **[!UICONTROL Transfer file]** activity is executed, it stores the uploaded or downloaded files in a dedicated folder. One folder is created for each Transfer file activity of a workflow. By default, files are saved on the default storage directory of the Adobe Campaign installation folder (`/vars`) before being processed. To use a specific folder, toggle the **[!UICONTROL Use a default storage directory]** option off and enter the path of the directory."
+
 Every time a **[!UICONTROL Transfer file]** activity is executed, it stores the uploaded or downloaded files in a dedicated folder. One folder is created for each Transfer file activity of a workflow. By default, files are saved on the default storage directory of the Adobe Campaign installation folder (`/vars`) before being processed. To use a specific folder, toggle the **[!UICONTROL Use a default storage directory]** option off and enter the path of the directory.
 
 ![](../assets/workflow-transfer-file-historization.png)
@@ -133,6 +108,31 @@ Every time the activity is executed, the folder is checked as follows:
 >If the activity is not executed again, its folder will not be checked nor purged. With this in mind, be cautious when transferring large files.
 
 ## Advanced & error management options {#advanced}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_delete_file"
+>title="Delete the source files after transfer"
+>abstract="Erase the source files after a successfull transfer."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_display_logs"
+>title="Display the session logs"
+>abstract="Information related to the transfer operation are displayed in the workflow logs."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_list_files"
+>title="List all files"
+>abstract="This option indexes all the files present on the server in the **vars.filenames** event variable."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_process_missing_file"
+>title="Process missing files"
+>abstract="This option allows you to activate a **No file** outbound transition after the activity."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_process_errors"
+>title="Process errors"
+>abstract="This option allows you to activate an **Error** outbound transition after the activity."
 
 1. In the **[!UICONTROL Advanced options]**, additional options are available based on the type of activity that you are configuring. Expand the sections below for more information.
 

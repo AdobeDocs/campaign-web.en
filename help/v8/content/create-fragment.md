@@ -2,8 +2,8 @@
 audience: end-user
 title: Create content fragments
 description: Learn how to create content fragments
+exl-id: 8f37e9e6-3085-4a68-9746-8ca34cfa4242
 ---
-
 # Create content fragments {#fragments}
 
 >[!CONTEXTUALHELP]
@@ -133,11 +133,23 @@ To delete a content fragment, follow these steps:
 >
 >When deleting a fragment, deliveries and templates using it are updated: the fragment is removed from the content, but still referenced. To keep the fragment content in those deliveries and templates, you must break inheritance before deleting the fragment, [as detailed in this section](use-visual-fragments.md#break-inheritance).
 
+### Archive a content fragment {#archive}
+
+You can clean the fragments list from the fragments that are no longer relevant to your brand. To do so, click the **[!UICONTROL More actions]** button next to the desired fragment and select **[!UICONTROL Archive]**. The fragment is removed from the fragment list, which prevents users from using it in future emails or templates.
+
+To access archived fragments, use the filtering pane to display them. To unarchive a fragment, click the **[!UICONTROL More actions]** button and select **[!UICONTROL Unarchive]**.
+
+![](assets/fragment-unarchive.png)
+
+>[!NOTE]
+>
+>If you archive a fragment that is used in a content, that content is not affected.
+
 ### Duplicate a content fragment {#duplicate-fragments}
 
 You can easily duplicate a content fragment to create a new one. To duplicate an existing fragment, follow these steps:
 
-1. Browse to the fragment list, and click the **[!UICONTROL More actions]** button next to the fragment to delete. 
+1. Browse to the fragment list, and click the **[!UICONTROL More actions]** button next to the fragment to duplicate. 
 1. Click **Duplicate** and confirm.
 1. Enter the label of the new fragment and save your changes.
 
