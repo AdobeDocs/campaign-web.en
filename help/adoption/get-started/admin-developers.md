@@ -13,7 +13,7 @@ The major change for you is the introduction of the client console, the native a
 
 The Campaign client console centralizes all capabilities and settings. It is stays synchronized with the Campaign Web user interface, ensuring consitency acrouss both environments.
 
-![](_assets/client_console.png){zoomable="yes"}
+![](assets/client_console.png){zoomable="yes"}
 
 [Learn more about the client console user interface of Adobe Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui#ui-access){target="_blank"} .
 

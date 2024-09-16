@@ -5,6 +5,7 @@ title: Adobe Campaign Adoption Guide
 ---
 # Adobe Campaign v8 Adoption Guide {#campaign-adoption}
 
+
 We are excited to announce that Adobe Campaign Standard users are now eligible to transition to Adobe Campaign Managed Cloud Services v8. This transition brings many benefits:
 
 * Robust IT Infrastructure: With Managed Cloud Services v8, clients can leverage a more robust IT infrastructure, ensuring enhanced performance, reliability, and scalability for their campaigns.
@@ -20,14 +21,14 @@ As a Campaign Standard transitioning to Campaign v8, this documentation helps yo
 
 Get a glimpse of the newest enhancements coming with Adobe Campaign v8, and get familiar with the new Campaign Web user interface.
 
-[![image](../v8//assets/do-not-localize/learn-more-button.svg)](get-started/overview.md)
+[![image](../v8/assets/do-not-localize/learn-more-button.svg)](get-started/overview.md)
 
 
 >[!TAB Key differences] 
 
 Most concepts are similar between Adobe Campaign v8 and Adobe Campaign Standard. Few differences are listed in the section below.
 
-[![image](../v8//assets/do-not-localize/learn-more-button.svg)](get-started/overview.md#experiences)
+[![image](../v8/assets/do-not-localize/learn-more-button.svg)](get-started/overview.md#experiences)
 
 >[!TAB Get started as a marketer]
 

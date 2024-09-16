@@ -31,7 +31,7 @@ Key enhancements coming with Adobe Campaign v8 are listed below.
 
   You can [learn more about Adobe Campaign Web User Interface here](../../v8/campaign-web-home.md).
 
-  ![](_assets/home.png){zoomable="yes"}
+  ![](assets/home.png){zoomable="yes"}
 
   All new capabilities and improvements are listed in the [Release Notes](../../v8/rn/release-notes.md). Adobe Campaign Web user interface releases operate on a continuous delivery model which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
@@ -163,13 +163,13 @@ Access to the relevant reference guide for your role to discover the new user ex
 <tr>
   <td>
     <a href="marketers.md">
-      <img alt="Campaign Manager"src="./_assets/digital_marketing.jpeg"/>
+      <img alt="Campaign Manager"src="./assets/digital_marketing.jpeg"/>
     </a>
     <div>
   </td>
   <td>
   <a href="admin-developers.md">
-    <img alt="Administrator or developer" src="./_assets/admin.jpeg"/>
+    <img alt="Administrator or developer" src="./assets/admin.jpeg"/>
     </a>
     <div>
   </td>

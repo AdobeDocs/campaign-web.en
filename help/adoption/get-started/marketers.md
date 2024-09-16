@@ -17,7 +17,7 @@ You can continue to use your existing credentials to log in and connect to your 
 
 The primary difference is in the user interface. Below a comparison of the same workflow in the 2 interfaces:
 
-![](_assets/transition_workflow.png){zoomable="yes"}
+![](assets/transition_workflow.png){zoomable="yes"}
 
 
 >[!NOTE]
@@ -84,7 +84,7 @@ You can manage and create your services such as newsletters, and to check the su
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/work-with-services/manage-services">
-<img alt="Infrequent" src="_assets/lp-list.jpg">
+<img alt="Infrequent" src="assets/lp-list.jpg">
 </a>
 <div>
 <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/work-with-services/manage-services"><strong>Create subscription services</strong></a>
@@ -92,7 +92,7 @@ You can manage and create your services such as newsletters, and to check the su
 <p></td>
 <td>
 <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/work-with-services/manage-subscribers">
-<img alt="Infrequent" src="_assets/workflow-activities.jpeg">
+<img alt="Infrequent" src="assets/workflow-activities.jpeg">
 </a>
 <div>
 <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/work-with-services/manage-subscribers"><strong>Manage subscribers<strong></strong></a>
@@ -100,7 +100,7 @@ You can manage and create your services such as newsletters, and to check the su
 <p></td>
 <td>
 <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/send-to-subscribers">
-<img alt="Validation" src="_assets/workflow-create.jpeg">
+<img alt="Validation" src="assets/workflow-create.jpeg">
 </a>
 <div>
 <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/send-to-subscribers"><strong>Send messages to the subscribers of a service</strong></a>
@@ -123,7 +123,7 @@ You can find below useful links to start with. Changes which can affect your use
 
 Adobe Campaign allows you to orchestrate easily your targeted marketing initiatives, using the built-in campaign management capability. With the ability to define a schedule, you can plan the duration and timing of your campaigns to align with strategic objectives and maximize audience engagement.
 
-![Campaign flow](_assets/campaign-flow.png)
+![Campaign flow](assets/campaign-flow.png)
 
 Follow the documentation below to learn more about campaigns: 
 
@@ -242,7 +242,7 @@ In Campaign v8, the detailed steps for creating, testing, and sending an SMS del
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/sms/create-sms">
-<img alt="Lead" src="_assets/create_sms.png">
+<img alt="Lead" src="assets/create_sms.png">
 </a>
 <div><a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/sms/create-sms"><strong>Create an SMS delivery</strong>
 </div>
@@ -250,7 +250,7 @@ In Campaign v8, the detailed steps for creating, testing, and sending an SMS del
 </td>
 <td>
 <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/sms/content-sms">
-<img alt="Infrequent" src="_assets/design_sms.png">
+<img alt="Infrequent" src="assets/design_sms.png">
 </a>
 <div>
 <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/sms/content-sms"><strong>Design an SMS delivery<strong></strong></a>
@@ -258,7 +258,7 @@ In Campaign v8, the detailed steps for creating, testing, and sending an SMS del
 <p></td>
 <td>
 <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/sms/send-sms">
-<img alt="Validation" src="_assets/send_sms.png">
+<img alt="Validation" src="assets/send_sms.png">
 </a>
 <div>
 <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/sms/send-sms"><strong>Preview and send an SMS delivery</strong></a>
@@ -277,7 +277,7 @@ In Campaign v8, the detailed steps for creating, testing, and sending a push not
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/push/create-push">
-<img alt="Lead" src="_assets/push_create.jpeg">
+<img alt="Lead" src="assets/push_create.jpeg">
 </a>
 <div><a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/push/create-push"><strong>Create a push delivery</strong>
 </div>
@@ -285,7 +285,7 @@ In Campaign v8, the detailed steps for creating, testing, and sending a push not
 </td>
 <td>
 <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/push/content-push">
-<img alt="Infrequent" src="_assets/push_design.jpeg">
+<img alt="Infrequent" src="assets/push_design.jpeg">
 </a>
 <div>
 <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/push/content-push"><strong>Design a push delivery<strong></strong></a>
@@ -293,7 +293,7 @@ In Campaign v8, the detailed steps for creating, testing, and sending a push not
 <p></td>
 <td>
 <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/push/send-push">
-<img alt="Validation" src="_assets/push_send.jpeg">
+<img alt="Validation" src="assets/push_send.jpeg">
 </a>
 <div>
 <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/push/send-push"><strong>Preview and send a push delivery</strong></a>
@@ -334,7 +334,7 @@ Learn more about landing pages in the following sections:
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/create-lp">
-<img alt="Lead" src="_assets/lp-subscription.jpeg">
+<img alt="Lead" src="assets/lp-subscription.jpeg">
 </a>
 <div><a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/create-lp"><strong>Create landing pages</strong>
 </div>
@@ -342,7 +342,7 @@ Learn more about landing pages in the following sections:
 </td>
 <td>
 <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/lp-content">
-<img alt="Validation" src="_assets/lp-design.jpg">
+<img alt="Validation" src="assets/lp-design.jpg">
 </a>
 <div>
 <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/lp-content"><strong>Design landing pages</strong></a>
@@ -351,7 +351,7 @@ Learn more about landing pages in the following sections:
 </td>
 <td>
 <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/lp-templates">
-<img alt="Validation" src="_assets/lp-reporting.jpg">
+<img alt="Validation" src="assets/lp-reporting.jpg">
 </a>
 <div>
 <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/lp-templates"><strong>Work with landing page templates</strong></a>
@@ -380,7 +380,7 @@ Adobe Campaign offers three different reports:
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/campaign-report/campaign-reports">
-<img alt="Validation" src="./_assets/campaign_report.jpeg">
+<img alt="Validation" src="./assets/campaign_report.jpeg">
 </a>
 <div>
 <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/campaign-report/campaign-reports"><strong>Campaign reports</strong></a>
@@ -393,7 +393,7 @@ Adobe Campaign offers three different reports:
 </td>
 <td>
 <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/delivery-report/delivery-reports">
-<img alt="Lead" src="_assets/email_report.jpeg">
+<img alt="Lead" src="assets/email_report.jpeg">
 </a>
 <div><a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/delivery-report/delivery-reports"><strong>Delivery reports</strong>
 </div>
@@ -405,7 +405,7 @@ Adobe Campaign offers three different reports:
 </td>
 <td>
 <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/global-report/global-reports">
-<img alt="Global reports" src="_assets/push_report.jpeg">
+<img alt="Global reports" src="assets/push_report.jpeg">
 </a>
 <div>
 <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/global-report/global-reports"><strong> Global reports</strong></a>
