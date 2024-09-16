@@ -34,6 +34,10 @@ The **Recents** list provides shortcuts to the recently created and modified del
 
 In addition, you can access Adobe Campaign Web key help pages from the **Learning** section of the page.
 
+At the bottom of the page, the **[!UICONTROL More information]** link provides details about your instances versions, both the client console and the Web User Interface, as well as the installed packages. This information is important for troubleshooting.
+
+![](assets/about.png){zoomable="yes"}
+
 ## Left navigation menu {#user-interface-left-nav}
 
 Browse the links on the left to access Adobe Campaign Web capabilities. Several links display lists of objects which can be sorted and filtered. You can also configure columns to display all the information you need. See this [section](#list-screens). Some list screens are read-only. The items displayed in the left navigation menu and in the lists depend on your user permissions. Learn more about permissions in [this section](permissions.md).
