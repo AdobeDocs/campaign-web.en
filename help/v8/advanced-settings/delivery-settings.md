@@ -357,7 +357,7 @@ For example, we have the variable "deliveryType" defined as below.
 
 ![](assets/variables-deliveryType.png){zoomable="yes"}
 
-This variable can be used in the content of the delivery, by using the **[!UICONTROL Add Personalization]** icon and use the expression *<%= variables.deliveryType %>*
+This variable can be used in the content of the delivery, by using the **[!UICONTROL Add Personalization]** icon and the expression *<%= variables.deliveryType %>* for our example.
 
 ![](assets/variables-perso.png){zoomable="yes"}
 
@@ -369,3 +369,14 @@ You can check the use of your variable with **[!UICONTROL Simulate Content]** bu
 
 The variables can also be used for conditional content in your delivery.
 Learn more about [building conditional content](../personalization/conditions.md).
+
+Choose the element where you want to put a conditional content.
+
+![](assets/variables-conditional.png){zoomable="yes"}
+
+To use your variable, configure the condition using the **[!UICONTROL Edit expression]** button, as shown below.
+In this example, this image is displayed when the value of the variable is **'launch'**.
+
+![](assets/variables-condition.png){zoomable="yes"}
+
+You can also create another variant with the value **'reminder'**, for example, where a different image is displayed.
