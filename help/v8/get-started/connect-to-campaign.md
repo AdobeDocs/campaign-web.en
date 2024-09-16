@@ -131,7 +131,7 @@ To change your language:
 <!--
 >[!CAUTION]
 >
->If you plan to use [AI-powered contextual help](using-ai.md) capabilities, you must set your prefered language to English. Other languages are not supported.
+>If you plan to use [AI-powered contextual help](-using-ai.md) capabilities, you must set your prefered language to English. Other languages are not supported.
 >
 -->
 

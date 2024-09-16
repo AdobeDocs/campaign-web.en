@@ -4,13 +4,7 @@ title: Transition from Campaign Standard to Adobe Campaign Web
 description: Discover Campaign Web User Interface
 exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
 ---
-# Campaign Standard transition to Campaign v8 {#welcome}
-
-<!--
-We are thrilled to annonce that you, as a Campaign Standard user, can now benefit from the new version of Adobe Campaign Web User Interface. The migration is seemless and will allow you to use all the intuitive features designed to simplify the creation of personalized cross-channel campaigns. Campaign Web User Interface also brings a connected canvas with Adobe Experience Platform for a unified experience.
--->
-
-Welcome to Adobe Campaign Managed Cloud Services v8!
+# Campaign Standard transition to Campaign v8 {#acs-to-ac}
 
 We are excited to announce that Adobe Campaign Standard users are now eligible to transition to Adobe Campaign Managed Cloud Services v8. This transition brings many benefits:
 
@@ -18,6 +12,12 @@ We are excited to announce that Adobe Campaign Standard users are now eligible t
 * Enhanced Support: Our Managed Cloud Services team is committed to providing top-notch assistance to ensure a smooth transition and ongoing monitoring of your platform. From troubleshooting to proactive maintenance, we've got you covered.
 * Integration with Adobe Experience Platform: Managed Cloud Services v8 seamlessly connects with Adobe Experience Platform, empowering clients to leverage the full potential of their data and deliver personalized, impactful campaigns across channels.
 * Consistent User Interface and Experience: Rest assured, transitioning to Managed Cloud Services v8 won't disrupt your workflow. You'll continue to enjoy the familiar user interface and user experience, ensuring a minimal learning curve for your team.
+
+**As a Campaign Standard user transitioning to Campaign v8, learn how to start [in this document](../../adoption/home.md).**
+
+<!--
+As a Campaign Standard user, we now offer you a way to migrate to Adobe Campaign v8. You will benefit from both the new Campaign Web interface and the v8 console.
+
 
 ## Key capabilities {#key-features}
 
@@ -45,7 +45,7 @@ Campaign client console is designed for administrators and developers to confgur
 ## Terminology {#terminology}
 
 Most concepts are similar between Campaign v8 and Campaign Standard. However, there are a few differences. Here are some examples of terminology differences between Campaign Standard and the Campaign v8:
-
+-->
 <!--
 * Profiles are **Recipients** in the console. [Learn more](../audience/gs-audiences-recipients.md).
 * Test profiles are **Seed addresses**. [Learn more](../preview-test/test-deliveries.md).
@@ -53,7 +53,8 @@ Most concepts are similar between Campaign v8 and Campaign Standard. However, th
 * Audiences are **Lists**. [Learn more](../audience/gs-audiences-recipients.md).
 -->
 
-* Resources and Custom resources are **Schemas** and **Custom schemas**
+<!--
+* Custom resources are **Schemas**
 * Messages are referred as **Deliveries**
 * Roles are configured with **Named Rights**
 * Security Groups are **Operator Groups**
