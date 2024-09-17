@@ -11,7 +11,7 @@ This page gives an overview of the key administrative and data management functi
 
 The major change for you is the introduction of the client console, the native application which communicates with the Adobe Campaign application server. 
 
-The Campaign client console centralizes all capabilities and settings. It is stays synchronized with the Campaign Web user interface, ensuring consitency acrouss both environments.
+The Campaign client console centralizes all capabilities and settings. It is synchronized with the Campaign Web user interface, ensuring consistency accross both environments.
 
 ![](assets/client_console.png){zoomable="yes"}
 
