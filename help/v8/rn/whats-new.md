@@ -108,9 +108,7 @@ You can now **import and convert any HTML content** in Campaign's email editor. 
 
 **SMS with offers**
 
-The new Campaign Web user interface enables you to **integrate offers with SMS** in addition to Email. Reach your audience on their mobile devices, delivering promotions, and timely notifications. Elevate your marketing efforts by harnessing the power of integrated offers through SMS on our advanced web platform.
-   
-Learn more in [this section](../msg/offers.md).
+The new Campaign Web user interface enables you to **integrate offers with SMS** in addition to Email. Reach your audience on their mobile devices, delivering promotions, and timely notifications. Elevate your marketing efforts by harnessing the power of integrated offers through SMS on our advanced web platform. Learn more in [this section](../msg/offers.md).
 
 ## Transition to Campaign Web user interface
 
