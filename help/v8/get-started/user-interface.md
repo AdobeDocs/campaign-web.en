@@ -34,7 +34,7 @@ The **Recents** list provides shortcuts to the recently created and modified del
 
 In addition, you can access Adobe Campaign Web key help pages from the **Learning** section of the page.
 
-At the bottom of the page, the **[!UICONTROL More information]** link provides details about your instances versions, both the client console and the Web User Interface, as well as the installed packages. This information is important for troubleshooting.
+At the bottom of the page, the **[!UICONTROL About]** link provides details about your instances versions, both the client console and the Web User Interface, as well as the installed packages. This information is important for troubleshooting.
 
 ![](assets/about.png){zoomable="yes"}
 
