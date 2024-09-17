@@ -86,15 +86,13 @@ You can use the new Campaign Web user interface to **create and update recipient
     With our AEM integration extended to web UI, you can easily manage assets and synchronize full HTML templates, empowering you to create captivating digital experiences without any hassle. 
     
     Elevate and streamline your content management capabilities on the web UI with this integration to boost productivity.
--->
-<!--
+
 * **Gen AI for Email content**
 
     Say goodbye to manual content creation and hello to efficient, data-driven campaigns with the power of Gen AI.  Our Gen AI technology utilizes advanced algorithms to **generate highly engaging and personalized content**. Drive higher open rates, click-through rates, and conversions with Gen AI's intelligent content generation. Stay ahead of the competition and elevate your email marketing game with Gen AI on email content.
 
     Learn more in [this section](../email/generative-gs.md).
--->
-<!--
+
 **AI-powered Contextual Help**
 
 Ask questions and find guidance directly from the product user interface. The new **AI-powered Contextual Help** helps you learn and grow your expertise on new Campaign features. Based on the latest product documentation, it assists you to find help and get step-by-step guidance instantly, as you are building your use cases. This feature is currently available in Beta, for a limited set of users. Learn more in [this section](../get-started/-using-ai.md).-->

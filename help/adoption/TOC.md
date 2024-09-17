@@ -2,7 +2,8 @@
 audience: end-user
 user-guide-title: Campaign Adoption Guide
 title: Adobe Campaign Adoption Guide
-description: Campaign Standard users transitioning to Campaign v8, learn how to get started.
+user-guide-description: Campaign Standard users transitioning to Campaign v8, learn how to get started.
+description: Campaign Standard users, learn how to get started with Campaign v8.
 breadcrumb-title: Campaign Adoption Guide
 ---
 
