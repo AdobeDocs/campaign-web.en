@@ -101,7 +101,7 @@ To create a transactional message, follow the steps below :
     * [The message content](#transactional-content)
     and [configure the event-type](#event-type) as detailed below.
 
-* After [validating your transactional message](#validate-transactional.md), click on **[!UICONTROL Review and publish]** button to create and publish your message.
+* After [validating your transactional message](validate-transactional.md), click on **[!UICONTROL Review and publish]** button to create and publish your message.
     The triggers can now push the sending of your transactional message.
 
 ### About the event-type {#event-type}

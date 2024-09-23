@@ -5,13 +5,18 @@ description: About transactional messaging with Adobe Campaign Web
 ---
 # About Transactional messaging {#transactional-messaging}
 
-Transactional messaging (Message Center) is a Campaig
+Transactional messaging is a specialized module in Adobe Campaign designed to handle triggered messages. These messages are generated automatically in response to events coming from information systems. Common examples of such events include clicking on buttons or links, cart abandonment, requesting product availability alerts, account creation or modification, etc.
 
+Transactional messages are used to send : 
 
-What is transactional messages
+* Important notifications, such as order confirmations or password resets
+* Real-time responses to customer actions (e.g., account creation, purchase completion)
+* Non-promotional content that is critical for customer interactions
 
+Transactional Messaging module integrates seamlessly with your information systems. The events, such as customer actions, are pushed to Adobe Campaign that sends the corresponding personalized message. These messages can be sent individually or in batches via various channels as email, SMS or push notifications.
 
-# How transactional messages work?
+Learn in this documentation how to : 
 
-
-# The transactional messages settings (ou une autre page?)
+* [Create transactional messages](create-transactional.md) with the help of a template and learn the settings needed
+* [Validate the content of your transactional messages](validate-transactional.md) and simulate a personalization
+* [Monitor your transactional messages](monitor-transactional.md)
