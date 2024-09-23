@@ -129,6 +129,30 @@ The example below shows a workflow configured to create a link between the Adobe
 
 ![](../assets/enrichment-reconciliation.png)
 
+## Add offers {#add-offers}
+
+The **[!UICONTROL Enrichment]** activity allows you to add offers for each profile.
+
+To do so, follow the steps to configure an **[!UICONTROL Enrichment]** activity with an offer: 
+
+1. In the **[!UICONTROL Enrichment]** activity, at the **[!UICONTROL Offer proposition]** section, click on the **[!UICONTROL Add offer]** button
+
+    ![](../assets/enrichment-addoffer.png)
+
+1. You have two choices for the offer selection :
+
+    * **[!UICONTROL Search for the best offer in category]** : check this option and specify the offer engine call parameters (offer space, category or theme(s), contact date, number of offers to keep). The engine will automatically calculate the offer(s) to add according to these parameters. We recommend completing either the Category or the Theme field, rather than both at the same time.
+
+        ![](../assets/enrichment-bestoffer.png)
+
+    * **[!UICONTROL A predefined offer]** : check this option and specify an offer space, a specific offer, and a contact date to directly configure the offer that you would like to add, without calling the offer engine.
+
+        ![](../assets/enrichment-predefinedoffer.png)
+
+1. After selecting your offer, click on **[!UICONTROL Confirm]** button.
+
+You can now use the offer in the delivery activity.
+
 ## Examples {#example}
 
 ### Single enrichment attribute {#single-attribute}
