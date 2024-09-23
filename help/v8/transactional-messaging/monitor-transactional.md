@@ -28,6 +28,7 @@ You can see them with the event type name.
 ![](assets/event-history.png){zoomable="yes"}
 
 You have more details as below by clicking on the **[!UICONTROL Event]** ID :
+
 * The contact information
 * All about the processus dates
 
