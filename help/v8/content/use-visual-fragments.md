@@ -62,7 +62,7 @@ To insert a visual fragment in an email content, follow the steps below:
 
 1. Add as many visual fragments as you want and **[!UICONTROL Save]** your changes.
 
-### Visual fragmnet in read-only mode {#fragment-readonly}
+### Visual fragment in read-only mode {#fragment-readonly}
 
 Access rights may be applied to visual fragments.
 
