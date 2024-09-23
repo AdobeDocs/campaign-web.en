@@ -62,6 +62,18 @@ To insert a visual fragment in an email content, follow the steps below:
 
 1. Add as many visual fragments as you want and **[!UICONTROL Save]** your changes.
 
+### Visual fragmnet in read-only mode {#fragment-readonly}
+
+Access rights may be applied to visual fragments.
+
+If you do not have editing permissions for a particular visual fragment, the content template is displayed in **read-only mode**. In this case, the **[!UICONTROL Edit Content]** button is replaced with the  **[!UICONTROL View Content]** button, allowing you to view the fragment without making any changes .
+
+![](assets/fragment-readonly.png){zoomable="yes"}
+
+As shown below, all features icons are deactivated, limiting interaction to viewing only.
+
+![](assets/fragment-readonly-view.png){zoomable="yes"}
+
 ## Break inheritance {#break-inheritance}
 
 When you edit a visual fragment, the changes are synchronized. They are automatically propagated to all email deliveries and content templates containing that fragment.
