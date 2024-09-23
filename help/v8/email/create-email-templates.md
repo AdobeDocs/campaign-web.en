@@ -45,7 +45,7 @@ From the list, you can edit, duplicate, or delete existing content templates. Us
 
 Access rights may be applied to content templates.
 
-If you do not have editing permissions for a particular content template, the content template is disyplayed in **read-only mode**. In this case, the **[!UICONTROL Edit Content]** button is replaced with the  **[!UICONTROL View Content]** button, allowing you to view the template without making any changes .
+If you do not have editing permissions for a particular content template, the content template is displayed in **read-only mode**. In this case, the **[!UICONTROL Edit Content]** button is replaced with the  **[!UICONTROL View Content]** button, allowing you to view the template without making any changes .
 
 ![](assets/template-readonly.png){zoomable="yes"}
 
