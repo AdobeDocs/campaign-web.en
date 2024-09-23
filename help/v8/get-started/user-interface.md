@@ -405,4 +405,59 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="About packages"
 >abstract="About packages"
 
+<!--Schema-->
 
+>[!CONTEXTUALHELP]
+>id="acw_schema"
+>title="Schema"
+>abstract="Schema"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_type"
+>title="Schema Types"
+>abstract="Schema Types"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_properties"
+>title="Schema properties"
+>abstract="Schema"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_existing"
+>title="Select existing schema"
+>abstract="Schema"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_external"
+>title="Select external database"
+>abstract="Schema"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_add_tables"
+>title="Add tables"
+>abstract="Schema"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_logs_tasks"
+>title="Workflow logs and tasks"
+>abstract="Schema"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_update"
+>title="Update database"
+>abstract="Schema"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_update_script"
+>title="Update script"
+>abstract="Schema"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_start_update"
+>title="Start database update"
+>abstract="Schema"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_add_tables"
+>title="Add tables"
+>abstract="Schema"
