@@ -61,7 +61,7 @@ If you want to create a folder with no specific type, choose **[!UICONTROL Gener
 
 You can also [create and manage folders in Adobe Campaign console](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/folders-and-views).
 
-## Reorder folders {#reorder-forlders}
+## Reorder folders {#reorder-folders}
 
 You can reorder the folders according to your needs. To do so, click on the  **[!UICONTROL Reorder folders]** as shown below.
 
