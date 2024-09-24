@@ -43,7 +43,7 @@ The **Instance** section provides key information about your console client,incl
 * The **version** refers to the official release you are using
 * The **build** refers to a specific iteration of that version
 
-Both version and build numbers are crucial for troubleshooting, as they help determine exactly what features, fixes, or issues are present in your environment.
+Both version and build numbers are crucial for troubleshooting, as they help determine exactly what features and fixes are present in your environment.
 
 The **Web** section displays the version of your Campaign Web User Interface, with the last update date of it, if available. This helps track changes or improvements made to the Campaign Web User Interface.
 
