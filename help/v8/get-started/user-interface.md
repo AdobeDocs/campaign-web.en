@@ -34,7 +34,20 @@ The **Recents** list provides shortcuts to the recently created and modified del
 
 In addition, you can access Adobe Campaign Web key help pages from the **Learning** section of the page.
 
-At the bottom of the page, the **[!UICONTROL About]** link provides details about your instances versions, both the client console and the Web User Interface, as well as the installed packages. This information is important for troubleshooting.
+### About link
+
+At the bottom of the page, the **[!UICONTROL About]** link provides details about your Adobe Campaign instance.  
+
+The **Instance** section provides key information about your console client,including both the **version** and the associated **build** number. 
+
+* The **version** refers to the official release you are using
+* The **build** refers to a specific iteration of that version
+
+Both version and build numbers are crucial for troubleshooting, as they help determine exactly what features, fixes, or issues are present in your environment.
+
+The **Web** section displays the version of your Campaign Web User Interface, with the last update date of it, if available. This helps track changes or improvements made to the Campaign Web User Interface.
+
+The **Installed packages** section lists all the modules, features and integrations present in your instance. These packages extend Adobe Campaign's functionality, allowing it to perform specialized tasks such as integrating with other Adobe solutions or enabling specific workflows. Given the large number of packages, you can do a research within this section to quickly check if a particular module is installed in your instance.
 
 ![](assets/about.png){zoomable="yes"}
 
