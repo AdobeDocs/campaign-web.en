@@ -33,7 +33,7 @@ In the [simulation content window](#simulate-content), click on the **[!UICONTRO
 
 ![](assets/transactional-proof.png){zoomable="yes"}
 
-In the new window that appears, enter the email address (or phone number, depending on the channel) where you would like to receive the proof. Once you have input the desired address, click on **[!UICONTROL Send proof]** button. This action allows you to send a sample of your transactional message, ensuring that all personalizations, dynamic content, and formatting appear correctly as they would for your end users.
+In the new window that appears, enter the email address (or phone number, depending on the channel) where you would like to receive the proof. Once you have input the desired address, click on **[!UICONTROL Send proof]** and on **[!UICONTROL Confirm]** buttons. This action allows you to send a sample of your transactional message, ensuring that all personalizations, dynamic content, and formatting appear correctly as they would for your end users.
 
 ![](assets/transactional-sendproof.png){zoomable="yes"}
 

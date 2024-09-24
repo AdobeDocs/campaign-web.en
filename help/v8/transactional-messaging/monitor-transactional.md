@@ -5,16 +5,27 @@ description: Learn how to monitor a transactional message in Campaign Web User I
 ---
 # Monitor transactional messages
 
-After the publishing and the sending of your transactional message, you can have a reporting about it.
+After the publishing and the sending of your transactional message, you can have reporting and logs about it.
+
+## Transactional message logs {#transactional-logs}
+
+After your message has been published, you can review its execution by clicking on the **[!UICONTROL Logs]** button.
+
+![](assets/transactional-logs.png){zoomable="yes"}
+
+This gives you access to detailed logs about the message's execution in **[!UICONTROL logs]** tab. You can also have information on why certain profiles were excluded from the send, in **[!UICONTROL Exclusions causes]** tab. Additionally, you can view the list of **[!UICONTROL Proofs]** sent along with their current statuses, in the corresponding tab.
+
+![](assets/transactional-logslist.png){zoomable="yes"}
+
 
 ## Transactional messages history {#transactional-history}
 
-In the **[!UICONTROL Triggered messages]** section, go to **[!UICONTROL Transactional messages]**. In the **[!UICONTROL History]** tab, you can see the transactional messages sent.
+In the **[!UICONTROL Triggered messages]** section, you can view details about all the transactional messages that have been sent. To access this, navigate to **[!UICONTROL Transactional messages]**. In the **[!UICONTROL History]** tab, you can see the list of sent transactional messages along with their status and additional information.
 
 ![](assets/transactional-history.png){zoomable="yes"}
 
 Do a research there to find your message and click on it.
-You will have the details about it
+You can view the details there.
 
 ![](assets/transactional-reporting.png){zoomable="yes"}
 
