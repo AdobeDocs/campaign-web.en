@@ -111,3 +111,13 @@ The configuration of the event-type links the message to the trigger event.
 In Campaign Web User Interface, you can select and event-type already created or create directly your event-type in this configuration page.
 
 ![](assets/transactional-event-type.png){zoomable="yes"}
+
+## Add offers to your transactional messages {#transactional-offers}
+
+You have the option to include offers in your transactional messages, allowing you to present relevant proposals to your end users, even when the message is event-triggered.
+
+This feature is accessible during the content editing phase of your transactional message. Simply click on **[!UICONTROL Set up offers]** button to configure it.
+
+The setup process is identical to configuring offers for standards deliveries. [Learn how to add offers to your message](../msg/offers.md).
+
+![](assets/transactional-offers.png){zoomable="yes"}
