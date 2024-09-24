@@ -36,18 +36,40 @@ In addition, you can access Adobe Campaign Web key help pages from the **Learnin
 
 ### About link
 
-At the bottom of the page, the **[!UICONTROL About]** link provides details about your Adobe Campaign instance.  
+>[!CONTEXTUALHELP]
+>id="acw_about"
+>title="About page"
+>abstract="The About page provides details about your Adobe Campaign instance"
 
-The **Instance** section provides key information about your console client,including both the **version** and the associated **build** number. 
+>[!CONTEXTUALHELP]
+>id="acw_about_instance"
+>title="About Instance"
+>abstract="The Instance section provides key information about your console client, including both the version and the associated build number"
 
-* The **version** refers to the official release you are using
-* The **build** refers to a specific iteration of that version
+>[!CONTEXTUALHELP]
+>id="acw_about_web"
+>title="About Web"
+>abstract="The Web section displays the version of your Campaign Web user interface, with the last update date of it, if available."
+
+>[!CONTEXTUALHELP]
+>id="acw_about_packages"
+>title="About Installed Packages"
+>abstract="The Installed packages section lists all the modules, features and integrations present on your instance."
+
+At the bottom of the page, the **[!UICONTROL About]** link provides details about your Adobe Campaign instance. those information are in read-only mode.
+
+![](assets/about-link.png){zoomable="yes"}
+
+The **Instance** section provides key information about your console client, including both the **version** and the associated **build** number. 
+
+* The **version** refers to the official release version you are using,
+* The **build** refers to a specific iteration of that version.
 
 Both version and build numbers are crucial for troubleshooting, as they help determine exactly what features and fixes are present in your environment.
 
-The **Web** section displays the version of your Campaign Web User Interface, with the last update date of it, if available. This helps track changes or improvements made to the Campaign Web User Interface.
+The **Web** section displays the version of your Campaign Web user interface, with the last update date of it, if available. This helps track changes or improvements made to the Campaign Web user interface.
 
-The **Installed packages** section lists all the modules, features and integrations present in your instance. These packages extend Adobe Campaign's functionality, allowing it to perform specialized tasks such as integrating with other Adobe solutions or enabling specific workflows. Given the large number of packages, you can do a research within this section to quickly check if a particular module is installed in your instance.
+The **Installed packages** section lists all the modules, features and integrations present on your instance. These packages extend Adobe Campaign's functionality, allowing it to perform specialized tasks such as integrating with other Adobe solutions or enabling specific workflows. Given the large number of packages, you can do a research within this section to quickly check if a particular module is installed on your instance.
 
 ![](assets/about.png){zoomable="yes"}
 
