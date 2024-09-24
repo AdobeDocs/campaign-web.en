@@ -16,7 +16,7 @@ The lists are displayed in columns. You can display additional information by ch
 
 In the **Configure columns** screen, add or remove columns, and change the order in which they are displayed.
 
-You can change the order of your list either by **drag and drop**, or by using **up and down arrows** as shown below :
+You can change the order of your list either by **drag and drop**, or by using **up and down arrows** as shown below:
 
 ![](assets/list-reorder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
