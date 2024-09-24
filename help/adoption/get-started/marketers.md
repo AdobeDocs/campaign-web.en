@@ -312,6 +312,8 @@ In Campaign v8, the detailed steps for creating, testing, and sending a push not
 
 Direct mail is an offline channel that allows you to produce files to mass deliver personalized letters to your customers such as postcards, flyers, or catalogs. When creating a direct mail delivery, Adobe Campaign automatically generates an extraction file containing all the targeted profiles and selected data, such as postal addresses and profile attributes.
 
+>[!VIDEO](https://video.tv.adobe.com/v/3433316/?learn=on)
+
 In Campaign v8, the detailed steps for creating, testing, and sending a direct mail delivery are similar to Campaign Standard.
 
 
