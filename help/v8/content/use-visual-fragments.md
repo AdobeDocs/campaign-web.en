@@ -66,7 +66,7 @@ To insert a visual fragment in an email content, follow the steps below:
 
 Access rights may be applied to visual fragments.
 
-If you do not have editing permissions for a particular visual fragment, the content template is displayed in **read-only mode**. In this case, the **[!UICONTROL Edit Content]** button is replaced with the  **[!UICONTROL View Content]** button, allowing you to view the fragment without making any changes .
+If you do not have editing permissions for a particular visual fragment, the content template is displayed in **read-only mode**. In this case, the **[!UICONTROL Edit content]** button is replaced with the  **[!UICONTROL View content]** button, allowing you to view the fragment without making any changes.
 
 ![](assets/fragment-readonly.png){zoomable="yes"}
 
