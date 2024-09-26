@@ -9,7 +9,7 @@ During or after creating your transactional message, you may want to validate th
 
 ## Simulate content {#simulate-content}
 
-Follow these steps to simulate the content of your message : 
+Follow these steps to simulate the content of your message: 
 
 * Ensure that the personalization path in your message content matches your context sample. In the example below, to display the first name of the test profile, we use the path *rtEvent.ctx.basicDetails.firstName* 
 
@@ -27,7 +27,7 @@ Follow these steps to simulate the content of your message :
 
 ## Send proof
 
-If you want to test and experience the transactional message as it would be delivered through you chosen channel (such as email, SMS or push notification), you can use the prrf feature.
+If you want to test and experience the transactional message as it would be delivered through you chosen channel (such as email, SMS or push notification), you can use the proof feature.
 
 In the [simulation content window](#simulate-content), click on the **[!UICONTROL Send proof]** button.
 

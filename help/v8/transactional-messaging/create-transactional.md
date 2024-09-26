@@ -10,9 +10,9 @@ To enable this, you need to create a message template for each event type. These
 
 ## Create a transactional message template {#transactional-template}
 
-In Campaign Web User Interface, the first step in transactional messaging configuration is the creation of the template or the direct creation of the message. This differs with the configuration on client console. Learn more here.
+In Campaign Web User Interface, the first step in transactional messaging configuration is the creation of the template or the direct creation of the message. This differs with [the configuration of transactional messages on client console](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional).
 
-A transactional message template can be used to preview the delivery content received by the profile and send proofs before delivering it to the final audience.
+A transactional message template can be used to preview the delivery content received by the profile before it reaches the final audience. For instance, an administrator can set up and configure the templates, making them ready for use by marketing users.
 
 To create a transactional message template, follow the steps below : 
 
@@ -32,11 +32,11 @@ To create a transactional message template, follow the steps below :
 
 ### Transactional message properties {#transactional-properties}
 
-The **[!UICONTROL Properties]** section of a transactional message will help you to set up : 
+The **[!UICONTROL Properties]** section of a transactional message will help you to set up: 
 
 * The **[!UICONTROL Label]** : it is the name who is displayed in the transactional message list. Make it clear for research and future use.
 * The **[!UICONTROL Internal name]** : it is a unique name that differentiates your message from the others messages created. 
-* The **[!UICONTROL Folder]** : the folder where the message is created.
+* The **[!UICONTROL Folder]** : the folder where the transactional message template is created.
 * The **[!UICONTROL Execution folder]** : the folder where the message belongs after execution.
 * The **[!UICONTROL Delivery code]** : a code that helps to recognize the message for reporting, if needed.
 * The **[!UICONTROL Description]** : a short description about the transactional message.
@@ -46,7 +46,9 @@ The **[!UICONTROL Properties]** section of a transactional message will help you
 
 ### Context sample {#context-sample}
 
-The context sample allows you to create a test event to preview the transactional message received with the profile personalization.
+The context sample allows you to create a test event to preview the transactional message received with the profile personalization. 
+
+This step is optional. You can use the template without the context sample, but the drawback is that you cannot preview the personalized content.
 
 In our example of setting the password, the event will send the user's first name,  last name, and a personalized link to reset his password. The context can be configured as shown below.
 
@@ -54,7 +56,7 @@ The content of the context depends on the personalization you need.
 
 ![](assets/transactional-context.png){zoomable="yes"}
 
-### Transactional message content {#transactional-content}
+### Transactional message template content {#transactional-content}
 
 Working on the content of a transactional message is like the content creation of a delivery. Click on **[!UICONTROL Open email designer]** or **[!UICONTROL Edit email body]** and select a template content or import you HTML code.
 
@@ -74,6 +76,14 @@ You can see in the image below how to add the personnalization of the first name
 In our example, we add the first name, then, the last name, and we personalize the **[!UICONTROL Reset your password]** button link.
 
 ![](assets/template-button.png){zoomable="yes"}
+
+### Preview your template
+
+At this stage of the template creation, you may want to preview the template content, and check the personalization.
+
+To do so, fill in the [context sample](#context-sample), and click on **[!UICONTROL Simulate content]** button.
+
+![](assets/template-preview.png){zoomable="yes"}
 
 ## Create a transactional message {#transactional-message}
 
@@ -111,6 +121,10 @@ The configuration of the event-type links the message to the trigger event.
 In Campaign Web User Interface, you can select and event-type already created or create directly your event-type in this configuration page.
 
 ![](assets/transactional-event-type.png){zoomable="yes"}
+
+>[!CAUTION]
+>
+>If you select an event type that is currently being used by another transactional message, it will trigger the two messages. For best practices, **we highly recommend linking ONE event type to only ONE transactional message.**
 
 ## Add offers to your transactional messages {#transactional-offers}
 

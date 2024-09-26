@@ -13,14 +13,15 @@ After your message has been published, you can review its execution by clicking 
 
 ![](assets/transactional-logs.png){zoomable="yes"}
 
-This gives you access to detailed logs about the message's execution in **[!UICONTROL logs]** tab. You can also have information on why certain profiles were excluded from the send, in **[!UICONTROL Exclusions causes]** tab. Additionally, you can view the list of **[!UICONTROL Proofs]** sent along with their current statuses, in the corresponding tab.
+This gives you access to detailed logs about the message's publication in **[!UICONTROL logs]** tab. 
 
 ![](assets/transactional-logslist.png){zoomable="yes"}
 
+Additionally, you can view the list of **[!UICONTROL Proofs]** sent along with their logs, in the corresponding tab.
 
 ## Transactional messages history {#transactional-history}
 
-In the **[!UICONTROL Triggered messages]** section, you can view details about all the transactional messages that have been sent. To access this, navigate to **[!UICONTROL Transactional messages]**. In the **[!UICONTROL History]** tab, you can see the list of sent transactional messages along with their status and additional information.
+In the **[!UICONTROL Triggered messages]** section, you can view details about all the transactional messages that have been executed. To access this, navigate to **[!UICONTROL Transactional messages]**. In the **[!UICONTROL History]** tab, you can see the list of executed transactional messages along with their status and additional information.
 
 ![](assets/transactional-history.png){zoomable="yes"}
 
