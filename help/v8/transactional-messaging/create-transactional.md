@@ -14,7 +14,7 @@ In Campaign Web User Interface, the first step in transactional messaging config
 
 A transactional message template can be used to preview the delivery content received by the profile before it reaches the final audience. For instance, an administrator can set up and configure the templates, making them ready for use by marketing users.
 
-To create a transactional message template, follow the steps below : 
+To create a transactional message template, follow the steps below: 
 
 * In the **[!UICONTROL Triggered messages]** section, go to **[!UICONTROL Transactional messages]**. In the **[!UICONTROL Templates]** tab, you can see all the delivery templates for transactional messages. Click on the **[!UICONTROL Create transactional message template]** button to begin the creation of your template.
 
@@ -26,7 +26,7 @@ To create a transactional message template, follow the steps below :
 
     Click again on the **[!UICONTROL Create transactional message]** button to validate the creation of your template on the channel selected.
 
-* You now have access to the configuration of your transactional messages template
+* You now have access to the configuration of your transactional messages template.
 
     ![](assets/transactional-template-configuration.png){zoomable="yes"}
 
@@ -34,13 +34,13 @@ To create a transactional message template, follow the steps below :
 
 The **[!UICONTROL Properties]** section of a transactional message will help you to set up: 
 
-* The **[!UICONTROL Label]** : it is the name who is displayed in the transactional message list. Make it clear for research and future use.
-* The **[!UICONTROL Internal name]** : it is a unique name that differentiates your message from the others messages created. 
-* The **[!UICONTROL Folder]** : the folder where the transactional message template is created.
-* The **[!UICONTROL Execution folder]** : the folder where the message belongs after execution.
-* The **[!UICONTROL Delivery code]** : a code that helps to recognize the message for reporting, if needed.
-* The **[!UICONTROL Description]** : a short description about the transactional message.
-* The **[!UICONTROL Nature]** : the nature of your delivery, as listed in the enumeration *deliveryNature*
+* The **[!UICONTROL Label]**: it is the name who is displayed in the transactional message list. Make it clear for research and future use.
+* The **[!UICONTROL Internal name]**: it is a unique name that differentiates your message from the others messages created. 
+* The **[!UICONTROL Folder]**: the folder where the transactional message template is created.
+* The **[!UICONTROL Execution folder]**: the folder where the message belongs after execution.
+* The **[!UICONTROL Delivery code]**: a code that helps to recognize the message for reporting, if needed.
+* The **[!UICONTROL Description]**: a short description about the transactional message.
+* The **[!UICONTROL Nature]**: the nature of your delivery, as listed in the enumeration *deliveryNature*
 
 ![](assets/template-properties.png){zoomable="yes"}
 
@@ -89,7 +89,7 @@ To do so, fill in the [context sample](#context-sample), and click on **[!UICONT
 
 You can create a transactional message directly or by using a transactional message template. [Learn how to create a transactional message template](#transactional-template). 
 
-To create a transactional message, follow the steps below : 
+To create a transactional message, follow the steps below: 
 
 * In the **[!UICONTROL Triggered messages]** section, go to **[!UICONTROL Transactional messages]**. In the **[!UICONTROL Browse]** tab, you can see all the transactional messages created. Click on the **[!UICONTROL Create transactional message]** button to begin the creation of your message.
 
@@ -105,7 +105,7 @@ To create a transactional message, follow the steps below :
 
     ![](assets/transactional-configuration.png){zoomable="yes"}
 
-    Fill in the configuration of your message as for a template : 
+    Fill in the configuration of your message as for a template: 
     * [The transactional message properties](#transactional-properties)
     * [The context sample](#context-sample)
     * [The message content](#transactional-content)
