@@ -40,7 +40,7 @@ The **[!UICONTROL Properties]** section of a transactional message will help you
 * The **[!UICONTROL Execution folder]** is where the message is stored after execution.
 * The **[!UICONTROL Delivery code]**: a code that helps to recognize the message for reporting, if needed.
 * The **[!UICONTROL Description]**
-* The **[!UICONTROL Nature]** is the nature of your delivery, as listed in the enumeration *deliveryNature*
+* The **[!UICONTROL Nature]** is the nature of your delivery, as listed in the enumeration *deliveryNature*. [Learn more on enumerations](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings#enumerations)
 
 ![](assets/template-properties.png){zoomable="yes"}
 
