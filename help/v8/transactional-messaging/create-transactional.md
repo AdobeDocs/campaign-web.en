@@ -34,13 +34,13 @@ To create a transactional message template, follow the steps below:
 
 The **[!UICONTROL Properties]** section of a transactional message will help you to set up: 
 
-* The **[!UICONTROL Label]**: it is the name who is displayed in the transactional message list. Make it clear for research and future use.
-* The **[!UICONTROL Internal name]**: it is a unique name that differentiates your message from the others messages created. 
-* The **[!UICONTROL Folder]**: the folder where the transactional message template is created.
-* The **[!UICONTROL Execution folder]**: the folder where the message belongs after execution.
+* The **[!UICONTROL Label]** is the name which is displayed in the transactional message list. Make it clear for research and future use.
+* The **[!UICONTROL Internal name]** is a unique name that differentiates your message from the others messages created. 
+* The **[!UICONTROL Folder]** is where the transactional message template is created.
+* The **[!UICONTROL Execution folder]** is where the message is stored after execution.
 * The **[!UICONTROL Delivery code]**: a code that helps to recognize the message for reporting, if needed.
-* The **[!UICONTROL Description]**: a short description about the transactional message.
-* The **[!UICONTROL Nature]**: the nature of your delivery, as listed in the enumeration *deliveryNature*
+* The **[!UICONTROL Description]**
+* The **[!UICONTROL Nature]** is the nature of your delivery, as listed in the enumeration *deliveryNature*
 
 ![](assets/template-properties.png){zoomable="yes"}
 
