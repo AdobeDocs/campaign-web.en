@@ -110,3 +110,20 @@ In this example, we want to create an email message with multiple variants based
 
     >[!NOTE]
     >If none of the rules defined in the variants are met when sending the message, the content component will display the content defined in the **[!UICONTROL Default variant]** from the **[!UICONTROL Conditional Content]** pane.
+
+## Use variables for conditional content {#variables-conditional}
+
+The variables can be used for conditional content in your delivery.
+
+Learn more about [adding variables to a delivery](../advanced-settings/delivery-settings.md#variables-delivery). 
+
+Choose the element where you want to put a conditional content.
+
+![](assets/variables-conditional.png){zoomable="yes"}
+
+To use your variable, configure the condition using the **[!UICONTROL Edit expression]** button, as shown below.
+In this example, this image is displayed when the value of the variable is `launch`.
+
+![](assets/variables-condition.png){zoomable="yes"}
+
+You can also create another variant with the value `reminder`, for example, where a different image is displayed.
