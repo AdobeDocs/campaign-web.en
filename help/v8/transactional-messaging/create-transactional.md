@@ -35,22 +35,22 @@ To create a transactional message template, follow the steps below:
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_properties"
 >title="Transactional messaging properties"
->abstract="Learn how to configure the transactional messaging properties"
+>abstract="Fill in this form to configure the transactional messaging properties"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_email_properties"
 >title="Transactional messaging Email properties"
->abstract="Learn how to configure the transactional messaging email properties"
+>abstract="Fill in this form to configure the transactional messaging email properties"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_sms_properties"
 >title="Transactional messaging SMS properties"
->abstract="Learn how to configure the transactional messaging SMS properties"
+>abstract="Fill in this form to configure the transactional messaging SMS properties"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_push_properties"
 >title="Transactional messaging Push properties"
->abstract="Learn how to configure the transactional messaging Push properties"
+>abstract="Fill in this form to configure the transactional messaging Push properties"
 
 The **[!UICONTROL Properties]** section of a transactional message will help you to set up: 
 
