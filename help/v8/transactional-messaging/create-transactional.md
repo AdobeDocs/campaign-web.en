@@ -32,6 +32,26 @@ To create a transactional message template, follow the steps below:
 
 ### Transactional message properties {#transactional-properties}
 
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_properties"
+>title="Transactional messaging properties"
+>abstract="Transactional messaging properties"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_email_properties"
+>title="Transactional messaging Email properties"
+>abstract="Transactional messaging Email properties"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_sms_properties"
+>title="Transactional messaging SMS properties"
+>abstract="Transactional messaging SMS properties"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_push_properties"
+>title="Transactional messaging Push properties"
+>abstract="Transactional messaging Push properties"
+
 The **[!UICONTROL Properties]** section of a transactional message will help you to set up: 
 
 * The **[!UICONTROL Label]** is the name which is displayed in the transactional message list. Make it clear for research and future use.
@@ -46,6 +66,16 @@ The **[!UICONTROL Properties]** section of a transactional message will help you
 
 ### Context sample {#context-sample}
 
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_context"
+>title="Transactional messaging context"
+>abstract="Transactional messaging context"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_addcontext"
+>title="Transactional messaging context"
+>abstract="Transactional messaging context"
+
 The context sample allows you to create a test event to preview the transactional message received with the profile personalization. 
 
 This step is optional. You can use the template without the context sample, but the drawback is that you cannot preview the personalized content.
@@ -57,6 +87,16 @@ The content of the context depends on the personalization you need.
 ![](assets/transactional-context.png){zoomable="yes"}
 
 ### Transactional message template content {#transactional-content}
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_content"
+>title="Transactional messaging content"
+>abstract="Transactional messaging content"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_personalization"
+>title="Transactional messaging personalization"
+>abstract="Transactional messaging personalization"
 
 Working on the content of a transactional message is like the content creation of a delivery. Click on **[!UICONTROL Open email designer]** or **[!UICONTROL Edit email body]** and select a template content or import you HTML code.
 
@@ -115,6 +155,11 @@ To create a transactional message, follow the steps below:
     The triggers can now push the sending of your transactional message.
 
 ### About the event-type {#event-type}
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_event"
+>title="Transactional messaging event"
+>abstract="Transactional messaging event"
 
 The configuration of the event-type links the message to the trigger event.
 

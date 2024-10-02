@@ -32,6 +32,16 @@ You can view the details there.
 
 ## Event history {#event-history}
 
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_eventhistory"
+>title="Transactional messaging event history"
+>abstract="Transactional messaging event history"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_eventhistory_preview"
+>title="Transactional messaging event history preview"
+>abstract="Transactional messaging event history preview"
+
 You can also have a view on the events that trigger your transactional message.
 To see them, go on **[!UICONTROL Event history]** section.
 
