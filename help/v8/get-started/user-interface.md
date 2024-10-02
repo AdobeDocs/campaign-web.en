@@ -311,16 +311,5 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 
-<!-- transac messages-->
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_mobileapp"
->title="Transactional messaging Mobile App"
->abstract="Transactional messaging Mobile App"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_exclusionlogs"
->title="Transactional messaging exclusion logs"
->abstract="Transactional messaging exclusion logs"
 
 
