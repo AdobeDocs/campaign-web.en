@@ -10,11 +10,6 @@ description: About transactional messaging with Adobe Campaign Web
 >title="Transactional messaging"
 >abstract="Transactional messaging is a specialized module in Adobe Campaign designed to handle triggered messages."
 
->[!CONTEXTUALHELP]
->id="acw_transacmessages_mobileapp"
->title="Transactional messaging Mobile App"
->abstract="Transactional messaging Mobile App"
-
 <!-- >>[!CONTEXTUALHELP]
 >id="acw_transacmessages_exclusionlogs"
 >title="Transactional messaging exclusion logs"
