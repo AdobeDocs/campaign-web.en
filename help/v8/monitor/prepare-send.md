@@ -13,7 +13,7 @@ When you have defined your [content](../email/edit-content.md), [audience](../au
 
 During the delivery preparation, the target population is calculated and the message content generated for each profile included in the target. Once the preparation is finished, the messages are ready to be sent, either immediately or at the scheduled date and time. 
 
-The validation rules used during delivery preparation are described in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/validate/delivery-analysis.html){target="_blank"}.
+The validation rules used during delivery preparation are described in the [Campaign v8 (client console) documentation](https://experienceleague.corp.adobe.com/docs/campaign/campaign-v8/send/emails/send.html){target="_blank"}.
 
 The main steps to prepare the send are listed below.
 
