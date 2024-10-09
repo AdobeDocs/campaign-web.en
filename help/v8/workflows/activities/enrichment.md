@@ -161,9 +161,9 @@ This is where you select the collection link to use as enrichment data.
 
 1. Click inside the **Attribute** field.
 1. Click **Display advanced attributes**.
-1. Select the **Total amount** field from the **Purchases** table. 
+1. Select the **Price** field from the **Purchases** table. 
 
-![](../assets/workflow-enrichment3.png)
+<!-- ![](../assets/workflow-enrichment3.png) -->
 
 #### Define the collection settings{#collection-settings}
 
@@ -172,11 +172,13 @@ Then, define how the data is collected and the number of records to retrieve.
 1. Select **Collect data** in the **Select how the data is collected** drop-down.
 1. Type "3" in the **Lines to retrieve (Columns to create)** field. 
 
-![](../assets/workflow-enrichment4.png)
+![](../assets/workflow-enrichment4bis.png)
 
 If you want, for example, to get the average amount of purchases for a customer, select **Aggregated data** instead, and select **Average** in the **Aggregate function** drop-down.
 
-![](../assets/workflow-enrichment5.png)
+Use the **Label** and **Alias** fields of your attribute in order to make it more understandable as shown below.
+
+![](../assets/workflow-enrichment5bis.png)
 
 #### Define the filters{#collection-filters}
 
