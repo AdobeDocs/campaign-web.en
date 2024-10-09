@@ -131,6 +131,11 @@ The example below shows a workflow configured to create a link between the Adobe
 
 ## Add offers {#add-offers}
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_offer_proposition"
+>title="Offer proposition"
+>abstract="The Enrichment activity allows you to add offers for each profile."
+
 The **[!UICONTROL Enrichment]** activity allows you to add offers for each profile.
 
 To do so, follow the steps to configure an **[!UICONTROL Enrichment]** activity with an offer: 
