@@ -150,7 +150,7 @@ Here, we are just adding a single enrichment attribute, for example, the date of
 
 In this more complex use case, we will select a collection link which is a link with a 1-N cardinality between tables. Let's retrieve the three latest purchases that are less than 100$. For this you need to define:
 
-* an enrichment attribute: the **Total amount** field
+* an enrichment attribute: the **Price** field
 * the number of lines to retrieve: 3
 * a filter: filter out items that are greater than 100$
 * a sorting: descendant sorting on the **Order date** field. 
