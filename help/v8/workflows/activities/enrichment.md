@@ -184,11 +184,11 @@ Use the **Label** and **Alias** fields of your attribute in order to make it mor
 
 Here, we define the maximum value for the enrichment attribute. We filter out items that are greater than 100$. [Learn how to work with the query modeler](../../query/query-modeler-overview.md)
 
-1. Click **Edit filters**.
-1. Add the two following filters: **Total amount** exists AND **Total amount** is less than 100. The first one filters NULL values as they would appear as the greatest value.
+1. Click **Create filters**.
+1. Add the two following filters: **Price** exists AND **Price** is less than 100. The first one filters NULL values as they would appear as the greatest value.
 1. Click **Confirm**.
 
-![](../assets/workflow-enrichment6.png)
+![](../assets/workflow-enrichment6bis.png)
 
 #### Define the sorting{#collection-sorting}
 
@@ -200,7 +200,7 @@ We now need to apply sorting in order to retrieve the three **latest** purchases
 1. Click **Confirm**. 
 1. Select **Descending** from the **Sort** drop-down.
 
-![](../assets/workflow-enrichment7.png)
+![](../assets/workflow-enrichment7bis.png)
 
 ### Enrichment with linked data {#link-example}
 
