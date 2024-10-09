@@ -153,7 +153,7 @@ In this more complex use case, we will select a collection link which is a link 
 * an enrichment attribute: the **Price** field
 * the number of lines to retrieve: 3
 * a filter: filter out items that are greater than 100$
-* a sorting: descendant sorting on the **Order date** field. 
+* a sorting: descending sorting on the **Order date** field. 
 
 #### Add the attribute {#add-attribute}
 
