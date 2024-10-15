@@ -16,7 +16,7 @@ The SMS channel offers three methods for creating SMS deliveries:
 
 * **Stand-alone deliveries**: Create individual SMS deliveries for quick and direct communication with your customers, without the need for workflows or campaigns.
 
-![](../assets/do-not-localize/book.png) Learn how to configure SMS channel in [Campaign v8 (client console) documentation](https://experienceleague.corp.adobe.com/docs/campaign/campaign-v8/send/sms/validate-sms/sms-send.html){target="_blank"}.
+![](../assets/do-not-localize/book.png) Learn how to configure SMS channel in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/validate-sms/sms-send.html){target="_blank"}.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
