@@ -90,6 +90,8 @@ You will get the percentage of the values in the **[!UICONTROL Channel]** column
 
 ![](assets/values_percentage.png){zoomable="yes"}
 
+You can do a research on values by using the **[!Advanced filters]**. 
+
 >[!NOTE]
 >
 > For columns with many values, only the first twenty values will be displayed. A notification **[!UICONTROL Partial load]** will warn you.

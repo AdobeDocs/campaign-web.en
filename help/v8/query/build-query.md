@@ -35,6 +35,7 @@ To access this option, in your query, click the attribute selection button as sh
 >* For fields with many values, only the first twenty values are displayed. In such case, a notification **[!UICONTROL Partial load]** warns you.
 >
 >* The **[!UICONTROL Distribution of values]** option is accessible in every attribute picker.
+>* You can do a research on values by using the **[!Advanced filters]**.
 
 ## Add filtering components {#filtering}
 
