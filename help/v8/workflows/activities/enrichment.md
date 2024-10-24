@@ -146,7 +146,7 @@ To do so, follow the steps to configure an **[!UICONTROL Enrichment]** activity 
 
 1. You have two choices for the offer selection :
 
-    * **[!UICONTROL Search for the best offer in category]** : check this option and specify the offer engine call parameters (offer space, category or theme(s), contact date, number of offers to keep). The engine will automatically calculate the offer(s) to add according to these parameters. We recommend completing either the Category or the Theme field, rather than both at the same time.
+    * **[!UICONTROL Search for the best offer in category]** : check this option and specify the offer engine call parameters (offer space, category or theme(s), contact date, number of offers to keep). The engine will calculate the best offer(s) to add according to these parameters. We recommend completing either the Category or the Theme field, rather than both at the same time.
 
         ![](../assets/enrichment-bestoffer.png)
 
@@ -157,6 +157,17 @@ To do so, follow the steps to configure an **[!UICONTROL Enrichment]** activity 
 1. After selecting your offer, click on **[!UICONTROL Confirm]** button.
 
 You can now use the offer in the delivery activity.
+
+### Using the offers from Enrichment activity
+
+Within a workflow, if you want to use the offers you get from an enrichment activity in your delivery, follow the steps below:
+
+1. Open the delivery activity and go in the content edition. Click on **[!UICONTROL Offers settings]** button and select in the drop-down list the **[!UICONTROL Offers space]** corresponding to your offer. 
+If you want to to view only offers from the enrichment activity, set the number of **[!UICONTROL Propositions]** to 0, and save the modifications.
+
+    ![](../assets/offers-settings.png) 
+
+1. In the email designer, when adding a personalization with offers, 
 
 ## Examples {#example}
 
