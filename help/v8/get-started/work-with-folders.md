@@ -101,3 +101,11 @@ In the attributes list, click the **+** button next to the desired link, as show
 ![](assets/values_link.png){zoomable="yes"}
 
 It is also possible to have the distribution of values in a query modeler. [Learn more here](../query/build-query.md#distribution-of-values-in-a-query).
+
+### Filter the values {#filter-values}
+
+By using the **[!Advanced filters]** in the distribution of values window, you can filter your results based on specified conditions.
+
+In the example of the delivery list above, which shows the distribution per channel, you can, for instance, filter it to display only the deliveries which status is **Finished**.
+
+![](assets/values_filter.png){zoomable="yes"}
