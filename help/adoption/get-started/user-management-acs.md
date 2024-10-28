@@ -21,7 +21,7 @@ The following concepts are used in Adobe Campaign Standard and Campaign V8 to ac
 
 >[!CAUTION]
 >
->The capabilities of these Roles/Named rights may vary in implementation, potentially causing authorization issues (e.g., privilege elevation or functionality disruptions). We recommend users to review these mappings after the transition to ensure proper access control. [Learn more on permissions](../../v8/start/manage-permissions.md)
+>The capabilities of these Roles/Named rights may vary in implementation, potentially causing authorization issues (e.g., privilege elevation or functionality disruptions). We recommend users to review these mappings after the transition to ensure proper access control. [Learn more on permissions](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 The table below outlines the migration approach for user role groups when transitioning from Adobe Campaign Standard to Campaign V8. In Campaign Standard, a **Security group**, referred to as an **Operator group** in Campaign V8, is used to assign a set of roles to a user. While some security groups/operator groups are available out-of-the-box, users can create new groups or modify existing ones if needed.
 
@@ -29,7 +29,7 @@ The table below outlines the migration approach for user role groups when transi
 |---------|----------|---------|
 | **Terminology** | Security Group | Operator Group |
 
-In both Adobe Campaign Standard and Campaign V8, **Security groups** and **Operator groups** are mapped to Product profiles in the Admin console. If you want to assign a **Security group** or **Operator group** to a user, you can link the corresponding **Product profile** in the Admin console. This association is synchronized when the user logs in. [Learn more on Product profile](../../v8/start/manage-permissions.md)
+In both Adobe Campaign Standard and Campaign V8, **Security groups** and **Operator groups** are mapped to Product profiles in the Admin console. If you want to assign a **Security group** or **Operator group** to a user, you can link the corresponding **Product profile** in the Admin console. This association is synchronized when the user logs in. [Learn more on Product profile](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 | **Campaign Standard Security group** | **Campaign V8 Operator group** |
 |----------|---------|
@@ -57,7 +57,7 @@ In Adobe Campaign Standard, the term **User role** is referred to as **Named rig
 
 ## Migration approach from Organizational unit
 
-In Adobe Campaign Standard, the **Organization uni**t is mapped to the existing **Folder** hierarchy model in Campaign V8 to maintain similar access control. [Learn more on folder management](../../v8/start/folder-permissions.md)
+In Adobe Campaign Standard, the **Organization uni**t is mapped to the existing **Folder** hierarchy model in Campaign V8 to maintain similar access control. [Learn more on folder management](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
 
 | | **Campaign Standard**| **Campaign V8** |
 |---------|----------|---------|
@@ -67,7 +67,7 @@ In Adobe Campaign Standard, the **Organization uni**t is mapped to the existing 
 
 In Campaign V8, **Programs** are represented as **Folders**. Campaign V8 enables the creation of folders and allows restricting access to them.
 
-By using **Groups** and **Named rights**, **Operators** can be granted access to specific **Folders** within the navigation hierarchy, with the ability to assign read, write, and delete permissions. [Learn more on folder management](../../v8/start/folder-permissions.md)
+By using **Groups** and **Named rights**, **Operators** can be granted access to specific **Folders** within the navigation hierarchy, with the ability to assign read, write, and delete permissions. [Learn more on folder management](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
 
 Since a **Program** is treated as a **Folder** in Campaign V8, its access can be managed in the same way as any other folder. After migration, Campaign Standard administrators can follow these steps:
 
