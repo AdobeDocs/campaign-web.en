@@ -196,10 +196,10 @@ Here, we are just adding a single enrichment attribute, for example, the date of
 
 In this more complex use case, we will select a collection link which is a link with a 1-N cardinality between tables. Let's retrieve the three latest purchases that are less than 100$. For this you need to define:
 
-* an enrichment attribute: the **Total amount** field
+* an enrichment attribute: the **Price** field
 * the number of lines to retrieve: 3
 * a filter: filter out items that are greater than 100$
-* a sorting: descendant sorting on the **Order date** field. 
+* a sorting: descending sorting on the **Order date** field. 
 
 #### Add the attribute {#add-attribute}
 
@@ -207,9 +207,9 @@ This is where you select the collection link to use as enrichment data.
 
 1. Click inside the **Attribute** field.
 1. Click **Display advanced attributes**.
-1. Select the **Total amount** field from the **Purchases** table. 
+1. Select the **Price** field from the **Purchases** table. 
 
-![](../assets/workflow-enrichment3.png)
+<!-- ![](../assets/workflow-enrichment3.png) -->
 
 #### Define the collection settings{#collection-settings}
 
@@ -218,21 +218,23 @@ Then, define how the data is collected and the number of records to retrieve.
 1. Select **Collect data** in the **Select how the data is collected** drop-down.
 1. Type "3" in the **Lines to retrieve (Columns to create)** field. 
 
-![](../assets/workflow-enrichment4.png)
+![](../assets/workflow-enrichment4bis.png)
 
 If you want, for example, to get the average amount of purchases for a customer, select **Aggregated data** instead, and select **Average** in the **Aggregate function** drop-down.
 
-![](../assets/workflow-enrichment5.png)
+Use the **Label** and **Alias** fields of your attribute in order to make it more understandable as shown below.
+
+![](../assets/workflow-enrichment5bis.png)
 
 #### Define the filters{#collection-filters}
 
 Here, we define the maximum value for the enrichment attribute. We filter out items that are greater than 100$. [Learn how to work with the query modeler](../../query/query-modeler-overview.md)
 
-1. Click **Edit filters**.
-1. Add the two following filters: **Total amount** exists AND **Total amount** is less than 100. The first one filters NULL values as they would appear as the greatest value.
+1. Click **Create filters**.
+1. Add the two following filters: **Price** exists AND **Price** is less than 100. The first one filters NULL values as they would appear as the greatest value.
 1. Click **Confirm**.
 
-![](../assets/workflow-enrichment6.png)
+![](../assets/workflow-enrichment6bis.png)
 
 #### Define the sorting{#collection-sorting}
 
@@ -244,7 +246,7 @@ We now need to apply sorting in order to retrieve the three **latest** purchases
 1. Click **Confirm**. 
 1. Select **Descending** from the **Sort** drop-down.
 
-![](../assets/workflow-enrichment7.png)
+![](../assets/workflow-enrichment7bis.png)
 
 ### Enrichment with linked data {#link-example}
 
