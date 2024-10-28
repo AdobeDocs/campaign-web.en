@@ -456,8 +456,3 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_schema_start_update"
 >title="Start database update"
 >abstract="Schema"
-
->[!CONTEXTUALHELP]
->id="acw_schema_add_tables"
->title="Add tables"
->abstract="Schema"
