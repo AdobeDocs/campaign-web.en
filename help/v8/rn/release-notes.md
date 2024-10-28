@@ -42,8 +42,7 @@ The following features and improvements are available starting October release.
 
 * **Workflow activities** - You can now copy and paste activities from a workflow to another.
 
-
-* **Workflow enrichment activity** - Alias and label are available when creating a new field in the enrichment activity.
+* **Workflow enrichment activity** - Alias and label are available when creating a new field in the enrichment activity. [Learn more](../workflows/activities/enrichment.md#collection-settings)
 
 * **Distribution of values** - When accessing the list of fields for personalization, you can now check how values are distributed for each field. A dedicated popup window shows the number and percentage for each value. [Learn more](../query/build-query.md#distribution-values-query)
 
