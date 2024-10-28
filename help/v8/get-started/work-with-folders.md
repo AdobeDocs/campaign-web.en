@@ -46,8 +46,7 @@ Under the **[!UICONTROL ...]** menu, You have **[!UICONTROL Create new folder]**
 
   ![](assets/folder_create.png){zoomable="yes"}
 
-When you create a new folder, by default, the folder type is the type of the folder parent. 
-In our example, we create a folder in the **[!UICONTROL Deliveries]** folder.
+  When you create a new folder, by default, the folder type is the type of the folder parent. In our example, we create a folder in the **[!UICONTROL Deliveries]** folder.
 
   ![](assets/folder_new.png){zoomable="yes"}
 
@@ -55,9 +54,9 @@ In our example, we create a folder in the **[!UICONTROL Deliveries]** folder.
 
   ![](assets/folder_type.png){zoomable="yes"}
 
-Set up the folder type by clicking on **[!UICONTROL Confirm]** button.
+  Set up the folder type by clicking on **[!UICONTROL Confirm]** button.
 
-If you want to create a folder with no specific type, choose **[!UICONTROL Generic Folder]** type.
+  If you want to create a folder with no specific type, choose **[!UICONTROL Generic Folder]** type.
 
 You can also [create and manage folders in Adobe Campaign console](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/folders-and-views).
 

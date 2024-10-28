@@ -11,10 +11,6 @@ exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 >title="Enrichment activity"
 >abstract="The **Enrichment** activity allows you to enhance the targeted data with additional information from the database. It is commonly used in a workflow after segmentation activities."
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_enrichment_offer_proposition"
->title="Offer proposition"
->abstract="Offer proposition"
 
 The **Enrichment** activity is a **Targeting** activity. It allows you to enhance the targeted data with additional information from the database. It is commonly used in a workflow after segmentation activities.
 
@@ -133,6 +129,56 @@ Follow the steps to configure an **Enrichment** activity with a reconciliation l
 The example below shows a workflow configured to create a link between the Adobe Campaign database recipients table and a temporary table generated a **Load file** activity. In this example, the Enrichment activity reconciliates both tables using the email address as reconciliation criteria.
 
 ![](../assets/enrichment-reconciliation.png)
+
+## Add offers {#add-offers}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_offer_proposition"
+>title="Offer proposition"
+>abstract="The Enrichment activity allows you to add offers for each profile."
+
+The **[!UICONTROL Enrichment]** activity allows you to add offers for each profile.
+
+To do so, follow the steps to configure an **[!UICONTROL Enrichment]** activity with an offer: 
+
+1. In the **[!UICONTROL Enrichment]** activity, at the **[!UICONTROL Offer proposition]** section, click on the **[!UICONTROL Add offer]** button
+
+    ![](../assets/enrichment-addoffer.png)
+
+1. You have two choices for the offer selection :
+
+    * **[!UICONTROL Search for the best offer in category]** : check this option and specify the offer engine call parameters (offer space, category or theme(s), contact date, number of offers to keep). The engine will calculate the best offer(s) to add according to these parameters. We recommend completing either the Category or the Theme field, rather than both at the same time.
+
+        ![](../assets/enrichment-bestoffer.png)
+
+    * **[!UICONTROL A predefined offer]** : check this option and specify an offer space, a specific offer, and a contact date to directly configure the offer that you would like to add, without calling the offer engine.
+
+        ![](../assets/enrichment-predefinedoffer.png)
+
+1. After selecting your offer, click on **[!UICONTROL Confirm]** button.
+
+You can now use the offer in the delivery activity.
+
+### Using the offers from Enrichment activity
+
+Within a workflow, if you want to use the offers you get from an enrichment activity in your delivery, follow the steps below:
+
+1. Open the delivery activity and go in the content edition. Click on **[!UICONTROL Offers settings]** button and select in the drop-down list the **[!UICONTROL Offers space]** corresponding to your offer. 
+If you want to to view only offers from the enrichment activity, set the number of **[!UICONTROL Propositions]** to 0, and save the modifications.
+
+    ![](../assets/offers-settings.png) 
+
+1. In the email designer, when adding a personalization with offers, click on the **[!UICONTROL Propositions]** icon, it will display the offer(s) you get from the **[!UICONTROL Enrichment]** activity. Open the offer you want to choose by clicking on it.
+
+    ![](../assets/offers-propositions.png) 
+
+    Go in **[!UICONTROL Rendering functions]** and choose **[!UICONTROL HTML rendering]** or **[!UICONTROL Text rendering]** according to your needs.
+
+    ![](../assets/offers-rendering.png) 
+
+>[!NOTE]
+>
+>If you choose to have more than one offer in the **[!UICONTROL Enrichment]** activity at the **[!UICONTROL Number of offers to keep]** option, all the offers are displayed when clicking on the **[!UICONTROL Propositions]** icon.
 
 ## Examples {#example}
 

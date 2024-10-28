@@ -12,6 +12,14 @@ exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 
 Adobe Campaign Web user interface releases operate on a continuous delivery model which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
+## October release {#24-10-release}
+
+
+**Release date**: Oct 29, 2024
+
+The following features and improvements are available starting October release.
+
+
 ## September updates {#9-2024}
 
 <table>
@@ -33,7 +41,7 @@ Adobe Campaign Web user interface releases operate on a continuous delivery mode
 </tbody>
 </table>
 
-## August release notes {#24-8-release}
+## August release {#24-8-release}
 
 **Release date**: Sept 3, 2024
 
