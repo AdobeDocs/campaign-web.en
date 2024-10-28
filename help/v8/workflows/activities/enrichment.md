@@ -11,10 +11,6 @@ exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 >title="Enrichment activity"
 >abstract="The **Enrichment** activity allows you to enhance the targeted data with additional information from the database. It is commonly used in a workflow after segmentation activities."
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_enrichment_offer_proposition"
->title="Offer proposition"
->abstract="Offer proposition"
 
 The **Enrichment** activity is a **Targeting** activity. It allows you to enhance the targeted data with additional information from the database. It is commonly used in a workflow after segmentation activities.
 
