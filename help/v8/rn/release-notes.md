@@ -19,6 +19,34 @@ Adobe Campaign Web user interface releases operate on a continuous delivery mode
 
 The following features and improvements are available starting October release.
 
+### Features
+
+<table>
+<thead>
+<tr>
+<th><strong>External accounts</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You now have the ability to set up and manage external accounts directly through Adobe Campaign Web User Interface. This new feature makes it simple to configure different types of external accounts, such as bounce emails (POP3) or execution instances.</p>
+<!--p>For more information, refer to the <a href="../email/generative-gs.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+
+### Improvements
+
+* **Workflow activities** - You can now copy and paste activities from a workflow to another.
+
+
+* **Workflow enrichment activity** - Alias and label are available when creating a new field in the enrichment activity.
+
+* **Distribution of values** - When accessing the list of fields for personalization, you can now check how values are distributed for each field. A dedicated popup window shows the number and percentage for each value. [Learn more](../query/build-query.md#distribution-values-query)
+
 
 ## September updates {#9-2024}
 
@@ -46,8 +74,6 @@ The following features and improvements are available starting October release.
 **Release date**: Sept 3, 2024
 
 The following features and improvements are available starting August release.
-
-* **Distribution of values** - When accessing the list of fields for personalization, you can now check how values are distributed for each field. A dedicated popup window shows the number and percentage for each value. [Learn more](../query/build-query.md#distribution-values-query)
 
 * **SMTP parameters** - SMTP settings are now available in the email delivery settings. [Learn more](../advanced-settings/delivery-settings.md#smtp)
 
