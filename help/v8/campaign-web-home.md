@@ -45,6 +45,14 @@ Get a glimpse of the newest enhancements in Adobe Campaign Web product and docum
 
 >[!BEGINTABS]
 
+
+>[!TAB October '24 release]
+
+October release is now live, including Transactional messaging, External accounts, and more improvements.
+
+[![image](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
+
+
 >[!TAB AI Assistant Content Accelerator]
 
 ✨ Immerse yourself in a hands-on experience with our [AI Assistant Content Accelerator](../v8/email/generative-gs.md) live feature preview, designed to let you explore its features firsthand and fully understand its capabilities. 
@@ -56,12 +64,6 @@ Get a glimpse of the newest enhancements in Adobe Campaign Web product and docum
 When accessing the list of fields for personalization, you can now check how values are distributed for each field.
 
 [![image](assets/do-not-localize/learn-more-button.svg)](../v8/query/build-query.md#distribution-values-query)
-
->[!TAB Captcha in landing pages]
-
-You can now add captcha to protect your landing page from spam and abuse caused by bots. This capability is in Limited Availability.
-
-[![image](assets/do-not-localize/learn-more-button.svg)](../v8/landing-pages/create-lp.md#captcha)
 
 
 >[!ENDTABS]
