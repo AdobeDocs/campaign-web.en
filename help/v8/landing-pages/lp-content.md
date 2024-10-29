@@ -138,8 +138,10 @@ To define specific content that will enable users to select and submit their cho
 >
 >This capability is in Limited Availability (LA). It is restricted to customers migrating **from Adobe Campaign Standard to Adobe Campaign v8**, and cannot be deployed on any other environment.
 
-To send automatically a confirmation message after the submission of a landing page, follow these steps : 
+To send automatically a confirmation message after the submission of a landing page, follow these steps:
+
 1. In the **[!UICONTROL CALL TO ACTION]** section, check the **[!UICONTROL Send confirmation email]** option.
+
 1. In the associated drop-down list, choose the transactional message template that needs to be sent out.
 
 ![](assets/lp-confirmation.png){zoomable="yes"}

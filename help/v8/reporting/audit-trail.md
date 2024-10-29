@@ -45,7 +45,7 @@ In Adobe Campaign Web User Interface, the **[!UICONTROL Audit trail]** feature p
 
 * **External Account** allows you to check modifications made to external accounts in Campaign V8, used by technical processes such as technical workflows or campaign workflows.
 
-  For more information on external account, refer to this [page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/external-accounts).
+  For more information on external account, refer to this [page](../administration/external-account.md).
 
 * **Delivery Mapping** enables you to monitor activities and recent modifications made to your Delivery Mapping in Campaign V8. 
 

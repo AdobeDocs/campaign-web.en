@@ -223,9 +223,9 @@ As an administrator, you must define your channel configurations. Refer to the l
 
 As an administrator, you are responsible for configuring and maintaining Campaign external accounts. As in Campaign Standard, external accounts are used by technical processes such as technical workflows or campaign workflows.
 
-The transition process to Campaign v8 takes care of your existing Campaign Standard external accounts: they are now available in the client console.
+The transition process to Campaign v8 takes care of your existing Campaign Standard external accounts.
 
-Learn more about the [External account configuration](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/external-accounts){target="_blank"}.
+Learn more in the [External account documentation](../../v8/administration/external-account.md).
 
 
 <!--

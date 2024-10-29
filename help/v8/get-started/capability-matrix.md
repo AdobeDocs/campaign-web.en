@@ -62,6 +62,7 @@ All audiences created in Campaign client console or in Adobe Experience Platform
 
 One-shot import/export jobs as described in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/import-profiles.html#import-jobs){target="_blank"} are not available in Campaign Web user interface. <!--To import profiles into Campaign Web user interface, you must create a workflow as detailed in [this section]().-->
 
+<!--
 ## Transactional messaging {#mc-capabilities}
 
 Transactional messaging capabilities coming with the Message Center product package are currently not available in the new Campaign Web user interface. 
@@ -71,6 +72,7 @@ Browse the [Campaign v8 (client console) documentation](https://experienceleague
 * Realtime message authoring and execution on email, SMS and push
 * Message enrichment and personalization
 * Reporting and monitoring on transactional messaging
+-->
 
 ## Content design {#content-capabilities}
 
@@ -149,7 +151,7 @@ Campaign Web user interface does not surface the following capabilities. They ar
 
 ### External accounts {#external}
 
-Adobe Campaign comes with a set of pre-defined external accounts to connect with external systems. As a Campaign System Administrator, you can create and manage external accounts from the client console only.[Learn more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html){target="_blank"}
+Adobe Campaign comes with a set of pre-defined external accounts to connect with external systems. As a Campaign System Administrator, you can create and manage external accounts. [Learn more](../administration/external-account.md)
 
 ### Schema creation and extension {#schema}
 
