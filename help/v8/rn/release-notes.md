@@ -37,6 +37,22 @@ The following features and improvements are available starting October release.
 </table>
 
 
+<table>
+<thead>
+<tr>
+<th><strong>Transactional messaging</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You now have the ability to create and monitor transactional messages in Campaign Web user interface. Transactional messaging is a specialized module in Adobe Campaign designed to handle triggered messages. These messages are generated automatically in response to events coming from information systems. Common examples of such events include clicking on buttons or links, cart abandonment, requesting product availability alerts, account creation or modification, etc.</p>
+<p>For more information, refer to the <a href="../transactional-messaging/transactional.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 <!--table>
 <thead>
 <tr>
