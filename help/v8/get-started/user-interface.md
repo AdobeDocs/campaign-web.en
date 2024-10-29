@@ -33,7 +33,7 @@ The **Recents** list provides shortcuts to the recently created and modified del
 
 In addition, you can access Adobe Campaign Web key help pages from the **Learning** section of the page.
 
-### About link  {#user-interface-about}
+### About link {#user-interface-about}
 
 
 >[!CONTEXTUALHELP]
