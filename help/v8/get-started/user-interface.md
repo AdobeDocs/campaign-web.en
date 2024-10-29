@@ -322,30 +322,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 
-
-
-<!--about-->
-
->[!CONTEXTUALHELP]
->id="acw_about"
->title="About"
->abstract="About"
-
->[!CONTEXTUALHELP]
->id="acw_about_instance"
->title="About instance"
->abstract="About instance"
-
->[!CONTEXTUALHELP]
->id="acw_about_web"
->title="About web"
->abstract="About web"
-
->[!CONTEXTUALHELP]
->id="acw_about_packages"
->title="About packages"
->abstract="About packages"
-
 <!--Schema-->
 
 >[!CONTEXTUALHELP]
