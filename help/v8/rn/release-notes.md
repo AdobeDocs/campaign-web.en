@@ -56,7 +56,7 @@ The following features and improvements are available starting October release.
 
 ### Improvements
 
-* **Workflow activities** - You can now copy and paste activities from a workflow to another.
+* **Workflow activities** - You can now move activities from a workflow branch to another. A dedicated **Move** button is available in the right rail to perform this. [Learn more](../workflows/activities/about-activities.md)
 
 * **Workflow enrichment activity**
 
