@@ -55,7 +55,7 @@ The following features and improvements are available starting October release.
 
 ### Improvements
 
-* **Workflow activities** - You can now move activities from a workflow branch to another. A dedicated **Move** button is available in the right rail to perform this. [Learn more](../workflows/activities/about-activities.md)
+* **Workflow activities** - You can now move an activity and all its child nodes from a transition to another within a workflow. A dedicated **Move** button is available in the activity's properties pane to perform this. [Learn more](../workflows/orchestrate-activities.md#move)
 
 * **Workflow enrichment activity**
 
