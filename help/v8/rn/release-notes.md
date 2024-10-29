@@ -46,7 +46,7 @@ The following features and improvements are available starting October release.
 <tbody>
 <tr>
 <td>
-<p>You now have the ability to create and monitor transactional messages in Campaign Web user interface. Transactional messaging is a specialized module in Adobe Campaign designed to handle triggered messages. These messages are generated automatically in response to events coming from information systems. Common examples of such events include clicking on buttons or links, cart abandonment, requesting product availability alerts, account creation or modification, etc.</p>
+<p>Transactional messaging (Message Center) is now available in the Campaign web user interface. This add-on is designed for triggering messages which are generated from events triggered from information systems, and can be: invoice, order confirmation, shipping confirmation, password change, product unavailability notification, account statement, website account creation, etc.</p>
 <p>For more information, refer to the <a href="../transactional-messaging/transactional.md">detailed documentation</a>.</p>
 </td>
 </tr>
@@ -79,6 +79,8 @@ The following features and improvements are available starting October release.
     * You can now add offers for each profile in the **Enrichment** activity. [Learn more](../workflows/activities/enrichment.md##add-offers)
 
 * **Distribution of values** - When accessing the list of fields for personalization, you can now check how values are distributed for each field. A dedicated popup window shows the number and percentage for each value. [Learn more](../query/build-query.md#distribution-values-query)
+
+* **Version and system info** - You can now access details about your instance versions, both for the client console and the Web User Interface. This new section also lists all the built-in packages installed in your environment. [Learn more](../get-started/user-interface.md#user-interface-about)
 
 
 ## September updates {#9-2024}
