@@ -26,7 +26,7 @@ exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 >title="Folder schedule"
 >abstract="Folder schedule"
 
-## About folders
+## About folders {#about-folders}
 
 Folders are objects in Adobe Campaign that allow you to organize your components and data.
 
@@ -37,7 +37,7 @@ You can create, rename, reorder, and move folders in the navigation tree. You ca
 You can set up a folder type. For example: a folder of deliveries. 
 The icon of the folder will change according to this type.
 
-## Create a new folder
+## Create a new folder {#create-a-folder}
 
 To create a new folder in Adobe Campaign Web UI, follow these steps: 
 
@@ -46,8 +46,7 @@ Under the **[!UICONTROL ...]** menu, You have **[!UICONTROL Create new folder]**
 
   ![](assets/folder_create.png){zoomable="yes"}
 
-When you create a new folder, by default, the folder type is the type of the folder parent. 
-In our example, we create a folder in the **[!UICONTROL Deliveries]** folder.
+  When you create a new folder, by default, the folder type is the type of the folder parent. In our example, we create a folder in the **[!UICONTROL Deliveries]** folder.
 
   ![](assets/folder_new.png){zoomable="yes"}
 
@@ -55,11 +54,12 @@ In our example, we create a folder in the **[!UICONTROL Deliveries]** folder.
 
   ![](assets/folder_type.png){zoomable="yes"}
 
-Set up the folder type by clicking on **[!UICONTROL Confirm]** button.
+  Set up the folder type by clicking on **[!UICONTROL Confirm]** button.
 
-If you want to create a folder with no specific type, choose **[!UICONTROL Generic Folder]** type.
+  If you want to create a folder with no specific type, choose **[!UICONTROL Generic Folder]** type.
 
 You can also [create and manage folders in Adobe Campaign console](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/folders-and-views).
+
 
 ## Reorder folders {#reorder-folders}
 
@@ -73,7 +73,8 @@ You can change the order of your folders either by **drag and drop**, or by usin
 
 ![](assets/folder-draganddrop.png){zoomable="yes"}
 
-## Delete a folder
+
+## Delete a folder {#delete-a-folder}
 
 >[!CAUTION]
 >
@@ -113,3 +114,11 @@ In the attributes list, click the **+** button next to the desired link, as show
 ![](assets/values_link.png){zoomable="yes"}
 
 It is also possible to have the distribution of values in a query modeler. [Learn more here](../query/build-query.md#distribution-of-values-in-a-query).
+
+### Filter the values {#filter-values}
+
+By using the **[!UICONTROL Advanced filters]** in the distribution of values window, you can filter your results based on specified conditions.
+
+In the example of the delivery list above, which shows the distribution per channel, you can, for instance, filter it to display only the deliveries which status is **Finished**.
+
+![](assets/values_filter.png){zoomable="yes"}

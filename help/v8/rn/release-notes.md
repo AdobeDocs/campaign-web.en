@@ -12,6 +12,77 @@ exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 
 Adobe Campaign Web user interface releases operate on a continuous delivery model which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
+## October release {#24-10-release}
+
+**Release date**: Oct 29, 2024
+
+The following features and improvements are available starting October release.
+
+### Features
+
+<table>
+<thead>
+<tr>
+<th><strong>External accounts</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You now have the ability to set up and manage external accounts directly through Adobe Campaign Web User Interface. This new feature makes it simple to configure different types of external accounts, such as bounce emails (POP3) or execution instances.</p>
+<p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Transactional messaging</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Transactional messaging (Message Center) is now available in the Campaign web user interface. This add-on is designed for triggering messages which are generated from events triggered from information systems, and can be: invoice, order confirmation, shipping confirmation, password change, product unavailability notification, account statement, website account creation, etc.</p>
+<p>For more information, refer to the <a href="../transactional-messaging/transactional.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--table>
+<thead>
+<tr>
+<th><strong>External deliveries</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now define External deliveries, and External delivery templates, in Campaign web user interface. With this mode, messages are generated in an input file which can be shared with your external provider. The External delivery mode is the default mode for the direct mail channel.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+
+### Improvements
+
+* **Workflow activities** - You can now move an activity and all its child nodes from a transition to another within a workflow. A dedicated **Move** button is available in the activity's properties pane to perform this. [Learn more](../workflows/orchestrate-activities.md#move)
+
+* **Workflow enrichment activity**
+
+    * You can now define an Alias and a Label when creating a new field in the **Enrichment** activity. [Learn more](../workflows/activities/enrichment.md#collection-settings)
+    * You can now add offers for each profile in the **Enrichment** activity. [Learn more](../workflows/activities/enrichment.md##add-offers)
+
+* **Distribution of values** - When accessing the list of fields for personalization, you can now check how values are distributed for each field. A dedicated popup window shows the number and percentage for each value. [Learn more](../query/build-query.md#distribution-values-query)
+
+* **Version and system info** - You can now access details about your instance versions, both for the client console and the Web User Interface. This new section also lists all the built-in packages installed in your environment. [Learn more](../get-started/user-interface.md#user-interface-about)
+
+
 ## September updates {#9-2024}
 
 <table>
@@ -23,7 +94,7 @@ Adobe Campaign Web user interface releases operate on a continuous delivery mode
 <tbody>
 <tr>
 <td>
-<p>Once you have crafted and tailored your message, take it to the next level with the AI Assistant in Adobe Campaign Web for Content Acceleration. This powerful tool allows you to optimize the impact of your content by generating a range of engaging text, main titles and visually appealing images.</p>
+<p>Once you have crafted and tailored your message, take it to the next level with the AI Assistant Content Accelerator in Adobe Campaign Web. This powerful tool allows you to optimize the impact of your content by generating a range of engaging text, main titles and visually appealing images.</p>
 <p>Immerse yourself in a hands-on experience with <a href="https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator">our live feature preview</a>, designed to let you explore its features firsthand and fully understand its capabilities.</a>.</p>
 <p>For more information, refer to the <a href="../email/generative-gs.md">detailed documentation</a>.</p>
 <img src="assets/do-not-localize/ai-content-webui.gif"/>
@@ -33,13 +104,11 @@ Adobe Campaign Web user interface releases operate on a continuous delivery mode
 </tbody>
 </table>
 
-## August release notes {#24-8-release}
+## August release {#24-8-release}
 
 **Release date**: Sept 3, 2024
 
 The following features and improvements are available starting August release.
-
-* **Distribution of values** - When accessing the list of fields for personalization, you can now check how values are distributed for each field. A dedicated popup window shows the number and percentage for each value. [Learn more](../query/build-query.md#distribution-values-query)
 
 * **SMTP parameters** - SMTP settings are now available in the email delivery settings. [Learn more](../advanced-settings/delivery-settings.md#smtp)
 
