@@ -60,6 +60,20 @@ Under the **[!UICONTROL ...]** menu, You have **[!UICONTROL Create new folder]**
 
 You can also [create and manage folders in Adobe Campaign console](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/folders-and-views).
 
+
+## Reorder folders {#reorder-folders}
+
+You can reorder the folders according to your needs. To do so, click on the  **[!UICONTROL Reorder folders]** as shown below.
+
+In our example, the folder **Deliveries** contains 4 folders.
+
+![](assets/folder-reorder.png){zoomable="yes"}
+
+You can change the order of your folders either by **drag and drop**, or by using **up and down arrows**.
+
+![](assets/folder-draganddrop.png){zoomable="yes"}
+
+
 ## Delete a folder {#delete-a-folder}
 
 >[!CAUTION]
