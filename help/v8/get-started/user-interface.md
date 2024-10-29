@@ -10,7 +10,6 @@ The new Adobe Campaign Web interface offers a modern and intuitive user experien
 
 Learn how to connect to Adobe Campaign and discover Experience Cloud navigation basics [in this article](connect-to-campaign.md).
 
-
 >[!NOTE]
 >
 >This documentation is frequently updated to reflect latest changes in the product user interface. However, some screenshots can slightly differ from your user interface.
