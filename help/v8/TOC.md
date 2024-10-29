@@ -212,4 +212,5 @@ breadcrumb-title: Campaign Web User Interface
   + [Manage templates with Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
 + Configuration {#conf}
   + [Configure custom fields](administration/custom-fields.md)
+  + [ Configure external accounts](administration/external-account.md)
 + [Campaign v8 (console) documentation >](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)

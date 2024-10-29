@@ -107,6 +107,17 @@ Learn how to create and send offers in emails and SMS in [this section](../msg/o
 
 * **Reports** - The **Report** entry offers a consolidated overall summary of traffic and engagement metrics for each channel within your Campaign environment. These reports consist of various widgets, each offering a distinct perspective on your campaign or delivery performance. Learn more in [this section](../reporting/global-reports.md).
 
+### Administration {#left-nav-admin}
+
+
+* **Audit trail** - The **Audit trail** entry provides users with full visibility into all modifications made to important entities within your instance, typically those that significantly impact a smooth operation of the instance. [Learn more](../reporting/audit-trail.md)
+
+* **External accounts** - Create new external accounts using Web User Interface to meet your specific needs and ensure seamless data transfers. [Learn more](../administration/external-account.md)
+
+* **Schemas** - Custom fields are additional attributes added to the out-of-the-box schemas through the Adobe Campaign console. [Learn more](../administration/custom-fields.md)
+
+* **Delivery Alerting** - Delivery Alerting is an alert management system that enables groups of users to automatically receive email notifications with information on their delivery executions. [Learn more](../msg/delivery-alerting.md)
+
 <!--
 ## Contextual Help {#user-interface-help} 
 
