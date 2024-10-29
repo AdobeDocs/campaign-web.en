@@ -14,7 +14,6 @@ Adobe Campaign Web user interface releases operate on a continuous delivery mode
 
 ## October release {#24-10-release}
 
-
 **Release date**: Oct 29, 2024
 
 The following features and improvements are available starting October release.
@@ -31,7 +30,7 @@ The following features and improvements are available starting October release.
 <tr>
 <td>
 <p>You now have the ability to set up and manage external accounts directly through Adobe Campaign Web User Interface. This new feature makes it simple to configure different types of external accounts, such as bounce emails (POP3) or execution instances.</p>
-<!--p>For more information, refer to the <a href="../email/generative-gs.md">detailed documentation</a>.</p-->
+<p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
