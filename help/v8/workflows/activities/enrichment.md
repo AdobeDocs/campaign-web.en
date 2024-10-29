@@ -11,10 +11,6 @@ exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 >title="Enrichment activity"
 >abstract="The **Enrichment** activity allows you to enhance the targeted data with additional information from the database. It is commonly used in a workflow after segmentation activities."
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_enrichment_offer_proposition"
->title="Offer proposition"
->abstract="Offer proposition"
 
 The **Enrichment** activity is a **Targeting** activity. It allows you to enhance the targeted data with additional information from the database. It is commonly used in a workflow after segmentation activities.
 
@@ -134,6 +130,56 @@ The example below shows a workflow configured to create a link between the Adobe
 
 ![](../assets/enrichment-reconciliation.png)
 
+## Add offers {#add-offers}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_offer_proposition"
+>title="Offer proposition"
+>abstract="The Enrichment activity allows you to add offers for each profile."
+
+The **[!UICONTROL Enrichment]** activity allows you to add offers for each profile.
+
+To do so, follow the steps to configure an **[!UICONTROL Enrichment]** activity with an offer: 
+
+1. In the **[!UICONTROL Enrichment]** activity, at the **[!UICONTROL Offer proposition]** section, click on the **[!UICONTROL Add offer]** button
+
+    ![](../assets/enrichment-addoffer.png)
+
+1. You have two choices for the offer selection :
+
+    * **[!UICONTROL Search for the best offer in category]** : check this option and specify the offer engine call parameters (offer space, category or theme(s), contact date, number of offers to keep). The engine will calculate the best offer(s) to add according to these parameters. We recommend completing either the Category or the Theme field, rather than both at the same time.
+
+        ![](../assets/enrichment-bestoffer.png)
+
+    * **[!UICONTROL A predefined offer]** : check this option and specify an offer space, a specific offer, and a contact date to directly configure the offer that you would like to add, without calling the offer engine.
+
+        ![](../assets/enrichment-predefinedoffer.png)
+
+1. After selecting your offer, click on **[!UICONTROL Confirm]** button.
+
+You can now use the offer in the delivery activity.
+
+### Using the offers from Enrichment activity
+
+Within a workflow, if you want to use the offers you get from an enrichment activity in your delivery, follow the steps below:
+
+1. Open the delivery activity and go in the content edition. Click on **[!UICONTROL Offers settings]** button and select in the drop-down list the **[!UICONTROL Offers space]** corresponding to your offer. 
+If you want to to view only offers from the enrichment activity, set the number of **[!UICONTROL Propositions]** to 0, and save the modifications.
+
+    ![](../assets/offers-settings.png) 
+
+1. In the email designer, when adding a personalization with offers, click on the **[!UICONTROL Propositions]** icon, it will display the offer(s) you get from the **[!UICONTROL Enrichment]** activity. Open the offer you want to choose by clicking on it.
+
+    ![](../assets/offers-propositions.png) 
+
+    Go in **[!UICONTROL Rendering functions]** and choose **[!UICONTROL HTML rendering]** or **[!UICONTROL Text rendering]** according to your needs.
+
+    ![](../assets/offers-rendering.png) 
+
+>[!NOTE]
+>
+>If you choose to have more than one offer in the **[!UICONTROL Enrichment]** activity at the **[!UICONTROL Number of offers to keep]** option, all the offers are displayed when clicking on the **[!UICONTROL Propositions]** icon.
+
 ## Examples {#example}
 
 ### Single enrichment attribute {#single-attribute}
@@ -150,10 +196,10 @@ Here, we are just adding a single enrichment attribute, for example, the date of
 
 In this more complex use case, we will select a collection link which is a link with a 1-N cardinality between tables. Let's retrieve the three latest purchases that are less than 100$. For this you need to define:
 
-* an enrichment attribute: the **Total amount** field
+* an enrichment attribute: the **Price** field
 * the number of lines to retrieve: 3
 * a filter: filter out items that are greater than 100$
-* a sorting: descendant sorting on the **Order date** field. 
+* a sorting: descending sorting on the **Order date** field. 
 
 #### Add the attribute {#add-attribute}
 
@@ -161,9 +207,9 @@ This is where you select the collection link to use as enrichment data.
 
 1. Click inside the **Attribute** field.
 1. Click **Display advanced attributes**.
-1. Select the **Total amount** field from the **Purchases** table. 
+1. Select the **Price** field from the **Purchases** table. 
 
-![](../assets/workflow-enrichment3.png)
+<!-- ![](../assets/workflow-enrichment3.png) -->
 
 #### Define the collection settings{#collection-settings}
 
@@ -172,21 +218,23 @@ Then, define how the data is collected and the number of records to retrieve.
 1. Select **Collect data** in the **Select how the data is collected** drop-down.
 1. Type "3" in the **Lines to retrieve (Columns to create)** field. 
 
-![](../assets/workflow-enrichment4.png)
+![](../assets/workflow-enrichment4bis.png)
 
 If you want, for example, to get the average amount of purchases for a customer, select **Aggregated data** instead, and select **Average** in the **Aggregate function** drop-down.
 
-![](../assets/workflow-enrichment5.png)
+Use the **Label** and **Alias** fields of your attribute in order to make it more understandable as shown below.
+
+![](../assets/workflow-enrichment5bis.png)
 
 #### Define the filters{#collection-filters}
 
 Here, we define the maximum value for the enrichment attribute. We filter out items that are greater than 100$. [Learn how to work with the query modeler](../../query/query-modeler-overview.md)
 
-1. Click **Edit filters**.
-1. Add the two following filters: **Total amount** exists AND **Total amount** is less than 100. The first one filters NULL values as they would appear as the greatest value.
+1. Click **Create filters**.
+1. Add the two following filters: **Price** exists AND **Price** is less than 100. The first one filters NULL values as they would appear as the greatest value.
 1. Click **Confirm**.
 
-![](../assets/workflow-enrichment6.png)
+![](../assets/workflow-enrichment6bis.png)
 
 #### Define the sorting{#collection-sorting}
 
@@ -198,7 +246,7 @@ We now need to apply sorting in order to retrieve the three **latest** purchases
 1. Click **Confirm**. 
 1. Select **Descending** from the **Sort** drop-down.
 
-![](../assets/workflow-enrichment7.png)
+![](../assets/workflow-enrichment7bis.png)
 
 ### Enrichment with linked data {#link-example}
 

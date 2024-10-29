@@ -59,6 +59,11 @@ breadcrumb-title: Campaign Web User Interface
     + [Create a direct mail delivery](direct-mail/create-direct-mail.md)
     + [Design the extraction file ](direct-mail/content-direct-mail.md)
     + [Preview and send a direct mail delivery ](direct-mail/send-direct-mail.md)
+  + Transactional messages {#transactional-messages}
+    + [Get started with transactional messages](transactional-messaging/transactional.md)
+    + [Create a transactional message](transactional-messaging/create-transactional.md)
+    + [Validate your transactional message](transactional-messaging/validate-transactional.md)
+    + [Monitor transactional messages](transactional-messaging/monitor-transactional.md)
   + [Add offers to your messages](msg/offers.md)
   + [Send messages to your subscribers](msg/send-to-subscribers.md)
   + [Configure delivery settings](advanced-settings/delivery-settings.md)
@@ -212,4 +217,5 @@ breadcrumb-title: Campaign Web User Interface
   + [Manage templates with Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
 + Configuration {#conf}
   + [Configure custom fields](administration/custom-fields.md)
+  + [ Configure external accounts](administration/external-account.md)
 + [Campaign v8 (console) documentation >](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)

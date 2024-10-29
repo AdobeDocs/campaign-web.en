@@ -42,21 +42,27 @@ The toolbar located in the upper-right corner of the canvas provides options to 
 
 ## Manage activities {#manage}
 
-When adding activities, action buttons are available in the properties pane, allowing you to perform multiple operations. You can:
+When adding activities, action buttons are available in the properties pane, allowing you to perform multiple operations.
+
+![](assets/activity-action.png){zoomable="yes"}
+
+You can:
 
 * **Delete** the activity from the canvas.
 * **Disable/Enable** the activity. When the workflow is executed, disabled activities and the following activities on the same path are not executed and the workflow is stopped.
-* **Copy** the activity. See [this section](#copy).
-* Access the activity's **Logs and tasks**.
 * **Pause/Resume** the activity. When the workflow is executed, it pauses at the paused activity. The corresponding task as well as all those that follow it in the same path are not executed.
-
-![](assets/activity-action.png){zoomable="yes"}{width="50%"}
+* **Copy** the activity. See [this section](#copy).
+* **Move** an activity and all its child nodes to another transition. See [this section](#move)
+* Access the activity's **Execution options**.
+* Access the activity's **Logs and tasks**.
 
 Several **Targeting** activities, such as **Combine** or **Deduplication**, allow you to process the remaining population and include it into an additional outbound transition. For example, if you're using a **Split** activity, the complement consists of the population that did not match any of the previously defined subsets. To use this capability, activate the **Generate complement** option. 
 
 ![](assets/workflow-split-complement.png)
 
-## Copy activities {#copy}
+## Move or copy activities {#move-copy}
+
+### Copy-paste activities {#copy}
 
 You can copy workflow activities and paste them in any worflow. The destination workflow can be in a different browser tab. 
 
@@ -66,13 +72,27 @@ To copy activities, you have two choices:
 
     ![](assets/workflow-copy.png){zoomable="yes"}{width="70%"}
 
-* copy multiple acivities using the toolbar button.
+* copy multiple activities using the toolbar button.
 
     ![](assets/workflow-copy-2.png){zoomable="yes"}{width="70%"}
 
 To paste the copied activities, click the **+** button on a transition and select "Paste X activity". 
 
 ![](assets/workflow-copy-3.png){zoomable="yes"}{width="50%"}
+
+### Move activities and their child nodes {#move}
+
+Journey Optimizer allows you to move an activity, along with the entire content of its child nodes (including all transitions and activities within it) to the end of another transition within the same workflow.
+
+This process disconnects the activity and everything in its outbound transition from the initial location, moving it to the new target transition.
+
+To move an activity:
+
+1. Select the activity you wish to move.
+1. In the activity's properties pane, click the **Move** button.
+1. Select the transition where you want to place the activity and its outbound transition, then confirm.
+
+![](assets/activity-move.png)
 
 ## Execution options {#execution}
 

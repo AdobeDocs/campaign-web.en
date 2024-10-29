@@ -12,6 +12,75 @@ exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 
 Adobe Campaign Web user interface releases operate on a continuous delivery model which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
+## October release {#24-10-release}
+
+**Release date**: Oct 29, 2024
+
+The following features and improvements are available starting October release.
+
+### Features
+
+<table>
+<thead>
+<tr>
+<th><strong>External accounts</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You now have the ability to set up and manage external accounts directly through Adobe Campaign Web User Interface. This new feature makes it simple to configure different types of external accounts, such as bounce emails (POP3) or execution instances.</p>
+<p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Transactional messaging</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You now have the ability to create and monitor transactional messages in Campaign Web user interface. Transactional messaging is a specialized module in Adobe Campaign designed to handle triggered messages. These messages are generated automatically in response to events coming from information systems. Common examples of such events include clicking on buttons or links, cart abandonment, requesting product availability alerts, account creation or modification, etc.</p>
+<p>For more information, refer to the <a href="../transactional-messaging/transactional.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--table>
+<thead>
+<tr>
+<th><strong>External deliveries</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now define External deliveries, and External delivery templates, in Campaign web user interface. With this mode, messages are generated in an input file which can be shared with your external provider. The External delivery mode is the default mode for the direct mail channel.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+
+### Improvements
+
+* **Workflow activities** - You can now move an activity and all its child nodes from a transition to another within a workflow. A dedicated **Move** button is available in the activity's properties pane to perform this. [Learn more](../workflows/orchestrate-activities.md#move)
+
+* **Workflow enrichment activity**
+
+    * You can now define an Alias and a Label when creating a new field in the **Enrichment** activity. [Learn more](../workflows/activities/enrichment.md#collection-settings)
+    * You can now add offers for each profile in the **Enrichment** activity. [Learn more](../workflows/activities/enrichment.md##add-offers)
+
+* **Distribution of values** - When accessing the list of fields for personalization, you can now check how values are distributed for each field. A dedicated popup window shows the number and percentage for each value. [Learn more](../query/build-query.md#distribution-values-query)
+
+
 ## September updates {#9-2024}
 
 <table>
@@ -33,13 +102,11 @@ Adobe Campaign Web user interface releases operate on a continuous delivery mode
 </tbody>
 </table>
 
-## August release notes {#24-8-release}
+## August release {#24-8-release}
 
 **Release date**: Sept 3, 2024
 
 The following features and improvements are available starting August release.
-
-* **Distribution of values** - When accessing the list of fields for personalization, you can now check how values are distributed for each field. A dedicated popup window shows the number and percentage for each value. [Learn more](../query/build-query.md#distribution-values-query)
 
 * **SMTP parameters** - SMTP settings are now available in the email delivery settings. [Learn more](../advanced-settings/delivery-settings.md#smtp)
 

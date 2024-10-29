@@ -107,6 +107,17 @@ Learn how to create and send offers in emails and SMS in [this section](../msg/o
 
 * **Reports** - The **Report** entry offers a consolidated overall summary of traffic and engagement metrics for each channel within your Campaign environment. These reports consist of various widgets, each offering a distinct perspective on your campaign or delivery performance. Learn more in [this section](../reporting/global-reports.md).
 
+### Administration {#left-nav-admin}
+
+
+* **Audit trail** - The **Audit trail** entry provides users with full visibility into all modifications made to important entities within your instance, typically those that significantly impact a smooth operation of the instance. [Learn more](../reporting/audit-trail.md)
+
+* **External accounts** - Create new external accounts using Web User Interface to meet your specific needs and ensure seamless data transfers. [Learn more](../administration/external-account.md)
+
+* **Schemas** - Custom fields are additional attributes added to the out-of-the-box schemas through the Adobe Campaign console. [Learn more](../administration/custom-fields.md)
+
+* **Delivery Alerting** - Delivery Alerting is an alert management system that enables groups of users to automatically receive email notifications with information on their delivery executions. [Learn more](../msg/delivery-alerting.md)
+
 <!--
 ## Contextual Help {#user-interface-help} 
 
@@ -311,77 +322,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 
-<!-- transac messages-->
 
->[!CONTEXTUALHELP]
->id="acw_transacmessages"
->title="Transactional Messaging"
->abstract="Transactional Messaging"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_properties"
->title="Transactional Messaging properties"
->abstract="Transactional Messaging properties"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_email_properties"
->title="Transactional Messaging Email properties"
->abstract="Transactional Messaging Email properties"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_sms_properties"
->title="Transactional Messaging SMS properties"
->abstract="Transactional Messaging SMS properties"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_push_properties"
->title="Transactional Messaging Push properties"
->abstract="Transactional Messaging Push properties"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_mobileapp"
->title="Transactional Messaging Mobile App"
->abstract="Transactional Messaging Mobile App"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_event"
->title="Transactional Messaging event"
->abstract="Transactional Messaging event"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_context"
->title="Transactional Messaging context"
->abstract="Transactional Messaging context"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_content"
->title="Transactional Messaging content"
->abstract="Transactional Messaging content"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_personalization"
->title="Transactional Messaging personalization"
->abstract="Transactional Messaging personalization"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_exclusionlogs"
->title="Transactional Messaging exclusion logs"
->abstract="Transactional Messaging exclusion logs"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_addcontext"
->title="Transactional Messaging context"
->abstract="Transactional Messaging context"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_eventhistory"
->title="Transactional Messaging event history"
->abstract="Transactional Messaging event history"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_eventhistory_preview"
->title="Transactional Messaging event history preview"
->abstract="Transactional Messaging event history preview"
 
 <!--about-->
 
