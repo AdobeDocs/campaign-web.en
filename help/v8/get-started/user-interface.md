@@ -36,6 +36,26 @@ In addition, you can access Adobe Campaign Web key help pages from the **Learnin
 ### About link  {#user-interface-about}
 
 
+>[!CONTEXTUALHELP]
+>id="acw_about"
+>title="About page"
+>abstract="The About page provides details about your Adobe Campaign instance"
+
+>[!CONTEXTUALHELP]
+>id="acw_about_instance"
+>title="About Instance"
+>abstract="The Instance section provides key information about your console client, including both the version and the associated build number"
+
+>[!CONTEXTUALHELP]
+>id="acw_about_web"
+>title="About Web"
+>abstract="The Web section displays the version of your Campaign Web user interface, with the last update date of it, if available."
+
+>[!CONTEXTUALHELP]
+>id="acw_about_packages"
+>title="About Installed Packages"
+>abstract="The Installed packages section lists all the modules, features and integrations present on your instance."
+
 At the bottom of the page, the **[!UICONTROL About]** link provides details about your Adobe Campaign instance. those information are in read-only mode.
 
 ![](assets/about-link.png){zoomable="yes"}
