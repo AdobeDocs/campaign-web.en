@@ -82,6 +82,8 @@ The following features and improvements are available starting October release.
 
 * **Version and system info** - You can now access details about your instance versions, both for the client console and the Web User Interface. This new section also lists all the built-in packages installed in your environment. [Learn more](../get-started/user-interface.md#user-interface-about)
 
+* **Lists** - You can now easily reorder the values of a list. [Learn more](../get-started/work-with-folders.md)
+
 
 ## September updates {#9-2024}
 
