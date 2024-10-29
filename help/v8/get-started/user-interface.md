@@ -388,10 +388,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Select external database"
 >abstract="Schema"
 
->[!CONTEXTUALHELP]
->id="acw_schema_add_tables"
->title="Add tables"
->abstract="Schema"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_logs_tasks"
