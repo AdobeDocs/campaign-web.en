@@ -59,6 +59,11 @@ breadcrumb-title: Campaign Web User Interface
     + [Create a direct mail delivery](direct-mail/create-direct-mail.md)
     + [Design the extraction file ](direct-mail/content-direct-mail.md)
     + [Preview and send a direct mail delivery ](direct-mail/send-direct-mail.md)
+  + Transactional messages {#transactional-messages}
+    + [Get started with transactional messages](transactional-messaging/transactional.md)
+    + [Create a transactional message](transactional-messaging/create-transactional.md)
+    + [Validate your transactional message](transactional-messaging/validate-transactional.md)
+    + [Monitor transactional messages](transactional-messaging/monitor-transactional.md)
   + [Add offers to your messages](msg/offers.md)
   + [Send messages to your subscribers](msg/send-to-subscribers.md)
   + [Configure delivery settings](advanced-settings/delivery-settings.md)
