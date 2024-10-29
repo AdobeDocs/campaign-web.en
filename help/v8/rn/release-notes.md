@@ -38,7 +38,7 @@ The following features and improvements are available starting October release.
 </table>
 
 
-<table>
+<!--table>
 <thead>
 <tr>
 <th><strong>External deliveries</strong><br/></th>
@@ -48,11 +48,10 @@ The following features and improvements are available starting October release.
 <tr>
 <td>
 <p>You can now define External deliveries, and External delivery templates, in Campaign web user interface. With this mode, messages are generated in an input file which can be shared with your external provider. The External delivery mode is the default mode for the direct mail channel.</p>
-<!--p>For more information, refer to the <a href="../email/generative-gs.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 
 ### Improvements
@@ -60,8 +59,9 @@ The following features and improvements are available starting October release.
 * **Workflow activities** - You can now copy and paste activities from a workflow to another.
 
 * **Workflow enrichment activity**
-    * Alias and label are available when creating a new field in the enrichment activity. [Learn more](../workflows/activities/enrichment.md#collection-settings)
-    * The Enrichment activity now allows you to add offers for each profile. [Learn more](../workflows/activities/enrichment.md##add-offers)
+
+    * You can now define an Alias and a label when creating a new field in the enrichment activity. [Learn more](../workflows/activities/enrichment.md#collection-settings)
+    * You can now add offers for each profile in the Enrichment activity. [Learn more](../workflows/activities/enrichment.md##add-offers)
 
 * **Distribution of values** - When accessing the list of fields for personalization, you can now check how values are distributed for each field. A dedicated popup window shows the number and percentage for each value. [Learn more](../query/build-query.md#distribution-values-query)
 
