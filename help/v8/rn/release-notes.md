@@ -14,7 +14,7 @@ Adobe Campaign Web user interface releases operate on a continuous delivery mode
 
 Changes and improvements available with previous releases are listed [in this page](release-notes-24.md).
 
-## October release {#24-10-release}
+## October '24 release {#24-10-release}
 
 **Release date**: Oct 29, 2024
 
