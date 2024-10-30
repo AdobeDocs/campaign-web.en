@@ -41,6 +41,17 @@ This dashboard shows all the available content templates as a list. You can filt
 
 From the list, you can edit, duplicate, or delete existing content templates. Use the button on the upper section to create a content template.
 
+### Content template in read-only mode {#template-readonly}
+
+Access rights may be applied to content templates.
+
+If you do not have editing permissions for a particular content template, the content template is displayed in **read-only mode**. In this case, the **[!UICONTROL Edit content]** button is replaced with the  **[!UICONTROL View content]** button, allowing you to view the template without making any changes.
+
+![](assets/template-readonly.png){zoomable="yes"}
+
+As shown below, all features icons are deactivated, limiting interaction to viewing only.
+
+![](assets/template-readonly-view.png){zoomable="yes"}
 
 ## Create content templates {#create-content-templates}
 
