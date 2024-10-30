@@ -345,6 +345,8 @@ To add a variable, browse to the **[!UICONTROL Variables]** tab as shown below.
 
 ![](assets/variables-tab.png){zoomable="yes"}
 
-Click the **[!UICONTROL Add Variables]** button to enter the details of your variable, then click **[!UICONTROL Confirm]** to save your changes.
+Click the **[!UICONTROL Add Variables]** button to enter the details of your variable. You can add directly its value or use an expression for it by activating the checkbox **[!UICONTROL Value is the result of an expression]**. Then click **[!UICONTROL Confirm]** to save your changes.
 
 ![](assets/variables-add.png){zoomable="yes"}
+
+Learn more about [using variables for personalization](../personalization/personalize.md#variables-personalization) and [using variables for dynamic content](../personalization/conditions.md#variables-conditional).

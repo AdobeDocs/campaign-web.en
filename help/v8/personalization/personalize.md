@@ -10,9 +10,17 @@ exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 
 # Personalize your content {#add-personalization}
 
-You can personalize any delivery by using the expression editor, which is accessible in fields with the **[!UICONTROL Open personalization dialog]** icon, such as the subject line, email links, and text/button content components. [Learn how to access the expression editor](gs-personalization.md/#access)
+Personalization of delivery content is a key feature that allows you to tailor messages to individual recipients, making communication more relevant and engaging. 
 
-## Personalization syntax {#syntax}
+In Adobe Campaign, by using [profile data](#data-personalization), such as the profile's name, location, or past interactions, and specific [variables of your delivery](#variables-personalization), you can dynamically customize elements like text, images and offers in your communication. 
+
+The delivery personalization not only enhances the user experience but also improves engagement rates, leading to higher conversion and customer satisfaction. 
+
+## Using profile data for personalization {#data-personalization}
+
+You can personalize any delivery with profile data by using the expression editor, which is accessible in fields with the **[!UICONTROL Open personalization dialog]** icon, such as the subject line, email links, and text/button content components. [Learn how to access the expression editor](gs-personalization.md/#access)
+
+### Personalization syntax {#syntax}
 
 Personalization tags follow a specific syntax: `<%= table.field %>`. For example, to insert the recipient's last name from the recipient table, use the `<%= recipient.lastName %>` syntax.
 
@@ -20,7 +28,7 @@ During the delivery preparation process, Adobe Campaign automatically interprets
 
 When uploading contacts from an external file for a standalone email delivery, all fields in the input file are available for personalization. The syntax is as follows: `<%= dataSource.field %>`. 
 
-## Add personalization tags {#add}
+### Add personalization tags {#add}
 
 To add personalization tags into a delivery, follow these steps:
 
@@ -50,3 +58,20 @@ To add personalization tags into a delivery, follow these steps:
     ![](assets/perso-preview1.png){zoomable="yes"}{width="800" align="center"}
 
     ![](assets/perso-preview2.png){zoomable="yes"}{width="800" align="center"}
+
+## Using variables for personalization {#variables-personalization}
+
+You can also use variables to personalize your delivery.
+Learn more about [adding variables to a delivery](../advanced-settings/delivery-settings.md#variables-delivery). 
+
+For example, we have the variable `deliveryType` defined as below.
+
+![](assets/variables-deliveryType.png){zoomable="yes"}
+
+This variable can be used in the content of the delivery, by using the **[!UICONTROL Add Personalization]** icon and the expression `<%= variables.deliveryType %>` for our example.
+
+![](assets/variables-perso.png){zoomable="yes"}
+
+You can check the use of your variable with **[!UICONTROL Simulate Content]** button. 
+
+![](assets/variables-simulate.png){zoomable="yes"}
