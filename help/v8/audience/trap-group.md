@@ -6,12 +6,6 @@ exl-id: 48c34581-8825-4798-b24e-c462303f7645
 ---
 # Use a trap group {#trap-group}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="Trap group"
->abstract="You can use a trap group to include specific addresses in your deliveries to monitor and verify the distribution process by targeting profiles who do not match the defined target criteria."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
-
 A **[!UICONTROL trap group]** (also known as **[!UICONTROL Seed list]**) is used to include specific addresses in your deliveries to monitor and verify the distribution process by targeting profiles who do not match the defined target criteria. This way, recipients who are out of the delivery scope can receive the delivery, as any other target recipient would.
 
 A **[!UICONTROL trap group]** is a group of **[!UICONTROL seed addresses]**, named **[!UICONTROL Test profile]** on Campaign web user interface.

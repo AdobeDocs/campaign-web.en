@@ -10,11 +10,16 @@ description: About transactional messaging with Adobe Campaign Web
 >title="Transactional messaging"
 >abstract="Transactional messaging is a specialized module in Adobe Campaign designed to handle triggered messages."
 
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="Transactional messaging"
+>abstract="Transactional messaging is a specialized module in Adobe Campaign designed to handle triggered messages. These messages are generated automatically in response to events coming from information systems."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
+
 <!-- >>[!CONTEXTUALHELP]
 >id="acw_transacmessages_exclusionlogs"
 >title="Transactional messaging exclusion logs"
 >abstract="Transactional messaging exclusion logs" -->
-
 
 Transactional messaging is a specialized module in Adobe Campaign designed to handle triggered messages. These messages are generated automatically in response to events coming from information systems. Common examples of such events include clicking on buttons or links, cart abandonment, requesting product availability alerts, account creation or modification, etc.
 

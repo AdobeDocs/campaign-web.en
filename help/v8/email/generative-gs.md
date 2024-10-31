@@ -7,7 +7,7 @@ exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 # Work with the AI Assistant Content Accelerator  {#generative-gs}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
+>id="acw_homepage_welcome_rn3"
 >title="AI Assistant Content Accelerator"
 >abstract="AI Assistant makes the creation and execution of marketing campaigns across channels like Email, SMS and Push intuitive, simple and hassle-free while saving time, improving efficiency, and driving better results."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"

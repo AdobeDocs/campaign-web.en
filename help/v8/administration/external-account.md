@@ -4,6 +4,14 @@ description: Learn how to configure external accounts
 ---
 # Configure external accounts {#external-accounts}
 
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn2"
+>title="External accounts"
+>abstract="You can now connect to additional platforms or customize the connections to fit your workflow, and easily create new external accounts to meet your specific needs and ensure seamless data transfers."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
+
+
 >[!AVAILABILITY]
 >
 > Note that external accounts are currently available only for Bounce mails (POP3) and the Execution instance, with additional account types to be added in the future.

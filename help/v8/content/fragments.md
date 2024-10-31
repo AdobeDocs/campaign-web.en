@@ -7,7 +7,7 @@ exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
 # Get started with content fragments {#gs-fragments}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
+>id="acw_homepage_welcome_rn4"
 >title="Content fragments"
 >abstract="You can now create and use content fragments. A content fragment is a reusable component that can be referenced in one or more messages. When modifying a fragment, every content using it is updated."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"

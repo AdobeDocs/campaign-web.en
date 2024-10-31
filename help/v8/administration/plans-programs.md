@@ -6,12 +6,6 @@ exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
 ---
 # Plans and programs {#plan-and-programs}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="Plans and programs"
->abstract="You can now configure your folder hierarchy for marketing plans and programs in Campaign Web user interface."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
-
 Adobe Campaign allows you to configure your folder hierarchy for marketing plans and programs.
 
 To better organize them, Adobe recommends the following hierarchy: Plan `>` Programs `>` Campaigns
