@@ -2,6 +2,7 @@
 audience: end-user
 title: Transactional messaging
 description: About transactional messaging with Adobe Campaign Web
+exl-id: 90830dca-acff-4aa3-a88b-1005e349cf52
 ---
 # About Transactional messaging {#transactional-messaging}
 

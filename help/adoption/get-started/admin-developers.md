@@ -3,8 +3,8 @@ title: Get started with Adobe Campaign v8 for administrators and developers.
 description: This tutorial gives an overview of the key administrative and data management functionality of Campaign v8. It is targeted for administrators and the technical marketer migrating from Campaign Standard to Campaign v8.
 role: Admin, Developer
 level: Beginner, Experienced
+exl-id: 1554f85f-22e1-4b51-a916-194ea0d24816
 ---
-
 # Get started for admin & developers {#acs-gs-admin}
 
 This page gives an overview of the key administrative and data management functionality of Campaign v8. It is for administrators and technical marketers transitioning from Campaign Standard to Campaign v8.
@@ -299,4 +299,3 @@ As a Campaign Standard user migrating to Campaign v8, the following applies to y
     Note that Campaign can also be integrated with Adobe Experience Manager 6.5. To configure this integration, refer to [this documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"}.
 * If your Campaign Standard environment was integrated with **Triggers**, you must set up and configure this integration in Campaign v8 as detailed in [this page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-triggers){target="_blank"}.
 * If your Campaign Standard environment was integrated with **Adobe Target**, you must set up and configure this integration in Campaign v8 as detailed in [this page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-at){target="_blank"}.
-

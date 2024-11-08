@@ -2,6 +2,7 @@
 audience: end-user
 title: Create transactional messages
 description: Learn how to create a transactional message in Campaign Web User Interface
+exl-id: 74e468f5-d9c3-4470-8ff2-68648b5f396f
 ---
 # Create transactional messages
 

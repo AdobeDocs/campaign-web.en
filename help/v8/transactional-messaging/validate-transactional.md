@@ -2,6 +2,7 @@
 audience: end-user
 title: Validate transactional messages
 description: Learn how to validate a transactional message in Campaign Web User Interface
+exl-id: 4a24792f-b9f4-4224-b3a8-75f6969b64da
 ---
 # Validate transactional messages
 

@@ -1,6 +1,7 @@
 ---
 title: External account
 description: Learn how to configure external accounts
+exl-id: e37d6cb0-f8fa-4f1c-9cdd-46f9666c2d18
 ---
 # Configure external accounts {#external-accounts}
 

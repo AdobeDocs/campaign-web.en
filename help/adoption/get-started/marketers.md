@@ -3,8 +3,8 @@ title: Get started with Adobe Campaign v8 for marketers
 description: Discover key functionality of Campaign v8. It is for marketers migrating from Campaign Standard to Campaign v8.
 role: User
 level: Beginner, Experienced
+exl-id: 514da15d-325b-4d28-9a58-50c1ae2e4925
 ---
-
 # Get started for marketers {#acs-gs-marketers}
 
 This guide gives an overview of the key functionalities of Campaign v8, for marketers transitioning from Campaign Standard to Campaign v8.

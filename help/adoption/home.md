@@ -2,6 +2,7 @@
 keywords: Campaign Classic;home;popular topics
 description: Campaign Standard users transitioning to Campaign v8, learn how to get started.
 title: Adobe Campaign Adoption Guide
+exl-id: 1adffb16-2373-4ad4-8009-b53ff7a9c425
 ---
 # Adobe Campaign v8 Adoption Guide {#campaign-adoption}
 
@@ -87,4 +88,3 @@ Understand the experience differences between Adobe Campaign Standard and Adobe 
 ## Additional resources
 
 [Adobe Campaign v8 Product Description](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Adobe Campaign Web user interface documentation](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html){target="_blank"} - [Adobe Campaign Client Console documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home){target="_blank"} - [Client Console Tutorials](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html){target="_blank"} - [[!DNL Adobe Campaign] automation guide](https://experienceleague.adobe.com/docs/campaign/automation/home.html){target="_blank"} - [Control Panel for Campaign v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html){target="_blank"}
-

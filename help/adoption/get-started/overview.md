@@ -3,8 +3,8 @@ title: Get started with Adobe Campaign v8 after transitioning from Campaign Stan
 description: Learn steps required to get started with your new Campaign v8 application
 role: User, Admin, Developer
 level: Beginner
+exl-id: 39d1f1b6-626b-48a2-92c3-9b593a377d66
 ---
-
 # From Campaign Standard to v8 {#ac-acs}
 
 Welcome to Adobe Campaign v8!
@@ -224,4 +224,3 @@ Access to the relevant reference guide for your role to discover the new user ex
 Adobe constantly evaluates product capabilities to identify older features that should be replaced with more modern alternatives to improve overall customer value, always under careful consideration of backward compatibility.
 
 Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features).-->
-

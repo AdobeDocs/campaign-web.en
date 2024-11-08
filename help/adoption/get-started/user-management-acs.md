@@ -3,6 +3,7 @@ title: Migration of technical users to Adobe Developer console
 description: Learn how to migrate user access management from Campaign Standard to Campaign V8
 feature: Technote
 role: Admin
+exl-id: a7f333ba-0b84-47de-8f91-b6c8f3f3322a
 ---
 # User access management from Campaign Standard to Campaign V8 {#user-management-acs}
 
@@ -102,11 +103,3 @@ Below is a list of Campaign Standard security group mappings that have not been 
 * Adobe Experience Manager application managers   
 
 * Relay Account
-  
- 
-
-  
-
-  
-
- 

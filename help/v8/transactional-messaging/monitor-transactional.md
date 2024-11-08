@@ -2,6 +2,7 @@
 audience: end-user
 title: Monitor transactional messages
 description: Learn how to monitor a transactional message in Campaign Web User Interface
+exl-id: 40dfd1da-e1ec-4161-9be5-f2f10425687d
 ---
 # Monitor transactional messages
 
