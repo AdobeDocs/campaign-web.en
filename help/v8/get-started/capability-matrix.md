@@ -171,6 +171,11 @@ Campaign configuration and connection to external systems are restricted to adva
 
 ## Approvals {#approvals-capabilities}
 
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_approval"
+>title="Approvals management"
+>abstract="Approvals management is only available from the client console. "
+
 Campaign Web user interface does not surface approval management for content, deliveries, workflows, campaigns and targets. They are only available in the client console.
 
 Learn how to manage approvals in workflows in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/executing-a-workflow/define-approvals.html){target="_blank"}.
