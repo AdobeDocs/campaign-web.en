@@ -351,14 +351,34 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Execution inititialization script"
 >abstract="Execution inititialization script"
 
-<!-- IDs -->
+<!-- Schema edit custom fields -->
 
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields"
->title="Edit custom attributes"
->abstract="Edit custom attributes"
+>title="Edit custom detail"
+>abstract="Edit custom detail"
 
+>[!CONTEXTUALHELP]
+>id="acw_schema_editcustomfields_separatorproperties"
+>title="Separator properties"
+>abstract="Separator properties"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_editcustomfields_settings"
+>title="Attribute settings"
+>abstract="Attribute settings"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_editcustomfields_settings_general"
+>title="General"
+>abstract="General"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_editcustomfields_settings_layout"
+>title="Layout"
+>abstract="Layout"
 
 
 <!--Schema-->
