@@ -374,6 +374,10 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="General"
 >abstract="General"
 
+>[!CONTEXTUALHELP]
+>id="acw_schema_editcustomfields_settings_link"
+>title="Link properties"
+>abstract="LaLink propertiesyout"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_layout"
