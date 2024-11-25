@@ -17,11 +17,15 @@ The Campaign Web user interface allows you to create, design, and publish landin
 
 ## Access landing pages {#access-landing-pages}
 
-To access the landing page list, select **[!UICONTROL Campaign management]** > **[!UICONTROL Landing pages]** from the left menu.
+To access the landing page list, select **[!UICONTROL Content management]** > **[!UICONTROL Landing pages]** from the left menu.
 
 ![](assets/lp-inventory.png){zoomable="yes"}
 
-The **[!UICONTROL Landing pages]** inventory displays all the created items. You can filter them using the **[!UICONTROL Show filters]** button. You can restrict the results to a specific [folder](../get-started/permissions.md#folders) using the drop-down list, or add rules using the [query modeler](../query/query-modeler-overview.md).
+The **[!UICONTROL Landing pages]** inventory displays all the created items. You can filter them using the **[!UICONTROL Show filters]** button.
+
+* You can filter on the items you created or modified.
+
+* You can restrict the results to a specific [folder](../get-started/permissions.md#folders) using the drop-down list, or add rules using the [query modeler](../query/query-modeler-overview.md).
 
 ![](assets/lp-inventory-filter.png){zoomable="yes"}
 
