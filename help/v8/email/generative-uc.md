@@ -1,6 +1,7 @@
 ---
 title: AI Assistant for Content Accelerator use cases
 description: Learn through use cases how to use AI Assistant for Content Accelerator
+exl-id: ead51ef0-f7ba-4bc4-8d4a-f6a6d1df6a0f
 ---
 # AI Assistant for Content Accelerator use cases {#generative-uc}
 
