@@ -112,6 +112,7 @@ breadcrumb-title: Campaign Web User Interface
     + [Email generation with AI](email/generative-content.md)
     + [SMS generation with AI](email/generative-sms.md)
     + [Push notification generation with AI](email/generative-push.md)
+    + [AI Assistant use cases](email/generative-uc.md)
 + Landing pages {#landing-pages}
   + [Get started with landing pages](landing-pages/get-started-lp.md)
   + [Create and publish a landing page](landing-pages/create-lp.md)
