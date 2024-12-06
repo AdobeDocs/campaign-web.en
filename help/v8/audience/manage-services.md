@@ -23,7 +23,7 @@ Several services can be defined in parallel, for example: newsletters for specif
 
 To access subscription services available for your platform, follow the steps below.
 
-1. Browse to the **[!UICONTROL Subscription services]** menu on the left navigation rail.
+1. Browse to the **[!UICONTROL Subscription services]** menu on the left navigation rail, under **[!UICONTROL Customer management]**.
 
     ![](assets/service-list.png){zoomable="yes"}
 
