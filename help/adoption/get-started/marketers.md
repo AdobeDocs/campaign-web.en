@@ -176,7 +176,7 @@ Useful links:
     * Learn how to [schedule a stand-alone delivery](../../v8/msg/gs-deliveries.md#gs-schedule)
     * Learn how to [schedule a delivery in a workflow](../../v8/monitor/schedule-sending.md#schedule-a-delivery-in-a-campaign-workflow)
 
-* **ADD offers** - You can add offers to your deliveries in the Adobe Campaign Web user interface. These offers are available from the Offers left menu, which lets you access to the list of offers.  Learn how to [add offers to your messages](../../v8/msg/offers.md)
+* **Add offers** - You can add offers to your deliveries in the Adobe Campaign Web user interface. These offers are available from the Offers left menu, which lets you access to the list of offers.  Learn how to [add offers to your messages](../../v8/msg/offers.md)
 
 >[!AVAILABILITY]
 >
