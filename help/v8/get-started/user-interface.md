@@ -461,3 +461,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_targetmapping_storage"
 >title="Target Mapping storage"
 >abstract="Target Mapping deny storage"
+
+
+
+<!-- Favorites & recents -->
+
+>[!CONTEXTUALHELP]
+>id="acw_attribute_picker_favorites_recents"
+>title="Favorites & Recents"
+>abstract="Favorites & Recents"
