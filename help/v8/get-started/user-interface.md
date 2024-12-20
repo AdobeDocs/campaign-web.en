@@ -480,3 +480,15 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_options_create"
 >title="Create option"
 >abstract="Create option"
+
+<!-- JavaScript codes -->
+
+>[!CONTEXTUALHELP]
+>id="acw_javascript_codes_list"
+>title="JavaScript codes"
+>abstract="JavaScript codes"
+
+>[!CONTEXTUALHELP]
+>id="acw_javascript_codes_create"
+>title="Create JavaScript code"
+>abstract="Create JavaScript code"
