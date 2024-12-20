@@ -17,6 +17,11 @@ exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 >abstract="Here you can find the total number of profiles within the audience. Click the **Calculate** button to update and recalculate the audience results."
 
 >[!CONTEXTUALHELP]
+>id="acw_audiences_targeting"
+>title="Targeting"
+>abstract="Targeting"
+
+>[!CONTEXTUALHELP]
 >id="acw_audiences_workflow_error_data_execution"
 >title="Audience error"
 >abstract="Audience data is not available. Please wait the end of the workflow execution."
