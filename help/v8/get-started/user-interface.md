@@ -492,3 +492,20 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_javascript_codes_create"
 >title="Create JavaScript code"
 >abstract="Create JavaScript code"
+
+<!-- Enumerations -->
+
+>[!CONTEXTUALHELP]
+>id="acw_enumerations_list"
+>title="Enumerations"
+>abstract="Enumerations"
+
+>[!CONTEXTUALHELP]
+>id="acw_enumerations_properties"
+>title="Properties"
+>abstract="Properties"
+
+>[!CONTEXTUALHELP]
+>id="acw_enumerations_values"
+>title="List of enumeration values"
+>abstract="List of enumeration values"
