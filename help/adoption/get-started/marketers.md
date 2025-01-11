@@ -52,7 +52,9 @@ In Adobe Campaign, a profile is a record stored in the database, serving as a ke
     
     Learn more in the [Get started with Profiles](../../v8/audience/about-recipients.md) documentation.
 
-1. Learn how to [create and manage test profiles](../../v8/audience/test-profiles.md) in Campaign v8.
+1. Learn how to create and manage test profiles in Campaign v8
+
+    >[!VIDEO](https://video.tv.adobe.com/v/3442844?quality=12&learn=on){transcript=true}
 
 ### Manage audiences {#acs-gs-marketers-audiences}
 
