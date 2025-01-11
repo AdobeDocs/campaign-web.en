@@ -318,7 +318,7 @@ In Campaign v8, the detailed steps for creating, testing, and sending a direct m
 1. [Define the extraction file](../../v8/direct-mail/content-direct-mail.md) 
 1. [Preview and send](../../v8/direct-mail/send-direct-mail.md)
 
- >[!VIDEO]([https://video.tv.adobe.com/v/3425867?quality=12&learn=on){transcript=true}
+  >[!VIDEO](https://video.tv.adobe.com/v/3425867?quality=12&learn=on){transcript=true}
 
 ### In-App channel {#acs-gs-marketers-in-app}
 
