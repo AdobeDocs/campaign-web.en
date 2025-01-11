@@ -314,10 +314,11 @@ Direct mail is an offline channel that allows you to produce files to mass deliv
 
 In Campaign v8, the detailed steps for creating, testing, and sending a direct mail delivery are similar to Campaign Standard.
 
-
 1. [Create Direct Mail delivery](../../v8/direct-mail/create-direct-mail.md)
 1. [Define the extraction file](../../v8/direct-mail/content-direct-mail.md) 
 1. [Preview and send](../../v8/direct-mail/send-direct-mail.md)
+
+ >[!VIDEO]([https://video.tv.adobe.com/v/3425867?quality=12&learn=on){transcript=true}
 
 ### In-App channel {#acs-gs-marketers-in-app}
 
