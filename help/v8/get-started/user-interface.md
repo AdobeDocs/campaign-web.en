@@ -509,3 +509,35 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_enumerations_values"
 >title="List of enumeration values"
 >abstract="List of enumeration values"
+
+<!-- Typology rules -->
+
+>[!CONTEXTUALHELP]
+>id="acw_business_rules"
+>title="Business rules"
+>abstract="Business rules"
+
+>[!CONTEXTUALHELP]
+>id="acw_business_rules_rule_set_properties"
+>title="Rule set properties"
+>abstract="Rule set properties"
+
+>[!CONTEXTUALHELP]
+>id="acw_business_rules_rule_set_ip_affinity"
+>title="IP affinity"
+>abstract="IP affinity"
+
+>[!CONTEXTUALHELP]
+>id="acw_business_rules_rule_properties"
+>title="Rule properties"
+>abstract="Rule properties"
+
+>[!CONTEXTUALHELP]
+>id="acw_business_rules_rule_filtering"
+>title="Filtering"
+>abstract="Filtering"
+
+>[!CONTEXTUALHELP]
+>id="acw_business_rules_rule_code"
+>title="Code"
+>abstract="Code"
