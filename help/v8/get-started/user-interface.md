@@ -518,26 +518,26 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Business rules"
 
 >[!CONTEXTUALHELP]
->id="acw_business_rules_rule_set_properties"
->title="Rule set properties"
+>id="acw_business_rules_typology_properties"
+>title="Typology properties"
 >abstract="Rule set properties"
 
 >[!CONTEXTUALHELP]
->id="acw_business_rules_rule_set_ip_affinity"
+>id="acw_business_rules_typology_ip_affinity"
 >title="IP affinity"
 >abstract="IP affinity"
 
 >[!CONTEXTUALHELP]
->id="acw_business_rules_rule_properties"
->title="Rule properties"
+>id="acw_business_rules_typology_rules_properties"
+>title="Typology rule properties"
 >abstract="Rule properties"
 
 >[!CONTEXTUALHELP]
->id="acw_business_rules_rule_filtering"
+>id="acw_business_rules_typology_rules_filtering"
 >title="Filtering"
 >abstract="Filtering"
 
 >[!CONTEXTUALHELP]
->id="acw_business_rules_rule_code"
+>id="acw_business_rules_typology_rules_code"
 >title="Code"
 >abstract="Code"
