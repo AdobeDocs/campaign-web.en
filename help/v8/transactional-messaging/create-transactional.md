@@ -112,6 +112,11 @@ The content of the context depends on the personalization you need.
 >title="Transactional messaging personalization"
 >abstract="Learn how to personalize the transactional messaging content"
 
+>[!CONTEXTUALHELP]
+>id="acw_personalization_editor_event_context"
+>title="Event context"
+>abstract="This menu provides variables from the trigger event that you can leverage to personalize your transactional message content."
+
 Working on the content of a transactional message is like the content creation of a delivery. Click on **[!UICONTROL Open email designer]** or **[!UICONTROL Edit email body]** and select a template content or import you HTML code.
 
 ![](assets/template-content.png){zoomable="yes"}

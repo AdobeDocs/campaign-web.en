@@ -17,6 +17,11 @@ exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
 >title="Define your own content fragments"
 >abstract="A content fragment is a reusable component that can be referenced in one or more messages across campaigns. This capability is used to prebuild multiple custom content blocks that can be used by marketing users to quickly assemble contents in an improved design process. There are two types of content fragments: visual fragments, available in the email designer, and expression fragments in the expression editor."
 
+>[!CONTEXTUALHELP]
+>id="acw_personalization_editor_fragments"
+>title="Add expression fragments"
+>abstract="Expression fragments are pre-defined content blocks which contain a specific rendering that you can insert into your deliveries. For example, you can add a logo, a greeting message, or a link to the mirror page of the message. You can also create your own expression fragments to suit your needs."
+
 ## What are content fragments? {#what}
 
 A content fragment is a reusable component that can be referenced in one or more messages. When modifying a fragment, every content using it is updated. This functionality allows to prebuild multiple custom content blocks that can be used by marketing users to quickly assemble message contents in an improved design process.

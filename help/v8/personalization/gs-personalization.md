@@ -15,7 +15,7 @@ exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_dashboard"
 >title="Personalization"
->abstract="The expression editor allows you to select, arrange, customize and validate all the data to create a customized experience for your content. YOu can personalize your messages to each recipient by leveraging profile data, and create conditional content to adapt your message to each recipient and only show the content that is relevant."
+>abstract="The personalization editor allows you to select, arrange, customize and validate all the data to create a customized experience for your content. You can personalize your messages to each recipient by leveraging profile data, and create conditional content to adapt your message to each recipient and only show the content that is relevant."
 
 As a marketer, it is crucial to target customers who are genuinely interested in your offerings and to engage themby providing effective and relevant content. Given the diverse range of recipients you encounter, creating multiple pieces of marketing content to appeal to different people can be time-consuming and wasteful. This is where dynamic content comes into play.
 

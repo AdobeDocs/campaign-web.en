@@ -26,6 +26,11 @@ In addition to the expression editor, you can leverage a dedicated **conditional
 
 ## Create conditions in the expression editor {#condition-perso-editor}
 
+>[!CONTEXTUALHELP]
+>id="acw_personalization_editor_conditions"
+>title="Conditions"
+>abstract="This menu allows you to leverage helper functions to define conditional content."
+
 To define conditional content for a delivery using the expression editor, follow the steps below. In this example, we want to create conditional content based on the recipients' language (French or English).
 
 1. Open a delivery and navigate to the content editing section.

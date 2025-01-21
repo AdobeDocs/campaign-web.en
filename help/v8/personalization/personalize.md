@@ -10,6 +10,11 @@ exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 
 # Personalize your content {#add-personalization}
 
+>[!CONTEXTUALHELP]
+>id="acw_personalization_editor_add_current_date"
+>title="Add current date"
+>abstract="This menu provides functions related to date formatting that you can leverage to personalize your content."
+
 Personalization of delivery content is a key feature that allows you to tailor messages to individual recipients, making communication more relevant and engaging. 
 
 In Adobe Campaign, by using [profile data](#data-personalization), such as the profile's name, location, or past interactions, and specific [variables of your delivery](#variables-personalization), you can dynamically customize elements like text, images and offers in your communication. 
