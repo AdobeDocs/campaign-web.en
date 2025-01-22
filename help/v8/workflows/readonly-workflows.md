@@ -13,7 +13,7 @@ exl-id: 5eaffe2c-7a9c-4508-8dd1-495cfcf99c59
 
 Some workflows may be in read-only mode. You can see it with :
 
-- The mention **[!UICONTROL **Read-only**]**  near the **[!UICONTROL Settings]** button
+- The mention **[!UICONTROL Read-only]**  near the **[!UICONTROL Settings]** button
 - The action buttons not accessible
 
 ![](assets/readonly-workflow.png){zoomable="yes"}
