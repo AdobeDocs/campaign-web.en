@@ -130,14 +130,14 @@ Whether your delivery is scheduled or not<!--TBC-->, two actions can be performe
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
->title="Sent Metrics"
+>title="Sent"
 >abstract="Total number of messages processed during the delivery analysis."
 >additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/kpis" text="Understand KPIs"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
->title="Errors Metrics"
+>title="Errors"
 >abstract="Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages."
 >additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/kpis" text="Understand KPIs"
 
