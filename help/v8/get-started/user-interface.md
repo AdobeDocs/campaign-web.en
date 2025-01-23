@@ -509,35 +509,3 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_enumerations_values"
 >title="List of enumeration values"
 >abstract="List of enumeration values"
-
-<!-- Typology rules -->
-
->[!CONTEXTUALHELP]
->id="acw_business_rules"
->title="Business rules"
->abstract="Business rules"
-
->[!CONTEXTUALHELP]
->id="acw_business_rules_typology_properties"
->title="Typology properties"
->abstract="Rule set properties"
-
->[!CONTEXTUALHELP]
->id="acw_business_rules_typology_ip_affinity"
->title="IP affinity"
->abstract="Managing affinities with IP addresses enables better control of outgoing SMTP traffic by associating different IP addresses with each type of traffic depending on the typology of its delivery action."
-
->[!CONTEXTUALHELP]
->id="acw_business_rules_typology_rules_properties"
->title="Typology rule properties"
->abstract="Rule properties"
-
->[!CONTEXTUALHELP]
->id="acw_business_rules_typology_rules_filtering"
->title="Filtering"
->abstract="Filtering"
-
->[!CONTEXTUALHELP]
->id="acw_business_rules_typology_rules_code"
->title="Code"
->abstract="Code"

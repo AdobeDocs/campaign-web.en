@@ -33,6 +33,7 @@ breadcrumb-title: Campaign Web User Interface
   + [Access deliveries](msg/gs-deliveries.md)
   + [Create a delivery](msg/create-deliveries.md)
   + [Use delivery templates](msg/delivery-template.md)
+  + [Work with typologies](msg/typologies.md)
   + Emails {#email}
     + [Create your first email](email/create-email.md)
     + [Configure the email content](email/edit-content.md)
