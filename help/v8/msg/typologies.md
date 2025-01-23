@@ -6,8 +6,8 @@ hidefromtoc: yes
 hide: yes
 robots: noindex
 googlebot: noindex
+exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
 ---
-
 # Work with typologies {#typologies}
 
 >[!CONTEXTUALHELP]
