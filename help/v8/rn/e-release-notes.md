@@ -11,31 +11,120 @@ Adobe Campaign Web User interface continuously delivers new features, enhancemen
 
 **Early release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the [release notes](release-notes.md), at the release date.
 
-## August release notes {#24-8-release}
+## January '25 release {#25-1-release}
 
-**Release date**: Sept 3, 2024
+**Release date**: Feb 5, 2025
 
-The following features and improvements are available starting August release.
+The following features and improvements are available starting January release.
 
-**Distribution of values** - When accessing the list of fields for personalization, you can now check how values are distributed for each field. A dedicated popup window shows the number and percentage for each value.
+### Features {#25-1-features}
 
 
-### New features in Limited Availability {#acs-24-8}
+<table>
+<thead>
+<tr>
+<th><strong>Create and use visual fragments</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Visual fragments are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. This feature is now available to all customers running on server build 8.6.4 and above.</p>
+<p>For more information, refer to the <a href="../content/use-visual-fragments.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
->[!AVAILABILITY]
->
->The following capabilities are in Limited Availability (LA). They are restricted to customers migrating **from Adobe Campaign Standard to Adobe Campaign v8**, and cannot be deployed on any other environment.
->
->Refer to the following documentation pages: [Campaign Standard transition to Campaign v8](../rn/acs-migration.md) and [Features for Campaign Standard users](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html){target="_blank"}.
+<table>
+<thead>
+<tr>
+<th><strong>Use a third-party system to send deliveries</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now define External deliveries, and External delivery templates, in Campaign web user interface. With this mode, messages are generated in an input file which can be shared with your external provider. The External delivery mode is the default mode for the direct mail channel.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-* **Branding for Direct Mail** - Technical administrators can now define one or several brands to centralize the parameters that affect a brand's identity. This includes the brand logo, the domain of the landing pages' access URL, or message tracking settings. You can now create these brands and link them to messages or landing pages. This configuration is managed in templates.
+<table>
+<thead>
+<tr>
+<th><strong>Control and filter delivery sending with typologies</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now create typologies and typology rules in Adobe Campaign Web User Interface. A typology is a collection of typology rules which lets you control, filter, and prioritize the sending of deliveries. Typologies validate your deliveries always contain required elements (such as an unsubscription link or a subject line), or filtering rules to exclude groups from your intended target (like unsubscribers, competitors, or non-loyalty customers).</p>
+<p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-* **Subscriptions with Landing pages** - You can now link a landing page to a service, and send a confirmation message when users validate it.
+<table>
+<thead>
+<tr>
+<th><strong>Manage your enumerations</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now create enumerations directly through Adobe Campaign Web User Interface. An enumeration is a list of values suggested by the system to populate fields. Use enumerations to standardize the values of these fields, help with data input or use within queries.</p>
+<p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-* **Visual fragments** - You can now archive visual content fragments.
+<table>
+<thead>
+<tr>
+<th><strong>Create custom options</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now access technical options within Adobe Campaign Web User Interface and create your own custom options to suit your needs. This is particularly useful when working with JavaScript code workflow activities to store intermediate data.</p>
+<p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-* **Landing pages captcha** - You can now add captcha to protect your landing page from spam and abuse caused by bots. This is non-intrusive for your customers since it does not require any interaction from them and is based on interactions with your site.
 
-* **Rest APIs** --  As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html){target="_blank"}.
+<table>
+<thead>
+<tr>
+<th><strong>Define and callJavascript codes</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now create JavaScript codes in Adobe Campaign Web User Interface. This allows you to create reusable functions that can be utilized across workflows, similar to a library.</p>
+<p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Improvements {#25-1-improvements}
+
+* Customize the display of custom fields in the interface:
+    
+    * You can now select additional custom fields to display in the interface
+    * You can now set rules for displaying link-type custom fields, such as restricting list values based on another field's input
+    * You can now arrange fields in the interface with more flexibly: fields can span a single column, or be grouped into subsections for better organization
+    * You can now set specific fields as read-only.
+
+* Recent and Favorites filters: To quickly reuse attributes that are frequently used, you can now add them to favorites. This ensures they are readily accessible for future tasks. In addition to favorites, you can also view and use the most recently selected attributes.
 
 
