@@ -33,6 +33,8 @@ You can make your message content dynamic by inserting JavaScript constructs in 
 
     ![](assets/condition-sample.png){zoomable="yes"}{width="800" align="center"}
 
+➡️ [Discover this feature in video](#video) 
+
 ## Access the expression editor {#access}
 
 Adobe Campaign Web provides an expression editor where you can select, arrange, customize and validate all the data to create a customized experience for your content. The expression editor is available for all channels, in every fields with the **[!UICONTROL Open personalization dialog]** icon, such as the subject line field, or email links and text/button content components.
@@ -54,3 +56,9 @@ Here are some examples on how to access the expression editor depending on the c
 >[!NOTE]
 >
 >In addition to the expression editor, you can also leverage a dedicated conditional content builder when designing an email. [Learn how to build conditional content in emails](conditions.md)
+
+## How-to video {#video}
+
+Learn how to make message content dynamic by using the expression editor to personalize your message or add conditional content.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425795?quality=12)
