@@ -15,6 +15,8 @@ exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
 
 Test profiles are used to send proofs, and validate your message content and settings. These profiles are additional recipients which let you preview and test the personalization and rendering before sending your messages. You can select a test profile when previewing a message content, and send proofs to the test profiles to control and validate your message content and settings.
 
+➡️ [Discover this feature in video](#video) 
+
 <!--Learn more on test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
 The steps to send proofs to test profiles are detailed in [this section](../preview-test/test-deliveries.md#test-profiles).
@@ -99,3 +101,9 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 The test profile you just created is now ready to be used to send a proof. [Learn more](../preview-test/test-deliveries.md#test-profiles)
 
 <!--Use test profiles in Direct mail? cf v7/v8-->
+
+## How-to video {#video}
+
+Learn how to create and manage test profiles using the Campaign Web user interface.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3442844?quality=12)
