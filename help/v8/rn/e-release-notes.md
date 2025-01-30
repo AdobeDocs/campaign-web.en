@@ -103,7 +103,7 @@ The following features and improvements are available starting January release.
 <table>
 <thead>
 <tr>
-<th><strong>Define and callJavascript codes</strong><br/></th>
+<th><strong>Define and call Javascript codes</strong><br/></th>
 </tr>
 </thead>
 <tbody>
