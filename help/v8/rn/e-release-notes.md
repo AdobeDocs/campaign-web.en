@@ -45,7 +45,7 @@ The following features and improvements are available starting January release.
 <tbody>
 <tr>
 <td>
-<p>You can now define External deliveries, and External delivery templates, in Campaign web user interface. With this mode, messages are generated in an input file which can be shared with your external provider. The External delivery mode is the default mode for the direct mail channel.</p>
+<p>You can now define external deliveries and external delivery templates in the Campaign web interface. In this mode, messages are compiled into an input file, which can be shared with your external provider. By default, the external delivery mode is used for the direct mail channel.</p>
 </td>
 </tr>
 </tbody>
@@ -54,13 +54,13 @@ The following features and improvements are available starting January release.
 <table>
 <thead>
 <tr>
-<th><strong>Control and filter delivery sending with typologies</strong><br/></th>
+<th><strong>Create business rules (typology rules)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now create typologies and typology rules in Adobe Campaign Web User Interface. A typology is a collection of typology rules which lets you control, filter, and prioritize the sending of deliveries. Typologies validate your deliveries always contain required elements (such as an unsubscription link or a subject line), or filtering rules to exclude groups from your intended target (like unsubscribers, competitors, or non-loyalty customers).</p>
+<p>You can now create typologies and typology rules in the Adobe Campaign web interface. A typology is a collection of typology rules that help control, filter, and prioritize deliveries. Typologies ensure that your deliveries always contain required elements (such as an unsubscribe link or subject line) and apply filtering rules to exclude specific groups from your target audience (such as unsubscribers, competitors, or non-loyalty customers).</p>
 <img src="assets/do-not-localize/typology.gif">
 <!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
