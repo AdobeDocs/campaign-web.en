@@ -48,7 +48,7 @@ To access the new user interface, you need to be on Adobe Campaign v8.6, and con
 
 +++  I am currently on Adobe Campaign Classic v7 Hybrid or on-premise – what is my path to access the new user interface?
 
-To access the new user interface, you need to be on Adobe Campaign v8.6. The first step is to be licensed on Managed Cloud Services Advanced or Enterprise SKUs and then migrate to the cloud with the help of Adobe Consulting and/or a partner. Please contact your Adobe point of contact. Learn more in the dedicated [Transition Page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/v7-to-v8){target="_blank"}.
+To access the new user interface, you need to be on Adobe Campaign v8.6, and connect to Campaign with your Adobe ID. The first step is to be licensed on Managed Cloud Services Advanced or Enterprise SKUs and then migrate to the cloud with the help of Adobe Consulting and/or a partner. Please contact your Adobe point of contact. Learn more in the dedicated [Transition Page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/v7-to-v8){target="_blank"}.
 +++
 
 +++ Does this mean there is an end of support for Adobe Campaign Classic v7?
