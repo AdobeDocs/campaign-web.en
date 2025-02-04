@@ -22,15 +22,15 @@ To learn about where to get started, visit [this page](../get-started/get-starte
 
 +++ What are new features and capabilities in the new web user interface?
 
-The new user interface in Adobe Campaign v8 brings consistency with Adobe Experience Platform and is designed for marketing efficiency. The new workflow canvas provides an intuitive and advanced workspace for audience composition, workflow management, and content design, and integrated use cases with Adobe Experience Platform native applications like Journey Optimizer and Real-Time CDP.  Spark creativity, increase productivity, and personalize cross-channel campaigns at scale with Gen AI Content Assistant, natively embedded in the WYSIWYG message designer. 
+The new user interface in Adobe Campaign v8 brings consistency with Adobe Experience Platform and is designed for marketing efficiency. The new workflow canvas provides an intuitive and advanced workspace for audience composition, workflow management, and content design, and integrated use cases with Adobe Experience Platform native applications like Journey Optimizer and Real-Time CDP.  Spark creativity, increase productivity, and personalize cross-channel campaigns at scale with AI Assistant Content Accelerator, natively embedded in the WYSIWYG message designer. 
 
-Marketers can use generative AI for full HTML email ideation and text and image generation with refinement and variant suggestions.  New features and capabilities can be reviewed on [this page](../rn/whats-new.md). To learn more about the new interface and see it in action, visit [this page](../get-started/user-interface.md). Additionally, you can visit the [Tutorials pages](https://experienceleague.adobe.com/en/docs/campaign-web-learn/tutorials/overview){target="_blank"} to learn more about the new interface. 
+Marketers can use generative AI for full HTML email ideation and text and image generation with refinement and variant suggestions. New features and capabilities can be reviewed on [this page](../rn/whats-new.md). To learn more about the new interface and see it in action, visit [this page](../get-started/user-interface.md). Additionally, you can visit the [Tutorials](https://experienceleague.adobe.com/en/docs/campaign-web-learn/tutorials/overview){target="_blank"} to learn more about the new interface through a set of how-to videos. 
 
 +++
 
 +++  Can we still use the Campaign Console as we transition to the new web interface? 
 
-The Campaign Client Console can be used in parallel to the new interface. There are, however, capabilities not available in the new user interface (for now). To compare capabilities in the new UI and the Campaign Client Console, visit [this page](../get-started/capability-matrix.md). 
+The Campaign Client Console can be used in parallel to the new interface. There are, however, capabilities not available in the new user interface (for now). To compare capabilities in the new web user interface and the Campaign Client Console, visit [this page](../get-started/capability-matrix.md). 
 
 +++
 
@@ -69,7 +69,7 @@ As for now, all features will be available through the console if not available 
 +++
 
 
-+++ Are there any guardrails, or limitations of the new UI? 
++++ Are there any guardrails, or limitations of the new web user interface? 
 
 Guardrails and limitations can be reviewed in [this page](../get-started/guardrails.md). 
 +++
