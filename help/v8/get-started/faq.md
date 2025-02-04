@@ -1,8 +1,8 @@
 ---
 title: Using AI-powered contextual help in Campaign Web
 description: Ask questions in Campaign Web help popovers
+exl-id: 332db61b-a82d-4bca-a2f5-51557f06120c
 ---
-
 # Frequently Asked Questions
 
 The following section lists frequently asked questions regarding the new Campaign interface. Do you have more questions? Would you like to share your experience or exchange thoughts with your peers? Or, do you have feedback on the learning content for the Adobe team? Join the conversation in the [Adobe Campaign community](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-v7/ct-p/adobe-campaign-classic-community){target="_blank"}.
