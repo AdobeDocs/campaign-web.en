@@ -28,6 +28,7 @@ breadcrumb-title: Campaign Web User Interface
   + [Campaign Web and Client console](get-started/capability-matrix.md)
   + [From Campaign Standard to v8](rn/acs-migration.md)
   + [AI-powered contextual help](get-started/using-ai.md)
+  + [FAQ](get-started/faq.md)
 + Messages and deliveries {#msg}
   + [Get started with messages](msg/gs-messages.md)
   + [Access deliveries](msg/gs-deliveries.md)
