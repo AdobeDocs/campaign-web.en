@@ -71,5 +71,5 @@ As for now, all features will be available through the console if not available 
 
 +++ Are there any guardrails, or limitations of the new web user interface? 
 
-Guardrails and limitations can be reviewed in [this page](../get-started/guardrails.md). 
+Guardrails and limitations for Campaign v8 are listed [here](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/ac-guardrails){target="_blank"}. In addition, specific guardrails apply to workflows, in the web user interface. They can be reviewed in [this page](../get-started/guardrails.md). 
 +++
