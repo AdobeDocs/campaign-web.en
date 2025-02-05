@@ -46,24 +46,24 @@ Get a glimpse of the newest enhancements in Adobe Campaign Web product and docum
 >[!BEGINTABS]
 
 
->[!TAB October '24 release]
+>[!TAB January '25 release]
 
-October release is now live, including Transactional messaging, External accounts, and more improvements.
+January release is now live, including Transactional messaging, External accounts, and more improvements.
 
-[![image](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
+[![Learn more button](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
 
 >[!TAB AI Assistant Content Accelerator]
 
 ✨ Immerse yourself in a hands-on experience with our [AI Assistant Content Accelerator](../v8/email/generative-gs.md) live feature preview, designed to let you explore its features firsthand and fully understand its capabilities. 
 
-[![image](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![Learn more button](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
->[!TAB Distribution of values] 
+>[!TAB FAQ] 
 
-When accessing the list of fields for personalization, you can now check how values are distributed for each field.
+Frequently Asked Questions about Campaign web user interface are listed in a new dedicated page.
 
-[![image](assets/do-not-localize/learn-more-button.svg)](../v8/query/build-query.md#distribution-values-query)
+[![Learn more button](assets/do-not-localize/learn-more-button.svg)](get-started/faq.md)
 
 
 >[!ENDTABS]

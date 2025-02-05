@@ -87,7 +87,7 @@ Choose **[!UICONTROL Delete folder]**.
 
 ## Distribution of values in a folder {#distribution-values-folder}
 
-The distribution of values helps to know the percentage of a value in a column within a table. 
+The distribution of values helps to know the percentage of a value in a column within a table.
 
 To know the distribution of values in a folder, proceed as below :
 

@@ -9,11 +9,15 @@ exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
 
 >[!AVAILABILITY]
 >
->This capability is in Limited Availability (LA). It is restricted to customers migrating **from Adobe Campaign Standard to Adobe Campaign v8**, and cannot be deployed on any other environment.
+>This capability requires an update to Campaign v8.6.4. Learn more in the [Campaign v8 Client console release notes](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/release-notes).
 
-You can use a visual fragment in an [email delivery](../email/get-started-email-designer.md), or in a [content template](../email/use-email-templates.md). Steps are detailed below. [Learn how to create and manage content fragments](fragments.md).
+You can use a visual fragment in an [email delivery](../email/get-started-email-designer.md), or in a [content template](../email/use-email-templates.md). Steps are detailed below.
 
-![](assets/fragments.gif)
+![](assets/do-not-localize/fragments.gif)
+
+>[!NOTE]
+>
+>Learn how to create and manage content fragments in [this section](fragments.md).
 
 ## Use a visual fragment {#use-fragment}
 

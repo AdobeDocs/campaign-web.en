@@ -14,25 +14,95 @@ Adobe Campaign Web user interface releases operate on a continuous delivery mode
 
 Changes and improvements available with previous releases are listed [in this page](release-notes-24.md).
 
-## October '24 release {#24-10-release}
+## January '25 release {#25-1-release}
 
-**Release date**: Oct 29, 2024
+**Release date**: Feb 5, 2025
 
-The following features and improvements are available starting October release.
+The following features and improvements are available starting January release.
 
-### Features
+### Features {#25-1-features}
+
 
 <table>
 <thead>
 <tr>
-<th><strong>External accounts</strong><br/></th>
+<th><strong>Create and use visual fragments</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You now have the ability to set up and manage external accounts directly through Adobe Campaign Web User Interface. This new feature makes it simple to configure different types of external accounts, such as bounce emails (POP3) or execution instances.</p>
-<p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p>
+<p>Visual fragments are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. This feature is now available to all customers running on server build 8.6.4 and above.</p>
+<img src="assets/do-not-localize/visual-fragment.gif">
+<p>For more information, refer to the <a href="../content/use-visual-fragments.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Use a third-party system to send deliveries</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now define external deliveries and external delivery templates in the Campaign web interface. In this mode, messages are compiled into an output file, which can be shared with your external provider. By default, the external delivery mode is used for the direct mail channel.</p>
+<img src="assets/do-not-localize/external-delivery.gif">
+<p>For more information, refer to the <a href="../msg/send-external-deliveries.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Create business rules (typology rules)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now create typologies and typology rules in the Adobe Campaign web interface. A typology is a collection of typology rules that help control, filter, and prioritize deliveries. Typologies ensure that your deliveries always contain required elements (such as an unsubscribe link or subject line) and apply filtering rules to exclude specific groups from your target audience (such as unsubscribers, competitors, or non-loyalty customers).</p>
+<img src="assets/do-not-localize/typology.gif">
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Manage your enumerations</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now create enumerations directly through Adobe Campaign Web User Interface. An enumeration is a list of values suggested by the system to populate fields. Use enumerations to standardize the values of these fields, help with data input or use within queries.</p>
+<img src="assets/do-not-localize/enumerations.gif">
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Create custom options</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now access technical options within Adobe Campaign Web User Interface and create your own custom options to suit your needs. This is particularly useful when working with JavaScript code workflow activities to store intermediate data.</p>
+<img src="assets/do-not-localize/options.gif">
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -42,48 +112,49 @@ The following features and improvements are available starting October release.
 <table>
 <thead>
 <tr>
-<th><strong>Transactional messaging</strong><br/></th>
+<th><strong>Define and call Javascript codes</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Transactional messaging (Message Center) is now available in the Campaign web user interface. This add-on is designed for triggering messages which are generated from events triggered from information systems, and can be: invoice, order confirmation, shipping confirmation, password change, product unavailability notification, account statement, website account creation, etc.</p>
-<p>For more information, refer to the <a href="../transactional-messaging/transactional.md">detailed documentation</a>.</p>
+<p>You can now create JavaScript codes in Adobe Campaign Web User Interface. This allows you to create reusable functions that can be utilized across workflows, similar to a library.</p>
+<img src="assets/do-not-localize/javascript.gif">
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--table>
+
+<table>
 <thead>
 <tr>
-<th><strong>External deliveries</strong><br/></th>
+<th><strong>Landing page generation with the AI Assistant Content Accelerator</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now define External deliveries, and External delivery templates, in Campaign web user interface. With this mode, messages are generated in an input file which can be shared with your external provider. The External delivery mode is the default mode for the direct mail channel.</p>
+<p>The AI Assistant Content Accelerator is now available with your landing page deliveries, enabling you to generate text, images, or complete page layouts.</p>
+<p>For more information on AI Assistant Content Accelerator, refer to the <a href="../email/generative-gs.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 
-### Improvements
 
-* **Workflow activities** - You can now move an activity and all its child nodes from a transition to another within a workflow. A dedicated **Move** button is available in the activity's properties pane to perform this. [Learn more](../workflows/orchestrate-activities.md#move)
 
-* **Workflow enrichment activity**
+### Improvements {#25-1-improvements}
 
-    * You can now define an Alias and a Label when creating a new field in the **Enrichment** activity. [Learn more](../workflows/activities/enrichment.md#collection-settings)
-    * You can now add offers for each profile in the **Enrichment** activity. [Learn more](../workflows/activities/enrichment.md##add-offers)
+* Customize the display of custom fields in the interface:
+    
+    * You can now select additional custom fields to display in the interface
+    * You can now set rules for displaying link-type custom fields, such as restricting list values based on another field's input
+    * You can now arrange fields in the interface with more flexibly: fields can span a single column, or be grouped into subsections for better organization
+    * You can now set specific fields as read-only
 
-* **Distribution of values** - When accessing the list of fields for personalization, you can now check how values are distributed for each field. A dedicated popup window shows the number and percentage for each value. [Learn more](../query/build-query.md#distribution-values-query)
+* Recent and Favorites filters: To quickly reuse attributes that are frequently used, you can now add them to favorites. This ensures they are readily accessible for future tasks. In addition to favorites, you can also view and use the most recently selected attributes.
 
-* **Version and system info** - You can now access details about your instance versions, both for the client console and the Web User Interface. This new section also lists all the built-in packages installed in your environment. [Learn more](../get-started/user-interface.md#user-interface-about)
-
-* **Lists** - You can now easily reorder the values of a list. [Learn more](../get-started/work-with-folders.md)
-
-* **Delivery** - Delivery variable are now accessible from personalisation fields. [Learn more](../personalization/conditions.md#use-variables-for-conditional-content-variables-conditional)
+* External accounts: The new **[!UICONTROL Routing]** type is available for selection when creating a new external account. It allows you to configure a specific external account for use in your external deliveries. [Learn more](../administration/external-account.md#routing)

@@ -19,24 +19,16 @@ Delivery settings are **technical delivery parameters** that are defined in the 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="Typology"
->abstract="Typology rules allow marketers to standardize business practices, across all deliveries. A typology is a collection of typology rules which lets you control, filter, and prioritize the sending of deliveries. Profiles which match criteria within a typology rule are excluded from the delivery audiences at the preparation phase. Typologies and typology rules are created in the Campaign client console."
+>abstract="Typologies allow you to standardize business practices, across all deliveries. A typology is a collection of typology rules which lets you control, filter, and prioritize the sending of deliveries. Profiles which match criteria within a typology rule are excluded from the delivery audiences at the preparation phase."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
 >title="Typology settings for the delivery"
->abstract="Typology rules allow marketers to standardize business practices, across all deliveries. A typology is a collection of typology rules which lets you control, filter, and prioritize the sending of deliveries. Profiles which match criteria within a typology rule are excluded from the delivery audiences at the preparation phase. Typologies and typology rules are created in the Campaign client console."
+>abstract="Typology rules allow you to standardize business practices, across all deliveries. A typology is a collection of typology rules which lets you control, filter, and prioritize the sending of deliveries. Profiles which match criteria within a typology rule are excluded from the delivery audiences at the preparation phase."
 
-Typologies are sets of **typology rules** that are executed during the preparation phase in order to easily apply multiple filtering rules to a delivery at once. They allow marketers to standardize business practices across all deliveries as they let them control, filter, and prioritize the sending of deliveries.
-
-When associating a typology with a message or message template, the typology rules included in the typology are executed to check the delivery validity during message preparation. Profiles which match criteria within a typology rule are then excluded from the delivery audiences.
-
-Typologies allow you to make sure your deliveries always contain certain elements (such as an unsubscription link or a subject line) or filtering rules to exclude groups from your intended target (like unsubscribers, competitors, or non-loyalty customers).
+Typologies are sets of **typology rules** that are executed during the preparation phase in order to easily apply multiple filtering rules to a delivery at once. They allow marketers to standardize business practices across all deliveries as they let them control, filter, and prioritize the sending of deliveries. [Learn how to create typologies and typology rules](../administration/typologies.md)
 
 ![](assets/delivery-settings-typology.png){zoomable="yes"}
-
->[!NOTE]
->
->Typologies and typology rules are created in the Campaign client console. Learn more about pressure rules and how to configure fatigue management in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html){target="_blank"}.
 
 ### Pressure parameters {#pressure-parameters}
 

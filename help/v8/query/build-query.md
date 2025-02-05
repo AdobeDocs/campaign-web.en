@@ -34,7 +34,7 @@ To access this option, in your query, click the attribute selection button as sh
 >
 >* For fields with many values, only the first twenty values are displayed. In such case, a notification **[!UICONTROL Partial load]** warns you.
 >
->* The **[!UICONTROL Distribution of values]** option is accessible in every attribute picker.
+>* The **[!UICONTROL Distribution of values]** option is accessible in every attribute picker. [Learn how to select attributes](../get-started/attributes.md)
 >* You can add conditions on the results by using the **[!Advanced filters]**. [Learn more here](../get-started/work-with-folders.md#filter-the-values).
 
 ## Add filtering components {#filtering}
@@ -56,7 +56,7 @@ To filter your query using a custom condition, follow these steps:
 
 1. Click the **+** button on the desired node and select **[!UICONTROL Custom condition]**. The custom condition properties pane opens on the right hand side. 
 
-1. In the **Attribute** field, select the attribute from the database that you want to leverage to create your condtion. The attributes list includes all the attributes from your Campaign database, including attributes from linked tables.
+1. In the **Attribute** field, select the attribute from the database that you want to leverage to create your condtion. The attributes list includes all the attributes from your Campaign database, including attributes from linked tables. [Learn how to select attributes and add them to favorites](../get-started/attributes.md)
 
     ![](assets/query-custom-condition-fields.png){zoomable="yes"}
 

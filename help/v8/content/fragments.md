@@ -34,7 +34,7 @@ Two types of fragments are available:
 
     >[!AVAILABILITY]
     >
-    >This capability is in Limited Availability (LA). It is restricted to customers migrating **from Adobe Campaign Standard to Adobe Campaign v8**, and cannot be deployed on any other environment.
+    >This capability requires an update to Campaign v8.6.4. Learn more in the [Campaign v8 Client console release notes](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/release-notes).
 
 ## Let's dive deeper
 

@@ -49,7 +49,7 @@ To create a content fragment from scratch, follow the steps below.
 
     >[!AVAILABILITY]
     >
-    >Visual fragments are in Limited Availability (LA). They are restricted to customers migrating **from Adobe Campaign Standard to Adobe Campaign v8**, and cannot be deployed on any other environment.
+    >Visual fragments require an update to Campaign v8.6.4. Learn more in the [Campaign v8 Client console release notes](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/release-notes).
     
 1. Click the **Create** button.
 

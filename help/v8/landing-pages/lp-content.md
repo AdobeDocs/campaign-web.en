@@ -81,10 +81,9 @@ To define specific content that will enable users to select and submit their cho
     * **[!UICONTROL Subscribe in if checked]**: Users need to check the box to consent (opt-in).
     * **[!UICONTROL Unsubscribe if checked]**: Users need to check the box to remove their consent (opt-out).
 
-    If you select **[!UICONTROL Field]**, select a field from the attributes list, and choose between the two options below:
+    If you select **[!UICONTROL Field]**, select a field from the [attributes list](../get-started/attributes.md), and choose between the two options below:
 
     * **[!UICONTROL Yes if checked]**.<!--TBC-->
-
     * **[!UICONTROL No if checked]**.<!--TBC-->
 
 1. You can delete and add as many fields (such as text fields, radio buttons, checkboxes, dropdown list, etc.) as needed.

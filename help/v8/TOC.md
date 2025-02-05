@@ -12,7 +12,7 @@ breadcrumb-title: Campaign Web User Interface
 + [Adobe Campaign Web User Interface documentation](campaign-web-home.md)
 + Release notes {#release-notes}
   + [What's new?](rn/whats-new.md)
-  + [Early release notes](rn/e-release-notes.md)
+  + [Early release](rn/e-release-notes.md)
   + [Latest release](rn/release-notes.md)
   + Previous releases {#previous-release-notes}
       + [2024 releases](rn/release-notes-24.md)
@@ -24,6 +24,7 @@ breadcrumb-title: Campaign Web User Interface
   + [Browse and filter lists](get-started/list-filters.md)
   + [Work with predefined filters](get-started/predefined-filters.md)
   + [Work with folders](get-started/work-with-folders.md)
+  + [Select attributes & add them to favorites](get-started/attributes.md)
   + [Permissions](get-started/permissions.md)
   + [Campaign Web and Client console](get-started/capability-matrix.md)
   + [From Campaign Standard to v8](rn/acs-migration.md)
@@ -34,7 +35,6 @@ breadcrumb-title: Campaign Web User Interface
   + [Access deliveries](msg/gs-deliveries.md)
   + [Create a delivery](msg/create-deliveries.md)
   + [Use delivery templates](msg/delivery-template.md)
-  + [Work with typologies](msg/typologies.md)
   + Emails {#email}
     + [Create your first email](email/create-email.md)
     + [Configure the email content](email/edit-content.md)
@@ -66,6 +66,7 @@ breadcrumb-title: Campaign Web User Interface
     + [Create a transactional message](transactional-messaging/create-transactional.md)
     + [Validate your transactional message](transactional-messaging/validate-transactional.md)
     + [Monitor transactional messages](transactional-messaging/monitor-transactional.md)
+  + [Send external deliveries](msg/send-external-deliveries.md)
   + [Add offers to your messages](msg/offers.md)
   + [Send messages to your subscribers](msg/send-to-subscribers.md)
   + [Configure delivery settings](advanced-settings/delivery-settings.md)
@@ -220,5 +221,9 @@ breadcrumb-title: Campaign Web User Interface
   + [Manage templates with Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
 + Configuration {#conf}
   + [Configure custom fields](administration/custom-fields.md)
-  + [ Configure external accounts](administration/external-account.md)
+  + [Configure external accounts](administration/external-account.md)
+  + [Work with typologies](administration/typologies.md)
+  + [Manage enumerations](administration/enumerations.md)
+  + [Configure [!DNL Campaign] options](administration/options.md)
+  + [Work with JavaScript codes](administration/javascript-codes.md)
 + [Campaign v8 (console) documentation >](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)

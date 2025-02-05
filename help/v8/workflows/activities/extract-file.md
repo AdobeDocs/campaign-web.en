@@ -33,7 +33,7 @@ The **[!UICONTROL File to extract]** section allows you to configure the file pr
 1. Specify the columns to present in the extracted file. To do this, follow these steps:
 
     1. Click the **[!UICONTROL Add output column]**.
-    1. Choose the attribute to display in the column then confirm. Available attributes depend on the workflow's targeting dimension.
+    1. Choose the attribute to display in the column then confirm. Available attributes depend on the workflow's targeting dimension. [Learn how to select attributes and add them to favorites](../../get-started/attributes.md)
     1. Once the column is added, you can change its **[!UICONTROL Label]** and modify the associated **[!UICONTROL Attribute]**.
     1. If you want to apply a transformation to the column's values, select it from the drop-down list. For example, you can switch all values in the selected column to upper case.
 

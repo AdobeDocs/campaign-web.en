@@ -87,7 +87,7 @@ Follow these steps to configure the **Split** activity:
     
         >[!NOTE]
         >
-        >When setting a population limit for a subset, you can rank the selected profiles based on a specific profile attribute, in ascending or descending order. To do this, toggle on the **[!UICONTROL Enable sorting]** option. For instance, you can restrict a subset to include only the top 50 profiles with the highest purchase amount.
+        >When setting a population limit for a subset, you can rank the selected profiles based on a specific [profile attribute](../../get-started/attributes.md), in ascending or descending order. To do this, toggle on the **[!UICONTROL Enable sorting]** option. For instance, you can restrict a subset to include only the top 50 profiles with the highest purchase amount.
 
 1. Once that you have configured all the subsets, you can select the remaining population that did not match any of the subsets and include them into an additional outbound transition. To do this, toggle on the **[!UICONTROL Generate complement]** option.
 

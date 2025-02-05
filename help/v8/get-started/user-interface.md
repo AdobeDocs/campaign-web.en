@@ -351,40 +351,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Execution inititialization script"
 >abstract="Execution inititialization script"
 
-<!-- Schema edit custom fields -->
-
-
->[!CONTEXTUALHELP]
->id="acw_schema_editcustomfields"
->title="Edit custom detail"
->abstract="Edit custom detail"
-
->[!CONTEXTUALHELP]
->id="acw_schema_editcustomfields_separatorproperties"
->title="Separator properties"
->abstract="Separator properties"
-
->[!CONTEXTUALHELP]
->id="acw_schema_editcustomfields_settings"
->title="Attribute settings"
->abstract="Attribute settings"
-
->[!CONTEXTUALHELP]
->id="acw_schema_editcustomfields_settings_general"
->title="General"
->abstract="General"
-
->[!CONTEXTUALHELP]
->id="acw_schema_editcustomfields_settings_link"
->title="Link properties"
->abstract="LaLink propertiesyout"
-
->[!CONTEXTUALHELP]
->id="acw_schema_editcustomfields_settings_layout"
->title="Layout"
->abstract="Layout"
-
-
 <!--Schema-->
 
 >[!CONTEXTUALHELP]
@@ -461,51 +427,3 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_targetmapping_storage"
 >title="Target Mapping storage"
 >abstract="Target Mapping deny storage"
-
-<!-- Favorites & recents -->
-
->[!CONTEXTUALHELP]
->id="acw_attribute_picker_favorites_recents"
->title="Favorites & Recents"
->abstract="Favorites & Recents"
-
-<!-- Options -->
-
->[!CONTEXTUALHELP]
->id="acw_options_list"
->title="Options"
->abstract="Options"
-
->[!CONTEXTUALHELP]
->id="acw_options_create"
->title="Create option"
->abstract="Create option"
-
-<!-- JavaScript codes -->
- 
->[!CONTEXTUALHELP]
->id="acw_javascript_codes_list"
->title="JavaScript codes"
->abstract="JavaScript codes"
-
->[!CONTEXTUALHELP]
->id="acw_javascript_codes_create"
->title="Create JavaScript code"
->abstract="Create JavaScript code"
-
-<!-- Enumerations -->
-
->[!CONTEXTUALHELP]
->id="acw_enumerations_list"
->title="Enumerations"
->abstract="Enumerations"
-
->[!CONTEXTUALHELP]
->id="acw_enumerations_properties"
->title="Properties"
->abstract="Properties"
-
->[!CONTEXTUALHELP]
->id="acw_enumerations_values"
->title="List of enumeration values"
->abstract="List of enumeration values"
