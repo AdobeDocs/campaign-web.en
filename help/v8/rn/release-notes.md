@@ -68,7 +68,7 @@ The following features and improvements are available starting January release.
 <td>
 <p>You can now create typologies and typology rules in the Adobe Campaign web interface. A typology is a collection of typology rules that help control, filter, and prioritize deliveries. Typologies ensure that your deliveries always contain required elements (such as an unsubscribe link or subject line) and apply filtering rules to exclude specific groups from your target audience (such as unsubscribers, competitors, or non-loyalty customers).</p>
 <img src="assets/do-not-localize/typology.gif">
-<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
+<p>For more information, refer to the <a href="../administration/typologies.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -85,7 +85,7 @@ The following features and improvements are available starting January release.
 <td>
 <p>You can now create enumerations directly through Adobe Campaign Web User Interface. An enumeration is a list of values suggested by the system to populate fields. Use enumerations to standardize the values of these fields, help with data input or use within queries.</p>
 <img src="assets/do-not-localize/enumerations.gif">
-<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
+<p>For more information, refer to the <a href="../administration/enumerations.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -102,7 +102,7 @@ The following features and improvements are available starting January release.
 <td>
 <p>You can now access technical options within Adobe Campaign Web User Interface and create your own custom options to suit your needs. This is particularly useful when working with JavaScript code workflow activities to store intermediate data.</p>
 <img src="assets/do-not-localize/options.gif">
-<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
+<p>For more information, refer to the <a href="../administration/options.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -120,7 +120,7 @@ The following features and improvements are available starting January release.
 <td>
 <p>You can now create JavaScript codes in Adobe Campaign Web User Interface. This allows you to create reusable functions that can be utilized across workflows, similar to a library.</p>
 <img src="assets/do-not-localize/javascript.gif">
-<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
+<p>For more information, refer to the <a href="../administration/javascript-codes.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
