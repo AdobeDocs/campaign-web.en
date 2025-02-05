@@ -2,6 +2,10 @@
 audience: end-user
 title: Work with typologies
 description: Learn how to work with typologies and typology rules to control, filter and monitor the sending of deliveries.
+hidefromtoc: yes
+hide: yes
+robots: noindex
+googlebot: noindex
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
 ---
 # Work with typologies {#typologies}

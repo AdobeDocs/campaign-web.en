@@ -57,6 +57,7 @@ The following features and improvements are available starting January release.
 </tbody>
 </table>
 
+<!--
 <table>
 <thead>
 <tr>
@@ -73,6 +74,7 @@ The following features and improvements are available starting January release.
 </tr>
 </tbody>
 </table>
+-->
 
 <table>
 <thead>
