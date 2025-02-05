@@ -2,7 +2,7 @@
 audience: end-user
 title: Get started with external deliveries
 description: Learn how to create and send external deliveries with Adobe Campaign Web
-
+exl-id: 08fe9333-aa35-4acf-ba41-4c6895049bbc
 ---
 # Send external deliveries {#gs-direct-mail}
 

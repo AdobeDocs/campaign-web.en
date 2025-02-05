@@ -1,8 +1,8 @@
 ---
 title: Configure [!DNL Campaign] options
 description: Learn how to configure Campaign options and create your own custom options.
+exl-id: 44f90e34-e72e-4506-90d5-06ab68242d34
 ---
-
 # Configure [!DNL Campaign] options {#options}
 
 >[!CONTEXTUALHELP]

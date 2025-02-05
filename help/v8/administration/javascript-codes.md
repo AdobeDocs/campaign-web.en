@@ -1,8 +1,8 @@
 ---
 title: Work with JavaScript codes
 description: Learn how to work with JavaScript codes.
+exl-id: 4f3b7fce-0373-4db1-8239-64b1bda0f14c
 ---
-
 # Work with JavaScript codes {#javascript-codes}
 
 <!-- JavaScript codes -->

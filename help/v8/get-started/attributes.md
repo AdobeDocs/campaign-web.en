@@ -2,6 +2,7 @@
 audience: end-user
 title: Select attributes and add them to favorites
 description: Learn how to work with attributes and easily access favorite and recently used attributes.
+exl-id: 27663e57-fdab-4371-b7c6-12064ed6526f
 ---
 # Select attributes and add them to favorites {#folders}
 

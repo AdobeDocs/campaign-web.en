@@ -1,6 +1,7 @@
 ---
 title: Manage enumerations
 description: Learn how to work with enumerations
+exl-id: d2a30fef-2cc4-49af-9f5d-d42c6396a8ab
 ---
 # Manage enumerations {#enumerations}
 
