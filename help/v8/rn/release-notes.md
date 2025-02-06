@@ -139,7 +139,7 @@ The following features and improvements are available starting January release.
 <tr>
 <td>
 <p>The AI Assistant Content Accelerator is now available with your landing page deliveries, enabling you to generate text, images, or complete page layouts.</p>
-<p>For more information on AI Assistant Content Accelerator, refer to the <a href="../email/generative-gs.md">detailed documentation</a>.</p>
+<p>For more information on AI Assistant Content Accelerator, refer to the <a href="../email/generative-lp.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
