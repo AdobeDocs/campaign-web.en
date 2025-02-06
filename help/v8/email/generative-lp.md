@@ -1,7 +1,8 @@
 ---
 audience: end-user
-title: Landing page with the AI Assistant Content Accelerator 
-description: Get Started with the AI Assistant Content Accelerator 
+title: Landing page with the AI Assistant Content Accelerator
+description: Get Started with the AI Assistant Content Accelerator
+exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
 ---
 # Landing page generation with the AI Assistant Content Accelerator {#generative-lp}
 
