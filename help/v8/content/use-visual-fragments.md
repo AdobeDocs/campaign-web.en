@@ -7,17 +7,19 @@ exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
 ---
 # Add visual fragments to your emails {#use-visual-fragments}
 
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="Email visual fragments"
+>abstract="You can now create and use visual fragments. These are pre-defined visual blocks which you can reuse across multiple email deliveries, or in content templates."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
+
 >[!AVAILABILITY]
 >
 >This capability requires an update to Campaign v8.6.4. Learn more in the [Campaign v8 Client console release notes](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/release-notes).
 
-You can use a visual fragment in an [email delivery](../email/get-started-email-designer.md), or in a [content template](../email/use-email-templates.md). Steps are detailed below.
+In Campaign web interface, **Visual fragments** are pre-defined visual blocks that you can reuse across multiple [email deliveries](../email/get-started-email-designer.md), or in [content templates](../email/use-email-templates.md). Learn how to create and manage content fragments in [this section](fragments.md).
 
 ![](assets/do-not-localize/fragments.gif)
-
->[!NOTE]
->
->Learn how to create and manage content fragments in [this section](fragments.md).
 
 ## Use a visual fragment {#use-fragment}
 

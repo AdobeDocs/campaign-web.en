@@ -5,16 +5,11 @@ exl-id: e37d6cb0-f8fa-4f1c-9cdd-46f9666c2d18
 ---
 # Manage external accounts {#external-accounts}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
->title="External accounts"
->abstract="You can now connect to additional platforms or customize the connections to fit your workflow, and easily create new external accounts to meet your specific needs and ensure seamless data transfers."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
-
 >[!AVAILABILITY]
 >
-> Note that external accounts are currently available only for Bounce mails (POP3), Routing and the Execution instance, with additional account types to be added in the future.
-> Non-supported external accounts created in Adobe Campaign console are visible in the Web User Interface but cannot be edited or accessed.
+>* External accounts are currently available only for Bounce mails (POP3), Routing and the Execution instance. Additional account types will be added in the future.
+>
+>* Non-supported external accounts created in Adobe Campaign console are visible in the Web User Interface but cannot be edited nor accessed.
 
 Adobe Campaign comes with a set of pre-configured external accounts for easy integration with various systems. If you need to connect to additional platforms or customize the connections to fit your workflow, you can now easily create new external accounts using Web User Interface to meet your specific needs and ensure seamless data transfers.
 

@@ -6,6 +6,13 @@ exl-id: 08fe9333-aa35-4acf-ba41-4c6895049bbc
 ---
 # Send external deliveries {#gs-direct-mail}
 
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn2"
+>title="Create external deliveries"
+>abstract="You can now define external deliveries and external delivery templates in the Campaign web interface. In this mode, messages are compiled into an output file, which can be shared with your external provider. By default, the external delivery mode is used for the direct mail channel."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
+
+
 Adobe Campaign allows you to handle deliveries created outside Campaign in order to mass deliver personalized emails, SMS messages or push notifications (iOs and Android) through an external system.
 
 <!--The supported channels are Email, Mobile (SMS), and Push (iOs and Android).-->

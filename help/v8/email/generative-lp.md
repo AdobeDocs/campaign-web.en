@@ -6,6 +6,13 @@ exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
 ---
 # Landing page generation with the AI Assistant Content Accelerator {#generative-lp}
 
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn5"
+>title="Generate Landing pages with AI"
+>abstract="You can now use the AI Assistant Content Accelerator to create your landing page deliveries, enabling you to generate text, images, or complete page layouts."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
+
+
 >[!IMPORTANT]
 >
 >Before starting using this capability, read out related [Guardrails and Limitations](generative-gs.md#generative-guardrails).
