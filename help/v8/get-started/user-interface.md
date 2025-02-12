@@ -407,6 +407,10 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 <!-- Target Mapping -->
 
+>[!CONTEXTUALHELP]
+>id="acw_targetmapping_list"
+>title="Target mappings"
+>abstract="Target mappings"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_properties"
