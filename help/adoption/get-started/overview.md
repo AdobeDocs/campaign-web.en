@@ -87,7 +87,7 @@ As a Campaign Standard user transitioning to Adobe Campaign v8, the following fe
 
   Adobe Experience Manager as a Cloud Service offers cloud-native agility, allowing you to accelerate your time to value and adapt to evolving business needs. This integration not only enhances your content management capabilities but also enables you to delivery more personalized and engaging experiences to your customers across all touchpoints.
 
-* **AI Assistant - Content Accelerator**
+* **AI Assistant**
 
   Campaign AI Assistant makes the creation and execution of marketing campaigns across channels like Email, SMS and Push intuitive, simple and hassle-free while saving time, improving efficiency, and driving better results.
 
@@ -99,7 +99,7 @@ As a Campaign Standard user transitioning to Adobe Campaign v8, the following fe
 
   ![](../../v8/email/assets/full-email-2.png){zoomable="yes"}
 
-  It provides variant of email templates and generates and re-generates images. Learn more about the AI Assistant - Content Accelerator in [this section](../../v8/email/generative-content.md). Adobe Campaign v8 has AI assistant available for [Email](../../v8/email/generative-content.md), [SMS](../../v8/email/generative-sms.md), and [Push](../../v8/email/generative-push.md).
+  It provides variant of email templates and generates and re-generates images. Learn more about the AI Assistant in [this section](../../v8/email/generative-content.md). Adobe Campaign v8 has AI assistant available for [Email](../../v8/email/generative-content.md), [SMS](../../v8/email/generative-sms.md), and [Push](../../v8/email/generative-push.md).
 
 * **Upgraded SMS infrastructure - SMS v2.0**
 

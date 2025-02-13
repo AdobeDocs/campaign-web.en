@@ -69,7 +69,7 @@ In Adobe Campaign Web User Interface, the **[!UICONTROL Audit trail]** feature p
 
 To access your instance's **[!UICONTROL Audit trail]**:
 
-1. Under the **[!UICONTROL Administration]** menu, select **[!UICONTROL Audit trail]** .
+1. Under the **[!UICONTROL Administration]** menu, select **[!UICONTROL Audit trail]**.
 
     ![](assets/audit-trail-1.png)
 

@@ -1,15 +1,15 @@
 ---
 audience: end-user
-title: Landing page with the AI Assistant Content Accelerator
-description: Get Started with the AI Assistant Content Accelerator
+title: Landing page with the AI Assistant
+description: Get Started with the AI Assistant
 exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
 ---
-# Landing page generation with the AI Assistant Content Accelerator {#generative-lp}
+# Landing page generation with the AI Assistant{#generative-lp}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="Generate Landing pages with AI"
->abstract="You can now use the AI Assistant Content Accelerator to create your landing page deliveries, enabling you to generate text, images, or complete page layouts."
+>abstract="You can now use the AI Assistant to create your landing page deliveries, enabling you to generate text, images, or complete page layouts."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
 
 
@@ -18,19 +18,19 @@ exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
 >Before starting using this capability, read out related [Guardrails and Limitations](generative-gs.md#generative-guardrails).
 ></br>
 >
->You must agree to a [user agreement](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) before you can use the AI Assistant Content Accelerator in Adobe Campaign Web. For more information, contact your Adobe representative.
+>You must agree to a [user agreement](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) before you can use the AI Assistant in Adobe Campaign Web. For more information, contact your Adobe representative.
 
-Transform your landing pages with the AI Assistant Content Accelerator in Adobe Campaign Web, powered by generative AI. 
+Transform your landing pages with the AI Assistant  in Adobe Campaign Web, powered by generative AI. 
 
 Effortlessly create impactful content, including complete pages, tailored text snippets, and customized visuals that resonate with your audience, driving higher engagement and interaction.
 
-Explore the tabs below to learn how to use the AI Assistant Content Accelerator in Adobe Campaign Web.
+Explore the tabs below to learn how to use the AI Assistant in Adobe Campaign Web.
 
 >[!BEGINTABS]
 
 >[!TAB Full landing page generation]
 
-In the following example, we will leverage the AI Assistant Content Accelerator to refine an existing landing page template.
+In the following example, we will leverage the AI Assistant to refine an existing landing page template.
 
 1. After creating and configuring your landing page, click **[!UICONTROL Edit content]**.
 
@@ -40,7 +40,7 @@ In the following example, we will leverage the AI Assistant Content Accelerator 
 
     ![](assets/lp_full_gen_1.png){zoomable="yes"}
 
-1. Enable the **[!UICONTROL Use original content]** option for the AI Assistant Content Accelerator to personalize new content based on the selected content.
+1. Enable the **[!UICONTROL Use original content]** option for the AI Assistant to personalize new content based on the selected content.
 
 1. Fine tune the content by describing what you want to generate in the **[!UICONTROL Prompt]** field. 
 
@@ -93,7 +93,7 @@ Once your landing page is ready, you can publish it to make it available for use
 
 >[!TAB Text only generation]
 
-In the following example, we will leverage the AI Assistant Content Accelerator to enhance the content of our landing page.
+In the following example, we will leverage the AI Assistant to enhance the content of our landing page.
 
 1. After creating and configuring your landing page, click **[!UICONTROL Edit content]**.
 
@@ -103,7 +103,7 @@ In the following example, we will leverage the AI Assistant Content Accelerator 
 
     ![](assets/lp-text-genai-1.png){zoomable="yes"}
 
-1. Enable the **[!UICONTROL Use original content]** option for the AI Assistant Content Accelerator to personalize new content based on the selected content.
+1. Enable the **[!UICONTROL Use original content]** option for the AI Assistant to personalize new content based on the selected content.
 
 1. Fine tune the content by describing what you want to generate in the **[!UICONTROL Prompt]** field. 
 
@@ -153,19 +153,19 @@ Once your landing page is ready, you can publish it to make it available for use
 
 >[!TAB Image only generation]
 
-In the example below, learn how to leverage the AI Assistant Content Accelerator to optimize and improve your assets, ensuring a more user-friendly experience. 
+In the example below, learn how to leverage the AI Assistant to optimize and improve your assets, ensuring a more user-friendly experience. 
 
 1. After creating and configuring your landing page, click **[!UICONTROL Edit content]**.
 
     For more information on how to configure your landing page, refer to [this page](../landing-pages/create-lp.md).
 
-1. Select the asset you want to change with the AI Assistant Content Accelerator .
+1. Select the asset you want to change with the AI Assistant.
 
 1. From the right-hand menu, select **[!UICONTROL AI Assistant]**.
 
     ![](assets/lp-image-gen-1.png){zoomable="yes"}
 
-1. Enable the **[!UICONTROL Reference style]** option for the AI Assistant Content Accelerator to personalize new content based on the reference content. You can also upload an image to add context to your variation.
+1. Enable the **[!UICONTROL Reference style]** option for the AI Assistant to personalize new content based on the reference content. You can also upload an image to add context to your variation.
 
 1. Fine tune the content by describing what you want to generate in the **[!UICONTROL Prompt]** field. 
 
