@@ -15,6 +15,7 @@ breadcrumb-title: Campaign Web User Interface
   + [Early release](rn/e-release-notes.md)
   + [Latest release](rn/release-notes.md)
   + Previous releases {#previous-release-notes}
+      + [2025 releases](rn/release-notes-25.md)
       + [2024 releases](rn/release-notes-24.md)
   + [Documentation updates](rn/documentation-updates.md)
 + Get started with Adobe Campaign {#start}
@@ -221,10 +222,12 @@ breadcrumb-title: Campaign Web User Interface
   + [Manage assets with Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
   + [Manage templates with Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
 + Configuration {#conf}
+  + [Work with business rules (typologies)](administration/typologies.md)
+  + [Manage target mappings](administration/target-mappings.md)
+  + [Work with schemas](administration/schemas.md)
   + [Configure custom fields](administration/custom-fields.md)
-  + [Configure external accounts](administration/external-account.md)
-  + [Work with typologies](administration/typologies.md)
-  + [Manage enumerations](administration/enumerations.md)
   + [Configure [!DNL Campaign] options](administration/options.md)
+  + [Configure external accounts](administration/external-account.md)
+  + [Manage enumerations](administration/enumerations.md)
   + [Work with JavaScript codes](administration/javascript-codes.md)
 + [Campaign v8 (console) documentation >](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)

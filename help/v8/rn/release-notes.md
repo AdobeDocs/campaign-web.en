@@ -14,6 +14,65 @@ Adobe Campaign Web user interface releases operate on a continuous delivery mode
 
 Changes and improvements available with previous releases are listed [in this page](release-notes-24.md).
 
+## February '25 release {#25-2-release}
+
+**Release date**: Feb 18, 2025
+
+The following features and improvements are available starting February release.
+
+### Features {#25-2-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Create business rules (typology rules)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now create typologies and typology rules in Adobe Campaign Web User Interface. Typologies let you control, filter, and prioritize the sending of deliveries. Typologies are used to validate that deliveries always contain mandatory components (such as an unsubscription link or a subject line) or filtering rules to exclude groups from your audience (like unsubscribers, competitors, or non-loyalty customers).</p>
+<img src="assets/do-not-localize/typology.gif">
+<p>For more information, refer to the <a href="../administration/typologies.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Target mappings</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now create target mappings in Campaign Web User Interface. Target mappings define how different delivery channels (email, SMS, push notifications) link to the data fields of a schema. The target mapping lets you define the targeted audience: profiles, contract beneficiaries, operators, subscribers, prospects, etc.</p>
+<img src="assets/do-not-localize/target-mapping.gif">
+<p>For more information, refer to the <a href="../administration/target-mappings.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Schema details</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now access the details of a schema by selecting its name in the list. Custom fields edition is now accessible from the <b>Edit custom fields</b> button available in the schema details.</p>
+<img src="assets/do-not-localize/schemas.gif">
+<p>For more information, refer to the <a href="../administration/schemas.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ## January '25 release {#25-1-release}
 
 **Release date**: Feb 5, 2025
@@ -56,25 +115,6 @@ The following features and improvements are available starting January release.
 </tr>
 </tbody>
 </table>
-
-<!--
-<table>
-<thead>
-<tr>
-<th><strong>Create business rules (typology rules)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now create typologies and typology rules in the Adobe Campaign web interface. A typology is a collection of typology rules that help control, filter, and prioritize deliveries. Typologies ensure that your deliveries always contain required elements (such as an unsubscribe link or subject line) and apply filtering rules to exclude specific groups from your target audience (such as unsubscribers, competitors, or non-loyalty customers).</p>
-<img src="assets/do-not-localize/typology.gif">
-<p>For more information, refer to the <a href="../administration/typologies.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
--->
 
 <table>
 <thead>
@@ -128,7 +168,6 @@ The following features and improvements are available starting January release.
 </tbody>
 </table>
 
-
 <table>
 <thead>
 <tr>
@@ -145,8 +184,6 @@ The following features and improvements are available starting January release.
 </tr>
 </tbody>
 </table>
-
-
 
 
 ### Improvements {#25-1-improvements}

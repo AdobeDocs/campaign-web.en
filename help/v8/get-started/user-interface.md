@@ -351,12 +351,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Execution inititialization script"
 >abstract="Execution inititialization script"
 
-<!--Schema-->
-
->[!CONTEXTUALHELP]
->id="acw_schema"
->title="Schema"
->abstract="Schema"
+<!-- Schema creation -->
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_type"
@@ -402,32 +397,3 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_schema_start_update"
 >title="Start database update"
 >abstract="Schema"
-
-
-
-<!-- Target Mapping -->
-
->[!CONTEXTUALHELP]
->id="acw_targetmapping_list"
->title="Target mappings"
->abstract="Target mappings"
-
->[!CONTEXTUALHELP]
->id="acw_targetmapping_properties"
->title="Target Mapping properties"
->abstract="Target Mapping properties"
-
->[!CONTEXTUALHELP]
->id="acw_targetmapping_mapping"
->title="Target Mapping mapping"
->abstract="Target Mapping mapping"
-
->[!CONTEXTUALHELP]
->id="acw_targetmapping_denylist"
->title="Target Mapping deny list"
->abstract="Target Mapping deny list"
-
->[!CONTEXTUALHELP]
->id="acw_targetmapping_storage"
->title="Target Mapping storage"
->abstract="Target Mapping deny storage"

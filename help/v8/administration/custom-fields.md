@@ -62,9 +62,11 @@ To display custom fields in the interface, follow these steps:
 
     Use the **[!UICONTROL Editable]** filter in the filters pane to quickly identify schemas with custom fields.
 
-    ![](assets/custom-fields-list.png)
+    ![](assets/custom-fields-open.png)
 
-1. Click the pencil icon located next to the schema name to access its custom fields. In this example, we want to add fields for the **[!UICONTROL Recipients]** schema.
+1. Select the schema name in the list to open it. A detailed schema view displays [Learn more on schema details](../administration/schemas.md). Click the **[!UICONTROL Edit custom detail]** button to access custom fields. In this example, we want to add fields for the **[!UICONTROL Recipients]** schema.
+
+    ![](assets/custom-fields-edit.png)
 
 1. The list of custom fields displayed in the interface for the schema display. Here, the "CRM Id" field is visible in the profiles' details screen and has been marked as mandatory.
 
@@ -72,9 +74,9 @@ To display custom fields in the interface, follow these steps:
     |  ---  |  ---  |
     |![](assets/custom-fields-detail.png){zoomable="yes"}|![](assets/custom-fields-detail-crm.png){zoomable="yes"}|
 
-1. To add a custom field to the interface, click the **[!UICONTROL Add]** button in the upper-right corner of the screen and choose one of the following options:
+1. To add a custom field to the interface, click the ellipsis button and choose one of the following options:
 
-    * **[!UICONTROL Custom attributes]**: Select one or multiple custom fields to display in the interface.
+    * **[!UICONTROL Select custom fields]**: Select one or multiple custom fields to display in the interface.
     * **[!UICONTROL Fill automatically the list of custom fields]**: Add all custom fields defined for the schema to the interface.
 
     ![](assets/custom-fields-add.png)
@@ -85,7 +87,7 @@ To display custom fields in the interface, follow these steps:
     * **Make fields mandatory**: Select the **Mandatory** checkbox. 
     * **Edit fields settings**: Click the ellipsis button and choose **[!UICONTROL Edit]**. [Learn more](#settings)
     * **Delete fields**: Click the ellipsis button and choose **[!UICONTROL Delete]**.
-    * **Organize fields into sub-sections in the interface**: Click **[!UICONTROL Add]** and choose **[!UICONTROL Separator]**. [Learn more](#separator)
+    * **Organize fields into sub-sections in the interface**: Click the ellipsis button next to the up and down arrows and choose **[!UICONTROL Add separator]**. [Learn more](#separator)
 
 ## Configure custom fields settings {#settings}
 
@@ -118,7 +120,7 @@ Available settings are:
 
 Campaign Web user interface allows you to add separators in order to group together custom fields in the interface for better readability. To do so, follow these steps:
 
-1. Click the **[!UICONTROL Add]** button and select **[!UICONTROL Separator]**.
+1. Click the ellipsis button next to the up and down arrows and select **[!UICONTROL Add separator]**.
 
 1. A new line representing the separator is added to the list. Click the ellipsis button and choose **[!UICONTROL Edit]** to name the sub-section.
 
