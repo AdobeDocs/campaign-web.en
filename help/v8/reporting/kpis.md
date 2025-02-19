@@ -11,6 +11,7 @@ exl-id: 4b182219-100b-4101-919b-b0b770dd8515
 >abstract="The **Key performance indicators** section lets you check your platform effectiveness through common KPIs."
 
 <!-- à enlever? -->
+
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_spam"
 >title="Spam"

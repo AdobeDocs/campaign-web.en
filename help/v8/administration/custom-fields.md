@@ -19,7 +19,7 @@ exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_link"
 >title="Link properties"
->abstract="Use the query modeler to specify rules for displaying a link-type custom field. For example, restrict list values based on another field’s input."
+>abstract="Use the query modeler to specify rules for displaying a link-type custom field. For example, restrict list values based on another field's input."
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_layout"
@@ -32,12 +32,13 @@ exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
 >abstract="Specify the name to display in the interface for the sub-section."
 
 <!-- NOT USED IN THE UI?-->
+
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings"
 >title="Attribute settings"
 >abstract="Attribute settings"
 
-Custom fields are additional attributes added to out-of-the-box schemas through the Adobe Campaign console. They allow you to customize schemas by including new attributes to suit your organization’s needs. Learn how to extend a schema in the [Adobe Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html){target="_blank"}.
+Custom fields are additional attributes added to out-of-the-box schemas through the Adobe Campaign console. They allow you to customize schemas by including new attributes to suit your organization's needs. Learn how to extend a schema in the [Adobe Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html){target="_blank"}.
 
 Custom fields can be displayed in various screens such as profile details in the Campaign Web interface. Administrators can control which fields are visible and how they appear. These changes apply to all Campaign users.
 
@@ -102,7 +103,7 @@ Available settings are:
 * **[!UICONTROL Visible if]**: Define a condition using an xtk expression that controls when the field is displayed. For example, hide this field if another field is empty.
 * **[!UICONTROL Mandatory]**: Make the field mandatory in the interface.
 * **[!UICONTROL Read-only]**: Make the field read-only in the interface. Users will not be able to edit the field's value.
-* **[!UICONTROL Filter settings]** (for link-type fields): Use the query modeler to specify rules for displaying a link-type custom field. For example, restrict list values based on another field’s input.
+* **[!UICONTROL Filter settings]** (for link-type fields): Use the query modeler to specify rules for displaying a link-type custom field. For example, restrict list values based on another field's input.
 
    You can also reference the value entered into other fields in your conditions using the syntax `$(<field-name>)`. This allows you to reference the current value of a field as entered in the form, even if it has not yet been saved to the database. 
    
