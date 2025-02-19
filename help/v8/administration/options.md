@@ -6,12 +6,6 @@ exl-id: 44f90e34-e72e-4506-90d5-06ab68242d34
 # Configure [!DNL Campaign] options {#options}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="Create custom options"
->abstract="You can now create your own technical custom options to suit your needs. This is particularly useful when working with **JavaScript code** workflow activities to store intermediate data."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
-
->[!CONTEXTUALHELP]
 >id="acw_options_list"
 >title="Options"
 >abstract="Options"

@@ -4,6 +4,13 @@ description: Learn how to manage target mappings.
 ---
 # Manage target mappings {#target-mappings}
 
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn2"
+>title="Target Mappings"
+>abstract="You can now create target mappings in Campaign Web User Interface. Target mappings define how different delivery channels (email, SMS, push notifications) link to the data fields of a schema."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
+
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_list"
 >title="Target mappings "

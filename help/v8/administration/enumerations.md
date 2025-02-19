@@ -6,7 +6,7 @@ exl-id: d2a30fef-2cc4-49af-9f5d-d42c6396a8ab
 # Manage enumerations {#enumerations}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
+>id="acw_homepage_welcome_rn4"
 >title="Create enumerations"
 >abstract="You can now create enumerations directly through Adobe Campaign Web User Interface. An enumeration is a list of values suggested by the system to populate fields."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
