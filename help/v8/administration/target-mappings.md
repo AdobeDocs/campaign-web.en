@@ -1,6 +1,7 @@
 ---
 title: Manage target mappings
 description: Learn how to manage target mappings.
+exl-id: 144d5650-9632-4af3-b64e-f6e81503a621
 ---
 # Manage target mappings {#target-mappings}
 

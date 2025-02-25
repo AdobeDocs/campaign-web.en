@@ -1,6 +1,7 @@
 ---
 title: Work with schemas
 description: Learn how to work with schemas.
+exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
 ---
 # Work with schemas {#schemas}
 
