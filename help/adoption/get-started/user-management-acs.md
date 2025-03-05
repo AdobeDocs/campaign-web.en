@@ -83,7 +83,9 @@ By using **Groups** and **Named rights**, **Operators** can be granted access to
 Since a **Program** is treated as a **Folder** in Campaign V8, its access can be managed in the same way as any other folder. After migration, Campaign Standard administrators can follow these steps:
 
 1. From the explorer, right-click on any folder and select **[!UICONTROL Properties...]**.
+
 1. Navigate to the **[!UICONTROL Security]** tab.
+
 1. Modify the operator group permissions as per the desired access model.  
 
 ## Product profile mapping to access REST APIs  
