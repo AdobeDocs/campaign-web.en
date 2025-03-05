@@ -40,6 +40,10 @@ In both Adobe Campaign Standard and Campaign V8, **Security groups** and **Opera
 
 ## Migration approach from User roles to Named rights
 
+>[!CAUTION]
+>
+>During migration from Adobe Campaign Standard to Campaign V8, users with the **Data Model** role but not **Administration** will automatically gain **Administration** access, as schema creation in Campaign V8 requires administration rights. To prevent this, remove their **Data Model** role before migration.
+
 In Adobe Campaign Standard, the term **User role** is referred to as **Named right** in Campaign V8. The table below outlines the terminology used for **Named rights** in Campaign V8 corresponding to **User roles** in Campaign Standard.
 
 | **Campaign Standard User role** | **Campaign V8 Named right** | **Description** |
@@ -57,6 +61,12 @@ In Adobe Campaign Standard, the term **User role** is referred to as **Named rig
 | Workflow | Workflow | Right to manage the execution of workflows start, stop, pause etc. |
 
 ## Migration approach from Organizational unit
+
+>[!CAUTION]
+>
+>Organizational units in Adobe Campaign Standard without **All (all)** as a direct or indirect parent will not be migrated to Campaign V8.
+></br>
+>Users in multiple security groups are assigned the organizational unit of the highest-ranking security group. If multiple groups have parallel top-level units, login is restricted in Campaign Standard but grants broader access in Campaign v8 after migration, potentially escalating privileges. To prevent this, avoid assigning users to security groups with parallel organizational units.
 
 In Adobe Campaign Standard, the **Organization uni**t is mapped to the existing **Folder** hierarchy model in Campaign V8 to maintain similar access control. [Learn more on folder management](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
 
@@ -103,3 +113,5 @@ Below is a list of Campaign Standard security group mappings that have not been 
 * Adobe Experience Manager application managers   
 
 * Relay Account
+
+Note that custom roles created and assigned to users in Adobe Campaign Standard will not be migrated to Campaign V8.
