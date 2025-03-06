@@ -14,7 +14,7 @@ exl-id: 1bb25ad4-2cab-4656-85bd-4ed018e8477b
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_test_conditions"
 >title="Conditions"
->abstract="The **Test** activity can have multiple output transitions. During workflow execution, each condition is tested sequentially until one of them is met. If none of the conditions are met, the workflow continues along the path of the **[!UICONTROL Default condition]**. If no default condition is activated, the workflows stops at this point."
+>abstract="The **Test** activity can have multiple output transitions. During workflow execution, each condition is tested sequentially until one of them is met. If none of the conditions are met, the workflow continues along the path of the **[!UICONTROL Default condition]**. If no default condition is activated, the workflow stops at this point."
 
 The **Test** activity is a **Flow control** activity. It allows you to enable transitions based on specified conditions.
 
@@ -34,7 +34,7 @@ Follow these steps to configure the **Test** activity:
 
 1. You can add multiple output transitions to a **[!UICONTROL Test]** activity. To do this, click the **[!UICONTROL Add condition]** button and configure the label and associated condition for each transition.
 
-1. During workflow execution, each condition is tested sequentially until one of them is met. If none of the conditions are met, the workflow continues along the path of the **[!UICONTROL Default condition]**. If no default condition is activated, the workflows stops at this point.
+1. During workflow execution, each condition is tested sequentially until one of them is met. If none of the conditions are met, the workflow continues along the path of the **[!UICONTROL Default condition]**. If no default condition is activated, the workflow stops at this point.
 
 ## Example {#example}
 
