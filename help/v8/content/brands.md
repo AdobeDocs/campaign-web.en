@@ -5,6 +5,7 @@ description: Learn how to create and manage your brand guidelines
 hide: yes
 hidefromtoc: yes
 badge: label="Beta" type="Informative"
+exl-id: d4d2c6bb-7fd0-49a0-9d73-356f4a24f021
 ---
 # Create and manage your brands {#brands}
 
