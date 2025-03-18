@@ -103,7 +103,7 @@ The message is sent in the default language that has been set up. You can create
 
 1. Click the Add language button.
 
-1. A window opens up, you can click on the **[!UICONTROL Language]** drop-down button to show a list of languages that can be chosen.(ADD SCREENSHOT OF THE WINDOW)
+1. A window opens up, you can click on the **[!UICONTROL Language]** drop-down button to show a list of languages that can be chosen.
 
     ![](assets/edit-content_3.png){zoomable="yes"}
 
@@ -124,7 +124,11 @@ The message is sent in the default language that has been set up. You can create
 
 1. You can preview the delivery by clicking on the **[!UICONTROL Simulate content]** button, and choose the profile and language in which the email is displayed.
 
-1. Click the **[!UICONTROL Save]** button to save all of your changes, you will then be brought back to the **[!UICONTROL Delivery]** page.
+1. While in the Simulate content window, you can switch profiles to preview the content of the email corresponding to the language that has been set up for that profile.
+
+    ![](assets/edit-content_5.png){zoomable="yes"}
+
+1. Click the **[!UICONTROL Close]** button to go back to the Content page and click the **[!UICONTROL Save]** button to save all of your changes. You will then be brought back to the **[!UICONTROL Delivery]** page.
 
 
 
