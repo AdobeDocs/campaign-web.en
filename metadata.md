@@ -1,7 +1,7 @@
 ---
 cloud: Experience Cloud
-solution: Campaign, Campaign v8 Web User Interface
-version: v8 Web User Interface
+solution: Campaign, Campaign v8, Campaign v8 Web User Interface
+version: Campaign v8, Campaign v8 Web User Interface
 product: adobe campaign-web
 feature-set: Campaign
 type: Documentation
