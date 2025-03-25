@@ -135,5 +135,10 @@ The message is sent in the default language that has been set up. You can create
 
 1. Click the **[!UICONTROL Close]** button to go back to the Content page and click the **[!UICONTROL Save]** button to save all of your changes. You will then be brought back to the **[!UICONTROL Delivery]** page.
 
+### Example
+
+To create a multilingual delivery in English and French, click **[!UICONTROL Add languages]** in the **[!UICONTROL Content]** page. Choose the standard language, here we will pick English as our default language and French as a variant.
+
+
 
 
