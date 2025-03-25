@@ -111,14 +111,26 @@ The message is sent in the default language that has been set up. You can create
 1. A window opens up, you can click on the **[!UICONTROL Language]** drop-down button to show a list of languages that can be chosen.
 
     ![](assets/edit-content_3.png){zoomable="yes"}
+    
+    For example here, for English (US):
 
-1. When chosing a language, a new variant will be created. You can find it in the **[!UICONTROL Languages]** panel to the left with the language tag.
+    ![](assets/edit-content_8.png){zoomable="yes"}
 
-1. The **[!UICONTROL Language]** panel shows you the list of languages you have chosen, the number of different languages and also the default language. You can click on the expand button to the top right corner to delete every languages.
+    You can repeat this process multiple times to add different languages. The first language you choose will be set as the default one.
 
-1. In the **[!UICONTROL Languages]** panel, you can choose any language that you have added and click on the three dots in the right side of the tab. There, you can choose to edit the language, duplicate the language, choose it as default or delete it.
+1. When adding languages, new variants will be created. You can find them in the **[!UICONTROL Languages]** panel to the left with the language tag.
 
-    ![](assets/edit-content_4.png){zoomable="yes"}
+1. The **[!UICONTROL Language]** panel shows you the list of languages you have chosen, the number of different languages and also the default language.
+
+    For example, if you have chosen 3 languages:
+
+    ![](assets/edit-content_9.png){zoomable="yes"}
+
+    You can click on the expand button to the top right corner to delete every languages.
+
+1. In the **[!UICONTROL Languages]** panel, you can choose any language that you have added and click on the three dots in the right side of the tab. There, you an choose to either edit the language, set it as default, duplicate it or delete it.
+
+    ![](assets/edit-content_10.png){zoomable="yes"}
 
 
 1. You can also choose any language and edit the content of the email with the [Email Designer](get-started-email-designer.md#start-authoring) by clicking on the **[!UICONTROL Edit email body]** button.
@@ -127,6 +139,9 @@ The message is sent in the default language that has been set up. You can create
     >
     >You can also hover over the email preview and select **[!UICONTROL Open email designer]**.
 
+   ![](assets/edit-content_11.png){zoomable="yes"}
+
+
 1. You can preview the delivery by clicking on the **[!UICONTROL Simulate content]** button, and choose the profile and language in which the email is displayed.
 
 1. While in the Simulate content window, you can switch profiles to preview the content of the email corresponding to the language that has been set up for that profile.
@@ -134,10 +149,6 @@ The message is sent in the default language that has been set up. You can create
     ![](assets/edit-content_5.png){zoomable="yes"}
 
 1. Click the **[!UICONTROL Close]** button to go back to the Content page and click the **[!UICONTROL Save]** button to save all of your changes. You will then be brought back to the **[!UICONTROL Delivery]** page.
-
-### Example
-
-To create a multilingual delivery in English and French, click **[!UICONTROL Add languages]** in the **[!UICONTROL Content]** page. Choose the standard language, here we will pick English as our default language and French as a variant.
 
 
 
