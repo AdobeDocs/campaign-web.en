@@ -102,7 +102,8 @@ You can use the new Campaign Web user interface to **create and update recipient
 
 **AI-powered Contextual Help**
 
-Ask questions and find guidance directly from the product user interface. The new **AI-powered Contextual Help** helps you learn and grow your expertise on new Campaign features. Based on the latest product documentation, it assists you to find help and get step-by-step guidance instantly, as you are building your use cases. This feature is currently available in Beta, for a limited set of users. Learn more in [this section](../get-started/using-ai.md).-->
+Ask questions and find guidance directly from the product user interface. The new **AI-powered Contextual Help** helps you learn and grow your expertise on new Campaign features. Based on the latest product documentation, it assists you to find help and get step-by-step guidance instantly, as you are building your use cases. This feature is currently available in Beta, for a limited set of users. Learn more in [this section](../get-started/using-ai.md).
+-->
 
 **Predefined Filters**
     
