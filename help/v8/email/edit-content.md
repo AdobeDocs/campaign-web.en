@@ -100,7 +100,7 @@ To configure or edit the content of an email, follow the steps below.
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_multilingual"
 >title="Add languages"
->abstract="Add languages."
+>abstract="In this tab, you will find a list of languages in which the delivery is to be sent in. You can add more languages by clicking the Add Language button, or by duplicating another language via this tab."
 
 The message is sent in the default language that has been set up. You can create variants by adding other languages with the **[!UICONTROL Add language]** button and also change the default language.
 
