@@ -104,11 +104,21 @@ To configure or edit the content of an email, follow the steps below.
 
 The message is sent in the default language that has been set up. You can create variants by adding other languages with the **[!UICONTROL Add language]** button and also change the default language.
 
+>[!IMPORTANT]
+>
+>The **[!UICONTROL Add language]** button is only available if the target dimension contains the Language schema. To learn more about schemas and Target dimensions, please refer to the [detailed documentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/targeting-dimensions){target=_blank}.
+
+
 ![](assets/edit-content_2.png){zoomable="yes"}
 
 1. Click the Add language button.
 
 1. A window opens up, you can click on the **[!UICONTROL Language]** drop-down button to show a list of languages that can be chosen.
+
+>[!NOTE]
+>
+>The languages available through this list will depend on the the values that have been defined in the Language attribute (such as system, user, dbenum).
+
 
     ![](assets/edit-content_3.png){zoomable="yes"}
     
