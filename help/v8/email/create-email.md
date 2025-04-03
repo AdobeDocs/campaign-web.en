@@ -158,7 +158,7 @@ Additional information on how to preview an email and send proofs are available 
 
     >[!NOTE]
     >
-    >The **[!UICONTROL Simulate content]** button is disabled in specific use cases. Limitations are detailed [in this section](#content-simulation-limitations).
+    >The **[!UICONTROL Simulate content]** button is disabled in specific contexts. Limitations are detailed [in this section](#content-simulation-limitations).
 
 1. On the left-hand side, select the profile(s) you want to use to preview the email.
 
