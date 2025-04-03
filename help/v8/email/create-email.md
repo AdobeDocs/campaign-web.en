@@ -207,7 +207,7 @@ Additional information on how to preview an email and send proofs are available 
 >abstract="The **Simulate content** button is disabled because not supported in Campaign Enterprise Full Federated Access (FFDA) mode."
 
 >[!CONTEXTUALHELP]
->id="acw_content_simulation_limitation_no_file"
+>id="acw_simulation_limitation_no_file"
 >title="Content simulation is not supported"
 >abstract="The **Simulate content** button is disabled because no content has been uploaded."
 
