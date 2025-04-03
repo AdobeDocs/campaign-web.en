@@ -189,7 +189,7 @@ Additional information on how to preview an email and send proofs are available 
 
     You can check the status of the sending and access the sent proofs  at any time by clicking the **[!UICONTROL View proofs]** button in the simulate content screen.
 
-## Content simulation limitations {#content-simulation-limitations}
+### Content simulation limitations {#content-simulation-limitations}
 
 >[!CONTEXTUALHELP]
 >id="acw_simulation_limitation_multilingual"
