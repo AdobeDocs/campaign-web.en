@@ -4,6 +4,7 @@ title: Get started with SMS deliveries
 description: Learn how to create and send SMS with Adobe Campaign Web
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
 ---
+```markdown
 # Get started with SMS deliveries {#sms}
 
 SMS deliveries provide a practical and efficient way to send text messages to your customers' mobile devices. With this feature, you can create, personalize, and preview text-based messages for effective communication.
@@ -21,7 +22,7 @@ The SMS channel offers three methods for creating SMS deliveries:
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-sms.md">
-<img alt="Lead" src="assets/do-not-localize/create_sms.png">
+<img alt="Create an SMS delivery" src="assets/do-not-localize/create_sms.png">
 </a>
 <div><a href="create-sms.md"><strong>Create an SMS delivery</strong>
 </div>
@@ -29,7 +30,7 @@ The SMS channel offers three methods for creating SMS deliveries:
 </td>
 <td>
 <a href="content-sms.md">
-<img alt="Infrequent" src="assets/do-not-localize/design_sms.png">
+<img alt="Design an SMS delivery" src="assets/do-not-localize/design_sms.png">
 </a>
 <div>
 <a href="content-sms.md"><strong>Design an SMS delivery<strong></strong></a>
@@ -37,7 +38,7 @@ The SMS channel offers three methods for creating SMS deliveries:
 <p></td>
 <td>
 <a href="send-sms.md">
-<img alt="Validation" src="assets/do-not-localize/send_sms.png">
+<img alt="Send an SMS delivery" src="assets/do-not-localize/send_sms.png">
 </a>
 <div>
 <a href="send-sms.md"><strong>Send an SMS delivery</strong></a>
@@ -46,7 +47,7 @@ The SMS channel offers three methods for creating SMS deliveries:
 </td>
 <td>
 <a href="send-sms.md">
-<img alt="Validation" src="assets/do-not-localize/report_sms.jpeg">
+<img alt="SMS delivery report" src="assets/do-not-localize/report_sms.jpeg">
 </a>
 <div>
 <a href="send-sms.md"><strong>SMS delivery report</strong></a>
@@ -54,3 +55,4 @@ The SMS channel offers three methods for creating SMS deliveries:
 <p>
 </td>
 </tr></table>
+```

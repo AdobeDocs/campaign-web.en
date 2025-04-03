@@ -13,7 +13,7 @@ exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
 >title="Create test profiles"
 >abstract="Test profiles are additional recipients which let you preview and test the personalization and rendering before sending your messages. You can select a test profile when previewing a message content, and send proofs to the test profiles to control and validate your message content and settings."
 
-Test profiles are used to send proofs, and validate your message content and settings. These profiles are additional recipients which let you preview and test the personalization and rendering before sending your messages. You can select a test profile when previewing a message content, and send proofs to the test profiles to control and validate your message content and settings.
+Test profiles are used to send proofs and validate your message content and settings. These profiles are additional recipients that let you preview and test the personalization and rendering before sending your messages. You can select a test profile when previewing a message content and send proofs to the test profiles to control and validate your message content and settings.
 
 ➡️ [Discover this feature in video](#video) 
 
@@ -29,29 +29,29 @@ The steps to send proofs to test profiles are detailed in [this section](../prev
 
 ## Access and manage test profiles {#access-test-profiles}
 
-To access the test profile list, select **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]** from the left menu and click the **[!UICONTROL Test profiles]** tab.
+To access the test profile list, select **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]** from the left menu, and click the **[!UICONTROL Test profiles]** tab.
 
-![](assets/test-profile-list.png){zoomable="yes"}
+![Test profile list view](assets/test-profile-list.png){zoomable="yes"}
 
 * You can filter on a specific [folder](../get-started/permissions.md#folders) using the drop-down list or add rules using the [query modeler](../query/query-modeler-overview.md).
 
-    ![](assets/test-profile-list-filters.png){zoomable="yes"}
+    ![Test profile list filters](assets/test-profile-list-filters.png){zoomable="yes"}
 
 * You can duplicate any test profile and update it as needed. The steps to edit a test profile are the same as when [creating a test profile](#create-test-profile).
 
 * To delete a test profile, select the corresponding option from the **[!UICONTROL More actions]** menu.
 
-    ![](assets/test-profile-list-delete.png){zoomable="yes"}
+    ![Delete test profile option](assets/test-profile-list-delete.png){zoomable="yes"}
 
 * To edit a test profile, click the desired item from the list. The steps to edit a test profile are the same as when [creating a test profile](#create-test-profile).
 
 You can also access test profiles through the **[!UICONTROL Explorer]** view, from the **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** node.
 
-From there you can browse, create and manage folders or subfolders, as well as check associated permissions. [Learn how to create folders](../get-started/permissions.md#folders)
+From there, you can browse, create, and manage folders or subfolders, as well as check associated permissions. [Learn how to create folders](../get-started/permissions.md#folders)
 
-![](assets/test-profiles-folders.png){zoomable="yes"}
+![Test profiles folders view](assets/test-profiles-folders.png){zoomable="yes"}
 
-From the **[!UICONTROL Explorer]** view you can also filter, delete, edit and [create](#create-test-profile) test profiles.
+From the **[!UICONTROL Explorer]** view, you can also filter, delete, edit, and [create](#create-test-profile) test profiles.
 
 ## Create a test profile {#create-test-profile}
 
@@ -62,15 +62,15 @@ From the **[!UICONTROL Explorer]** view you can also filter, delete, edit and [c
 
 To create a test profile, follow the steps below:
 
-1. Browse to **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]** and select the **[!UICONTROL Test profiles]** tab.
+1. Browse to **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]**, and select the **[!UICONTROL Test profiles]** tab.
 
 1. Click the **[!UICONTROL Create test profile]** button.
 
-    ![](assets/test-profile-create.png){zoomable="yes"}
+    ![Create test profile button](assets/test-profile-create.png){zoomable="yes"}
 
 1. Fill in the test profile details as needed. <!--Most of the fields are the same as when creating profiles. [Learn more]-->
 
-    ![](assets/test-profile-details.png){zoomable="yes"}
+    ![Test profile details form](assets/test-profile-details.png){zoomable="yes"}
 
     >[!NOTE]
     >
@@ -86,13 +86,13 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
 1. In the **[!UICONTROL Contact information]** section, enter the email address and other relevant data. The email address is displayed between brackets after the test profile label.
 
-    ![](assets/test-profile-address.png){zoomable="yes"}
+    ![Contact information section](assets/test-profile-address.png){zoomable="yes"}
 
-1. If you select the **[!UICONTROL No longer contact (by any channel)]** checkbox, the test profile is on denylist. Such recipient is no longer targeted on any channel (email, SMS, etc.).
+1. If you select the **[!UICONTROL No longer contact (by any channel)]** checkbox, the test profile is on denylist. Such recipient is no longer targeted on any channel (email, SMS, and similar channels).
 
 1. In the **[!UICONTROL Additional data]** tab, enter the personalization data used for the deliveries created in the Data management workflows and which you want to assign a specific value to. [Learn more on workflows](../workflows/gs-workflows.md)
 
-    ![](assets/test-profile-additional-data.png){zoomable="yes"}
+    ![Additional data tab](assets/test-profile-additional-data.png){zoomable="yes"}
     
    Make sure that additional target data has been defined with an alias starting with '@' in the **[!UICONTROL Enrichment]** workflow activity. Otherwise, you cannot use it properly with your seed addresses in the delivery activity. [Learn more on the Enrichment activity](../workflows/activities/enrichment.md)
 

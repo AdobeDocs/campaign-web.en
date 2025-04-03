@@ -18,11 +18,11 @@ exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
 
 ## What are content fragments? {#what}
 
-A content fragment is a reusable component that can be referenced in one or more messages. When modifying a fragment, every content using it is updated. This functionality allows to prebuild multiple custom content blocks that can be used by marketing users to quickly assemble message contents in an improved design process.
+A content fragment is a reusable component that can be referenced in one or more messages. When modifying a fragment, every content using it is updated. This functionality allows marketing users to prebuild multiple custom content blocks and quickly assemble message contents in an improved design process.
 
 Two types of fragments are available:
 
-* **Expression fragments** are pre-defined expressions that are available from a dedicated entry in the expression editor. Campaign comes with a set of pre-defined content blocks which contain a specific rendering that you can insert into your deliveries. For example, you can add a logo, a greeting message, or a link to the mirror page of the message. You can also create your own expression fragments to suit your needs.
+* **Expression fragments** are pre-defined expressions available from a dedicated entry in the expression editor. Campaign includes a set of pre-defined content blocks that contain specific renderings you can insert into your deliveries. For example, you can add a logo, a greeting message, or a link to the mirror page of the message. You can also create your own expression fragments to suit your needs.
 
 * **Visual fragments** are pre-defined visual blocks that you can reuse across multiple [email deliveries](../email/get-started-email-designer.md), or in [content templates](../email/use-email-templates.md).
 
@@ -32,12 +32,12 @@ Two types of fragments are available:
 
 ## Let's dive deeper
 
-Now that you have an understanding of what content fragments are and what you can do with them in Adobe Campaign, it's time to dive deeper into these documentation sections to start working with the feature.
+Now that you understand what content fragments are and what you can do with them in Adobe Campaign, explore the following documentation sections to start working with the feature.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-fragment.md">
-<img alt="Create your own expression fragments" src="assets/do-not-localize/create-fragment.png">
+<img alt="[Create your own expression fragments]" src="assets/do-not-localize/create-fragment.png">
 </a>
 <div>
 <a href="create-fragment.md"><strong>Create your own content fragments</strong></a>
@@ -46,7 +46,7 @@ Now that you have an understanding of what content fragments are and what you ca
 </td>
 <td>
 <a href="use-visual-fragments.md">
-<img alt="Add visual fragments to your emails" src="assets/do-not-localize/visual.png">
+<img alt="[Add visual fragments to your emails]" src="assets/do-not-localize/visual.png">
 </a>
 <div><a href="use-visual-fragments.md"><strong>Add visual fragments to your emails</strong>
 </div>
@@ -54,7 +54,7 @@ Now that you have an understanding of what content fragments are and what you ca
 </td>
 <td>
 <a href="use-expression-fragments.md">
-<img alt="Add expression fragments to the expression editor" src="assets/do-not-localize/expression.png">
+<img alt="[Add expression fragments to the expression editor]" src="assets/do-not-localize/expression.png">
 </a>
 <div>
 <a href="use-expression-fragments.md"><strong>Use expression fragments in the expression editor</strong></a>

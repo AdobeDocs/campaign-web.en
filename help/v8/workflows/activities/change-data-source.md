@@ -11,21 +11,21 @@ exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
 >title="Change data source"
 >abstract="The **Change data source** activity allows you to select a different data source for the Working table of your workflow."
 
-The **Change data source** activity is a **targeting** activity. This activity allows you to change the data source used by your workflow's Working table. This provides more flexibility by allowing you to manage data across your different databases and improve performances.
+The **Change data source** activity is a **targeting** activity. This activity allows you to change the data source used by your workflow's Working table. This provides more flexibility by allowing you to manage data across your different databases and improve performance.
 
 In workflows, data transported from one activity to another through transitions is stored in a temporary **Working table**. By default, Working tables are created in the same database as the source of the processed data. For example, when querying the "Profiles" table, stored on the Cloud database, a Working table is created on the same Cloud database.
 
 In some cases, either data is not available on the current database or is not efficient enough to perform unitary operations. You may therefore need to force the workflow to use a different database to perform such operations by adding a **[!UICONTROL Change data source]** activity.
 
-Detailed information on Campaign architecture is available in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html)
+Detailed information on Campaign architecture is available in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html).
 
 >[!IMPORTANT]
 >
->Please note that the **[!UICONTROL Change Dimension]** and **[!UICONTROL Change Data source]** activities should not be added in one row. If you need to use both activities consecutively, make sure you include an **[!UICONTROL Enrichement]** activity in between them. This ensures proper execution and prevents potential conflicts or errors.
+>Please note that the **[!UICONTROL Change Dimension]** and **[!UICONTROL Change Data source]** activities should not be added in one row. If you need to use both activities consecutively, include an **[!UICONTROL Enrichment]** activity in between them. This ensures proper execution and prevents potential conflicts or errors.
 
 <!--
 
-Let's say you want to send to your  VIP customers a unique offer code that they can redeem on your online store. To do this, you need to:
+Let's say you want to send VIP customers a unique offer code that they can redeem on your online store. To do this, you need to:
 
 1. Query VIP customers on the "Profiles" table located on the Cloud database,
 1. Retrieve an offer code for each targeted profile through API calls,
@@ -39,9 +39,9 @@ Before executing the operation, the working table is copied to the local databas
 
 ## Configure the Change data source activity {#configure}
 
-Follow these steps to configure the **Change dimension** activity:
+Follow these steps to configure the **Change data source** activity:
 
-![](../assets/workflow-change-data-source-add.png)
+![Screenshot showing how to add the Change data source activity to a workflow.](../assets/workflow-change-data-source-add.png)
 
 1. Add a **Change data source** activity to your workflow.
 
@@ -59,6 +59,6 @@ Follow these steps to configure the **Change dimension** activity:
 <!--
 ## Example {#example}
 
-The workflow belows illustrates the use case detailed earlier, i.e. sending VIP customers offer codes that they can redeem on our online store.
+The workflow below illustrates the use case detailed earlier, sending VIP customers offer codes that they can redeem on our online store.
 
 -->

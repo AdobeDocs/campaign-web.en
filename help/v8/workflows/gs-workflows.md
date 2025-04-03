@@ -9,19 +9,19 @@ exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
 
 ## What is a workflow?
 
-Cross-channel marketing is essential for any business looking to reach its customers effectively. Adobe Campaign provides a comprehensive graphical environment that empowers you to design complex processes that can help you manage your marketing campaigns with ease.
+Cross-channel marketing is essential for any business aiming to reach its customers effectively. Adobe Campaign provides a comprehensive graphical environment that enables you to design complex processes to manage your marketing campaigns with ease.
 
-With workflows, you can orchestrate the full range of processes and tasks, improve the speed and scale of every aspect of your marketing campaigns, from creating segments and preparing messages to delivery. Plus, you can get your channels in sync with a single, easy-to-use interface for campaign orchestration.
+With workflows, you orchestrate a full range of processes and tasks, improving the speed and scale of every aspect of your marketing campaigns, from creating segments and preparing messages to delivery. Additionally, you synchronize your channels using a single, easy-to-use interface for campaign orchestration.
 
-One of the most significant advantages of using workflows is that it makes it simple to deliver personalized content to your customers across all channels. Whether your customers prefer to receive messages via email or mobile, Adobe Campaign allows you to deliver a consistent and contextual experience on any channel, transforming every customer's journey into a unique experience.
+One of the key advantages of workflows is their ability to simplify the delivery of personalized content to customers across all channels. Whether customers prefer receiving messages via email or mobile, Adobe Campaign ensures a consistent and contextual experience on any channel, transforming every customer's journey into a unique experience.
 
 ## Practical uses for workflows
 
-Workflows are incredibly versatile and can be used in various contexts, including targeting to manage audiences or send messages, data management (ETL) to manipulate data, and importing data into the Adobe Campaign database.
+Workflows are highly versatile and applicable in various contexts, including targeting to manage audiences or send messages, data management (ETL) to manipulate data, and importing data into the Adobe Campaign database.
 
-With the comprehensive graphical environment of Adobe Campaign, you can design processes such as segmentation, campaign execution, file processing. Workflows can also involve users by assigning them tasks or having them approve performed tasks, making it easier to manage your team's work and ensure that everything is done correctly.
+Using Adobe Campaign's graphical environment, you design processes such as segmentation, campaign execution, and file processing. Workflows also involve users by assigning tasks or requiring approval for performed tasks, simplifying team management and ensuring accuracy.
 
-Here are some examples of how you can use workflows with Adobe Campaign:
+Here are some examples of how workflows can be used with Adobe Campaign:
 
 * Launch a follow-up campaign for inactive customers,
 * Send a welcome email to all new subscribers to a service,
@@ -29,7 +29,7 @@ Here are some examples of how you can use workflows with Adobe Campaign:
 
 ## Let's dive deeper
 
-Now that you have an understanding of what workflows are and what you can do with them in Adobe Campaign, it's time to dive deeper into these documentation sections to start working with the feature.
+Now that you understand what workflows are and their capabilities in Adobe Campaign, explore the following documentation sections to start working with this feature.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -43,7 +43,7 @@ Now that you have an understanding of what workflows are and what you can do wit
 </td>
 <td>
 <a href="create-workflow.md">
-<img alt="Lead" src="assets/do-not-localize/workflow-create.jpeg">
+<img alt="Create and run your first workflow" src="assets/do-not-localize/workflow-create.jpeg">
 </a>
 <div><a href="create-workflow.md"><strong>Create & run your first workflow</strong>
 </div>
@@ -51,7 +51,7 @@ Now that you have an understanding of what workflows are and what you can do wit
 </td>
 <td>
 <a href="activities/about-activities.md">
-<img alt="Infrequent" src="assets/do-not-localize/workflow-activities.jpeg">
+<img alt="Work with workflow activities" src="assets/do-not-localize/workflow-activities.jpeg">
 </a>
 <div>
 <a href="activities/about-activities.md"><strong>Work with workflow activities</strong></a>

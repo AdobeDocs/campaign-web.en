@@ -6,23 +6,23 @@ exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 ---
 # Create and Manage a Folder
 
-In Adobe Campaign, you can create new folders to manage your navigation tree. In **[!UICONTROL Explorer]**, go to the folder in which you want to create your new folder.
+In Adobe Campaign, you can create new folders to manage your navigation tree. In **[!UICONTROL Explorer]**, go to the folder where you want to create your new folder.
 
-Under the **[!UICONTROL ...]** button, You have **[!UICONTROL Create new folder]**
+Under the **[!UICONTROL ...]** button, select **[!UICONTROL Create new folder]**.
 
-  ![](assets/folder_create.png){zoomable="yes"}
+  ![Screenshot showing the Create new folder option under the ... button](assets/folder_create.png){zoomable="yes"}
 
-When you create a new folder, by default, the folder type is the type of the folder parent. 
-In our example, we create a folder in the **[!UICONTROL Deliveries]** folder.
+When you create a new folder, the folder type defaults to the type of the parent folder.  
+In this example, a folder is created in the **[!UICONTROL Deliveries]** folder.
 
-  ![](assets/folder_new.png){zoomable="yes"}
+  ![Screenshot showing a new folder created in the Deliveries folder](assets/folder_new.png){zoomable="yes"}
 
-You can change the type of your folder by clicking on the icon of Folder type, and you can choose it in the list presented: 
+You can change the folder type by clicking on the Folder type icon and selecting a type from the list presented.
 
-  ![](assets/folder_type.png){zoomable="yes"}
+  ![Screenshot showing the list of folder types available for selection](assets/folder_type.png){zoomable="yes"}
 
-You will setup the folder type by clicking on **[!UICONTROL Confirm]** button.
+Set up the folder type by clicking the **[!UICONTROL Confirm]** button.
 
-If you want to create a folder with no specific type, choose **[!UICONTROL Generic Folder]** type.
+To create a folder with no specific type, select the **[!UICONTROL Generic Folder]** type.
 
-In Adobe Campaign console, you have the process of creation and management of a folder explained [here](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/folders-and-views), and you have the possibility to setup permissions on folders. [Learn more](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
+In the Adobe Campaign console, the process for creating and managing folders is explained [here](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/folders-and-views). You can also set up permissions for folders. [Learn more](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/folder-permissions).

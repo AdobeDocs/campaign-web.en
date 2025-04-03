@@ -15,14 +15,14 @@ exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
 >id="acw_contenttemplate_menu"
 >title="Content templates"
 >abstract="For an accelerated and improved design process, you can create standalone email templates to easily reuse custom content across Adobe Campaign. These content templates can be designed from scratch, based on built-in or custom templates, created from an existing content, or imported in the content template editor."
- 
-For an accelerated and improved design process, you can create standalone templates to easily reuse custom content across [!DNL Adobe Campaign]. These content templates can be designed from scratch, based on built-in or custom templates, created from an existing content, or imported in the content template editor.
 
-This functionality enables content-oriented users to work on standalone templates so that marketing users can reuse and adapt them inside their own email campaigns.
+For an accelerated and improved design process, you can create standalone templates to easily reuse custom content across [!DNL Adobe Campaign]. These content templates can be designed from scratch, based on built-in or custom templates, created from existing content, or imported in the content template editor.
+
+This functionality enables content-oriented users to work on standalone templates, so marketing users can reuse and adapt them inside their own email campaigns.
 
 >[!NOTE]
 >
->Currently only **email** content templates are supported.
+>Currently, only **email** content templates are supported.
 
 ## Access content templates {#access-templates}
 
@@ -33,11 +33,11 @@ This functionality enables content-oriented users to work on standalone template
 
 To access the content template list, browse to the **[!UICONTROL Content Management]** > **[!UICONTROL Content Templates]** menu from the left rail.
 
-![](assets/content-template-list.png){zoomable="yes"}
+![Content template list dashboard showing available templates](assets/content-template-list.png){zoomable="yes"}
 
 This dashboard shows all the available content templates as a list. You can filter on a specific [folder](../get-started/permissions.md#folders) using the drop-down list or add rules using the [query modeler](../query/query-modeler-overview.md).
 
-![](assets/content-template-list-filters.png){zoomable="yes"}
+![Content template list filters for folders and rules](assets/content-template-list-filters.png){zoomable="yes"}
 
 From the list, you can edit, duplicate, or delete existing content templates. Use the button on the upper section to create a content template.
 
@@ -45,13 +45,13 @@ From the list, you can edit, duplicate, or delete existing content templates. Us
 
 Access rights may be applied to content templates.
 
-If you do not have editing permissions for a particular content template, the content template is displayed in **read-only mode**. In this case, the **[!UICONTROL Edit content]** button is replaced with the  **[!UICONTROL View content]** button, allowing you to view the template without making any changes.
+If you do not have editing permissions for a particular content template, the content template is displayed in **read-only mode**. In this case, the **[!UICONTROL Edit content]** button is replaced with the **[!UICONTROL View content]** button, allowing you to view the template without making any changes.
 
-![](assets/template-readonly.png){zoomable="yes"}
+![Read-only mode for content templates](assets/template-readonly.png){zoomable="yes"}
 
-As shown below, all features icons are deactivated, limiting interaction to viewing only.
+As shown below, all feature icons are deactivated, limiting interaction to viewing only.
 
-![](assets/template-readonly-view.png){zoomable="yes"}
+![Read-only view of content templates](assets/template-readonly-view.png){zoomable="yes"}
 
 ## Create content templates {#create-content-templates}
 
@@ -65,9 +65,9 @@ As shown below, all features icons are deactivated, limiting interaction to view
 >title="Content template selection"
 >abstract="Select your email content template."
 
-Content templates can be created by [saving an existing email as a template](#save-as-template), or from the list of email templates, through the **Create content template** button, [as detailed below](#create-template-from-scratch).
+Content templates can be created by [saving an existing email as a template](#save-as-template) or from the list of email templates, through the **Create content template** button, [as detailed below](#create-template-from-scratch).
 
-Once saved, you can now use this template when building any [email](../email/create-email.md) within [!DNL Adobe Campaign]. [Learn how](use-email-templates.md)
+Once saved, you can use this template when building any [email](../email/create-email.md) within [!DNL Adobe Campaign]. [Learn how](use-email-templates.md)
 
 >[!NOTE]
 >
@@ -80,7 +80,7 @@ Once saved, you can now use this template when building any [email](../email/cre
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_properties"
 >title="Define your template properties"
->abstract="Define your email content template properties to retrieve is easily when needed."
+>abstract="Define your email content template properties to retrieve it easily when needed."
 
 To create a new content template from the content templates dashboard, follow these steps:
 
@@ -88,23 +88,20 @@ To create a new content template from the content templates dashboard, follow th
 
 1. Select **[!UICONTROL Create template]**.
 
-    ![](assets/content-template-create.png){zoomable="yes"}
+    ![Create content template button in dashboard](assets/content-template-create.png){zoomable="yes"}
 
-1. Enter the template label and properties. You can select the folder where you want to store your template. By default, content templates are stored in a dedicated folder of the Adobe Campaign hierarchy: **[!UICONTROL Explorer]** > **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Content templates]**. Learn more about folders in [this page](../get-started/permissions.md#folders)
+1. Enter the template label and properties. You can select the folder where you want to store your template. By default, content templates are stored in a dedicated folder of the Adobe Campaign hierarchy: **[!UICONTROL Explorer]** > **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Content templates]**. Learn more about folders in [this page](../get-started/permissions.md#folders).
 
-    ![](assets/content-template-details.png){zoomable="yes"}
+    ![Template details screen for label and properties](assets/content-template-details.png){zoomable="yes"}
 
 1. Click **[!UICONTROL Create]** and choose how you want to design your template from the different options:
 
     * [Design your content from scratch](create-email-content.md) through the Email Designer's interface.
-
     * [Code or copy-paste raw HTML](code-content.md) directly into the Email Designer.
-
     * [Import existing HTML content](existing-content.md) from a file or a .zip folder.
-
     * Use existing content from a list of built-in or custom templates. The steps to use a content template in an email are described in [this section](use-email-templates.md).
 
-    ![](assets/email_designer-templates.png){zoomable="yes"}
+    ![Email Designer options for creating templates](assets/email_designer-templates.png){zoomable="yes"}
 
 1. The Email Designer displays. Edit your content as needed, the same way you would do for any email, according to the option you selected. Learn how to use the Email Designer in [this section](get-started-email-designer.md).
 
@@ -114,34 +111,33 @@ To create a new content template from the content templates dashboard, follow th
 
     If needed, click the arrow next to the template name to go back to the **[!UICONTROL Details]** screen and edit your template.
 
-    ![](assets/content-template-save-back.png){zoomable="yes"}
+    ![Save and navigate back to details screen](assets/content-template-save-back.png){zoomable="yes"}
 
 The template is available in the **[!UICONTROL Content templates]** list. [Learn more](#access-templates)
 
-You can now use this template to build a new content: it is available in the **[!UICONTROL Saved templates]** tab of the Email Designer. [Learn how](use-email-templates.md)
+You can now use this template to build new content. It is available in the **[!UICONTROL Saved templates]** tab of the Email Designer. [Learn how](use-email-templates.md)
 
 ### Save email content as template {#save-as-template}
 
-Once you [designed an email](create-email-content.md), you can save this content as a template for future reuse. Saved templates are available to all users of your Adobe Campaign environment.
+Once you [design an email](create-email-content.md), you can save this content as a template for future reuse. Saved templates are available to all users of your Adobe Campaign environment.
 
 To save an email content as a template, follow the steps below:
 
-1. From the email designer, click the **[!UICONTROL More]** button on top right of the screen.
+1. From the email designer, click the **[!UICONTROL More]** button on the top right of the screen.
 
 1. Select **[!UICONTROL Save as content template]** from the drop-down menu.
 
-    ![](assets/email_designer-save-template.png){zoomable="yes"}
+    ![Save as content template option in email designer](assets/email_designer-save-template.png){zoomable="yes"}
 
 1. Enter a name for this template, and save.
 
-    ![](assets/email_designer-template-name.png){zoomable="yes"}
+    ![Enter name for saved template](assets/email_designer-template-name.png){zoomable="yes"}
 
-The template is saved and displayed in the **[!UICONTROL Content templates]** list. It becomes a standalone content template that can be accessed, edited and deleted as any other item on that list. [Learn more](#access-manage-templates)
+The template is saved and displayed in the **[!UICONTROL Content templates]** list. It becomes a standalone content template that can be accessed, edited, and deleted as any other item on that list. [Learn more](#access-manage-templates)
 
-You can now use this template to build a new content: it is available in the **[!UICONTROL Saved templates]** tab of the Email Designer. [Learn how](use-email-templates.md)
+You can now use this template to build new content. It is available in the **[!UICONTROL Saved templates]** tab of the Email Designer. [Learn how](use-email-templates.md)
 
-![](assets/email_designer-saved-template.png){zoomable="yes"}
-
+![Saved template in Email Designer](assets/email_designer-saved-template.png){zoomable="yes"}
 
 >[!NOTE]
 >
@@ -163,16 +159,15 @@ You can test the rendering of any email content template, whether created from s
 
 -->
 
-
 ## Modify a content template {#modify-delete}
 
 To update an existing content template, follow these steps:
 
-1. From the list of content templates, click on the label of the template to modify to edit it. 
+1. From the list of content templates, click on the label of the template to modify it.
 
 1. Click the **[!UICONTROL Edit content]** button to update your content with the [Email Designer](get-started-email-designer.md).
 
-![](assets/content-template-edition.png){zoomable="yes"}
+![Edit content template option](assets/content-template-edition.png){zoomable="yes"}
 
 >[!NOTE]
 >
@@ -182,25 +177,22 @@ To update an existing content template, follow these steps:
 
 You have two ways to delete a content template:
 
-* from the list of content templates, click the ellipsis button then select **Delete**
+* From the list of content templates, click the ellipsis button, then select **Delete**.
 
-    ![Delete a content template from the dasboard](assets/content-template-list-delete.png)
+    ![Delete a content template from the dashboard](assets/content-template-list-delete.png){zoomable="yes"}
     
-* from the content template itself, click the **More** button then select **Delete**
-
+* From the content template itself, click the **More** button, then select **Delete**.
 
 >[!NOTE]
 >
 >Deleting a content template does not impact deliveries created using this template.
 
-
 ## Duplicate a content template {#content-duplicate}
 
 You have two ways to duplicate a content template:
 
-* from the list of content templates, click the ellipsis button then select **Duplicate**
+* From the list of content templates, click the ellipsis button, then select **Duplicate**.
     
-* from the content template itself, click the **More** button then select **Duplicate**
+* From the content template itself, click the **More** button, then select **Duplicate**.
 
-In both cases, confirm the duplication to create the new content template. The label of the new content template is **Copy of `<label of the initial campaign`**. Browse to the template settings to update this label.
-    
+In both cases, confirm the duplication to create the new content template. The label of the new content template is **Copy of `<label of the initial campaign>`**. Browse to the template settings to update this label.

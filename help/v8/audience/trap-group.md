@@ -6,17 +6,17 @@ exl-id: 48c34581-8825-4798-b24e-c462303f7645
 ---
 # Use a trap group {#trap-group}
 
-A **[!UICONTROL trap group]** (also known as **[!UICONTROL Seed list]**) is used to include specific addresses in your deliveries to monitor and verify the distribution process by targeting profiles who do not match the defined target criteria. This way, recipients who are out of the delivery scope can receive the delivery, as any other target recipient would.
+A **[!UICONTROL trap group]** (also known as **[!UICONTROL Seed list]**) is used to include specific addresses in your deliveries to monitor and verify the distribution process by targeting profiles who do not match the defined target criteria. This way, recipients who are outside the delivery scope can receive the delivery, just like any other target recipient.
 
-A **[!UICONTROL trap group]** is a group of **[!UICONTROL seed addresses]**, named **[!UICONTROL Test profile]** on Campaign web user interface.
+A **[!UICONTROL trap group]** is a group of **[!UICONTROL seed addresses]**, named **[!UICONTROL Test profile]** on the Campaign web user interface.
 
 ## Why use a trap group {#why-trap-group}
 
-You can use **[!UICONTROL trap group]**:
+You can use a **[!UICONTROL trap group]**:
 
-1. **As a proof**: each member of the **[!UICONTROL Trap group]** will receive the delivery as if they were part of the audience.
+1. **As a proof**: Each member of the **[!UICONTROL trap group]** receives the delivery as if they were part of the audience.
 
-1. **To protect your mailing list**: by receiving what the audience will receive, each **[!UICONTROL test profile]** of the **[!UICONTROL Trap group]** will be noticed if the mailing list is used by a third party.
+1. **To protect your mailing list**: By receiving what the audience will receive, each **[!UICONTROL test profile]** of the **[!UICONTROL trap group]** will notice if the mailing list is used by a third party.
 
 >[!NOTE]
 >
@@ -24,51 +24,51 @@ You can use **[!UICONTROL trap group]**:
 
 ## About trap groups {#about-trap-group}
 
-Test profiles are automatically excluded from reports on the following delivery statistics: **Clicks**, **Opens**, **Unsubscriptions**. The reports are only about the real audience.
+Test profiles are automatically excluded from reports on the following delivery statistics: **Clicks**, **Opens**, **Unsubscriptions**. The reports focus only on the real audience.
 
-For an email delivery, only email address is needed for the **[!UICONTROL Trap group]**, the personalization of other fields will be filled randomly by Campaign.
+For an email delivery, only the email address is required for the **[!UICONTROL trap group]**. The personalization of other fields is filled randomly by Campaign.
 
 ## Add a Trap group in a delivery {#trap-group-in-delivery}
 
-To setup a **[!UICONTROL Trap group]**, go to the **[!UICONTROL Audience]** settings of your delivery. You will have 2 options :
+To set up a **[!UICONTROL trap group]**, go to the **[!UICONTROL Audience]** settings of your delivery. You will have two options:
 
-* [Select test profiles](#select-test-profile)
+* [Select test profiles](#select-test-profiles)
 * [Create condition](#create-condition)
 
-![](assets/trap-group.png){zoomable="yes"}
+[Trap group settings interface screenshot](assets/trap-group.png){zoomable="yes"}
 
 ### Select test profiles {#select-test-profiles}
 
-When you choose **Select test profiles**, you can use the **Add test profile(s)** button as shown below:
+When you choose **Select test profiles**, use the **Add test profile(s)** button as shown below:
 
-![](assets/trap-no-test-profile.png){zoomable="yes"}
+[Add test profile button screenshot](assets/trap-no-test-profile.png){zoomable="yes"}
 
-When you click on the button, you have access to the test profiles you can add your **[!UICONTROL trap group]**. Select the ones you want to use.
+When you click the button, you can access the test profiles to add to your **[!UICONTROL trap group]**. Select the ones you want to use.
 
 You can also create new test profiles. [Learn more](#create-seed)
 
-![](assets/trap-select-test-profiles.png){zoomable="yes"}
+[Select test profiles interface screenshot](assets/trap-select-test-profiles.png){zoomable="yes"}
 
-When you confirm your test profiles, check that you have the correct number under **[!UICONTROL Trap group]**.
+After confirming your test profiles, check that the correct number appears under **[!UICONTROL trap group]**.
 
-![](assets/trap-check.png){zoomable="yes"}
+[Trap group confirmation screenshot](assets/trap-check.png){zoomable="yes"}
 
 ### Create condition {#create-condition}
 
-With the **[!UICONTROL Create condition]** option, you can create a query to define the test profiles you want to use:
+With the **[!UICONTROL Create condition]** option, create a query to define the test profiles you want to use:
 
-![](assets/trap-create-condition.png){zoomable="yes"}
+[Create condition interface screenshot](assets/trap-create-condition.png){zoomable="yes"}
 
-Your query is displayed under **[!UICONTROL Trap group]**.
+Your query is displayed under **[!UICONTROL trap group]**.
 
-![](assets/trap-custom.png){zoomable="yes"}
+[Trap group query display screenshot](assets/trap-custom.png){zoomable="yes"}
 
 ## Create a new test profile {#create-seed}
 
-You can create a new **[!UICONTROL test profile]** from the  **[!UICONTROL Explorer]** > **[!UICONTROL Ressources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed members]** folder.
+You can create a new **[!UICONTROL test profile]** from the **[!UICONTROL Explorer]** > **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed members]** folder.
 
-![](assets/trap-create.png){zoomable="yes"}
+[Create test profile navigation screenshot](assets/trap-create.png){zoomable="yes"}
 
-Configure all settings about your **[!UICONTROL test profile]** as for any profile:
+Configure all settings for your **[!UICONTROL test profile]** as you would for any profile:
 
-![](assets/trap-create-contact.png){zoomable="yes"}
+[Test profile configuration screenshot](assets/trap-create-contact.png){zoomable="yes"}

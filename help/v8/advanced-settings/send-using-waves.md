@@ -17,7 +17,7 @@ exl-id: d4cd5fe5-f9ac-44ac-a961-ae45131aeb3e
 >title="Define the size of each wave"
 >abstract="You must enter a size for all the waves you are adding. Enter either a numerical value (number of messages for each wave), or a percentage (0-100%)."
 
-To balance the load, you can divide email deliveries into several batches. Configure the number of batches and their proportion with respect to the entire delivery, as well as the interval between two waves.
+To balance the load, divide email deliveries into several batches. Configure the number of batches and their proportion with respect to the entire delivery, as well as the interval between two waves.
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ To send deliveries using waves, follow the steps below.
 
     >[!CAUTION]
     >
-    >Make sure the last waves do not exceed the delivery deadline, defined in the [Validity](delivery-settings.md#validity) tab, otherwise some messages might not be sent. A specific typology control rule, **[!UICONTROL Wave scheduling check]**, ensures that the last wave is planned before the delivery validity limit. Learn more on control rules in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html).
+    >Make sure the last waves do not exceed the delivery deadline, defined in the [Validity](delivery-settings.md#validity) tab, otherwise some messages might not be sent. A specific typology control rule, **[!UICONTROL Wave scheduling check]**, ensures that the last wave is planned before the delivery validity limit. Learn more about control rules in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html).
     >
     >You must also allow enough time for retries when configuring the last waves. [Learn more](delivery-settings.md#retries)
 
@@ -50,7 +50,7 @@ To send deliveries using waves, follow the steps below.
     
 If you select this option, all the waves have the same size (except the last one), and the delay between each wave is always the same.
 
-![](assets/waves-same-size.png){zoomable="yes"}
+![Example of waves with the same size](assets/waves-same-size.png){zoomable="yes"}
 
 * Specify the size for all the waves you are splitting the delivery into. You can enter a percentage or a numerical value. Only the last wave can vary in size as it must include the remaining number of messages. 
 
@@ -60,21 +60,21 @@ If you select this option, all the waves have the same size (except the last one
 
 One common use case for using several waves of the same size is with a call center involved. When managing a telephone loyalty campaign, your organization has a limited capacity to process the number of calls to contact subscribers.
 
-Using waves, you can restrict the number of messages to 20 per day, which is the daily processing capacity of a call center.
+Using waves, restrict the number of messages to 20 per day, which is the daily processing capacity of a call center.
 
 To do this, select the **[!UICONTROL Schedule multiple waves of the same size]** option. Enter **[!UICONTROL 20]** as the waves size and **[!UICONTROL 1 day]** in the **[!UICONTROL Interval]** field.
 
-![](assets/waves-call-center.png){zoomable="yes"}
+![Example of waves for call center processing](assets/waves-call-center.png){zoomable="yes"}
 
 ## Schedule waves according to a calendar {#waves-calendar}
 
-If you select this option, you need to define the start day/time for each wave you are sending, as well as the size of each wave.
+If you select this option, define the start day/time for each wave you are sending, as well as the size of each wave.
 
 * In the **[!UICONTROL Start]** fields, specify the delay between the start of two consecutive waves.
 
 * In the **[!UICONTROL Size]** column, enter a fixed number or a percentage.
 
-Add as many waves as you want. You can reorder them according to your needs.
+Add as many waves as needed. Reorder them according to your requirements.
 
 >[!NOTE]
 >
@@ -82,14 +82,14 @@ Add as many waves as you want. You can reorder them according to your needs.
 
 In the example below, the first wave represents 25% of the total number of messages included in the delivery and starts immediately. The next two waves complete the delivery and are set to begin at six-hour intervals.
 
-![](assets/waves-calendar.png){zoomable="yes"}
+![Example of waves scheduled by calendar](assets/waves-calendar.png){zoomable="yes"}
 
-One common use case for using multiple waves according to a calendar is during ramp-up process.
+One common use case for using multiple waves according to a calendar is during the ramp-up process.
 
 When emails are sent using a new platform, Internet service providers (ISPs) are suspicious of IP addresses that are not recognized. If large volumes of emails are suddenly sent, the ISPs often mark them as spam.
 
-To avoid being marked as spam, you can progressively increase the volume sent using waves. This should ensure smooth development of the start-up phase and enable you to reduce the overall rate of invalid addresses.
+To avoid being marked as spam, progressively increase the volume sent using waves. This ensures smooth development of the start-up phase and reduces the overall rate of invalid addresses.
 
 To do so, use the **[!UICONTROL Schedule waves according to a calendar]** option. For example, set the first wave to 10%, the second to 15%, the third to 20%, and so on.
 
-![](assets/waves-ramp-up.png){zoomable="yes"}
+![Example of waves for ramp-up process](assets/waves-ramp-up.png){zoomable="yes"}

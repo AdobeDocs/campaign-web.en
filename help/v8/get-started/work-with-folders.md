@@ -30,49 +30,45 @@ exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 
 Folders are objects in Adobe Campaign that allow you to organize your components and data.
 
-You can create, rename, reorder, and move folders in the navigation tree. You can also delete them according to your rights. 
+You can create, rename, reorder, and move folders in the navigation tree. You can also delete them based on your rights.
 
-  ![](assets/folders.png){zoomable="yes"}
+![Folders interface showing folder organization](assets/folders.png){zoomable="yes"}
 
-You can set up a folder type. For example: a folder of deliveries. 
-The icon of the folder will change according to this type.
+You can set up a folder type. For example, a folder of deliveries. The folder icon changes according to its type.
 
 ## Create a new folder {#create-a-folder}
 
-To create a new folder in Adobe Campaign Web UI, follow these steps: 
+To create a new folder in Adobe Campaign Web UI, follow these steps:
 
-1. In **[!UICONTROL Explorer]**, go to the folder in which you want to create your new folder.
-Under the **[!UICONTROL ...]** menu, You have **[!UICONTROL Create new folder]**
+1. In **[!UICONTROL Explorer]**, go to the folder where you want to create your new folder. Under the **[!UICONTROL ...]** menu, select **[!UICONTROL Create new folder]**.
 
-  ![](assets/folder_create.png){zoomable="yes"}
+![Create new folder option in Explorer menu](assets/folder_create.png){zoomable="yes"}
 
-  When you create a new folder, by default, the folder type is the type of the folder parent. In our example, we create a folder in the **[!UICONTROL Deliveries]** folder.
+When you create a new folder, the folder type defaults to the type of the parent folder. In this example, a folder is created in the **[!UICONTROL Deliveries]** folder.
 
-  ![](assets/folder_new.png){zoomable="yes"}
+![New folder created under Deliveries folder](assets/folder_new.png){zoomable="yes"}
 
-1. Change the type of your folder by clicking on the icon of Folder type if needed, and choose it in the list presented, as below: 
+1. Change the folder type by clicking on the folder type icon if needed, and select the desired type from the list presented, as shown below:
 
-  ![](assets/folder_type.png){zoomable="yes"}
+![Folder type selection interface](assets/folder_type.png){zoomable="yes"}
 
-  Set up the folder type by clicking on **[!UICONTROL Confirm]** button.
+Set up the folder type by clicking the **[!UICONTROL Confirm]** button.
 
-  If you want to create a folder with no specific type, choose **[!UICONTROL Generic Folder]** type.
+If you want to create a folder with no specific type, select the **[!UICONTROL Generic Folder]** type.
 
 You can also [create and manage folders in Adobe Campaign console](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/folders-and-views).
 
-
 ## Reorder folders {#reorder-folders}
 
-You can reorder the folders according to your needs. To do so, click on the  **[!UICONTROL Reorder folders]** as shown below.
+You can reorder folders based on your needs. To do so, click on **[!UICONTROL Reorder folders]**, as shown below.
 
-In our example, the folder **Deliveries** contains 4 folders.
+In this example, the **Deliveries** folder contains four subfolders.
 
-![](assets/folder-reorder.png){zoomable="yes"}
+![Reorder folders interface showing folder hierarchy](assets/folder-reorder.png){zoomable="yes"}
 
-You can change the order of your folders either by **drag and drop**, or by using **up and down arrows**.
+You can change the order of folders either by **drag and drop** or by using **up and down arrows**.
 
-![](assets/folder-draganddrop.png){zoomable="yes"}
-
+![Drag-and-drop functionality for folder reordering](assets/folder-draganddrop.png){zoomable="yes"}
 
 ## Delete a folder {#delete-a-folder}
 
@@ -80,45 +76,44 @@ You can change the order of your folders either by **drag and drop**, or by usin
 >
 >When deleting a folder, all data stored in the folder is also deleted.
 
-To delete a folder, select it in your **[!UICONTROL Explorer]** tree, and click on the **[!UICONTROL ...]** menu. 
-Choose **[!UICONTROL Delete folder]**.
+To delete a folder, select it in your **[!UICONTROL Explorer]** tree, and click on the **[!UICONTROL ...]** menu. Choose **[!UICONTROL Delete folder]**.
 
-![](assets/folder_delete.png){zoomable="yes"}
+![Delete folder option in Explorer menu](assets/folder_delete.png){zoomable="yes"}
 
 ## Distribution of values in a folder {#distribution-values-folder}
 
-The distribution of values helps to know the percentage of a value in a column within a table.
+The distribution of values helps you understand the percentage of a value in a column within a table.
 
-To know the distribution of values in a folder, proceed as below :
+To view the distribution of values in a folder, follow these steps:
 
-For example, among the deliveries, we want to know the distribution of values of the **Channel** column.
+For example, among the deliveries, you may want to know the distribution of values in the **Channel** column.
 
-To get this information, go to the **[!UICONTROL Deliveries]** folder and click on **[!UICONTROL Configure columns]** icon.
+To get this information, go to the **[!UICONTROL Deliveries]** folder and click on the **[!UICONTROL Configure columns]** icon.
 
-In the **[!UICONTROL Configure columns]** window, click on the **[!UICONTROL Information]** icon of the column you want to know. Then, click on the **[!UICONTROL Distribution of values]** button.
+In the **[!UICONTROL Configure columns]** window, click on the **[!UICONTROL Information]** icon for the column you want to analyze. Then, click on the **[!UICONTROL Distribution of values]** button.
 
-![](assets/values_deliveries.png){zoomable="yes"}
+![Distribution of values interface for deliveries](assets/values_deliveries.png){zoomable="yes"}
 
-You will get the percentage of the values in the **[!UICONTROL Channel]** column.
+You will see the percentage of values in the **[!UICONTROL Channel]** column.
 
-![](assets/values_percentage.png){zoomable="yes"}
+![Percentage distribution of values in Channel column](assets/values_percentage.png){zoomable="yes"}
 
 >[!NOTE]
 >
-> For columns with many values, only the first twenty values will be displayed. A notification **[!UICONTROL Partial load]** will warn you.
+>For columns with many values, only the first twenty values are displayed. A notification **[!UICONTROL Partial load]** warns you.
 
-You can also have the distribution of values of a link. 
+You can also view the distribution of values for a link.
 
-In the attributes list, click the **+** button next to the desired link, as shown below. This adds the link to the **[!UICONTROL Output columns]**. You can have now the **[!UICONTROL Information]** icon, allowing you to view the distribution of its values. If you do not want to keep the link in the **[!UICONTROL Output columns]**, make sure to click on the **[!UICONTROL Cancel]** button.
+In the attributes list, click the **+** button next to the desired link, as shown below. This adds the link to the **[!UICONTROL Output columns]**. You can now access the **[!UICONTROL Information]** icon, allowing you to view the distribution of its values. If you do not want to keep the link in the **[!UICONTROL Output columns]**, click the **[!UICONTROL Cancel]** button.
 
-![](assets/values_link.png){zoomable="yes"}
+![Distribution of values for a link in Output columns](assets/values_link.png){zoomable="yes"}
 
-It is also possible to have the distribution of values in a query modeler. [Learn more here](../query/build-query.md#distribution-of-values-in-a-query).
+It is also possible to view the distribution of values in a query modeler. [Learn more here](../query/build-query.md#distribution-of-values-in-a-query).
 
 ### Filter the values {#filter-values}
 
-By using the **[!UICONTROL Advanced filters]** in the distribution of values window, you can filter your results based on specified conditions.
+By using the **[!UICONTROL Advanced filters]** in the distribution of values window, you can filter results based on specified conditions.
 
-In the example of the delivery list above, which shows the distribution per channel, you can, for instance, filter it to display only the deliveries which status is **Finished**.
+In the example of the delivery list above, which shows the distribution per channel, you can filter it to display only deliveries with a status of **Finished**.
 
-![](assets/values_filter.png){zoomable="yes"}
+![Advanced filters applied to distribution of values](assets/values_filter.png){zoomable="yes"}

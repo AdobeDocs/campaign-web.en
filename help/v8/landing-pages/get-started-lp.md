@@ -9,15 +9,15 @@ exl-id: edd313a3-93f4-4596-8dd6-dfc2bc3db21b
 
 [!DNL Adobe Campaign] allows you to create, design, and share landing pages.
 
-In the context of marketing campaigns, a landing page is a standalone web page where a visitor is directed after they click a link in an delivery or on a website. 
+In the context of marketing campaigns, a landing page is a standalone web page where a visitor is directed after they click a link in a delivery or on a website.
 
-Landing pages enable you to direct your users to online forms where they can update their data, opt-in/out from receiving your communications, or subscribe to a specific service such as a newsletter.
+Landing pages enable you to direct your users to online forms where they can update their data, opt in or out of receiving your communications, or subscribe to a specific service such as a newsletter.
 
 >[!CAUTION]
 >
 >Landing pages that you create in the Campaign Web user interface are different from the web forms created from the client console. You cannot display or edit web forms created in the client console in the Campaign Web user interface.
 >
->Learn more on web forms in the [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
+>Learn more about web forms in the [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
 
 Landing pages key capabilities are listed below:
 
@@ -31,7 +31,7 @@ Landing pages key capabilities are listed below:
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-lp.md">
-<img alt="Lead" src="../assets/do-not-localize/lp-subscription.jpeg">
+<img alt="Create landing pages using pre-filled templates" src="../assets/do-not-localize/lp-subscription.jpeg">
 </a>
 <div><a href="create-lp.md"><strong>Create landing pages</strong>
 </div>
@@ -39,7 +39,7 @@ Landing pages key capabilities are listed below:
 </td>
 <td>
 <a href="../audience/manage-services.md">
-<img alt="Infrequent" src="../assets/do-not-localize/lp-list.jpg">
+<img alt="Set up subscription services for users" src="../assets/do-not-localize/lp-list.jpg">
 </a>
 <div>
 <a href="../audience/manage-services.md"><strong>Create subscription services</strong></a>
@@ -47,7 +47,7 @@ Landing pages key capabilities are listed below:
 <p></td>
 <td>
 <a href="lp-content.md">
-<img alt="Validation" src="../assets/do-not-localize/lp-design.jpg">
+<img alt="Design responsive landing pages" src="../assets/do-not-localize/lp-design.jpg">
 </a>
 <div>
 <a href="lp-content.md"><strong>Design landing pages</strong></a>
@@ -56,7 +56,7 @@ Landing pages key capabilities are listed below:
 </td>
 <td>
 <a href="lp-templates.md">
-<img alt="Validation" src="../assets/do-not-localize/lp-reporting.jpg">
+<img alt="Work with content templates for landing pages" src="../assets/do-not-localize/lp-reporting.jpg">
 </a>
 <div>
 <a href="lp-templates.md"><strong>Work with content templates</strong></a>
