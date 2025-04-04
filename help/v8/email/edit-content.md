@@ -115,9 +115,9 @@ The message is sent in the default language that has been set up. You can create
 
 1. A window opens up, you can click on the **[!UICONTROL Language]** drop-down button to show a list of languages that can be chosen.
 
->[!NOTE]
->
->The languages available through this list will depend on the the values that have been defined in the Language attribute (such as system, user, dbenum).
+    >[!NOTE]
+    >
+    >The languages available through this list will depend on the the values that have been defined in the Language attribute (such as system, user, dbenum).
 
 
     ![](assets/edit-content_3.png){zoomable="yes"}
@@ -126,9 +126,9 @@ The message is sent in the default language that has been set up. You can create
 
     ![](assets/edit-content_8.png){zoomable="yes"}
 
-    You can repeat this process multiple times to add different languages. The first language you choose will be set as the default one.
+    You can repeat this process multiple times to add different languages.
 
-1. When adding languages, new variants will be created. You can find them in the **[!UICONTROL Languages]** panel to the left with the language tag.
+1. When adding a language for the first time, it will be considered default and the current content will be the default one. When you add new languages, the content will be based on the default content.
 
 1. The **[!UICONTROL Language]** panel shows you the list of languages you have chosen, the number of different languages and also the default language.
 
@@ -138,9 +138,12 @@ The message is sent in the default language that has been set up. You can create
 
     You can click on the expand button to the top right corner to delete every languages.
 
+
 1. In the **[!UICONTROL Languages]** panel, you can choose any language that you have added and click on the three dots in the right side of the tab. There, you an choose to either edit the language, set it as default, duplicate it or delete it.
 
     ![](assets/edit-content_10.png){zoomable="yes"}
+
+    If you choose to duplicate a language other than the default one, the content duplicated will be based on the language that you chose to duplicate.
 
 
 1. You can also choose any language and edit the content of the email with the [Email Designer](get-started-email-designer.md#start-authoring) by clicking on the **[!UICONTROL Edit email body]** button.
