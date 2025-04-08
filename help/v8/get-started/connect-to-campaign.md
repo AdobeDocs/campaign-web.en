@@ -128,13 +128,6 @@ To change your language:
 1. Then click the language link displayed under your email address.
 1. Select your preferred language and click **Save**. You can select a second language in case the component you are using is not localized into your first language.
 
-<!--
->[!CAUTION]
->
->If you plan to use [AI-powered contextual help](using-ai.md) capabilities, you must set your prefered language to English. Other languages are not supported.
->
--->
-
 ## Dark and light themes {#dark-theme}
 
 Adobe Campaign is available in light and dark themes. By default, the user interface is enabled in light theme. To switch to the dark theme, click on your profile icon, and use the **Dark theme** toggle to enable/disable it.
