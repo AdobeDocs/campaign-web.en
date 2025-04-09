@@ -46,6 +46,11 @@ The query modeler is available in every context where you need to define rules t
 
 ## Query modeler interface {#interface}
 
+>[!CONTEXTUALHELP]
+>id="acw_rule_builder_switch_button"
+>title="New user experience"
+>abstract="Use this toggle to switch between the classic query modeler and the new rule builder experience."
+
 The query modeler provides a central canvas where you build your query, and a right pane providing information on your query.
 
 ![](assets/query-interface.png){zoomable="yes"}
