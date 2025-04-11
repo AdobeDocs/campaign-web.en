@@ -155,6 +155,10 @@ Additional information on how to preview an email and send proofs is available i
 
     ![Screenshot showing the Simulate content button](assets/review-email.png){zoomable="yes"}
 
+    >[!NOTE]
+    >
+    >The **[!UICONTROL Simulate content]** button is disabled in specific contexts. Limitations are detailed [in this section](#content-simulation-limitations).
+
 1. On the left-hand side, select the profile(s) you want to use to preview the email.
 
     The right pane displays a preview of the email based on the selected profile. If you have added multiple profiles, you can switch between them to preview the corresponding email.
@@ -183,6 +187,37 @@ Additional information on how to preview an email and send proofs is available i
     ![Screenshot showing the confirmation of proof sending](assets/proof-sent.png){zoomable="yes"}
 
     You can check the status of the sending and access the sent proofs at any time by clicking the **[!UICONTROL View proofs]** button in the simulate content screen.
+
+### Content simulation limitations {#content-simulation-limitations}
+
+>[!CONTEXTUALHELP]
+>id="acw_simulation_limitation_multilingual"
+>title="Content simulation is not supported"
+>abstract="The **Simulate content** button is disabled because the multilingual delivery contains only one locale."
+
+>[!CONTEXTUALHELP]
+>id="acw_simulation_limitation_reconcilied_deliveries"
+>title="Content simulation is not supported"
+>abstract="The **Simulate content** button is disabled because it is not compatible with reconciled deliveries in this phase."
+
+>[!CONTEXTUALHELP]
+>id="acw_simulation_limitation_ffda"
+>title="Content simulation is not supported"
+>abstract="The **Simulate content** button is disabled because not supported in Campaign Enterprise Full Federated Access (FFDA) mode."
+
+>[!CONTEXTUALHELP]
+>id="acw_simulation_limitation_no_file"
+>title="Content simulation is not supported"
+>abstract="The **Simulate content** button is disabled because no content has been uploaded."
+
+In some cases, you cannot perform content simulation, and the **[!UICONTROL Simulate content]** button is disabled.
+
+Content simulation is not supported in these cases:
+
+<!--* When a multilingual delivery contains only one locale,-->
+* With reconciled deliveries,
+* When your Campaign deployment model is [Adobe Campaign Enterprise Full Federated Access (FFDA)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}
+* When no file has been uploaded.
 
 ## Send and monitor the email {#prepare-send}
 

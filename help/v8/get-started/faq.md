@@ -1,6 +1,6 @@
 ---
-title: Using AI-powered contextual help in Campaign Web
-description: Ask questions in Campaign Web help popovers
+title: Frequently Asked Questions
+description: Frequently Asked Questions for Campaign Web user interface
 exl-id: 332db61b-a82d-4bca-a2f5-51557f06120c
 ---
 # Frequently Asked Questions
