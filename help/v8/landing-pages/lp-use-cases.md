@@ -22,11 +22,7 @@ exl-id: e51cf54c-9db1-4704-bc5b-0df098d67c7d
 >abstract="When creating a landing page, four out-of-the-box templates allow you to implement different use cases: add or update a profile to the Campaign database, subscribe customers to a service, unsubscribe them from a service, or opt users out."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#create-landing-page" text="Create a landing page"
 
-To make proper use of your landing page, reference it as a link in a delivery using the dedicated option.
-
->[!CAUTION]
->
->To fully leverage your landing page, you cannot copy-paste the link displayed in the published delivery dashboard directly into your deliveries or into a web page. Learn how to do it properly in this section.
+To make proper use of your landing page, reference it as a link in a message using the dedicated option. You cannot copy-paste the link displayed in the published delivery dashboard directly into your deliveries or into a web page. Instead, use the **Simulate content** capability to test it.
 
 In the [!DNL Adobe Campaign Web] interface, four out-of-the-box templates allow you to implement different use cases. However, the main steps remain the same and are detailed below.
 
