@@ -75,8 +75,6 @@ The table and graph for **[!UICONTROL Targeted Audience]** showcase data related
 
 The **[!UICONTROL Delivery statistics]** graph and table provide a breakdown of the success of every direct mail delivery, with detailed metrics outlined below.
 
-![This image shows the delivery statistics metrics for direct mail deliveries.](assets/global_report_direct_mail_delivery_statistics.png){zoomable="yes"}{align="center"}  
-
 +++Learn more on Delivery statistics metrics.
 
 * **[!UICONTROL Message to deliver]**: Total number of messages to be delivered after delivery preparation.
