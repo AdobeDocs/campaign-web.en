@@ -13,7 +13,7 @@ exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 >
 >You must agree to a [user agreement](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} before using the AI Assistant in Adobe Campaign Web. For more information, contact your Adobe representative.
 
-Once you create and personalize your emails, use the AI Assistant in Adobe Campaign Web in Campaign powered by generative AI to enhance your content.
+Once you create and personalize your emails, use the AI Assistant in Adobe Campaign Web to enhance your content.
 
 The AI Assistant in Adobe Campaign Web helps optimize the impact of your deliveries by generating entire emails, targeted text content, and images tailored to resonate with your audience. This improves your email campaigns for better engagement.
 

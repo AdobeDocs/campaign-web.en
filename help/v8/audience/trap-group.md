@@ -16,7 +16,7 @@ You can use a **[!UICONTROL trap group]**:
 
 1. **As a proof**: Each member of the **[!UICONTROL trap group]** receives the delivery as if they were part of the audience.
 
-1. **To protect your mailing list**: By receiving what the audience will receive, each **[!UICONTROL test profile]** of the **[!UICONTROL trap group]** will notice if the mailing list is used by a third party.
+1. **To protect your mailing list**: By receiving what the audience will receive, each **[!UICONTROL Test profile]** of the **[!UICONTROL Trap group]** will be noticed if the mailing list is used by a third party.
 
 >[!NOTE]
 >
@@ -26,11 +26,11 @@ You can use a **[!UICONTROL trap group]**:
 
 Test profiles are automatically excluded from reports on the following delivery statistics: **Clicks**, **Opens**, **Unsubscriptions**. The reports focus only on the real audience.
 
-For an email delivery, only the email address is required for the **[!UICONTROL trap group]**. The personalization of other fields is filled randomly by Campaign.
+For an email delivery, only the email address is required for the **[!UICONTROL Trap group]**. The personalization of other fields is filled randomly by Campaign.
 
 ## Add a Trap group in a delivery {#trap-group-in-delivery}
 
-To set up a **[!UICONTROL trap group]**, go to the **[!UICONTROL Audience]** settings of your delivery. You will have two options:
+To set up a **[!UICONTROL Trap group]**, go to the **[!UICONTROL Audience]** settings of your delivery. You will have two options:
 
 * [Select test profiles](#select-test-profiles)
 * [Create condition](#create-condition)
@@ -49,7 +49,7 @@ You can also create new test profiles. [Learn more](#create-seed)
 
 [Select test profiles interface screenshot](assets/trap-select-test-profiles.png){zoomable="yes"}
 
-After confirming your test profiles, check that the correct number appears under **[!UICONTROL trap group]**.
+After confirming your test profiles, check that the correct number appears under **[!UICONTROL Trap group]**.
 
 [Trap group confirmation screenshot](assets/trap-check.png){zoomable="yes"}
 
@@ -59,7 +59,7 @@ With the **[!UICONTROL Create condition]** option, create a query to define the 
 
 [Create condition interface screenshot](assets/trap-create-condition.png){zoomable="yes"}
 
-Your query is displayed under **[!UICONTROL trap group]**.
+Your query is displayed under **[!UICONTROL Trap group]**.
 
 [Trap group query display screenshot](assets/trap-custom.png){zoomable="yes"}
 

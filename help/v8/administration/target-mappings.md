@@ -68,7 +68,7 @@ To create a new target mapping, access the **[!UICONTROL Administration]** > **[
     1. **[!UICONTROL Namespace]**: Identify the namespace that will be used to create the logs.
     1. **[!UICONTROL Suffix of the extension schema]**: Provide a suffix for the new schema.
 
-        In the example below, the broadlog name will be "cusbroadlogSupplier."
+        In the example below, the broadlog name will be "cusbroadlogSupplier".
 
         ![Example of storage options for new targeting dimensions](assets/target-mappings-new.png)
 

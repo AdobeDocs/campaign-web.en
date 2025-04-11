@@ -17,7 +17,7 @@ By adding multiple workflows and deliveries specific to the campaign, you create
 
 Campaigns provide dedicated reporting metrics to gain comprehensive insights into the performance of the entire campaign. These metrics help assess effectiveness, identify trends, and make data-driven decisions to optimize future efforts. Discover how to access and understand campaign reports in [this section](../reporting/campaign-reports.md).
 
-![Campaign flow](assets/campaign-flow.png) [Diagram illustrating the flow of a campaign, including workflows and deliveries.]
+![Diagram illustrating the flow of a campaign, including workflows and deliveries](assets/campaign-flow.png)
 
 Learn how to create, manage, and monitor campaigns in the following sections:
 

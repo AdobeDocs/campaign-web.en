@@ -117,9 +117,9 @@ Define the typology rule's properties:
 
     **[!UICONTROL At the start of targeting]**: Prevent the personalization step from being executed in case of errors.
 
-    **[!UICONTROL After targeting]**: Apply the control rule after each targeting stage, such as checking proof size.
+    **[!UICONTROL After targeting]**: Select this phase if you need to know the volume of the target in order to apply the control rule. For example, the **[!UICONTROL Check proof size]** control rule applies after each targeting stage. This rule prevents message personalization if there are too many proof recipients.
 
-    **[!UICONTROL At the start of personalization]**: Approve message personalization during the analysis phase.
+    **[!UICONTROL At the start of personalization]**: Select this phase if the control concerns the approval of message personalization. Message personalization is carried out during the analysis phase.
 
     **[!UICONTROL At the end of the analysis]**: Apply checks requiring complete message personalization.
 

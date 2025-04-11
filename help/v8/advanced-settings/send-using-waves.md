@@ -17,7 +17,7 @@ exl-id: d4cd5fe5-f9ac-44ac-a961-ae45131aeb3e
 >title="Define the size of each wave"
 >abstract="You must enter a size for all the waves you are adding. Enter either a numerical value (number of messages for each wave), or a percentage (0-100%)."
 
-To balance the load, divide email deliveries into several batches. Configure the number of batches and their proportion with respect to the entire delivery, as well as the interval between two waves.
+To balance the load, you can divide email deliveries into several batches. Configure the number of batches and their proportion with respect to the entire delivery, as well as the interval between two waves.
 
 >[!NOTE]
 >
@@ -60,7 +60,7 @@ If you select this option, all the waves have the same size (except the last one
 
 One common use case for using several waves of the same size is with a call center involved. When managing a telephone loyalty campaign, your organization has a limited capacity to process the number of calls to contact subscribers.
 
-Using waves, restrict the number of messages to 20 per day, which is the daily processing capacity of a call center.
+Using waves, you can restrict the number of messages to 20 per day, which is the daily processing capacity of a call center.
 
 To do this, select the **[!UICONTROL Schedule multiple waves of the same size]** option. Enter **[!UICONTROL 20]** as the waves size and **[!UICONTROL 1 day]** in the **[!UICONTROL Interval]** field.
 

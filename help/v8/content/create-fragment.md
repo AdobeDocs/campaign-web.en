@@ -143,7 +143,7 @@ To access archived fragments, use the filtering pane to display them. To unarchi
 
 >[!NOTE]
 >
->Archiving a fragment does not affect content that uses it.
+>If you archive a fragment used in a content, that content is not affected.
 
 ### Duplicate a content fragment {#duplicate-fragments}
 

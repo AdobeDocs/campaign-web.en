@@ -101,7 +101,7 @@ Browse the top bar of the interface to:
 
 ## Supported browsers {#browsers}
 
-Adobe Campaign Web is designed to work optimally in the latest versions of Google Chrome, Safari, and Microsoft Edge. You might encounter issues using certain features on older versions or other browsers.
+Adobe Campaign Web is designed to work optimally in the latest version of Google Chrome, Safari, and Microsoft Edge. You might encounter issues using certain features on older versions or other browsers.
 
 ## Language preferences {#language-pref}
 

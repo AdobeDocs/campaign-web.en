@@ -6,7 +6,7 @@ exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
 ---
 # Browse and filter lists {#list-screens}
 
-Most links from the left navigation menu display lists of objects, such as the list of **Deliveries** or **campaigns**. Some of these list screens are read-only. You can customize the list display and filter these lists, as detailed below.
+Most links from the left navigation menu display lists of objects, such as the list of **Deliveries** or **Campaigns**. Some of these list screens are read-only. You can customize the list display and filter these lists, as detailed below.
 
 ## Customize list screens {#custom-lists}
 

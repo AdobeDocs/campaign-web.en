@@ -25,7 +25,7 @@ exl-id: ead51ef0-f7ba-4bc4-8d4a-f6a6d1df6a0f
 
 1. Explore the available **[!UICONTROL Variations]** and click **[!UICONTROL Preview]** to see the selected variation in full screen.
 
-When you define your content, audience, and schedule, prepare your delivery.
+Once you define your content, audience, and schedule, prepare your delivery.
 
 ## Refine variation
 
@@ -55,7 +55,7 @@ When you define your content, audience, and schedule, prepare your delivery.
 
     Additionally, adjust the **[!UICONTROL Tone]** and **[!UICONTROL Communication strategy]** of your content.
 
-1. When you find the right content, click **[!UICONTROL Select]**.
+1. Once your content is ready, click **[!UICONTROL Select]**.
 
 ## Generate similar image
 

@@ -35,7 +35,7 @@ The email **[!UICONTROL Edit content]** screen allows you to:
 
 >[!NOTE]
 >
->All the editable text fields of this screen can be filled in using personalization fields. [Learn how to personalize content](../personalization/personalize.md).
+>All the editable text fields of this screen can be filled in using personalization fields. [Learn how to personalize content](../personalization/personalize.md)
 
 To configure or edit the content of an email, follow the steps below.
 
@@ -55,7 +55,7 @@ To configure or edit the content of an email, follow the steps below.
 
     >[!NOTE]
     >
-    >To further improve the recipient's experience, you can add a person's name, for example, "Eve from Luma."
+    >To further improve the recipient's experience, you can add a person's name, for example, "Eve from Luma".
 
 1. The **[!UICONTROL From email]** address field is also defined in the email template. Make sure the address domain matches the subdomain that you delegated to Adobe.
 
@@ -79,7 +79,7 @@ To configure or edit the content of an email, follow the steps below.
 
 1. If you want to send offers with your email, select them using the **[!UICONTROL Set up offers]** button.
 
-    You can then insert them into the email using personalization fields. [Learn how to send offers](../msg/offers.md).
+    You can then insert them into the email using personalization fields. [Learn how to send offers](../msg/offers.md)
 
 1. Click the **[!UICONTROL Edit email body]** button to structure and design the content of the email using the [Email Designer](get-started-email-designer.md#start-authoring). Additional information on how to design email content is available in these sections:
 

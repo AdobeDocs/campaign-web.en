@@ -55,7 +55,7 @@ To target profiles from a file in your emails, follow these steps:
     ![Screenshot showing the data mapping preview in the central section](assets/select-from-file-map.png)
 
 1. Specify the column that contains the email address from the **Address Field** drop-down list. You can also select the denylist column if you have such information in the input file.
-1. Adjust the column settings and format the data using the available options.
+1. Adjust the column settings and define how to format the data using the available options.
 1. Click **Confirm** once settings are correct.
 
 When creating the message content, add personalization by leveraging fields from the input file. [Learn how to personalize content](../personalization/personalize.md)

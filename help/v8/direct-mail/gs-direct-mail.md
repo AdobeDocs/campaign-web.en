@@ -4,7 +4,7 @@ title: Get started with direct mail deliveries
 description: Learn how to create and send direct mail deliveries with Adobe Campaign Web
 exl-id: a1c778e2-e950-4b8f-875a-87b39eb732c2
 ---
-```markdown
+
 # Get started with direct mail deliveries {#gs-direct-mail}
 
 Direct mail is an offline channel that allows you to produce files to mass deliver personalized letters to your customers, such as postcards, flyers, or catalogs.
@@ -15,7 +15,7 @@ To create direct mail deliveries, you have three options:
 
 * **Workflows**: After adding a Direct mail channel activity to your workflow and configuring the basic settings, craft the content of your direct mail deliveries from your right pane menu. For detailed instructions on configuring workflows, refer to [this page](../workflows/gs-workflow-creation.md).
 * **Campaigns**: Once you create a campaign, you can create a direct mail delivery. For more information on setting up your campaign, refer to [this page](../campaigns/gs-campaigns.md).
-* **Stand-alone deliveries**: Engage customers directly and instantly with individual direct mail delivery, without the need for workflows or campaigns. [Learn how to create a delivery](../msg/gs-deliveries.md).
+* **Stand-alone deliveries**: Engage customers directly and instantly with individual direct mail delivery, without the need for workflows or campaigns. [Learn how to create a delivery](../msg/gs-deliveries.md)
 
 <!--
 <table style="table-layout:fixed"><tr style="border: 0;">

@@ -84,13 +84,13 @@ To delete a folder, select it in your **[!UICONTROL Explorer]** tree, and click 
 
 The distribution of values helps you understand the percentage of a value in a column within a table.
 
-To view the distribution of values in a folder, follow these steps:
+To view the distribution of values in a folder, proceed as explained below.
 
 For example, among the deliveries, you may want to know the distribution of values in the **Channel** column.
 
-To get this information, go to the **[!UICONTROL Deliveries]** folder and click on the **[!UICONTROL Configure columns]** icon.
+To get this information, go to the **[!UICONTROL Deliveries]** folder and click the **[!UICONTROL Configure columns]** icon.
 
-In the **[!UICONTROL Configure columns]** window, click on the **[!UICONTROL Information]** icon for the column you want to analyze. Then, click on the **[!UICONTROL Distribution of values]** button.
+In the **[!UICONTROL Configure columns]** window, click the **[!UICONTROL Information]** icon related to the column you want to analyze. Then, click on the **[!UICONTROL Distribution of values]** button.
 
 ![Distribution of values interface for deliveries](assets/values_deliveries.png){zoomable="yes"}
 

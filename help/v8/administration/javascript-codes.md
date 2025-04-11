@@ -39,7 +39,7 @@ To create a JavaScript code, follow these steps:
 
 1. Define the code's properties:
 
-    * **[!UICONTROL Namespace]**: Specify the namespace relevant to your custom resources. By default, the namespace is "cus," but it may vary depending on your implementation.
+    * **[!UICONTROL Namespace]**: Specify the namespace relevant to your custom resources. By default, the namespace is "cus", but it may vary depending on your implementation.
     * **[!UICONTROL Name]**: The unique identifier used to reference the code.
     * **[!UICONTROL Label]**: The descriptive label displayed in the JavaScript codes list.
 

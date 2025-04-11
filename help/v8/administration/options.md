@@ -46,32 +46,27 @@ To create an option:
 1. Enter a name for the option, select its type, and set the desired value.  
 1. Click **[!UICONTROL Create]** to create the option.  
 
-![](assets/options-create.png)  
-[Create option interface showing fields for name, type, and value]
+![Create option interface showing fields for name, type, and value](assets/options-create.png)  
 
 Options can act as temporary storage for data, offering the following benefits:
 
-* Typed Values: Options support specific data types, such as dates, integers, and strings.  
+* Typed Values: Options support specific data types, such as dates, integers, strings, etc.
 * Flexibility: Options allow users to store and retrieve data efficiently without the overhead of managing database tables.  
 
 In the example below, a custom option named `sampleOption` is created with the initial value "a". A **[!UICONTROL JavaScript code]** activity in a workflow modifies this option's value and stores it in a variable. The updated value is displayed in the workflow logs and reflected in the **[!UICONTROL Options]** menu.
 
 1. Create the option.  
 
-    ![](assets/options-sample-create.png)  
-    [Custom option creation interface showing the name `sampleOption` and initial value "a"]
+    ![Custom option creation interface showing the name `sampleOption` and initial value "a"](assets/options-sample-create.png)  
 
 1. Configure a **[!UICONTROL JavaScript code]** activity and start the workflow.  
 
-    ![](assets/options-sample-javascript.png)  
-    [JavaScript code activity configuration interface]
+    ![JavaScript code activity configuration interface](assets/options-sample-javascript.png)
 
 1. Run the workflow to see the updated value in the workflow logs.  
 
-    ![](assets/options-sample-logs.png)  
-    [Workflow logs showing the updated value of the custom option]
+    ![Workflow logs showing the updated value of the custom option](assets/options-sample-logs.png)
 
 1. The updated value is now visible in the **[!UICONTROL Options]** menu.  
 
-    ![](assets/options-sample-updated.png)  
-    [Options menu displaying the updated value of the custom option]
+    ![Options menu displaying the updated value of the custom option](assets/options-sample-updated.png)

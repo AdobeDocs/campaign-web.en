@@ -16,7 +16,7 @@ To better organize these components, Adobe recommends the following hierarchy: P
 
 ## Create and configure a plan {#create-plan}
 
-To create a plan, create a folder with the folder type **[!UICONTROL Plan]**. [Learn more about creating a folder](../get-started/work-with-folders.md).
+To create a plan, create a folder with the folder type **[!UICONTROL Plan]**. [Learn more about creating a folder](../get-started/work-with-folders.md)
 
 ![Screenshot showing the creation of a plan folder](assets/plan_create.png){zoomable="yes"}
 
@@ -32,7 +32,7 @@ To manage the **[!UICONTROL Custom options]**:
 
 1. Browse to the **[!UICONTROL Schemas]**.
 1. Choose the **[!UICONTROL Editable]** schemas in the filters.
-1. Click on the icon for **[!UICONTROL Edit custom details]**.
+1. Click the **[!UICONTROL Edit custom details]** icon.
 
 ![Screenshot showing the editing of custom details for a plan](assets/plan_edit.png){zoomable="yes"}
 
@@ -58,7 +58,7 @@ To manage the **[!UICONTROL Custom options]**:
 
 1. Browse to the **[!UICONTROL Schemas]**.
 1. Choose the **[!UICONTROL Editable]** schemas in the filters.
-1. Click on the icon for **[!UICONTROL Edit custom details]**.
+1. Click the **[!UICONTROL Edit custom details]** icon.
 
 ![Screenshot showing the editing of custom details for a program](assets/program_edit.png){zoomable="yes"}
 

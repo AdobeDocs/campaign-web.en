@@ -8,7 +8,7 @@ exl-id: 4fddabbe-39ab-418b-a87c-f86fe96fa28b
 
 Adobe Campaign manages quarantine addresses for email, push, and SMS channels.
 
-Quarantine applies only to an **email address**, a **phone number**, or a **device token**, but not to the profile itself. For example, a profile whose email address is quarantined can update the profile and enter a new address. The profile could then be targeted by delivery actions again. Likewise, if two profiles share the same phone number, both will be affected if the number is quarantined.
+Quarantine applies only to an **email address**, a **phone number**, or a **device token**, but not to the profile itself. For example, a profile whose email address is quarantined can be updated with a new address. The profile could then be targeted by delivery actions again. Likewise, if two profiles share the same phone number, both will be affected if the number is quarantined.
 
 >[!CAUTION]
 >

@@ -11,7 +11,7 @@ exl-id: d4d2c6bb-7fd0-49a0-9d73-356f4a24f021
 
 >[!AVAILABILITY]
 >
->This capability is released as a private beta. It becomes progressively available to all customers in upcoming releases.
+>This capability is released as a private beta. It will become progressively available to all customers in upcoming releases.
 
 Brand guidelines are a comprehensive set of rules and standards that define a brand's visual and verbal identity. They serve as a reference to ensure consistent brand representation across all marketing and communication channels.
 

@@ -43,7 +43,7 @@ Use the provided links to browse the Campaign v8 (client console) documentation 
 
 Adobe Campaign allows you to create, design, and share landing pages. The landing pages experience has been entirely reimagined in the new interface. Discover how to create, design, and publish landing pages in the Campaign Web user interface [in this section](../landing-pages/get-started-lp.md).
 
-Consequently, in the Campaign client console, you cannot edit, update, or modify a landing page created in the Web interface—and vice versa. The following types of web applications are not available in the Campaign Web user interface. However, they are visible in the list of landing pages. Use the provided links to browse the Campaign Classic v7 documentation and learn more about these web apps:
+Consequently, in the Campaign client console, you cannot edit, update, or modify a landing page created in the Web interface, and vice versa. The following types of web applications are not available in the Campaign Web user interface. However, they are visible in the list of landing pages. Use the provided links to browse the Campaign Classic v7 documentation and learn more about these web apps:
 
 * **Web applications**. Adobe Campaign lets you create and publish dynamic and interactive web applications with preloaded data from the database and content adapted to the rights of the connected user. This capability is only available in the client console. [Learn more in Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/about-web-applications.html){target="_blank"}
 * **Web forms**. Web and landing pages designed in the client console are visible in the Campaign Web user interface but cannot be edited or modified. Some options may differ between the client console web page designer and the landing page designer coming with the Campaign Web user interface. [Learn more in Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html){target="_blank"}
@@ -134,7 +134,7 @@ The following integrations are available from the Adobe Campaign client console 
 
 ## Reporting {#reporting-capabilities}
 
-The new Campaign Web user interface comes with a set of new reports and KPIs for all channels: delivery reports, campaign reports, and global reports. Learn more [in this section](../reporting/gs-reports.md).
+The new Campaign Web user interface comes with a set of new reports and KPIs for all channels: delivery reports, campaign reports, and global reports. Learn more [in this section](../reporting/gs-reports.md)
 
 Some capabilities are only available from the client console. Browse the provided links to the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html){target="_blank"} and learn more.
 

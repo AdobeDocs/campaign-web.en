@@ -24,20 +24,20 @@ To create a new campaign, follow these steps:
 
 1. Click the **[!UICONTROL Campaigns]** menu, and click the **[!UICONTROL Create campaign]** button.
 
-    ![Create a new campaign](assets/create-campaign-button.png) [Screenshot showing the "Create campaign" button in the Campaigns menu.]
+    ![Screenshot showing the "Create campaign" button in the Campaigns menu](assets/create-campaign-button.png)
 
 1. Select the **Template** to use, and provide a label for the campaign. [Read more](manage-campaigns.md#manage-campaign-templates).
 1. If needed, change the following **Additional options**: internal name, folder, assignee, description, and nature.
 1. Define the **Schedule** of your campaign. Learn how to set your campaign schedule in [this section](#campaign-schedule).
 1. Click **Create**.
 
-    ![Create campaign properties](assets/create-a-campaign-properties.png) [Screenshot showing the campaign properties screen, including fields for internal name, folder, assignee, description, and nature.]
+    ![Screenshot showing the campaign properties screen, including fields for internal name, folder, assignee, description, and nature.](assets/create-a-campaign-properties.png)
 
 1. Add workflows and deliveries to your campaign:
 
     * From the **Workflows** tab, click **Create workflow**. A default workflow is automatically added when you create your campaign. Learn more about how to [create a workflow](../workflows/create-workflow.md).
 
-    * From the **Deliveries** tab, click **Create delivery**. [Learn more](../msg/gs-messages.md).
+    * From the **Deliveries** tab, click **Create delivery**. [Learn more](../msg/gs-messages.md)
 
 ## Monitor and track your campaign {#campaign-monitoring}
 

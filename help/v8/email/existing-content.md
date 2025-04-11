@@ -17,6 +17,7 @@ You can import existing HTML content in the Email Designer. This content can be:
 * A **.zip folder** with the HTML file, the style sheet (.css), and images.
 
 >[!NOTE]
+>
 >There are no constraints on the .zip file structure. However, references must be relative and fit within the tree structure of the .zip folder.
 
 ➡️ [Discover this feature in video](#video)
@@ -40,9 +41,10 @@ To import a file containing HTML content, follow the steps below.
     ![Screenshot showing the HTML converter tab and Convert button.](assets/html-imported-2.png){zoomable="yes"}
 
 >[!NOTE]
+>
 >Using a `<table>` tag as the first layer in an HTML file can cause style loss, including background and width settings in the top layer tag.
 
-1. Personalize your imported file as needed with the Email Designer functionalities. [Learn more](content-components.md).
+1. Personalize your imported file as needed with the Email Designer functionalities. [Learn more](content-components.md)
 
 ## How-to video {#video}
 

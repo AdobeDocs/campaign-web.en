@@ -21,7 +21,7 @@ To learn about where to get started, visit [this page](../get-started/get-starte
 
 +++ What are new features and capabilities in the new web user interface?
 
-The new user interface in Adobe Campaign v8 brings consistency with Adobe Experience Platform and is designed for marketing efficiency. The new workflow canvas provides an intuitive and advanced workspace for audience composition, workflow management, and content design, and integrated use cases with Adobe Experience Platform native applications like Journey Optimizer and Real-Time CDP. 
+The new user interface in Adobe Campaign v8 brings consistency with Adobe Experience Platform and is designed for marketing efficiency. The new workflow canvas provides an intuitive and advanced workspace for audience composition, workflow management, and content design, and integrated use cases with Adobe Experience Platform native applications like Journey Optimizer and Real-Time CDP. Spark creativity, increase productivity, and personalize cross-channel campaigns at scale with AI Assistant, natively embedded in the WYSIWYG message designer.
 
 Marketers can use generative AI for full HTML email ideation, text and image generation with refinement, and variant suggestions. New features and capabilities can be reviewed on [this page](../rn/whats-new.md). To learn more about the new interface and see it in action, visit [this page](../get-started/user-interface.md). Additionally, visit the [Tutorials](https://experienceleague.adobe.com/en/docs/campaign-web-learn/tutorials/overview){target="_blank"} to learn more about the new interface through a set of how-to videos.
 

@@ -76,12 +76,12 @@ To configure the **[!UICONTROL Bounce mails (POP3)]** external account, fill in 
 * **[!UICONTROL Password]** - User account password.
 
 * **[!UICONTROL Encryption]** - Type of chosen encryption, including:
-    * Default (POP3 if port 110, POP3S if port 995).
+    * By default (POP3 if port 110, POP3S if port 995).
     * POP3 that switches to SSL after sending a STARTTLS.
     * POP3 non-secure (port 110 by default).
     * POP3 secure above SSL (port 995 by default).
 
-* **[!UICONTROL Function]** - Select "Inbound email" to configure the account for receiving incoming emails or "SOAP router" to handle SOAP requests.
+* **[!UICONTROL Function]** - Select **[!UICONTROL Inbound email]** to configure the account for receiving incoming emails or **[!UICONTROL SOAP router]** to handle SOAP requests.
 
 ### Routing {#routing}
 
@@ -124,6 +124,7 @@ To configure the **[!UICONTROL Execution instance]** external account:
 * **[!UICONTROL Password]** - Password of the account as defined in the operator folder.
 
 * **[!UICONTROL Method]** - Choose between Web service or Federated Data Access (FDA). 
-    * For FDA, select your FDA account. Note that Campaign connection to external systems is restricted to advanced users and only available from the client console. [Learn more](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/fda#_blank)
+    
+    For FDA, select your FDA account. Note that Campaign connection to external systems is restricted to advanced users and only available from the client console. [Learn more](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/fda#_blank)
 
-* **[!UICONTROL Create archiving workflow]** - For each execution instance registered in the Message Center, create a separate archiving workflow for each external account associated with the execution instance.
+* **[!UICONTROL Create archiving workflow]** - For each execution instance registered in the Message Center, regardless of whether you have one or multiple instances, create a separate archiving workflow for each external account associated with the execution instance.

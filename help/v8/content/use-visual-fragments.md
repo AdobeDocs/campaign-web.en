@@ -13,8 +13,7 @@ exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
 
 In the Campaign web interface, **Visual fragments** are pre-defined visual blocks that you can reuse across multiple [email deliveries](../email/get-started-email-designer.md) or in [content templates](../email/use-email-templates.md). Learn how to create and manage content fragments in [this section](fragments.md).
 
-![](assets/do-not-localize/fragments.gif)  
-[Visual representation of visual fragments in use]
+![Visual representation of visual fragments in use](assets/do-not-localize/fragments.gif)
 
 ## Use a visual fragment {#use-fragment}
 
@@ -30,8 +29,7 @@ To insert a visual fragment in email content, follow these steps:
 
 1. Select the **[!UICONTROL Fragments]** icon from the left rail.
 
-    ![](assets/fragments-in-designer.png)  
-    [Screenshot showing the Fragments icon in the Email Designer interface]
+    ![Screenshot showing the Fragments icon in the Email Designer interface](assets/fragments-in-designer.png)
 
 1. The list of all visual fragments created on the current sandbox is displayed. You can:
 
@@ -49,8 +47,7 @@ To insert a visual fragment in email content, follow these steps:
 
 1. Select the fragment to display its options on the right pane.
 
-    ![](assets/fragment-right-pane.png)  
-    [Screenshot showing the fragment options in the right pane]
+    ![Screenshot showing the fragment options in the right pane](assets/fragment-right-pane.png)
 
     From the **[!UICONTROL Settings]** tab, you can:
 
@@ -69,15 +66,13 @@ To insert a visual fragment in email content, follow these steps:
 
 Access rights may apply to visual fragments.
 
-If editing permissions are not granted for a particular visual fragment, the content template is displayed in **read-only mode**. In this case, the **[!UICONTROL Edit content]** button is replaced with the **[!UICONTROL View content]** button, allowing you to view the fragment without making changes.
+If permission edition is not granted for a particular visual fragment, the content template is displayed in **read-only mode**. In this case, the **[!UICONTROL Edit content]** button is replaced with the **[!UICONTROL View content]** button, allowing you to view the fragment without making changes.
 
-![](assets/fragment-readonly.png){zoomable="yes"}  
-[Screenshot showing a visual fragment in read-only mode]
+![Screenshot showing a visual fragment in read-only mode](assets/fragment-readonly.png){zoomable="yes"}
 
 As shown below, all feature icons are deactivated, limiting interaction to viewing only.
 
-![](assets/fragment-readonly-view.png){zoomable="yes"}  
-[Screenshot showing deactivated feature icons in read-only mode]
+![Screenshot showing deactivated feature icons in read-only mode](assets/fragment-readonly-view.png){zoomable="yes"}
 
 ## Break inheritance {#break-inheritance}
 
@@ -93,7 +88,6 @@ To break inheritance, follow these steps:
 
 1. Click the unlock icon from the contextual toolbar.
 
-    ![](assets/fragment-break-inheritance.png)  
-    [Screenshot showing the unlock icon to break inheritance]
+    ![Screenshot showing the unlock icon to break inheritance](assets/fragment-break-inheritance.png)
 
 1. The fragment becomes a standalone element that is no longer linked to the original fragment. Edit it as any other content component in your content. [Learn more](../email/content-components.md)

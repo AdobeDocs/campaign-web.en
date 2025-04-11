@@ -21,11 +21,11 @@ Learn how to connect to Adobe Campaign and explore Experience Cloud navigation b
 >title="Recents"
 >abstract="The **Recents** list provides shortcuts to the recently created and modified deliveries. This list shows their channel, status, owner, creation and modification dates."
 
-The campaign home page allows you to quickly and easily browse key resources, indicators, and components.
+The Campaign home page allows you to quickly and easily browse key resources, indicators, and components.
 
 The upper section of the home page displays details about the latest updates and new capabilities available in the product, with links to Release Notes and detailed documentation. Use the left arrow to scroll through feature cards.
 
-![](assets/home.png){zoomable="yes"} [Screenshot showing the home page with feature cards and navigation options.]
+![Screenshot showing the home page with feature cards and navigation options](assets/home.png){zoomable="yes"}
 
 The **Key performance indicators** section lets you check your platform's effectiveness through common KPIs. Learn more about these KPIs in [this page](../reporting/kpis.md).
 
@@ -57,7 +57,7 @@ Additionally, you can access Adobe Campaign Web key help pages from the **Learni
 
 At the bottom of the page, the **[!UICONTROL About]** link provides details about your Adobe Campaign instance. These details are in read-only mode.
 
-![](assets/about-link.png){zoomable="yes"} [Screenshot showing the About link at the bottom of the page.]
+![Screenshot showing the About link at the bottom of the page](assets/about-link.png){zoomable="yes"}
 
 The **Instance** section provides key information about your console client, including both the **version** and the associated **build** number.
 
@@ -70,7 +70,7 @@ The **Web** section displays the version of your Campaign Web user interface, al
 
 The **Installed packages** section lists all the modules, features, and integrations present on your instance. These packages extend Adobe Campaign's functionality, enabling specialized tasks such as integrating with other Adobe solutions or supporting specific workflows. Given the large number of packages, you can search within this section to quickly check if a particular module is installed on your instance.
 
-![](assets/about.png){zoomable="yes"} [Screenshot showing the Installed packages section with search functionality.]
+![Screenshot showing the Installed packages section with search functionality](assets/about.png){zoomable="yes"}
 
 ## Left navigation menu {#user-interface-left-nav}
 
@@ -93,7 +93,7 @@ For more information about the Campaign explorer, folder hierarchy, and resource
 
 ### Campaign Management {#user-interface-campaign-management}
 
-In the campaign management section, you can access marketing campaigns, deliveries, and workflows.
+In the **Campaign management** section, you can access marketing campaigns, deliveries, and workflows.
 
 * **Campaigns** - This is the list of your campaigns and campaign templates. By default, for each campaign, you can view the start, end, creation, and last modification dates, the current status, and the name of the Campaign operator who created it. You can filter the list by status, start/end dates, folder, or create an advanced filter to define your own filtering criteria. Learn more about campaigns [in this section](../campaigns/gs-campaigns.md).
 
@@ -107,7 +107,7 @@ In the campaign management section, you can access marketing campaigns, deliveri
 
 ### Content Management {#user-interface-content-management}
 
-In the content management section, you can view your content templates and fragments.
+In the **Content management** section, you can view your content templates and fragments.
 
 * **Content templates** - For an accelerated and improved design process, you can create standalone templates to easily reuse custom content across [!DNL Adobe Campaign]. Only available for emails, this functionality enables content-oriented users to work on standalone templates so that marketing users can reuse and adapt them inside their own email campaigns. Learn more in [this section](../email/create-email-templates.md).
 
@@ -117,7 +117,7 @@ This functionality allows you to prebuild multiple custom content blocks that ma
 
 ### Customer Management {#user-interface-customer-management}
 
-In the customer management section, you can view your profiles, audiences, and subscriptions. These lists are read-only.
+In the **Customer management** section, you can view your profiles, audiences, and subscriptions. These lists are read-only.
 
 * **Profiles** - Create and manage profiles, and access your recipient database. By default, you can view their email address, first name, and last name. Learn more about profiles in [this section](../audience/about-recipients.md).
 * **Audiences** - This is your list of audiences. By default, you can view their type, origin, creation, last modification dates, and label. You can filter the list by origin. Learn more about audiences and lists in [this section](../audience/about-recipients.md).
@@ -132,7 +132,7 @@ In the customer management section, you can view your profiles, audiences, and s
 >abstract="Browse through the lists of offers and offer templates that have been created in the console using the **Interaction** module. These lists are read-only."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html" text="Add offers to a delivery"
 
-In the decision management section, you can view the offers and offer templates. These lists are read-only.
+In the **Decision management** section, you can view the offers and offer templates. These lists are read-only.
 
 * **Offers** - Browse through the list of offers and offer templates created in the console using the **Interaction** module. By default, you can view their status, start/end dates, and environment. You can filter the list by status and start/end dates. Offer templates are also available.
 

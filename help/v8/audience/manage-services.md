@@ -13,7 +13,7 @@ exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 
 Use Adobe Campaign Web to manage and create your services, such as newsletters, and to check the subscriptions or unsubscriptions to these services.
 
-Several services can be defined in parallel, for example: newsletters for specific product categories, themes, or areas of a website; subscriptions to various types of alert messages; and real-time notifications.
+Several services can be defined in parallel, for example: newsletters for specific product categories, themes, or areas of a website, subscriptions to various types of alert messages, and real-time notifications.
 
 >[!NOTE]
 >
@@ -64,7 +64,7 @@ To create a subscription service, follow the steps below.
 
     ![Screenshot showing the service properties section with label and additional options](assets/service-create-properties.png){zoomable="yes"}
 
-1. By default, services are stored in the **[!UICONTROL Services and Subscriptions]** folder. You can change it by browsing to the desired location. [Learn how to work with folders](../get-started/permissions.md#folders).
+1. By default, services are stored in the **[!UICONTROL Services and Subscriptions]** folder. You can change it by browsing to the desired location. [Learn how to work with folders](../get-started/permissions.md#folders)
 
 1. By default, subscriptions are unlimited. 
 
@@ -74,7 +74,7 @@ To create a subscription service, follow the steps below.
 
     ![Screenshot showing the validity period settings for a subscription service](assets/service-create-validity-period.png){zoomable="yes"}
 
-1. When a user subscribes to or unsubscribes from a service, you can send a confirmation message. Select the templates to use for that message according to your use case. These templates must be configured with the **[!UICONTROL Subscriptions]** target mapping. [Learn more](#create-confirmation-message).
+1. When a user subscribes to or unsubscribes from a service, you can send a confirmation message. Select the templates to use for that message according to your use case. These templates must be configured with the **[!UICONTROL Subscriptions]** target mapping. [Learn more](#create-confirmation-message)
 
     ![Screenshot showing the confirmation message template selection](assets/service-create-confirmation-msg.png){zoomable="yes"}
 
@@ -96,11 +96,11 @@ To create a subscription service, follow the steps below.
 
 You can now:
 
-* Manually add subscribers to this service, and unsubscribe profiles. [Learn more](../audience/manage-subscribers.md).
+* Manually add subscribers to this service, and unsubscribe profiles. [Learn more](../audience/manage-subscribers.md)
 
-* Invite your customers to subscribe to this service through a landing page. [Learn more](../landing-pages/lp-use-cases.md#lp-subscription).
+* Invite your customers to subscribe to this service through a landing page. [Learn more](../landing-pages/lp-use-cases.md#lp-subscription)
 
-* Send messages to the subscribers of this service. [Learn how](../msg/send-to-subscribers.md).
+* Send messages to the subscribers of this service. [Learn how](../msg/send-to-subscribers.md)
 
 ## Create a confirmation message {#create-confirmation-message}
 
@@ -116,7 +116,7 @@ You can now:
 
 To send confirmation messages to the users who subscribe to or unsubscribe from your service, create a delivery template with the **[!UICONTROL Subscriptions]** target mapping, without a defined target. Follow the steps below:
 
-1. Create a delivery template for the subscription confirmation. [Learn how to create a template](../msg/delivery-template.md).
+1. Create a delivery template for the subscription confirmation. [Learn how to create a template](../msg/delivery-template.md)
 
 1. Do not select an audience for this delivery. Instead, access the delivery **[!UICONTROL Settings]**, go to the [Audience](../advanced-settings/delivery-settings.md#audience) tab, and select the **[!UICONTROL Subscriptions]** target mapping from the list.
 

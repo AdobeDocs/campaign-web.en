@@ -16,7 +16,7 @@ With this understanding of Adobe Campaign Web's capabilities, explore the docume
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="about-recipients.md">
-<img src="../assets/do-not-localize/profiles-audiences-profile.png" alt="[Monitor and manage profiles image]">
+<img src="../assets/do-not-localize/profiles-audiences-profile.png" alt="Monitor and manage profiles image">
 </a>
 <div>
 <a href="about-recipients.md"><strong>Monitor & manage profiles</strong></a>
@@ -25,7 +25,7 @@ With this understanding of Adobe Campaign Web's capabilities, explore the docume
 </td>
 <td>
 <a href="create-audience.md">
-<img src="../assets/do-not-localize/profiles-audiences-audience.png" alt="[Create audiences image]">
+<img src="../assets/do-not-localize/profiles-audiences-audience.png" alt="Create audiences image">
 </a>
 <div><a href="create-audience.md"><strong>Create audiences</strong>
 </div>
@@ -33,7 +33,7 @@ With this understanding of Adobe Campaign Web's capabilities, explore the docume
 </td>
 <td>
 <a href="manage-services.md">
-<img src="../assets/do-not-localize/profiles-audiences-service.png" alt="[Manage services image]">
+<img src="../assets/do-not-localize/profiles-audiences-service.png" alt="Manage services image">
 </a>
 <div>
 <a href="manage-services.md"><strong>Manage services</strong></a>
@@ -41,7 +41,7 @@ With this understanding of Adobe Campaign Web's capabilities, explore the docume
 <p></td>
 <td>
 <a href="add-audience.md">
-<img src="../assets/do-not-localize/profiles-audiences-deliveries.png" alt="[Select your delivery recipients image]">
+<img src="../assets/do-not-localize/profiles-audiences-deliveries.png" alt="Select your delivery recipients image">
 </a>
 <div>
 <a href="add-audience.md"><strong>Select your delivery recipients</strong></a>

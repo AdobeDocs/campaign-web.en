@@ -90,7 +90,7 @@ To create a new content template from the content templates dashboard, follow th
 
     ![Create content template button in dashboard](assets/content-template-create.png){zoomable="yes"}
 
-1. Enter the template label and properties. You can select the folder where you want to store your template. By default, content templates are stored in a dedicated folder of the Adobe Campaign hierarchy: **[!UICONTROL Explorer]** > **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Content templates]**. Learn more about folders in [this page](../get-started/permissions.md#folders).
+1. Enter the template label and properties. You can select the folder where you want to store your template. By default, content templates are stored in a dedicated folder of the Adobe Campaign hierarchy: **[!UICONTROL Explorer]** > **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Content templates]**. Learn more about folders in [this page](../get-started/permissions.md#folders)
 
     ![Template details screen for label and properties](assets/content-template-details.png){zoomable="yes"}
 

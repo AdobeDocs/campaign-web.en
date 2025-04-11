@@ -46,15 +46,15 @@ To create a profile, follow these steps:
 
 1. The list of attributes available for the profile displays, organized into different sections detailed in the table below.
 
-    ![](assets/create-profile.png){zoomable="yes"} [Screenshot showing the list of attributes available for the profile, organized into sections.]
+    ![Screenshot showing the list of attributes available for the profile, organized into sections](assets/create-profile.png){zoomable="yes"}
 
     |Attributes section|Description|
     |  ---  |  ---  |
     |**Basic details**|Basic information on the profile, such as the name or date of birth.<br/>By default, profiles are stored in the **[!UICONTROL Recipients]** folder. You can change it by browsing to the desired location. [Learn how to work with folders](../get-started/permissions.md#folders)|
     |**Contact information**|The profile's contact information, such as the email address or phone number.|
-    |**Address**|The profile's postal address. This section also provides an evaluation of the address quality. A profile's address is considered valid if the 'Last name,' 'City,' and 'Postcode' fields are specified.|
+    |**Address**|The profile's postal address. This section also provides an evaluation of the address quality. A profile's address is considered valid if the 'Last name,' 'City', and 'Postcode' fields are specified.|
     |**Account details**|Information on the profile's account, such as its status or account number.|
-    |**No longer contact**|The contact preferences of the profile. When any of these options is selected, the profile is on a denylist.<br/>For example, if the recipient clicked an unsubscription link in a newsletter, this information is added to the contact data. Such a recipient is no longer targeted on the selected channel(s). Learn more about quarantine management in [Adobe Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}|
+    |**No longer contact**|The contact preferences of the profile. When any of these options is selected, the profile is on the denylist.<br/>For example, if the recipient clicked an unsubscription link in a newsletter, this information is added to the contact data. Such a recipient is no longer targeted on the selected channel(s). Learn more about quarantine management in [Adobe Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}|
     |**Custom fields**|If custom fields have been configured, they display in this section. Custom fields are additional attributes added to the **[!UICONTROL Profiles]** schema through the Adobe Campaign console. Learn more in the [Adobe Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html){target="_blank"}|
     |**Others**|Additional built-in attributes.|
 

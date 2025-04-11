@@ -37,7 +37,7 @@ Now that you understand what content fragments are and what you can do with them
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-fragment.md">
-<img alt="[Create your own expression fragments]" src="assets/do-not-localize/create-fragment.png">
+<img alt="Create your own expression fragments" src="assets/do-not-localize/create-fragment.png">
 </a>
 <div>
 <a href="create-fragment.md"><strong>Create your own content fragments</strong></a>
@@ -46,7 +46,7 @@ Now that you understand what content fragments are and what you can do with them
 </td>
 <td>
 <a href="use-visual-fragments.md">
-<img alt="[Add visual fragments to your emails]" src="assets/do-not-localize/visual.png">
+<img alt="Add visual fragments to your emails" src="assets/do-not-localize/visual.png">
 </a>
 <div><a href="use-visual-fragments.md"><strong>Add visual fragments to your emails</strong>
 </div>
@@ -54,7 +54,7 @@ Now that you understand what content fragments are and what you can do with them
 </td>
 <td>
 <a href="use-expression-fragments.md">
-<img alt="[Add expression fragments to the expression editor]" src="assets/do-not-localize/expression.png">
+<img alt="Add expression fragments to the expression editor" src="assets/do-not-localize/expression.png">
 </a>
 <div>
 <a href="use-expression-fragments.md"><strong>Use expression fragments in the expression editor</strong></a>

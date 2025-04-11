@@ -6,7 +6,7 @@ exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 ---
 # Set a control group {#control-group}
 
-A control group is a sub-population excluded from the delivery. Define a control group to avoid sending messages to a portion of your audience and compare post-delivery behavior with the main target. This option helps measure the impact of your campaign.
+A control group is a sub-population excluded from the delivery. You can define a control group to avoid sending messages to a portion of your audience and compare post-delivery behavior with the main target. This option helps measure the impact of your campaign.
 
 ➡️ [Discover this feature in video](create-audience.md#video)
 
@@ -27,8 +27,7 @@ All profiles included in the control group at the delivery preparation step are 
 
 To add a control group to a delivery, activate the **[!UICONTROL Enable control group]** toggle from the **Audience** section of the delivery creation screen.
 
-![Enable control group option](assets/control-group1.png)  
-[Enable control group option toggle on the delivery creation screen]
+![Enable control group option toggle on the delivery creation screen](assets/control-group1.png)
 
 ## Extract from target {#extract-target}
 
@@ -58,8 +57,7 @@ For example, to create a control group with the 100 youngest profiles, follow th
 1. Add the **Creation Date** field. Change to the **Descending** sort option.
 1. Define 100 as the threshold in the **Size limit** section.
 
-    ![](assets/control-group2.png){zoomable="yes"}  
-    [Control group configuration for youngest profiles]
+    ![Control group configuration for youngest profiles](assets/control-group2.png){zoomable="yes"}
 
 These 100 youngest profiles are then excluded from the main target. 
 
@@ -67,20 +65,17 @@ These 100 youngest profiles are then excluded from the main target.
 
 View the logs to check and identify the excluded profiles. For example, consider a random exclusion of five profiles.
 
-![](assets/control-group4.png){zoomable="yes"}  
-[Example of excluded profiles in logs]
+![Example of excluded profiles in logs](assets/control-group4.png){zoomable="yes"}
 
 After the delivery preparation, review how the exclusions were applied:
 
 * In the delivery dashboard, before sending, check the **To exclude** KPI.
 
-    ![](assets/control-group5.png){zoomable="yes"}  
-    [Delivery dashboard showing the "To exclude" KPI]
+    ![Delivery dashboard showing the "To exclude" KPI](assets/control-group5.png){zoomable="yes"}
 
 * In the delivery logs, the Logs tab shows the exclusion step.
 
-    ![](assets/control-group-sample-logs.png){zoomable="yes"}  
-    [Delivery logs showing exclusion step]
+    ![Delivery logs showing exclusion step](assets/control-group-sample-logs.png){zoomable="yes"}
 
 <!--
 
@@ -92,8 +87,7 @@ After the delivery preparation, review how the exclusions were applied:
 
 * The **Exclusion causes** tab displays the number of excluded profiles for each typology rule.
 
-    ![](assets/control-group7.png){zoomable="yes"}  
-    [Exclusion causes tab showing typology rule exclusions]
+    ![Exclusion causes tab showing typology rule exclusions](assets/control-group7.png){zoomable="yes"}
 
 For more information on delivery logs, refer to this [section](../monitor/delivery-logs.md).
 
@@ -108,8 +102,7 @@ Another way to define a control group is to select a specific population in an e
 
 From the **Extra population** section of the **Control Group** definition screen, click the **[!UICONTROL Select Audience]** button.
 
-![](assets/control-group3.png){zoomable="yes"}  
-[Extra population selection screen]
+![Extra population selection screen](assets/control-group3.png){zoomable="yes"}
 
 * To use an existing audience, click **Select audience**. Learn more in [this section](add-audience.md). 
 * To define a new query, select **Create your own** and define the exclusion criteria using the query modeler. Learn more in [this section](../query/query-modeler-overview.md). 

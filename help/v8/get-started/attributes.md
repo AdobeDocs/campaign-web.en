@@ -12,7 +12,7 @@ The Campaign Web user interface allows users to select attributes from the datab
 
 To quickly reuse attributes that are frequently used, add them to favorites. This ensures they are readily accessible for future tasks. In addition to favorites, users can view and use the most recently selected attributes.
 
-The interface also provides a distribution of values tool, which visualizes the distribution of an attribute's values within a table. This tool helps identify the range and frequency of values, ensuring data consistency when creating queries or expressions.
+The interface also provides a distribution of values tool, which allows you to visualize the distribution of an attribute's values within a table. This tool helps identify the range and frequency of values, ensuring data consistency when creating queries or expressions.
 
 ## Favorites & recent attributes {#favorites}
 

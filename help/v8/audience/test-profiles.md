@@ -88,7 +88,7 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
     ![Contact information section](assets/test-profile-address.png){zoomable="yes"}
 
-1. If you select the **[!UICONTROL No longer contact (by any channel)]** checkbox, the test profile is on denylist. Such recipient is no longer targeted on any channel (email, SMS, and similar channels).
+1. If you select the **[!UICONTROL No longer contact (by any channel)]** checkbox, the test profile is on denylist. Such recipient is no longer targeted on any channel (email, SMS, etc.).
 
 1. In the **[!UICONTROL Additional data]** tab, enter the personalization data used for the deliveries created in the Data management workflows and which you want to assign a specific value to. [Learn more on workflows](../workflows/gs-workflows.md)
 

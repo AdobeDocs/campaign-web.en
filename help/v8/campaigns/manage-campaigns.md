@@ -21,10 +21,9 @@ In the campaign list, two tabs are available:
 
 * The **Templates** tab lists all available campaign templates. You can view an existing template or create a new one. [Read more](#manage-campaign-templates).
 
-![Campaign list](assets/campaign-list.png)  
-[Description: The campaign list screen showing the Browse and Templates tabs, along with options to create or view campaigns.]
+![Description: The campaign list screen showing the Browse and Templates tabs, along with options to create or view campaigns](assets/campaign-list.png)
 
-By default, each campaign in the list displays information about its current status, start and end dates, creation date, and the last time it was modified.
+By default, each campaign in the list displays information about its current status, start and end dates, creation date, the last time it was modified, etc.
 
 You can customize the displayed columns by clicking the **Configure column for a custom layout** icon located in the upper-right corner of the list. This allows you to add or remove columns and reorder information in the campaign list.
 
@@ -32,8 +31,7 @@ In addition, a search bar and filters are available to facilitate easy searching
 
 For example, you can filter on your campaign schedule. Open the filter panel and use the **Start - End Date** section:
 
-![Campaign filter](assets/campaign-filter-on-dates.png)  
-[Description: The filter panel showing options to filter campaigns by start and end dates.]
+![Description: The filter panel showing options to filter campaigns by start and end dates](assets/campaign-filter-on-dates.png)  
 
 ## Campaign dashboard {#campaign-dashboard}
 
@@ -49,10 +47,9 @@ For example, you can filter on your campaign schedule. Open the filter panel and
 
 In the **Browse** tab of the campaign list, click a campaign name to display its details.
 
-![Campaign dashboard](assets/campaign-dashboard.png)  
-[Description: The campaign dashboard screen showing the status, schedule, and tabs for workflows and deliveries.]
+![Description: The campaign dashboard screen showing the status, schedule, and tabs for workflows and deliveries](assets/campaign-dashboard.png)
 
-The status and schedule of the campaign are displayed at the top of the screen. Use the **Settings** button to update the properties of your campaign, such as its label, folder, and description. You can also change the schedule of your campaign from the settings screen. Learn more about campaign schedules in [this section](create-campaigns.md#campaign-schedule).
+The status and schedule of the campaign are displayed at the top of the screen. Use the **Settings** button to update the properties of your campaign, such as its label, folder, and description. You can also change the schedule of your campaign from the settings screen. Learn more about campaign schedule in [this section](create-campaigns.md#campaign-schedule).
 
 From the campaign dashboard, use the **Logs** and **Reports** buttons to monitor your campaign. Learn more in this [section](create-campaigns.md#create-campaigns).
 
@@ -72,13 +69,11 @@ You have two ways to delete a campaign:
 
 * From the list of campaigns, click the ellipsis button, then select **Delete**.
 
-    ![Delete a campaign from the list of campaigns](assets/delete-a-campaign-from-list.png)  
-    [Description: The campaign list screen showing the ellipsis button and the Delete option.]
+    ![Description: The campaign list screen showing the ellipsis button and the Delete option](assets/delete-a-campaign-from-list.png)
 
 * From the campaign itself, click the **More** button, then select **Delete**.
 
-    ![Delete a campaign from the campaign dashboard](assets/delete-a-campaign-from-dashboard.png)  
-    [Description: The campaign dashboard screen showing the More button and the Delete option.]
+    ![Description: The campaign dashboard screen showing the More button and the Delete option](assets/delete-a-campaign-from-dashboard.png)
 
 ## Duplicate a campaign {#campaign-duplicate}
 
@@ -96,10 +91,10 @@ Campaign templates contain pre-configured settings that can be reused for creati
 
 A campaign template can store the following information:
 
-* The campaign **Settings**.
-* The campaign **Schedule**.
-* Workflow templates.
-* Delivery templates.
+* The campaign **Settings**
+* The campaign **Schedule**
+* Workflow templates
+* Delivery templates
 
 To create a campaign template, follow the steps below:
 
