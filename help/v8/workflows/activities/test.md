@@ -49,4 +49,3 @@ In this example, different transitions activate based on the number of profiles 
 To achieve this, the `vars.recCount` event variable is used in the "email" and "sms" conditions to count the number of targeted profiles and activate the appropriate transition.
 
 ![Configuration of Test activity example](../assets/workflow-test-example-config.png)
-```

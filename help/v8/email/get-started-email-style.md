@@ -19,4 +19,3 @@ Follow the links below to learn how to adjust some of the style settings in your
 * Learn how to [manage vertical alignment and padding](alignment-and-padding.md)
 * Learn how to [define a style for the links in your email](styling-links.md)
 * Learn how to [customize inline styling attributes](inline-styling.md)
-```

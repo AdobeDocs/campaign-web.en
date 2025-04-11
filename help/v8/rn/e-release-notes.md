@@ -56,4 +56,3 @@ The following features and improvements are available starting February release.
 ### Improvement {#25-2-improvements}
 
 You can now edit the details of a schema from the new **Edit custom detail** button available in the form screen.
-```

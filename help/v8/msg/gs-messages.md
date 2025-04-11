@@ -55,4 +55,3 @@ Browse the sections below to learn how to create and send messages.
     </td>
     </tr>
 </table>
-```

@@ -28,4 +28,3 @@ exl-id: 6f8154ea-5d64-4950-9da3-427070ec7bf0
 * Follow up after a previous delivery.
 
     A "Summer sports offer" delivery is sent. Four days after the delivery, two other deliveries are sent. One of them is "watersports offer," the other is a follow-up to the first "Summer sports offer" delivery. The "Watersports offer" delivery is sent to recipients who clicked the "watersports" link in the first delivery. These clicks show that the recipient is interested in the topic. It makes sense to steer them towards similar offers. However, recipients who did not click in the "Summer sports offer" will receive the same content again.
-```

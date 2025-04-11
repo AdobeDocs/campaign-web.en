@@ -37,4 +37,3 @@ In the following example, two **Fork** activities are used:
 * One after the intersection, to send an email and an SMS at the same time to the targeted population.
 
 ![Workflow fork example screenshot](../assets/workflow-fork-example.png)
-```

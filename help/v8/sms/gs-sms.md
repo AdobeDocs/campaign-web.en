@@ -55,4 +55,3 @@ The SMS channel offers three methods for creating SMS deliveries:
 <p>
 </td>
 </tr></table>
-```

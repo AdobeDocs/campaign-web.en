@@ -21,4 +21,3 @@ Additionally, with the new Campaign Web user interface, you can connect your Ado
 * Manage templates with Adobe Experience Manager as a Cloud Service. [Learn more](aem-content.md)
 
 This connection is managed through a dedicated External Account configured in the Adobe Campaign client console.
-```
