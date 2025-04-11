@@ -14,7 +14,8 @@ The **Contextual Help with Gen AI**, embedded within contextual help, revolution
 
 Thanks to Campaign Gen AI's capabilities, this component enhances your experience, making information retrieval and problem-solving simple. Whether you seek guidance for a complex task or navigate extensive documents, the AI-powered Contextual Help serves as your ultimate companion, providing unmatched efficiency and accuracy in every interaction.
 
-[Animation showing AI-powered contextual help in action](assets/do-not-localize/CH+AI-BETA.gif)
+<!--
+[Animation showing AI-powered contextual help in action](assets/do-not-localize/CH+AI-BETA.gif)-->
 
 >[!AVAILABILITY]
 >
