@@ -8,7 +8,7 @@ exl-id: 27663e57-fdab-4371-b7c6-12064ed6526f
 
 The Campaign Web user interface allows users to select attributes from the database at various locations, depending on the action being performed. For example, attributes can be selected when defining output columns for a direct mail delivery or a file to extract. Similarly, attributes can be selected when using the query modeler to create rules, filters, or build audiences.
 
-[Select attributes from the database interface, showing attribute options.](![](assets/attributes-list.png))
+![Select attributes from the database interface, showing attribute options.](assets/attributes-list.png)
 
 To quickly reuse attributes that are frequently used, add them to favorites. This ensures they are readily accessible for future tasks. In addition to favorites, users can view and use the most recently selected attributes.
 
@@ -23,7 +23,7 @@ The interface also provides a distribution of values tool, which allows you to v
 
 The **[!UICONTROL Favorites & Recents]** menu in the attribute picker provides an organized view of attributes added to favorites, along with a list of recently used attributes. Favorite attributes appear first, followed by recently used ones, making it easy to locate the required attributes.
 
-[Favorites and recent attributes menu, showing favorite and recently used attributes.](![](assets/attributes-favorites.png))
+![Favorites and recent attributes menu, showing favorite and recently used attributes.](assets/attributes-favorites.png)
 
 To add an attribute to favorites, hover over its information button and select the star icon. The attribute is then added to the favorites list automatically. To remove an attribute from favorites, select the star icon again.
 
@@ -33,7 +33,7 @@ Users can add up to 20 attributes to favorites. Favorite and recent attributes a
 
 The **Distribution of Values** button, available in an attribute's information pane, allows users to analyze the distribution of values for that attribute within the table. This feature is helpful for understanding the available values, their counts, and percentages. It also helps avoid issues such as inconsistent capitalization or spelling when building queries or creating expressions.
 
-[Distribution of values tool interface, showing counts and percentages of attribute values.](![](assets/attributes-distribution-values.png))
+![Distribution of values tool interface, showing counts and percentages of attribute values.](assets/attributes-distribution-values.png)
 
 For attributes with a large number of values, the tool displays only the first twenty. In such cases, a **[!UICONTROL Partial load]** notification appears to indicate this limitation. Apply advanced filters to refine the displayed results and focus on specific values or subsets of data. Detailed guidance on using filters is available [here](../get-started/work-with-folders.md#filter-the-values).
 
