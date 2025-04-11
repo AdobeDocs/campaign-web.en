@@ -11,37 +11,37 @@ exl-id: d4d2c6bb-7fd0-49a0-9d73-356f4a24f021
 
 >[!AVAILABILITY]
 >
->This capability is released as a private beta. It will be progressively available to all customers in future releases.
+>This capability is released as a private beta. It will become progressively available to all customers in upcoming releases.
 
 Brand guidelines are a comprehensive set of rules and standards that define a brand's visual and verbal identity. They serve as a reference to ensure consistent brand representation across all marketing and communication channels.
 
-In [!DNL Adobe Campaign Web], you can now manually enter and organize your brand information or upload brand guideline documents for automatic data extraction.
+In [!DNL Adobe Campaign Web], users can manually enter and organize brand information or upload brand guideline documents for automatic data extraction.
 
 ## Access brands {#generative-access}
 
-To access the **[!UICONTROL Brands]** menu in [!DNL Adobe Campaign Web], users need to be assigned the **[!UICONTROL Administrator (admin)]** and **[!UICONTROL Brand kit]** product profiles to create and manage brands. For read-only access, users need [!UICONTROL AI assistant] product profile.
+To access the **[!UICONTROL Brands]** menu in [!DNL Adobe Campaign Web], users must be assigned the **[!UICONTROL Administrator (admin)]** and **[!UICONTROL Brand kit]** product profiles to create and manage brands. For read-only access, users need the [!UICONTROL AI assistant] product profile.
 
 [Learn more](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
-+++  Learn how to assign brand related permissions
++++ Learn how to assign brand-related permissions
 
 1. In the [Admin Console](https://adminconsole.adobe.com/enterprise) home page, access your Campaign product.
 
-    ![](assets/brands_admin_1.png)
+    ![Admin Console home page showing Campaign product access](assets/brands_admin_1.png)
 
-1. Select the **[!DNL Product profile]** depending on the level of permissions you want to grant your user.
+1. Select the **[!DNL Product profile]** based on the level of permissions you want to grant your user.
 
-    ![](assets/brands_admin_2.png)
+    ![Product profile selection in Admin Console](assets/brands_admin_2.png)
 
 1. Click **[!DNL Add users]** to assign the selected product profile.
 
-    ![](assets/brands_admin_3.png)
+    ![Add users option in Admin Console](assets/brands_admin_3.png)
 
-1. Type-in your user's name, user group, or email address.
+1. Type your user's name, user group, or email address.
 
 1. Click **Save** to apply changes.
 
-Any users already assigned to this role will have their permissions automatically updated.
+Users already assigned to this role have their permissions automatically updated.
 
 +++
 
@@ -49,46 +49,45 @@ Any users already assigned to this role will have their permissions automaticall
 
 To create and manage your brand guidelines, follow the steps below.
 
-To create and manage your Brand guideline, you can either enter the details yourself, or upload your brand guidelines document to have the information extracted automatically:
-
+Users can either enter the details manually or upload a brand guidelines document to extract the information automatically:
 
 1. From the **[!UICONTROL Content management]** menu, select **[!UICONTROL Brands]**.
 
 1. In the **[!UICONTROL Brands]** menu, click **[!UICONTROL Create brand]**.
 
-    ![](assets/brands_1.png)
+    ![Brands menu with Create brand option](assets/brands_1.png)
 
 1. Enter a **[!UICONTROL Name]** for your brand.
 
-1. Drag and drop or select your file to upload your brand guidelines and extract automatically relevant brand information. Click **[!UICONTROL Create brand]**.
+1. Drag and drop or select your file to upload your brand guidelines and extract relevant brand information automatically. Click **[!UICONTROL Create brand]**.
 
-    The information extraction process now begins. Note that it may take several minutes to complete.
+    The information extraction process begins. Note that it may take several minutes to complete.
 
-    ![](assets/brands_7.png)
+    ![File upload for brand guidelines extraction](assets/brands_7.png)
 
-1. Your Content and visual creation standards are now automatically populated. Browse through the different tabs to adapt the information as needed.
+1. Your content and visual creation standards are automatically populated. Browse through the different tabs to adapt the information as needed.
 
-1. From the **[!UICONTROL Writing Style]** tab, click ![](assets/do-not-localize/Smock_Add_18_N.svg) to add a guideline or exclusion, including examples.
+1. From the **[!UICONTROL Writing Style]** tab, click ![Add icon](assets/do-not-localize/Smock_Add_18_N.svg) to add a guideline or exclusion, including examples.
 
-    ![](assets/brands_2.png)
+    ![Writing Style tab with Add guideline option](assets/brands_2.png)
 
-1. From the **[!UICONTROL Visual content]** tab, click ![](assets/do-not-localize/Smock_Add_18_N.svg) to add another guideline or exclusion. 
+1. From the **[!UICONTROL Visual content]** tab, click ![Add icon](assets/do-not-localize/Smock_Add_18_N.svg) to add another guideline or exclusion.
 
 1. To add an image showing correct usage, select **[!UICONTROL Examples]** and click **[!UICONTROL Select image]**. You can also add an image showing incorrect usage as an exclusion example.
 
-    ![](assets/brands_3.png)
+    ![Visual content tab with example image options](assets/brands_3.png)
 
 1. Once configured, click **[!UICONTROL Save]**, then **[!UICONTROL Publish]** to make your brand guideline available in the AI assistant.
 
-1. To make modifications to your published brand, click **[!UICONTROL Edit brand]**. 
+1. To modify your published brand, click **[!UICONTROL Edit brand]**.
 
     >[!NOTE]
     >
     >This creates a temporary copy in edit mode, replacing the live version once published.
 
-    ![](assets/brands_4.png)
+    ![Edit brand option in Brands menu](assets/brands_4.png)
 
-1. From your **[!UICONTROL Brands]** dashboard, open the advanced menu by clicking the ![](assets/do-not-localize/Smock_More_18_N.svg) icon to: 
+1. From your **[!UICONTROL Brands]** dashboard, open the advanced menu by clicking the ![More options icon](assets/do-not-localize/Smock_More_18_N.svg) icon to:
 
     * View brand
     * Edit
@@ -97,8 +96,8 @@ To create and manage your Brand guideline, you can either enter the details your
     * Unpublish
     * Delete
 
-    ![](assets/brands_5.png)
+    ![Advanced menu options in Brands dashboard](assets/brands_5.png)
 
-Your brand guidelines are now accessible from the **[!UICONTROL Brand]** drop-down in the AI assistant menu, enabling it to generate content and assets aligned with your specifications. [Learn more on the AI assistant](../email/generative-gs.md)
+Your brand guidelines are now accessible from the **[!UICONTROL Brand]** drop-down in the AI assistant menu. This enables the AI assistant to generate content and assets aligned with your specifications. [Learn more on the AI assistant](../email/generative-gs.md)
 
-![](assets/brands_6.png)
+![AI assistant menu with Brand drop-down](assets/brands_6.png)

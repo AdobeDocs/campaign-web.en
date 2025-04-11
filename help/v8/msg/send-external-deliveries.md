@@ -6,16 +6,15 @@ exl-id: 08fe9333-aa35-4acf-ba41-4c6895049bbc
 ---
 # Send external deliveries {#gs-direct-mail}
 
+Adobe Campaign enables you to manage deliveries created outside Campaign to mass deliver personalized emails, SMS messages, or push notifications (iOS and Android) through an external system.
 
-Adobe Campaign allows you to handle deliveries created outside Campaign in order to mass deliver personalized emails, SMS messages or push notifications (iOs and Android) through an external system.
+<!--The supported channels are Email, Mobile (SMS), and Push (iOS and Android).-->
 
-<!--The supported channels are Email, Mobile (SMS), and Push (iOs and Android).-->
-
-When creating en external delivery, Adobe Campaign automatically generates an extraction file containing all the targeted profiles and selected data. This file is sent to the server of your choice, who will handle the sending process for you.
+When creating an external delivery, Adobe Campaign automatically generates an extraction file containing all the targeted profiles and selected data. This file is sent to the server of your choice, which handles the sending process.
 
 ## Create a dedicated external account {#routing-external-account}
 
-You first need to configure a specific external account that will be used in your external deliveries. It must be of the **[!UICONTROL Routing]** type.
+You need to configure a specific external account to use in your external deliveries. It must be of the **[!UICONTROL Routing]** type.
 
 >[!NOTE]
 >
@@ -23,7 +22,7 @@ You first need to configure a specific external account that will be used in you
 
 For example, select the **[!UICONTROL Mobile (SMS)]** channel for the external account. **[!UICONTROL External]** is selected by default as the **[!UICONTROL Delivery mode]**.
 
-![](../administration/assets/external-account-delivery-mode.png){zoomable="yes"}
+![External account delivery mode configuration](../administration/assets/external-account-delivery-mode.png){zoomable="yes"}
 
 ## Create and send the external delivery {#create-external-delivery}
 
@@ -33,37 +32,37 @@ Once the specific external account is configured, create the external delivery. 
 
     You have three options:
 
-    * **In a workflow**: Add an external channel activity (email, SMS or push) to your workflow. For detailed instructions on how to configure workflow, refer to [this page](../workflows/gs-workflow-creation.md).
-    * **In a campaign**: Once you have created a campaign, you can create an email, SMS or push channel external delivery. For more information on setting up your campaign, refer to [this page](../campaigns/gs-campaigns.md).
+    * **In a workflow**: Add an external channel activity (email, SMS, or push) to your workflow. For detailed instructions on configuring workflows, refer to [this page](../workflows/gs-workflow-creation.md).
+    * **In a campaign**: After creating a campaign, you can create an email, SMS, or push channel external delivery. For more information on setting up your campaign, refer to [this page](../campaigns/gs-campaigns.md).
     * **Stand-alone delivery**: Engage customers directly and instantly with an individual external delivery. [Learn how to create a delivery](../msg/gs-deliveries.md)
 
-1. In the delivery or delivery template [settings](../advanced-settings/delivery-settings.md), select the external account that you created for the channel of your choice (in this example, the SMS channel) and save.
+1. In the delivery or delivery template [settings](../advanced-settings/delivery-settings.md), select the external account created for the channel of your choice (in this example, the SMS channel) and save.
 
-    ![](assets/external-delivery-routing.png){zoomable="yes"}
+    ![External delivery routing configuration](assets/external-delivery-routing.png){zoomable="yes"}
 
     >[!NOTE]
     >
-    >If you are creating a delivery, make sure that you have selected a [delivery template](delivery-template.md) using an external account of the **[!UICONTROL Routing]** type, otherwise you will not be able to select the dedicated account you have created [above](#routing-external-account).
+    >If you are creating a delivery, ensure that you have selected a [delivery template](delivery-template.md) using an external account of the **[!UICONTROL Routing]** type. Otherwise, you will not be able to select the dedicated account created [above](#routing-external-account).
 
 1. In the delivery **[!UICONTROL Content]** section, click **[!UICONTROL Edit content]**.
 
-    ![](assets/external-delivery-edit-content.png){zoomable="yes"}
+    ![Edit content in external delivery](assets/external-delivery-edit-content.png){zoomable="yes"}
 
-1. Unlike a standard delivery, you are not designing the content of the message itself. Instead, you need to define the properties and columns of the file that will be sent to the external system.
+1. Unlike a standard delivery, you do not design the content of the message itself. Instead, define the properties and columns of the file that will be sent to the external system.
 
-    ![](assets/external-delivery-file-properties.png){zoomable="yes"}
+    ![File properties configuration for external delivery](assets/external-delivery-file-properties.png){zoomable="yes"}
 
     Follow the same steps as when designing the content of the extraction file generated by [direct mail deliveries](../direct-mail/content-direct-mail.md):
 
     * Define the properties of the extraction file. [Learn more](../direct-mail/content-direct-mail.md#properties)
-    * Select the columns containing the information to be exported into that file. [Learn more](../direct-mail/content-direct-mail.md#content)
+    * Select the columns containing the information to be exported into the file. [Learn more](../direct-mail/content-direct-mail.md#content)
 
-1. You can preview the file and send proofs<!--not in UI right now - to check-->. [Learn how](../direct-mail/send-direct-mail.md#preview-dm)
+1. Preview the file and send proofs<!--not in UI right now - to check-->. [Learn how](../direct-mail/send-direct-mail.md#preview-dm)
 
-    ![](assets/external-delivery-simulate.png){zoomable="yes"}
+    ![Simulate external delivery](assets/external-delivery-simulate.png){zoomable="yes"}
 
 1. Send the delivery to generate the extraction file. [Learn how](../direct-mail/send-direct-mail.md#send-dm)
 
-Once your delivery is sent, the extraction file is automatically generated and exported to the location specified in the [external account](../administration/external-account.md#create-ext-account) selected in the delivery template's settings.
+Once the delivery is sent, the extraction file is automatically generated and exported to the location specified in the [external account](../administration/external-account.md#create-ext-account) selected in the delivery template's settings.
 
-You can track the KPIs from the delivery page and data from the **[!UICONTROL Logs]** menu.
+Track the KPIs from the delivery page and data from the **[!UICONTROL Logs]** menu.

@@ -17,9 +17,9 @@ Each campaign report is divided into different widgets detailing your campaign's
 >title="Delivery overview"
 >abstract="The **Delivery Overview** presents key performance metrics (KPIs) offering in-depth insights into the interaction of your visitors with each direct mail delivery. The metrics are outlined below."
 
-The **[!UICONTROL Delivery Overview]** presents key performance metrics (KPIs) offering in-depth insights into the interaction of your visitors with each Direct mail delivery. The metrics are outlined below.
+The **[!UICONTROL Delivery Overview]** presents key performance metrics (KPIs), offering in-depth insights into the interaction of your visitors with each Direct mail delivery. The metrics are outlined below.
 
-![](assets/direct-mail-campaign-overview.png){zoomable="yes"}{align="center"}
+![Overview of Direct mail campaign delivery metrics](assets/direct-mail-campaign-overview.png){zoomable="yes"}{align="center"}
 
 +++Learn more on Delivery overview metrics.
 
@@ -27,7 +27,7 @@ The **[!UICONTROL Delivery Overview]** presents key performance metrics (KPIs) o
 
 * **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
 
-* **[!UICONTROL Errors]**: Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.
+* **[!UICONTROL Errors]**: Total errors accumulated during delivery and automatic return processing, in relation to the total number of sent messages.
 
 * **[!UICONTROL Total clicks]**: Total number of distinct recipients who clicked in a delivery at least once.
 
@@ -40,9 +40,9 @@ The **[!UICONTROL Delivery Overview]** presents key performance metrics (KPIs) o
 >title="Initial target audience statistics"
 >abstract="The recipient data and message information are displayed in the **Initial target audience statistics** table, reflecting the delivery preparation analysis."
 
-The **[!UICONTROL Initial target audience statistics]** table displays data relative to your recipients. Metrics are calculated during delivery preparation and show: the initial audience, the number of messages to send, the number of recipients excluded.
+The **[!UICONTROL Initial target audience statistics]** table displays data related to your recipients. Metrics are calculated during delivery preparation and show the initial audience, the number of messages to send, and the number of recipients excluded.
 
-![](assets/direct-mail-campaign-target-audience.png){zoomable="yes"}
+![Statistics of the initial target audience for Direct mail campaigns](assets/direct-mail-campaign-target-audience.png){zoomable="yes"}
 
 +++Learn more on Initial target audience statistics metrics.
 
@@ -50,7 +50,7 @@ The **[!UICONTROL Initial target audience statistics]** table displays data rela
 
 * **[!UICONTROL Message to deliver]**: Total number of messages to be delivered after delivery preparation.
 
-* **[!UICONTROL Rejected by rules]**: Total number of addresses ignored during the analysis when applying rules: address missing, quarantined, on denylist, etc.
+* **[!UICONTROL Rejected by rules]**: Total number of addresses ignored during the analysis when applying rules, such as missing addresses, quarantined addresses, or addresses on a denylist.
 
 +++
 
@@ -61,19 +61,19 @@ The **[!UICONTROL Initial target audience statistics]** table displays data rela
 >title="Delivery statistics"
 >abstract="The **Execution statistics** table details the success of your Direct mail delivery, and errors that occurred."
 
-![](assets/direct-mail-campaign-exec.png)
+![Execution statistics for Direct mail campaigns](assets/direct-mail-campaign-exec.png)
 
-The **[!UICONTROL Execution statistics]** table provides a breakdown of the success of every direct mail delivery, with detailed metrics outlined below.
+The **[!UICONTROL Execution statistics]** table provides a breakdown of the success of every Direct mail delivery, with detailed metrics outlined below.
 
 +++Learn more on Delivery statistics metrics.
 
 * **[!UICONTROL Message to deliver]**: Total number of messages to be delivered after delivery preparation.
 
-* **[!UICONTROL Success]**: Number of messages processed successfully in relation to the number of messages to be delivered.
+* **[!UICONTROL Success]**: Number of messages processed successfully, in relation to the number of messages to be delivered.
 
-* **[!UICONTROL Errors]**: Total number of errors cumulated during deliveries and automatic rebound processing in relation to the number of messages to be delivered.
+* **[!UICONTROL Errors]**: Total errors accumulated during deliveries and automatic rebound processing, in relation to the number of messages to be delivered.
 
-* **[!UICONTROL New quarantines]**: Total number of addresses quarantined following a failed delivery (user unknown, invalid domain) in relation to the number of messages to be delivered.
+* **[!UICONTROL New quarantines]**: Total number of addresses quarantined following a failed delivery (e.g., user unknown, invalid domain), in relation to the number of messages to be delivered.
 
 +++
 
@@ -84,7 +84,7 @@ The **[!UICONTROL Execution statistics]** table provides a breakdown of the succ
 >title="Generated click streams"
 >abstract="The **Generated click streams** table shows the available data relative to how your recipients interacted with your delivery."
 
-![](assets/direct-mail-campaign-clicks.png){zoomable="yes"}{align="center"}
+![Click stream data for Direct mail campaigns](assets/direct-mail-campaign-clicks.png){zoomable="yes"}{align="center"}
 
 The **Generated click streams** table illustrates the reasons that prevented user profiles, excluded from the targeted profiles, from receiving the message.
 
@@ -94,6 +94,6 @@ The **Generated click streams** table illustrates the reasons that prevented use
 
 * **[!UICONTROL Total clicks]**: Total number of clicks on links in deliveries.
 
-* **[!UICONTROL Reactivity]**: Ratio of the number of targeted recipients having clicked in a delivery, in relation to the estimated number of targeted recipients having opened a delivery.
+* **[!UICONTROL Reactivity]**: Ratio of the number of targeted recipients who clicked in a delivery, in relation to the estimated number of targeted recipients who opened a delivery.
 
 +++

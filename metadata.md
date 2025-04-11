@@ -2,7 +2,7 @@
 cloud: Experience Cloud
 solution: Campaign, Campaign v8, Campaign v8 Web User Interface
 version: Campaign v8, Campaign v8 Web User Interface
-product: adobe campaign-web
+product: adobe campaign
 feature-set: Campaign
 type: Documentation
 git-repo: https://github.com/AdobeDocs/campaign-web.en

@@ -10,17 +10,17 @@ You can create a standalone direct mail delivery, or create a direct mail delive
 
 To create a new standalone direct mail delivery, follow these steps:
 
-1. Browse to the **[!UICONTROL Deliveries]** menu on the left rail, and click the  **[!UICONTROL Create delivery]** button.
+1. Browse to the **[!UICONTROL Deliveries]** menu on the left rail, and click the **[!UICONTROL Create delivery]** button.
 
 1. Under the **[!UICONTROL Channel]** section, choose **[!UICONTROL Direct mail]** as the channel, and select a template. [Learn more about templates](../msg/delivery-template.md)
 
 1. Click the **[!UICONTROL Create delivery]** button to confirm.
 
-    ![](assets/dm-create.png){zoomable="yes"}
+    ![Screenshot showing the creation of a direct mail delivery](assets/dm-create.png){zoomable="yes"}
 
-1. Enter a **[!UICONTROL Label]** for the delivery and access the **[!UICONTROL Additional options]** drop-down. If your delivery is based on an extended schema, specific **Custom options** fields are available.
+1. Enter a **[!UICONTROL Label]** for the delivery, and access the **[!UICONTROL Additional options]** drop-down. If your delivery is based on an extended schema, specific **Custom options** fields are available.
 
-    ![](assets/dm-properties.png){zoomable="yes"}
+    ![Screenshot showing the properties configuration for a direct mail delivery](assets/dm-properties.png){zoomable="yes"}
 
     +++Configure the following settings based on your requirements.
     * **[!UICONTROL Internal name]**: Assign a unique identifier to the delivery.
@@ -35,26 +35,26 @@ To create a new standalone direct mail delivery, follow these steps:
     * [Learn how to select an existing audience](../audience/add-audience.md)
     * [Learn how to create a new audience](../audience/one-time-audience.md)
 
-    ![](assets/dm-audience.png){zoomable="yes"}
+    ![Screenshot showing audience selection for a direct mail delivery](assets/dm-audience.png){zoomable="yes"}
 
     >[!NOTE]
     >
     >Direct mail recipients must contain at least their names and postal addresses. An address is considered to be complete if the name, ZIP/Postal code field, and town/city fields are not empty. Any recipients with incomplete addresses will be excluded from direct mail deliveries.
 
-1. Switch on the **[!UICONTROL Enable control group]** option to set a control group to measure the impact of your delivery. Messages are not sent to that control group, so that you can compare the behavior of the population who received the message with the behavior of contacts who did not. [Learn how to work with control groups](../audience/control-group.md)
+1. Switch on the **[!UICONTROL Enable control group]** option to set a control group to measure the impact of your delivery. Messages are not sent to that control group, so you can compare the behavior of the population who received the message with the behavior of contacts who did not. [Learn how to work with control groups](../audience/control-group.md)
 
 1. Click **[!UICONTROL Edit content]** to define the information (columns) to be exported into the extraction file. [Learn more](content-direct-mail.md)
 
-    ![](assets/dm-content.png){zoomable="yes"}
+    ![Screenshot showing content editing for a direct mail delivery](assets/dm-content.png){zoomable="yes"}
 
-1. To schedule your delivery to a specific date and time, switch on the **[!UICONTROL Enable scheduling]** option. After you initiate the delivery, the extraction file will be generated automatically at the exact date and time that you have defined. [Learn how to schedule deliveries](../msg/gs-deliveries.md#gs-schedule).
+1. To schedule your delivery to a specific date and time, switch on the **[!UICONTROL Enable scheduling]** option. After you initiate the delivery, the extraction file generates automatically at the exact date and time that you define. [Learn how to schedule deliveries](../msg/gs-deliveries.md#gs-schedule).
 
     >[!NOTE]
     >
-    >When a delivery is sent in the context of a workflow, you must use the **Scheduler** activity. Learn more in [this page](../workflows/activities/scheduler.md).
+    >When a delivery is sent in the context of a workflow, you must use the **Scheduler** activity. Learn more on [this page](../workflows/activities/scheduler.md).
 
 1. Click **[!UICONTROL Settings]** to access advanced options related to your delivery template. [Learn more](../advanced-settings/delivery-settings.md)
 
-    ![](assets/dm-settings.png){zoomable="yes"}
+    ![Screenshot showing advanced settings for a direct mail delivery](assets/dm-settings.png){zoomable="yes"}
 
 1. Once your direct mail delivery is ready, click the **[!UICONTROL Review and send]** button to validate and send your delivery and generate the extraction file. [Learn how to preview and send a direct mail delivery](send-direct-mail.md)

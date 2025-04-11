@@ -14,50 +14,50 @@ Learn more in [Adobe Experience Manager Assets as a Cloud Service documentation]
 
 ## Upload and insert assets{#add-asset}
 
-To import files to [!DNL Assets as Cloud Service], you first need to browse or create the folder it will be stored into. You will then be able to insert them to your email content.
+To import files to [!DNL Assets as Cloud Service], browse or create the folder where the files will be stored. Then, insert them into your email content.
 
 For more information on how to upload assets, refer to [Adobe Experience Manager Assets as a Cloud Service documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/add-delete-assets-view.html){target="_blank"}.
 
-1. From your homepage, access the advanced menu and select [!DNL Experience Manager Assets].
+1. From your homepage, access the advanced menu, and select [!DNL Experience Manager Assets].
 
-    ![](assets/assets_1.png){zoomable="yes"}
+    ![Screenshot showing the advanced menu in Adobe Experience Manager Assets](assets/assets_1.png){zoomable="yes"}
 
-1. Under **Assets Management**, click **Assets** and choose the repository for your Assets in Adobe Campaign.
+1. Under **Assets Management**, click **Assets**, and choose the repository for your assets in Adobe Campaign.
 
-1. Click a folder from the central section or from the tree view to open it.
+1. Click a folder from the central section or the tree view to open it.
 
     You can also click **[!UICONTROL Create folder]** to create a new folder.
 
-1. Once in the selected or created folder, click **[!UICONTROL Add Assets]** to upload new asset to your folder.
+1. Once in the selected or created folder, click **[!UICONTROL Add Assets]** to upload a new asset to your folder.
 
-    ![](assets/assets_2.png){zoomable="yes"}
+    ![Screenshot showing the Add Assets option in Adobe Experience Manager Assets](assets/assets_2.png){zoomable="yes"}
 
-1. From the **[!UICONTROL Upload files]**, click **[!UICONTROL Browse]** and choose if you want to **[!UICONTROL Browse files]** or **[!UICONTROL Browse folders]**.
+1. From the **[!UICONTROL Upload files]** menu, click **[!UICONTROL Browse]**, and choose whether to **[!UICONTROL Browse files]** or **[!UICONTROL Browse folders]**.
 
-1. Select the file you want to upload. When done, click **[!UICONTROL Upload]**. 
+1. Select the file you want to upload. When done, click **[!UICONTROL Upload]**.
 
-    ![](assets/assets_3.png){zoomable="yes"}
+    ![Screenshot showing the file upload process in Adobe Experience Manager Assets](assets/assets_3.png){zoomable="yes"}
 
 1. To access the advanced asset management menu, select the asset you just uploaded.
 
-    To learn more on how to manage your assets, refer to this [page](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/manage-organize-assets-view.html).
+    To learn more about managing your assets, refer to this [page](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/manage-organize-assets-view.html).
 
-    ![](assets/assets_4.png){zoomable="yes"}
+    ![Screenshot showing the advanced asset management menu in Adobe Experience Manager Assets](assets/assets_4.png){zoomable="yes"}
 
-1. To further edit your assets with Adobe Photoshop Express, double-click the assets. Then, from the right-hand menu, select the **[!UICONTROL Edit mode]** icon. [Learn more](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/edit-images-assets-view.html#edit-using-express){target="_blank"}.
+1. To further edit your assets with Adobe Photoshop Express, double-click the asset. Then, from the right-hand menu, select the **[!UICONTROL Edit mode]** icon. [Learn more](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/edit-images-assets-view.html#edit-using-express){target="_blank"}.
 
 1. From [!DNL Adobe Campaign], select the **[!UICONTROL Asset picker]** menu from the left pane of the email designer.
 
-    ![](assets/assets_6.png){zoomable="yes"}
+    ![Screenshot showing the Asset picker menu in Adobe Campaign](assets/assets_6.png){zoomable="yes"}
 
-1. Select your previously created **[!UICONTROL Assets]** folder. You can also search for your asset or your folder in the search bar.
+1. Select your previously created **[!UICONTROL Assets]** folder. You can also search for your asset or folder in the search bar.
 
-    If needed, click  **[!UICONTROL Manage assets]** to directly access your [!DNL Adobe Experience Manager Assets] workspace.
+    If needed, click **[!UICONTROL Manage assets]** to directly access your [!DNL Adobe Experience Manager Assets] workspace.
 
-1. Drag and drop your asset in your email content.
+1. Drag and drop your asset into your email content.
 
-    ![](assets/assets_5.png){zoomable="yes"}
+    ![Screenshot showing the drag-and-drop functionality for assets in Adobe Campaign](assets/assets_5.png){zoomable="yes"}
 
-1. You can further customize your assets such as adding an external link or a text using the **[!UICONTROL Settings]** and **[!UICONTROL Styles]** tabs. [Learn more about components settings](../email/content-components.md)
+1. Customize your assets further, such as adding an external link or text, using the **[!UICONTROL Settings]** and **[!UICONTROL Styles]** tabs. [Learn more about component settings](../email/content-components.md).
 
-    ![](assets/assets_7.png){zoomable="yes"}
+    ![Screenshot showing asset customization options in Adobe Campaign](assets/assets_7.png){zoomable="yes"}

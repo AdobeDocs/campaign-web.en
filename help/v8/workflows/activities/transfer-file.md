@@ -35,24 +35,24 @@ The **Transfer file** activity is a **Data Management** activity. It allows you 
 
 >[!NOTE]
 >
->With the Campaign Web User Interface, we have consolidated two activities into one by merging both **File transfer** and **Web download** capabilities. This consolidation does not impact the functionality of the activity in any way.
+>With the Campaign Web User Interface, two activities have been consolidated into one by merging both **File transfer** and **Web download** capabilities. This consolidation does not impact the functionality of the activity in any way.
 
 Follow the steps detailed below to configure the **Transfer file** activity.
 
 ## Choose the transfer protocol and operation {#protocol}
 
-1. Add a **Transfer file** activity into your workflow then specify the type of transfer to perform depending on the protocol that you want to use:
+1. Add a **Transfer file** activity into your workflow, then specify the type of transfer to perform depending on the protocol that you want to use:
 
-    * For HTTP protocol, select **[!UICONTROL Web Download]**. This allows you to perform a GET or POST download a file on an explicit URL, an external account, or an Adobe Campaign instance.
+    * For HTTP protocol, select **[!UICONTROL Web Download]**. This allows you to perform a GET or POST operation to download a file on an explicit URL, an external account, or an Adobe Campaign instance.
     * For other server-to-server protocols and related actions, select **[!UICONTROL File transfer]**.
 
-1. Select the action to perform with the activity. Available actions depend on the type of transfer your have selected. Expand the sections below for more information.
+1. Select the action to perform with the activity. Available actions depend on the type of transfer you have selected. Expand the sections below for more information.
 
     +++Actions available with **File transfer** type activities
 
     * **[!UICONTROL File download]**: Download a file from the server.
-    * **[!UICONTROL File upload]**: Upload a file on the server.
-    * **[!UICONTROL Test to see if file exists]**: Check if a given file is present on the server. Generates two outbound transitions after the activity: "File exists" and "File does not exist".
+    * **[!UICONTROL File upload]**: Upload a file to the server.
+    * **[!UICONTROL Test to see if file exists]**: Check if a given file is present on the server. Generates two outbound transitions after the activity: "File exists" and "File does not exist."
     * **[!UICONTROL File listing]**: List all the files available on the server.
 
     +++
@@ -64,7 +64,7 @@ Follow the steps detailed below to configure the **Transfer file** activity.
 
     +++
 
-    ![](../assets/workflow-transfer-file-action.png)
+    ![Screenshot showing workflow transfer file action options](../assets/workflow-transfer-file-action.png)
 
 1. By default, for file upload actions, the activity uses the file specified in the previous activity. To use a different file, toggle the **[!UICONTROL Use file from previous activity]** option off and click the **[!UICONTROL Add file]** button.
 
@@ -78,11 +78,11 @@ Follow the steps detailed below to configure the **Transfer file** activity.
     * **[!UICONTROL Quick configuration]**: Enter the URL of the file (or folder for file listing actions).
     * **[!UICONTROL Adobe Campaign instance]** (Web download type activities): Download a file from an Adobe Campaign instance server. 
 
-    ![](../assets/workflow-transfer-file-server.png)
+    ![Screenshot showing workflow transfer file server configuration options](../assets/workflow-transfer-file-server.png)
 
-1. For Web download POST actions, you can pass additional parameters with the operation. To do this, click the **[!UICONTROL Add parameter]** button then specify the name and value of the parameters. You can add as many parameters as needed.
+1. For Web download POST actions, you can pass additional parameters with the operation. To do this, click the **[!UICONTROL Add parameter]** button, then specify the name and value of the parameters. You can add as many parameters as needed.
 
-1. By default, for file upload, the files uploaded on a server are automatically saved. If you do not want to keep this history, toggle the **[!UICONTROL Keep history of files sent]** option off.
+1. By default, for file upload, the files uploaded to a server are automatically saved. If you do not want to keep this history, toggle the **[!UICONTROL Keep history of files sent]** option off.
 
 ## Historization settings {#historization}
 
@@ -93,31 +93,31 @@ Follow the steps detailed below to configure the **Transfer file** activity.
 
 Every time a **[!UICONTROL Transfer file]** activity is executed, it stores the uploaded or downloaded files in a dedicated folder. One folder is created for each Transfer file activity of a workflow. By default, files are saved on the default storage directory of the Adobe Campaign installation folder (`/vars`) before being processed. To use a specific folder, toggle the **[!UICONTROL Use a default storage directory]** option off and enter the path of the directory.
 
-![](../assets/workflow-transfer-file-historization.png)
+![Screenshot showing workflow transfer file historization settings](../assets/workflow-transfer-file-historization.png)
 
-It is important to be able to limit the size of this folder in order to preserve physical space on the server. To do that, you can define a maximum number of files or total size for the activity's folder. By default, 100 files and 50 MB are authorized.
+It is important to limit the size of this folder to preserve physical space on the server. To do that, define a maximum number of files or total size for the activity's folder. By default, 100 files and 50 MB are authorized.
 
 Every time the activity is executed, the folder is checked as follows:
 
 * Only files created more than 24 hours before the execution of the activity are taken into account.
-* If the number of files taken into account is greater than the value of the **[!UICONTROL Number of files]** field, the oldest files are deleted until the maximum number of files allowed is reached.
-* If the total size of files taken into account is greater than the value of the **[!UICONTROL Maximum size (in MB)]** parameter, the oldest files are deleted until the Maximum size (in MB) allowed is reached.
+* If the number of files taken into account exceeds the value of the **[!UICONTROL Number of files]** field, the oldest files are deleted until the maximum number of files allowed is reached.
+* If the total size of files taken into account exceeds the value of the **[!UICONTROL Maximum size (in MB)]** parameter, the oldest files are deleted until the maximum size allowed is reached.
 
 >[!CAUTION]
 >
->If the activity is not executed again, its folder will not be checked nor purged. With this in mind, be cautious when transferring large files.
+>If the activity is not executed again, its folder will not be checked or purged. Be cautious when transferring large files.
 
 ## Advanced & error management options {#advanced}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_delete_file"
 >title="Delete the source files after transfer"
->abstract="Erase the source files after a successfull transfer."
+>abstract="Erase the source files after a successful transfer."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_display_logs"
 >title="Display the session logs"
->abstract="Information related to the transfer operation are displayed in the workflow logs."
+>abstract="Information related to the transfer operation is displayed in the workflow logs."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_list_files"
@@ -138,8 +138,8 @@ Every time the activity is executed, the folder is checked as follows:
 
     +++Additional options for **[!UICONTROL File transfer]** type activities
 
-    * **[!UICONTROL Delete the source files after transfer]**: Erase the source files after a successfull transfer.
-    * **[!UICONTROL Display the session logs]**: When this option is activated, information related to the transfer operation are displayed in the workflow logs once the workflow has been executed.
+    * **[!UICONTROL Delete the source files after transfer]**: Erase the source files after a successful transfer.
+    * **[!UICONTROL Display the session logs]**: When this option is activated, information related to the transfer operation is displayed in the workflow logs once the workflow has been executed.
     * **[!UICONTROL List all files]** (File listing actions): This option indexes all the files present on the server in the `vars.filenames` event variable, in which the file names are separated by the `n` characters. [Learn how to work with event variables](../event-variables.md)
 
     +++
