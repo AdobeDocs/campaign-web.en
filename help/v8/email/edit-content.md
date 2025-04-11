@@ -95,29 +95,37 @@ To configure or edit the content of an email, follow the steps below.
 
 1. Once the content of your email has been defined, use the **[!UICONTROL Simulate content]** button to check how it displays before sending it. [Learn how to preview and test your email](../preview-test/preview-test.md).
 
-## Add language variants
+## Configure a multilingual delivery
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_multilingual"
 >title="Add languages"
 >abstract="In this tab, you will find a list of languages in which the delivery is to be sent in. You can add more languages by clicking the Add Language button, or by duplicating another language via this tab."
 
-The message is sent in the default language that has been set up. You can create variants by adding other languages with the **[!UICONTROL Add language]** button and also change the default language.
+In Campaign web user interface, you can set up your email deliveries as multilingual, which allows you to send messages based on a profile's preferred language. When no preference is defined, the message is sent in the default language.
 
->[!IMPORTANT]
->
->The **[!UICONTROL Add language]** button is only available if the target dimension contains the Language schema. To learn more about schemas and Target dimensions, please refer to the [detailed documentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/targeting-dimensions){target=_blank}.
+In a multilingual delivery, the language management is based on variants. Each variant represents one language. You can to set up a maximum of XXX variants.
+
+During the delivery creation, you can add the number of variants corresponding to the number of needed languages in the message. You can define also the default language when adding new languages.
+
+### Add a language variant
+
+To create language variants, follow these steps:
+
+1. Click the **[!UICONTROL Add language]** button on the upper section of the email configuration screen.
+
+    >[!IMPORTANT]
+    >
+    >The **[!UICONTROL Add language]** button is only available if the target dimension contains the Language schema. To learn more about schemas and Target dimensions, please refer to the [detailed documentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/targeting-dimensions){target=_blank}.
+
+    ![](assets/edit-content_2.png){zoomable="yes"}
 
 
-![](assets/edit-content_2.png){zoomable="yes"}
-
-1. Click the Add language button.
-
-1. A window opens up, you can click on the **[!UICONTROL Language]** drop-down button to show a list of languages that can be chosen.
+1. Select the language to add in the **[!UICONTROL Language]** drop-down list. When adding the first language it is set as default, and the current content is the default one. When you add new languages, the content is based on the default content.
 
     >[!NOTE]
     >
-    >The languages available through this list will depend on the the values that have been defined in the Language attribute (such as system, user, dbenum).
+    >The languages available through this list depend on the values that have been defined by the Language attribute (values such as: system, user, dbenum, etc.) Learn more about enumeration management in this [section](https://experienceleague.adobe.com/en/docs/campaign-web/v8/conf/enumerations){target=_blank}.
 
 
     ![](assets/edit-content_3.png){zoomable="yes"}
@@ -126,20 +134,25 @@ The message is sent in the default language that has been set up. You can create
 
     ![](assets/edit-content_8.png){zoomable="yes"}
 
-    You can repeat this process multiple times to add different languages.
 
-1. When adding a language for the first time, it will be considered default and the current content will be the default one. When you add new languages, the content will be based on the default content.
+1. Repeat this process to add other languages. The **[!UICONTROL Language]** panel shows the list of languages you have chosen, the number of different languages and also the default language.
 
-1. The **[!UICONTROL Language]** panel shows you the list of languages you have chosen, the number of different languages and also the default language.
-
-    For example, if you have chosen 3 languages:
+    For example, if you have chosen English, French, and Swedish, you can see these 3 languages as shown below:
 
     ![](assets/edit-content_9.png){zoomable="yes"}
 
     You can click on the expand button to the top right corner to delete every languages.
 
+### Define the email content for each variant
 
-1. In the **[!UICONTROL Languages]** panel, you can choose any language that you have added and click on the three dots in the right side of the tab. There, you an choose to either edit the language, set it as default, duplicate it or delete it.
+Once languages are set, define the content of the email which will be sent to the profiles with this preferred language.
+
+To define an email content, follow these steps:
+
+1. Browse to the **[!UICONTROL Languages]** panel, and click on the three dots in the right side of the language content to configure
+
+1. Select Edit.
+
 
     ![](assets/edit-content_10.png){zoomable="yes"}
 
