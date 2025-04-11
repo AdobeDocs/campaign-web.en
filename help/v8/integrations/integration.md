@@ -6,7 +6,7 @@ role: Admin, User
 level: Beginner
 exl-id: a50f3269-b559-4dbf-bd8f-af046f332d23
 ---
-```markdown
+
 # Work with Campaign and other Adobe solutions {#gs-integration}
 
 You can connect your Campaign environment with Adobe Experience Cloud solutions and applications to combine capabilities.

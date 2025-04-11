@@ -4,7 +4,7 @@ title: Use the Test workflow activity
 description: Learn how to use the Test workflow activity
 exl-id: 1bb25ad4-2cab-4656-85bd-4ed018e8477b
 ---
-```markdown
+
 # Test {#test}
 
 >[!CONTEXTUALHELP]

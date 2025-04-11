@@ -6,12 +6,12 @@ hide: yes
 hidefromtoc: yes
 exl-id: 6f8154ea-5d64-4950-9da3-427070ec7bf0
 ---
-```markdown
+
 # Query samples {#query-samples}
 
 ## Queries on recipients {#querying-recipient-table}
 
-* Recover the names and emails of recipients whose email domain is “orange.co.uk” and who do not live in London.
+* Recover the names and emails of recipients whose email domain is "orange.co.uk" and who do not live in London.
 
 * Recipients not contacted during the last 7 days.
 

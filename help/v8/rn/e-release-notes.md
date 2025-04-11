@@ -5,7 +5,7 @@ hide: yes
 hidefromtoc: yes
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
 ---
-```markdown
+
 # Early release notes {#e-release}
 
 Adobe Campaign Web User interface continuously delivers new features, enhancements to existing features, and bug fixes. All changes are consolidated at the end of each month in the [release notes](release-notes.md).

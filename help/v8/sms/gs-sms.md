@@ -4,7 +4,7 @@ title: Get started with SMS deliveries
 description: Learn how to create and send SMS with Adobe Campaign Web
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
 ---
-```markdown
+
 # Get started with SMS deliveries {#sms}
 
 SMS deliveries provide a practical and efficient way to send text messages to your customers' mobile devices. With this feature, you can create, personalize, and preview text-based messages for effective communication.
