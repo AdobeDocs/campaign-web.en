@@ -32,8 +32,7 @@ The **Deduplication** activity is a **Targeting** activity. This activity delete
 
 Follow these steps to configure the **Deduplication** activity:
 
-![](../assets/workflow-deduplication.png)  
-[Workflow deduplication configuration process]
+![Workflow deduplication configuration process](../assets/workflow-deduplication.png) 
 
 1. Add a **Deduplication** activity to your workflow.
 
@@ -60,5 +59,4 @@ Follow these steps to configure the **Deduplication** activity:
 
 In the following example, use a deduplication activity to exclude duplicates from the target before sending a delivery. The identified duplicated profiles are added to a dedicated audience that can be reused if necessary. Choose the **Email** address to identify the duplicates. Keep 1 entry and select the **Random** deduplication method.
 
-![](../assets/workflow-deduplication-example.png)  
-[Example of deduplication activity in a workflow]
+![Example of deduplication activity in a workflow](../assets/workflow-deduplication-example.png)  

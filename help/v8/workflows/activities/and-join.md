@@ -24,7 +24,7 @@ This activity triggers its outbound transition only after all the inbound transi
 
 Follow these steps to configure the **AND-join** activity:
 
-![](../assets/workflow-andjoin.png) [Screenshot showing the configuration interface for the AND-join activity.]
+![Screenshot showing the configuration interface for the AND-join activity.](../assets/workflow-andjoin.png)
 
 1. Add multiple activities, such as channel activities, to form at least two different execution branches.
 1. Add an **AND-join** activity to any of the branches.
@@ -35,4 +35,4 @@ Follow these steps to configure the **AND-join** activity:
 
 The following example shows two workflow branches with an email and SMS delivery. The AND-join triggers when both inbound transitions are enabled. Push notifications are sent only after both deliveries are completed.
 
-![](../assets/workflow-andjoin-example.png){zoomable="yes"} [Example of a workflow with two branches, showing email and SMS delivery followed by push notifications.]
+![Example of a workflow with two branches, showing email and SMS delivery followed by push notifications.](../assets/workflow-andjoin-example.png){zoomable="yes"} 

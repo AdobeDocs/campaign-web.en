@@ -40,28 +40,24 @@ A template includes:
 
 To access the content template list, select **[!UICONTROL Campaign Management]** > **[!UICONTROL Deliveries]** from the left menu, and browse to the **Templates** tab.
 
-![](assets/templates-tab.png){zoomable="yes"}  
-[The Templates tab in the Deliveries menu]
+![The Templates tab in the Deliveries menu](assets/templates-tab.png){zoomable="yes"}  
 
 All templates created in the current environment are displayed.
 
 You can filter content templates by channels and folders. You can also set advanced filters by building a rule using delivery attributes. [Learn more about the query modeler](../audience/../query/query-modeler-overview.md)
 
-![](assets/templates-filters.png){zoomable="yes"}  
-[Filtering options for templates]
+![Filtering options for templates](assets/templates-filters.png){zoomable="yes"}  
 
 To edit a template, click the desired item from the list. From there:
 
 * Modify its content, properties, audience, and any offers attached to it.
 * Test your template. [Learn more](#test-template)
 
-![](assets/templates-edition.png){zoomable="yes"}  
-[Editing a template]
+![Editing a template](assets/templates-edition.png){zoomable="yes"}  
 
 To delete or [duplicate](#copy-an-existing-template) a template, select the corresponding action from the **[!UICONTROL More actions]** menu, either from the **[!UICONTROL Templates]** list or from a template edition screen.
 
-![](assets/templates-more-actions.png){zoomable="yes"}  
-[More actions menu for templates]
+![More actions menu for templates](assets/templates-more-actions.png){zoomable="yes"}  
 
 >[!NOTE]
 >
@@ -92,18 +88,15 @@ To duplicate a delivery template, follow these steps:
 
 1. Confirm duplication.
 
-    ![](assets/templates-duplicate-confirm.png){zoomable="yes"}  
-    [Confirmation dialog for duplicating a template]
+    ![Confirmation dialog for duplicating a template](assets/templates-duplicate-confirm.png){zoomable="yes"}  
 
 1. The new template dashboard opens in the central screen. Edit the template settings as needed.
 
-    ![](assets/templates-duplicated-item.png){zoomable="yes"}  
-    [Duplicated template dashboard]
+    ![Duplicated template dashboard](assets/templates-duplicated-item.png){zoomable="yes"}  
 
 1. Click the **[!UICONTROL Review]** button to save and review your template. You can still edit all its settings, delete, and duplicate it.
 
-    ![](assets/templates-review-screen.png){zoomable="yes"}  
-    [Review screen for a template]
+    ![Review screen for a template](assets/templates-review-screen.png){zoomable="yes"}  
 
 1. Test the template rendering if needed. [Learn more](#test-template)
 
@@ -118,8 +111,7 @@ To save a delivery as a template, follow these steps:
 1. Browse to the **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]** menu.
 1. From the **[!UICONTROL Browse]** tab, click the **[!UICONTROL More actions]** button to the right of the desired delivery name, and select **[!UICONTROL Copy as a template]**.
 
-    ![](assets/templates-convert-delivery.png){zoomable="yes"}  
-    [Option to copy a delivery as a template]
+    ![Option to copy a delivery as a template](assets/templates-convert-delivery.png){zoomable="yes"}  
 
     You can also select a template from the list and choose this option from the template edition screen.
 
@@ -144,14 +136,13 @@ To configure a delivery template from scratch, follow these steps:
 1. Browse to the **Templates** tab from the **Deliveries** left menu. [Learn more](#access-manage-templates)
 1. Click the **[!UICONTROL Create template]** button.
 
-    ![](assets/templates-create-button.png){zoomable="yes"}  
-    [Create template button]
+    ![Create template button](assets/templates-create-button.png){zoomable="yes"}  
 
 1. Select the channel you want to use for your template.
 1. The built-in delivery template for that channel is used by default to help you build your own template. Use the dedicated button to the right of the selected channel to select another template if needed.
 
-    ![](assets/templates-channel-browse.png){zoomable="yes"}  
-    [Channel selection for a new template]
+    ![Channel selection for a new template](assets/templates-channel-browse.png){zoomable="yes"}  
+    
 
 1. Click the **[!UICONTROL Create template]** button again.
 
@@ -181,8 +172,7 @@ You can test the rendering of any delivery template, whether created from scratc
 
 1. Click the **[!UICONTROL Simulate content]** button on the top right of the screen.
 
-    ![](assets/templates-simulate-button.png){zoomable="yes"}  
-    [Simulate content button]
+    ![Simulate content button](assets/templates-simulate-button.png){zoomable="yes"}  
 
 1. Select one or more test profiles to check your email rendering. You can also select real profiles from your database. [Learn more about test profiles](../audience/test-profiles.md)
 
@@ -190,8 +180,7 @@ You can test the rendering of any delivery template, whether created from scratc
 
     [Learn more about previewing content](../preview-test/preview-content.md)
 
-    ![](assets/templates-stimulate.png){zoomable="yes"}  
-    [Simulated content preview]
+    ![Simulated content preview](assets/templates-stimulate.png){zoomable="yes"}  
 
 1. Close the window to return to the template edition screen.
 

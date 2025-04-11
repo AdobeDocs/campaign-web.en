@@ -21,8 +21,7 @@ Navigate to the **[!UICONTROL Reports]** menu within the **[!UICONTROL Reporting
 
 The **[!UICONTROL Delivery Overview]** presents key performance metrics (KPIs), offering in-depth insights into the interaction of your visitors with each direct mail delivery. The metrics are outlined below.
 
-![](assets/global_report_direct_mail_delivery_overview.png){zoomable="yes"}{align="center"}  
-[This image shows the delivery overview metrics for direct mail deliveries.]
+![This image shows the delivery overview metrics for direct mail deliveries.](assets/global_report_direct_mail_delivery_overview.png){zoomable="yes"}{align="center"}  
 
 +++Learn more on Delivery overview metrics.
 
@@ -50,8 +49,7 @@ The **[!UICONTROL Delivery Overview]** presents key performance metrics (KPIs), 
 
 The table and graph for **[!UICONTROL Targeted Audience]** showcase data related to your recipients, with detailed metrics provided below.
 
-![](assets/global_report_direct_mail_targeted_audience.png){zoomable="yes"}{align="center"}  
-[This image shows the targeted audience metrics for direct mail deliveries.]
+![This image shows the targeted audience metrics for direct mail deliveries.](assets/global_report_direct_mail_targeted_audience.png){zoomable="yes"}{align="center"}  
 
 +++Learn more on Targeted audience metrics.
 
@@ -77,8 +75,7 @@ The table and graph for **[!UICONTROL Targeted Audience]** showcase data related
 
 The **[!UICONTROL Delivery statistics]** graph and table provide a breakdown of the success of every direct mail delivery, with detailed metrics outlined below.
 
-![](assets/global_report_direct_mail_delivery_statistics.png){zoomable="yes"}{align="center"}  
-[This image shows the delivery statistics metrics for direct mail deliveries.]
+![This image shows the delivery statistics metrics for direct mail deliveries.](assets/global_report_direct_mail_delivery_statistics.png){zoomable="yes"}{align="center"}  
 
 +++Learn more on Delivery statistics metrics.
 
@@ -104,8 +101,7 @@ The **[!UICONTROL Delivery statistics]** graph and table provide a breakdown of 
 >title="Causes of exclusion"
 >abstract="The **Causes of exclusion** graph illustrates the distribution of rejected messages during the preparation for delivery, categorized by each rule."
 
-![](assets/global_report_direct_mail_exclusions.png){zoomable="yes"}{align="center"}  
-[This image shows the causes of exclusion metrics for direct mail deliveries.]
+![This image shows the causes of exclusion metrics for direct mail deliveries.](assets/global_report_direct_mail_exclusions.png){zoomable="yes"}{align="center"}  
 
 The Exclusions graph and table illustrate the reasons that prevented user profiles, excluded from the targeted profiles, from receiving the message.
 

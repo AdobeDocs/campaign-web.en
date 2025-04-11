@@ -34,9 +34,8 @@ Follow these steps to configure the **External signal** activity and trigger its
 1. Add an **External signal** activity into your workflow.
 
 1. Complete the configuration of your workflow, and start its execution. The **[!UICONTROL External Signal]** activity displays as "Pending," waiting to be triggered.
-
-    [The screenshot shows the External Signal activity in a pending state.]  
-    ![](../assets/external-signal-pending.png)
+ 
+    ![The screenshot shows the External Signal activity in a pending state.](../assets/external-signal-pending.png)
 
 1. Retrieve the following information:
 
@@ -44,17 +43,15 @@ Follow these steps to configure the **External signal** activity and trigger its
 
         +++View example
 
-        [The screenshot shows the workflow's internal name next to its label.]  
-        ![](../assets/external-signal-workflow-name.png)
+        ![The screenshot shows the workflow's internal name next to its label.](../assets/external-signal-workflow-name.png)
 
         +++
 
     * The **External signal activity's name**, which displays in the workflow's **[!UICONTROL Execution options]**.
 
         +++View example
-
-        [The screenshot shows the External Signal activity's name in the Execution options.]  
-        ![](../assets/external-signal-name.png)
+  
+        ![The screenshot shows the External Signal activity's name in the Execution options.](../assets/external-signal-name.png)
 
         +++
 
@@ -75,9 +72,8 @@ Follow these steps to configure the **External signal** activity and trigger its
     +++View example
 
     In this example, the "signal1" External signal activity is triggered. It has been added to the workflow whose internal name is "WKF12345." A variable named "customID" is passed with the value "123456."
-
-    [The screenshot shows an example of triggering the External Signal activity using the PostEvent function.]  
-    ![](../assets/external-signal-sample.png)
+ 
+    ![The screenshot shows an example of triggering the External Signal activity using the PostEvent function.](../assets/external-signal-sample.png)
 
     +++
 

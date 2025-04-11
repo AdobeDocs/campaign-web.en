@@ -42,13 +42,13 @@ The query modeler is available in every context where you need to define rules t
 >
 >When accessing an object created in the client console where rules have been applied, such as an audience or a predefined filter, the **[!UICONTROL Refine target]** section may display. This means that additional parameters have been configured to refine the rule target. These parameters can be modified in the console only.
 >
->![](assets/target-warning.png){zoomable="yes"} [Image showing a warning about refining targets]
+>![Image showing a warning about refining targets](assets/target-warning.png){zoomable="yes"} 
 
 ## Query modeler interface {#interface}
 
 The query modeler provides a central canvas where you build your query and a right pane that provides information on your query.
 
-![](assets/query-interface.png){zoomable="yes"} [Image showing the query modeler interface]
+![Image showing the query modeler interface](assets/query-interface.png){zoomable="yes"} 
 
 ### The central canvas {#canvas}
 

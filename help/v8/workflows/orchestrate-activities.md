@@ -14,11 +14,11 @@ At this stage of the configuration, the diagram is displayed with a start icon, 
 
 A list of activities that can be added to the diagram appears. The available activities depend on your position within the workflow diagram. For example, when adding your first activity, you can start your workflow by targeting an audience, splitting the workflow path, or setting a **Wait** activity to delay the workflow execution. After a **Build audience** activity, you can refine your target with targeting activities, send a delivery to your audience with channel activities, or organize the workflow process with flow control activities.
 
-![](assets/workflow-start.png){zoomable="yes"} [Workflow start icon and activity options]
+![Workflow start icon and activity options](assets/workflow-start.png){zoomable="yes"} 
 
 Once an activity is added to the diagram, a right pane appears, allowing you to configure the newly added activity with specific settings. Detailed information on how to configure each activity is available in [this section](activities/about-activities.md).
 
-![](assets/workflow-configure-activities.png){zoomable="yes"} [Activity configuration pane]
+![Activity configuration panel](assets/workflow-configure-activities.png){zoomable="yes"} 
 
 Repeat this process to add as many activities as needed, depending on the tasks your workflow performs. You can also insert a new activity between two activities. To do this, click the **+** button on the transition between the activities, select the desired activity, and configure it in the right pane.
 
@@ -38,13 +38,13 @@ The toolbar, located in the upper-right corner of the canvas, provides options t
 * **Zoom out** / **Zoom in**: Zoom out or in the canvas.
 * **Display map**: Open a snapshot of the canvas showing your location.
 
-![](assets/workflow-toolbar.png){zoomable="yes"}{width="50%"} [Toolbar options for workflow canvas]
+![Toolbar options for workflow canvas](assets/workflow-toolbar.png){zoomable="yes"}{width="50%"} 
 
 ## Manage activities {#manage}
 
 When adding activities, action buttons are available in the properties pane, allowing you to perform multiple operations.
 
-![](assets/activity-action.png){zoomable="yes"} [Activity action buttons]
+![Activity action buttons](assets/activity-action.png){zoomable="yes"} 
 
 You can:
 
@@ -58,7 +58,7 @@ You can:
 
 Several **Targeting** activities, such as **Combine** or **Deduplication**, allow you to process the remaining population and include it in an additional outbound transition. For example, if you're using a **Split** activity, the complement consists of the population that did not match any of the previously defined subsets. To use this capability, activate the **Generate complement** option.
 
-![](assets/workflow-split-complement.png) [Split activity with complement option]
+![Split activity with complement option](assets/workflow-split-complement.png) 
 
 ## Move or copy activities {#move-copy}
 
@@ -70,15 +70,15 @@ To copy activities, you have two choices:
 
 * Copy one activity using the action button.
 
-    ![](assets/workflow-copy.png){zoomable="yes"}{width="70%"} [Copy single activity button]
+    ![Copy single activity button](assets/workflow-copy.png){zoomable="yes"}{width="70%"} 
 
 * Copy multiple activities using the toolbar button.
 
-    ![](assets/workflow-copy-2.png){zoomable="yes"}{width="70%"} [Copy multiple activities button]
+    ![Copy multiple activities button](assets/workflow-copy-2.png){zoomable="yes"}{width="70%"} 
 
 To paste the copied activities, click the **+** button on a transition and select "Paste X activity."
 
-![](assets/workflow-copy-3.png){zoomable="yes"}{width="50%"} [Paste copied activities option]
+![Paste copied activities option](assets/workflow-copy-3.png){zoomable="yes"}{width="50%"} 
 
 ### Move activities and their child nodes {#move}
 
@@ -92,13 +92,13 @@ To move an activity:
 1. In the activity's properties pane, click the **Move** button.
 1. Select the transition where you want to place the activity and its outbound transition, then confirm.
 
-![](assets/activity-move.png) [Move activity and child nodes]
+![Move activity and child nodes](assets/activity-move.png) 
 
 ## Execution options {#execution}
 
 All activities allow you to manage their execution options. Select an activity and click the **Execution options** button. This lets you define the activity's execution mode and behavior in case of errors.
 
-![](assets/workflow-execution-options.png){zoomable="yes"}{width="70%"} [Execution options pane]
+![Execution options panel](assets/workflow-execution-options.png){zoomable="yes"}{width="70%"}
 
 ### Properties
 
@@ -124,7 +124,7 @@ The **Initialization script** lets you initialize variables or modify activity p
 
 Here is a workflow example designed to send an email to all customers (other than VIP customers) with an email who are interested in coffee machines.
 
-![](assets/workflow-example.png){zoomable="yes"} [Workflow example diagram]
+![Workflow example diagram](assets/workflow-example.png){zoomable="yes"} 
 
 To achieve this, the following activities have been added:
 

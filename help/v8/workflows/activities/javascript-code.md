@@ -114,7 +114,7 @@ This example shows how to trigger a transition based on the value of a variable.
 
 ![Example of transitions triggered by variable values](../assets/javascript-example2-transitions.png)
 
-In this example, the workflow starts with an **External signal** activity, into which a variable (`interest`) is passed from another workflow. The value of the variable is either "running" or "yoga," depending on the filtering operations performed in the initial workflow.
+In this example, the workflow starts with an **External signal** activity, into which a variable (`interest`) is passed from another workflow. The value of the variable is either "running" or "yoga", depending on the filtering operations performed in the initial workflow.
 
 Different transitions in the workflow are triggered based on the variable's value.
 
@@ -122,7 +122,7 @@ To achieve this, follow these steps:
 
 1. Add a **JavaScript code** activity after the External signal activity with the type **Advanced**.
 
-1. Add two transitions: one for each possible variable value ("running," "yoga").
+1. Add two transitions: one for each possible variable value ("running", "yoga").
 
 1. Click **Edit first call code** and configure the code snippet as shown below:
 

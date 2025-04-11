@@ -19,7 +19,7 @@ The **Direct mail delivery report** provides comprehensive insights and data spe
 
 The **[!UICONTROL Delivery Overview]** provides detailed insights into visitor interactions with each direct mail delivery, showcasing essential key performance metrics (KPIs). The metrics are outlined below.
 
-![](assets/direct-overview.png){zoomable="yes"}{align="center"} [Delivery overview metrics graph showing key performance indicators for direct mail delivery.]
+![Delivery overview metrics graph showing key performance indicators for direct mail delivery.](assets/direct-overview.png){zoomable="yes"}{align="center"} 
 
 +++Learn more on Delivery overview metrics.
 
@@ -37,11 +37,11 @@ The **[!UICONTROL Delivery Overview]** provides detailed insights into visitor i
 
 The **[!UICONTROL Initial target population]** graph displays data related to recipients. Metrics are calculated during delivery preparation and include the initial audience, the number of messages to send, and the number of recipients excluded.
 
-![](assets/direct-mail-delivery-targeted-population.png){zoomable="yes"} [Initial target population graph showing audience size, messages to send, and exclusions.]
+![Initial target population graph showing audience size, messages to send, and exclusions.](assets/direct-mail-delivery-targeted-population.png){zoomable="yes"} 
 
 Mouse over a portion of the graph to display the exact number.
 
-![](assets/direct-mail-delivery-targeted-population_2.png){zoomable="yes"} [Detailed view of the initial target population graph with hover functionality.]
+![Detailed view of the initial target population graph with hover functionality.](assets/direct-mail-delivery-targeted-population_2.png){zoomable="yes"} 
 
 +++Learn more on Direct mail delivery report metrics.
 
@@ -59,7 +59,7 @@ Mouse over a portion of the graph to display the exact number.
 
 The **[!UICONTROL Delivery statistics]** graph provides an overview of delivery performance, offering detailed metrics to measure success and effectiveness.
 
-![](assets/direct-mail-delivery-stats.png){zoomable="yes"} [Delivery statistics graph showing success rates, errors, and quarantines.]
+![Delivery statistics graph showing success rates, errors, and quarantines.](assets/direct-mail-delivery-stats.png){zoomable="yes"} 
 
 +++Learn more on Direct mail campaign report metrics.
 
@@ -78,7 +78,7 @@ The **[!UICONTROL Delivery statistics]** graph provides an overview of delivery 
 
 The **[!UICONTROL Causes of exclusion]** graph provides a breakdown of reasons for message rejection during delivery preparation. This breakdown is organized by various rules, offering a detailed view of factors contributing to message exclusion. Exclusion rules are detailed in the [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
 
-![](assets/direct-mail-delivery-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"} [Causes of exclusion graph showing distribution of rejected messages by rule.]
+![Causes of exclusion graph showing distribution of rejected messages by rule.](assets/direct-mail-delivery-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"} 
 
 +++Learn more on Causes of exclusion metrics.
 
@@ -100,6 +100,6 @@ The **[!UICONTROL Causes of exclusion]** graph provides a breakdown of reasons f
 
 The **[!UICONTROL Exclusions]** table provides a detailed breakdown, categorized by specific rules, of messages rejected during delivery preparation. This breakdown offers a clear understanding of the reasons behind message exclusions.
 
-![](assets/direct-mail-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"} [Exclusions table showing detailed breakdown of rejected messages by rule.]
+![Exclusions table showing detailed breakdown of rejected messages by rule.](assets/direct-mail-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"} 
 
 Metrics available are the same as for the [Causes of exclusion](#direct-mail-delivery-exclusions) described above.

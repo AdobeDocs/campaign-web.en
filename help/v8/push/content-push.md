@@ -4,9 +4,6 @@ title: Design a push notification delivery
 description: Learn how to design a push notification delivery with Adobe Campaign Web
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
 ---
-The provided content has been reviewed and formatted according to the specified rules. Below is the updated documentation:
-
----
 
 # Design a push delivery {#content-push}
 
@@ -151,7 +148,3 @@ Advanced options depend on the mobile operating system: Android or iOS. Browse t
 >[!ENDTABS]
 
 <!--Sounds must be included in the application and defined when the service is created. Refer to this section.-->
-
---- 
-
-The formatting and clarity rules have been applied without altering the structure or meaning of the content.

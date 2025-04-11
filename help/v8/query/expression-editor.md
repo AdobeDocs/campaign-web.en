@@ -4,9 +4,6 @@ title: Build your first query using the query modeler
 description: Learn how to build your first query in Adobe Campaign Web query modeler.
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
 ---
-The content has been reviewed and formatted according to the specified rules. Below is the updated documentation:
-
----
 
 # Edit expressions {#expression}
 
@@ -366,6 +363,421 @@ Date functions manipulate date or time values.
 >
 >Note that the **DateOnly** function takes into account the server's timezone, not the operator's.
 
----
 
-The formatting has been applied consistently, and all rules have been followed. Let me know if further adjustments are needed.
+### Geomarketing
+
+The geomarketing functions are used to manipulate geographical values. 
+
+<table> 
+ <tbody> 
+  <tr> 
+   <td> <strong>Name</strong><br /> </td> 
+   <td> <strong>Description</strong><br /> </td> 
+   <td> <strong>Syntax</strong><br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Distance</strong><br /> </td> 
+   <td> Returns the distance between two points defined by their longitude and latitude, expressed in degrees.<br /> </td> 
+   <td> Distance(&lt;Longitude A&gt;, &lt;Latitude A&gt;, &lt;Longitude B&gt;, &lt;Latitude B&gt;)<br /> </td>  
+  </tr> 
+ </tbody> 
+</table>
+
+### Numeric
+
+The numeric functions are used to convert text to numbers. 
+
+<table> 
+ <tbody> 
+  <tr> 
+   <td> <strong>Name</strong><br /> </td> 
+   <td> <strong>Description</strong><br /> </td> 
+   <td> <strong>Syntax</strong><br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Abs</strong><br /> </td> 
+   <td> Returns the absolute value of a number<br /> </td> 
+   <td> Abs(&lt;number&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Ceil</strong><br /> </td> 
+   <td> Returns the lowest integer greater than or equal to a number<br /> </td> 
+   <td> Ceil(&lt;number&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Floor</strong><br /> </td> 
+   <td> Returns the greatest integer greater than or equal to a number<br /> </td> 
+   <td> Floor(&lt;number&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Greatest</strong><br /> </td> 
+   <td> Returns the greater of two numbers<br /> </td> 
+   <td> Greatest(&lt;number 1&gt;, &lt;number 2&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Least</strong><br /> </td> 
+   <td> Returns the smaller of two numbers<br /> </td> 
+   <td> Least(&lt;number 1&gt;, &lt;number 2&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Mod</strong><br /> </td> 
+   <td> Returns the remainder of the integer division of n1 by n2<br /> </td> 
+   <td> Mod(&lt;number 1&gt;, &lt;number 2&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Percent</strong><br /> </td> 
+   <td> Returns the ratio of two numbers expressed as a percentage<br /> </td> 
+   <td> Percent(&lt;number 1&gt;, &lt;number 2&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Random</strong><br /> </td> 
+   <td> Returns the random value<br /> </td> 
+   <td> Random()<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Round</strong><br /> </td> 
+   <td> Rounds off a number to n decimals<br /> </td> 
+   <td> Round(&lt;number&gt;, &lt;number of decimals&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Sign</strong><br /> </td> 
+   <td> Returns the sign of the number<br /> </td> 
+   <td> Sign(&lt;number&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>ToDouble</strong><br /> </td> 
+   <td> Converts an integer to a float<br /> </td> 
+   <td> ToDouble(&lt;number&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>ToInt64</strong><br /> </td> 
+   <td> Converts a float to a 64 bit integer<br /> </td> 
+   <td> ToInt64(&lt;number&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>ToInteger</strong><br /> </td> 
+   <td> Converts a float to an integer<br /> </td> 
+   <td> ToInteger(&lt;number&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Trunc</strong><br /> </td> 
+   <td> Truncates n1 to n2 decimals<br /> </td> 
+   <td> Trunc(&lt;n1&gt;, &lt;n2&gt;)<br /> </td>  
+  </tr> 
+ </tbody> 
+</table>
+
+### Others
+
+This table contains the remaining functions available. 
+
+<table> 
+ <tbody> 
+  <tr> 
+   <td> <strong>Name</strong><br /> </td> 
+   <td> <strong>Description</strong><br /> </td> 
+   <td> <strong>Syntax</strong><br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>AESEncrypt</strong><br /> </td> 
+   <td> Encrypt string provided in argument<br /> </td> 
+   <td> AESEncrypt(&lt;value&gt;)<br /> </td> 
+  </tr>
+  <tr> 
+   <td> <strong>Case</strong><br /> </td> 
+   <td> Returns value 1 if the condition is true. If not, it returns value 2.<br /> </td> 
+   <td> Case(When(&lt;condition&gt;, &lt;value 1&gt;), Else(&lt;value 2&gt;))<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>ClearBit</strong><br /> </td> 
+   <td> Deletes the Flag in the value<br /> </td> 
+   <td> ClearBit(&lt;identifier&gt;, &lt;flag&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Coalesce</strong><br /> </td> 
+   <td> Returns value 2 if value 1 is zero or null, otherwise returns value 1<br /> </td> 
+   <td> Coalesce(&lt;value 1&gt;, &lt;value 2&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Decode</strong><br /> </td> 
+   <td> Returns value 3 if value 1 = value 2. If not returns value 4.<br /> </td> 
+   <td> Decode(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;, &lt;value 4&gt;)<br /> </td>  
+  </tr> 
+  <!--<tr> 
+   <td> <strong>DefaultFolder</strong><br /> </td> 
+   <td> Returns value 3 if value 1 = value 2. If not returns value 4.<br /> </td> 
+   <td> Decode(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;, &lt;value 4&gt;)<br /> </td>  
+  </tr> -->
+  <tr> 
+   <td> <strong>Else</strong><br /> </td> 
+   <td> Returns value 1 (may only be used as a parameter of the case function)<br /> </td> 
+   <td> Else(&lt;value 1&gt;, &lt;value 2&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>GetEmailDomain</strong><br /> </td> 
+   <td> Extracts the domain from an email address<br /> </td> 
+   <td> GetEmailDomain(&lt;value&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>GetMirrorURL</strong><br /> </td> 
+   <td> Retrieves the URL of the mirror page server<br /> </td> 
+   <td> GetMirrorURL(&lt;value&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Iif</strong><br /> </td> 
+   <td> Returns value 1 if the expression is true. If not, returns value 2<br /> </td> 
+   <td> Iif(&lt;condition&gt;, &lt;value 1&gt;, &lt;value 2&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>IsBitSet</strong><br /> </td> 
+   <td> Indicates whether the Flag is in the value<br /> </td> 
+   <td> IsBitSet(&lt;identifier&gt;, &lt;flag&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>IsEmptyString</strong><br /> </td> 
+   <td> Returns value 2 if string 1 is empty, otherwise returns value 3<br /> </td> 
+   <td> IsEmptyString(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>NewUUID</strong><br /> </td> 
+   <td> Returns a unique ID<br /> </td> 
+   <td> NewUUID()<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>NoNull</strong><br /> </td> 
+   <td> Returns the empty string if the argument is NULL<br /> </td> 
+   <td> NoNull(&lt;value&gt;)<br /> </td>   
+  </tr> 
+  <tr> 
+   <td> <strong>RowId</strong><br /> </td> 
+   <td> Returns the line number<br /> </td> 
+   <td> RowId<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>SetBit</strong><br /> </td> 
+   <td> Forces the Flag in the value<br /> </td> 
+   <td> SetBit(&lt;identifier&gt;, &lt;flag&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>ToBoolean</strong><br /> </td> 
+   <td> Converts a number into a Boolean<br /> </td> 
+   <td> ToBoolean(&lt;number&gt;)<br /> </td>   
+  </tr> 
+  <tr> 
+   <td> <strong>When</strong><br /> </td> 
+   <td> Returns value 1 if the expression is true. If not, it returns value 2 (may only be used as a parameter of the case function)<br /> </td> 
+   <td> When(&lt;condition&gt;, &lt;value 1&gt;)<br /> </td>  
+  </tr> 
+ </tbody> 
+</table>
+
+### String
+
+The string functions are used to manipulate a set of strings.
+
+<table> 
+ <tbody> 
+  <tr> 
+   <td> <strong>Name</strong><br /> </td> 
+   <td> <strong>Description</strong><br /> </td> 
+   <td> <strong>Syntax</strong><br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>AllNonNull2</strong><br /> </td> 
+   <td> Indicates if all parameters are non-null and not empty<br /> </td> 
+   <td> AllNonNull2(&lt;string&gt;, &lt;string&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>AllNonNull3</strong><br /> </td> 
+   <td> Indicates if all parameters are non-null and not empty<br /> </td> 
+   <td> AllNonNull3(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Ascii</strong><br /> </td> 
+   <td> Returns the ASCII value of the first character in the string.<br /> </td> 
+   <td> Ascii(&lt;string&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Char</strong><br /> </td> 
+   <td> Returns the character corresponding to the 'n' ASCII code<br /> </td> 
+   <td> Char(&lt;number&gt;)<br /></td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Charindex</strong><br /> </td> 
+   <td> Returns the position of string 2 in string 1.<br /> </td> 
+   <td> Charindex(&lt;string&gt;, &lt;string&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>dataLength</strong><br /> </td> 
+   <td> Returns the size in bytes of the string<br /> </td> 
+   <td> dataLength(&lt;string&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>GetLine</strong><br /> </td> 
+   <td> Returns the nth (from 1 to n) line of the string<br /> </td> 
+   <td> GetLine(&lt;string&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>IfEquals</strong><br /> </td> 
+   <td> Returns the third parameter if the first two parameters are equal. If not, returns the last parameter<br /> </td> 
+   <td> IfEquals(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>IsMemoNull</strong><br /> </td> 
+   <td> Indicates if the memo passed as a parameter is null<br /> </td> 
+   <td> IsMemoNull(&lt;memo&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>JuxtWords</strong><br /> </td> 
+   <td> Concatenates the strings passed as parameters. Adds spaces between the strings if necessary.<br /> </td> 
+   <td> JuxtWords(&lt;string&gt;, &lt;string&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>JuxtWords3</strong><br /> </td> 
+   <td> Concatenates the strings passed as parameters. Adds spaces between the strings if necessary<br /> </td> 
+   <td> JuxtWords3(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /></td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Left</strong><br /> </td> 
+   <td> Returns the first n characters of the string<br /> </td> 
+   <td> Left(&lt;string&gt;, &lt;number&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Length</strong><br /> </td> 
+   <td> Returns the length of the string<br /> </td> 
+   <td> Length(&lt;string&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Line</strong><br /> </td> 
+   <td> Extract line n from string<br /> </td> 
+   <td> Line(&lt;string&gt;,&lt;number&gt;)<br /></td> 
+  </tr>
+  <tr> 
+   <td> <strong>Lower</strong><br /> </td> 
+   <td> Returns the string in lowercase<br /> </td> 
+   <td> Lower(&lt;string&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>LPad</strong><br /> </td> 
+   <td> Returns the completed string on the left<br /> </td> 
+   <td> LPad (&lt;String&gt;, &lt;Number&gt;, &lt;Char&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Ltrim</strong><br /> </td> 
+   <td> Removes spaces to the left of the string<br /> </td> 
+   <td> Ltrim(&lt;string&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Md5Digest</strong><br /> </td> 
+   <td> Returns an hexadecimal representation of the MD5 key of a string<br /> </td> 
+   <td> Md5Digest(&lt;string&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>MemoContains</strong><br /> </td> 
+   <td> Specifies whether the memo contains the string passed as a parameter<br /> </td> 
+   <td> MemoContains(&lt;memo&gt;, &lt;string&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>NodeValue</strong><br /> </td> 
+   <td> Extracts the value of an XML field from its XPath and the field data<br /> </td> 
+   <td> NodeValue (&lt;String&gt;, &lt;String&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Replace</strong><br /> </td> 
+   <td> Replaces all occurrences of a specified string value with another string value.<br /> </td> 
+   <td> Replace(&lt;String&gt;,&lt;String&gt;,&lt;String&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Right</strong><br /> </td> 
+   <td> Returns the last n characters of the string<br /> </td> 
+   <td> Right(&lt;string&gt;)<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>RPad</strong><br /> </td> 
+   <td> Returns the completed string on the right<br /> </td> 
+   <td> RPad(&lt;string&gt;, &lt;number&gt;, &lt;character&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Rtrim</strong><br /> </td> 
+   <td> Removes spaces to the right of the string<br /> </td> 
+   <td> Rtrim(&lt;string&gt;)<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Sha256Digest</strong><br /> </td> 
+   <td> Hexadecimal representation of the SHA256 key of a string.<br /> </td> 
+   <td> Sha256Digest (&lt;String&gt;)<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Sha512Digest</strong><br /> </td> 
+   <td> Hexadecimal representation of the SHA512 key of a string.<br /> </td> 
+   <td> Sha512Digest (&lt;String&gt;)<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Smart</strong><br /> </td> 
+   <td> Returns the string with the first letter of each word in capitals<br /> </td> 
+   <td> Smart(&lt;string&gt;)<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Substring</strong><br /> </td> 
+   <td> Extracts the substring starting at character n1 of the string and of length n2<br /> </td> 
+   <td> Substring(&lt;string&gt;, &lt;offset&gt;, &lt;length&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>ToString</strong><br /> </td> 
+   <td> Converts the number to a string<br /> </td> 
+   <td> ToString(&lt;number&gt;, &lt;number&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Upper</strong><br /> </td> 
+   <td> Returns the string in capitals<br /> </td> 
+   <td> Upper(&lt;string&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>VirtualLink</strong><br /> </td> 
+   <td> Returns the foreign key of a link passed as a parameter if the other two parameters are equal<br /> </td> 
+   <td> VirtualLink(&lt;number&gt;, &lt;number&gt;, &lt;number&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>VirtualLinkStr</strong><br /> </td> 
+   <td> Returns the foreign (text) key of a link passed as a parameter if the other two parameters are equal<br /> </td> 
+   <td> VirtualLinkStr(&lt;string&gt;, &lt;number&gt;, &lt;number&gt;)<br /> </td>  
+  </tr> 
+ </tbody> 
+</table>
+
+### Window
+
+<table> 
+ <tbody> 
+  <tr> 
+   <td> <strong>Name</strong><br /> </td> 
+   <td> <strong>Description</strong><br /> </td> 
+   <td> <strong>Syntax</strong><br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>_Over__</strong><br /> </td> 
+   <td> Execute the SQL function call entered as 1st parameter, over Partition or Order By the fields entered as 2nd parameter<br /> </td> 
+   <td> _Over_ (&lt;Value&gt;, &lt;Value&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Desc</strong><br /> </td> 
+   <td> Applies a descending sort<br /> </td> 
+   <td> Desc(&lt;value 1&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>OrderBy</strong><br /> </td> 
+   <td> Sorts the result within the partition<br /> </td> 
+   <td> OrderBy(&lt;value 1&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>PartitionBy</strong><br /> </td> 
+   <td> Partitions the result of a query on a table<br /> </td> 
+   <td> PartitionBy(&lt;value 1&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>RowNum</strong><br /> </td> 
+   <td> Generates a line number based on the table partition and on a sorting sequence.<br /> </td> 
+   <td> RowNum(PartitionBy(&lt;value 1&gt;), OrderBy(&lt;value 1&gt;))<br /> </td> 
+  </tr> 
+ </tbody> 
+</table>

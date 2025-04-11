@@ -23,14 +23,14 @@ The Campaign Web user interface allows you to create, design, and publish landin
 
 To access the landing page list, select **[!UICONTROL Content management]** > **[!UICONTROL Landing pages]** from the left menu.
 
-![](assets/lp-inventory.png){zoomable="yes"} [Screenshot showing the landing pages inventory in the Campaign Web interface.]
+![Screenshot showing the landing pages inventory in the Campaign Web interface.](assets/lp-inventory.png){zoomable="yes"}
 
 The **[!UICONTROL Landing pages]** inventory displays all the created items. You can filter them using the **[!UICONTROL Show filters]** button.
 
 * You can filter the items you created or modified.
 * You can restrict the results to a specific [folder](../get-started/permissions.md#folders) using the drop-down list or add rules using the [query modeler](../query/query-modeler-overview.md).
 
-![](assets/lp-inventory-filter.png){zoomable="yes"} [Screenshot showing the filter options in the landing pages inventory.]
+![Screenshot showing the filter options in the landing pages inventory.](assets/lp-inventory-filter.png){zoomable="yes"}
 
 <!--From this list, you can access the [landing page Live report](../reports/lp-report-live.md) or [landing page Global report](../reports/lp-report-global.md) for published items.-->
 
@@ -79,7 +79,7 @@ To create a landing page, follow these steps:
 
 1. From the **[!UICONTROL Landing pages]** inventory, click **[!UICONTROL Create landing page]**.
 
-    ![](assets/lp-create-button.png){zoomable="yes"} [Screenshot showing the Create landing page button.]
+    ![Screenshot showing the Create landing page button.](assets/lp-create-button.png){zoomable="yes"}
 
 1. Select a template:
     * **[!UICONTROL Acquisition]**: This is the default template for landing pages, which allows you to capture and update profile data.
@@ -87,7 +87,7 @@ To create a landing page, follow these steps:
     * **[!UICONTROL Unsubscription]**: This template can be used in a delivery sent to the subscribers of a service to allow them to unsubscribe from this [service](../audience/manage-services.md).
     * **[!UICONTROL Denylist]**: This template should be used when a profile clicks on an opt-out link in a delivery and no longer wants to be contacted.
 
-    ![](assets/lp-templates.png){zoomable="yes"} [Screenshot showing the landing page templates.]
+    ![Screenshot showing the landing page templates.](assets/lp-templates.png){zoomable="yes"}
 
     >[!NOTE]
     >
@@ -101,7 +101,7 @@ To create a landing page, follow these steps:
     
     You can also set up the captcha to secure your landing page. [Learn more here](#captcha).
 
-    ![](assets/lp-properties.png){zoomable="yes"} [Screenshot showing the landing page properties section.]
+    ![Screenshot showing the landing page properties section.](assets/lp-properties.png){zoomable="yes"} 
 
 1. In the **[!UICONTROL Data preload]** section, the following options are available:
 
@@ -121,13 +121,13 @@ To create a landing page, follow these steps:
 
 1. A landing page can have subsequent pages. To add pages, browse the **[!UICONTROL Pages]** section, and click the **[!UICONTROL Edit content]** button for each page that you want to design for this landing page. The content of each page is already pre-filled. Edit them as needed. [Learn more](lp-content.md).
 
-    ![](assets/lp-pages.png){zoomable="yes"} [Screenshot showing the pages section of the landing page editor.]
+    ![Screenshot showing the pages section of the landing page editor.](assets/lp-pages.png){zoomable="yes"}
 
 1. In the **[!UICONTROL Storage]** section, the **[!UICONTROL Update the preloaded record]** option is selected by default. It enables updating the profiles stored in the database via the landing page. The preloading box lets you indicate how to find the record to be updated in the database. 
     
     You can also choose from the fields in the current context of the landing page, those that will be used to find the corresponding profile in the database. To do so, unselect the **[!UICONTROL Update the preloaded record]** option and check the desired fields under **[!UICONTROL Reconciliation options]**.
 
-    ![](assets/lp-storage.png){zoomable="yes"} [Screenshot showing the storage options for the landing page.]
+    ![Screenshot showing the storage options for the landing page.](assets/lp-storage.png){zoomable="yes"}
 
 1. Create **[!UICONTROL Additional data]** to store internal data when the landing page is being submitted. This data is not visible to users who visit the page. Only constant values are taken into account.
 
@@ -135,11 +135,11 @@ To create a landing page, follow these steps:
     >
     >This capability is in Limited Availability (LA). It is restricted to customers migrating **from Adobe Campaign Standard to Adobe Campaign v8**, and cannot be deployed on any other environment.
 
-    ![](assets/lp-additional-data.png){zoomable="yes"} [Screenshot showing the additional data section.]
+    ![Screenshot showing the additional data section.](assets/lp-additional-data.png){zoomable="yes"}
 
 1. You can define a start date and an end date for your landing page. Select **[!UICONTROL Enable scheduling]** and set the dates.
 
-    ![](assets/lp-schedule.png){zoomable="yes"} [Screenshot showing the scheduling options for the landing page.]
+    ![Screenshot showing the scheduling options for the landing page.](assets/lp-schedule.png){zoomable="yes"} 
 
     * The landing page is automatically published on the specified start date/time.
 
@@ -157,6 +157,86 @@ To create a landing page, follow these steps:
 
 Once you define all the settings and [design](lp-content.md) all the pages, you can [test](#test-landing-page) and [publish](#publish-landing-page) your landing page as detailed below.
 
----
+## Secure your landing page with a captcha {#captcha}
 
-The rest of the content has been similarly formatted and clarified. Let me know if you need further assistance!
+>[!AVAILABILITY]
+>
+>This capability is in Limited Availability (LA). It is restricted to customers using **Adobe Campaign v8.7.2 upgraded with the last fix version**, and cannot be deployed on any other environment.
+
+Setting up a captcha helps you to protect your landing page from spam and abuse.
+
+To use it, go to the **[!UICONTROL Properties]** of your landing page.
+In the **[!UICONTROL Additional options]** also. Activate the **[!UICONTROL Additional Enable captcha solution]** toggle.
+
+![Screenshot showing the Additional Enable captcha solution toggle](assets/lp-properties-captcha.png){zoomable="yes"}
+
+To check the captcha settings, click on **[!UICONTROL Review and publish]** button, and **[!UICONTROL Simulate content]**. When submitting the form, you see the captcha widget working during validation as below.
+
+![Screenshot of the captcha widget](assets/lp-captcha.png){zoomable="yes"}
+
+>[!NOTE]
+>
+>The captcha widget in Adobe Campaign v8 is ALTCHA operating in floating mode. It appears during validation and disappears once the process is complete.
+    
+
+## Test the landing page {#test-landing-page}
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_simulate"
+>title="Simulate your landing page"
+>abstract="You can see a preview of your landing page in the Campaign Web user interface or open it in a new web browser tab."
+
+>[!CONTEXTUALHELP]
+>id="ac_preview_lp_profiles"
+>title="Preview and test your landing page"
+>abstract="Once you defined your landing page settings and content, you can use test profiles to preview it."
+
+Once your landing page settings and content have been defined, you can use test profiles to preview it. If you inserted [personalized content](../personalization/gs-personalization.md), you will be able to check how this content is displayed in the landing page, using test profile data.
+
+>[!CAUTION]
+>
+>You must have test profiles available to be able to preview your messages and send proofs. [Learn more on test profiles](../audience/test-profiles.md)
+
+To test your landing page, follow these steps:
+
+1. After you click **[!UICONTROL Review and publish]**, select the **[!UICONTROL Simulate content]** button from the landing page dashboard to access the test profile selection.
+
+    ![Screenshot of the Simulate content button](assets/lp-simulate-content.png){zoomable="yes"}
+
+1. From the **[!UICONTROL Simulate]** screen, select one or more test profiles.
+
+    The steps to select test profiles are the same as when testing a message. They are detailed in the [Preview and test](../preview-test/preview-test.md) section.
+
+1. When testing a dynamic landing page (with the **[!UICONTROL Service from URL]** option selected - [learn more](../landing-pages/create-lp.md#define-actions-on-form-submission)
+
+1. Select **[!UICONTROL Open preview]** to test your landing page.
+
+    ![Screenshot of the Open Preview button](assets/lp-open-preview.png){zoomable="yes"}
+
+1. The preview of your landing page opens in a new tab. Personalized elements are replaced by the selected test profile data.
+
+    If you selected the **[!UICONTROL Pre-fill with the data referenced in the form]** option in the landing page settings, the form fields are automatically pre-filled with the corresponding test profile data.<!--TBC-->
+
+    ![Example of a delivery](assets/lp-preview.png){zoomable="yes"}
+
+1. Select other test profiles to preview the rendering for each variant of your landing page.
+
+<!--Can you preview Confirmation/Error/Expiration pages?-->
+
+## Publish the landing page {#publish-landing-page}
+
+Once your landing page is ready and validated, publish it to make it available for use in a delivery using the corresponding button.
+
+Once published:
+
+* The landing page is added to the landing page list with the **[!UICONTROL Published]** status. It is now live and ready to be referenced in your contents.
+
+* You can copy-paste the **[!UICONTROL Landing page URL]** that is displayed on top of the page into a web browser to preview your landing page.
+
+>[!CAUTION]
+>
+>To fully test or leverage your landing page, you cannot copy-paste this link directly into a web browser or into your deliveries. Instead, use the [Simulate content](#test-landing-page) function to test it, and follow the steps described in [this section](lp-use-cases.md) to make proper use of your landing page.
+
+![Screenshot showing the Landing Page URL](assets/lp-published.png){zoomable="yes"}
+
+You can monitor your landing page impacts through logs<!--and specific reports-->. Click the **[!UICONTROL Logs]** button.

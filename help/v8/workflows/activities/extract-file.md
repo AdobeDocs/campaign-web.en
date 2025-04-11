@@ -24,7 +24,7 @@ To configure the **Extract file** activity, add an **Extract file** activity int
 
 The **[!UICONTROL File to extract]** section allows you to configure the file properties and the data to include. 
 
-![](../assets/extract-file-file.png) [Screenshot showing the configuration options for the file to extract.]
+![Screenshot showing the configuration options for the file to extract.](../assets/extract-file-file.png) 
 
 1. In the **[!UICONTROL File name]** field, enter the desired name for the file to extract.
 
@@ -69,7 +69,7 @@ The **[!UICONTROL Destination]** format section allows you to configure how the 
 
     +++
     
-    ![](../assets/extract-file-format.png) [Screenshot showing the configuration options for the extracted file format.]
+    ![Screenshot showing the configuration options for the file to extract.](../assets/extract-file-format.png) 
 
 ## Add a post-processing stage {#script}
 
@@ -82,7 +82,7 @@ The **[!UICONTROL Export modification script]** allows you to apply a processing
 
 The expression editor opens, allowing you to enter the command to apply to the file. The left-hand side pane provides predefined syntaxes that you can leverage to build your script. [Learn how to work with event variables and the expression editor](../event-variables.md).
 
-![](../assets/extract-file-script.png) [Screenshot showing the script editor for post-processing.]
+![Screenshot showing the script editor for post-processing.](../assets/extract-file-script.png) 
 
 ## Additional options {#additiona-options}
 
@@ -106,12 +106,12 @@ Once the output file extraction has been configured, additional options related 
 
 In the following example, a **Build audience** activity is followed by an **Extract file** activity to extract all the targeted profiles into a CSV file.
 
-![](../assets/extract-file-example.png) [Screenshot showing an example workflow with a Build audience activity followed by an Extract file activity.]
+![Screenshot showing an example workflow with a Build audience activity followed by an Extract file activity.](../assets/extract-file-example.png) 
 
 * The **[!UICONTROL File name]** field is configured to include the date of the extraction.
 
-    ![](../assets/extract-file-example-name.png) [Screenshot showing the configuration of the file name with the date included.]
+    ![Screenshot showing the configuration of the file name with the date included.](../assets/extract-file-example-name.png) 
 
 * Columns are added to display the profiles' first and last names, their customer IDs, and creation dates in the database.
 
-    ![](../assets/extract-file-example-columns.png) [Screenshot showing the configuration of columns in the extracted file.]
+    ![Screenshot showing the configuration of columns in the extracted file.](../assets/extract-file-example-columns.png) 

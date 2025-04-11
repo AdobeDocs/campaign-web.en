@@ -69,8 +69,7 @@ Follow these steps to configure the **Incremental query** activity:
 
 The following example shows the configuration of a workflow that filters profiles in the Adobe Campaign database every week. It targets individuals subscribed to the Yoga Newsletter service and sends them a welcome email.
 
-[Description: Screenshot showing an example workflow configuration for filtering profiles subscribed to the Yoga Newsletter service.]  
-![](../assets/incremental-query-example.png)
+![Screenshot of an example workflow configuration for filtering profiles subscribed to the Yoga Newsletter service.](../assets/incremental-query-example.png)
 
 The workflow includes the following elements:
 

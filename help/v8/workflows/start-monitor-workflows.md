@@ -16,7 +16,7 @@ Once the workflow is running, each activity in the canvas executes sequentially 
 
 You can track the progress of targeted profiles in real time using a visual flow. This allows you to quickly identify the status of each activity and the number of profiles transitioning between them.
 
-![](assets/workflow-execution.png){zoomable="yes"} [Visual representation of workflow execution in progress.]
+![Visual representation of workflow execution in progress.](assets/workflow-execution.png){zoomable="yes"}
 
 ## Workflow transitions {#transitions}
 
@@ -25,7 +25,7 @@ In workflows, data transported from one activity to another through transitions 
 * Click **[!UICONTROL Preview schema]** to display the schema of the work table.
 * Click **[!UICONTROL Preview results]** to view the data transported in the selected transition.
 
-![](assets/transition.png){zoomable="yes"} [Example of transition properties and data preview.]
+![Example of transition properties and data preview.](assets/transition.png){zoomable="yes"}
 
 ## Monitor activity execution {#activities}
 
@@ -44,7 +44,7 @@ Monitoring workflow logs and tasks is a key step to analyze your workflows and e
 
 The **[!UICONTROL Logs and tasks]** menu provides a history of the workflow execution, recording all user actions and encountered errors. This history is saved for the duration specified in the workflow [execution options](workflow-settings.md). During this duration, all messages are saved, even after a workflow restart. If you do not want to save messages from a previous execution, click the **[!UICONTROL Purge history]** button.
 
-![](assets/workflow-logs.png){zoomable="yes"} [Example of workflow logs and tasks interface.]
+![Example of workflow logs and tasks interface.](assets/workflow-logs.png){zoomable="yes"}
 
 Two types of information are available:
 

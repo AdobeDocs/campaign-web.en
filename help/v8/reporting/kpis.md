@@ -23,7 +23,7 @@ Metrics are calculated for deliveries sent over the previous seven days by defau
 
 You can select the channel to display. By default, these indicators reflect metrics for the email channel.
 
-![](assets/kpi.png){zoomable="yes"} [Screenshot showing the KPI card with metrics for the email channel.]
+![Screenshot showing the KPI card with metrics for the email channel.](assets/kpi.png){zoomable="yes"} 
 
 ## Message delivered {#ui-delivered-kpi} 
 

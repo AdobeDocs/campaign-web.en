@@ -20,23 +20,23 @@ The integration of the Adobe Campaign Web interface with Adobe Experience Manage
 
 1. Click **[!UICONTROL Create]**, and select **[!UICONTROL Page]** from the dropdown menu.
 
-    ![](assets/aem_1.png)[Screenshot showing the "Create" button and "Page" option in the dropdown menu.]
+    ![Screenshot showing the "Create" button and "Page" option in the dropdown menu.](assets/aem_1.png)
 
 1. Select the **[!UICONTROL Adobe Campaign Email]** template, and name your newsletter.
 
-    ![](assets/aem_2.png)[Screenshot showing the "Adobe Campaign Email" template selection and naming field.]
+    ![[Screenshot showing the "Adobe Campaign Email" template selection and naming field.]](assets/aem_2.png)
 
 1. Customize your email content by adding components, such as personalization fields from Adobe Campaign. [Learn more](https://experienceleague.adobe.com/docs/experience-manager-65/content/sites/authoring/aem-adobe-campaign/campaign.html?lang=en#editing-email-content)
 
 1. Once your email is ready, navigate to the **[!UICONTROL Page information]** menu, and click **[!UICONTROL Start workflow]**.
 
-    ![](assets/aem_3.png)[Screenshot showing the "Page information" menu and "Start workflow" option.]
+    ![Screenshot showing the "Page information" menu and "Start workflow" option.](assets/aem_3.png)
 
 1. From the first dropdown, select **[!UICONTROL Approve Adobe Campaign]** as the workflow model, and click **[!UICONTROL Start workflow]**.
 
 1. A disclaimer will appear at the top of your page stating, `This page is subject to the workflow Approve for Adobe Campaign`. Click **[!UICONTROL Complete]** next to the disclaimer to confirm the review, and click **[!UICONTROL Ok]**.
 
-    ![](assets/aem_4.png)[Screenshot showing the disclaimer and "Complete" button.]
+    ![Screenshot showing the disclaimer and "Complete" button.](assets/aem_4.png)
 
 1. Click **[!UICONTROL Complete]** again, and select **[!UICONTROL Newsletter approval]** in the **[!UICONTROL Next Step]** dropdown.
 
@@ -50,7 +50,7 @@ Once the Experience Manager template is available in Adobe Campaign Web as a con
 
 1. In the email template window, select the built-in **[!UICONTROL Email delivery with AEM content]** template.
 
-    ![](assets/aem_5.png)[Screenshot showing the "Email delivery with AEM content" template selection.]
+    ![Screenshot showing the "Email delivery with AEM content" template selection.](assets/aem_5.png)
 
 1. Enter a **[!UICONTROL Label]** for the delivery, and configure additional options based on your needs:
 
@@ -66,17 +66,17 @@ Once the Experience Manager template is available in Adobe Campaign Web as a con
 
 1. From the **[!UICONTROL Edit content]** menu, click **[!UICONTROL Select AEM content]**.
 
-    ![](assets/aem_6.png)[Screenshot showing the "Select AEM content" option in the "Edit content" menu.]
+    ![Screenshot showing the "Select AEM content" option in the "Edit content" menu.](assets/aem_6.png)
 
 1. Browse through your AEM template, and select the one to import to Campaign Web.
 
-    ![](assets/aem_8.png)[Screenshot showing the AEM template selection interface.]
+    ![Screenshot showing the AEM template selection interface.](assets/aem_8.png)
 
 1. Note that content is not automatically synchronized. If changes are made to your templates directly in Adobe Experience Manager, select **[!UICONTROL Refresh AEM content]** to update to the latest version of your template.
 
 1. To remove linkage between Experience Manager and Campaign, or to further personalize your Experience Manager template in the Email designer, click **[!UICONTROL Unlink AEM content]**.
 
-    ![](assets/aem_9.png)[Screenshot showing the "Unlink AEM content" option.]
+    ![Screenshot showing the "Unlink AEM content" option.](assets/aem_9.png)
 
 1. If you added personalized content to your Experience Manager template, click **[!UICONTROL Simulate Content]** to preview how it will appear in the message using test profiles.
 
