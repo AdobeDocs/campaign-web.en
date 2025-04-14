@@ -6,9 +6,9 @@ exl-id: 84142fbe-fd8a-4329-88a5-cf7a8f4e8b8f
 ---
 # Scheduler {#scheduler}
 
->[!CONTEXTUALHELP]  
->id="acw_orchestration_scheduler"  
->title="Scheduler activity"  
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_scheduler"
+>title="Scheduler activity"
 >abstract="The **Scheduler** activity allows you to schedule when the workflow gets started. This activity should be considered as a scheduled start. It can only be used as the first activity of the workflow."
 
 The **Scheduler** activity is a **Flow control** activity. It allows you to schedule when the workflow gets started. This activity should be considered as a scheduled start. It can only be used as the first activity of the workflow.
@@ -21,14 +21,14 @@ The **Scheduler** activity is a **Flow control** activity. It allows you to sche
 
 ## Configure the Scheduler activity {#scheduler-configuration}
 
->[!CONTEXTUALHELP]  
->id="acw_orchestration_schedule_validity"  
->title="Scheduler validity"  
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_schedule_validity"
+>title="Scheduler validity"
 >abstract="You can define a validity period for the scheduler. It can be permanent (default), or can be valid until a specific date."
 
->[!CONTEXTUALHELP]  
->id="acw_orchestration_schedule_options"  
->title="Scheduler options"  
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_schedule_options"
+>title="Scheduler options"
 >abstract="Define the frequency of the scheduler. It can be executed at a specific moment, once or several times a day, week or month."
 
 Follow these steps to configure the **Scheduler** activity:
