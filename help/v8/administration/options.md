@@ -5,15 +5,15 @@ exl-id: 44f90e34-e72e-4506-90d5-06ab68242d34
 ---
 # Configure [!DNL Campaign] options {#options}
 
->[!CONTEXTUALHELP]  
->id="acw_options_list"  
->title="Options"  
->abstract="Options"  
+>[!CONTEXTUALHELP]
+>id="acw_options_list"
+>title="Options"
+>abstract="Options"
 
->[!CONTEXTUALHELP]  
->id="acw_options_create"  
->title="Create option"  
->abstract="Create option"  
+>[!CONTEXTUALHELP]
+>id="acw_options_create"
+>title="Create option"
+>abstract="Create option"
 
 Adobe Campaign Web includes technical options that allow you to configure the application more specifically. Some of these options are built-in, while others can be added manually as needed.
 

@@ -5,9 +5,9 @@ exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
 ---
 # Targeting dimensions {#targeting-dimensions}
 
->[!CONTEXTUALHELP]  
->id="acw_orchestration_build_audience_dimension"  
->title="Select the targeting dimension"  
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_build_audience_dimension"
+>title="Select the targeting dimension"
 >abstract="The targeting dimension lets you define the population targeted by the operation: recipients, contract beneficiaries, operator, subscribers, and more. By default, for emails and SMS, the target is selected from the Recipients built-in table. For Push notifications, the default target dimension is Subscriber applications."
 
 The targeting dimension, also known as target mapping, is the type of data that an operation handles. It defines the targeted population, such as profiles, contract beneficiaries, operators, or subscribers.
