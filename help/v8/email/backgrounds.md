@@ -6,10 +6,10 @@ exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
 ---
 # Personalize your email background {#backgrounds}
 
->[!CONTEXTUALHELP]  
->id="ac_edition_backgroundimage"  
->title="Background settings"  
->abstract="You can personalize the background color or background image for your content. Note that background image is not supported by all email clients."  
+>[!CONTEXTUALHELP]
+>id="ac_edition_backgroundimage"
+>title="Background settings"
+>abstract="You can personalize the background color or background image for your content. Note that background image is not supported by all email clients."
 
 When setting backgrounds with the Email Designer, Adobe recommends the following:
 

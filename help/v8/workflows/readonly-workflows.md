@@ -6,9 +6,9 @@ exl-id: 5eaffe2c-7a9c-4508-8dd1-495cfcf99c59
 ---
 # About read-only workflows {#readonly-workflows}
 
->[!CONTEXTUALHELP]  
->id="acw_wf_read_only_canvas"  
->title="This workflow is read only"  
+>[!CONTEXTUALHELP]
+>id="acw_wf_read_only_canvas"
+>title="This workflow is read only"
 >abstract="You cannot edit this workflow due to your rights or the type of the workflow."
 
 Some workflows are read-only. Built-in technical workflows are always read-only, but this restriction can also apply to other types of workflows.

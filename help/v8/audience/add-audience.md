@@ -6,9 +6,9 @@ exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 ---
 # Select an existing audience {#add-audience}
 
->[!CONTEXTUALHELP]  
->id="acw_deliveries_email_audience_select"  
->title="Select an existing audience"  
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_audience_select"
+>title="Select an existing audience"
 >abstract="Browse the list to select an existing audience. Use the 'Show filters' icon to filter the list, or select a specific folder."
 
 This section explains how to select an existing audience when defining the target population of a delivery. When defining the main target of a delivery, you can also:  
