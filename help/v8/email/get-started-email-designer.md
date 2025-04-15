@@ -25,7 +25,9 @@ The Email Designer allows you to create email content and email content template
 
 When sending emails, consider that recipients may forward them, which can sometimes cause issues with the email's rendering. This is particularly true when using CSS classes that may not be supported by the email provider used for forwarding. For example, if you use the "is-desktop-hidden" CSS class to hide an image on mobile devices, it may not render correctly.
 
-To minimize these rendering issues, keep your email design structure as simple as possible. Use a single design that works well for both desktop and mobile devices, and avoid using complex CSS classes or other design elements that may not be fully supported by all email clients. By following these best practices, you help ensure that your emails render consistently, regardless of how they are viewed or forwarded by recipients.
+To minimize these rendering issues, we recommend keeping your email design structure as simple as possible. Try to use a single design that works well for both desktop and mobile devices, and avoid using complex CSS classes or other design elements that may not be fully supported by all email clients. When using images in your emails, avoid images that are larger than 2 MB or use encoded image links.
+
+By following these best practices, you can help ensure that your emails are consistently rendered correctly, regardless of how they are viewed or forwarded by recipients.
 
 ## Start authoring your content {#start-authoring}
 
