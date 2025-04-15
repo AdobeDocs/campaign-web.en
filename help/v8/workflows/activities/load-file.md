@@ -9,7 +9,7 @@ exl-id: 230177e2-1926-451a-8a66-0db962ada514
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile"
 >title="Load file activity"
->abstract="The **Load file** activity is a **Data management** activity. Use this activity to work with data stored in an external file. Profiles and data are not added to the database, but all fields in the input file are available for personalization, or to update profiles, or any other table. "
+>abstract="The **Load file** activity is a **Data management** activity. Use this activity to work with data stored in an external file. Profiles and data are not added to the database, but all fields in the input file are available for personalization, or to update profiles, or any other table."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_outboundtransition"
@@ -21,19 +21,18 @@ exl-id: 230177e2-1926-451a-8a66-0db962ada514
 >title="Reject management outbound transition for rejects"
 >abstract="Reject management outbound transition for rejects"
 
-
-The **Load file** activity is a **Data management** activity. Use this activity to work with profiles and data stored in an external file. Profiles and data are not added to the database, but all fields in the input file are available for [personalization](../../personalization/gs-personalization.md), or to update profiles, or any other table. 
+The **Load file** activity is a **Data management** activity. Use this activity to work with profiles and data stored in an external file. Profiles and data are not added to the database, but all fields in the input file are available for [personalization](../../personalization/gs-personalization.md), or to update profiles, or any other table.
 
 >[!NOTE]
 >Supported file formats are: text (TXT) and comma-separated value (CSV). You can load files with a maximum size of 50MB.
 
-This activity can be used with a [Reconciliation](reconciliation.md) activity to link unidentified data to existing resources. For example, the **Load file** activity can be placed before a **Reconciliation** activity if you import non-standard data into the database. 
+This activity can be used with a [Reconciliation](reconciliation.md) activity to link unidentified data to existing resources. For example, the **Load file** activity can be placed before a **Reconciliation** activity if you import non-standard data into the database.
 
 ## Configure the Load file activity {#load-configuration}
 
-The **Load file** activity configuration involves two steps. First, you need to define the expected file structure by uploading a sample file. Once this is done, you can specify the origin of the file whose data will be imported. Follow the steps below to configure the activity.
+The **Load file** activity configuration involves two steps. First, define the expected file structure by uploading a sample file. Once this is done, specify the origin of the file whose data will be imported. Follow the steps below to configure the activity.
 
-![](../assets/workflow-load-file.png)
+![Workflow Load File Activity Configuration Screenshot](../assets/workflow-load-file.png)
 
 ### Configure the sample file {#sample}
 
@@ -50,7 +49,7 @@ The **Load file** activity configuration involves two steps. First, you need to 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_valueremapping"
 >title="Value remapping for Load File activity"
->abstract="Use this option to map specific values from the loaded files with new values. For example, if the column contains "True"/"False" values, you can add a mapping to automatically replace those values with "0"/"1" characters."
+>abstract="Use this option to map specific values from the loaded files with new values. For example, if the column contains 'True'/'False' values, you can add a mapping to automatically replace those values with '0'/'1' characters."
 
 Follow these steps to configure the sample file used to define the expected file structure:
 
@@ -60,13 +59,13 @@ Follow these steps to configure the sample file used to define the expected file
 
     >[!NOTE]
     >
-    >The data of the sample file is used for configuring the activity but is not imported. We recommend using a sample file containing little data. The file format must be aligned with this [sample file](../../audience/file-audience.md#sample-file).
+    >The data of the sample file is used for configuring the activity but is not imported. Use a sample file containing little data. The file format must be aligned with this [sample file](../../audience/file-audience.md#sample-file).
 
 1. A preview of the sample file is shown, displaying a maximum of 30 lines.
 
-1. In the **[!UICONTROL File type]** drop-down list, specify if the file is using delimited columns or fixed width columns.
+1. In the **[!UICONTROL File type]** drop-down list, specify if the file is using delimited columns or fixed-width columns.
 
-    ![](../assets/workflow-load-file-sample.png)
+    ![Sample File Configuration Screenshot](../assets/workflow-load-file-sample.png)
 
 1. For delimited columns file types, use the **Columns** section to configure the properties of each column.
 
@@ -77,9 +76,9 @@ Follow these steps to configure the sample file used to define the expected file
     * **[!UICONTROL Width]** (string data type): Maximum number of characters to display in the column.
     * **[!UICONTROL Data Transformation]** (string data type): Apply transformation to the values contained in the column.
     * **[!UICONTROL White space management]** (string data type): Specify how to manage spaces contained in the column.
-    * **[!UICONTROL Separators]** (date, time, integer and number data types)*: Specify the characters to use as separators.
+    * **[!UICONTROL Separators]** (date, time, integer, and number data types): Specify the characters to use as separators.
     * **[!UICONTROL Allow NULLs]**: Specify how to manage empty values in the column. The "Adobe Campaign default" option will throw an error if an empty value is present.
-    * **[!UICONTROL Error processing]** (string data type): Specify the behaviour in case of errors in one of the lines.
+    * **[!UICONTROL Error processing]** (string data type): Specify the behavior in case of errors in one of the lines.
     * **[!UICONTROL Value remapping]**: This option allows you to map specific values with new ones. For example, if the column contains "True"/"False" values, you can add a mapping to automatically replace those values with "0"/"1" characters.
 
     +++
@@ -101,12 +100,12 @@ Follow these steps to configure the sample file used to define the expected file
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_targetdb"
 >title="Target database"
->abstract="If you are accessing a **[!UICONTROL Load file]** activity that has already been setup in the client console, an additional **[!UICONTROL Target database]** section is available if you have configured the activity to upload the file to an external database."
+>abstract="If you are accessing a **[!UICONTROL Load file]** activity that has already been set up in the client console, an additional **[!UICONTROL Target database]** section is available if you have configured the activity to upload the file to an external database."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_command"
 >title="Load File Command"
->abstract="Allowing arbitrary command for pre-processing is a security concern, disable security option XtkSecurity_Disable_Preproc to force the use of a predefined list of commands."
+>abstract="Allowing arbitrary command for pre-processing is a security concern. Disable security option XtkSecurity_Disable_Preproc to force the use of a predefined list of commands."
 
 >[!CAUTION]
 >
@@ -124,11 +123,11 @@ To define the target file to upload, follow these steps:
 
     * **[!UICONTROL Calculated]**: Upload the file whose name is specified in the **[!UICONTROL File name]** field. Click the **[!UICONTROL Open personalization dialog]** icon to leverage the expression editor, including event variables, to calculate the file name.
 
-    ![](../assets/workflow-load-file-config.png)
+    ![Target File Configuration Screenshot](../assets/workflow-load-file-config.png)
 
     >[!NOTE]
     >
-    >If you are accessing a **[!UICONTROL Load file]** activity that has already been setup in the client console, an additional **[!UICONTROL Target database]** section displays if you have configured the activity to upload the file to an external database. It allows you to specify if you want to upload the file on the Campaign server or on the external database.
+    >If you are accessing a **[!UICONTROL Load file]** activity that has already been set up in the client console, an additional **[!UICONTROL Target database]** section displays if you have configured the activity to upload the file to an external database. It allows you to specify if you want to upload the file on the Campaign server or on the external database.
 
 ### Additional options {#options}
 
@@ -142,18 +141,17 @@ To define the target file to upload, follow these steps:
 >title="Delete file after import"
 >abstract="Toggle the **Delete file after import** to delete the original file from the server after the file is imported."
 
-
 1. In the **Reject management** section, specify how the activity should behave in case of errors:
 
-    * In the **[!UICONTROL Number of errors allowed]** field, specify the maximum number of errors that are authorized when processing the file to load. For example, if the value is set to "20", the workflow execution will fail if there are more than 20 errors when loading the file. 
+    * In the **[!UICONTROL Number of errors allowed]** field, specify the maximum number of errors that are authorized when processing the file to load. For example, if the value is set to "20," the workflow execution will fail if there are more than 20 errors when loading the file.
 
     * To keep the errors that occurred when loading the file, toggle the **[!UICONTROL Keep rejects in a file]** option on and specify the desired name for the file in the **[!UICONTROL Rejection File]** field. 
     
-      After activating this option, an additional output transition named "Complement" is added after the activity. Any error that will occur during the import will be stored in the specified file on the server.
+      After activating this option, an additional output transition named "Complement" is added after the activity. Any error that occurs during the import will be stored in the specified file on the server.
 
 1. To delete the uploaded file from the server after the workflow has been executed, toggle the **[!UICONTROL Delete file after import]** option.
 
-    ![](../assets/workflow-load-file-options.png)
+    ![Additional Options Configuration Screenshot](../assets/workflow-load-file-options.png)
 
 1. Click **Confirm** once settings are correct.
 

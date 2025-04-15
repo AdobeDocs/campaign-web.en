@@ -7,11 +7,11 @@ exl-id: ead51ef0-f7ba-4bc4-8d4a-f6a6d1df6a0f
 
 >[!NOTE]
 >
->Before starting using this capability, read out related [Guardrails and Limitations](generative-gs.md#generative-guardrails).
+>Before starting to use this capability, read the related [Guardrails and Limitations](generative-gs.md#generative-guardrails).
 
 ## Use existing content
 
-![](assets/do-not-localize/gen-ai-reuse-text.gif)
+![Demonstration of reusing existing content with AI Assistant](assets/do-not-localize/gen-ai-reuse-text.gif)
 
 1. After setting up your delivery, select **[!UICONTROL Edit content]**.
 
@@ -19,31 +19,31 @@ exl-id: ead51ef0-f7ba-4bc4-8d4a-f6a6d1df6a0f
 
 1. Turn on the **[!UICONTROL Use original content]** feature within the AI Assistant to tailor new content according to your delivery details, including the delivery name and targeted audience.
 
-1. Adjust the content by specifying your request in the **[!UICONTROL Prompt]** box and customize the settings as necessary.
+1. Adjust the content by specifying your request in the **[!UICONTROL Prompt]** box, and customize the settings as necessary.
 
-1. When you are satisfied with the prompt, click **[!UICONTROL Generate]**.
+1. When satisfied with the prompt, click **[!UICONTROL Generate]**.
 
 1. Explore the available **[!UICONTROL Variations]** and click **[!UICONTROL Preview]** to see the selected variation in full screen.
 
-When you have defined your content, audience and schedule, you are ready to prepare your delivery. 
+Once you define your content, audience, and schedule, prepare your delivery.
 
 ## Refine variation
 
-![](assets/do-not-localize/gen-ai-variation.gif)
+![Demonstration of refining content variations with AI Assistant](assets/do-not-localize/gen-ai-variation.gif)
 
 1. Once your delivery is set up and configured, click **[!UICONTROL Edit content]**.
 
 1. Open the **[!UICONTROL AI Assistant]** menu.
 
-1. Adjust the content by entering your desired request in the **[!UICONTROL Prompt]** box and modify the settings as necessary.
+1. Adjust the content by entering your desired request in the **[!UICONTROL Prompt]** box, and modify the settings as necessary.
 
-1. When you are ready, click **[!UICONTROL Generate]**.
+1. When ready, click **[!UICONTROL Generate]**.
 
 1. Review the generated **[!UICONTROL Variations]** and select **[!UICONTROL Preview]** to see a full-screen view of the chosen option.
 
 1. In the **[!UICONTROL Preview]** window, go to the **[!UICONTROL Refine]** option for further customization, including:
 
-    * **[!UICONTROL Use as reference content]**: The selected variation will act as a reference to generate more content.
+    * **[!UICONTROL Use as reference content]**: The selected variation acts as a reference to generate more content.
 
     * **[!UICONTROL Elaborate]**: Let the AI Assistant expand on certain points, offering more depth and detail for better engagement.
 
@@ -53,33 +53,33 @@ When you have defined your content, audience and schedule, you are ready to prep
 
     * **[!UICONTROL Use simpler language]**: Simplify the language with the AI Assistant to ensure the message is clear and accessible to all readers.
 
-    Additionally, you can adjust the **[!UICONTROL Tone]** and **[!UICONTROL Communication strategy]** of your content.
+    Additionally, adjust the **[!UICONTROL Tone]** and **[!UICONTROL Communication strategy]** of your content.
 
-1. When you have found the right content, click **[!UICONTROL Select]**.
+1. Once your content is ready, click **[!UICONTROL Select]**.
 
-## Generate Similar image
+## Generate similar image
 
-![](assets/do-not-localize/uc-image-similar.gif)
+![Demonstration of generating similar images with AI Assistant](assets/do-not-localize/uc-image-similar.gif)
 
 1. After setting up your delivery, select **[!UICONTROL Edit content]**.
 
 1. Open the **[!UICONTROL AI Assistant]** section.
 
-1. Adjust the content by specifying your request in the **[!UICONTROL Prompt]** box and customize the settings as necessary.
+1. Adjust the content by specifying your request in the **[!UICONTROL Prompt]** box, and customize the settings as necessary.
 
-1. When you are satisfied with the prompt, click **[!UICONTROL Generate]**.
+1. When satisfied with the prompt, click **[!UICONTROL Generate]**.
 
-1. Browse the **[!UICONTROL Variation suggestions]** to find the desired Asset.
+1. Browse the **[!UICONTROL Variation suggestions]** to find the desired asset.
 
     Click **[!UICONTROL Preview]** to view a full-screen version of the selected variation.
 
-1. Choose **[!UICONTROL Generate Similar]**  to explore image variations that closely resemble the current option, offering alternative designs with a similar theme.
+1. Choose **[!UICONTROL Generate Similar]** to explore image variations that closely resemble the current option, offering alternative designs with a similar theme.
 
-1. Click **[!UICONTROL Select]** once you found the appropriate content.
+1. Click **[!UICONTROL Select]** once you find the appropriate content.
 
 ## Upload a style reference
 
-![](assets/do-not-localize/uc-image-reference.gif)
+![Demonstration of uploading a style reference for AI Assistant](assets/do-not-localize/uc-image-reference.gif)
 
 1. After setting up and configuring your delivery, click **[!UICONTROL Edit content]**.
 
@@ -91,12 +91,12 @@ When you have defined your content, audience and schedule, you are ready to prep
 
 1. Click **[!UICONTROL Upload image]** to include an image that adds context to your variation.
 
-1. Refine the content by specifying what you want to generate in the **[!UICONTROL Prompt]** box and adjust the settings as needed.
+1. Refine the content by specifying what you want to generate in the **[!UICONTROL Prompt]** box, and adjust the settings as needed.
 
-1. When you are satisfy with your prompt, click **[!UICONTROL Generate]**.
+1. When satisfied with your prompt, click **[!UICONTROL Generate]**.
 
 1. Review the **[!UICONTROL Variation suggestions]** to locate the asset you prefer.
 
-1. Select **[!UICONTROL Preview]** to see the chosen variation in full-screen.
+1. Select **[!UICONTROL Preview]** to see the chosen variation in full screen.
 
 1. Once you find the suitable content, click **[!UICONTROL Select]**.

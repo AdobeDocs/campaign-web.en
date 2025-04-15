@@ -6,57 +6,55 @@ exl-id: 40dfd1da-e1ec-4161-9be5-f2f10425687d
 ---
 # Monitor transactional messages
 
-After the publishing and the sending of your transactional message, you can have reporting and logs about it.
+After publishing and sending your transactional message, you can access reporting and logs related to it.
 
 ## Transactional message logs {#transactional-logs}
 
-After your message has been published, you can review its execution by clicking on the **[!UICONTROL Logs]** button.
+After your message is published, review its execution by clicking on the **[!UICONTROL Logs]** button.
 
-![](assets/transactional-logs.png){zoomable="yes"}
+![Screenshot showing the Logs button in the transactional message interface.](assets/transactional-logs.png){zoomable="yes"}
 
-This gives you access to detailed logs about the message's publication in **[!UICONTROL logs]** tab. 
+This provides access to detailed logs about the message's publication in the **[!UICONTROL logs]** tab.
 
-![](assets/transactional-logslist.png){zoomable="yes"}
+![Screenshot showing the detailed logs list in the logs tab.](assets/transactional-logslist.png){zoomable="yes"}
 
-Additionally, you can view the list of **[!UICONTROL Proofs]** sent along with their logs, in the corresponding tab.
+Additionally, view the list of **[!UICONTROL Proofs]** sent along with their logs in the corresponding tab.
 
 ## Transactional messages history {#transactional-history}
 
-In the **[!UICONTROL Triggered messages]** section, you can view details about all the transactional messages that have been executed. To access this, navigate to **[!UICONTROL Transactional messages]**. In the **[!UICONTROL History]** tab, you can see the list of executed transactional messages along with their status and additional information.
+In the **[!UICONTROL Triggered messages]** section, view details about all executed transactional messages. To access this, navigate to **[!UICONTROL Transactional messages]**. In the **[!UICONTROL History]** tab, see the list of executed transactional messages along with their status and additional information.
 
-![](assets/transactional-history.png){zoomable="yes"}
+![Screenshot showing the history tab with a list of executed transactional messages.](assets/transactional-history.png){zoomable="yes"}
 
-Do a research there to find your message and click on it.
-You can view the details there.
+Search for your message and click on it to view its details.
 
-![](assets/transactional-reporting.png){zoomable="yes"}
+![Screenshot showing detailed reporting for a selected transactional message.](assets/transactional-reporting.png){zoomable="yes"}
 
 ## Event history {#event-history}
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_eventhistory"
 >title="Transactional messaging event history"
->abstract="You can have a view on the events that trigger your transactional message."
+>abstract="You can view the events that trigger your transactional message."
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_eventhistory_preview"
 >title="Transactional messaging event history preview"
->abstract="You can have a view on the events that trigger your transactional message."
+>abstract="You can view the events that trigger your transactional message."
 
-You can also have a view on the events that trigger your transactional message.
-To see them, go on **[!UICONTROL Event history]** section.
+You can view the events that trigger your transactional message. To access them, go to the **[!UICONTROL Event history]** section.
 
-You can see them with the event type name.
+Events are displayed with their event type name.
 
-![](assets/event-history.png){zoomable="yes"}
+![Screenshot showing the event history section with event type names.](assets/event-history.png){zoomable="yes"}
 
-You have more details as below by clicking on the **[!UICONTROL Event]** ID:
+Click on the **[!UICONTROL Event]** ID for more details, including:
 
 * The contact information
-* All about the processus dates
+* Information about the process dates
 
-You can even have a preview on the message sent with the **[!UICONTROL Preview]** button, and see the data received that triggers the message with the **[!UICONTROL View data]** button.
+Preview the message sent using the **[!UICONTROL Preview]** button, and view the data received that triggered the message using the **[!UICONTROL View data]** button.
 
-![](assets/event-details.png){zoomable="yes"}
+![Screenshot showing detailed event information, including preview and view data options.](assets/event-details.png){zoomable="yes"}
 
 The **[!UICONTROL More]** button allows you to delete the event history.

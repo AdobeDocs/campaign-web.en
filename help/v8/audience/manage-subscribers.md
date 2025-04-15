@@ -8,7 +8,7 @@ exl-id: cf72d27e-365c-4edc-b661-a67c148f0eeb
 
 Once you [created a service](manage-services.md#create-service), you can add subscribers, unsubscribe recipients, and send messages to the subscribers of that service.
 
-Subscribers management is detailed in this page. To learn how to send messages to your subscribers, refer to [this section](../msg/send-to-subscribers.md).
+Subscribers management is detailed on this page. To learn how to send messages to your subscribers, refer to [this section](../msg/send-to-subscribers.md).
 
 ## Add subscribers to your service {#add-subscribers}
 
@@ -16,17 +16,17 @@ To manually add subscribers, follow the steps below.
 
 1. Select an existing service from the **[!UICONTROL Subscription services]** list.
 
-1. Go to the **[!UICONTROL Subscribers]** tab and click **[!UICONTROL Add subscribers]**.
+1. Go to the **[!UICONTROL Subscribers]** tab, and click **[!UICONTROL Add subscribers]**.
 
-    ![](assets/service-subscribers-tab.png){zoomable="yes"}
+    ![Screenshot showing the Subscribers tab in the Subscription services interface.](assets/service-subscribers-tab.png){zoomable="yes"}
 
-1. Select the profiles you want to add from the list and click **[!UICONTROL Confirm]**.
+1. Select the profiles you want to add from the list, and click **[!UICONTROL Confirm]**.
 
-    ![](assets/service-subscribers-select-profiles.png){zoomable="yes"}
+    ![Screenshot showing the profile selection interface for adding subscribers.](assets/service-subscribers-select-profiles.png){zoomable="yes"}
 
-1. Click **[!UICONTROL Send]**<!--if you click cancel, does it mean that no message is sent but recipients are still subscribed, or they are not subscribed? it's 2 different actions in the console)--> to have the selected rcipients receive the subscription [confirmation message](manage-services.md#create-confirmation-message) that you defined when [creating the service](manage-services.md#create-service).
+1. Click **[!UICONTROL Send]**<!--if you click cancel, does it mean that no message is sent but recipients are still subscribed, or they are not subscribed? it's 2 different actions in the console)--> to have the selected recipients receive the subscription [confirmation message](manage-services.md#create-confirmation-message) that you defined when [creating the service](manage-services.md#create-service).
 
-    ![](assets/service-subscribers-confirmation-msg.png){zoomable="yes"}
+    ![Screenshot showing the confirmation message interface for adding subscribers.](assets/service-subscribers-confirmation-msg.png){zoomable="yes"}
 
     >[!NOTE]
     >
@@ -42,15 +42,15 @@ Once you [added subscribers](#add-subscribers) to your service, you can manually
 
 1. Select an existing service from the **[!UICONTROL Subscription services]** list.
 
-1. Click the three dots icon next to the desired recipient name and select **[!UICONTROL Delete]**.
+1. Click the three dots icon next to the desired recipient name, and select **[!UICONTROL Delete]**.
 
-    ![](assets/service-subscribers-delete.png){zoomable="yes"}
+    ![Screenshot showing the delete option for unsubscribing profiles.](assets/service-subscribers-delete.png){zoomable="yes"}
 
 1. Confirm deletion.
 
 1. Click **[!UICONTROL Send]** to have the selected recipient receive the unsubscription [confirmation message](manage-services.md#create-confirmation-message) that you defined when [creating the service](manage-services.md#create-service).
 
-    ![](assets/service-subscribers-delete-confirmation.png){zoomable="yes"}
+    ![Screenshot showing the confirmation message interface for unsubscribing profiles.](assets/service-subscribers-delete-confirmation.png){zoomable="yes"}
 
 The recipient is removed from the **[!UICONTROL Subscribers]** tab and is no longer subscribed to your service.
 
@@ -58,8 +58,8 @@ The recipient is removed from the **[!UICONTROL Subscribers]** tab and is no lon
 
 A subscription service can have a limited duration. Profiles are automatically unsubscribed when the period of validity expires.
 
-This period is specified when [creating the service](manage-services.md#create-service). From the **[!UICONTROL Additional options]**, disable the **[!UICONTROL Unlimited validity period]** option and define a validity period for the service.
+This period is specified when [creating the service](manage-services.md#create-service). From the **[!UICONTROL Additional options]**, disable the **[!UICONTROL Unlimited validity period]** option, and define a validity period for the service.
 
-![](assets/service-create-validity-period.png){zoomable="yes"}
+![Screenshot showing the validity period configuration for a subscription service.](assets/service-create-validity-period.png){zoomable="yes"}
 
 After the specified duration expires, all subscribers are automatically unsubscribed from that service.

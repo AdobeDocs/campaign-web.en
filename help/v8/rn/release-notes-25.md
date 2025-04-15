@@ -7,4 +7,4 @@ exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
 ---
 # 2025 release notes {#2025-release}
 
-This page lists all changes and improvements available with **2025 releases**. Latest relese notes are available in [this page](release-notes.md).
+This page lists all changes and improvements available with **2025 releases**. The latest release notes are available on [this page](release-notes.md).

@@ -11,9 +11,9 @@ exl-id: b2677579-c95d-443d-b207-466af364c208
 >title="Preview mode"
 >abstract="Preview and test the message by including the test population to the main target."
 
-Once your message content has been defined, you can preview and test it by sending proofs to test profiles. If you inserted personalized content, you can check how this content is displayed in the message, using test profile data.
+Once your message content is defined, you can preview and test it by sending proofs to test profiles. If you inserted personalized content, you can check how this content is displayed in the message, using test profile data.
 
-To detect possible errors in the message content or personalization settings, send proofs to test profiles before sending it to the target audience. A proof should be sent each time a change is made, to validate the latest content. Sending proofs is an important step in validating your campaign and identifying potential issues. The proof recipients can check various elements such as links, opt-out links, images, or mirror pages, as well as detect any errors in the rendering, content, personalization settings and delivery configuration.
+To detect possible errors in the message content or personalization settings, send proofs to test profiles before sending them to the target audience. A proof should be sent each time a change is made, to validate the latest content. Sending proofs is an important step in validating your campaign and identifying potential issues. The proof recipients can check various elements such as links, opt-out links, images, or mirror pages, as well as detect any errors in the rendering, content, personalization settings, and delivery configuration.
 
 ## Simulate content with test profiles {#simulate-content-test-deliveries}
 
@@ -22,7 +22,7 @@ To detect possible errors in the message content or personalization settings, se
 >title="Test population"
 >abstract="Select a test population mode."
 
-Before sending a proof, make sure you define a target audience for you delivery. [Learn more](../audience/add-audience.md)
+Before sending a proof, make sure you define a target audience for your delivery. [Learn more](../audience/add-audience.md)
 
 To start testing your message content:
 
@@ -30,13 +30,13 @@ To start testing your message content:
 1. Click the **[!UICONTROL Simulate content]** button. 
 1. Click the **[!UICONTROL Send proof]** button to send proofs.
 
-    ![](assets/simulate-test-button-email.png){zoomable="yes"}
+    ![Simulate content button for email testing](assets/simulate-test-button-email.png){zoomable="yes"}
 
 1. Select your proof recipients.
 
     Depending on the message channel, proofs can be sent to the following types of recipients: 
 
-    * For SMS and emails, you can use [test profiles](#test-profiles), which are specific additional recipients in the database. You can also use the [substitution from main target](#substitution-profiles) mode, which sends the proof to an email test address or phone number, and use personalization data of an existing profile. This allows you to experience the message as the recipients would, giving you an accurate representation of the content that the profile will receive.
+    * For SMS and emails, you can use [test profiles](#test-profiles), which are specific additional recipients in the database. You can also use the [substitution from main target](#substitution-profiles) mode, which sends the proof to an email test address or phone number, and uses personalization data of an existing profile. This allows you to experience the message as the recipients would, giving you an accurate representation of the content that the profile will receive.
 
     * For push messages, you can use [subscribers](#subscribers), which are fictitious subscribers added to the database. They are created in the [!DNL Campaign] console. Learn more in [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
@@ -72,23 +72,23 @@ The steps to send proofs to test profiles are detailed below.
 
 1. From the **[!UICONTROL Mode]** drop-down list, choose **[!UICONTROL Test profiles]** to target fictitious recipients that will receive the proof or SMS delivery.
 
-    ![](assets/simulate-profile-mode.png){zoomable="yes"}
+    ![Test profile mode selection](assets/simulate-profile-mode.png){zoomable="yes"}
 
 1. If you have already selected profiles to [preview the message](preview-content.md) in the content simulation screen, those profiles are pre-selected as proofs recipients. You can clear your selection and/or add additional recipients using the **[!UICONTROL Add test profile(s)]** button.
 
-1. When browsing the test profile or profile lists, you can use filters to refine your search. For example, you can define a rule to find all test profiles whith the **[!UICONTROL Prospect]** status. Learn how to add rules using the [query modeler](../query/query-modeler-overview.md).
+1. When browsing the test profile or profile lists, you can use filters to refine your search. For example, you can define a rule to find all test profiles with the **[!UICONTROL Prospect]** status. Learn how to add rules using the [query modeler](../query/query-modeler-overview.md).
 
-    ![](assets/simulate-test-profile-filter.png){zoomable="yes"}
+    ![Filter test profiles](assets/simulate-test-profile-filter.png){zoomable="yes"}
 
 1. To also send the final message to the recipients of the proof, select the **[!UICONTROL Include test population in the main target]** option.
 
-    ![](assets/simulate-include-test.png){zoomable="yes"}
+    ![Include test population option](assets/simulate-include-test.png){zoomable="yes"}
 
 1. Once the test profiles are selected, you can [send the proof](#send-test).
 
 ## Substitute profile data {#substitution-profiles}
 
-Use profile substitution to send proofs to a specific email address or phone number, while displaying data from an existing profile of the [!DNL Adobe Campaign] database. This mode can only be selected if the audience of the delivery has been defined.
+Use profile substitution to send proofs to a specific email address or phone number, while displaying data from an existing profile of the [!DNL Adobe Campaign] database. This mode can only be selected if the audience of the delivery is defined.
 
 To substitute profile data from the main target, follow the steps below:
 
@@ -102,7 +102,7 @@ To substitute profile data from the main target, follow the steps below:
 
 1. Click the **[!UICONTROL Add address]** button and specify the email address or phone number that will receive the proof.
 
-    ![](assets/simulate-add-substitution-address.png){zoomable="yes"}
+    ![Add substitution address](assets/simulate-add-substitution-address.png){zoomable="yes"}
 
     >[!NOTE]
     >
@@ -112,7 +112,7 @@ To substitute profile data from the main target, follow the steps below:
 
 1. Confirm the recipient and repeat the operation to add as many email addresses or phone numbers as needed.
 
-    ![](assets/simulate-profile-substitute.png){zoomable="yes"}
+    ![Substitute profile data](assets/simulate-profile-substitute.png){zoomable="yes"}
 
 1. To also send the final message to the recipients of the proof, select the **[!UICONTROL Include test population in the main target]** option.
 
@@ -120,17 +120,17 @@ To substitute profile data from the main target, follow the steps below:
 
 ## Send proofs to app subscribers {#subscribers}
 
-When designing with push notifications, proofs can be only sent to your app subscribers. To select them, follow the steps below.
+When designing with push notifications, proofs can only be sent to your app subscribers. To select them, follow the steps below.
 
 1. From the content of your push delivery, click the **[!UICONTROL Simulate content]** button, and the **[!UICONTROL Send proof]** button.
 
-    ![](assets/simulate-test-button-push.png){zoomable="yes"}
+    ![Simulate content button for push notifications](assets/simulate-test-button-push.png){zoomable="yes"}
 
 1. If you have already selected subscribers to [preview the delivery](preview-content.md) in the content simulation screen, those profiles are pre-selected as test subscribers.
 
     You can clear your selection and/or add additional subscribers using the dedicated button.
 
-    ![](assets/simulate-test-subscribers.png){zoomable="yes"}
+    ![Add test subscribers](assets/simulate-test-subscribers.png){zoomable="yes"}
 
 1. To also send the final push notification to the test subscribers, select the **[!UICONTROL Include test population in the main target]** option.
 
@@ -144,9 +144,9 @@ To send the proof to the selected recipients, follow the steps below.
 
 1. Confirm the sending.
 
-    ![](assets/simulate-send-test.png){zoomable="yes"}
+    ![Send proof confirmation](assets/simulate-send-test.png){zoomable="yes"}
 
-1. Send as many proofs as necessary until you have finalized the content of your delivery.
+1. Send as many proofs as necessary until you finalize the content of your delivery.
 
 Once done, you can prepare and send your delivery to the main target. Learn how in the dedicated sections below:
 
@@ -156,12 +156,12 @@ Once done, you can prepare and send your delivery to the main target. Learn how 
 
 ## Access sent proofs {#access-test-deliveries}
 
-Once the proofs have been sent, you can access their logs from **[!UICONTROL Simulate content]** screen.
+Once the proofs are sent, you can access their logs from the **[!UICONTROL Simulate content]** screen.
 
-These logs allow you to access all the proofs sent for the selected delivery, and to visualize specific statistics related to their sending. [Learn how to monitor delivery logs](../monitor/delivery-logs.md)
+These logs allow you to access all the proofs sent for the selected delivery and visualize specific statistics related to their sending. [Learn how to monitor delivery logs](../monitor/delivery-logs.md)
 
-![](assets/simulate-test-log.png){zoomable="yes"}
+![Access proof logs](assets/simulate-test-log.png){zoomable="yes"}
 
 You can also access sent proofs from the [delivery list](../msg/gs-messages.md), like any delivery.
 
-![](assets/simulate-deliveries-list.png){zoomable="yes"}
+![Delivery list view](assets/simulate-deliveries-list.png){zoomable="yes"}
