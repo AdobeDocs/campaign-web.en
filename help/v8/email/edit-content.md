@@ -149,17 +149,7 @@ Once languages are set, define the content of the email which will be sent to th
 
 To define an email content, follow these steps:
 
-1. Browse to the **[!UICONTROL Languages]** panel, and click on the three dots in the right side of the language content to configure
-
-1. Select Edit.
-
-
-    ![](assets/edit-content_10.png){zoomable="yes"}
-
-    If you choose to duplicate a language other than the default one, the content duplicated will be based on the language that you chose to duplicate.
-
-
-1. You can also choose any language and edit the content of the email with the [Email Designer](get-started-email-designer.md#start-authoring) by clicking on the **[!UICONTROL Edit email body]** button.
+1. Open the [Email Designer](get-started-email-designer.md#start-authoring) by clicking on the **[!UICONTROL Edit email body]** button.
 
     >[!NOTE]
     >
@@ -174,7 +164,15 @@ To define an email content, follow these steps:
 
     ![](assets/edit-content_5.png){zoomable="yes"}
 
-1. Click the **[!UICONTROL Close]** button to go back to the Content page and click the **[!UICONTROL Save]** button to save all of your changes. You will then be brought back to the **[!UICONTROL Delivery]** page.
+### Duplicate or remove language variants
+
+You can click on the expand button to the top right corner, and click the **[!UICONTROL Delete all variants]** button to delete every all languages.
+
+![](assets/edit-content_13.png){zoomable="yes"}
+
+To remove a language variant,  click on the three dots in the right side of the tab and select Remove.
+
+To duplicate a language variant,  click on the three dots in the right side of the tab and select Duplicate. If you choose to duplicate a language other than the default one, the content duplicated will be based on the language that you chose to duplicate.
 
 
 
