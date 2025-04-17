@@ -62,13 +62,15 @@ In Adobe Campaign Standard, the term **User role** is referred to as **Named rig
 
 ## Migration approach from Organizational unit
 
->[!CAUTION]
->
->Organizational units in Adobe Campaign Standard without **All (all)** as a direct or indirect parent will not be migrated to Campaign V8.
-></br>
->Users in multiple security groups are assigned the organizational unit of the highest-ranking security group. If multiple groups have parallel top-level units, login is restricted in Campaign Standard but grants broader access in Campaign v8 after migration, potentially escalating privileges. To prevent this, avoid assigning users to security groups with parallel organizational units.
+### Caution notes
 
-In Adobe Campaign Standard, the **Organization uni**t is mapped to the existing **Folder** hierarchy model in Campaign V8 to maintain similar access control. [Learn more on folder management](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
+Organizational units in Adobe Campaign Standard without **All (all)** as a direct or indirect parent will not be migrated to Campaign V8.
+
+Users in multiple security groups are assigned the organizational unit of the highest-ranking security group. If multiple groups have parallel top-level units, the system selects the organizational unit for the user in Campaign Standard and the user would only have access to the system selected organizational unit and its children. In Campaign v8 after migration, the user would have access to **all the assigned organizational units and their children**, potentially escalating privileges. To prevent this, avoid assigning users to security groups with parallel organizational units. <!--Know more about parallel organizational unit assignment here (link to ' Parallel Organizational Unit Assignment' section)-->
+
+### Org units and folder management
+
+In Adobe Campaign Standard, the **Organization unit** is mapped to the existing **Folder** hierarchy model in Campaign V8 to maintain similar access control. [Learn more on folder management](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
 
 | | **Campaign Standard**| **Campaign V8** |
 |---------|----------|---------|
