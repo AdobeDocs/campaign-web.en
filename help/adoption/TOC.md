@@ -13,6 +13,6 @@ breadcrumb-title: Campaign Adoption Guide
 + [From Standard to v8](get-started/overview.md)  
 + [Get started for Marketers](get-started/marketers.md)  
 + [Get started for Admin/Developer](get-started/admin-developers.md)
-+ [User access management from Campaign Standard to Campaign v8](get-started/user-management-acs.md)
++ [User access management](get-started/user-management-acs.md)
 + [< Back to Campaign v8 (web) documentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home)
 + [< Back to Campaign v8 (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)
