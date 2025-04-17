@@ -172,4 +172,6 @@ Below is a list of Campaign Standard security group mappings that have not been 
 
 * Relay Account
 
-Note that custom roles created and assigned to users in Adobe Campaign Standard will not be migrated to Campaign v8.
+>[!NOTE]
+>
+>Custom roles created and assigned to users in Adobe Campaign Standard will not be migrated to Adobe Campaign v8.
