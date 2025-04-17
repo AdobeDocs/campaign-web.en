@@ -21,7 +21,7 @@ The **[!UICONTROL Delivery Overview]** provides detailed insights into visitor i
 
 ![Delivery overview metrics graph showing key performance indicators for direct mail delivery.](assets/direct-overview.png){zoomable="yes"}{align="center"} 
 
-+++Learn more on Delivery overview metrics.
++++Learn more about Delivery overview metrics.
 
 * **[!UICONTROL Messages to deliver]**: Total number of messages processed during delivery preparation.
 * **[!UICONTROL Targeted]**: Number of user profiles qualifying as target profiles for direct mail messages.
@@ -43,7 +43,7 @@ Mouse over a portion of the graph to display the exact number.
 
 ![Detailed view of the initial target population graph with hover functionality.](assets/direct-mail-delivery-targeted-population_2.png){zoomable="yes"} 
 
-+++Learn more on Direct mail delivery report metrics.
++++Learn more about Direct mail delivery report metrics.
 
 * **[!UICONTROL Initial audience]**: Total number of targeted recipients.
 * **[!UICONTROL To deliver]**: Total number of messages to be delivered after delivery preparation.
@@ -61,7 +61,7 @@ The **[!UICONTROL Delivery statistics]** graph provides an overview of delivery 
 
 ![Delivery statistics graph showing success rates, errors, and quarantines.](assets/direct-mail-delivery-stats.png){zoomable="yes"} 
 
-+++Learn more on Direct mail campaign report metrics.
++++Learn more about Direct mail campaign report metrics.
 
 * **[!UICONTROL Message sent]**: Total number of messages to be delivered after delivery preparation.
 * **[!UICONTROL Success]**: Number of messages processed successfully compared to the number of messages to be delivered.
@@ -80,7 +80,7 @@ The **[!UICONTROL Causes of exclusion]** graph provides a breakdown of reasons f
 
 ![Causes of exclusion graph showing distribution of rejected messages by rule.](assets/direct-mail-delivery-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"} 
 
-+++Learn more on Causes of exclusion metrics.
++++Learn more about Causes of exclusion metrics.
 
 * **[!UICONTROL Address in quarantine]**: Error type generated when an address is placed in quarantine.
 * **[!UICONTROL Address not specified]**: Error type generated when an address does not exist.

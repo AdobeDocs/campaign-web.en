@@ -19,7 +19,7 @@ The **[!UICONTROL Delivery Overview]** report provides key performance indicator
 
 ![Delivery Overview report showing SMS metrics](assets/campaign_report_sms_1.png){zoomable="yes"}
 
-+++Learn more on SMS campaign report metrics.
++++Learn more about SMS campaign report metrics.
 
 * **[!UICONTROL Total sent]**: Total number of messages processed during the delivery preparation.
 
@@ -42,7 +42,7 @@ The **[!UICONTROL Initial target audience statistics]** table displays data rela
 
 ![Initial target audience statistics table showing recipient data](assets/campaign_report_sms_2.png){zoomable="yes"}
 
-+++Learn more on SMS campaign report metrics.
++++Learn more about SMS campaign report metrics.
 
 * **[!UICONTROL Initial audience]**: Total number of targeted recipients.
 
@@ -63,7 +63,7 @@ The **[!UICONTROL Execution statistics]** table details the success of your deli
 
 ![Execution statistics table showing delivery success metrics](assets/campaign_report_sms_3.png){zoomable="yes"}
 
-+++Learn more on SMS campaign report metrics.
++++Learn more about SMS campaign report metrics.
 
 * **[!UICONTROL Message to deliver]**: Total number of messages to be delivered after delivery preparation.
 
@@ -88,7 +88,7 @@ The **[!UICONTROL Generated click streams]** table displays data relative to how
 
 ![Generated click streams table showing recipient interaction data](assets/campaign_report_sms_4.png){zoomable="yes"}
 
-+++Learn more on SMS campaign report metrics.
++++Learn more about SMS campaign report metrics.
 
 * **[!UICONTROL Distinct clicks]**: Total number of distinct recipients who clicked in a delivery at least once.
 

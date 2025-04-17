@@ -30,7 +30,7 @@ Mouse-over a portion of the graph to display the exact number.
 
 ![Screenshot of a graph with a mouse over a portion to display the exact number](assets/reporting_email_1.1.png){zoomable="yes"}
 
-+++Learn more on Email delivery report metrics.
++++Learn more about Email delivery report metrics.
 
 * **[!UICONTROL Initial audience]**: Total number of targeted recipients.
 
@@ -50,7 +50,7 @@ The **[!UICONTROL Delivery statistics]** graph details the success of your deliv
 
 ![Screenshot of a graph showing the details of the delivery statistics](assets/reporting_email_2.png){zoomable="yes"}
 
-+++Learn more on Email campaign report metrics.
++++Learn more about Email campaign report metrics.
 
 * **[!UICONTROL Message sent]**: Total number of messages to be delivered after delivery preparation.
 
@@ -73,7 +73,7 @@ The **[!UICONTROL Causes of exclusion]** graph and table show the breakdown per 
 
 ![Screenshot of the Causes of exclusion graph and table](assets/reporting_email_3.png){zoomable="yes"}{align="center" zoomable="yes"}
 
-+++Learn more on Email delivery report metrics.
++++Learn more about Email delivery report metrics.
 
 * **[!UICONTROL User unknown]**: Error type generated during delivery to indicate that the email address is invalid.
 
@@ -114,7 +114,7 @@ The **[!UICONTROL Broadcast statistics]** table contains the available data for 
 
 ![Screenshot of the Broadcast statistics](assets/reporting_email_4.png){zoomable="yes"}{align="center" zoomable="yes"}
 
-+++Learn more on Email delivery report metrics.
++++Learn more about Email delivery report metrics.
 
 * **[!UICONTROL Processed emails]**: Total number of messages processed by the delivery server.
 
@@ -151,7 +151,7 @@ The errors shown in this report trigger the quarantine process. For more on quar
 
 ![Screenshot of the breakdwon of errors per type](assets/campaign_report_email_6.png){zoomable="yes"}{align="left" zoomable="yes"}
 
-+++Learn more on Email delivery report metrics.
++++Learn more about Email delivery report metrics.
 
 * **[!UICONTROL User unknown]**: Error type generated during delivery to indicate that the email address is invalid.
 
@@ -212,7 +212,7 @@ The **[!UICONTROL Delivery statistics]** report provides key performance indicat
 
 ![Screenshot of the Delivery statistics](assets/reporting_email_5.png){zoomable="yes"}{align="center"}
 
-+++Learn more on Email delivery report metrics.
++++Learn more about Email delivery report metrics.
 
 * **[!UICONTROL Success]**: Number of messages processed successfully in relation to the number of messages to be delivered.
 
@@ -240,7 +240,7 @@ The **[!UICONTROL Open and click-through rate]** table displays data relative to
 
 ![Screenshot of the Open and click-through rate table](assets/reporting_email_6.png){zoomable="yes"}{align="center"}
 
-+++Learn more on Email delivery report metrics.
++++Learn more about Email delivery report metrics.
 
 * **[!UICONTROL Sent]**: Total number of messages sent.
 
@@ -265,7 +265,7 @@ The **[!UICONTROL URLs and click streams]** report provides key performance indi
 
 ![Screenshot of the URLs and click streams report](assets/reporting_email_7.png){zoomable="yes"}{align="center"}
 
-+++Learn more on Email delivery report metrics.
++++Learn more about Email delivery report metrics.
 
 * **[!UICONTROL Reactivity]**: Ratio of the number of targeted recipients having clicked in a delivery, in relation to the estimated number of targeted recipients having opened a delivery.
 
@@ -290,7 +290,7 @@ The **[!UICONTROL Top 10 most visited links]** graph and table contain the avail
 
 ![Screenshot of the Top 10 most visited links graph](assets/reporting_email_8.png){zoomable="yes"}{align="center"}
 
-+++Learn more on Email delivery report metrics.
++++Learn more about Email delivery report metrics.
 
 * **[!UICONTROL Clicks]**: Total number of clicks on links in deliveries.
 
@@ -322,7 +322,7 @@ The **[!UICONTROL User activities]** report shows the breakdown of opens and cli
 
 ![Screenshot of the User activities report](assets/reporting_email_10.png){zoomable="yes"}{align="center"}
 
-+++Learn more on Email delivery report metrics.
++++Learn more about Email delivery report metrics.
 
 * **[!UICONTROL Clicks]**: Total number of clicks on links in deliveries.
 
@@ -341,7 +341,7 @@ The **[!UICONTROL Tracking Statistics]** graph provides statistics on opens and 
 
 ![Screenshot of the Tracking statistics graph](assets/reporting_email_11.png){zoomable="yes"}{align="center"}
 
-+++Learn more on Email delivery report metrics.
++++Learn more about Email delivery report metrics.
 
 * **[!UICONTROL Clicks]**: Total number of clicks on links in deliveries.
 

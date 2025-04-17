@@ -93,7 +93,7 @@ Campaign Web allows you to preview and send proofs when using an audience upload
 
 1. The profiles contained in the uploaded file display. Select the profiles that you want to use for previewing your content, and click **[!UICONTROL Select]**.
 
-1. A preview of the delivery content displays in the right pane of the screen. Personalized elements are replaced with the data from the profile selected in the left pane. [Learn more on delivery content preview](../preview-test/preview-content.md) 
+1. A preview of the delivery content displays in the right pane of the screen. Personalized elements are replaced with the data from the profile selected in the left pane. [Learn more about delivery content preview](../preview-test/preview-content.md) 
 
     ![Screenshot showing the preview of delivery content with personalized elements](assets/file-upload-preview.png){zoomable="yes"}
 
@@ -109,4 +109,4 @@ Campaign Web allows you to preview and send proofs when using an audience upload
 
     ![Screenshot showing the proof sending process](assets/file-upload-test.png){zoomable="yes"}
 
-1. Monitor the sending of the proof using the **[!UICONTROL View proofs]** button at any time. [Learn more on proofs monitoring](../preview-test/test-deliveries.md#access-test-deliveries)
+1. Monitor the sending of the proof using the **[!UICONTROL View proofs]** button at any time. [Learn more about proofs monitoring](../preview-test/test-deliveries.md#access-test-deliveries)

@@ -32,4 +32,4 @@ For example, notify users with administration rights only about failed deliverie
 
 >[!NOTE]
 >
->To access and configure dashboards and alerting criteria, you must have **administration rights** or be part of the **Delivery Supervisors** security group. Standard users cannot access dashboards in the Adobe Campaign interface but can receive alerting notifications. [Learn more on access and permissions](../get-started/permissions.md).
+>To access and configure dashboards and alerting criteria, you must have **administration rights** or be part of the **Delivery Supervisors** security group. Standard users cannot access dashboards in the Adobe Campaign interface but can receive alerting notifications. [Learn more about access and permissions](../get-started/permissions.md).

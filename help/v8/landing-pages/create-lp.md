@@ -192,7 +192,7 @@ Once your landing page settings and content have been defined, you can use test 
 
 >[!CAUTION]
 >
->You must have test profiles available to be able to preview your messages and send proofs. [Learn more on test profiles](../audience/test-profiles.md)
+>You must have test profiles available to be able to preview your messages and send proofs. [Learn more about test profiles](../audience/test-profiles.md)
 
 To test your landing page, follow these steps:
 

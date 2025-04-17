@@ -51,7 +51,7 @@ To create a new standalone direct mail delivery, follow these steps:
 
     >[!NOTE]
     >
-    >When a delivery is sent in the context of a workflow, you must use the **Scheduler** activity. Learn more on [this page](../workflows/activities/scheduler.md).
+    >When a delivery is sent in the context of a workflow, you must use the **Scheduler** activity. Learn more about [this page](../workflows/activities/scheduler.md).
 
 1. Click **[!UICONTROL Settings]** to access advanced options related to your delivery template. [Learn more](../advanced-settings/delivery-settings.md)
 

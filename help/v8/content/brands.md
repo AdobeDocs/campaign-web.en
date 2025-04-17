@@ -98,6 +98,6 @@ Users can either enter the details manually or upload a brand guidelines documen
 
     ![Advanced menu options in Brands dashboard](assets/brands_5.png)
 
-Your brand guidelines are now accessible from the **[!UICONTROL Brand]** drop-down in the AI assistant menu. This enables the AI assistant to generate content and assets aligned with your specifications. [Learn more on the AI assistant](../email/generative-gs.md)
+Your brand guidelines are now accessible from the **[!UICONTROL Brand]** drop-down in the AI assistant menu. This enables the AI assistant to generate content and assets aligned with your specifications. [Learn more about the AI assistant](../email/generative-gs.md)
 
 ![AI assistant menu with Brand drop-down](assets/brands_6.png)

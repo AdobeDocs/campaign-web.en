@@ -64,7 +64,7 @@ To display custom fields in the interface, follow these steps:
 
     ![Screenshot showing the Schemas menu and Editable filter in the navigation pane](assets/custom-fields-open.png)
 
-1. Select the schema name in the list to open it. A detailed schema view displays. [Learn more on schema details](../administration/schemas.md). Click the **[!UICONTROL Edit custom detail]** button to access custom fields. In this example, fields are added for the **[!UICONTROL Recipients]** schema.
+1. Select the schema name in the list to open it. A detailed schema view displays. [Learn more about schema details](../administration/schemas.md). Click the **[!UICONTROL Edit custom detail]** button to access custom fields. In this example, fields are added for the **[!UICONTROL Recipients]** schema.
 
     ![Screenshot showing the Edit custom detail button in the schema view](assets/custom-fields-edit.png)
 

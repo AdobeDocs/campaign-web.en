@@ -127,4 +127,4 @@ Frequently Asked Questions about Campaign web user interface are listed in a new
 ## Additional resources
 
 * [Adobe Campaign Product Description](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
-* [Adobe Campaign V8 documentation](https://experienceleague.adobe.com/docs/campaign-v8.html){target="_blank"}
+* [Adobe Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign-v8.html){target="_blank"}

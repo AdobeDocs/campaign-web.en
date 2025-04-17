@@ -44,7 +44,7 @@ To add content components to your email and adjust them to your needs, follow th
     >
     >You can add several components into a single structure and into each column of a structure.
 
-1. Adjust the options for each component using the contextual **[!UICONTROL Settings]** tab. For example, choose to display it on desktop or mobile devices only, or both. You can also manage link options from this tab. [Learn more on managing links](message-tracking.md)
+1. Adjust the options for each component using the contextual **[!UICONTROL Settings]** tab. For example, choose to display it on desktop or mobile devices only, or both. You can also manage link options from this tab. [Learn more about managing links](message-tracking.md)
 
 1. Adjust the styling attributes for each component using the **[!UICONTROL Style]** tab. For example, change the text style, padding, or margin of each component. [Learn more about alignment and padding](alignment-and-padding.md)
 

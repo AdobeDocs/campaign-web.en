@@ -21,7 +21,7 @@ The **[!UICONTROL Delivery Overview]** presents key performance metrics (KPIs), 
 
 ![Overview of Direct mail campaign delivery metrics](assets/direct-mail-campaign-overview.png){zoomable="yes"}{align="center"}
 
-+++Learn more on Delivery overview metrics.
++++Learn more about Delivery overview metrics.
 
 * **[!UICONTROL Messages to deliver]**: Total number of messages processed during the delivery preparation.
 
@@ -44,7 +44,7 @@ The **[!UICONTROL Initial target audience statistics]** table displays data rela
 
 ![Statistics of the initial target audience for Direct mail campaigns](assets/direct-mail-campaign-target-audience.png){zoomable="yes"}
 
-+++Learn more on Initial target audience statistics metrics.
++++Learn more about Initial target audience statistics metrics.
 
 * **[!UICONTROL Initial audience]**: Total number of targeted recipients.
 
@@ -65,7 +65,7 @@ The **[!UICONTROL Initial target audience statistics]** table displays data rela
 
 The **[!UICONTROL Execution statistics]** table provides a breakdown of the success of every Direct mail delivery, with detailed metrics outlined below.
 
-+++Learn more on Delivery statistics metrics.
++++Learn more about Delivery statistics metrics.
 
 * **[!UICONTROL Message to deliver]**: Total number of messages to be delivered after delivery preparation.
 
@@ -88,7 +88,7 @@ The **[!UICONTROL Execution statistics]** table provides a breakdown of the succ
 
 The **Generated click streams** table illustrates the reasons that prevented user profiles, excluded from the targeted profiles, from receiving the message.
 
-+++Learn more on Generated click streams metrics.
++++Learn more about Generated click streams metrics.
 
 * **[!UICONTROL Unique clicks]**: Total number of distinct recipients who clicked in a delivery at least once.
 

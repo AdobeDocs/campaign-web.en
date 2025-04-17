@@ -16,9 +16,9 @@ In Adobe Campaign Web User Interface, the **[!UICONTROL Audit trail]** feature p
 
 The **[!UICONTROL Audit trail]** feature constantly records a detailed log of actions and events taking place within the Adobe Campaign instance in real-time. It offers a convenient method to access a chronological record of data, addressing queries such as the status of workflows, the latest individuals to modify them, or the activities performed by users within the instance.
 
-+++ Learn more on Audit Trail available entities
++++ Learn more about Audit Trail available entities
 
-* **Source Schema audit trail** allows you to monitor activities and recent modifications made to your schemas within the Campaign V8 client console. 
+* **Source Schema audit trail** allows you to monitor activities and recent modifications made to your schemas within the Campaign v8 client console. 
 
   For detailed information on schemas, refer to [Campaign v8 Documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas).
 
@@ -35,7 +35,7 @@ The **[!UICONTROL Audit trail]** feature constantly records a detailed log of ac
 
   For more information on workflows, refer to this [page](../workflows/gs-workflows.md).
 
-* **Option audit trail** enables you to monitor activities and recent modifications made to your options in Campaign V8. 
+* **Option audit trail** enables you to monitor activities and recent modifications made to your options in Campaign v8. 
 
   For more information on options, refer to this [page](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options).
 
@@ -43,15 +43,15 @@ The **[!UICONTROL Audit trail]** feature constantly records a detailed log of ac
 
   For more information on deliveries, refer to this [page](../msg/gs-deliveries.md).
 
-* **External Account** allows you to check modifications made to external accounts in Campaign V8, used by technical processes such as technical workflows or campaign workflows.
+* **External Account** allows you to check modifications made to external accounts in Campaign v8, used by technical processes such as technical workflows or campaign workflows.
 
   For more information on external accounts, refer to this [page](../administration/external-account.md).
 
-* **Delivery Mapping** enables you to monitor activities and recent modifications made to your Delivery Mapping in Campaign V8. 
+* **Delivery Mapping** enables you to monitor activities and recent modifications made to your Delivery Mapping in Campaign v8. 
 
   For more information on delivery mapping, refer to this [page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/add-profiles/target-mappings).
 
-* **Web Application** allows you to check modifications made to Web forms in Campaign V8, used to create pages with input and selection fields, and which may include data from the database. 
+* **Web Application** allows you to check modifications made to Web forms in Campaign v8, used to create pages with input and selection fields, and which may include data from the database. 
 
   For more information on web applications, refer to this [page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/webapps).
 
@@ -59,7 +59,7 @@ The **[!UICONTROL Audit trail]** feature constantly records a detailed log of ac
 
   For more information on offers, refer to this [page](../msg/offers.md).
 
-* **Operator** enables you to monitor activities and recent modifications made to your Operators in Campaign V8.
+* **Operator** enables you to monitor activities and recent modifications made to your Operators in Campaign v8.
 
   For more information on operators, refer to this [page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-operators).
 

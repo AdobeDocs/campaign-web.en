@@ -23,7 +23,7 @@ The **[!UICONTROL Delivery Overview]** presents key performance metrics (KPIs), 
 
 ![This image shows the delivery overview metrics for direct mail deliveries.](assets/global_report_direct_mail_delivery_overview.png){zoomable="yes"}{align="center"}  
 
-+++Learn more on Delivery overview metrics.
++++Learn more about Delivery overview metrics.
 
 * **[!UICONTROL Messages to deliver]**: Total number of messages processed during the delivery preparation.
 
@@ -51,7 +51,7 @@ The table and graph for **[!UICONTROL Targeted Audience]** showcase data related
 
 ![This image shows the targeted audience metrics for direct mail deliveries.](assets/global_report_direct_mail_targeted_audience.png){zoomable="yes"}{align="center"}  
 
-+++Learn more on Targeted audience metrics.
++++Learn more about Targeted audience metrics.
 
 * **[!UICONTROL Targeted audience]**: Total number of targeted recipients.
 
@@ -75,7 +75,7 @@ The table and graph for **[!UICONTROL Targeted Audience]** showcase data related
 
 The **[!UICONTROL Delivery statistics]** graph and table provide a breakdown of the success of every direct mail delivery, with detailed metrics outlined below.
 
-+++Learn more on Delivery statistics metrics.
++++Learn more about Delivery statistics metrics.
 
 * **[!UICONTROL Message to deliver]**: Total number of messages to be delivered after delivery preparation.
 
@@ -103,7 +103,7 @@ The **[!UICONTROL Delivery statistics]** graph and table provide a breakdown of 
 
 The Exclusions graph and table illustrate the reasons that prevented user profiles, excluded from the targeted profiles, from receiving the message.
 
-+++Learn more on Causes of exclusion metrics.
++++Learn more about Causes of exclusion metrics.
 
 * **[!UICONTROL Address in quarantine]**: Error type generated when an address is placed in quarantine.
 

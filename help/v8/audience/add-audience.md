@@ -15,7 +15,7 @@ This section explains how to select an existing audience when defining the targe
 * [Build a one-time audience](one-time-audience.md) using the query modeler.  
 * [Load an audience from an external file](file-audience.md) (for emails only).  
 
-Audiences that can be targeted in deliveries are accessible from the **Audience** left menu. They originate from multiple sources, such as the Client console, Campaign Web audience workflows, or Adobe Experience Platform. [Learn more on audiences](manage-audience.md)
+Audiences that can be targeted in deliveries are accessible from the **Audience** left menu. They originate from multiple sources, such as the Client console, Campaign Web audience workflows, or Adobe Experience Platform. [Learn more about audiences](manage-audience.md)
 
 To select an existing audience for your message, follow the steps below:
 
@@ -27,7 +27,7 @@ To select an existing audience for your message, follow the steps below:
 
    [This screenshot shows the list of existing audiences in the current folder.](assets/create-audience2.png){zoomable="yes"}  
 
-   To choose an audience from Adobe Experience Platform, browse to the `AEP Audiences folder` from the filter section of the screen. [Learn more on Adobe Experience Platform audiences](manage-audience.md#monitor)
+   To choose an audience from Adobe Experience Platform, browse to the `AEP Audiences folder` from the filter section of the screen. [Learn more about Adobe Experience Platform audiences](manage-audience.md#monitor)
 
    [This screenshot shows the filter section with the AEP Audiences folder selected.](assets/select-audience-folder.png){zoomable="yes"}  
 

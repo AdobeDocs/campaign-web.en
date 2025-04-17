@@ -23,7 +23,7 @@ The **[!UICONTROL Delivery Overview]** report provides key performance indicator
 
 ![Delivery overview metrics, showing KPIs related to push notification performance.](assets/global_report_push_delivery_overview.png){zoomable="yes"}
 
-+++Learn more on Delivery overview metrics.
++++Learn more about Delivery overview metrics.
 
 * **[!UICONTROL Messages to deliver]**: Total number of messages processed during the delivery preparation.
 
@@ -46,7 +46,7 @@ The **[!UICONTROL Targeted audience]** table and graph present data related to y
 
 ![Targeted audience metrics, showing data related to recipients and exclusions for push notifications.](assets/global_report_push_targeted_audience.png){zoomable="yes"}
 
-+++Learn more on Targeted audience metrics.
++++Learn more about Targeted audience metrics.
 
 * **[!UICONTROL Targeted audience]**: Total number of targeted recipients.
 
@@ -67,7 +67,7 @@ The **[!UICONTROL Delivery statistics]** table details the success of every Push
 
 ![Delivery statistics metrics, showing success rates, errors, and quarantines for push notifications.](assets/global_report_push_delivery_statistics.png){zoomable="yes"}
 
-+++Learn more on Delivery statistics metrics.
++++Learn more about Delivery statistics metrics.
 
 * **[!UICONTROL Total messages]**: Total number of messages to be delivered after delivery preparation.
 

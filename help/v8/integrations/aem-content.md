@@ -10,7 +10,7 @@ exl-id: 43b186c8-294e-4cbe-b269-e127065515ed
 
 The integration of the Adobe Campaign Web interface with Adobe Experience Manager enables streamlined management of email delivery content and forms directly within the Adobe Experience Manager platform.
 
-![](assets/do-not-localize/book.png)[Learn more on Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=en)
+![](assets/do-not-localize/book.png)[Learn more about Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=en)
 
 ## Create a template in [!DNL Adobe Experience Manager as a Cloud Service]{#create-aem-template}
 
@@ -80,7 +80,7 @@ Once the Experience Manager template is available in Adobe Campaign Web as a con
 
 1. If you added personalized content to your Experience Manager template, click **[!UICONTROL Simulate Content]** to preview how it will appear in the message using test profiles.
 
-    [Learn more on preview and test profiles](../preview-test/preview-content.md)
+    [Learn more about preview and test profiles](../preview-test/preview-content.md)
 
 1. When viewing the message preview, any personalized elements are automatically replaced with the corresponding data from the selected test profile. 
 

@@ -17,7 +17,7 @@ Test profiles are used to send proofs and validate your message content and sett
 
 ➡️ [Discover this feature in video](#video) 
 
-<!--Learn more on test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
+<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
 The steps to send proofs to test profiles are detailed in [this section](../preview-test/test-deliveries.md#test-profiles).
 
@@ -90,11 +90,11 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
 1. If you select the **[!UICONTROL No longer contact (by any channel)]** checkbox, the test profile is on denylist. Such recipient is no longer targeted on any channel (email, SMS, etc.).
 
-1. In the **[!UICONTROL Additional data]** tab, enter the personalization data used for the deliveries created in the Data management workflows and which you want to assign a specific value to. [Learn more on workflows](../workflows/gs-workflows.md)
+1. In the **[!UICONTROL Additional data]** tab, enter the personalization data used for the deliveries created in the Data management workflows and which you want to assign a specific value to. [Learn more about workflows](../workflows/gs-workflows.md)
 
     ![Additional data tab](assets/test-profile-additional-data.png){zoomable="yes"}
     
-   Make sure that additional target data has been defined with an alias starting with '@' in the **[!UICONTROL Enrichment]** workflow activity. Otherwise, you cannot use it properly with your seed addresses in the delivery activity. [Learn more on the Enrichment activity](../workflows/activities/enrichment.md)
+   Make sure that additional target data has been defined with an alias starting with '@' in the **[!UICONTROL Enrichment]** workflow activity. Otherwise, you cannot use it properly with your seed addresses in the delivery activity. [Learn more about the Enrichment activity](../workflows/activities/enrichment.md)
 
 1. Click the **[!UICONTROL Save]** button.
 

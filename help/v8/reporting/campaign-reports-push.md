@@ -19,7 +19,7 @@ The **[!UICONTROL Delivery Overview]** report provides key performance indicator
 
 ![Delivery summary metrics displayed in the Delivery Overview report](assets/campaign-reporting-push-summary.png){zoomable="yes"}
 
-+++Learn more on Push campaign report metrics.
++++Learn more about Push campaign report metrics.
 
 * **[!UICONTROL Messages to deliver]**: Total number of messages processed during the delivery preparation.
 
@@ -42,7 +42,7 @@ The **[!UICONTROL Initial target audience statistics]** table displays data rela
 
 ![Initial target audience statistics displayed in the report](assets/campaign-reporting-push-target.png){zoomable="yes"}
 
-+++Learn more on Push campaign report metrics.
++++Learn more about Push campaign report metrics.
 
 * **[!UICONTROL Initial audience]**: Total number of targeted recipients.
 
@@ -63,7 +63,7 @@ The **[!UICONTROL Execution statistics]** table details the success of your deli
 
 ![Execution statistics displayed in the report](assets/campaign-reporting-push-exec.png){zoomable="yes"}
 
-+++Learn more on Push campaign report metrics.
++++Learn more about Push campaign report metrics.
 
 * **[!UICONTROL Message to deliver]**: Total number of messages to be delivered after delivery preparation.
 
@@ -88,7 +88,7 @@ The **[!UICONTROL Generated click streams]** table displays data relative to how
 
 ![Generated click streams displayed in the report](assets/campaign-reporting-push-clicks.png){zoomable="yes"}
 
-+++Learn more on Push campaign report metrics.
++++Learn more about Push campaign report metrics.
 
 * **[!UICONTROL Unique clicks]**: Total number of distinct recipients who clicked in a delivery at least once.
 

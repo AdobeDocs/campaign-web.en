@@ -18,12 +18,12 @@ Information on the profile is organized as follows:
 
     ![Screenshot showing the profile's details tab, including built-in and custom attributes.](assets/profile-details.png){zoomable="yes"}
 
-* The **[!UICONTROL Subscriptions]** tab provides insight into the services the profile is subscribed to. [Learn more on subscription services](manage-services.md)
+* The **[!UICONTROL Subscriptions]** tab provides insight into the services the profile is subscribed to. [Learn more about subscription services](manage-services.md)
 
     ![Screenshot showing the subscriptions tab, listing the services the profile is subscribed to.](assets/profile-subscriptions.png){zoomable="yes"}
 
-* In addition, the **[!UICONTROL Logs]** button, located in the upper-right corner of the screen, allows you to view the history of the profile's interactions through sending, exclusion, and tracking logs. [Learn more on delivery logs](../monitor/delivery-logs.md)
+* In addition, the **[!UICONTROL Logs]** button, located in the upper-right corner of the screen, allows you to view the history of the profile's interactions through sending, exclusion, and tracking logs. [Learn more about delivery logs](../monitor/delivery-logs.md)
 
-    From these logs, you can also review the offers presented to the selected profile in the **[!UICONTROL Propositions]** tab. [Learn more on offers](../msg/offers.md)
+    From these logs, you can also review the offers presented to the selected profile in the **[!UICONTROL Propositions]** tab. [Learn more about offers](../msg/offers.md)
 
     ![Screenshot showing the logs tab, including sending, exclusion, and tracking logs, as well as the propositions tab for reviewing offers.](assets/profile-logs.png){zoomable="yes"}

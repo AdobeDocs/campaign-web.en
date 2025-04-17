@@ -137,7 +137,7 @@ Once your delivery content has been defined, you can use profiles and test profi
 
     Learn how to download, install, and manage the Adobe Campaign Client Console with this documentation.
 
-* **Discover console client interface** - Learn about the Adobe Campaign V8 user interface and how to navigate the main features with this tutorial video.
+* **Discover console client interface** - Learn about the Adobe Campaign v8 user interface and how to navigate the main features with this tutorial video.
 
     You can access Adobe Campaign via its client console or its Web user interface. You can also use APIs to manage data and perform tasks in your Campaign platform.
 

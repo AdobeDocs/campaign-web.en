@@ -23,7 +23,7 @@ The **[!UICONTROL Delivery Overview]** presents key performance metrics (KPIs), 
 
 ![Delivery overview metrics](assets/global_report_email_delivery_overview.png){zoomable="yes"}{align="center"}
 
-+++Learn more on Delivery overview metrics.
++++Learn more about Delivery overview metrics.
 
 * **[!UICONTROL Messages to deliver]**: Total number of messages processed during the delivery preparation.
 
@@ -49,7 +49,7 @@ The table and graph for **[!UICONTROL Targeted Audience]** showcase data related
 
 ![Targeted audience metrics](assets/global_report_email_targeted_audience.png){zoomable="yes"}{align="center"}
 
-+++Learn more on Targeted audience metrics.
++++Learn more about Targeted audience metrics.
 
 * **[!UICONTROL Targeted audience]**: Total number of targeted recipients.
 
@@ -70,7 +70,7 @@ The **[!UICONTROL Delivery statistics]** table provides a breakdown of the succe
 
 ![Delivery statistics metrics](assets/global_report_email_delivery_statistics.png){zoomable="yes"}{align="center"}
 
-+++Learn more on Delivery statistics metrics.
++++Learn more about Delivery statistics metrics.
 
 * **[!UICONTROL Message to deliver]**: Total number of messages to be delivered after delivery preparation.
 
@@ -106,7 +106,7 @@ Email error types are listed in the [Adobe Campaign v8 (client console) document
 
 The Delivery Throughput report provides in-depth insights into the efficiency of the delivery process, presenting a detailed overview of success and error rates within a specified timeframe.
 
-+++Learn more on Delivery throughput metrics.
++++Learn more about Delivery throughput metrics.
 
 * **[!UICONTROL Success]**: Number of messages processed successfully in relation to the number of messages to be delivered.
 
@@ -129,7 +129,7 @@ The **[!UICONTROL Breakdown of errors per type]** table and graph present the da
 
 The errors shown in this report trigger the quarantine process. For more on quarantine management, refer to [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
 
-+++Learn more on Breakdown of errors per type metrics.
++++Learn more about Breakdown of errors per type metrics.
 
 * **[!UICONTROL User unknown]**: Error type generated during delivery to indicate that the email address is invalid.
 
@@ -171,7 +171,7 @@ The **[!UICONTROL Delivery statistics]** metrics offer key performance indicator
 
 ![Delivery statistics tracking metrics](assets/global_report_email_delivery_statistics_tracking.png){zoomable="yes"}{align="center"}
 
-+++Learn more on Delivery statistics metrics.
++++Learn more about Delivery statistics metrics.
 
 * **[!UICONTROL Messages to deliver]**: Total number of messages processed during the delivery preparation.
 
@@ -199,7 +199,7 @@ The **[!UICONTROL Open and click-through rate]** table displays data relative to
 
 ![Open and click-through rate metrics](assets/global_report_email_opens.png){zoomable="yes"}{align="center"}
 
-+++Learn more on Open and click-through rate metrics.
++++Learn more about Open and click-through rate metrics.
 
 * **[!UICONTROL Sent]**: Total number of messages sent.
 
@@ -225,7 +225,7 @@ The **[!UICONTROL URLs and click streams]** report provides key performance indi
 
 ![URLs and click streams metrics](assets/campaign_report_email_9.png){zoomable="yes"}{align="center"}
 
-+++Learn more on URLs and click streams metrics.
++++Learn more about URLs and click streams metrics.
 
 * **[!UICONTROL Reactivity]**: Ratio of the number of targeted recipients having clicked in a delivery, in relation to the estimated number of targeted recipients having opened a delivery.
 
@@ -247,7 +247,7 @@ The **[!UICONTROL Top 10 most visited links]** graph and table contain the avail
 
 ![Top 10 most visited links metrics](assets/global_report_email_top10.png){zoomable="yes"}{align="center"}
 
-+++Learn more on Top 10 most visited links metrics.
++++Learn more about Top 10 most visited links metrics.
 
 * **[!UICONTROL Total Clicks]**: Total number of clicks on links in deliveries.
 
@@ -277,7 +277,7 @@ The **[!UICONTROL User activities]** report shows the breakdown of opens and cli
 
 ![User activities metrics](assets/global_report_email_user.png){zoomable="yes"}{align="center"}
 
-+++Learn more on User activities metrics.
++++Learn more about User activities metrics.
 
 * **[!UICONTROL Total Clicks]**: Total number of clicks on links in deliveries.
 

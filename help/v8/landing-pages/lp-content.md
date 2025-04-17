@@ -105,7 +105,7 @@ To define specific content that enables users to select and submit their choices
     * **[!UICONTROL Landing page]**: Select another landing page for users to be redirected to. Make sure you configure the selected landing page accordingly.
 
 1. To make additional updates upon submitting the form, select **[!UICONTROL Additional updates]**, and select the item you want to update:
-    * A subscription [service](../audience/manage-services.md) - define if you want to opt in or opt out users upon submitting the form. When designing an email, if you define a **[!UICONTROL Landing page]**-type link to this landing page, the selected service is automatically used. [Learn more on inserting links](../email/message-tracking.md)
+    * A subscription [service](../audience/manage-services.md) - define if you want to opt in or opt out users upon submitting the form. When designing an email, if you define a **[!UICONTROL Landing page]**-type link to this landing page, the selected service is automatically used. [Learn more about inserting links](../email/message-tracking.md)
 
         >[!NOTE]
         >
@@ -125,7 +125,7 @@ To define specific content that enables users to select and submit their choices
 
     ![Service from URL settings in the form component](assets/lp-form-service-from-url.png){zoomable="yes"}
 
-    When designing an email, if you define a **[!UICONTROL Landing page]**-type link to this landing page, you can select any service from the list. You can then select other services when defining other links to this landing page. [Learn more on inserting links](../email/message-tracking.md)
+    When designing an email, if you define a **[!UICONTROL Landing page]**-type link to this landing page, you can select any service from the list. You can then select other services when defining other links to this landing page. [Learn more about inserting links](../email/message-tracking.md)
 
     ![Email link to landing page settings](assets/email-link-to-landing-page.png){zoomable="yes"}
 

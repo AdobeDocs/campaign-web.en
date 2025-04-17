@@ -26,7 +26,7 @@ The **[!UICONTROL Delivery overview]** report provides key performance indicator
 
 ![This screenshot shows the Delivery overview report, which provides KPIs about visitor engagement with push messages.](assets/reporting_push_3.png){zoomable="yes"}
 
-+++Learn more on Push delivery report metrics.
++++Learn more about Push delivery report metrics.
 
 * **[!UICONTROL Total sent]**: Total number of messages processed during the delivery preparation.
 * **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
@@ -46,7 +46,7 @@ The **Targeted population** graph and table display data relative to your audien
 
 ![This screenshot shows the Targeted population graph and table, which display data about messages to deliver and exclusions.](assets/reporting_push_4.png){zoomable="yes"}
 
-+++Learn more on Push delivery report metrics.
++++Learn more about Push delivery report metrics.
 
 * **[!UICONTROL To deliver]**: Total number of messages processed during the delivery preparation.
 * **[!UICONTROL Exclusions]**: Number of profiles that have been excluded from the analysis.
@@ -64,7 +64,7 @@ The **Overall statistics** report presents data for the sent push notifications:
 
 ![This screenshot shows the Overall statistics report, which presents data about success, errors, and quarantines for sent push notifications.](assets/reporting_push_5.png){zoomable="yes"} 
 
-+++Learn more on Push delivery report metrics.
++++Learn more about Push delivery report metrics.
 
 * **[!UICONTROL Success]**: Number of messages processed successfully.
 * **[!UICONTROL Errors]**: Total number of errors that occurred during delivery, preventing the messages from being sent to certain profiles.

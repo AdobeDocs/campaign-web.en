@@ -23,7 +23,7 @@ The **[!UICONTROL Delivery Overview]** report offers comprehensive key performan
 
 ![A screenshot of the Delivery Overview report, showing key performance indicators for SMS delivery.](assets/global_report_sms_delivery_overview.png){zoomable="yes"}
 
-+++Learn more on Delivery overview metrics.
++++Learn more about Delivery overview metrics.
 
 * **[!UICONTROL Messages to deliver]**: Total number of messages processed during the delivery preparation.
 
@@ -46,7 +46,7 @@ The **[!UICONTROL Targeted audience]** table and graph present data related to y
 
 ![A screenshot of the Targeted Audience report, showing data on recipients and exclusions for SMS deliveries.](assets/global_report_sms_targeted_audience.png){zoomable="yes"}
 
-+++Learn more on Targeted audience metrics.
++++Learn more about Targeted audience metrics.
 
 * **[!UICONTROL Targeted audience]**: Total number of targeted recipients.
 
@@ -67,7 +67,7 @@ The **[!UICONTROL Delivery statistics]** table details the success of every SMS 
 
 ![A screenshot of the Delivery Statistics report, showing success rates, errors, and quarantines for SMS deliveries.](assets/global_report_sms_delivery_statistics.png){zoomable="yes"}
 
-+++Learn more on Delivery statistics metrics.
++++Learn more about Delivery statistics metrics.
 
 * **[!UICONTROL Total messages]**: Total number of messages to be delivered after delivery preparation.
 

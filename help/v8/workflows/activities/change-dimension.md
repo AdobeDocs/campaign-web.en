@@ -16,7 +16,7 @@ exl-id: 08870946-91c6-4ab0-84de-4d9b968884b3
 >title="Change dimension activity"
 >abstract="This activity allows you to change the targeting dimension as you are building an audience. It shifts the axis depending on the data template and the input dimension. For example, you can switch from the 'contracts' dimension to the 'clients' dimension."
 
-The **Change dimension** activity is a **Targeting** activity. This activity allows you to change the targeting dimension as you are building your workflow. It shifts the axis depending on the data template and the input dimension. [Learn more on targeting dimensions](../../audience/about-recipients.md#targeting-dimensions).
+The **Change dimension** activity is a **Targeting** activity. This activity allows you to change the targeting dimension as you are building your workflow. It shifts the axis depending on the data template and the input dimension. [Learn more about targeting dimensions](../../audience/about-recipients.md#targeting-dimensions).
 
 For example, you can switch a workflow's targeting dimension from "Recipients" to "Subscribers application" to send push notifications to the targeted recipients.
 

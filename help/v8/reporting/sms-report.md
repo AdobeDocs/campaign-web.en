@@ -26,7 +26,7 @@ The **[!UICONTROL Delivery overview]** report provides key performance indicator
 
 ![Description: The image shows the Delivery overview report, which includes KPIs such as success rates, error rates, and visitor engagement.](assets/reporting_sms_3.png){zoomable="yes"}
 
-+++Learn more on SMS delivery report metrics.
++++Learn more about SMS delivery report metrics.
 
 * **[!UICONTROL Total sent]**: Percentage and total number of messages processed during the delivery preparation.
 
@@ -49,7 +49,7 @@ The **Targeted population** graph and table display data related to your audienc
 
 ![Description: The image shows the Targeted population graph and table, which include metrics such as messages to deliver and exclusions.](assets/reporting_sms_4.png){zoomable="yes"}
 
-+++Learn more on SMS delivery report metrics.
++++Learn more about SMS delivery report metrics.
 
 * **[!UICONTROL To deliver]**: Total number and percentage rate of messages processed during the delivery preparation.
 
@@ -67,7 +67,7 @@ The **Overall statistics** report presents data for the sent SMS messages. Metri
 
 ![Description: The image shows the Overall statistics report, which includes metrics such as success rates, errors, and quarantines.](assets/reporting_sms_5.png){zoomable="yes"}
 
-+++Learn more on SMS delivery report metrics.
++++Learn more about SMS delivery report metrics.
 
 * **[!UICONTROL Success]**: Number and percentage rate of messages processed successfully.
 
