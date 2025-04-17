@@ -20,11 +20,9 @@ The following concepts are used in Adobe Campaign Standard and Campaign v8 to ac
 
 ## Migration approach from Security group to Operator group
 
-### Caution notes
-
-The capabilities of these Roles/Named rights may vary in implementation, potentially causing authorization issues (e.g., privilege elevation or functionality disruptions). We recommend users to review these mappings after the transition to ensure proper access control. [Learn more about permissions](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
-
-### Security groups and Operator groups
+>[!IMPORTANT]
+>
+>The capabilities of these Roles/Named rights may vary in implementation, potentially causing authorization issues (e.g., privilege elevation or functionality disruptions). We recommend users to review these mappings after the transition to ensure proper access control. [Learn more about permissions](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 The table below outlines the migration approach for user role groups when transitioning from Adobe Campaign Standard to Campaign v8. In Campaign Standard, a **Security group**, referred to as an **Operator group** in Campaign v8, is used to assign a set of roles to a user. While some security groups/operator groups are available out-of-the-box, users can create new groups or modify existing ones if needed.
 
@@ -42,11 +40,9 @@ In both Adobe Campaign Standard and Campaign v8, **Security groups** and **Opera
 
 ## Migration approach from User roles to Named rights
 
-### Caution notes
-
-During migration from Adobe Campaign Standard to Campaign v8, users with the **Data Model** role but not **Administration** will automatically gain **Administration** access, as schema creation in Campaign v8 requires administration rights. To prevent this, remove their **Data Model** role before migration.
-
-### User roles and Named rights
+>[!IMPORTANT]
+>
+>During migration from Adobe Campaign Standard to Campaign v8, users with the **Data Model** role but not **Administration** will automatically gain **Administration** access, as schema creation in Campaign v8 requires administration rights. To prevent this, remove their **Data Model** role before migration.
 
 In Adobe Campaign Standard, the term **User role** is referred to as **Named right** in Campaign v8. The table below outlines the terminology used for **Named rights** in Campaign v8 corresponding to **User roles** in Campaign Standard.
 
@@ -66,13 +62,12 @@ In Adobe Campaign Standard, the term **User role** is referred to as **Named rig
 
 ## Migration approach from Organizational unit
 
-### Caution notes
+>[!IMPORTANT]
+>
+>Organizational units in Adobe Campaign Standard without **All (all)** as a direct or indirect parent will not be migrated to Campaign v8.
+></br>
+>Users in multiple security groups are assigned the organizational unit of the highest-ranking security group. If multiple groups have parallel top-level units, the system selects the organizational unit for the user in Campaign Standard and the user would only have access to the system selected organizational unit and its children. In Campaign v8 after migration, the user would have access to **all the assigned organizational units and their children**, potentially escalating privileges. To prevent this, avoid assigning users to security groups with parallel organizational units. Learn more about [parallel organizational unit assignment](#parallel-assignments).
 
-Organizational units in Adobe Campaign Standard without **All (all)** as a direct or indirect parent will not be migrated to Campaign v8.
-
-Users in multiple security groups are assigned the organizational unit of the highest-ranking security group. If multiple groups have parallel top-level units, the system selects the organizational unit for the user in Campaign Standard and the user would only have access to the system selected organizational unit and its children. In Campaign v8 after migration, the user would have access to **all the assigned organizational units and their children**, potentially escalating privileges. To prevent this, avoid assigning users to security groups with parallel organizational units. Learn more about [parallel organizational unit assignment](#parallel-assignments).
-
-### Org units and folder management
 
 In Adobe Campaign Standard, the **Organization unit** is mapped to the existing **Folder** hierarchy model in Campaign v8 to maintain similar access control. [Learn more about folder management](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
 
