@@ -48,6 +48,12 @@ The query modeler is available in every context where you need to define rules t
 
 The query modeler provides a central canvas where you build your query and a right pane that provides information on your query.
 
+>[!IMPORTANT]
+>
+>A brand new interface for the Query modeler is available, to switch to this new rule builder experience, press the toggle button in the top-right corner. You can go back to the classic Query modeler anytime you want by simply pressing the toggle back to disable the new interface.
+>![Image showing the toggle for the new rule builder interface](assets/query-modeler-toggle.png){zoomable="yes"} 
+
+
 >[!CONTEXTUALHELP]
 >id="acw_rule_builder_switch_button"
 >title="New user experience"
@@ -59,13 +65,31 @@ The query modeler provides a central canvas where you build your query and a rig
 
 The query modeler central canvas is where you add and combine the different components to build your query. [Learn how to build a query](build-query.md)
 
-The toolbar located in the upper-right corner of the canvas provides options to easily manipulate the query components and navigate the canvas:
+>[!BEGINTABS]
+
+>[!TAB Classic Query modeler]
+
+The toolbar located in the bottom-right corner of the canvas provides options to easily manipulate the query components and navigate the canvas:
 
 * **Multiple selection mode**: Select multiple filtering components to copy and paste them at the location of your choice.
 * **Rotate**: Switch the canvas vertically.
 * **Fit to screen**: Adapt the canvas zoom level to your screen.
 * **Zoom out** / **Zoom in**: Zoom out or in on the canvas.
 * **Display map**: Open a snapshot of the canvas showing your current location.
+
+>[!TAB New rule builder experience]
+
+The toolbar located in the upper-right corner of the canvas provides options to easily manipulate the query components and navigate the canvas:
+
+* **Move up selection**: Move the component up a row.
+* **Move down selection**: Move the component down a row.
+* **Group selection**: Put two components in a group.
+* **Ungroup selection**: Separate the components of a single group.
+* **Expand all**: Expand all the groups.
+* **Collapse all**: Collapse all the groups.
+* **Remove all**: Remove all groups and components.
+
+>[!ENDTABS]
 
 ### The Rule properties pane {#rule-properties}
 
