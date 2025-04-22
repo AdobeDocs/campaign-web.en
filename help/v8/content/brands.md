@@ -77,7 +77,7 @@ Users can either enter the details manually or upload a brand guidelines documen
 
     ![Visual content tab with example image options](assets/brands_3.png)
 
-1. Once configured, click **[!UICONTROL Save]**, then **[!UICONTROL Publish]** to make your brand guideline available in the AI assistant.
+1. Once configured, click **[!UICONTROL Save]**, then **[!UICONTROL Publish]** to make your brand guideline available in AI Assistant.
 
 1. To modify your published brand, click **[!UICONTROL Edit brand]**.
 
@@ -98,6 +98,6 @@ Users can either enter the details manually or upload a brand guidelines documen
 
     ![Advanced menu options in Brands dashboard](assets/brands_5.png)
 
-Your brand guidelines are now accessible from the **[!UICONTROL Brand]** drop-down in the AI assistant menu. This enables the AI assistant to generate content and assets aligned with your specifications. [Learn more about the AI assistant](../email/generative-gs.md)
+Your brand guidelines are now accessible from the **[!UICONTROL Brand]** drop-down in AI Assistant menu. This enables AI Assistant to generate content and assets aligned with your specifications. [Learn more about AI Assistant](../email/generative-gs.md)
 
 ![AI assistant menu with Brand drop-down](assets/brands_6.png)

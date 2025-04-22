@@ -1,29 +1,29 @@
 ---
 audience: end-user
 title: Generative content
-description: Get Started with the AI Assistant
+description: Get Started with AI Assistant
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 ---
-# Email generation with the AI Assistant {#generative-content}
+# Email generation with AI Assistant {#generative-content}
 
 >[!IMPORTANT]
 >
 >Before starting to use this capability, read the related [Guardrails and Limitations](generative-gs.md#generative-guardrails).
 ></br>
 >
->You must agree to a [user agreement](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} before using the AI Assistant in Adobe Campaign Web. For more information, contact your Adobe representative.
+>You must agree to a [user agreement](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} before using AI Assistant in Adobe Campaign Web. For more information, contact your Adobe representative.
 
-Once you create and personalize your emails, use the AI Assistant in Adobe Campaign Web to enhance your content.
+Once you create and personalize your emails, use AI Assistant in Adobe Campaign Web to enhance your content.
 
-The AI Assistant in Adobe Campaign Web helps optimize the impact of your deliveries by generating entire emails, targeted text content, and images tailored to resonate with your audience. This improves your email campaigns for better engagement.
+AI Assistant in Adobe Campaign Web helps optimize the impact of your deliveries by generating entire emails, targeted text content, and images tailored to resonate with your audience. This improves your email campaigns for better engagement.
 
-With your email campaigns, use the AI Assistant to generate full emails, text, or images. Explore the tabs below to learn how to use the AI Assistant in Adobe Campaign Web.
+With your email campaigns, use AI Assistant to generate full emails, text, or images. Explore the tabs below to learn how to use AI Assistant in Adobe Campaign Web.
 
 >[!BEGINTABS]
 
 >[!TAB Full email generation]
 
-In the following example, leverage the AI Assistant in Adobe Campaign Web to refine an existing email, customizing it for a special event.
+In the following example, leverage AI Assistant in Adobe Campaign Web to refine an existing email, customizing it for a special event.
 
 1. After creating and configuring your email delivery, click **[!UICONTROL Edit content]**.
 
@@ -31,9 +31,9 @@ In the following example, leverage the AI Assistant in Adobe Campaign Web to ref
 
 1. Personalize your layout as needed, and access the **[!UICONTROL AI Assistant]** menu.
 
-    ![Screenshot showing the AI Assistant menu in Adobe Campaign Web](assets/full-email-1.png){zoomable="yes"}
+    ![Screenshot showing AI Assistant menu in Adobe Campaign Web](assets/full-email-1.png){zoomable="yes"}
 
-1. Enable the **[!UICONTROL Use original content]** option for the AI Assistant to personalize new content based on the selected content.
+1. Enable the **[!UICONTROL Use original content]** option for AI Assistant to personalize new content based on the selected content.
     
 1. Fine-tune the content by describing what you want to generate in the **[!UICONTROL Prompt]** field. 
 
@@ -46,7 +46,7 @@ In the following example, leverage the AI Assistant in Adobe Campaign Web to ref
 1. Tailor your prompt using the **[!UICONTROL Text settings]** option:
 
     * **[!UICONTROL Communication strategy]**: Choose the most suitable communication style for your generated text.
-    * **[!UICONTROL Tone]**: Ensure the tone of your email resonates with your audience. Whether you want to sound informative, playful, or persuasive, the AI Assistant adapts the message accordingly.
+    * **[!UICONTROL Tone]**: Ensure the tone of your email resonates with your audience. Whether you want to sound informative, playful, or persuasive, AI Assistant adapts the message accordingly.
 
     ![Screenshot showing text settings options in Adobe Campaign Web](assets/full-email-3.png){zoomable="yes"}
 
@@ -60,7 +60,7 @@ In the following example, leverage the AI Assistant in Adobe Campaign Web to ref
 
     ![Screenshot showing image settings options in Adobe Campaign Web](assets/full-email-4.png){zoomable="yes"}
 
-1. From the **[!UICONTROL Brand assets]** menu, click **[!UICONTROL Upload brand asset]** to add any brand asset that provides additional context to the AI Assistant, or select a previously uploaded one.
+1. From the **[!UICONTROL Brand assets]** menu, click **[!UICONTROL Upload brand asset]** to add any brand asset that provides additional context to AI Assistant, or select a previously uploaded one.
 
     Previously uploaded files are available in the **[!UICONTROL Uploaded brand assets]** drop-down. Toggle the assets you wish to include in your generation.
 
@@ -70,7 +70,7 @@ In the following example, leverage the AI Assistant in Adobe Campaign Web to ref
 
 1. Navigate to the **[!UICONTROL Refine]** option within the **[!UICONTROL Preview]** window to access additional customization features:
 
-    * **[!UICONTROL Rephrase]**: The AI Assistant rephrases your message in different ways, keeping your writing fresh and engaging for diverse audiences.
+    * **[!UICONTROL Rephrase]**: AI Assistant rephrases your message in different ways, keeping your writing fresh and engaging for diverse audiences.
     * **[!UICONTROL Use simpler language]**: Simplify your language to ensure clarity and accessibility for a wider audience.
 
     You can also change the **[!UICONTROL Tone]** and **[!UICONTROL Communication strategy]** of your text.
@@ -87,7 +87,7 @@ When you define your content, audience, and schedule, prepare your email deliver
 
 >[!TAB Text only generation]
 
-In the following example, leverage the AI Assistant to enhance the content of your email invitation for an upcoming event.
+In the following example, leverage AI Assistant to enhance the content of your email invitation for an upcoming event.
 
 1. After creating and configuring your email delivery, click **[!UICONTROL Edit content]**.
 
@@ -97,7 +97,7 @@ In the following example, leverage the AI Assistant to enhance the content of yo
 
     ![Screenshot showing text component selection in Adobe Campaign Web](assets/text-genai-1.png){zoomable="yes"}
 
-1. Enable the **[!UICONTROL Use original content]** option for the AI Assistant to personalize new content based on the selected content.
+1. Enable the **[!UICONTROL Use original content]** option for AI Assistant to personalize new content based on the selected content.
 
 1. Fine-tune the content by describing what you want to generate in the **[!UICONTROL Prompt]** field. 
 
@@ -108,12 +108,12 @@ In the following example, leverage the AI Assistant to enhance the content of yo
 1. Tailor your prompt using the **[!UICONTROL Text settings]** option:
 
     * **[!UICONTROL Communication strategy]**: Choose the most suitable communication style for your generated text.
-    * **[!UICONTROL Tone]**: Ensure the tone of your email resonates with your audience. Whether you want to sound informative, playful, or persuasive, the AI Assistant adapts the message accordingly.
+    * **[!UICONTROL Tone]**: Ensure the tone of your email resonates with your audience. Whether you want to sound informative, playful, or persuasive, AI Assistant adapts the message accordingly.
     * **Text Length**: Use the slider to select the desired length of your text.
 
     ![Screenshot showing text settings options in Adobe Campaign Web](assets/text-genai-3.png){zoomable="yes"}
 
-1. From the **[!UICONTROL Brand assets]** menu, click **[!UICONTROL Upload brand asset]** to add any brand asset that provides additional context to the AI Assistant, or select a previously uploaded one.
+1. From the **[!UICONTROL Brand assets]** menu, click **[!UICONTROL Upload brand asset]** to add any brand asset that provides additional context to AI Assistant, or select a previously uploaded one.
 
     Previously uploaded files are available in the **[!UICONTROL Uploaded brand assets]** drop-down. Toggle the assets you wish to include in your generation.
 
@@ -141,7 +141,7 @@ When you define your content, audience, and schedule, prepare your email deliver
 
 >[!TAB Image generation]
 
-In the example below, learn how to leverage the AI Assistant to optimize and improve your assets, ensuring a more user-friendly experience.
+In the example below, learn how to leverage AI Assistant to optimize and improve your assets, ensuring a more user-friendly experience.
 
 1. After creating and configuring your email delivery, click **[!UICONTROL Edit content]**.
 
@@ -149,13 +149,13 @@ In the example below, learn how to leverage the AI Assistant to optimize and imp
 
 1. Fill in the **[!UICONTROL Basic details]** for your delivery. Once done, click **[!UICONTROL Edit email content]**.
 
-1. Select the asset you want to change with the AI Assistant.
+1. Select the asset you want to change with AI Assistant.
 
 1. From the right-hand menu, select **[!UICONTROL AI Assistant]**.
 
     ![Screenshot showing AI Assistant menu for image generation in Adobe Campaign Web](assets/image-genai-1.png){zoomable="yes"}
 
-1. Enable the **[!UICONTROL Reference style]** option for the AI Assistant to personalize new content based on the selected content.
+1. Enable the **[!UICONTROL Reference style]** option for AI Assistant to personalize new content based on the selected content.
 
 1. Fine-tune the content by describing what you want to generate in the **[!UICONTROL Prompt]** field. 
 
@@ -174,7 +174,7 @@ In the example below, learn how to leverage the AI Assistant to optimize and imp
 
     ![Screenshot showing image settings options in Adobe Campaign Web](assets/image-genai-3.png){zoomable="yes"}
 
-1. From the **[!UICONTROL Brand assets]** menu, click **[!UICONTROL Upload brand asset]** to add any brand asset that provides additional context to the AI Assistant, or select a previously uploaded one.
+1. From the **[!UICONTROL Brand assets]** menu, click **[!UICONTROL Upload brand asset]** to add any brand asset that provides additional context to AI Assistant, or select a previously uploaded one.
 
     Previously uploaded files are available in the **[!UICONTROL Uploaded brand assets]** drop-down. Toggle the assets you wish to include in your generation.
 
@@ -200,6 +200,6 @@ In the example below, learn how to leverage the AI Assistant to optimize and imp
 
 ## How-to video {#video}
 
-Learn how to use the AI Assistant to generate full email content, text, and images.
+Learn how to use AI Assistant to generate full email content, text, and images.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428984)

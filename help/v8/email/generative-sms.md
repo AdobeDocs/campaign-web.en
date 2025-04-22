@@ -1,19 +1,19 @@
 ---
 audience: end-user
-title: SMS with the AI Assistant
-description: Get Started with the AI Assistant
+title: SMS with AI Assistant
+description: Get Started with AI Assistant
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
 ---
-# SMS generation with the AI Assistant {#generative-sms}
+# SMS generation with AI Assistant {#generative-sms}
 
 >[!IMPORTANT]
 >
 >Before starting to use this capability, read the related [Guardrails and Limitations](generative-gs.md#generative-guardrails).
 ></br>
 >
->You must agree to a [user agreement](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) before using the AI Assistant in Adobe Campaign Web. For more information, contact your Adobe representative.
+>You must agree to a [user agreement](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) before using AI Assistant in Adobe Campaign Web. For more information, contact your Adobe representative.
 
-Once you craft and personalize your SMS messages to suit your audience, elevate your communication with the AI Assistant in Adobe Campaign Web, powered by innovative AI technology.
+Once you craft and personalize your SMS messages to suit your audience, elevate your communication with AI Assistant in Adobe Campaign Web, powered by innovative AI technology.
 
 This tool provides intelligent suggestions for refining your content, ensuring that your messages resonate effectively and maximize engagement.
 
@@ -40,12 +40,12 @@ This tool provides intelligent suggestions for refining your content, ensuring t
 1. Tailor your prompt using the **[!UICONTROL Text settings]** option:
 
     * **[!UICONTROL Communication strategy]**: Choose the most suitable communication style for your generated text.
-    * **[!UICONTROL Tone]**: Ensure the tone of your email resonates with your audience. Whether you want to sound informative, playful, or persuasive, the AI Assistant adapts the message accordingly.
+    * **[!UICONTROL Tone]**: Ensure the tone of your email resonates with your audience. Whether you want to sound informative, playful, or persuasive, AI Assistant adapts the message accordingly.
     * **Text Length**: Use the slider to select the desired length of your text.
 
     ![Screenshot showing Text settings options](assets/sms-genai-3.png){zoomable="yes"} 
 
-1. From the **[!UICONTROL Brand assets]** menu, click **[!UICONTROL Upload brand asset]** to add any brand asset containing content that provides additional context to the AI Assistant, or select a previously uploaded one.
+1. From the **[!UICONTROL Brand assets]** menu, click **[!UICONTROL Upload brand asset]** to add any brand asset containing content that provides additional context to AI Assistant, or select a previously uploaded one.
 
     Previously uploaded files are available in the **[!UICONTROL Uploaded brand assets]** drop-down. Toggle the assets you wish to include in your generation.
 
@@ -58,8 +58,8 @@ This tool provides intelligent suggestions for refining your content, ensuring t
 1. Navigate to the **[!UICONTROL Refine]** option within the **[!UICONTROL Preview]** window to access additional customization features and fine-tune your variation to your preferences:
 
     * **[!UICONTROL Use as reference content]**: The chosen variant serves as the reference content for generating other results.
-    * **[!UICONTROL Use simpler language]**: The AI Assistant helps you write clear, concise messages that everyone can understand.
-    * **[!UICONTROL Rephrase]**: The AI Assistant rephrases your message to keep it engaging for different audiences.
+    * **[!UICONTROL Use simpler language]**: AI Assistant helps you write clear, concise messages that everyone can understand.
+    * **[!UICONTROL Rephrase]**: AI Assistant rephrases your message to keep it engaging for different audiences.
 
     You can also change the **[!UICONTROL Tone]** and **[!UICONTROL Communication strategy]** of your text.
 
@@ -91,7 +91,7 @@ When you define your content, audience, and schedule, prepare your SMS delivery.
 
     ![Screenshot showing AI Assistant menu](assets/sms-text-1.png){zoomable="yes"}
 
-1. Enable the **[!UICONTROL Use reference content]** option for the AI Assistant to personalize new content based on the selected content.
+1. Enable the **[!UICONTROL Use reference content]** option for AI Assistant to personalize new content based on the selected content.
 
 1. Fine-tune the content by describing what you want to generate in the **[!UICONTROL Prompt]** field.
 
@@ -108,7 +108,7 @@ When you define your content, audience, and schedule, prepare your SMS delivery.
 
     ![Screenshot showing Text settings options](assets/sms-text-3.png){zoomable="yes"}  
 
-1. From the **[!UICONTROL Brand assets]** menu, click **[!UICONTROL Upload brand asset]** to add any brand asset containing content that provides additional context to the AI Assistant, or select a previously uploaded one.
+1. From the **[!UICONTROL Brand assets]** menu, click **[!UICONTROL Upload brand asset]** to add any brand asset containing content that provides additional context to AI Assistant, or select a previously uploaded one.
 
     Previously uploaded files are available in the **[!UICONTROL Uploaded brand assets]** drop-down. Toggle the assets you wish to include in your generation.
 
@@ -119,8 +119,8 @@ When you define your content, audience, and schedule, prepare your SMS delivery.
 1. Navigate to the **[!UICONTROL Refine]** option within the **[!UICONTROL Preview]** window to access additional customization features and fine-tune your variation to your preferences:
 
     * **[!UICONTROL Use as reference content]**: The chosen variant serves as the reference content for generating other results.
-    * **[!UICONTROL Rephrase]**: The AI Assistant can rephrase your message in different ways, keeping your writing fresh and engaging for diverse audiences.
-    * **[!UICONTROL Use simpler language]**: Leverage the AI Assistant to simplify your language, ensuring clarity and accessibility for a wider audience.
+    * **[!UICONTROL Rephrase]**: AI Assistant can rephrase your message in different ways, keeping your writing fresh and engaging for diverse audiences.
+    * **[!UICONTROL Use simpler language]**: Leverage AI Assistant to simplify your language, ensuring clarity and accessibility for a wider audience.
 
     You can also change the **[!UICONTROL Tone]** and **[!UICONTROL Communication strategy]** of your text.
 

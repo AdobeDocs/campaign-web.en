@@ -1,21 +1,21 @@
 ---
 audience: end-user
-title: Push notification with the AI Assistant
-description: Get Started with the AI Assistant
+title: Push notification with AI Assistant
+description: Get Started with AI Assistant
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
 ---
-# Push notification generation with the AI Assistant {#generative-push}
+# Push notification generation with AI Assistant {#generative-push}
 
 >[!IMPORTANT]
 >
 >Before starting to use this capability, read the related [Guardrails and Limitations](generative-gs.md#generative-guardrails).
 ></br>
 >
->You must agree to a [user agreement](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) before using the AI Assistant in Adobe Campaign Web. For more information, contact your Adobe representative.
+>You must agree to a [user agreement](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) before using AI Assistant in Adobe Campaign Web. For more information, contact your Adobe representative.
 
-The AI Assistant helps optimize the impact of your deliveries by suggesting different content that resonates with your audience.
+AI Assistant helps optimize the impact of your deliveries by suggesting different content that resonates with your audience.
 
-In the following example, the AI Assistant is leveraged to craft compelling messaging to create a more engaging customer experience.
+In the following example, AI Assistant is leveraged to craft compelling messaging to create a more engaging customer experience.
 
 1. After creating and configuring your push notification delivery, click **[!UICONTROL Edit content]**.
 
@@ -25,7 +25,7 @@ In the following example, the AI Assistant is leveraged to craft compelling mess
 
     ![Screenshot showing the Show AI Assistant menu](assets/push-genai-1.png){zoomable="yes"}
 
-1. Enable the **[!UICONTROL Use original content]** option for the AI Assistant to personalize new content based on the selected content.
+1. Enable the **[!UICONTROL Use original content]** option for AI Assistant to personalize new content based on the selected content.
 
 1. Fine-tune the content by describing what you want to generate in the **[!UICONTROL Prompt]** field.
 
@@ -38,7 +38,7 @@ In the following example, the AI Assistant is leveraged to craft compelling mess
 1. Tailor your prompt using the **[!UICONTROL Text settings]** option:
 
     * **[!UICONTROL Communication strategy]**: Choose the most suitable communication style for your generated text.
-    * **[!UICONTROL Tone]**: Adjust the tone of your email to resonate with your audience. Whether you want to sound informative, playful, or persuasive, the AI Assistant adapts the message accordingly.
+    * **[!UICONTROL Tone]**: Adjust the tone of your email to resonate with your audience. Whether you want to sound informative, playful, or persuasive, AI Assistant adapts the message accordingly.
 
     ![Screenshot showing Text settings options](assets/push-genai-3.png){zoomable="yes"}
 
@@ -51,7 +51,7 @@ In the following example, the AI Assistant is leveraged to craft compelling mess
 
     ![Screenshot showing Image settings options](assets/push-genai-4.png){zoomable="yes"}
 
-1. From the **[!UICONTROL Brand assets]** menu, click **[!UICONTROL Upload brand asset]** to add any brand asset containing content that provides additional context to the AI Assistant, or select a previously uploaded one.
+1. From the **[!UICONTROL Brand assets]** menu, click **[!UICONTROL Upload brand asset]** to add any brand asset containing content that provides additional context to AI Assistant, or select a previously uploaded one.
 
     Previously uploaded files are available in the **[!UICONTROL Uploaded brand assets]** drop-down. Toggle the assets you wish to include in your generation.
 

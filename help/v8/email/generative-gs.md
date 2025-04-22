@@ -1,15 +1,15 @@
 ---
 audience: end-user
-title: Get started with the AI Assistant
-description: Get Started with the AI Assistant
+title: Get started with AI Assistant
+description: Get Started with AI Assistant
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 ---
-# Work with the AI Assistant {#generative-gs}
+# Work with AI Assistant {#generative-gs}
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
 >title="AI Assistant"
->abstract="After crafting and personalizing your delivery, use the AI Assistant to enhance your content. This feature simplifies personalization and content improvement by allowing you to fine-tune the content by describing what you want to generate."
+>abstract="After crafting and personalizing your delivery, use AI Assistant to enhance your content. This feature simplifies personalization and content improvement by allowing you to fine-tune the content by describing what you want to generate."
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_context"
@@ -34,11 +34,11 @@ AI Assistant simplifies the creation and execution of marketing campaigns across
 >
 >* Before using this capability, review the related [Guardrails and Limitations](#generative-guardrails).
 >
->* You must agree to a [user agreement](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) before using the AI Assistant in Adobe Campaign Web. For more information, contact your Adobe representative.
+>* You must agree to a [user agreement](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) before using AI Assistant in Adobe Campaign Web. For more information, contact your Adobe representative.
 
-## Access the AI Assistant {#generative-access}
+## Access AI Assistant {#generative-access}
 
-The AI Assistant for emails, push notifications, and SMS is now in General Availability (GA) and available to all users. Required permissions and steps to grant access to users are detailed below.
+AI Assistant for emails, push notifications, and SMS is now in General Availability (GA) and available to all users. Required permissions and steps to grant access to users are detailed below.
 
 +++ Learn how to assign Content generation-related permissions
 
@@ -55,14 +55,14 @@ Learn how to define permissions in Campaign in [this section](../get-started/per
 
 ## Guardrails and limitations {#generative-guardrails}
 
-General guidelines for using the AI Assistant in Adobe Campaign Web for email generation are listed below:
+General guidelines for using AI Assistant in Adobe Campaign Web for email generation are listed below:
 
 * The quality of the generated content depends heavily on the marketing objective or prompt you define. Use a well-defined prompt for the GenAI model to interpret accurately.  
 * Upload brand assets to ensure accurate, on-brand content. Otherwise, content is based on publicly available information. The uploaded content can be in the following formats: PDF, JPEG, PNG, or ZIP files (with supported file formats).  
 * The maximum size for uploaded brand assets is 50MB. Larger files or numerous images may increase processing time.  
-* Use [built-in email templates](../email/create-email-templates.md), brand-specific templates, or custom templates to create your email content using the AI Assistant. Email templates with up to 8–10 images are recommended.  
+* Use [built-in email templates](../email/create-email-templates.md), brand-specific templates, or custom templates to create your email content using AI Assistant. Email templates with up to 8–10 images are recommended.  
 * Report any problematic outputs using the thumbs-up, thumbs-down, or flag icons when selecting variants.  
-* Your use of the AI Assistant is subject to the Adobe Experience Cloud Generative AI User Guidelines. [Learn more](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).  
+* Your use of AI Assistant is subject to the Adobe Experience Cloud Generative AI User Guidelines. [Learn more](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).  
 * As part of Adobe's commitment to transparency in the use of generative AI tools in media creation, Adobe applies Content Credentials when content or a project that includes a Firefly-generated asset is downloaded or exported. [Learn more](https://helpx.adobe.com/firefly/using/content-credentials.html).  
 
 The following limitations apply to AI Assistant in Adobe Campaign Web:
@@ -80,7 +80,7 @@ The following limitations apply to AI Assistant in Adobe Campaign Web:
 <img alt="[Email generation with AI Assistant]" src="assets/do-not-localize/text-genai.jpeg">
 </a>
 <div>
-<a href="generative-content.md"><strong>Email generation with the AI Assistant</strong></a>
+<a href="generative-content.md"><strong>Email generation with AI Assistant</strong></a>
 </div>
 <p>
 </td>
@@ -88,7 +88,7 @@ The following limitations apply to AI Assistant in Adobe Campaign Web:
 <a href="generative-sms.md">
 <img alt="[SMS generation with AI Assistant]" src="assets/do-not-localize/image-genai.jpeg">
 </a>
-<div><a href="generative-sms.md"><strong>SMS generation with the AI Assistant</strong>
+<div><a href="generative-sms.md"><strong>SMS generation with AI Assistant</strong>
 </div>
 <p>
 </td>
@@ -97,7 +97,7 @@ The following limitations apply to AI Assistant in Adobe Campaign Web:
 <img alt="[Push notification generation with AI Assistant]" src="assets/do-not-localize/email-genai.jpeg">
 </a>
 <div>
-<a href="generative-push.md"><strong>Push notification generation with the AI Assistant</strong></a>
+<a href="generative-push.md"><strong>Push notification generation with AI Assistant</strong></a>
 </div>
 <p></td>
 </tr></table>

@@ -1,15 +1,15 @@
 ---
 audience: end-user
-title: Landing page with the AI Assistant
-description: Get Started with the AI Assistant
+title: Landing page with AI Assistant
+description: Get Started with AI Assistant
 exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
 ---
-# Landing page generation with the AI Assistant{#generative-lp}
+# Landing page generation with AI Assistant{#generative-lp}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="Generate Landing pages with AI"
->abstract="You can now use the AI Assistant to create your landing page deliveries, enabling you to generate text, images, or complete page layouts."
+>abstract="You can now use AI Assistant to create your landing page deliveries, enabling you to generate text, images, or complete page layouts."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
 
 >[!IMPORTANT]
@@ -17,19 +17,19 @@ exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
 >Before starting using this capability, read the related [Guardrails and Limitations](generative-gs.md#generative-guardrails).
 ></br>
 >
->You must agree to a [user agreement](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) before you can use the AI Assistant in Adobe Campaign Web. For more information, contact your Adobe representative.
+>You must agree to a [user agreement](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) before you can use AI Assistant in Adobe Campaign Web. For more information, contact your Adobe representative.
 
-Transform your landing pages with the AI Assistant in Adobe Campaign Web, powered by generative AI. 
+Transform your landing pages with AI Assistant in Adobe Campaign Web, powered by generative AI. 
 
 Effortlessly create impactful content, including complete pages, tailored text snippets, and customized visuals that resonate with your audience, driving higher engagement and interaction.
 
-Explore the tabs below to learn how to use the AI Assistant in Adobe Campaign Web.
+Explore the tabs below to learn how to use AI Assistant in Adobe Campaign Web.
 
 >[!BEGINTABS]
 
 >[!TAB Full landing page generation]
 
-In the following example, learn how to leverage the AI Assistant to refine an existing landing page template.
+In the following example, learn how to leverage AI Assistant to refine an existing landing page template.
 
 1. After creating and configuring your landing page, click **[!UICONTROL Edit content]**.
 
@@ -37,9 +37,9 @@ In the following example, learn how to leverage the AI Assistant to refine an ex
 
 1. Personalize your layout as needed, and access the **[!UICONTROL AI Assistant]** menu.
 
-    ![Screenshot showing the AI Assistant menu in the landing page editor.](assets/lp_full_gen_1.png){zoomable="yes"}
+    ![Screenshot showing AI Assistant menu in the landing page editor.](assets/lp_full_gen_1.png){zoomable="yes"}
 
-1. Enable the **[!UICONTROL Use original content]** option for the AI Assistant to personalize new content based on the selected content.
+1. Enable the **[!UICONTROL Use original content]** option for AI Assistant to personalize new content based on the selected content.
 
 1. Fine-tune the content by describing what you want to generate in the **[!UICONTROL Prompt]** field. 
 
@@ -50,7 +50,7 @@ In the following example, learn how to leverage the AI Assistant to refine an ex
 1. Tailor your prompt with the **[!UICONTROL Text settings]** option:
 
     * **[!UICONTROL Communication strategy]**: Choose the most suitable communication style for your generated text.
-    * **[!UICONTROL Tone]**: The tone of your landing page should resonate with your audience. Whether you want to sound informative, playful, or persuasive, the AI Assistant can adapt the message accordingly.
+    * **[!UICONTROL Tone]**: The tone of your landing page should resonate with your audience. Whether you want to sound informative, playful, or persuasive, AI Assistant can adapt the message accordingly.
 
     ![Screenshot showing text settings options.](assets/lp_full_gen_3.png){zoomable="yes"}
 
@@ -64,7 +64,7 @@ In the following example, learn how to leverage the AI Assistant to refine an ex
 
     ![Screenshot showing image settings options.](assets/lp_full_gen_4.png){zoomable="yes"}
 
-1. From the **[!UICONTROL Brand assets]** menu, click **[!UICONTROL Upload brand asset]** to add any brand asset that provides additional context to the AI Assistant, or select a previously uploaded one.
+1. From the **[!UICONTROL Brand assets]** menu, click **[!UICONTROL Upload brand asset]** to add any brand asset that provides additional context to AI Assistant, or select a previously uploaded one.
 
     Previously uploaded files are available in the **[!UICONTROL Uploaded brand assets]** drop-down. Toggle the assets you wish to include in your generation.
 
@@ -76,7 +76,7 @@ In the following example, learn how to leverage the AI Assistant to refine an ex
 
 1. Navigate to the **[!UICONTROL Refine]** option within the **[!UICONTROL Preview]** window to access additional customization features:
 
-    * **[!UICONTROL Rephrase]**: The AI Assistant can rephrase your message in different ways, keeping your writing fresh and engaging for diverse audiences.
+    * **[!UICONTROL Rephrase]**: AI Assistant can rephrase your message in different ways, keeping your writing fresh and engaging for diverse audiences.
     * **[!UICONTROL Use simpler language]**: Simplify your language to ensure clarity and accessibility for a wider audience.
 
     You can also change the **[!UICONTROL Tone]** and **[!UICONTROL Communication strategy]** of your text.
@@ -91,7 +91,7 @@ Once your landing page is ready, publish it to make it available for use in a me
 
 >[!TAB Text only generation]
 
-In the following example, learn how to leverage the AI Assistant to enhance the content of your landing page.
+In the following example, learn how to leverage AI Assistant to enhance the content of your landing page.
 
 1. After creating and configuring your landing page, click **[!UICONTROL Edit content]**.
 
@@ -99,9 +99,9 @@ In the following example, learn how to leverage the AI Assistant to enhance the 
 
 1. Select a **[!UICONTROL Text component]** to target specific content, and access the **[!UICONTROL AI Assistant]** menu.
 
-    ![Screenshot showing the AI Assistant menu for text components.](assets/lp-text-genai-1.png){zoomable="yes"}
+    ![Screenshot showing AI Assistant menu for text components.](assets/lp-text-genai-1.png){zoomable="yes"}
 
-1. Enable the **[!UICONTROL Use original content]** option for the AI Assistant to personalize new content based on the selected content.
+1. Enable the **[!UICONTROL Use original content]** option for AI Assistant to personalize new content based on the selected content.
 
 1. Fine-tune the content by describing what you want to generate in the **[!UICONTROL Prompt]** field. 
 
@@ -112,12 +112,12 @@ In the following example, learn how to leverage the AI Assistant to enhance the 
 1. Tailor your prompt with the **[!UICONTROL Text settings]** option:
 
     * **[!UICONTROL Communication strategy]**: Choose the most suitable communication style for your generated text.
-    * **[!UICONTROL Tone]**: The tone of your landing page should resonate with your audience. Whether you want to sound informative, playful, or persuasive, the AI Assistant can adapt the message accordingly.
+    * **[!UICONTROL Tone]**: The tone of your landing page should resonate with your audience. Whether you want to sound informative, playful, or persuasive, AI Assistant can adapt the message accordingly.
     * **Text Length**: Use the slider to select the desired length of your text.
 
     ![Screenshot showing text settings options.](assets/lp-text-genai-3.png){zoomable="yes"} 
     
-1. From the **[!UICONTROL Brand assets]** menu, click **[!UICONTROL Upload brand asset]** to add any brand asset that provides additional context to the AI Assistant, or select a previously uploaded one.
+1. From the **[!UICONTROL Brand assets]** menu, click **[!UICONTROL Upload brand asset]** to add any brand asset that provides additional context to AI Assistant, or select a previously uploaded one.
 
     Previously uploaded files are available in the **[!UICONTROL Uploaded brand assets]** drop-down. Toggle the assets you wish to include in your generation.
 
@@ -147,19 +147,19 @@ Once your landing page is ready, publish it to make it available for use in a me
 
 >[!TAB Image only generation]
 
-In the example below, learn how to leverage the AI Assistant to optimize and improve your assets, ensuring a more user-friendly experience. 
+In the example below, learn how to leverage AI Assistant to optimize and improve your assets, ensuring a more user-friendly experience. 
 
 1. After creating and configuring your landing page, click **[!UICONTROL Edit content]**.
 
     For more information on how to configure your landing page, refer to [this page](../landing-pages/create-lp.md).
 
-1. Select the asset you want to change with the AI Assistant.
+1. Select the asset you want to change with AI Assistant.
 
 1. From the right-hand menu, select **[!UICONTROL AI Assistant]**.
 
-    ![Screenshot showing the AI Assistant menu for image components.](assets/lp-image-gen-1.png){zoomable="yes"}
+    ![Screenshot showing AI Assistant menu for image components.](assets/lp-image-gen-1.png){zoomable="yes"}
 
-1. Enable the **[!UICONTROL Reference style]** option for the AI Assistant to personalize new content based on the reference content. You can also upload an image to add context to your variation.
+1. Enable the **[!UICONTROL Reference style]** option for AI Assistant to personalize new content based on the reference content. You can also upload an image to add context to your variation.
 
 1. Fine-tune the content by describing what you want to generate in the **[!UICONTROL Prompt]** field. 
 
@@ -178,7 +178,7 @@ In the example below, learn how to leverage the AI Assistant to optimize and imp
 
     ![Screenshot showing image settings options.](assets/lp-image-gen-3.png){zoomable="yes"}
 
-1. From the **[!UICONTROL Brand assets]** menu, click **[!UICONTROL Upload brand asset]** to add any brand asset that provides additional context to the AI Assistant, or select a previously uploaded one.
+1. From the **[!UICONTROL Brand assets]** menu, click **[!UICONTROL Upload brand asset]** to add any brand asset that provides additional context to AI Assistant, or select a previously uploaded one.
 
     Previously uploaded files are available in the **[!UICONTROL Uploaded brand assets]** drop-down. Toggle the assets you wish to include in your generation.
 
