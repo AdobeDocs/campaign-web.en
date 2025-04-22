@@ -24,7 +24,7 @@ exl-id: 230177e2-1926-451a-8a66-0db962ada514
 The **Load file** activity is a **Data management** activity. Use this activity to work with profiles and data stored in an external file. Profiles and data are not added to the database, but all fields in the input file are available for [personalization](../../personalization/gs-personalization.md), or to update profiles, or any other table.
 
 >[!NOTE]
->Supported file formats are: text (TXT) and comma-separated value (CSV). You can load files with a maximum size of 50MB.
+>Supported file formats are: text (TXT) and comma-separated value (CSV). With the Web User Interface console, you can load files up to a maximum size of 50MB. In the client console, the Data Loading activity has a limit of 150MB. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html){target="_blank"}
 
 This activity can be used with a [Reconciliation](reconciliation.md) activity to link unidentified data to existing resources. For example, the **Load file** activity can be placed before a **Reconciliation** activity if you import non-standard data into the database.
 
