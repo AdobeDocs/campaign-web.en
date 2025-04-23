@@ -97,12 +97,18 @@ Typology rules can be selected for a delivery or a delivery template in the Camp
 
 Use the provided links to browse the Campaign v8 (client console) documentation and learn more about typology rules:
 
+<!--
 * Control rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html){target="_blank"}
+-->
 * Fatigue/Pressure rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}
+<!--
 * Filtering rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/filtering-rules.html){target="_blank"}
 * Typology rules management. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/apply-rules.html){target="_blank"}
+-->
 * Campaign simulation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-simulations.html){target="_blank"}
+<!--
 * JavaScript coding for typology rules authoring. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html#use-cases-on-pressure-rules){target="_blank"}
+-->
 
 ## Workflows {#wf-capabilities}
 
@@ -110,7 +116,10 @@ The new Campaign Web user interface brings a reimagined workflow canvas interfac
 
 Note that the following capabilities are only available in the Campaign client console:
 
+<!--
 * Scripting in workflows
+-->
+
 * ETL activities: Export, Edit schema, Data loading, Data extract, SQL code
 
 Learn more about available workflow activities in Adobe Campaign v8 (console) workflow documentation [here](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html){target="_blank"}.
