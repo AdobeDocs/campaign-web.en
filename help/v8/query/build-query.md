@@ -9,6 +9,11 @@ exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
 
 To start building a query, access the query modeler from the location of your choice, depending on the action you want to perform. The query modeler opens with a blank canvas. Click the **+** button to configure the first node of your query.
 
+>[!IMPORTANT]
+>
+>A brand new interface for the Query modeler is available, to switch to this new rule builder experience, press the toggle button in the top-right corner. You can go back to the classic Query modeler anytime you want by simply pressing the toggle back to disable the new interface. You can apply the same principles as the query modeler in this new interface.
+>![Image showing the toggle for the new rule builder interface](assets/query-modeler-toggle.png){zoomable="yes"} 
+
 You can add two types of elements:
 
 * **Filtering components** (Custom condition, Select audience, Predefined filter) allow you to build your own rules, select an audience, or use a predefined filter to refine your query. They are added at the start of your query and on dotted transitions. [Learn how to work with filtering components](#filtering)
