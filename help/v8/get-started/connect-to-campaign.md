@@ -118,6 +118,14 @@ Adobe Campaign Web is currently available in the following languages:
 * Simplified Chinese - CHS
 * Traditional Chinese - CHT
 
+Additionally, locale-specific formatting (such as dates, times, calendars, numbers) may also be available in variants of the languages supported by the user interface:
+
+* English (Israel)
+* English (United Kingdom)
+* Spanish (Mexico)
+* Spanish (Latin America)
+* French (Canada)
+
 Your default language for Campaign Web is determined by the preferred language specified in your user profile. It does not relate to the language of your Campaign server and client console.
 
 To change your language:
