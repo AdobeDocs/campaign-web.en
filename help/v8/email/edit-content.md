@@ -38,6 +38,8 @@ The email **[!UICONTROL Edit content]** screen allows you to:
 >
 >All the editable text fields of this screen can be filled in using personalization fields. [Learn how to personalize content](../personalization/personalize.md)
 
+### Configure the delivery
+
 To configure or edit the content of an email, follow the steps below.
 
 1. Click the **[!UICONTROL Edit content]** button from the [email delivery dashboard](../email/create-email.md) screen.
@@ -82,14 +84,19 @@ To configure or edit the content of an email, follow the steps below.
 
     You are then able to insert them into the email using personalization fields. [Learn how to send offers](../msg/offers.md)
 
-1. Click the **[!UICONTROL Edit email body]** button to structure and design the content of the email using the [Email Designer](get-started-email-designer.md#start-authoring). Additional information on how to design email content are available in these sections:
+### Edit the email body
 
-    * [Author emails from scratch](create-email-content.md)
-    * [Style your content](get-started-email-style.md)
+1. Click the **[!UICONTROL Edit email body]** button to structure and design the content of the email using the [Email Designer](get-started-email-designer.md#start-authoring). 
 
     >[!NOTE]
     >
     >You can also hover over the email preview and select **[!UICONTROL Open email designer]**.
+
+
+    Additional information on how to design email content are available in these sections:
+
+    * [Author emails from scratch](create-email-content.md)
+    * [Style your content](get-started-email-style.md)
 
 1. By default, tracking is enabled for the delivery. You can disable this option from the **[!UICONTROL Optional features]** section. [Learn how to add links and manage tracking](message-tracking.md)
 
