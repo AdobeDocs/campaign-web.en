@@ -87,7 +87,7 @@ To display custom fields in the interface, follow these steps:
 
 1. Once custom fields are added, you can:
 
-    * **Reorder fields**: Use the up and down arrows.
+    * **Reorder fields**: Use the up and down arrows, or move fields using drag and drop.
     * **Make fields mandatory**: Select the **Mandatory** checkbox. 
     * **Edit field settings**: Click the ellipsis button and choose **[!UICONTROL Edit]**. [Learn more](#settings)
     * **Delete fields**: Click the ellipsis button and choose **[!UICONTROL Delete]**.
