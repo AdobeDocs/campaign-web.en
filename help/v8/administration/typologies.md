@@ -17,6 +17,11 @@ exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
 >title="Typologies & typology rules"
 >abstract="Typologies allow you to standardize business practices across all deliveries. A typology is a collection of typology rules that lets you control, filter, and prioritize the sending of deliveries. Profiles matching criteria within a typology rule are excluded from the delivery audiences during the preparation phase."
 
+>[!CONTEXTUALHELP]
+>id="acw_business_rules_typology_rules_type"
+>title="Filtering"
+>abstract=" Two types of typology rules are available: <br/><br/>**Control** rules which ensure message quality and validity pre-send, such as character display, SMS length, address format, or URL shortening. <br/><br/>**Filtering** rules which exclude segments of the target audience based on specific criteria, such as age, location, country, or phone numbers."
+
 ## About typologies
 
 Typologies allow you to standardize business practices across all deliveries. A **typology** is a collection of **typology rules** that lets you control, filter, and prioritize the sending of deliveries. Profiles matching criteria within a typology rule are excluded from the delivery audiences during the preparation phase.
