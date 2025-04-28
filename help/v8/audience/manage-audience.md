@@ -40,6 +40,8 @@ Audiences can originate from multiple sources. The **[!UICONTROL Origin]** colum
 
 To get additional information on an audience, open it from the list. The audience properties display, along with the number of profiles included in the audience. Refresh the audience count at any time using the **[!UICONTROL Calculate]** button.
 
+To preview the temporary Schema of an audience, click the **[!UICONTROL Schema preview]** button under the Propreties section. 
+
 The **[!UICONTROL Data]** tab allows you to visualize the profiles that are part of the audience. Customize this view by adding additional columns or use advanced filters to refine the displayed data.
 
 ![Screenshot showing audience details, including profiles and customization options.](assets/audiences-details.png){zoomable="yes"}
