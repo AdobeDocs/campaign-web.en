@@ -111,7 +111,7 @@ To configure or edit the content of an email, follow the steps below.
 
 In Campaign web user interface, you can set up your email deliveries as multilingual, which allows you to send messages based on a profile's preferred language. When no preference is defined, the message is sent in the default language.
 
-In a multilingual delivery, the language management is based on variants. Each variant represents one language. You can to set up a maximum of XXX variants.
+In a multilingual delivery, the language management is based on variants. Each variant represents one language.
 
 During the delivery creation, you can add the number of variants corresponding to the number of needed languages in the message. You can define also the default language when adding new languages.
 
