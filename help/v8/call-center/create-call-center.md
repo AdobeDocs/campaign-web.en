@@ -34,7 +34,7 @@ Follow these steps to create the delivery and configure its properties:
 
 >[!NOTE]
 >
->You can schedule your delivery to a specific date. For more on this, refer to this [section](../msg/gs-deliveries.md#gs-schedule).
+>You can schedule your delivery to be sent at a specific date. For more on this, refer to this [section](../msg/gs-deliveries.md#gs-schedule).
 
 ## Select the audience{#select-audience}
 
@@ -42,12 +42,14 @@ Now, you need to define the audience that will be targeted for the extraction fi
 
 1. In the **[!UICONTROL Audience]** section, click **[!UICONTROL Select audience]**.
 
+    ![Screenshot showing audience selection for a call center delivery](assets/cc-audience.png){zoomable="yes"}
+
 1. Choose an existing audience or create your own.
+
+    ![Screenshot showing audience selection for a call center delivery](assets/cc-audience2.png){zoomable="yes"}
 
     * [Learn how to select an existing audience](../audience/add-audience.md)
     * [Learn how to create a new audience](../audience/one-time-audience.md)
-
-    ![Screenshot showing audience selection for a call center delivery](assets/cc-audience.png){zoomable="yes"}
 
     >[!NOTE]
     >
