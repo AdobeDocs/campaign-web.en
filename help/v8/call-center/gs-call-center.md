@@ -15,7 +15,7 @@ This channel is ideal for lead follow-ups, retention calls, or service outreach,
 
 You can use the call center channel in one of the following ways:
 
-* **Workflows**: add a Call center activity to your workflow and configure the basic settings and content. For detailed instructions on configuring workflows, refer to [this page](../workflows/gs-workflow-creation.md).
+* **Workflows**: add a call center activity to your workflow and configure the basic settings and content. For detailed instructions on configuring workflows, refer to [this page](../workflows/gs-workflow-creation.md).
 * **Campaigns**: Once you create a campaign, you can add a call center delivery. For more information on setting up your campaign, refer to [this page](../campaigns/gs-campaigns.md).
 * **Stand-alone deliveries**: create a one-time call center delivery, without the need for workflows or campaigns. [Learn how to create a delivery](../msg/gs-deliveries.md)
 
