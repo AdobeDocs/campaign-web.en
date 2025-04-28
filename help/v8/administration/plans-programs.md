@@ -66,6 +66,10 @@ To manage the **[!UICONTROL Custom options]**:
 
 ![Screenshot showing the editing of custom details for a program](assets/program_edit.png){zoomable="yes"}
 
+1. Click the **[!UICONTROL Screen edition]** button.
+
+    ![](assets/assets/program_edit2.png){zoomable="yes"}
+
 Configure the custom options:
 
 ![Screenshot showing the configuration of custom fields for a program](assets/program_customfields.png){zoomable="yes"}
