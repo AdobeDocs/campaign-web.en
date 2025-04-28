@@ -92,13 +92,13 @@ When the delivery content is ready, you can preview it using test profiles and s
 
 The main steps to preview and send your extraction file are as follows. More details are available in [this page](./direct-mail/send-direct-mail.md).
 
-1. From your delivery content page, use **[!UICONTROL Simulate content]** to preview your personalized content and send proofs. [Read more](./direct-mail/send-direct-mail.md#preview-dm)
+1. From the delivery content page, use **[!UICONTROL Simulate content]** to preview your personalized content and send proofs. [Read more](./direct-mail/send-direct-mail.md#preview-dm)
 
     ![Screenshot showing the simulate content option in the delivery content page](assets/cc-simulate.png){zoomable="yes"}
 
 1. From the delivery page, click **[!UICONTROL Review & send]**.
 
-  ![Screenshot showing the review and send option in the delivery page](assets/cc-review-send.png){zoomable="yes"}
+    ![Screenshot showing the review and send option in the delivery page](assets/cc-review-send.png){zoomable="yes"}
 
 1. Click **[!UICONTROL Prepare]** and monitor the progress and statistics provided, then confirm.
 
