@@ -2,9 +2,8 @@
 audience: end-user
 title: Create a call center delivery
 description: Learn how to create a call center delivery with Adobe Campaign Web
-exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
 ---
-# Create a Call center delivery {#create-call-center}
+# Create and send a call center delivery {#create-call-center}
 
 You can create a standalone call center delivery, or create one in the context of a campaign workflow. The steps below detail the procedure for a standalone (one-shot) delivery. If you are working in the context of a campaign workflow, creation steps are detailed in [this section](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
@@ -27,7 +26,7 @@ Follow these steps to create the delivery and configure its properties:
 
     >[!NOTE]
     >
-    >If you wish to select a different template, refer to this [page](../msg/delivery-template.md)
+    >If you wish to select a different template, refer to this [page](../msg/delivery-template.md).
 
 1. Under **[!UICONTROL Properties]**, enter a **[!UICONTROL Label]** for the delivery. Additional options are detailed in this [section](../email/create-email.md#create-email).
 
