@@ -103,7 +103,7 @@ breadcrumb-title: Campaign Web User Interface
       + [Use content components](email/content-components.md)
       + [Add links and track messages](email/message-tracking.md)
       + [Add a link to the mirror page](email/mirror-page.md)
-      + [Add a preheader](email/preheader.md)
+      + [Add metadata](email/metadata.md)
       + [Generate the text version](email/text-version-email.md)
     + Style your content {#style}
       + [Get started with email style](email/get-started-email-style.md)
