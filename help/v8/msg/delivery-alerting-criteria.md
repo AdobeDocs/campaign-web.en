@@ -55,11 +55,6 @@ Pre-defined alerting criteria are available in Campaign Web User Interface. Thes
 >title="Criterion frequency"
 >abstract="Control the frequency of alerts per day for each delivery meeting the criterion."
 
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_filter"
->title="Create an alerting criterion"
->abstract="To create your own delivery filters, create a new predefined filter in the Campaign v8 console from the **Administration** > **Configuration** > **Predefined filters** node."
-
 To create a new criterion, follow these steps:
 
 1. Navigate to the **Delivery Alerting** menu in the left navigation pane, and select the **Criteria** tab.
@@ -73,7 +68,7 @@ To create a new criterion, follow these steps:
 
     >[!NOTE]
     >
-    >If none of the predefined filters suit your needs, contact your administrator to create your own filter. Detailed information on how to create predefined filters in the Campaign console is available in the [Adobe Campaign v8 (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-audiences/create-filters){target="_blank"}.
+    >If none of the predefined filters suit your needs, you can create your own ones from the **Customer Management** > **Predefined filters** menu. [Read more](../get-started/predefined-filters.md)
     >
     >This operation must be performed by advanced users only.
 

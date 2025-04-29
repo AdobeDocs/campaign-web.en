@@ -32,9 +32,13 @@ To manage the **[!UICONTROL Custom options]**:
 
 1. Browse to the **[!UICONTROL Schemas]**.
 1. Choose the **[!UICONTROL Editable]** schemas in the filters.
-1. Click the **[!UICONTROL Edit custom details]** icon.
+1. Click the schema.
 
 ![Screenshot showing the editing of custom details for a plan](assets/plan_edit.png){zoomable="yes"}
+
+1. Click the **[!UICONTROL Screen edition]** button.
+
+    ![](assets/plan_edit2.png){zoomable="yes"}
 
 Configure the custom options:
 
@@ -58,9 +62,13 @@ To manage the **[!UICONTROL Custom options]**:
 
 1. Browse to the **[!UICONTROL Schemas]**.
 1. Choose the **[!UICONTROL Editable]** schemas in the filters.
-1. Click the **[!UICONTROL Edit custom details]** icon.
+1. Click the schema.
 
 ![Screenshot showing the editing of custom details for a program](assets/program_edit.png){zoomable="yes"}
+
+1. Click the **[!UICONTROL Screen edition]** button.
+
+    ![](assets/program_edit2.png){zoomable="yes"}
 
 Configure the custom options:
 

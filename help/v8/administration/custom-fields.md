@@ -7,7 +7,7 @@ exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields"
->title="Edit custom detail"
+>title="Screen edition"
 >abstract="All custom fields displayed in the interface for the selected schema display. You can change the order in which they display in the interface, using the up and down arrows, and group fields into sub-sections by adding separators. To delete a custom field or edit settings such as visibility conditions, click the ellipsis button."
 
 >[!CONTEXTUALHELP]
@@ -64,15 +64,19 @@ To display custom fields in the interface, follow these steps:
 
     ![Screenshot showing the Schemas menu and Editable filter in the navigation pane](assets/custom-fields-open.png)
 
-1. Select the schema name in the list to open it. A detailed schema view displays. [Learn more about schema details](../administration/schemas.md). Click the **[!UICONTROL Edit custom detail]** button to access custom fields. In this example, fields are added for the **[!UICONTROL Recipients]** schema.
+1. Select the schema name in the list to open it. A detailed schema view displays. [Learn more about schema details](../administration/schemas.md). Click the **[!UICONTROL Screen edition]** button to access custom fields. In this example, fields are added for the **[!UICONTROL Recipients]** schema.
 
-    ![Screenshot showing the Edit custom detail button in the schema view](assets/custom-fields-edit.png)
+    ![Screenshot showing the Screen definition button in the schema view](assets/custom-fields-edit.png)
 
-1. The list of custom fields displayed in the interface for the schema appears. Here, the "CRM Id" field is visible in the profiles' details screen and has been marked as mandatory.
+    The list of custom fields displayed in the interface for the schema appears. 
 
-    |Custom fields configuration|Rendering in the interface|
-    |  ---  |  ---  |
-    |![Screenshot showing the custom fields configuration](assets/custom-fields-detail.png){zoomable="yes"}|![Screenshot showing the CRM Id field rendering in the interface](assets/custom-fields-detail-crm.png){zoomable="yes"}|
+1. Click the **[!UICONTROL Preview]** button to display the custom fields in a sample screen. 
+
+    ![](assets/custom-fields-edit2.png)
+
+    Here, the "Amount" field has been marked as mandatory.
+
+    ![](assets/custom-fields-edit3.png)
 
 1. To add a custom field to the interface, click the ellipsis button and choose one of the following options:
 
@@ -83,7 +87,7 @@ To display custom fields in the interface, follow these steps:
 
 1. Once custom fields are added, you can:
 
-    * **Reorder fields**: Use the up and down arrows.
+    * **Reorder fields**: Use the up and down arrows, or move fields using drag and drop.
     * **Make fields mandatory**: Select the **Mandatory** checkbox. 
     * **Edit field settings**: Click the ellipsis button and choose **[!UICONTROL Edit]**. [Learn more](#settings)
     * **Delete fields**: Click the ellipsis button and choose **[!UICONTROL Delete]**.
