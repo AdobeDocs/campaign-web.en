@@ -10,7 +10,7 @@ Adobe Campaign Web provides filters within each list of objects, enabling you to
 
 >[!IMPORTANT]
 >
->A brand new interface for the Query modeler is available, to switch to this new rule builder experience, press the toggle button in the top-right corner. You can go back to the classic Query modeler anytime you want by simply pressing the toggle back to disable the new interface. You can apply the same principles as the query modeler in this new interface.
+>A brand new interface for the Query modeler is available. The New rule builder allows you to build your query with more ease thanks to its simplified interface. To switch to this experience, press the toggle button in the top-right corner. You can go back to the classic Query modeler anytime you want by simply pressing the toggle back to disable the new interface. You can apply the same principles as the query modeler in this new interface.
 >![Image showing the toggle for the new rule builder interface](assets/query-modeler-toggle.png){zoomable="yes"} 
 
 ## Apply filters {#apply}

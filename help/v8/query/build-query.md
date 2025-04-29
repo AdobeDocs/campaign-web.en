@@ -11,7 +11,7 @@ To start building a query, access the query modeler from the location of your ch
 
 >[!IMPORTANT]
 >
->A brand new interface for the Query modeler is available, to switch to this new rule builder experience, press the toggle button in the top-right corner. You can go back to the classic Query modeler anytime you want by simply pressing the toggle back to disable the new interface. You can apply the same principles as the query modeler in this new interface.
+>A brand new interface for the Query modeler is available. The New rule builder allows you to build your query with more ease thanks to its simplified interface. To switch to this experience, press the toggle button in the top-right corner. You can go back to the classic Query modeler anytime you want by simply pressing the toggle back to disable the new interface. You can apply the same principles as the query modeler in this new interface.
 >![Image showing the toggle for the new rule builder interface](assets/query-modeler-toggle.png){zoomable="yes"} 
 
 You can add two types of elements:
@@ -33,21 +33,24 @@ You can add two types of elements:
 
     >[!ENDTABS]
 
+
+
 * **Group operators** (AND, OR, EXCEPT) allow you to group filtering components in the diagram. They are added on existing transitions before a filtering component. [Learn how to work with operators](#filtering)
 
-    Example: *Recipients who subscribed to the "Sports" newsletter **AND** who live in New York **OR** San Francisco*.
+    Example: *Recipients who are Super VIP **AND** VIP to reward **OR** VIP Demo, **EXCEPT** recipients under 21 years old and above 45.
 
     >[!BEGINTABS]
 
     >[!TAB Classic query modeler]
 
-    ![Description: Example of adding group operators to a query.](assets/query-add-operator.png){zoomable="yes"}
+    ![Description: Example of adding group operators to a query.](assets/ruleb-13.png){zoomable="yes"}
 
     >[!TAB New rule builder]
 
-    ![Example of adding filtering components to a query.](assets/ruleb-2.gif){zoomable="yes"}
+    ![Example of adding filtering components to a query.](assets/ruleb-14.png){zoomable="yes"}
 
     >[!ENDTABS]
+
 
 ## Distribution of values in a query {#distribution-values-query}
 

@@ -50,14 +50,14 @@ The query modeler provides a central canvas where you build your query and a rig
 
 >[!IMPORTANT]
 >
->A brand new interface for the Query modeler is available, to switch to this new rule builder experience, press the toggle button in the top-right corner. You can go back to the classic Query modeler anytime you want by simply pressing the toggle back to disable the new interface.
+>A brand new interface for the Query modeler is available. The New rule builder allows you to build your query with more ease thanks to its simplified interface. To switch to this experience, press the toggle button in the top-right corner. You can go back to the classic Query modeler anytime you want by simply pressing the toggle back to disable the new interface. You can apply the same principles as the query modeler in this new interface.
 >![Image showing the toggle for the new rule builder interface](assets/query-modeler-toggle.png){zoomable="yes"} 
 
 
 >[!CONTEXTUALHELP]
 >id="acw_rule_builder_switch_button"
->title="New user experience"
->abstract="Use this toggle to switch between the classic query modeler and the new rule builder experience."
+>title="New rule builder experience"
+>abstract="Use this toggle to switch between the Classic Query modeler and the New rule builder experience. The new rule builder allows you to build your query more easily, thanks to its simplified and intuitive interface."
 
 ![Image showing the query modeler interface](assets/query-interface.png){zoomable="yes"} 
 
