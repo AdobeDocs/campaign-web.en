@@ -23,15 +23,15 @@ The interface also provides a distribution of values tool, which allows you to v
 
 The **[!UICONTROL Favorites & Recents]** menu in the attribute picker provides an organized view of attributes added to favorites, along with a list of recently used attributes. Favorite attributes appear first, followed by recently used ones, making it easy to locate the required attributes.
 
-![Favorites and recent attributes menu, showing favorite and recently used attributes.](assets/attributes-favorites.png)
+![Favorites and recent attributes menu, showing favorite and recently used attributes.](assets/attributes-favorite.png)
 
-To add an attribute to favorites, hover over its information button and select the star icon. The attribute is then added to the favorites list automatically. To remove an attribute from favorites, select the star icon again.
+To add an attribute to favorites, click the expand button and select **[!UICONTROL Add to favorites]**. The attribute is then added to the favorites list automatically. To remove an attribute from favorites, select the star icon again.
 
 Users can add up to 20 attributes to favorites. Favorite and recent attributes are associated with each user within an organization, ensuring accessibility across different machines and providing a seamless experience across devices.
 
 ## Identify the distribution of values within a table {#distribution}
 
-The **Distribution of Values** button, available in an attribute's information pane, allows users to analyze the distribution of values for that attribute within the table. This feature is helpful for understanding the available values, their counts, and percentages. It also helps avoid issues such as inconsistent capitalization or spelling when building queries or creating expressions.
+The **Distribution of Values** button, available when clicking the expand button next to the attribute, allows users to analyze the distribution of values for that attribute within the table. This feature is helpful for understanding the available values, their counts, and percentages. It also helps avoid issues such as inconsistent capitalization or spelling when building queries or creating expressions.
 
 ![Distribution of values tool interface, showing counts and percentages of attribute values.](assets/attributes-distribution-values.png)
 
