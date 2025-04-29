@@ -11,7 +11,7 @@ exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
 >title="Define a preheader"
 >abstract="A preheader is a short summary text that follows the subject line when viewing an email from your email client. In many cases, it provides a short summary of the email, and is typically one sentence long."
 
-When designing your emails, for better readability and improved accessibility, you can define additional meta attributes for your content. The [!DNL Journey Optimizer] [Email Designer](get-started-email-design.md) enables you to specify the following elements:
+When designing your emails, for better readability and improved accessibility, you can define additional meta attributes for your content. The [!DNL Journey Optimizer] [Email Designer](get-started-email-designer.md) enables you to specify the following elements:
 
 ![](assets/email_body_settings_ex.png)
 
@@ -27,7 +27,7 @@ When designing your emails, for better readability and improved accessibility, y
 
 To configure these settings, follow the steps below.
 
-1. From the [Email Designer](content-from-scratch.md), add at least a **[!UICONTROL Structure component]** to start designing your email.
+1. From the [Email Designer](create-email-content.md), add at least a **[!UICONTROL Structure component]** to start designing your email.
 
 1. Click **[!UICONTROL Body]**, either from the **[!UICONTROL Navigation tree]** on the left, or on top of the right pane.
 
@@ -35,7 +35,7 @@ To configure these settings, follow the steps below.
 
 1. From the **[!UICONTROL Settings]** tab, type some text inside the **[!UICONTROL Preheader]**, **[!UICONTROL Document title]**, and/or **[!UICONTROL Document language]** fields.
 
-1. You can also click the personalization icon next to each field to customize your content from profile attributes, audiences, contextual attributes, and more. [Learn more about personalization](../personalization/personalization-build-expressions.md)
+1. You can also click the personalization icon next to each field to customize your content from profile attributes, audiences, contextual attributes, and more. [Learn more about personalization](../personalization/gs-personalization.md)
 
     ![](assets/email_body_settings.png)
 
