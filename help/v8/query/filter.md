@@ -8,6 +8,11 @@ exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
 
 Adobe Campaign Web provides filters within each list of objects, enabling you to filter information based on specific contextual criteria. For example, you can filter deliveries based on their status, channel, contact date, or folder. You can also hide proofs.
 
+>[!IMPORTANT]
+>
+>A brand new interface for the Query modeler is available. The New rule builder allows you to build your query with more ease thanks to its simplified interface. To switch to this experience, press the toggle button in the top-right corner. You can go back to the classic Query modeler anytime you want by simply pressing the toggle back to disable the new interface. You can apply the same principles as the query modeler in this new interface.
+>![Image showing the toggle for the new rule builder interface](assets/query-modeler-toggle.png){zoomable="yes"} 
+
 ## Apply filters {#apply}
 
 To apply filters to a list, click the **[!UICONTROL Show filters]** button located in the upper-left corner of the list, next to the search bar.
