@@ -1,42 +1,42 @@
 ---
 audience: end-user
-title: Add a preheader in the Email Designer
-description: Learn how to design your emails content
+title: Add metadata to your email content
+description: Learn how to improve readability and accessibility of your email content with metadata
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
 ---
-# Add a preheader to an email {#preheader}
+# Add metadata to your email content {#email-metadata}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
->title="Adding a preheader"
+>title="Define a preheader"
 >abstract="A preheader is a short summary text that follows the subject line when viewing an email from your email client. In many cases, it provides a short summary of the email, and is typically one sentence long."
 
-A preheader is a short text that follows the subject line when viewing an email from any major email client.
+When designing your emails, for better readability and improved accessibility, you can define additional meta attributes for your content. The [!DNL Journey Optimizer] [Email Designer](get-started-email-design.md) enables you to specify the following elements:
 
-In many cases, it provides a short summary of the content, and is typically one sentence long.
+![](assets/email_body_settings_ex.png)
 
->[!NOTE]
->
->Preheaders are not supported by all email clients. When not supported, the preheader does not display.
+* **[!UICONTROL Preheader]**: A preheader is a short summary text that follows the subject line when viewing an email from your email client. In many cases, it provides a short summary of the email, and is typically one sentence long. 
 
-To define the email preheader, follow the steps below.
+    >[!NOTE]
+    >
+    >Preheaders are not supported by all email clients. When not supported, the preheader does not display.
 
-1. From the [Email Designer](create-email-content.md), add at least a **[!UICONTROL Structure]** component to start designing your email.
+* **[!UICONTROL Document title]**: This field, which corresponds to the `<title>` element, provides descriptive information about your email content, typically displayed as a tooltip on mouse hover. It can help users with disabilities by providing additional context, and can contribute to a better understanding of your content by search engines.
 
-1. Click the **[!UICONTROL Navigation tree]** icon from the left pane, and select **[!UICONTROL Body]**.
+* **[!UICONTROL Document language]**: To ensure accessibility, you can specify the language that screen readers will use to convert text and images into speech or braille - for people with visual impairments, or learning disabilities. This setting corresponds to the `lang` attribute in the `<html>` element.
 
-    ![Screenshot showing the Navigation tree icon and Body selection in the Email Designer interface.](assets/preheader_body.png){zoomable="yes"}
+To configure these settings, follow the steps below.
 
-1. From the **[!UICONTROL Settings]** tab, enter some text for your preheader.
+1. From the [Email Designer](content-from-scratch.md), add at least a **[!UICONTROL Structure component]** to start designing your email.
 
-1. To further personalize it, click the **[!UICONTROL Add personalization]** icon to the left of the **[!UICONTROL Preheader]** field.
+1. Click **[!UICONTROL Body]**, either from the **[!UICONTROL Navigation tree]** on the left, or on top of the right pane.
 
-    ![Screenshot showing the Settings tab and Add personalization icon in the Email Designer interface.](assets/preheader_body_settings.png){zoomable="yes"}
+    ![](assets/email_body.png)
 
-1. From the **[!UICONTROL Edit Personalization]** window, add [personalization fields](../personalization/personalize.md), [expression fragments](../content/use-expression-fragments.md), and [conditional content](../personalization/conditions.md) using the dedicated entries on the left.
+1. From the **[!UICONTROL Settings]** tab, type some text inside the **[!UICONTROL Preheader]**, **[!UICONTROL Document title]**, and/or **[!UICONTROL Document language]** fields.
 
-    ![Screenshot showing the Edit Personalization window with options for personalization fields, expression fragments, and conditional content.](assets/preheader_body_personalization.png){zoomable="yes"}
+1. You can also click the personalization icon next to each field to customize your content from profile attributes, audiences, contextual attributes, and more. [Learn more about personalization](../personalization/personalization-build-expressions.md)
 
-1. Click **[!UICONTROL Confirm]**.
+    ![](assets/email_body_settings.png)
 
-Your preheader is now configured for your email.
+1. Click **[!UICONTROL Save]** to confirm your changes.
