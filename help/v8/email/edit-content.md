@@ -27,6 +27,11 @@ exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 >abstract="By default, tracking is enabled for the delivery, meaning all links included in the message content are tracked. You can disable this option from here."
 >additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/email-design/design-content/message-tracking" text="Add links and track messages"
 
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_multilingual"
+>title="Add languages"
+>abstract="In this tab, you will find a list of languages in which the delivery is to be sent in. You can add more languages by clicking the Add Language button, or by duplicating another language via this tab."
+
 The email **[!UICONTROL Edit content]** screen allows you to:
 
 * Define basic elements of your message, such as the sender's address and the subject line.
