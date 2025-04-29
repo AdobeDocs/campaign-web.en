@@ -2,6 +2,7 @@
 audience: end-user
 title: Create a call center delivery
 description: Learn how to create a call center delivery with Adobe Campaign Web
+exl-id: fe8d4773-2271-46ec-9b2e-f50311a4ccf3
 ---
 # Create and send a call center delivery {#create-call-center}
 
@@ -118,5 +119,3 @@ Once your delivery is sent, the extraction file is automatically generated and e
 Track your KPIs (Key Performance Indicator) data from your delivery page and data from the **[!UICONTROL Logs]** menu.
 
 Start measuring the impact of your message with built-in reports. [Learn more](../reporting/direct-mail.md)
-
-

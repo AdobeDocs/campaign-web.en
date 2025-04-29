@@ -2,8 +2,8 @@
 audience: end-user
 title: Get started with call center deliveries
 description: Learn how to create and send call center deliveries with Adobe Campaign Web
+exl-id: d176c1ef-875f-4bea-9cc3-d568cf5cf55a
 ---
-
 # Get started with call center mail deliveries {#gs-call-center}
 
 The call center channel lets you export targeted contact lists for outbound phone campaigns directly from Adobe Campaign Web UI. Use it to coordinate calls through internal teams or external contact centers.
