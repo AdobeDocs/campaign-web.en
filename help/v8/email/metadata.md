@@ -31,12 +31,12 @@ To configure these settings, follow the steps below.
 
 1. Click **[!UICONTROL Body]**, either from the **[!UICONTROL Navigation tree]** on the left, or on top of the right pane.
 
-    ![](assets/email_body.png)
+    ![](assets/email_body.png){width="90%"}
 
 1. From the **[!UICONTROL Settings]** tab, type some text inside the **[!UICONTROL Preheader]**, **[!UICONTROL Document title]**, and/or **[!UICONTROL Document language]** fields.
 
 1. You can also click the personalization icon next to each field to customize your content from profile attributes, audiences, contextual attributes, and more. [Learn more about personalization](../personalization/gs-personalization.md)
 
-    ![](assets/email_body_settings.png)
+    ![](assets/email_body_settings.png){width="70%"}
 
 1. Click **[!UICONTROL Save]** to confirm your changes.
