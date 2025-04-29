@@ -20,18 +20,18 @@ You can add two types of elements:
 
     Example: *Recipients who subscribed to the 'Sports' newsletter*, *Recipients living in New York*, *Recipients living in San Francisco*
 
-    >[!BEGINTABS]
+>[!BEGINTABS]
 
-    >[!TAB Classic query modeler]
+>[!TAB Classic query modeler]
 
-    ![Example of adding filtering components to a query.](assets/query-add-component.png){zoomable="yes"}
+![Example of adding filtering components to a query.](assets/query-add-component.png){zoomable="yes"}
 
 
-    >[!TAB New Rule builder]
+>[!TAB New Rule builder]
 
-    ![Example of adding filtering components to a query.](assets/ruleb-1.png){zoomable="yes"}
+![Example of adding filtering components to a query.](assets/ruleb-1.png){zoomable="yes"}
 
-    >[!ENDTABS]
+>[!ENDTABS]
 
 
 
@@ -39,17 +39,17 @@ You can add two types of elements:
 
     Example: *Recipients who are Super VIP **AND** VIP to reward **OR** VIP Demo, **EXCEPT** recipients under 21 years old and above 45.
 
-    >[!BEGINTABS]
+>[!BEGINTABS]
 
-    >[!TAB Classic query modeler]
+>[!TAB Classic query modeler]
 
-    ![Description: Example of adding group operators to a query.](assets/ruleb-13.png){zoomable="yes"}
+![Description: Example of adding group operators to a query.](assets/ruleb-13.png){zoomable="yes"}
 
-    >[!TAB New rule builder]
+>[!TAB New rule builder]
 
-    ![Example of adding filtering components to a query.](assets/ruleb-14.png){zoomable="yes"}
+![Example of adding filtering components to a query.](assets/ruleb-14.png){zoomable="yes"}
 
-    >[!ENDTABS]
+>[!ENDTABS]
 
 
 ## Distribution of values in a query {#distribution-values-query}
@@ -122,31 +122,31 @@ To filter your query using a custom condition, follow these steps:
 
     *Query example returning all profiles aged 21 or more:*
 
-    >[!BEGINTABS]
+>[!BEGINTABS]
 
-    >[!TAB Classic query modeler]
+>[!TAB Classic query modeler]
 
-    ![Example of a query targeting profiles aged 21 or more.](assets/query-custom-condition.png){zoomable="yes"}
+![Example of a query targeting profiles aged 21 or more.](assets/query-custom-condition.png){zoomable="yes"}
 
-    >[!TAB New rule builder]
+>[!TAB New rule builder]
 
-    ![Example of a query targeting profiles aged 21 or more.](assets/ruleb-3.png){zoomable="yes"}
+![Example of a query targeting profiles aged 21 or more.](assets/ruleb-3.png){zoomable="yes"}
 
-    >[!ENDTABS]
+>[!ENDTABS]
 
-    For date-type attributes, predefined values are available using the **[!UICONTROL Presets]** option.
+For date-type attributes, predefined values are available using the **[!UICONTROL Presets]** option.
 
-    >[!BEGINTABS]
+>[!BEGINTABS]
 
-    >[!TAB Classic query modeler]
+>[!TAB Classic query modeler]
 
-    ![Example of using date presets in a query.](assets/date-presets.png){zoomable="yes"}
+![Example of using date presets in a query.](assets/date-presets.png){zoomable="yes"}
 
-    >[!TAB New rule builder]
+>[!TAB New rule builder]
 
-    ![Example of using date presets in a query.](assets/ruleb-4.png){zoomable="yes"}
+![Example of using date presets in a query.](assets/ruleb-4.png){zoomable="yes"}
 
-    >[!ENDTABS]
+>[!ENDTABS]
 
 #### Custom conditions on linked tables (1-1 and 1-N links){#links}
 
@@ -208,17 +208,17 @@ Custom conditions allow you to perform aggregate operations. To do this, you nee
 
 1. In the properties pane, toggle on the **Aggregate data** option and select the desired aggregate function.
 
-    >[!BEGINTABS]
+>[!BEGINTABS]
 
-    >[!TAB Classic query modeler]
+>[!TAB Classic query modeler]
 
-    ![Screenshot of the Aggregate data option](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
+![Screenshot of the Aggregate data option](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
 
-    >[!TAB New rule builder]
+>[!TAB New rule builder]
 
-    ![Screenshot of the Aggregate data option](assets/ruleb-5.png){zoomable="yes"}{width="85%" align="center"}
+![Screenshot of the Aggregate data option](assets/ruleb-5.png){zoomable="yes"}{width="85%" align="center"}
 
-    >[!ENDTABS]
+>[!ENDTABS]
 
 ### Select an audience {#audiences}
 

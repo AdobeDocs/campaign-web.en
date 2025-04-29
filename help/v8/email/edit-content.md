@@ -109,11 +109,6 @@ To configure or edit the content of an email, follow the steps below.
 
 ## Configure a multilingual delivery
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_multilingual"
->title="Add languages"
->abstract="In this tab, you will find a list of languages in which the delivery is to be sent in. You can add more languages by clicking the Add Language button, or by duplicating another language via this tab."
-
 In Campaign web user interface, you can set up your email deliveries as multilingual, which allows you to send messages based on a profile's preferred language. When no preference is defined, the message is sent in the default language.
 
 In a multilingual delivery, the language management is based on variants. Each variant represents one language.

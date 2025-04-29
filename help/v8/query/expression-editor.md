@@ -42,11 +42,11 @@ The example below shows an expression configured for the **[!UICONTROL Value]** 
 
 >[!BEGINTABS]
 
->[!TAB Add an email to a journey]
+>[!TAB Classic query modeler]
 
 ![Example of editing expression for Value field](assets/edit-expression-value.png){zoomable="yes"}
 
->[!TAB Add an email to a journey]
+>[!TAB New rule builder]
 
 ![Example of editing expression for Value field](assets/ruleb-12.png){zoomable="yes"}
 
