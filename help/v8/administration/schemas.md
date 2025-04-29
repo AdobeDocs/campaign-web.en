@@ -8,7 +8,7 @@ exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
 >title="Work with Schemas"
->abstract="You can now access the details of a schema by selecting its name in the list. Custom fields edition is also accessible from the **Edit custom detail** button."
+>abstract="You can now access the details of a schema by selecting its name in the list. Custom fields edition is also accessible from the **Screen edition** button."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
 
 >[!CONTEXTUALHELP]
@@ -67,8 +67,10 @@ The **[!UICONTROL Data]** tab provides information on the schema data.
 
 Custom fields are additional attributes added to out-of-the-box schemas through the Adobe Campaign console. They allow you to customize schemas by including new attributes to suit your organization's needs. 
 
-Custom fields can be displayed in various screens, such as profile details in the Campaign Web interface. You can control which fields are visible and how they appear in the interface. To do this, click the **[!UICONTROL Edit custom detail]** button in the **[!UICONTROL Schemas]** menu.
+Custom fields can be displayed in various screens, such as profile details in the Campaign Web interface. You can control which fields are visible and how they appear in the interface. To do this, click the **[!UICONTROL Screen edition]** button in the **[!UICONTROL Schemas]** menu.
 
 ![Custom fields screen showing editable attributes](assets/schemas-custom.png)
+
+Click **[!UICONTROL Preview]** to display the custom fields in a sample screen.
 
 For detailed information on how to edit custom fields in a schema, refer to this section: [Configure custom fields](../administration/custom-fields.md).

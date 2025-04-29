@@ -34,13 +34,16 @@ exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 
 The email **[!UICONTROL Edit content]** screen allows you to:
 
-* Define basic elements of your message, such as the sender's address and the subject line.
-* Perform additional actions, such as adding attachments or setting up offers.
-* Access the [Email Designer](get-started-email-designer.md#start-authoring) to start building the proper content of your email.
+* Define basic elements of your message such as the sender's address and the subject line
+* Perform additional actions such as adding attachments or setting up offers
+* Access the [Email Designer](get-started-email-designer.md#start-authoring) to start building the proper content of your email
+* Add language variants to your deliveries.
 
 >[!NOTE]
 >
 >All the editable text fields of this screen can be filled in using personalization fields. [Learn how to personalize content](../personalization/personalize.md)
+
+## Configure the delivery
 
 To configure or edit the content of an email, follow the steps below.
 
@@ -86,15 +89,97 @@ To configure or edit the content of an email, follow the steps below.
 
     You can then insert them into the email using personalization fields. [Learn how to send offers](../msg/offers.md)
 
-1. Click the **[!UICONTROL Edit email body]** button to structure and design the content of the email using the [Email Designer](get-started-email-designer.md#start-authoring). Additional information on how to design email content is available in these sections:
+## Edit the email body
 
-    * [Author emails from scratch](create-email-content.md)
-    * [Style your content](get-started-email-style.md)
+1. Click the **[!UICONTROL Edit email body]** button to structure and design the content of the email using the [Email Designer](get-started-email-designer.md#start-authoring). 
 
     >[!NOTE]
     >
     >You can also hover over the email preview and select **[!UICONTROL Open email designer]**.
 
-1. By default, tracking is enabled for the delivery. You can disable this option from the **[!UICONTROL Optional features]** section. [Learn how to add links and manage tracking](message-tracking.md).
+
+    Additional information on how to design email content are available in these sections:
+
+    * [Author emails from scratch](create-email-content.md)
+    * [Style your content](get-started-email-style.md)
+
+1. By default, tracking is enabled for the delivery. You can disable this option from the **[!UICONTROL Optional features]** section. [Learn how to add links and manage tracking](message-tracking.md)
+
+1. Once the content of your email has been defined, use the **[!UICONTROL Simulate content]** button to check how it displays before sending it. [Learn how to preview and test your email](../preview-test/preview-test.md).
+
+## Configure a multilingual delivery
+
+In Campaign web user interface, you can set up your email deliveries as multilingual, which allows you to send messages based on a profile's preferred language. When no preference is defined, the message is sent in the default language.
+
+In a multilingual delivery, the language management is based on variants. Each variant represents one language.
+
+During the delivery creation, you can add the number of variants corresponding to the number of needed languages in the message. You can define also the default language when adding new languages.
+
+### Add a language variant
+
+To create language variants, follow these steps:
+
+1. Click the **[!UICONTROL Add language]** button on the upper section of the email configuration screen.
+
+    >[!IMPORTANT]
+    >
+    >The **[!UICONTROL Add language]** button is only available if the target dimension contains the Language schema. To learn more about schemas and Target dimensions, please refer to the [detailed documentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/targeting-dimensions){target=_blank}.
+
+    ![](assets/edit-content_2.png){zoomable="yes"}
+
+
+1. Select the language to add in the **[!UICONTROL Language]** drop-down list. When adding the first language it is set as default, and the current content is the default one. When you add new languages, the content is based on the default content.
+
+    >[!NOTE]
+    >
+    >The languages available through this list depend on the values that have been defined by the Language attribute (values such as: system, user, dbenum, etc.) Learn more about enumeration management in this [section](https://experienceleague.adobe.com/en/docs/campaign-web/v8/conf/enumerations){target=_blank}.
+
+
+    ![](assets/edit-content_3.png){zoomable="yes"}
+    
+    For example here, for English (US):
+
+    ![](assets/edit-content_8.png){zoomable="yes"}
+
+
+1. Repeat this process to add other languages. The **[!UICONTROL Language]** panel shows the list of languages you have chosen, the number of different languages and also the default language.
+
+    For example, if you have chosen English, French, and Swedish, you can see these 3 languages as shown below:
+
+    ![](assets/edit-content_9.png){zoomable="yes"}
+
+    You can click on the expand button to the top right corner to delete every languages.
+
+### Define the email content for each variant
+
+Once languages are set, define the content of the email which will be sent to the profiles with this preferred language.
+
+To define an email content, follow these steps:
+
+1. Open the [Email Designer](get-started-email-designer.md#start-authoring) by clicking on the **[!UICONTROL Edit email body]** button.
+
+    >[!NOTE]
+    >
+    >You can also hover over the email preview and select **[!UICONTROL Open email designer]**.
+
+   ![](assets/edit-content_11.png){zoomable="yes"}
+
+
+1. You can preview the delivery by clicking on the **[!UICONTROL Simulate content]** button, and choose the profile and language in which the email is displayed.
+
+1. While in the Simulate content window, you can switch profiles to preview the content of the email corresponding to the language that has been set up for that profile.
+
+    ![](assets/edit-content_5.png){zoomable="yes"}
+
+### Duplicate or remove language variants
+
+You can click on the expand button to the top right corner, and click the **[!UICONTROL Delete all variants]** button to delete every all languages.
+
+![](assets/edit-content_13.png){zoomable="yes"}
+
+To remove a language variant,  click on the three dots in the right side of the tab and select Remove.
+
+To duplicate a language variant,  click on the three dots in the right side of the tab and select Duplicate. If you choose to duplicate a language other than the default one, the content duplicated will be based on the language that you chose to duplicate.
+
 
 1. Once the content of your email has been defined, use the **[!UICONTROL Simulate content]** button to check how it displays before sending it. [Learn how to preview and test your email](../preview-test/preview-test.md).

@@ -46,9 +46,9 @@ Get a glimpse of the newest enhancements in Adobe Campaign Web product and docum
 >[!BEGINTABS]
 
 
->[!TAB February '25 release]
+>[!TAB April '25 release]
 
-February release is now live, including Business Rules, Target mappings, and more improvements.
+April release is now live, including Business Rules, Target mappings, and more improvements.
 
 [![Learn more button](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 

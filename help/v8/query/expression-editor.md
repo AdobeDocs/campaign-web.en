@@ -9,9 +9,14 @@ exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
 
 Editing an expression involves manually entering conditions to form a rule. This mode allows you to use advanced functions, which let you manipulate the values used to carry out specific queries, such as manipulating dates, strings, numerical fields, and sorting.
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >The section below provides information on how to work with the expression editor to build rules. Keep in mind that the syntax used to build rules differs from the one used to add personalization.
+
+>[!IMPORTANT]
+>
+>A brand new interface for the Query modeler is available, to switch to this new rule builder experience, press the toggle button in the top-right corner. You can go back to the classic Query modeler anytime you want by simply pressing the toggle back to disable the new interface. You can apply the same principles as the query modeler in this new interface.
+>![Image showing the toggle for the new rule builder interface](assets/query-modeler-toggle.png){zoomable="yes"} 
 
 ## Work with the expression editor {#edit}
 
@@ -35,7 +40,17 @@ When your expression is ready, click the **[!UICONTROL Confirm]** button. The ex
 
 The example below shows an expression configured for the **[!UICONTROL Value]** field. To edit it, open the expression editor using the **[!UICONTROL Edit expression]** button.
 
+>[!BEGINTABS]
+
+>[!TAB Classic query modeler]
+
 ![Example of editing expression for Value field](assets/edit-expression-value.png){zoomable="yes"}
+
+>[!TAB New rule builder]
+
+![Example of editing expression for Value field](assets/ruleb-12.png){zoomable="yes"}
+
+>[!ENDTABS]
 
 ## Helper functions
 

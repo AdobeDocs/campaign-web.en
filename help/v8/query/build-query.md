@@ -9,19 +9,48 @@ exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
 
 To start building a query, access the query modeler from the location of your choice, depending on the action you want to perform. The query modeler opens with a blank canvas. Click the **+** button to configure the first node of your query.
 
+>[!IMPORTANT]
+>
+>A brand new interface for the Query modeler is available. The New rule builder allows you to build your query with more ease thanks to its simplified interface. To switch to this experience, press the toggle button in the top-right corner. You can go back to the classic Query modeler anytime you want by simply pressing the toggle back to disable the new interface. You can apply the same principles as the query modeler in this new interface.
+>![Image showing the toggle for the new rule builder interface](assets/query-modeler-toggle.png){zoomable="yes"} 
+
 You can add two types of elements:
 
 * **Filtering components** (Custom condition, Select audience, Predefined filter) allow you to build your own rules, select an audience, or use a predefined filter to refine your query. They are added at the start of your query and on dotted transitions. [Learn how to work with filtering components](#filtering)
 
     Example: *Recipients who subscribed to the 'Sports' newsletter*, *Recipients living in New York*, *Recipients living in San Francisco*
 
-    ![Example of adding filtering components to a query.](assets/query-add-component.png){zoomable="yes"}
+>[!BEGINTABS]
+
+>[!TAB Classic query modeler]
+
+![Example of adding filtering components to a query.](assets/query-add-component.png){zoomable="yes"}
+
+
+>[!TAB New Rule builder]
+
+![Example of adding filtering components to a query.](assets/ruleb-1.png){zoomable="yes"}
+
+>[!ENDTABS]
+
+
 
 * **Group operators** (AND, OR, EXCEPT) allow you to group filtering components in the diagram. They are added on existing transitions before a filtering component. [Learn how to work with operators](#filtering)
 
-    Example: *Recipients who subscribed to the "Sports" newsletter **AND** who live in New York **OR** San Francisco*.
+    Example: *Recipients who are Super VIP **AND** VIP to reward **OR** VIP Demo, **EXCEPT** recipients under 21 years old and above 45.
 
-    ![Description: Example of adding group operators to a query.](assets/query-add-operator.png){zoomable="yes"}
+>[!BEGINTABS]
+
+>[!TAB Classic query modeler]
+
+![Description: Example of adding group operators to a query.](assets/ruleb-13.png){zoomable="yes"}
+
+>[!TAB New rule builder]
+
+![Example of adding filtering components to a query.](assets/ruleb-14.png){zoomable="yes"}
+
+>[!ENDTABS]
+
 
 ## Distribution of values in a query {#distribution-values-query}
 
@@ -93,11 +122,31 @@ To filter your query using a custom condition, follow these steps:
 
     *Query example returning all profiles aged 21 or more:*
 
-    ![Example of a query targeting profiles aged 21 or more.](assets/query-custom-condition.png){zoomable="yes"}
+>[!BEGINTABS]
 
-    For date-type attributes, predefined values are available using the **[!UICONTROL Presets]** option.
+>[!TAB Classic query modeler]
 
-    ![Example of using date presets in a query.](assets/date-presets.png){zoomable="yes"}
+![Example of a query targeting profiles aged 21 or more.](assets/query-custom-condition.png){zoomable="yes"}
+
+>[!TAB New rule builder]
+
+![Example of a query targeting profiles aged 21 or more.](assets/ruleb-3.png){zoomable="yes"}
+
+>[!ENDTABS]
+
+For date-type attributes, predefined values are available using the **[!UICONTROL Presets]** option.
+
+>[!BEGINTABS]
+
+>[!TAB Classic query modeler]
+
+![Example of using date presets in a query.](assets/date-presets.png){zoomable="yes"}
+
+>[!TAB New rule builder]
+
+![Example of using date presets in a query.](assets/ruleb-4.png){zoomable="yes"}
+
+>[!ENDTABS]
 
 #### Custom conditions on linked tables (1-1 and 1-N links){#links}
 
@@ -159,7 +208,17 @@ Custom conditions allow you to perform aggregate operations. To do this, you nee
 
 1. In the properties pane, toggle on the **Aggregate data** option and select the desired aggregate function.
 
-    ![Screenshot of the Aggregate data option](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
+>[!BEGINTABS]
+
+>[!TAB Classic query modeler]
+
+![Screenshot of the Aggregate data option](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
+
+>[!TAB New rule builder]
+
+![Screenshot of the Aggregate data option](assets/ruleb-5.png){zoomable="yes"}{width="85%" align="center"}
+
+>[!ENDTABS]
 
 ### Select an audience {#audiences}
 
@@ -170,6 +229,10 @@ Custom conditions allow you to perform aggregate operations. To do this, you nee
 
 To filter your query using an existing audience, follow these steps:
 
+>[!BEGINTABS]
+
+>[!TAB Classic query modeler]
+
 1. Click the **+** button on the desired node and choose **[!UICONTROL Select audience]**.
 
 1. The **Select audience** properties pane opens on the right hand side. Choose the audience that you want to use to filter your query.
@@ -177,6 +240,18 @@ To filter your query using an existing audience, follow these steps:
     *Query example returning all profiles belonging to the "Festival Goers" audience":*
 
     ![Screenshof of a query example](assets/query-audience.png){zoomable="yes"}
+
+>[!TAB New rule builder]
+
+1. Click the **Expand** button next to the **[!UICONTROL Add condition]** button and choose **[!UICONTROL Select audience]**.
+
+1. The **Select audience** properties pane opens on the right hand side. Choose the audience that you want to use to filter your query.
+
+    *Query example returning all profiles belonging to the "Coffee Works" audience":*
+
+    ![Screenshof of a query example](assets/ruleb-7.png){zoomable="yes"}
+
+>[!ENDTABS]
 
 ### Use a predefined filter {#predefined-filters}
 
@@ -187,6 +262,10 @@ To filter your query using an existing audience, follow these steps:
 
 To filter your query using a predefined filter, follow these steps:
 
+>[!BEGINTABS]
+
+>[!TAB Classic query modeler]
+
 1. Click the **+** button on the desired node and select **[!UICONTROL Predefined filter]**.
 
 1. The **Predefined filter** properties pane opens on the right hand side. Select a predefined filter from the list of custom filters or from favorites.
@@ -195,6 +274,18 @@ To filter your query using a predefined filter, follow these steps:
 
     ![Screenshot of a query example](assets/query-predefined-filter.png){zoomable="yes"}
 
+>[!TAB New rule builder]
+
+1. Click the **Expand** button next to the **[!UICONTROL Add condition]** button and select **[!UICONTROL Predefined filter]**.
+
+1. The **Predefined filter** properties pane opens on the right hand side. Select a predefined filter from the list of custom filters or from favorites.
+
+    *Query example returning all profiles corresponding to the "Inactive customers" predefined filter:*
+
+    ![Screenshot of a query example](assets/ruleb-8.png){zoomable="yes"}
+
+>[!ENDTABS]
+
 ### Copy-paste components {#copy}
 
 The query modeler allows you to copy one or multiple filtering components and paste them at the end of a transition. This operation can be executed within the current query canvas, or in any canvas within your instance.
@@ -202,6 +293,11 @@ The query modeler allows you to copy one or multiple filtering components and pa
 >[!NOTE]
 >
 >The copied selection is kept as long as you are working in your instance. If you log off and log back in, your selection will no longer be available for pasting.
+
+>[!IMPORTANT]
+>
+>It is currently impossible to copy and paste components in the New Rule builder experience. To follow these next steps, please click the **[!UICONTROL Get back to the classic experience]** toggle at the top to use the Classic Query modeler.
+
 
 To copy-paste filtering components, follow these steps:
 
@@ -226,7 +322,11 @@ To copy-paste filtering components, follow these steps:
 
 Each time you add a new filtering component to your query, it is automatically linked to the other component by an **AND** operator. This means that results from the two filtering components are combined.
 
-In this example, we have added a new audience-type filtering components on the second transition. The component is linked to the predefined filter condition with an **AND** operator, meaning that the query results include recipients targeted by the "Madridians" predefined filter AND belonging to the "Discount hunters" audience.
+In this example, we have added a new audience-type filtering components on the second transition. The component is linked to the predefined filter condition with an **AND** operator, meaning that the query results include recipients targeted by the "Newsletter Subscribers - MADRID" predefined filter AND belonging to the "Purchasers (All time)" audience.
+
+>[!BEGINTABS]
+
+>[!TAB Classic query modeler]
 
 ![Example of a query](assets/query-operator.png){zoomable="yes"}
 
@@ -240,11 +340,37 @@ Available operators are:
 
 ![Example of a query](assets/query-operator-change.png){zoomable="yes"}
 
-In addition, you can create intermediate groups of components by clicking the **+** button on a transition. This allows you to add an operator at this specific location to group together multiple components and refine your query. 
+In addition, you can create intermediate groups of components by grouping components into a same group and linking them together. That way, the AND operator will be put by default, you can then change it to the desired operator.
+
+>[!TAB New rule builder]
+
+![Example of a query](assets/ruleb-9.png){zoomable="yes"}
+
+To change the operator used to link filtering conditions together, click on it, it will change to OR, EXCEPT and then back to AND, and select the desired operator.
+
+Available operators are:
+
+* **AND (Intersection)**: Combines results matching all the filtering components in the outbound transitions. 
+* **OR (Union)**: Includes results matching at least one of the filtering components in the outbound transitions.
+* **EXCEPT (Exclusion)**: Excludes results matching all the filtering componentns in the outbound transition.
+
+![Example of a query](assets/ruleb-10.gif){zoomable="yes"}
+
+>[!ENDTABS]
 
 In the example below, we have created an intermediate group to include results from either the "VIP to reward" or "Super VIP" audiences.
 
+>[!BEGINTABS]
+
+>[!TAB Classic query modeler]
+
 ![Example of a query](assets/query-intermediate-group.png){zoomable="yes"}
+
+>[!TAB New rule builder]
+
+![Example of a query in the new rule builder](assets/ruleb-11.png){zoomable="yes"}
+
+>[!ENDTABS]
 
 ## Check and validate your query
 
@@ -266,7 +392,19 @@ Once you've built your query in the canvas, you can check it using the **Rule pr
 
 When your query is ready, click the **[!UICONTROL Confirm]** button in the upper-right corner to save it.
 
+
+>[!BEGINTABS]
+
+>[!TAB Classic query modeler]
+
 You can modify your query at any time by opening it. Keep in mind that upon opening an existing query, it displays in a simplified view without the visiblity of  **+** buttons. To add new elements to the query, select a component or operator on the canvas to display the **+** buttons.
 
 ![Example of a query](assets/edit-audience.png){zoomable="yes"}
 
+>[!TAB New Rule builder]
+
+You can modify your query at any time by opening it, to do that, click on the **[!UICONTROL Add condition]** button on the top-left corner.
+
+![Example of a query in the new rule builder](assets/ruleb-11.png){zoomable="yes"}
+
+>[!ENDTABS]

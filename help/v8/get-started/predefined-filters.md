@@ -15,6 +15,11 @@ exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 >title="Predefined filters"
 >abstract="Campaign Web user interface offers a user-friendly interface to effortlessly manage and customize predefined filters to meet your specific needs. Create once and save for future use."
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_filter"
+>title="Create an alerting criterion"
+>abstract="You can create your own delivery filters from the Customer Management > Predefined filters menu."
+
 Predefined filters are custom filters created and saved for future use. They act as shortcuts during filtering operations with the query modeler. For example, they can be used when filtering a list of data or creating the audience of a delivery.
 
 You can use existing built-in filters to access a specific subset of your data or create your own predefined filters and save them.
