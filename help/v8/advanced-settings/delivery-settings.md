@@ -95,7 +95,7 @@ The **[!UICONTROL Importance of the recipient]** field is a formula used to dete
 >title="Audience settings for the delivery"
 >abstract="Select a **target mapping** among those available. Target mappings are defined in the Adobe Campaign v8 console. You can also set the exclusion parameters for the delivery."
 
-In this section, you can select a **target mapping** among those available. Target mappings are defined in the Adobe Campaign v8 console. The target mapping is the type of data that an operation is handling. It lets you define the targeted population: recipients, contract beneficiaries, operators, subscribers, etc. [Learn more on target mappings](../audience/targeting-dimensions.md).
+In this section, you can select a **target mapping** among those available. Target mappings are defined in the Adobe Campaign v8 console. The target mapping is the type of data that an operation is handling. It lets you define the targeted population: recipients, contract beneficiaries, operators, subscribers, etc. [Learn more about target mappings](../audience/targeting-dimensions.md).
 
 In the **[!UICONTROL Exclusion]** field, you can select to exclude profiles who no longer want to be contacted or who are quarantined. [Learn more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
 

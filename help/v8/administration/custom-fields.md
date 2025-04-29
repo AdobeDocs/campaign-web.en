@@ -3,13 +3,12 @@ title: Custom fields
 description: Learn how to configure custom fields and their visibility in the interface.
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
 ---
-
 # Configure custom fields {#custom-fields}
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields"
 >title="Edit custom detail"
->abstract="All custom fields displayed in the interface for the selected schema display. You can change the order in which they display in the interface usign the up and down arrows, and group fields into sub-sections by adding separators. To delete a custom field or edit settings such as visibility conditions, click the ellipsis button."
+>abstract="All custom fields displayed in the interface for the selected schema display. You can change the order in which they display in the interface, using the up and down arrows, and group fields into sub-sections by adding separators. To delete a custom field or edit settings such as visibility conditions, click the ellipsis button."
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_general"
@@ -40,7 +39,7 @@ exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
 
 Custom fields are additional attributes added to out-of-the-box schemas through the Adobe Campaign console. They allow you to customize schemas by including new attributes to suit your organization's needs. Learn how to extend a schema in the [Adobe Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html){target="_blank"}.
 
-Custom fields can be displayed in various screens such as profile details in the Campaign Web interface. Administrators can control which fields are visible and how they appear. These changes apply to all Campaign users.
+Custom fields can be displayed in various screens, such as profile details in the Campaign Web interface. Administrators can control which fields are visible and how they appear. These changes apply to all Campaign users.
 
 >[!NOTE]
 >
@@ -59,34 +58,34 @@ Custom fields are available for the following schemas:
 
 To display custom fields in the interface, follow these steps:
 
-1. Browse to the **[!UICONTROL Schemas]** menu in the left navigation pane and locate the desired schema.
+1. Browse to the **[!UICONTROL Schemas]** menu in the left navigation pane, and locate the desired schema.
 
     Use the **[!UICONTROL Editable]** filter in the filters pane to quickly identify schemas with custom fields.
 
-    ![](assets/custom-fields-open.png)
+    ![Screenshot showing the Schemas menu and Editable filter in the navigation pane](assets/custom-fields-open.png)
 
-1. Select the schema name in the list to open it. A detailed schema view displays [Learn more on schema details](../administration/schemas.md). Click the **[!UICONTROL Edit custom detail]** button to access custom fields. In this example, we want to add fields for the **[!UICONTROL Recipients]** schema.
+1. Select the schema name in the list to open it. A detailed schema view displays. [Learn more about schema details](../administration/schemas.md). Click the **[!UICONTROL Edit custom detail]** button to access custom fields. In this example, fields are added for the **[!UICONTROL Recipients]** schema.
 
-    ![](assets/custom-fields-edit.png)
+    ![Screenshot showing the Edit custom detail button in the schema view](assets/custom-fields-edit.png)
 
-1. The list of custom fields displayed in the interface for the schema display. Here, the "CRM Id" field is visible in the profiles' details screen and has been marked as mandatory.
+1. The list of custom fields displayed in the interface for the schema appears. Here, the "CRM Id" field is visible in the profiles' details screen and has been marked as mandatory.
 
     |Custom fields configuration|Rendering in the interface|
     |  ---  |  ---  |
-    |![](assets/custom-fields-detail.png){zoomable="yes"}|![](assets/custom-fields-detail-crm.png){zoomable="yes"}|
+    |![Screenshot showing the custom fields configuration](assets/custom-fields-detail.png){zoomable="yes"}|![Screenshot showing the CRM Id field rendering in the interface](assets/custom-fields-detail-crm.png){zoomable="yes"}|
 
 1. To add a custom field to the interface, click the ellipsis button and choose one of the following options:
 
     * **[!UICONTROL Select custom fields]**: Select one or multiple custom fields to display in the interface.
     * **[!UICONTROL Fill automatically the list of custom fields]**: Add all custom fields defined for the schema to the interface.
 
-    ![](assets/custom-fields-add.png)
+    ![Screenshot showing the options to add custom fields](assets/custom-fields-add.png)
 
 1. Once custom fields are added, you can:
 
     * **Reorder fields**: Use the up and down arrows.
     * **Make fields mandatory**: Select the **Mandatory** checkbox. 
-    * **Edit fields settings**: Click the ellipsis button and choose **[!UICONTROL Edit]**. [Learn more](#settings)
+    * **Edit field settings**: Click the ellipsis button and choose **[!UICONTROL Edit]**. [Learn more](#settings)
     * **Delete fields**: Click the ellipsis button and choose **[!UICONTROL Delete]**.
     * **Organize fields into sub-sections in the interface**: Click the ellipsis button next to the up and down arrows and choose **[!UICONTROL Add separator]**. [Learn more](#separator)
 
@@ -94,7 +93,7 @@ To display custom fields in the interface, follow these steps:
 
 To configure specific settings for each custom field, click the ellipsis button next to the desired field and select **[!UICONTROL Edit]**.
 
-![](assets/custom-fields-settings.png)
+![Screenshot showing the settings menu for custom fields](assets/custom-fields-settings.png)
 
 Available settings are:
 
@@ -111,17 +110,17 @@ Available settings are:
 
     +++View example
 
-    ![](assets/custom-fields-ref.png)
+    ![Screenshot showing an example of filter settings for custom fields](assets/custom-fields-ref.png)
 
     +++
 
-* **[!UICONTROL Span two columns]**:  By default, custom fields display in the interface in two columns. Toggle on this option to display the custom field across the full width of the screen instead of two columns.
+* **[!UICONTROL Span two columns]**: By default, custom fields display in the interface in two columns. Toggle on this option to display the custom field across the full width of the screen instead of two columns.
 
 ## Organize custom fields in sub-sections {#separator}
 
-Campaign Web user interface allows you to add separators in order to group together custom fields in the interface for better readability. To do so, follow these steps:
+The Campaign Web user interface allows you to add separators to group custom fields in the interface for better readability. To do so, follow these steps:
 
-1. Click the ellipsis button next to the up and down arrows and select **[!UICONTROL Add separator]**.
+1. Click the ellipsis button next to the up and down arrows, and select **[!UICONTROL Add separator]**.
 
 1. A new line representing the separator is added to the list. Click the ellipsis button and choose **[!UICONTROL Edit]** to name the sub-section.
 
@@ -131,4 +130,4 @@ Campaign Web user interface allows you to add separators in order to group toget
 
     |Custom fields configuration|Rendering in the interface|
     |  ---  |  ---  |
-    |![](assets/custom-fields-separator.png){zoomable="yes"}|![](assets/custom-fields-section.png){zoomable="yes"}|
+    |![Screenshot showing the configuration of a separator](assets/custom-fields-separator.png){zoomable="yes"}|![Screenshot showing the rendering of a sub-section in the interface](assets/custom-fields-section.png){zoomable="yes"}|

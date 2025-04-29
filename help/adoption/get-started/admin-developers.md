@@ -49,7 +49,7 @@ Note that the client console must be installed in a supported environment. Learn
 
 ### Discover the client console interface  {#acs-gs-ui}
 
-Learn about the Adobe Campaign V8 user interface and how to navigate the main features with this tutorial video.
+Learn about the Adobe Campaign v8 user interface and how to navigate the main features with this tutorial video.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334496?quality=12&learn=on){transcript=true}
 

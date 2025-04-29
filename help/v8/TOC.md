@@ -112,12 +112,13 @@ breadcrumb-title: Campaign Web User Interface
       + [Define a style for links](email/styling-links.md)
       + [Add inline styling attributes](email/inline-styling.md)
   + AI Assistant {#ai-assistant}
-    + [Work with the AI Assistant](email/generative-gs.md)
+    + [Work with AI Assistant](email/generative-gs.md)
     + [Email generation with AI](email/generative-content.md)
     + [SMS generation with AI](email/generative-sms.md)
     + [Push notification generation with AI](email/generative-push.md)
     + [Landing page generation with AI](email/generative-lp.md)
     + [AI Assistant use cases](email/generative-uc.md)
+    + [Create & manage your brands (beta)](content/brands.md)
 + Landing pages {#landing-pages}
   + [Get started with landing pages](landing-pages/get-started-lp.md)
   + [Create and publish a landing page](landing-pages/create-lp.md)

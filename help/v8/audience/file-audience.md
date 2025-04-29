@@ -26,7 +26,7 @@ exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 >title="Preview your file"
 >abstract="Check the preview of the columns of the external file. This screen only shows up to 30 records."
 
-Adobe Campaign Web User Interface allows you to target profiles stored in an external file. Once the profiles have been loaded, all fields from the input file are available for use to personalize your delivery [Learn how to personalize your content](../personalization/personalize.md).  
+Adobe Campaign Web User Interface allows you to target profiles stored in an external file. Once the profiles are loaded, all fields from the input file are available for use to personalize your delivery [Learn how to personalize your content](../personalization/personalize.md).  
 
 Profiles from the input file are not added to the database. They are loaded and available for this specific standalone email delivery only.
 
@@ -45,22 +45,22 @@ Profiles from the input file are not added to the database. They are loaded and 
 To target profiles from a file in your emails, follow these steps:
 
 1. Open an existing email delivery, or [create a new email delivery](../email/create-email.md).
-1. In the **Audience** section, click the **Select audience** button then choose **Select from file**.
+1. In the **Audience** section, click the **Select audience** button, then choose **Select from file**.
 
-    ![](assets/select-from-file.png){zoomable="yes"}
+    ![Screenshot showing the Select from file option in the Audience section](assets/select-from-file.png){zoomable="yes"}
 
 1. Select the local file to load. The file format must align with the [sample file](#sample-file). 
 1. Preview and check how data is mapped in the central section of the screen.
 
-    ![](assets/select-from-file-map.png)
+    ![Screenshot showing the data mapping preview in the central section](assets/select-from-file-map.png)
 
-1. Specify the column which contains the email address from the **Address Field** drop-down list. You can also select the denylist colum if you have such information in the input file.
-1. Adjust the column settings, and how to format the data from the available options.
+1. Specify the column that contains the email address from the **Address Field** drop-down list. You can also select the denylist column if you have such information in the input file.
+1. Adjust the column settings and define how to format the data using the available options.
 1. Click **Confirm** once settings are correct.
 
-When creating the message content, you can add personalization by leveraging fields from the input file. [Learn how to personalize content](../personalization/personalize.md)
+When creating the message content, add personalization by leveraging fields from the input file. [Learn how to personalize content](../personalization/personalize.md)
 
-![](assets/select-external-perso.png){zoomable="yes"}
+![Screenshot showing personalization options using fields from the input file](assets/select-external-perso.png){zoomable="yes"}
 
 ## Sample file {#sample-file}
 
@@ -89,24 +89,24 @@ When loading an external file to target profiles in your deliveries, make sure t
 
 Campaign Web allows you to preview and send proofs when using an audience uploaded from a file. To do this, follow these steps:
 
-1. Click the **[!UICONTROL Simulate content button]** from your delivery content editing screen and click the **[!UICONTROL Add test profile(s)]** button. 
+1. Click the **[!UICONTROL Simulate content button]** from your delivery content editing screen, and click the **[!UICONTROL Add test profile(s)]** button. 
 
-1. The profiles contained in the uploaded file display. Select the profile(s) that you want to use for previewing your content and click **[!UICONTROL Select]**.
+1. The profiles contained in the uploaded file display. Select the profiles that you want to use for previewing your content, and click **[!UICONTROL Select]**.
 
-1. A preview of the delivery content displays in the right pane of the screen. Personalized elements are replaced with the data from the profile selected in the left pane. [Learn more on delivery content preview](../preview-test/preview-content.md) 
+1. A preview of the delivery content displays in the right pane of the screen. Personalized elements are replaced with the data from the profile selected in the left pane. [Learn more about delivery content preview](../preview-test/preview-content.md) 
 
-    ![](assets/file-upload-preview.png){zoomable="yes"}
+    ![Screenshot showing the preview of delivery content with personalized elements](assets/file-upload-preview.png){zoomable="yes"}
 
 1. To send proofs, click the **[!UICONTROL Send proof]** button.
 
-1. Click the **[!UICONTROL Upload proof profiles]** button and select the .txt or .csv file that contains your proof recipients.
+1. Click the **[!UICONTROL Upload proof profiles]** button, and select the .txt or .csv file that contains your proof recipients.
 
     >[!CAUTION]
     >
     >Ensure that the file format matches the one used for uploading your audience. Any format errors will display an alert.
 
-1. When the proof profiles are added and you are ready to send the proofs, click the **[!UICONTROL Send proof]** button and confirm the sending.
+1. When the proof profiles are added and you are ready to send the proofs, click the **[!UICONTROL Send proof]** button, and confirm the sending.
 
-    ![](assets/file-upload-test.png){zoomable="yes"}
+    ![Screenshot showing the proof sending process](assets/file-upload-test.png){zoomable="yes"}
 
-1. You can monitor the sending of the proof using the **[!UICONTROL View proofs]** button at any time. [Learn more on proofs monitoring](../preview-test/test-deliveries.md#access-test-deliveries)
+1. Monitor the sending of the proof using the **[!UICONTROL View proofs]** button at any time. [Learn more about proofs monitoring](../preview-test/test-deliveries.md#access-test-deliveries)

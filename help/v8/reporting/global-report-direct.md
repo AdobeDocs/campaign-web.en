@@ -6,9 +6,9 @@ exl-id: a42536fe-375b-4169-8775-d47ed26692f8
 ---
 # Global reports for the direct mail channel {#global-report-direct}
 
-The Direct mail global reports provide users with a comprehensive overview of traffic and engagement metrics at a channel-level.
+The Direct mail global reports provide users with a comprehensive overview of traffic and engagement metrics at a channel level.
 
-Navigate to the **[!UICONTROL Reports]** menu within the **[!UICONTROL Reporting]** section. You can filter your data depending on the Report date, folder or rules. [Learn more](global-reports.md)
+Navigate to the **[!UICONTROL Reports]** menu within the **[!UICONTROL Reporting]** section. You can filter your data depending on the report date, folder, or rules. [Learn more](global-reports.md)
 
 ## Delivery summary {#delivery-summary-direct}
 
@@ -19,19 +19,20 @@ Navigate to the **[!UICONTROL Reports]** menu within the **[!UICONTROL Reporting
 >title="Delivery overview"
 >abstract="The **Delivery Overview** presents key performance metrics (KPIs) offering in-depth insights into the interaction of your visitors with each direct mail delivery. The metrics are outlined below."
 
-The **[!UICONTROL Delivery Overview]** presents key performance metrics (KPIs) offering in-depth insights into the interaction of your visitors with each direct mail delivery. The metrics are outlined below.
+The **[!UICONTROL Delivery Overview]** presents key performance metrics (KPIs), offering in-depth insights into the interaction of your visitors with each direct mail delivery. The metrics are outlined below.
 
-![](assets/global_report_direct_mail_delivery_overview.png){zoomable="yes"}{align="center"}
+![This image shows the delivery overview metrics for direct mail deliveries.](assets/global_report_direct_mail_delivery_overview.png){zoomable="yes"}{align="center"}  
 
-+++Learn more on Delivery overview metrics.
++++Learn more about Delivery overview metrics.
 
 * **[!UICONTROL Messages to deliver]**: Total number of messages processed during the delivery preparation.
 
 * **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
 
-* **[!UICONTROL Errors]**: Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.
+* **[!UICONTROL Errors]**: Total errors accumulated during delivery and automatic return processing, in relation to the total number of sent messages.
 
-* **[!UICONTROL Unsubscribes]**: Number of recipients who clicked unsubscriptions.
+* **[!UICONTROL Unsubscribes]**: Number of recipients who clicked unsubscription links.
+
 +++
 
 ### Targeted audience {#delivery-summary-direct-initial-target}
@@ -48,15 +49,15 @@ The **[!UICONTROL Delivery Overview]** presents key performance metrics (KPIs) o
 
 The table and graph for **[!UICONTROL Targeted Audience]** showcase data related to your recipients, with detailed metrics provided below.
 
-![](assets/global_report_direct_mail_targeted_audience.png){zoomable="yes"}{align="center"}
+![This image shows the targeted audience metrics for direct mail deliveries.](assets/global_report_direct_mail_targeted_audience.png){zoomable="yes"}{align="center"}  
 
-+++Learn more on Targeted audience metrics.
++++Learn more about Targeted audience metrics.
 
 * **[!UICONTROL Targeted audience]**: Total number of targeted recipients.
 
 * **[!UICONTROL Message to deliver]**: Total number of messages to be delivered after delivery preparation.
 
-* **[!UICONTROL Exclusion]**: Total number of addresses ignored during the analysis when applying rules: address missing, quarantined, on denylist, etc.
+* **[!UICONTROL Exclusion]**: Total number of addresses ignored during the analysis when applying rules, such as address missing, quarantined, or on a denylist.
 
 +++
 
@@ -74,15 +75,15 @@ The table and graph for **[!UICONTROL Targeted Audience]** showcase data related
 
 The **[!UICONTROL Delivery statistics]** graph and table provide a breakdown of the success of every direct mail delivery, with detailed metrics outlined below.
 
-+++Learn more on Delivery statistics metrics.
++++Learn more about Delivery statistics metrics.
 
 * **[!UICONTROL Message to deliver]**: Total number of messages to be delivered after delivery preparation.
 
-* **[!UICONTROL Success]**: Number of messages processed successfully in relation to the number of messages to be delivered.
+* **[!UICONTROL Success]**: Number of messages processed successfully, in relation to the number of messages to be delivered.
 
-* **[!UICONTROL Errors / Bounces]**: Total number of errors cumulated during deliveries and automatic rebound processing in relation to the number of messages to be delivered.
+* **[!UICONTROL Errors / Bounces]**: Total errors accumulated during deliveries and automatic rebound processing, in relation to the number of messages to be delivered.
 
-* **[!UICONTROL New quarantines]**: Total number of addresses quarantined following a failed delivery (user unknown, invalid domain) in relation to the number of messages to be delivered.
+* **[!UICONTROL New quarantines]**: Total number of addresses quarantined following a failed delivery (e.g., user unknown, invalid domain), in relation to the number of messages to be delivered.
 
 +++
 
@@ -98,21 +99,21 @@ The **[!UICONTROL Delivery statistics]** graph and table provide a breakdown of 
 >title="Causes of exclusion"
 >abstract="The **Causes of exclusion** graph illustrates the distribution of rejected messages during the preparation for delivery, categorized by each rule."
 
-![](assets/global_report_direct_mail_exclusions.png){zoomable="yes"}{align="center"}
+![This image shows the causes of exclusion metrics for direct mail deliveries.](assets/global_report_direct_mail_exclusions.png){zoomable="yes"}{align="center"}  
 
 The Exclusions graph and table illustrate the reasons that prevented user profiles, excluded from the targeted profiles, from receiving the message.
 
-+++Learn more on Causes of exclusion metrics.
++++Learn more about Causes of exclusion metrics.
 
-* **[!UICONTROL Address in quarantine]**: Error type generated when address is placed in quarantine.
+* **[!UICONTROL Address in quarantine]**: Error type generated when an address is placed in quarantine.
 
 * **[!UICONTROL Address not specified]**: Error type generated when sending a delivery to indicate that the address does not exist.
 
-* **[!UICONTROL Bad quality address]**: Error type generated when postal address quality rating is too low.
+* **[!UICONTROL Bad quality address]**: Error type generated when the postal address quality rating is too low.
 
 * **[!UICONTROL Denylisted address]**: Error type generated when the recipient was denylisted when the delivery was performed.
 
-* **[!UICONTROL Double]**: Error type generated when the recipient was excluded because its keys values were not unique.
+* **[!UICONTROL Double]**: Error type generated when the recipient was excluded because its key values were not unique.
 
 * **[!UICONTROL Control group]**: The recipient's address is part of the control group.
 

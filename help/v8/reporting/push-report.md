@@ -11,7 +11,7 @@ exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
 >title="Reporting sending"
 >abstract="The **Sending** tab within your report provides in-depth insights into your visitors' interactions with your deliveries and any potential errors they may have encountered."
 
-The **Push delivery report** provides a thorough overview of the push channel, offering extensive insights and specific data. It offers comprehensive information regarding the performance, effectiveness, and results of each delivery.
+The **Push delivery report** provides a thorough overview of the push channel, offering extensive insights and specific data. It provides comprehensive information regarding the performance, effectiveness, and results of each delivery.
 
 ## Push summary {#push-summary}
 
@@ -24,17 +24,14 @@ The **Push delivery report** provides a thorough overview of the push channel, o
 
 The **[!UICONTROL Delivery overview]** report provides key performance indicators (KPIs) that give detailed information about how your visitors engage with your push messages.
 
-![](assets/reporting_push_3.png){zoomable="yes"}
+![This screenshot shows the Delivery overview report, which provides KPIs about visitor engagement with push messages.](assets/reporting_push_3.png){zoomable="yes"}
 
-+++Learn more on Push delivery report metrics.
++++Learn more about Push delivery report metrics.
 
 * **[!UICONTROL Total sent]**: Total number of messages processed during the delivery preparation.
-
 * **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
-
 * **[!UICONTROL Clicks]**: Total number of recipients who interacted with the Push message.
-
-* **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
+* **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery, preventing it from being sent to profiles.
 
 +++
 
@@ -47,12 +44,11 @@ The **[!UICONTROL Delivery overview]** report provides key performance indicator
 
 The **Targeted population** graph and table display data relative to your audience: messages to deliver and exclusions. Metrics are detailed below.
 
-![](assets/reporting_push_4.png){zoomable="yes"}
+![This screenshot shows the Targeted population graph and table, which display data about messages to deliver and exclusions.](assets/reporting_push_4.png){zoomable="yes"}
 
-+++Learn more on Push delivery report metrics.
++++Learn more about Push delivery report metrics.
 
 * **[!UICONTROL To deliver]**: Total number of messages processed during the delivery preparation.
-
 * **[!UICONTROL Exclusions]**: Number of profiles that have been excluded from the analysis.
 
 +++
@@ -64,17 +60,15 @@ The **Targeted population** graph and table display data relative to your audien
 >title="Push overall statistics"
 >abstract="The **Overall statistics** report presents data for the sent push notifications: success, errors and quarantines."
 
-The **Overall statistics** report presents data for the sent push notifications: success, errors and quarantines. Metrics are detailed below.
+The **Overall statistics** report presents data for the sent push notifications: success, errors, and quarantines. Metrics are detailed below.
 
-![](assets/reporting_push_5.png){zoomable="yes"} 
+![This screenshot shows the Overall statistics report, which presents data about success, errors, and quarantines for sent push notifications.](assets/reporting_push_5.png){zoomable="yes"} 
 
-+++Learn more on Push delivery report metrics.
++++Learn more about Push delivery report metrics.
 
 * **[!UICONTROL Success]**: Number of messages processed successfully.
-
 * **[!UICONTROL Errors]**: Total number of errors that occurred during delivery, preventing the messages from being sent to certain profiles.
-
-* **[!UICONTROL New quarantine]**:  Number of profiles that have been excluded and added to the quarantine.
+* **[!UICONTROL New quarantine]**: Number of profiles that have been excluded and added to the quarantine.
 
 +++
 
@@ -87,8 +81,7 @@ The **Overall statistics** report presents data for the sent push notifications:
 
 The **[!UICONTROL Exclusions]** graph and table display the various reasons that prevented user profiles, which were excluded from the targeted profiles, from receiving the message. Exclusion rules are detailed in the [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}.
 
-
-![](assets/reporting_push_6.png){zoomable="yes"} 
+![This screenshot shows the Exclusions graph and table, which display reasons preventing excluded user profiles from receiving messages.](assets/reporting_push_6.png){zoomable="yes"} 
 
 ## Delivery throughput {#delivery-throughput}
 
@@ -99,4 +92,4 @@ The **[!UICONTROL Exclusions]** graph and table display the various reasons that
 
 The **Delivery throughput** report presents detailed information regarding the delivery throughput of the entire platform within a specified timeframe. The primary metric used to measure the speed of message delivery is the number of messages sent per hour.
 
-![](assets/reporting_push_2.png){zoomable="yes"}
+![This screenshot shows the Delivery throughput report, which provides details about the platform's message delivery speed within a specified timeframe.](assets/reporting_push_2.png){zoomable="yes"}

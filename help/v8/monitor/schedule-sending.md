@@ -6,79 +6,74 @@ exl-id: 0738a148-d550-41c2-a8c2-6054684ba789
 ---
 # Schedule the sending of a delivery {#schedule-sending}
 
-You can schedule the sending of a delivery. The steps for this will depend on whether it is a standalone (one-shot) delivery, or if you are working in the context of a campaign workflow.
+You can schedule the sending of a delivery. The steps depend on whether it is a standalone (one-shot) delivery or if you are working in the context of a campaign workflow.
 
 ## Standalone delivery
 
-For standalone deliveries, you can schedule directly the date and time in the delivery.
-See below examples for each type of delivery: email, sms, push notification.
+For standalone deliveries, schedule the date and time directly in the delivery. See examples below for each type of delivery: email, SMS, and push notification.
 
 ### Email {#schedule-email-standalone}
 
-To schedule the sending of an email delivery, follow the steps below:
+To schedule the sending of an email delivery, follow these steps:
 
-1. In the **[!UICONTROL Schedule]** section of your delivery properties, activate the **[!UICONTROL Enable scheduling]** toggle
+1. In the **[!UICONTROL Schedule]** section of your delivery properties, activate the **[!UICONTROL Enable scheduling]** toggle.
 
-1. Set the desired date and time for sending, and click on **[!UICONTROL Review and send]** button.
+1. Set the desired date and time for sending, and click the **[!UICONTROL Review and send]** button.
 
-    ![](assets/schedule-email-standalone.png){zoomable="yes"}
+    ![Activate scheduling and set date and time](assets/schedule-email-standalone.png){zoomable="yes"}
 
 >[!NOTE]
 >
->By default, the **[!UICONTROL Enable confirmation before sending]** option is enabled. This option requires you to confirm the sending before the delivery is sent at the scheduled date and time. If you need to **send the delivery automatically** on the scheduled date and time, you need to disable this option.
+>By default, the **[!UICONTROL Enable confirmation before sending]** option is enabled. This option requires you to confirm the sending before the delivery is sent at the scheduled date and time. If you need to send the delivery automatically on the scheduled date and time, disable this option.
 >
 
-1. Check that the schedule is correct, and click on **[!UICONTROL Prepare]** button. 
+1. Check that the schedule is correct, and click the **[!UICONTROL Prepare]** button.
 
-![](assets/schedule-email-standalone-prepare.png){zoomable="yes"}
+![Check schedule and prepare delivery](assets/schedule-email-standalone-prepare.png){zoomable="yes"}
 
-1. Once the preparation is complete, messages are ready to be sent. Key metrics for the delivery are displayed: total target population, number of messages to deliver, number of excluded recipients. Click the **[!UICONTROL Send as scheduled]** button to confirm you allow the delivery to be sent on the scheduled date and time to the main target.
+1. Once the preparation is complete, messages are ready to be sent. Key metrics for the delivery are displayed, including total target population, number of messages to deliver, and number of excluded recipients. Click the **[!UICONTROL Send as scheduled]** button to confirm the delivery will be sent on the scheduled date and time to the main target.
 
-![](assets/schedule-email-standalone-send.png){zoomable="yes"}
+![Confirm sending as scheduled](assets/schedule-email-standalone-send.png){zoomable="yes"}
 
+### SMS
 
-### Sms
+To schedule your SMS delivery for a specific date and time, follow the same steps as for email deliveries. [See above](#schedule-email-standalone).
 
-To schedule your sms delivery to a specific date and time, the steps are the same as for email deliveries, [see above](#schedule-email-standalone).
+![Schedule SMS delivery](assets/schedule-sms-standalone.png){zoomable="yes"}
 
-![](assets/schedule-sms-standalone.png){zoomable="yes"}
+You can also check that the schedule is applied:
 
-You can also check that the schedule is taken into account :
-
-![](assets/schedule-sms-standalone-prepare.png){zoomable="yes"}
+![Check SMS schedule](assets/schedule-sms-standalone-prepare.png){zoomable="yes"}
 
 ### Push notification
 
-To schedule a standalone push delivery to a specific date and time, the steps are the same as for email deliveries, [see above](#schedule-email-standalone).
+To schedule a standalone push delivery for a specific date and time, follow the same steps as for email deliveries. [See above](#schedule-email-standalone).
 
-![](assets/schedule-push-standalone.png){zoomable="yes"}
+![Schedule push notification delivery](assets/schedule-push-standalone.png){zoomable="yes"}
 
-You can also check that the schedule is taken into account: 
+You can also check that the schedule is applied:
 
-![](assets/schedule-push-standalone-prepare.png){zoomable="yes"}
+![Check push notification schedule](assets/schedule-push-standalone-prepare.png){zoomable="yes"}
 
 ### Standalone delivery in a campaign
 
-You can create a standalone delivery within a campaign without using a workflow. You can setup date and time schedule for this delivery as explained above.
-The campaign may have its schedule, with a beginning date and an end date. This schedule will not interfere with your delivery schedule. 
+You can create a standalone delivery within a campaign without using a workflow. Set up the date and time schedule for this delivery as explained above. The campaign may have its own schedule, including a beginning date and an end date. This schedule does not interfere with your delivery schedule.
 
-![](assets/schedule-delivery-standalone.png){zoomable="yes"}
+![Standalone delivery in a campaign](assets/schedule-delivery-standalone.png){zoomable="yes"}
 
 ## Schedule a delivery in a campaign workflow
 
-In the context of a campaign workflow, the **best practice** is to use the **[!UICONTROL Scheduler]** activity to apply a date and time which will launch of the workflow, involving the sending of the delivery. [Learn more about Scheduler](../workflows/activities/scheduler.md)
+In the context of a campaign workflow, the best practice is to use the **[!UICONTROL Scheduler]** activity to apply a date and time for launching the workflow, which involves sending the delivery. [Learn more about Scheduler](../workflows/activities/scheduler.md).
 
-![](assets/schedule-workflow.png){zoomable="yes"}
+![Schedule delivery in a campaign workflow](assets/schedule-workflow.png){zoomable="yes"}
 
+Configure the date and time in the **[!UICONTROL Scheduler]** activity.
 
-You need to configurate the date and time in the **[!UICONTROL Scheduler]** activity.
+![Configure Scheduler activity](assets/schedule-workflow-scheduler.png){zoomable="yes"}
 
-![](assets/schedule-workflow-scheduler.png){zoomable="yes"}
-
-
->[!NOTE] 
+>[!NOTE]
 >
->When you use the **[!UICONTROL Scheduler]** activity to schedule the sending of your delivery in a workflow, **do not activate** the **[!UICONTROL Enable scheduling]** toggle in the **[!UICONTROL Delivery]** activity settings. You delivery will be sent automatically.
+>When you use the **[!UICONTROL Scheduler]** activity to schedule the sending of your delivery in a workflow, do not activate the **[!UICONTROL Enable scheduling]** toggle in the **[!UICONTROL Delivery]** activity settings. Your delivery will be sent automatically.
 >
 
-In the case you activate the **[!UICONTROL Enable scheduling]** toggle in the **[!UICONTROL Delivery]** activity settings, and setup a date and time there, the delivery will wait to be sent at this date and time. This means that if there is a delay between the date of launch of the workflow and the date of the sending, the audience may be not up to date.
+If you activate the **[!UICONTROL Enable scheduling]** toggle in the **[!UICONTROL Delivery]** activity settings and set up a date and time there, the delivery will wait to be sent at this date and time. This means that if there is a delay between the workflow launch date and the sending date, the audience may not be up to date.

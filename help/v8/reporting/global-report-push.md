@@ -6,9 +6,9 @@ exl-id: 829a9b68-5c41-47dd-843c-412b6d255e8b
 ---
 # Global reports for the Push channel {#campaign-reports-push}
 
-The global reports provide users with a comprehensive overview of traffic and engagement metrics at a channel-level.
+The global reports provide users with a comprehensive overview of traffic and engagement metrics at a channel level.
 
-Navigate to the **[!UICONTROL Reports]** menu within the **[!UICONTROL Reporting]** section. You can filter your data depending on the Report date, folder or rules. [Learn more](global-reports.md)
+Navigate to the **[!UICONTROL Reports]** menu within the **[!UICONTROL Reporting]** section. You can filter your data depending on the report date, folder, or rules. [Learn more](global-reports.md)
 
 ## Delivery summary {#delivery-summary-push}
 
@@ -20,10 +20,10 @@ Navigate to the **[!UICONTROL Reports]** menu within the **[!UICONTROL Reporting
 >abstract="The Push **delivery overview** KPIs provide a thorough examination of your push deliveries, delivering detailed insights and specific data. It furnishes comprehensive details regarding the deliveries' performance, effectiveness, and outcomes."
 
 The **[!UICONTROL Delivery Overview]** report provides key performance indicators (KPIs) that give detailed information about how your visitors engage with every push notification delivery. Metrics are detailed below.
-    
-![](assets/global_report_push_delivery_overview.png){zoomable="yes"}
 
-+++Learn more on Delivery overview metrics.
+![Delivery overview metrics, showing KPIs related to push notification performance.](assets/global_report_push_delivery_overview.png){zoomable="yes"}
+
++++Learn more about Delivery overview metrics.
 
 * **[!UICONTROL Messages to deliver]**: Total number of messages processed during the delivery preparation.
 
@@ -31,7 +31,7 @@ The **[!UICONTROL Delivery Overview]** report provides key performance indicator
 
 * **[!UICONTROL Total clicks]**: Total number of distinct recipients who clicked in a delivery at least once.
 
-* **[!UICONTROL Errors]**: Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.
+* **[!UICONTROL Errors]**: Total of errors accumulated during delivery and automatic return processing in relation to the total number of sent messages.
 
 +++
 
@@ -44,15 +44,15 @@ The **[!UICONTROL Delivery Overview]** report provides key performance indicator
 
 The **[!UICONTROL Targeted audience]** table and graph present data related to your recipients for each sent Push notification delivery. Metrics are detailed below.
 
-![](assets/global_report_push_targeted_audience.png){zoomable="yes"}
+![Targeted audience metrics, showing data related to recipients and exclusions for push notifications.](assets/global_report_push_targeted_audience.png){zoomable="yes"}
 
-+++Learn more on Targeted audience metrics.
++++Learn more about Targeted audience metrics.
 
 * **[!UICONTROL Targeted audience]**: Total number of targeted recipients.
 
 * **[!UICONTROL Message to deliver]**: Total number of messages to be delivered after delivery preparation.
 
-* **[!UICONTROL Exclusion]**: Total number of addresses ignored during the analysis when applying rules: address missing, quarantined, on denylist, etc.
+* **[!UICONTROL Exclusion]**: Total number of addresses ignored during the analysis when applying rules: address missing, quarantined, on denylist, and similar reasons.
 
 +++
 
@@ -65,17 +65,17 @@ The **[!UICONTROL Targeted audience]** table and graph present data related to y
 
 The **[!UICONTROL Delivery statistics]** table details the success of every Push notification delivery. Metrics are detailed below.
 
-![](assets/global_report_push_delivery_statistics.png){zoomable="yes"}
+![Delivery statistics metrics, showing success rates, errors, and quarantines for push notifications.](assets/global_report_push_delivery_statistics.png){zoomable="yes"}
 
-+++Learn more on Delivery statistics metrics.
++++Learn more about Delivery statistics metrics.
 
 * **[!UICONTROL Total messages]**: Total number of messages to be delivered after delivery preparation.
 
 * **[!UICONTROL Success]**: Number of messages processed successfully in relation to the number of messages to be delivered.
 
-* **[!UICONTROL Errors / Bounces]**: Total number of errors cumulated during deliveries and automatic rebound processing in relation to the number of messages to be delivered.
+* **[!UICONTROL Errors / Bounces]**: Total number of errors accumulated during deliveries and automatic rebound processing in relation to the number of messages to be delivered.
 
-* **[!UICONTROL New quarantines]**: Total number of addresses quarantined following a failed delivery (invalid registration, message rejection, payload error, for ex.) in relation to the number of messages to be delivered.
+* **[!UICONTROL New quarantines]**: Total number of addresses quarantined following a failed delivery (invalid registration, message rejection, payload error, and similar reasons) in relation to the number of messages to be delivered.
 
     Push notifications error types are listed in the [Adobe Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}.
 
@@ -99,6 +99,6 @@ Push notifications error types are listed in the [Adobe Campaign v8 (client cons
 >title="Delivery throughput report"
 >abstract="The **Delivery throughput** report presents detailed information regarding the push notification delivery throughput of the entire platform within a specified timeframe."
 
-![](assets/global_report_push_delivery_throughput.png){zoomable="yes"}
+![Delivery throughput metrics, showing success and error rates for push notifications over a specified period.](assets/global_report_push_delivery_throughput.png){zoomable="yes"}
 
 The **[!UICONTROL Delivery Throughput]** report offers comprehensive insights into the effectiveness of the push notification delivery system, offering a detailed summary of success and error rates over a specified period.

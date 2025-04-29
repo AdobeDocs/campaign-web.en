@@ -6,9 +6,9 @@ exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
 ---
 # Get started with campaign reports {#campaign-reports}
 
-The **Campaign reports** provide a comprehensive overview of your **campaign**, incorporating all pertinent information regarding the different deliveries included. These reports offer a thorough analysis of each delivery's performance, per channel: success rates, audience engagement, and other essential metrics. They allow you to evaluate the overall effectiveness and impact of your campaign. 
+The **Campaign reports** provide a comprehensive overview of your **campaign**, incorporating all relevant information regarding the different deliveries included. These reports offer a detailed analysis of each delivery's performance per channel, including success rates, audience engagement, and other key metrics. They help you evaluate the overall effectiveness and impact of your campaign.
 
-The full list of reports and associated metrics for each channel is available in the following pages:
+The complete list of reports and associated metrics for each channel is available on the following pages:
 
 * [Email campaign channel](campaign-reports-email.md) 
 * [SMS campaign channel](campaign-reports-sms.md)
@@ -19,30 +19,30 @@ The full list of reports and associated metrics for each channel is available in
 
 To access and manage your campaign reports, follow these steps:
 
-1. Navigate to the **[!UICONTROL Campaigns]** menu. Click the **Reports** button from your campaign's dashboard.
+1. Navigate to the **[!UICONTROL Campaigns]** menu, and click the **Reports** button from your campaign's dashboard.
 
-    ![](assets/manage_campaign_report_2.png){zoomable="yes"}
+    ![Screenshot showing the Campaigns menu and Reports button](assets/manage_campaign_report_2.png){zoomable="yes"}
 
-    Alternatively, you can use the three dots **More actions** button next to the campaign name in the campaign list and select **[!UICONTROL View report]**.
+    Alternatively, use the three dots **More actions** button next to the campaign name in the campaign list, and select **[!UICONTROL View report]**.
         
-    ![](assets/manage_campaign_report_1.png){zoomable="yes"}
+    ![Screenshot showing the More actions button and View report option](assets/manage_campaign_report_1.png){zoomable="yes"}
 
-1. From the left menu, select a report from the list and navigate through the tab to display data from each channel.
+1. From the left menu, select a report from the list, and navigate through the tabs to display data from each channel.
 
-    ![](assets/manage_campaign_report_4.png){zoomable="yes"}
+    ![Screenshot showing the left menu with report options and tabs for channel data](assets/manage_campaign_report_4.png){zoomable="yes"}
 
-1. From your dashboard, click **[!UICONTROL Select deliveries]** if you want to target one specific delivery included in your campaign.
+1. From your dashboard, click **[!UICONTROL Select deliveries]** to target a specific delivery included in your campaign.
 
-1. In the **[!UICONTROL Delivery throughput]** menu, choose a **Start** and **[!UICONTROL End time]** to target specific data.
+1. In the **[!UICONTROL Delivery throughput]** menu, choose a **Start** and **[!UICONTROL End time]** to focus on specific data.
 
-    ![](assets/manage_campaign_report_3.png){zoomable="yes"}
+    ![Screenshot showing the Delivery throughput menu with Start and End time options](assets/manage_campaign_report_3.png){zoomable="yes"}
 
-1. From the **[!UICONTROL Pick folder]** field, select if you want to target deliveries or campaign from specific folder.
+1. From the **[!UICONTROL Pick folder]** field, select whether to target deliveries or campaigns from a specific folder.
 
-    You can also select **[!UICONTROL Add rules]** to start building queries to better filter reporting data. [Learn how to use the query modeler](../query/query-modeler-overview.md)
+    You can also select **[!UICONTROL Add rules]** to build queries for better filtering of reporting data. [Learn how to use the query modeler](../query/query-modeler-overview.md)
 
-    ![](assets/manage_campaign_report_4.png){zoomable="yes"}
+    ![Screenshot showing the Pick folder field and Add rules option](assets/manage_campaign_report_4.png){zoomable="yes"}
 
-1. From the **[!UICONTROL URLs and click streams]**, you can also choose the **[!UICONTROL Top visited Links]** or the **[!UICONTROL Time period]**.
+1. From the **[!UICONTROL URLs and click streams]**, choose the **[!UICONTROL Top visited Links]** or the **[!UICONTROL Time period]**.
 
-    The **[!UICONTROL View by]** options allow you to filter on URLs, Labels or Categories.
+    The **[!UICONTROL View by]** options allow filtering by URLs, Labels, or Categories.
