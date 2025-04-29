@@ -43,7 +43,7 @@ The email **[!UICONTROL Edit content]** screen allows you to:
 >
 >All the editable text fields of this screen can be filled in using personalization fields. [Learn how to personalize content](../personalization/personalize.md)
 
-### Configure the delivery
+## Configure the delivery
 
 To configure or edit the content of an email, follow the steps below.
 
@@ -89,7 +89,7 @@ To configure or edit the content of an email, follow the steps below.
 
     You can then insert them into the email using personalization fields. [Learn how to send offers](../msg/offers.md)
 
-### Edit the email body
+## Edit the email body
 
 1. Click the **[!UICONTROL Edit email body]** button to structure and design the content of the email using the [Email Designer](get-started-email-designer.md#start-authoring). 
 
