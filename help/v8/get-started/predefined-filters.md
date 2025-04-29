@@ -18,7 +18,7 @@ exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_filter"
 >title="Create an alerting criterion"
->abstract="You can create your own delivery filters from the Customer Management > Predefined filters menu.
+>abstract="You can create your own delivery filters from the Customer Management > Predefined filters menu."
 
 Predefined filters are custom filters created and saved for future use. They act as shortcuts during filtering operations with the query modeler. For example, they can be used when filtering a list of data or creating the audience of a delivery.
 

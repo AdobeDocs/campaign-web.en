@@ -68,7 +68,7 @@ To manage the **[!UICONTROL Custom options]**:
 
 1. Click the **[!UICONTROL Screen edition]** button.
 
-    ![](assets/assets/program_edit2.png){zoomable="yes"}
+    ![](assets/program_edit2.png){zoomable="yes"}
 
 Configure the custom options:
 
