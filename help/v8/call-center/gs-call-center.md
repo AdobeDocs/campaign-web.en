@@ -18,41 +18,4 @@ You can use the call center channel in one of the following ways:
 * **Campaigns**: Once you create a campaign, you can add a call center delivery. For more information on setting up campaigns, refer to [this page](../campaigns/gs-campaigns.md).
 * **Stand-alone deliveries**: create a one-time call center delivery, without the need for workflows or campaigns. [Learn how to create a delivery](../msg/gs-deliveries.md)
 
-<!--
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td>
-<a href="create-push.md">
-<img alt="Create a push delivery" src="assets/do-not-localize/push_create.jpeg">
-</a>
-<div><a href="create-push.md"><strong>Create a push delivery</strong>
-</div>
-<p>
-</td>
-<td>
-<a href="content-push.md">
-<img alt="Design a push delivery" src="assets/do-not-localize/push_design.jpeg">
-</a>
-<div>
-<a href="content-push.md"><strong>Design a push delivery<strong></strong></a>
-</div>
-<p></td>
-<td>
-<a href="send-push.md">
-<img alt="Send a push delivery" src="assets/do-not-localize/push_send.jpeg">
-</a>
-<div>
-<a href="send-push.md"><strong>Send a push delivery</strong></a>
-</div>
-<p>
-</td>
-<td>
-<a href="send-push.md">
-<img alt="Push delivery report" src="assets/do-not-localize/push_report.jpeg">
-</a>
-<div>
-<a href="send-push.md"><strong>Push delivery report</strong></a>
-</div>
-<p>
-</td>
-</tr></table>
--->
+To learn how to create and send a call center delivery, refer to this [page](../call-center/create-call-center.md)
