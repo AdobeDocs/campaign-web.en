@@ -6,12 +6,6 @@ exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
 # Work with schemas {#schemas}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="Work with Schemas"
->abstract="You can now access the details of a schema by selecting its name in the list. Custom fields edition is also accessible from the **Screen edition** button."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
-
->[!CONTEXTUALHELP]
 >id="acw_schema"
 >title="Schemas"
 >abstract="**[!DNL Adobe Campaign]** uses XML-based schemas to define the physical and logical structure of data within the application. From this screen, you can view all existing schemas and access the details of a schema by selecting its name in the list. Filters are available to help refine the list, such as displaying only editable schemas."

@@ -6,6 +6,12 @@ exl-id: d176c1ef-875f-4bea-9cc3-d568cf5cf55a
 ---
 # Get started with the call center channel {#gs-call-center}
 
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn2"
+>title="Call Center Channel"
+>abstract="The call center channel is now available in Campaign Web User interface. This channel refers to a communication method used to manage and track communications handled via a call center."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
+
 The call center channel lets you export targeted contact lists for outbound phone campaigns directly from Adobe Campaign Web UI. Use it to coordinate calls through internal teams or external contact centers.
 
 You can configure call deliveries in workflows or as standalone deliveries, define your audience, and generate customizable export files with all necessary contact and personalization data.

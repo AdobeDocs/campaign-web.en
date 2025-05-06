@@ -5,6 +5,12 @@ exl-id: e37d6cb0-f8fa-4f1c-9cdd-46f9666c2d18
 ---
 # Manage external accounts {#external-accounts}
 
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn3"
+>title="External Account Authoring"
+>abstract="As a Campaign administrator, you can now set up new connections with external systems from Campaign Web user interface. You can also view, update and manage existing external accounts."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
+
 Adobe Campaign includes pre-configured external accounts for easy integration with various systems. To connect to additional platforms or customize connections to fit your workflow, create new external accounts using the Web User Interface. This ensures seamless data transfers.
 
 ## Create an external account {#create-ext-account}

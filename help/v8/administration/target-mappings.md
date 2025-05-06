@@ -6,10 +6,10 @@ exl-id: 144d5650-9632-4af3-b64e-f6e81503a621
 # Manage target mappings {#target-mappings}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
+>id="acw_homepage_welcome_rn5"
 >title="Target Mappings"
 >abstract="You can now create target mappings in Campaign Web User Interface. Target mappings define how different delivery channels (email, SMS, push notifications) link to the data fields of a schema."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/previous-release-notes/release-notes-25.html" text="See release notes"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_list"

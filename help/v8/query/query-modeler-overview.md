@@ -7,6 +7,12 @@ exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
 # Work with the query modeler {#segment-builder}
 
 >[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="New Rule Builder"
+>abstract="A new rule builder is now available to help you define complex conditions in an improved user interface. You can switch from the old to the new rule builder as needed."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
+
+>[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card5"
 >title="New Query modeler"
 >abstract="Adobe Campaign Web features a query modeler that simplifies the process of filtering databases to select specific targets based on various criteria. This includes the use of advanced expressions and operators. The query modeler is available in every context where you need to define rules to filter data."
