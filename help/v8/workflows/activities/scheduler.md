@@ -54,7 +54,7 @@ Follow these steps to configure the **Scheduler** activity:
    * **Permanent (never expires)**: The workflow is executed according to the frequency specified, without any limits to the time frame or number of iterations.  
    * **Validity period**: The workflow is executed according to the frequency specified, up until a specific date. Specify start and end dates.  
 
->[!NOTE]  
+>[!NOTE]
 >If you want to start the workflow right away, click **Execute pending task** in the scheduler's top action bar. This button is only available when the workflow has been started.
 
 ## Example {#scheduler-example}
