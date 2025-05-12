@@ -162,9 +162,9 @@ You can now send rich push notifications. A rich push notification is an enhance
 
 The following features and improvements are available to all users starting June release.
 
-### Delivery alerting {#24-6-3}
+<!--### Delivery alerting {#24-6-3}
 
-The Delivery alerting feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries. [Read more](../msg/delivery-alerting.md)
+The Delivery alerting feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries. [Read more](../msg/delivery-alerting.md)-->
 
 ### Plans and programs {#24-6-4}
 

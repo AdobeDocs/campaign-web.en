@@ -2,6 +2,10 @@
 audience: end-user
 title: Delivery alerting
 description: Learn how to work with delivery alerting.
+hidefromtoc: yes
+hide: yes
+robots: noindex
+googlebot: noindex
 exl-id: 120afaa0-7017-4644-b6db-229b4a5c8a91
 ---
 # Get started with delivery alerting {#gs-delivery-alerting}

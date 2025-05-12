@@ -2,6 +2,10 @@
 audience: end-user
 title: Discover the interface
 description: Adobe Campaign Web user interface
+hidefromtoc: yes
+hide: yes
+robots: noindex
+googlebot: noindex
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 ---
 # Discover the interface {#user-interface}
@@ -150,7 +154,7 @@ Learn how to create and send offers in emails and SMS in [this section](../msg/o
 
 * **Schemas** - Custom fields are additional attributes added to the out-of-the-box schemas through the Adobe Campaign console. [Learn more](../administration/custom-fields.md).
 
-* **Delivery Alerting** - Delivery Alerting is an alert management system that enables groups of users to automatically receive email notifications with information on their delivery executions. [Learn more](../msg/delivery-alerting.md).
+<!--* **Delivery Alerting** - Delivery Alerting is an alert management system that enables groups of users to automatically receive email notifications with information on their delivery executions. [Learn more](../msg/delivery-alerting.md).-->
 
 ## Learn more {#learn-more}
 
