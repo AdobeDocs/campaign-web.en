@@ -1,8 +1,9 @@
 ---
 audience: end-user
-title:  Brand alignment
+title: Brand alignment
 description: Learn how to create, validate, and manage on-brand content using brand score.
 badge: label="Beta" type="Informative"
+exl-id: 5e65d3f4-6a4e-4390-94ae-e59856f1370d
 ---
 # Brand alignment (Beta){#brands-score}
 
