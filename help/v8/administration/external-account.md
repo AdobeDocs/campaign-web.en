@@ -202,7 +202,7 @@ To connect to the Adobe Campaign console using an Adobe ID, you must configure t
 
 The Amazon Simple Storage Service (S3) connector can be used to import or export data to Adobe Campaign. It can be set up in a workflow activity. For more on this, refer to [this page](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
 
-![](assets/external-AWS.png)
+![Screenshot showing the Amazon Simple Storage Service S3 external account configuration fields.](assets/external-AWS.png)
 
 As you are setting up this new external account, you need to provide the following details:
 
@@ -233,7 +233,7 @@ To learn where to find the access key ID and secret access key, refer to Amazon 
 
 The **[!UICONTROL Azure Blob Storage]** external account can be used to import or export data to Adobe Campaign using a **[!UICONTROL Transfer file]** workflow activity. For more on this, refer to [this section](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
 
-![](assets/external-azure.png)
+![Screenshot showing the Azure Blob Storage external account configuration fields.](assets/external-azure.png)
 
 To configure the **[!UICONTROL Azure external account]** to work with Adobe Campaign, you need to provide the following details:
 
