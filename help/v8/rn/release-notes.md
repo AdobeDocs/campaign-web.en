@@ -14,10 +14,28 @@ Adobe Campaign Web user interface releases operate on a continuous delivery mode
 
 Changes and improvements available with previous releases are listed in the [2024](release-notes-24.md) and [2025](release-notes-25.md).
 
+## May '25 updates {#25-5-release}
+
+<table>
+<thead>
+<tr>
+<th><strong>Brand alignment score (Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>The Brand alignment score feature offers clear feedback directly in the email designer, helping you see whether your content aligns with your brand's tone, style, and guidelines. This feature is available in Beta.</p>
+<p>For more information, refer to the <a href="../content/brands-score.md">detailed documentation</a>.</p>
+<img src="assets/do-not-localize/brand-score.gif">
+</td>
+</tr>
+</tbody>
+</table>
+
 ## April '25 release {#25-4-release}
 
 **Release date**: April 29, 2025
-
 
 ### New features {#25-4-features}
 
