@@ -17,7 +17,7 @@ exl-id: 44f90e34-e72e-4506-90d5-06ab68242d34
 
 Adobe Campaign Web includes technical options that allow you to configure the application more specifically. Some of these options are built-in, while others can be added manually as needed.
 
->[!IMPORTANT]  
+>[!IMPORTANT]
 >Built-in options are pre-configured and should only be modified by advanced users. If you have any questions or requests, contact your Adobe representative.
 
 ## Access Campaign options {#access}
@@ -27,7 +27,7 @@ Options are available from the **[!UICONTROL Administration]** / **[!UICONTROL O
 ![](assets/options-list.png)  
 [Options list displayed in the Administration / Options menu]
 
->[!NOTE]  
+>[!NOTE]
 >Although the options menu location differs between the Adobe Campaign console and Web user interface, the list is identical and operates like a mirror. For more details on the available options, refer to the list of options in [Campaign v7 documentation](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options){target="_blank"}.
 
 From the options list, you can:
