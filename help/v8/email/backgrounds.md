@@ -34,7 +34,7 @@ Below are the available background settings you can use:
   [Apply unique background colors to individual structure components via the navigation tree.]  
   ![](assets/background_3.png){zoomable="yes"}  
 
-  >[!NOTE]  
+  >[!NOTE]
   >Ensure you do not set a viewport background color, as it may hide the structure background colors.  
 
 * Set a **[!UICONTROL Background image]** for the content of a structure component.
@@ -42,7 +42,7 @@ Below are the available background settings you can use:
   [Add a background image to the content of a specific structure component.]  
   ![](assets/background_4.png){zoomable="yes"}  
 
-  >[!NOTE]  
+  >[!NOTE]
   >Some email programs do not support background images. When unsupported, the row background color is used instead. Select an appropriate fallback background color in case the image cannot be displayed.  
 
 * Set a background color at the column level.
@@ -50,7 +50,7 @@ Below are the available background settings you can use:
   [Apply a background color at the column level for greater flexibility.]  
   ![](assets/background_5.png){zoomable="yes"}  
 
-  >[!NOTE]  
+  >[!NOTE]
   >This is the most common use case. Adobe recommends setting background colors at the column level, as this provides more flexibility when editing the entire email content.  
 
   You can also set a background image at the column level, but this is rarely used.
