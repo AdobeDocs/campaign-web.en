@@ -18,6 +18,10 @@ You can configure call center deliveries in workflows or as standalone deliverie
 
 This channel is ideal for lead follow-ups, retention calls, or service outreach, and helps extend your omnichannel strategy with personalized voice interactions.
 
+>[!NOTE]
+>
+>Reporting is not available in the Web UI for the call center channel. You must browse to the Client Console to access reports.
+
 You can use the call center channel in one of the following ways:
 
 * **Workflows**: add a call center activity to your workflow and configure the basic settings and content. For detailed instructions on configuring workflows, refer to [this page](../workflows/gs-workflow-creation.md).
