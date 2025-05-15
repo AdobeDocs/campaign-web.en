@@ -15,6 +15,10 @@ To create and send a new standalone call center delivery, follow these main step
 1. Edit the content, [read more](#edit-content)
 1. Preview and send the delivery, [read more](#preview-send)
 
+>[!NOTE]
+>
+>Note: Reporting is not available in the Web UI for the call center channel. You must browse to the Client Console to access reports.
+
 ## Create the delivery{#create-delivery}
 
 Follow these steps to create the delivery and configure its properties:
@@ -56,7 +60,7 @@ Now, you need to define the audience that will be targeted for the extraction fi
 >
 >Call center recipients must contain at least their names and telephone number. Any recipients with incomplete information will be excluded from call center deliveries.
 >
->To learn how to configure control groups, refer to this [page](../audience/control-group.md)
+>To learn how to configure control groups, refer to this [page](../audience/control-group.md).
 
 ## Edit the content{#edit-content}
 
