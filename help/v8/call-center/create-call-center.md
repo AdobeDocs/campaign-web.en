@@ -114,7 +114,7 @@ The main steps to preview and send the extraction file are as follows. More deta
 
 1. Click **[!UICONTROL Send]** to proceed with the final sending process, then confirm.
 
-Once your delivery is sent, the extraction file is automatically generated and exported to the location specified in the **[!UICONTROL Routing]** external account selected in the delivery template's [advanced settings](../advanced-settings/delivery-settings.md).
+Once your delivery is sent, the extraction file is automatically generated and exported to the location specified in the **[!UICONTROL Routing]** external account selected in the delivery template's [advanced settings](../advanced-settings/delivery-settings.md). You can also preview the file by clicking the **Preview file** button, in the **Content** section of the screen. 
 
 Track your KPIs (Key Performance Indicator) data from your delivery page and data from the **[!UICONTROL Logs]** menu.
 
