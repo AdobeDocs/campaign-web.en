@@ -27,11 +27,12 @@ To create and send a new standalone custom external delivery, follow these main 
 
 First, you need to configure the custom external account. Here are the main steps to perform in the Client Console:
 
-1. Configure the schema.
-1. Create a new external account
-1. Create a new delivery template.
+1. Configure the schema and add a new enumeration for the new channel.
+1. Create a new routing external account.
+1. Create a new delivery template associated to the new channel.
 
 For more details, refer to the [Client Console documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html)
+
 ## Create the delivery{#create-delivery}
 
 Follow these steps to create the delivery and configure its properties:
