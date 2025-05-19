@@ -2,7 +2,6 @@
 audience: end-user
 title: Get started with custom external channels
 description: Learn how to create and send custom external channel deliveries with Adobe Campaign Web
-exl-id: d176c1ef-875f-4bea-9cc3-d568cf5cf55a
 ---
 # Get started with custom external channels {#gs-custom-channel}
 
@@ -14,17 +13,11 @@ You can configure custom channel external deliveries in workflows or as standalo
 >
 >Reporting is not available in the Web UI for custom channel external deliveries. You must browse to the Client Console to access reports.
 
-You can use the custom channel channel in one of the following ways:
-
-* **Workflows**: add a custom channel activity to your workflow and configure the basic settings and content. For detailed instructions on configuring workflows, refer to [this page](../workflows/gs-workflow-creation.md).
-* **Campaigns**: Once you create a campaign, you can add a custom channel delivery. For more information on setting up campaigns, refer to [this page](../campaigns/gs-campaigns.md).
-* **Stand-alone deliveries**: create a one-time custom channel delivery, without the need for workflows or campaigns. [Learn how to create a delivery](../msg/gs-deliveries.md)
-
 The steps below detail the procedure for a standalone (one-shot) delivery. Most steps are similar to call center deliveries. For more details, refer to this [page](../call-center/create-call-center.md).
 
 To create and send a new standalone custom external delivery, follow these main steps:
 
-1. Create the custom external channel, [read more](V7)
+1. Create the custom external channel, [read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html)
 1. Create the delivery, [read more](#create-delivery)
 1. Define the audience, [read more](#select-audience)
 1. Edit the content, [read more](#edit-content)
@@ -86,7 +79,3 @@ When the delivery content is ready, you can preview it using test profiles and s
 1. Click **[!UICONTROL Send]** to proceed with the final sending process, then confirm.
 
 For more details on preview and send, refer to the call center [documentation](../call-center/create-call-center.md#preview-send).
-
-
-
-
