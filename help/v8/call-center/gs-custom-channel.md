@@ -17,12 +17,21 @@ The steps below detail the procedure for a standalone (one-shot) delivery. Most 
 
 To create and send a new standalone custom external delivery, follow these main steps:
 
-1. Create the custom external channel, [read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html)
+1. Create the custom external channel, [read more](#create-channel)
 1. Create the delivery, [read more](#create-delivery)
 1. Define the audience, [read more](#select-audience)
 1. Edit the content, [read more](#edit-content)
 1. Preview and send the delivery, [read more](#preview-send)
 
+## Create the custom external channel{#create-channel}
+
+First, you need to configure the custom external account. Here are the main steps to perform in the Client Console:
+
+1. Configure the schema.
+1. Create a new external account
+1. Create a new delivery template.
+
+For more details, refer to the [Client Console documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html)
 ## Create the delivery{#create-delivery}
 
 Follow these steps to create the delivery and configure its properties:
