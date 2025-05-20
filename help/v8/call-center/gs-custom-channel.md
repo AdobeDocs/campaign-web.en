@@ -25,9 +25,9 @@ To create and send a new standalone custom external delivery, follow these main 
 
 ## Create the custom external channel{#create-channel}
 
-First, you need to configure the custom external account. Here are the main steps to perform in the Client Console:
+First, you need to configure the custom external channel. Here are the main steps to perform in the Client Console:
 
-1. Configure the schema and add a new enumeration for the new channel.
+1. Configure the schema to add the new channel to the list of available channels. 
 1. Create a new routing external account.
 1. Create a new delivery template associated to the new channel.
 
