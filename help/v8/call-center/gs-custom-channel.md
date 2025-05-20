@@ -2,6 +2,7 @@
 audience: end-user
 title: Get started with custom external channels
 description: Learn how to create and send custom external channel deliveries with Adobe Campaign Web
+exl-id: b4336a0a-d845-4024-a06b-400fce1316a4
 ---
 # Get started with custom external channels {#gs-custom-channel}
 
