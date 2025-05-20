@@ -32,6 +32,12 @@ You can directly click on the permissions and change them to either **[!UICONTRO
 
   ![Example of denied permissions in folder security settings](assets/folder_security_denied.png){zoomable="yes"}
 
+>[!NOTE]
+>
+>You should not be able to create an object for which you do not have at least one folder with writing rights.
+>
+>You do not need to be an admin to create fragments, but you must have writing rights on at least one "Content visual fragment" folder. Otherwise, you won't be able to create a visual fragment.
+
 If the **[!UICONTROL Propagate]** option is enabled, all permissions defined for a folder apply to all its sub-folders. These permissions can be overridden for each sub-folder.
 
 If the **[!UICONTROL System folder]** option is selected, access is allowed to all operators, regardless of their permissions.

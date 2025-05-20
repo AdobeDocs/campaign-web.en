@@ -65,6 +65,7 @@ breadcrumb-title: Campaign Web User Interface
   + Call center {#call-center}
     + [Get started with call center deliveries](call-center/gs-call-center.md)
     + [Create and send a call center delivery](call-center/create-call-center.md)
+  + [Custom external channel](call-center/gs-custom-channel.md)
   + Transactional messages {#transactional-messages}
     + [Get started with transactional messages](transactional-messaging/transactional.md)
     + [Create a transactional message](transactional-messaging/create-transactional.md)

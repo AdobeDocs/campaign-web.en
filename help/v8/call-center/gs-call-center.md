@@ -14,9 +14,13 @@ exl-id: d176c1ef-875f-4bea-9cc3-d568cf5cf55a
 
 The call center channel lets you export targeted contact lists for outbound phone campaigns directly from Adobe Campaign Web UI. Use it to coordinate calls through internal teams or external contact centers.
 
-You can configure call deliveries in workflows or as standalone deliveries, define your audience, and generate customizable export files with all necessary contact and personalization data.
+You can configure call center deliveries in workflows or as standalone deliveries, define your audience, and generate customizable export files with all necessary contact and personalization data.
 
 This channel is ideal for lead follow-ups, retention calls, or service outreach, and helps extend your omnichannel strategy with personalized voice interactions.
+
+>[!NOTE]
+>
+>Reporting is not available in the Web UI for the call center channel. You must browse to the Client Console to access reports.
 
 You can use the call center channel in one of the following ways:
 
