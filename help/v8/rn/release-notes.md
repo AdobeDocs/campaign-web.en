@@ -14,7 +14,7 @@ Adobe Campaign Web user interface releases operate on a continuous delivery mode
 
 Changes and improvements available with previous releases are listed in the [2024](release-notes-24.md) and [2025](release-notes-25.md).
 
-## May '25 release {#25-5-release}
+## May '25 release {#25-5-release} 
 
 The following features are available to all users starting May release.
 
