@@ -44,7 +44,7 @@ The following features are available to all users starting May release.
 <tbody>
 <tr>
 <td>
-<p>You can now, directly from Adobe Campaign Web UI, orchestrate and execute deliveries based on custom external channels. These deliveries can be standalone or part of a workflow. The creation of the custom external channel integrated with a third-party is still performed in the console.</p>
+<p>You can now, directly from Adobe Campaign Web UI, orchestrate and execute deliveries based on custom external channels. These deliveries can be standalone or part of a workflow. The creation of the custom external channel integrated with a third-party is performed in the console.</p>
 <p>Note: Reporting is not available in the Web UI for the custom channel. You must browse to the Client Console to access reports.</p>
 <img src="assets/do-not-localize/custom-channel.gif">
 </td>
@@ -52,6 +52,6 @@ The following features are available to all users starting May release.
 </tbody>
 </table>
 
-### Improvements {#25-4-improvements}
+### Improvements {#25-5-improvements}
 
 The typology rules creation screen has been updated to facilitate the selection of the type of rule.
