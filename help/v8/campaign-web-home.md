@@ -46,9 +46,9 @@ Get a glimpse of the newest enhancements in Adobe Campaign Web product and docum
 >[!BEGINTABS]
 
 
->[!TAB April '25 release]
+>[!TAB May '25 release]
 
-April release is now live, including the Call Center channel, the new rule builder, and more improvements.
+May release is now live, including the Call Center channel, the new rule builder, and more improvements.
 
 [![Learn more button](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
