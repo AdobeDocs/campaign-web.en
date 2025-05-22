@@ -48,7 +48,7 @@ Get a glimpse of the newest enhancements in Adobe Campaign Web product and docum
 
 >[!TAB May '25 release]
 
-May release is now live, including the Call Center channel, the new rule builder, and more improvements.
+May release is now live, including the new Custom channel, Brand alignment score, and typology rules improvement.
 
 [![Learn more button](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
