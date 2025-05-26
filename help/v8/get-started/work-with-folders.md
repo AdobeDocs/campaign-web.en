@@ -26,6 +26,11 @@ exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 >title="Folder schedule"
 >abstract="Folder schedule"
 
+>[!CONTEXTUALHELP]
+>id="acw_folder_favorites"
+>title="Favorites"
+>abstract="Favorites"
+
 ## About folders {#about-folders}
 
 Folders are objects in Adobe Campaign that allow you to organize your components and data.
