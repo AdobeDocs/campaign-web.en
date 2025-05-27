@@ -25,7 +25,7 @@ The following features are available to all users starting April release.
 <tr>
 <td>
 <p>The call center channel is now available in Campaign Web User interface. This channel refers to a communication method used to manage and track communications or interactions that are handled via a call center — typically phone calls made by agents to customers or prospects.</p>
-<p>Note: Reporting is not available in the Web UI for the call center channel. You must browse to the Client Console to access reports.</p></td>
+<p>Note: Reporting is not available in the Web UI for the call center channel. You must browse to the Client Console to access reports.</p>
 <img src="assets/do-not-localize/call-center.gif">
 <p>For more information, refer to the <a href="../call-center/gs-call-center.md">detailed documentation</a>.</p>
 </td>
