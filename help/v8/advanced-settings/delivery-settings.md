@@ -8,6 +8,14 @@ exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 
 # Configure delivery settings {#del-settings}
 
+
+>[!CONTEXTUALHELP]
+>id="acw_sms_delivery_settings"
+>title="SMS delivery settings"
+>abstract="SMS delivery parameters are technical settings which apply to your SMS delivery. You can define the sender address, service parameters, transmission mode, and more. These options are restricted to expert users only."
+
+
+
 Delivery settings are **technical delivery parameters** that are defined in the delivery template. They can be overloaded for each delivery. These settings are available from the **Settings** button available when editing a delivery or a delivery template.
 
 >[!CAUTION]
@@ -103,7 +111,7 @@ In the **[!UICONTROL Exclusion]** field, you can select to exclude profiles who 
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
->title="Delivery settings for the delivery"
+>title="Global settings for the delivery"
 >abstract="Delivery parameters are technical settings which apply to your delivery. You can change the delivery and routine modes, activate Email BCC, send using waves, and also choose the format of the email messages sent. These options are restricted to expert users only."
 
 **[!UICONTROL Delivery]** parameters are technical settings which apply to your delivery.
