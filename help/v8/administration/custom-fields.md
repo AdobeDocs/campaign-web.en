@@ -54,7 +54,13 @@ Custom fields are available for the following schemas:
 * Seed addresses (nms)
 * Deliveries (nms)
 
-## Add custom fields to the interface {#add}
+## Add custom fields to the interface {#add-custom}
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_screen_definition"
+>title="Screen definition"
+>abstract="Define the list of custom fields to edit for the schema and their properties. Click the **Preview** button to display the custom fields in a sample screen."
+
 
 To display custom fields in the interface, follow these steps:
 
