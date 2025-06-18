@@ -14,45 +14,22 @@ Adobe Campaign Web user interface releases operate on a continuous delivery mode
 
 Changes and improvements available with previous releases are listed in the [2024](release-notes-24.md) and [2025](release-notes-25.md).
 
-## May '25 release {#25-5-release} 
+## June '25 release {#25-6-release} 
 
-The following features are available to all users starting May release.
+### Improvements {#25-6-improvements}
 
-<table>
-<thead>
-<tr>
-<th><strong>Brand alignment score (Beta)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>The Brand alignment score feature offers clear feedback directly in the email designer, helping you see whether your content aligns with your brand's tone, style, and guidelines. This feature is available in Beta.</p>
-<p>For more information, refer to the <a href="../content/brands-score.md">detailed documentation</a>.</p>
-<img src="assets/do-not-localize/brand-score.gif">
-</td>
-</tr>
-</tbody>
-</table>
+* The Delivery Summary report is now available for Call Center and Custom channels.
 
-<table>
-<thead>
-<tr>
-<th><strong>Custom channel for external deliveries</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now, directly from Adobe Campaign Web UI, orchestrate and execute deliveries based on custom external channels. These deliveries can be standalone or part of a workflow. The creation of the custom external channel integrated with a third-party is performed in the console.</p>
-<p>Note: Reporting is not available in the Web UI for the custom channel. You must browse to the Client Console to access reports.</p>
-<p>For more information, refer to the <a href="../call-center/gs-custom-channel.md">detailed documentation</a>.</p>
-<img src="assets/do-not-localize/custom-channel.gif">
-</td>
-</tr>
-</tbody>
-</table>
+* In the settings of an SMS delivery, you now have access to the SMS parameters. These parameters are the same as the ones available in the Client Console.
 
-### Improvements {#25-5-improvements}
+* You can now see your favorite folders at the top of the left tab of the explorer page.
 
-The typology rules creation screen has been updated to facilitate the selection of the type of rule.
+* You can use the drag and drop feature in the new Rule builder to move more efficiently the components of your query.
+
+* The "human condition" (the written version of your rules, displayed at the bottom of the screen) in the Rule Builder has been improved.
+
+	* Attributes are now highlighted and the related schema is now displayed.
+	* You can now click on these elements to display more information.
+	* You can now copy the human condition using the corresponding button.
+	
+* Restrictions have been put on folders "Technical workflows" and "Objects created automatically", to prevent them from being viewed.
