@@ -28,7 +28,7 @@ Changes and improvements available with previous releases are listed in the [202
 
 * The "human condition" in the Rule Builder has been improved. This is the written, plain-language version of your rules, displayed at the bottom of the screen:
 
-	* Attributes are now highlighted and the associated schema is now displayed.
+	* Attributes are now highlighted and the associated schema is displayed.
 	* You can click on these elements to view more detailed information.
 	* You can now copy the human condition using the corresponding button.
 
