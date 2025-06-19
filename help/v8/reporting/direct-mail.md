@@ -4,9 +4,11 @@ title: Direct mail reports
 description: Learn how to access and use Direct mail reports
 exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
 ---
-# Direct mail delivery report {#direct-mail-report}
+# External delivery report {#direct-mail-report}
 
-The **Direct mail delivery report** provides comprehensive insights and data specific to your Direct mail delivery. It includes detailed information on the performance, effectiveness, and outcomes of individual deliveries, offering a complete overview.
+The **External delivery report** provides comprehensive insights and data specific to your external delivery. It includes detailed information on the performance, effectiveness, and outcomes of individual deliveries, offering a complete overview.
+
+The following report is described in the context of direct mail. It is also available for call center and custom external channels.
 
 ## Delivery summary {#delivery-summary-direct-mail}
 

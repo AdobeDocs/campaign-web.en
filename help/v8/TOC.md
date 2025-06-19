@@ -211,13 +211,13 @@ breadcrumb-title: Campaign Web User Interface
     + [Email delivery report](reporting/email-report.md)
     + [Push delivery report](reporting/push-report.md)
     + [SMS delivery report](reporting/sms-report.md)
-    + [Direct mail delivery report](reporting/direct-mail.md)
+    + [External delivery report](reporting/direct-mail.md)
   + Campaign reports {#campaign-report}
     + [Get started with campaign reports](reporting/campaign-reports.md)
     + [Email campaign report](reporting/campaign-reports-email.md)
     + [Push campaign report](reporting/campaign-reports-push.md)
     + [SMS campaign report](reporting/campaign-reports-sms.md)
-    + [Direct mail campaign report](reporting/campaign-reports-direct-mail.md)
+    + [External delivery campaign report](reporting/campaign-reports-direct-mail.md)
   + Global reports {#global-report}
     + [Get started with global reports](reporting/global-reports.md)
     + [Email global report](reporting/global-report-email.md)
