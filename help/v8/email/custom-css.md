@@ -232,6 +232,7 @@ If your custom CSS is not applied, consider the options below.
 
 * Ensure that your CSS is being added to the `<style>` tag with the `data-name="global-custom"` attribute and that `data-disabled` is not applied to `global-custom`. [Learn more](#implementation)
 
+<!--
 * Ensure that your CSS is not overridden by other CSS rules, including any [theme](apply-email-themes.md) applied to your content.
  
   * Use your browser developer tools to inspect the content and verify that your CSS is targeting the correct selectors.
@@ -245,3 +246,5 @@ If your custom CSS is not applied, consider the options below.
       background: red !important;
     }
     ```
+    -->
+
