@@ -128,6 +128,7 @@ You can input any valid CSS string in the **[!UICONTROL Add custom CSS]** text a
   }
 }
 ```
+
 +++
 
 +++ Samples of invalid CSS
@@ -154,6 +155,7 @@ Invalid syntax such as missing braces is not accepted:
 body {
   background: red;
 ```
+
 +++
 
 ## Technical implementation {#implementation}
