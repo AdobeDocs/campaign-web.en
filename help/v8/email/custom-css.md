@@ -8,6 +8,7 @@ level: Intermediate
 hide: yes
 hidefromtoc: yes
 keywords: css, editor, summary, email
+exl-id: 7969b656-8130-49cf-9c85-d80bd74b285a
 ---
 # Add custom CSS to your email content {#email-metadata}
 
@@ -247,4 +248,3 @@ If your custom CSS is not applied, consider the options below.
     }
     ```
     -->
-
