@@ -115,6 +115,7 @@ breadcrumb-title: Campaign Web User Interface
       + [Adjust vertical alignment and padding](email/alignment-and-padding.md)
       + [Define a style for links](email/styling-links.md)
       + [Add inline styling attributes](email/inline-styling.md)
+      + [Add a custom CSS](email/custom-css.md)
   + AI Assistant {#ai-assistant}
     + [Work with AI Assistant](email/generative-gs.md)
     + [Email generation with AI](email/generative-content.md)
