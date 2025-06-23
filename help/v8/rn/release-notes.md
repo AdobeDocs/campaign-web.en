@@ -22,7 +22,7 @@ Changes and improvements available with previous releases are listed in the [202
 
 * When configuring an SMS delivery, you now have access to the specific SMS parameters. These are the same parameters available in the Client Console. [Learn more](../advanced-settings/delivery-settings.md#sms-tab)
 
-* Your favorite folders now appear at the top of the left panel on the Explorer page, making them easier to access. [Learn more](../get-started/work-with-folders.md)
+* Your favorite folders now appear at the top of the left panel on the Explorer page, making them easier to access. [Learn more](../get-started/work-with-folders.md#favorite-folders
 
 * The Rule Builder now supports drag-and-drop, allowing you to rearrange components of your query more efficiently.
 

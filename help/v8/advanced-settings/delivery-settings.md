@@ -295,7 +295,7 @@ SMS delivery parameters are technical settings which apply to your SMS delivery.
 
 * **[!UICONTROL Service type]**:
 
-  This parameter is the same as in the external account. It is passed to the provider as is.
+  This parameter is passed to the provider as is.
 
 * **[!UICONTROL Service or program ID]**
 
