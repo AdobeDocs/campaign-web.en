@@ -313,6 +313,18 @@ To copy-paste filtering components, follow these steps:
 
     ![Example of pasting the components](assets/copy-paste.png){zoomable="yes"}
 
+## Drag and drop components
+
+>[!IMPORTANT]
+>
+>This feature is only available for the new rule builder experience. 
+
+When you are adding components to your query, you can move them up and down using the drag and drop feature.
+
+To the left of every component, you can click on the dots and hold them to drag the component up and down depending on where you want to put and group the components.
+
+![Gif showing how to drag and drop the components in the new rule builder](assets/ruleb-drag.gif){zoomable="yes"}
+
 ## Combine filtering components with operators {#operators}
 
 >[!CONTEXTUALHELP]
