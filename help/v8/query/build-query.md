@@ -313,7 +313,7 @@ To copy-paste filtering components, follow these steps:
 
     ![Example of pasting the components](assets/copy-paste.png){zoomable="yes"}
 
-## Drag and drop components
+## Drag and drop components {#drag-and-drop}
 
 >[!IMPORTANT]
 >

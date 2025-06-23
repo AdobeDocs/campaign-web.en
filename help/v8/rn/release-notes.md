@@ -22,9 +22,9 @@ Changes and improvements available with previous releases are listed in the [202
 
 * When configuring an SMS delivery, you now have access to the specific SMS parameters. These are the same parameters available in the Client Console. [Learn more](../advanced-settings/delivery-settings.md#sms-tab)
 
-* Your favorite folders now appear at the top of the left panel on the Explorer page, making them easier to access. [Learn more](../get-started/work-with-folders.md#favorite-folders
+* Your favorite folders now appear at the top of the left panel on the Explorer page, making them easier to access. [Learn more](../get-started/work-with-folders.md#favorite-folders)
 
-* The Rule Builder now supports drag-and-drop, allowing you to rearrange components of your query more efficiently.
+* The Rule Builder now supports drag-and-drop, allowing you to rearrange components of your query more efficiently. [Learn more](../query/build-query.md#drag-and-drop)
 
 * The "human condition" in the Rule Builder has been improved. This is the written, plain-language version of your rules, displayed at the bottom of the screen:
 
@@ -32,4 +32,4 @@ Changes and improvements available with previous releases are listed in the [202
     * You can click on these elements to view more detailed information.
     * You can now copy the human condition using the corresponding button.
 
-* Access to the folders "Technical workflows" and "Objects created automatically" is now restricted to prevent them from being viewed.
+* Access to the folders "Technical workflows" and "Objects created automatically" is now restricted to prevent them from being viewed. [Learn more](../get-started/work-with-folders.md#about-folders)
