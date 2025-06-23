@@ -18,18 +18,18 @@ Changes and improvements available with previous releases are listed in the [202
 
 ### Improvements {#25-6-improvements}
 
-* The Delivery Summary report is now available for both Call Center and Custom channels.
+* The Delivery Summary report is now available for both Call Center and Custom channels. [Learn more](../reporting/direct-mail.md)
 
-* When configuring an SMS delivery, you now have access to the specific SMS parameters. These are the same parameters available in the Client Console.
+* When configuring an SMS delivery, you now have access to the specific SMS parameters. These are the same parameters available in the Client Console. [Learn more](../advanced-settings/delivery-settings.md#sms-tab)
 
-* Your favorite folders now appear at the top of the left panel on the Explorer page, making them easier to access.
+* Your favorite folders now appear at the top of the left panel on the Explorer page, making them easier to access. [Learn more](../get-started/work-with-folders.md)
 
 * The Rule Builder now supports drag-and-drop, allowing you to rearrange components of your query more efficiently.
 
 * The "human condition" in the Rule Builder has been improved. This is the written, plain-language version of your rules, displayed at the bottom of the screen:
 
-	* Attributes are now highlighted and the associated schema is displayed.
-	* You can click on these elements to view more detailed information.
-	* You can now copy the human condition using the corresponding button.
+    * Attributes are now highlighted and the associated schema is displayed.
+    * You can click on these elements to view more detailed information.
+    * You can now copy the human condition using the corresponding button.
 
 * Access to the folders "Technical workflows" and "Objects created automatically" is now restricted to prevent them from being viewed.

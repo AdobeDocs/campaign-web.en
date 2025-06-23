@@ -284,7 +284,7 @@ SMS delivery parameters are technical settings which apply to your SMS delivery.
 
 * **[!UICONTROL Sender address]**
 
-The field is limited to 21 characters by the SMPP specification, but some providers may allow longer values. Note also that very strict restrictions may be applied in some countries (length, content, allowed characters, …), so you may need to double-check that the content you place here is legal. Be especially careful when using personalized fields.
+  The field is limited to 21 characters by the SMPP specification, but some providers may allow longer values. Note also that very strict restrictions may be applied in some countries (length, content, allowed characters, …), so you may need to double-check that the content you place here is legal. Be especially careful when using personalized fields.
 
 
   This optional field allows you to override the sender address (oADC). Its content is placed in the *source_addr* field of the SUBMIT_SM PDU.
@@ -293,7 +293,9 @@ The field is limited to 21 characters by the SMPP specification, but some provid
 
   If this field is left empty, the value of the Source number field defined in the external account will be used instead. If both values are empty, the *source_addr* field will be left empty.
 
-* **[!UICONTROL Service type]**
+* **[!UICONTROL Service type]**:
+
+  This parameter is the same as in the external account. It is passed to the provider as is.
 
 * **[!UICONTROL Service or program ID]**
 
