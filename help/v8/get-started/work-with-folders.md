@@ -75,7 +75,7 @@ You can change the order of folders either by **drag and drop** or by using **up
 
 ![Drag-and-drop functionality for folder reordering](assets/folder-draganddrop.png){zoomable="yes"}
 
-### Favorite folders
+### Favorite folders {#favorite-folders}
 
 >[!CONTEXTUALHELP]
 >id="acw_folder_favorites"
