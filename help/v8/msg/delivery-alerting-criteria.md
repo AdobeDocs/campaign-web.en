@@ -2,6 +2,7 @@
 audience: end-user
 title: Delivery alerting
 description: Learn how to work with delivery alerting.
+badge: label="Limited Availability"
 exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
 ---
 # Delivery alerting criteria {#delivery-alerting-criteria}
