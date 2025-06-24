@@ -17,19 +17,9 @@ exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 >abstract="Folder security"
 
 >[!CONTEXTUALHELP]
->id="acw_folder_restrictions"
->title="Folder restrictions"
->abstract="Folder restrictions"
-
->[!CONTEXTUALHELP]
 >id="acw_folder_schedule"
 >title="Folder schedule"
 >abstract="Folder schedule"
-
->[!CONTEXTUALHELP]
->id="acw_folder_favorites"
->title="Favorites"
->abstract="Favorites"
 
 ## About folders {#about-folders}
 
@@ -40,6 +30,16 @@ You can create, rename, reorder, and move folders in the navigation tree. You ca
 ![Folders interface showing folder organization](assets/folders.png){zoomable="yes"}
 
 You can set up a folder type. For example, a folder of deliveries. The folder icon changes according to its type.
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_restrictions"
+>title="Folder restrictions"
+>abstract="The folders Objects created automatically and Technical workflows are restricted, and cannot be viewed on the left side panel."
+
+>[!IMPORTANT]
+>
+>The folders **[!UICONTROL Objects created automatically]** and **[!UICONTROL Technical workflows]** are restricted, and cannot be viewed on the left side panel. 
+
 
 ## Create a new folder {#create-a-folder}
 
@@ -74,6 +74,19 @@ In this example, the **Deliveries** folder contains four subfolders.
 You can change the order of folders either by **drag and drop** or by using **up and down arrows**.
 
 ![Drag-and-drop functionality for folder reordering](assets/folder-draganddrop.png){zoomable="yes"}
+
+### Favorite folders {#favorite-folders}
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_favorites"
+>title="Favorites"
+>abstract="Your favorite folders will be displayed at the top of the left tab."
+
+The folders that have been marked as "Favorite" will always be shown at the top of the left tab.
+
+You can add folders as favorite by clicking on the star button at the top-right corner when viewing a folder.
+
+![Favorite folders location screenshot](assets/folders-favorite.png){zoomable="yes"}
 
 ## Delete a folder {#delete-a-folder}
 

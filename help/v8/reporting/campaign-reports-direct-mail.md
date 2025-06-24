@@ -4,9 +4,11 @@ title: Campaign reports for the Direct mail channel
 description: Understand campaign reports for the Direct mail channel
 exl-id: 7817d4c5-1f97-4b17-8a5f-f1a5b8701fe9
 ---
-# Campaign reports for the Direct mail channel {#campaign-reports-direct-mail}
+# Campaign reports for external delivery channels {#campaign-reports-direct-mail}
 
-Each campaign report is divided into different widgets detailing your campaign's success and errors. For the Direct mail channel, reports and metrics are detailed below. Learn how to access your campaign reports in [this page](campaign-reports.md).
+Each campaign report is divided into different widgets detailing your campaign's success and errors. For external delivery channels, reports and metrics are detailed below. Learn how to access your campaign reports in [this page](campaign-reports.md).
+
+The following report is described in the context of direct mail. It is also available for call center and custom external channels.
 
 ## Delivery summary {#delivery-summary-direct}
 
