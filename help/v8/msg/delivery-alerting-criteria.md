@@ -2,10 +2,6 @@
 audience: end-user
 title: Delivery alerting
 description: Learn how to work with delivery alerting.
-hidefromtoc: yes
-hide: yes
-robots: noindex
-googlebot: noindex
 exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
 ---
 # Delivery alerting criteria {#delivery-alerting-criteria}
@@ -20,6 +16,10 @@ Campaign Web User Interface provides pre-defined alerting criteria, such as deli
 Alerting criteria are accessible from the **Delivery Alerting** menu in the left navigation pane, under the **Criteria** tab.
 
 ![List of alerting criteria displayed in the Delivery Alerting menu](assets/alerting-criteria-list.png)
+
+>[!AVAILABILITY]
+>
+>This capability is in Limited Availability (LA). It is restricted to customers migrating **from Adobe Campaign Standard to Adobe Campaign v8**, and cannot be deployed on any other environment.
 
 ## Pre-defined alerting criteria {#ootb-criteria}
 

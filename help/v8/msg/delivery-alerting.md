@@ -2,10 +2,6 @@
 audience: end-user
 title: Delivery alerting
 description: Learn how to work with delivery alerting.
-hidefromtoc: yes
-hide: yes
-robots: noindex
-googlebot: noindex
 exl-id: 120afaa0-7017-4644-b6db-229b4a5c8a91
 ---
 # Get started with delivery alerting {#gs-delivery-alerting}
@@ -15,6 +11,10 @@ Delivery alerting is an alert management system that enables groups of users to 
 Notifications are customized based on specific alerting criteria defined through the Adobe Campaign Web User Interface.
 
 For more information on managing delivery failures, refer to the [Adobe Campaign v8 (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/delivery-failures#send){target="_blank"}.
+
+>[!AVAILABILITY]
+>
+>This capability is in Limited Availability (LA). It is restricted to customers migrating **from Adobe Campaign Standard to Adobe Campaign v8**, and cannot be deployed on any other environment.
 
 ## Email notification contents {#content}
 
