@@ -8,14 +8,6 @@ exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 
 # Configure delivery settings {#del-settings}
 
-
->[!CONTEXTUALHELP]
->id="acw_sms_delivery_settings"
->title="SMS delivery settings"
->abstract="SMS delivery parameters are technical settings which apply to your SMS delivery. You can define the sender address, service parameters, transmission mode, and more. These options are restricted to expert users only."
-
-
-
 Delivery settings are **technical delivery parameters** that are defined in the delivery template. They can be overloaded for each delivery. These settings are available from the **Settings** button available when editing a delivery or a delivery template.
 
 >[!CAUTION]
@@ -281,8 +273,62 @@ You can also customize the lable of the proofs:
 * Use the **[!UICONTROL Keep the delivery code for the proof]** to associate to the proof the same delivery code as the one defined for the delivery to which it relates.
 * By default, the subject of the proof is prefixed by 'PROOF #', where # is the number of the proof. You can change this prefix in the **[!UICONTROL Label prefix]** field.
 
+## SMS settings (SMS channel) {#sms-tab}
+
+>[!CONTEXTUALHELP]
+>id="acw_sms_delivery_settings"
+>title="SMS delivery settings"
+>abstract="SMS delivery parameters are technical settings which apply to your SMS delivery. You can define the sender address, service parameters, transmission mode, and more. These options are restricted to expert users only."
+
+SMS delivery parameters are technical settings which apply to your SMS delivery. You can define the sender address, service parameters, transmission mode, and more. These options are restricted to expert users only.
+
+* **[!UICONTROL Sender address]**
+
+  The field is limited to 21 characters by the SMPP specification, but some providers may allow longer values. Note also that very strict restrictions may be applied in some countries (length, content, allowed characters, …), so you may need to double-check that the content you place here is legal. Be especially careful when using personalized fields.
 
 
+  This optional field allows you to override the sender address (oADC). Its content is placed in the *source_addr* field of the SUBMIT_SM PDU.
+
+  Although the SMPP specification limits this field to 21 characters, some providers may support longer values. Be aware that certain countries impose strict regulations on sender addresses (regarding length, content, allowed characters, etc.), so always verify that your input complies with local requirements. Use extra caution when working with personalized fields.
+
+  If this field is left empty, the value of the Source number field defined in the external account will be used instead. If both values are empty, the *source_addr* field will be left empty.
+
+* **[!UICONTROL Service type]**:
+
+  This parameter is passed to the provider as is.
+
+* **[!UICONTROL Service or program ID]**
+
+  >[!NOTE]
+  >
+  >Use of this field is discouraged. Optional SMPP parameters, available in the Client Console, provide a much more flexible implementation.
+  >
+  >This field cannot be used simultaneously with optional SMPP parameters.
+
+  In combination with the matching external account setting, allows sending one optional parameter with each MT. This field defines the value part of the TLV.
+
+* **[!UICONTROL Transmission mode]**
+
+  This field defines the type of SMS to send: whether it is a normal or flash message, and whether it should be stored on the mobile device or the SIM card. This setting is transmitted in the dest_addr_subunit optional field in the SUBMIT_SM PDU.
+  
+  * **Flash** sets the value to 1. Sends a flash SMS that appears immediately on the screen and is not stored.
+  * **Normal** sets the value to 0. Sends a standard SMS.
+  * **Saved on mobile** sets the value to 2. Instructs the device to store the SMS in internal memory.
+  * **Saved on terminal** sets the value to 3. Instructs the device to store the SMS on the SIM card.
+
+* **[!UICONTROL Priority, Communication type]**
+
+  These fields are ignored by the extended SMPP connector.
+
+* **[!UICONTROL Maximum number of SMS per message]**
+
+  This setting is only effective if the Message payload option is disabled (see the external account settings for more details). If the message requires more SMS than this value, an error is triggered.
+
+  While the SMS protocol allows messages to be split into up to 255 parts, some mobile devices may struggle to reassemble messages with more than 10 parts (the limit depends on the device model). For reliability, it's best to limit messages to 5 parts or fewer.
+
+  Note that due to how personalized messages work in Adobe Campaign, message sizes can vary. A high number of long messages may result in increased sending costs, so using a sensible limit helps control expenses.
+
+  Setting this value to 0 disables the limit.
 
 ## SMTP settings for email delivery {#smtp}
 

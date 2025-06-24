@@ -14,45 +14,22 @@ Adobe Campaign Web user interface releases operate on a continuous delivery mode
 
 Changes and improvements available with previous releases are listed in the [2024](release-notes-24.md) and [2025](release-notes-25.md).
 
-## May '25 release {#25-5-release} 
+## June '25 release {#25-6-release} 
 
-The following features are available to all users starting May release.
+### Improvements {#25-6-improvements}
 
-<table>
-<thead>
-<tr>
-<th><strong>Brand alignment score (Beta)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>The Brand alignment score feature offers clear feedback directly in the email designer, helping you see whether your content aligns with your brand's tone, style, and guidelines. This feature is available in Beta.</p>
-<p>For more information, refer to the <a href="../content/brands-score.md">detailed documentation</a>.</p>
-<img src="assets/do-not-localize/brand-score.gif">
-</td>
-</tr>
-</tbody>
-</table>
+* The Delivery Summary report is now available for both Call Center and Custom channels. [Learn more](../reporting/direct-mail.md)
 
-<table>
-<thead>
-<tr>
-<th><strong>Custom channel for external deliveries</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now, directly from Adobe Campaign Web UI, orchestrate and execute deliveries based on custom external channels. These deliveries can be standalone or part of a workflow. The creation of the custom external channel integrated with a third-party is performed in the console.</p>
-<p>Note: Reporting is not available in the Web UI for the custom channel. You must browse to the Client Console to access reports.</p>
-<p>For more information, refer to the <a href="../call-center/gs-custom-channel.md">detailed documentation</a>.</p>
-<img src="assets/do-not-localize/custom-channel.gif">
-</td>
-</tr>
-</tbody>
-</table>
+* When configuring an SMS delivery, you now have access to the specific SMS parameters. These are the same parameters available in the Client Console. [Learn more](../advanced-settings/delivery-settings.md#sms-tab)
 
-### Improvements {#25-5-improvements}
+* Your favorite folders now appear at the top of the left panel on the Explorer page, making them easier to access. [Learn more](../get-started/work-with-folders.md#favorite-folders)
 
-The typology rules creation screen has been updated to facilitate the selection of the type of rule.
+* The Rule Builder now supports drag-and-drop, allowing you to rearrange components of your query more efficiently. [Learn more](../query/build-query.md#drag-and-drop)
+
+* The "human condition" in the Rule Builder has been improved. This is the written, plain-language version of your rules, displayed at the bottom of the screen:
+
+    * Attributes are now highlighted and the associated schema is displayed.
+    * You can click on these elements to view more detailed information.
+    * You can now copy the human condition using the corresponding button.
+
+* Access to the folders "Technical workflows" and "Objects created automatically" is now restricted to prevent them from being viewed. [Learn more](../get-started/work-with-folders.md#about-folders)
