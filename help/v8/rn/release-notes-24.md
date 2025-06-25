@@ -162,9 +162,6 @@ You can now send rich push notifications. A rich push notification is an enhance
 
 The following features and improvements are available to all users starting June release.
 
-<!--### Delivery alerting {#24-6-3}
-
-The Delivery alerting feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries. [Read more](../msg/delivery-alerting.md)-->
 
 ### Plans and programs {#24-6-4}
 
@@ -173,6 +170,18 @@ You can now create plans and programs to organize your campaigns. By defining a 
 ### Improvements {#improvements-24-6}
 
 * **Reconciliation in Enrichment activity**: The **Enrichment** activity can now be used to reconcile data from the the Campaign database schema with data from another schema, or with data coming from a temporary schema such as data uploaded using a Load file activity. For example, you can use this option to reconcile a profile's country, specified in an uploaded file, with one of the countries available in the dedicated table of the Campaign database. [Read more](../workflows/activities/enrichment.md)
+
+
+### New feature in Limited Availability {#acs-24-6}
+
+>[!AVAILABILITY]
+>
+>The following capability is in Limited Availability (LA). It restricted to customers migrating **from Adobe Campaign Standard to Adobe Campaign v8**, and cannot be deployed on any other environment.
+
+* **Delivery alerting**
+
+The Delivery alerting feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries. [Read more](../msg/delivery-alerting.md)
+
 
 ## May release notes {#24-5-release}
 

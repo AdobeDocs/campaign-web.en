@@ -2,10 +2,7 @@
 audience: end-user
 title: Delivery alerting
 description: Learn how to work with delivery alerting.
-hidefromtoc: yes
-hide: yes
-robots: noindex
-googlebot: noindex
+badge: label="Limited Availability"
 exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
 ---
 # Delivery alerting dashboards {#delivery-alerting-dashboards}
@@ -18,6 +15,10 @@ exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
 Delivery alerting dashboards allow you to specify who will receive email alerts, choose and configure the alerting criteria to use to send those alerts, and access the history of all sent notifications. They are accessible from the **Delivery Alerting** menu in the left navigation pane, under the **Dashboards** tab.
 
 ![Screenshot showing the list of alerting dashboards in the Delivery Alerting menu.](assets/alerting-dashboard-list.png)
+
+>[!AVAILABILITY]
+>
+>This capability is in Limited Availability (LA). It is restricted to customers migrating **from Adobe Campaign Standard to Adobe Campaign v8**, and cannot be deployed on any other environment.
 
 ## Create a delivery dashboard {#dashboards}
 
@@ -69,11 +70,11 @@ To create a delivery dashboard, follow these steps:
     * **Monitoring period before and after the contact date (in hours)**: Number of hours before and after the current time. Only the deliveries having a contact date in this time range are taken into account. This parameter applies to all criteria. By default, the value of this field is set to 24 hours.
     * **Maximum ratio of soft bounce errors**: A notification is sent for all deliveries with a soft bounce error ratio greater than the specified value. By default, the value of this field is set to 0.05 (5%).
     * **Maximum ratio of hard bounce errors**: A notification is sent for all deliveries with a hard bounce error ratio greater than the specified value. By default, the value of this field is set to 0.05 (5%).
-    * **Minimum time threshold for delivery in ‘Start pending’ status (in minutes)**: A notification is sent for all deliveries with a Start pending status for longer than the duration specified in this field, Start pending status meaning that the messages have not been taken into account by the system yet.
+    * **Minimum time threshold for delivery in 'Start pending' status (in minutes)**: A notification is sent for all deliveries with a Start pending status for longer than the duration specified in this field, Start pending status meaning that the messages have not been taken into account by the system yet.
     * **Minimum time required for the computation of the throughput (in minutes)**: Only deliveries started (with In progress status) for more than the specified duration are taken into account for the Deliveries with low throughput criterion.
     * **Maximum percentage of processed messages for the computation of the throughput**: Only deliveries with a percentage of processed messages lower than the specified percentage are taken into account for the Deliveries with low throughput criterion.
     * **Minimum expected throughput (in sent messages per hour)**: Only deliveries with a throughput lower than the specified value are taken into account for the Deliveries with low throughput criterion.
-    * **Minimum processed ratio required for ‘Deliveries in progress’ criterion**: Only deliveries with a percentage of processed messages higher than the specified percentage are taken into account.
+    * **Minimum processed ratio required for 'Deliveries in progress' criterion**: Only deliveries with a percentage of processed messages higher than the specified percentage are taken into account.
 
     +++
 
