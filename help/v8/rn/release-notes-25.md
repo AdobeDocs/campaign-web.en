@@ -5,7 +5,50 @@ exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
 ---
 # 2025 release notes {#2025-release}
 
-This page lists all changes and improvements available with **2025 releases**. Latest relese notes are available in [this page](release-notes.md).
+This page lists all changes and improvements available with **2025 releases**. Latest relese notes are available in [this page](release-notes.md). 
+
+## May '25 release {#25-5-release} 
+
+The following features are available to all users starting May release.
+
+<table>
+<thead>
+<tr>
+<th><strong>Brand alignment score (Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>The Brand alignment score feature offers clear feedback directly in the email designer, helping you see whether your content aligns with your brand's tone, style, and guidelines. This feature is available in Beta.</p>
+<p>For more information, refer to the <a href="../content/brands-score.md">detailed documentation</a>.</p>
+<img src="assets/do-not-localize/brand-score.gif">
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Custom channel for external deliveries</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now, directly from Adobe Campaign Web UI, orchestrate and execute deliveries based on custom external channels. These deliveries can be standalone or part of a workflow. The creation of the custom external channel integrated with a third-party is performed in the console.</p>
+<p>Note: Reporting is not available in the Web UI for the custom channel. You must browse to the Client Console to access reports.</p>
+<p>For more information, refer to the <a href="../call-center/gs-custom-channel.md">detailed documentation</a>.</p>
+<img src="assets/do-not-localize/custom-channel.gif">
+</td>
+</tr>
+</tbody>
+</table>
+
+### Improvements {#25-5-improvements}
+
+The typology rules creation screen has been updated to facilitate the selection of the type of rule.
 
 ## April '25 release {#25-4-release}
 
