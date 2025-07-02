@@ -18,6 +18,10 @@ Changes and improvements available with previous releases are listed in the [202
 
 In addition to the features listed below, this update also comes with a set of functionalities available in the Client Console. Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
 
+>[!AVAILABILITY]
+>
+>To benefit from these updates, your server must be upgrated to 8.8.1 mininum.
+
 Previously released in Limited Availability, the following capabilities are now available to all environments (General Availability):
 
 * **Multilingual delivery creation** - You can now send multiple email deliveries in different languages in Adobe Campaign Web User Interface. The Multilingual delivery feature allows you to choose the default language of your delivery as well as the different languages in which the delivery can be sent. You can also preview these deliveries in the languages you have chosen. [Read more](../email/edit-content.md).
