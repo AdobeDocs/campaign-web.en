@@ -7,6 +7,26 @@ exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
 
 This page lists all changes and improvements available with **2025 releases**. Latest relese notes are available in [this page](release-notes.md). 
 
+## June '25 release {#25-6-release} 
+
+### Improvements {#25-6-improvements}
+
+* The Delivery Summary report is now available for both Call Center and Custom channels. [Learn more](../reporting/direct-mail.md)
+
+* When configuring an SMS delivery, you now have access to the specific SMS parameters. These are the same parameters available in the Client Console. [Learn more](../advanced-settings/delivery-settings.md#sms-tab)
+
+* Your favorite folders now appear at the top of the left panel on the Explorer page, making them easier to access. [Learn more](../get-started/work-with-folders.md#favorite-folders)
+
+* The Rule Builder now supports drag-and-drop, allowing you to rearrange components of your query more efficiently. [Learn more](../query/build-query.md#drag-and-drop)
+
+* The "human condition" in the Rule Builder has been improved. This is the written, plain-language version of your rules, displayed at the bottom of the screen:
+
+    * Attributes are now highlighted and the associated schema is displayed.
+    * You can click on these elements to view more detailed information.
+    * You can now copy the human condition using the corresponding button.
+
+* Access to the folders "Technical workflows" and "Objects created automatically" is now restricted to prevent them from being viewed. [Learn more](../get-started/work-with-folders.md#about-folders)
+
 ## May '25 release {#25-5-release} 
 
 The following features are available to all users starting May release.
