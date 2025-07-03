@@ -16,8 +16,6 @@ Changes and improvements available with previous releases are listed in the [202
 
 ## July '25 updates {#25-7-updates} 
 
-In addition to the features listed below, this update also comes with a set of functionalities available in the Client Console. Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
-
 >[!AVAILABILITY]
 >
 >To benefit from these updates, your server must be upgrated to 8.8.1 mininum. Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
