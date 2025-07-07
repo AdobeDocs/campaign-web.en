@@ -35,18 +35,17 @@ To add custom CSS to your email content, follow the steps below.
 
 1. Click the **[!UICONTROL Add Custom CSS]** button.
 
+    >[!NOTE]
+    >
+    >The **[!UICONTROL Add custom CSS]** button is only available when **[!UICONTROL Body]** is selected. However, you can apply custom CSS styles to all the components inside your content.
+
 1. Enter your CSS code in the dedicated text area that pops up. Make sure the custom CSS is valid and follows the proper syntax. [Learn more](#use-valid-css)
 
     ![Enter custom CSS in the dedicated text area](assets/email-body-custom-css.png){width="65%"}
 
-    >[!NOTE]
-    >
-    >The **[!UICONTROL Add custom CSS]** button is only available when **[!UICONTROL Body]** is selected. However, you can apply custom CSS styles to all the components inside your content.
-    
-
 1. Save your custom CSS and check that your custom CSS is correctly applied to your content. If this is not the case, check the [Troubleshooting](#troubleshooting) section.
 
-    ![Select the Add custom CSS button](assets/email-body-custom-css-applied.png){width="85%"} 
+    ![Select the Add custom CSS button](assets/email-body-custom-css-applied.png){width="85%"}
 
 1. If you remove all content, the section disappears, and the previously defined custom CSS is no longer applied.
 
@@ -62,8 +61,9 @@ You can input any valid CSS string in the **[!UICONTROL Add custom CSS]** text a
 >
 >Avoid using CSS that could unintentionally break the layout or functionality of the content.
 
-+++ Samples of a valid CSS
++++ Samples of CSS
 
+Below are examples of valid CSS.
 
 ```css
 .acr-component[data-component-id="form"] {
@@ -214,7 +214,7 @@ For example:
 
 +++
 
-## Guardrails
+## Guardrails - Imported content
 
 If you want to use custom CSS with content imported into the Email Designer, consider the following:
 
@@ -231,20 +231,30 @@ If your custom CSS is not applied, consider the options below.
 
 * Ensure that your CSS is valid and free of syntax errors (such as missing braces, incorrect property names). [Learn how](#use-valid-css)
 
-* Ensure that your CSS is being added to the `<style>` tag with the `data-name="global-custom"` attribute and that `data-disabled` is not applied to `global-custom`. [Learn more](#implementation)
+* Ensure that your CSS is being added to the `<style>` tag with the `data-name="global-custom"` attribute.
 
-<!--
-* Ensure that your CSS is not overridden by other CSS rules, including any [theme](apply-email-themes.md) applied to your content.
+* Check if the `global-custom` style tag has the attribute `data-disabled` set to `true`. If this is the case, the custom CSS is not applied.
+
+  +++For example:
+
+  ```html
+  <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
+  ```
+
+  +++
+
+* Ensure that your CSS is not overridden by other CSS rules.
  
   * Use your browser developer tools to inspect the content and verify that your CSS is targeting the correct selectors.
   
   * Consider adding `!important` to your declarations to ensure they take precedence. 
     
-    For example:
+    +++ For example:
 
-    ```css
-    .acr-Form {
-      background: red !important;
-    }
-    ```
-    -->
+      ```css
+      .acr-Form {
+        background: red !important;
+      }
+      ```
+      
+    +++
