@@ -50,7 +50,7 @@ Previously released in Limited Availability, the following capabilities are now 
     >
     >This feature is only available for new implementations.
 
-In addition to the features listed below, this release also comes with a set of functionalities available in the Client Console:
+In addition to the features listed above, this release also comes with a set of functionalities available in the Client Console:
 
 * [New SMS sending connector](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html).
 * [Rest APIs](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html)
