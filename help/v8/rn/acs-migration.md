@@ -68,7 +68,7 @@ To ensure a smooth transition to Campaign v8, key Campaign Standard capabilities
 
 * **Dynamic Reporting**: Dynamic Reporting provides customizable, real-time reports to measure the impact of marketing activities. It includes access to profile data for demographic analysis by dimensions such as gender, city, and age, alongside functional email campaign data like opens and clicks. [Learn more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html){target="_blank"}.
 
-* **Centralized Branding**: Adobe Campaign allows companies to define brand visual and technical guidelines. Users can present a consistent brand to customers, from logos to technical aspects such as email sender, URL, or domains. [Learn more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html).
+* **Centralized Branding**: Adobe Campaign allows companies to define brand visual and technical guidelines. Users can present a consistent brand to customers, from logos to technical aspects such as email sender, URL, or domains. [Learn more](../administration/branding/branding-gs.md).
 
 * **REST APIs**: Campaign Standard migrated users can use REST APIs to create integrations for Adobe Campaign and build ecosystems by interfacing Adobe Campaign with other technologies. [Learn more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html){target="_blank"}.
 

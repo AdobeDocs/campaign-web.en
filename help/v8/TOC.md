@@ -230,6 +230,10 @@ breadcrumb-title: Campaign Web User Interface
   + [Manage assets with Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
   + [Manage templates with Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
 + Configuration {#conf}
+  + Branding {#branding}
+    + [About Branding](administration/branding/branding-gs.md)
+    + [Configure a brand](administration/branding/branding-configure.md)
+    + [Assign a brand](administration/branding/branding-assign.md)
   + [Work with business rules (typologies)](administration/typologies.md)
   + [Manage target mappings](administration/target-mappings.md)
   + [Work with schemas](administration/schemas.md)
