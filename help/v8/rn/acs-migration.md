@@ -70,7 +70,7 @@ To ensure a smooth transition to Campaign v8, key Campaign Standard capabilities
 
 * **Centralized Branding**: Adobe Campaign allows companies to define brand visual and technical guidelines. Users can present a consistent brand to customers, from logos to technical aspects such as email sender, URL, or domains. [Learn more](../administration/branding/branding-gs.md).
 
-* **REST APIs**: Campaign Standard migrated users can use REST APIs to create integrations for Adobe Campaign and build ecosystems by interfacing Adobe Campaign with other technologies. [Learn more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html){target="_blank"}.
+* **REST APIs**: Campaign Standard migrated users can use REST APIs to create integrations for Adobe Campaign and build ecosystems by interfacing Adobe Campaign with other technologies. [Learn more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target="_blank"}.
 
 * **Landing Pages**: Campaign v8 landing pages include improvements to ensure feature parity with Campaign Standard. Learn more in the [release notes](../rn/release-notes.md#new-24-4) and the landing page [documentation](../landing-pages/get-started-lp.md).
 
