@@ -2,7 +2,6 @@
 audience: end-user
 title: Delivery alerting
 description: Learn how to work with delivery alerting.
-badge: label="Limited Availability"
 exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
 ---
 # Delivery alerting dashboards {#delivery-alerting-dashboards}
@@ -15,10 +14,6 @@ exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
 Delivery alerting dashboards allow you to specify who will receive email alerts, choose and configure the alerting criteria to use to send those alerts, and access the history of all sent notifications. They are accessible from the **Delivery Alerting** menu in the left navigation pane, under the **Dashboards** tab.
 
 ![Screenshot showing the list of alerting dashboards in the Delivery Alerting menu.](assets/alerting-dashboard-list.png)
-
->[!AVAILABILITY]
->
->This capability is in Limited Availability (LA). It is restricted to customers migrating **from Adobe Campaign Standard to Adobe Campaign v8**, and cannot be deployed on any other environment.
 
 ## Create a delivery dashboard {#dashboards}
 
