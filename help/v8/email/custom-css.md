@@ -132,9 +132,9 @@ Below are examples of valid CSS.
 
 +++
 
-+++ Samples of invalid CSS
-
 If invalid CSS is entered, an error message is displayed, indicating that the CSS cannot be saved. Below are examples of invalid CSS.
+
++++ Samples of invalid CSS
  
 Using `<style>` tags is not accepted:
 
@@ -202,6 +202,7 @@ Your custom CSS is added to the end of the `<head>` section as part of a `<style
 
 The custom CSS is not interpreted or validated by the Email Designer's **[!UICONTROL Settings]** pane. It is entirely independent and can only be modified through the **[!UICONTROL Add Custom CSS]** option.
 
+<!--
 If the `global-custom` style tag has the attribute `data-disabled` set to `true`, the custom CSS will not be applied. 
 
 +++ See sample
@@ -213,6 +214,7 @@ For example:
 ```
 
 +++
+-->
 
 ## Guardrails - Imported content
 
