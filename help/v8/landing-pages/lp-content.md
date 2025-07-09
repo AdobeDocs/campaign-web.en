@@ -30,10 +30,6 @@ To further design your landing page content:
 
 * Add conditional content to your landing pages in the same way as for an email. [Learn more](../personalization/conditions.md#condition-condition-builder)
 
-    >[!AVAILABILITY]
-    >
-    >This capability is in Limited Availability (LA). It is restricted to customers migrating **from Adobe Campaign Standard to Adobe Campaign v8**, and cannot be deployed on any other environment.
-
 ## Use the form component {#use-form-component}
 
 >[!CONTEXTUALHELP]
@@ -119,10 +115,6 @@ To define specific content that enables users to select and submit their choices
 
 1. Select the **[!UICONTROL Service from URL]** option to allow the landing page to be used for several services, making it dynamic. Define if you want to opt in or opt out users upon submitting the form.
 
-    >[!AVAILABILITY]
-    >
-    >This capability is in Limited Availability (LA). It is restricted to customers migrating **from Adobe Campaign Standard to Adobe Campaign v8**, and cannot be deployed on any other environment.
-
     ![Service from URL settings in the form component](assets/lp-form-service-from-url.png){zoomable="yes"}
 
     When designing an email, if you define a **[!UICONTROL Landing page]**-type link to this landing page, you can select any service from the list. You can then select other services when defining other links to this landing page. [Learn more about inserting links](../email/message-tracking.md)
@@ -132,10 +124,6 @@ To define specific content that enables users to select and submit their choices
 1. Send a message on the submission of your landing page. [Learn more here](#lp-message) 
 
 ### Send a message after submission {#lp-message}
-
->[!AVAILABILITY]
->
->This capability is in Limited Availability (LA). It is restricted to customers migrating **from Adobe Campaign Standard to Adobe Campaign v8**, and cannot be deployed on any other environment.
 
 To send a confirmation message automatically after the submission of a landing page, follow these steps:
 

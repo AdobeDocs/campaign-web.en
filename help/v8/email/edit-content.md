@@ -107,7 +107,7 @@ To configure or edit the content of an email, follow the steps below.
 
 1. Once the content of your email has been defined, use the **[!UICONTROL Simulate content]** button to check how it displays before sending it. [Learn how to preview and test your email](../preview-test/preview-test.md).
 
-## Configure a multilingual delivery
+## Configure a multilingual delivery {#multilingual-delivery}
 
 In Campaign web user interface, you can set up your email deliveries as multilingual, which allows you to send messages based on a profile's preferred language. When no preference is defined, the message is sent in the default language.
 

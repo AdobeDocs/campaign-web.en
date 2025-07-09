@@ -109,10 +109,6 @@ To create a landing page, follow these steps:
         >This option is selected by default for all landing page templates.
 
     * The **[!UICONTROL Authorize absence of ID]** option allows any visitor to access the landing page. Unselecting this option prevents anonymous visitors from using it, meaning that only identified users can access and submit the form.
-
-        >[!AVAILABILITY]
-        >
-        >This capability is in Limited Availability (LA). It is restricted to customers migrating **from Adobe Campaign Standard to Adobe Campaign v8**, and cannot be deployed on any other environment.
     
         For the **[!UICONTROL Acquisition]** and **[!UICONTROL Subscription]** templates, this option is selected by default. For the **[!UICONTROL Unsubscription]** and **[!UICONTROL Denylist]** templates, this option is unselected by default and cannot be modified.
 
@@ -127,10 +123,6 @@ To create a landing page, follow these steps:
     ![Screenshot showing the storage options for the landing page.](assets/lp-storage.png){zoomable="yes"}
 
 1. Create **[!UICONTROL Additional data]** to store internal data when the landing page is being submitted. This data is not visible to users who visit the page. Only constant values are taken into account.
-
-    >[!AVAILABILITY]
-    >
-    >This capability is in Limited Availability (LA). It is restricted to customers migrating **from Adobe Campaign Standard to Adobe Campaign v8**, and cannot be deployed on any other environment.
 
     ![Screenshot showing the additional data section.](assets/lp-additional-data.png){zoomable="yes"}
 
@@ -155,10 +147,6 @@ To create a landing page, follow these steps:
 Once you define all the settings and [design](lp-content.md) all the pages, you can [test](#test-landing-page) and [publish](#publish-landing-page) your landing page as detailed below.
 
 ## Secure your landing page with a captcha {#captcha}
-
->[!AVAILABILITY]
->
->This capability is in Limited Availability (LA). It is restricted to customers using **Adobe Campaign v8.7.2 upgraded with the last fix version**, and cannot be deployed on any other environment.
 
 Setting up a captcha helps you to protect your landing page from spam and abuse.
 
