@@ -46,9 +46,9 @@ Get a glimpse of the newest enhancements in Adobe Campaign Web product and docum
 >[!BEGINTABS]
 
 
->[!TAB May '25 release]
+>[!TAB July '25 updates]
 
-May release is now live, including the new Custom channel, Brand alignment score, and typology rules improvement.
+New features and enhancements are now available in the Campaign Web user interface. To take advantage of these improvements, make sure to upgrade your Campaign environment to version 8.8. For a complete overview, check out the release notes.
 
 [![Learn more button](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
