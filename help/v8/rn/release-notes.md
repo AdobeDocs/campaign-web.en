@@ -66,7 +66,7 @@ The following features are available to all users starting July release.
 </tbody>
 </table>
 
-### Features previously in LA {#25-7-la} 
+### Features previously in Limited Availability {#25-7-limited} 
 
 >[!AVAILABILITY]
 >
@@ -109,7 +109,7 @@ In addition to the features listed above, this release also comes with a set of 
 
 Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
 
-### Improvements {#25-4-improvements}
+### Improvements {#25-7-improvements}
 
 * You can now calculate the target population on each condition and group in the rule builder. Click on the result number to view the results.
 
