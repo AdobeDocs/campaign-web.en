@@ -81,9 +81,9 @@ The following features are available to all users starting July release.
 
 ### Improvements {#25-4-improvements}
 
-* You can now calculate the target population on each condition and group in the rule builder. You can click on the result number to view the results
+* You can now calculate the target population on each condition and group in the rule builder. You can click on the result number to view the results.
 
-* You can now edit or remove a pre-defined filter direclty from the rule builder.
+* You can now edit or remove a pre-defined filter directly from the rule builder.
 
 * When configuring an SMS delivery, in the **SMS** section, you now have access to the **Optional SMPP parameters (TLV)**. This parameter is the same as in the Client Console.
 
