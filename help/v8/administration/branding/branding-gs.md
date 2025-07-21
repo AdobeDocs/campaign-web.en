@@ -11,7 +11,7 @@ exl-id: f6438303-5ae8-47c6-8c34-8e586f4b6fe7
 
 >[!AVAILABILITY]
 >
->This capabiity is only available on-demand, for new implementations. To gain access, contact your Adobe representative. 
+>This capabibity is only available on demand, for new implementations. To gain access, contact your Adobe representative. 
 
 
 >[!IMPORTANT]
