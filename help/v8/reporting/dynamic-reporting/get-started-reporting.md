@@ -7,6 +7,10 @@ exl-id: 6feac90f-f7c1-48b5-94ff-7fef92a2af83
 ---
 # Get started with dynamic reporting {#get-started-reporting}
 
+>[!AVAILABILITY]
+>
+>This capabiity is only available on-demand. To gain access, contact your Adobe representative. 
+
 Dynamic Reporting provides fully customizable and real-time reports to measure the impact of your marketing activities. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks.
 
 <table>
