@@ -27,7 +27,7 @@ The following features are available to all users starting July release.
 <tbody>
 <tr>
 <td>
-<p>You can now send multiple SMS deliveries in different languages in Adobe Campaign Web User Interface. The multilingual delivery feature allows you to choose the default language of your delivery as well as the different languages in which the delivery can be sent. You can also preview these deliveries in the languages you have chosen.
+<p>You can now send multiple SMS deliveries in different languages in Adobe Campaign Web UI. The multilingual delivery feature allows you to choose the default language of your delivery as well as the different languages in which the delivery can be sent. You can also preview these deliveries in the languages you have chosen.
 </p>
 </td>
 </tr>
@@ -81,9 +81,9 @@ The following features are available to all users starting July release.
 
 ### Improvements {#25-4-improvements}
 
-* You can now calculate the target population on each condition and group in the rule builder. You can click on the result number to view the results.
+* You can now calculate the target population on each condition and group in the rule builder. Click on the result number to view the results.
 
-* You can now edit or remove a pre-defined filter directly from the rule builder.
+* You can now edit or delete a pre-defined filter directly from the rule builder.
 
 * When configuring an SMS delivery, in the **SMS** section, you now have access to the **Optional SMPP parameters (TLV)**. This parameter is the same as in the Client Console.
 
