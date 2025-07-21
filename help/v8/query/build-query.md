@@ -393,9 +393,9 @@ In the example below, we have created an intermediate group to include results f
 
 Once you've built your query in the canvas, you can check it using the **Rule properties** pane located on the right hand side  This pane displays when building a query to create an audience. Available operations are:
 
-* **View results:** Displays the data resulting from your query.
-* **Code view**: Displays a code-based version of the query in SQL.
-* **Calculate**: Updates and displays the number of records targeted by your query.
+* **View results:** Displays the data resulting from your query. You can also view results on each condition and group in the rule builder. First calculate the target population, then click on the result number to view the results.
+* **Code view**: Displays a code-based version of the query in SQL. 
+* **Calculate**: Updates and displays the number of records targeted by your query. You can also calculate the target population on each condition and group in the rule builder. You can click on the result number to view the results.
 * **Select or save filter**: Choose an existing predefined filter to use in the canvas, or save your query as a predefined filter for future reuse. [Learn how to work with predefined filters](../get-started/predefined-filters.md)
 
     >[!IMPORTANT]
