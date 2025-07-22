@@ -334,6 +334,17 @@ SMS delivery parameters are technical settings which apply to your SMS delivery.
 
   Setting this value to 0 disables the limit.
 
+* **[!UICONTROL Optional SMPP parameters (TLV)]**
+
+  You can specify extra fields to send as optional SMPP parameters (TLV). These extra fields are sent with each MT and personalized fields allow to have different values for each MT.
+  The table lists optional parameters to send with each message. Columns contain the following information:
+
+  * **[!UICONTROL Label]**: this is an optional, free-form label. It is not transmitted to the provider. You can provide a textual description of the parameter.
+  * **[!UICONTROL Tag]**: the tag value, either in decimal format (e.g. 12345) or hexadecimal with 0x prefix (e.g. 0x12ab). Tags can go between 0 and 65535. Ask the SMPP service provider for tags they support.
+  * **[!UICONTROL Value]**: value to send in the optional parameter. This is a personalized field.
+  * **[!UICONTROL Format]**: Encoding used for the parameter. You can select any supported text encoding or the most common binary formats. Ask the SMPP service provider for the required format.
+  * **[!UICONTROL Maximum length]**: Maximum number of bytes for this parameter. This is ignored for binary fields as binary fields have a fixed size.
+
 ## SMTP settings for email delivery {#smtp}
 
 >[!CONTEXTUALHELP]
