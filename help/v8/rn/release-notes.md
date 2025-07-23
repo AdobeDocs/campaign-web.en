@@ -232,3 +232,6 @@ Refer to the Client Console [release notes](https://experienceleague.adobe.com/d
 
 * When configuring an SMS delivery, in the **SMS** section, you now have access to the **Optional SMPP parameters (TLV)**. This parameter is the same as in the Client Console.
 
+* You can now enable background notifications on iOS using the new **Content Available** option, available in the **Advanced settings** section of the iOS content edition screen. This adds the `content-available:1` flag in the `aps` payload.
+
+
