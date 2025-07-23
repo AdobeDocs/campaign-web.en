@@ -402,10 +402,10 @@ Once you've built your query in the canvas, you can check it using the **Rule pr
     >
     >Select a predefined filter from the Rule properties pane replaces the query that has been built in the canvas with the selected filter.
 
-When using the new rule builder experience, you can display the target population and view the results on each condition and group:
+When using the new rule builder experience, you can display the target population directly on each condition and group:
 
-* Click the **Calculate the condition** on the desired condition or group to compute and show the results.
-* Click the result number to view the results.
+* Click the **Calculate the condition** icon on the desired condition or group to compute and display the number of records targeted by your query.
+* Click the result number to view the detailed list of records.
 
 ![Population and result display](assets/ruleb-11bis.png){zoomable="yes"}
 
