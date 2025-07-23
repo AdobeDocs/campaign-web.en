@@ -125,7 +125,7 @@ From this list, you can create a new filter as detailed above and perform the ac
 * Duplicate a predefined filter.
 * Delete a predefined filter.
 
-You can also edit or delete a pre-defined filter directly from the rule builder. From the predefined filter selection window, use the **More actions** button. You can delete the filter or edit it. You can change the label, add a description and add it as a favorite.
+You can also edit or delete a predefined filter directly from the rule builder. From the predefined filter selection window, use the **More actions** button. You can delete the filter or edit it. You can change the label, add a description and add it as a favorite.
 
 ![Edition of predefined filters](assets/filter-edit.png){zoomable="yes"}
 
