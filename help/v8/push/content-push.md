@@ -133,6 +133,7 @@ Advanced options depend on the mobile operating system: Android or iOS. Browse t
 |Parameter | Description |
 |---------|---------|
 |**[!UICONTROL Critical alert mode]**| Enable this option to add sound to your notification, even when the user's phone is set to focus mode or if the device is muted. This ensures that important alerts are noticed by the user. When selected, you can adjust the volume of the notification using the Volume level bar. A number between 0 and 100 above the bar reflects your settings. |
+|**[!UICONTROL Content available]**| Enable this option to allow your notification to trigger background updates on iOS devices, even when the app isn't actively open. This ensures that content like messages or data updates can be processed and stored in the app inbox without requiring user interaction. When selected, the `content-available: 1` flag is added to the `aps` payload in compliance with Apple Push Notification Service (APNS) standards. |
 |**[!UICONTROL Clean Badge]**| Enable this option to refresh the badge value displayed on the application icon. It ensures that the badge accurately reflects the number of new unread information.|
 |**[!UICONTROL Notification count]**| Set a number that will be displayed directly on the application icon, indicating the number of new unread information. This provides a quick visual reference for the user.|
 |**[!UICONTROL Volume]**| Volume of your sound from 0 to 100. |
