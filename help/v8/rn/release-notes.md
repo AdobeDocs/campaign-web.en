@@ -33,7 +33,6 @@ The following features are available starting July release.
 </p>
 <p>For Multilingual email, your server must be upgrated to 8.8.1 mininum. Refer to the Client Console <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html" target="_blank">release notes</a>.
 <p>For more information, refer to the <a href="../email/edit-content.md#multilingual-delivery">detailed documentation</a>.</p>
-<img src="assets/do-not-localize/brand-score.gif">
 </td>
 </tr>
 </tbody>
@@ -50,7 +49,6 @@ The following features are available starting July release.
 <td>
 <p>You can now, directly from Adobe Campaign Web UI, orchestrate and execute deliveries based on custom API channels. These deliveries can be standalone or part of a workflow. The configuration of the custom API channel is performed in the console.</p>
 <p>For more information, refer to the detailed documentation.</p>
-<img src="assets/do-not-localize/brand-score.gif">
 </td>
 </tr>
 </tbody>
@@ -67,7 +65,6 @@ The following features are available starting July release.
 <td>
 <p>You can now add custom CSS to your email content directly within the Email Designer.</p>
 <p>For more information, refer to the detailed documentation.</p>
-<img src="assets/do-not-localize/brand-score.gif">
 </td>
 </tr>
 </tbody>
@@ -85,7 +82,6 @@ The following features are available starting July release.
 <p>You can now create and customize your own Brands to clearly define your visual and verbal identity across communications. With the Brand alignment score, you can receive real-time feedback on how well your content reflects your brand’s tone, style, and guidelines, helping you stay consistently on-brand with every message you send.
 </p>
 <p>For more information, refer to the detailed documentation.</p>
-<img src="assets/do-not-localize/brand-score.gif">
 </td>
 </tr>
 </tbody>
@@ -102,7 +98,6 @@ The following features are available starting July release.
 <td>
 <p>The Delivery alerting feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries.</p>
 <p>For more information, refer to the <a href="../msg/delivery-alerting.md">detailed documentation</a>.</p>
-<img src="assets/do-not-localize/brand-score.gif">
 </td>
 </tr>
 </tbody>
@@ -127,7 +122,6 @@ The following features are available starting July release.
     <li>You can link a landing page to a service, and send a confirmation message when users validate it. <a href="../landing-pages/lp-content.md#lp-message">Read more</a></li>
     <li>You can add captcha to protect your landing page from spam and abuse caused by bots. This is non-intrusive for your customers since it does not require any interaction from them and is based on interactions with your site. <a href="../landing-pages/create-lp.md#captcha">Read more</a></li>
 </ul>
-<img src="assets/do-not-localize/brand-score.gif">
 </td>
 </tr>
 </tbody>
@@ -146,7 +140,6 @@ The following features are available starting July release.
 <p>You can now access Dynamic Reporting which provides fully customizable and real-time reports to measure the impact of your marketing activities. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks. Dynamic reporting is also available for multilingual email deliveries and transactional messages.</p>
 <p>This capabibity is only available on demand. To gain access, contact your Adobe representative. Your server must be upgrated to 8.8.1 mininum. Refer to the Client Console <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html" target="_blank">release notes</a>.
 <p>For more information, refer to the <a href="../reporting/dynamic-reporting/get-started-reporting.md">detailed documentation</a>.</p>
-<img src="assets/do-not-localize/brand-score.gif">
 </td>
 </tr>
 </tbody>
@@ -164,7 +157,6 @@ The following features are available starting July release.
 <p>Your technical administrators can now define one or several brands to centralize the parameters that affect a brand's identity. This includes the brand logo, the domain of the landing pages' access URL, or message tracking settings. You can create these brands and link them to messages or landing pages. This configuration is managed in templates. Branding options are available for all channels, including SMS and Direct mail.</p>
 <p>This capabibity is only available on demand, for new implementations. To gain access, contact your Adobe representative. Your server must be upgrated to 8.8.1 mininum. Refer to the Client Console <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html" target="_blank">release notes</a>.
 <p>For more information, refer to the <a href="../administration/branding/branding-gs.md">detailed documentation</a>.</p>
-<img src="assets/do-not-localize/brand-score.gif">
 </td>
 </tr>
 </tbody>
