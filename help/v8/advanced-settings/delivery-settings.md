@@ -345,7 +345,7 @@ SMS delivery parameters are technical settings which apply to your SMS delivery.
     * **Format**: Encoding used for the parameter. You can select any supported text encoding or the most common binary formats. Ask the SMPP service provider for the required format.
     * **Maximum length**: Maximum number of bytes for this parameter. This is ignored for binary fields as binary fields have a fixed size.
 
-* **[!UICONTROL Using binary formats for TLV]**
+  **Using binary formats for TLV**
 
   Campaign supports sending TLV in binary format. Binary is limited to sending numbers.
 
