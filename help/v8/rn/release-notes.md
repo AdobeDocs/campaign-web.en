@@ -12,7 +12,7 @@ exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 
 Adobe Campaign Web user interface releases operate on a continuous delivery model which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
-Changes and improvements available with previous releases are listed in the [2024](release-notes-24.md) and [2025](release-notes-25.md).
+Changes and improvements available with previous releases are listed in the [2024](release-notes-24.md) and [2025](release-notes-25.md) pages.
 
 ## July '25 release {#25-7-release} 
 
@@ -103,7 +103,7 @@ The following features are available starting July release.
 </tbody>
 </table>
 
-<table>
+<!--table>
 <thead>
 <tr>
 <th><strong>Landing pages improvements</strong><br/></th>
@@ -125,7 +125,7 @@ The following features are available starting July release.
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 
 <table>
@@ -226,3 +226,12 @@ Refer to the Client Console [release notes](https://experienceleague.adobe.com/d
 
 * You can now enable background notifications on iOS using the new **Content Available** option, available in the **Advanced settings** section of the iOS content edition screen. This adds the `content-available:1` flag in the `aps` payload.
 
+* The following landing page improvements are now available:
+
+    * You can now reference a default subscription/unsubscription landing page when configuring a service. When designing an email, if you define a link to that landing page, users submitting the landing page form are automatically subscribed to or unsubscribed from this service. [Read more](../audience/manage-services.md#create-service)
+    * A new option in the landing page configuration allows anonymous visitors to access the landing page. If you unselect this option, only identified users can access and submit the form. [Read more](../landing-pages/create-lp.md#create-landing-page)
+    * A new option in the landing page configuration allows to store additional internal data when the landing page is being submitted. [Read more](../landing-pages/create-lp.md#create-landing-page)
+    * A new option enables to use a landing page for several services, making it dynamic. When adding a link to an email, if you select a dynamic landing page, you can select any service. If you select a landing page that has a specific service associated, this service will be automatically used (you cannot select another one). [Read more](../landing-pages/create-lp.md#define-actions-on-form-submission)
+    * Conditional content is now supported in landing pages. [Read more](../landing-pages/lp-content.md)
+    * You can link a landing page to a service, and send a confirmation message when users validate it. [Learn more](../landing-pages/lp-content.md#lp-message)
+    * You can add captcha to protect your landing page from spam and abuse caused by bots. This is non-intrusive for your customers since it does not require any interaction from them and is based on interactions with your site. [Learn more](../landing-pages/create-lp.md#captcha)
