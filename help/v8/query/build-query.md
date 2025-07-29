@@ -393,14 +393,21 @@ In the example below, we have created an intermediate group to include results f
 
 Once you've built your query in the canvas, you can check it using the **Rule properties** pane located on the right hand side  This pane displays when building a query to create an audience. Available operations are:
 
-* **View results:** Displays the data resulting from your query.
-* **Code view**: Displays a code-based version of the query in SQL.
+* **View results:** Displays the data resulting from your query. 
+* **Code view**: Displays a code-based version of the query in SQL. 
 * **Calculate**: Updates and displays the number of records targeted by your query.
 * **Select or save filter**: Choose an existing predefined filter to use in the canvas, or save your query as a predefined filter for future reuse. [Learn how to work with predefined filters](../get-started/predefined-filters.md)
 
     >[!IMPORTANT]
     >
     >Select a predefined filter from the Rule properties pane replaces the query that has been built in the canvas with the selected filter.
+
+When using the new rule builder experience, you can display the target population directly on each condition and group:
+
+* Click the **Calculate the condition** icon on the desired condition or group to compute and display the number of records targeted by your query.
+* Click the result number to view the detailed list of records.
+
+![Population and result display](assets/ruleb-11bis.png){zoomable="yes"}
 
 When your query is ready, click the **[!UICONTROL Confirm]** button in the upper-right corner to save it.
 
