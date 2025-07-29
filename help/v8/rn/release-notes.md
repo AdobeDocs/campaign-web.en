@@ -20,7 +20,7 @@ Changes and improvements available with previous releases are listed in the [202
 
 The following features are available starting July release.
 
-<table>
+<!--table>
 <thead>
 <tr>
 <th><strong>Multilingual email and SMS</strong><br/></th>
@@ -36,9 +36,9 @@ The following features are available starting July release.
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
-<table>
+<!--table>
 <thead>
 <tr>
 <th><strong>Custom channel for API deliveries</strong><br/></th>
@@ -52,7 +52,7 @@ The following features are available starting July release.
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
@@ -63,14 +63,14 @@ The following features are available starting July release.
 <tbody>
 <tr>
 <td>
-<p>You can now add custom CSS to your email content directly within the Email Designer.</p>
-<p>For more information, refer to the detailed documentation.</p>
+<p>When designing your emails, you can now add your own custom CSS directly within the Email Designer. This capability enables you to apply advanced and specific styling, for greater flexibility and control over the appearance of your content.</p>
+<p>For more information, refer to the <a href="../email/custom-css.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-<table>
+<!--table>
 <thead>
 <tr>
 <th><strong>Brands</strong><br/></th>
@@ -79,13 +79,13 @@ The following features are available starting July release.
 <tbody>
 <tr>
 <td>
-<p>You can now create and customize your own Brands to clearly define your visual and verbal identity across communications. With the Brand alignment score, you can receive real-time feedback on how well your content reflects your brand’s tone, style, and guidelines, helping you stay consistently on-brand with every message you send.
+<p>You can now create and customize your own Brands to clearly define your visual and verbal identity across communications. With the Brand alignment score, you can receive real-time feedback on how well your content reflects your brand's tone, style, and guidelines, helping you stay consistently on-brand with every message you send.
 </p>
 <p>For more information, refer to the detailed documentation.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
