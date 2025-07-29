@@ -5,8 +5,6 @@ feature: Email Design
 topic: Content Management
 role: User
 level: Intermediate
-hide: yes
-hidefromtoc: yes
 keywords: css, editor, summary, email
 exl-id: 7969b656-8130-49cf-9c85-d80bd74b285a
 ---

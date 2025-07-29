@@ -334,6 +334,29 @@ SMS delivery parameters are technical settings which apply to your SMS delivery.
 
   Setting this value to 0 disables the limit.
 
+* **[!UICONTROL Optional SMPP parameters (TLV)]**
+
+  You can specify extra fields to send as optional SMPP parameters (TLV). These extra fields are sent with each MT and personalized fields allow to have different values for each MT.
+  The table lists optional parameters to send with each message. Columns contain the following information:
+  
+    * **Label**: this is an optional, free-form label. It is not transmitted to the provider. You can provide a textual description of the parameter.
+    * **Tag**: the tag value, either in decimal format (e.g. 12345) or hexadecimal with 0x prefix (e.g. 0x12ab). Tags can go between 0 and 65535. Ask the SMPP service provider for tags they support.
+    * **Value**: value to send in the optional parameter. This is a personalized field.
+    * **Format**: Encoding used for the parameter. You can select any supported text encoding or the most common binary formats. Ask the SMPP service provider for the required format.
+    * **Maximum length**: Maximum number of bytes for this parameter. This is ignored for binary fields as binary fields have a fixed size.
+
+  **Using binary formats for TLV**
+
+  Campaign supports sending TLV in binary format. Binary is limited to sending numbers.
+
+  Because personalized fields always output text, the personalized field must contain a decimal representation of the number (any string is okay as long as it only contains digits). Values can be both signed or unsigned, the personalization engine just converts it to the correct binary representation.
+
+  When using binary formats, special values '' (empty string), 'null' and 'undefined' disable the field completely without throwing an error. In these 3 special cases, the tag is not passed at all. This allows passing a specific TLV only for some messages when using carefully crafted Javascript in the personalization field.
+
+  >[!NOTE]
+  >
+  >Binary formats are always encoded into big-endian form.
+
 ## SMTP settings for email delivery {#smtp}
 
 >[!CONTEXTUALHELP]
