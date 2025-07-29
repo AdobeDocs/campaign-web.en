@@ -218,13 +218,13 @@ Refer to the Client Console [release notes](https://experienceleague.adobe.com/d
 
 ### Improvements {#25-7-improvements}
 
-* You can now calculate the target population directly on each condition and group in the rule builder. Click on the result number to view the detailed list of records.
+* You can now calculate the target population directly on each condition and group in the rule builder. Click on the result number to view the detailed list of records. [Learn more](../query/build-query.md#validate-query)
 
-* You can now edit or delete a predefined filter directly from the rule builder.
+* You can now edit or delete a predefined filter directly from the rule builder. [Learn more](../get-started/predefined-filters.md#manage-predefined-filter)
 
-* When configuring an SMS delivery, in the **SMS** section, you now have access to the **Optional SMPP parameters (TLV)**. This parameter is the same as in the Client Console.
+* When configuring an SMS delivery, in the **SMS** section, you now have access to the **Optional SMPP parameters (TLV)**. This parameter is the same as in the Client Console. [Learn more](../advanced-settings/delivery-settings.md#sms-tab)
 
-* You can now enable background notifications on iOS using the new **Content Available** option, available in the **Advanced settings** section of the iOS content edition screen. This adds the `content-available:1` flag in the `aps` payload.
+* You can now enable background notifications on iOS using the new **Content Available** option, available in the **Advanced settings** section of the iOS content edition screen. This adds the `content-available:1` flag in the `aps` payload. Learn more [on this page](../push/content-push.md). See also [this page](../push/rich-push-ios.md)
 
 * The following landing page improvements are now available:
 
