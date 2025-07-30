@@ -62,11 +62,15 @@ In the following example, learn how to leverage AI Assistant to refine an existi
 
     Previously uploaded files are available in the **[!UICONTROL Uploaded brand assets]** drop-down. Toggle the assets you wish to include in your generation.
 
-    ![Screenshot showing the brand assets menu.](assets/lp_full_gen_5.png){zoomable="yes"}
-
 1. Once your prompt is ready, click **[!UICONTROL Generate]**.
 
-1. Browse through the generated **[!UICONTROL Variations]**, and click **[!UICONTROL Preview]** to view a full-screen version of the selected variation.
+1. Browse through the generated **[!UICONTROL Variations]** and click **[!UICONTROL Preview]** to view a full-screen version of the selected variation or **[!UICONTROL Apply]** to replace your current content.
+
+1. Click the percentage icon to view your **[!UICONTROL Brand Alignment Score]** and identify any misalignments with your brand.
+
+    Learn more on [Brand alignment score](../content/brands-score.md).
+
+    ![](assets/lp_full_gen_5.png){zoomable="yes"}
 
 1. Navigate to the **[!UICONTROL Refine]** option within the **[!UICONTROL Preview]** window to access additional customization features:
 
@@ -76,6 +80,8 @@ In the following example, learn how to leverage AI Assistant to refine an existi
     You can also change the **[!UICONTROL Tone]** and **[!UICONTROL Communication strategy]** of your text.
 
     ![Screenshot showing the refine options.](assets/lp_full_gen_6.png){zoomable="yes"}
+
+1. Open the **[!UICONTROL Brand Alignment]** tab to see how your content aligns with your [brand guidelines](../content/brands.md).
 
 1. Click **[!UICONTROL Select]** once you find the appropriate content. 
 
@@ -119,7 +125,13 @@ In the following example, learn how to leverage AI Assistant to enhance the cont
 
 1. Once your prompt is ready, click **[!UICONTROL Generate]**.
 
-1. Browse through the generated **[!UICONTROL Variations]**, and click **[!UICONTROL Preview]** to view a full-screen version of the selected variation.
+1. Browse through the generated **[!UICONTROL Variations]** and click **[!UICONTROL Preview]** to view a full-screen version of the selected variation or **[!UICONTROL Apply]** to replace your current content.
+
+1. Click the percentage icon to view your **[!UICONTROL Brand Alignment Score]** and identify any misalignments with your brand.
+
+    Learn more on [Brand alignment score](../content/brands-score.md).
+
+    ![Screenshot showing the brand assets menu.](assets/lp-text-genai-4.png){zoomable="yes"}
 
 1. Navigate to the **[!UICONTROL Refine]** option within the **[!UICONTROL Preview]** window to access additional customization features:
 
@@ -132,6 +144,8 @@ In the following example, learn how to leverage AI Assistant to enhance the cont
     You can also change the **[!UICONTROL Tone]** and **[!UICONTROL Communication strategy]** of your text.
 
     ![Screenshot showing the refine options.](assets/lp-text-genai-5.png){zoomable="yes"}
+
+1. Open the **[!UICONTROL Brand Alignment]** tab to see how your content aligns with your [brand guidelines](../content/brands.md).
 
 1. Click **[!UICONTROL Select]** once you find the appropriate content.
 
@@ -178,13 +192,17 @@ In the example below, learn how to leverage AI Assistant to optimize and improve
 
 1. Once you are satisfied with your prompt configuration, click **[!UICONTROL Generate]**.
 
-1. Browse the **[!UICONTROL Variation suggestions]** to find the desired asset.
+1. Browse through the generated **[!UICONTROL Variations]** and click **[!UICONTROL Preview]** to view a full-screen version of the selected variation or **[!UICONTROL Apply]** to replace your current content.
 
-    Click **[!UICONTROL Preview]** to view a full-screen version of the selected variation.
+1. Click the percentage icon to view your **[!UICONTROL Brand Alignment Score]** and identify any misalignments with your brand.
 
-1. Choose **[!UICONTROL Generate Similar]** if you want to view related images to this variant.
+    Learn more on [Brand alignment score](../content/brands-score.md).
 
-    ![Screenshot showing the variation suggestions interface.](assets/lp-image-gen-4.png){zoomable="yes"}
+    ![Screenshot showing the brand assets menu.](assets/lp-image-gen-4.png){zoomable="yes"}
+
+1. Choose **[!UICONTROL Generate Similar]** within the **[!UICONTROL Preview]** window if you want to view related images to this variant.
+
+1. Open the **[!UICONTROL Brand Alignment]** tab to see how your content aligns with your [brand guidelines](../content/brands.md).
 
 1. Click **[!UICONTROL Select]** once you find the appropriate content.
 

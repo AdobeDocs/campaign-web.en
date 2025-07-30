@@ -70,7 +70,7 @@ The following features are available starting July release.
 </tbody>
 </table>
 
-<!--table>
+<table>
 <thead>
 <tr>
 <th><strong>Brands</strong><br/></th>
@@ -81,11 +81,11 @@ The following features are available starting July release.
 <td>
 <p>You can now create and customize your own Brands to clearly define your visual and verbal identity across communications. With the Brand alignment score, you can receive real-time feedback on how well your content reflects your brand's tone, style, and guidelines, helping you stay consistently on-brand with every message you send.
 </p>
-<p>For more information, refer to the detailed documentation.</p>
+<p>For more information, refer to the <a href="../content/brands.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 <table>
 <thead>

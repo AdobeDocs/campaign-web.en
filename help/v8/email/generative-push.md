@@ -33,7 +33,7 @@ In the following example, AI Assistant is leveraged to craft compelling messagin
 
     ![Screenshot showing the Prompt Library interface](assets/push-genai-2.png){zoomable="yes"}
 
-1. Choose the field you want to generate: **[!UICONTROL Title]**, **[!UICONTROL Message]**, and/or **[!UICONTROL Image]**.
+1. Choose the field you want to generate: **[!UICONTROL Title]**, **[!UICONTROL Subtitle]**, **[!UICONTROL Message]**, and/or **[!UICONTROL Image]**.
 
 1. Tailor your prompt using the **[!UICONTROL Text settings]** option:
 
@@ -57,7 +57,13 @@ In the following example, AI Assistant is leveraged to craft compelling messagin
 
 1. Once your prompt is ready, click **[!UICONTROL Generate]**.
 
-1. Browse through the generated **[!UICONTROL Variations]** and click **[!UICONTROL Preview]** to view a full-screen version of the selected variation.
+1. Browse through the generated **[!UICONTROL Variations]** and click **[!UICONTROL Preview]** to view a full-screen version of the selected variation or **[!UICONTROL Apply]** to replace your current content.
+
+1. Click the percentage icon to view your **[!UICONTROL Brand Alignment Score]** and identify any misalignments with your brand.
+
+    Learn more on [Brand alignment score](../content/brands-score.md).
+
+    ![](assets/push-genai-6.png){zoomable="yes"}
 
 1. Navigate to the **[!UICONTROL Refine]** option within the **[!UICONTROL Preview]** window to access additional customization features:
 
@@ -69,10 +75,10 @@ In the following example, AI Assistant is leveraged to craft compelling messagin
 
     ![Screenshot showing Refine options](assets/push-genai-5.png){zoomable="yes"}
 
+1. Open the **[!UICONTROL Brand Alignment]** tab to see how your content aligns with your [brand guidelines](../content/brands.md).
+
 1. Click **[!UICONTROL Select]** once you find the appropriate content.
 
 1. Insert personalization fields to customize your email content based on profile data. Then, click the **[!UICONTROL Simulate content]** button to control the rendering and check personalization settings with test profiles. [Learn more](../preview-test/preview-content.md)
-
-    ![Screenshot showing Simulate content button](assets/push-genai-6.png){zoomable="yes"}
 
 When you define your content, audience, and schedule, prepare your push delivery. [Learn more](../monitor/prepare-send.md)

@@ -48,7 +48,7 @@ In the following example, leverage AI Assistant in Adobe Campaign Web to refine 
     * **[!UICONTROL Communication strategy]**: Choose the most suitable communication style for your generated text.
     * **[!UICONTROL Tone]**: Ensure the tone of your email resonates with your audience. Whether you want to sound informative, playful, or persuasive, AI Assistant adapts the message accordingly.
 
-    ![Screenshot showing text settings options in Adobe Campaign Web](assets/full-email-3.png){zoomable="yes"}
+    ![Screenshot showing text settings options in Adobe Campaign Web](assets/full-email-4.png){zoomable="yes"}
 
 1. Choose your **[!UICONTROL Image settings]**:
 
@@ -58,15 +58,21 @@ In the following example, leverage AI Assistant in Adobe Campaign Web to refine 
     * **[!UICONTROL Lighting]**: Modify the lighting in the image to shape its atmosphere and highlight specific elements.
     * **[!UICONTROL Composition]**: Arrange elements within the frame of the image.
 
-    ![Screenshot showing image settings options in Adobe Campaign Web](assets/full-email-4.png){zoomable="yes"}
-
 1. From the **[!UICONTROL Brand assets]** menu, click **[!UICONTROL Upload brand asset]** to add any brand asset that provides additional context to AI Assistant, or select a previously uploaded one.
 
     Previously uploaded files are available in the **[!UICONTROL Uploaded brand assets]** drop-down. Toggle the assets you wish to include in your generation.
 
+    ![Screenshot showing brands settings options in Adobe Campaign Web](assets/full-email-3.png){zoomable="yes"}
+
 1. Once your prompt is ready, click **[!UICONTROL Generate]**.
 
-1. Browse through the generated **[!UICONTROL Variations]**, and click **[!UICONTROL Preview]** to view a full-screen version of the selected variation.
+1. Browse through the generated **[!UICONTROL Variations]** and click **[!UICONTROL Preview]** to view a full-screen version of the selected variation or **[!UICONTROL Apply]** to replace your current content.
+
+1. Click the percentage icon to view your **[!UICONTROL Brand Alignment Score]** and identify any misalignments with your brand.
+
+    Learn more on [Brand alignment score](../content/brands-score.md).
+
+    ![](assets/full-email-7.png){zoomable="yes"}
 
 1. Navigate to the **[!UICONTROL Refine]** option within the **[!UICONTROL Preview]** window to access additional customization features:
 
@@ -77,11 +83,11 @@ In the following example, leverage AI Assistant in Adobe Campaign Web to refine 
 
     ![Screenshot showing refine options in Adobe Campaign Web](assets/full-email-5.png){zoomable="yes"}
 
+1. Open the **[!UICONTROL Brand Alignment]** tab to see how your content aligns with your [brand guidelines](../content/brands.md).
+
 1. Click **[!UICONTROL Select]** once you find the appropriate content.
 
 1. Insert personalization fields to customize your email content based on profile data. Then, click the **[!UICONTROL Simulate content]** button to control the rendering and check personalization settings with test profiles. [Learn more](../preview-test/preview-content.md)
-
-    ![Screenshot showing simulate content button in Adobe Campaign Web](assets/full-email-6.png){zoomable="yes"}
 
 When you define your content, audience, and schedule, prepare your email delivery. [Learn more](../monitor/prepare-send.md)
 
@@ -111,7 +117,7 @@ In the following example, leverage AI Assistant to enhance the content of your e
     * **[!UICONTROL Tone]**: Ensure the tone of your email resonates with your audience. Whether you want to sound informative, playful, or persuasive, AI Assistant adapts the message accordingly.
     * **Text Length**: Use the slider to select the desired length of your text.
 
-    ![Screenshot showing text settings options in Adobe Campaign Web](assets/text-genai-3.png){zoomable="yes"}
+    ![Screenshot showing text settings options in Adobe Campaign Web](assets/text-genai-4.png){zoomable="yes"}
 
 1. From the **[!UICONTROL Brand assets]** menu, click **[!UICONTROL Upload brand asset]** to add any brand asset that provides additional context to AI Assistant, or select a previously uploaded one.
 
@@ -119,7 +125,13 @@ In the following example, leverage AI Assistant to enhance the content of your e
 
 1. Once your prompt is ready, click **[!UICONTROL Generate]**.
 
-1. Browse through the generated **[!UICONTROL Variations]**, and click **[!UICONTROL Preview]** to view a full-screen version of the selected variation.
+1. Browse through the generated **[!UICONTROL Variations]** and click **[!UICONTROL Preview]** to view a full-screen version of the selected variation or **[!UICONTROL Apply]** to replace your current content.
+
+1. Click the percentage icon to view your **[!UICONTROL Brand Alignment Score]** and identify any misalignments with your brand.
+
+    Learn more on [Brand alignment score](../content/brands-score.md).
+
+    ![](assets/text-genai-6.png){zoomable="yes"}
 
 1. Navigate to the **[!UICONTROL Refine]** option within the **[!UICONTROL Preview]** window to access additional customization features:
 
@@ -131,7 +143,9 @@ In the following example, leverage AI Assistant to enhance the content of your e
 
     You can also change the **[!UICONTROL Tone]** and **[!UICONTROL Communication strategy]** of your text.
 
-    ![Screenshot showing refine options in Adobe Campaign Web](assets/text-genai-4.png){zoomable="yes"}
+    ![Screenshot showing refine options in Adobe Campaign Web](assets/text-genai-5.png){zoomable="yes"}
+
+1. Open the **[!UICONTROL Brand Alignment]** tab to see how your content aligns with your [brand guidelines](../content/brands.md).
 
 1. Click **[!UICONTROL Select]** once you find the appropriate content.
 
@@ -172,7 +186,7 @@ In the example below, learn how to leverage AI Assistant to optimize and improve
     * **[!UICONTROL Lighting]**: Modify the lighting in the image to shape its atmosphere and highlight specific elements.
     * **[!UICONTROL Composition]**: Arrange elements within the frame of the image.
 
-    ![Screenshot showing image settings options in Adobe Campaign Web](assets/image-genai-3.png){zoomable="yes"}
+    ![Screenshot showing image settings options in Adobe Campaign Web](assets/image-genai-4.png){zoomable="yes"}
 
 1. From the **[!UICONTROL Brand assets]** menu, click **[!UICONTROL Upload brand asset]** to add any brand asset that provides additional context to AI Assistant, or select a previously uploaded one.
 
@@ -180,15 +194,17 @@ In the example below, learn how to leverage AI Assistant to optimize and improve
 
 1. Once you are satisfied with your prompt configuration, click **[!UICONTROL Generate]**.
 
-1. Browse the **[!UICONTROL Variation suggestions]** to find the desired asset.
+1. Browse through the generated **[!UICONTROL Variations]** and click **[!UICONTROL Preview]** to view a full-screen version of the selected variation or **[!UICONTROL Apply]** to replace your current content.
 
-    Click **[!UICONTROL Preview]** to view a full-screen version of the selected variation.
+1. Click the percentage icon to view your **[!UICONTROL Brand Alignment Score]** and identify any misalignments with your brand.
 
-    ![Screenshot showing variation suggestions for image generation in Adobe Campaign Web](assets/image-genai-5.png){zoomable="yes"}
+    Learn more on [Brand alignment score](../content/brands-score.md).
+
+    ![](assets/image-genai-3.png){zoomable="yes"}
 
 1. Choose **[!UICONTROL Generate Similar]** if you want to view related images to this variant.
 
-    ![Screenshot showing generate similar option in Adobe Campaign Web](assets/image-genai-6.png){zoomable="yes"}
+1. Open the **[!UICONTROL Brand Alignment]** tab to see how your content aligns with your [brand guidelines](../content/brands.md).
 
 1. Click **[!UICONTROL Select]** once you find the appropriate content.
 
