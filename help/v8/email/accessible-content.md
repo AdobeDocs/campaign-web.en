@@ -1,8 +1,6 @@
 ---
-solution: Journey Optimizer
-product: journey optimizer
 title: Design accessible content
-description: Learn how to design accessible content for your emails and landing pages in Journey Optimizer
+description: Learn how to design accessible content for your emails and landing pages in Adobe Campaign
 feature: Email Design, Landing Pages
 topic: Content Management
 role: User
@@ -16,15 +14,13 @@ The [European accessibility act](https://eur-lex.europa.eu/legal-content/EN/TX
 
 This regulation states that all digital communications, including emails, newsletters, PDFs, and downloadable content, should be accessible. When creating content for your recipients, you are therefore required to follow specific guidelines such as using accessible fonts, readable formats, and provide alternative text for images. 
 
-The [!DNL Journey Optimizer] [Email Designer](content-from-scratch.md), which enables marketers to build content both for **emails** and **landing pages**, allows you to easily comply with this directive, based on Web Content Accessibility Guidelines (WCAG) 2.1, level AA.
+The [!DNL Adobe Campaign] [Email Designer](create-email-content.md), which enables marketers to build content both for **emails** and **landing pages**, allows you to easily comply with this directive, based on Web Content Accessibility Guidelines (WCAG) 2.1, level AA.
 
-In line with this, the best practices for designing accessible content with [!DNL Journey Optimizer] are listed below.
+In line with this, the best practices for designing accessible content with [!DNL Adobe Campaign] are listed below.
 
->[!NOTE]
->
->This page is about making your content accessible to all your recipients, to make sure that people with disabilities can read, understand, and interact with your emails and landing pages designed with [!DNL Journey Optimizer].
->
->On the other hand, the accessibility of the [!DNL Journey Optimizer] interface itself is detailed in [this section](../start/accessibility.md).
+This page is about making your content accessible to all your recipients, to make sure that people with disabilities can read, understand, and interact with your emails and landing pages designed with [!DNL Adobe Campaign].
+
+<!--On the other hand, the accessibility of the [!DNL Adobe Campaign] interface itself is detailed in this section.-->
   
 ## Ensure text readability {#text-readability}
 
@@ -67,13 +63,13 @@ To make sure your content is visually accessible, follow the best practices belo
 * Optimize your design for mobile and responsive layouts, ensuring buttons are large and properly spaced.
 * Regularly test across devices and screen sizes to maintain accessibility. 
 
-In [!DNL Journey Optimizer], the size and spacing of the different elements in your content can be further refined using the styling parameters and attributes from the Email Designer **[!UICONTROL Styles]** pane. [Learn more](get-started-email-style.md)
+In [!DNL Adobe Campaign], the size and spacing of the different elements in your content can be further refined using the styling parameters and attributes from the Email Designer **[!UICONTROL Styles]** pane. [Learn more](get-started-email-style.md)
 
 For example, you can update the [background](backgrounds.md), or change the margins, padding and alignment to improve the visual accessibility of your content. [Learn more](alignment-and-padding.md)
 
 ![](assets/accessible-styles.png){width="80%"}
 
-Moreover, the [!DNL Journey Optimizer] Email Designer enables you to preview and optimize design for different devices and screen sizes. At any time you can **[!UICONTROL Switch to live view]** in order to check how your content might render on various device sizes.
+Moreover, the [!DNL Adobe Campaign] Email Designer enables you to preview and optimize design for different devices and screen sizes. At any time you can **[!UICONTROL Switch to live view]** in order to check how your content might render on various device sizes.
 
 ![](assets/accessible-live-view.png){width="80%"}
 
@@ -97,7 +93,7 @@ For effective alternative text in digital products, follow the guidelines below:
 
 Use the Email Designer relevant structure and [content components](content-components.md), as well as the options in the **[!UICONTROL Styles]** pane, to organize your content in a clear, logical and concise way that is accessible to all.
 
-![](assets/accessible-components.png){width="1000%"}
+![](assets/accessible-components.png){width="100%"}
 
 * Use structured, semantic HTML with proper headings, paragraphs, lists, and tables.
 * Ensure content follows a logical left-to-right, top-to-bottom flow.
@@ -118,13 +114,13 @@ To evaluate your email readability, you can use the popular [Flesch Reading Ease
 
 ## Test your content {#test}
 
-To verify your content's accessibility, you can use the testing capabilities provided by [!DNL Journey Optimizer]. They are not specifically designed to check if your content is fully accessible, but they can provide a first level of verification.
+To verify your content's accessibility, you can use the testing capabilities provided by [!DNL Adobe Campaign]. They are not specifically designed to check if your content is fully accessible, but they can provide a first level of verification.
 
-* Preview your content using test profiles. [Learn how](../content-management/preview.md)
+* Preview your content using test profiles. [Learn how](../preview-test/preview-content.md)
 
-* Use the [Email rendering](../content-management/rendering.md) option that leverages Litmus to simulate your designs across major email clients (Apple Mail, Gmail, Outlook) and see if text, colors and images make your content accessible. <!--Litmus includes accessibility testing-->
+* Use the [Email rendering](../preview-test/email-rendering.md) option that leverages Litmus to simulate your designs across major email clients (Apple Mail, Gmail, Outlook) and see if text, colors and images make your content accessible. <!--Litmus includes accessibility testing-->
 
-* Send proofs to test the rendering of your content before sending it to your real audience. [Learn how](../content-management/proofs.md)
+* Send proofs to test the rendering of your content before sending it to your real audience. [Learn how](../preview-test/test-deliveries.md)
 
 ![](assets/accessible-simulate.png){width="90%"}
 
