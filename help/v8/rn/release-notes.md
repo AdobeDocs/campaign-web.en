@@ -14,6 +14,12 @@ Adobe Campaign Web user interface releases operate on a continuous delivery mode
 
 Changes and improvements available with previous releases are listed in the [2024](release-notes-24.md) and [2025](release-notes-25.md) pages.
 
+## September '25 updates {#25-9-updates} 
+
+The following improvement has been released:
+
+* A set of new operators has been added when setting up a condition using the Email Designer’s conditional content capability.
+
 ## August '25 release {#25-8-release} 
 
 This release comes with a series of bug fixes, including:
