@@ -1,7 +1,6 @@
 ---
 title: Switch to dark mode
 description: Learn how to use dark mode in the Adobe Campaign Email Designer
-badge: label="Beta" type="Informative"
 feature: Email Design
 topic: Content Management
 role: User
