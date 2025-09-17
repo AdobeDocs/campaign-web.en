@@ -132,7 +132,9 @@ To check in a more consistent way if your content is reliably accessible, go for
  
 ## Use dark mode {#dark-mode}
 
-<!--TO PUBLISH WHEN DARK MODE IS RELEASED-->
+Amongst the best practices for designing content in dark mode, use transparent PNGs or SVGs, set appropriate meta tags and CSS, and provide accessible fallback styling if dark mode is not supported.
+
+<!--TO PUBLISH WHEN DARK MODE IS RELEASED
 
 Dark mode enhances visual accessibility for users with light sensitivity or visual impairments, for an improved viewing experience.
 
@@ -140,7 +142,9 @@ Dark mode enhances visual accessibility for users with light sensitivity or visu
 
 Amongst the best practices for designing content in dark mode, use transparent PNGs or SVGs, set appropriate meta tags and CSS, and provide accessible fallback styling if dark mode is not supported. Finally, make sure your emails render correctly in dark mode by testing all email content and UI elements in both light and dark modes.
 
-Detailed best practices specific to dark mode, including guidelines to ensure accessibility, are listed in [this section](dark-mode.md#best-practices). <!--KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on the Dark mode page.-->
+Detailed best practices specific to dark mode, including guidelines to ensure accessibility, are listed in [this section](dark-mode.md#best-practices).
+
+KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on the Dark mode page.-->
 
 ## Use specific attributes for accessibility {#attributes}
 
