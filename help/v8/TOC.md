@@ -116,7 +116,6 @@ breadcrumb-title: Campaign Web User Interface
       + [Define a style for links](email/styling-links.md)
       + [Add inline styling attributes](email/inline-styling.md)
       + [Add a custom CSS](email/custom-css.md)
-      + [Manage dark mode content](email/dark-mode.md)
     + [Create accessible content](email/accessible-content.md)
   + AI Assistant {#ai-assistant}
     + [Work with AI Assistant](email/generative-gs.md)
