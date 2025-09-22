@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: email, design, accessibility
-
+exl-id: ddfa989b-8a30-4912-bed6-cc1ee7fa2eaa
 ---
 # Design accessible content {#accessible-content}
 
