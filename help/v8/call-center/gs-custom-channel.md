@@ -1,38 +1,36 @@
 ---
 audience: end-user
-title: Get started with custom external channels
-description: Learn how to create and send custom external channel deliveries with Adobe Campaign Web
+title: Get started with custom channels
+description: Learn how to create and send custom channel deliveries with Adobe Campaign Web
 exl-id: b4336a0a-d845-4024-a06b-400fce1316a4
 ---
-# Get started with custom external channels {#gs-custom-channel}
+# Get started with custom channels {#gs-custom-channel}
 
-You can, directly from Adobe Campaign Web UI, orchestrate and execute deliveries based on custom external channels integrated with third-parties. The creation of the custom external channel is performed in the Client Console.
+You can, directly from Adobe Campaign Web UI, orchestrate and execute deliveries based on custom channels integrated with third-parties. The configuration of the custom channel is performed in the Client Console.
 
-You can configure custom channel external deliveries in workflows or as standalone deliveries, define your audience, and generate customizable export files with all necessary contact and personalization data.
+Two types of custom channels are supported, external and API. With external channels, Campaign generates customizable export files with all necessary contact and personalization data. With API channels, messages are sent to the target profiles via the API configured.
 
->[!NOTE]
->
->Reporting is not available in the Web UI for custom channel external deliveries. You must browse to the Client Console to access reports.
+You can add custom channel deliveries in workflows or just use them as standalone deliveries.
 
 The steps below detail the procedure for a standalone (one-shot) delivery. Most steps are similar to call center deliveries. For more details, refer to this [page](../call-center/create-call-center.md).
 
-To create and send a new standalone custom external delivery, follow these main steps:
+To send a new standalone custom delivery, follow these main steps:
 
-1. Create the custom external channel, [read more](#create-channel)
+1. Configure the custom channel, [read more](#create-channel)
 1. Create the delivery, [read more](#create-delivery)
 1. Define the audience, [read more](#select-audience)
 1. Edit the content, [read more](#edit-content)
 1. Preview and send the delivery, [read more](#preview-send)
 
-## Create the custom external channel{#create-channel}
+## Configure the custom channel{#create-channel}
 
-First, you need to configure the custom external channel. Here are the main steps to perform in the Client Console:
+First, you need to configure the custom channel. Here are the main steps to perform in the Client Console. These steps are common to custom external and API channels:
 
-1. Configure the schema to add the new channel to the list of available channels. 
-1. Create a new routing external account.
-1. Create a new delivery template associated to the new channel.
+1. Configure the schema to add the new channel to the list of available channels. [Read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html#configure-schema){target="_blank"}
+1. Create a new routing external account. [Read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html#reate-ext-account){target="_blank"}
+1. Create a new delivery template associated to the new channel. [Read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html#create-template){target="_blank"}
 
-For more details, refer to the [Client Console documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html)
+Custom API channels require additional configuration. [Read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html#api-additional){target="_blank"}
 
 ## Create the delivery{#create-delivery}
 
@@ -40,10 +38,9 @@ Follow these steps to create the delivery and configure its properties:
 
 1. Select the **[!UICONTROL Deliveries]** menu and click the **[!UICONTROL Create delivery]** button.
 
-1. Choose the desired custom external channel, select the associated template and click **[!UICONTROL Create delivery]** to confirm.
+1. Choose the desired custom channel, select the associated template and click **[!UICONTROL Create delivery]** to confirm.
 
     ![Screenshot showing the creation of a custom delivery](assets/cus-create.png){zoomable="yes"}
-
 
 1. Under **[!UICONTROL Properties]**, enter a **[!UICONTROL Label]** for the delivery.
 
@@ -53,9 +50,9 @@ For more details on delivery creation, refer to the call center [documentation](
 
 ## Define the audience{#select-audience}
 
-Now, you need to define the audience that will be targeted for the extraction file.
+Now, you need to define the audience that will be targeted.
 
-1. From the **[!UICONTROL Audience]** section of the delivery page, click **[!UICONTROL Select audience]**.
+1. From the **[!UICONTROL Audience]** section of the delivery dashboard, click **[!UICONTROL Select audience]**.
 
 1. Choose an existing audience or create your own.
 
@@ -65,28 +62,58 @@ For more details on audience definition, refer to the call center [documentation
 
 ## Edit the content{#edit-content}
 
-Now, let's edit the content of the extraction file that will be generated by the custom channel delivery. 
+Now, let's edit the content of the delivery.
 
-1. From the delivery page, click the **[!UICONTROL Edit content]** button.
+>[!BEGINTABS]
+
+>[!TAB Custom external channel]
+
+1. From the delivery dashboard, click the **[!UICONTROL Edit content]** button.
 
 1. Specify a **[!UICONTROL File name]**, select a **[!UICONTROL File format]** and add as many columns as needed for your extraction file.
 
     ![Screenshot showing the attributes configuration options for the extraction file.](assets/cc-content-attributes.png)
 
+>[!TAB Custom API channel]
+
+1. From the delivery dashboard, click the **[!UICONTROL Edit content]** button.
+
+1. Fill in the fields as needed. To learn how to set up this screen, refer to this [page](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html#api-additional-screen){target="_blank"}.
+
+    ![Screenshot showing the attributes configuration options for the API channel.](assets/cc-content-attributes-api.png)
+
+>[!ENDTABS]
+
 For more details on content edition, refer to the call center [documentation](../call-center/create-call-center.md#edit-content).
 
 ## Preview and send the delivery{#preview-send}
 
-When the delivery content is ready, you can preview it using test profiles and send proofs. You can then send the delivery to generate the extraction file.
+When the delivery content is ready, you can preview it using test profiles. You can then send the delivery to generate the extraction file or send the message via API.
+
+>[!BEGINTABS]
+
+>[!TAB Custom external channel]
+
+1. From the delivery dashboard, click the **[!UICONTROL Edit content]** button.
 
 1. From the delivery content page, click the **[!UICONTROL Simulate content]** button and select test profiles.
 
     ![Screenshot showing the simulate content option in the delivery content page](assets/cus-simulate.png){zoomable="yes"}
 
-1. From the delivery page, click **[!UICONTROL Review & send]** and click **[!UICONTROL Prepare]**. Then, confirm. 
+>[!TAB Custom API channel]
 
-    ![Screenshot showing the prepare option and logs menu](assets/cus-prepare.png){zoomable="yes"}
+1. From the delivery dashboard, click the **[!UICONTROL Edit content]** button.
 
-1. Click **[!UICONTROL Send]** to proceed with the final sending process, then confirm.
+1. From the delivery content page, click the **[!UICONTROL Simulate content]** button and select test profiles.
+
+1. On the right side, click **Open preview**. This capability needs to be configured using JSSP. Refer to this [page](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html#api-additional-preview){target="_blank"}.
+
+    ![Screenshot showing the simulate content option in the delivery content page for API](assets/cus-simulate-api.png){zoomable="yes"}
+
+>[!ENDTABS]
+
+From the delivery dashboard, click **[!UICONTROL Review & send]** and click **[!UICONTROL Prepare]**. Then, confirm. Click **[!UICONTROL Send]** to proceed with the final sending process, then confirm.
+
+![Screenshot showing the prepare option and logs menu](assets/cus-prepare.png){zoomable="yes"}
 
 For more details on preview and send, refer to the call center [documentation](../call-center/create-call-center.md#preview-send).

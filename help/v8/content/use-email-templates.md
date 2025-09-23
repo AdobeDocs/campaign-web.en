@@ -29,7 +29,7 @@ Learn how to use templates and how to save email content as a template in the se
 
 To start building your content with one of the sample or saved templates, follow the steps below.
 
-1. Open the [Email Designer](create-email-content.md).
+1. Open the [Email Designer](../email/create-email-content.md).
 
 1. On the **[!UICONTROL Create your email]** screen, the **[!UICONTROL Sample templates]** tab is selected by default.
 
@@ -37,7 +37,7 @@ To start building your content with one of the sample or saved templates, follow
 
     ![Saved templates tab in Email Designer](assets/email_designer-saved-templates-tab.png){zoomable="yes"}
 
-1. The list of all [saved templates](#save-as-template) displays. You can sort them **[!UICONTROL By name]**, **[!UICONTROL Last modified]**, and **[!UICONTROL Last created]**.
+1. The list of all [saved templates](create-email-templates.md#save-as-template) displays. You can sort them **[!UICONTROL By name]**, **[!UICONTROL Last modified]**, and **[!UICONTROL Last created]**.
 
     ![List of saved templates in Email Designer](assets/email_designer-saved-templates.png){zoomable="yes"}
 
@@ -49,4 +49,4 @@ To start building your content with one of the sample or saved templates, follow
 
 1. Click **[!UICONTROL Use this template]** on the top right of the screen.
 
-1. Edit your content as desired using the Email Designer. [Learn more](create-email-content.md)
+1. Edit your content as desired using the Email Designer. [Learn more](../email/create-email-content.md)

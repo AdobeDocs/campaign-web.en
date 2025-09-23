@@ -9,6 +9,10 @@ exl-id: a58fc8fd-e510-45ef-8fe9-c75ff4498113
 
 You can find in this section common questions related to Dynamic reporting.
 
+## What languages are dynamic reporting available in? {#langages}
+
+Currently, dynamic reporting is only available in English.
+
 ## For Unique opens and Unique clicks, the count in the aggregate row is not matching the ones in individual rows {#unique-open-clicks-no-match}
 
 This is an expected behavior.

@@ -96,14 +96,14 @@ To create a new content template from the content templates dashboard, follow th
 
 1. Click **[!UICONTROL Create]** and choose how you want to design your template from the different options:
 
-    * [Design your content from scratch](create-email-content.md) through the Email Designer's interface.
-    * [Code or copy-paste raw HTML](code-content.md) directly into the Email Designer.
-    * [Import existing HTML content](existing-content.md) from a file or a .zip folder.
+    * [Design your content from scratch](../email/create-email-content.md) through the Email Designer's interface.
+    * [Code or copy-paste raw HTML](../email/code-content.md) directly into the Email Designer.
+    * [Import existing HTML content](../email/existing-content.md) from a file or a .zip folder.
     * Use existing content from a list of built-in or custom templates. The steps to use a content template in an email are described in [this section](use-email-templates.md).
 
     ![Email Designer options for creating templates](assets/email_designer-templates.png){zoomable="yes"}
 
-1. The Email Designer displays. Edit your content as needed, the same way you would do for any email, according to the option you selected. Learn how to use the Email Designer in [this section](get-started-email-designer.md).
+1. The Email Designer displays. Edit your content as needed, the same way you would do for any email, according to the option you selected. Learn how to use the Email Designer in [this section](../email/get-started-email-designer.md).
 
     <!--You can test your content if needed. [Learn how](#test-template)-->
 
@@ -119,7 +119,7 @@ You can now use this template to build new content. It is available in the **[!U
 
 ### Save email content as template {#save-as-template}
 
-Once you [design an email](create-email-content.md), you can save this content as a template for future reuse. Saved templates are available to all users of your Adobe Campaign environment.
+Once you [design an email](../email/create-email-content.md), you can save this content as a template for future reuse. Saved templates are available to all users of your Adobe Campaign environment.
 
 To save an email content as a template, follow the steps below:
 
@@ -165,7 +165,7 @@ To update an existing content template, follow these steps:
 
 1. From the list of content templates, click on the label of the template to modify it.
 
-1. Click the **[!UICONTROL Edit content]** button to update your content with the [Email Designer](get-started-email-designer.md).
+1. Click the **[!UICONTROL Edit content]** button to update your content with the [Email Designer](../email/get-started-email-designer.md).
 
 ![Edit content template option](assets/content-template-edition.png){zoomable="yes"}
 

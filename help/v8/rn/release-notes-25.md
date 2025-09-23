@@ -7,6 +7,14 @@ exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
 
 This page lists all changes and improvements available with **2025 releases**. Latest relese notes are available in [this page](release-notes.md). 
 
+## August '25 release {#25-8-release} 
+
+This release comes with a series of bug fixes, including:
+
+* The profile duplication process has been improved to match the Client Console behavior, ensuring a consistent experience across both interfaces. This fixes an issue which could prevent the duplicated profiles from being created.
+
+* The **[!UICONTROL Email BCC]** option, in the delivery configuration screen, now works with Momentum (Enhanced MTA). This functionality was previously only available in the Client Console.
+
 ## July '25 release {#25-7-release} 
 
 ### New features {#25-7-features} 

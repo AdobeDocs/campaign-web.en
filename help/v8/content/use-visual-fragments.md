@@ -11,7 +11,7 @@ exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
 >
 >This capability requires an update to Campaign v8.6.4. Learn more in the [Campaign v8 Client console release notes](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/release-notes).
 
-In the Campaign web interface, **Visual fragments** are pre-defined visual blocks that you can reuse across multiple [email deliveries](../email/get-started-email-designer.md) or in [content templates](../email/use-email-templates.md). Learn how to create and manage content fragments in [this section](fragments.md).
+In the Campaign web interface, **Visual fragments** are pre-defined visual blocks that you can reuse across multiple [email deliveries](../email/get-started-email-designer.md) or in [content templates](../content/use-email-templates.md). Learn how to create and manage content fragments in [this section](fragments.md).
 
 ![Visual representation of visual fragments in use](assets/do-not-localize/fragments.gif)
 

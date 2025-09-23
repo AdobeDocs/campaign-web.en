@@ -65,7 +65,7 @@ breadcrumb-title: Campaign Web User Interface
   + Call center {#call-center}
     + [Get started with call center deliveries](call-center/gs-call-center.md)
     + [Create and send a call center delivery](call-center/create-call-center.md)
-  + [Custom external channel](call-center/gs-custom-channel.md)
+  + [Custom channels](call-center/gs-custom-channel.md)
   + Transactional messages {#transactional-messages}
     + [Get started with transactional messages](transactional-messaging/transactional.md)
     + [Create a transactional message](transactional-messaging/create-transactional.md)
@@ -90,7 +90,10 @@ breadcrumb-title: Campaign Web User Interface
     + [Add personalization](personalization/personalize.md)
     + [Build conditional content](personalization/conditions.md)
   + Reuse content {#manage-reusable-content}
-    + [Work with content templates](email/create-email-templates.md)
+    + Content templates {#content-templates}
+      + [Work with content templates](content/create-email-templates.md)
+      + [Use email content templates](content/use-email-templates.md)
+      + [Lock content in email templates](content/content-locking.md)
     + Content fragments {#fragments}
       + [Get started with content fragments](content/fragments.md)
       + [Create and edit content fragments](content/create-fragment.md)
@@ -102,7 +105,6 @@ breadcrumb-title: Campaign Web User Interface
       + [Start from scratch ](email/create-email-content.md)
       + [Import your email content](email/existing-content.md)
       + [Code your own content](email/code-content.md)
-      + [Use email content templates](email/use-email-templates.md)
     + Design your content {#design-content}
       + [Use content components](email/content-components.md)
       + [Add links and track messages](email/message-tracking.md)
@@ -267,7 +269,13 @@ breadcrumb-title: Campaign Web User Interface
   + [Work with schemas](administration/schemas.md)
   + [Configure custom fields](administration/custom-fields.md)
   + [Configure [!DNL Campaign] options](administration/options.md)
-  + [Configure external accounts](administration/external-account.md)
+  + External accounts {#external-accounts}
+    + [Create external accounts](administration/create-external-account.md)
+    + [Adobe Solution Integration](administration/integration-external-account.md)
+    + [Campaign-specific](administration/external-account.md)
+    + [External database](administration/external-account-database.md)
+    + [Hadoop](administration/external-hadoop.md)
+    + [Transfer Data](administration/transfer-external-account.md)
   + [Manage enumerations](administration/enumerations.md)
   + [Work with JavaScript codes](administration/javascript-codes.md)
 + [Campaign v8 (console) documentation >](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)

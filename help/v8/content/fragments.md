@@ -24,7 +24,7 @@ Two types of fragments are available:
 
 * **Expression fragments** are pre-defined expressions available from a dedicated entry in the expression editor. Campaign includes a set of pre-defined content blocks that contain specific renderings you can insert into your deliveries. For example, you can add a logo, a greeting message, or a link to the mirror page of the message. You can also create your own expression fragments to suit your needs.
 
-* **Visual fragments** are pre-defined visual blocks that you can reuse across multiple [email deliveries](../email/get-started-email-designer.md), or in [content templates](../email/use-email-templates.md).
+* **Visual fragments** are pre-defined visual blocks that you can reuse across multiple [email deliveries](../email/get-started-email-designer.md), or in [content templates](../content/use-email-templates.md).
 
     >[!AVAILABILITY]
     >

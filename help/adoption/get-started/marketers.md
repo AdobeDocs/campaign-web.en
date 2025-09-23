@@ -216,7 +216,7 @@ In Campaign v8, the detailed steps for creating, testing, and sending an email d
     
     A content fragment is a reusable component that can be referenced in one or more messages. Learn more about [Content fragments](../../v8/content/fragments.md) to simplify the creation of your email delivery.
 
-    For an accelerated and improved design process, you can create standalone templates to easily reuse custom content across Adobe Campaign. See [Create email templates](../../v8/email/create-email-templates.md)
+    For an accelerated and improved design process, you can create standalone templates to easily reuse custom content across Adobe Campaign. See [Create email templates](../../v8/content/create-email-templates.md)
 
 1. **Preview and test**
 

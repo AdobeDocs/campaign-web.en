@@ -50,7 +50,8 @@ Follow these steps to configure the **Build audience** activity:
 To create your own query, follow these steps:
 
 1. Select **Create your own (query)**.
-1. Choose the **Targeting dimension**. The targeting dimension lets you define the population targeted by the operation, such as recipients, contract beneficiaries, operators, or subscribers. By default, the target is selected from the recipients. [Learn more about targeting dimensions](../../audience/about-recipients.md#targeting-dimensions)
+1. Choose the **Targeting dimension**. The targeting dimension lets you define the population targeted by the operation, such as recipients, contract beneficiaries, operators, or subscribers. By default, the target is selected from the recipients. [Learn more about targeting dimensions](../../audience/targeting-dimensions.md#targeting)
+1. Choose the **Filtering dimension** by clicking the icon next to the targeting dimension. The filtering dimension allows you to apply filters to the targeted population by referencing related criteria without changing the main targeting dimension. [Learn more about targeting dimensions](../../audience/targeting-dimensions.md#filtering)
 1. Click **Continue**.
 1. Use the query modeler to define your query, the same way you create an audience when designing a new email. [Learn how to work with the query modeler](../../query/query-modeler-overview.md)
 

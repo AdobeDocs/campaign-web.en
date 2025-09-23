@@ -13,7 +13,7 @@ exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 
 Learn how to create your first targeted email. In this use case, you schedule the sending of an email to Silver and Gold loyalty members on a specific date.
 
-Based on a predefined [design template](../email/create-email-templates.md), the email also features personalized content based on customer profile attributes.
+Based on a predefined [design template](../content/create-email-templates.md), the email also features personalized content based on customer profile attributes.
 
 ➡️ [Discover this feature in video](#video) 
 
@@ -111,7 +111,7 @@ To start creating your email content, follow the steps below. In this use case, 
 
 1. To design the content of the email, click the **[!UICONTROL Edit email body]** button.
 
-    Choose the method to use to create your email content. In this example, use a [predefined content template](create-email-templates.md).
+    Choose the method to use to create your email content. In this example, use a [predefined content template](../content/create-email-templates.md).
 
     ![Screenshot showing the selection of a predefined content template](assets/select-template.png){zoomable="yes"}
 
