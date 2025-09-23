@@ -1,6 +1,7 @@
 ---
 title: Manage external account
 description: Learn how to configure external accounts
+exl-id: 24e70106-3312-4138-bf2d-ffad74e2962d
 ---
 # Campaign-specific external accounts {#external-account}
 

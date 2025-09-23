@@ -1,6 +1,7 @@
 ---
 title: Manage external account
 description: Learn how to configure external accounts
+exl-id: 6daa35c2-21cf-4121-ba57-3749e1ed9c2d
 ---
 # Transfer Data external accounts {#transfer-external-account}
 

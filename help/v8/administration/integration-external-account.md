@@ -1,6 +1,7 @@
 ---
 title: Manage external account
 description: Learn how to configure external accounts
+exl-id: 99648377-112b-428a-8faf-5268d730f19a
 ---
 # Adobe Solution Integration external accounts {#integration-external-account}
 

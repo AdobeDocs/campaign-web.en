@@ -1,6 +1,7 @@
 ---
 title: Manage external account
 description: Learn how to configure Hadoop external accounts
+exl-id: d2dc4d88-a97d-48bb-b668-ed970e138dfd
 ---
 # Hadoop external account {#external-hadoop}
 

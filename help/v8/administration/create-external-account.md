@@ -1,6 +1,7 @@
 ---
 title: Manage external account
 description: Learn how to configure external accounts
+exl-id: 52b4ec99-4f55-4e0b-8a54-b25058d97b02
 ---
 # Create an external account {#create-external-account}
 

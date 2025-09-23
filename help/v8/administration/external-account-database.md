@@ -1,6 +1,7 @@
 ---
 title: Manage external account
 description: Learn how to configure external accounts
+exl-id: 8f41312e-422f-4be1-b874-1b143c500912
 ---
 # External database accounts {#external-accounts}
 

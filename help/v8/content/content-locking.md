@@ -7,7 +7,7 @@ feature: Templates
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-
+exl-id: 2835c114-0878-4c41-9071-165d71840941
 ---
 # Lock content in email templates {#lock-content-email-templates}
 
