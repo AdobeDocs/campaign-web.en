@@ -46,7 +46,7 @@ Get a glimpse of the newest enhancements in Adobe Campaign Web product and docum
 >[!BEGINTABS]
 
 
->[!TAB July '25 release]
+>[!TAB September '25 release]
 
 New features and enhancements are now available in the Campaign Web user interface. To take advantage of these improvements, make sure to upgrade your Campaign environment to version 8.8. For a complete overview, check out the release notes.
 
