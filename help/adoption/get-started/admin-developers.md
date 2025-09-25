@@ -194,6 +194,14 @@ Each event can trigger a personalized message. For this to happen, you need to c
 Using a workflow template is a best practice if you need to regularly import files with the same structure. See the [Import template documentation](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow){target="_blank"}
 -->
 
+## Privacy and consent
+
+When moving from Campaign Standard to Campaign v8, it is important to review how privacy regulations affect your data operations. Depending on your business and the jurisdictions in which you operate, customers may have the legal right to access the data you hold about them, or request its deletion.
+
+In Campaign v8, all privacy requests must be managed through the **Adobe Privacy Service** integration. Learn more in [Campaign v8 (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/privacy/privacy).
+
+Keep in mind that your Campaign Standard environment remains active for a period after the transition. During this time, privacy requests may arrive in both systems. To ensure compliance and avoid gaps, coordinate with your Adobe Transition Manager to properly handle requests across both environments.
+
 ## Subscription services {#acs-gs-admin-sub}
 
 Like in Campaign Standard, as an administrator, you can create subscription services and marketers can send messages to their subscribers. Key concepts and implementations steps are aligned with Campaign Standard. You can find useful links and video below.

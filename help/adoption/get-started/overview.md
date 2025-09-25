@@ -136,8 +136,6 @@ For you to transition smoothly to Campaign v8, key Campaign Standard capabilitie
 
 Most concepts are similar between Adobe Campaign v8 and Adobe Campaign Standard. However, there are a few differences as described below. 
 
-### Terminology changes {#terminology-changes}
-
 Below are some terminology differences between Campaign Standard and the Campaign v8. 
 
 * Custom resources are **Schemas**
@@ -154,6 +152,7 @@ Also, as an existing Campaign user, note that some concepts have been renamed to
 * Delivery analysis is now the **delivery preparation**. When you need to launch the message preparation, click the **Prepare** button. [Learn more](../../v8/monitor/prepare-send.md).
 * Email Preview is now available throught the **Simulate content** button. [Learn more](../../v8/preview-test/preview-test.md)
 * Lists are now **Audiences**. [Learn more](../../v8/audience/gs-audiences-recipients.md).
+
 
 ## New user experience
 
