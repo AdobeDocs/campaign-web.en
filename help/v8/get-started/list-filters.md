@@ -36,7 +36,7 @@ For numeric or date columns, the **Up** arrow indicates that the list is sorted 
 
 ## Filters {#list-built-in-filters}
 
-To find items quicker, use the search bar or built-in and custom filters to adapt the list based on contextual criteria.
+To find items quicker, use the search bar or built-in and custom filters to adapt the list based on contextual criteria. 
 
 [The screenshot shows the filter options available for refining the list view.](assets/filter.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 

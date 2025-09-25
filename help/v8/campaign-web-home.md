@@ -48,7 +48,7 @@ Get a glimpse of the newest enhancements in Adobe Campaign Web product and docum
 
 >[!TAB September '25 release]
 
-New features and enhancements are now available in the Campaign Web user interface. To take advantage of these improvements, make sure to upgrade your Campaign environment to version 8.8. For a complete overview, check out the release notes.
+September release is live. New features and enhancements are now available in the Campaign Web user interface, including Custom channel for API deliveries, External account authoring and Email Content Locking. For a complete overview, check out the release notes.
 
 [![Learn more button](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
