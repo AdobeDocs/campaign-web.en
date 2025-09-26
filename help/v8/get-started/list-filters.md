@@ -12,21 +12,21 @@ Most links from the left navigation menu display lists of objects, such as the l
 
 The lists are displayed in columns. You can display additional information by changing the column configuration. To do this, click the **Configure column for a custom layout** icon in the top right corner of the list.
 
-[The screenshot shows the Configure column icon used to customize the layout of list columns.](assets/config-columns.png){zoomable="yes"}{width="70%" align="left"}
+![The screenshot shows the Configure column icon used to customize the layout of list columns.](assets/config-columns.png){zoomable="yes"}{width="70%" align="left"}
 
 In the **Configure columns** screen, add or remove columns, and change the order in which they are displayed.
 
 You can change the order of your list either by **drag and drop**, or by using **up and down arrows** as shown below:
 
-[The screenshot demonstrates how to reorder list columns using drag-and-drop or arrow buttons.](assets/list-reorder.png){zoomable="yes"}{width="70%" align="left"}
+![The screenshot demonstrates how to reorder list columns using drag-and-drop or arrow buttons.](assets/list-reorder.png){zoomable="yes"}{width="70%" align="left"}
 
 For example, for these settings:
 
-[The screenshot displays an example of column settings in the Configure columns screen.](assets/columns.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+![The screenshot displays an example of column settings in the Configure columns screen.](assets/columns.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 The list shows the following columns:
 
-[The screenshot shows the resulting list with columns configured as per the example settings.](assets/column-sample.png){zoomable="yes"}{width="70%" align="left"}
+![The screenshot shows the resulting list with columns configured as per the example settings.](assets/column-sample.png){zoomable="yes"}{width="70%" align="left"}
 
 ## Sort data {#sort-lists}
 
@@ -38,7 +38,7 @@ For numeric or date columns, the **Up** arrow indicates that the list is sorted 
 
 To find items quicker, use the search bar or built-in and custom filters to adapt the list based on contextual criteria. 
 
-[The screenshot shows the filter options available for refining the list view.](assets/filter.png){zoomable="yes"}{width="70%" align="left"}
+![The screenshot shows the filter options available for refining the list view.](assets/filter.png){zoomable="yes"}{width="70%" align="left"}
 
 Detailed information on how to use filters and create your own custom filters is available in [this section](../query/filter.md).
 
