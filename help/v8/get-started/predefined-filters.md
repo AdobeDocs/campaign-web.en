@@ -49,7 +49,7 @@ Save a custom filter from the [query modeler](../query/query-modeler-overview.md
 
 1. Select **Create a new filter**, and enter a name and a description for that filter.
     
-    ![Save filter details interface](assets/predefined-filters-save-filter.png){zoomable="yes"}
+    ![Save filter details interface](assets/predefined-filters-save-filter.png){zoomable="yes"} 
 
     You can save the filter as a favorite if needed. Learn more in [this section](#fav-filter).
 
