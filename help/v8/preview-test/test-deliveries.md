@@ -11,6 +11,11 @@ exl-id: b2677579-c95d-443d-b207-466af364c208
 >title="Preview mode"
 >abstract="Preview and test the message by including the test population to the main target."
 
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_additional_proof_target"
+>title="Additional proof target"
+>abstract="Additional proof target."
+
 Once your message content is defined, you can preview and test it by sending proofs to test profiles. If you inserted personalized content, you can check how this content is displayed in the message, using test profile data.
 
 To detect possible errors in the message content or personalization settings, send proofs to test profiles before sending them to the target audience. A proof should be sent each time a change is made, to validate the latest content. Sending proofs is an important step in validating your campaign and identifying potential issues. The proof recipients can check various elements such as links, opt-out links, images, or mirror pages, as well as detect any errors in the rendering, content, personalization settings, and delivery configuration.
