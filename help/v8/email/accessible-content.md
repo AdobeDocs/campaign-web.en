@@ -19,8 +19,6 @@ The [!DNL Adobe Campaign] [Email Designer](create-email-content.md), which enabl
 In line with this, the best practices for designing accessible content with [!DNL Adobe Campaign] are listed below.
 
 This page is about making your content accessible to all your recipients, to make sure that people with disabilities can read, understand, and interact with your emails and landing pages designed with [!DNL Adobe Campaign].
-
-<!--On the other hand, the accessibility of the [!DNL Adobe Campaign] interface itself is detailed in this section.-->
   
 ## Ensure text readability {#text-readability}
 
