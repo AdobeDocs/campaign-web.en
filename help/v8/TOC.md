@@ -71,8 +71,10 @@ breadcrumb-title: Campaign Web User Interface
     + [Create a transactional message](transactional-messaging/create-transactional.md)
     + [Validate your transactional message](transactional-messaging/validate-transactional.md)
     + [Monitor transactional messages](transactional-messaging/monitor-transactional.md)
+    + [Enrich transactional messages with Profile Data](transactional-messaging/profile-enrichment.md)
   + [Send external deliveries](msg/send-external-deliveries.md)
   + [Add offers to your messages](msg/offers.md)
+  + [Configure a multilingual delivery](msg/multilingual.md)
   + [Send messages to your subscribers](msg/send-to-subscribers.md)
   + [Configure delivery settings](advanced-settings/delivery-settings.md)
   + Preview and test your delivery {#preview-test}
