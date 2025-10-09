@@ -14,7 +14,7 @@ In Campaign Web UI, you can set up your deliveries as multilingual, which allows
 
 In a multilingual delivery, the language management is based on variants. Each variant represents one language. During delivery creation, you can add multiple language variants to match the number of required languages in your message. You can also change the default language at any time after adding these variants.
 
-The multilingual capability is currently available for email, push notifications and transactional messages. 
+The multilingual capability is currently available for email, push notifications, transactional messages and SMS. 
 
 >[!AVAILABILITY]
 >
