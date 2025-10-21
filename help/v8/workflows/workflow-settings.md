@@ -95,4 +95,9 @@ When the workflow is [associated with a campaign](create-workflow.md), it is dis
 
 ## Initialization script {#initialization-script}
 
+>[!CONTEXTUALHELP]
+>id="acw_workflow_settings_initialization"
+>title="Initialization script"
+>abstract="This section lets you define JavaScript code that runs at the start of the workflow. It can be used to initialize variables, set parameters, or prepare data before any workflow activities are executed."
+
 The **Initialization script** lets you initialize variables or modify activity properties. Click the **Edit code** button and type the snippet of code to execute. The script is called when the workflow executes. Refer to the section related to [event variables](../workflows/event-variables.md).

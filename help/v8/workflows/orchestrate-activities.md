@@ -100,9 +100,14 @@ All activities allow you to manage their execution options. Select an activity a
 
 ![Execution options panel](assets/workflow-execution-options.png){zoomable="yes"}{width="70%"}
 
-### Properties
+### Properties {#properties}
 
-The **Execution** field allows you to define the action to carry out when the task starts.
+>[!CONTEXTUALHELP]
+>id="acw_workflow_activity_execution_options_properties"
+>title="Activity properties"
+>abstract="This section lets you define how and where an activity runs. You can set the execution action, limit run duration, choose a time zone, assign machine affinity, manage asynchronous behavior, and specify what happens in case of an error."
+
+The **Execution** field allows you to define the action to carry out when the task starts. 
 
 The **Maximum execution duration** field allows you to specify a duration such as "30s" or "1h." If the activity is not finished after the specified duration, an alert is triggered. This has no impact on how the workflow functions.
 
@@ -112,11 +117,21 @@ The **Affinity** field allows you to force a workflow or a workflow activity to 
 
 The **Behavior** field allows you to define the procedure to follow if asynchronous tasks are used.
 
-### Error management
+### Error management {#execution-options}
 
-The **In case of error** field allows you to specify the action to carry out if the activity encounters an error.
+>[!CONTEXTUALHELP]
+>id="acw_workflow_activity_execution_options_error"
+>title="Initialization script"
+>abstract="This section lets you define what happens if an activity fails. You can choose actions such as stopping the workflow, moving to the next activity, or triggering a custom error-handling process."
 
-### Initialization script
+The **In case of error** field allows you to specify the action to carry out if the activity encounters an error. See this [section](workflow-settings.md#error-settings).
+
+### Initialization script {#initialization-options}
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_activity_execution_options_initialization"
+>title="Initialization script"
+>abstract="This section lets you add JavaScript that runs when the activity starts. Use it to initialize variables, set parameters, or prepare data specific to that activity’s execution."
 
 The **Initialization script** lets you initialize variables or modify activity properties. Click the **Edit code** button and type the snippet of code to execute. The script is called when the activity executes. Refer to the section related to [event variables](../workflows/event-variables.md).
 
