@@ -33,3 +33,13 @@ You can add new entities of your organization in Campaign, or create a new type 
 1. **Create a delivery template** - Once the new brand is available, best practice is to create at least one new blank delivery template which reference this new brand. [Learn more](branding-assign.md).
 
 1. **Check deliverability guidelines** - Before starting using the new domain, the strategy should be discussed with Adobe Deliverability team. They will help to define the best practices, if a new affinity should be created to split the IPs between domains for example, and/or if a ramp up plan should be defined.
+
+## Compatibility note {#compatibility-note}
+
+The new centralized branding model is not compatible with the [legacy branding](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.htmml#configuring-multibranding){target="_blank"} configuration which was previously used in the Client Console. 
+
+In the legacy approach, customers implemented branding by extending the extAccount form and using the **Branding** tab.
+
+   ![](assets/branding-legacy.png)
+
+If your existing environment uses this legacy configuration, it cannot be migrated directly to the new centralized branding model. A full reimplementation of branding settings is required to adopt the new system.

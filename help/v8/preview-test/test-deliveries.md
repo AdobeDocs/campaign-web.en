@@ -103,7 +103,7 @@ To substitute profile data from the main target, follow the steps below:
 
     >[!CAUTION]
     >
-    >If you have not selected an [audience](../audience/about-recipients.md) for your delivery, the **[!UICONTROL Substitute from main target]** option will be greyed out and you will not be able to select substitution profiles.
+    >If you have not selected an [audience](../audience/about-recipients.md) for your delivery, the **[!UICONTROL Substitute from main target]** option will be greyed out and you will not be able to select substitution profiles. Additionally, even if a target audience is selected, for recurring type deliveries, this option will still be greyed out as the main delivery is a template.
 
 1. Click the **[!UICONTROL Add address]** button and specify the email address or phone number that will receive the proof.
 

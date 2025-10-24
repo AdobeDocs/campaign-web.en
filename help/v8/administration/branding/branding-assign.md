@@ -120,3 +120,27 @@ To create a new standalone delivery, follow the steps below.
 1. Further personalize your deliveries. For more information about creating an email refer to the [Design and send emails](../../email/create-email.md) section.
 
 >[!ENDTABS]
+
+## Check branding associated with transactional messages {#check-branding-transactional}
+
+>[!IMPORTANT]
+>
+>This section applies only to Transactional messaging (Message Center).
+>
+>While transactional capabilities are available in the Campaign Web UI, the verification steps below must be performed in the Campaign v8 Client Console (control instance).
+
+Transactional deliveries synchronized from Real-Time (RT) execution instances to the control instance do not replicate properties such as routing or branding. These synchronized deliveries are generated weekly from the same template to bring back delivery indicators in the control instance.
+
+Because of this, the control instance displays the default brand. The actual brand and routing settings used during message execution are defined in the transactional message template on the control instance.
+
+To verify which brand was used for a transactional message:
+
+1. Identify the internal name of the transactional template published to Real-Time (for example, `TransactionalMessaging4768`).
+
+    ![](assets/branding-transactional.png)
+
+1. In the control instance, search for this internal name under **Transactional message templates**.
+
+    ![](assets/branding-transactional2.png)
+
+1. Open the template to view the brand and other related properties.

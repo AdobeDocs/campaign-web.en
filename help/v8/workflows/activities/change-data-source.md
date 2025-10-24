@@ -23,6 +23,10 @@ Detailed information on Campaign architecture is available in [Campaign v8 (clie
 >
 >Please note that the **[!UICONTROL Change Dimension]** and **[!UICONTROL Change Data source]** activities should not be added in one row. If you need to use both activities consecutively, include an **[!UICONTROL Enrichment]** activity in between them. This ensures proper execution and prevents potential conflicts or errors.
 
+>[!NOTE]
+>
+>The **Change Data Source** activity can process a maximum of one million records per execution. Contact your Adobe representative if you need to increase this limit.
+
 <!--
 
 Let's say you want to send VIP customers a unique offer code that they can redeem on your online store. To do this, you need to:
