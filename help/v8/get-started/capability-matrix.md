@@ -206,3 +206,9 @@ Browse the provided links to the Campaign v8 (client console) documentation and 
 * [Workflow heat map](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/heatmap.html){target="_blank"}
 * [Performance monitoring](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html){target="_blank"}
 * [Deliverability monitoring](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/monitoring-deliverability.html){target="_blank"}
+
+## Time zone management {#timezone-management}
+
+Adobe Campaign Web UI displays all date and time values based on the **local time zone of the user's web browser**. This behavior may result in differences when comparing timestamps between the Web UI and the Client Console.
+
+Refer to this [page](../administration/timezone-management.md) to learn more about the differences between the **Web UI**, **Client Console**, and **workflow execution** time zones.
