@@ -39,7 +39,7 @@ Typologies are accessible via the **[!UICONTROL Administration]** > **[!UICONTRO
 The main steps to apply typologies to your messages are as follows:
 
 1. [Create a typology](#typology).
-1. [Create typology rules](#typology-rules).
+1. [Create typology rules](#typology-rule).
 1. [Reference typology rules in the typology](#add-rules).
 1. [Apply the typology to a message](#message).
 
@@ -98,7 +98,7 @@ To create a typology rule, follow these steps:
 
 1. Click the **[!UICONTROL Create typology rule]** button, then follow the steps detailed below.
 
-   [Create typology rule](assets/business-rules-create-typo.png)
+   ![Create typology rule](assets/business-rules-create-typo.png)
 
 ### Define the rule's main properties {#properties}
 
@@ -112,7 +112,7 @@ To create a typology rule, follow these steps:
 >title="Code"
 >abstract="**Control** rules verify message quality and validity pre-send, such as character display, SMS length, address format, or URL shortening. These rules are created using JavaScript code."
 
-These are the main properties when creating a new typology rule.
+These are the main properties to define when creating a new typology rule:
 
 >[!BEGINTABS]
 
@@ -120,11 +120,11 @@ These are the main properties when creating a new typology rule.
 
 1. Enter a **[!UICONTROL Label]** for the rule.
    
-   [Create control rule](assets/business-rules-create-typo1.png)
+   ![Create control rule](assets/business-rules-create-typo1.png)
 
-1. Expand the **[!UICONTROL Additional options]** section to access advanced settings, such as the rule's internal name, folder storage, and description. You can also specify when the rule should apply and its alert level. Expand the sections below for more information.
+1. The **[!UICONTROL Additional options]** section allows you to access advanced settings, such as the rule's internal name, folder storage, and description. You can also specify when the rule should apply and its alert level. Expand the sections below for more information.
 
-    +++Phases:
+    +++Phases
 
     Specify at which point of the delivery life cycle the rule will be applied. Select the value in the **[!UICONTROL Phase]** drop-down list:
 
@@ -138,17 +138,17 @@ These are the main properties when creating a new typology rule.
 
     +++
 
-    +++Level:
+    +++Level
 
     Specify the alert level for the rule:
 
-    * **[!UICONTROL Error]**: Stop the message preparation.
+    * **[!UICONTROL Error]**: Stop the message preparation
 
-    * **[!UICONTROL Warning]**: Display a warning in the preparation logs.
+    * **[!UICONTROL Warning]**: Display a warning in the preparation logs
 
-    * **[!UICONTROL Info]**: Display information in the preparation logs.
+    * **[!UICONTROL Info]**: Display information in the preparation logs
 
-    * **[!UICONTROL Verbose]**: Display information in the server logs.
+    * **[!UICONTROL Verbose]**: Display information in the server logs
 
     +++
 
@@ -163,7 +163,7 @@ These are the main properties when creating a new typology rule.
 
 1. Enter a **[!UICONTROL Label]** for the rule.
 
-   [Create filtering rule](assets/business-rules-create-typo2.png)
+   ![Create filtering rule](assets/business-rules-create-typo2.png)
 
 1. Expand the **[!UICONTROL Additional options]** section to access advanced settings, such as the rule's internal name, folder storage, and description.
 
@@ -179,7 +179,7 @@ These are the main properties when creating a new typology rule.
 
 Now, let's define the additional parameters. In this screen, you can still change the main properties previously defined. 
 
-[Create filtering rule additional](assets/business-rules-create-typo2.png)
+![Create filtering rule additional](assets/business-rules-create-typo3.png)
 
 1. Toggle off the **[!UICONTROL Active]** option if you do not want the rule to be active immediately after its creation.
 

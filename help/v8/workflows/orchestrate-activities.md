@@ -105,7 +105,7 @@ All activities allow you to manage their execution options. Select an activity a
 >[!CONTEXTUALHELP]
 >id="acw_workflow_activity_execution_options_properties"
 >title="Activity properties"
->abstract="This section lets you define how and where an activity runs. You can set the execution action, limit run duration, choose a time zone, assign machine affinity, manage asynchronous behavior, and specify what happens in case of an error."
+>abstract="This section lets you configure execution settings for an activity, including the action to perform, maximum duration, time zone, machine affinity, and asynchronous behavior."
 
 The **Execution** field allows you to define the action to carry out when the task starts. 
 
