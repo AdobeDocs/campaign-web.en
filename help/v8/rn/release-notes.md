@@ -16,7 +16,7 @@ Changes and improvements available with previous releases are listed in the [202
 
 ## October '25 release {#25-10-updates} 
 
-_Oct 28, 2025_
+_Nov 3, 2025_
 
 <table>
 <thead>
