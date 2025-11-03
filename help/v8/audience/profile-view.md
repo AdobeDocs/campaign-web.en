@@ -22,6 +22,10 @@ Information on the profile is organized as follows:
 
     ![Screenshot showing the subscriptions tab, listing the services the profile is subscribed to.](assets/profile-subscriptions.png){zoomable="yes"}
 
+* You can display custom tabs, such as purchases, by defining collection links in the screen definition of the Recipients schema. [Learn more about collection links](../administration/schemas.md#collection-lists)
+
+    ![Screenshot showing custom tab](assets/schemas-collection4.png){zoomable="yes"}
+
 * In addition, the **[!UICONTROL Logs]** button, located in the upper-right corner of the screen, allows you to view the history of the profile's interactions through sending, exclusion, and tracking logs. [Learn more about delivery logs](../monitor/delivery-logs.md)
 
     From these logs, you can also review the offers presented to the selected profile in the **[!UICONTROL Propositions]** tab. [Learn more about offers](../msg/offers.md)

@@ -30,11 +30,13 @@ To open a delivery, click its name from the list. The delivery opens, allowing y
 
 ![Delivery details screen showing parameters and reports](assets/delivery-details.png)
 
->[!NOTE]
->
->If you open a delivery created in the client console, the **[!UICONTROL Additional target]** section may display for the audience. This indicates that multiple targets have been configured for this delivery. These parameters can be modified in the console only.
->
->![Warning message about additional target configuration](assets/target-warning-audience.png){zoomable="yes"}
+If you open a delivery created in the client console, two new sections may display for the audience. These parameters can be modified in the console only.
+
+* **[!UICONTROL Additional target]**: indicates that multiple targets have been configured for this delivery.
+
+* **[!UICONTROL Additional proof target]**: indicates that a dynamic condition has been defined for proof targets in this delivery. 
+
+![Warning message about additional target configuration](assets/target-warning-audience.png){zoomable="yes"}
 
 ## Duplicate a delivery {#delivery-duplicate}
 

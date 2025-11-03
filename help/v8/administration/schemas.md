@@ -57,7 +57,9 @@ The **[!UICONTROL Data]** tab provides information on the schema data.
 
 ![Schema data tab showing data structure and attributes](assets/schemas-data.png)
 
-## Edit custom fields {#fields}
+## Configure the screen definition {#screen-definition}
+
+### Edit custom fields {#fields}
 
 Custom fields are additional attributes added to out-of-the-box schemas through the Adobe Campaign console. They allow you to customize schemas by including new attributes to suit your organization's needs. 
 
@@ -68,3 +70,27 @@ Custom fields can be displayed in various screens, such as profile details in th
 Click **[!UICONTROL Preview]** to display the custom fields in a sample screen.
 
 For detailed information on how to edit custom fields in a schema, refer to this section: [Configure custom fields](../administration/custom-fields.md).
+
+### Add collection lists {#collection-lists}
+
+This **List of custom lists** section allows you to define collection links, such as purchases. The related data is then displayed in profile screens through a dedicated tab.
+
+>[!NOTE]
+>
+>Currently, this capability is only available for the Recipients schema. 
+
+1. To add a collection list to the interface, click the ellipsis button and choose **Select custom lists**.
+
+   ![Collection lists creation](assets/schemas-collection1.png)
+
+1. Select one of the available custom lists, for example purchases, then click **Confirm**.
+
+   ![Collection lists creation](assets/schemas-collection2.png)
+
+1. Browse to the **Profiles** menu and filter profiles that have made purchases. 
+
+   ![Collection lists creation](assets/schemas-collection3.png)
+
+1. Click on a profile. You notice that the new tab is displayed. You can add more columns if needed. 
+
+   ![Collection lists creation](assets/schemas-collection4.png)

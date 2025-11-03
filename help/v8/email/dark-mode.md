@@ -6,8 +6,6 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: dark mode, email, color, editor
-hide: yes
-hidefromtoc: yes
 
 ---
 # Manage dark mode content {#dark-mode}

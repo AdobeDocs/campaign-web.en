@@ -120,6 +120,7 @@ breadcrumb-title: Campaign Web User Interface
       + [Define a style for links](email/styling-links.md)
       + [Add inline styling attributes](email/inline-styling.md)
       + [Add a custom CSS](email/custom-css.md)
+      + [Manage dark mode content](email/dark-mode.md)
     + [Create accessible content](email/accessible-content.md)
   + AI Assistant {#ai-assistant}
     + [Work with AI Assistant](email/generative-gs.md)
@@ -261,6 +262,7 @@ breadcrumb-title: Campaign Web User Interface
   + [Work with other Adobe solutions](integrations/integration.md)
   + [Manage assets with Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
   + [Manage templates with Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
+  + [Work with GenStudio for Performance Marketing](integrations/genstudio.md)
 + Configuration {#conf}
   + Branding {#branding}
     + [About Branding](administration/branding/branding-gs.md)
@@ -279,6 +281,7 @@ breadcrumb-title: Campaign Web User Interface
     + [External database](administration/external-account-database.md)
     + [Hadoop](administration/external-hadoop.md)
     + [Transfer Data](administration/transfer-external-account.md)
+    + [CRM external account](administration/external-crm.md)
   + [Manage enumerations](administration/enumerations.md)
   + [Work with JavaScript codes](administration/javascript-codes.md)
 + [Campaign v8 (console) documentation >](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)

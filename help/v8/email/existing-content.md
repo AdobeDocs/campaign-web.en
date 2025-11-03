@@ -40,9 +40,9 @@ To import a file containing HTML content, follow the steps below.
 
     ![Screenshot showing the HTML converter tab and Convert button.](assets/html-imported-2.png){zoomable="yes"}
 
->[!NOTE]
->
->Using a `<table>` tag as the first layer in an HTML file can cause style loss, including background and width settings in the top layer tag.
+    >[!NOTE]
+    >
+    >Using a `<table>` tag as the first layer in an HTML file can cause style loss, including background and width settings in the top layer tag.
 
 1. Personalize your imported file as needed with the Email Designer functionalities. [Learn more](content-components.md)
 
