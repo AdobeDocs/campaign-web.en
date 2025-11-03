@@ -3,7 +3,6 @@ title: Work with GenStudio for Performance Marketing into Adobe Campaign
 description: Learn to work with GenStudio for Performance Marketing in Adobe Campaign
 feature: Email Design
 topic: Content Management, Artificial Intelligence
-badge: label="Limited availability" type="Informative"
 role: User
 level: Beginner, Intermediate
 exl-id: c22a44a8-e4e2-453a-9ca2-b80f7c0edc19
