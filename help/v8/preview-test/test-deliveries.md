@@ -14,7 +14,7 @@ exl-id: b2677579-c95d-443d-b207-466af364c208
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_additional_proof_target"
 >title="Additional proof target"
->abstract="Additional proof target."
+>abstract="These rules can only be changed in the client console."
 
 Once your message content is defined, you can preview and test it by sending proofs to test profiles. If you inserted personalized content, you can check how this content is displayed in the message, using test profile data.
 
