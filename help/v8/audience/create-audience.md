@@ -17,6 +17,8 @@ exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
 >title="Audience settings"
 >abstract="Enter the name of the audience and additional options, then click the **Create Audience** button."-->
 
+##  About audience creation
+
 Campaign Web allows you to create new audiences in a visual workflow canvas. Beyond starting from scratch to create a simple audience, you can also leverage workflow activities to refine your audience. For instance, you can combine multiple audiences into a single one, enrich your audience with external attributes, or divide it into multiple audiences based on rules of your choice.
 
 Once you craft your workflow, the resulting audiences are automatically stored within the Campaign database alongside your existing ones. These audiences can then be targeted in workflows or standalone deliveries.
@@ -24,6 +26,14 @@ Once you craft your workflow, the resulting audiences are automatically stored w
 The **[!UICONTROL Origin]** column indicates audiences' origins: **[!UICONTROL Adobe Campaign]** audiences are created in the Adobe Campaign v8 console or Web User Interface, while **[!UICONTROL Adobe Experience Platform:]** audiences are created within Adobe Experience Platform and integrated into Campaign using the Adobe Sources and Destinations integration.
 
 ➡️ [Discover this feature in video](#video) 
+
+## Permissions for custom operator groups
+
+When creating a new audience, a workflow is automatically created and stored in the **[!UICONTROL Profiles and Targets]** / **[!UICONTROL Jobs]** / **[!UICONTROL Targeting workflows]** folder.
+
+If you are assigned to a custom operator group and encounter a "You do not have rights" error when creating audiences, you need to ensure your operator group has the necessary permissions to this folder.
+
+To resolve this, an administrator must add your custom operator group to the folder security section in the Campaign console. [Learn how to manage permissions on folders](../get-started/permissions.md#folder-permissions)
 
 ## Create your first audience {#create}
 
