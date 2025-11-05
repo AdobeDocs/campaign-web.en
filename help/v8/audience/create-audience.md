@@ -17,7 +17,7 @@ exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
 >title="Audience settings"
 >abstract="Enter the name of the audience and additional options, then click the **Create Audience** button."-->
 
-##  About audience creation
+## About audience creation
 
 Campaign Web allows you to create new audiences in a visual workflow canvas. Beyond starting from scratch to create a simple audience, you can also leverage workflow activities to refine your audience. For instance, you can combine multiple audiences into a single one, enrich your audience with external attributes, or divide it into multiple audiences based on rules of your choice.
 
