@@ -82,7 +82,7 @@ _Nov 3, 2025_
 <tr>
 <td>
 <p>The Email Designer now offers the ability to switch to dark mode view, where you can additionally define specific custom settings. Note that the final rendering depends on the recipient's email client, and not all email clients support dark mode.</p>
-<p>For more information, refer to the <a href="../email/accessible-content.md#dark-mode">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../email/dark-mode.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
