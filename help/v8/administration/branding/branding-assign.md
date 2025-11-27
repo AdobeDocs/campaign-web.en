@@ -119,7 +119,10 @@ To create a new standalone delivery, follow the steps below.
 
 1. Further personalize your deliveries. For more information about creating an email refer to the [Design and send emails](../../email/create-email.md) section.
 
+1. You can also add Brand information with the personalization fields. Navigate to **[!UICONTROL Branding]** and select the brand-related personalization blocks you want to insert (such as brand name, logo URL, website URL, sender information, etc.).
+
 >[!ENDTABS]
+
 
 ## Check branding associated with transactional messages {#check-branding-transactional}
 
