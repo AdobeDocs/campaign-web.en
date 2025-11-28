@@ -20,6 +20,11 @@ exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 >title="Create an alerting criterion"
 >abstract="You can create your own delivery filters from the Customer Management > Predefined filters menu."
 
+>[!CONTEXTUALHELP]
+>id="acw_predefined-filters-select"
+>title="Save filter"
+>abstract="Select an existing predefined filter. Predefined filters are custom filters created and saved for future use. They act as shortcuts during filtering operations with the query modeler. For example, they can be used when filtering a list of data or creating the audience of a delivery."
+
 Predefined filters are custom filters created and saved for future use. They act as shortcuts during filtering operations with the query modeler. For example, they can be used when filtering a list of data or creating the audience of a delivery.
 
 You can use existing built-in filters to access a specific subset of your data or create your own predefined filters and save them.
@@ -37,6 +42,11 @@ You can use existing built-in filters to access a specific subset of your data o
 >id="acw_predefined-filters-rules"
 >title="Create the predefined filter rules"
 >abstract="To define the filtering conditions of your custom filter, click the 'Create rule' button."
+
+>[!CONTEXTUALHELP]
+>id="acw_predefined-filters-save"
+>title="Save filter"
+>abstract="This screen allows you to save your rule as a predefined filter. You can create either a new predefined filter, or overwrite an existing filter. To save the filter as a favorite, toggle on the **[!UICONTROL Favorite filter]** option. You can also enable the **[!UICONTROL Shared filter]** option to make the filter accessible to other users."
 
 ### Create a filter from the query modeler {#create-from-rule-builder}
 
