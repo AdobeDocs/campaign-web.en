@@ -99,7 +99,7 @@ As a Campaign Standard user transitioning to Adobe Campaign v8, the following fe
 
   ![](../../v8/email/assets/full-email-2.png){zoomable="yes"}
 
-  It provides variant of email templates and generates and re-generates images. Learn more about AI Assistant in [this section](../../v8/email/generative-content.md). Adobe Campaign v8 has AI assistant available for [Email](../../v8/email/generative-content.md), [SMS](../../v8/email/generative-sms.md), and [Push](../../v8/email/generative-push.md).
+  It provides variant of email templates and generates and re-generates images. Learn more about AI Assistant in [this section](../../v8/content/generative-full-content.md). Adobe Campaign v8 has AI assistant available for [Email](../../v8/content/generative-full-content.md), [SMS](../../v8/content/generative-text.md), and [Push](../../v8/content/generative-full-content.md).
 
 * **Upgraded SMS infrastructure - SMS v2.0**
 

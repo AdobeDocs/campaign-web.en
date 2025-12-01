@@ -72,7 +72,7 @@ Say goodbye to the hassle of manual content creation and embrace a new era of st
 
 Redefine content delivery with our advanced WYSIWYG drag-and-drop editor, designed for simplicity and efficiency. Featuring seamless AEM integration, dynamic content capabilities, and the game-changing AI Assistant, this all-in-one tool makes delivery creation intuitive, efficient, and highly personalized.
 
-Harness the power of AI Assistant advanced algorithms to create engaging, tailored content that drives results. Elevate your open rates, click-throughs, and conversions with intelligent, AI-driven content generation. Learn more in [this section](../email/generative-gs.md).
+Harness the power of AI Assistant advanced algorithms to create engaging, tailored content that drives results. Elevate your open rates, click-throughs, and conversions with intelligent, AI-driven content generation. Learn more in [this section](../content/generative-gs.md).
 
 **New and redesigned campaign workflow activities**
 
