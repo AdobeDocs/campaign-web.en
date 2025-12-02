@@ -73,7 +73,7 @@ In Adobe Campaign Standard, the **Organization unit** is mapped to the existing 
 
 | | **Campaign Standard**| **Campaign v8** |
 |---------|----------|---------|
-| **Terminology** | Organizational unit | Folder | 
+| **Terminology** | Organizational unit | Folder |
 
 
 ### About parallel organizational unit assignment {#parallel-assignments}
