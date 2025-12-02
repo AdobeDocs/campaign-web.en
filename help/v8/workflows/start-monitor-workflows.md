@@ -31,7 +31,7 @@ In workflows, data transported from one activity to another through transitions 
 
 Visual indicators in the upper-right corner of each activity box allow you to check their execution status:
 
-| Visual indicator | Description | 
+| Visual indicator | Description |
 |------------------|-------------|
 | ![](assets/activity-status-pending.png){zoomable="yes"}{width="70%"} | The activity is currently being executed. |
 | ![](assets/activity-status-orange.png){zoomable="yes"}{width="70%"} | The activity requires your attention. This may involve confirming the sending of a delivery or taking a necessary action. |
