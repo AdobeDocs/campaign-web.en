@@ -36,8 +36,6 @@ Before you begin creating content with AI Assistant, you will need to set up you
 
 With AI Assistant open, you can now configure the generation settings to create content that matches your brand and campaign goals. Customize text and image parameters, add brand assets, and provide prompts to guide the AI in generating relevant variations for your audience.
 
-1. Enable the **[!UICONTROL Use original content]** option for AI Assistant to personalize new content based on the selected content.
-
 1. Select your **[!UICONTROL Brand]** to ensure AI-generated content aligns with your brand specifications. [Learn more](brands.md) on Brands.
 
 1. Fine tune the content by describing what you want to generate in the **[!UICONTROL Prompt]** field. 
@@ -51,6 +49,7 @@ With AI Assistant open, you can now configure the generation settings to create 
 1. Tailor your prompt using the **[!UICONTROL Text settings]** option:
 
     * **[!UICONTROL Communication strategy]**: Choose the most suitable communication style for your generated text.
+    * **[!UICONTROL Languages]**: Choose the language of your generated content.
     * **[!UICONTROL Tone]**: Ensure the tone of your email resonates with your audience. Whether you want to sound informative, playful, or persuasive, AI Assistant adapts the message accordingly.
 
         ![Screenshot showing text settings options in Adobe Campaign Web](assets/full-email-4.png){zoomable="yes"}
@@ -97,7 +96,7 @@ After generating content variations, you can fine-tune the results to ensure the
 
     * **[!UICONTROL Change Communication strategy]**: Modify the messaging approach based on your objectives, such as creating urgency, or emphasizing exciting appeal.
 
-    ![Refine menu displaying options](assets/full-email-5.png){zoomable="yes"}
+        ![Refine menu displaying options](assets/full-email-5.png){zoomable="yes"}
 
 1. Open the **[!UICONTROL Brand Alignment]** tab to see how your content aligns with your [brand guidelines](brands.md).
 
@@ -106,7 +105,7 @@ After generating content variations, you can fine-tune the results to ensure the
 1. Insert personalization fields to customize your content based on profiles data. Then, click the **[!UICONTROL Simulate content]** button to control the rendering, and check personalization settings with test profiles. [Learn more](../preview-test/preview-content.md)
 
 1. Review and activate your content:
-   * **Email**: When you have defined your content, audience and schedule, you are ready to prepare your email campaign. [Learn more](../monitor/prepare-send.md)
+   * **Email**: When you have defined your content, audience and schedule, you are ready to prepare your email delivery. [Learn more](../monitor/prepare-send.md)
    * **Landing Page**: Once your landing page is ready, you can publish it to make it available for use in a message. [Learn more](../landing-pages/create-lp.md)
 
 ## For Mobile Channels {#mobile-channels}
@@ -184,6 +183,7 @@ After reviewing your generated push notification variations, you can polish the 
     * **[!UICONTROL Rephrase]**: Rephrase your message in different ways to keep your writing fresh and engaging for diverse audiences.
     * **[!UICONTROL Use simpler language]**: Simplify your language to ensure clarity and accessibility for a wider audience.
     * **[!UICONTROL Translate]**: Simplify your language to ensure clarity and accessibility for a wider audience.
+
     You can also change the **[!UICONTROL Tone]** and **[!UICONTROL Communication strategy]** of your text.
 
     ![Refine options for push notifications](assets/push-genai-5.png){zoomable="yes"}

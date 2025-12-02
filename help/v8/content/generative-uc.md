@@ -100,3 +100,21 @@ Once you define your content, audience, and schedule, prepare your delivery.
 1. Select **[!UICONTROL Preview]** to see the chosen variation in full screen.
 
 1. Once you find the suitable content, click **[!UICONTROL Select]**.
+
+## Generate content across supported languages{#languages}
+
+![Animated demonstration of AI Assistant generating content in multiple languages including French, Spanish, and German](assets/do-not-localize/ai-language.gif)
+
+1. Once your delivery is set up and configured, click **[!UICONTROL Edit content]**.
+
+1. Open the **[!UICONTROL AI Assistant]** menu.
+
+1. Adjust the content by entering your desired request in the **[!UICONTROL Prompt]** box in  French, Spanish, German, Italian, Japanese, Swedish, Dutch or Norwegian.
+
+1. Tailor your prompt with the **[!UICONTROL Text settings]** option and select the desired **[!UICONTROL Languages]** for your generated content.
+
+1. Further personalize your prompt as needed and click **[!UICONTROL Generate]**.
+
+1. Review the **[!UICONTROL Variation suggestions]** in your selected language.
+
+1. Once you find the suitable content, click **[!UICONTROL Select]**.

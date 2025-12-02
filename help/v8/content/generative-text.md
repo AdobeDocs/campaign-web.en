@@ -107,8 +107,6 @@ Before you begin generating text with AI Assistant for mobile channels, you must
    * **Push notifications**: After creating and configuring your push notification delivery, click **[!UICONTROL Edit content]**. [Learn more](../push/create-push.md)
    * **SMS**: After creating and configuring your SMS delivery, click **[!UICONTROL Edit content]**. [Learn more](../sms/create-sms.md)
 
-1. Fill in the **[!UICONTROL Basic details]** for your delivery. Once done, click **[!UICONTROL Edit content]**.
-
 1. Personalize your message as needed:
    * **Push notifications**: [Learn more](../push/content-push.md)
    * **SMS**: [Learn more](../sms/content-sms.md)

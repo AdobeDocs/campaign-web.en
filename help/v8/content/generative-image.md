@@ -12,11 +12,11 @@ description: Learn how to generate images with AI Assistant
 >
 >You must agree to a [user agreement](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} before using AI Assistant in Adobe Campaign Web. For more information, contact your Adobe representative.
 
-Use AI Assistant in Adobe Campaign Web to create compelling visual content that enhances your messages across email, web pages, landing pages, and push notifications. AI Assistant helps you generate and optimize images, ensuring your content is visually engaging and aligned with your brand.
+Use AI Assistant in Adobe Campaign Web to create compelling visual content that enhances your messages across email, landing pages, and push notifications. AI Assistant helps you generate and optimize images, ensuring your content is visually engaging and aligned with your brand.
 
 ## For Email and Landing Pages {#email-web-channels}
 
-AI Assistant can generate complete visual experiences for your email campaigns and landing pages. This capability allows you to produce on-brand, attention-grabbing images that resonate with your audience across digital touchpoints.
+AI Assistant can generate complete visual experiences for your email deliveries and landing pages. This capability allows you to produce on-brand, attention-grabbing images that resonate with your audience across digital touchpoints.
 
 ### Access and configure {#access-configure}
 
@@ -62,6 +62,8 @@ To start generating images with AI Assistant, first set up your delivery and ope
 
 ### Refine and finalize {#refine-finalize}
 
+After generating image variations, you can review the results, check brand alignment, and select the best option for your content.
+
 1. Browse through the generated **[!UICONTROL Variations]**.
 
 1. Click the percentage icon to view your **[!UICONTROL Brand Alignment Score]** and identify any misalignments with your brand.
@@ -86,23 +88,13 @@ To start generating images with AI Assistant, first set up your delivery and ope
 
 ## For Mobile Channels {#mobile-channels}
 
-AI Assistant enables you to generate engaging text for push notifications and SMS messages, helping you create mobile communications that capture attention and resonate with your audience across all mobile touchpoints.
+AI Assistant enables you to generate engaging images for push notifications, helping you create visually compelling mobile communications that capture attention and resonate with your audience.
 
 ### Access and configure {#mobile-access-configure}
 
-To begin generating text for mobile channels with AI Assistant, first set up your delivery and open the AI Assistant. The steps to access AI Assistant differ slightly depending on whether you are working with push notifications or SMS messages.
+To begin generating images for push notifications with AI Assistant, first set up your delivery and open the AI Assistant.
 
-1. Create and configure your mobile delivery:
-
-   * **Push notifications**: After creating and configuring your push notification delivery, click **[!UICONTROL Edit content]**. [Learn more](../push/create-push.md)
-   * **SMS**: After creating and configuring your SMS delivery, click **[!UICONTROL Edit content]**. [Learn more](../sms/create-sms.md)
-
-1. Fill in the **[!UICONTROL Basic details]** for your delivery. Once done, click **[!UICONTROL Edit content]**.
-
-1. Personalize your message as needed:
-
-   * **Push notifications**: [Learn more](../push/content-push.md)
-   * **SMS**: [Learn more](../sms/content-sms.md)
+1. After creating and configuring your push notification delivery, click **[!UICONTROL Edit content]**. [Learn more](../push/create-push.md)
 
 1. Access the **[!UICONTROL Show AI Assistant]** menu.
 
