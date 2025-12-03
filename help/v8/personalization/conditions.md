@@ -3,7 +3,8 @@ title: Create conditional content
 description: Learn how to define conditions to personalize your content in Adobe Campaign Web
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+old-role: Data Engineer
+role: Developer
 level: Beginner
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
 ---

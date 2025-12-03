@@ -3,7 +3,8 @@ title: Personalize your content in Campaign
 description: Learn how to personalize your content in Adobe Campaign Web
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+old-role: Data Engineer
+role: Developer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 ---
@@ -22,7 +23,7 @@ Delivery personalization enhances the user experience and improves engagement ra
 
 ## Using profile data for personalization {#data-personalization}
 
-You personalize any delivery with profile data by using the expression editor, which is accessible in fields with the **[!UICONTROL Open personalization dialog]** icon, such as the subject line, email links, and text/button content components. [Learn how to access the expression editor](gs-personalization.md/#access).
+You personalize any delivery with profile data by using the expression editor, which is accessible in fields with the **[!UICONTROL Open personalization dialog]** icon, such as the subject line, email links, and text/button content components. [Learn how to access the expression editor](gs-personalization.md#access).
 
 ### Personalization syntax {#syntax}
 
@@ -36,7 +37,7 @@ When uploading contacts from an external file for a standalone email delivery, a
 
 To add personalization tags into a delivery, follow these steps:
 
-1. Open the expression editor using the **[!UICONTROL Open personalization dialog]** icon, which is accessible from text-type editing fields, such as the subject line or the SMS body. [Learn how to access the expression editor](gs-personalization.md/#access).
+1. Open the expression editor using the **[!UICONTROL Open personalization dialog]** icon, which is accessible from text-type editing fields, such as the subject line or the SMS body. [Learn how to access the expression editor](gs-personalization.md#access).
 
     ![Screenshot showing how to access the personalization dialog](assets/perso-access.png){zoomable="yes"}{width="800" align="center"}
 
@@ -44,10 +45,10 @@ To add personalization tags into a delivery, follow these steps:
 
     ![Screenshot showing the personalization field menu](assets/perso-insert-field.png){zoomable="yes"}{width="800" align="center"}
 
-    | Menu | Description | 
+    | Menu | Description |
     |------|-------------|
-    | ![Subscribers application menu icon](assets/do-not-localize/perso-subscribers-menu.png){zoomable="yes"} | The **[!UICONTROL Subscribers application]** menu lists fields related to the subscribers of an application, such as the used terminal or the operating system. *This menu is available for push notifications only.* | 
-    | ![Recipients menu icon](assets/do-not-localize/perso-recipients-menu.png){zoomable="yes"} | The **[!UICONTROL Recipient]** menu lists fields defined in the recipients table, such as recipients' names, ages, or addresses. When [uploading contacts from an external file](../audience/file-audience.md) for a standalone email delivery, this menu lists all fields available in the input file. | 
+    | ![Subscribers application menu icon](assets/do-not-localize/perso-subscribers-menu.png){zoomable="yes"} | The **[!UICONTROL Subscribers application]** menu lists fields related to the subscribers of an application, such as the used terminal or the operating system. *This menu is available for push notifications only.* |
+    | ![Recipients menu icon](assets/do-not-localize/perso-recipients-menu.png){zoomable="yes"} | The **[!UICONTROL Recipient]** menu lists fields defined in the recipients table, such as recipients' names, ages, or addresses. When [uploading contacts from an external file](../audience/file-audience.md) for a standalone email delivery, this menu lists all fields available in the input file. |
     | ![Message menu icon](assets/do-not-localize/perso-message-menu.png){zoomable="yes"} | The **[!UICONTROL Message]** menu lists fields related to the delivery logs, including all messages sent to recipients or devices across all channels, such as the date of the last event with a given recipient. |
     | ![Delivery menu icon](assets/do-not-localize/perso-delivery-menu.png){zoomable="yes"} | The **[!UICONTROL Delivery]** menu lists fields related to the parameters required for performing deliveries, such as the delivery channel or label. |
 

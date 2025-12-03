@@ -46,6 +46,8 @@ Follow these steps to configure the **Enrichment** activity:
 >title="Enrichment activity"
 >abstract="Once enrichment data is added to the workflow, it can be used in subsequent activities to segment customers into distinct groups based on their behaviors, preferences, and needs, or to create personalized marketing messages and campaigns that resonate with your target audience."
 
+
+
 1. Click **Add enrichment data** and select the attribute to use for enrichment. [Learn how to select attributes and add them to favorites](../../get-started/attributes.md).
 
     You can select two types of enrichment data: a single enrichment attribute from the target dimension or a collection link. Each type is detailed in the examples below:

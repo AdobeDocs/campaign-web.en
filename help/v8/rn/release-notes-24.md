@@ -81,7 +81,7 @@ The following features and improvements are available starting October release.
 <td>
 <p>Once you have crafted and tailored your message, take it to the next level with AI Assistant in Adobe Campaign Web. This powerful tool allows you to optimize the impact of your content by generating a range of engaging text, main titles and visually appealing images.</p>
 <p>Immerse yourself in a hands-on experience with <a href="https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator">our live feature preview</a>, designed to let you explore its features firsthand and fully understand its capabilities.</a>.</p>
-<p>For more information, refer to the <a href="../email/generative-gs.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../content/generative-gs.md">detailed documentation</a>.</p>
 <img src="assets/do-not-localize/ai-content-webui.gif"/>
 <p>Availability date: Sept 12</p>
 </td>

@@ -9,6 +9,13 @@ exl-id: 803a20ac-e75f-45c6-af89-054b84eb3405
 ---
 # Create a delivery {#create-delivery}
 
+<!-- /NEO-92684 / DOCAC-13767-->
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_profile_enrichment_settings"
+>title="Enable profile enrichment"
+>abstract="Select the fields for profile enrichment."
+
 You can create standalone deliveries from the **[!UICONTROL Deliveries]** left menu, or create deliveries in the context of a workflow, included or not in a campaign.
 
 Browse the tabs below to learn how to create a delivery:

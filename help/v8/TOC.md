@@ -123,12 +123,12 @@ breadcrumb-title: Campaign Web User Interface
       + [Manage dark mode content](email/dark-mode.md)
     + [Create accessible content](email/accessible-content.md)
   + AI Assistant {#ai-assistant}
-    + [Work with AI Assistant](email/generative-gs.md)
-    + [Email generation with AI](email/generative-content.md)
-    + [SMS generation with AI](email/generative-sms.md)
-    + [Push notification generation with AI](email/generative-push.md)
-    + [Landing page generation with AI](email/generative-lp.md)
-    + [AI Assistant use cases](email/generative-uc.md)
+    + [Work with AI Assistant](content/generative-gs.md)
+    + [AI prompt best practices](content/ai-assistant-prompting-guide.md)
+    + [Full content generation with AI](content/generative-full-content.md)
+    + [Text generation with AI](content/generative-text.md)
+    + [Image generation with AI](content/generative-image.md)
+    + [AI Assistant use cases](content/generative-uc.md)
     + Brands {#ai-assistant}
       + [Create & manage your brands](content/brands.md)
       + [Evaluate your Brand alignment score](content/brands-score.md)
