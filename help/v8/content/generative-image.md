@@ -33,6 +33,8 @@ To start generating images with AI Assistant, first set up your delivery and ope
 
 ### Generate content {#generate-content}
 
+Learn how to craft effective prompts and configure image settings to generate visually compelling images with AI Assistant. Customize parameters such as aspect ratio, visual intensity, and lighting to create images that align with your brand and campaign objectives.
+
 1. Enable the **[!UICONTROL Reference style]** option for AI Assistant to personalize new content based on the selected content.
 
 1. Select your **[!UICONTROL Brand]** to ensure AI-generated content aligns with your brand specifications. [Learn more](brands.md) on Brands.
@@ -102,7 +104,7 @@ To begin generating images for push notifications with AI Assistant, first set u
 
 ### Generate content {#mobile-generate-content}
 
-After accessing AI Assistant, you can adjust the generation settings to create images that align with your brand and support your objectives.
+After accessing AI Assistant, you can adjust the generation settings to create images that align with your brand and support your push notification objectives. Configure the prompt and image parameters to generate visuals optimized for mobile displays.
 
 1. Select your **[!UICONTROL Brand]** to ensure AI-generated content aligns with your brand specifications. [Learn more](brands.md) on Brands.
 
