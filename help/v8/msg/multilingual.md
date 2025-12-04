@@ -10,7 +10,7 @@ description: Learn how to configure a multilingual delivery
 >title="Add languages"
 >abstract="In this tab, you will find a list of languages in which the delivery is to be sent in. You can add more languages by clicking the Add Language button, or by duplicating another language via this tab."
 
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
 >id="acw_multilingual_file_upload"
 >title="Import language variants"
 >abstract="Use this dialog to add a language variant by importing a CSV file. The file automatically populates all available fields for the selected language. You can drag and drop your file or choose it from your computer before confirming."
