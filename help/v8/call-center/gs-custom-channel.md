@@ -32,11 +32,11 @@ To send a new standalone custom delivery, follow these main steps:
 
 First, you need to configure the custom channel. Here are the main steps to perform in the Client Console. These steps are common to custom external and API channels:
 
-1. Configure the schema to add the new channel to the list of available channels. [Read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html#configure-schema){target="_blank"}
-1. Create a new routing external account. [Read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html#reate-ext-account){target="_blank"}
-1. Create a new delivery template associated to the new channel. [Read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html#create-template){target="_blank"}
+1. Configure the schema to add the new channel to the list of available channels. [Read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html#configure-schema){target="_blank"}
+1. Create a new routing external account. [Read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html#create-ext-account){target="_blank"}
+1. Create a new delivery template associated to the new channel. [Read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html#create-template){target="_blank"}
 
-Custom API channels require additional configuration. [Read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html#api-additional){target="_blank"}
+Custom API channels require additional configuration. [Read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html#api-additional){target="_blank"}
 
 ## Create the delivery{#create-delivery}
 
@@ -84,7 +84,7 @@ Now, let's edit the content of the delivery.
 
 1. From the delivery dashboard, click the **[!UICONTROL Edit content]** button.
 
-1. Fill in the fields as needed. To learn how to set up this screen, refer to this [page](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html#api-additional-screen){target="_blank"}.
+1. Fill in the fields as needed. To learn how to set up this screen, refer to this [page](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html#api-additional-screen){target="_blank"}.
 
     ![Screenshot showing the attributes configuration options for the API channel.](assets/cc-content-attributes-api.png)
 
@@ -112,7 +112,7 @@ When the delivery content is ready, you can preview it using test profiles. You 
 
 1. From the delivery content page, click the **[!UICONTROL Simulate content]** button and select test profiles.
 
-1. On the right side, click **Open preview**. This capability needs to be configured using JSSP. Refer to this [page](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html#api-additional-preview){target="_blank"}.
+1. On the right side, click **Open preview**. This capability needs to be configured using JSSP. Refer to this [page](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html#api-additional-preview){target="_blank"}.
 
     ![Screenshot showing the simulate content option in the delivery content page for API](assets/cus-simulate-api.png){zoomable="yes"}
 
