@@ -16,7 +16,7 @@ exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
 >title="Campaign properties"
 >abstract="In this screen, you can check and update your campaign settings: its label, internal name, folder, and description. You can also view which user it is assigned to."
 
-To create a new campaign, define its settings, schedule, and include workflows and deliveries.
+To create a new campaign, define its settings, schedule, and include workflows and deliveries. 
 
 ## Create the campaign {#campaign-create}
 
