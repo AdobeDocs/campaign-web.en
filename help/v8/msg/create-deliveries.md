@@ -14,7 +14,7 @@ exl-id: 803a20ac-e75f-45c6-af89-054b84eb3405
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_profile_enrichment_settings"
 >title="Enable profile enrichment"
->abstract="Select the fields for profile enrichment."
+>abstract="Select the fields for profile enrichment. Only fields with an index can be selected as reconciliation keys. Non supported fields are greyed out."
 
 You can create standalone deliveries from the **[!UICONTROL Deliveries]** left menu, or create deliveries in the context of a workflow, included or not in a campaign.
 
