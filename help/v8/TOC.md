@@ -131,7 +131,8 @@ breadcrumb-title: Campaign Web User Interface
     + [AI Assistant use cases](content/generative-uc.md)
     + Brands {#ai-assistant}
       + [Create & manage your brands](content/brands.md)
-      + [Evaluate your Brand alignment score](content/brands-score.md)
+      + [Personalize your brand](content/brands-personalize.md)
+      + [Evaluate your content](content/brands-score.md)
 + Landing pages {#landing-pages}
   + [Get started with landing pages](landing-pages/get-started-lp.md)
   + [Create and publish a landing page](landing-pages/create-lp.md)

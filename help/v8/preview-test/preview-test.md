@@ -20,6 +20,7 @@ Once your delivery content is defined, you can use profiles and test profiles to
 * [Preview the message content and personalization](preview-content.md)
 * [Send proofs](test-deliveries.md) to specific recipients or subscribers for testing and validation
 * [Check the email rendering](email-rendering.md) in popular desktop, mobile, and web-based clients
+* [Validate your content quality](../content/brands-score.md#validate-quality) to assess readability, CTA effectiveness, subject line quality, and more
 * [Preview and test your landing pages](../landing-pages/create-lp.md#test-landing-page)
 
 Perform these actions using the **[!UICONTROL Simulate content]** button, which is accessible from the edit content screen of your delivery or from the [Email Designer](../email/get-started-email-designer.md).

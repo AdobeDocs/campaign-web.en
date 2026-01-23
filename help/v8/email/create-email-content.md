@@ -98,6 +98,8 @@ To start building your email content, follow the steps below.
 
     ![Screenshot showing the simulation options in the Email Designer.](assets/email_designer-simulate.png){zoomable="yes"}
 
+1. You can also validate your content quality to assess readability, CTA effectiveness, subject line quality, and more. [Learn more about content quality validation](../content/brands-score.md#validate-quality)
+
 1. When your email is ready, click **[!UICONTROL Save]**.
 
 ## How-to video {#video}
