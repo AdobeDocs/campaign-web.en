@@ -1,9 +1,7 @@
 ---
-solution: Journey Optimizer
-product: journey optimizer
+audience: end-user
 title: Manage brand
 description: Learn how to personalize your brand guidelines
-topic: Content Management
 role: User
 level: Beginner, Intermediate
 ---
