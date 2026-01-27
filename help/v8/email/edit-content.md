@@ -100,4 +100,6 @@ To configure or edit the content of an email, follow the steps below.
 
 1. By default, tracking is enabled for the delivery. You can disable this option from the **[!UICONTROL Optional features]** section. [Learn how to add links and manage tracking](message-tracking.md)
 
-1. Once the content of your email has been defined, use the **[!UICONTROL Simulate content]** button to check how it displays before sending it. [Learn how to preview and test your email](../preview-test/preview-test.md).
+1. Once the content of your email has been defined, use the **[!UICONTROL Simulate content]** button to check how it displays before sending it. You can also validate your content quality to assess readability, CTA effectiveness, and overall quality. [Learn more about content quality validation](../content/brands-score.md#validate-quality)
+
+1. [Learn how to preview and test your email](../preview-test/preview-test.md).
