@@ -10,7 +10,6 @@ exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
 >id="acw_push_notification_template"
 >title="Push Notification template"
 >abstract="Select a push notification template to start your push delivery. Delivery templates allow you to easily reuse custom content and settings across your campaigns and deliveries."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/delivery-template" text="Use delivery templates"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"

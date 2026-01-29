@@ -10,7 +10,6 @@ exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 >id="acw_deliveries_simulate"
 >title="Preview and test your content"
 >abstract="Once your content has been defined, you can use profiles and test profiles to preview and test it."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/preview-test/preview-test" text="Send proofs"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#test-landing-page" text="Test landing pages"
 
 Once your delivery content is defined, you can use profiles and test profiles to preview and test it before sending the message. This step ensures accuracy and eliminates errors in both content and personalization settings.
