@@ -5,6 +5,12 @@ description: Learn how to create content experiments in Adobe Campaign Web
 ---
 # Create content experiments {#content-experiment}
 
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn4"
+>title="Content experiments - A/B testing"
+>abstract="You can now define multiple delivery variants to test which performs best. Vary content, subject, or sender across email elements to determine optimal results."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
+
 ## About content experiments {#about-content-experiment}
 
 Content experiments in Adobe Campaign Web allow you to define multiple A/B testing delivery variants in order to measure which performs best for your target audience. You can vary the delivery content, subject, or sender to test different versions and determine which variant produces the best results.

@@ -6,6 +6,12 @@ description: Learn how to configure a multilingual delivery
 # Configure a multilingual delivery {#multilingual-delivery}
 
 >[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="Multilingual deliveries"
+>abstract="You can now send messages in multiple languages in Campaign Web UI. For push notifications, populate all language variants by uploading a CSV file."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
+
+>[!CONTEXTUALHELP]
 >id="acw_deliveries_email_multilingual"
 >title="Add languages"
 >abstract="In this tab, you will find a list of languages in which the delivery is to be sent in. You can add more languages by clicking the Add Language button, or by duplicating another language via this tab."

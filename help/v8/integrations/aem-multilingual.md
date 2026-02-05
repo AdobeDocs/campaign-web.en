@@ -10,6 +10,12 @@ level: Intermediate
 
 # Create multilingual emails with Adobe Experience Manager {#aem-multilingual}
 
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn3"
+>title="Experience Manager live and langage copies"
+>abstract="You can now access Adobe Experience Manager language and live copies directly in Campaign. Real-time content refresh eliminates manual synchronization for streamlined multi-language workflows."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
+
 The Adobe Experience Manager integration enables you to create multilingual email deliveries using Adobe Experience Manager language copies. This allows you to manage content variants in different languages and deliver personalized emails based on recipient language preferences.
 
 ## Prerequisites {#prerequisites}

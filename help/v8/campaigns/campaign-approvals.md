@@ -6,6 +6,12 @@ feature: Approvals, Campaigns
 ---
 # Manage the approval process {#campaign-approvals}
 
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn6"
+>title="Campaign approval management"
+>abstract="You can now coordinate stakeholder validation before sending deliveries. Require approvals from marketing managers, data analysts, or other teams for quality control."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
+
 >[!IMPORTANT]
 >
 >Approvals are only available for deliveries created inside a campaign. This does not apply to standalone deliveries or deliveries created in workflows outside of a campaign context.

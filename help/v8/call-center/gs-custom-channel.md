@@ -6,12 +6,6 @@ exl-id: b4336a0a-d845-4024-a06b-400fce1316a4
 ---
 # Get started with custom channels {#gs-custom-channel}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
->title="Custom Channel for API Deliveries"
->abstract="You can now, directly from Adobe Campaign Web UI, orchestrate and execute deliveries based on custom API channels. These deliveries can be standalone or part of a workflow."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
-
 You can, directly from Adobe Campaign Web UI, orchestrate and execute deliveries based on custom channels integrated with third-parties. The configuration of the custom channel is performed in the Client Console.
 
 Two types of custom channels are supported, external and API. With external channels, Campaign generates customizable export files with all necessary contact and personalization data. With API channels, messages are sent to the target profiles via the API configured.

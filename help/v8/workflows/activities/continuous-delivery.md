@@ -5,6 +5,12 @@ description: Learn how to use the Continuous delivery workflow activity
 ---
 # Continuous delivery {#continuous-delivery}
 
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn5"
+>title="Continuous delivery activity"
+>abstract="You can now add new recipients to an existing delivery. This delivery type avoids having to create a new delivery each time, making it more efficient for low-volume alerts or notifications sent as needed."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
+
 The **Continuous delivery** activity allows you to add new recipients to an existing delivery. This delivery type avoids having to create a new delivery each time, making it more efficient for low-volume alerts or notifications sent as needed.
 
 A continuous delivery creates a single delivery instance. All delivery logs (broadLog) and tracking logs reference this one delivery, simplifying monitoring and reporting.
