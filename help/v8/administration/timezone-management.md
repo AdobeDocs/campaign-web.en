@@ -1,6 +1,7 @@
 ---
 title: Time zone management
 description: Learn how Adobe Campaign Web UI displays date and time values based on browser, operator, workflow, and server time zones.
+exl-id: c242c2b5-c847-4c01-a82b-9ccaeb0c2c97
 ---
 # Time zone management {#timezone-management}
 

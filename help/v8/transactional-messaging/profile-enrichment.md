@@ -2,8 +2,8 @@
 audience: end-user
 title: Profile enrichment in transactional messages
 description: Learn how to create a transactional message in Campaign Web User Interface
+exl-id: 933c73ba-ca00-447a-99fd-a7490bb101a4
 ---
-
 # Enrich transactional messages with Profile Data{#profile-enrichment}
 
 >[!CONTEXTUALHELP]
@@ -125,4 +125,3 @@ Once the event has been published, a transactional message linked to the new eve
 
 Integrate the event into your website (see Integrate the event triggering).
 -->
-

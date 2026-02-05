@@ -2,6 +2,7 @@
 audience: end-user
 title: Create content experiments
 description: Learn how to create content experiments in Adobe Campaign Web
+exl-id: 476aaaef-c4b2-4007-a050-9b88460435a6
 ---
 # Create content experiments {#content-experiment}
 

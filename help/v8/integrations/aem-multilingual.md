@@ -6,8 +6,8 @@ feature: Email
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 6fc6ff43-ac7f-46c7-aa1a-9489ffc45423
 ---
-
 # Create multilingual emails with Adobe Experience Manager {#aem-multilingual}
 
 >[!CONTEXTUALHELP]
@@ -110,5 +110,3 @@ After creating content variants, you can manage them directly in the delivery:
    >[!CAUTION]
    >
    >After unlinking, you cannot refresh content from Adobe Experience Manager or create new variants. The content becomes independent from Adobe Experience Manager.
-
-

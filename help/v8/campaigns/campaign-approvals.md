@@ -3,6 +3,7 @@ audience: end-user
 title: Set up and manage the approval process
 description: Learn how to manage approvals of marketing campaigns in Campaign Web
 feature: Approvals, Campaigns
+exl-id: 8140f904-ec0a-44e1-981f-0e050d3c9cdb
 ---
 # Manage the approval process {#campaign-approvals}
 

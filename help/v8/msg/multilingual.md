@@ -2,6 +2,7 @@
 audience: end-user
 title: Configure a multilingual delivery
 description: Learn how to configure a multilingual delivery
+exl-id: eea0e997-4da2-4998-b010-234626b21353
 ---
 # Configure a multilingual delivery {#multilingual-delivery}
 
@@ -250,4 +251,3 @@ During delivery, Campaign replaces these placeholders with actual recipient data
 | Column name case mismatch | Column names don't match exactly | Column names are case-sensitive - use exact names shown above (e.g., `badge`, not `Badge` or `BADGE`) |
 
 >Best practices are listed in this [section](#csv-best-practices). Column structure is detailed in this [section](#csv-columns).
-

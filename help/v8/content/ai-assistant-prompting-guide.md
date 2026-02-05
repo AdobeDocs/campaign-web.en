@@ -3,6 +3,7 @@ title: AI Assistant content prompting guide
 description: Learn how to craft effective prompts for AI-powered content generation using the CO-STAR framework to create high-converting, brand-aligned marketing content.
 role: User
 level: Intermediate
+exl-id: 2ae7ae4b-79fb-427a-8386-0602d313c0ed
 ---
 # AI Assistant prompt best practices {#ai-assistant-prompting-guide}
 

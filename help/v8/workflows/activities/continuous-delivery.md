@@ -2,6 +2,7 @@
 audience: end-user
 title: Use a Continuous delivery workflow activity
 description: Learn how to use the Continuous delivery workflow activity
+exl-id: 659bddcb-280c-4623-8115-6f975515d1a2
 ---
 # Continuous delivery {#continuous-delivery}
 

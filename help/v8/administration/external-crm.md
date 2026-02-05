@@ -1,6 +1,7 @@
 ---
 title: Manage external account
 description: Learn how to configure CRM external accounts
+exl-id: b8dd0cef-c2ab-4e3a-9fe4-d44b6c2902a6
 ---
 # CRM external account {#external-crm}
 
@@ -141,4 +142,3 @@ To configure the Salesforce external account to work with Adobe Campaign, you ne
     To replace Adobe Campaign values with Salesforce values, enable the **[!UICONTROL Replace]** option.
 
     ![Screenshot showing the Salesforce CRM external account configuration fields.](assets/crm-salesforce-5.png)
-
