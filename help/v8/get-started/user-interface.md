@@ -134,7 +134,7 @@ In the **Customer management** section, you can view your profiles, audiences, a
 >id="acw_offers_list"
 >title="Offers"
 >abstract="Browse through the lists of offers and offer templates that have been created in the console using the **Interaction** module. These lists are read-only."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/offers" text="Add offers to a delivery"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html" text="Add offers to a delivery"
 
 In the **Decision management** section, you can view the offers and offer templates. These lists are read-only.
 

@@ -21,7 +21,7 @@ exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
 >id="acw_deliveries_sms_template_selection"
 >title="SMS template selection"
 >abstract="Select a predefined template to start your SMS delivery. Delivery templates allow you to reuse custom content and settings across your campaigns and deliveries."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/delivery-template" text="Use delivery templates"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html" text="Use delivery templates"
 
 You can create a standalone SMS delivery, or create an SMS in the context of a campaign workflow. The steps below explain the procedure for a standalone (one-shot) SMS delivery. If you are working in the context of a campaign workflow, creation steps are explained in [this section](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 

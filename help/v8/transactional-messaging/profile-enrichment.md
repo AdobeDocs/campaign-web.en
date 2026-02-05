@@ -9,7 +9,7 @@ description: Learn how to create a transactional message in Campaign Web User In
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
 >title="Profile enrichment"
->abstract=You can now personalize transactional messages by linking Campaign database fields to content. Select target mappings, enrichment columns, and reconciliation keys for accurate real-time personalization."
+>abstract="You can now personalize transactional messages by linking Campaign database fields to content. Select target mappings, enrichment columns, and reconciliation keys for accurate real-time personalization."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
 
 This capability allows you to personalize transactional messages by linking Adobe Campaign database fields to message content. You can select target mappings, enrichment columns, and a reconciliation key to ensure accurate, real-time personalization while maintaining performance thresholds.
