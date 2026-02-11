@@ -275,7 +275,12 @@ breadcrumb-title: Campaign Web User Interface
     + [Assign a brand](administration/branding/branding-assign.md)
   + [Work with business rules (typologies)](administration/typologies.md)
   + [Manage target mappings](administration/target-mappings.md)
-  + [Work with schemas](administration/schemas.md)
+  + Work with schemas {#schemas}
+    + [About schemas](administration/schemas.md)
+    + [Browse and access schemas](administration/schemas-browse-access.md)
+    + [Customize screen display](administration/schemas-customize-screen.md)
+    + [Create and publish schemas](administration/schemas-create-publish.md)
+    + [Work with custom forms](administration/schemas-custom-forms.md)
   + [Configure custom fields](administration/custom-fields.md)
   + [Configure [!DNL Campaign] options](administration/options.md)
   + [Timezone management](administration/timezone-management.md)

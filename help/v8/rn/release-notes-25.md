@@ -103,7 +103,7 @@ _Nov 3, 2025_
 
 * You can now switch between the new and legacy rule builder when setting up a condition using the Email Designer's conditional content capability. <!-- [Learn more](../personalization/conditions.md#condition-condition-builder)-->
 
-* You can now select collection links, such as purchases, in the screen definition of the Recipients schema. This displays the related data on profile screens through a dedicated tab. <!-- [Learn more](../administration/schemas.md#collection-lists)-->
+* You can now select collection links, such as purchases, in the screen definition of the Recipients schema. This displays the related data on profile screens through a dedicated tab. <!-- [Learn more](../administration/schemas.md)-->
 
 * As a Campaign administrator, you can now set up connections to Salesforce CRM and Microsoft Dynamics.
 [Learn more](../administration/external-crm.md)
