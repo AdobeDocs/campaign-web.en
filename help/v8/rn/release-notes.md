@@ -36,7 +36,7 @@ _Feb 17, 2026_
 </tbody>
 </table-->
 
-<table>
+<!--table>
 <thead>
 <tr>
 <th><strong>Themes in the Email Designer (Beta)</strong><br/></th> 
@@ -50,7 +50,7 @@ _Feb 17, 2026_
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
