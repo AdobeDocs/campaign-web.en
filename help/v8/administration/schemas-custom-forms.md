@@ -12,9 +12,9 @@ Custom forms are based on the schema's form definition (screen definition), whic
 >
 >Custom forms are only available for schemas that have a form definition configured.
 
-## Create the custom schemas {#form-schema}
+## Create and pubish the custom schemas {#form-schema}
 
-You must first create and publish your custom schema. For detailed instructions, refer to this [section](schemas-create-publish.md).
+You must first create and publish your custom schemas. For detailed instructions, refer to this [section](schemas-create-publish.md).
 
 Here is the data model used for this example:
 
