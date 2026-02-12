@@ -2,7 +2,7 @@
 title: Browse and access schemas
 description: Learn how to browse and access schemas in the interface.
 ---
-# Browse and access schemas {#access}
+# Access and configure schemas {#access}
 
 Schemas are accessible from the **[!UICONTROL Administration]** > **[!UICONTROL Schemas]** menu.
 
@@ -31,3 +31,27 @@ The **[!UICONTROL Overview]** tab provides a general view of the schema:
 The **[!UICONTROL Data]** tab provides information on the schema data.
 
 ![Schema data tab showing data structure and attributes](assets/schemas-data.png)
+
+## Customize screen display {#screen-def}
+
+The screen definition allows you to configure how schema fields are displayed and edited in the interface. You can configure default columns for list views, customize which custom fields are displayed in detail screens, add collection lists to show related data, and organize fields into sections with separators and visibility criteria.
+
+To access the screen definition:
+
+1. Browse to the **[!UICONTROL Schemas]** menu, and locate editable schemas using the filters. 
+
+   ![Schemas list screen showing available schemas and filters](assets/schemas-list2.png)
+
+1. Select the schema name in the list to open it and click the **[!UICONTROL Screen edition]** button in the schema details view to access the screen definition. 
+
+   ![Schemas list screen showing available schemas and filters](assets/schemas-list3.png)   
+
+   The different lists allow you to reorder elements by using the up and down arrow icons or drag and dropping them. To remove items, click the trash icon on a specific row or select **[!UICONTROL Delete all]** from the to ellipsis icon.
+
+   ![Screen definition General section](assets/schemas-general.png)
+
+From the screen definition, you can:
+
+* [Configure default list columns](schemas-list-columns.md) - Configure which columns are displayed by default in list views.
+* [Edit custom fields](schemas-custom-fields.md) - Configure which custom fields are displayed in detail screens and organize them into sections.
+* [Add collection lists](schemas-collection-lists.md) - Add collection lists to show related data in profile screens.

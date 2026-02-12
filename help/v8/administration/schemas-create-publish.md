@@ -45,7 +45,7 @@ In our example, we simply add two custom fields:
 
    ![Schema creation dialog](assets/schemas-create4.png)
 
-For more information on screen edition, refer to [Customize screen display](schemas-customize-screen.md).
+For more information on screen edition, refer to [Edit custom fields](schemas-custom-fields.md).
 
 ## Publish and synchronize schemas {#publish}
 

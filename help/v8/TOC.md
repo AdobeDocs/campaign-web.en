@@ -277,8 +277,10 @@ breadcrumb-title: Campaign Web User Interface
   + [Manage target mappings](administration/target-mappings.md)
   + Work with schemas {#schemas}
     + [About schemas](administration/schemas.md)
-    + [Browse and access schemas](administration/schemas-browse-access.md)
-    + [Customize screen display](administration/schemas-customize-screen.md)
+    + [Access and configure schemas](administration/schemas-browse-access.md)
+    + [Configure list columns](administration/schemas-list-columns.md)
+    + [Edit custom fields](administration/schemas-custom-fields.md)
+    + [Add collection lists](administration/schemas-collection-lists.md)
     + [Create and publish schemas](administration/schemas-create-publish.md)
     + [Work with custom forms](administration/schemas-custom-forms.md)
   + [Configure custom fields](administration/custom-fields.md)
