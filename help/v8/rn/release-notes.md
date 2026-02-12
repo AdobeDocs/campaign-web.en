@@ -62,7 +62,7 @@ _Feb 17, 2026_
 <tr>
 <td>
 <p>Campaign planning provides a planning and calendar view in Campaign to help you visualize and manage your campaigns over time. This feature offers a timeline view similar to the planning view available in the Client Console, with an improved look and feel. You can now see all your campaigns in a calendar format, making it easier to plan, schedule, and coordinate your marketing activities.</p>
-<p>For more information, refer to the detailed documentation.</p>
+<!--p>For more information, refer to the detailed documentation.</p-->
 </td>
 </tr>
 </tbody>
@@ -78,7 +78,7 @@ _Feb 17, 2026_
 <tr>
 <td>
 <p>You can now create and manage schemas directly from the Campaign Web User Interface. This feature allows you to create new tables, extend existing schemas and create custom forms. You can define custom data structures to support your specific business needs without requiring access to the Client Console.</p>
-<p>For more information, refer to the detailed documentation.</p>
+<!--p>For more information, refer to the <a href="../administration/schemas.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
