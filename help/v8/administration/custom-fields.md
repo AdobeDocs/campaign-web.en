@@ -1,6 +1,8 @@
 ---
 title: Custom fields
 description: Learn how to configure custom fields and their visibility in the interface.
+hide: yes
+hidefromtoc: yes
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
 ---
 # Configure custom fields {#custom-fields}

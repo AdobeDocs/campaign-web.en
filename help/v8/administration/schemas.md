@@ -25,7 +25,7 @@ Each entity in Adobe Campaign has a dedicated schema, ensuring data consistency 
 
 The schemas interface allows you to:
 
-* [Browse and conigure schemas](schemas-browse-access.md) - Navigate to the schemas menu, view available schemas and explore their details.
+* [Access and customize schemas](schemas-browse-access.md) - View available schemas, explore their details and customize screen display
 * [Configure list columns](schemas-list-columns.md) - Configure which columns are displayed by default in list views.
 * [Edit custom fields](schemas-custom-fields.md) - Configure which custom fields are displayed in detail screens and organize them into sections.
 * [Add collection lists](schemas-collection-lists.md) - Add collection lists to show related data in profile screens.

@@ -8,13 +8,13 @@ Custom fields are additional attributes added to out-of-the-box schemas through 
 
 Custom fields can be displayed in various screens, such as profile details in the interface. You can control which fields are visible and how they appear in the interface.
 
->[!NOTE]
->
->To access the screen definition, refer to the [Access the screen definition](schemas-browse-access.md#screen-def) section.
+For more information on the screen definition screen and how to access it, refer to the [Access the screen definition](schemas-browse-access.md#screen-def) section.
 
-![Custom fields screen showing editable attributes](assets/schemas-custom.png)
+To add custom fields to the list:
 
-To add new custom fields to the list:
+1. Browse to the **[!UICONTROL Schemas]** menu, and locate editable schemas using the filters. 
+
+1. Select the schema name in the list to open it and click the **[!UICONTROL Screen edition]** button in the schema details view to access the screen definition. 
 
 1. Click the ellipsis icon above the **[!UICONTROL List of custom fields]** table and choose **[!UICONTROL Select attributes]** to select one or multiple custom fields to display in the interface.
    ![Custom fields screen showing editable attributes](assets/schemas-custom5.png)

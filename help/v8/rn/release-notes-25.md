@@ -638,8 +638,8 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 **Schemas**
 
 * You can now edit the temporary schema of a list from Campaign web user interface. For more information, refer to the [detailed documentation](../audience/manage-audience.md).
-* You can now preview the custom fields of a schema in a sample screen. For more information, refer to the [detailed documentation](../administration/custom-fields.md#add).
-* You can now move custom fields in the list using drag and drop. For more information, refer to the [detailed documentation](../administration/custom-fields.md#add).
+* You can now preview the custom fields of a schema in a sample screen. For more information, refer to the [detailed documentation](../administration/schemas-custom-fields.md).
+* You can now move custom fields in the list using drag and drop. For more information, refer to the [detailed documentation](../administration/schemas-custom-fields.md).
 
 
 ### New features in Limited Availability {#25-4-features-la}

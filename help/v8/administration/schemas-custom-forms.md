@@ -4,63 +4,52 @@ description: Learn how to create, edit, and manage records in custom schemas usi
 ---
 # Work with custom forms {#custom-forms}
 
-Custom forms are data entry interfaces that are directly linked to schemas. Each custom form corresponds to a specific schema and allows you to view, create, edit, and delete records in that schema's data table directly from the interface. They provide a user-friendly way to manage data in custom tables without needing to use the client console.
+Custom forms are data entry interfaces that allow you to manage records in custom schemas directly from the Web User Interface. Each custom form corresponds to a specific custom schema and provides a list view to browse records and a detail view to create, edit, and delete records.
+
+Custom forms are based on the schema's form definition (screen definition), which configures which fields are displayed and how they are organized.
 
 >[!NOTE]
 >
->A custom form is only available for schemas that have a form definition configured. The form definition is part of the schema configuration and defines which fields are displayed, how they are organized, and how users interact with the data. If a schema doesn't have a form definition, you can only view the schema details but cannot manage records through a form interface.
+>Custom forms are only available for schemas that have a form definition configured.
 
-## Access custom forms {#access-forms}
+## Create the custom schemas {#form-schema}
 
-To access a custom form:
+You must first create and publish your custom schema. For detailed instructions, refer to this [section](schemas-create-publish.md).
 
-1. Navigate to **[!UICONTROL Administration]** > **[!UICONTROL Schemas]**.
-1. Apply the **[!UICONTROL Editable]** filter to view schemas that have form definitions configured.
-1. Select a schema from the list.
-1. In the Explorer view, you will see an entry for the custom schema that allows you to access the form interface.
+Here is the data model used for this example:
 
-![Custom form access in Explorer view](assets/schemas-form-access.png)
+* A recipient makes several purchases
+* A purchase is linked to a product 
+* A product is linked to a brand
 
-## Create and edit records {#create-edit}
+For this use case, three schemas are created: the Purchases, Products and Brand schemas. Here is an example:
 
-From the custom form, you can:
+![Custom forms](assets/schemas-forms.png)
 
-* **Create new records**: Click the **[!UICONTROL Create]** button to add a new record to the custom schema.
-* **Edit existing records**: Select a record from the list and click to open it in edit mode.
-* **Delete records**: Use the delete action available in the record details.
+## Configure the screen definition {#form-screen-schema}
 
-![Custom form showing create and edit actions](assets/schemas-form-actions.png)
+Define which fields are displayed and how they are organized. For detailed instructions, refer to this [section](schemas-browse-access.md#screen-def).
 
-When editing records, linked fields are automatically populated based on the relationships defined in your schemas. For example, if a purchase is linked to a product, and the product is linked to a brand, the relationships are automatically maintained when you create or edit records.
+Here is an example for the Brand schema where the Products custom list is added. The form then displays the list of products linked to the brand.
 
->[!NOTE]
->
->Changes made to custom forms are immediately available. Unlike previous versions, you don't need to publish or refresh the interface to see your updates.
+![Custom forms](assets/schemas-forms2.png)
 
-## Navigate with custom filters {#custom-filters}
+For the Products schema, we add the Purchases custom list. And for the Purchases schema, the Product and Recipient fields.
 
-You can apply custom filters to navigate and find specific records in your custom forms. Filters help you refine the list view to display only the records that match your criteria.
+## Create navigation entries {#form-screen-entries}
 
-By default, filters are available in the filter panel. You can apply filters on any field to quickly find the records you need. For example, you can filter purchases by price, products by brand, or any other field in your schema.
+Create folders in the Explorer to access your custom form. For detailed instructions, refer to this [section](schemas-create-publish.md#navigation).
 
-![Custom form with filters applied](assets/schemas-form-filters.png)
+![Custom forms](assets/schemas-forms3.png)
 
-## Default columns and list configuration {#default-columns}
+The list view displays all records for that schema. If the schema has a form definition configured, the list is editable and you can create, edit, and delete records.
+![Custom forms](assets/schemas-forms4.png)
 
-When you access a custom form, the list view displays default columns based on the fields referenced in the form definition. These default columns are fixed, but you can add sections to organize the display further.
+You can then:
 
-The default columns are automatically determined from the schema configuration. If you need to customize which columns appear or how they are organized, you can configure this in the screen definition for the schema.
-
-## Custom form capabilities and limitations {#form-capabilities}
-
-Custom forms provide a powerful way to manage data, with the following capabilities:
-
-* **Layout configuration**: Forms support sections, separators, and field organization. By default, fields are displayed in two columns, but you can configure them to span a single column.
-* **Visibility conditions**: You can set visibility conditions for fields and sections based on other field values.
-* **Mandatory fields**: You can mark fields as mandatory to ensure data completeness.
-* **Linked data**: Forms automatically handle relationships between schemas. For example, if you have a purchase linked to a product, and the product linked to a brand, these relationships are maintained automatically.
-* **Collection lists**: You can display related data in collection lists within the form detail view.
-
->[!NOTE]
->
->Custom forms in the Web User Interface provide a streamlined experience compared to the client console. While they don't include all advanced features available in the client console form engine (such as complex variables and advanced scripting), they cover most common use cases and are much faster to configure and use. Changes are immediately available without requiring publication or refresh.
+* **View and edit records**: click on a record in the list view to open it in detail view and edit fields directly.
+* **Create new records**: click the **[!UICONTROL Create]** button and fill in the required fields. For linked fields, use the search icon to select from available related records.
+* **Delete records**: select a record and use the delete action available in the record details or list view.
+* **View related data in tabs**: access related records through dedicated tabs in the detail view (for example, view all products linked to a brand, or all purchases linked to a product).
+* **Apply filters**: use the filter panel to refine the list view and find specific records based on any field in your schema.
+* **Customize list columns**: configure which columns are displayed by default in list views through the screen definition.

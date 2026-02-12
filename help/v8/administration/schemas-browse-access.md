@@ -46,7 +46,7 @@ To access the screen definition:
 
    ![Schemas list screen showing available schemas and filters](assets/schemas-list3.png)   
 
-   The different lists allow you to reorder elements by using the up and down arrow icons or drag and dropping them. To remove items, click the trash icon on a specific row or select **[!UICONTROL Delete all]** from the to ellipsis icon.
+   The different lists allow you to reorder elements by using the up and down arrow icons or drag and dropping them. To remove items, click the trash icon on a specific row or select **[!UICONTROL Delete all]** from the ellipsis icon.
 
    ![Screen definition General section](assets/schemas-general.png)
 
