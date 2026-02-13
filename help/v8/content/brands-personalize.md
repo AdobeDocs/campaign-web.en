@@ -4,6 +4,7 @@ title: Manage brand
 description: Learn how to personalize your brand guidelines
 role: User
 level: Beginner, Intermediate
+exl-id: e02f8137-d6a8-46ec-a317-2ac5fb5d0c48
 ---
 # Personalize your brand {#brands-personalize}
 

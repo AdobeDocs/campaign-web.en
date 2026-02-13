@@ -55,6 +55,8 @@ To create a new standalone SMS delivery, follow these steps:
 
 1. Switch on the **[!UICONTROL Enable control group]** option to set a control group to measure the impact of your delivery. Messages are not sent to that control group, so you can compare the behavior of the population that received the message with the behavior of contacts that did not. [Learn more](../audience/control-group.md)
 
+1. You can configure your SMS delivery as a multilingual delivery to send messages based on a profile's preferred language. [Learn more](../msg/multilingual.md).
+
 1. Click **[!UICONTROL Edit content]** to start designing the content of your SMS message. [Learn more](content-sms.md)
 
     ![Screenshot showing the Edit content button](assets/sms_create_4.png){zoomable="yes"}

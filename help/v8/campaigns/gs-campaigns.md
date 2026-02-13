@@ -23,4 +23,5 @@ Learn how to create, manage, and monitor campaigns in the following sections:
 
 * [Access and manage your campaigns](manage-campaigns.md)
 * [Create your first campaign](create-campaigns.md)
+* [Set up and manage the approval process](campaign-approvals.md)
 * [Browse your campaign reports](../reporting/campaign-reports.md).

@@ -2,15 +2,15 @@
 audience: end-user
 title: Profile enrichment in transactional messages
 description: Learn how to create a transactional message in Campaign Web User Interface
+exl-id: 933c73ba-ca00-447a-99fd-a7490bb101a4
 ---
-
 # Enrich transactional messages with Profile Data{#profile-enrichment}
 
->[!AVAILABILITY]
->
->This feature is only available for a set of organizations (Limited Availability), and will be rolled out globally in a future release. Your server must be upgraded to 8.8.2 or later.
->
->This feature is currently only available for emails.
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn2"
+>title="Profile enrichment"
+>abstract="You can now personalize transactional messages by linking Campaign database fields to content. Select target mappings, enrichment columns, and reconciliation keys for accurate real-time personalization."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
 
 This capability allows you to personalize transactional messages by linking Adobe Campaign database fields to message content. You can select target mappings, enrichment columns, and a reconciliation key to ensure accurate, real-time personalization while maintaining performance thresholds.
 
@@ -24,6 +24,12 @@ To set up profile enrichment, follow these main steps:
 1. Set up the enrichment settings, [read more](#settings-enrichment)
 1. Define the content, [read more](#content-enrichment)
 1. Validate and send, [read more](#send-enrichment)
+
+>[!NOTE]
+>
+>Your server must be upgraded to 8.8.2 or later.
+>
+>This feature is currently only available for emails, SMS and push notifications.
 
 ## Create the transactional message{#create-enrichment}
 
@@ -119,4 +125,3 @@ Once the event has been published, a transactional message linked to the new eve
 
 Integrate the event into your website (see Integrate the event triggering).
 -->
-

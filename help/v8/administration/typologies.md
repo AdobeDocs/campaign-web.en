@@ -7,12 +7,6 @@ exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
 # Work with business rules (typologies) {#typologies}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="Business Rules"
->abstract="You can now create typologies and typology rules in Adobe Campaign Web User Interface. Typologies let you control, filter, and prioritize the sending of deliveries."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
-
->[!CONTEXTUALHELP]
 >id="acw_business_rules"
 >title="Typologies & typology rules"
 >abstract="Typologies allow you to standardize business practices across all deliveries. A typology is a collection of typology rules that lets you control, filter, and prioritize the sending of deliveries. Profiles matching criteria within a typology rule are excluded from the delivery audiences during the preparation phase."

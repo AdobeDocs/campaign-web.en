@@ -2,6 +2,7 @@
 audience: end-user
 title: Generative content
 description: Learn how to generate images with AI Assistant
+exl-id: 9de12187-c437-467b-974a-1e165adc5fe1
 ---
 # Generate images with AI Assistant {#generative-image}
 

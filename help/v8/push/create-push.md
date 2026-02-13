@@ -47,6 +47,8 @@ Configure your delivery settings as detailed below:
     * **[!UICONTROL Nature]**: Specify the delivery's nature for classification purposes.
     +++
 
+1. You can configure your push notification as a multilingual delivery to send messages based on a profile's preferred language. [Learn more](../msg/multilingual.md).
+
 ## Select your push delivery audience {#create-audience-push}
 
 >[!CONTEXTUALHELP]

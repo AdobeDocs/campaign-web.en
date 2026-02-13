@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: dark mode, email, color, editor
-
+exl-id: 0f1bbaf9-d648-4625-94fa-2e0c240d7264
 ---
 # Manage dark mode content {#dark-mode}
 

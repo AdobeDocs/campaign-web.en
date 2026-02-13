@@ -2,6 +2,7 @@
 audience: end-user
 title: Generative content
 description: Learn how to generate text content experiences with AI Assistant
+exl-id: da60d57e-d17f-40eb-9c24-0bfea940d236
 ---
 # Generate text with AI Assistant {#generative-text}
 
