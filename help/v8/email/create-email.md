@@ -147,6 +147,8 @@ Before sending your email, you can preview and test it to ensure it meets your e
 
 In this use case, you preview the email and send proofs to specific email addresses while impersonating some of the targeted profiles.
 
+You can also validate your content quality to check readability, CTA effectiveness, subject line quality, and more. [Learn more about content quality validation](../content/brands-score.md#validate-quality)
+
 Additional information on how to preview an email and send proofs is available in [this section](../preview-test/preview-test.md).
 
 1. To review your email, click **[!UICONTROL Review and send]**. This displays a preview of your email, along with all the configured properties, audience, and schedule. You can edit any of these elements by clicking the modify button.

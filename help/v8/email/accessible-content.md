@@ -118,6 +118,8 @@ To verify your content's accessibility, you can use the testing capabilities pro
 
 * Use the [Email rendering](../preview-test/email-rendering.md) option that leverages Litmus to simulate your designs across major email clients (Apple Mail, Gmail, Outlook) and see if text, colors and images make your content accessible. <!--Litmus includes accessibility testing-->
 
+* Validate your content quality to assess readability, which is a key component of accessibility. [Learn more about content quality validation](../content/brands-score.md#validate-quality)
+
 * Send proofs to test the rendering of your content before sending it to your real audience. [Learn how](../preview-test/test-deliveries.md)
 
 ![](assets/accessible-simulate.png){width="90%"}

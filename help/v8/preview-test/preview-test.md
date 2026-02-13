@@ -10,7 +10,7 @@ exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 >id="acw_deliveries_simulate"
 >title="Preview and test your content"
 >abstract="Once your content has been defined, you can use profiles and test profiles to preview and test it."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html" text="Send proofs"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-test.html" text="Send proofs"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#test-landing-page" text="Test landing pages"
 
 Once your delivery content is defined, you can use profiles and test profiles to preview and test it before sending the message. This step ensures accuracy and eliminates errors in both content and personalization settings.
@@ -20,6 +20,7 @@ Once your delivery content is defined, you can use profiles and test profiles to
 * [Preview the message content and personalization](preview-content.md)
 * [Send proofs](test-deliveries.md) to specific recipients or subscribers for testing and validation
 * [Check the email rendering](email-rendering.md) in popular desktop, mobile, and web-based clients
+* [Validate your content quality](../content/brands-score.md#validate-quality) to assess readability, CTA effectiveness, subject line quality, and more
 * [Preview and test your landing pages](../landing-pages/create-lp.md#test-landing-page)
 
 Perform these actions using the **[!UICONTROL Simulate content]** button, which is accessible from the edit content screen of your delivery or from the [Email Designer](../email/get-started-email-designer.md).

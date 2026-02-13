@@ -39,11 +39,12 @@ breadcrumb-title: Campaign Web User Interface
   + Emails {#email}
     + [Create your first email](email/create-email.md)
     + [Configure the email content](email/edit-content.md)
+    + [Create content experiments](email/ab-testing.md)
     + Send and monitor the email {#monitor}
       + [Prepare and send an email](monitor/prepare-send.md)
       + [Send using multiple waves](advanced-settings/send-using-waves.md)
       + [Monitor delivery logs](monitor/delivery-logs.md)   
-      + [Schedule the sending of a delivery](monitor/schedule-sending.md)  
+      + [Schedule the sending of a delivery](monitor/schedule-sending.md)
   + Push notifications {#push}
     + [Get started with push notifications](push/gs-push.md)
     + [Create a push notification delivery](push/create-push.md)
@@ -131,7 +132,8 @@ breadcrumb-title: Campaign Web User Interface
     + [AI Assistant use cases](content/generative-uc.md)
     + Brands {#ai-assistant}
       + [Create & manage your brands](content/brands.md)
-      + [Evaluate your Brand alignment score](content/brands-score.md)
+      + [Personalize your brand](content/brands-personalize.md)
+      + [Evaluate your content](content/brands-score.md)
 + Landing pages {#landing-pages}
   + [Get started with landing pages](landing-pages/get-started-lp.md)
   + [Create and publish a landing page](landing-pages/create-lp.md)
@@ -164,6 +166,7 @@ breadcrumb-title: Campaign Web User Interface
   + [Get started with campaigns](campaigns/gs-campaigns.md)
   + [Access and manage your campaigns](campaigns/manage-campaigns.md)
   + [Create your first campaign](campaigns/create-campaigns.md)
+  + [Set up and manage the approval process](campaigns/campaign-approvals.md)
   + [Plans and Programs](administration/plans-programs.md)
 + Workflows {#wf}
   + [Get started with workflows](workflows/gs-workflows.md)
@@ -184,6 +187,7 @@ breadcrumb-title: Campaign Web User Interface
     + [Change data source](workflows/activities/change-data-source.md)
     + [Change dimension](workflows/activities/change-dimension.md)
     + [Combine](workflows/activities/combine.md)
+    + [Continuous delivery](workflows/activities/continuous-delivery.md)
     + [Deduplication](workflows/activities/deduplication.md)
     + [Email, SMS, Push, Direct mail](workflows/activities/channels.md)
     + [Enrichment](workflows/activities/enrichment.md)
@@ -262,6 +266,7 @@ breadcrumb-title: Campaign Web User Interface
   + [Work with other Adobe solutions](integrations/integration.md)
   + [Manage assets with Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
   + [Manage templates with Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
+  + [Manage language copies with Adobe Experience Manager](integrations/aem-multilingual.md)
   + [Work with GenStudio for Performance Marketing](integrations/genstudio.md)
 + Configuration {#conf}
   + Branding {#branding}

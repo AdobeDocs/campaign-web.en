@@ -5,12 +5,6 @@ exl-id: 52b4ec99-4f55-4e0b-8a54-b25058d97b02
 ---
 # Create an external account {#create-external-account}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
->title="External Account Authoring"
->abstract="As a Campaign administrator, you can now set up new connections with external systems from Campaign Web user interface. You can also view, update and manage existing external accounts."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
-
 To create a new external account, follow the steps outlined below. The specific configuration settings depends on the type of external account you are creating.
 
 1. From the left-pane menu, select **[!UICONTROL External accounts]** under **[!UICONTROL Administration]**.

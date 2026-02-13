@@ -53,6 +53,11 @@ Adobe Campaign Web allows you to automate and execute marketing campaigns across
 >title="End activity"
 >abstract="The **End** activity allows you to graphically mark the end of a workflow. This activity has no functional impact and is therefore optional."
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_signal"
+>title="External signal"
+>abstract="placeholder for the external signal section in the End activity parameters. Available for orchestrated campaigns only. DO NOT DELETE"
+
 The following activities are specific to organizing and executing workflows. Their main task is to coordinate the other activities:
 
 * [And-join](and-join.md): Synchronize multiple execution branches of a workflow.

@@ -58,14 +58,14 @@ Save a custom filter from the [query modeler](../query/query-modeler-overview.md
     ![Save predefined filter interface](assets/predefined-filters-save.png){zoomable="yes"}
 
 1. Select **Create a new filter**, and enter a name and a description for that filter.
-    
+
     ![Save filter details interface](assets/predefined-filters-save-filter.png){zoomable="yes"} 
 
-    You can save the filter as a favorite if needed. Learn more in [this section](#fav-filter).
+    You can save the filter as a favorite if needed. Learn more in [this section](#fav-filter). You can also enable the **[!UICONTROL Shared filter]** option to make the filter accessible to other users. Learn more in [this section](#share-filter).
 
 1. Click **Confirm** to save your changes.
 
-Your custom filter is now available in the **Predefined Filters** list and accessible to all Campaign users.
+Your custom filter is now available in the **Predefined Filters** list.
 
 ### Create a filter from the filter list {#create-filter-from-list}
 
@@ -83,7 +83,7 @@ Create a filter from the **Predefined filters** entry in the left menu. Follow t
 
     ![New filter saved interface](assets/new-filter.png){zoomable="yes"}
 
-The filter is added to the predefined filter list. You can save the filter as a favorite if needed. Learn more in [this section](#fav-filter).
+The filter is added to the predefined filter list. You can save the filter as a favorite if needed. Learn more in [this section](#fav-filter). You can also share the filter with other users by enabling the **[!UICONTROL Shared filter]** option. Learn more in [this section](#share-filter).
 
 ## Save your filter as a favorite {#fav-filter}
 
@@ -92,6 +92,14 @@ When creating a predefined filter, enable the **Save as favorite** option to see
 When a filter is saved as a favorite, it is available to all users in the **Favorite filters** section of the filter creation list, as shown below:
 
 ![Favorite filters section](assets/predefined-filters-favorite.png){zoomable="yes"}
+
+## Share a predefined filter {#share-filter}
+
+By default, predefined filters you create are private and visible only to you. To make a filter accessible to other operators in your organization, enable the **[!UICONTROL Shared filter]** option.
+
+![Shared filter option](assets/predefined-filters-shared.png){zoomable="yes"}
+
+Shared filters appear in the predefined filter list for all users, allowing them to use these filters in their own workflows and queries.
 
 ## Use a predefined filter {#use-predefined-filter}
 
@@ -115,6 +123,8 @@ For example, to build an audience from a predefined filter, follow these steps:
 
     ![Predefined filter list interface](assets/build-audience-filter-list.png){zoomable="yes"}
 
+    You can also edit or delete an existing predefined filter using the ![](../content/assets/do-not-localize/Smock_More_18_N.svg) button.
+
 1. Check the rule properties for this filter and confirm.
 
     The filter is now used as a query in the **Query** activity.
@@ -135,7 +145,7 @@ From this list, you can create a new filter as detailed above and perform the ac
 * Duplicate a predefined filter.
 * Delete a predefined filter.
 
-You can also edit or delete a predefined filter directly from the rule builder. From the predefined filter selection window, use the **More actions** button. You can delete the filter or edit it. You can change the label, add a description and add it as a favorite.
+You can also edit or delete a predefined filter directly from the rule builder. From the predefined filter selection window, use the **More actions** button. You can delete the filter or edit it. You can change the label, add a description, add it as a favorite, or toggle the **[!UICONTROL Shared filter]** option to control who can access the filter.
 
 ![Edition of predefined filters](assets/filter-edit.png){zoomable="yes"}
 

@@ -14,7 +14,7 @@ Changes, new capabilities and improvements are listed in the [monthly release no
 
 ## Key capabilities {#key-features}
 
-This new Campaign Web user interface comes with the following capabilities:
+This new Campaign Web user interface comes with the following capabilities: 
 
 **Modern, friendly, and unified experience**
 
