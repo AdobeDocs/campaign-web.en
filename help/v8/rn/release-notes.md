@@ -55,7 +55,7 @@ _Feb 17, 2026_
 <table>
 <thead>
 <tr>
-<th><strong>Campaign planning</strong><br/></th> 
+<th><strong>Timeline view in campaign inventory</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
