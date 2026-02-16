@@ -61,7 +61,7 @@ _Feb 17, 2026_
 <tbody>
 <tr>
 <td>
-<p>Campaign planning provides a planning and calendar view in Campaign to help you visualize and manage your campaigns over time. This feature offers a timeline view similar to the planning view available in the Client Console, with an improved look and feel. You can now see all your campaigns in a calendar format, making it easier to plan, schedule, and coordinate your marketing activities.</p>
+<p>The campaign inventory now includes a Timeline view that lets you visualize and manage campaigns over time: switch between list and timeline, navigate by week, month, or day, use the Today button to jump to the current date, and open campaign details (status, workflows, deliveries) in a right-hand panel—with the same filters and search as the list view.</p>
 <!--p>For more information, refer to the detailed documentation.</p-->
 </td>
 </tr>
