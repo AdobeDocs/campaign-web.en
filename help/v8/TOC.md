@@ -15,6 +15,7 @@ breadcrumb-title: Campaign Web User Interface
   + [Early release](rn/e-release-notes.md)
   + [Latest release](rn/release-notes.md)
   + Previous releases {#previous-release-notes}
+      + [2026 releases](rn/release-notes-26.md)
       + [2025 releases](rn/release-notes-25.md)
       + [2024 releases](rn/release-notes-24.md)
   + [Documentation updates](rn/documentation-updates.md)

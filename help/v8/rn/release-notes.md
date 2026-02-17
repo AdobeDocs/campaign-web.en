@@ -12,8 +12,6 @@ exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 
 Adobe Campaign Web user interface releases operate on a continuous delivery model which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
-Changes and improvements available with previous releases are listed in the [2024](release-notes-24.md), [2025](release-notes-25.md) and [2026](release-notes-26.md) pages.
-
 ## February '26 release {#26-2-release}
 
 _Feb 17, 2026_
