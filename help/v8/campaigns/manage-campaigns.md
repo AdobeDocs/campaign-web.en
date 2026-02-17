@@ -11,11 +11,7 @@ exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
 >title="Campaign schedule"
 >abstract="Set or modify your campaign schedule."
 
-To access and manage your campaigns, click the **[!UICONTROL Campaigns]** menu on the left navigation.
-
-## List of campaigns {#access-campaigns}
-
-In the campaign list, two tabs are available:
+To access and manage your campaigns, click the **[!UICONTROL Campaigns]** menu on the left navigation. Two tabs are available:
 
 * The **Browse** tab lists all existing campaigns. You can click a campaign to open its dashboard or create a new campaign by clicking the **Create campaign** button. See this [section](create-campaigns.md#create-campaigns).
 
@@ -23,15 +19,31 @@ In the campaign list, two tabs are available:
 
 ![Description: The campaign list screen showing the Browse and Templates tabs, along with options to create or view campaigns](assets/campaign-list.png)
 
-By default, each campaign in the list displays information about its current status, start and end dates, creation date, the last time it was modified, etc.
+## Campaigns inventory {#inventory}
 
-You can customize the displayed columns by clicking the **Configure column for a custom layout** icon located in the upper-right corner of the list. This allows you to add or remove columns and reorder information in the campaign list.
+The **[!UICONTROL Browse]** tab provides information about the campaigns' current status, start and end dates, creation date, the last time they were modified, etc. You can customize the displayed columns by clicking the **Configure column for a custom layout** icon located in the upper-right corner of the list. This allows you to add or remove columns and reorder information in the campaign list.
 
-In addition, a search bar and filters are available to facilitate easy searching within the list. [Learn more](../get-started/user-interface.md#list-screens).
+### Search & filter the inventory {#search}
 
-For example, you can filter on your campaign schedule. Open the filter panel and use the **Start - End Date** section:
+A search bar and filters are available to facilitate easy searching within the list. [Learn more](../get-started/user-interface.md#list-screens). For example, you can filter on your campaign schedule. Open the filter panel and use the **Start - End Date** section:
 
-![Description: The filter panel showing options to filter campaigns by start and end dates](assets/campaign-filter-on-dates.png)  
+![Description: The filter panel showing options to filter campaigns by start and end dates](assets/campaign-filter-on-dates.png)
+
+### Timeline view {#timeline}
+
+By default, the campaign screen shows the **List view** (inventory). You can switch to **Timeline view** at any time using the view toggle. Both views show the same campaigns and share the same filters and search—when you change filters or search in one view, the other view reflects the same selection.
+
+The Timeline view helps you visualize and manage your campaigns over time. You can see all your campaigns in a time-based format, making it easier to plan, schedule, and coordinate your marketing activities.
+
+![](assets/timeline-view.png)
+
+**How the timeline works:**
+
+* The timeline displays your campaigns according to their start and end dates. Campaigns that span multiple days appear across the relevant dates.
+* You can navigate by week, month, or day. Use the date selector or arrow buttons to move between periods. Use the **Today** button to return quickly to the current date.
+* Selecting a campaign opens a right-hand panel with campaign details: status, start and end dates, list of workflows, and list of deliveries. You can navigate to those workflows and deliveries from the panel.
+* Campaigns in progress are prioritized in the display when many campaigns fall on the same date.
+* When many campaigns fall on a single day (for example in month view), a **More** control lets you expand to see the full set for that day, or switch to week or day view for more detail.
 
 ## Campaign dashboard {#campaign-dashboard}
 
