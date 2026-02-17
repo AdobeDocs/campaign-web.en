@@ -53,7 +53,7 @@ To access the new user interface, you need to be on Adobe Campaign v8.6 and conn
 
 +++ Does this mean there is an end of support for Adobe Campaign Classic v7?
 
-Adobe Campaign Classic v7 will be supported until March 31, 2027. Visit the [Products and technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html){target="_blank"} page.
+Visit the [Products and technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html){target="_blank"} page for Adobe Campaign Classic v7 end-of-support dates.
 
 +++
 
