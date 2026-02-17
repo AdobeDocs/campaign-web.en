@@ -60,7 +60,7 @@ _Feb 17, 2026_
 <tr>
 <td>
 <p>The campaign inventory now includes a Timeline view that lets you visualize and manage campaigns over time: switch between list and timeline, navigate by week, month, or day, use the Today button to jump to the current date, and open campaign details (status, workflows, deliveries) in a right-hand panel—with the same filters and search as the list view.</p>
-<!--p>For more information, refer to the detailed documentation.</p-->
+<p>For more information, refer to the <a href="../campaigns/manage-campaigns.md#timeline">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -76,16 +76,16 @@ _Feb 17, 2026_
 <tr>
 <td>
 <p>You can now create and manage schemas directly from the Campaign Web User Interface. This feature allows you to create new tables, extend existing schemas and create custom forms. You can define custom data structures to support your specific business needs without requiring access to the Client Console.</p>
-<!--p>For more information, refer to the <a href="../administration/schemas.md">detailed documentation</a>.</p-->
+<p>For more information, refer to the <a href="../administration/schemas.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
 </table> 
 
-### Improvements {#26-2-improvements}
+### Improvement {#26-2-improvements}
 
 * Brand guidelines now include a Colors section that defines standards for your brand's color system, ensuring consistent use of primary, secondary, accent, and neutral colors across all experiences. 
-<!--[Learn more](../content/brands-personalize.md)-->
+[Learn more](../content/brands-personalize.md)
 
 
 
