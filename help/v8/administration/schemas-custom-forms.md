@@ -1,6 +1,7 @@
 ---
 title: Work with custom forms
 description: Learn how to create, edit, and manage records in custom schemas using data entry forms.
+exl-id: c997d676-bfe1-4e28-9e11-41e902a782c1
 ---
 # Work with custom forms {#custom-forms}
 

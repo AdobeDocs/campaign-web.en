@@ -1,6 +1,7 @@
 ---
 title: Add collection lists
 description: Learn how to add collection lists to display related data in profile screens.
+exl-id: 5ae68741-146c-4e0f-b451-c32e9a2290f8
 ---
 # Add collection lists {#collection-lists}
 

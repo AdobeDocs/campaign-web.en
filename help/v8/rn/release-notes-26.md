@@ -1,6 +1,7 @@
 ---
 title: Campaign v8 Web User Interface previous Release Notes
 description: 2026 Campaign Web User Interface releases
+exl-id: 40735c57-94ae-4646-8c3d-68197569fbd4
 ---
 # 2026 release notes {#2026-release}
 
@@ -118,4 +119,4 @@ _Jan 27, 2026_
 * Dynamic reporting now supports push notifications and SMS. [Learn more](../reporting/dynamic-reporting/get-started-reporting.md)
 * Pre-defined filters - A new "Shared filter" option lets you make a predefined filter available to other users in your organization. [Learn more](../get-started/predefined-filters.md#share-filter)
 * Personalization fields created in Adobe Experience Manager, such as Name, Email, Date, and Address, are now included and available when using content template.
-* Content quality evaluation now checks for readability, cohesiveness, and effectiveness issues independent of brand guidelines, identifying unclear messaging, inconsistent tone, or structural gaps. [Learn more](../content/brands-score.md) 
+* Content quality evaluation now checks for readability, cohesiveness, and effectiveness issues independent of brand guidelines, identifying unclear messaging, inconsistent tone, or structural gaps. [Learn more](../content/brands-score.md)
