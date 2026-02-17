@@ -22,7 +22,7 @@ Information on the profile is organized as follows:
 
     ![Screenshot showing the subscriptions tab, listing the services the profile is subscribed to.](assets/profile-subscriptions.png){zoomable="yes"}
 
-* You can display custom tabs, such as purchases, by defining collection links in the screen definition of the Recipients schema. [Learn more about collection links](../administration/schemas.md#collection-lists)
+* You can display custom tabs, such as purchases, by defining collection links in the screen definition of the Recipients schema. [Learn more about collection links](../administration/schemas-collection-lists.md)
 
     ![Screenshot showing custom tab](assets/schemas-collection4.png){zoomable="yes"}
 

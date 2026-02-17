@@ -1,16 +1,14 @@
 ---
-title: Work with schemas
+title: About schemas
 description: Learn how to work with schemas.
 exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
 ---
-# Work with schemas {#schemas}
+# About schemas {#schemas}
 
 >[!CONTEXTUALHELP]
 >id="acw_schema"
 >title="Schemas"
->abstract="**[!DNL Adobe Campaign]** uses XML-based schemas to define the physical and logical structure of data within the application. From this screen, you can view all existing schemas and access the details of a schema by selecting its name in the list. Filters are available to help refine the list, such as displaying only editable schemas."
-
-## About schemas {#about}
+>abstract="Adobe Campaign uses XML-based schemas to define the physical and logical structure of data within the application. From this screen, you can view all existing schemas, access schema details, configure custom forms, and create or extend schemas directly from the Web User Interface."
 
 **[!DNL Adobe Campaign]** uses XML-based schemas to define the physical and logical structure of data within the application. A schema is an XML document linked to a database table that defines:
 
@@ -25,72 +23,18 @@ Schemas play a key role in:
 
 Each entity in Adobe Campaign has a dedicated schema, ensuring data consistency and organization.
 
-Detailed information on schemas is available in the [Campaign console documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}.
+The schemas interface allows you to:
 
-## Access schemas in the Web User Interface {#access}
-
-Schemas are accessible from the **[!UICONTROL Administration]** > **[!UICONTROL Schemas]** menu.
-
-![Schemas list screen showing available schemas and filters](assets/schemas-list.png)
-
-From this screen, you can view all existing schemas. Filters are available to help refine the list, such as displaying only editable schemas.
-
-To open a schema, select its name. A detailed schema view displays.
-
-![Schema details screen showing schema properties and content](assets/schema-details.png)
-
-### Schema overview {#overview}
-
-The **[!UICONTROL Overview]** tab provides a general view of the schema:
-
-* The **[!UICONTROL Properties]** section displays key information, such as the schema name, namespace, and associated table name.
-
-* The **[!UICONTROL Schema definition]** section shows details about the schema definition, including the primary key used for data reconciliation and its links with other tables. 
-
-    Click the **[!UICONTROL Schema preview]** button to view the different fields and links composing the schema. This allows you to check the complete structure of a schema. If the schema has been extended with custom fields, you can visualize all its extensions.
-
-* The **[!UICONTROL Content]** section displays the XML content of the schema, allowing you to switch between the source and the generated syntax.
-
-### Schema data {#data}
-
-The **[!UICONTROL Data]** tab provides information on the schema data.
-
-![Schema data tab showing data structure and attributes](assets/schemas-data.png)
-
-## Configure the screen definition {#screen-definition}
-
-### Edit custom fields {#fields}
-
-Custom fields are additional attributes added to out-of-the-box schemas through the Adobe Campaign console. They allow you to customize schemas by including new attributes to suit your organization's needs. 
-
-Custom fields can be displayed in various screens, such as profile details in the Campaign Web interface. You can control which fields are visible and how they appear in the interface. To do this, click the **[!UICONTROL Screen edition]** button in the **[!UICONTROL Schemas]** menu.
-
-![Custom fields screen showing editable attributes](assets/schemas-custom.png)
-
-Click **[!UICONTROL Preview]** to display the custom fields in a sample screen.
-
-For detailed information on how to edit custom fields in a schema, refer to this section: [Configure custom fields](../administration/custom-fields.md).
-
-### Add collection lists {#collection-lists}
-
-This **List of custom lists** section allows you to define collection links, such as purchases. The related data is then displayed in profile screens through a dedicated tab.
+* [Access and customize schemas](schemas-browse-access.md) - View available schemas, explore their details and customize screen display
+* [Configure list columns](schemas-list-columns.md) - Configure which columns are displayed by default in list views.
+* [Edit custom fields](schemas-custom-fields.md) - Configure which custom fields are displayed in detail screens and organize them into sections.
+* [Add collection lists](schemas-collection-lists.md) - Add collection lists to show related data in profile screens.
+* [Create and manage schemas](schemas-create-publish.md#create-schemas) - Create new schemas and extend existing ones
+* [Publish and synchronize schemas](schemas-create-publish.md#publish) - Synchronize schema changes with the database structure.
+* [Work with custom forms](schemas-custom-forms.md) - Create, edit, and manage records in custom schemas using data entry forms.
 
 >[!NOTE]
 >
->Currently, this capability is only available for the Recipients schema. 
+>You need to have administrator rights to manage schemas.
 
-1. To add a collection list to the interface, click the ellipsis button and choose **Select custom lists**.
-
-   ![Collection lists creation](assets/schemas-collection1.png)
-
-1. Select one of the available custom lists, for example purchases, then click **Confirm**.
-
-   ![Collection lists creation](assets/schemas-collection2.png)
-
-1. Browse to the **Profiles** menu and filter profiles that have made purchases. 
-
-   ![Collection lists creation](assets/schemas-collection3.png)
-
-1. Click on a profile. You notice that the new tab is displayed. You can add more columns if needed. 
-
-   ![Collection lists creation](assets/schemas-collection4.png)
+Detailed information on schemas is available in the [Campaign console documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}.

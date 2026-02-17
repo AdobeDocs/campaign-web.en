@@ -114,7 +114,7 @@ Several options are available to you to customize the user interface in the clie
 
 * **Folder management** - Folders are objects in Adobe Campaign that allow you to organize your components and data. They are also used to manage permissions. Learn how to [work with folders](../../v8/get-started/work-with-folders.md).
 
-* **Custom fields** - Custom fields are additional attributes added to the out-of-the-box schemas through the Adobe Campaign console. These custom fields are displayed in various screens, for example the details of a profile or a test profile. Learn more in the [custom fields configuration documentation](../../v8/administration/custom-fields.md).
+* **Custom fields** - Custom fields are additional attributes added to the out-of-the-box schemas through the Adobe Campaign console. These custom fields are displayed in various screens, for example the details of a profile or a test profile. Learn more in the [custom fields configuration documentation](../../v8/administration/schemas-custom-fields.md).
 
 ## Configure the branding {#acs-gs-admin-branding}
 

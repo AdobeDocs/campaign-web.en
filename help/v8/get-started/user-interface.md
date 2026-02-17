@@ -152,7 +152,7 @@ Learn how to create and send offers in emails and SMS in [this section](../msg/o
 
 * **External accounts** - Create new external accounts using the Web User Interface to meet your specific needs and ensure seamless data transfers. [Learn more](../administration/external-account.md).
 
-* **Schemas** - Custom fields are additional attributes added to the out-of-the-box schemas through the Adobe Campaign console. [Learn more](../administration/custom-fields.md).
+* **Schemas** - Custom fields are additional attributes added to the out-of-the-box schemas through the Adobe Campaign console. [Learn more](../administration/schemas-custom-fields.md).
 
 <!--* **Delivery Alerting** - Delivery Alerting is an alert management system that enables groups of users to automatically receive email notifications with information on their delivery executions. [Learn more](../msg/delivery-alerting.md).-->
 
