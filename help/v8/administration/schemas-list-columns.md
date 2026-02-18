@@ -1,6 +1,7 @@
 ---
 title: Configure default list columns
 description: Learn how to configure which columns are displayed by default in list views.
+exl-id: 55513ecd-fc3f-4371-93b0-f2c9d01d4db4
 ---
 # Configure list columns {#list-columns}
 

@@ -1,6 +1,7 @@
 ---
 title: Create and publish schemas
 description: Learn how to create, extend, and publish schemas.
+exl-id: 1da53fe0-1d64-4907-ba06-206f69e83d7c
 ---
 # Create and publish schemas {#create-publish}
 

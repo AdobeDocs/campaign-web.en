@@ -1,6 +1,7 @@
 ---
 title: Edit custom fields
 description: Learn how to configure custom fields and their visibility in the interface.
+exl-id: 1b531722-0935-4787-a673-60d97f776936
 ---
 # Edit custom fields {#fields}
 

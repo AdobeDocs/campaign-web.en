@@ -1,6 +1,7 @@
 ---
 title: Browse and access schemas
 description: Learn how to browse and access schemas in the interface.
+exl-id: deafd171-0a3f-4ba2-8fa4-09661d8cdb3e
 ---
 # Access and configure schemas {#access}
 
