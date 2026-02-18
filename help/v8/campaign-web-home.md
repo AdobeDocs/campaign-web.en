@@ -46,9 +46,9 @@ Get a glimpse of the newest enhancements in Adobe Campaign Web product and docum
 >[!BEGINTABS]
 
 
->[!TAB January '26 release]
+>[!TAB February '26 release]
 
-October release is live. New features and enhancements are now available in the Campaign Web user interface, including Multilingual Capabilities for Transactional Messaging, Push Notifications and SMS, Integration with Adobe GenStudio and Profile enrichment in Transactional Messages. For a complete overview, check out the release notes.
+February release is live. New features and enhancements are now available in the Campaign Web user interface. For a complete overview, check out the release notes.
 
 [![Learn more button](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
