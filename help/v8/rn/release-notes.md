@@ -82,10 +82,11 @@ _Feb 17, 2026_
 </tbody>
 </table> 
 
+<!-->
 ### Improvement {#26-2-improvements}
 
 * Brand guidelines now include a Colors section that defines standards for your brand's color system, ensuring consistent use of primary, secondary, accent, and neutral colors across all experiences. 
-[Learn more](../content/brands-personalize.md)
+[Learn more](../content/brands-personalize.md)-->
 
 
 

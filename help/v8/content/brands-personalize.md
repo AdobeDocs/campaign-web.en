@@ -13,7 +13,7 @@ To create a comprehensive brand kit that ensures consistency across all your con
 * **[!UICONTROL About the brand]** establishes your brand's core identity and values.
 * **[!UICONTROL Writing style]** defines language and content standards.
 * **[!UICONTROL Visual content]** sets imagery and design guidelines.
-* **[!UICONTROL Colors]** manages your brand's color system and usage.
+<!--* **[!UICONTROL Colors]** manages your brand's color system and usage.-->
 
 Once configured, you can use your brand guidelines to validate content quality and brand alignment. [Learn more about content quality validation](brands-score.md#validate-quality)
 
@@ -244,6 +244,7 @@ To personalize your **[!UICONTROL Visual content]**:
 
 You can now further personalize your brand or [publish your brand](#create-brand-kit).
 
+<!-->
 ## Colors {#colors}
 
 The **[!UICONTROL Colors]** section the standards for your brand's color system, outlining how colors are selected, organized, and applied across experiences. It ensures consistent use of primary, secondary, accent, and neutral colors to maintain a cohesive, accessible, and recognizable brand identity.
@@ -340,4 +341,4 @@ To personalize your **[!UICONTROL Colors]**:
 1. Click **[!UICONTROL Add group]** to define additional colors for your brand or to add a color scale group.
 
 You can now further personalize your brand or [publish your brand](brands.md#create-brand-kit).
-
+-->
