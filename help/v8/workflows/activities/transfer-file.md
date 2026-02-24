@@ -150,6 +150,8 @@ Every time the activity is executed, the folder is checked as follows:
     * **[!UICONTROL Add the HTTP headers to the file]**: In some cases, you may wish to add additional HTTP headers to a file. Most commonly, these headers will be used to provide additional information for troubleshooting purposes, for [Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/docs/Web/HTTP/CORS), or to set specific caching directives.
     * **[!UICONTROL Ignore the HTTP return code]**: HTTP return codes, also known as HTTP status codes, indicate the outcome of an HTTP request.
 
+    +++
+
 1. The **[!UICONTROL Process errors]** option allows you to activate an "Error" outbound transition after the activity if any error occurs during the transfer.
 
     Additionally, for **File transfer** type activities, the **[!UICONTROL Process missing file]** option allows you to activate a "No file" outbound transition after the activity if the file is not available on the specified path.
