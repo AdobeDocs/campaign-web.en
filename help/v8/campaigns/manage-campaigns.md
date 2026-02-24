@@ -23,7 +23,7 @@ To access and manage your campaigns, click the **[!UICONTROL Campaigns]** menu o
 
 The **[!UICONTROL Browse]** tab provides information about the campaigns' current status, start and end dates, creation date, the last time they were modified, etc. You can customize the displayed columns by clicking the **Configure column for a custom layout** icon located in the upper-right corner of the list. This allows you to add or remove columns and reorder information in the campaign list.
 
-### Search & filter the inventory {#search}
+### Search & filter the inventory {#search-and-filter}
 
 A search bar and filters are available to facilitate easy searching within the list. [Learn more](../get-started/user-interface.md#list-screens). For example, you can filter on your campaign schedule. Open the filter panel and use the **Start - End Date** section:
 
