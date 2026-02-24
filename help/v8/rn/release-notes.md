@@ -69,13 +69,14 @@ _Feb 17, 2026_
 <table>
 <thead>
 <tr>
-<th><strong>Schema authoring</strong><br/></th> 
+<th><strong>Schema authoring (LA)</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>You can now create and manage schemas directly from the Campaign Web User Interface. This feature allows you to create new tables, extend existing schemas and create custom forms. You can define custom data structures to support your specific business needs without requiring access to the Client Console.</p>
+<p>Note: this capability is only available for a set of organizations (Limited Availability), and will be rolled out globally in a future release.</p>
 <p>For more information, refer to the <a href="../administration/schemas.md">detailed documentation</a>.</p>
 </td>
 </tr>

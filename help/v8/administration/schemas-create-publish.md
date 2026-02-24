@@ -9,6 +9,10 @@ exl-id: 1da53fe0-1d64-4907-ba06-206f69e83d7c
 
 You can create new schemas, extend existing schemas, and access external databases.
 
+>[!NOTE]
+>
+>This capability is only available for a set of organizations (Limited Availability), and will be rolled out globally in a future release.
+
 ### Create or extend a schema {#create-new}
 
 To create or extend a schema:
