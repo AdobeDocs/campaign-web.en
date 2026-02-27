@@ -12,7 +12,7 @@ exl-id: 6fc6ff43-ac7f-46c7-aa1a-9489ffc45423
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
->title="Experience Manager live and langage copies"
+>title="Experience Manager live and language copies"
 >abstract="You can now access Adobe Experience Manager language and live copies directly in Campaign. Real-time content refresh eliminates manual synchronization for streamlined multi-language workflows."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
 
