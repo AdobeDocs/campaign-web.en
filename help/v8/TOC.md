@@ -134,6 +134,7 @@ breadcrumb-title: Campaign Web User Interface
     + Brands {#ai-assistant}
       + [Create & manage your brands](content/brands.md)
       + [Personalize your brand](content/brands-personalize.md)
+      + [Create and manage generative models](generative-models.md)
       + [Evaluate your content](content/brands-score.md)
 + Landing pages {#landing-pages}
   + [Get started with landing pages](landing-pages/get-started-lp.md)
