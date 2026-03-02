@@ -12,6 +12,26 @@ exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 
 Adobe Campaign Web user interface releases operate on a continuous delivery model which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
+## March '26 update {#26-3-release}
+
+<table>
+<thead>
+<tr>
+<th><strong>Integration of custom Firefly models and third-party image generation models</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Enable seamless integration of standard and custom Firefly models, along with approved third-party image models, to provide greater flexibility, control, and brand alignment when generating images.</p>
+<p>Choose the right model for your needs:</p>
+<ul><li> <strong>Adobe model</strong> (powered by Firefly Image Model 4) for immediate image generation without additional setup</li><li> <strong>Partner model</strong> (powered by Gemini 2.5 Flash) for specialized capabilities</li><li><strong>Custom models</strong> (brand-specific models trained on your own assets) for on-brand generation that aligns precisely with your brand identity, style, and visual guidelines.</li></ul>
+<p>For more information, refer to the <a href="../content/generative-models.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ## February '26 release {#26-2-release}
 
 _Feb 17, 2026_

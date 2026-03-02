@@ -48,6 +48,7 @@ Learn how to craft effective prompts and configure image settings to generate vi
 
 1. Tailor your prompt using the **[!UICONTROL Image settings]** option:
 
+    * **[!UICONTROL Generative model]**: Select from the ready-to-use **[!UICONTROL Adobe model]**, the **[!UICONTROL Partner model]** for specialized capabilities, or **[!UICONTROL Custom models]** trained on your brand assets. [Learn more](generative-models.md) 
     * **[!UICONTROL Aspect ratio]**: Determine the width and height of the asset. Choose from common ratios such as 16:9, 4:3, 3:2, or 1:1, or enter a custom size.
     * **[!UICONTROL Content type]**: Categorize the nature of the visual element, distinguishing between different forms of visual representation such as photos, graphics, or art.
     * **[!UICONTROL Visual intensity]**: Control the image's impact by adjusting its intensity. A lower setting (2) creates a softer appearance, while a higher setting (10) makes the image more vibrant.
@@ -119,6 +120,7 @@ After accessing AI Assistant, you can adjust the generation settings to create i
 
 1. Choose your **[!UICONTROL Image settings]**:
 
+    * **[!UICONTROL Generative model]**: Select from the ready-to-use **[!UICONTROL Adobe model]**, the **[!UICONTROL Partner model]** for specialized capabilities, or **[!UICONTROL Custom models]** trained on your brand assets. [Learn more](generative-models.md)
     * **[!UICONTROL Content type]**: Categorize the nature of the visual element, distinguishing between different forms of visual representation such as photos, graphics, or art.
     * **[!UICONTROL Visual intensity]**: Control the image's impact by adjusting its intensity. A lower setting (2) creates a softer, more restrained appearance, while a higher setting (10) makes the image more vibrant and visually powerful.
     * **[!UICONTROL Lighting]**: Adjust the lighting in the image to shape its atmosphere and highlight specific elements.
