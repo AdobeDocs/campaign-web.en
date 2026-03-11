@@ -28,6 +28,39 @@ exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 
 As the marketing industry becomes more competitive, brands seek efficient ways to generate impactful content quickly. AI Assistant in Adobe Campaign Web, powered by Microsoft Azure OpenAI and Adobe Firefly, is Adobe's AI content generation capability that transforms how marketers create professional and brand-consistent content across channels like email, SMS, and push notifications. With advanced GenAI models and a deep understanding of brand guidelines, AI Assistant auto-generates personalized, engaging, and effective content based on the marketing objective, optimizing content for brand-outlined styles, layouts, tone, and more.
 
+AI Assistant supports generation **in multiple languages** enabling you to reach and engage diverse global audiences. AI Assistant is available in the following languages:
+
+<table style="table-layout:fixed; margin-top: 0px; margin-bottom: 0px;">
+  <tbody>
+    <tr style="border: 0;background-color: #FFFFFF;">
+      <td>
+        <ul>
+          <li>Chinese (Hong Kong)</li>
+          <li>Chinese (Simplified)</li>
+          <li>Chinese (Taiwan)</li>
+          <li>Dutch</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>French</li>
+          <li>German</li>
+          <li>Italian</li>
+          <li>Japanese</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Norwegian</li>
+          <li>Portuguese</li>
+          <li>Spanish</li>
+          <li>Swedish</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 AI Assistant simplifies the creation and execution of marketing campaigns across channels like email, SMS, and push notifications, saving time, improving efficiency, and driving better results.
 
 >[!IMPORTANT]
