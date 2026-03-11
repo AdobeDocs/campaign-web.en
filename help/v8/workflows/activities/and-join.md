@@ -11,6 +11,11 @@ exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
 >title="AND-join activity"
 >abstract="The **And-join** activity allows you to synchronize multiple execution branches of a workflow. It is triggered once all of the preceding activities have finished. This ensures that certain activities are completed before continuing to execute the workflow."
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_join"
+>title="Join activity"
+>abstract="Placeholder for Join activity."
+
 The **And-join** activity is a **Flow control** activity. It synchronizes multiple execution branches of a workflow.
 
 This activity triggers its outbound transition only after all the inbound transitions are activated. In other words, it activates once all preceding activities are completed. This ensures that certain activities are finished before continuing to execute the workflow.
