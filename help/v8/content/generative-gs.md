@@ -73,14 +73,19 @@ AI Assistant simplifies the creation and execution of marketing campaigns across
 
 AI Assistant for emails, push notifications, landing page and SMS is now in General Availability (GA) and available to all users. Required permissions and steps to grant access to users are detailed below.
 
-+++ Learn how to assign Content generation-related permissions
++++ Learn how to assign Content Content generation-related permissions
 
-1. **Create Product Profile** - In [Admin Console](https://stage.adminconsole.adobe.com/), create a product profile with the following specific pattern: 
+1. **Access [Admin Console](https://adminconsole.adobe.com/)**, navigate to the **Products** menu, then select **Adobe Campaign Managed Cloud**.
+
+1. Access the instance you want to grant permissions for, then click **New profile** to create a new product profile with the following specific Product profile name:
+
     `Campaign - <instance-name> - AIAssistant`
 
-1. **Add users** - Add the required user to that product profile,  
-    or  
-    **Create User Group** and add that user group to the product profile, then add users to that product profile.
+1. Set up the product profile with the required permissions for AI Assistant access.
+
+1. **Add Users or User Groups**. Choose one of the following options:
+    * **Add individual users**: Add the required users directly to the product profile.
+    * **Add user groups**: Create a user group, add users to that group, then add the user group to the product profile.
 
 Learn how to define permissions in Campaign in [this section](../get-started/permissions.md).
 
