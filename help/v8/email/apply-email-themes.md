@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: Email Themes, Modules, Reusability, Brand Consistency, Email Design, Custom CSS, Mobile Optimization
-
+exl-id: c9e02bca-032d-4771-ad53-5bbebabc4c5d
 ---
 # Apply themes to your email content {#apply-email-themes}
 

@@ -2,6 +2,7 @@
 audience: end-user
 title: Automated delivery workflow activity
 description: Learn how to use the Automated delivery workflow activity
+exl-id: a9c485f1-0369-414d-9e43-bedb0390a2f5
 ---
 # Automated delivery {#automated-delivery}
 
