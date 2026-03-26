@@ -17,7 +17,9 @@ exl-id: 5c7ff58b-5504-4b8e-879f-44754b7dcf8a
 >title="Fork activity transitions"
 >abstract="By default, two transitions are created with a **Fork** activity. Click the **Add transition** button to define an additional outbound transition, and enter its label."
 
-The **Fork** activity is a **Flow control** activity. It enables you to create outbound transitions to start several activities simultaneously.
+The **Fork** activity is a **Flow control** activity. It enables you to create outbound transitions to start several activities simultaneously. 
+
+You can also create a separate branch using the **Add branch** (**+**) toolbar button. See [Orchestrate activities](../orchestrate-activities.md#toolbar).
 
 ## Configure the Fork activity {#fork-configuration}
 

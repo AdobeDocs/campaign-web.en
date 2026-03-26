@@ -109,6 +109,7 @@ breadcrumb-title: Campaign Web User Interface
       + [Start from scratch ](email/create-email-content.md)
       + [Import your email content](email/existing-content.md)
       + [Code your own content](email/code-content.md)
+      + [Apply themes to your email content](email/apply-email-themes.md)
     + Design your content {#design-content}
       + [Use content components](email/content-components.md)
       + [Add links and track messages](email/message-tracking.md)
@@ -184,7 +185,7 @@ breadcrumb-title: Campaign Web User Interface
     + [Start and monitor your workflows](workflows/start-monitor-workflows.md)
   + Work with workflow activities {#design-workflows}
     + [About workflow activities](workflows/activities/about-activities.md)
-    + [And-join](workflows/activities/and-join.md)
+    + [Automated delivery](workflows/activities/automated-delivery.md)
     + [Build audience](workflows/activities/build-audience.md)
     + [Change data source](workflows/activities/change-data-source.md)
     + [Change dimension](workflows/activities/change-dimension.md)
@@ -198,6 +199,7 @@ breadcrumb-title: Campaign Web User Interface
     + [Fork](workflows/activities/fork.md)
     + [Incremental query](workflows/activities/incremental-query.md)
     + [JavaScript code](workflows/activities/javascript-code.md)
+    + [Join](workflows/activities/join.md)
     + [Load file](workflows/activities/load-file.md)
     + [Reconciliation](workflows/activities/reconciliation.md)
     + [Save audience](workflows/activities/save-audience.md)

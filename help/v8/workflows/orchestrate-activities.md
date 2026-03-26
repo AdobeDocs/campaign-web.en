@@ -33,6 +33,7 @@ To remove an activity, select it in the canvas and click the **Delete** icon in 
 The toolbar, located in the upper-right corner of the canvas, provides options to easily manipulate the activities and navigate in the canvas:
 
 * **Multiple selection mode**: Select multiple activities to delete them all at once or copy and paste them. See [this section](#copy).
+* **Add branch**: Click the **+** button in the toolbar to create a separate execution branch on the canvas. The result is equivalent to using a [Fork](activities/fork.md) for parallel paths, but the diagram is graphically clearer.
 * **Rotate**: Switch the canvas vertically.
 * **Fit to screen**: Adapt the canvas zoom level to your screen.
 * **Zoom out** / **Zoom in**: Zoom out or in the canvas.

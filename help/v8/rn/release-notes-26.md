@@ -7,6 +7,84 @@ exl-id: 40735c57-94ae-4646-8c3d-68197569fbd4
 
 This page lists all changes and improvements available with **2026 releases**. Latest release notes are available in [this page](release-notes.md). 
 
+## February '26 release {#26-2-release}
+
+_Feb 17, 2026_
+
+### New features {#26-2-features}
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Delivery scheduling compute process</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now use a delivery scheduling compute process similar to the one available in Adobe Campaign Standard. This feature allows you to calculate sending dates based on recipient timezones, enabling you to send communications at the optimal time for each recipient. This is particularly useful for organizations operating across multiple timezones, as it allows you to target regions with different timezones using a single delivery configuration.</p>
+<p>For more information, refer to the detailed documentation.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Themes in the Email Designer (Beta)</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Themes provide an improved authoring experience for emails by allowing you to define reusable theme styles that fit your brand guidelines. You can now use theme variables in fragments, ensuring consistent styling across your email templates. This feature enables you to build emails faster with predefined modules that abstract content elements such as titles, descriptions, images, and links, while maintaining brand consistency.</p>
+<p>For more information, refer to the detailed documentation.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<table>
+<thead>
+<tr>
+<th><strong>Timeline view in campaign inventory</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>The campaign inventory now includes a Timeline view that lets you visualize and manage campaigns over time: switch between list and timeline, navigate by week, month, or day, use the Today button to jump to the current date, and open campaign details (status, workflows, deliveries) in a right-hand panel—with the same filters and search as the list view.</p>
+<p>For more information, refer to the <a href="../campaigns/manage-campaigns.md#timeline">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Schema authoring (LA)</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now create and manage schemas directly from the Campaign Web User Interface. This feature allows you to create new tables, extend existing schemas and create custom forms. You can define custom data structures to support your specific business needs without requiring access to the Client Console.</p>
+<p>Note: this capability is only available for a set of organizations (Limited Availability), and will be rolled out globally in a future release.</p>
+<p>For more information, refer to the <a href="../administration/schemas.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table> 
+
+<!--
+
+### Improvement {#26-2-improvements}
+
+* Brand guidelines now include a Colors section that defines standards for your brand's color system, ensuring consistent use of primary, secondary, accent, and neutral colors across all experiences. 
+[Learn more](../content/brands-personalize.md)-->
+
 ## January '26 release {#26-1-release}
 
 _Jan 27, 2026_

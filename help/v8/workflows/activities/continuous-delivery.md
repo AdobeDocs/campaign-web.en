@@ -39,5 +39,6 @@ The continuous delivery activity automatically generates an outbound transition 
 ## Related topics {#related}
 
 * [About workflow activities](about-activities.md)
+* [Automated delivery](automated-delivery.md)
 * [Email, SMS, Push, Direct mail activities](channels.md)
 * [Delivery templates](../../msg/delivery-template.md)

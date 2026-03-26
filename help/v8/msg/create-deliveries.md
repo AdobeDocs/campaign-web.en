@@ -107,11 +107,18 @@ Once your message content has been defined, you can preview it to control the re
 
 You can set the date and the exact time for sending your messages. By choosing the most appropriate time for your marketing message, you can maximize open rates.
 
-To schedule the sending of a delivery, open your delivery and browse to the **[!UICONTROL Schedule]** section. Use the **[!UICONTROL Enable scheduling]** toggle to activate it, and set the desired date and time for sending. Once you send the delivery, the actual sending starts on the contact date you have defined.
+To schedule the sending of a delivery, follow these steps:
+
+1. Open your delivery and browse to the **[!UICONTROL Schedule]** section. 
+1. Use the **[!UICONTROL Enable scheduling]** toggle to activate it. 
+1. In the **[!UICONTROL Contact date]** field, click the calendar icon and set the desired date and time for sending. 
+1. In the **[!UICONTROL Time zone]** field, use the drop-down menu to select the desired time zone. 
+
+Once you send the delivery, the actual sending starts on the contact date you have defined.
 
 ![Screenshot showing the scheduling interface for a delivery](assets/schedule.png){zoomable="yes"}
 
-By default, the **[!UICONTROL Enable confirmation before sending]** option is enabled. This option requires you to confirm the sending before the delivery is sent at the scheduled date and time. If you need to send the delivery automatically on the scheduled date and time, you can disable this option.
+By default, the **[!UICONTROL Enable confirmation before sending]** option is enabled. This option requires you to confirm the sending before the delivery is sent at the scheduled date and ti If you need to send the delivery automatically on the scheduled date and time, you can disable this option.me.
 
 Learn steps to send a scheduled delivery in [this section](../monitor/prepare-send.md#schedule-the-send).
 

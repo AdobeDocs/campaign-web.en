@@ -54,16 +54,26 @@ Adobe Campaign Web allows you to automate and execute marketing campaigns across
 >abstract="The **End** activity allows you to graphically mark the end of a workflow. This activity has no functional impact and is therefore optional."
 
 >[!CONTEXTUALHELP]
+>id="acw_orchestration_start"
+>title="End activity"
+>abstract="The **Start** activity allows you to graphically mark the start of a workflow. This activity has no functional impact and is therefore optional."
+
+>[!CONTEXTUALHELP]
 >id="acw_orchestration_signal"
 >title="External signal"
 >abstract="placeholder for the external signal section in the End activity parameters. Available for orchestrated campaigns only. DO NOT DELETE"
 
 The following activities are specific to organizing and executing workflows. Their main task is to coordinate the other activities:
 
-* [And-join](and-join.md): Synchronize multiple execution branches of a workflow.
-* **End**: Graphically mark the end of a workflow. This activity has no functional impact and is therefore optional.
 * [External signal](external-signal.md): Trigger the execution of a workflow from another workflow or an API call.
 * [Fork](fork.md): Create outbound transitions to start several activities simultaneously.
+* [Join](join.md): Synchronize multiple execution branches of a workflow.
 * [Scheduler](scheduler.md): Schedule when the workflow starts.
+* **Start** and **End**: Graphically mark the beginning and end of a workflow. They are optional and have no functional impact on their own.
+
+   >[!NOTE]
+   >
+   >Note that the **Start** activity is automatically added to all workflows created before the 26.3 release. It is not inserted by default in new workflows.
+
 * [Test](test.md): Enable transitions based on specified conditions.
 * [Wait](wait.md): Pause execution of a part of a workflow temporarily.

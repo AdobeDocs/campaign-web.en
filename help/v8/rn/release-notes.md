@@ -12,7 +12,43 @@ exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 
 Adobe Campaign Web user interface releases operate on a continuous delivery model which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
-## March '26 update {#26-3-release}
+## March '26 release {#26-3-release}
+
+### New features {#26-3-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Schema authoring (GA)</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>The schema authoring feature is now available to all customers (GA). This capability allows you to create and manage schemas directly from the Campaign Web User Interface. You can create new tables, extend existing schemas and create custom forms. You can define custom data structures to support your specific business needs without requiring access to the Client Console.</p>
+<p>For more information, refer to the <a href="../administration/schemas.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Themes in the Email Designer (LA)</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Themes provide an improved authoring experience for emails by allowing you to define reusable theme styles that fit your brand guidelines. You can now use theme variables in fragments, ensuring consistent styling across your email templates. This feature enables you to build emails faster with predefined modules that abstract content elements such as titles, descriptions, images, and links, while maintaining brand consistency.</p>
+<p>Note: this capability is only available for a set of organizations (Limited Availability), and will be rolled out globally in a future release.</p>
+
+<-p>For more information, refer to the <a href="../email/apply-email-themes.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -32,55 +68,18 @@ Adobe Campaign Web user interface releases operate on a continuous delivery mode
 </tbody>
 </table>
 
-## February '26 release {#26-2-release}
-
-_Feb 17, 2026_
-
-### New features {#26-2-features}
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Delivery scheduling compute process</strong><br/></th> 
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now use a delivery scheduling compute process similar to the one available in Adobe Campaign Standard. This feature allows you to calculate sending dates based on recipient timezones, enabling you to send communications at the optimal time for each recipient. This is particularly useful for organizations operating across multiple timezones, as it allows you to target regions with different timezones using a single delivery configuration.</p>
-<p>For more information, refer to the detailed documentation.</p>
-</td>
-</tr>
-</tbody>
-</table-->
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Themes in the Email Designer (Beta)</strong><br/></th> 
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Themes provide an improved authoring experience for emails by allowing you to define reusable theme styles that fit your brand guidelines. You can now use theme variables in fragments, ensuring consistent styling across your email templates. This feature enables you to build emails faster with predefined modules that abstract content elements such as titles, descriptions, images, and links, while maintaining brand consistency.</p>
-<p>For more information, refer to the detailed documentation.</p>
-</td>
-</tr>
-</tbody>
-</table-->
-
 <table>
 <thead>
 <tr>
-<th><strong>Timeline view in campaign inventory</strong><br/></th> 
+<th><strong>Automated delivery activity</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>The campaign inventory now includes a Timeline view that lets you visualize and manage campaigns over time: switch between list and timeline, navigate by week, month, or day, use the Today button to jump to the current date, and open campaign details (status, workflows, deliveries) in a right-hand panel—with the same filters and search as the list view.</p>
-<p>For more information, refer to the <a href="../campaigns/manage-campaigns.md#timeline">detailed documentation</a>.</p>
+<p>The <strong>Automated delivery</strong> workflow activity is now available in the workflow palette. You can use it to create or execute delivery actions (prepare, send a proof, prepare and start, etc.) directly within your workflow. Select an existing delivery created outside the workflow to reuse it on every run, or create a new delivery from a template each time the activity executes.</p>
+<p><img src="assets/do-not-localize/workflow-automated-delivery.gif"/></p>
+<p>For more information, refer to <a href="../workflows/activities/automated-delivery.md">detailed documentation.</p>
 </td>
 </tr>
 </tbody>
@@ -89,26 +88,23 @@ _Feb 17, 2026_
 <table>
 <thead>
 <tr>
-<th><strong>Schema authoring (LA)</strong><br/></th> 
+<th><strong>Multiple workflow branches and Join activity</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now create and manage schemas directly from the Campaign Web User Interface. This feature allows you to create new tables, extend existing schemas and create custom forms. You can define custom data structures to support your specific business needs without requiring access to the Client Console.</p>
-<p>Note: this capability is only available for a set of organizations (Limited Availability), and will be rolled out globally in a future release.</p>
-<p>For more information, refer to the <a href="../administration/schemas.md">detailed documentation</a>.</p>
+
+<p><strong>Multiple branches</strong> are now supported. Instead of using a <strong>Fork</strong>, you can click <strong>Add branch</strong> on the toolbar. The <strong>AND-join</strong> activity has also been improved. It is now a generic <strong>Join</strong> activity that lets you choose between AND and OR join options.</p>
+<p><img src="assets/do-not-localize/workflow-branches-join.gif"/></p>
+<p>For more information, refer to <a href="../workflows/orchestrate-activities.md#toolbar">Orchestrate activities</a> and <a href="../workflows/activities/join.md">Join</a> documentation pages.</p>
 </td>
 </tr>
 </tbody>
-</table> 
+</table>
 
-<!--
+### Improvements {#26-3-improvements}
 
-### Improvement {#26-2-improvements}
-
-* Brand guidelines now include a Colors section that defines standards for your brand's color system, ensuring consistent use of primary, secondary, accent, and neutral colors across all experiences. 
-[Learn more](../content/brands-personalize.md)-->
-
-
-
+* The **Start** workflow activity has been added to improve compatibility with the Client Console. This activity is optional and is not inserted by default in new workflows. However, it is added automatically to existing workflows.
+[Learn more](../workflows/activities/about-activities.md#flow-control)
+* The time zone selection field in the **Schedule** settings of a delivery has been moved below the **Contact date** field. [Learn more](../msg/create-deliveries.md#gs-schedule)
