@@ -43,8 +43,7 @@ Adobe Campaign Web user interface releases operate on a continuous delivery mode
 <td>
 <p>Themes provide an improved authoring experience for emails by allowing you to define reusable theme styles that fit your brand guidelines. You can now use theme variables in fragments, ensuring consistent styling across your email templates. This feature enables you to build emails faster with predefined modules that abstract content elements such as titles, descriptions, images, and links, while maintaining brand consistency.</p>
 <p>Note: this capability is only available for a set of organizations (Limited Availability), and will be rolled out globally in a future release.</p>
-
-<-p>For more information, refer to the <a href="../email/apply-email-themes.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../email/apply-email-themes.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
