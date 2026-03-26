@@ -8,6 +8,12 @@ exl-id: e4db43de-5dc1-4ab7-a703-598534e54826
 ---
 # Create and manage generative models {#generative-models}
 
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn3"
+>title="Integration of image generation models"
+>abstract="Enable seamless integration of standard and custom Firefly models, along with approved third-party image models, to provide greater flexibility, control, and brand alignment when generating images."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
+
 Expand your AI image creation capabilities with built-in models, custom Firefly models, and third-party image generation providers to meet your specific needs and improve brand alignment.
 
 Choose the right model for your needs:

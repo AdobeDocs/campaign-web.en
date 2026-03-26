@@ -46,9 +46,15 @@ Get a glimpse of the newest enhancements in Adobe Campaign Web product and docum
 >[!BEGINTABS]
 
 
->[!TAB February '26 release]
+>[!TAB March '26 release]
 
-February release is live. New features and enhancements are now available in the Campaign Web user interface. For a complete overview, check out the release notes.
+March release is live. New features and enhancements are now available in the Campaign Web user interface. Highlights include:
+
+* **Schema authoring (GA)** - Create and manage schemas directly in Campaign Web UI.
+* **Themes in Email Designer (LA)** - Apply reusable theme styles and variables to keep email content consistent with your brand.
+* **Workflow enhancements** - The **Automated delivery** and **Start** activities are now available and the **Join** now supports the OR option. You can now also add multiple branches to your workflows.
+
+For a complete overview, check out the release notes.
 
 [![Learn more button](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 

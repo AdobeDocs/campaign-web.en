@@ -7,12 +7,6 @@ exl-id: 476aaaef-c4b2-4007-a050-9b88460435a6
 # Create content experiments {#content-experiment}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="Content experiments - A/B testing"
->abstract="You can now define multiple delivery variants to test which performs best. Vary content, subject, or sender across email elements to determine optimal results."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
-
->[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content_experiment"
 >title="Content experiments"
 >abstract="Content experiments let define multiple A/B testing delivery variants in order to measure which performs best for your target audience. You can vary the delivery content, subject, or sender to test different versions and determine which variant produces the best results."
