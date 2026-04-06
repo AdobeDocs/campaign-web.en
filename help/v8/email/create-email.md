@@ -239,7 +239,7 @@ After reviewing and testing your email, you can launch its preparation and send 
 
     <!--
     ![Screenshot showing the email sent confirmation](assets/sent-email.png){zoomable="yes"}
--->
+    -->
 
     You can also access detailed information on the sending by clicking the **[!UICONTROL Logs]** button. [Learn how to monitor delivery logs](../monitor/delivery-logs.md)     
 
