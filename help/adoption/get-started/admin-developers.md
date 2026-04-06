@@ -104,7 +104,8 @@ You can use data packages to export and import your platform custom settings and
 MISSING LINKS: 
 
 - System options
-- Data Encryption/Decryption-->
+- Data Encryption/Decryption
+-->
 
 ### Personalize the user interface {#acs-gs-admin-ui}
 
@@ -249,7 +250,8 @@ MISSING LINKS :
 <!--
 MISSING LINKS: 
 - Setting external account 
-- Adding vender details etc. -->
+- Adding vender details etc. 
+-->
 
 <!--
 **Mobile app**

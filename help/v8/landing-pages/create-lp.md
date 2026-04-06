@@ -68,9 +68,11 @@ You can duplicate or delete a landing page. Click the ellipsis next to a landing
 >title="Define storage options"
 >abstract="The preloading section lets you indicate how to find the record to be updated in the database."
 
-<!--The main steps to create landing pages are as follows:
+<!--
+The main steps to create landing pages are as follows:
 
-![](assets/lp-creation-process.png){zoomable="yes"}-->
+![](assets/lp-creation-process.png){zoomable="yes"}
+-->
 
 To create a landing page, follow these steps:
 

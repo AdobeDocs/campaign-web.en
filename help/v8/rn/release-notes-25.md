@@ -81,7 +81,8 @@ _Nov 3, 2025_
 </tbody>
 </table>
 
-<!-- table>
+<!--
+ table>
 <thead>
 <tr>
 <th><strong>Continuous delivery activity</strong><br/></th> not ready
@@ -95,7 +96,8 @@ _Nov 3, 2025_
 </td>
 </tr>
 </tbody>
-</table-->
+</table
+-->
 
 ### Improvements {#25-10-improvements}
 
@@ -166,7 +168,8 @@ The following features are available starting September release.
 </tbody>
 </table>
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Integration with Adobe GenStudio</strong><br/></th>  LA? sort? Juliette
@@ -180,9 +183,11 @@ The following features are available starting September release.
 </td>
 </tr>
 </tbody>
-</table-->
+</table
+-->
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Dark mode support in the Email designer</strong><br/></th> -> pas sept, modifier composant... -> Juliette
@@ -196,9 +201,11 @@ The following features are available starting September release.
 </td>
 </tr>
 </tbody>
-</table-->
+</table
+-->
 
-<!--table>>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Multilingual capabilities for transactional messaging and push notifications (LA)</strong><br/></th> 
@@ -213,9 +220,11 @@ The following features are available starting September release.
 </td>
 </tr>
 </tbody>
-</table-->
+</table
+-->
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Profile enrichment in Transactional Messages (LA)</strong><br/></th> 
@@ -230,9 +239,11 @@ The following features are available starting September release.
 </td>
 </tr>
 </tbody>
-</table-->
+</table
+-->
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Dynamic reporting for transactional messaging (LA)</strong><br/></th> 
@@ -246,7 +257,8 @@ The following features are available starting September release.
 </td>
 </tr>
 </tbody>
-</table-->
+</table
+-->
 
 
 ### Improvements {#25-9-improvements}
@@ -278,7 +290,8 @@ This release comes with a series of bug fixes, including:
 
 The following features are available starting July release.
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Multilingual email and SMS</strong><br/></th>
@@ -294,9 +307,11 @@ The following features are available starting July release.
 </td>
 </tr>
 </tbody>
-</table-->
+</table
+-->
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Custom channel for API deliveries</strong><br/></th>
@@ -310,7 +325,8 @@ The following features are available starting July release.
 </td>
 </tr>
 </tbody>
-</table-->
+</table
+-->
 
 <table>
 <thead>
@@ -361,7 +377,8 @@ The following features are available starting July release.
 </tbody>
 </table>
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Landing pages improvements</strong><br/></th>
@@ -383,7 +400,8 @@ The following features are available starting July release.
 </td>
 </tr>
 </tbody>
-</table-->
+</table
+-->
 
 
 <table>

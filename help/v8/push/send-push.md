@@ -18,8 +18,10 @@ The main steps to preview your push notification are as follows. More details on
 
 1. Click **[!UICONTROL Add subscribers(s)]** to select one or several profiles to preview their data in the push notification content.
 
-    <!--Once your test subscribers are selected, click **[!UICONTROL Select]**.
-    ![](assets/push_send_5.png){zoomable="yes"}-->
+    <!--
+    Once your test subscribers are selected, click **[!UICONTROL Select]**.
+    ![](assets/push_send_5.png){zoomable="yes"}
+    -->
 
 1. In the right pane, find a preview of the push notification, where personalized elements are dynamically replaced with data from the selected profile.
 

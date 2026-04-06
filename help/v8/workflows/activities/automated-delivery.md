@@ -20,7 +20,8 @@ exl-id: a9c485f1-0369-414d-9e43-bedb0390a2f5
 The **Automated delivery** activity lets you create, configure, and execute delivery actions directly within your workflow. Use it when you want to run a predefined delivery on a schedule or as part of an automated flow, or when you want to generate a new delivery from a template each time the activity runs.
 
 <!--
-**[Continuous delivery](continuous-delivery.md)** always uses a template. The first run creates one delivery; later runs send to new recipients through that same delivery. **Automated delivery** is different: you either reuse one existing delivery every run, or you create a new delivery from a template each time—so each run can be its own delivery if you want. -->
+**[Continuous delivery](continuous-delivery.md)** always uses a template. The first run creates one delivery; later runs send to new recipients through that same delivery. **Automated delivery** is different: you either reuse one existing delivery every run, or you create a new delivery from a template each time—so each run can be its own delivery if you want. 
+-->
 
 To configure this activity, follow these steps:
 

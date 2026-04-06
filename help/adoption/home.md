@@ -83,7 +83,8 @@ Understand the experience differences between Adobe Campaign Standard and Adobe 
       <strong>Developer resources</strong><br/><a href="../v8/dev/datamodel.md">Campaign v8 datamodel</a> - <a href="../v8/dev/schemas.md">Schemas</a> - <a href="../v8/dev/api.md">APIs</a>
     </td>
   </tr>
-</table> -->
+</table> 
+-->
 
 ## Additional resources
 

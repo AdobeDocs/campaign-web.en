@@ -13,7 +13,8 @@ _Feb 17, 2026_
 
 ### New features {#26-2-features}
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Delivery scheduling compute process</strong><br/></th> 
@@ -27,9 +28,11 @@ _Feb 17, 2026_
 </td>
 </tr>
 </tbody>
-</table-->
+</table
+-->
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Themes in the Email Designer (Beta)</strong><br/></th> 
@@ -43,7 +46,8 @@ _Feb 17, 2026_
 </td>
 </tr>
 </tbody>
-</table-->
+</table
+-->
 
 <table>
 <thead>
@@ -83,7 +87,8 @@ _Feb 17, 2026_
 ### Improvement {#26-2-improvements}
 
 * Brand guidelines now include a Colors section that defines standards for your brand's color system, ensuring consistent use of primary, secondary, accent, and neutral colors across all experiences. 
-[Learn more](../content/brands-personalize.md)-->
+[Learn more](../content/brands-personalize.md)
+-->
 
 ## January '26 release {#26-1-release}
 

@@ -40,7 +40,8 @@ Adobe Campaign allows you to lock content in email templates, either by locking 
 <!--
 >[!IMPORTANT]
 >
->Content locking is an editor-level feature for authors and does not guarantee the content will remain unedited when imported or created through API.-->
+>Content locking is an editor-level feature for authors and does not guarantee the content will remain unedited when imported or created through API.
+-->
 
 Content locking can be applied either at the **structure** level or at the **component** level. Below are the main principles that apply at the structure and component level when locking content in your template:
 
@@ -61,7 +62,8 @@ Content locking can be applied either at the **structure** level or at the **com
 >Users with permissions to create content templates can enable content locking.
 
 <!--
-➡️ [Discover this feature in video](#video)-->
+➡️ [Discover this feature in video](#video)
+-->
 
 ## Lock an email template {#define}
 
@@ -195,4 +197,5 @@ TO REPLACE WITH VIDEO FOR CAMPAIGN IF/WHEN CREATED
 
 Learn how to lock content in email templates.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)-->
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)
+-->
