@@ -109,7 +109,8 @@ example of a configured activity within a workflow
 The Email delivery activity allows you to configure the sending of an email in a workflow. 
 -->
 
-<!-- Scheduled emails available?
+<!--
+ Scheduled emails available?
 
 This can be a single send email and sent just once, or it can be a recurring email.
 * Single send emails are standard emails, sent once.

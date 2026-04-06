@@ -11,10 +11,12 @@ exl-id: 90830dca-acff-4aa3-a88b-1005e349cf52
 >title="Transactional messaging"
 >abstract="Transactional messaging is a specialized module in Adobe Campaign designed to handle triggered messages."
 
-<!-- >>[!CONTEXTUALHELP]
+<!--
+>[!CONTEXTUALHELP]
 >id="acw_transacmessages_exclusionlogs"
 >title="Transactional messaging exclusion logs"
->abstract="Transactional messaging exclusion logs" -->
+>abstract="Transactional messaging exclusion logs" 
+-->
 
 Transactional messaging is a specialized module in Adobe Campaign designed to handle triggered messages. These messages are generated automatically in response to events coming from information systems. Common examples of such events include clicking on buttons or links, cart abandonment, requesting product availability alerts, account creation, or modification.
 
