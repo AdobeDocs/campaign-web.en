@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: Use a delivery workflow activity
-description: Learn how to add a delivery workflow activity (Email, Push, SMS, Direct mail)
+description: Learn how to add a delivery workflow activity (Email, Push, SMS, WhatsApp, Direct mail)
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
 ---
-# Email, SMS, Push, Direct mail activities {#channel}
+# Email, SMS, WhatsApp, Push, Direct mail activities {#channel}
 
-Adobe Campaign Web allows you to automate and execute marketing campaigns across email, SMS, direct mail, and push channels. You can combine channel activities into the workflow canvas to create cross-channel workflows that trigger actions based on customer behavior and data.
+Adobe Campaign Web allows you to automate and execute marketing campaigns across email, SMS, WhatsApp, direct mail, and push channels. You can combine channel activities into the workflow canvas to create cross-channel workflows that trigger actions based on customer behavior and data.
 
 For example, create a welcome email campaign that includes a series of messages across different channels, such as email, SMS, push, and direct mail. You can also send a follow-up email after a customer completes a purchase or send a personalized birthday message to a customer via SMS.
 
@@ -19,6 +19,7 @@ By using channel activities, create comprehensive and personalized campaigns tha
 >* [Create standalone SMS delivery](../../sms/create-sms.md)
 >* [Create standalone push delivery](../../push/create-push.md)
 >* [Create standalone direct mail delivery](../../direct-mail/create-direct-mail.md)
+>* [Create standalone WhatsApp delivery](../../whatsapp/create-whatsapp.md)
 
 ## Prerequisites {#channel-activity-prereq}
 
@@ -65,7 +66,7 @@ Start building your workflow with the relevant activities:
 
 To set up a delivery in the context of a workflow, follow the steps below:
 
-1. Add a channel activity: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification (Android)]**, **[!UICONTROL Push notification (iOS)]**, or **[!UICONTROL Direct mail]**.
+1. Add a channel activity: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL WhatsApp]**, **[!UICONTROL Push notification (Android)]**, **[!UICONTROL Push notification (iOS)]**, or **[!UICONTROL Direct mail]**.
 
 1. Select the **Type of delivery**: single or recurring. 
 
