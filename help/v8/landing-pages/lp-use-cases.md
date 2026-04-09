@@ -131,7 +131,8 @@ One of the most common use cases consists of inviting your customers to [subscri
 
     ![Screenshot showing the subscription checkbox interface.](assets/lp-uc-subscription-checkbox-1.png){zoomable="yes"}
 <!--
-1. You can add an additional checkbox to offer subscription to your newsletter for example.-->
+1. You can add an additional checkbox to offer subscription to your newsletter for example.
+-->
 
 1. Adjust your content as needed and save your changes.
 

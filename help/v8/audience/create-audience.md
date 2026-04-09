@@ -15,7 +15,8 @@ exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
 [!CONTEXTUALHELP]
 >id="acw_audiences_create_settings"
 >title="Audience settings"
->abstract="Enter the name of the audience and additional options, then click the **Create Audience** button."-->
+>abstract="Enter the name of the audience and additional options, then click the **Create Audience** button."
+-->
 
 ## About audience creation
 

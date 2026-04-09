@@ -14,7 +14,8 @@ Campaign platform customization based on business and data needs, and connection
 **Homepage**
 
 * Home page dashboard
-* Home page customization-->
+* Home page customization
+-->
 
 ## Campaign Management {#campaign-mgt-capabilities}
 
@@ -87,7 +88,8 @@ Note that the following capabilities are not available for now in the Campaign W
 <!--
 * Content from a URL`*`
 * Email fragments`*`
-* Multivariant / Multilingual use case`*`-->
+* Multivariant / Multilingual use case`*`
+-->
 
 ## Typologies and typology rules {#rules-capabilities}
 

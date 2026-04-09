@@ -22,7 +22,7 @@ The main steps to preview your SMS delivery are as follows. More details on how 
     ![Previewing personalized SMS content](assets/sms_send_1.png){zoomable="yes"}
 
 1. Click **[!UICONTROL Add test profile(s)]** to select one or several test profiles or profiles.
-    
+
     <!--
     Once your test profiles are selected, click **[!UICONTROL Select]**.
     ![Selecting test profiles for SMS preview](assets/sms_send_2.png){zoomable="yes"}
