@@ -55,11 +55,11 @@ Landing pages key capabilities are listed below:
 <p>
 </td>
 <td>
-<a href="lp-templates.md">
-<img alt="Work with content templates for landing pages" src="../assets/do-not-localize/lp-reporting.jpg">
+<a href="lp-use-cases.md">
+<img alt="Landing page use cases and built-in templates" src="../assets/do-not-localize/lp-reporting.jpg">
 </a>
 <div>
-<a href="lp-templates.md"><strong>Work with content templates</strong></a>
+<a href="lp-use-cases.md"><strong>Landing page use cases</strong></a>
 </div>
 <p>
 </td>

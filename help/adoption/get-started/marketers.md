@@ -355,11 +355,11 @@ Learn more about landing pages in the following sections:
 <p>
 </td>
 <td>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/lp-templates">
-<img alt="Validation" src="assets/lp-reporting.jpg">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/lp-use-cases">
+<img alt="Landing page use cases and built-in templates" src="assets/lp-reporting.jpg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/lp-templates"><strong>Work with landing page templates</strong></a>
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/lp-use-cases"><strong>Landing page use cases and built-in templates</strong></a>
 </div>
 <p>
 </td>
