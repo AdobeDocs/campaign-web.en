@@ -9,9 +9,9 @@ level: Beginner
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
 ---
 
-# Create a WhatsApp delivery {#create-whatsapp}
+# Create a WhatsApp message {#create-whatsapp}
 
-The **Adobe Campaign Web user interface** lets you design WhatsApp messages that use Meta-approved templates, personalize them for each profile, and test them before send. Create a **standalone** delivery, add a delivery **inside a campaign**, or place a **WhatsApp channel activity** in a workflow—the authoring experience is the same once the delivery editor opens.
+The **Adobe Campaign Web user interface** lets you design WhatsApp messages that use Meta-approved templates, personalize them for each profile, and test them before send. Create a **standalone** delivery, add a delivery **inside a campaign**, or place a **WhatsApp channel activity** in a workflow, the authoring experience is the same once the delivery editor opens.
 
 Outbound template-based messages are supported as described below.
 
@@ -50,17 +50,15 @@ In the Adobe Campaign Web user interface, follow the steps below to create a sta
 
 1. Click **[!UICONTROL Create delivery]** to confirm.
 
-1. Enter a **[!UICONTROL Label]** for the delivery. Use **[!UICONTROL Additional options]** if you need internal name, folder, delivery code, description, or nature—same pattern as other channels.
+1. Enter a **[!UICONTROL Label]** for the delivery. Use **[!UICONTROL Additional options]** if you need internal name, folder, delivery code, description, or nature, same pattern as other channels.
 
 1. Click **[!UICONTROL Select audience]** to target an existing audience or build one. [Learn more about audiences](../audience/about-recipients.md).
 
-1. Click **[!UICONTROL Edit content]** to open the WhatsApp content editor (see [Define your WhatsApp content](#whatsapp-content)).
+1. Click **[!UICONTROL Edit content]** to open the WhatsApp content editor, refer to [Define your WhatsApp content](#whatsapp-content)).
 
-1. Optional: enable **[!UICONTROL Enable scheduling]** to send on a specific date and time. [Learn more](../msg/gs-deliveries.md#gs-schedule).
+1. You can enable **[!UICONTROL Enable scheduling]** to send on a specific date and time. [Learn more](../msg/gs-deliveries.md#gs-schedule).
 
 1. Click **[!UICONTROL Settings]** for advanced options tied to your template. [Learn more](../advanced-settings/delivery-settings.md)
-
-
 
 
 ## Define your WhatsApp content{#whatsapp-content}
@@ -79,7 +77,6 @@ Your WhatsApp template must be approved by Meta before use. Approval often takes
 
     * Marketing
     * Utility
-    * Authentication
 
     [Learn more about Template categories](https://developers.facebook.com/docs/whatsapp/updates-to-pricing/new-template-guidelines/#template-category-guidelines)
 
@@ -91,16 +88,14 @@ Your WhatsApp template must be approved by Meta before use. Approval often takes
 
     ![](assets/whatsapp-design-2.png)
 
-1. In the **[!UICONTROL Image URL]** field, add media URLs to replace placeholders in your template. Meta template media are placeholders only; host assets on Adobe Experience Manager or another reachable URL.
-
-    ![](assets/whatsapp-design-3.png)
-
 1. Use the personalization editor to map profile fields and expressions into template parameters. [Learn more](../personalization/personalize.md).
 
     ![](assets/whatsapp-design-4.png)
 
-1. Use **[!UICONTROL Simulate content]** to preview the message with test data. [Learn more](send-whatsapp.md)
+When the message is ready:
 
-After you validate content and tests, [prepare and send](send-whatsapp.md) the delivery and monitor results with [delivery reports](../reporting/delivery-reports.md) and [campaign reports](../reporting/campaign-reports.md) where applicable.
+* **Standalone or campaign delivery**: In the Adobe Campaign Web user interface, open the delivery, run preparation if prompted, then use **[!UICONTROL Review & send]** and **[!UICONTROL Send]** from the delivery dashboard.
 
+* **Workflow**: In the Adobe Campaign Web user interface, start or resume the workflow so the delivery reaches a ready state, open the delivery from the activity, then confirm send from the delivery dashboard. [Learn more](../workflows/start-monitor-workflows.md)
 
+In the Adobe Campaign Web user interface, track results from the delivery **[!UICONTROL Reports]** entry points and [delivery reporting](../reporting/delivery-reports.md).
