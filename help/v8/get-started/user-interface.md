@@ -2,7 +2,6 @@
 audience: end-user
 title: Discover the interface
 description: Adobe Campaign Web user interface
-hidefromtoc: yes
 hide: yes
 robots: noindex
 googlebot: noindex
