@@ -2,7 +2,7 @@
 audience: end-user
 title: Discover the interface
 description: Adobe Campaign Web user interface
-hide: yes
+hide: true
 robots: noindex
 googlebot: noindex
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
