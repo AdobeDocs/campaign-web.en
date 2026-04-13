@@ -167,10 +167,7 @@ Additional information on how to preview an email and send proofs is available i
 
     ![Screenshot showing the email preview based on selected profiles](assets/preview.png){zoomable="yes"}
 
-    <!--
-Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using multiple devices or mail providers. Learn on how to preview email rendering
-    
--->
+    <!--Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using multiple devices or mail providers. Learn on how to preview email rendering-->
 
 1. To send proofs, click the **[!UICONTROL Send proofs]** button, then choose the mode you want to use.
 
