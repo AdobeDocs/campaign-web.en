@@ -12,17 +12,17 @@ breadcrumb-title: Campaign Web User Interface
 + [Adobe Campaign Web User Interface documentation](campaign-web-home.md)
 + Release notes {#release-notes}
   + [What's new?](rn/whats-new.md)
-  + [Early release](rn/e-release-notes.md)
+  + {hide-from-toc} [Early release](rn/e-release-notes.md)
   + [Latest release](rn/release-notes.md)
   + Previous releases {#previous-release-notes}
       + [2026 releases](rn/release-notes-26.md)
       + [2025 releases](rn/release-notes-25.md)
       + [2024 releases](rn/release-notes-24.md)
-  + [Documentation updates](rn/documentation-updates.md)
+  + {hide-from-toc} [Documentation updates](rn/documentation-updates.md)
 + Get started with Adobe Campaign {#start}
   + [Get started](get-started/get-started.md)
   + [Connect to Campaign](get-started/connect-to-campaign.md)
-  + [Discover the interface](get-started/user-interface.md)
+  + {hide-from-toc} [Discover the interface](get-started/user-interface.md)
   + [Browse and filter lists](get-started/list-filters.md)
   + [Work with predefined filters](get-started/predefined-filters.md)
   + [Work with folders](get-started/work-with-folders.md)
@@ -30,7 +30,7 @@ breadcrumb-title: Campaign Web User Interface
   + [Permissions](get-started/permissions.md)
   + [Campaign Web and Client console](get-started/capability-matrix.md)
   + [From Campaign Standard to v8](rn/acs-migration.md)
-  + [AI-powered contextual help](get-started/using-ai.md)
+  + {hide-from-toc} [AI-powered contextual help](get-started/using-ai.md)
   + [FAQ](get-started/faq.md)
 + Messages and deliveries {#msg}
   + [Get started with messages](msg/gs-messages.md)
@@ -145,7 +145,6 @@ breadcrumb-title: Campaign Web User Interface
   + [Get started with landing pages](landing-pages/get-started-lp.md)
   + [Create and publish a landing page](landing-pages/create-lp.md)
   + [Design landing page content](landing-pages/lp-content.md)
-  + [Work with landing page templates](landing-pages/lp-templates.md)
   + [Learn through use cases](landing-pages/lp-use-cases.md)
 + Profiles and audiences {#audiences}
   + [Get started with profiles and audiences](audience/gs-audiences-recipients.md)
@@ -218,7 +217,7 @@ breadcrumb-title: Campaign Web User Interface
   + [Work with the query modeler](query/query-modeler-overview.md)
   + [Build your first query](query/build-query.md)
   + [Edit expressions](query/expression-editor.md)
-  + [Query samples](query/query-samples.md)
+  + {hide-from-toc} [Query samples](query/query-samples.md)
   + [Filter lists](query/filter.md)
 + Reporting {#reports}
   + [Audit trail](reporting/audit-trail.md)
@@ -291,7 +290,7 @@ breadcrumb-title: Campaign Web User Interface
     + [Add collection lists](administration/schemas-collection-lists.md)
     + [Create and publish schemas](administration/schemas-create-publish.md)
     + [Work with custom forms](administration/schemas-custom-forms.md)
-  + [Configure custom fields](administration/custom-fields.md)
+  + {hide-from-toc} [Configure custom fields](administration/custom-fields.md)
   + [Configure [!DNL Campaign] options](administration/options.md)
   + [Timezone management](administration/timezone-management.md)
   + External accounts {#external-accounts}

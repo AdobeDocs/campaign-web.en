@@ -2,8 +2,7 @@
 audience: end-user
 title: Query samples
 description: Learn how to work with the query modeler.
-hide: yes
-hidefromtoc: yes
+hide: true
 exl-id: 6f8154ea-5d64-4950-9da3-427070ec7bf0
 ---
 
