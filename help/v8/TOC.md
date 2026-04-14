@@ -67,6 +67,8 @@ breadcrumb-title: Campaign Web User Interface
   + Call center {#call-center}
     + [Get started with call center deliveries](call-center/gs-call-center.md)
     + [Create and send a call center delivery](call-center/create-call-center.md)
+  + {hide-from-toc} [Get started with WhatsApp](whatsapp/get-started-whatsapp.md)
+  + {hide-from-toc} [Create a WhatsApp delivery](whatsapp/create-whatsapp.md)
   + [Custom channels](call-center/gs-custom-channel.md)
   + Transactional messages {#transactional-messages}
     + [Get started with transactional messages](transactional-messaging/transactional.md)
