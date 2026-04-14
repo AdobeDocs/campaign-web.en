@@ -15,7 +15,6 @@ hide: true
 The **Adobe Campaign Web user interface** lets you design WhatsApp messages that use Meta-approved templates, personalize them for each profile, and test them before send.
 
 
-<!--
 +++ Learn more about supported message elements and calls to actions
 
 The following message types are supported in WhatsApp:
@@ -24,23 +23,12 @@ The following message types are supported in WhatsApp:
 |-|-|
 | Headers | Optional text that appears above the body of your message.|
 | Text | Supports dynamic content through parameters. |
-| Images (JPEG, PNG) | Must be in 8-bit RGB or RGBA format and under 5 MB in size. |
-| Videos | Must be 3GPP or MP4, under 16 MB, and hosted via URL. |
-| Audio | Only available for response messages. Must be AAC, AMR, MP3, MP4 audio, or OGG format, hosted on a URL, and under 16 MB. |
-| Documents | Must be under 100 MB, hosted on a URL, and in one of the following formats: .txt, .xls/.xlsx, .doc/.docx, .ppt/.pptx, or .pdf. |
+| Header image | Optional image that appears above the body of your message. |
 | Body Text | Supports dynamic content through parameters. |
 | Footer Text | Supports dynamic content through parameters. |
 
-The following call-to-action option is available for your WhatsApp messages:
-
-| Call to actions | Description |
-|-|-|
-| Visit website| Only one button is permitted, with variable parameters included.|
-| Call on WhatsApp| Provides a button that opens a WhatsApp chat with the specified phone number directly from the message.|
-| Call phone number | Provides a button that initiates a phone call to the specified number when tapped by the user.|
-
 +++
--->
+
 
 ## Create a WhatsApp delivery {#create-whatsapp-journey-campaign}
 
