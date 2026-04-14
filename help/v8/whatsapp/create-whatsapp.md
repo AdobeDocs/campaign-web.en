@@ -7,14 +7,15 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
+hide: true
 ---
 
 # Create a WhatsApp message {#create-whatsapp}
 
-The **Adobe Campaign Web user interface** lets you design WhatsApp messages that use Meta-approved templates, personalize them for each profile, and test them before send. Create a **standalone** delivery, add a delivery **inside a campaign**, or place a **WhatsApp channel activity** in a workflow, the authoring experience is the same once the delivery editor opens.
+The **Adobe Campaign Web user interface** lets you design WhatsApp messages that use Meta-approved templates, personalize them for each profile, and test them before send.
 
-Outbound template-based messages are supported as described below.
 
+<!--
 +++ Learn more about supported message elements and calls to actions
 
 The following message types are supported in WhatsApp:
@@ -39,16 +40,29 @@ The following call-to-action option is available for your WhatsApp messages:
 | Call phone number | Provides a button that initiates a phone call to the specified number when tapped by the user.|
 
 +++
+-->
 
 ## Create a WhatsApp delivery {#create-whatsapp-journey-campaign}
 
+>[!IMPORTANT]
+>
+>WhatsApp message feedback is not currently supported.
+
 In the Adobe Campaign Web user interface, follow the steps below to create a standalone WhatsApp delivery.
 
-1. Browse to the **[!UICONTROL Deliveries]** menu on the left rail, and click **[!UICONTROL Create delivery]**.
+1. Browse to the **[!UICONTROL Deliveries]** menu, and click **[!UICONTROL Create delivery]**.
 
-1. Under **[!UICONTROL Channel]**, choose **[!UICONTROL WhatsApp]** and select a delivery template. [Learn more about templates](../msg/delivery-template.md).
+    ![](assets/whatsapp-create-1.png)
+
+1. Cchoose **[!UICONTROL WhatsApp]** and select a delivery template. [Learn more about templates](../msg/delivery-template.md).
+
+    ![](assets/whatsapp-create-2.png)
 
 1. Click **[!UICONTROL Create delivery]** to confirm.
+
+1. Click **[!UICONTROL Settings]** for advanced options tied to your template. [Learn more](../advanced-settings/delivery-settings.md)
+
+    ![](assets/whatsapp-create-3.png)
 
 1. Enter a **[!UICONTROL Label]** for the delivery. Use **[!UICONTROL Additional options]** if you need internal name, folder, delivery code, description, or nature, same pattern as other channels.
 
@@ -56,9 +70,9 @@ In the Adobe Campaign Web user interface, follow the steps below to create a sta
 
 1. Click **[!UICONTROL Edit content]** to open the WhatsApp content editor, refer to [Define your WhatsApp content](#whatsapp-content)).
 
-1. You can enable **[!UICONTROL Enable scheduling]** to send on a specific date and time. [Learn more](../msg/gs-deliveries.md#gs-schedule).
+    ![](assets/whatsapp-create-4.png)
 
-1. Click **[!UICONTROL Settings]** for advanced options tied to your template. [Learn more](../advanced-settings/delivery-settings.md)
+1. You can enable **[!UICONTROL Enable scheduling]** to send on a specific date and time. [Learn more](../msg/gs-deliveries.md#gs-schedule).
 
 
 ## Define your WhatsApp content{#whatsapp-content}
@@ -71,12 +85,9 @@ Your WhatsApp template must be approved by Meta before use. Approval often takes
 
 >[!ENDSHADEBOX]
 
-1. From the delivery configuration screen in the Adobe Campaign Web user interface, click **[!UICONTROL Edit content]** to configure the WhatsApp message.
+1. From the delivery configuration page in the Adobe Campaign Web user interface, click **[!UICONTROL Edit content]** to configure the WhatsApp message.
 
-1. Choose your **Template category**:
-
-    * Marketing
-    * Utility
+1. Choose Marketing as your **Template category**:
 
     [Learn more about Template categories](https://developers.facebook.com/docs/whatsapp/updates-to-pricing/new-template-guidelines/#template-category-guidelines)
 
@@ -88,14 +99,18 @@ Your WhatsApp template must be approved by Meta before use. Approval often takes
 
     ![](assets/whatsapp-design-2.png)
 
-1. Use the personalization editor to map profile fields and expressions into template parameters. [Learn more](../personalization/personalize.md).
+1. If your Meta-approved template includes an image, provide the **[!UICONTROL Image URL]**.
+
+    ![](assets/whatsapp-design-3.png)
+
+1. In the **Personalization placeholder** field, use the personalization editor to map profile fields and expressions to the template parameters. [Learn more](../personalization/personalize.md).
 
     ![](assets/whatsapp-design-4.png)
 
 When the message is ready:
 
-* **Standalone or campaign delivery**: In the Adobe Campaign Web user interface, open the delivery, run preparation if prompted, then use **[!UICONTROL Review & send]** and **[!UICONTROL Send]** from the delivery dashboard.
+* **Standalone or campaign delivery**: Use **[!UICONTROL Review & send]** and **[!UICONTROL Send]** on the delivery dashboard.
 
-* **Workflow**: In the Adobe Campaign Web user interface, start or resume the workflow so the delivery reaches a ready state, open the delivery from the activity, then confirm send from the delivery dashboard. [Learn more](../workflows/start-monitor-workflows.md)
+* **Workflow**: Open the delivery from the workflow activity when the execution makes it available, then use the delivery dashboard in the same manner. [Learn more](../workflows/start-monitor-workflows.md)
 
-In the Adobe Campaign Web user interface, track results from the delivery **[!UICONTROL Reports]** entry points and [delivery reporting](../reporting/delivery-reports.md).
+You can then track results from the delivery **[!UICONTROL Reports]** entry points and [delivery reporting](../reporting/delivery-reports.md).

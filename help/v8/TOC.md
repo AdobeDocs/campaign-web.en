@@ -59,10 +59,6 @@ breadcrumb-title: Campaign Web User Interface
     + [Create an SMS delivery](sms/create-sms.md)
     + [Design an SMS delivery ](sms/content-sms.md)
     + [Preview and send an SMS delivery ](sms/send-sms.md)
-  + WhatsApp {#whatsapp}
-    + [Get started with WhatsApp](whatsapp/get-started-whatsapp.md)
-    + [Create a WhatsApp delivery](whatsapp/create-whatsapp.md)
-    + [Preview and send WhatsApp](whatsapp/send-whatsapp.md)
   + Direct mail {#direct-mail}
     + [Get started with direct mail deliveries](direct-mail/gs-direct-mail.md)
     + [Create a direct mail delivery](direct-mail/create-direct-mail.md)
@@ -71,6 +67,8 @@ breadcrumb-title: Campaign Web User Interface
   + Call center {#call-center}
     + [Get started with call center deliveries](call-center/gs-call-center.md)
     + [Create and send a call center delivery](call-center/create-call-center.md)
+  + {hide-from-toc} [Get started with WhatsApp](whatsapp/get-started-whatsapp.md)
+  + {hide-from-toc} [Create a WhatsApp delivery](whatsapp/create-whatsapp.md)
   + [Custom channels](call-center/gs-custom-channel.md)
   + Transactional messages {#transactional-messages}
     + [Get started with transactional messages](transactional-messaging/transactional.md)
