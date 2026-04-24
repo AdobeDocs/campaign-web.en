@@ -3,6 +3,10 @@ audience: end-user
 title: Configure workflow settings
 description: Learn how to configure workflow settings with Adobe Campaign Web
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
+TQID: https://experienceleague.adobe.com/u76tPZP4tkdiIUuXc0yIoIFvy-mEO8JRd-MKYY9J11o
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Configure workflow settings {#workflow-settings}
 

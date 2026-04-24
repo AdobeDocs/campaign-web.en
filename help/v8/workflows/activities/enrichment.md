@@ -3,8 +3,17 @@ audience: end-user
 title: Use the Enrichment workflow activity
 description: Learn how to use the Enrichment workflow activity
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
+TQID: https://experienceleague.adobe.com/yYV7iC9u6wWwpJMEUUlwGRAPsuDiZkPvLD-cmw4IPf4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
-
 # Enrichment {#enrichment}
 
 >[!CONTEXTUALHELP]

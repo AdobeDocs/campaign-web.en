@@ -3,6 +3,10 @@ audience: end-user
 title: Use the Wait workflow activity
 description: Learn how to use the Wait workflow activity
 exl-id: 970953a1-0091-477c-9f52-596af3a8857d
+TQID: https://experienceleague.adobe.com/pe-T3-3w5HaS0pNOZITNC1YS5hiJpj3H3P1eM0GmXb8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Wait {#wait}
 

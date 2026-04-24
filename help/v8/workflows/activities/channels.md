@@ -3,6 +3,13 @@ audience: end-user
 title: Use a delivery workflow activity
 description: Learn how to add a delivery workflow activity (Email, Push, SMS, WhatsApp, Direct mail)
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
+TQID: https://experienceleague.adobe.com/A58FyTL-G-NDqeY27VY8ZKw5iHg7iQ9KMdOob-yFCFM
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 ---
 # Email, SMS, WhatsApp, Push, Direct mail activities {#channel}
 

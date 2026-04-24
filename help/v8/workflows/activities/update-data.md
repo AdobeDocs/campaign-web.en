@@ -3,6 +3,13 @@ audience: end-user
 title: Use the Update data workflow activity
 description: Learn how to use the Update data workflow activity
 exl-id: db978482-43f6-48a7-8d8d-4b921eb610b2
+TQID: https://experienceleague.adobe.com/XEGIeWi9D0dUYRFTD-fRY3P2BEpbOTvmm9aD06uq8RA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 ---
 # Update data {#update-data}
 

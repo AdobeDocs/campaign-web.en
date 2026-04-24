@@ -2,6 +2,10 @@
 title: Guardrails and limitations in Campaign Web user interface workflows
 description: Guardrails and limitations when working with workflows in Campaign Web user interface
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
+TQID: https://experienceleague.adobe.com/ueMHT8uicRU5nggOtC1xtoSIp8sGd82zlA2hoFrXodc
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Guardrails and limitations for workflows {#guardrails-limitations}
 

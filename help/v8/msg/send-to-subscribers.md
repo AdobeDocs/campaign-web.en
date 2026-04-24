@@ -3,6 +3,10 @@ audience: end-user
 title: Send messages to the subscribers of a service
 description: Learn how to send messages to the subscribers of a service
 exl-id: f6e14db5-261c-4fa6-bd19-fd8bdc04aaf1
+TQID: https://experienceleague.adobe.com/AqhjUeWF14SOAq23MOAZjlTRiw8UOdc9c9az1AyCJIc
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Send messages to the subscribers of a service {#send-to-subscribers}
 

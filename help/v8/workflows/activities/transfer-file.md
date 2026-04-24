@@ -3,6 +3,15 @@ audience: end-user
 title: Use the Transfer file activity
 description: Learn how to use the Transfer file workflow activity
 exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
+TQID: https://experienceleague.adobe.com/KUirsZa80G1TgwV8yjIqvxmSNG1MTQj1h0xVLywFa60
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 ---
 # Transfer file {#transfer-file}
 

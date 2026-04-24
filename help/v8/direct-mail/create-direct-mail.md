@@ -3,6 +3,10 @@ audience: end-user
 title: Create a direct mail delivery
 description: Learn how to create a direct mail delivery with Adobe Campaign Web
 exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
+TQID: https://experienceleague.adobe.com/ae0IUbZBdla45dSwwODEJg0Dd8rvA1TyR-fuzx2X6Vg
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Create a direct mail delivery {#create-direct-mail}
 

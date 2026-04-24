@@ -3,6 +3,13 @@ audience: end-user
 title: Edit the email content
 description: Learn how to edit the email content in Campaign Web user interface
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
+TQID: https://experienceleague.adobe.com/G--NwJZpg2lItNE9tWbJrqG83a8jMEzzfQ4MVfvXFyY
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Configure the email content {#edit-content}
 

@@ -3,6 +3,13 @@ audience: end-user
 title: Use the Incremental query workflow activity
 description: Learn how to use the Incremental query workflow activity
 exl-id: 72bd307b-eba2-42a0-9744-05e089c34925
+TQID: https://experienceleague.adobe.com/TsjFvMucie8cVAB7FlWiVq9BhMoS5oGQhKQkg5CYKDQ
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 # Incremental query {#incremental-query}
 

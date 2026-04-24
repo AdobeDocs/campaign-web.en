@@ -3,6 +3,13 @@ audience: end-user
 title: Create audiences
 description: Learn how to create audiences in Adobe Campaign Web
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
+TQID: https://experienceleague.adobe.com/3uaqEhHU8Hn8OkHogqYfPMXfKSaexNrD-9Y94ZX-SA0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # Create audiences {#create-audiences}
 

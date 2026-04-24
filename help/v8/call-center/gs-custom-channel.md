@@ -3,6 +3,13 @@ audience: end-user
 title: Get started with custom channels
 description: Learn how to create and send custom channel deliveries with Adobe Campaign Web
 exl-id: b4336a0a-d845-4024-a06b-400fce1316a4
+TQID: https://experienceleague.adobe.com/OJ-3-J3wnbTyQ3qiIYauUtPnhCjk-CgM-tUyVALnVUw
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Get started with custom channels {#gs-custom-channel}
 

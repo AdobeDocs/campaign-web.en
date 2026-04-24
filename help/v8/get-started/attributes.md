@@ -3,6 +3,13 @@ audience: end-user
 title: Select attributes and add them to favorites
 description: Learn how to work with attributes and easily access favorite and recently used attributes.
 exl-id: 27663e57-fdab-4371-b7c6-12064ed6526f
+TQID: https://experienceleague.adobe.com/Bkj-J6OG12-LbMCwv9uankcZCZErylVtZVZtR512H6g
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
 ---
 # Select attributes and add them to favorites {#folders}
 

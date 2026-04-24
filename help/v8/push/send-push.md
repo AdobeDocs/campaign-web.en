@@ -3,6 +3,13 @@ audience: end-user
 title: Send a push notification delivery
 description: Learn how to send a push notification delivery with Adobe Campaign Web
 exl-id: 16b3b33b-36db-4635-8e44-707694b859db
+TQID: https://experienceleague.adobe.com/X4zw5wvdlQBDMJRY8B0QAPLjBOLNJh0sUK6KONmhPyU
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Preview and send a push delivery {#send-push-delivery}
 

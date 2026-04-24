@@ -3,6 +3,15 @@ audience: end-user
 title: Generative content
 description: Learn how to generate text content experiences with AI Assistant
 exl-id: da60d57e-d17f-40eb-9c24-0bfea940d236
+TQID: https://experienceleague.adobe.com/yV28iGW0nS-R6ZgQnfOrpfZlCzQu-1Ng1TH6aWD8QOg
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Generate text with AI Assistant {#generative-text}
 

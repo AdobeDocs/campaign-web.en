@@ -3,6 +3,13 @@ audience: end-user
 title: Add offers in your messages
 description: Learn how to add and send offers
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
+TQID: https://experienceleague.adobe.com/aAihPctzpv-wOectPp1y1qntZBX9rH5MqT1e0OLD4uA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Add offers to your messages {#offers-content}
 

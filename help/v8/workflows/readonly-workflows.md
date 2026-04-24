@@ -3,6 +3,13 @@ audience: end-user
 title: About read-only workflows
 description: Learn why workflows are on read-only mode
 exl-id: 5eaffe2c-7a9c-4508-8dd1-495cfcf99c59
+TQID: https://experienceleague.adobe.com/7yCq55pTgMBqdDxeRXmvHeVQLeGCFUIaxCUcdJlmYik
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # About read-only workflows {#readonly-workflows}
 

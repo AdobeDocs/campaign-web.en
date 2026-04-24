@@ -3,6 +3,10 @@ audience: end-user
 title: Use the Build audience workflow activity
 description: Learn how to use the Build audience workflow activity
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
+TQID: https://experienceleague.adobe.com/6CerJ1hOBDDc3gAN-AQFuxkiBpbcxH-2YLPAXaBpanE
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Build audience {#build-audience}
 

@@ -3,6 +3,10 @@ audience: end-user
 title: Work with the query modeler
 description: Learn how to work with the Adobe Campaign Web query modeler.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
+TQID: https://experienceleague.adobe.com/lT-df-KAmZo0z77wk9iB882eSxmrW60-a-WYnHd0RzE
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Work with the query modeler {#segment-builder}
 

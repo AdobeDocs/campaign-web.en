@@ -3,6 +3,10 @@ audience: end-user
 title: Use the Change data source workflow activity
 description: Learn how to use the Change data source workflow activity
 exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
+TQID: https://experienceleague.adobe.com/fJB0PL8T0B6A8aIFuLp8prh6-l28GQACQT91YR8hrBo
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Change data source {#change-data-source}
 
