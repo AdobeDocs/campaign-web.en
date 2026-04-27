@@ -14,7 +14,7 @@ Adobe Campaign Web user interface releases operate on a continuous delivery mode
 
 ## April '26 release {#26-4-release}
 
-_April 27, 2026_
+_April 28, 2026_
 
 ### Improvement {#26-4-improvement}
 
@@ -23,6 +23,8 @@ The **Enrichment data** section is now available in the **Build audience** workf
 <!--[Learn more](../workflows/activities/build-audience.md)-->
 
 ## March '26 release {#26-3-release}
+
+_March_ 24, 2026_
 
 ### New features {#26-3-features}
 
