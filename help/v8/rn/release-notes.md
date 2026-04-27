@@ -12,6 +12,16 @@ exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 
 Adobe Campaign Web user interface releases operate on a continuous delivery model which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
+## April '26 release {#26-4-release}
+
+_April 27, 2026_
+
+### Improvement {#26-4-improvement}
+
+The **Enrichment data** section is now available in the **Build audience** workflow activity (query type). You can view, add, edit, and remove **additional data** directly from the Campaign Web User Interface. As in the **Enrichment** activity, you can add single enrichment attributes, collection links and expressions.
+
+<!--[Learn more](../workflows/activities/build-audience.md)-->
+
 ## March '26 release {#26-3-release}
 
 ### New features {#26-3-features}
