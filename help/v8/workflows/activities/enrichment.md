@@ -14,6 +14,10 @@ exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 
 The **Enrichment** activity is a **Targeting** activity. It enhances the targeted data with additional information from the database. It is commonly used in a workflow after segmentation activities.
 
+>[!NOTE]
+>
+>The **Build audience** activity also allows you to add **additional data**. See [Use the Build audience activity](build-audience.md#build-audience-configuration).
+
 Enrichment data can come from either:
 
 * **The same work table** as the one targeted in your workflow:

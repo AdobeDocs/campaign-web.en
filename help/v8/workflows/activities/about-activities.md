@@ -20,7 +20,7 @@ All activities are detailed in the sections below:
 
 These activities are specific to targeting. They allow you to build one or more target audiences by defining an audience and splitting or combining these audiences using intersection, union, or exclusion operations.
 
-* [Build audience](build-audience.md): Define your target population. Select an existing audience or use the query modeler to define your own query.
+* [Build audience](build-audience.md): Define your target population. Select an existing audience or use the query modeler to define your own query. You can also configure **Enrichment data** (available for queries).
 * [Change data source](change-data-source.md): Change the data source for the working table of your workflow.
 * [Change dimension](change-dimension.md): Change the targeting dimension while building your workflow.
 * [Combine](combine.md): Perform segmentation on your inbound population. Use a union, an intersection, or an exclusion.

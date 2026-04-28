@@ -20,7 +20,7 @@ _April 28, 2026_
 
 The **Enrichment data** section is now available in the **Build audience** workflow activity (query type). You can view, add, edit, and remove **additional data** directly from the Campaign Web User Interface. As in the **Enrichment** activity, you can add single enrichment attributes, collection links and expressions.
 
-<!--[Learn more](../workflows/activities/build-audience.md)-->
+[Learn more](../workflows/activities/build-audience.md)
 
 ## March '26 release {#26-3-release}
 

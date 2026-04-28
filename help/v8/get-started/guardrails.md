@@ -22,11 +22,14 @@ Workflow activities that are not supported yet in Campaign Web user interface ar
 | --- | --- |
 | ![Screenshot showing limitations of activities in the console](assets/limitations-activities-console.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![Screenshot showing limitations of activities in the web interface](assets/limitations-activities-web.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
 
+<!-->
 When a **Query** or an **Enrichment** activity is configured with additional data in the console, the enrichment data is taken into account in Campaign Web and passed into the outbound transition, but it cannot be edited.
 
 | Console | Web |
 | --- | --- |
 | ![Screenshot showing limitations of options in the console](assets/limitations-options-console.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![Screenshot showing limitations of options in the web interface](assets/limitations-options-web.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
+
+-->
 
 In the console, the **Enrichment** activity can perform both reconciliation and enrichment. If you have defined reconciliation settings in the **Enrichment** activity in the client console, it will be displayed as a **Reconciliation** activity in Campaign Web user interface.
 
