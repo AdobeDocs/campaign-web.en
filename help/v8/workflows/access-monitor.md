@@ -34,8 +34,7 @@ Workflows can have multiple statuses:
 * **[!UICONTROL Draft]**: The workflow has been created and saved.
 * **[!UICONTROL In progress]**: The workflow is currently running.
 * **[!UICONTROL Finished]**: The workflow execution is complete.
-* **[!UICONTROL Paused]**: The workflow has been paused.
-* **[!UICONTROL Erroneous]**: The workflow encountered an error. Open the workflow and access the logs and tasks to identify the error and resolve it. [Learn how to monitor logs and tasks](start-monitor-workflows.md#logs-tasks)
+* **[!UICONTROL Paused]**: The workflow has been paused, either manually or automatically after encountering an error. If the workflow was paused due to an error, open it and access the logs and tasks to identify the issue and resolve it. [Learn how to monitor logs and tasks](start-monitor-workflows.md#logs-tasks)
 
 Detailed information on how to start and monitor workflow execution is available on [this page](start-monitor-workflows.md).
 
