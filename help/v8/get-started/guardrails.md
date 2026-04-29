@@ -22,7 +22,7 @@ Workflow activities that are not supported yet in Campaign Web user interface ar
 | --- | --- |
 | ![Screenshot showing limitations of activities in the console](assets/limitations-activities-console.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![Screenshot showing limitations of activities in the web interface](assets/limitations-activities-web.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
 
-<!-->
+<!--
 When a **Query** or an **Enrichment** activity is configured with additional data in the console, the enrichment data is taken into account in Campaign Web and passed into the outbound transition, but it cannot be edited.
 
 | Console | Web |
