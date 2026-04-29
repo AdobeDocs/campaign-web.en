@@ -14,7 +14,7 @@ Adobe Campaign Web user interface releases operate on a continuous delivery mode
 
 ## April '26 release {#26-4-release}
 
-_April 28, 2026_
+_April 29, 2026_
 
 ### Improvement {#26-4-improvement}
 
