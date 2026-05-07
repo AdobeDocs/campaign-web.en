@@ -88,16 +88,18 @@ You can learn how to [view and manage permissions here](permissions.md).
 
 ## Adobe Experience Cloud top navigation {#top-bar}
 
-Browse the top bar of the interface to:
+The top bar of the interface gives you quick access to core Experience Cloud features.
+
+![Screenshot showing the Adobe Experience Cloud top navigation bar](assets/do-not-localize/unified-shell.png){zoomable="yes"}
+
+Use the top bar to:
 
 * Share feedback about the Campaign Web user interface.
 * Switch between your organizations.
 * Switch between your Adobe Experience Cloud solutions and apps.
 * Search for help on [Adobe Experience League](https://experienceleague.adobe.com/docs/){target="_blank"}.
-* Check your product notifications.
-* Edit your Adobe profile and manage settings, such as [update your favorite language](#language-pref) or [switch to light/dark theme](#dark-theme).
-
-![Screenshot showing the Adobe Experience Cloud top navigation bar](assets/do-not-localize/unified-shell.png){zoomable="yes"}{width="50%" align="left"}
+* View your product notifications.
+* Edit your Adobe profile and manage settings, such as [updating your preferred language](#language-pref) or [switching between light and dark themes](#dark-theme).
 
 ## Supported browsers {#browsers}
 
