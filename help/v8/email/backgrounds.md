@@ -6,6 +6,7 @@ exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
 ---
 # Personalize your email background {#backgrounds}
 
+
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
 >title="Background settings"

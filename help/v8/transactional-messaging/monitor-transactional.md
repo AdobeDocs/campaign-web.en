@@ -32,10 +32,12 @@ Search for your message and click on it to view its details.
 
 ## Event history {#event-history}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_eventhistory"
 >title="Transactional messaging event history"
 >abstract="You can view the events that trigger your transactional message."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_eventhistory_preview"

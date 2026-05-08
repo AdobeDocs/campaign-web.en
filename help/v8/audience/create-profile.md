@@ -5,35 +5,42 @@ exl-id: 0680b726-8f2f-45bf-8aa0-c1d4aa1c2990
 ---
 # Create a profile {#profiles}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_details"
 >title="Basic details"
 >abstract="This section provides insights into the basic details of the profile. To modify any information, make changes directly within the respective field, and click the **Save** button located in the upper-right corner of the screen."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_contactinformation"
 >title="Contact information"
 >abstract="This section provides insights into the profile's contact information. To modify any information, make changes directly within the respective field, and click the **Save** button located in the upper-right corner of the screen."
 
+
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_address"
 >title="Address"
 >abstract="This section provides insights into the profile's postal address and the address quality. To modify any information, make changes directly within the respective field, and click the **Save** button located in the upper-right corner of the screen."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_account"
 >title="Account details"
 >abstract="This section provides insights into the account details of the profile. To modify any information, make changes directly within the respective field, and click the **Save** button located in the upper-right corner of the screen."
 
+
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_nolongercontact"
 >title="No longer contact"
 >abstract="This section provides insights into the contact preferences of the profile. To modify any information, make changes directly within the respective field, and click the **Save** button located in the upper-right corner of the screen."
 
+
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_customfields"
 >title="Custom fields"
 >abstract="Custom fields are specific attributes tailored to your needs that have been configured for your instance. To modify any information, make changes directly within the respective field, and click the **Save** button located in the upper-right corner of the screen."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_othersfields"

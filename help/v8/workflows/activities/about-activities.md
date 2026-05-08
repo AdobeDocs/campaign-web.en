@@ -48,15 +48,18 @@ Adobe Campaign Web allows you to automate and execute marketing campaigns across
 
 ## Flow control activities {#flow-control}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_end"
 >title="End activity"
 >abstract="The **End** activity allows you to graphically mark the end of a workflow. This activity has no functional impact and is therefore optional."
 
+
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_start"
 >title="End activity"
 >abstract="The **Start** activity allows you to graphically mark the start of a workflow. This activity has no functional impact and is therefore optional."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_signal"

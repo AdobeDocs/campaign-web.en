@@ -6,20 +6,24 @@ exl-id: 8efdc140-6cae-430d-b585-ff581993ff60
 ---
 # Deduplication {#deduplication}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
 >title="Fields to identify duplicates"
 >abstract="In the **Fields to identify duplicates** section, click the **Add attribute** button to specify the fields for which identical values allow duplicates to be identified, such as email address, first name, and last name. The order of the fields specifies those to process first."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication"
 >title="Deduplication activity"
 >abstract="The **Deduplication** activity deletes duplicates in the results of inbound activities. It is mostly used after targeting activities and before activities that use targeted data."
 
+
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"
 >title="Generate a complement"
 >abstract="You can generate an additional outbound transition with the remaining population excluded as duplicates. To do this, toggle on the **Generate complement** option."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_settings"

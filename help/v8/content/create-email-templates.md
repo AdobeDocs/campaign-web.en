@@ -11,6 +11,7 @@ exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
 ---
 # Work with content templates {#content-templates}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_menu"
 >title="Content templates"
@@ -25,6 +26,7 @@ This functionality enables content-oriented users to work on standalone template
 >Currently, only **email** content templates are supported.
 
 ## Access content templates {#access-templates}
+
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_edition"
@@ -55,10 +57,12 @@ As shown below, all feature icons are deactivated, limiting interaction to viewi
 
 ## Create content templates {#create-content-templates}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_design"
 >title="Content template design"
 >abstract="Design your email content template."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_selection"
@@ -76,6 +80,7 @@ Once saved, you can use this template when building any [email](../email/create-
 >* Similarly, when templates are used in an email, any edits you make to your email content do not impact the previously used content template.
 
 ### Create a new content template {#create-template-from-scratch}
+
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_properties"

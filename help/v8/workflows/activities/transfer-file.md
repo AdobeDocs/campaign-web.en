@@ -6,25 +6,30 @@ exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
 ---
 # Transfer file {#transfer-file}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile"
 >title="Transfer file"
 >abstract="The **Transfer file** activity allows you to receive or send files, test for file presence, or list files on a server. The protocol used can be either server-to-server protocol or HTTP protocol."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_options"
 >title="Transfer file options"
 >abstract="Transfer file options"
 
+
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_activity"
 >title="Transfer file activity"
 >abstract="Transfer file activity"
 
+
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_remoteserver"
 >title="Transfer file remote server"
 >abstract="Specify the server to connect."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_source"
@@ -86,6 +91,7 @@ Follow the steps detailed below to configure the **Transfer file** activity.
 
 ## Historization settings {#historization}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_historization"
 >title="File historization"
@@ -109,25 +115,30 @@ Every time the activity is executed, the folder is checked as follows:
 
 ## Advanced & error management options {#advanced}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_delete_file"
 >title="Delete the source files after transfer"
 >abstract="Erase the source files after a successful transfer."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_display_logs"
 >title="Display the session logs"
 >abstract="Information related to the transfer operation is displayed in the workflow logs."
 
+
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_list_files"
 >title="List all files"
 >abstract="This option indexes all the files present on the server in the **vars.filenames** event variable."
 
+
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_missing_file"
 >title="Process missing files"
 >abstract="This option allows you to activate a **No file** outbound transition after the activity."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_errors"

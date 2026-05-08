@@ -19,6 +19,7 @@ Learn how to connect to Adobe Campaign and explore Experience Cloud navigation b
 
 ## Campaign home page {#user-interface-home}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_homepage_recent"
 >title="Recents"
@@ -38,20 +39,24 @@ Additionally, you can access Adobe Campaign Web key help pages from the **Learni
 
 ### About link {#user-interface-about}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_about"
 >title="About page"
 >abstract="The About page provides details about your Adobe Campaign instance."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_about_instance"
 >title="About Instance"
 >abstract="The Instance section provides key information about your console client, including both the version and the associated build number."
 
+
 >[!CONTEXTUALHELP]
 >id="acw_about_web"
 >title="About Web"
 >abstract="The Web section displays the version of your Campaign Web user interface, with the last update date of it, if available."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_about_packages"
@@ -80,6 +85,7 @@ The **Installed packages** section lists all the modules, features, and integrat
 Browse the links on the left to access Adobe Campaign Web capabilities. Several links display lists of objects that can be sorted and filtered. You can also configure columns to display all the information you need. See this [section](#list-screens). Some list screens are read-only. The items displayed in the left navigation menu and in the lists depend on your user permissions. Learn more about permissions in [this section](permissions.md).
 
 ### Explorer {#user-interface-explorer}
+
 
 >[!CONTEXTUALHELP]
 >id="acw_explorer"
@@ -129,6 +135,7 @@ In the **Customer management** section, you can view your profiles, audiences, a
 
 ### Decision Management {#decision-management}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
 >title="Offers"
@@ -162,6 +169,7 @@ Learn how to browse, search, and filter lists available in your Campaign environ
 
 
 <!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_notification"

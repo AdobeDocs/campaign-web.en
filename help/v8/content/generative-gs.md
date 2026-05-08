@@ -6,15 +6,18 @@ exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 ---
 # Work with AI Assistant {#generative-gs}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
 >title="AI Assistant"
 >abstract="After crafting and personalizing your delivery, use AI Assistant to enhance your content. This feature simplifies personalization and content improvement by allowing you to fine-tune the content by describing what you want to generate."
 
+
 >[!CONTEXTUALHELP]
 >id="acw_generation_context"
 >title="Define context with AI Assistant in Campaign"
 >abstract="To use the selected content as input for content generation, activate the **Enhance with current content** toggle. You can also upload your brand assets to use them as a source. If you do not use the selected content, uploading and selecting brand assets are mandatory."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_emagica_generate"

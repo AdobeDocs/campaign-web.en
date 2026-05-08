@@ -6,20 +6,24 @@ exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
 ---
 # Reconciliation {#reconciliation}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
 >title="Reconciliation activity"
 >abstract="The **Reconciliation** activity is a **Targeting** activity that defines the link between the data in the Adobe Campaign database and the data in a work table. For example, the **Reconciliation** activity can be placed after a **Load file** activity to import non-standard data into the database. In this case, the **Reconciliation** activity defines the link between the data in the Adobe Campaign database and the data in the external table."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_field"
 >title="Reconciliation select field"
 >abstract="Reconciliation select field"
 
+
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_condition"
 >title="Reconciliation create condition"
 >abstract="Reconciliation create condition"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_complement"
@@ -39,10 +43,12 @@ While the **Enrichment** activity defines additional data to process in your wor
 
 ## Configure the Reconciliation activity {#reconciliation-configuration}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting"
 >title="Targeting dimension"
 >abstract="Select the new targeting dimension. A dimension defines the targeted population: recipients, app subscribers, operators, subscribers, and more. By default, the current targeting dimension is selected."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_rules"
@@ -50,16 +56,19 @@ While the **Enrichment** activity defines additional data to process in your wor
 >abstract="Select reconciliation rules for deduplication. To use attributes, select the **Simple attributes** option and choose the source and destination fields. To create your own reconciliation condition using the query modeler, select the **Advanced reconciliation conditions** option."
 >additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/query-database/query-modeler-overview" text="Work with the query modeler"
 
+
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting_selection"
 >title="Select the targeting dimension"
 >abstract="Select the targeting dimension for your inbound data to reconcile with."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html#targeting-dimensions" text="Targeting dimensions"
 
+
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_keep_unreconciled_data"
 >title="Keep unreconciled data"
 >abstract="By default, non-reconciled data are kept in the outbound transition and available in the worktable for future use. To remove unreconciled data, deactivate the **Keep unreconciled data** option."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_attribute"

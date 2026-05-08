@@ -6,10 +6,12 @@ exl-id: b2677579-c95d-443d-b207-466af364c208
 ---
 # Send proofs {#send-test-deliveries}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_mode"
 >title="Preview mode"
 >abstract="Preview and test the message by including the test population to the main target."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_additional_proof_target"
@@ -21,6 +23,7 @@ Once your message content is defined, you can preview and test it by sending pro
 To detect possible errors in the message content or personalization settings, send proofs to test profiles before sending them to the target audience. A proof should be sent each time a change is made, to validate the latest content. Sending proofs is an important step in validating your campaign and identifying potential issues. The proof recipients can check various elements such as links, opt-out links, images, or mirror pages, as well as detect any errors in the rendering, content, personalization settings, and delivery configuration.
 
 ## Simulate content with test profiles {#simulate-content-test-deliveries}
+
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
@@ -49,20 +52,24 @@ To start testing your message content:
 
 ## Use test profiles {#test-profiles}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_mode"
 >title="Target of the proof"
 >abstract="You can upload a second file as 'target of the proof', if you wish to test your delivery before sending to the main target."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_upload"
 >title="Upload profiles"
 >abstract="You can upload a second file with additional profiles if you like to test your delivery with a different set from the set you have used for the main target."
 
+
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_sample"
 >title="Template file"
 >abstract="The formatting of the file must be the same as the original file.<br/>Supported file formats: txt, csv. Maximum file size: 15MB. Use first line as column header."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_preview_option_app_target"

@@ -16,6 +16,7 @@ The interface also provides a distribution of values tool, which allows you to v
 
 ## Favorites & recent attributes {#favorites}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_attribute_picker_favorites_recents"
 >title="Favorites & Recents"

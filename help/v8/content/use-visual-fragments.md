@@ -17,6 +17,7 @@ In the Campaign web interface, **Visual fragments** are pre-defined visual block
 
 ## Use a visual fragment {#use-fragment}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_fragments_details"
 >title="Fragments options"

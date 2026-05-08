@@ -16,10 +16,12 @@ Delivery settings are **technical delivery parameters** that are defined in the 
 
 ## Typology settings {#typology}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="Typology"
 >abstract="Typologies allow you to standardize business practices, across all deliveries. A typology is a collection of typology rules which lets you control, filter, and prioritize the sending of deliveries. Profiles which match criteria within a typology rule are excluded from the delivery audiences at the preparation phase."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
@@ -32,10 +34,12 @@ Typologies are sets of **typology rules** that are executed during the preparati
 
 ### Pressure parameters {#pressure-parameters}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_pressure_parameters"
 >title="Pressure parameters for the delivery"
 >abstract="Delivery weights let you identify top-priority deliveries within the framework of fatigue management. Messages with the highest weight have priority."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_delivery_weight"
@@ -70,10 +74,12 @@ Three modes are available:
 
 ### Capacity settings {#capacity-settings}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_capacity_settings"
 >title="Capacity settings for the delivery"
 >abstract="Before delivering messages, use capacity rules to make sure your organization can process the delivery, the inbound messages which the delivery may generate, and the number of calls to be made to contact subscribers for example. Capacity rules are defined in the Adobe Campaign v8 console. In this screen, select a rule associated to the channel."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_recipient_importance"
@@ -90,6 +96,7 @@ The **[!UICONTROL Importance of the recipient]** field is a formula used to dete
 
 ## Audience settings {#audience}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_audience"
 >title="Audience settings for the delivery"
@@ -100,6 +107,7 @@ In this section, you can select a **target mapping** among those available. Targ
 In the **[!UICONTROL Exclusion]** field, you can select to exclude profiles who no longer want to be contacted or who are quarantined. [Learn more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
 
 ## Delivery {#delivery}
+
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
@@ -142,6 +150,7 @@ For emails, you can also change the **[!UICONTROL Mail formats]** of the message
 
 ## Web Analytics {#web-analytics}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_webanalytics"
 >title="Web analytics settings for the delivery"
@@ -157,6 +166,7 @@ You can also define the tags shared with the analytics tool you are using.
 
 ## Retries {#retries}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_retries"
 >title="Maximum number of retries"
@@ -168,10 +178,12 @@ Temporarily undelivered messages due to a Soft or Ignored error are subject to a
 
 ## Approval (email channel) {#approval}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
 >title="Approval mode for the delivery"
 >abstract="Select the approval mode. If warnings are generated during the delivery preparation, you can configure the delivery to define whether or not it should still be executed."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_approval"
@@ -188,15 +200,18 @@ You can select another approval mode in the appropriate field. Available modes a
 
 ## Validity {#validity}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_validity"
 >title="Settings validity"
 >abstract="The **Delivery duration** field lets you enter the limit for global delivery retries. This means that Adobe Campaign sends the messages beginning on the start date, and then, for messages returning an error only, regular, configurable retries are performed until the validity limit is reached.<br>The **Resources validity limit** field is used for uploaded resources, such as mirror page or images. Once the limit is reached, resources are no longer available."
 
+
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_resources_validity"
 >title="Resources validity limit"
 >abstract="The **Resources validity limit** field is used for uploaded resources, such as the mirror page or images. These resources are valid for a limited time: once the limit is reached, resources are no longer available."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_delivery_duration"
@@ -204,6 +219,7 @@ You can select another approval mode in the appropriate field. Available modes a
 >abstract="The **Delivery duration** field lets you enter the limit for global delivery retries. This means that Adobe Campaign sends the messages beginning on the start date, and then, for messages returning an error only, regular, configurable retries are performed until the validity limit is reached."
 
 <!--
+
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_resources_validity"
 >title="Resources validity limit"
@@ -237,11 +253,13 @@ In addition to the default mode, the following options are also available:
 ### Tracking {#tracking}
 
 <!--
+
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_tracking_validity"
 >title="Validity period"
 >abstract="This option defines the duration for which the tracking is activated on the URLs."
 -->
+
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_tracking_validity"
@@ -254,6 +272,7 @@ In addition to the default mode, the following options are also available:
 * **[!UICONTROL Substitution URL for expired URLs]**: Use this option to enter a URL to a fallback web page: it is displayed once the tracking has expired.
 
 ## Proof settings {#test-setttings}
+
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_testsettings"
@@ -274,6 +293,7 @@ You can also customize the lable of the proofs:
 * By default, the subject of the proof is prefixed by 'PROOF #', where # is the number of the proof. You can change this prefix in the **[!UICONTROL Label prefix]** field.
 
 ## SMS settings (SMS channel) {#sms-tab}
+
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_delivery_settings"
@@ -359,6 +379,7 @@ SMS delivery parameters are technical settings which apply to your SMS delivery.
 
 ## SMTP settings for email delivery {#smtp}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_smtp"
 >title="SMTP parameters"
@@ -406,6 +427,7 @@ Values are encoded automatically if necessary.
 >Adding a script for inserting additional SMTP headers is reserved for advanced users. The syntax of this script must comply with the requirements of this content type: no unused space, no empty line, etc.
 
 ## Adding variables {#variables-delivery}
+
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_settings_variable"

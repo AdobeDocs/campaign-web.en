@@ -6,12 +6,14 @@ exl-id: 90830dca-acff-4aa3-a88b-1005e349cf52
 ---
 # About Transactional messaging {#transactional-messaging}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages"
 >title="Transactional messaging"
 >abstract="Transactional messaging is a specialized module in Adobe Campaign designed to handle triggered messages."
 
 <!--
+
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_exclusionlogs"
 >title="Transactional messaging exclusion logs"

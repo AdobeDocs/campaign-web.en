@@ -10,6 +10,7 @@ Each campaign report is divided into different widgets detailing your campaign's
 
 ## Delivery summary {#delivery-summary-email}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
 >title="Delivery overview"
@@ -37,6 +38,7 @@ The **[!UICONTROL Delivery Overview]** report provides key performance indicator
 
 ### Initial target audience statistics {#delivery-summary-email-initial-target}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_target"
 >title="Initial target audience statistics"
@@ -57,6 +59,7 @@ The **[!UICONTROL Initial target audience statistics]** table displays data rela
 +++
 
 ### Execution statistics {#delivery-summary-email-exec-stats}
+
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_email_exec_stats"
@@ -83,6 +86,7 @@ The **[!UICONTROL Execution statistics]** table details the success of your deli
 
 ### Reaction statistics {#delivery-summary-email-reaction-stats}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_email_reaction_stats"
 >title="Reaction statistics"
@@ -107,6 +111,7 @@ The **[!UICONTROL Reaction statistics]** table contains the available data for r
 
 ### Generated click streams {#delivery-summary-email-click-streams}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_email_click_streams"
 >title="Generated click streams"
@@ -129,6 +134,7 @@ The **[!UICONTROL Generated click streams]** table displays data relative to how
 ## Non-deliverables {#non-deliverables-email}
 
 ### Breakdown of errors per type {#delivery-summary-email-breakdown-per-type}
+
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_error_type"
@@ -161,6 +167,7 @@ The errors shown in this report trigger the quarantine process. For more on quar
 
 ### Breakdown of errors per domain {#delivery-summary-email-breakdown-per-domain}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_error_domain"
 >title="Breakdown of errors per domain"
@@ -171,6 +178,7 @@ The **[!UICONTROL Breakdown of errors per domain]** table and graph contain the 
 ## Tracking indicators {#tracking-indicators-email}
 
 ### Delivery statistics {#delivery-summary-email-statistics}
+
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_campaign_delivery_statistics_summary"
@@ -198,6 +206,7 @@ The **[!UICONTROL Delivery statistics]** metrics provides key performance indica
 
 ### Open and click-trough rate {#delivery-summary-open-rate}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_open_clickthrough"
 >title="Open and click-through rate"
@@ -223,6 +232,7 @@ The **[!UICONTROL Open and click-trough rate]** table displays data relative to 
 
 ## URLs and click streams {#url-email}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_urls_clickstreams"
 >title="URLs and click streams"
@@ -246,6 +256,7 @@ The **[!UICONTROL URLs and click streams]** report provides key performance indi
 
 ### Top 10 most visited links {#top10-campaign-report-email}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_urls_clickstreams_top10"
 >title="Top 10 most visited links"
@@ -265,6 +276,7 @@ The **[!UICONTROL Top 10 most visited links]** graph and table contain the avail
 
 ### Breakdown of clicks over time {#campaign-report-email-breakdown-clicks}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_delivery_campaign_urls_click_breakdown"
 >title="Breakdown of clicks over time"
@@ -275,6 +287,7 @@ The **[!UICONTROL Breakdown of clicks over time]** graph contains the available 
 ![Screenshot of the Breakdown of clicks over time graph](assets/campaign_report_email_11.png){zoomable="yes"}
 
 ## User Activities {#user-activities-email}
+
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_user_activities"

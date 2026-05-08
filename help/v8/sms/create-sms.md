@@ -6,16 +6,19 @@ exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
 ---
 # Create an SMS delivery {#create-sms}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_properties"
 >title="SMS delivery properties"
 >abstract="The properties include the common delivery parameters that help you name and classify your delivery. If your delivery uses an extended schema, specific Custom options fields are available."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_audience"
 >title="Define the SMS audience"
 >abstract="Create a new audience or select an existing one by clicking the **Select audience** button. If needed, add a control group to measure the impact of your delivery."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="Set a control group"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_template_selection"

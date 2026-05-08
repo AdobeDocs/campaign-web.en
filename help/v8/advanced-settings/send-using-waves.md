@@ -7,10 +7,12 @@ exl-id: d4cd5fe5-f9ac-44ac-a961-ae45131aeb3e
 ---
 # Send using waves {#send-using-waves}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_waves_definition"
 >title="Split deliveries into several batches"
 >abstract="Instead of sending high volumes of messages at the same time, define waves to split deliveries into several batches. You can configure multiple waves of the same size, or set a calendar for the different waves to be sent."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_waves_size"

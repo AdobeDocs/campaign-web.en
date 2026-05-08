@@ -5,11 +5,13 @@ exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
 ---
 # About schemas {#schemas}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
 >title="Schema authoring"
 >abstract="You can now create and manage schemas directly from the Campaign Web User Interface. You can create new tables, extend existing schemas and create custom forms."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_schema"

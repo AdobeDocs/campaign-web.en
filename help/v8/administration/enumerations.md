@@ -5,15 +5,18 @@ exl-id: d2a30fef-2cc4-49af-9f5d-d42c6396a8ab
 ---
 # Manage enumerations {#enumerations}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_enumerations_list"
 >title="Enumerations"
 >abstract="An enumeration is a list of values suggested by the system to populate fields. Use enumerations to standardize the values of these fields, help with data input or use within queries."
 
+
 >[!CONTEXTUALHELP]
 >id="acw_enumerations_properties"
 >title="Properties"
 >abstract="Define the enumeration's properties such as its name, internal name, and type. **[!UICONTROL Closed]** enumerations have a fixed list of values which can only be modified from the **[!UICONTROL Enumerations]** menu. **[!UICONTROL Open]** enumerations allow users to add new values directly in the fields based on this enumeration. **[!UICONTROL System]** enumerations are associated to system fields. **[!UICONTROL Emoticon]** enumerations are used to update the emoticon list."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_enumerations_values"

@@ -15,10 +15,12 @@ The steps to send offers with a delivery are as follows:
 
 ## Configure the offers to propose {#configure}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_settings"
 >title="Define the offers parameters"
 >abstract="Configure which offers should be proposed to the recipients by defining an offer space, optionally a category and a theme, and specify the number of offers you want to insert into the delivery."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_advanced_settings"

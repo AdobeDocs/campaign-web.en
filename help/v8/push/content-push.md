@@ -7,10 +7,12 @@ exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
 
 # Design a push delivery {#content-push}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
 >title="Push Android content"
 >abstract="Define the content of your push notification for Android devices. To start composing your message, click the **Edit content** button."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_content"
@@ -19,15 +21,18 @@ exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
 
 ## Define the content of the notification {#push-message}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_msg"
 >title="Push iOS message"
 >abstract="Define the content of your push notification for iOS devices. To compose your message, click the **Title** and **Message** fields. Use the Expression editor to personalize data, and add dynamic content. For more custom configuration, browse to the **Advanced settings** section."
 
+
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_msg"
 >title="Push Android message"
 >abstract="Define the content of your push notification for Android devices. To compose your message, click the **Title** and **Message** fields. Use the Expression editor to personalize data and add dynamic content. To further personalize your push notification, you can choose an image to add to your push notification, the notification's icon to display on your profiles' devices, and its color. For more custom configuration, browse to the **Advanced settings** section."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_silent"
@@ -71,35 +76,42 @@ The Silent Push mode allows a "silent" notification to be sent to a mobile appli
 
 ## Push notification advanced settings {#push-advanced}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings"
 >title="Advanced settings for push notifications"
 >abstract="Define advanced settings for your push notification, such as its priority, the associated notification count, application variables, and more."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_critical"
 >title="Critical alert mode"
 >abstract="Enable this option to add sound to your notification, even when the user's phone is set to focus mode or if the device is muted. This ensures that users are notified of important alerts in any case."
 
+
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_count"
 >title="Notification count"
 >abstract="Use this option to set the number of unread notifications to be displayed directly on the app icon. This allows the user to quickly see the number of pending notifications."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_mutable"
 >title="Mutable content"
 >abstract="Use this option to allow the mobile application to download media content associated with the notification."
 
+
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_score"
 >title="Relevance score"
 >abstract="Set a relevance score from 0 to 100 to prioritize the order of notifications in the notification summary. Higher scores indicate more important notifications."
 
+
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_app_variables"
 >title="Application variables"
 >abstract="Use application variables to define notification behavior. These variables are fully customizable and are included as part of the message payload sent to the mobile device."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_category"

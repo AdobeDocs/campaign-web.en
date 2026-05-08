@@ -6,16 +6,19 @@ exl-id: 8f37e9e6-3085-4a68-9746-8ca34cfa4242
 ---
 # Create content fragments {#fragments}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_fragments_create"
 >title="Define your own content fragments"
 >abstract="Define the fragment properties and the type of fragment you want to create. You can then use the email designer or the expression editor to configure the content of your fragment."
 <!-- pas vu dans l'UI-->
 
+
 >[!CONTEXTUALHELP]
 >id="acw_fragments_properties"
 >title="Fragments properties"
 >abstract="Enter the label of the fragment. If needed, you can define additional options, such as the fragment internal name, its folder, and a description."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_type"
@@ -68,6 +71,7 @@ The content fragment is now ready to be used when building any delivery or [cont
 * [Add expression fragments to the expression editor](use-expression-fragments.md)
 
 ## Save content as visual fragment {#save-as-fragment}
+
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_save"

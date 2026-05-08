@@ -6,10 +6,12 @@ exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
 ---
 # Get started with content fragments {#gs-fragments}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"
 >title="Define your own content fragments"
 >abstract="A content fragment is a reusable component that can be referenced in one or more messages across campaigns. This capability is used to prebuild multiple custom content blocks that can be used by marketing users to quickly assemble contents in an improved design process. There are two types of content fragments: visual fragments, available in the email designer, and expression fragments in the expression editor."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_personalization_editor_fragments"

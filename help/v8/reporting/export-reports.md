@@ -6,6 +6,7 @@ exl-id: ac48e541-7735-4961-80ee-ce9d24c8b9ad
 ---
 # Export your reports {#export-reports}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
 >title="Export your reports"
