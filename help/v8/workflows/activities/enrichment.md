@@ -7,6 +7,7 @@ exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 
 # Enrichment {#enrichment}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment"
 >title="Enrichment activity"
@@ -40,10 +41,12 @@ Follow these steps to configure the **Enrichment** activity:
 
 ## Add enrichment data {#enrichment-add}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_enrichmentdata"
 >title="Enrichment data"
 >abstract="Select the data to use to enrich your workflow. You can select two types of enrichment data: a single enrichment attribute from the target dimension, or a collection link, which is a link with a 1-N cardinality between tables."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_data"
@@ -65,6 +68,7 @@ Follow these steps to configure the **Enrichment** activity:
     ![Screenshot showing the enrichment data selection screen](../assets/workflow-enrichment1.png)
 
 ## Create links between tables {#create-links}
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_simplejoin"
@@ -101,6 +105,7 @@ A workflow example using links is available in the [Examples](#link-example) sec
 
 ## Data reconciliation {#reconciliation}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_reconciliation"
 >title="Reconciliation"
@@ -135,6 +140,7 @@ The example below shows a workflow configured to create a link between the Adobe
 ![](../assets/enrichment-reconciliation.png)
 
 ## Add offers {#add-offers}
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_offer_proposition"

@@ -14,6 +14,7 @@ Navigate to the **[!UICONTROL Reports]** menu within the **[!UICONTROL Reporting
 
 ### Delivery overview {#delivery-overview-direct}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_delivery_overview_direct_mail"
 >title="Delivery overview"
@@ -37,10 +38,12 @@ The **[!UICONTROL Delivery Overview]** presents key performance metrics (KPIs), 
 
 ### Targeted audience {#delivery-summary-direct-initial-target}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_target_audience_direct_mail_graph"
 >title="Targeted audience"
 >abstract="The recipient data and message information are displayed in the **Targeted audience** graph, reflecting the delivery preparation analysis."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_target_audience_direct_mail_table"
@@ -63,10 +66,12 @@ The table and graph for **[!UICONTROL Targeted Audience]** showcase data related
 
 ### Delivery statistics {#delivery-summary-direct-exec-stats}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_delivery_statistics_summary_direct_mail_graph"
 >title="Delivery statistics"
 >abstract="The **Delivery statistics** graph provides insights into the effectiveness of your Direct mail deliveries, including successful deliveries and any encountered errors."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_delivery_statistics_summary_direct_mail_table"
@@ -89,10 +94,12 @@ The **[!UICONTROL Delivery statistics]** graph and table provide a breakdown of 
 
 ### Causes of exclusion {#causes-exclusion}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_exclusions_direct_mail_table"
 >title="Exclusions"
 >abstract="The **Causes of exclusion** table displays a detailed breakdown, by rule, of messages that were rejected during the delivery preparation process."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_causes_exclusion_direct_mail_graph"

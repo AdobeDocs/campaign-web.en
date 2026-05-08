@@ -6,40 +6,48 @@ exl-id: 23e71da3-434d-4619-a48a-334281592d85
 ---
 # Start your email content from scratch {#create-email-content}
 
+
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"
 >title="Add structures"
 >abstract="Structures define the layout of the email. Drag and drop a **Structure** component into the canvas to start designing your email content."
+
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_landing_page"
 >title="Add structures"
 >abstract="Structures define the layout of the landing page. Drag and drop a **Structure** component into the canvas to start designing your landing page."
 
+
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_fragment"
 >title="Add structures"
 >abstract="Structures define the layout of the content fragment. Drag and drop a **Structure** component into the canvas to start designing your fragment content."
+
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_template"
 >title="Add structures"
 >abstract="Structures define the layout of the template. Drag and drop a **Structure** component into the canvas to start designing your template content."
 
+
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_email"
 >title="Defining email columns"
 >abstract="The Email Designer allows you to easily define the layout of your email by defining column structure."
+
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_landing_page"
 >title="Defining landing page columns"
 >abstract="The Email Designer allows you to easily define the layout of your landing page by defining column structure."
 
+
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_fragment"
 >title="Defining content fragment columns"
 >abstract="The Email Designer allows you to easily define the layout of your content fragment by defining column structure."
+
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_template"

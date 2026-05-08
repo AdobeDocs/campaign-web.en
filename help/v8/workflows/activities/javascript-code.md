@@ -6,25 +6,30 @@ exl-id: ca040ef8-5e0d-44e0-818d-08cfe99100be
 ---
 # JavaScript code {#javascript-code}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript"
 >title="JavaScript code"
 >abstract="The **JavaScript code** activity allows you to execute a JavaScript script in the context of a workflow. This enables you to perform actions or collect information from the database. Use **Simple** JavaScript code activities to execute one code snippet during workflow execution. **Advanced** JavaScript code activities allow you to perform more complex operations by executing two different code snippets sequentially. The first time the workflow starts, the first call is executed. Each time the workflow runs again, the code defined in the second call is executed."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_snippet"
 >title="JavaScript Snippet"
 >abstract="Define the script to execute when running the activity. If you are configuring an **Advanced** JavaScript activity, edit two code snippets: the first call code to execute during the first workflow execution, and the next call code to execute during subsequent workflow executions."
 
+
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_execution"
 >title="JavaScript Execution"
 >abstract="Configure the execution delay to stop the activity after a period of execution. By default, the execution phase cannot exceed 1 hour. After this delay, the process is aborted with an error message and the activity execution fails. To ignore this limit, set the value to 0."
 
+
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
 >title="JavaScript Transition"
 >abstract="To add one or multiple output transitions, click the **[!UICONTROL Add transitions]** button and specify a label and an internal name for each transition."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_processerrors"

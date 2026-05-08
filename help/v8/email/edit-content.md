@@ -6,20 +6,24 @@ exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 ---
 # Configure the email content {#edit-content}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
 >title="Define the email content"
 >abstract="The **Edit content** screen allows you to define basic elements of your message, such as the sender address and subject line, perform additional actions like adding attachments or offers, and access the Email Designer to give your message a polished look."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
 >title="Set the email properties"
 >abstract="The **Basic details** section allows you to update the sender's address and reply-to address, and define the subject line using the Expression Editor."
 
+
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
 >title="Attach files to your email"
 >abstract="Select one or multiple files to insert into your message. To avoid performance issues, it is recommended not to include more than one attachment per email."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"

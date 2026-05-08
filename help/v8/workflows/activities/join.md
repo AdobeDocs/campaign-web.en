@@ -6,16 +6,19 @@ exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
 ---
 # Join {#join}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="Multiple workflow branches and Join activity"
 >abstract="Multiple branches are now supported. Instead of using a Fork, you can click Add branch on the toolbar. The AND-join activity has also been improved. It is now a generic Join activity that lets you choose between AND and OR join options."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
 
+
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join"
 >title="AND-join activity"
 >abstract="The **And-join** activity allows you to synchronize multiple execution branches of a workflow. It is triggered once all of the preceding activities have finished. This ensures that certain activities are completed before continuing to execute the workflow."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_join"
@@ -33,6 +36,7 @@ When **AND** is selected, this activity triggers its outbound transition only af
 When **OR** is selected, execution continues as soon as one of the selected inbound transitions is activated. It does not wait for every branch.
 
 ## Configure the Join activity {#join-configuration}
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join_merging"

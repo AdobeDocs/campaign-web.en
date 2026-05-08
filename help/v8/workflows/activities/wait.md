@@ -6,6 +6,7 @@ exl-id: 970953a1-0091-477c-9f52-596af3a8857d
 ---
 # Wait {#wait}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_wait"
 >title="Wait activity"

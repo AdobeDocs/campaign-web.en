@@ -14,6 +14,7 @@ The following report is described in the context of direct mail. It is also avai
 
 ### Delivery overview {#delivery-overview-direct}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_delivery_overview_direct_mail"
 >title="Delivery overview"
@@ -37,6 +38,7 @@ The **[!UICONTROL Delivery Overview]** presents key performance metrics (KPIs), 
 
 ### Initial target audience statistics {#delivery-summary-direct-initial-target}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_target_audience_direct_mail"
 >title="Initial target audience statistics"
@@ -57,6 +59,7 @@ The **[!UICONTROL Initial target audience statistics]** table displays data rela
 +++
 
 ### Execution statistics {#delivery-summary-direct-exec-stats}
+
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_execution_statistics_direct_mail"
@@ -80,6 +83,7 @@ The **[!UICONTROL Execution statistics]** table provides a breakdown of the succ
 +++
 
 ### Generated click streams {#click-streams}
+
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_clicks_direct_mail"

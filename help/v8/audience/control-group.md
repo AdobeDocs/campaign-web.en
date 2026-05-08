@@ -31,6 +31,7 @@ To add a control group to a delivery, activate the **[!UICONTROL Enable control 
 
 ## Extract from target {#extract-target}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_target"
 >title="Extraction mode"
@@ -92,6 +93,7 @@ After the delivery preparation, review how the exclusions were applied:
 For more information on delivery logs, refer to this [section](../monitor/delivery-logs.md).
 
 ## Add an extra population {#extra-population}
+
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"

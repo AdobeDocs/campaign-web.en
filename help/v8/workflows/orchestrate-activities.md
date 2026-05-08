@@ -103,6 +103,7 @@ All activities allow you to manage their execution options. Select an activity a
 
 ### Properties {#properties}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_workflow_activity_execution_options_properties"
 >title="Activity properties"
@@ -120,6 +121,7 @@ The **Behavior** field allows you to define the procedure to follow if asynchron
 
 ### Error management {#execution-options}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_workflow_activity_execution_options_error"
 >title="Initialization script"
@@ -128,6 +130,7 @@ The **Behavior** field allows you to define the procedure to follow if asynchron
 The **In case of error** field allows you to specify the action to carry out if the activity encounters an error. See this [section](workflow-settings.md#error-settings).
 
 ### Initialization script {#initialization-options}
+
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_activity_execution_options_initialization"

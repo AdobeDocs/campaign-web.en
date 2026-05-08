@@ -9,6 +9,7 @@ exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
 ---
 # Use delivery templates {#work-with-delivery-templates}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_for_campaign"
 >title="Delivery templates"
@@ -32,6 +33,7 @@ A template includes:
 >Delivery templates differ from [content templates](../content/create-email-templates.md), which allow you to reuse only the content of your emails and start building content with one of the sample email templates provided out-of-the-box.
 
 ## Access and manage delivery templates {#access-manage-templates}
+
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_templates"

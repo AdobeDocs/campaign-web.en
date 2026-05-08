@@ -6,11 +6,13 @@ exl-id: a9c485f1-0369-414d-9e43-bedb0390a2f5
 ---
 # Automated delivery {#automated-delivery}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn4"
 >title="Automated delivery activity"
 >abstract="The Automated delivery workflow activity is now available in the workflow palette. You can use it to create or execute delivery actions (prepare, send a proof, prepare and start, etc.) directly within your workflow."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_automated-delivery"

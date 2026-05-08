@@ -11,10 +11,12 @@ exl-id: e51cf54c-9db1-4704-bc5b-0df098d67c7d
 ---
 # How to use a landing page {#lp-use-cases}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_url"
 >title="Copy URL with caution"
 >abstract="To fully test or leverage your landing page, you cannot copy-paste this link directly into a web browser or into your deliveries. Instead, use the **Simulate content** function to test it, and follow the steps described in documentation to make proper use of your landing page."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_templates"
@@ -101,6 +103,7 @@ If they opted in to receive your newsletter, they will be subscribed to the corr
 ![Screenshot showing a newsletter subscription confirmation.](assets/lp-uc-newsletter-subscriber.png){zoomable="yes"}
 
 ## Subscription to a service {#lp-subscription}
+
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_subscription"

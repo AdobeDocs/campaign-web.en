@@ -6,6 +6,7 @@ exl-id: 901faf3b-fcdd-4a4e-8de7-7d088686250f
 ---
 # Preview and send an SMS delivery {#send-sms-delivery}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_metrics_newquarantines"
 >title="New quarantines metric"

@@ -6,20 +6,24 @@ exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 ---
 # Use content components {#content-components}
 
+
 >[!CONTEXTUALHELP]
 >id="ac_content_components_email"
 >title="About Contents"
 >abstract="Content components are empty content placeholders that you can use to create the layout of an email."
+
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_landing_page"
 >title="About Contents"
 >abstract="Content components are empty content placeholders that you can use to create the layout of a landing page."
 
+
 >[!CONTEXTUALHELP]
 >id="ac_content_components_fragment"
 >title="About Contents"
 >abstract="Content components are empty content placeholders that you can use to create the layout of a content fragment."
+
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_template"

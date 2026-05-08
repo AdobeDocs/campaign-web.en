@@ -6,6 +6,7 @@ exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
 ---
 # Build audience {#build-audience}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience"
 >title="Build audience activity"
@@ -28,6 +29,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 -->
 
 ## Configure the Build audience activity {#build-audience-configuration}
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_audienceselector"

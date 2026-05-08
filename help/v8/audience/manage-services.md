@@ -6,6 +6,7 @@ exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 ---
 # Create and manage subscription services {#manage-services}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list"
 >title="Create and manage services"
@@ -37,15 +38,18 @@ To access subscription services available for your platform, follow the steps be
 
 ## Create your first subscription service {#create-service}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list_properties"
 >title="Define the service properties"
 >abstract="Enter the label of the subscription service, and define additional options, such as a validity period for your service."
 
+
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list_confirm"
 >title="Select a confirmation message"
 >abstract="When a user subscribes to or unsubscribes from a service, you can send a confirmation message. Select the templates to use for that message."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_defaultlp"
@@ -100,10 +104,12 @@ You can now:
 
 ## Create a confirmation message {#create-confirmation-message}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_delivery_template"
 >title="Select the subscriptions delivery template"
 >abstract="To send confirmation messages to the users who subscribe to your service, you must select a specific delivery template based on the **[!UICONTROL Subscriptions]** target mapping, without a defined target."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_unsubscriptions_delivery_template"
@@ -136,20 +142,24 @@ You can now select these messages when [creating a subscription service](#create
 
 ## Monitor your subscription services {#logs-and-reports}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_totalnumber_subscribers"
 >title="Subscribers count"
 >abstract="Click **Calculate** to get the total number of subscribers for this service."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_totalnumber_subscribers_report"
 >title="Total number of subscribers"
 >abstract="The Key Performance Indicator (KPI) provides a comprehensive view of the subscriber base, showcasing the total count of individuals who have subscribed to this service."
 
+
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overtheperiod_subscribers"
 >title="Number of subscriptions for the period"
 >abstract="Use the drop-down list to change the time range and view the number of subscriptions and unsubscriptions over the selected period."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overallevolution_subscribers"

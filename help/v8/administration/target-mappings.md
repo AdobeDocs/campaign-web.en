@@ -5,6 +5,7 @@ exl-id: 144d5650-9632-4af3-b64e-f6e81503a621
 ---
 # Manage target mappings {#target-mappings}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_list"
 >title="Target mappings "
@@ -22,20 +23,24 @@ For more information on the built-in target mappings provided with Adobe Campaig
 
 ## Create a target mapping {#create-mapping}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_properties"
 >title="Target Mapping properties"
 >abstract="The **[!UICONTROL Properties]** section allows you to define generic settings for the target mapping and the targeted population."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_mapping"
 >title="Target Mapping mapping"
 >abstract="The **[!UICONTROL Mapping]** section allows you to identify which attributes from the target mapping's schema to use for the various delivery address fields."
 
+
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_denylist"
 >title="Target Mapping deny list"
 >abstract="Target Mapping deny list"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_storage"

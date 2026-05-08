@@ -14,6 +14,7 @@ Navigate to the **[!UICONTROL Reports]** menu within the **[!UICONTROL Reporting
 
 ### Delivery overview {#delivery-overview-push}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_push_global_report_overview"
 >title="Push delivery overview"
@@ -37,6 +38,7 @@ The **[!UICONTROL Delivery Overview]** report provides key performance indicator
 
 ### Targeted audience {#delivery-summary-push-initial-target}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_push_targeted_audience"
 >title="Push targeted population"
@@ -57,6 +59,7 @@ The **[!UICONTROL Targeted audience]** table and graph present data related to y
 +++
 
 ### Delivery statistics {#delivery-summary-push-exec-stats}
+
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_push_delivery_stats"
@@ -83,6 +86,7 @@ The **[!UICONTROL Delivery statistics]** table details the success of every Push
 
 ### Causes of exclusion {#causes-exclusion}
 
+
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_push_exclusion"
 >title="Push Causes of exclusion"
@@ -93,6 +97,7 @@ The **[!UICONTROL Causes of exclusion]** graph and table display the reasons tha
 Push notifications error types are listed in the [Adobe Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}.
 
 ## Delivery throughput {#delivery-throughput-sms}
+
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_throughput_push"
