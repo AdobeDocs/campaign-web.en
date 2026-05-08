@@ -12,13 +12,11 @@ exl-id: c9e02bca-032d-4771-ad53-5bbebabc4c5d
 ---
 # Apply themes to your email content {#apply-email-themes}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
 >title="Themes in the Email Designer (LA)"
 >abstract="Apply reusable theme styles and variables to keep email content consistent with your brand. This capability is only available for a set of organizations (Limited Availability)"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_email_apply_theme"

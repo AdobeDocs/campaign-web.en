@@ -6,7 +6,6 @@ exl-id: 3aef912b-086b-4aa4-9556-c09396112313
 ---
 # Configure workflow settings {#workflow-settings}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_workflow_creation_properties"
 >title="Workflow properties"
@@ -19,7 +18,6 @@ These settings are pre-configured in the template selected when creating the wor
 ![Workflow settings button interface](assets/workflow-settings-button.png){zoomable="yes"}{width="70%" align="left"}
 
 ## Workflow properties {#properties}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_properties"
@@ -48,7 +46,6 @@ When the workflow is [associated with a campaign](create-workflow.md), it is dis
 
 ## Segmentation settings {#segmentation-settings}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_segmentation"
 >title="Segmentation settings"
@@ -61,7 +58,6 @@ When the workflow is [associated with a campaign](create-workflow.md), it is dis
     If this option is enabled, working tables will be kept even after the workflow has been executed. Use it for testing purposes, and ensure it is used **only** on development or staging environments. It must never be checked in a production workflow.
 
 ## Execution settings {#exec-settings}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_execution"
@@ -84,7 +80,6 @@ When the workflow is [associated with a campaign](create-workflow.md), it is dis
 
 ## Error management settings {#error-settings}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_error"
 >title="Error management settings"
@@ -99,7 +94,6 @@ When the workflow is [associated with a campaign](create-workflow.md), it is dis
 * **[!UICONTROL Consecutive errors]**: This field becomes available when the **[!UICONTROL Ignore]** value is selected in the **[!UICONTROL In case of errors]** field. Specify the number of errors that can be ignored before the process is stopped. Once this number is reached, the workflow status changes to **[!UICONTROL Failed]**. If the value of this field is 0, the workflow will never be stopped regardless of the number of errors.
 
 ## Initialization script {#initialization-script}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_initialization"

@@ -14,7 +14,6 @@ Navigate to the **[!UICONTROL Reports]** menu within the **[!UICONTROL Reporting
 
 ### Delivery overview {#delivery-overview-email}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_deliveries_overview_email"
 >title="Delivery overview"
@@ -41,7 +40,6 @@ The **[!UICONTROL Delivery Overview]** presents key performance metrics (KPIs), 
 
 ### Targeted audience {#delivery-summary-email-initial-target}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_target_audience_email"
 >title="Initial target audience statistics"
@@ -62,7 +60,6 @@ The table and graph for **[!UICONTROL Targeted Audience]** showcase data related
 +++
 
 ### Delivery statistics {#delivery-summary-email-delivery-stats}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_email_delivery_stats"
@@ -87,7 +84,6 @@ The **[!UICONTROL Delivery statistics]** table provides a breakdown of the succe
 
 ### Causes of exclusion {#causes-exclusion}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_exclusion_email"
 >title="Causes of exclusion"
@@ -100,7 +96,6 @@ The exclusions graph and table illustrate the reasons that prevented user profil
 Email error types are listed in the [Adobe Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}.
 
 ## Delivery throughput {#delivery-throughput}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_throughput_email"
@@ -122,7 +117,6 @@ The Delivery Throughput report provides in-depth insights into the efficiency of
 ## Non-deliverables {#non-deliverables-email}
 
 ### Breakdown of errors per type {#delivery-summary-email-breakdown-per-type}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_error_type_email"
@@ -155,7 +149,6 @@ The errors shown in this report trigger the quarantine process. For more on quar
 
 ### Breakdown of errors per domain {#delivery-summary-email-breakdown-per-domain}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_error_domain_email"
 >title="Breakdown of errors per domain"
@@ -168,7 +161,6 @@ The **[!UICONTROL Breakdown of errors per domain]** table and graph showcase the
 ## Tracking indicators {#tracking-indicators-email}
 
 ### Delivery statistics {#delivery-summary-email-statistics}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_global_delivery_statistics_summary_email"
@@ -198,7 +190,6 @@ The **[!UICONTROL Delivery statistics]** metrics offer key performance indicator
 
 ### Open and click-through rate {#delivery-summary-open-rate}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_open_clickthrough_email"
 >title="Open and click-through rate"
@@ -225,7 +216,6 @@ The **[!UICONTROL Open and click-through rate]** table displays data relative to
 
 ### URLs and click streams KPIs {#url-email-kpis}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_urls_clickstreams_email"
 >title="URLs and click streams"
@@ -248,7 +238,6 @@ The **[!UICONTROL URLs and click streams]** report provides key performance indi
 
 ### Top 10 most visited links {#top10-global-report-email}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_top10_email"
 >title="Top 10 most visited links"
@@ -268,7 +257,6 @@ The **[!UICONTROL Top 10 most visited links]** graph and table contain the avail
 
 ### Breakdown of clicks over time {#global-report-email-breakdown-clicks}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_urls_click_breakdown_email"
 >title="Breakdown of clicks over time"
@@ -279,7 +267,6 @@ The **[!UICONTROL Breakdown of clicks over time]** graph contains the available 
 ![Breakdown of clicks over time metrics](assets/global_report_email_breakdown_clicks.png){zoomable="yes"}{align="center"}
 
 ## User Activities {#user-activities-email}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_user_activities_email"

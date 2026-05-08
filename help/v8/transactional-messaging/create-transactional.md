@@ -32,24 +32,20 @@ To create a transactional message template, follow the steps below:
 
 ### Transactional message properties {#transactional-properties}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_properties"
 >title="Transactional messaging properties"
 >abstract="Fill in this form to configure the transactional messaging properties."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_email_properties"
 >title="Transactional messaging Email properties"
 >abstract="Fill in this form to configure the transactional messaging email properties."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_sms_properties"
 >title="Transactional messaging SMS properties"
 >abstract="Fill in this form to configure the transactional messaging SMS properties."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_push_properties"
@@ -70,7 +66,6 @@ The **[!UICONTROL Properties]** section of a transactional message helps you set
 
 ### Mobile app {#mobile-app}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_mobileapp"
 >title="Transactional messaging Mobile App"
@@ -84,12 +79,10 @@ By clicking on the search icon, access the list of mobile applications in your A
 
 ### Context sample {#context-sample}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_context"
 >title="Transactional messaging context"
 >abstract="The context sample allows you to create a test event to preview the transactional message received with the profile personalization."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_addcontext"
@@ -108,18 +101,15 @@ The content of the context depends on the personalization you need.
 
 ### Transactional message template content {#transactional-content}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_content"
 >title="Transactional messaging content"
 >abstract="Learn how to create the transactional messaging content."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_personalization"
 >title="Transactional messaging personalization"
 >abstract="Learn how to personalize the transactional messaging content."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_personalization_editor_event_context"
@@ -181,7 +171,6 @@ To create a transactional message, follow the steps below:
 * After [validating your transactional message](validate-transactional.md), click on the **[!UICONTROL Review and publish]** button to create and publish your message. The triggers can now push the sending of your transactional message.
 
 ### About the event type {#event-type}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_event"

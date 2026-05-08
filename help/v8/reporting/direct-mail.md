@@ -14,7 +14,6 @@ The following report is described in the context of direct mail. It is also avai
 
 ### Delivery overview {#delivery-overview-direct-mail}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_overview_direct_mail"
 >title="Delivery overview"
@@ -32,7 +31,6 @@ The **[!UICONTROL Delivery Overview]** provides detailed insights into visitor i
 +++
 
 ### Initial target population {#direct-mail-delivery-targeted-population}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_initial_target_direct_mail"
@@ -56,7 +54,6 @@ Mouse over a portion of the graph to display the exact number.
 
 ### Delivery statistics {#direct-mail-delivery-stats}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_summary_direct_mail"
 >title="Delivery statistics"
@@ -75,7 +72,6 @@ The **[!UICONTROL Delivery statistics]** graph provides an overview of delivery 
 +++
 
 ### Causes of exclusion {#direct-mail-delivery-exclusions}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_causes_exclusion_direct_mail"
@@ -98,7 +94,6 @@ The **[!UICONTROL Causes of exclusion]** graph provides a breakdown of reasons f
 +++
 
 ### Exclusions {#direct-mail-exclusions}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusions_direct_mail"

@@ -6,7 +6,6 @@ exl-id: 413a28c0-0cbc-4aed-ab0d-642f6245de01
 ---
 # Add expression fragments in the expression editor {#expression}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_fragments_list"
 >title="Fragments"

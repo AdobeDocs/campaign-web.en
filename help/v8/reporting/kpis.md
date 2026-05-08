@@ -5,14 +5,12 @@ exl-id: 4b182219-100b-4101-919b-b0b770dd8515
 ---
 # Key Performance Indicators {#kpis}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_homepage_kpi"
 >title="Key performance indicators"
 >abstract="The **Key performance indicators** section lets you check your platform effectiveness through common KPIs."
 
 <!-- à enlever? -->
-
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_spam"
@@ -28,7 +26,6 @@ You can select the channel to display. By default, these indicators reflect metr
 ![Screenshot showing the KPI card with metrics for the email channel.](assets/kpi.png){zoomable="yes"} 
 
 ## Message delivered {#ui-delivered-kpi} 
-
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_delivered"
@@ -49,7 +46,6 @@ Count of messages for which the "seed address" field equals "No" and with a stat
 
 ## Total opens {#ui-open-kpi} 
 
-
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_opens"
 >title="Opens"
@@ -66,7 +62,6 @@ The **Opens** indicator shows the following KPIs for each channel:
 Adobe Campaign detects message opens when the recipient downloads the images in the email. HTML and Multipart/Alternative emails include a 0-pixel image, which enables you to detect messages that have been opened. Since messages in text format do not include any images, it is impossible to detect whether they have been opened. Values calculated based on message opens are always estimates due to the error margin linked to image display.
 
 ## Click-through rate {#ui-click-kpi} 
-
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_clicks"
@@ -85,7 +80,6 @@ These metrics are based on the Consolidated tracking table (`nms:trackingStats`)
 
 ## Subscription rates {#ui-sub-kpi} 
 
-
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_subscriptions"
 >title="Subscriptions"
@@ -102,7 +96,6 @@ The **Subscriptions** indicator shows the following KPIs for each channel:
 > Subscription and unsubscription KPIs vary based on the service type. For instance, email subscriptions and unsubscriptions encompass all email-related services, whether they result from manual actions or web forms. It's important to distinguish this approach from the delivery-level unsubscription metric, which tracks unsubscription link clicks rather than actual unsubscribed users.
 
 ## Unsubscription rates {#ui-unsub-kpi} 
-
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_unsubscriptions"
@@ -123,7 +116,6 @@ The **Unsubscriptions** indicator shows the following KPIs for each channel:
 
 ## Error rates {#ui-error-kpi} 
 
-
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_errors"
 >title="Errors"
@@ -142,7 +134,6 @@ The **Errors** indicator shows the following KPIs for each channel:
 ## Message sent {#ui-sent-kpi} 
 
 <!--DRAFT - This section requires a validation-->
-
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_sent"

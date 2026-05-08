@@ -14,7 +14,6 @@ Navigate to the **[!UICONTROL Reports]** menu within the **[!UICONTROL Reporting
 
 ### Delivery overview {#delivery-overview-sms}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_sms_global_report_overview"
 >title="SMS delivery overview"
@@ -38,7 +37,6 @@ The **[!UICONTROL Delivery Overview]** report offers comprehensive key performan
 
 ### Targeted audience {#delivery-summary-sms-initial-target}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sms_targeted_audience"
 >title="SMS targeted population"
@@ -59,7 +57,6 @@ The **[!UICONTROL Targeted audience]** table and graph present data related to y
 +++
 
 ### Delivery statistics {#delivery-summary-sms-exec-stats}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sms_delivery_stats"
@@ -86,7 +83,6 @@ The **[!UICONTROL Delivery statistics]** table details the success of every SMS 
 
 ### Causes of exclusion {#causes-exclusion}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sms_exclusions"
 >title="SMS Causes of exclusion"
@@ -99,7 +95,6 @@ Error types are listed in the [Adobe Campaign v8 (client console) documentation]
 ![A screenshot of the Causes of Exclusion report, showing reasons for SMS delivery exclusions.](assets/global_report_sms_causes_exclusion.png){zoomable="yes"}
 
 ## Delivery throughput {#delivery-throughput-sms}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_throughput_sms"

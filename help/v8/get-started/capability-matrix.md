@@ -181,7 +181,6 @@ Campaign configuration and connection to external systems are restricted to adva
 
 ## Approvals {#approvals-capabilities}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_approval"
 >title="Approvals management"

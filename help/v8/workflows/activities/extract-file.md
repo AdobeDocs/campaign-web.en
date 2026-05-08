@@ -6,7 +6,6 @@ exl-id: fa50ab5b-2539-4517-9d7b-93315f1e505c
 ---
 # Extract file {#extract-file}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile"
 >title="Extract file"
@@ -17,7 +16,6 @@ The **Extract file** activity is a **Data management** activity. Use this activi
 To configure the **Extract file** activity, add an **Extract file** activity into your workflow, then follow the steps below.
 
 ## Configure the file to extract {#extract-configuration}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_file"
@@ -47,7 +45,6 @@ The **[!UICONTROL File to extract]** section allows you to configure the file pr
 
 ## Configure the extracted file format {#file}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_destinationformat"
 >title="Destination format"
@@ -76,7 +73,6 @@ The **[!UICONTROL Destination]** format section allows you to configure how the 
 
 ## Add a post-processing stage {#script}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_postprocessing"
 >title="Post processing"
@@ -90,12 +86,10 @@ The expression editor opens, allowing you to enter the command to apply to the f
 
 ## Additional options {#additiona-options}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_outbound"
 >title="Outbound transition"
 >abstract="Toggle the **Generate an outbound transition** option to add an outbound transition after the current activity."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_error"

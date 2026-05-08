@@ -6,12 +6,10 @@ exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
 ---
 # Create your first campaign {#create-first-campaigns}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
 >title="Campaign creation properties"
 >abstract="In this screen, define your campaign settings: select a template, and enter a label for your campaign. Browse to the additional settings to change the default internal name, folder, add a description, and select the assignee."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_properties"
@@ -48,7 +46,6 @@ Campaign monitoring is a key step to analyze your campaign's effectiveness. Open
 You can also view the dedicated reports by clicking the **Reports** button. See this [section](../reporting/campaign-reports.md).
 
 ## Define the campaign schedule {#campaign-schedule}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_schedule"

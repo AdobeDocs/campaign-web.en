@@ -10,7 +10,6 @@ Each campaign report is divided into different widgets detailing your campaign's
 
 ## Delivery summary {#delivery-summary-push}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_push_deliveries_overview"
 >title="Delivery overview"
@@ -34,7 +33,6 @@ The **[!UICONTROL Delivery Overview]** report provides key performance indicator
 
 ### Initial target audience statistics {#delivery-summary-push-initial-target}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_push_target"
 >title="Initial target audience statistics"
@@ -55,7 +53,6 @@ The **[!UICONTROL Initial target audience statistics]** table displays data rela
 +++
 
 ### Execution statistics {#delivery-summary-push-exec-stats}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_push_exec_stats"
@@ -81,7 +78,6 @@ The **[!UICONTROL Execution statistics]** table details the success of your deli
 +++
 
 ### Generated click streams {#delivery-summary-push-click-streams}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_push_click_streams"

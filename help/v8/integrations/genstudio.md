@@ -9,7 +9,6 @@ exl-id: c22a44a8-e4e2-453a-9ca2-b80f7c0edc19
 ---
 # Work with GenStudio for Performance Marketing {#genstudio}
 
-
 >[!CONTEXTUALHELP]
 >id="ac_genstudio_button"
 >title="Use a template built with GenStudio"

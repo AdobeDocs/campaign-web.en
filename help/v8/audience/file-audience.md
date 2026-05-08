@@ -6,24 +6,20 @@ exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 ---
 # Load an email audience from a file {#audience-from-file}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_select"
 >title="File selection"
 >abstract="Select the local file to upload. Supported formats are TXT and CSV. Align your file format with the sample file linked below."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_columns"
 >title="Columns definition"
 >abstract="Check the format of the columns in the external file."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_formatting"
 >title="Formatting parameters"
 >abstract="Specify how the external file is formatted to ensure that data is correctly imported."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_preview"
@@ -67,7 +63,6 @@ When creating the message content, add personalization by leveraging fields from
 ![Screenshot showing personalization options using fields from the input file](assets/select-external-perso.png){zoomable="yes"}
 
 ## Sample file {#sample-file}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_samplefile"

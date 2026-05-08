@@ -6,12 +6,10 @@ exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
 ---
 # Define landing page-specific content {#lp-content}
 
-
 >[!CONTEXTUALHELP]
 >id="ac_lp_components"
 >title="Use content components"
 >abstract="Content components are empty content placeholders that you can use to create the layout of a landing page. To define specific content that enables users to select and submit their choices, use the form component."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_primarypage"
@@ -34,12 +32,10 @@ To further design your landing page content:
 
 ## Use the form component {#use-form-component}
 
-
 >[!CONTEXTUALHELP]
 >id="ac_lp_formfield"
 >title="Set the form component fields"
 >abstract="Define how your recipients will see and submit their choices from your landing page."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_calltoaction"

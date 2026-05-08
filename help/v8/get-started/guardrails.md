@@ -11,7 +11,6 @@ Please note that, while this page identifies key considerations when working wit
 
 ## Workflow activities {#wkf-activities}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_query_enrichment_noneditable"
 >title="Activity non editable"

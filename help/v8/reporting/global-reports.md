@@ -6,7 +6,6 @@ exl-id: e64d9765-f602-4fee-9923-a3665130c63a
 ---
 # Get started with global reports {#global-report-gs}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_global_report"
 >title="Global report"

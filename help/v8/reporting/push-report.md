@@ -6,7 +6,6 @@ exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
 ---
 # Push delivery reports {#push-report}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_push"
 >title="Reporting sending"
@@ -17,7 +16,6 @@ The **Push delivery report** provides a thorough overview of the push channel, o
 ## Push summary {#push-summary}
 
 ### Delivery overview {#push-delivery-overview}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
@@ -39,7 +37,6 @@ The **[!UICONTROL Delivery overview]** report provides key performance indicator
 
 ### Targeted population {#push-delivery-targeted-population}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_targeted_population"
 >title="Push targeted population"
@@ -57,7 +54,6 @@ The **Targeted population** graph and table display data relative to your audien
 +++
 
 ### Overall statistics {#push-delivery-overall}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_overall_stats"
@@ -78,7 +74,6 @@ The **Overall statistics** report presents data for the sent push notifications:
 
 ### Exclusions {#push-delivery-exclusions}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_exclusions"
 >title="Push exclusions"
@@ -89,7 +84,6 @@ The **[!UICONTROL Exclusions]** graph and table display the various reasons that
 ![This screenshot shows the Exclusions graph and table, which display reasons preventing excluded user profiles from receiving messages.](assets/reporting_push_6.png){zoomable="yes"} 
 
 ## Delivery throughput {#delivery-throughput}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_push"

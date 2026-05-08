@@ -6,7 +6,6 @@ exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
 ---
 # Access and manage your campaigns {#manage-campaigns}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_campaign_schedule"
 >title="Campaign schedule"
@@ -48,12 +47,10 @@ The Timeline view helps you visualize and manage your campaigns over time. You c
 
 ## Campaign dashboard {#campaign-dashboard}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_campaign_delivery_list"
 >title="List of deliveries in the campaign"
 >abstract="The **Deliveries** tab lists all deliveries linked to the current campaign. Click the name of a delivery to edit it. Use the Create delivery button to add a new delivery for this campaign."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_workflow_list"

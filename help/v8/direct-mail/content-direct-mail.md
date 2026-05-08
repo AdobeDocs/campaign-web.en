@@ -6,18 +6,15 @@ exl-id: aefba651-4125-4b1e-992f-1fe90fd95e4c
 ---
 # Design the extraction file {#design-direct-mail}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_directmail_content"
 >title="Extraction file content"
 >abstract="Click the **Edit content** button to start designing the extraction file required by your direct mail provider. This allows you to define the file properties, such as its label and format, and to specify the columns that you want to include in the file."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_directmail_properties_file"
 >title="File properties"
 >abstract="Configure the properties of the extraction file, such as its name and format. You can personalize the file name using attributes from the database by using the expression editor."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_directmail_properties_content"

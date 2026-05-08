@@ -6,7 +6,6 @@ exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
 ---
 # Split {#split}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split"
 >title="Split activity"
@@ -16,12 +15,10 @@ The **Split** activity is a **Targeting** activity that segments incoming popula
 
 ## Configure the Split activity {#split-configuration}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_segments"
 >title="Segments for split activity"
 >abstract="Add as many subsets as desired to segment the incoming population. When the **Split** activity is executed, the population is segmented across the different subsets in the order they are added to the activity. Before starting your workflow, ensure that you have ordered the subsets in the order that suits your needs using the arrow buttons."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_filter"
@@ -29,36 +26,30 @@ The **Split** activity is a **Targeting** activity that segments incoming popula
 >abstract="To apply a filtering condition to the subset, click **[!UICONTROL Create filter]** and configure the desired filtering rule using the query modeler. For example, include profiles from the incoming population whose email address exists in the database."
 >additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/query-database/query-modeler-overview" text="Work with the query modeler"
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_limit"
 >title="Split activity limit"
 >abstract="To limit the number of profiles selected by the subset, toggle on the **[!UICONTROL Enable limit]** option, and specify the number or percentages of the population to include."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_sorting"
 >title="Split activity sorting"
 >abstract="When setting a population limit for a subset, you can rank the selected profiles based on a specific profile attribute, in ascending or descending order. To do this, toggle on the **Enable sorting** option. For instance, you can restrict a subset to include only the top 50 profiles with the highest purchase amount."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_complement"
 >title="Split generate complement"
 >abstract="Once you have configured all the subsets, you can select the remaining population that did not match any of the subsets and include them in an additional outbound transition. To do this, toggle on the **Generate complement** option."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_generatesubsets"
 >title="Generate all subsets in the same table"
 >abstract="Toggle on this option to group all the subsets into a single output transition."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_emptytransition"
 >title="Skip empty transition"
 >abstract="Toggle the **[!UICONTROL Skip empty transition]** option on to disable the output transition for this subset if the incoming population is empty."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_enable_overlapping"

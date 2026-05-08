@@ -7,7 +7,6 @@ exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
 
 # Create and publish landing pages {#create-lp}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="Create and manage landing pages"
@@ -42,24 +41,20 @@ You can duplicate or delete a landing page. Click the ellipsis next to a landing
 
 ## Create a landing page {#create-landing-page}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_properties"
 >title="Define the landing page properties"
 >abstract="Fill in the properties fields such as the label and modify the schema if needed. Additionally, you can edit the internal name, change the folder where the landing page is stored, and provide a description."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_pages_list"
 >title="Define the content of each page"
 >abstract="Adjust the content of each page that is part of this landing page, such as the form itself, the confirmation page displayed upon submitting the form, or the page users are directed to in case an error occurs."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_schedule"
 >title="Schedule your landing page"
 >abstract="Define a start date and an end date for your landing page. When the page reaches the end of the validity period, the form is no longer available. The **Expiration** page is displayed instead."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_preload"
@@ -67,7 +62,6 @@ You can duplicate or delete a landing page. Click the ellipsis next to a landing
 >abstract="When the **Pre-fill with the data referenced in the form** option is selected, if the visitor of the landing page matches a profile from the database, the profile's information is automatically preloaded in the form. With the **Authorize absence of ID** option selected, any visitor, including anonymous users, can access the landing page."
 
 <!--With the **Skip preloading if no ID** option selected, each profile entered will be added to the database after approval of the form."-->
-
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_storage"
@@ -174,12 +168,10 @@ To check the captcha settings, click on **[!UICONTROL Review and publish]** butt
 
 ## Test the landing page {#test-landing-page}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_simulate"
 >title="Simulate your landing page"
 >abstract="You can see a preview of your landing page in the Campaign Web user interface or open it in a new web browser tab."
-
 
 >[!CONTEXTUALHELP]
 >id="ac_preview_lp_profiles"

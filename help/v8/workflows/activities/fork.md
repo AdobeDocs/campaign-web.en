@@ -7,12 +7,10 @@ exl-id: 5c7ff58b-5504-4b8e-879f-44754b7dcf8a
 
 # Fork {#fork}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_fork"
 >title="Fork activity"
 >abstract="The **Fork** activity allows you to create outbound transitions to start several activities at the same time."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_fork_transitions"

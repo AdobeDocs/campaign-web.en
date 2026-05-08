@@ -10,12 +10,10 @@ exl-id: 0f1bbaf9-d648-4625-94fa-2e0c240d7264
 ---
 # Manage dark mode content {#dark-mode}
 
-
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode"
 >title="Switch to dark mode"
 >abstract="Switch to dark mode where you can preview how it may render, and define specific custom settings. <br>The final rendering depends on the recipient's email client. Note that all email clients do not support custom dark mode."
-
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_preview"
@@ -129,7 +127,6 @@ It means that it detects areas with light and dark elements and inverts them, so
 >The final rendering may vary according to the recipient's email client. To see a simulation that comes as close as possible to the final result for each email client, use the [Email rendering](../preview-test/email-rendering.md) option.
 
 ### Define custom dark mode {#define-custom-dark-mode}
-
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_image"
