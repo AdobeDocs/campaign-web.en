@@ -6,7 +6,6 @@ exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
 ---
 # Monitor delivery logs {#delivery-logs}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_preparation_logs"
 >title="Delivery logs"

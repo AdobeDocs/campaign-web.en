@@ -6,24 +6,20 @@ exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
 ---
 # Subscription services {#subscription-services}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"
 >title="Subscription services activity"
 >abstract="The Subscription services activity allows multiple profiles to be subscribed to or unsubscribed from a service in a single action."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_general"
 >title="Subscription service general parameters"
 >abstract="Choose the desired service and choose the action to perform (subscription or unsubscription). Toggle on the **Send confirmation message** option to notify the population that they are subscribed or unsubscribed from the selected service."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_outboundtransition"
 >title="Generate an outbound transition"
 >abstract="Toggle the **Generate an outbound transition** option to add a transition after the activity."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_additionalinfo"

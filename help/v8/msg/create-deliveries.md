@@ -11,7 +11,6 @@ exl-id: 803a20ac-e75f-45c6-af89-054b84eb3405
 
 <!-- /NEO-92684 / DOCAC-13767-->
 
-
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_profile_enrichment_settings"
 >title="Enable profile enrichment"
@@ -100,7 +99,6 @@ You can personalize the message content by:
 Once your message content has been defined, you can preview it to control the rendering of your messages and check personalization settings with test profiles. [Learn more](../preview-test/preview-test.md)
 
 ## Schedule the delivery sending {#gs-schedule}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_schedule"

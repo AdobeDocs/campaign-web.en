@@ -6,7 +6,6 @@ exl-id: 5eaffe2c-7a9c-4508-8dd1-495cfcf99c59
 ---
 # About read-only workflows {#readonly-workflows}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_wf_read_only_canvas"
 >title="This workflow is read only"

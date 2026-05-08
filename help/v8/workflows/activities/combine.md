@@ -6,7 +6,6 @@ exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
 ---
 # Combine {#combine}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine"
 >title="Combine activity"
@@ -24,18 +23,15 @@ The **Combine** activity can be placed after any other activity, but not at the 
 
 ## Configure the Combine activity {#combine-configuration}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_intersection_merging_options"
 >title="Intersection merging options"
 >abstract="The intersection keeps only the elements common to the different inbound populations in the activity. In the Sets to join section, check all the previous activities you wish to join."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_exclusion_merging_options"
 >title="Exclusion merging options"
 >abstract="The exclusion excludes elements from one population according to certain criteria. In the Sets to join section, check all the previous activities you wish to join."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_options"
@@ -54,7 +50,6 @@ Follow these common steps to configure the **Combine** activity:
 
 ## Union {#combine-union}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_reconciliation"
 >title="Reconciliation options"
@@ -66,7 +61,6 @@ In the **Combine** activity, configure a **Union** by selecting the **Reconcilia
 * **A selection of columns**: Select this option to define the list of columns on which the data reconciliation is applied. First, select the primary set (the source data), then the columns to use for the join.
 
 ## Intersection {#combine-intersection}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_intersection_reconciliation_options"
@@ -80,24 +74,20 @@ In the **Combine** activity, configure an **Intersection** by following these ex
 
 ## Exclusion {#combine-exclusion}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_exclusion_options"
 >title="Exclusion rules"
 >abstract="When necessary, manipulate inbound tables. To exclude a target from another dimension, return this target to the same targeting dimension as the main target. Click Add a rule in the Exclusion rules section and specify the dimension change conditions. Data reconciliation is carried out either via an attribute or a join."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_sets"
 >title="Select sets to combine"
 >abstract="In the **Sets to join** section, select the **Primary set** from the inbound transitions. This is the set from which elements are excluded. The other sets match elements before being excluded from the primary set."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_exclusion"
 >title="Exclusion rules"
 >abstract="When necessary, manipulate inbound tables. To exclude a target from another dimension, return this target to the same targeting dimension as the main target. Click Add a rule in the Exclusion rules section and specify the dimension change conditions. Data reconciliation is carried out either via an attribute or a join."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_complement"

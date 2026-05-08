@@ -5,7 +5,6 @@ exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 ---
 # Release notes {#latest-release}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card2"
 >title="Release notes"

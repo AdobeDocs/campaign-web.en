@@ -6,7 +6,6 @@ exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 ---
 # Get started with delivery reports {#reports}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_selection"
 >title="Aggregated reporting for deliveries"

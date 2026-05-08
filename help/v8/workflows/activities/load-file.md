@@ -6,18 +6,15 @@ exl-id: 230177e2-1926-451a-8a66-0db962ada514
 ---
 # Load file {#load-file}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile"
 >title="Load file activity"
 >abstract="The **Load file** activity is a **Data management** activity. Use this activity to work with data stored in an external file. Profiles and data are not added to the database, but all fields in the input file are available for personalization, or to update profiles, or any other table."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_outboundtransition"
 >title="Reject management outbound transition"
 >abstract="Reject management outbound transition"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_outboundtransition_reject"
@@ -39,18 +36,15 @@ The **Load file** activity configuration involves two steps. First, define the e
 
 ### Configure the sample file {#sample}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_samplefile"
 >title="Sample file"
 >abstract="Select the expected file structure by uploading a sample file."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_formatting"
 >title="Formatting for Load File activity"
 >abstract="In the **Formatting** section, specify how the file is formatted to ensure that data is correctly imported."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_valueremapping"
@@ -93,24 +87,20 @@ Follow these steps to configure the sample file used to define the expected file
 
 ### Define the target file to upload {#target}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_targetfile"
 >title="Target file for Load File activity"
 >abstract="In the **[!UICONTROL Target file]** section, specify how to retrieve the file to upload on the server."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_nameofthefile"
 >title="Name of the file"
 >abstract="Specify the name of the field to upload on the server. Click the **[!UICONTROL Open personalization dialog]** icon to leverage the expression editor, including event variables, to calculate the file name."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_targetdb"
 >title="Target database"
 >abstract="If you are accessing a **[!UICONTROL Load file]** activity that has already been set up in the client console, an additional **[!UICONTROL Target database]** section is available if you have configured the activity to upload the file to an external database."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_command"
@@ -141,12 +131,10 @@ To define the target file to upload, follow these steps:
 
 ### Additional options {#options}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_rejectmgt"
 >title="Reject management for Load file activity"
 >abstract="In the **Reject management** section, specify how the activity should behave in case of errors. You can define the maximum number of errors to allow, and toggle the **[!UICONTROL Keep rejects in a file]** option to download on the server a file containing the errors that occurred during the import."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_delete"

@@ -10,14 +10,12 @@ The **Email delivery report** offers comprehensive insights and data specific to
 
 ## Delivery summary {#delivery-summary-email}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_email"
 >title="Reporting sending"
 >abstract="The **Sending** tab within your report provides in-depth insights into your visitors' interactions with your deliveries and any potential errors they may have encountered."
 
 ### Initial target population {#email-delivery-targeted-population}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_initial_target"
@@ -43,7 +41,6 @@ Mouse-over a portion of the graph to display the exact number.
 
 ### Delivery statistics {#email-delivery-stats}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_summary"
 >title="Delivery statistics"
@@ -66,7 +63,6 @@ The **[!UICONTROL Delivery statistics]** graph details the success of your deliv
 +++
 
 ### Causes of exclusion  {#email-delivery-exclusions}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusion"
@@ -97,7 +93,6 @@ The **[!UICONTROL Causes of exclusion]** graph and table show the breakdown per 
 
 ## Delivery throughput {#delivery-throughtput}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_email"
 >title="Delivery throughput"
@@ -109,7 +104,6 @@ This report presents detailed information regarding the delivery throughput of t
 
 
 ## Broadcast statistics {#broadcast-statistics}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_broadcast_statistics"
@@ -141,12 +135,10 @@ The **[!UICONTROL Broadcast statistics]** table contains the available data for 
 
 ### Breakdown of errors per type {#email-delivery-breakdown-type}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type"
 >title="Breakdown of errors per type"
 >abstract="The **Breakdown of errors per type** graph contains the available data for each error type encountered: user unknown, mailbox full, invalid domain, and more."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type_table"
@@ -179,12 +171,10 @@ The errors shown in this report trigger the quarantine process. For more on quar
 
 ### Breakdown of errors per domain {#email-delivery-breakdown-domain}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain"
 >title="Breakdown of errors per domain"
 >abstract="The **Breakdown of errors per domain** graph displays the available data for each error type encountered depending on each domain."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain_table"
@@ -203,7 +193,6 @@ Metrics available are the same as for the [Breakdown of errors by type](#email-d
 
 ## Tracking indicators {#tracking-indicators-email}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_tracking_email"
 >title="Reporting tracking"
@@ -211,7 +200,6 @@ Metrics available are the same as for the [Breakdown of errors by type](#email-d
 
 
 ### Delivery statistics  {#email-tracking-delivery-stats}
-
 
 
 >[!CONTEXTUALHELP]
@@ -241,7 +229,6 @@ The **[!UICONTROL Delivery statistics]** report provides key performance indicat
 
 ### Open and click-through rate {#email-tracking-click-through}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_open_clickthrough"
 >title="Open and click-through rate"
@@ -268,7 +255,6 @@ The **[!UICONTROL Open and click-through rate]** table displays data relative to
 
 ## URLs and click streams {#url-email}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_clickstreams"
 >title="URLs and click streams"
@@ -294,7 +280,6 @@ The **[!UICONTROL URLs and click streams]** report provides key performance indi
 ### Top 10 most visited links {#email-tracking-top10}
 
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_clickstreams_top10"
 >title="Top 10 most visited links"
@@ -316,7 +301,6 @@ The **[!UICONTROL Top 10 most visited links]** graph and table contain the avail
 ### Breakdown of clicks over time {#email-tracking-breakdown-over-time}
 
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_click_breakdown"
 >title="Breakdown of clicks over time"
@@ -328,7 +312,6 @@ The **[!UICONTROL Breakdown of clicks over time]** graph contains the available 
 ![Screenshot of the Breakdown of clicks over time graph](assets/reporting_email_9.png){zoomable="yes"}{align="center"}
 
 ## User Activities {#user-activities-email}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_user_activities"
@@ -348,7 +331,6 @@ The **[!UICONTROL User activities]** report shows the breakdown of opens and cli
 +++
 
 ## Tracking Statistics {#tracking-statistics}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_statistics"
@@ -371,7 +353,6 @@ The **[!UICONTROL Tracking Statistics]** graph provides statistics on opens and 
 
 ### Breakdown of opens by device {#breakdown-opens-devices}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_device"
 >title="Breakdown by device"
@@ -386,7 +367,6 @@ For each category, two charts are used. The first displays statistics regarding 
 
 ### Breakdown of opens by OS {#breakdown-opens-os}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_os"
 >title="Breakdown by operating system"
@@ -399,7 +379,6 @@ For each category, two charts are used. The first displays statistics regarding 
 ![Screenshot of the Breakdown by OS report](assets/reporting_email_13.1.png){zoomable="yes"}{align="center"}
 
 ### Breakdown of opens by browser {#breakdown-opens-browser}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_browser"
@@ -414,7 +393,6 @@ For each category, two charts are used. The first displays statistics regarding 
 
 
 ## Hotclicks {#hotclicks}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_hotclicks"

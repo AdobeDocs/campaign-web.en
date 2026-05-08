@@ -6,30 +6,25 @@ exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
 ---
 # Configure custom fields {#custom-fields}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields"
 >title="Screen edition"
 >abstract="All custom fields displayed in the interface for the selected schema display. You can change the order in which they display in the interface, using the up and down arrows, and group fields into sub-sections by adding separators. To delete a custom field or edit settings such as visibility conditions, click the ellipsis button."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_general"
 >title="General"
 >abstract="Define the custom field's general settings. If no label is provided, the label defined in the schema will display. Use the **Visible if** field to define a condition using an xtk expression that controls when the field is displayed. You can also mark the field as mandatory or read-only in the interface."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_link"
 >title="Link properties"
 >abstract="Use the query modeler to specify rules for displaying a link-type custom field. For example, restrict list values based on another field's input."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_layout"
 >title="Layout"
 >abstract="By default, custom fields display in the interface in two columns. Toggle on this option to display the custom field across the full width of the screen instead of two columns."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_separatorproperties"
@@ -37,7 +32,6 @@ exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
 >abstract="Specify the name to display in the interface for the sub-section."
 
 <!-- NOT USED IN THE UI?-->
-
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings"
@@ -62,7 +56,6 @@ Custom fields are available for the following schemas:
 * Deliveries (nms)
 
 ## Add custom fields to the interface {#add-custom}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_screen_definition"

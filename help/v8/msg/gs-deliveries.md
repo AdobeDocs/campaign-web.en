@@ -10,14 +10,12 @@ exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
 ---
 # Access deliveries {#work-with-deliveries}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="Deliveries"
 >abstract="A delivery is a communication sent to an audience on a specific channel: email, SMS, or Push. In this screen, you can edit, duplicate, and delete existing deliveries. You can also view reports for completed deliveries. Click the **Create delivery** button to add a new delivery."
 
 ## Access deliveries {#access}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_additional_target"

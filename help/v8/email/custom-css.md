@@ -10,7 +10,6 @@ exl-id: 7969b656-8130-49cf-9c85-d80bd74b285a
 ---
 # Add custom CSS to your email content {#email-metadata}
 
-
 >[!CONTEXTUALHELP]
 >id="ac_edition_css"
 >title="Enter your own CSS"

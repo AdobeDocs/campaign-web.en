@@ -6,7 +6,6 @@ exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
 ---
 # SMS delivery reports {#sms-report}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_sms"
 >title="Reporting sending"
@@ -17,7 +16,6 @@ The **SMS delivery overview** provides a detailed summary of your SMS delivery, 
 ## Delivery summary {#delivery-summary}
 
 ### Delivery overview {#sms-delivery-overview}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
@@ -42,7 +40,6 @@ The **[!UICONTROL Delivery overview]** report provides key performance indicator
 
 ### Targeted population {#sms-delivery-targeted-population}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_targeted_population"
 >title="SMS targeted population"
@@ -60,7 +57,6 @@ The **Targeted population** graph and table display data related to your audienc
 +++
 
 ### Overall statistics {#sms-delivery-overall}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_overall_stats"
@@ -82,7 +78,6 @@ The **Overall statistics** report presents data for the sent SMS messages. Metri
 
 ### Exclusions {#sms-delivery-exclusions}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_exclusions"
 >title="SMS exclusions"
@@ -93,7 +88,6 @@ The **[!UICONTROL Exclusions]** graph and table display the reasons that prevent
 ![Description: The image shows the Exclusions graph and table, which detail the reasons for excluding user profiles from receiving messages.](assets/reporting_sms_6.png){zoomable="yes"}
 
 ## Delivery throughput {#delivery-throughput}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_sms"

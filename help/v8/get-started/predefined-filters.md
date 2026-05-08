@@ -5,24 +5,20 @@ exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 ---
 # Work with predefined filters {#predefined-filters}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card4"
 >title="Predefined filter management"
 >abstract="Campaign Web user interface offers a user-friendly interface to effortlessly manage and customize predefined filters to meet your specific needs. Create once and save for future use."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-dashboard"
 >title="Predefined filters"
 >abstract="Campaign Web user interface offers a user-friendly interface to effortlessly manage and customize predefined filters to meet your specific needs. Create once and save for future use."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_filter"
 >title="Create an alerting criterion"
 >abstract="You can create your own delivery filters from the Customer Management > Predefined filters menu."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-select"
@@ -37,18 +33,15 @@ You can use existing built-in filters to access a specific subset of your data o
 
 ## Create a predefined filter {#create-predefined-filter}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-creation"
 >title="Create a predefined filter"
 >abstract="Enter a label for the predefined filter, and select the table it applies to. Open the additional options to add a description and set this filter as a favorite. Then use the 'Create rule' button to define the filtering conditions."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-rules"
 >title="Create the predefined filter rules"
 >abstract="To define the filtering conditions of your custom filter, click the 'Create rule' button."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-save"

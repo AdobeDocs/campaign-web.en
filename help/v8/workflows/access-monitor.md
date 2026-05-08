@@ -6,7 +6,6 @@ exl-id: 2a9b7e52-2b8b-4293-9b4d-a228ba95bed3
 ---
 # Access and manage workflows {#access-monitor}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_targeting_workflow_list"
 >title="Workflows"

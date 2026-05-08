@@ -6,18 +6,15 @@ exl-id: 72bd307b-eba2-42a0-9744-05e089c34925
 ---
 # Incremental query {#incremental-query}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_incrementalquery"
 >title="Incremental query"
 >abstract="The **Incremental query** activity is a **Targeting** activity which allows you to query the database using the Query modeler. Each time this activity is executed, the results from the previous executions are excluded. This allows you to target only new elements."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_incrementalquery_history"
 >title="Incremental query history"
 >abstract="Incremental query history"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_incrementalquery_processeddata"

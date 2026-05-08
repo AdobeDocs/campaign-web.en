@@ -8,7 +8,6 @@ exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
 ---
 # Create and manage test profiles {#create-test-profiles}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_recipients_testprofiles_menu"
 >title="Create test profiles"
@@ -55,7 +54,6 @@ From there, you can browse, create, and manage folders or subfolders, as well as
 From the **[!UICONTROL Explorer]** view, you can also filter, delete, edit, and [create](#create-test-profile) test profiles.
 
 ## Create a test profile {#create-test-profile}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_testprofiles_additionaldata"

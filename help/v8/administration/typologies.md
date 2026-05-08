@@ -6,12 +6,10 @@ exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
 ---
 # Work with business rules (typologies) {#typologies}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_business_rules"
 >title="Typologies & typology rules"
 >abstract="Typologies allow you to standardize business practices across all deliveries. A typology is a collection of typology rules that lets you control, filter, and prioritize the sending of deliveries. Profiles matching criteria within a typology rule are excluded from the delivery audiences during the preparation phase."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_type"
@@ -41,12 +39,10 @@ The main steps to apply typologies to your messages are as follows:
 
 ## Create a typology {#typology}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_properties"
 >title="Typology properties"
 >abstract="Define the typology's properties and expand the **[!UICONTROL Additional options]** section to access advanced settings. Use the **[!UICONTROL IP affinity]** field to associate IP affinities with typologies. This allows you to better control the outbound SMTP traffic by defining which specific IP addresses can be used for each affinity."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_ip_affinity"
@@ -75,7 +71,6 @@ The typology details open. From this screen, directly reference existing typolog
 
 ## Create a typology rule {#typology-rule}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_properties"
 >title="Typology rule properties"
@@ -101,12 +96,10 @@ To create a typology rule, follow these steps:
 
 ### Define the rule's main properties {#properties}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_filtering"
 >title="Filtering"
 >abstract="**Filtering** rules exclude segments of the target audience based on specific criteria, such as age, location, country, or phone numbers. Select the typology rule's targeting dimension and click the **[!UICONTROL Add rules]** button to access the query modeler and build the rule."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_code"

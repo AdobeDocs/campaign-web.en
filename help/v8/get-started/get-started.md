@@ -6,18 +6,15 @@ exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 ---
 # Get started with Adobe Campaign Web {#get-started}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_learnmore"
 >title="Get started"
 >abstract="The new Adobe Campaign Web interface offers an integrated, intuitive, and consistent user experience."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_learnmore"
 >title="Get started"
 >abstract="The new Adobe Campaign Web interface offers an integrated, intuitive, and consistent user experience."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"

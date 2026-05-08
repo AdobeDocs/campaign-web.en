@@ -6,18 +6,15 @@ exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
 ---
 # Work with the query modeler {#segment-builder}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card5"
 >title="New Query modeler"
 >abstract="Adobe Campaign Web features a query modeler that simplifies the process of filtering databases to select specific targets based on various criteria. This includes the use of advanced expressions and operators. The query modeler is available in every context where you need to define rules to filter data."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_querymessage"
 >title="Query modeler"
 >abstract="Define filtering criteria for recipients or any other targeting dimension from the database. Take advantage of your Adobe Experience Platform audience to further refine your target audience and maximize the impact of your campaign."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_refine_target"
@@ -55,7 +52,6 @@ The query modeler provides a central canvas where you build your query and a rig
 >
 >A brand new interface for the Query modeler is available. The New rule builder allows you to build your query with more ease thanks to its simplified interface. To switch to this experience, press the toggle button in the top-right corner. You can go back to the classic Query modeler anytime you want by simply pressing the toggle back to disable the new interface. You can apply the same principles as the query modeler in this new interface.
 >![Image showing the toggle for the new rule builder interface](assets/query-modeler-toggle.png){zoomable="yes"} 
-
 
 
 >[!CONTEXTUALHELP]

@@ -6,18 +6,15 @@ exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 ---
 # Work with folders {#folders}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_folder_properties"
 >title="Folder properties"
 >abstract="Folder properties"
 
-
 >[!CONTEXTUALHELP]
 >id="acw_folder_security"
 >title="Folder security"
 >abstract="Folder security"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_folder_schedule"
@@ -33,7 +30,6 @@ You can create, rename, reorder, and move folders in the navigation tree. You ca
 ![Folders interface showing folder organization](assets/folders.png){zoomable="yes"}
 
 You can set up a folder type. For example, a folder of deliveries. The folder icon changes according to its type.
-
 
 >[!CONTEXTUALHELP]
 >id="acw_folder_restrictions"
@@ -80,7 +76,6 @@ You can change the order of folders either by **drag and drop** or by using **up
 ![Drag-and-drop functionality for folder reordering](assets/folder-draganddrop.png){zoomable="yes"}
 
 ### Favorite folders {#favorite-folders}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_folder_favorites"

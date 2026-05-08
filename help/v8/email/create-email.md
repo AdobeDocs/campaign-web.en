@@ -6,7 +6,6 @@ exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 ---
 # Create your first email {#first-email}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card3"
 >title="Get started with emails"
@@ -20,12 +19,10 @@ Based on a predefined [design template](../content/create-email-templates.md), t
 
 ## Create the email delivery {#create-email}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_template_selection"
 >title="Select an email template"
 >abstract="An email template is a specific delivery configuration that contains predefined settings, such as typology rules, personalization, or routing parameters. Templates are defined in the Campaign client console."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_properties"
@@ -66,7 +63,6 @@ To create a new standalone email delivery, follow the steps below.
 1. Additionally, advanced settings, such as typology rules and target mappings, can be accessed via the **[!UICONTROL Settings]** button located on the top right of the screen. These settings are pre-configured in the selected template but can be edited as needed for this specific email. [Learn more](../advanced-settings/delivery-settings.md)
 
 ## Define the audience {#define-audience}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
@@ -195,24 +191,20 @@ Additional information on how to preview an email and send proofs is available i
 
 ### Content simulation limitations {#content-simulation-limitations}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_simulation_limitation_multilingual"
 >title="Content simulation is not supported"
 >abstract="The **Simulate content** button is disabled because the multilingual delivery contains only one locale."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_simulation_limitation_reconcilied_deliveries"
 >title="Content simulation is not supported"
 >abstract="The **Simulate content** button is disabled because it is not compatible with reconciled deliveries in this phase."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_simulation_limitation_ffda"
 >title="Content simulation is not supported"
 >abstract="The **Simulate content** button is disabled because not supported in Campaign Enterprise Full Federated Access (FFDA) mode."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_simulation_limitation_no_file"

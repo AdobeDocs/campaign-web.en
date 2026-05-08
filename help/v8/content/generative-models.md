@@ -8,7 +8,6 @@ exl-id: e4db43de-5dc1-4ab7-a703-598534e54826
 ---
 # Create and manage generative models {#generative-models}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
 >title="Integration of image generation models"

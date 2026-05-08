@@ -6,13 +6,11 @@ exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
 ---
 # Create a push notification delivery {#create-push}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_push_notification_template"
 >title="Push Notification template"
 >abstract="Select a push notification template to start your push delivery. Delivery templates allow you to easily reuse custom content and settings across your campaigns and deliveries."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html" text="Use delivery templates"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
@@ -52,7 +50,6 @@ Configure your delivery settings as detailed below:
 1. You can configure your push notification as a multilingual delivery to send messages based on a profile's preferred language. [Learn more](../msg/multilingual.md).
 
 ## Select your push delivery audience {#create-audience-push}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_audience"

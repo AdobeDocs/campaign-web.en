@@ -76,7 +76,6 @@ Filtering components allow you to refine your query by using:
 
 ### Configure a custom condition {#custom-condition}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_customcondition"
 >title="Custom condition"
@@ -223,7 +222,6 @@ Custom conditions allow you to perform aggregate operations. To do this, you nee
 
 ### Select an audience {#audiences}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_selectaudience"
 >title="Select audience"
@@ -256,7 +254,6 @@ To filter your query using an existing audience, follow these steps:
 >[!ENDTABS]
 
 ### Use a predefined filter {#predefined-filters}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_predefinedfilter"
@@ -330,7 +327,6 @@ To the left of every component, you can click on the dots and hold them to drag 
 
 ## Combine filtering components with operators {#operators}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_group"
 >title="Group"
@@ -389,7 +385,6 @@ In the example below, we have created an intermediate group to include results f
 >[!ENDTABS]
 
 ## Check and validate your query
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_ruleproperties"

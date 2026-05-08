@@ -8,18 +8,15 @@ exl-id: e4244ecc-5e37-41a6-a4dd-6e32da6d5512
 
 <!--External Signal End-->
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal"
 >title="External Signal"
 >abstract="The **External signal** activity lets you trigger the execution of a workflow from another workflow or an API call."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal_parameters"
 >title="External Signal Parameters"
 >abstract="External Signal Parameters"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_end_trigger"

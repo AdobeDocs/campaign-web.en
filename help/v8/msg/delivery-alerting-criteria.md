@@ -6,7 +6,6 @@ exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
 ---
 # Delivery alerting criteria {#delivery-alerting-criteria}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria"
 >title="Delivery alerting criteria dashboard"
@@ -36,24 +35,20 @@ Pre-defined alerting criteria are available in Campaign Web User Interface. Thes
 
 ## Create an alerting criterion {#criteria}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create"
 >title="Create delivery alerting critera"
 >abstract="In addition to the pre-defined alerting criteria provided by Adobe Campaign, you can create your own criteria to suit your needs."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_indicators"
 >title="Indicators to add in alerts"
 >abstract="Select the indicators to display as columns in the 'Details' section of the email alerts."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_alert"
 >title="Alert type"
 >abstract="Specify the **Alert Type** for the criterion, meaning the label and color to display next to the delivery criterion in the 'Summary' section of the alerts."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_frequency"

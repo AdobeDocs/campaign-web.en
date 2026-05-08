@@ -6,7 +6,6 @@ exl-id: 84142fbe-fd8a-4329-88a5-cf7a8f4e8b8f
 ---
 # Scheduler {#scheduler}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_scheduler"
 >title="Scheduler activity"
@@ -22,12 +21,10 @@ The **Scheduler** activity is a **Flow control** activity. It allows you to sche
 
 ## Configure the Scheduler activity {#scheduler-configuration}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_validity"
 >title="Scheduler validity"
 >abstract="You can define a validity period for the scheduler. It can be permanent (default), or can be valid until a specific date."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_options"
