@@ -3,6 +3,10 @@ audience: end-user
 title: Design an iOS rich push notification delivery
 description: Learn how to design an iOS rich push notification delivery with Adobe Campaign Web
 exl-id: e6058d60-9f34-412b-aac2-6e319a3ab898
+TQID: https://experienceleague.adobe.com/B4dcgNoG8uflTmYejb0fPp9NjWPawctMacxjZBxa0zU
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Design an iOS rich push delivery {#rich-push}
 

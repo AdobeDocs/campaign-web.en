@@ -3,6 +3,13 @@ audience: end-user
 title: About delivery preview and test
 description: Learn how to preview and test deliveries
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
+TQID: https://experienceleague.adobe.com/o4jYAJjBPMecytLyeZ9sks-Sshww-hYJW-A8QO5ObNs
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # About preview and test {#about-preview-test}
 

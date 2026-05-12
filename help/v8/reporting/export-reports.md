@@ -3,6 +3,13 @@ audience: end-user
 title: Export your reports
 description: Understand how to export your reports
 exl-id: ac48e541-7735-4961-80ee-ce9d24c8b9ad
+TQID: https://experienceleague.adobe.com/zINpJYnitmQP2WIMJpp3kQZz4UW7glzn-5z628yrKis
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 # Export your reports {#export-reports}
 

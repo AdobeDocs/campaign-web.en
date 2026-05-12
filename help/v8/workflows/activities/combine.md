@@ -3,6 +3,10 @@ audience: end-user
 title: Use the Combine workflow activity
 description: Learn how to use the Combine workflow activity
 exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
+TQID: https://experienceleague.adobe.com/LukQ8xEhGq19UKsoh0iYBkNUJUOKZM6cx0c8zXpmBn0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Combine {#combine}
 

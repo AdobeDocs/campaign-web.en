@@ -3,6 +3,13 @@ audience: end-user
 title: Select delivery recipients
 description: Learn how to select the recipients of your deliveries
 exl-id: 33366af1-17b5-4ef7-8e0c-b7a8ae6e1e82
+TQID: https://experienceleague.adobe.com/6s-DhV8X3fOHvy-cpUvMRUiSKbSYElQpD-EsoNNSJwI
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 ---
 # Select delivery recipients {#add-audience}
 

@@ -2,6 +2,13 @@
 title: Manage external account
 description: Learn how to configure external accounts
 exl-id: 8f41312e-422f-4be1-b874-1b143c500912
+TQID: https://experienceleague.adobe.com/3UXLVWPQ0AxtloNmhumWXdi4VOVbHqveeZdkGlxhlQQ
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # External database accounts {#external-accounts}
 

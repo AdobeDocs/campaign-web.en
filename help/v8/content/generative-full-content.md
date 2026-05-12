@@ -3,6 +3,15 @@ audience: end-user
 title: Generative content
 description: Learn how to generate complete content experiences with AI Assistant in Journey Optimizer.
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
+TQID: https://experienceleague.adobe.com/nXCZiZL0nd7Jso0wMFrBCEZCzzcx83-c0BdI-PxCOp4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Generate full content with AI Assistant {#generative-full-content}
 

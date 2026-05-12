@@ -3,8 +3,11 @@ audience: end-user
 title: Build your first query using the query modeler
 description: Learn how to build your first query in Adobe Campaign Web query modeler.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
+TQID: https://experienceleague.adobe.com/s8cjbxjs-71srb0hufQBlBgqJhUxBHFSHhBsxIDgVWQ
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
-
 # Build your first query {#build-query}
 
 To start building a query, access the query modeler from the location of your choice, depending on the action you want to perform. The query modeler opens with a blank canvas. Click the **+** button to configure the first node of your query.

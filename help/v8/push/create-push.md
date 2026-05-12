@@ -3,6 +3,10 @@ audience: end-user
 title: Create a push notification delivery
 description: Learn how to create a push notification delivery with Adobe Campaign Web
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
+TQID: https://experienceleague.adobe.com/J2FB-oR-oGwBw18HLWt3F3nzu-mHXVnRlyPlSr5ISiI
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Create a push notification delivery {#create-push}
 

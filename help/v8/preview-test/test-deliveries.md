@@ -3,6 +3,13 @@ audience: end-user
 title: Send proofs
 description: Learn how to define and send proofs
 exl-id: b2677579-c95d-443d-b207-466af364c208
+TQID: https://experienceleague.adobe.com/ihLIbOoruy21sAEFjbSIwxXm96vOMz9FfiNegHLrmVo
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Send proofs {#send-test-deliveries}
 

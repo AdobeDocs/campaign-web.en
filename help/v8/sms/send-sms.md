@@ -3,6 +3,13 @@ audience: end-user
 title: Send an SMS delivery
 description: Learn how to send SMS with Adobe Campaign Web
 exl-id: 901faf3b-fcdd-4a4e-8de7-7d088686250f
+TQID: https://experienceleague.adobe.com/eIYGGNGkUw-wo4gXH98yQDlrFctGgW7jQSODv0BtkVI
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Preview and send an SMS delivery {#send-sms-delivery}
 

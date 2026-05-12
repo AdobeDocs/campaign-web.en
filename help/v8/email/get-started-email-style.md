@@ -3,8 +3,11 @@ audience: end-user
 title: Get started with email style
 description: Discover the different ways you can adjust your email content style
 exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
+TQID: https://experienceleague.adobe.com/QNNQ7G1fQWZqgylyz0MgLLCNctz42vya4fJ9rygUE-8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
-
 # Get started with email style {#get-started-email-style}
 
 Once you start creating your email content in [!DNL Adobe Campaign], you can adjust a number of styling parameters and attributes from the Email Designer settings pane.

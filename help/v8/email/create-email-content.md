@@ -3,6 +3,13 @@ audience: end-user
 title: Design emails in the Email Designer
 description: Learn how to design your emails content from scratch
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
+TQID: https://experienceleague.adobe.com/z3yAopnbrS2h1jYhH1EgQYU89rNTDQBwjXiDK0YeiLU
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Start your email content from scratch {#create-email-content}
 
