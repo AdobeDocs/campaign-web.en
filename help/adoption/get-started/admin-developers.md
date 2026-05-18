@@ -121,7 +121,7 @@ Several options are available to you to customize the user interface in the clie
 
 Every company has brand guidelines that define both visual elements and technical details. As for Adobe Campaign Standard, Adobe Campaign v8 helps you manage these guidelines centrally, so you can present a consistent brand image to your customers in everything you do, from logos in emails to the URLs and domains used in your campaigns. As a technical administrator, you can create and manage multiple brands within Adobe Campaign.
 
-Learn more in the [Branding documentation](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/branding/branding-gs){target="_blank"}
+Learn more in the [Branding documentation](../..v8/administration/branding/branding-gs.md)
 
 ## Understand data model creation {#acs-gs-admin-data-model-creation}
 
@@ -163,9 +163,9 @@ Campaign REST APIs are aimed at letting you create integrations for Adobe Campai
 
 As a Campaign Standard user transitioning to Campaign v8, REST APIs are available to you. 
 
-Learn more in the [Rest API documentation](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/get-started-apis){target="_blank"}.
+Learn more in the [Rest API documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target="_blank"}.
 
-Note that some recommendations and limitations apply to REST APIs when transitioning from Campaign Standard to Campaign v8. They are listed in [this page](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/limitations){target="_blank"}. Specific restrictions also apply when transitioning to Campaign v8 as listed in the Availability note below:
+Note that some recommendations and limitations apply to REST APIs when transitioning from Campaign Standard to Campaign v8. They are listed in [this page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/apis/limitations){target="_blank"}. Specific restrictions also apply when transitioning to Campaign v8 as listed in the Availability note below:
 
 >[!AVAILABILITY]
 >
