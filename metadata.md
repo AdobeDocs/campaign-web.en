@@ -8,6 +8,7 @@ product_v2:
     internal-label: "Adobe Campaign v8"
   - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
     internal-label: "Adobe Campaign v8 Web User Interface"
+usetq: true
 version: Campaign v8 Web User Interface
 product: adobe campaign
 feature-set: Campaign
