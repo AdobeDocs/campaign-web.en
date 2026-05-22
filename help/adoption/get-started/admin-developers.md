@@ -121,7 +121,7 @@ Several options are available to you to customize the user interface in the clie
 
 Every company has brand guidelines that define both visual elements and technical details. As for Adobe Campaign Standard, Adobe Campaign v8 helps you manage these guidelines centrally, so you can present a consistent brand image to your customers in everything you do, from logos in emails to the URLs and domains used in your campaigns. As a technical administrator, you can create and manage multiple brands within Adobe Campaign.
 
-Learn more in the [Branding documentation](../..v8/administration/branding/branding-gs.md)
+Learn more in the [Branding documentation](../../v8/administration/branding/branding-gs.md)
 
 ## Understand data model creation {#acs-gs-admin-data-model-creation}
 
