@@ -3,6 +3,13 @@ audience: end-user
 title: Design a rich push notification delivery
 description: Learn how to design an Android rich push notification delivery with Adobe Campaign Web
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
+TQID: https://experienceleague.adobe.com/QhjmtA9msOTTN5RmYg8a7pE-zY02c4H-aDk5EtStRgg
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Design an Android rich push delivery {#rich-push}
 

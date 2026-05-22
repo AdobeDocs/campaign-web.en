@@ -3,6 +3,10 @@ audience: end-user
 title: Create a SMS delivery
 description: Learn how to create and send SMS with Adobe Campaign Web
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
+TQID: https://experienceleague.adobe.com/OoPPDmXtKfikWjcycfkDDBng38EvW6geird8w3BgrL0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Create an SMS delivery {#create-sms}
 

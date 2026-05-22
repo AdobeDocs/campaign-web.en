@@ -2,6 +2,15 @@
 title: Work with JavaScript codes
 description: Learn how to work with JavaScript codes.
 exl-id: 4f3b7fce-0373-4db1-8239-64b1bda0f14c
+TQID: https://experienceleague.adobe.com/MEB6-W3pMbt97vozcG7sKjyFLHzLqTs3D0B9JjU44hw
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Work with JavaScript codes {#javascript-codes}
 

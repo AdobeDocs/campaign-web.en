@@ -2,6 +2,10 @@
 title: Create a profile
 description: Learn how to create a profile in Campaign Web.
 exl-id: 0680b726-8f2f-45bf-8aa0-c1d4aa1c2990
+TQID: https://experienceleague.adobe.com/2Drc20HXHEXs7hYFXa6IA9yfLoGI4bXpKeWGpUGC7pY
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Create a profile {#profiles}
 

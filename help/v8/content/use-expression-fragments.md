@@ -3,6 +3,13 @@ audience: end-user
 title: Add expression fragments in the expression editor
 description: Learn how to create with content fragments
 exl-id: 413a28c0-0cbc-4aed-ab0d-642f6245de01
+TQID: https://experienceleague.adobe.com/v9omGFhD8VdbGfSZ38zkJFbgkeqBXdvpYdUI-dppwBU
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Add expression fragments in the expression editor {#expression}
 

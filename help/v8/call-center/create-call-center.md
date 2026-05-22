@@ -3,6 +3,10 @@ audience: end-user
 title: Create a call center delivery
 description: Learn how to create a call center delivery with Adobe Campaign Web
 exl-id: fe8d4773-2271-46ec-9b2e-f50311a4ccf3
+TQID: https://experienceleague.adobe.com/ZzmvZqFd6YxjWRtXC5BdWR8yKOYot2l6CNxBOZs6--4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Create and send a call center delivery {#create-call-center}
 

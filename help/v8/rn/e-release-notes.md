@@ -3,8 +3,11 @@ title: Campaign v8 Web User Interface Early Release Notes
 description: Discover new features coming with the next Campaign Web User Interface release
 hide: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
+TQID: https://experienceleague.adobe.com/s1-w6QPAcZkFNzkImCJ5RHds9nhbaghxgQLxh07NFEA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
-
 # Early release notes {#e-release}
 
 Adobe Campaign Web User interface continuously delivers new features, enhancements to existing features, and bug fixes. All changes are consolidated at the end of each month in the [release notes](release-notes.md).

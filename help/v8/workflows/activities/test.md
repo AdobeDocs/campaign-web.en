@@ -3,8 +3,14 @@ audience: end-user
 title: Use the Test workflow activity
 description: Learn how to use the Test workflow activity
 exl-id: 1bb25ad4-2cab-4656-85bd-4ed018e8477b
+TQID: https://experienceleague.adobe.com/jnAhePpujy5tIqTwJEND6sogE5Qocgq7yFdml38wPgs
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
-
 # Test {#test}
 
 >[!CONTEXTUALHELP]

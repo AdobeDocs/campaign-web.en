@@ -3,6 +3,10 @@ audience: end-user
 title: Use the Reconciliation workflow activity
 description: Learn how to use the Reconciliation workflow activity
 exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
+TQID: https://experienceleague.adobe.com/tq8es8g36fkqJOjufSCwi15W4uN27o1FLTrXAJprMaE
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Reconciliation {#reconciliation}
 

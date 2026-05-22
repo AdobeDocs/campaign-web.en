@@ -3,6 +3,13 @@ audience: end-user
 title: Campaign reports for the SMS channel
 description: Understand campaign reports for the SMS channel
 exl-id: 0df9b999-84c8-4e42-b5da-857b2ef0dd75
+TQID: https://experienceleague.adobe.com/k-EClMV8DYeD3QZU3zb6fZU4eSy4qyDuw0XtGNMXHLo
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 # Campaign reports for the SMS channel {#campaign-reports-sms-channel}
 

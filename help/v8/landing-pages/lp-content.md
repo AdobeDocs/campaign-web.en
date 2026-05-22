@@ -3,6 +3,10 @@ title: Define landing page-specific content
 description: Learn how to design landing page specific content in Campaign Web
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
+TQID: https://experienceleague.adobe.com/Q9tP0Cf1np2-49fxWzaqEwfqiTX4UIfUV4evNCd3PLM
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Define landing page-specific content {#lp-content}
 

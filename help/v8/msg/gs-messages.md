@@ -3,8 +3,14 @@ audience: end-user
 title: Get started with messages and deliveries in Adobe Campaign Web
 description: Learn how to work with deliveries and send messages with the Adobe Campaign Web user interface
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
+TQID: https://experienceleague.adobe.com/ol49rogAOsMFxY7k6DlSEmhkuplXBAYwKVM-KOflNQI
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 ---
-
 # Get started with messages{#gs-messages}
 
 With Adobe Campaign, you can send cross-channel campaigns, including emails, SMS, push notifications, [WhatsApp](../whatsapp/get-started-whatsapp.md), and direct mail, and measure their impact using various dedicated reports.

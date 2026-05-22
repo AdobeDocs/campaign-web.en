@@ -3,6 +3,10 @@ audience: end-user
 title: Create workflows with Adobe Campaign Web
 description: Learn how to build workflows with Adobe Campaign Web
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
+TQID: https://experienceleague.adobe.com/D9lkZe8AvBCas-wt-Fe6GLaAoBR-JJNfAHSrRrpkP-w
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Orchestrate activities {#orchestrate}
 

@@ -3,6 +3,10 @@ audience: end-user
 title: Define a style for links
 description: Learn how to define a style for links
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
+TQID: https://experienceleague.adobe.com/GW1s2IJjSH-7ZygfvRCNzzfMZIIWibjPBvmr69sT6LU
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Define a style for links {#styling-links}
 

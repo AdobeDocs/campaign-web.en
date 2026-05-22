@@ -4,8 +4,11 @@ title: Query samples
 description: Learn how to work with the query modeler.
 hide: true
 exl-id: 6f8154ea-5d64-4950-9da3-427070ec7bf0
+TQID: https://experienceleague.adobe.com/ho7HNrKlPzv5i-ar4T-GZpVQPLpHzzbH4xrAUdJAXYA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
-
 # Query samples {#query-samples}
 
 ## Queries on recipients {#querying-recipient-table}

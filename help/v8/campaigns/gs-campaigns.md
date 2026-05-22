@@ -3,6 +3,18 @@ audience: end-user
 title: Get started with campaigns
 description: Learn how to start with cross-channel campaigns
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
+TQID: https://experienceleague.adobe.com/EA5ujqX9Rc-Ooq7pqhk6JVcofCXyWEzAMfPGoav6G4U
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 ---
 # Get started with campaigns {#campaigns}
 

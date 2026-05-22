@@ -3,6 +3,15 @@ audience: end-user
 title: Global reports for the direct mail channel
 description: Learn more about Global reports for the direct mail channel
 exl-id: a42536fe-375b-4169-8775-d47ed26692f8
+TQID: https://experienceleague.adobe.com/KiKxS4DGB1G8je5lqmO8DGePSzSGXzqfaW--g7GLIII
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 ---
 # Global reports for the direct mail channel {#global-report-direct}
 

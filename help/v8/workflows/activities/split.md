@@ -3,6 +3,10 @@ audience: end-user
 title: Use the Split workflow activity
 description: Learn how to use the Split workflow activity
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
+TQID: https://experienceleague.adobe.com/EjGgtbMOx1hN-tlD56Fj6SsmGt3jI-rC7ehiKtr1yy4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Split {#split}
 

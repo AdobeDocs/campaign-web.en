@@ -2,6 +2,15 @@
 title: Connect to Adobe Campaign Web interface
 description: Learn how to connect to Adobe Campaign Web user interface
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
+TQID: https://experienceleague.adobe.com/TSbgkDH1v-9HH-szfGQx0z6-6fP8tny4s7Vx2SE8gUo
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Connect to Adobe Campaign {#connect-to-campaign}
 
@@ -88,16 +97,18 @@ You can learn how to [view and manage permissions here](permissions.md).
 
 ## Adobe Experience Cloud top navigation {#top-bar}
 
-Browse the top bar of the interface to:
+The top bar of the interface gives you quick access to core Experience Cloud features.
+
+![Screenshot showing the Adobe Experience Cloud top navigation bar](assets/do-not-localize/unified-shell.png){zoomable="yes"}
+
+Use the top bar to:
 
 * Share feedback about the Campaign Web user interface.
 * Switch between your organizations.
 * Switch between your Adobe Experience Cloud solutions and apps.
 * Search for help on [Adobe Experience League](https://experienceleague.adobe.com/docs/){target="_blank"}.
-* Check your product notifications.
-* Edit your Adobe profile and manage settings, such as [update your favorite language](#language-pref) or [switch to light/dark theme](#dark-theme).
-
-![Screenshot showing the Adobe Experience Cloud top navigation bar](assets/do-not-localize/unified-shell.png){zoomable="yes"}{width="50%" align="left"}
+* View your product notifications.
+* Edit your Adobe profile and manage settings, such as [updating your preferred language](#language-pref) or [switching between light and dark themes](#dark-theme).
 
 ## Supported browsers {#browsers}
 
