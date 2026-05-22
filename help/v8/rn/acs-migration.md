@@ -59,7 +59,7 @@ Most concepts are similar between Campaign v8 and Campaign Standard. However, th
 
 ## Specific features {#new-features}
 
-To ensure a smooth transition to Campaign v8, key Campaign Standard capabilities have been added to Campaign v8. These features are available to users transitioning from Campaign Standard.
+To ensure a smooth transition to Campaign v8, key Campaign Standard capabilities have been added to Campaign v8:
 
 * **Dynamic Reporting**: Dynamic Reporting provides customizable, real-time reports to measure the impact of marketing activities. It includes access to profile data for demographic analysis by dimensions such as gender, city, and age, alongside functional email campaign data like opens and clicks. [Learn more](../reporting/dynamic-reporting/get-started-reporting.md).
 
