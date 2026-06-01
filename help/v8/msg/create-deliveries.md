@@ -49,7 +49,7 @@ To create a standalone delivery, follow these steps:
 1. Choose a channel for the delivery.
 1. Define the delivery audience for the main target and the control group. [Learn more about audiences](../audience/about-recipients.md).
 
-    ![Screenshot showing the audience selection interface](assets/select-audience.png){zoomable="yes"}{width="70%" align="left"}
+    ![Screenshot showing the audience selection interface](assets/select-audience.png){zoomable="yes"}{width="70%"}
 
 1. Define the message content. Learn more about delivery channels and how to define delivery content in these sections: 
 

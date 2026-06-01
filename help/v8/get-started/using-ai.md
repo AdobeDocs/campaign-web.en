@@ -57,7 +57,7 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 From the input field, Adobe Campaign AI-powered Contextual Help provides three suggested questions. These questions are AI-generated, relate to the help box, and align with the current product context. Select a question to get the answer.
 
-[Example of suggested questions in contextual help](assets/do-not-localize/suggested-questions.png){width="600" align="left"}{zoomable="yes"}
+[Example of suggested questions in contextual help](assets/do-not-localize/suggested-questions.png){width="600"}{zoomable="yes"}
 
 ## Answers {#answers-ai}
 
@@ -65,7 +65,7 @@ Adobe Campaign AI-powered Contextual Help offers assistance, but you should veri
 
 Copy an answer to the clipboard using the **Copy** icon at the bottom of the help popover.
 
-[Example of copying an answer in contextual help](assets/do-not-localize/copy-answer.png){width="600" align="left"}{zoomable="yes"}
+[Example of copying an answer in contextual help](assets/do-not-localize/copy-answer.png){width="600"}{zoomable="yes"}
 
 ## Feedback {#feedback-ai}
 

@@ -24,14 +24,14 @@ Workflow activities that are not supported yet in Campaign Web user interface ar
 
 | Console | Web |
 | --- | --- |
-| ![Screenshot showing limitations of activities in the console](assets/limitations-activities-console.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![Screenshot showing limitations of activities in the web interface](assets/limitations-activities-web.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
+| ![Screenshot showing limitations of activities in the console](assets/limitations-activities-console.png){zoomable="yes"}{width="800px" zoomable="yes"} | ![Screenshot showing limitations of activities in the web interface](assets/limitations-activities-web.png){zoomable="yes"}{width="800px" zoomable="yes"} |
 
 <!--
 When a **Query** or an **Enrichment** activity is configured with additional data in the console, the enrichment data is taken into account in Campaign Web and passed into the outbound transition, but it cannot be edited.
 
 | Console | Web |
 | --- | --- |
-| ![Screenshot showing limitations of options in the console](assets/limitations-options-console.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![Screenshot showing limitations of options in the web interface](assets/limitations-options-web.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
+| ![Screenshot showing limitations of options in the console](assets/limitations-options-console.png){zoomable="yes"}{width="800px" zoomable="yes"} | ![Screenshot showing limitations of options in the web interface](assets/limitations-options-web.png){zoomable="yes"}{width="800px" zoomable="yes"} |
 
 -->
 
@@ -39,7 +39,7 @@ In the console, the **Enrichment** activity can perform both reconciliation and 
 
 | Console | Web |
 | --- | --- |
-| ![Screenshot showing enrichment activity in the console](assets/limitations-enrichment-console.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![Screenshot showing enrichment activity in the web interface](assets/limitations-enrichment-web.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
+| ![Screenshot showing enrichment activity in the console](assets/limitations-enrichment-console.png){zoomable="yes"}{width="800px" zoomable="yes"} | ![Screenshot showing enrichment activity in the web interface](assets/limitations-enrichment-web.png){zoomable="yes"}{width="800px" zoomable="yes"} |
 
 ## Workflow canvas {#wkf-canvas}
 
@@ -47,10 +47,10 @@ When creating a new workflow in Campaign Web user interface, the canvas only sup
 
 | Console | Web |
 | --- | --- |
-| ![Screenshot showing multiple entry points in the console](assets/limitations-multiple-console.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![Screenshot showing multiple entry points in the web interface](assets/limitations-multiple-web.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
+| ![Screenshot showing multiple entry points in the console](assets/limitations-multiple-console.png){zoomable="yes"}{width="800px" zoomable="yes"} | ![Screenshot showing multiple entry points in the web interface](assets/limitations-multiple-web.png){zoomable="yes"}{width="800px" zoomable="yes"} |
 
 The positioning of the nodes is refreshed every time an activity is added or removed. If you create a workflow in the console, modify it using Campaign Web user interface, and re-open it in the console, you may notice some minor positioning imperfections. This has no impact on the workflow's processes and tasks.
 
 | Initial workflow | Positioning change |
 | --- | --- |
-| ![Screenshot showing initial workflow positioning](assets/limitations-positioning1.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![Screenshot showing positioning changes after modifications](assets/limitations-positioning2.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
+| ![Screenshot showing initial workflow positioning](assets/limitations-positioning1.png){zoomable="yes"}{width="800px" zoomable="yes"} | ![Screenshot showing positioning changes after modifications](assets/limitations-positioning2.png){zoomable="yes"}{width="800px" zoomable="yes"} |

@@ -133,7 +133,7 @@ In the **Campaign management** section, you can access marketing campaigns, deli
 
     Use the **More actions** button to delete or duplicate a delivery.
 
-    ![](assets/more-actions.png){zoomable="yes"}{width="70%" align="left"} [Screenshot showing the More actions button with options to delete or duplicate a delivery.]
+    ![](assets/more-actions.png){zoomable="yes"}{width="70%"} [Screenshot showing the More actions button with options to delete or duplicate a delivery.]
 
 * **Workflows** - In this screen, you can access the full list of workflows and workflow templates. You can check their status, last/next execution dates, and create a new workflow or a new workflow template. You can filter the list with the same criteria as for other objects. Additionally, you can filter workflows that belong to a campaign or not. Learn more about workflows [in this section](../workflows/gs-workflows.md).
 
