@@ -223,7 +223,7 @@ Useful links:
 >
 >* Tracking links, mirror page URL links, subscription/un-subscription links work as in Campaign Standard. 
 >
->See also the following sections: [Tracking and Monitoring](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking){target="_blank"}, [Branding](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/branding/branding-gs){target="_blank"} in Adobe Campaign.
+>See also the following sections: [Tracking and Monitoring](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking){target="_blank"}, [Branding](../../v8/administration/branding/branding-gs.md) in Adobe Campaign.
 
 ### Email delivery {#acs-gs-marketers-email}
 
@@ -405,11 +405,11 @@ Adobe Campaign provides a set of [reporting tools](https://experienceleague.adob
 
 Adobe Campaign suite of reporting tools provides valuable insights into the effectiveness of your marketing efforts, allowing you to optimize your campaigns for maximum impact. Learn more in the [Reporting documentation](../../v8/reporting/gs-reports.md).
 
-In addition, aligned with the Adobe Campaign Standard experience, the Dynamic Reporting is available to you in Campaign v8, for your email deliveries. Itprovides fully customizable and real-time reports to measure the impact of your marketing activities. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks. Learn more in the [Dynamic reporting documentation](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"}
+In addition, aligned with the Adobe Campaign Standard experience, the Dynamic Reporting is available to you in Campaign v8, for your email deliveries. Itprovides fully customizable and real-time reports to measure the impact of your marketing activities. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks. Learn more in the [Dynamic reporting documentation](../../v8/reporting/dynamic-reporting/get-started-reporting.md).
 
 >[!AVAILABILITY]
 >
->* [Dynamic reporting](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"} can be used for reporting of email deliveries, campaign with email deliveries and transactional messages. Demographic analysis by Profile dimension is also available.  
+>* [Dynamic reporting](../../v8/reporting/dynamic-reporting/get-started-reporting.md) can be used for reporting of email deliveries, campaign with email deliveries and transactional messages. Demographic analysis by Profile dimension is also available.  
 >
 > * [Adobe Campaign Web user interface reporting](../../v8/reporting/campaign-reports.md) is also available for all users transition from Adobe Campaign Standard to Adobe Campaign v8.
 

@@ -62,18 +62,13 @@ The Campaign client console is designed for administrators and developers to con
 >
 >Learn more about supported and unsupported capabilities, and interoperability between the Campaign Web user interface and the Campaign client console [in this page](../get-started/capability-matrix.md).
 
-## Terminology {#terminology}
-
-Most concepts are similar between Campaign v8 and Campaign Standard. However, there are a few terminology differences. Examples include:
-
 <!--
+## Terminology {#terminology}
+Most concepts are similar between Campaign v8 and Campaign Standard. However, there are a few terminology differences. Examples include:
 * Profiles are **Recipients** in the console. [Learn more](../audience/gs-audiences-recipients.md).
 * Test profiles are **Seed addresses**. [Learn more](../preview-test/test-deliveries.md).
 * The delivery preparation is the **Delivery analysis**. [Learn more](../monitor/prepare-send.md).
 * Audiences are **Lists**. [Learn more](../audience/gs-audiences-recipients.md).
--->
-
-<!--
 * Custom resources are **Schemas**
 * Messages are referred to as **Deliveries**
 * Roles are configured with **Named Rights**
@@ -85,7 +80,7 @@ Most concepts are similar between Campaign v8 and Campaign Standard. However, th
 
 ## Specific features {#new-features}
 
-To ensure a smooth transition to Campaign v8, key Campaign Standard capabilities have been added to Campaign v8. These features are detailed in [this documentation](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html){target="_blank} and are available only to users transitioning from Campaign Standard.
+To ensure a smooth transition to Campaign v8, key Campaign Standard capabilities have been added to Campaign v8:
 
 * **Dynamic Reporting**: Dynamic Reporting provides customizable, real-time reports to measure the impact of marketing activities. It includes access to profile data for demographic analysis by dimensions such as gender, city, and age, alongside functional email campaign data like opens and clicks. [Learn more](../reporting/dynamic-reporting/get-started-reporting.md).
 
