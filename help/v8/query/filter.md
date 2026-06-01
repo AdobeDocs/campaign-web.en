@@ -26,7 +26,7 @@ To apply filters to a list, click the **[!UICONTROL Show filters]** button locat
 
 The filters pane opens, displaying available filters for the selected list. For example, you can filter campaigns based on their status, start and end dates, or storage folder, while the subscription services list can be filtered based on their channel and storage folder.
 
-![Filters pane showing available filters for lists](assets/filters-pane.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+![Filters pane showing available filters for lists](assets/filters-pane.png){zoomable="yes"}{width="70%" zoomable="yes"}
 
 To filter a list based on your own criteria, create a custom filter. To do this, browse to the bottom of the filters pane and click the **Add rules** button. [Learn how to create custom filters](#custom).
 
@@ -42,6 +42,6 @@ Custom filters allow you to refine lists based on your own specific criteria. Th
 
     The example below shows a custom filter designed to display in the campaigns list SMS campaigns run by operators from the Running or Yoga departments.
 
-    ![Custom filter example showing SMS campaigns filtered by department](assets/filters-sample.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+    ![Custom filter example showing SMS campaigns filtered by department](assets/filters-sample.png){zoomable="yes"}{width="70%" zoomable="yes"}
 
 1. Once your custom filter is configured, click **[!UICONTROL Confirm]** to apply it to the list.

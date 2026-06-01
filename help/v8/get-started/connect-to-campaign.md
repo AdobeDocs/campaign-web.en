@@ -32,7 +32,7 @@ To sign in to Adobe Experience Cloud, follow these basic steps:
 
 1. Verify that you are in the correct organization.
 
-    ![Screenshot showing organization selection in Adobe Experience Cloud](assets/exc-orgs.png){zoomable="yes"}{width="50%" align="left"}
+    ![Screenshot showing organization selection in Adobe Experience Cloud](assets/exc-orgs.png){zoomable="yes"}{width="50%"}
 
     Learn more about organizations in Adobe Experience Cloud in [this article](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html){target="_blank"}.
 
