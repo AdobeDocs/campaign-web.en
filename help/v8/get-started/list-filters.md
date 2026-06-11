@@ -49,6 +49,22 @@ To find items quicker, use the search bar or built-in and custom filters to adap
 
 Detailed information on how to use filters and create your own custom filters is available in [this section](../query/filter.md).
 
+## Export list data {#export-list}
+
+>[!CONTEXTUALHELP]
+>id="acw_list_export"
+>title="Export the list"
+>abstract="Click **Export** to download the list as a CSV file. Only the rows currently loaded in the list and the columns visible on screen are exported. The active search and filters are applied to the export."
+
+You can export the contents of a list as a CSV file. This option is available on most overview tables in the Web UI, including delivery logs, sending logs, exclusion logs, tracking logs, and other list views.
+
+To export a list:
+
+1. Open the list you want to export.
+1. (Optional) Adjust the visible columns and apply any search or filters. Only the columns currently visible on screen are exported, and the active search and filters are applied.
+1. (Optional) Scroll down to load additional rows if needed. Only the rows currently loaded in the list are exported.
+1. Click the **Export** button above the list. The file is saved to your browser's default download folder.
+
 <!--
 ## Use advanced attributes {#adv-attributes}
 
