@@ -11,9 +11,32 @@ exl-id: 7afc802d-e90c-48c8-aa04-3ea543dfdfbc
 
 >[!IMPORTANT]
 >
->Brands cannot be created or modified by end-users: these operations have to be performed by Adobe Campaign technical administrator. For any request, contact Adobe Customer care.
+>Brand creation and modification is restricted to technical administrators.
 
-In Adobe Campaign V8, Brands can be found in the **[!UICONTROL Administration > Platform > Branding]** menu.
+In the Campaign Web UI, brands are managed from the **[!UICONTROL Administration > Platform > Branding]** menu. Brands are also accessible from the **[!UICONTROL Explorer]**, alongside external accounts.
+
+## Create or edit a brand from the Web UI {#create-edit-brand}
+
+>[!CONTEXTUALHELP]
+>id="acw_branding_create"
+>title="Create a brand"
+>abstract="Click **Create brand** to define a new brand identity. Fill in the brand details, then save your changes. The brand becomes available to be linked to delivery templates and standalone deliveries."
+
+Technical administrators can create and edit brands directly from the Campaign Web UI, without using the client console.
+
+To create a new brand, follow these steps:
+
+1. From the Web UI left rail, browse to **[!UICONTROL Administration > Platform > Branding]**.
+
+1. Click the **[!UICONTROL Create brand]** button above the list.
+
+1. Fill in the brand details. Each field is described in the [Brand attributes](#brand-attributes) section below.
+
+1. Click **[!UICONTROL Save]** to create the brand. It is now available to be linked to delivery templates and standalone deliveries. [Learn how to assign a brand](branding-assign.md).
+
+To edit an existing brand, select it from the list in the same menu, update the fields, and save your changes.
+
+## Brand attributes {#brand-attributes}
 
 A **[!UICONTROL Brand]** is defined by the following characteristics:
 

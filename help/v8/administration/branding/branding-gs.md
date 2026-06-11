@@ -11,16 +11,11 @@ exl-id: f6438303-5ae8-47c6-8c34-8e586f4b6fe7
 
 >[!AVAILABILITY]
 >
->This capabibity is only available on demand, for new implementations. To gain access, contact your Adobe representative. 
-
-
->[!IMPORTANT]
->
->Brands cannot be created or modified by end-users: these operations have to be performed by Adobe Campaign technical administrator. For any request, contact Adobe Customer care.
+>This capability is only available on demand, for new implementations. To gain access, contact your Adobe representative.
 
 Every company has brand guidelines that define both visual elements and technical details. Adobe Campaign helps you manage these guidelines centrally, so you can present a consistent brand image to your customers in everything you do, from logos in emails to the URLs and domains used in your campaigns.
 
-Technical administrators can create and manage multiple brands within Adobe Campaign. This allows you to define all the elements that make up your brand identity, including logos and even email tracking settings. Once created, these brands can be easily linked to your deliveries.
+Technical administrators can create and manage multiple brands directly from the Web UI. This allows you to define all the elements that make up your brand identity, including logos and even email tracking settings. Once created, these brands can be easily linked to your deliveries. [Learn how to create and configure a brand](branding-configure.md).
 
 You can add new entities of your organization in Campaign, or create a new type of email which you must send under a different subdomain. To perform this, follow the steps below:
 
