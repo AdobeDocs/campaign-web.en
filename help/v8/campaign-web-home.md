@@ -146,3 +146,4 @@ Frequently Asked Questions about Campaign web user interface are listed in a new
 
 * [Adobe Campaign Product Description](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
 * [Adobe Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign-v8.html){target="_blank"}
+* [Email Tracking Pixels and CNIL Guidance](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/cnil-pixel-tracking){target="_blank"}
