@@ -2,6 +2,10 @@
 title: AI Assistant use cases
 description: Learn through use cases how to use AI Assistant
 exl-id: ead51ef0-f7ba-4bc4-8d4a-f6a6d1df6a0f
+TQID: https://experienceleague.adobe.com/WcuIJGn2iv3OY8MT5qQ8sYiQ1zNbPd55hCmAi-dQUeQ
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # AI Assistant use cases {#generative-uc}
 

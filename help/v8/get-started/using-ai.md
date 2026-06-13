@@ -4,6 +4,20 @@ description: Ask questions in Campaign Web help popovers
 badge: label="Beta"
 hide: true
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
+TQID: https://experienceleague.adobe.com/TM3zkoJ6WmypzgJgCbMLtbRw-gP1iPROc-iOrUswOh4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
 ---
 # AI-powered contextual help {#using-ai}
 
@@ -43,7 +57,7 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 From the input field, Adobe Campaign AI-powered Contextual Help provides three suggested questions. These questions are AI-generated, relate to the help box, and align with the current product context. Select a question to get the answer.
 
-[Example of suggested questions in contextual help](assets/do-not-localize/suggested-questions.png){width="600" align="left"}{zoomable="yes"}
+[Example of suggested questions in contextual help](assets/do-not-localize/suggested-questions.png){width="600"}{zoomable="yes"}
 
 ## Answers {#answers-ai}
 
@@ -51,7 +65,7 @@ Adobe Campaign AI-powered Contextual Help offers assistance, but you should veri
 
 Copy an answer to the clipboard using the **Copy** icon at the bottom of the help popover.
 
-[Example of copying an answer in contextual help](assets/do-not-localize/copy-answer.png){width="600" align="left"}{zoomable="yes"}
+[Example of copying an answer in contextual help](assets/do-not-localize/copy-answer.png){width="600"}{zoomable="yes"}
 
 ## Feedback {#feedback-ai}
 

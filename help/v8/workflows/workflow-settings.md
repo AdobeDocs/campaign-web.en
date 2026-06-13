@@ -3,6 +3,10 @@ audience: end-user
 title: Configure workflow settings
 description: Learn how to configure workflow settings with Adobe Campaign Web
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
+TQID: https://experienceleague.adobe.com/u76tPZP4tkdiIUuXc0yIoIFvy-mEO8JRd-MKYY9J11o
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Configure workflow settings {#workflow-settings}
 
@@ -15,7 +19,7 @@ When creating a workflow or orchestrating workflow activities in the canvas, acc
 
 These settings are pre-configured in the template selected when creating the workflow, but can be edited as needed for this specific workflow.
 
-![Workflow settings button interface](assets/workflow-settings-button.png){zoomable="yes"}{width="70%" align="left"}
+![Workflow settings button interface](assets/workflow-settings-button.png){zoomable="yes"}{width="70%"}
 
 ## Workflow properties {#properties}
 
@@ -26,7 +30,7 @@ These settings are pre-configured in the template selected when creating the wor
 
 The **[!UICONTROL Properties]** section provides generic settings that can be configured when creating a workflow. To access the properties of an existing workflow, click the **[!UICONTROL Settings]** button available in the actions bar above the workflow canvas.
 
-![Workflow settings interface](assets/workflow-settings.png){zoomable="yes"}{width="70%" align="left"}
+![Workflow settings interface](assets/workflow-settings.png){zoomable="yes"}{width="70%"}
 
 These properties include:
 

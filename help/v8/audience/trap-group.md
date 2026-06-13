@@ -3,6 +3,13 @@ audience: end-user
 title: Use a trap group
 description: Learn how to use a trap group for your delivery in Campaign Web user interface
 exl-id: 48c34581-8825-4798-b24e-c462303f7645
+TQID: https://experienceleague.adobe.com/FLW4wHKHcUeZNDnlwmOSR344jNm8yLwOYtVXnnNWE2w
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Use a trap group {#trap-group}
 

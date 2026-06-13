@@ -3,6 +3,17 @@ audience: end-user
 title: Add metadata to your email content
 description: Learn how to improve readability and accessibility of your email content with metadata
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
+TQID: https://experienceleague.adobe.com/sFEZ5L0FKiKvjqt6YX6op20hDr8cHGFJR0B4UtxL02c
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Add metadata to your email content {#email-metadata}
 

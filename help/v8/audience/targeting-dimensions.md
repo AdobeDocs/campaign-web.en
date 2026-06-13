@@ -2,6 +2,16 @@
 title: Targeting and filtering dimensions
 description: Learn more about targeting and filtering dimensions in Adobe Campaign Web UI
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
+TQID: https://experienceleague.adobe.com/MhYxb45yBenENo-YGBuRDE28l-0Rq891a5PyTS2FlFQ
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
+subfeature_v2:
+  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
 ---
 # Targeting and filtering dimensions {#targeting-dimensions}
 

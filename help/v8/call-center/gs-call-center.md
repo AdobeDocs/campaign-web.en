@@ -3,6 +3,18 @@ audience: end-user
 title: Get started with the call center channel
 description: Learn how to create and send call center deliveries with Adobe Campaign Web
 exl-id: d176c1ef-875f-4bea-9cc3-d568cf5cf55a
+TQID: https://experienceleague.adobe.com/os1kiaEhDXlLEivI4yRz4tRpMkZqYQAQ59Ccr7HTJy4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Get started with the call center channel {#gs-call-center}
 

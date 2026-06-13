@@ -3,6 +3,27 @@ audience: end-user
 title: Transition from Campaign Standard to Adobe Campaign Web
 description: Discover Campaign Web User Interface
 exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
+TQID: https://experienceleague.adobe.com/nD7hOr0bHeBrGYrxutHio-M2EEJM4mYPVoaPelYzJXs
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic reporting
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+    internal-label: REST API
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 ---
 # Campaign Standard transition to Campaign v8 {#acs-to-ac}
 
@@ -41,18 +62,13 @@ The Campaign client console is designed for administrators and developers to con
 >
 >Learn more about supported and unsupported capabilities, and interoperability between the Campaign Web user interface and the Campaign client console [in this page](../get-started/capability-matrix.md).
 
-## Terminology {#terminology}
-
-Most concepts are similar between Campaign v8 and Campaign Standard. However, there are a few terminology differences. Examples include:
-
 <!--
+## Terminology {#terminology}
+Most concepts are similar between Campaign v8 and Campaign Standard. However, there are a few terminology differences. Examples include:
 * Profiles are **Recipients** in the console. [Learn more](../audience/gs-audiences-recipients.md).
 * Test profiles are **Seed addresses**. [Learn more](../preview-test/test-deliveries.md).
 * The delivery preparation is the **Delivery analysis**. [Learn more](../monitor/prepare-send.md).
 * Audiences are **Lists**. [Learn more](../audience/gs-audiences-recipients.md).
--->
-
-<!--
 * Custom resources are **Schemas**
 * Messages are referred to as **Deliveries**
 * Roles are configured with **Named Rights**
@@ -64,7 +80,7 @@ Most concepts are similar between Campaign v8 and Campaign Standard. However, th
 
 ## Specific features {#new-features}
 
-To ensure a smooth transition to Campaign v8, key Campaign Standard capabilities have been added to Campaign v8. These features are detailed in [this documentation](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html){target="_blank} and are available only to users transitioning from Campaign Standard.
+To ensure a smooth transition to Campaign v8, key Campaign Standard capabilities have been added to Campaign v8:
 
 * **Dynamic Reporting**: Dynamic Reporting provides customizable, real-time reports to measure the impact of marketing activities. It includes access to profile data for demographic analysis by dimensions such as gender, city, and age, alongside functional email campaign data like opens and clicks. [Learn more](../reporting/dynamic-reporting/get-started-reporting.md).
 

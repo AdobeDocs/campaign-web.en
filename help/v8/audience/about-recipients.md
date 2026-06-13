@@ -2,6 +2,13 @@
 title: Get started with profiles
 description: Learn how to monitor and manage profiles in Campaign Web.
 exl-id: 0b28741a-28f6-4f46-8c4c-820c5036aeda
+TQID: https://experienceleague.adobe.com/fY9Y7Fet1y7L09ELWUCEvlJNpPAFwx4dpMmAW6tOye0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Get started with profiles {#profiles}
 

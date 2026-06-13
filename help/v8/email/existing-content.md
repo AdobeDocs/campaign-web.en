@@ -3,6 +3,10 @@ audience: end-user
 title: Import your email content
 description: Learn how to import email content
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
+TQID: https://experienceleague.adobe.com/tBeOFkGoxZ-QYEt6dse2-1KSiE318onNSEtGTYzTCO8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Import your email content {#existing-content}
 

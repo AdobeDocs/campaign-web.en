@@ -2,6 +2,16 @@
 title: Configure [!DNL Campaign] options
 description: Learn how to configure Campaign options and create your own custom options.
 exl-id: 44f90e34-e72e-4506-90d5-06ab68242d34
+TQID: https://experienceleague.adobe.com/a3MU21qEI7ggDv-gUT4--glIkWdU05mz14v3U9Q2wnM
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Configure [!DNL Campaign] options {#options}
 

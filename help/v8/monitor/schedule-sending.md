@@ -3,6 +3,10 @@ audience: end-user
 title: Schedule the sending of a delivery
 description: Learn how to schedule a delivery
 exl-id: 0738a148-d550-41c2-a8c2-6054684ba789
+TQID: https://experienceleague.adobe.com/H3QUVSdkbLfPhBEo3J-T1Wjj5Xguriva1E43S2kCKyE
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Schedule the sending of a delivery {#schedule-sending}
 

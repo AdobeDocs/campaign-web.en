@@ -3,6 +3,15 @@ audience: end-user
 title: Create transactional messages
 description: Learn how to create a transactional message in Campaign Web User Interface
 exl-id: 74e468f5-d9c3-4470-8ff2-68648b5f396f
+TQID: https://experienceleague.adobe.com/oUU-QTPEVgYame-X2qxNKw0hE8W8XNORFjVc-yC3-ww
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Create transactional messages
 

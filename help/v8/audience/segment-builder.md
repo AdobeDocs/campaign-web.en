@@ -15,7 +15,7 @@ The rule builder lets you define the population targeted by your delivery by fil
 
 The palette, located on the left side, contains all the elements that you can filter on to create your audience. Use the search bar to find elements quickly. Move the tiles contained in the palette into the center canvas to configure them and take them into account.
 
-![The palette interface showing filtering options and tabs](assets/segment-builder2.png){zoomable="yes"}{width="70%" align="left"}
+![The palette interface showing filtering options and tabs](assets/segment-builder2.png){zoomable="yes"}{width="70%"}
     
 The palette is divided into two tabs:
 
@@ -31,13 +31,13 @@ The palette is divided into two tabs:
 
 The canvas is the central zone where you can configure and combine rules based on the elements added from the palette. To add a new rule, drag a tile from the palette and drop it onto the canvas. Context-specific options are presented based on the type of data being added.
 
-![The canvas interface showing rule configuration options](assets/segment-builder4.png){zoomable="yes"}{width="70%" align="left"}
+![The canvas interface showing rule configuration options](assets/segment-builder4.png){zoomable="yes"}{width="70%"}
 
 ## The rule properties pane
 
 On the right side, the **Rule properties** pane lets you perform the actions listed below.
 
-![The rule properties pane showing available actions](assets/segment-builder5.png){zoomable="yes"}{width="70%" align="left"}
+![The rule properties pane showing available actions](assets/segment-builder5.png){zoomable="yes"}{width="70%"}
 
 * **View results:** Displays the list of profiles targeted by the audience.
 * **Code view**: Shows a code-based version of the audience in SQL.

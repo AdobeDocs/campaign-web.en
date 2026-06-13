@@ -3,6 +3,10 @@ audience: end-user
 title: Delivery alerting
 description: Learn how to work with delivery alerting.
 exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
+TQID: https://experienceleague.adobe.com/NEJlbFW9x99cIjqvDUzv01K2qhqwN0HWu3Bbwi542rM
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Delivery alerting dashboards {#delivery-alerting-dashboards}
 

@@ -3,6 +3,10 @@ audience: end-user
 title: Use the Save audience workflow activity
 description: Learn how to use the Fork workflow activity
 exl-id: 0f7cbc34-0536-493e-bb3b-0b1ac93d1232
+TQID: https://experienceleague.adobe.com/gYU7Y1zdgGhBqeCrt0UXlMV6F9UKGcDWKUsdQYI7uXU
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Save audience {#save-audience}
 

@@ -3,6 +3,10 @@ audience: end-user
 title: Use the Change dimension workflow activity
 description: Learn how to use the Change dimension workflow activity
 exl-id: 08870946-91c6-4ab0-84de-4d9b968884b3
+TQID: https://experienceleague.adobe.com/MTG93NcnNoBW6COrBfMkYSk1lSUx3k3Tg7QBvttWrio
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Change dimension {#change-dimension}
 

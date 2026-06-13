@@ -2,6 +2,10 @@
 title: Work with predefined filters
 description: Learn how to create and manage predefined filters in Adobe Campaign Web
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
+TQID: https://experienceleague.adobe.com/KtKT-RQV5D3bLMgzxmMJuwDnMBPTt0JiLsvzvuJhF6E
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Work with predefined filters {#predefined-filters}
 

@@ -3,8 +3,11 @@ audience: end-user
 title: Use the Fork workflow activity
 description: Learn how to use the Fork workflow activity
 exl-id: 5c7ff58b-5504-4b8e-879f-44754b7dcf8a
+TQID: https://experienceleague.adobe.com/a6KZ9gWNyGRY2D5vYKVJ-MP6WB4H-weR5RZTMbD71vA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
-
 # Fork {#fork}
 
 >[!CONTEXTUALHELP]

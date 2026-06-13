@@ -3,6 +3,13 @@ audience: end-user
 title: Use the Subscription services activity
 description: Learn how to use the Subscription services workflow activity
 exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
+TQID: https://experienceleague.adobe.com/uSHKibujGz6C3osE2eVMIjaOIOE4wuHSw1z-N0vGfSY
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 ---
 # Subscription services {#subscription-services}
 

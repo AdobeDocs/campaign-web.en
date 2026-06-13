@@ -2,6 +2,15 @@
 title: Connect to Adobe Campaign Web interface
 description: Learn how to connect to Adobe Campaign Web user interface
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
+TQID: https://experienceleague.adobe.com/TSbgkDH1v-9HH-szfGQx0z6-6fP8tny4s7Vx2SE8gUo
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Connect to Adobe Campaign {#connect-to-campaign}
 
@@ -23,7 +32,7 @@ To sign in to Adobe Experience Cloud, follow these basic steps:
 
 1. Verify that you are in the correct organization.
 
-    ![Screenshot showing organization selection in Adobe Experience Cloud](assets/exc-orgs.png){zoomable="yes"}{width="50%" align="left"}
+    ![Screenshot showing organization selection in Adobe Experience Cloud](assets/exc-orgs.png){zoomable="yes"}{width="50%"}
 
     Learn more about organizations in Adobe Experience Cloud in [this article](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html){target="_blank"}.
 
