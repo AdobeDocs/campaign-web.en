@@ -25,8 +25,7 @@ The **Enrichment** activity is a **Targeting** activity. It enhances the targete
 
 >[!NOTE]
 >
->The **Build audience** activity (query type) also supports **enrichment data**. See [Use the Build 
-audience activity](build-audience.md#build-audience-configuration).
+>The **Build audience** activity (query type) also supports **enrichment data**. See [Learn more](build-audience.md#build-audience-configuration).
 
 Enrichment data can come from either:
 
@@ -60,7 +59,7 @@ Follow these steps to configure the **Enrichment** activity:
 >title="Enrichment activity"
 >abstract="Once enrichment data is added to the workflow, it can be used in subsequent activities to segment customers into distinct groups based on their behaviors, preferences, and needs, or to create personalized marketing messages and campaigns that resonate with your target audience."
 
-The **Enrichment data** section is available in the **Enrichment** activity and in the **Build audience** activity (query type). It lets you enhance the targeted data with additional information from the database, for example contract references or newsletter subscriptions. That data is stored with the audience in the workflow **worktable** and is available to activities that follow. You can add single enrichment attributes, collection links, or expressions and access advanced options.
+The **Enrichment data** section is available in the **Enrichment** and **Build audience** (query type) activities. It lets you enhance the targeted data with additional information from the database, for example contract references or newsletter subscriptions. That data is stored with the audience in the workflow **worktable** and is available to activities that follow. You can add single enrichment attributes, collection links, or expressions and access advanced options.
 
 Click **Add enrichment data** and select the attribute to use for enrichment. [Learn how to select attributes and add them to favorites](../../get-started/attributes.md).
 
@@ -75,7 +74,7 @@ You can select two types of enrichment data: a single enrichment attribute from 
 
 ![Screenshot showing the enrichment data selection screen](../assets/workflow-enrichment1.png)
 
-After adding at least one enrichment attribute, click **[!UICONTROL Advanced parameters]** to configure how enrichment data is built. These options mirror the client console and are intended for advanced workflow scenarios.
+After adding at least one enrichment attribute, click **[!UICONTROL Advanced parameters]** to configure how enrichment data is built. These options mirror the Client Console and are intended for advanced workflow scenarios.
 
 >[!NOTE]
 >
