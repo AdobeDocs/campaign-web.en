@@ -25,7 +25,8 @@ The **Enrichment** activity is a **Targeting** activity. It enhances the targete
 
 >[!NOTE]
 >
->The **Build audience** activity also allows you to add **additional data**. See [Use the Build audience activity](build-audience.md#build-audience-configuration).
+>The **Build audience** activity (query type) also supports **enrichment data**. See [Use the Build 
+audience activity](build-audience.md#build-audience-configuration).
 
 Enrichment data can come from either:
 
@@ -59,19 +60,49 @@ Follow these steps to configure the **Enrichment** activity:
 >title="Enrichment activity"
 >abstract="Once enrichment data is added to the workflow, it can be used in subsequent activities to segment customers into distinct groups based on their behaviors, preferences, and needs, or to create personalized marketing messages and campaigns that resonate with your target audience."
 
+The **Enrichment data** section is available in the **Enrichment** activity and in the **Build audience** activity (query type). It lets you enhance the targeted data with additional information from the database, for example contract references or newsletter subscriptions. That data is stored with the audience in the workflow **worktable** and is available to activities that follow. You can add single enrichment attributes, collection links, or expressions and access advanced options.
 
+Click **Add enrichment data** and select the attribute to use for enrichment. [Learn how to select attributes and add them to favorites](../../get-started/attributes.md).
 
-1. Click **Add enrichment data** and select the attribute to use for enrichment. [Learn how to select attributes and add them to favorites](../../get-started/attributes.md).
+You can select two types of enrichment data: a single enrichment attribute from the target dimension or a collection link. Each type is detailed in the examples below:
 
-    You can select two types of enrichment data: a single enrichment attribute from the target dimension or a collection link. Each type is detailed in the examples below:
-    * [Single enrichment attribute](#single-attribute)
-    * [Collection link](#collection-link)
+* [Single enrichment attribute](#single-attribute)
+* [Collection link](#collection-link)
 
-    >[!NOTE]
-    >
-    >The **Edit expression button** in the attribute selection screen allows you to build advanced expressions to select the attribute. [Learn how to work with the expression editor](../../query/expression-editor.md).
+>[!NOTE]
+>
+>The **Edit expression button** in the attribute selection screen allows you to build advanced expressions to select the attribute. [Learn how to work with the expression editor](../../query/expression-editor.md).
 
-    ![Screenshot showing the enrichment data selection screen](../assets/workflow-enrichment1.png)
+![Screenshot showing the enrichment data selection screen](../assets/workflow-enrichment1.png)
+
+After adding at least one enrichment attribute, click **[!UICONTROL Advanced parameters]** to configure how enrichment data is built. These options mirror the client console and are intended for advanced workflow scenarios.
+
+>[!NOTE]
+>
+>The available options differ between the **Build audience** and **Enrichment** activities.
+
+The following options are available for each activity:
+
++++Build audience activity (query type)
+
+* **[!UICONTROL Keep all additional data from the main set]**
+* **[!UICONTROL Group data by targeting dimension element]**
+* **[!UICONTROL Remove duplicate rows (DISTINCT)]**
+* **[!UICONTROL Disable automatic adding of the primary keys of the targeting dimension]**
+* **[!UICONTROL Disable automatic filtering of 0 ID records]**
+* **[!UICONTROL Use inbound event data]**
+
++++
+
++++Enrichment activity
+
+* **[!UICONTROL Keep all additional data from the main set]**
+* **[!UICONTROL Group data by targeting dimension element]**
+* **[!UICONTROL Remove duplicate rows (DISTINCT)]**
+* **[!UICONTROL Disable automatic filtering of 0 ID records]**
+* **[!UICONTROL Add an identifier for each line of the result]**
+
++++
 
 ## Create links between tables {#create-links}
 
