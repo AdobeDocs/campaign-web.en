@@ -13,7 +13,7 @@ feature_v2:
 ---
 # Browse and filter lists {#list-screens}
 
-Most links from the left navigation menu display lists of objects, such as the list of **Deliveries** or **Campaigns**. Some of these list screens are read-only. You can customize the list display and filter these lists, as detailed below.
+Most links from the left navigation menu display lists of objects, such as the list of **Deliveries** or **Campaigns**. Some of these list screens are read-only. You can customize the list display, filter these lists, and export list data as CSV files, as detailed below.
 
 ## Customize list screens {#custom-lists}
 
@@ -54,15 +54,15 @@ Detailed information on how to use filters and create your own custom filters is
 >[!CONTEXTUALHELP]
 >id="acw_list_export"
 >title="Export the list"
->abstract="Click **Export** to download the list as a CSV file. Only the rows currently loaded in the list and the columns visible on screen are exported. The active search and filters are applied to the export."
+>abstract="Click **Export** to download the list as a CSV file. Only the rows currently loaded in the list and the columns displayed on screen are exported. The current search and filters are applied to the export."
 
-You can export the contents of a list as a CSV file. This option is available on most overview tables in the Web UI, including delivery logs, sending logs, exclusion logs, tracking logs, and other list views.
+List screen data can be exported as CSV files. This option is also available for tracking logs.
 
 To export a list:
 
 1. Open the list you want to export.
-1. (Optional) Adjust the visible columns and apply any search or filters. Only the columns currently visible on screen are exported, and the active search and filters are applied.
-1. (Optional) Scroll down to load additional rows if needed. Only the rows currently loaded in the list are exported.
+1. (Optional) Adjust the displayed columns and apply any search or filters. Only the columns displayed on screen are exported, and the current search and filters are applied.
+1. (Optional) Scroll down to load more rows if needed. Only the rows shown in the list are exported.
 1. Click the **Export** button above the list. The file is saved to your browser's default download folder.
 
 <!--
