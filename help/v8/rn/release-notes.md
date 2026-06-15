@@ -30,20 +30,13 @@ Adobe Campaign Web user interface releases operate on a continuous delivery mode
 
 ## June '26 release {#26-6-release}
 
-_June 15, 2026_
+_June 16, 2026_
 
 ### Improvements {#26-6-improvements}
 
-* Technical administrators can now create and edit brands directly from the Campaign Web User Interface, without using the client console. 
-<!--[Learn more](../administration/branding/branding-configure.md)-->
-* Overview tables and log views (delivery logs, sending logs, exclusion logs, tracking logs, and more) can now be exported as CSV files using the new **Export** button. The export includes the rows currently loaded in the list and the columns visible on screen, and respects active search and filters. [Learn more](../get-started/list-filters.md)
-<!--
-* You can now select a custom time zone in the **Schedule** section of a delivery, and the time zone is persisted on delivery templates. [Learn more](../msg/create-deliveries.md#gs-schedule)
--->
-<!--
-* The **Deduplication** workflow activity now supports multiple inbound transitions. When more than one inbound transition is available, use the **Sets to join** section in the activity properties to select which transitions to connect. [Learn more](../workflows/activities/deduplication.md)
--->
-* The **Deduplication** and **End** workflow activities now support multiple inbound transitions. You can now connect several branches of your workflow to these activities. 
-<!--[Learn more](../workflows/activities/end.md)-->
-* Advanced parameters are now exposed in the **Enrichment data** section of the **Query** and **Enrichment** workflow activities. 
-<!--[Learn more](../workflows/activities/enrichment.md)-->
+* Technical administrators can now create and edit brands directly from the Campaign Web User Interface, without using the Client Console. All brand settings, including brand identity, email header parameters, subdomain, and tracking URL parameters, are now configurable from the Web UI. <!-- [Learn more](../administration/branding/branding-configure.md) -->
+* Overview tables and log views can now be exported as CSV files. This option is available on most overview tables, including delivery logs, sending logs, exclusion logs, tracking logs, and other list views. <!-- [Learn more](../get-started/list-filters.md) -->
+* The **Deduplication** and **End** workflow activities now support multiple inbound transitions. When 
+more than one inbound transition is available, use the **Sets to join** section in the activity 
+properties to select which transitions to connect. <!-- Learn more in these pages: [Deduplication](../workflows/activities/deduplication.md), [End](../workflows/activities/end.md) -->
+* Advanced parameters are now exposed in the **Enrichment data** section of the **Query** and **Enrichment** workflow activities. These parameters let you fine-tune how enrichment data is built, including grouping, deduplication, primary-key handling, and inbound event data. <!-- [Learn more](../workflows/activities/enrichment.md) -->
