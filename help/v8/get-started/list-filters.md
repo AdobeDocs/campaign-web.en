@@ -54,8 +54,8 @@ Detailed information on how to use filters and create your own custom filters is
 You can export data from any list screen including tracking logs. To export a list, follow these steps:
 
 1. Open the list you want to export.
-1. Adjust the displayed columns and apply any search or filters. The export takes into account the columns displayed on screen and any active search or filters.
-1. Scroll down to load more rows if needed. Only the rows currently loaded in the list are exported.
+1. Adjust the displayed columns and apply the desired search or filters. The export takes into account the columns displayed on screen and any active search or filters.
+1. Scroll down to dosplay more rows if needed. Only the rows currently loaded in the list are exported.
 1. Click the **Export loaded rows as CSV** button above the list. The file is saved to your browser's default download folder.
 
 ![The screenshot shows the export of a list.](assets/filter-export.png){zoomable="yes"}
