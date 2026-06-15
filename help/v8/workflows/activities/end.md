@@ -22,7 +22,7 @@ description: Learn how to use the End workflow activity
 
 The **End** activity is a **Flow control** activity. It allows you to graphically mark the end of a workflow. This activity is optional.
 
-The activity supports multiple inbound transitions. When more than one inbound transition is available. 
+The activity supports multiple inbound transitions when more than one inbound transition is available. 
 
 In the **Sets to join** section, check the previous activities you wish to connect as inbound transitions of the **End** activity. The selected activities are then linked to the **End** in the workflow canvas.
 
