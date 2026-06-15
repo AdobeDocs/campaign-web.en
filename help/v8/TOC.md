@@ -194,6 +194,7 @@ breadcrumb-title: Campaign Web User Interface
     + [Continuous delivery](workflows/activities/continuous-delivery.md)
     + [Deduplication](workflows/activities/deduplication.md)
     + [Email, SMS, Push, Direct mail](workflows/activities/channels.md)
+    + [End](workflows/activities/end.md)
     + [Enrichment](workflows/activities/enrichment.md)
     + [External signal](workflows/activities/external-signal.md)
     + [Extract file](workflows/activities/extract-file.md)
