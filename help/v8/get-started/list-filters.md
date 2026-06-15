@@ -54,16 +54,15 @@ Detailed information on how to use filters and create your own custom filters is
 >[!CONTEXTUALHELP]
 >id="acw_list_export"
 >title="Export the list"
->abstract="Click **Export** to download the list as a CSV file. Only the rows currently loaded in the list and the columns displayed on screen are exported. The current search and filters are applied to the export."
+>abstract="Click **Export** to download the list data as a CSV file. Only the rows currently loaded in the list and the columns displayed on screen are exported. The current search and filters are applied to the export."
 
-List screen data can be exported as CSV files. This option is also available for tracking logs.
+List screen data can be exported as CSV files. This option is also available for tracking logs. Only the rows currently loaded in the list and the columns displayed on screen are exported. The current search and filters are applied to the export.
 
-To export a list:
+To export a list, follow these steps:
 
 1. Open the list you want to export.
-1. (Optional) Adjust the displayed columns and apply any search or filters. Only the columns displayed on screen are exported, and the current search and filters are applied.
-1. (Optional) Scroll down to load more rows if needed. Only the rows shown in the list are exported.
-1. Click the **Export** button above the list. The file is saved to your browser's default download folder.
+1. Adjust the displayed columns and apply any search or filters. Scroll down to load more rows if needed.
+1. Click the **Export loaded rows as CSV** button above the list. The file is saved to your browser's default download folder.
 
 <!--
 ## Use advanced attributes {#adv-attributes}
