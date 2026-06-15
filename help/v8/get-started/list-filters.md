@@ -51,11 +51,6 @@ Detailed information on how to use filters and create your own custom filters is
 
 ## Export list data {#export-list}
 
->[!CONTEXTUALHELP]
->id="acw_list_export"
->title="Export the list"
->abstract="Click **Export** to download the list data as a CSV file. Only the rows currently loaded in the list and the columns displayed on screen are exported. The current search and filters are applied to the export."
-
 You can export data from any list screen including tracking logs. To export a list, follow these steps:
 
 1. Open the list you want to export.
