@@ -35,7 +35,7 @@ _June 16, 2026_
 ### Improvements {#26-6-improvements}
 
 * Technical administrators can now create and edit brands directly from the Campaign Web User Interface, without using the Client Console. All brand settings, including identity, brand configuration, email header parameters and URL tracking parameters, are now configurable from the Web UI. <!-- [Learn more](../administration/branding/branding-configure.md) -->
-* Overview tables and log views can now be exported as CSV files. This option is available on most overview tables, including delivery logs, sending logs, exclusion logs, tracking logs, and other list views. The export includes the rows currently loaded and the columns displayed on screen, and respects active search and filters. <!-- [Learn more](../get-started/list-filters.md) -->
+* You can now export data from all list tables including tracking logs. Find your list and simply click the export button. The export includes the rows currently loaded and takes into account the columns displayed on screen and any active search or filters. <!-- [Learn more](../get-started/list-filters.md) -->
 * The **Deduplication** and **End** workflow activities now support multiple inbound transitions. When 
 more than one inbound transition is available, use the **Sets to join** section in the activity 
 properties to select which transitions to connect. <!-- Learn more in these pages: [Deduplication](../workflows/activities/deduplication.md), [End](../workflows/activities/end.md) -->
