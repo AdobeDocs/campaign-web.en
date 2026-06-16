@@ -47,7 +47,7 @@ Follow these steps to configure the **Deduplication** activity:
 
 1. Add a **Deduplication** activity to your workflow.
 
-1. In the **Sets to join** section, check the previous activities you wish to connect as inbound transitions of the **Deduplication** activity. The selected activities are then linked to the **Deduplication** in the workflow canvas. Use the **Primary set** field to define the reference inbound transition. Records from the other sets are matched against the primary set to identify duplicates.
+1. In the **Sets to join** section, check the previous activities you wish to connect as inbound transitions of the **Deduplication** activity. The selected activities are then linked to the **Deduplication** in the workflow canvas. Use the **Primary set** field to define the reference inbound transition. Records from the other sets are matched against the primary set to identify duplicates. 
 
     >[!NOTE]
     >
