@@ -42,11 +42,7 @@ _June 16, 2026_
 
 * The **Deduplication** and **End** workflow activities now support multiple inbound transitions. When 
 more than one inbound transition is available, use the **Sets to join** section in the activity 
-properties to select which transitions to connect. Learn more in these pages: [Deduplication](../workflows/activities/deduplication.md), 
-
-<!--
-[End](../workflows/activities/end.md)
--->
+properties to select which transitions to connect. Learn more in these pages: [Deduplication](../workflows/activities/deduplication.md), [End](../workflows/activities/end.md)
 
 * Advanced parameters are now exposed in the **Enrichment data** section of the **Build audience** (query type) and **Enrichment** workflow activities. These parameters let you fine-tune how enrichment data is built, including grouping, deduplication, primary-key handling, and inbound event data. [Learn more](../workflows/activities/enrichment.md)
 
