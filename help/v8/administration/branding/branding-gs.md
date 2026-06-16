@@ -25,9 +25,9 @@ You can add new entities of your organization in Campaign, or create a new type 
    >
    >Control Panel is accessible to all Admin users. The steps to grant Admin access to a user are detailed in [this page](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html#discover-control-panel).
 
-1. **Create a delivery template** - Once the new brand is available, best practice is to create at least one new blank delivery template which reference this new brand. [Learn more](branding-assign.md).
+1. **Create a delivery template** - Once the new brand is available, best practice is to create at least one new blank delivery template that references this new brand. [Learn more](branding-assign.md).
 
-1. **Check deliverability guidelines** - Before starting using the new domain, the strategy should be discussed with Adobe Deliverability team. They will help to define the best practices, if a new affinity should be created to split the IPs between domains for example, and/or if a ramp up plan should be defined.
+1. **Check deliverability guidelines** - Before starting using the new domain, the strategy should be discussed with the Adobe Deliverability team. They will help to define the best practices, if a new affinity should be created to split the IPs between domains for example, and/or if a ramp-up plan should be defined.
 
 ## Compatibility note {#compatibility-note}
 
