@@ -18,7 +18,12 @@ product_v2:
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication"
 >title="Deduplication activity"
->abstract="The **Deduplication** activity deletes duplicates in the results of inbound activities. It is mostly used after targeting activities and before activities that use targeted data."
+>abstract="The **Deduplication** activity deletes duplicates in the results of inbound activities. It is mostly used after targeting activities and before activities that use targeted data. When more than one inbound transition is available, use the **Sets to join** section to select which transitions to connect to the activity."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_deduplication_sets"
+>title="Sets to join"
+>abstract="Check the previous activities you wish to connect as inbound transitions of the **Deduplication** activity. The selected activities are then connected to the **Deduplication**. This section is only displayed when more than one inbound transition is available to be connected to the activity."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"
@@ -32,6 +37,8 @@ product_v2:
 
 The **Deduplication** activity is a **Targeting** activity. This activity deletes duplicates in the results of inbound activities, such as duplicated profiles in the recipient list. The **Deduplication** activity is generally used after targeting activities and before activities that use targeted data.
 
+The activity supports multiple inbound transitions. When more than one inbound transition is available, use the **Sets to join** section in the activity properties to select which transitions to connect to the activity. The selected transitions are then linked to the **Deduplication** in the workflow canvas.
+
 ## Configure the Deduplication activity {#deduplication-configuration}
 
 Follow these steps to configure the **Deduplication** activity:
@@ -39,6 +46,12 @@ Follow these steps to configure the **Deduplication** activity:
 ![Workflow deduplication configuration process](../assets/workflow-deduplication.png) 
 
 1. Add a **Deduplication** activity to your workflow.
+
+1. In the **Sets to join** section, check the previous activities you wish to connect as inbound transitions of the **Deduplication** activity. The selected activities are then linked to the **Deduplication** in the workflow canvas. Use the **Primary set** field to define the reference inbound transition. Records from the other sets are matched against the primary set to identify duplicates.
+
+>[!NOTE]
+>
+>This section is only displayed when more than one inbound transition is available.
 
 1. In the **Fields to identify duplicates** section, click the **Add attribute** button to specify the fields for which identical values allow duplicates to be identified, such as email address, first name, and last name. The order of the fields specifies those to process first. [Learn how to select attributes and add them to favorites](../../get-started/attributes.md).
 
