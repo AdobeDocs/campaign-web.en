@@ -74,7 +74,7 @@ You can select two types of enrichment data: a single enrichment attribute from 
 
 ![Screenshot showing the enrichment data selection screen](../assets/workflow-enrichment1.png)
 
-After adding at least one enrichment attribute, click **[!UICONTROL Advanced parameters]** to configure how enrichment data is built. These options mirror the Client Console and are intended for advanced workflow scenarios.
+After adding at least one enrichment attribute, click **[!UICONTROL Advanced parameters]** to configure how enrichment data is built, including grouping, deduplication, primary-key handling, and inbound event data. These options mirror the Client Console and are intended for advanced workflow scenarios.
 
 >[!NOTE]
 >
