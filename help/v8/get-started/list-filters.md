@@ -13,7 +13,7 @@ feature_v2:
 ---
 # Browse and filter lists {#list-screens}
 
-Most links from the left navigation menu display lists of objects, such as the list of **Deliveries** or **Campaigns**. Some of these list screens are read-only. You can customize the list display and filter these lists, as detailed below.
+Most links from the left navigation menu display lists of objects, such as the list of **Deliveries** or **Campaigns**. Some of these list screens are read-only. You can customize the list display, filter these lists, and export list data as CSV files, as detailed below.
 
 ## Customize list screens {#custom-lists}
 
@@ -48,6 +48,18 @@ To find items quicker, use the search bar or built-in and custom filters to adap
 ![The screenshot shows the filter options available for refining the list view.](assets/filter.png){zoomable="yes"}{width="70%"}
 
 Detailed information on how to use filters and create your own custom filters is available in [this section](../query/filter.md).
+
+## Export list data {#export-list}
+
+You can export data from any list screen including tracking logs. To export a list, follow these steps:
+
+1. Open the list you want to export.
+1. Adjust the displayed columns and apply the desired search or filters. The export takes into account the columns displayed on screen and any active search or filters.
+1. Scroll down to dosplay more rows if needed. Only the rows currently loaded in the list are exported.
+1. Click the **Export loaded rows as CSV** button above the list. The file is saved to your browser's default download folder.
+
+![The screenshot shows the export of a list.](assets/filter-export.png){zoomable="yes"}
+
 
 <!--
 ## Use advanced attributes {#adv-attributes}

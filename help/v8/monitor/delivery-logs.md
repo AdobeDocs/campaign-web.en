@@ -19,6 +19,10 @@ Once the delivery is prepared and you click the **Send** button, browse to the d
 
 To view the logs, access your delivery dashboard and click the **Logs** button.
 
+>[!TIP]
+>
+>Each log tab can be exported as a CSV file using the **Export loaded rows as CSV** button above the list. Learn more in [Export list data](../get-started/list-filters.md#export-list).
+
 The following tabs are available:
 
 * [Logs](#logs-tab)
