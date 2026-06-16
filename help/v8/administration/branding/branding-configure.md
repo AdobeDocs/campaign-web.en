@@ -61,7 +61,7 @@ This section contains the following fields:
 
 In the **[!UICONTROL Brand configs]** section, you define the subdomain and URL protocols used for tracking and landing page access. 
 
-![Screenshot showing the Brand configs tab](assets/branding-brand-create4.png)
+![Screenshot showing the Brand configs tab](assets/branding-create4.png)
 
 This section contains the following fields:
 
