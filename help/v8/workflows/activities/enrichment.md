@@ -76,11 +76,11 @@ You can select two types of enrichment data: a single enrichment attribute from 
 
 After adding at least one enrichment attribute, click **[!UICONTROL Advanced parameters]** to configure how enrichment data is built, including grouping, deduplication, primary-key handling, and inbound event data. These options mirror the Client Console and are intended for advanced workflow scenarios.
 
+![Screenshot showing the enrichment advanced parameters](../assets/workflow-query-advanced-parameters.png)
+
 >[!NOTE]
 >
 >The available options differ between the **Build audience** and **Enrichment** activities.
-
-![Screenshot showing the enrichment advanced parameters](../assets/workflow-query-advanced-parameters.png)
 
 The following options are available for each activity:
 
