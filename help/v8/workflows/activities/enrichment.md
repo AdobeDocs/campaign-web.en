@@ -84,7 +84,7 @@ After adding at least one enrichment attribute, click **[!UICONTROL Advanced par
 
 The following options are available for each activity:
 
-+++Build audience activity (query type)
++++ Build audience activity (query type)
 
 * **[!UICONTROL Keep all additional data from the main set]**: Keeps additional columns from the main inbound set in the output transition.
 * **[!UICONTROL Group data by targeting dimension element]**: Groups the result so each targeted record appears only once.
@@ -95,7 +95,7 @@ The following options are available for each activity:
 
 +++
 
-+++Enrichment activity
++++ Enrichment activity
 
 * **[!UICONTROL Group data by targeting dimension element]**: Groups the result so each targeted record appears only once.
 * **[!UICONTROL Remove duplicate rows (DISTINCT)]**: Removes duplicate rows from the result set.
