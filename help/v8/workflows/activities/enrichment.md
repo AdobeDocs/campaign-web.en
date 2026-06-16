@@ -80,26 +80,27 @@ After adding at least one enrichment attribute, click **[!UICONTROL Advanced par
 >
 >The available options differ between the **Build audience** and **Enrichment** activities.
 
+![Screenshot showing the enrichment advanced parameters](../assets/workflow-query-advanced-parameters.png)
+
 The following options are available for each activity:
 
 +++Build audience activity (query type)
 
-* **[!UICONTROL Keep all additional data from the main set]**
-* **[!UICONTROL Group data by targeting dimension element]**
-* **[!UICONTROL Remove duplicate rows (DISTINCT)]**
-* **[!UICONTROL Disable automatic adding of the primary keys of the targeting dimension]**
-* **[!UICONTROL Disable automatic filtering of 0 ID records]**
-* **[!UICONTROL Use inbound event data]**
+* **[!UICONTROL Keep all additional data from the main set]**: Keeps additional columns from the main inbound set in the output transition.
+* **[!UICONTROL Group data by targeting dimension element]**: Groups the result so each targeted record appears only once.
+* **[!UICONTROL Remove duplicate rows (DISTINCT)]**: Removes duplicate rows from the result set.
+* **[!UICONTROL Disable automatic adding of the primary keys of the targeting dimension]**: Prevents the activity from automatically adding targeting dimension primary keys to the result.
+* **[!UICONTROL Disable automatic filtering of 0 ID records]**: Keeps records whose identifier value is 0 instead of filtering them out automatically.
+* **[!UICONTROL Use inbound event data]**: Uses data from the inbound transition as the activity's working input.
 
 +++
 
 +++Enrichment activity
 
-* **[!UICONTROL Keep all additional data from the main set]**
-* **[!UICONTROL Group data by targeting dimension element]**
-* **[!UICONTROL Remove duplicate rows (DISTINCT)]**
-* **[!UICONTROL Disable automatic filtering of 0 ID records]**
-* **[!UICONTROL Add an identifier for each line of the result]**
+* **[!UICONTROL Group data by targeting dimension element]**: Groups the result so each targeted record appears only once.
+* **[!UICONTROL Remove duplicate rows (DISTINCT)]**: Removes duplicate rows from the result set.
+* **[!UICONTROL Disable automatic filtering of 0 ID records]**: Keeps records whose identifier value is 0 instead of filtering them out automatically.
+* **[!UICONTROL Add an identifier for each line of the result]**: Adds a unique identifier to each output row.
 
 +++
 
