@@ -51,7 +51,7 @@ Follow these steps to configure the **Deduplication** activity:
 
 >[!NOTE]
 >
->This section is only displayed when more than one inbound transition is available to be connected to the activity.
+>This section is only displayed when more than one inbound transition is available.
 
 1. In the **Fields to identify duplicates** section, click the **Add attribute** button to specify the fields for which identical values allow duplicates to be identified, such as email address, first name, and last name. The order of the fields specifies those to process first. [Learn how to select attributes and add them to favorites](../../get-started/attributes.md).
 
