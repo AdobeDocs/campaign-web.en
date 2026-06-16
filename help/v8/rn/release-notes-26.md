@@ -7,7 +7,7 @@ exl-id: 40735c57-94ae-4646-8c3d-68197569fbd4
 
 This page lists all changes and improvements available with **2026 releases**. Latest release notes are available in [this page](release-notes.md). 
 
-## April '26 release {#26-4-release}
+## April '26 release {#26-4-release} 
 
 _April 29, 2026_
 
