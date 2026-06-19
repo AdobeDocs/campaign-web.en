@@ -17,6 +17,7 @@ landing-page-breadcrumb-title: Campaign
 type: Documentation
 git-repo: https://github.com/AdobeDocs/campaign-web.en
 index: true
+nudge: true
 ---
 
 # Metadata for internal use
