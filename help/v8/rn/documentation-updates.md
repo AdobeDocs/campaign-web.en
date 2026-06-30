@@ -13,6 +13,10 @@ product_v2:
 
 This page lists all the documentation updates for Adobe Campaign Web.
 
+## June 2026 {#june-2026}
+
+* Added a page on CNIL guidance for email tracking pixels and the related Adobe Campaign capabilities. [Read more](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/cnil-pixel-tracking){target="_blank"}
+
 ## December 2025 {#december-2025}
 
 **Date: December 1, 2025**
