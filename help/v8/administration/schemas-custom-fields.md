@@ -5,6 +5,11 @@ exl-id: 1b531722-0935-4787-a673-60d97f776936
 ---
 # Edit custom fields {#fields}
 
+>[!CONTEXTUALHELP]
+>id="acw_schema_detail_screen_configuration"
+>title="Detail screen configuration"
+>abstract="Configure the custom fields displayed in the detail screen for this schema. Select the fields to display, reorder them, make them mandatory or read-only, and organize them into sub-sections using separators."
+
 Custom fields are additional attributes added to out-of-the-box schemas through the Adobe Campaign console. They allow you to customize schemas by including new attributes to suit your organization's needs. 
 
 Custom fields can be displayed in various screens, such as profile details in the interface. You can control which fields are visible and how they appear in the interface.

@@ -5,6 +5,11 @@ exl-id: 55513ecd-fc3f-4371-93b0-f2c9d01d4db4
 ---
 # Configure list columns {#list-columns}
 
+>[!CONTEXTUALHELP]
+>id="acw_schema_inventory_list_configuration"
+>title="Inventory list configuration"
+>abstract="Configure the columns displayed by default in the list view for this schema. Select the attributes you want to show and confirm to apply your changes."
+
 The **[!UICONTROL Inventory list configuration]** section allows you to configure which columns are displayed by default in list views. Each column shows its label and the corresponding attribute. 
 
 For more information on the screen definition screen and how to access it, refer to the [Access the screen definition](schemas-browse-access.md#screen-def) section.
