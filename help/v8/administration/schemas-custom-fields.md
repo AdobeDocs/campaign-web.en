@@ -9,7 +9,7 @@ exl-id: 1b531722-0935-4787-a673-60d97f776936
 >id="acw_schema_detail_screen_configuration"
 >title="Detail screen configuration"
 >abstract="Configure which custom fields are displayed in detail screens and organize them into sections. Add collection lists to show related data in profile screens."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/conf/schemas/schemas-collection-lists" text="Add collection lists"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas/schemas-collection-lists.html" text="Add collection lists"
 
 Custom fields are additional attributes added to out-of-the-box schemas through the Adobe Campaign console. They allow you to customize schemas by including new attributes to suit your organization's needs. 
 
