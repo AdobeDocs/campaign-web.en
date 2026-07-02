@@ -8,7 +8,7 @@ exl-id: 55513ecd-fc3f-4371-93b0-f2c9d01d4db4
 >[!CONTEXTUALHELP]
 >id="acw_schema_inventory_list_configuration"
 >title="Inventory list configuration"
->abstract="Configure the columns displayed by default in the list view for this schema. Select the attributes you want to show and confirm to apply your changes."
+>abstract="Configure which columns are displayed by default in list views. Each column shows its label and the corresponding attribute."
 
 The **[!UICONTROL Inventory list configuration]** section allows you to configure which columns are displayed by default in list views. Each column shows its label and the corresponding attribute. 
 
