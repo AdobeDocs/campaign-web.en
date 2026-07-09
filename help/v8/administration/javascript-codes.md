@@ -17,12 +17,12 @@ topic_v2:
 >[!CONTEXTUALHELP]
 >id="acw_javascript_codes_list"
 >title="JavaScript codes"
->abstract="JavaScript codes"
+>abstract="JavaScript codes are reusable functions that can be used across workflows, similar to a library. From this list, you can create, modify, duplicate, or delete a JavaScript code."
 
 >[!CONTEXTUALHELP]
 >id="acw_javascript_codes_create"
 >title="Create JavaScript code"
->abstract="Create JavaScript code"
+>abstract="Define a namespace, name, and label for your JavaScript code, then write its content using the predefined functions available for conditions and date formatting. Once created, the namespace and name cannot be modified."
 
 ## About JavaScript codes {#about}
 
