@@ -24,6 +24,16 @@ topic_v2:
 >title="Create JavaScript code"
 >abstract="Define a namespace, name, and label for your JavaScript code, then write its content using the predefined functions available for conditions and date formatting. Once created, the namespace and name cannot be modified."
 
+>[!CONTEXTUALHELP]
+>id="acw_dynamic_javascript_pages_list"
+>title="Dynamic JavaScript pages"
+>abstract="Dynamic JavaScript pages (JSSP) let you build server-side pages that generate dynamic content when accessed through a URL, such as custom APIs, exports, or web application logic. From this list, you can create, modify, duplicate, or delete a dynamic JavaScript page."
+
+>[!CONTEXTUALHELP]
+>id="acw_dynamic_javascript_pages_create"
+>title="Create Dynamic JavaScript page"
+>abstract="Define a namespace, name, and label for your dynamic JavaScript page, then write its content using JavaScript code. Once created, the namespace and name cannot be modified."
+
 ## About JavaScript codes {#about}
 
 JavaScript codes allow you to create reusable functions that can be used across workflows, similar to a library. These functions are stored in the **[!UICONTROL Administration]** > **[!UICONTROL JavaScript codes]** menu in the left navigation pane.

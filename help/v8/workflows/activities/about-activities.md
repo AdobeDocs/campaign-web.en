@@ -52,6 +52,11 @@ These activities are specific to targeting. They allow you to build one or more 
 
 These activities are specific to manipulating and enriching population data.
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_data_loading_rdbms"
+>title="Data loading (RDBMS) activity"
+>abstract="The **Data loading (RDBMS)** activity is a **Data management** activity. Use this activity to load data directly from an external relational database into your workflow, without switching to the client console. The extracted data is available throughout the workflow and can be used for targeting, enrichment, or further data processing."
+
 * [Extract file](extract-file.md): Export data from Adobe Campaign to another system as an external file.
 * [Load file](load-file.md): Work with profiles and data stored in an external file.
 * [Transfer file](transfer-file.md): Receive or send files, test for file presence, or list files on a server. The protocol used can be either server-to-server protocol or HTTP protocol.
