@@ -91,7 +91,7 @@ Frequently Asked Questions about Campaign web user interface are listed in a new
 <table style="table-layout:fixed">
   <tr style="border: 0;">
     <td>
-    <a href="get-started/user-interface.md"><img src="assets/do-not-localize/menu-ui.jpeg"></a>
+    <a href="get-started/get-started.md#web"><img src="assets/do-not-localize/menu-ui.jpeg"></a>
     <div><strong>Discover the new user interface</strong><br/>Explore Adobe Campaign Web's new interface and navigation experience integrated with Adobe Experience Platform.</div>
     </td>
     <td>
@@ -108,7 +108,7 @@ Frequently Asked Questions about Campaign web user interface are listed in a new
     </td>
   </tr>
   <tr style="border: 0;">
-    <td align="center"><a href="get-started/user-interface.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="get-started/get-started.md#web"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
     <td align="center"><a href="workflows/gs-workflows.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
     <td align="center"><a href="email/get-started-email-designer.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
     <td align="center"><a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
@@ -122,7 +122,7 @@ Frequently Asked Questions about Campaign web user interface are listed in a new
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>Get started</strong><br/><a href="get-started/user-interface.md">User interface</a> - <a href="get-started/connect-to-campaign.md">Connect to Campaign</a> - <a href="get-started/permissions.md">Access & Permissions</a>
+      <strong>Get started</strong><br/><a href="get-started/get-started.md#web">User interface</a> - <a href="get-started/connect-to-campaign.md">Connect to Campaign</a> - <a href="get-started/permissions.md">Access & Permissions</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
