@@ -193,6 +193,7 @@ nudge: true
     + [Change dimension](workflows/activities/change-dimension.md)
     + [Combine](workflows/activities/combine.md)
     + [Continuous delivery](workflows/activities/continuous-delivery.md)
+    + [Data loading (RDBMS)](workflows/activities/data-loading-rdbms.md)
     + [Deduplication](workflows/activities/deduplication.md)
     + [Email, SMS, Push, Direct mail](workflows/activities/channels.md)
     + [End](workflows/activities/end.md)

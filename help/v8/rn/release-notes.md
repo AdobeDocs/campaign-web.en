@@ -28,6 +28,12 @@ topic_v2:
 
 Adobe Campaign Web user interface releases operate on a continuous delivery model which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
+## July '26 release {#26-7-release}
+
+### Improvements {#26-7-improvements}
+
+* The **Data loading (RDBMS)** workflow activity is now available in the Campaign Web User Interface. Use it to load data directly from an external relational database into your workflow, without switching to the client console. [Learn more](../workflows/activities/data-loading-rdbms.md)
+
 ## June '26 release {#26-6-release}
 
 _June 16, 2026_
