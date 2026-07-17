@@ -858,15 +858,15 @@ The following features and improvements are available starting January release.
 <table>
 <thead>
 <tr>
-<th><strong>Landing page generation with the AI Assistant</strong><br/></th>
+<th><strong>Landing page generation with Generate Content</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>The AI Assistant is now available with your landing page deliveries, enabling you to generate text, images, or complete page layouts.</p>
+<p>Generate Content is now available with your landing page deliveries, enabling you to generate text, images, or complete page layouts.</p>
 <img src="assets/do-not-localize/ai-lp.gif">
-<p>For more information on AI Assistant, refer to the <a href="../content/generative-full-content.md">detailed documentation</a>.</p>
+<p>For more information on Generate Content, refer to the <a href="../content/generative-full-content.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>

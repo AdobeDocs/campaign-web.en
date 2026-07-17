@@ -71,9 +71,9 @@ For a complete overview, check out the release notes.
 [![Learn more button](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
 
->[!TAB AI Assistant]
+>[!TAB Generate Content]
 
-✨ Immerse yourself in a hands-on experience with our [AI Assistant](../v8/content/generative-gs.md) live feature preview, designed to let you explore its features firsthand and fully understand its capabilities. 
+✨ Immerse yourself in a hands-on experience with our [Generate Content](../v8/content/generative-gs.md) live feature preview, designed to let you explore its features firsthand and fully understand its capabilities. 
 
 [![Learn more button](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 

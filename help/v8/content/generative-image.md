@@ -1,7 +1,7 @@
 ---
 audience: end-user
 title: Generative content
-description: Learn how to generate images with AI Assistant
+description: Learn how to generate images using AI
 exl-id: 9de12187-c437-467b-974a-1e165adc5fe1
 TQID: https://experienceleague.adobe.com/kMFMddQ-ZYGJIZ7-0BfrUMQzJ701fQlpehO15llbJAw
 product_v2:
@@ -14,39 +14,39 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
 ---
-# Generate images with AI Assistant {#generative-image}
+# Generate images {#generative-image}
 
 >[!IMPORTANT]
 >
 >Before starting to use this capability, read the related [Guardrails and Limitations](generative-gs.md#generative-guardrails).
 ></br>
 >
->You must agree to a [user agreement](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} before using AI Assistant in Adobe Campaign Web. For more information, contact your Adobe representative.
+>You must agree to a [user agreement](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} before using AI to generate content in Adobe Campaign Web. For more information, contact your Adobe representative.
 
-Use AI Assistant in Adobe Campaign Web to create compelling visual content that enhances your messages across email, landing pages, and push notifications. AI Assistant helps you generate and optimize images, ensuring your content is visually engaging and aligned with your brand.
+Use AI in Adobe Campaign Web to create compelling visual content that enhances your messages across email, landing pages, and push notifications. AI helps you generate and optimize images, ensuring your content is visually engaging and aligned with your brand.
 
 ## For Email and Landing Pages {#email-web-channels}
 
-AI Assistant can generate complete visual experiences for your email deliveries and landing pages. This capability allows you to produce on-brand, attention-grabbing images that resonate with your audience across digital touchpoints.
+Use AI to generate complete visual experiences for your email deliveries and landing pages. This capability allows you to produce on-brand, attention-grabbing images that resonate with your audience across digital touchpoints.
 
 ### Access and configure {#access-configure}
 
-To start generating images with AI Assistant, first set up your delivery and open the content editor. Follow the steps below to prepare your workspace and access the AI Assistant panel.
+To start generating images with AI, first set up your delivery and open the content editor. Follow the steps below to prepare your workspace and access the Generate Content panel.
 
 1. Create and configure your delivery:
 
    * **Email**: After creating and configuring your email delivery, click **[!UICONTROL Edit content]**. [Learn more](../email/create-email-content.md)
    * **Landing Page**: After creating and configuring your landing page, click **[!UICONTROL Edit content]**. [Learn more](../landing-pages/create-lp.md)
 
-1. Select the asset you want to change with AI Assistant and access the **[!UICONTROL AI Assistant]** menu.
+1. Select the asset you want to change, and access the **[!UICONTROL Generate Content]** menu.
 
     ![Screenshot showing text component selection in Adobe Campaign Web](assets/image-genai-1.png){zoomable="yes"}
 
-### Generate content {#generate-content}
+### Generate image {#generate-content}
 
-Learn how to craft effective prompts and configure image settings to generate visually compelling images with AI Assistant. Customize parameters such as aspect ratio, visual intensity, and lighting to create images that align with your brand and campaign objectives.
+Learn how to craft effective prompts and configure image settings to generate visually compelling images using AI. Customize parameters such as aspect ratio, visual intensity, and lighting to create images that align with your brand and campaign objectives.
 
-1. Enable the **[!UICONTROL Reference style]** option for AI Assistant to personalize new content based on the selected content.
+1. Enable the **[!UICONTROL Reference style]** option to use AI to personalize new content based on the selected content.
 
 1. Select your **[!UICONTROL Brand]** to ensure AI-generated content aligns with your brand specifications. [Learn more](brands.md) on Brands.
 
@@ -68,7 +68,7 @@ Learn how to craft effective prompts and configure image settings to generate vi
 
         ![Screenshot showing image settings options in Adobe Campaign Web](assets/image-genai-4.png){zoomable="yes"}
 
-1. From the **[!UICONTROL Reference content]** menu, click **[!UICONTROL Upload file]** to add any brand asset which contains content that can provide additional context AI Assistant or select a previously uploaded one.
+1. From the **[!UICONTROL Reference content]** menu, click **[!UICONTROL Upload file]** to add any brand asset which contains content that can provide additional context AI or select a previously uploaded one.
 
     Previously uploaded files are available in the **[!UICONTROL Uploaded reference content]** drop-down. Simply toggle the assets you wish to include in your generation.
 
@@ -102,21 +102,21 @@ After generating image variations, you can review the results, check brand align
 
 ## For Mobile Channels {#mobile-channels}
 
-AI Assistant enables you to generate engaging images for push notifications, helping you create visually compelling mobile communications that capture attention and resonate with your audience.
+Use AI to generate engaging images for push notifications, helping you create visually compelling mobile communications that capture attention and resonate with your audience.
 
 ### Access and configure {#mobile-access-configure}
 
-To begin generating images for push notifications with AI Assistant, first set up your delivery and open the AI Assistant.
+To begin generating images for push notifications with AI, first set up your delivery and open Generate Content.
 
 1. After creating and configuring your push notification delivery, click **[!UICONTROL Edit content]**. [Learn more](../push/create-push.md)
 
-1. Access the **[!UICONTROL Show AI Assistant]** menu.
+1. Access the **[!UICONTROL Show Generate Content]** menu.
 
-    ![Screenshot showing the Show AI Assistant menu](assets/push-img-1.png){zoomable="yes"}
+    ![Screenshot showing the Show Generate Content menu](assets/push-img-1.png){zoomable="yes"}
 
-### Generate content {#mobile-generate-content}
+### Generate image {#mobile-generate-content}
 
-After accessing AI Assistant, you can adjust the generation settings to create images that align with your brand and support your push notification objectives. Configure the prompt and image parameters to generate visuals optimized for mobile displays.
+After accessing Generate Content, you can adjust the generation settings to create images that align with your brand and support your push notification objectives. Configure the prompt and image parameters to generate visuals optimized for mobile displays.
 
 1. Select your **[!UICONTROL Brand]** to ensure AI-generated content aligns with your brand specifications. [Learn more](brands.md) on Brands.
 
@@ -124,7 +124,7 @@ After accessing AI Assistant, you can adjust the generation settings to create i
 
     If you are looking for assistance in crafting your prompt, access the **[!UICONTROL Prompt Library]** which provides a diverse range of prompt ideas to improve your campaigns. [Learn more on prompt best practices](ai-assistant-prompting-guide.md)
     
-    ![AI Assistant with Prompt field and options](assets/push-img-2.png){zoomable="yes"}
+    ![Generate Content with Prompt field and options](assets/push-img-2.png){zoomable="yes"}
 
 1. Select **[!UICONTROL Image]** to only generate assets.
 
@@ -138,7 +138,7 @@ After accessing AI Assistant, you can adjust the generation settings to create i
 
         ![Screenshot showing Image settings options](assets/push-img-3.png){zoomable="yes"}
 
-1. From the **[!UICONTROL Reference content]** menu, click **[!UICONTROL Upload file]** to add any brand asset which contains content that can provide additional context AI Assistant or select a previously uploaded one.
+1. From the **[!UICONTROL Reference content]** menu, click **[!UICONTROL Upload file]** to add any brand asset which contains content that can provide additional context AI or select a previously uploaded one.
 
     Previously uploaded files are available in the **[!UICONTROL Uploaded reference content]** drop-down. Simply toggle the assets you wish to include in your generation.
 

@@ -18,7 +18,7 @@ topic_v2:
 
 >[!AVAILABILITY]
 >
->You must agree to the [user agreement](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} before you can use the AI Assistant. For more information, contact your Adobe representative.
+>You must agree to the [user agreement](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} before you can use Generate Content. For more information, contact your Adobe representative.
 
 The content review feature provides comprehensive evaluation tools to measure how well your campaigns align with your brand guidelines and maintain content quality standards across all communications:
 

@@ -128,13 +128,13 @@ nudge: true
       + [Add a custom CSS](email/custom-css.md)
       + [Manage dark mode content](email/dark-mode.md)
     + [Create accessible content](email/accessible-content.md)
-  + AI Assistant {#ai-assistant}
-    + [Work with AI Assistant](content/generative-gs.md)
+  + Generate Content {#ai-assistant}
+    + [Work with Generate Content](content/generative-gs.md)
     + [AI prompt best practices](content/ai-assistant-prompting-guide.md)
     + [Full content generation with AI](content/generative-full-content.md)
     + [Text generation with AI](content/generative-text.md)
     + [Image generation with AI](content/generative-image.md)
-    + [AI Assistant use cases](content/generative-uc.md)
+    + [Generate Content use cases](content/generative-uc.md)
     + Brands {#ai-assistant}
       + [Create & manage your brands](content/brands.md)
       + [Personalize your brand](content/brands-personalize.md)

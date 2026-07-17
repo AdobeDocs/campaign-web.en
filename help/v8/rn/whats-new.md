@@ -88,13 +88,13 @@ Use the new Campaign Web user interface to:
 * Monitor send and measure results with built-in reports - [Learn more](../reporting/delivery-reports.md)
 
 
-**Content generation with AI Assistant**
+**Content generation with Generate Content**
 
 Say goodbye to the hassle of manual content creation and embrace a new era of streamlined campaigns with our innovative content designer powered by Microsoft Azure OpenAI and Adobe Firefly.
 
-Redefine content delivery with our advanced WYSIWYG drag-and-drop editor, designed for simplicity and efficiency. Featuring seamless AEM integration, dynamic content capabilities, and the game-changing AI Assistant, this all-in-one tool makes delivery creation intuitive, efficient, and highly personalized.
+Redefine content delivery with our advanced WYSIWYG drag-and-drop editor, designed for simplicity and efficiency. Featuring seamless AEM integration, dynamic content capabilities, and the game-changing Generate Content, this all-in-one tool makes delivery creation intuitive, efficient, and highly personalized.
 
-Harness the power of AI Assistant advanced algorithms to create engaging, tailored content that drives results. Elevate your open rates, click-throughs, and conversions with intelligent, AI-driven content generation. Learn more in [this section](../content/generative-gs.md).
+Harness the power of AI's advanced algorithms to create engaging, tailored content that drives results. Elevate your open rates, click-throughs, and conversions with intelligent, AI-driven content generation. Learn more in [this section](../content/generative-gs.md).
 
 **New and redesigned campaign workflow activities**
 

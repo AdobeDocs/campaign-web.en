@@ -1,13 +1,13 @@
 ---
-title: AI Assistant use cases
-description: Learn through use cases how to use AI Assistant
+title: Generate Content use cases
+description: Learn through use cases how to use AI to generate content
 exl-id: ead51ef0-f7ba-4bc4-8d4a-f6a6d1df6a0f
 TQID: https://experienceleague.adobe.com/WcuIJGn2iv3OY8MT5qQ8sYiQ1zNbPd55hCmAi-dQUeQ
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
 ---
-# AI Assistant use cases {#generative-uc}
+# Generate Content use cases {#generative-uc}
 
 >[!NOTE]
 >
@@ -15,15 +15,15 @@ product_v2:
 
 ## Use existing content
 
-![Demonstration of reusing existing content with AI Assistant](assets/do-not-localize/gen-ai-reuse-text.gif)
+![Demonstration of reusing existing content with Generate Content](assets/do-not-localize/gen-ai-reuse-text.gif)
 
 Generate variations from the content and context already in your campaign so they remain consistent with your message and audience.
 
 1. After setting up your delivery, select **[!UICONTROL Edit content]**.
 
-1. Open the **[!UICONTROL AI Assistant]** section.
+1. Open the **[!UICONTROL Generate Content]** section.
 
-1. Turn on the **[!UICONTROL Use original content]** feature within AI Assistant to tailor new content according to your delivery details, including the delivery name and targeted audience.
+1. Turn on the **[!UICONTROL Use original content]** feature within Generate Content to tailor new content according to your delivery details, including the delivery name and targeted audience.
 
 1. Adjust the content by specifying your request in the **[!UICONTROL Prompt]** box, and customize the settings as necessary.
 
@@ -35,13 +35,13 @@ Once you define your content, audience, and schedule, prepare your delivery.
 
 ## Refine variation {#refine}
 
-![Demonstration of refining content variations with AI Assistant](assets/do-not-localize/gen-ai-variation.gif)
+![Demonstration of refining content variations with Generate Content](assets/do-not-localize/gen-ai-variation.gif)
 
 Adjust an AI-generated variation in place, tone, length, wording, and strategy, before you select the final text.
 
 1. Once your delivery is set up and configured, click **[!UICONTROL Edit content]**.
 
-1. Open the **[!UICONTROL AI Assistant]** menu.
+1. Open the **[!UICONTROL Generate Content]** menu.
 
 1. Adjust the content by entering your desired request in the **[!UICONTROL Prompt]** box, and modify the settings as necessary.
 
@@ -53,13 +53,13 @@ Adjust an AI-generated variation in place, tone, length, wording, and strategy, 
 
     * **[!UICONTROL Use as reference content]**: The selected variation acts as a reference to generate more content.
 
-    * **[!UICONTROL Elaborate]**: Let AI Assistant expand on certain points, offering more depth and detail for better engagement.
+    * **[!UICONTROL Elaborate]**: Use AI to elaborate on certain points, offering more depth and detail for better engagement.
 
-    * **[!UICONTROL Summarize]**: For lengthy information, use AI Assistant to create concise summaries that are easier for email recipients to digest.
+    * **[!UICONTROL Summarize]**: For lengthy information, use AI to edit/refine content, creating concise summaries that are easier for email recipients to digest.
 
-    * **[!UICONTROL Rephrase]**: AI Assistant can present your message in different ways, helping to keep the content fresh for a variety of audiences.
+    * **[!UICONTROL Rephrase]**: Use AI to edit/refine your message, presenting it in different ways to help keep the content fresh for a variety of audiences.
 
-    * **[!UICONTROL Use simpler language]**: Simplify the language with AI Assistant to ensure the message is clear and accessible to all readers.
+    * **[!UICONTROL Use simpler language]**: Use AI to edit/refine the language, ensuring the message is clear and accessible to all readers.
 
     Additionally, adjust the **[!UICONTROL Tone]** and **[!UICONTROL Communication strategy]** of your content.
 
@@ -67,13 +67,13 @@ Adjust an AI-generated variation in place, tone, length, wording, and strategy, 
 
 ## Generate similar image
 
-![Demonstration of generating similar images with AI Assistant](assets/do-not-localize/uc-image-similar.gif)
+![Demonstration of generating similar images with Generate Content](assets/do-not-localize/uc-image-similar.gif)
 
 When an image is almost suitable, generate additional options that preserve the same overall look and theme.
 
 1. After setting up your delivery, select **[!UICONTROL Edit content]**.
 
-1. Open the **[!UICONTROL AI Assistant]** section.
+1. Open the **[!UICONTROL Generate Content]** section.
 
 1. Adjust the content by specifying your request in the **[!UICONTROL Prompt]** box, and customize the settings as necessary.
 
@@ -89,17 +89,17 @@ When an image is almost suitable, generate additional options that preserve the 
 
 ## Upload a style reference
 
-![Demonstration of uploading a style reference for AI Assistant](assets/do-not-localize/uc-image-reference.gif)
+![Demonstration of uploading a style reference for Generate Content](assets/do-not-localize/uc-image-reference.gif)
 
 Upload a reference image so that new visuals follow a desired style, palette, or composition.
 
 1. After setting up and configuring your delivery, click **[!UICONTROL Edit content]**.
 
-1. Choose the asset you want to modify using AI Assistant.
+1. Choose the asset you want to modify.
 
-1. From the right-pane menu, choose **[!UICONTROL AI Assistant]**.
+1. From the right-pane menu, choose **[!UICONTROL Generate Content]**.
 
-1. Turn on the **[!UICONTROL Reference style]** option so AI Assistant can generate new content using the reference material.
+1. Turn on the **[!UICONTROL Reference style]** option to use AI to generate new content using the reference material.
 
 1. Click **[!UICONTROL Upload image]** to include an image that adds context to your variation.
 
@@ -115,13 +115,13 @@ Upload a reference image so that new visuals follow a desired style, palette, or
 
 ## Generate content across supported languages{#languages}
 
-![Animated demonstration of AI Assistant generating content in multiple languages including French, Spanish, and German](assets/do-not-localize/ai-language.gif)
+![Animated demonstration of Generate Content generating content in multiple languages including French, Spanish, and German](assets/do-not-localize/ai-language.gif)
 
-Produce text in the languages supported by AI Assistant by combining your prompt with explicit language settings.
+Produce text in the languages supported by AI, combining your prompt with explicit language settings.
 
 1. Once your delivery is set up and configured, click **[!UICONTROL Edit content]**.
 
-1. Open the **[!UICONTROL AI Assistant]** menu.
+1. Open the **[!UICONTROL Generate Content]** menu.
 
 1. Adjust the content by entering your desired request in the **[!UICONTROL Prompt]** box in  French, Spanish, German, Italian, Japanese, Swedish, Dutch or Norwegian.
 
@@ -135,13 +135,13 @@ Produce text in the languages supported by AI Assistant by combining your prompt
 
 ## Use reference content for generation
 
-![Animated demonstration of AI Assistant generating content with reference content](assets/do-not-localize/gen-url.gif)
+![Animated demonstration of Generate Content generating content with reference content](assets/do-not-localize/gen-url.gif)
 
-You can give AI Assistant more context by adding **reference content**, a web page or uploaded files, so generated copy and suggestions stay closer to your source material.
+You can give AI more context by adding **reference content**, a web page or uploaded files, so generated copy and suggestions stay closer to your source material.
 
 1. When your campaign is ready, click **[!UICONTROL Edit content]**.
 
-1. Open **[!UICONTROL AI Assistant]**.
+1. Open **[!UICONTROL Generate Content]**.
 
 1. Describe what you want in the **[!UICONTROL Prompt]** field.
 
@@ -159,9 +159,9 @@ You can give AI Assistant more context by adding **reference content**, a web pa
 
 ## Use your generative model {#generative-model}
 
-![Animated demonstration of AI Assistant generating content with custom model](assets/do-not-localize/gen-ai-model.gif)
+![Animated demonstration of Generate Content generating content with custom model](assets/do-not-localize/gen-ai-model.gif)
 
-Register a custom generative model and route image generation through it from AI Assistant.
+Register a custom generative model and route image generation through it from Generate Content.
 
 1. From the **[!UICONTROL Brands]** menu, open the **[!UICONTROL Generative Models]** tab and click **[!UICONTROL Add model]**.
 
@@ -173,7 +173,7 @@ Register a custom generative model and route image generation through it from AI
 
 1. From the campaign, click **[!UICONTROL Edit content]**.
 
-1. Select the asset to be modified with AI Assistant and open the **[!UICONTROL AI Assistant]**.
+1. Select the asset to be modified, and open the **[!UICONTROL Generate Content]** menu.
 
 1. Specify your request in the **[!UICONTROL Prompt]** field and adjust the remaining settings as appropriate.
 
@@ -185,13 +185,13 @@ Register a custom generative model and route image generation through it from AI
 
 ## Use Gemini as generative model for text-overlay image
 
-![Animated demonstration of AI Assistant generating content with Gemini as generative model](assets/do-not-localize/gen-nano.gif)
+![Animated demonstration of Generate Content generating content with Gemini as generative model](assets/do-not-localize/gen-nano.gif)
 
-With **Gemini 2.5** selected as the generative model, you can produce image variants in AI Assistant, add text overlays from a URL, a file, or an AI-generated prompt, then position overlays before applying a final variation.
+With **Gemini 2.5** selected as the generative model, you can produce image variants in Generate Content, add text overlays from a URL, a file, or an AI-generated prompt, then position overlays before applying a final variation.
 
 1. When your campaign is ready, click **[!UICONTROL Edit content]**.
 
-1. Select the asset to use as the base image and open **[!UICONTROL AI Assistant]**.
+1. Select the asset to use as the base image and open **[!UICONTROL Generate Content]**.
 
 1. Click **[!UICONTROL Open settings]** to adjust image generation options.
 
