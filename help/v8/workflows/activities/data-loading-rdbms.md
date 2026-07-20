@@ -31,12 +31,12 @@ This activity relies on the [Federated Data Access (FDA)](https://experienceleag
 
 First of all, add a **Data loading (RDBMS)** activity as the first activity of a workflow branch.
 
-The activity is divided into four sections: 
+The activity is divided into four sections:
 
-* **[!UICONTROL Target settings]**: 
-* **[!UICONTROL Source settings]**: 
-* **[!UICONTROL Information collected]**: 
-*  **[!UICONTROL Source filtering]**: 
+* **[!UICONTROL Target settings]**: choose where the loaded data is stored. [Learn more](#target-settings)
+* **[!UICONTROL Source settings]**: choose how to access the external database that contains the data to load. [Learn more](#source-settings)
+* **[!UICONTROL Information collected]**: define which columns are collected from the external table. [Learn more](#information-collected)
+* **[!UICONTROL Source filtering]**: define a filter to collect only part of the data from the external table. [Learn more](#filter)
 
 Note that the last two sections only appear when the **[!UICONTROL Source settings]** are defined.
 
