@@ -97,3 +97,19 @@ _July 20, 2026_
 </tr>
 </tbody>
 </table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Control actions on custom schema data</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>The screen definition of a custom schema now includes an <strong>Action data</strong> section, letting you restrict create, update, and delete actions for its records. Enable <strong>Read-only</strong> to make the detail screen read-only and hide list actions, or <strong>Do not allow deletion</strong> to remove the delete action. These restrictions apply at the schema level, across every folder and for every user, including administrators.</p>
+<p>For more information, refer to the <a href="../administration/schemas-action-data.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
