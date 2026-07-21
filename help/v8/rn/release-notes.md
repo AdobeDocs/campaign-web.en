@@ -113,3 +113,19 @@ _July 20, 2026_
 </tr>
 </tbody>
 </table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Custom filters in inventory lists</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>The screen definition of a schema now includes a <strong>Custom filters</strong> section, inside <strong>Inventory list configuration</strong>, letting you choose which attributes are displayed as quick-access fields in the filters pane of the list view, above the <strong>Advanced filters</strong> rule builder. You can select direct attributes, link attributes, or sub-attributes of a link.</p>
+<p>For more information, refer to the <a href="../administration/schemas-custom-filters.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
