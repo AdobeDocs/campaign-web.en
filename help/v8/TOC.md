@@ -288,6 +288,7 @@ nudge: true
     + [Configure list columns](administration/schemas-list-columns.md)
     + [Edit custom fields](administration/schemas-custom-fields.md)
     + [Add collection lists](administration/schemas-collection-lists.md)
+    + [Control actions on data](administration/schemas-action-data.md)
     + [Create and publish schemas](administration/schemas-create-publish.md)
     + [Work with custom forms](administration/schemas-custom-forms.md)
   + {hide-from-toc} [Configure custom fields](administration/custom-fields.md)
