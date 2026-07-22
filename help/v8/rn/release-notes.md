@@ -101,14 +101,13 @@ _July 20, 2026_
 <table>
 <thead>
 <tr>
-<th><strong>Control actions on custom schema data</strong><br/></th>
+<th><strong>Offer management in the Web UI</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>The screen definition of a custom schema now includes an <strong>Action data</strong> section, letting you restrict create, update, and delete actions for its records. Enable <strong>Read-only</strong> to make the detail screen read-only and hide list actions, or <strong>Do not allow deletion</strong> to remove the delete action. These restrictions apply at the schema level, across every folder and for every user, including administrators.</p>
-<p>For more information, refer to the <a href="../administration/schemas-action-data.md">detailed documentation</a>.</p>
+<p><em>Description coming soon.</em></p>
 </td>
 </tr>
 </tbody>
@@ -117,14 +116,15 @@ _July 20, 2026_
 <table>
 <thead>
 <tr>
-<th><strong>Custom filters in inventory lists</strong><br/></th>
+<th><strong>Custom schema configuration improvements</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>The screen definition of a schema now includes a <strong>Custom filters</strong> section, inside <strong>Inventory list configuration</strong>, letting you choose which attributes are displayed as quick-access fields in the filters pane of the list view, above the <strong>Advanced filters</strong> rule builder. You can select direct attributes, link attributes, or sub-attributes of a link.</p>
-<p>For more information, refer to the <a href="../administration/schemas-custom-filters.md">detailed documentation</a>.</p>
+<p>The screen definition of a custom schema now includes an <strong>Action data</strong> section, letting you restrict create, update, and delete actions for its records. Enable <strong>Read-only</strong> to make the detail screen read-only and hide list actions, or <strong>Do not allow deletion</strong> to remove the delete action. These restrictions apply at the schema level, across every folder and for every user, including administrators.</p>
+<p>It also includes a <strong>Custom filters</strong> section, inside <strong>Inventory list configuration</strong>, letting you choose which attributes are displayed as quick-access fields in the filters pane of the list view, above the <strong>Advanced filters</strong> rule builder. You can select direct attributes, link attributes, or sub-attributes of a link.</p>
+<p>For more information, refer to the <a href="../administration/schemas-action-data.md">Action data</a> and <a href="../administration/schemas-custom-filters.md">Custom filters</a> documentation pages.</p>
 </td>
 </tr>
 </tbody>
@@ -147,3 +147,8 @@ _July 20, 2026_
 </tr>
 </tbody>
 </table>
+
+### Improvements {#26-7-improvements}
+
+* **More descriptive login error messages**: _Description coming soon._
+* **Restrict edition of the sender email address**: _Description coming soon._
