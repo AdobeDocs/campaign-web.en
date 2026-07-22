@@ -10,7 +10,7 @@ product_v2:
 ---
 # Orchestrate activities {#orchestrate}
 
-Once you have [created a workflow](create-workflow.md), whether from the workflow menu or within a campaign, you can start orchestrating the different tasks it performs. To do this, a visual canvas is provided, allowing you to construct a workflow diagram. Within this diagram, you can add various activities and connect them in a sequential order.
+Once you have [created a workflow](create-workflow.md), whether from the workflow menu or within a campaign, you can start orchestrating the different tasks it performs. To do this, a visual canvas is provided, allowing you to construct a workflow diagram. Within this diagram, you can add various activities and connect them in a sequential order. Horizontal and vertical scroll bars are displayed around the canvas, letting you navigate large workflows by dragging directly to the area you want to view.
 
 ## Add activities {#add}
 
