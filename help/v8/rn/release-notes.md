@@ -28,14 +28,6 @@ topic_v2:
 
 Adobe Campaign Web user interface releases operate on a continuous delivery model which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
-## July '26 release {#26-7-release}
-
-_July 28, 2026_
-
-### Improvements {#26-7-improvements}
-
-* Dynamic JavaScript pages (JSSP) are now exposed in the **[!UICONTROL Administration]** menu of the Web user interface. From this new list, you can create, modify, duplicate, and delete dynamic JavaScript pages used to build server-side pages that generate dynamic content when accessed through a URL, such as custom APIs, exports, or web application logic. [Learn more](../administration/dynamic-javascript-pages.md)
-
 ## June '26 release {#26-6-release}
 
 _June 16, 2026_
