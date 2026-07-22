@@ -129,3 +129,21 @@ _July 20, 2026_
 </tr>
 </tbody>
 </table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Workflow improvements</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Horizontal and vertical scroll bars are now displayed around the workflow canvas, giving you another way to navigate large workflows by dragging directly to the area you want to view.</p>
+<p>You can now disconnect a transition between two workflow activities without deleting them. If the source activity has a single outbound transition, disconnecting it creates a new branch containing the activities that were connected; if the source activity has multiple outbound transitions, only the selected transition is removed.</p>
+<p>When a workflow is already open for edition by another user, Adobe Campaign now warns you before you save, helping you avoid overwriting that user's changes.</p>
+<p>For more information, refer to the <a href="../workflows/orchestrate-activities.md#toolbar">Orchestrate activities</a> and <a href="../workflows/orchestrate-activities.md#disconnect-transition">Delete and disconnect activities</a> documentation pages.</p>
+</td>
+</tr>
+</tbody>
+</table>
