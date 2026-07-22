@@ -37,7 +37,7 @@ _July 20, 2026_
 <table>
 <thead>
 <tr>
-<th><strong>Offer management in the Web UI</strong><br/></th>
+<th><strong>Offer management</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -124,12 +124,10 @@ _July 20, 2026_
 <td>
 <p>The following improvements have been made to custom schema configuration:</p>
 <ul>
-<li>The new <strong>Action data</strong> section lets you restrict create, update, and delete actions for its records. These restrictions apply at the schema level, across every folder and for every user, including administrators.</li>
-<li>
+<li>The new <strong>Action data</strong> section allows you to restrict the actions available on a custom schema's records, regardless of the security rules configured on individual folders. <a href="../administration/schemas-action-data.md">Read more</a></li>
 </ul>
 <ul>
-<li><strong>Custom filters</strong> have been added in the <strong>Inventory list configuration</strong> section. They allow you to choose which attributes are displayed as quick-access fields in the filters pane of the list view.</li>
-<li>For more information, refer to the <a href="../administration/schemas-action-data.md">Action data</a> and <a href="../administration/schemas-custom-filters.md">Custom filters</a> documentation pages.</li>
+<li><strong>Custom filters</strong> have been added in the <strong>Inventory list configuration</strong> section. They allow you to choose which attributes are displayed as quick-access fields in the filters pane of the list view. <a href="../administration/schemas-custom-filters.md">Read more</a></li>
 </ul>
 </td>
 </tr>
