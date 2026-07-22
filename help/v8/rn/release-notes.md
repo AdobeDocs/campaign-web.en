@@ -28,6 +28,14 @@ topic_v2:
 
 Adobe Campaign Web user interface releases operate on a continuous delivery model which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
+## July '26 release {#26-7-release}
+
+_July 28, 2026_
+
+### Improvements {#26-7-improvements}
+
+* Horizontal and vertical scroll bars are now displayed around the workflow canvas, giving you another way to navigate large workflows. [Learn more](../workflows/orchestrate-activities.md#toolbar)
+
 ## June '26 release {#26-6-release}
 
 _June 16, 2026_
