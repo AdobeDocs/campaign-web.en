@@ -26,7 +26,7 @@ Once an activity is added to the diagram, a right pane appears, allowing you to 
 
 Repeat this process to add as many activities as needed, depending on the tasks your workflow performs. You can also insert a new activity between two activities. To do this, click the **+** button on the transition between the activities, select the desired activity, and configure it in the right pane.
 
-To remove an activity, select it in the canvas and click the **Delete** icon in the activity properties.
+To remove an activity, select it in the canvas and click the **Delete** icon in the activity properties. See [Delete and disconnect activities](#delete) for the available options.
 
 >[!TIP]
 >
@@ -53,7 +53,7 @@ When adding activities, action buttons are available in the properties pane, all
 
 You can:
 
-* **Delete** the activity from the canvas.
+* **Delete** the activity from the canvas. See [this section](#delete-activity).
 * **Disable/Enable** the activity. When the workflow executes, disabled activities and the following activities on the same path are not executed, and the workflow stops.
 * **Pause/Resume** the activity. When the workflow executes, it pauses at the paused activity. The corresponding task, as well as all those that follow it in the same path, are not executed.
 * **Copy** the activity. See [this section](#copy).
@@ -98,6 +98,29 @@ To move an activity:
 1. Select the transition where you want to place the activity and its outbound transition, then confirm.
 
 ![Move activity and child nodes](assets/activity-move.png) 
+
+## Delete and disconnect activities {#delete}
+
+### Delete an activity {#delete-activity}
+
+To delete an activity, select it in the canvas and click the **Delete** icon in the activity properties. A confirmation dialog appears.
+
+* If the activity is not connected to any other activity, confirm to delete it.
+* If the activity is connected to one or more subsequent activities, choose how to handle them:
+    * **Delete all subsequent activities**: Removes the activity and every activity that follows it on the same path.
+    * **Delete only this activity**: Removes only the selected activity and reconnects the remaining path. This option is only available when the activity has a single successor.
+    * **Delete and create a new branch**: Removes the selected activity but keeps its subsequent activities, moving them into a new, separate branch.
+
+Click **Delete** (in red) to confirm your choice, or **Cancel** to close the dialog without deleting anything.
+
+### Disconnect a transition {#disconnect-transition}
+
+You can disconnect two activities without deleting either of them. Select the transition between the two activities, then click the **Delete** icon in the transition properties. A confirmation dialog appears; click **Delete** (in red) to confirm.
+
+* If the source activity has a single outbound transition, disconnecting it creates a new branch containing all the activities that were connected after the transition.
+* If the source activity has multiple outbound transitions (for example, a **Split** activity connected several times to the same **Combine** activity), only the selected transition is removed; the other transitions are not affected.
+
+This lets you reorganize a workflow diagram, for example to temporarily set aside a group of activities you want to keep, without having to delete and recreate them.
 
 ## Execution options {#execution}
 
