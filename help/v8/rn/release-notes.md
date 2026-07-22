@@ -37,6 +37,21 @@ _July 20, 2026_
 <table>
 <thead>
 <tr>
+<th><strong>Offer management in the Web UI</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><em>Description coming soon.</em></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Brand configuration</strong><br/></th>
 </tr>
 </thead>
@@ -59,7 +74,7 @@ _July 20, 2026_
 <tbody>
 <tr>
 <td>
-<p>You can now reuse public resources when adding images to your emails. In addition to browsing your Adobe Experience Manager Assets library or importing a new file from your computer, you can select an image already available on your Adobe Campaign instance, such as a file previously imported or a public resource uploaded from the Client Console. This option is available for both content images and background images.</p>
+<p>When adding images to your emails, you can now select <strong>public resources</strong>. This allows you to choose an image already available on your Adobe Campaign instance, such as a file previously imported in the Email designer or a public resource uploaded from the Client Console.</p>
 <p>For more information, refer to the <a href="../email/content-components.md#image">detailed documentation</a>.</p>
 </td>
 </tr>
@@ -101,30 +116,21 @@ _July 20, 2026_
 <table>
 <thead>
 <tr>
-<th><strong>Offer management in the Web UI</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p><em>Description coming soon.</em></p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>Custom schema configuration improvements</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>The screen definition of a custom schema now includes an <strong>Action data</strong> section, letting you restrict create, update, and delete actions for its records. Enable <strong>Read-only</strong> to make the detail screen read-only and hide list actions, or <strong>Do not allow deletion</strong> to remove the delete action. These restrictions apply at the schema level, across every folder and for every user, including administrators.</p>
-<p>It also includes a <strong>Custom filters</strong> section, inside <strong>Inventory list configuration</strong>, letting you choose which attributes are displayed as quick-access fields in the filters pane of the list view, above the <strong>Advanced filters</strong> rule builder. You can select direct attributes, link attributes, or sub-attributes of a link.</p>
-<p>For more information, refer to the <a href="../administration/schemas-action-data.md">Action data</a> and <a href="../administration/schemas-custom-filters.md">Custom filters</a> documentation pages.</p>
+<p>The following improvements have been made to custom schema configuration:</p>
+<ul>
+<li>The new <strong>Action data</strong> section lets you restrict create, update, and delete actions for its records. These restrictions apply at the schema level, across every folder and for every user, including administrators.</li>
+<li>
+</ul>
+<ul>
+<li><strong>Custom filters</strong> have been added in the <strong>Inventory list configuration</strong> section. They allow you to choose which attributes are displayed as quick-access fields in the filters pane of the list view.</li>
+<li>For more information, refer to the <a href="../administration/schemas-action-data.md">Action data</a> and <a href="../administration/schemas-custom-filters.md">Custom filters</a> documentation pages.</li>
+</ul>
 </td>
 </tr>
 </tbody>
@@ -139,9 +145,12 @@ _July 20, 2026_
 <tbody>
 <tr>
 <td>
-<p>Horizontal and vertical scroll bars are now displayed around the workflow canvas, giving you another way to navigate large workflows by dragging directly to the area you want to view.</p>
-<p>You can now disconnect a transition between two workflow activities without deleting them. If the source activity has a single outbound transition, disconnecting it creates a new branch containing the activities that were connected; if the source activity has multiple outbound transitions, only the selected transition is removed.</p>
-<p>When a workflow is already open for edition by another user, Adobe Campaign now warns you before you save, helping you avoid overwriting that user's changes.</p>
+<p>The following improvements to workflows:</p>
+<ul>
+<li>You can now disconnect a transition between two workflow activities without deleting them. If the source activity has a single outbound transition, disconnecting it creates a new branch containing the activities that were connected; if the source activity has multiple outbound transitions, only the selected transition is removed.</li>
+<li>When a workflow is already open for edition by another user, Adobe Campaign now warns you before you save, helping you avoid overwriting that user's changes.</li>
+<li>Horizontal and vertical scroll bars are now displayed around the workflow canvas, giving you another way to navigate large workflows by dragging directly to the area you want to view.</li>
+</ul>
 <p>For more information, refer to the <a href="../workflows/orchestrate-activities.md#toolbar">Orchestrate activities</a> and <a href="../workflows/orchestrate-activities.md#disconnect-transition">Delete and disconnect activities</a> documentation pages.</p>
 </td>
 </tr>
