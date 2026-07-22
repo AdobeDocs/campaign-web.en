@@ -113,49 +113,18 @@ _July 20, 2026_
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>Custom schema configuration improvements</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>The following improvements have been made to custom schema configuration:</p>
-<ul>
-<li>The new <strong>Action data</strong> section allows you to restrict the actions available on a custom schema's records, regardless of the security rules configured on individual folders. <a href="../administration/schemas-action-data.md">Read more</a></li>
-</ul>
-<ul>
-<li><strong>Custom filters</strong> have been added in the <strong>Inventory list configuration</strong> section. They allow you to choose which attributes are displayed as quick-access fields in the filters pane of the list view. <a href="../administration/schemas-custom-filters.md">Read more</a></li>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Workflow improvements</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>The following improvements to workflows:</p>
-<ul>
-<li>You can now disconnect a transition between two workflow activities without deleting them. If the source activity has a single outbound transition, disconnecting it creates a new branch containing the activities that were connected; if the source activity has multiple outbound transitions, only the selected transition is removed.</li>
-<li>When a workflow is already open for edition by another user, Adobe Campaign now warns you before you save, helping you avoid overwriting that user's changes.</li>
-<li>Horizontal and vertical scroll bars are now displayed around the workflow canvas, giving you another way to navigate large workflows by dragging directly to the area you want to view.</li>
-</ul>
-<p>For more information, refer to the <a href="../workflows/orchestrate-activities.md#toolbar">Orchestrate activities</a> and <a href="../workflows/orchestrate-activities.md#disconnect-transition">Delete and disconnect activities</a> documentation pages.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 ### Improvements {#26-7-improvements}
+
+* The following improvements have been made to custom schema configuration:
+    * The new **Action data** section allows you to restrict the actions available on a custom schema's records, regardless of the security rules configured on individual folders. [Read more](../administration/schemas-action-data.md)
+    * **Custom filters** have been added in the **Inventory list configuration** section. They allow you to choose which attributes are displayed as quick-access fields in the filters pane of the list view. [Read more](../administration/schemas-custom-filters.md)
+
+* The following improvements to workflows:
+    * You can now disconnect a transition between two workflow activities without deleting them. If the source activity has a single outbound transition, disconnecting it creates a new branch containing the activities that were connected; if the source activity has multiple outbound transitions, only the selected transition is removed.
+    * When a workflow is already open for edition by another user, Adobe Campaign now warns you before you save, helping you avoid overwriting that user's changes.
+    * Horizontal and vertical scroll bars are now displayed around the workflow canvas, giving you another way to navigate large workflows by dragging directly to the area you want to view.
+
+    For more information, refer to the [Orchestrate activities](../workflows/orchestrate-activities.md#toolbar) and [Delete and disconnect activities](../workflows/orchestrate-activities.md#disconnect-transition) documentation pages.
 
 * **More descriptive login error messages**: _Description coming soon._
 * **Restrict edition of the sender email address**: _Description coming soon._
