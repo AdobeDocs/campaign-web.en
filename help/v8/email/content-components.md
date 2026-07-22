@@ -183,7 +183,7 @@ Use the **[!UICONTROL Image]** component to insert an image into your email.
 
     +++**[!UICONTROL Import public resource]**
 
-    Choose this option to reuse an image already available on your Adobe Campaign instance, such as a file previously uploaded through **[!UICONTROL Import]** or as a public resource from the Client Console.
+    Choose this option to select an image already available on your Adobe Campaign instance, such as a file previously imported in the Email designer or as a public resource from the Client Console.
 
     ![Screenshot showing the public resource selection process in the Email Designer.](assets/email_designer_30.png){zoomable="yes"}
 
