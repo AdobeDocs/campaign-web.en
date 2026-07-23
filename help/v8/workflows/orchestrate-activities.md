@@ -106,21 +106,50 @@ To move an activity:
 To delete an activity, select it in the canvas and click the **Delete** icon in the activity properties. A confirmation dialog appears.
 
 * If the activity is not connected to any other activity, confirm to delete it.
+
+   ![Delete activity simple](assets/workflow-delete.png) 
+
 * If the activity is connected to one or more subsequent activities, choose how to handle them:
+
+   ![Delete activity multiple](assets/workflow-delete2.png) 
+
     * **Delete all subsequent activities**: Removes the activity and every activity that follows it on the same path.
     * **Delete only this activity**: Removes only the selected activity and reconnects the remaining path. This option is only available when the activity has a single successor.
     * **Delete and create a new branch**: Removes the selected activity but keeps its subsequent activities, moving them into a new, separate branch.
 
-Click **Delete** (in red) to confirm your choice, or **Cancel** to close the dialog without deleting anything.
+Click **Delete** to confirm your choice, or **Cancel** to close the dialog without deleting anything.
 
 ### Disconnect a transition {#disconnect-transition}
 
-You can disconnect two activities without deleting either of them. Select the transition between the two activities, then click the **Delete** icon in the transition properties. A confirmation dialog appears; click **Delete** (in red) to confirm.
-
-* If the source activity has a single outbound transition, disconnecting it creates a new branch containing all the activities that were connected after the transition.
-* If the source activity has multiple outbound transitions (for example, a **Split** activity connected several times to the same **Combine** activity), only the selected transition is removed; the other transitions are not affected.
+You can disconnect two activities without deleting either of them. The activities placed after the disconnected transition are not deleted: they are moved into a new, separate branch of the workflow.
 
 This lets you reorganize a workflow diagram, for example to temporarily set aside a group of activities you want to keep, without having to delete and recreate them.
+
+You can do this on a single transition:
+
+1. Select the transition you want to disconnect.
+
+1. Click the **Disconnect** icon in the transition properties.
+
+   ![Disconnect icon in the transition properties pane](assets/workflow-transition.png) 
+
+   This icon is only available when the transition leads to a downstream activity. A confirmation dialog appears.
+
+1. Click **Disconnect** to confirm, or **Cancel** to close the dialog without disconnecting anything.
+
+   ![Disconnect transition confirmation dialog](assets/workflow-transition2.png) 
+
+If the source activity has multiple outbound transitions (for example, a **Split** activity with several result branches, or a **Fork** activity), you can remove any one of them individually from the activity's own properties pane:
+
+1. Select the activity, then locate the result you want to remove in the **Segment** section.
+
+1. Click the trash icon next to that result. A confirmation dialog appears.
+
+   ![Trash icon next to a segment result](assets/workflow-transition3.png) 
+
+1. Click **Remove** to confirm, or **Cancel** to close the dialog without removing anything.
+
+   ![Remove transition confirmation dialog](assets/workflow-transition4.png) 
 
 ## Execution options {#execution}
 
