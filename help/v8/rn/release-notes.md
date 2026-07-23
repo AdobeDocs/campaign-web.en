@@ -43,7 +43,7 @@ _July 28, 2026_
 <tbody>
 <tr>
 <td>
-<p>You can now manage offers end-to-end directly from the Campaign Web User Interface, without using the Client Console. Configure offer environments and offer spaces, build your offer catalog and categories, create offers with eligibility rules and priority weights, and approve and deploy them for use in your deliveries.</p>
+<p>You can now manage offers end-to-end directly from the Campaign Web User Interface. Configure offer environments and offer spaces, build your offer catalog and categories, create offers with eligibility rules and priority weights, and approve and deploy them for use in your deliveries. Advanced configurations remain available in the Client Console.</p>
 <!--p>For more information, refer to the <a href="../offers/gs-offer-management.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -124,7 +124,7 @@ _July 28, 2026_
     * Deleting a workflow activity is now more flexible: when the activity has subsequent activities, you can choose to delete them all, delete only the selected activity, or delete it while keeping its subsequent activities in a new branch. <!--[Read more](../workflows/orchestrate-activities.md#delete-activity)-->
     * You can now disconnect a transition between two workflow activities without deleting either of them. This lets you reorganize a workflow diagram, for example to temporarily set aside a group of activities you want to keep, without having to delete and recreate them. <!--[Read more](../workflows/orchestrate-activities.md#disconnect-transition)-->
     * Horizontal and vertical scroll bars are now displayed around the workflow canvas, letting you navigate large workflows by dragging directly to the area you want to view. <!--[Read more](../workflows/orchestrate-activities.md)-->
-    * When savind or starting/restarting a workflow, a warning is now displayed if another user modified the workflow in the Web UI or the Client Console since you opened it. You can choose to override the other changes with yours, reload the workflow to get the latest version, or cancel.
+    * When saving or starting/restarting a workflow, a warning is now displayed if another user modified the workflow in the Web UI or the Client Console since you opened it. You can choose to override the other changes with yours, reload the workflow to get the latest version, or cancel.
 
 * **Sender email address**: You can now restrict the **From email** field of your deliveries to a predefined list of addresses, using the **NmsDelivery_senderAddressMask** option. <!--[Read more](../administration/options.md#restrict-sender-address)-->
 * **Login error messages** have been improved: When a login attempt fails, the Web UI now displays a more specific error message for several scenarios (for example, when the user has no security zone assigned or their IP address is restricted).
