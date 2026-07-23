@@ -115,14 +115,15 @@ _July 20, 2026_
 
 ### Improvements {#26-7-improvements}
 
-* The following improvements have been made to custom schema configuration:
+* The following improvements have been made to **custom schema configuration**:
     * The new **Action data** section allows you to restrict the actions available on a custom schema's records, regardless of the security rules configured on individual folders. [Read more](../administration/schemas-action-data.md)
     * **Custom filters** have been added in the **Inventory list configuration** section. They allow you to choose which attributes are displayed as quick-access fields in the filters pane of the list view. [Read more](../administration/schemas-custom-filters.md)
 
-* The following improvements to workflows:
-    * You can now disconnect a transition between two workflow activities without deleting them. If the source activity has a single outbound transition, disconnecting it creates a new branch containing the activities that were connected; if the source activity has multiple outbound transitions, only the selected transition is removed. [Read more](../workflows/orchestrate-activities.md#disconnect-transition)
-    * When a workflow is already open for edition by another user, Adobe Campaign now warns you before you save, helping you avoid overwriting that user's changes.
+* The following improvements to **workflows**:
+    * Deleting a workflow activity is now more flexible: when the activity has subsequent activities, you can choose to delete them all, delete only the selected activity, or delete it while keeping its subsequent activities in a new branch. [Read more](../workflows/orchestrate-activities.md#delete-activity)
+    * You can now disconnect a transition between two workflow activities without deleting either of them. This lets you reorganize a workflow diagram, for example to temporarily set aside a group of activities you want to keep, without having to delete and recreate them. [Read more](../workflows/orchestrate-activities.md#disconnect-transition)
+    * When savind or starting/restarting a workflow, a warning is now displayed if another user modified the workflow in the Web UI or the Client Console since you opened it. You can choose to override the other changes with yours, reload the workflow to get the latest version, or cancel.
     * Horizontal and vertical scroll bars are now displayed around the workflow canvas, letting you navigate large workflows by dragging directly to the area you want to view. [Read more](../workflows/orchestrate-activities.md)
 
-* **More descriptive login error messages**: _Description coming soon._
-* **Restrict edition of the sender email address**: _Description coming soon._
+* **Login error messages** have been improved: When a login attempt fails, the Web UI now displays a more specific error message for several scenarios (for example, when the user has no security zone assigned or their IP address is restricted).
+* **Restrict edition of the sender email address**: You can now restrict the **From email** field of your deliveries to a predefined list of addresses, using the **NmsDelivery_senderAddressMask** option. [Read more](../administration/options.md#restrict-sender-address)
