@@ -80,3 +80,11 @@ In the example below, a custom option named `sampleOption` is created with the i
 1. The updated value is now visible in the **[!UICONTROL Options]** menu.  
 
     ![Options menu displaying the updated value of the custom option](assets/options-sample-updated.png)
+
+## Restrict the sender email address of deliveries {#restrict-sender-address}
+
+By default, marketers can type any address in the **[!UICONTROL From email]** field of an email delivery. To restrict this field to a predefined list of addresses, create or edit the built-in `NmsDelivery_senderAddressMask` option and set its value to a comma-separated list of the allowed sender addresses, for example `abc@adobe.com,bcd@adobe.com`.
+
+Once this option has a value, the **[!UICONTROL From email]** field becomes a dropdown list containing only these addresses, instead of a free-text field. If the option does not exist or its value is empty, the field remains free-text, as before.
+
+This restriction is global: it applies to every brand and delivery template, and does not support personalization fields, only static addresses.
