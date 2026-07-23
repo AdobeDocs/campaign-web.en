@@ -145,6 +145,12 @@ nudge: true
   + [Create and publish a landing page](landing-pages/create-lp.md)
   + [Design landing page content](landing-pages/lp-content.md)
   + [Learn through use cases](landing-pages/lp-use-cases.md)
++ Offer management {#offers}
+  + [Get started with offer management](offers/gs-offer-management.md)
+  + [Configure an offer environment](offers/offer-environment.md)
+  + [Create and manage offer spaces](offers/offer-space.md)
+  + [Create and publish an offer](offers/create-offer.md)
+  + [Add offers to your messages](msg/offers.md)
 + Profiles and audiences {#audiences}
   + [Get started with profiles and audiences](audience/gs-audiences-recipients.md)
   + [Targeting dimensions](audience/targeting-dimensions.md)
