@@ -13,7 +13,11 @@ topic_v2:
 ---
 # Add offers to your messages {#offers-content}
 
-You can add offers to your deliveries in the Adobe Campaign Web user interface. These offers are available from the **Offers** left menu, which lets you access the list of offers. All these offers are read-only and must be created in the Campaign client console using the **[!UICONTROL Interaction]** module. For more information on Interaction and how to manage an offer catalog in the console, refer to the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
+You can add offers to your deliveries directly from the Campaign Web UI. These offers are available from the **Offers** left menu, which lets you access the list of offers.
+
+From Campaign Web UI, you can also directly create and manage offer environments, offer spaces, and offers, without switching to the client console. [Learn more](../offers/gs-offer-management.md).
+
+For advanced configurations, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
 
 The steps to send offers with a delivery are as follows:
 
@@ -42,7 +46,7 @@ To select the offers to add to your delivery, follow the steps below.
 
 1. Configure which offers should be proposed to the recipients.
 
-    First, select the **[!UICONTROL Offer space]** that matches your offer environment. Learn how to create an offer space in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html){target="_blank"}.
+    First, select the **[!UICONTROL Offer space]** that matches your offer environment. Learn how to create an offer space directly from Campaign Web UI in this [section](../offers/offer-space.md).
 
     ![Screenshot showing the offer space selection in the offer creation content](assets/offer-create-content.png){zoomable="yes"}
 
