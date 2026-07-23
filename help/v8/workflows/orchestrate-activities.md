@@ -141,9 +141,9 @@ You can do this on a single transition:
 
 If the source activity has multiple outbound transitions (for example, a **Split** activity with several result branches, or a **Fork** activity), you can remove any one of them individually from the activity's own properties pane:
 
-1. Select the activity, then locate the result you want to remove in the **Segment** section.
+1. Select the activity, then locate the transition you want to remove in the **Segment** section.
 
-1. Click the trash icon next to that result. A confirmation dialog appears.
+1. Click the trash icon next to that transition. A confirmation dialog appears.
 
    ![Trash icon next to a segment result](assets/workflow-transition3.png) 
 
