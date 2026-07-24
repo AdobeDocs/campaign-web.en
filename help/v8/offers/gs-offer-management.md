@@ -20,7 +20,7 @@ Offers are then presented to recipients through deliveries based on **eligibilit
 
 >[!NOTE]
 >
->The Campaign Web user interface focuses on the most common offer management activities. Advanced configurations remain available in the Campaign Client Console. Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"} 
+>The Campaign Web user interface focuses on the most common offer management usage. Advanced configurations remain available in the Campaign Client Console. Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"} 
 
 <!--
 and check the [Campaign Web and client console capability matrix](../get-started/capability-matrix.md#offer-capabilities) for the current scope.
@@ -63,5 +63,7 @@ The typical end-to-end flow in Campaign Web UI is the following:
 ## Access offers in the Web UI {#access}
 
 Offers are available from the **[!UICONTROL Offers]** left menu. From there you can browse the catalog, open an offer for edition, and monitor its approval and deployment status.
+
+![Screenshot showing the Offer menu.](assets/offers-gs.png){zoomable="yes"}
 
 Offer environments and offer spaces are accessed through the **[!UICONTROL Explorer]**, by navigating to the corresponding folder.

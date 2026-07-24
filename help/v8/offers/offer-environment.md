@@ -19,10 +19,31 @@ An **offer environment** is the container in which you organize your offer catal
 
 Each **Design** environment is linked to a **Live** environment. When an offer is complete and approved, it is automatically deployed to the **Live** environment and available for delivery.
 
+![Screenshot showing the environments.](assets/offers-env.png){zoomable="yes"}
+
 By default, Campaign comes with two **Design** and **Live** environments pre-configured to target the built-in recipient table (identified offers). 
 
 To target another table, such as anonymous profiles visiting your website for inbound interactions, you need to create additional environments (one per targeting dimension). Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"}.
 
+Offer environments are stored as folders. To access and review the environment settings (eligibility, weight management, security), follow these steps:
+
+>[!CAUTION]
+>
+>These settings can be modified, but you should be very cautious, as changes might break your existing implementation.
+
+1. From the left navigation menu, open the **[!UICONTROL Explorer]** and locate the offer environment folder under the **Design environment** node.
+
+1. Click on the ... button, and select **[!UICONTROL Folder settings]** to display the environment settings.
+
+   ![Screenshot showing the Folder settings option of an environment](assets/offers-env-1.png){zoomable="yes"}
+
+1. Review the different sections. The folder settings of an offer environment group offer-specific options. 
+
+   ![Screenshot showing the Properties settings of an environment](assets/offers-env-2.png){zoomable="yes"}
+
+   Most settings mirror the offer environment configuration available in the Client Console. For more information, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-env.html){target="_blank"}.
+
+<!--
 ## Create a new offer environment {#create}
 
 If you need to manage a separate offer catalog — for example, for a different targeting dimension — you can create a new **Design** environment directly from the Web UI.
@@ -45,9 +66,11 @@ Offer environments are stored as folders. To access an environment and modify it
 
 The folder settings of an offer environment group offer-specific options into several sections. 
 
+-->
 <!-- 
 Most settings mirror the offer environment configuration available in the Adobe Campaign client console.
 -->
+<!-- 
 
 ## Properties {#properties}
 
@@ -55,6 +78,7 @@ This section is common to all folders. It allows you to define the **Label** of 
 
 ![Screenshot showing the Properties settings of an environment](assets/offers-env-2.png){zoomable="yes"}
 
+-->
 <!--
 
 * **[!UICONTROL Label]** — Display name of the environment.
@@ -73,6 +97,7 @@ Expand **[!UICONTROL Additional options]** to access the technical properties of
 This section gathers the offer-specific settings of the folder.
 
 -->
+<!--
 
 ## Environment {#env-section}
 
@@ -94,9 +119,11 @@ This section gathers the offer-specific settings of the folder.
 
 * **[!UICONTROL Environment dedicated to incoming anonymous interactions]** — Activates anonymous interaction features on the environment. This relies on a target mapping for the visitor targeting dimension, which you can now create directly from the Web UI — see [Manage target mappings](../administration/target-mappings.md). Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-env.html#create-an-offer-environment){target="_blank"} for the full anonymous interaction setup.
 
+-->
 <!--
 and [Anonymous interactions](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/anonymous-interactions.html){target="_blank"}.
 -->
+<!--
 
 * **[!UICONTROL Targeting dimension]** — Schema and table of the contacts targeted by the offers contained in this environment (for example, **[!DNL Recipients (nms:recipient)]**). The targeting dimension is reused by every offer and offer space of the environment.
 
@@ -109,6 +136,8 @@ and [Anonymous interactions](https://experienceleague.adobe.com/docs/campaign/ca
 ### Implicit identification (if the function is enabled in the space) {#implicit-identification}
 
 * **[!UICONTROL Target mapping]** — Used to configure the **changeover process**, which lets the Offer engine switch between an identified and an anonymous environment depending on whether the contact can be identified during an inbound interaction. Leave this field empty when implicit identification is not used. Learn how to create and manage target mappings directly from the Web UI in [Manage target mappings](../administration/target-mappings.md). For the offer-specific changeover process configuration, refer to [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/anonymous-interactions.html){target="_blank"}.
+
+-->
 
 ## Eligibility {#eligibility}
 
