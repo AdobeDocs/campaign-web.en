@@ -14,15 +14,15 @@ topic_v2:
 
 An **offer space** defines where and how an offer is exposed to a contact: which channel it uses (email, direct mail, SMS, inbound web, etc.), which content fields the offer can use, and how the final representation is built. A single environment can contain multiple offer spaces — one for each exposition point.
 
-An offer space is not a channel by itself. It represents a specific location where the offer is displayed on a channel. Two banners on the same web page typically correspond to two different offer spaces. For the full conceptual model, refer to [Create offer spaces](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html){target="_blank"} in the console documentation.
+An offer space is not a channel by itself. It represents a specific location where the offer is displayed on a channel. Two banners on the same web page typically correspond to two different offer spaces. For the full conceptual model, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html){target="_blank"}.
 
-## Create or modidy an offer space{#create-offer-space}
+## Create or modify an offer space{#create-offer-space}
 
 Offer spaces are stored under the offer environment folder. To browse the offer spaces available on your platform, open the **[!UICONTROL Explorer]**, navigate to the offer environment and select the sub-folder that contains them. 
 
 ![Screenshot showing the Offer space list.](assets/offers-space.png){zoomable="yes"}
 
-From there you can open an existing offer space or create a new one by clicking **[!UICONTROL Create offer space]**.
+From there, you can open an existing offer space or create a new one by clicking **[!UICONTROL Create offer space]**.
 
 ![Screenshot showing the Offer space screen.](assets/offers-space-1.png){zoomable="yes"}
 
@@ -40,7 +40,7 @@ The content fields list the attributes that can be edited at offer level and reu
 
 By default, every offer ships with the following out-of-the-box content fields: **[!UICONTROL Title]**, **[!UICONTROL Destination URL]**, **[!UICONTROL Image URL]**, **[!UICONTROL HTML content]**, and **[!UICONTROL Text content]**. You can extend this list with any custom field your rendering needs — for example, a **short content**, a **tracked URL**, or any attribute added through schema extension.
 
-Click **[!UICONTROL Add content field]**, then select the attribute to expose from the offer schema in the **[!UICONTROL Select attribute]** picker, or click **[!UICONTROL Edit expression]** to define a custom expression instead.
+Click **[!UICONTROL Add content field]**, then select the attribute to expose from the offer schema, or click **[!UICONTROL Edit expression]** to define a custom expression instead.
 
 >[!IMPORTANT]
 >
@@ -50,7 +50,7 @@ Click **[!UICONTROL Add content field]**, then select the attribute to expose fr
 
 The rendering functions build the final offer representation from the content fields. You can choose between the default rendering — which simply outputs the content as is — or a custom function that combines the fields with HTML, XML, or text.
 
-Select the **[!UICONTROL HTML rendering]**, **[!UICONTROL XML rendering]**, or **[!UICONTROL Text rendering]** tab, and select **[!UICONTROL Overload the rendering function]** to enable it.
+Select the **[!UICONTROL HTML rendering]**, **[!UICONTROL XML rendering]**, or **[!UICONTROL Text rendering]** tab, and enable **[!UICONTROL Overload the rendering function]** to activate it.
 
 Use the expression editor to write the rendering function. You can reference the content fields defined in the space, the offer attributes, and any function from the [expression editor](../query/expression-editor.md).
 
@@ -68,7 +68,7 @@ This section allows you to control how propositions generated through this space
 
 * **[!UICONTROL Status]** on acceptance — Status applied when the recipient interacts with the offer (typically **[!UICONTROL Accepted]**).
 
-The available status values match the list used by the Client Console.For more information, refer to [Offer proposition statuses](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html#offer-proposition-statuses){target="_blank"} in the console documentation.
+The available status values match the list used by the Client Console.For more information, refer to [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html#offer-proposition-statuses){target="_blank"} in the console documentation.
 
 <!--
 >[!NOTE]
@@ -78,9 +78,9 @@ The available status values match the list used by the Client Console.For more i
 
 ### Configure advanced settings {#advanced}
 
-The **[!UICONTROL Advanced parameters]** section exposes optional configurations, such as the **[!UICONTROL Target identification]** option. These settings are optional for a basic offer space — for their full reference and behavior, refer to [Create offer spaces](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html){target="_blank"} in the console documentation.
+This section allows you to define the **[!UICONTROL Target identification]**. Click **[!UICONTROL Add]** and select one or several **[!UICONTROL Recipient]** attributes or click **[!UICONTROL Edit expression]** to define a custom expression instead. This setting is optional for a basic offer space. For its full reference and behavior, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html){target="_blank"}.
 
-Offer spaces created on the **inbound web channel** also require the website to be configured to display the offer and to call the Offer engine. This integration is performed in the client console — see [Present offers in real time](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-present-offers.html){target="_blank"} and [Configure the Offer engine integration](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-integration.html){target="_blank"}.
+Offer spaces created on the **inbound web channel** also require the website to be configured to display the offer and to call the Offer engine. This integration is performed in the Client Console — see [Present offers in real time](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-present-offers.html){target="_blank"} and [Configure the Offer engine integration](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-integration.html){target="_blank"} in the Campaign v8 documentation.
 
 ## Deploy the offer space {#deploy}
 

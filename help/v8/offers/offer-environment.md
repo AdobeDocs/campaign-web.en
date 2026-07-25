@@ -10,7 +10,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
 ---
-# Configure an offer environment {#offer-environment}
+# Review offer environment settings {#offer-environment}
 
 An **offer environment** is the container in which you organize your offer catalog and the related offer spaces. There are two types of environments:
 
@@ -24,6 +24,8 @@ Each **Design** environment is linked to a **Live** environment. When an offer i
 By default, Campaign comes with two **Design** and **Live** environments pre-configured to target the built-in recipient table (identified offers). 
 
 To target another table, such as anonymous profiles visiting your website for inbound interactions, you need to create additional environments (one per targeting dimension). Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"}.
+
+## Access offer environments {#offer-environment-settings}
 
 Offer environments are stored as folders. To access and review the environment settings (eligibility, weight management, security), follow these steps:
 

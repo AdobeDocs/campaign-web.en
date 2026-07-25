@@ -50,7 +50,7 @@ To configure categories in depth — including sub-categories, fallback categori
 
 The typical end-to-end flow in Campaign Web UI is the following:
 
-1. **Configure the offer environment** — Review the environment settings (design / live mapping, eligibility, weight management). [Learn more](offer-environment.md)
+1. **Review the offer environment settings** — Check the design / live mapping, eligibility and weight management settings. [Learn more](offer-environment.md)
 
 1. **Create an offer space** — Define the content fields, the rendering function, and the advanced parameters that match your channel. [Learn more](offer-space.md)
 
@@ -67,3 +67,20 @@ Offers are available from the **[!UICONTROL Offers]** left menu. From there you 
 ![Screenshot showing the Offer menu.](assets/offers-gs.png){zoomable="yes"}
 
 Offer environments and offer spaces are accessed through the **[!UICONTROL Explorer]**, by navigating to the corresponding folder.
+
+
+## Console-only complements {#console-complements}
+
+Some offer features are not yet exposed in the Web user interface and must still be configured from the client console:
+
+* **Offer simulation** — The **Simulation** module that lets you test the distribution of offers before sending. See [Offer simulation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer.html#offer-simulation){target="_blank"}.
+
+* **Predefined filters** management — Reusable filter rules that can be referenced from any offer. See [Manage predefined filters](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-predefined-filters.html){target="_blank"}.
+
+* **Offer tracking** — Configuring tracking for offer propositions to feed the proposition history. See [Track offer propositions](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-tracking.html){target="_blank"}.
+
+* **Operator roles** — Assigning Offer manager / Delivery manager rights. See [Operators of the Interaction module](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-operators.html){target="_blank"}.
+
+* **Interaction best practices and arbitrage rules**. See [Campaign Interaction best practices](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html){target="_blank"}.
+
+* **Reporting** — Dedicated offer and proposition reports are not yet available in the Web user interface.
