@@ -150,6 +150,7 @@ nudge: true
   + [Review offer environment settings](offers/offer-environment.md)
   + [Create and manage offer spaces](offers/offer-space.md)
   + [Create and publish an offer](offers/create-offer.md)
+  + [Add an editable list to the offer schema](offers/offer-editable-list.md)
 + Profiles and audiences {#audiences}
   + [Get started with profiles and audiences](audience/gs-audiences-recipients.md)
   + [Targeting dimensions](audience/targeting-dimensions.md)
