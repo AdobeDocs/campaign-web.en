@@ -44,7 +44,7 @@ A **[!UICONTROL Brand]** is configured across four sections: **[!UICONTROL Ident
 
 ### Identity {#identity}
 
-The **[!UICONTROL Identity]** section allows you to define and personalize your brand. 
+The **[!UICONTROL Identity]** section allows you to define and personalize your brand.
 
 ![Screenshot showing the Identity tab when creating a brand](assets/branding-create3.png)
 
@@ -72,7 +72,7 @@ This section contains the following fields:
 >
 >Configuration for tracking, mirror, and application servers is stored in separate external accounts associated with routing. These settings are applied during provisioning and should not be modified. To display URLs, access the **[!UICONTROL Branding prefixes]** tab from your external account.
 
-## Email header parameters {#header-param}
+### Email header parameters {#header-param}
 
 The **[!UICONTROL Email header parameters]** allow you to personalize what the recipients will see in the header section of your campaigns.
 

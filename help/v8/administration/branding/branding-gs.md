@@ -31,10 +31,10 @@ You can add new entities of your organization in Campaign, or create a new type 
 
 ## Compatibility note {#compatibility-note}
 
-The new centralized branding model is not compatible with the [legacy branding](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.htmml#configuring-multibranding){target="_blank"} configuration which was previously used in the Client Console. 
+The new centralized branding model is not compatible with the [legacy branding](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.html#configuring-multibranding){target="_blank"} configuration which was previously used in the Client Console. 
 
 In the legacy approach, customers implemented branding by extending the extAccount form and using the **Branding** tab.
 
-   ![](assets/branding-legacy.png)
+   ![Screenshot showing the brand creation.](assets/branding-legacy.png)
 
 If your existing environment uses this legacy configuration, it cannot be migrated directly to the new centralized branding model. A full reimplementation of branding settings is required to adopt the new system.
