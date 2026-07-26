@@ -157,7 +157,7 @@ Use the **[!UICONTROL Image]** component to insert an image into your email.
 
 1. Choose one of the following options to add your image:
 
-    ![Screenshot showing the browse option for image components in the Email Designer.](assets/email_designer_28.png){zoomable="yes"}
+    ![Screenshot showing the options for image components in the Email Designer.](assets/email_designer_28.png){zoomable="yes"}
 
     +++**[!UICONTROL Browse]**
 
@@ -177,13 +177,13 @@ Use the **[!UICONTROL Image]** component to insert an image into your email.
 
     +++**[!UICONTROL Import]**
 
-    Select this option to Upload a new image from your computer. The file is uploaded as a public resource on your Adobe Campaign instance.
+    Select this option to upload a new image from your computer. The file is uploaded as a public resource on your Adobe Campaign instance.
 
     +++
 
     +++**[!UICONTROL Import public resource]**
 
-    Choose this option to select an image already available on your Adobe Campaign instance, such as a file previously imported in the Email designer or as a public resource from the Client Console.
+    Choose this option to select an image already available on your Adobe Campaign instance, such as a file previously imported in the Email Designer or as a public resource from the Client Console.
 
     ![Screenshot showing the public resource selection process in the Email Designer.](assets/email_designer_30.png){zoomable="yes"}
 
@@ -194,7 +194,7 @@ Use the **[!UICONTROL Image]** component to insert an image into your email.
     >The security constraints are the same as in the Client Console: you can only select resources you have access to, based on your user rights.
 
     Select the resource, then click **[!UICONTROL Confirm]**.
-    
+
     +++
 
 1. Click your newly added component and set up your image properties using the **[!UICONTROL Settings]** tab:
