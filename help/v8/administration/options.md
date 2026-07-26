@@ -89,8 +89,8 @@ By default, marketers can type any address in the **[!UICONTROL From email]** fi
 
 Once this option has a value, the **[!UICONTROL From email]** field becomes a dropdown list containing only these addresses, instead of a free-text field. If the option does not exist or its value is empty, the field remains free-text, as before.
 
-![Option to restrict values in From menu](assets/option-restrict-from2.png)
+![Available values in an email](assets/option-restrict-from2.png)
 
-This restriction is global: it applies to every brand and delivery template, and does not support personalization fields, only static addresses.
+This restriction is global. It applies to every brand and delivery template, and does not support personalization fields, only static addresses.
 
 For more information about the **[!UICONTROL From email]** field, refer to [Configure the email content](../email/edit-content.md#edit-content).
