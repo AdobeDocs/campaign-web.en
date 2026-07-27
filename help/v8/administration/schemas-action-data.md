@@ -1,7 +1,6 @@
 ---
 title: Control actions on data
 description: Learn how to restrict create, edit, and delete actions on custom schema records.
-exl-id: 8f0f7f6c-6b5b-4b8a-9c6d-1a2b3c4d5e6f
 ---
 # Control actions on data {#action-data}
 
