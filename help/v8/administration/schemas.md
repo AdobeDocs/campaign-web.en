@@ -48,6 +48,7 @@ The schemas interface allows you to:
 * [Configure list columns](schemas-list-columns.md) - Configure which columns are displayed by default in list views.
 * [Edit custom fields](schemas-custom-fields.md) - Configure which custom fields are displayed in detail screens and organize them into sections.
 * [Add collection lists](schemas-collection-lists.md) - Add collection lists to show related data in profile screens.
+* [Control actions on data](schemas-action-data.md) - Restrict create, edit, and delete actions for custom schemas.
 * [Create and manage schemas](schemas-create-publish.md#create-schemas) - Create new schemas and extend existing ones
 * [Publish and synchronize schemas](schemas-create-publish.md#publish) - Synchronize schema changes with the database structure.
 * [Work with custom forms](schemas-custom-forms.md) - Create, edit, and manage records in custom schemas using data entry forms.
