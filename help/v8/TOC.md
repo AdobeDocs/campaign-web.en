@@ -292,6 +292,7 @@ nudge: true
     + [About schemas](administration/schemas.md)
     + [Access and configure schemas](administration/schemas-browse-access.md)
     + [Configure list columns](administration/schemas-list-columns.md)
+    + [Add custom filters](administration/schemas-custom-filters.md)
     + [Edit custom fields](administration/schemas-custom-fields.md)
     + [Add collection lists](administration/schemas-collection-lists.md)
     + [Control actions on data](administration/schemas-action-data.md)

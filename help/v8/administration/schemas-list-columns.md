@@ -8,7 +8,8 @@ exl-id: 55513ecd-fc3f-4371-93b0-f2c9d01d4db4
 >[!CONTEXTUALHELP]
 >id="acw_schema_inventory_list_configuration"
 >title="Inventory list configuration"
->abstract="Configure which columns are displayed by default in list views. Each column shows its label and the corresponding attribute."
+>abstract="Configure which columns are displayed by default in list views. Each column shows its label and the corresponding attribute. Add custom filters to display quick-access filter fields in the filters pane of the list view."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas/schemas-custom-filters.html" text="Add custom filters"
 
 The **[!UICONTROL Inventory list configuration]** section allows you to configure which columns are displayed by default in list views. Each column shows its label and the corresponding attribute. 
 
@@ -31,3 +32,7 @@ To add new columns to the default list:
 1. Browse to the **Profiles** menu to access the profiles list view. You notice that the new tabs are displayed. You can add more columns if needed.
 
    ![List columns configuration](assets/schemas-list-columns3.png)
+
+>[!NOTE]
+>
+>You can also add quick-access filter fields in the filters pane of the list view. For more information, refer to [Add custom filters](schemas-custom-filters.md).

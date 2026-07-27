@@ -54,6 +54,7 @@ To access the screen definition:
 From the screen definition, you can:
 
 * [Configure default list columns](schemas-list-columns.md) - Configure which columns are displayed by default in list views.
+* [Add custom filters](schemas-custom-filters.md) - Add quick-access filter fields in the filters pane of a list view.
 * [Edit custom fields](schemas-custom-fields.md) - Configure which custom fields are displayed in detail screens and organize them into sections.
 * [Add collection lists](schemas-collection-lists.md) - Add collection lists to show related data in profile screens.
 * [Control actions on data](schemas-action-data.md) - Restrict create, edit, and delete actions for custom schemas.
