@@ -5,7 +5,7 @@ exl-id: 2c3d4e5f-6a7b-4c8d-9e0f-1a2b3c4d5e6f
 ---
 # Add custom filters {#custom-filters}
 
-The **[!UICONTROL Inventory list configuration]** > **[!UICONTROL Custom filters]** section, lets you choose which attributes are displayed as quick-access fields in the [filters pane](../query/filter.md) of a schema's list view, above the **[!UICONTROL Advanced filters]** rule builder.
+The **[!UICONTROL Inventory list configuration]** > **[!UICONTROL Custom filters]** section lets you choose which attributes are displayed as quick-access fields in the [filters pane](../query/filter.md) of a schema's list view, above the **[!UICONTROL Advanced filters]** rule builder.
 
 For more information on the screen definition screen and how to access it, refer to the [Access the screen definition](schemas-browse-access.md#screen-def) section.
 
