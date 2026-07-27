@@ -68,7 +68,7 @@ This section allows you to control how propositions generated through this space
 
 * **[!UICONTROL Status]** on acceptance — Status applied when the recipient interacts with the offer (typically **[!UICONTROL Accepted]**).
 
-The available status values match the list used by the Client Console.For more information, refer to [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html#offer-proposition-statuses){target="_blank"} in the console documentation.
+The available status values match the list used by the Client Console. For more information, refer to [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html#offer-proposition-statuses){target="_blank"} in the console documentation.
 
 <!--
 >[!NOTE]

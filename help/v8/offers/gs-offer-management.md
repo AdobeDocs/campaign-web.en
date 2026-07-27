@@ -12,7 +12,7 @@ topic_v2:
 ---
 # Get started with offer management {#gs-offer-management}
 
-This capability lets you add personalized offers to your deliveries and present the most relevant one for each profile in a given context. Offers can be simple communication message or promotions on one or several products. Based on eligibility rules and priority weights, the Offer engine selects the best proposition to present.
+This capability lets you add personalized offers to your deliveries and present the most relevant one for each profile in a given context. Offers can be a simple communication message or promotions on one or several products. Based on eligibility rules and priority weights, the Offer engine selects the best proposition to present.
 
 The Campaign Web user interface lets you manage offers end-to-end. You can create and configure offer environments, design offer spaces, build your offer catalog, set eligibility rules, edit offer content, and publish offers.
 

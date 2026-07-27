@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: Configure an offer environment
+title: Review offer environment settings
 description: Learn how to view, configure, and deploy an offer environment in Campaign Web
 feature: Offers
 product_v2:
@@ -140,7 +140,7 @@ and [Anonymous interactions](https://experienceleague.adobe.com/docs/campaign/ca
 * **[!UICONTROL Target mapping]** — Used to configure the **changeover process**, which lets the Offer engine switch between an identified and an anonymous environment depending on whether the contact can be identified during an inbound interaction. Leave this field empty when implicit identification is not used. Learn how to create and manage target mappings directly from the Web UI in [Manage target mappings](../administration/target-mappings.md). For the offer-specific changeover process configuration, refer to [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/anonymous-interactions.html){target="_blank"}.
 
 -->
-
+<!-->
 ## Eligibility {#eligibility}
 
   ![Screenshot showing the other Environment settings of an environment](assets/offers-env-5.png){zoomable="yes"}
@@ -162,5 +162,5 @@ These two sections are generic Campaign folder controls. They are not specific t
 * **[!UICONTROL System folder]** — When enabled, marks the folder as a system folder.
 
 * **[!UICONTROL Restrictions]** — Lets you turn the folder into a view by enabling **[!UICONTROL This folder is a view]** and clicking **[!UICONTROL Edit restrictions]** to define a filter on the records displayed in the folder.
-
+-->
 Next, [create an offer space](offer-space.md) to define where and how the offers are exposed.
