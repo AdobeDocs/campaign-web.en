@@ -34,7 +34,7 @@ To remove an activity, select it in the canvas and click the **Delete** icon in 
 
 ## The toolbar {#toolbar}
 
-The toolbar, located in the upper-right corner of the canvas, provides options to easily manipulate the activities and navigate in the canvas. Horizontal and vertical scroll bars are also displayed around the canvas, giving you another way to navigate large workflows by dragging directly to the area you want to view.
+The toolbar, located in the upper-right corner of the canvas, provides options to easily manipulate the activities and navigate in the canvas.
 
 * **Multiple selection mode**: Select multiple activities to delete them all at once or copy and paste them. See [this section](#copy).
 * **Add branch**: Click the **+** button in the toolbar to create a separate execution branch on the canvas. The result is equivalent to using a [Fork](activities/fork.md) for parallel paths, but the diagram is graphically clearer.
