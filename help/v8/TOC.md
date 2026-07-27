@@ -309,4 +309,5 @@ nudge: true
     + [CRM external account](administration/external-crm.md)
   + [Manage enumerations](administration/enumerations.md)
   + [Work with JavaScript codes](administration/javascript-codes.md)
+  + [Work with dynamic JavaScript pages](administration/dynamic-javascript-pages.md)
 + [Campaign v8 (console) documentation >](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)
