@@ -9,53 +9,102 @@ exl-id: 7afc802d-e90c-48c8-aa04-3ea543dfdfbc
 ---
 # Configure brands {#branding-configure}
 
+Technical administrators can create and manage multiple brands directly from the Web UI. This allows you to define all the elements that make up your brand identity, including logos and even email tracking settings.
+
+>[!NOTE]
+>
+>This capability requires the branding package on your instance. Contact your Adobe representative if you do not see the **Branding** menu.
+
+## Create or edit a brand {#create-edit-brand}
+
+>[!CONTEXTUALHELP]
+>id="acw_branding_create"
+>title="Create a brand"
+>abstract="Click **Create brand** to define a new brand identity. Fill in the brand details across the configuration tabs, then click **Create brand** to save. The brand becomes available to be linked to delivery templates and standalone deliveries."
+
+To create a new brand, follow these steps:
+
+1. Browse to **[!UICONTROL Administration > Branding]** from the left menu, or to **[!UICONTROL Administration > Platform > Branding]** from the **[!UICONTROL Explorer]**.
+
+1. Click the **[!UICONTROL Create brand]** button above the list.
+
+   ![Screenshot showing the brand creation](assets/branding-create.png)
+
+1. Fill in the brand details across the different sections. Each field is described in the [Brand attributes](#brand-attributes) section below.
+
+   ![Screenshot showing the brand creation fields](assets/branding-create2.png)
+
+1. Click **[!UICONTROL Create brand]** to save. The brand is now available to be linked to delivery templates and standalone deliveries. [Learn how to assign a brand](branding-assign.md).
+
+To edit an existing brand, select it from the list, update the fields, and save your changes.
+
+## Brand attributes {#brand-attributes}
+
+A **[!UICONTROL Brand]** is configured across four sections: **[!UICONTROL Identity]**, **[!UICONTROL Brand configs]**, **[!UICONTROL Email header parameters]**, and **[!UICONTROL URL tracking parameters]**.
+
+### Identity {#identity}
+
+The **[!UICONTROL Identity]** section allows you to define and personalize your brand.
+
+![Screenshot showing the Identity tab when creating a brand](assets/branding-create3.png)
+
+This section contains the following fields:
+
+* **[!UICONTROL Brand name]**: The name of your brand. This field is required.
+* **[!UICONTROL Label]**: The label visible in the interface.
+* **[!UICONTROL ID]**: The internal identifier automatically generated. You can change it. Only letters, digits, and underscores are allowed. Special characters are replaced with underscores.
+* **[!UICONTROL Logo URL]**: The URL of the brand logo image.
+* **[!UICONTROL Website URL]** and **[!UICONTROL Website label]**: The website URL and label associated with the brand.
+
+
+### Brand configs {#brand-configs}
+
+In the **[!UICONTROL Brand configs]** section, you define the subdomain and URL protocols used for tracking and landing page access. 
+
+![Screenshot showing the Brand configs tab](assets/branding-create4.png)
+
+This section contains the following fields:
+
+* **[!UICONTROL Brand subdomain]**: The subdomain URL specific to this brand, requested for delegation from Adobe.
+* **[!UICONTROL Tracking URL protocol]**, **[!UICONTROL Mirror page URL protocol]**, and **[!UICONTROL Application URL protocol]**: The protocol used for each URL type (for example, **Secure (https)**).
+
+>[!NOTE]
+>
+>Configuration for tracking, mirror, and application servers is stored in separate external accounts associated with routing. These settings are applied during provisioning and should not be modified. To display URLs, access the **[!UICONTROL Branding prefixes]** tab from your external account.
+
+### Email header parameters {#header-param}
+
+The **[!UICONTROL Email header parameters]** allow you to personalize what the recipients will see in the header section of your campaigns.
+
+![Screenshot showing the Header params tab with email header fields](assets/branding-create5.png)
+
+This section contains the following fields:
+
+* **[!UICONTROL Sender (email address)]**: The brand's email address.
+* **[!UICONTROL Sender (name)]**: The brand's name.
+* **[!UICONTROL Reply-to (email address)]**: The email address the customer can reply to.
+* **[!UICONTROL Reply-to (name)]**: The display name for replies.
+* **[!UICONTROL Error (email address)]**: The email address to use in case of an error.
+
+<!--
 >[!IMPORTANT]
 >
->Brands cannot be created or modified by end-users: these operations have to be performed by Adobe Campaign technical administrator. For any request, contact Adobe Customer care.
+>After having updated the header parameters of the emails, if the name and email address of the sender have not changed in the email created from the template, check the template's advanced settings.
+-->
 
-In Adobe Campaign V8, Brands can be found in the **[!UICONTROL Administration > Platform > Branding]** menu.
+### URL tracking parameters {#tracking-param}
 
-A **[!UICONTROL Brand]** is defined by the following characteristics:
+In the **[!UICONTROL URL tracking parameters]** section, you can enhance URL tracking by defining additional parameters for integration with Web analytics tools such as Adobe Analytics and Google Analytics.
 
-* An **[!UICONTROL Identity]**, which defines and personalizes your brand. This section contains the following fields:
+![Screenshot showing URL tracking parameters in the Header params tab](assets/branding-create6.png)
 
-    * **[!UICONTROL Label]** visible in the interface
-    * **[!UICONTROL ID]**
-    * **[!UICONTROL Brand name]**
-    * **[!UICONTROL Website URL]** and **[!UICONTROL Website label]** of the brand
-    * **[!UICONTROL Brand logo]**
+This section contains the following fields:
 
-  ![](assets/branding_1.png)
+* **[!UICONTROL Additional URL parameters]**: Add parameters as key-value pairs along with their applicability conditions. Each parameter name must be unique and non-empty, and each parameter value must be non-empty. The applicability condition can be empty, but none of these values can include JST tags.
 
-* **[!UICONTROL Header parameters of sent emails]** which personalizes what the recipients of your campaigns will see. This section contains the following fields:
+* **[!UICONTROL Domain name allow-list]**: Add domain names or regular expressions to match URLs where tracking parameters will be appended.
 
-    * **[!UICONTROL Sender (email address)]** with the brand's email address.
-    * **[!UICONTROL Sender (name)]** with the brand's name.
-    * **[!UICONTROL Reply to (email address)]** with the email address the customer can reply to.
-    * **[!UICONTROL Reply to (name)]** with the brand's name.
-    * **[!UICONTROL Error (email address)]** with the email address to use in case of an error.
-
-  >[!IMPORTANT]
-  >
-  >After having updated the header parameters of the emails, if the name and email address of the sender have not changed in the email created from the template, check the template's advanced settings.
-
-  ![](assets/branding_2.png)
-
-* **[!UICONTROL Brand configs]** defines the servers used for tracking also for landing page access. This section contains the following fields:
-
-    * **[!UICONTROL Brand subdomain]** refers to the designated subdomain URL specific to this brand, requested for delegation from Adobe.
-
-  Note that configuration for tracking, mirror, and application servers is stored in separate external accounts associated with routing. These settings are applied during provisioning and should not be modified. To display URLs, access the **[!UICONTROL Branding prefixes]** tab from your external account.
-
-  ![](assets/branding_3.png)
-
-* **[!UICONTROL Tracking URL configs]** menu enables you to enhance URL tracking by defining additional parameters for integration with Web analytics tools such as Adobe Analytics and Google Analytics. 
-
-  Use the **[!UICONTROL Additional URL Parameters]** menu to create additional parameters as key-value pairs along with their applicability conditions. Each parameter name must be unique and non-empty, and each parameter value must be non-empty. The applicability condition can be empty, but none of these values can include JST tags.
-
-  These parameters will be applied to tracked URLs that match any domain name specified in the **[!UICONTROL List of Domain Names]**, which can include regular expressions.
-
-  **Example:** A tracked URL like `https://www.example.com` will become `https://www.example.com/?age=21&deliveryName=DM101` when the additional parameters `age=21` and `deliveryName=DM101` are configured for that domain.
+**Example:** A tracked URL like `https://www.luma.com` will become `https://www.luma.com/?age=21&deliveryName=DM101` when the additional parameters `age=21` and `deliveryName=DM101` are configured for that domain.
 
 ## Configure branding for transactional messaging {#branding-transactional-config}
 
