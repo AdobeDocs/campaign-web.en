@@ -5,11 +5,6 @@ exl-id: deafd171-0a3f-4ba2-8fa4-09661d8cdb3e
 ---
 # Access and configure schemas {#access}
 
->[!CONTEXTUALHELP]
->id="acw_schema_action_data"
->title="Actions on data"
->abstract="Configure actions available for the schema's detail and list screens. Enable **[!UICONTROL Read-only]** to set the detail screen as read-only and remove actions from the list. Enable **[!UICONTROL Do not allow deletion]** to remove the delete action from the detail and list screens."
-
 Schemas are accessible from the **[!UICONTROL Administration]** > **[!UICONTROL Schemas]** menu.
 
 ![Schemas list screen showing available schemas and filters](assets/schemas-list.png)
@@ -59,5 +54,7 @@ To access the screen definition:
 From the screen definition, you can:
 
 * [Configure default list columns](schemas-list-columns.md) - Configure which columns are displayed by default in list views.
+* [Add custom filters](schemas-custom-filters.md) - Add quick-access filter fields in the filters pane of a list view.
 * [Edit custom fields](schemas-custom-fields.md) - Configure which custom fields are displayed in detail screens and organize them into sections.
 * [Add collection lists](schemas-collection-lists.md) - Add collection lists to show related data in profile screens.
+* [Control actions on data](schemas-action-data.md) - Restrict create, edit, and delete actions for custom schemas.

@@ -112,7 +112,7 @@ Use the **[!UICONTROL Text]** component to insert text into your email, and adju
     * **[!UICONTROL Create list]**: add bullet or number lists to your text.
     * **[!UICONTROL Set heading]**: add up to six heading levels to your text.
     * **Font size**: select the font size of your text in pixels.
-    * **[!UICONTROL Edit image]**: add an image or an asset to your text component.
+    * **[!UICONTROL Edit image]**: add an image to your text component from your Adobe Experience Manager Assets library, from your computer, or reuse an image available on your Adobe Campaign instance. [Learn more](#image)
     * **[!UICONTROL Show the source code]**: display the source code of your text. It cannot be modified.
     * **[!UICONTROL Duplicate]**: add a copy of your text component.
     * **[!UICONTROL Delete]**: delete the selected text component from your email.
@@ -149,27 +149,53 @@ Use the **[!UICONTROL HTML]** component to copy and paste parts of your existing
 
 ## Image {#image}
 
->[!IMPORTANT]
->
->Access to the Assets menu is limited to users with an active Adobe Experience Manager as a Cloud Service license. If you do not hold this license, the Assets menu will be unavailable.
-
-Use the **[!UICONTROL Image]** component to insert an image file from your computer into your email.
+Use the **[!UICONTROL Image]** component to insert an image into your email.
 
 1. From the **[!UICONTROL Content]** menu, drag and drop **[!UICONTROL Image]** into a **[!UICONTROL Structure]** component.
 
     ![Screenshot showing how to drag and drop an image component in the Email Designer.](assets/email_designer_9.png){zoomable="yes"}
 
-1. Click **[!UICONTROL Browse]** to choose an image file from your assets. You can also choose to **[!UICONTROL Import your media]**.
+1. Choose one of the following options to add your image:
+
+    ![Screenshot showing the options for image components in the Email Designer.](assets/email_designer_28.png){zoomable="yes"}
+
+    +++**[!UICONTROL Browse]**
+
+    Choose this option to select an image from your Adobe Experience Manager Assets library.
+
+    >[!IMPORTANT]
+    >
+    >This option requires an active Adobe Experience Manager as a Cloud Service license.
+
+    Navigate through your folders to locate the specific asset you need, or use the search bar to find it efficiently. Once you've found the asset, click **[!UICONTROL Select]**.
+
+    ![Screenshot showing the asset selection process in the Email Designer.](assets/email_designer_29.png){zoomable="yes"}
 
     To learn more about uploading and adding assets in Adobe Experience Manager, refer to [Adobe Experience Manager as a Cloud Service documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html).
 
-    ![Screenshot showing the browse option for image components in the Email Designer.](assets/email_designer_28.png){zoomable="yes"}
+    +++
 
-1. Navigate through your folders to locate the specific asset you need, or use the search bar to find it efficiently.
+    +++**[!UICONTROL Import]**
 
-    Once you've found the asset you're looking for, click **[!UICONTROL Select]**.
+    Select this option to upload a new image from your computer. The file is uploaded as a public resource on your Adobe Campaign instance.
 
-    ![Screenshot showing the asset selection process in the Email Designer.](assets/email_designer_29.png){zoomable="yes"}
+    +++
+
+    +++**[!UICONTROL Import public resource]**
+
+    Choose this option to select an image already available on your Adobe Campaign instance, such as a file previously imported in the Email Designer or as a public resource from the Client Console.
+
+    ![Screenshot showing the public resource selection process in the Email Designer.](assets/email_designer_30.png){zoomable="yes"}
+
+    Search for the resource by name. You can also use filters and reorganize columns.
+
+    >[!NOTE]
+    >
+    >The security constraints are the same as in the Client Console: you can only select resources you have access to, based on your user rights.
+
+    Select the resource, then click **[!UICONTROL Confirm]**.
+
+    +++
 
 1. Click your newly added component and set up your image properties using the **[!UICONTROL Settings]** tab:
 
