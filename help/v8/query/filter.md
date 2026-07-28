@@ -30,6 +30,10 @@ The filters pane opens, displaying available filters for the selected list. For 
 
 To filter a list based on your own criteria, create a custom filter. To do this, browse to the bottom of the filters pane and click the **Add rules** button. [Learn how to create custom filters](#custom).
 
+>[!NOTE]
+>
+>For custom schemas, administrators can add their own quick-access fields to the filters pane, above the **Add rules** button. For more information, refer to [Add custom filters](../administration/schemas-custom-filters.md).
+
 Once applied to a list, filters are visible below the search bar. You can remove an individual filter at any time, or remove all filters by clicking the **Clear all** button.
 
 ## Create custom filters {#custom}

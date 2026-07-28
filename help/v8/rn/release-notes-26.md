@@ -7,6 +7,27 @@ exl-id: 40735c57-94ae-4646-8c3d-68197569fbd4
 
 This page lists all changes and improvements available with **2026 releases**. Latest release notes are available in [this page](release-notes.md). 
 
+## June '26 release {#26-6-release}
+
+_June 16, 2026_
+
+### Improvements {#26-6-improvements}
+
+<!--
+* Technical administrators can now create and configure brands directly from the Campaign Web User Interface, without using the Client Console. All brand settings, including identity, subdmain and protocols, email header parameters and URL tracking parameters, are now available in the Web UI. <!-- [Learn more](../administration/branding/branding-configure.md)
+-->
+
+* You can now export data from any list screen including tracking logs. Find your list and simply click the export button. The export includes the rows currently loaded and takes into account the columns displayed on screen and any active search or filters. [Learn more](../get-started/list-filters.md)
+
+* The **Deduplication** and **End** workflow activities now support multiple inbound transitions. When more than one inbound transition is available, use the **Sets to join** section in the activity 
+properties to select which transitions to connect. Learn more in these pages: [Deduplication](../workflows/activities/deduplication.md), [End](../workflows/activities/end.md)
+
+* Advanced parameters are now exposed in the **Enrichment data** section of the **Build audience** (query type) and **Enrichment** workflow activities. These parameters let you fine-tune how enrichment data is built, including grouping, deduplication, primary-key handling, and inbound event data. [Learn more](../workflows/activities/enrichment.md)
+
+<!--
+* Delivery templates now allow you to define a time zone in the Schedule settings.
+-->
+
 ## April '26 release {#26-4-release} 
 
 _April 29, 2026_
