@@ -140,7 +140,7 @@ and [Anonymous interactions](https://experienceleague.adobe.com/docs/campaign/ca
 * **[!UICONTROL Target mapping]** — Used to configure the **changeover process**, which lets the Offer engine switch between an identified and an anonymous environment depending on whether the contact can be identified during an inbound interaction. Leave this field empty when implicit identification is not used. Learn how to create and manage target mappings directly from the Web UI in [Manage target mappings](../administration/target-mappings.md). For the offer-specific changeover process configuration, refer to [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/anonymous-interactions.html){target="_blank"}.
 
 -->
-<!-->
+<!--
 ## Eligibility {#eligibility}
 
   ![Screenshot showing the other Environment settings of an environment](assets/offers-env-5.png){zoomable="yes"}
