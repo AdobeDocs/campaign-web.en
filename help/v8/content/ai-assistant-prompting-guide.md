@@ -1,5 +1,5 @@
 ---
-title: AI Assistant content prompting guide
+title: Generate Content prompting guide
 description: Learn how to craft effective prompts for AI-powered content generation using the CO-STAR framework to create high-converting, brand-aligned marketing content.
 role: User
 level: Intermediate
@@ -29,14 +29,14 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
 ---
-# AI Assistant prompt best practices {#ai-assistant-prompting-guide}
+# Generate Content prompt best practices {#ai-assistant-prompting-guide}
 
 This guide helps you structure your requests, communicate intent with clarity, and ensure the AI produces messaging that aligns with your brand guidelines, audience needs, and campaigns goals.
-Learn how to write effective prompts that enable AI Assistant to generate high-quality, on-brand marketing content tailored to your objectives. 
+Learn how to write effective prompts that enable AI to generate high-quality, on-brand marketing content tailored to your objectives. 
 
 ## Use the CO-STAR framework {#costar-framework}
 
-For best results with AI Assistant, organize your prompts using the CO-STAR framework. This structured approach ensures AI understands exactly what you need.
+For best results with Generate Content, organize your prompts using the CO-STAR framework. This structured approach ensures AI understands exactly what you need.
 
 | Component | What it means | Why it matters |
 |-|-|-|

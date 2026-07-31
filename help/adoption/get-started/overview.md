@@ -122,19 +122,19 @@ As a Campaign Standard user transitioning to Adobe Campaign v8, the following fe
 
   Adobe Experience Manager as a Cloud Service offers cloud-native agility, allowing you to accelerate your time to value and adapt to evolving business needs. This integration not only enhances your content management capabilities but also enables you to delivery more personalized and engaging experiences to your customers across all touchpoints.
 
-* **AI Assistant**
+* **Generate Content**
 
-  Campaign AI Assistant makes the creation and execution of marketing campaigns across channels like Email, SMS and Push intuitive, simple and hassle-free while saving time, improving efficiency, and driving better results.
+  Campaign Generate Content makes the creation and execution of marketing campaigns across channels like Email, SMS and Push intuitive, simple and hassle-free while saving time, improving efficiency, and driving better results.
 
   ![](../../v8/email/assets/full-email-1.png){zoomable="yes"}
 
-  AI Assistant revolutionizes the way you create professional and brand-consistent content across channels. With advanced GenAI models and deep understanding of your brand guidelines, AI Assistant auto-generates personalized, engaging, and effective content based on the marketing objective with content optimized for brand outlined styles, layouts, tone, and more.
+  Generate Content revolutionizes the way you create professional and brand-consistent content across channels. With advanced GenAI models and deep understanding of your brand guidelines, Generate Content auto-generates personalized, engaging, and effective content based on the marketing objective with content optimized for brand outlined styles, layouts, tone, and more.
 
-  AI Assistant makes the creation and execution of marketing campaigns intuitive, simple and hassle-free while saving time, improving efficiency, and driving better results.
+  Generate Content makes the creation and execution of marketing campaigns intuitive, simple and hassle-free while saving time, improving efficiency, and driving better results.
 
   ![](../../v8/email/assets/full-email-2.png){zoomable="yes"}
 
-  It provides variant of email templates and generates and re-generates images. Learn more about AI Assistant in [this section](../../v8/content/generative-full-content.md). Adobe Campaign v8 has AI assistant available for [Email](../../v8/content/generative-full-content.md), [SMS](../../v8/content/generative-text.md), and [Push](../../v8/content/generative-full-content.md).
+  It provides variant of email templates and generates and re-generates images. Learn more about Generate Content in [this section](../../v8/content/generative-full-content.md). Adobe Campaign v8 has Generate Content available for [Email](../../v8/content/generative-full-content.md), [SMS](../../v8/content/generative-text.md), and [Push](../../v8/content/generative-full-content.md).
 
 * **Upgraded SMS infrastructure - SMS v2.0**
 

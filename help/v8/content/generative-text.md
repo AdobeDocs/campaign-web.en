@@ -1,7 +1,7 @@
 ---
 audience: end-user
 title: Generative content
-description: Learn how to generate text content experiences with AI Assistant
+description: Learn how to generate text content experiences using AI
 exl-id: da60d57e-d17f-40eb-9c24-0bfea940d236
 TQID: https://experienceleague.adobe.com/yV28iGW0nS-R6ZgQnfOrpfZlCzQu-1Ng1TH6aWD8QOg
 product_v2:
@@ -13,37 +13,37 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
 ---
-# Generate text with AI Assistant {#generative-text}
+# Generate text {#generative-text}
 
 >[!IMPORTANT]
 >
 >Before starting to use this capability, read the related [Guardrails and Limitations](generative-gs.md#generative-guardrails).
 ></br>
 >
->You must agree to a [user agreement](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} before using AI Assistant in Adobe Campaign Web. For more information, contact your Adobe representative.
+>You must agree to a [user agreement](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} before using AI to generate content in Adobe Campaign Web. For more information, contact your Adobe representative.
 
-Use AI Assistant in Adobe Campaign Web to generate engaging text that resonates with your audience. Whether you’re enhancing email copy, crafting persuasive landing page content, writing push notification messages, or composing SMS text, AI Assistant helps you deliver clear, impactful communication.
+Use AI in Adobe Campaign Web to generate engaging text that resonates with your audience. Whether you're enhancing email copy, crafting persuasive landing page content, writing push notification messages, or composing SMS text, AI helps you deliver clear, impactful communication.
 
 ## For Email and Landing Pages {#email-web-channels}
 
-AI Assistant can generate high-quality text content for your email deliveries and landing pages. This capability enables you to create compelling, on-brand messaging that connects with your audience across digital touchpoints.
+Use AI to generate high-quality text content for your email deliveries and landing pages. This capability enables you to create compelling, on-brand messaging that connects with your audience across digital touchpoints.
 
 ### Access and configure {#access-configure}
 
-Before you can start generating text content with AI Assistant, you will need to set up your delivery and access the content editor. Follow these steps to prepare your workspace and open the AI Assistant panel.
+Before you can start generating text content with AI, you will need to set up your delivery and access the content editor. Follow these steps to prepare your workspace and open the Generate Content panel.
 
 1. Create and configure your delivery:
 
    * **Email**: After creating and configuring your email delivery, click **[!UICONTROL Edit content]**. [Learn more](../email/create-email-content.md)
    * **Landing Page**: After creating and configuring your landing page, click **[!UICONTROL Edit content]**. [Learn more](../landing-pages/create-lp.md)
 
-1. Select a **[!UICONTROL Text component]** to target specific content, and access the **[!UICONTROL AI Assistant]** menu.
+1. Select a **[!UICONTROL Text component]** to target specific content, and access the **[!UICONTROL Generate Content]** menu.
 
     ![Screenshot showing text component selection in Adobe Campaign Web](assets/text-genai-1.png){zoomable="yes"}
 
-### Generate content {#generate-content}
+### Generate text {#generate-content}
 
-Learn how to craft clear prompts, fine-tune settings, and generate tailored text using AI Assistant, ensuring that your messaging aligns with your brand and communication goals.
+Learn how to craft clear prompts, fine-tune settings, and generate tailored text using AI, ensuring that your messaging aligns with your brand and communication goals.
 
 1. Select your **[!UICONTROL Brand]** to ensure AI-generated content aligns with your brand specifications. [Learn more](brands.md) on Brands.
 
@@ -57,12 +57,12 @@ Learn how to craft clear prompts, fine-tune settings, and generate tailored text
 
     * **[!UICONTROL Communication strategy]**: Choose the most suitable communication style for your generated text.
     * **[!UICONTROL Languages]**: Choose the language of your generated content.
-    * **[!UICONTROL Tone]**: Ensure the tone of your email resonates with your audience. Whether you want to sound informative, playful, or persuasive, AI Assistant adapts the message accordingly.
+    * **[!UICONTROL Tone]**: Ensure the tone of your email resonates with your audience. Whether you want to sound informative, playful, or persuasive, AI adapts the message accordingly.
     * **Text Length**: Use the slider to select the desired length of your text.
 
         ![Screenshot showing text settings options in Adobe Campaign Web](assets/text-genai-4.png){zoomable="yes"}
 
-1. From the **[!UICONTROL Reference content]** menu, click **[!UICONTROL Upload file]** to add any brand asset which contains content that can provide additional context AI Assistant or select a previously uploaded one.
+1. From the **[!UICONTROL Reference content]** menu, click **[!UICONTROL Upload file]** to add any brand asset which contains content that can provide additional context AI or select a previously uploaded one.
 
     Previously uploaded files are available in the **[!UICONTROL Uploaded reference content]** drop-down. Simply toggle the assets you wish to include in your generation.
 
@@ -107,11 +107,11 @@ Learn how to review the generated text, make refinements, and apply personalizat
 
 ## For Mobile Channels {#mobile-channels}
 
-AI Assistant can generate compelling text content for your push notifications and SMS messages, helping you create engaging mobile communications that connect with your audience across all mobile touchpoints.
+Use AI to generate compelling text content for your push notifications and SMS messages, helping you create engaging mobile communications that connect with your audience across all mobile touchpoints.
 
 ### Access and configure {#mobile-access-configure}
 
-Before you begin generating text with AI Assistant for mobile channels, you must set up your delivery and access the AI Assistant. 
+Before you begin generating text with AI for mobile channels, you must set up your delivery and access Generate Content. 
 
 1. Create and configure your mobile delivery:
    * **Push notifications**: After creating and configuring your push notification delivery, click **[!UICONTROL Edit content]**. [Learn more](../push/create-push.md)
@@ -121,13 +121,13 @@ Before you begin generating text with AI Assistant for mobile channels, you must
    * **Push notifications**: [Learn more](../push/content-push.md)
    * **SMS**: [Learn more](../sms/content-sms.md)
 
-1. Access the **[!UICONTROL Show AI Assistant]** menu.
+1. Access the **[!UICONTROL Show Generate Content]** menu.
 
-    ![Screenshot showing the Show AI Assistant menu](assets/sms-genai-1.png){zoomable="yes"}
+    ![Screenshot showing the Show Generate Content menu](assets/sms-genai-1.png){zoomable="yes"}
 
-### Generate content {#mobile-generate-content}
+### Generate text {#mobile-generate-content}
 
-Once you have accessed AI Assistant, you can configure the generation settings to create mobile content that matches your brand and delivery goals. Customize text parameters, add brand assets, and provide prompts to guide the AI in generating relevant variations.
+Once you have accessed Generate Content, you can configure the generation settings to create mobile content that matches your brand and delivery goals. Customize text parameters, add brand assets, and provide prompts to guide the AI in generating relevant variations.
 
 1. Select your **[!UICONTROL Brand]** to ensure AI-generated content aligns with your brand specifications. [Learn more](brands.md) on Brands.
 
@@ -135,7 +135,7 @@ Once you have accessed AI Assistant, you can configure the generation settings t
 
     If you are looking for assistance in crafting your prompt, access the **[!UICONTROL Prompt Library]** which provides a diverse range of prompt ideas to improve your delivery. [Learn more on prompt best practices](ai-assistant-prompting-guide.md)
     
-    ![AI Assistant with Prompt field and options](assets/sms-genai-2.png){zoomable="yes"}
+    ![Generate Content with Prompt field and options](assets/sms-genai-2.png){zoomable="yes"}
 
 1. **For Push notifications**, choose the text field you want to generate: **[!UICONTROL Title]**, **[!UICONTROL Subtitle]** and/or **[!UICONTROL Message]**.
 
@@ -143,12 +143,12 @@ Once you have accessed AI Assistant, you can configure the generation settings t
 
     * **[!UICONTROL Communication strategy]**: Choose the most suitable communication style for your generated text.
     * **[!UICONTROL Languages]**: Choose the language of your generated content.
-    * **[!UICONTROL Tone]**: The tone should resonate with your audience. Whether you want to sound informative, playful, or persuasive, AI Assistant can adapt the message accordingly.
+    * **[!UICONTROL Tone]**: The tone should resonate with your audience. Whether you want to sound informative, playful, or persuasive, AI can adapt the message accordingly.
     * **[!UICONTROL Length]**: Select the length of your content using the range slider. 
 
         ![Text settings panel](assets/sms-genai-3.png){zoomable="yes"}
 
-1. From the **[!UICONTROL Reference content]** menu, click **[!UICONTROL Upload file]** to add any brand asset which contains content that can provide additional context AI Assistant or select a previously uploaded one.
+1. From the **[!UICONTROL Reference content]** menu, click **[!UICONTROL Upload file]** to add any brand asset which contains content that can provide additional context AI or select a previously uploaded one.
 
     Previously uploaded files are available in the **[!UICONTROL Uploaded reference content]** drop-down. Simply toggle the assets you wish to include in your generation.
 
@@ -174,7 +174,7 @@ After generating text variations for your mobile messages, you can fine-tune the
 
     * **[!UICONTROL Rephrase]**: Rewrite the message while preserving its meaning. This option helps you generate alternative wording, improve flow, or adjust phrasing without changing the core message.
 
-    * **[!UICONTROL Use simpler language]**: Leverage AI Assistant to simplify your language, ensuring clarity and accessibility for a wider audience.
+    * **[!UICONTROL Use simpler language]**: Use AI to edit/refine your language, ensuring clarity and accessibility for a wider audience.
 
     * **[!UICONTROL Translate]**: Simplify your language to ensure clarity and accessibility for a wider audience.
 

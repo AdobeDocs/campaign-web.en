@@ -22,5 +22,5 @@ This page lists all the documentation updates for Adobe Campaign Web.
 
 **Date: December 1, 2025**
 
-* Reorganized AI Assistant documentation guide with consolidated pages for [full-content generation](../content/generative-full-content.md), [text generation](../content/generative-text.md), and [image generation](../content/generative-image.md)
-* Added [AI Assistant prompt best practices guide](../content/ai-assistant-prompting-guide.md) to help users craft effective prompts
+* Reorganized Generate Content documentation guide with consolidated pages for [full-content generation](../content/generative-full-content.md), [text generation](../content/generative-text.md), and [image generation](../content/generative-image.md)
+* Added [Generate Content prompt best practices guide](../content/ai-assistant-prompting-guide.md) to help users craft effective prompts

@@ -1,7 +1,7 @@
 ---
 audience: end-user
-title: Get started with AI Assistant
-description: Get Started with AI Assistant
+title: Get started with Generate Content
+description: Get Started with Generate Content
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 TQID: https://experienceleague.adobe.com/jpw4u-Vy7M2Q9qRyQ2J3rJ-Mr8UKLUpxhw39tglbbNc
 product_v2:
@@ -11,16 +11,16 @@ feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
 ---
-# Work with AI Assistant {#generative-gs}
+# Work with Generate Content {#generative-gs}
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
->title="AI Assistant"
->abstract="After crafting and personalizing your delivery, use AI Assistant to enhance your content. This feature simplifies personalization and content improvement by allowing you to fine-tune the content by describing what you want to generate."
+>title="Generate Content"
+>abstract="After crafting and personalizing your delivery, use AI to enhance your content. This feature simplifies personalization and content improvement by allowing you to fine-tune the content by describing what you want to generate."
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_context"
->title="Define context with AI Assistant in Campaign"
+>title="Define context with Generate Content in Campaign"
 >abstract="To use the selected content as input for content generation, activate the **Enhance with current content** toggle. You can also upload your brand assets to use them as a source. If you do not use the selected content, uploading and selecting brand assets are mandatory."
 
 >[!CONTEXTUALHELP]
@@ -33,9 +33,9 @@ feature_v2:
 >
 >Immerse yourself in a hands-on experience with [our live feature preview](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator), designed to let you explore its features firsthand and fully understand its capabilities.
 
-As the marketing industry becomes more competitive, brands seek efficient ways to generate impactful content quickly. AI Assistant in Adobe Campaign Web, powered by Microsoft Azure OpenAI and Adobe Firefly, is Adobe's AI content generation capability that transforms how marketers create professional and brand-consistent content across channels like email, SMS, and push notifications. With advanced GenAI models and a deep understanding of brand guidelines, AI Assistant auto-generates personalized, engaging, and effective content based on the marketing objective, optimizing content for brand-outlined styles, layouts, tone, and more.
+As the marketing industry becomes more competitive, brands seek efficient ways to generate impactful content quickly. Generate Content in Adobe Campaign Web, powered by Microsoft Azure OpenAI and Adobe Firefly, is Adobe's AI content generation capability that transforms how marketers create professional and brand-consistent content across channels like email, SMS, and push notifications. With advanced GenAI models and a deep understanding of brand guidelines, Generate Content auto-generates personalized, engaging, and effective content based on the marketing objective, optimizing content for brand-outlined styles, layouts, tone, and more.
 
-AI Assistant supports generation **in multiple languages** enabling you to reach and engage diverse global audiences. AI Assistant is available in the following languages:
+Generate Content supports generation **in multiple languages** enabling you to reach and engage diverse global audiences. Generate Content is available in the following languages:
 
 <table style="table-layout:fixed; margin-top: 0px; margin-bottom: 0px;">
   <tbody>
@@ -68,17 +68,17 @@ AI Assistant supports generation **in multiple languages** enabling you to reach
   </tbody>
 </table>
 
-AI Assistant simplifies the creation and execution of marketing campaigns across channels like email, SMS, and push notifications, saving time, improving efficiency, and driving better results.
+Generate Content simplifies the creation and execution of marketing campaigns across channels like email, SMS, and push notifications, saving time, improving efficiency, and driving better results.
 
 >[!IMPORTANT]
 >
 >* Before using this capability, review the related [Guardrails and Limitations](#generative-guardrails).
 >
->* You must agree to a [user agreement](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) before using AI Assistant in Adobe Campaign Web. For more information, contact your Adobe representative.
+>* You must agree to a [user agreement](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) before using AI to generate content in Adobe Campaign Web. For more information, contact your Adobe representative.
 
-## Access AI Assistant {#generative-access}
+## Access Generate Content {#generative-access}
 
-AI Assistant for emails, push notifications, landing page and SMS is now in General Availability (GA) and available to all users. Required permissions and steps to grant access to users are detailed below.
+Generate Content for emails, push notifications, landing page and SMS is now in General Availability (GA) and available to all users. Required permissions and steps to grant access to users are detailed below.
 
 +++ Learn how to assign Content Content generation-related permissions
 
@@ -88,7 +88,7 @@ AI Assistant for emails, push notifications, landing page and SMS is now in Gene
 
     `Campaign - <instance-name> - AIAssistant`
 
-1. Set up the product profile with the required permissions for AI Assistant access.
+1. Set up the product profile with the required permissions for Generate Content access.
 
 1. **Add Users or User Groups**. Choose one of the following options:
     * **Add individual users**: Add the required users directly to the product profile.
@@ -100,49 +100,49 @@ Learn how to define permissions in Campaign in [this section](../get-started/per
 
 ## Guardrails and limitations {#generative-guardrails}
 
-General guidelines for using AI Assistant in Adobe Campaign Web for email generation are listed below:
+General guidelines for using AI to generate content in Adobe Campaign Web for email generation are listed below:
 
 * The quality of the generated content depends heavily on the marketing objective or prompt you define. Use a well-defined prompt for the GenAI model to interpret accurately.  
 * Upload brand assets to ensure accurate, on-brand content. Otherwise, content is based on publicly available information. The uploaded content can be in the following formats: PDF, JPEG, PNG, or ZIP files (with supported file formats).  
 * The maximum size for uploaded brand assets is 50MB. Larger files or numerous images may increase processing time.  
-* Use [built-in email templates](../content/create-email-templates.md), brand-specific templates, or custom templates to create your email content using AI Assistant. Email templates with up to 8–10 images are recommended.  
+* Use [built-in email templates](../content/create-email-templates.md), brand-specific templates, or custom templates to create your email content using AI. Email templates with up to 8–10 images are recommended.  
 * Report any problematic outputs using the thumbs-up, thumbs-down, or flag icons when selecting variants.  
-* Your use of AI Assistant is subject to the Adobe Experience Cloud Generative AI User Guidelines. [Learn more](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).  
+* Your use of Generate Content is subject to the Adobe Experience Cloud Generative AI User Guidelines. [Learn more](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).  
 * As part of Adobe's commitment to transparency in the use of generative AI tools in media creation, Adobe applies Content Credentials when content or a project that includes a Firefly-generated asset is downloaded or exported. [Learn more](https://helpx.adobe.com/firefly/using/content-credentials.html).  
 
-The following limitations apply to AI Assistant in Adobe Campaign Web:
+The following limitations apply to Generate Content in Adobe Campaign Web:
 
-* AI Assistant in Adobe Campaign Web is currently supported in English only. Non-English inputs may produce inconsistent or erroneous results. Issues arising from non-English responses will not be addressed or improved at this time.  
+* Generate Content in Adobe Campaign Web is currently supported in English only. Non-English inputs may produce inconsistent or erroneous results. Issues arising from non-English responses will not be addressed or improved at this time.  
 * Only available for the email, push, and SMS channels.  
 * GenAI content might not always be accurate. Share your feedback so engineers can refine the models.  
 * You may upload multiple brand assets but can leverage only one for a specific generation.  
 
-## AI Assistant content generation capabilities {#generative-features}
+## Generate Content capabilities {#generative-features}
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="generative-full-content.md">
-<img alt="[Full content generation with AI Assistant]" src="assets/do-not-localize/text-genai.jpeg">
+<img alt="[Full content generation with Generate Content]" src="assets/do-not-localize/text-genai.jpeg">
 </a>
 <div>
-<a href="generative-full-content.md"><strong>Full content generation with AI Assistant</strong></a>
+<a href="generative-full-content.md"><strong>Full content generation with Generate Content</strong></a>
 </div>
 <p>
 </td>
 <td>
 <a href="generative-text.md">
-<img alt="[Text content generation with AI Assistant]" src="assets/do-not-localize/image-genai.jpeg">
+<img alt="[Text content generation with Generate Content]" src="assets/do-not-localize/image-genai.jpeg">
 </a>
-<div><a href="generative-text.md"><strong>Text generation with AI Assistant</strong>
+<div><a href="generative-text.md"><strong>Text generation with Generate Content</strong>
 </div>
 <p>
 </td>
 <td>
 <a href="generative-image.md">
-<img alt="[Image generation  with AI Assistant]" src="assets/do-not-localize/email-genai.jpeg">
+<img alt="[Image generation  with Generate Content]" src="assets/do-not-localize/email-genai.jpeg">
 </a>
 <div>
-<a href="generative-image.md"><strong>Image generation with AI Assistant</strong></a>
+<a href="generative-image.md"><strong>Image generation with Generate Content</strong></a>
 </div>
 <p></td>
 </tr></table>
