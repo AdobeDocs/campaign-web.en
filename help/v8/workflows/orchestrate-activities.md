@@ -10,7 +10,7 @@ product_v2:
 ---
 # Orchestrate activities {#orchestrate}
 
-Once you have [created a workflow](create-workflow.md), whether from the workflow menu or within a campaign, you can start orchestrating the different tasks it performs. To do this, a visual canvas is provided, allowing you to construct a workflow diagram. Within this diagram, you can add various activities and connect them in a sequential order.
+Once you have [created a workflow](create-workflow.md), whether from the workflow menu or within a campaign, you can start orchestrating the different tasks it performs. To do this, a visual canvas is provided, allowing you to construct a workflow diagram. Within this diagram, you can add various activities and connect them in a sequential order. Horizontal and vertical scroll bars are displayed around the canvas, letting you navigate large workflows by dragging directly to the area you want to view.
 
 ## Add activities {#add}
 
@@ -26,7 +26,7 @@ Once an activity is added to the diagram, a right pane appears, allowing you to 
 
 Repeat this process to add as many activities as needed, depending on the tasks your workflow performs. You can also insert a new activity between two activities. To do this, click the **+** button on the transition between the activities, select the desired activity, and configure it in the right pane.
 
-To remove an activity, select it in the canvas and click the **Delete** icon in the activity properties.
+To remove an activity, select it in the canvas and click the **Delete** icon in the activity properties. See [Delete and disconnect activities](#delete) for the available options.
 
 >[!TIP]
 >
@@ -34,7 +34,7 @@ To remove an activity, select it in the canvas and click the **Delete** icon in 
 
 ## The toolbar {#toolbar}
 
-The toolbar, located in the upper-right corner of the canvas, provides options to easily manipulate the activities and navigate in the canvas:
+The toolbar, located in the upper-right corner of the canvas, provides options to easily manipulate the activities and navigate in the canvas.
 
 * **Multiple selection mode**: Select multiple activities to delete them all at once or copy and paste them. See [this section](#copy).
 * **Add branch**: Click the **+** button in the toolbar to create a separate execution branch on the canvas. The result is equivalent to using a [Fork](activities/fork.md) for parallel paths, but the diagram is graphically clearer.
@@ -53,7 +53,7 @@ When adding activities, action buttons are available in the properties pane, all
 
 You can:
 
-* **Delete** the activity from the canvas.
+* **Delete** the activity from the canvas. See [this section](#delete-activity).
 * **Disable/Enable** the activity. When the workflow executes, disabled activities and the following activities on the same path are not executed, and the workflow stops.
 * **Pause/Resume** the activity. When the workflow executes, it pauses at the paused activity. The corresponding task, as well as all those that follow it in the same path, are not executed.
 * **Copy** the activity. See [this section](#copy).
@@ -98,6 +98,58 @@ To move an activity:
 1. Select the transition where you want to place the activity and its outbound transition, then confirm.
 
 ![Move activity and child nodes](assets/activity-move.png) 
+
+## Delete and disconnect activities {#delete}
+
+### Delete an activity {#delete-activity}
+
+To delete an activity, select it in the canvas and click the **Delete** icon in the activity properties. A confirmation dialog appears.
+
+* If the activity is not connected to any other activity, confirm to delete it.
+
+   ![Delete activity simple](assets/workflow-delete.png) 
+
+* If the activity is connected to one or more subsequent activities, choose how to handle them:
+
+   ![Delete activity multiple](assets/workflow-delete2.png) 
+
+    * **Delete all subsequent activities**: Removes the activity and every activity that follows it on the same path.
+    * **Delete only this activity**: Removes only the selected activity and reconnects the remaining path. This option is only available when the activity has a single successor.
+    * **Delete and create a new branch**: Removes the selected activity but keeps its subsequent activities, moving them into a new, separate branch.
+
+Click **Delete** to confirm your choice, or **Cancel** to close the dialog without deleting anything.
+
+### Disconnect a transition {#disconnect-transition}
+
+You can disconnect two activities without deleting either of them. The activities placed after the disconnected transition are not deleted: they are moved into a new, separate branch of the workflow.
+
+This lets you reorganize a workflow diagram, for example to temporarily set aside a group of activities you want to keep, without having to delete and recreate them.
+
+You can do this on a single transition:
+
+1. Select the transition you want to disconnect.
+
+1. Click the **Disconnect** icon in the transition properties.
+
+   ![Disconnect icon in the transition properties pane](assets/workflow-transition.png) 
+
+   This icon is only available when the transition leads to a downstream activity. A confirmation dialog appears.
+
+1. Click **Disconnect** to confirm, or **Cancel** to close the dialog without disconnecting anything.
+
+   ![Disconnect transition confirmation dialog](assets/workflow-transition2.png) 
+
+If the source activity has multiple outbound transitions (for example, a **Split** activity with several result branches, or a **Fork** activity), you can remove any one of them individually from the activity's own properties pane:
+
+1. Select the activity, then locate the transition you want to remove in the **Segment** section.
+
+1. Click the trash icon next to that transition. A confirmation dialog appears.
+
+   ![Trash icon next to a segment result](assets/workflow-transition3.png) 
+
+1. Click **Remove** to confirm, or **Cancel** to close the dialog without removing anything.
+
+   ![Remove transition confirmation dialog](assets/workflow-transition4.png) 
 
 ## Execution options {#execution}
 

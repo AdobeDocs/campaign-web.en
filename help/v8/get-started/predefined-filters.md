@@ -81,7 +81,7 @@ Create a filter from the **Predefined filters** entry in the left menu. Follow t
 
 1. Define the rule for the filter. For example, profiles older than 30.
 
-    ![Filter rule for profiles older than 30](assets/filter-30+.png){zoomable="yes"}
+    ![Filter rule for profiles older than 30](assets/filter-30-plus.png){zoomable="yes"}
 
 1. Save your changes.
 
