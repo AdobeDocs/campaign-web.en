@@ -62,4 +62,4 @@ _August 18, 2026_
 * **Custom filters**: In the schema editor, custom filters now support filtering conditions on direct links, and you can override the default label of any attribute using the new **Custom filter settings**.
 * **Schema validation**: You can now validate the structure of a schema directly from the schema editor, using the new **Validate** button.
 * **Folder security**: The **Rename** option is now available for a folder when the user has the **Insert** or **Edit** access right.
-* **Enrichment activity**: You can now enrich data from an external database directly from the **Enrichment** workflow activity. This matches the capability already available in the Client Console.
+<!--* **Enrichment activity**: You can now enrich data from an external database directly from the **Enrichment** workflow activity. This matches the capability already available in the Client Console.-->
