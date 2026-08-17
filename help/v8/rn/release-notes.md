@@ -30,7 +30,7 @@ Adobe Campaign Web user interface releases operate on a continuous delivery mode
 
 >[!NOTE]
 >
->Detailed documentation for the features and improvements below is not yet available. It will be added progressively over the coming days.
+>Detailed documentation for the features and improvements below will be added progressively over the coming days.
 
 ## August '26 release {#26-8-release}
 
@@ -55,10 +55,10 @@ _August 18, 2026_
 
 ### Improvements {#26-8-improvements}
 
-* **Opens tracking**: You can now enable or disable open tracking directly from the Campaign Web User Interface. This is useful to comply with data protection regulations.
-* **Program list view (only msf???)**: Programs are now listed in a dedicated view, similar to campaigns, deliveries, and workflows. You can browse existing programs and create new ones directly from this view.
-* **Custom schema configuration**: In the **Action data** section, you can now disallow the **Duplicate** action on a custom schema's records. 
-* **Workflow and delivery templates (only msf???)**: When creating a new workflow or delivery, you must now explicitly select a template. A default template is no longer applied automatically.
+* **Opens tracking**: You can now enable or disable open tracking directly from the Campaign Web User Interface. This helps you comply with data protection regulations.
+* **Program list view**: Programs are now listed in a dedicated view, similar to campaigns, deliveries, and workflows. You can browse existing programs and create new ones directly from this view.
+* **Custom schema configuration**: In the **Action data** section, you can now disallow the **Duplicate** action on a custom schema's records.
+<!--* **Workflow and delivery templates (only msf???)**: When creating a new workflow or delivery, you must now explicitly select a template. A default template is no longer applied automatically.-->
 * **Custom filters**: In the schema editor, custom filters now support filtering conditions on direct links, and you can override the default label of any attribute using the new **Custom filter settings**.
 * **Schema validation**: You can now validate the structure of a schema directly from the schema editor, using the new **Validate** button.
 * **Folder security**: The **Rename** option is now available for a folder when the user has the **Insert** or **Edit** access right.
