@@ -135,6 +135,7 @@ nudge: true
     + [Text generation with AI](content/generative-text.md)
     + [Image generation with AI](content/generative-image.md)
     + [Generate Content use cases](content/generative-uc.md)
+    + [C2PA metadata in Email and Landing Page Designer](content/c2pa-metadata-email-designer.md)
     + Brands {#ai-assistant}
       + [Create & manage your brands](content/brands.md)
       + [Personalize your brand](content/brands-personalize.md)
