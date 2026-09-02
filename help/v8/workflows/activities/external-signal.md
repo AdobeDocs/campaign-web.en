@@ -84,4 +84,4 @@ Follow these steps to configure the **External signal** activity and trigger its
 
     +++
 
-    * To trigger an **[!UICONTROL External signal]** activity from an API call, follow the steps detailed in the Campaign API documentation. [Learn how to use the static `PostEvent` method](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html).
+    * To trigger an **[!UICONTROL External signal]** activity from an API call, follow the steps detailed in the Campaign API documentation. [Learn how to use the static `PostEvent` method](https://experienceleague.adobe.com/en/tools/campaign-api).
