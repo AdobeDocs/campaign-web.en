@@ -27,15 +27,17 @@ To configure action data, follow the steps below:
 
    ![Action data section in the screen definition](assets/schemas-action-data1.png)
 
-1. Select one or both of the available options:
+1. Select one or more of the available options:
 
    * **[!UICONTROL Read-only]**: The detail screen becomes read-only for all users. No create, duplicate, update, or delete action is available from the list, and the delete and duplicate actions are hidden from the detail screen. Selecting this option is similar to configuring a view: users can still open records and reuse them, for example when targeting a delivery, but cannot modify them.
 
    * **[!UICONTROL Do not allow deletion]**: The delete action is removed from the detail screen and from the list, in every folder. Other actions, such as create, duplicate, and update, remain available.
 
+   * **[!UICONTROL Do not allow duplicate]**: The duplicate action is removed from the detail screen and from the list, in every folder. Other actions, such as create, delete, and update, remain available.
+
       >[!NOTE]
       >
-      >Enabling **[!UICONTROL Read-only]** automatically covers deletion as well, so the **[!UICONTROL Do not allow deletion]** option is disabled while **[!UICONTROL Read-only]** is selected.
+      >Enabling **[!UICONTROL Read-only]** automatically covers deletion and duplication as well, so the **[!UICONTROL Do not allow deletion]** and **[!UICONTROL Do not allow duplicate]** options are disabled while **[!UICONTROL Read-only]** is selected.
 
 1. Click **[!UICONTROL Save]**.
 

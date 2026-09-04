@@ -37,7 +37,7 @@ To design the content of an SMS delivery, follow these steps:
 
     ![Screenshot showing the Message field with options to add dynamic content](assets/sms_content_2.png){zoomable="yes"}
 
-1. By default, tracking is enabled for deliveries. Disable this option from the **[!UICONTROL Optional features section]** if needed.
+1. By default, tracking is enabled for deliveries. Disable this option from the delivery's **[!UICONTROL Settings]** > **[!UICONTROL Tracking]** tab if needed. [Learn more](../advanced-settings/delivery-settings.md#tracking-tab)
 
 1. Click **[!UICONTROL Settings]** to access advanced options related to your delivery template. [Learn more](../advanced-settings/delivery-settings.md)
 

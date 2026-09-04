@@ -194,6 +194,7 @@ nudge: true
     + [Start and monitor your workflows](workflows/start-monitor-workflows.md)
   + Work with workflow activities {#design-workflows}
     + [About workflow activities](workflows/activities/about-activities.md)
+    + [Approval](workflows/activities/approval.md)
     + [Automated delivery](workflows/activities/automated-delivery.md)
     + [Build audience](workflows/activities/build-audience.md)
     + [Change data source](workflows/activities/change-data-source.md)

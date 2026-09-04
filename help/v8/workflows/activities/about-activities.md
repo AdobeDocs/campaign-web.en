@@ -73,6 +73,7 @@ Adobe Campaign Web allows you to automate and execute marketing campaigns across
 
 The following activities are specific to organizing and executing workflows. Their main task is to coordinate the other activities:
 
+* [Approval](approval.md): Assign a task to a group or an individual operator, and route the workflow based on their answer.
 * [External signal](external-signal.md): Trigger the execution of a workflow from another workflow or an API call.
 * [Fork](fork.md): Create outbound transitions to start several activities simultaneously.
 * [Join](join.md): Synchronize multiple execution branches of a workflow.

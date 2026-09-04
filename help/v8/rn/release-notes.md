@@ -28,10 +28,6 @@ topic_v2:
 
 Adobe Campaign Web user interface releases operate on a continuous delivery model which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
->[!NOTE]
->
->Detailed documentation for the features and improvements below will be added progressively over the coming days.
-
 ## August '26 release {#26-8-release}
 
 _August 18, 2026_
@@ -48,6 +44,7 @@ _August 18, 2026_
 <tr>
 <td>
 <p>The <strong>Approval</strong> workflow activity, previously only available in the Client Console, is now available in the Campaign Web User Interface. Assign the task to a group or an individual operator, customize the notification title and message, and define the possible answers (for example Yes/No) as output branches.</p>
+<p>For more information, refer to the <a href="../workflows/activities/approval.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -55,11 +52,12 @@ _August 18, 2026_
 
 ### Improvements {#26-8-improvements}
 
-* **Opens tracking**: You can now enable or disable open tracking directly from the Campaign Web User Interface. This helps you comply with data protection regulations.
-* **Program list view**: Programs are now listed in a dedicated view, similar to campaigns, deliveries, and workflows. You can browse existing programs and create new ones directly from this view.
-* **Custom schema configuration**: In the **Action data** section, you can now disallow the **Duplicate** action on a custom schema's records.
-<!--* **Workflow and delivery templates (only msf???)**: When creating a new workflow or delivery, you must now explicitly select a template. A default template is no longer applied automatically.-->
-* **Custom filters**: In the schema editor, custom filters now support filtering conditions on direct links, and you can override the default label of any attribute using the new **Custom filter settings**.
-* **Schema validation**: You can now validate the structure of a schema directly from the schema editor, using the new **Validate** button.
-* **Folder security**: The **Rename** option is now available for a folder when the user has the **Insert** or **Edit** access right.
+* **Opens tracking**: You can now enable or disable open tracking directly from the Campaign Web User Interface. This helps you comply with data protection regulations. [Read more](../advanced-settings/delivery-settings.md#tracking-tab)
+* **Program list view**: Programs are now listed in a dedicated view, similar to campaigns, deliveries, and workflows. You can browse existing programs and create new ones directly from this view. [Read more](../administration/plans-programs.md#create-program)
+* **Custom schema configuration**: In the **Action data** section, you can now disallow the **Duplicate** action on a custom schema's records. [Read more](../administration/schemas-action-data.md#action-data)
+* **Custom filters**: In the schema editor, you can now restrict the values available in the picker for a link-type custom filter, using the new **Link settings** dialog. [Read more](../administration/schemas-custom-filters.md#settings)
+* **Schema validation**: You can now validate the structure of a schema directly from the schema editor, using the new **Check** button. [Read more](../administration/schemas-create-publish.md#create-new)
+* **Folder security**: Actions available on a folder are now consistently governed by the operator's rights, matching the behavior of the Client Console. [Learn more](../get-started/work-with-folders.md#about-folders).
 <!--* **Enrichment activity**: You can now enrich data from an external database directly from the **Enrichment** workflow activity. This matches the capability already available in the Client Console.-->
+<!--* **Workflow and delivery templates (only msf???)**: When creating a new workflow or delivery, you must now explicitly select a template. A default template is no longer applied automatically.-->
+

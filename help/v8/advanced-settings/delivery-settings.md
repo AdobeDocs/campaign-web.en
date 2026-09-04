@@ -153,6 +153,19 @@ For emails, you can also change the **[!UICONTROL Mail formats]** of the message
 
 * **[!UICONTROL Send all messages in text format]**: The email is sent in text format. HTML format will not be sent, but used for the mirror page only when the recipient clicks the email.
 
+## Tracking {#tracking-tab}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_options"
+>title="Edit tracking"
+>abstract="By default, tracking is enabled for the delivery, meaning all links included in the message content are tracked. You can disable this option from here."
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/email-design/design-content/message-tracking" text="Add links and track messages"
+
+This tab is available when a tracking log schema is configured for the delivery, and the delivery mode is not external.
+
+* **[!UICONTROL Activate tracking]**: Enable or disable tracking for the delivery. When disabled, no click or open tracking data is collected.
+* **[!UICONTROL Opens tracking]** (email channel): Enable or disable tracking of message opens using the tracking pixel. This option is only available when **[!UICONTROL Activate tracking]** is enabled. This helps you comply with data protection regulations, such as CNIL or GDPR.
+
 ## Web Analytics {#web-analytics}
 
 >[!CONTEXTUALHELP]

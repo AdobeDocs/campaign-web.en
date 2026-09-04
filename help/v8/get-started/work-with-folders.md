@@ -44,6 +44,11 @@ You can set up a folder type. For example, a folder of deliveries. The folder ic
 >
 >The folders **[!UICONTROL Objects created automatically]** and **[!UICONTROL Technical workflows]** are restricted, and cannot be viewed on the left side panel. 
 
+The actions available to you on a folder depend on the rights you have been granted on it. The **[!UICONTROL Folder settings]** dialog may open in **read-only mode**, and some actions or sections may not be available, depending on your rights.
+
+Contact your administrator if you are missing rights on a folder. Refer to this [section](permissions.md#folder-permissions) to learn how folder permissions are managed.
+
+Named rights such as **[!UICONTROL Insert Folders]**, **[!UICONTROL Edit Folders]**, and **[!UICONTROL Delete Folder]** also determine which folder actions are available to an operator. Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html#use-named-rights){target="_blank"}.
 
 ## Create a new folder {#create-a-folder}
 

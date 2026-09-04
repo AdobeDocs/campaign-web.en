@@ -29,11 +29,15 @@ The schema is created and the generated schema structure is displayed.
 By default, the schema is empty. You now need to add the fields you want to include in your schema using the schema editor:
 
 1. Click the pencil icon in the **[!UICONTROL Content]** section of the schema details screen.
-2. Add the needed elements and save. Here is an example of a custom schema structure:
+1. Add the needed elements. Here is an example of a custom schema structure:
 
    ![Schema creation dialog](assets/schemas-create3.png)
 
-The system automatically validates the XML structure and generates the schema.
+1. Click the **[!UICONTROL Check]** button to verify the XML structure of your schema before saving. Identified errors are displayed at the bottom of the screen, for example "Invalid XML format".
+
+   ![Schema creation dialog errors](assets/schemas-create3bis.png)
+
+1. Fix any errors, then save your changes to generate the schema.
 
 ### Define the screen edition {#define-attributes}
 

@@ -56,35 +56,35 @@ Configure the custom options:
 
 ![Screenshot showing the configuration of custom fields for a plan](assets/plan_customfields.png){zoomable="yes"}
 
-## Create and configure a program
+## Create and configure a program {#create-program}
 
-To create a program in your plan ([Learn more about creating a plan](#create-plan)), navigate to your plan and create a folder with the folder type **[!UICONTROL Program]**. [Learn more about creating a folder](../get-started/work-with-folders.md).
+Programs are available from the left navigation menu, similar to the list views for campaigns, deliveries, and workflows. The **[!UICONTROL Programs]** entry lets you create a program within an existing program, not under a plan. 
 
-![Screenshot showing the creation of a program folder](assets/program_create.png){zoomable="yes"}
+To create your first, top-level program in a plan, navigate to your plan in the Explorer (see this [section](#create-plan)), and create a folder with the folder type **[!UICONTROL Program]**. [Learn more about creating a folder](../get-started/work-with-folders.md).
 
-Go to the **[!UICONTROL Folder settings]** of your program to manage it.
+To create a program within an existing program, follow the steps below:
 
-![Screenshot showing the folder settings for a program](assets/program_settings.png){zoomable="yes"}
+1. Browse to the **[!UICONTROL Programs]** entry in the left navigation menu. This view lists all your programs and lets you search and filter. Clicking a program opens it in the Explorer view.
 
-Define **[!UICONTROL Custom options]**, and set the scheduling date of your program.
+   ![Screenshot showing the program list view](assets/program_view.png){zoomable="yes"}
 
-![Screenshot showing the custom options for a program](assets/program_options.png){zoomable="yes"}
+1. Click **[!UICONTROL Create program]** and configure the following options:
 
-To manage the **[!UICONTROL Custom options]**:
+   ![Screenshot showing the Create program screen](assets/program_create.png){zoomable="yes"}
 
-1. Browse to the **[!UICONTROL Schemas]**.
-1. Choose the **[!UICONTROL Editable]** schemas in the filters.
-1. Click the schema.
+   * Enter a **[!UICONTROL Label]**.
+   * Select the existing program to use as the **[!UICONTROL Parent folder]**.
+   * Optionally, set a **[!UICONTROL Date range]** in the **[!UICONTROL Schedule]** section.
 
-![Screenshot showing the editing of custom details for a program](assets/program_edit.png){zoomable="yes"}
+   >[!TIP]
+   >
+   >If you create a program from the Explorer view, the parent folder is automatically set to the current program.
 
-1. Click the **[!UICONTROL Screen edition]** button.
+1. Click **[!UICONTROL Create program]** again to save changes and create the program. The program is then displayed in the Explorer view. You can rename it, delete it, and access its settings, like any other folder. You can also create sub-programs within this program.
 
-    ![](assets/program_edit2.png){zoomable="yes"}
+   ![Screenshot showing the program in the Explorer view](assets/program_explorer.png){zoomable="yes"}
 
-Configure the custom options:
-
-![Screenshot showing the configuration of custom fields for a program](assets/program_customfields.png){zoomable="yes"}
+Custom options for a program are configured the same way as for a plan. See [Create and configure a plan](#create-plan).
 
 ## How to link a campaign to a program
 

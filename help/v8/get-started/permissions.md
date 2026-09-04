@@ -49,6 +49,8 @@ If the **[!UICONTROL Propagate]** option is enabled, all permissions defined for
 
 If the **[!UICONTROL System folder]** option is selected, access is allowed to all operators, regardless of their permissions.
 
-You can also [manage the permissions on folders in Adobe Campaign console](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target="_blank"}.
+See this [section](work-with-folders.md#folder-access-rights) to learn how these rights affect the actions available to you on a folder.
+
+Named rights also determine which folder actions are available to an operator. Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html#use-named-rights){target="_blank"}.
 
 All permissions in the Campaign Web user interface synchronize with Campaign Client Console permissions.
