@@ -94,8 +94,6 @@ You have two ways to link a campaign to a program:
 
 To link a new campaign to your program, create the campaign directly within the program.
 
-![Screenshot showing the creation of a campaign within a program](assets/program_campaign_create.png){zoomable="yes"}
-
 The **[!UICONTROL Folder]** settings will automatically populate with the path to your program.
 
 ![Screenshot showing the folder settings for a campaign linked to a program](assets/program_campaign_folder.png){zoomable="yes"}

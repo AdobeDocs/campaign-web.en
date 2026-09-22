@@ -35,6 +35,8 @@ Enrichment data can come from either:
 * **Another work table**:
     * Target a group of customers and add the "Amount" and "Type of product" fields from the "Purchase" table.
 
+* **An external database**: add fields from a table stored in an external database. [Learn more](#external-data).
+
 Once the enrichment data is added to the workflow, it can be used in subsequent activities to segment customers into distinct groups based on their behaviors, preferences, and needs. It can also be used to create personalized marketing messages and campaigns that resonate with your target audience.
 
 For example, you can add information related to customers' purchases to the workflow table and use this data to personalize emails with their latest purchase or the amount spent on these purchases.
@@ -138,6 +140,42 @@ To create a link, follow these steps:
     * **Advanced join**: Create a join using advanced conditions. Click **Add join** and click the **Create condition** button to open the query modeler.
 
 A workflow example using links is available in the [Examples](#link-example) section.
+
+## Enrich with external database data {#external-data}
+
+The **Enrichment** and **Build audience** (query type) activities let you add fields from a table stored in an external database, using a **[!UICONTROL Federated Data Access (FDA)]** external account. [Learn how to configure an external account](../../administration/create-external-account.md).
+
+>[!NOTE]
+>
+>Only a simple join is available to reconcile external database fields. Advanced join conditions are not supported for this type of enrichment.
+
+To add external database fields, follow these steps:
+
+1. In the activity pane's **[!UICONTROL Enrichment data]** section, click **[!UICONTROL Add external database field]**.
+1. Select the FDA external account to use, then browse or enter the name of the table you want to use.
+1. Select the columns you need and click **Add**.
+
+    ![Screenshot showing the external database button](../assets/workflow-enrichment8.png)
+
+1. In the **[!UICONTROL Reconciliation criteria]** section, define the **[!UICONTROL Source]** attribute and the **[!UICONTROL Destination]** external column to reconcile data. You can add several joins by clicking **[!UICONTROL Add join]**.
+
+1. In the **[!UICONTROL Data collected]** drop-down, choose how matching rows are collected:
+
+    * **[!UICONTROL Collect all rows]**: retrieves every matching row.
+    * **[!UICONTROL Limit the number of rows]**: retrieves up to a number of rows that you define. Activate **[!UICONTROL Enable sorting]** to define the order used to decide which rows are kept.
+    * **[!UICONTROL Single row (expert)]**: optimizes the query by assuming a single row matches. If this assumption is not correct, the result may be flawed (missing or duplicated data).
+    * **[!UICONTROL Aggregate rows]**: use this option when the collected columns already contain aggregated values, such as a count or an average.
+    * **[!UICONTROL Merge]**: merges the matching rows into a single result. 
+
+    >[!NOTE]
+    >
+    >For the **[!UICONTROL Limit the number of rows]** and **[!UICONTROL Merge]**  options, you can activate **[!UICONTROL Enable sorting]** to define the order used to decide which rows are kept or define the merge order.
+
+1. Optionally, click **[!UICONTROL Create filter]** to filter the external data using the query modeler. [Learn how to work with the query modeler](../../query/query-modeler-overview.md).
+
+    ![Screenshot showing the external database configuration](../assets/workflow-enrichment8.png)
+
+The added fields are labeled using the activity name and the table name.
 
 ## Data reconciliation {#reconciliation}
 

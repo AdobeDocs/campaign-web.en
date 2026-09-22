@@ -151,9 +151,11 @@ For date-type attributes, predefined values are available using the **[!UICONTRO
 
 >[!ENDTABS]
 
-#### Custom conditions on linked tables (1-1 and 1-N links){#links}
+### Custom conditions on linked tables (1-1 and 1-N links){#links}
 
 Custom conditions allows you to query tables linked to the table currently used by your rule. This includes tables with a 1-1 cardinality link, or collection tables (1-N link).
+
+#### 1-1 link
 
 For a **1-1 link**, navigate to the linked table, select the desired attribute and define the expected value.
 
@@ -165,63 +167,51 @@ Here, the query is targeting brands whose label is "running".
 
 1. Navigate inside the **Brand** table and select the **Label** attribute.
 
-    ![Screenshot of the Brand table](assets/1-1-attribute.png){zoomable="yes"}{width="85%" align="center"}
+    ![Screenshot of the Brand table](assets/rule-builder-1-1-attribute.png){zoomable="yes"}{width="85%" align="center"}
 
 1. Define the expected value for the attribute.
 
-    ![Example of a defined expected value](assets/1-1-table.png){zoomable="yes"}{width="85%" align="center"}
+    ![Screenshot of the Brand table](assets/rule-builder-1-1-attribute-value.png){zoomable="yes"}{width="85%" align="center"}
 
 Here is a query sample where a table link has been selected directly. Available values for this table must be selected from a dedicated picker.
 
-![Example of a query sample](assets/1-1-table-direct.png){zoomable="yes"}{width="85%" align="center"}
+![Screenshot of the Brand table](assets/rule-builder-1-1-attribute-table.png){zoomable="yes"}{width="85%" align="center"}
 
 +++ 
 
-For a **1-N link**, you can define sub-conditions to refine your query, as shown in the example below.
+#### 1-N link
 
-+++Query example
+For a **1-N link**, you can define conditions in two ways:
 
-Here, the query is targeting recipients who made purchases related to the BrewMaster product, for a total amount of at least 100$.
+* **Select the collection itself**, such as **Purchases**. This creates an **[!UICONTROL exists such as]** condition where you can add sub-conditions.
 
-1. Select the **Purchases** table and confirm.
+    +++Query example
 
-    ![Screenshot of the Purchase table](assets/1-N-collection.png){zoomable="yes"}{width="50%" align="center"}
+    Here, the query is targeting recipients who made purchases related to the BrewMaster product, for more than 100$.
 
-1. An outbound transition is added, allowing you to create sub-conditions.
+    1. Select the **Purchases** table and confirm.
 
-    ![Example of an outbound transition](assets/1-n-subcondition.png){zoomable="yes"}{width="85%" align="center"}
+    1. Click **[!UICONTROL Add condition]** to define the sub-conditions to apply to the selected table.
 
-1. Select the **Price** attribute and target purchases of 1000$ or more
+        ![Screenshot of the Purchase table](assets/rule-builder-1-n-purchase.png){zoomable="yes"}{width="85%" align="center"}
 
-    ![Screenshot of the Price attribute](assets/1-n-price.png){zoomable="yes"}{width="85%" align="center"}
+    1. Add sub-conditions to suit your needs.
 
-1. Add sub-conditions to suit your needs. Here we have added a condition to target profiles who purchased a BrewMaster product.
+        ![Screenshot of the Purchase table](assets/rule-builder-1-n-collection.png){zoomable="yes"}{width="85%" align="center"}
 
-    ![Example of sub-conditions](assets/custom-condition-1-N.png){zoomable="yes"}{width="85%" align="center"}
+    +++
 
-+++ 
+* **Select an attribute from the collection**, such as **Price** under **Purchases**. You are provided with three options for defining the condition.
 
-#### Work with aggregate data {#aggregate}
+    ![Screenshot showing the collection condition options](assets/rule-builder-collection.png){zoomable="yes"}{width="85%" align="center"}
 
-Custom conditions allow you to perform aggregate operations. To do this, you need to directly select an attribute from a collection table:
+    * **[!UICONTROL Default]**: the recommended option for most use cases. It automatically creates an **[!UICONTROL exists such as]** condition for the collection. This is equivalent to selecting the collection directly with the method described above and produces the same result. For example, selecting the **Price** attribute from **Purchases** creates a **Purchases exists such as** condition. You can then set the operator and value, such as **equal to** `0`.
 
-1. Navigate inside the desired collection table and select the attribute on which you want to perform an aggregate operation.
+    * **[!UICONTROL Aggregate]**: applies an aggregate function to the selected collection attribute. For example, select **Count** to create a condition such as **Count(Price) equal to 0**. You can use the additional condition to refine the records included in the aggregation.
 
-    ![Screenshot of the attribute list](assets/aggregate-attribute.png){zoomable="yes"}{width="85%" align="center"}
+    * **[!UICONTROL Advanced]**: uses a direct join to the collection element. The selected attribute is evaluated directly, for example **Price (purchases/@price)**. Use this option for a single condition on the collection element.
 
-1. In the properties pane, toggle on the **Aggregate data** option and select the desired aggregate function.
-
->[!BEGINTABS]
-
->[!TAB Classic query modeler]
-
-![Screenshot of the Aggregate data option](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
-
->[!TAB New rule builder]
-
-![Screenshot of the Aggregate data option](assets/ruleb-5.png){zoomable="yes"}{width="85%" align="center"}
-
->[!ENDTABS]
+    The **[!UICONTROL Default]** option is selected by default. Use **[!UICONTROL Aggregate]** when you need to count or aggregate collection records, or **[!UICONTROL Advanced]** when you need a direct join to one collection attribute.
 
 ### Select an audience {#audiences}
 

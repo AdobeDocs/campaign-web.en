@@ -28,36 +28,36 @@ topic_v2:
 
 Adobe Campaign Web user interface releases operate on a continuous delivery model which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
-## August '26 release {#26-8-release}
+## September '26 release {#26-9-release}
 
-_August 18, 2026_
+_September 22, 2026_
 
-### New features {#26-8-features}
+### New features {#26-9-features}
 
 <table>
 <thead>
 <tr>
-<th><strong>Approval workflow activity</strong><br/></th>
+<th><strong>LINE channel</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>The <strong>Approval</strong> workflow activity, previously only available in the Client Console, is now available in the Campaign Web User Interface. Assign the task to a group or an individual operator, customize the notification title and message, and define the possible answers (for example Yes/No) as output branches.</p>
-<p>For more information, refer to the <a href="../workflows/activities/approval.md">detailed documentation</a>.</p>
+<p>Adobe Campaign now supports the <strong>LINE</strong> channel, a popular instant messaging application. Create and send LINE messages using text, image, or video content, in standalone deliveries or in workflows, alongside your other channels. <a href="../line/get-started-line.md">Read more</a></p>
 </td>
 </tr>
 </tbody>
 </table>
 
-### Improvements {#26-8-improvements}
+### Improvements {#26-9-improvements}
 
-* **Opens tracking**: You can now enable or disable open tracking directly from the Campaign Web User Interface. This helps you comply with data protection regulations. [Read more](../advanced-settings/delivery-settings.md#tracking-tab)
-* **Program list view**: Programs are now listed in a dedicated view, similar to campaigns, deliveries, and workflows. You can browse existing programs and create new ones directly from this view. [Read more](../administration/plans-programs.md#create-program)
-* **Custom schema configuration**: In the **Action data** section, you can now disallow the **Duplicate** action on a custom schema's records. [Read more](../administration/schemas-action-data.md#action-data)
-* **Custom filters**: In the schema editor, you can now restrict the values available in the picker for a link-type custom filter, using the new **Link settings** dialog. [Read more](../administration/schemas-custom-filters.md#settings)
-* **Schema validation**: You can now validate the structure of a schema directly from the schema editor, using the new **Check** button. [Read more](../administration/schemas-create-publish.md#create-new)
-* **Folder security**: Actions available on a folder are now consistently governed by the operator's rights, matching the behavior of the Client Console. [Learn more](../get-started/work-with-folders.md#about-folders).
-<!--* **Enrichment activity**: You can now enrich data from an external database directly from the **Enrichment** workflow activity. This matches the capability already available in the Client Console.-->
-<!--* **Workflow and delivery templates (only msf???)**: When creating a new workflow or delivery, you must now explicitly select a template. A default template is no longer applied automatically.-->
+* **Side navigation access**: Administrators can now hide specific menu entries from the side navigation. [Read more](../administration/schemas-browse-access.md#customize-screen-display-screen-def)
+* **Additional approval types**: You can now require budget and delivery-start approvals for Campaign deliveries, in addition to content and target approvals. [Read more](../campaigns/campaign-approvals.md#configure-approval-settings-configure-approvals)
+* **Visitor-based SMS targeting**: The visitor target mapping is now available for SMS deliveries. [Read more](../sms/create-sms.md)
+* **Workflow cancel button**: A new **Cancel** button lets you revert unsaved changes in a workflow. [Read more](../workflows/orchestrate-activities.md#save-or-discard-your-changes-save-cancel)
+* **Deduplication with multiple values**: The **Following a list of values** option now supports multiple attributes. [Read more](../workflows/activities/deduplication.md#configure-the-deduplication-activity-deduplication-configuration)
+* **Mobile target mapping**: You can now create target mappings for mobile application targets. [Read more](../administration/target-mappings.md#create-a-target-mapping-create-mapping)
+* **External database enrichment**: You can now enrich data from an external database in the **Enrichment** or **Build audience** activity. [Read more](../workflows/activities/enrichment.md#external-data)
+* **File audience reconciliation**: You can now configure whether to import recipients into the database when targeting an audience from a file. [Read more](../audience/file-audience.md#select-and-configure-the-input-file-upload)
+* **Direct joins on collections**: When selecting an attribute directly from a collection, you can now choose how the condition is built: using the recommended default option, an aggregate function, or an advanced direct join. [Read more](../query/build-query.md#custom-conditions-on-linked-tables-1-1-and-1-n-links-links)
 

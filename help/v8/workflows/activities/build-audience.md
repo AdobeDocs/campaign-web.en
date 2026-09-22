@@ -54,11 +54,11 @@ Follow these steps to configure the **Build audience** activity:
 To create your own query, follow these steps:
 
 1. Select **Create your own (query)**.
-1. Choose the **Targeting dimension**. The targeting dimension lets you define the population targeted by the operation, such as recipients, contract beneficiaries, operators, or subscribers. By default, the target is selected from the recipients. [Learn more about targeting dimensions](../../audience/targeting-dimensions.md#targeting)
+1. Choose the **Targeting dimension**. The targeting dimension lets you define the population targeted by the operation, such as recipients, contract beneficiaries, operators, or subscribers. By default, the target is the recipients dimension. [Learn more about targeting dimensions](../../audience/targeting-dimensions.md#targeting)
 1. Choose the **Filtering dimension** by clicking the icon next to the targeting dimension. The filtering dimension allows you to apply filters to the targeted population by referencing related criteria without changing the main targeting dimension. [Learn more about targeting dimensions](../../audience/targeting-dimensions.md#filtering)
 1. Click **Continue**.
 1. Use the query modeler to define your query, the same way you create an audience when designing a new email. [Learn how to work with the query modeler](../../query/query-modeler-overview.md)
-1. Use the **Enrichment data** section to enhance the targeted data with additional information from the database, for example contract references or newsletter subscriptions. That data is stored with the audience in the workflow **worktable** and is available to activities that follow. You can add single enrichment attributes, collection links, or expressions and access advanced options. For detailed steps and examples, see [Add enrichment data](enrichment.md#enrichment-add).
+1. Use the **Enrichment data** section to enhance the targeted data with additional information from the database, for example contract references or newsletter subscriptions. That data is stored with the audience in the workflow **worktable** and is available to activities that follow. You can add single enrichment attributes, collection links, expressions, or fields from an external database, and access advanced options. For detailed steps and examples, see [Add enrichment data](enrichment.md#enrichment-add) and [Enrich with external database data](enrichment.md#external-data).
 
 >[!TAB Read audience]
 

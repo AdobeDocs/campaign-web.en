@@ -7,6 +7,38 @@ exl-id: 40735c57-94ae-4646-8c3d-68197569fbd4
 
 This page lists all changes and improvements available with **2026 releases**. Latest release notes are available in [this page](release-notes.md). 
 
+## August '26 release {#26-8-release}
+
+_August 18, 2026_
+
+### New features {#26-8-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Approval workflow activity</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>The <strong>Approval</strong> workflow activity, previously only available in the Client Console, is now available in the Campaign Web User Interface. Assign the task to a group or an individual operator, customize the notification title and message, and define the possible answers (for example Yes/No) as output branches.</p>
+<p>For more information, refer to the <a href="../workflows/activities/approval.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Improvements {#26-8-improvements}
+
+* **Opens tracking**: You can now enable or disable open tracking directly from the Campaign Web User Interface. This helps you comply with data protection regulations. [Read more](../advanced-settings/delivery-settings.md#tracking-tab)
+* **Program list view**: Programs are now listed in a dedicated view, similar to campaigns, deliveries, and workflows. You can browse existing programs and create new ones directly from this view. [Read more](../administration/plans-programs.md#create-program)
+* **Custom schema configuration**: In the **Action data** section, you can now disallow the **Duplicate** action on a custom schema's records. [Read more](../administration/schemas-action-data.md#action-data)
+* **Custom filters**: In the schema editor, you can now restrict the values available in the picker for a link-type custom filter, using the new **Link settings** dialog. [Read more](../administration/schemas-custom-filters.md#settings)
+* **Schema validation**: You can now validate the structure of a schema directly from the schema editor, using the new **Check** button. [Read more](../administration/schemas-create-publish.md#create-new)
+* **Folder security**: Actions available on a folder are now consistently governed by the operator's rights, matching the behavior of the Client Console. [Learn more](../get-started/work-with-folders.md#about-folders).
+<!--* **Workflow and delivery templates (only msf???)**: When creating a new workflow or delivery, you must now explicitly select a template. A default template is no longer applied automatically.-->
+
 ## July '26 release {#26-7-release}
 
 _July 28, 2026_

@@ -61,6 +61,21 @@ To create a new target mapping, access the **[!UICONTROL Administration]** > **[
 
 1. Expand the **[!UICONTROL Additional options]** section to define advanced settings such as the target mapping's internal name, storage folder, and description.
 
+1. Enable the **[!UICONTROL Target mapping for mobile applications]** option if you are targeting mobile application recipients.
+
+    ![Target mappings properties screen showing population options](assets/target-mappings-properties0.png)
+
+    Then, you can either:
+
+    * Leave the **[!UICONTROL Schema of existing subscriber applications]** field empty. Adobe Campaign automatically generates the required storage schema for you, based on the recipient template. You can use **[!UICONTROL Specify additional fields]** to add custom fields to the generated schema.
+    * Select an existing subscriber application schema. In this case, **[!UICONTROL Specify additional fields]** is disabled, since the schema already exists, and the **[!UICONTROL Filtering dimension]** and **[!UICONTROL Targeting dimension]** fields are automatically populated based on the selected schema.
+
+    Mobile target mappings always use their own dedicated storage schemas, with the exclusion logs stored separately. The **[!UICONTROL Exclusions]** option, described in the **[!UICONTROL Storage]** section below, does not apply to mobile target mappings.
+
+    >[!NOTE]
+    >
+    >The schema suffix cannot contain spaces.
+
 1. Select the target population. You can either:
 
     * **[!UICONTROL Use the targeting dimension directly]**: Select the dimension to target directly from the list of available dimensions.

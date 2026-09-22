@@ -65,10 +65,16 @@ Follow these steps to configure the **Deduplication** activity:
 
 1. Select the **Deduplication method** to use:
 
-    * **Random selection**: Randomly selects the record to keep out of the duplicates.
-    * **Using an expression**: Keeps the records in which the value of the entered expression is the smallest or the largest.
-    * **Non-empty values**: Keeps the records for which the expression is not empty.
-    * **Following a list of values**: Defines a value priority for one or more fields. To define the values, click **Attribute** to select a field or create an expression, then add the values into the appropriate table. To define a new field, click the **Add** button located above the list of values.
+    * **[!UICONTROL Random selection]**: Randomly selects the record to keep out of the duplicates.
+    * **[!UICONTROL Using an expression]**: Keeps the records for which the specified expression has the smallest or largest value. Enter the **[!UICONTROL Expression]**, then choose the **[!UICONTROL Sort]** order: **[!UICONTROL Ascending (smallest values first)]** or **[!UICONTROL Descending (largest values first)]**.
+    * **[!UICONTROL Non-empty value]**: Keeps the records for which the expression is not empty.
+    * **[!UICONTROL Following a list of values]**: Defines the record priority by matching one or more values for an attribute or expression. Click **[!UICONTROL Add attribute]** to add an attribute. For each attribute:
+
+        * In the **[!UICONTROL Attribute]** field, select the attribute or create an expression.
+        * Click **[!UICONTROL Add value]** to build the ordered list of values to prioritize.
+        * Use the **[!UICONTROL Sort for other values]** drop-down to choose how to sort the values that are not in the list, for example **[!UICONTROL Indifferent (random)]**.
+
+        When several attributes are defined, the first one is used as the main sorting criterion, and the following attributes act as tie-breakers, in order.
 
 1. Check the **Generate complement** option to exploit the remaining population. The complement consists of all the duplicates. An additional transition is then added to the activity.
 

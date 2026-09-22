@@ -58,3 +58,5 @@ From the screen definition, you can:
 * [Edit custom fields](schemas-custom-fields.md) - Configure which custom fields are displayed in detail screens and organize them into sections.
 * [Add collection lists](schemas-collection-lists.md) - Add collection lists to show related data in profile screens.
 * [Control actions on data](schemas-action-data.md) - Restrict create, edit, and delete actions for custom schemas.
+
+For schemas that power one or more entries in the left navigation, such as **nms:delivery** or **xtk:workflow**, the screen definition also displays a **[!UICONTROL Side navigation access]** section. Select the **[!UICONTROL Remove menu access for]** checkbox corresponding to a menu entry to hide it from the left navigation, for all users on the instance, regardless of their individual access rights. Some schemas power several menu entries: for example, **nms:delivery** is shared by the **[!UICONTROL Deliveries]** and **[!UICONTROL Transactional messages]** entries, so a checkbox is displayed for each of them.

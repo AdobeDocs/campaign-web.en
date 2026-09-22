@@ -45,6 +45,12 @@ The toolbar, located in the upper-right corner of the canvas, provides options t
 
 ![Toolbar options for workflow canvas](assets/workflow-toolbar.png){zoomable="yes"}{width="50%"} 
 
+## Save or discard your changes {#save-cancel}
+
+Use the **[!UICONTROL Save]** button, at the top of the screen, to save the changes made to your workflow.
+
+As soon as you make a change, a **[!UICONTROL Cancel]** button also becomes available next to **[!UICONTROL Save]**. Click it to discard all unsaved changes and restore the workflow to its last saved version. Since this action cannot be undone, a confirmation message is displayed before the changes are discarded.
+
 ## Manage activities {#manage}
 
 When adding activities, action buttons are available in the properties pane, allowing you to perform multiple operations.

@@ -35,7 +35,7 @@ topic_v2:
 
 Adobe Campaign Web User Interface allows you to target profiles stored in an external file. Once the profiles are loaded, all fields from the input file are available for use to personalize your delivery [Learn how to personalize your content](../personalization/personalize.md).  
 
-Profiles from the input file are not added to the database. They are loaded and available for this specific standalone email delivery only.
+You can choose to only load profiles for this specific standalone email delivery, without adding them to the database, or to import and reconcile them into the database. [Learn more](#upload).
 
 >[!NOTE]
 >
@@ -62,7 +62,61 @@ To target profiles from a file in your emails, follow these steps:
     ![Screenshot showing the data mapping preview in the central section](assets/select-from-file-map.png)
 
 1. Specify the column that contains the email address from the **Address Field** drop-down list. You can also select the denylist column if you have such information in the input file.
-1. Adjust the column settings and define how to format the data using the available options.
+1. In the **[!UICONTROL Columns]** section, expand a column to adjust its settings and define how to format the data using the available options. For each column you want to use for reconciliation, use **[!UICONTROL Select destination field]** to map it to a recipient schema attribute.
+
+1. Use the **[!UICONTROL Do not import the recipients into the database]** switch to control whether the file's profiles are imported and reconciled into the database. If you choose to import them, a **[!UICONTROL Field mapping and reconciliation]** section is displayed. Configure the following parameters:
+
+    ![Screenshot showing the data mapping preview in the central section](assets/select-from-file-map2.png)
+
+    +++**[!UICONTROL Operation]**
+
+    Choose the action to perform on the database:
+
+    * **[!UICONTROL Update or insert]**: updates the record if it exists in the database, and creates it if not.
+    * **[!UICONTROL Insert]**: inserts records into the database.
+    * **[!UICONTROL Update]**: updates existing records only.
+    * **[!UICONTROL Reconciliation only]**: looks for the record in the database, but does not perform an update.
+    * **[!UICONTROL Delete]**: deletes records from the database.
+
+    +++
+
+    +++**[!UICONTROL Management of duplicates]**
+
+    Choose how to handle a record that exists both in the file and in the database:
+
+    * **[!UICONTROL Update]** (default): updates the record.
+    * **[!UICONTROL Reject entity]**: excludes it and logs an error.
+    * **[!UICONTROL Ignore]**: excludes it without keeping a trace.
+
+    +++
+
+    +++**[!UICONTROL Management of doubles]**
+
+    Choose how to handle a record that appears more than once in the file itself:
+
+    * **[!UICONTROL Update]** (default): does not deduplicate; the last matching record takes priority.
+    * **[!UICONTROL Reject entity]**: excludes the extra records and logs an error.
+    * **[!UICONTROL Ignore]**: excludes the extra records without keeping a trace.
+
+    +++
+
+    +++**[!UICONTROL Reject type]**
+
+    Choose how to handle a field-level error during reconciliation:
+
+    * **[!UICONTROL Ignore and log a warning]**: imports all other fields and logs the error.
+    * **[!UICONTROL Reject parent element]**: rejects the entire record.
+    * **[!UICONTROL Reject all elements]**: stops the import and rejects everything.
+
+    +++
+
+    +++**[!UICONTROL Reconciliation key fields]**
+
+    In the **[!UICONTROL Columns]** section, you mapped some columns to a destination field. Here, select which of those mapped fields should be used to identify a record.
+
+    +++
+
+1. In the **[!UICONTROL Formatting]** section, specify the encoding, string delimiter, and column separator used by the file.
 1. Click **Confirm** once settings are correct.
 
 When creating the message content, add personalization by leveraging fields from the input file. [Learn how to personalize content](../personalization/personalize.md)
@@ -82,14 +136,12 @@ When loading an external file to target profiles in your deliveries, make sure t
 * The first line in the file is your column header.
 * Align your file format with the sample file below:
 
-    ```javascript
-    {
+    ```
     lastname,firstname,city,birthdate,email,denylist
     Smith,Hayden,Paris,23/05/1985,hayden.smith@example.com,0
     Mars,Daniel,London,17/11/1999,danny.mars@example.com,0
     Smith,Clara,Roma,08/02/1979,clara.smith@example.com,0
     Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
-    }
     ```
 
 ## Preview and test your email {#test}
