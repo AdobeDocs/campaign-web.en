@@ -88,7 +88,7 @@ A video message lets you send a video to your recipients.
 
 1. After defining the content, click **Save** then click the back icon to return to the delivery configuration screen.
 
-1. Enable **[!UICONTROL Enable scheduling]** to send on a specific date and time. [Learn more](../msg/gs-deliveries.md#gs-schedule).
+1. Enable **[!UICONTROL Enable scheduling]** to send on a specific date and time. [Learn more](../msg/create-deliveries.md#gs-schedule).
 
    ![Line message schedule](assets/line-message9.png)
 

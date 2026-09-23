@@ -39,7 +39,7 @@ Use other built-in target mappings in workflows and deliveries, as listed below:
 | Name                  | Use to deliver to                                     | Schema                 |
 |-----------------------|-------------------------------------------------------|-------------------------|
 | Recipients            | Profiles / recipients (built-in recipient table)      | nms:recipient           |
-| Visitors              | Visitors whose profiles were collected via referral (viral marketing for ex)    | mns:visitor |
+| Visitors              | Visitors whose profiles were collected via referral (viral marketing for ex)    | nms:visitor |
 | Subscriptions         | Profiles subscribed to an information service such as a newsletter | nms:subscription |
 | Visitor subscriptions | Visitors subscribed to an information service         | nms:visitorSub          |
 | Operators             | Adobe Campaign operators                              | nms:operator            |

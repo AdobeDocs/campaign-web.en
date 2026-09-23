@@ -51,13 +51,13 @@ _September 22, 2026_
 
 ### Improvements {#26-9-improvements}
 
-* **Side navigation access**: Administrators can now hide specific menu entries from the side navigation. [Read more](../administration/schemas-browse-access.md#customize-screen-display-screen-def)
-* **Additional approval types**: You can now require budget and delivery-start approvals for Campaign deliveries, in addition to content and target approvals. [Read more](../campaigns/campaign-approvals.md#configure-approval-settings-configure-approvals)
+* **Side navigation access**: Administrators can now hide specific menu entries from the side navigation. [Read more](../administration/schemas-browse-access.md#screen-def)
+* **Additional approval types**: You can now require budget and delivery-start approvals for Campaign deliveries, in addition to content and target approvals. [Read more](../campaigns/campaign-approvals.md#configure-approvals)
 * **Visitor-based SMS targeting**: The visitor target mapping is now available for SMS deliveries. [Read more](../sms/create-sms.md)
-* **Workflow cancel button**: A new **Cancel** button lets you revert unsaved changes in a workflow. [Read more](../workflows/orchestrate-activities.md#save-or-discard-your-changes-save-cancel)
-* **Deduplication with multiple values**: The **Following a list of values** option now supports multiple attributes. [Read more](../workflows/activities/deduplication.md#configure-the-deduplication-activity-deduplication-configuration)
-* **Mobile target mapping**: You can now create target mappings for mobile application targets. [Read more](../administration/target-mappings.md#create-a-target-mapping-create-mapping)
+* **Workflow cancel button**: A new **Cancel** button lets you revert unsaved changes in a workflow. [Read more](../workflows/orchestrate-activities.md#save-cancel)
+* **Deduplication with multiple values**: The **Following a list of values** option now supports multiple attributes. [Read more](../workflows/activities/deduplication.md#deduplication-configuration)
+* **Mobile target mapping**: You can now create target mappings for mobile application targets. [Read more](../administration/target-mappings.md#create-mapping)
 * **External database enrichment**: You can now enrich data from an external database in the **Enrichment** or **Build audience** activity. [Read more](../workflows/activities/enrichment.md#external-data)
-* **File audience reconciliation**: You can now configure whether to import recipients into the database when targeting an audience from a file. [Read more](../audience/file-audience.md#select-and-configure-the-input-file-upload)
-* **Direct joins on collections**: When selecting an attribute directly from a collection, you can now choose how the condition is built: using the recommended default option, an aggregate function, or an advanced direct join. [Read more](../query/build-query.md#custom-conditions-on-linked-tables-1-1-and-1-n-links-links)
+* **File audience reconciliation**: You can now configure whether to import recipients into the database when targeting an audience from a file. [Read more](../audience/file-audience.md#upload)
+* **Direct joins on collections**: When selecting an attribute directly from a collection, you can now choose how the condition is built: using the recommended default option, an aggregate function, or an advanced direct join. [Read more](../query/build-query.md#links)
 

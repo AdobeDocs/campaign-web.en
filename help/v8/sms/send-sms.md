@@ -65,7 +65,7 @@ Sending proofs is crucial for ensuring the quality and effectiveness of your del
 
     ![Sending SMS delivery](assets/sms_send_5.png){zoomable="yes"}
 
-    If the SMS delivery is scheduled, click the **[!UICONTROL Send as scheduled]** button. Learn more about delivery scheduling in [this section](../msg/gs-messages.md#schedule-the-delivery-sending).
+    If the SMS delivery is scheduled, click the **[!UICONTROL Send as scheduled]** button. Learn more about delivery scheduling in [this section](../msg/create-deliveries.md#gs-schedule).
 
 1. Confirm the send action by clicking the **[!UICONTROL Send]** button.
 
