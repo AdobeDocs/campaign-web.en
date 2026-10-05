@@ -8,13 +8,19 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
-TQID: https://experienceleague.adobe.com/8zjQ-TTwlVzbVq-GJb7ffoYKzC88j1xkJCowan9l5QA
+TQID: 'https://experienceleague.adobe.com/8zjQ-TTwlVzbVq-GJb7ffoYKzC88j1xkJCowan9l5QA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
+  - id: baf8e746-117b-5e73-b179-0a83edc0295f
+    internal-label: Templates
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

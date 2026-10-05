@@ -2,10 +2,14 @@
 title: Manage enumerations
 description: Learn how to work with enumerations
 exl-id: d2a30fef-2cc4-49af-9f5d-d42c6396a8ab
-TQID: https://experienceleague.adobe.com/NkMLNqbuSnsKYhzseiS6EiThFcFyVM-AGFTVJEP3S-0
+TQID: 'https://experienceleague.adobe.com/NkMLNqbuSnsKYhzseiS6EiThFcFyVM-AGFTVJEP3S-0'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
     internal-label: Administration

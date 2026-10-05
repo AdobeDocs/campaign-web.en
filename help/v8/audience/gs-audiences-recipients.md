@@ -2,10 +2,14 @@
 title: Get started with profiles & audiences
 description: Learn how to work with profiles and audiences in Campaign Web
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
-TQID: https://experienceleague.adobe.com/SKT-mPGrNuXmEQx5NGEZt3tZLM271zg7-85AeC4DpVc
+TQID: 'https://experienceleague.adobe.com/SKT-mPGrNuXmEQx5NGEZt3tZLM271zg7-85AeC4DpVc'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 feature_v2:
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
     internal-label: Profiles and audiences

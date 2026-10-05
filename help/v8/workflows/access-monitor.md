@@ -3,10 +3,14 @@ audience: end-user
 title: Create workflows with Adobe Campaign Web
 description: Learn how to build workflows with Adobe Campaign Web
 exl-id: 2a9b7e52-2b8b-4293-9b4d-a228ba95bed3
-TQID: https://experienceleague.adobe.com/Xb9IpNhdTmJ3Ho8r8-cWUhVioaSjvMTnFkfk5zexYOA
+TQID: 'https://experienceleague.adobe.com/Xb9IpNhdTmJ3Ho8r8-cWUhVioaSjvMTnFkfk5zexYOA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 ---
 # Access and manage workflows {#access-monitor}
 

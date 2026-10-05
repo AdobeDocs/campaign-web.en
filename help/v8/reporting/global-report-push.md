@@ -3,10 +3,14 @@ audience: end-user
 title: Global reports for the Push channel
 description: Understand global reports for the Push channel
 exl-id: 829a9b68-5c41-47dd-843c-412b6d255e8b
-TQID: https://experienceleague.adobe.com/mN4wAht0Rsnz0qIpxfuvoT0TvQsbC6GC9vy7i24rZrk
+TQID: 'https://experienceleague.adobe.com/mN4wAht0Rsnz0qIpxfuvoT0TvQsbC6GC9vy7i24rZrk'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting

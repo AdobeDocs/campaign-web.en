@@ -4,6 +4,16 @@ description: Find here the list of every components available in     Dynamic rep
 level: Beginner
 audience: end-user
 exl-id: 5c58db92-7878-4c70-b076-a393f1cda8b7
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 ---
 # List of components {#list-of-components}
 

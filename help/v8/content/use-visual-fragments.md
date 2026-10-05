@@ -4,10 +4,14 @@ title: Add visual fragments to your emails
 description: Learn how to add visual fragments to your emails
 badge: label="Limited Availability"
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-TQID: https://experienceleague.adobe.com/0ToLS9KSS60CgXGExzD633W-tSMQy3aOAX2byjsw-ck
+TQID: 'https://experienceleague.adobe.com/0ToLS9KSS60CgXGExzD633W-tSMQy3aOAX2byjsw-ck'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 ---
 # Add visual fragments to your emails {#use-visual-fragments}
 

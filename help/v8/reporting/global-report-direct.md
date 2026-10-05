@@ -3,10 +3,14 @@ audience: end-user
 title: Global reports for the direct mail channel
 description: Learn more about Global reports for the direct mail channel
 exl-id: a42536fe-375b-4169-8775-d47ed26692f8
-TQID: https://experienceleague.adobe.com/KiKxS4DGB1G8je5lqmO8DGePSzSGXzqfaW--g7GLIII
+TQID: 'https://experienceleague.adobe.com/KiKxS4DGB1G8je5lqmO8DGePSzSGXzqfaW--g7GLIII'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting

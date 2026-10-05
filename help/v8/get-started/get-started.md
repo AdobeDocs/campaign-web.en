@@ -3,10 +3,14 @@ audience: end-user
 title: Get started with Adobe Campaign Web
 description: Get started with Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-TQID: https://experienceleague.adobe.com/VrZVKKoEj-0Fs2Z5LUfM9N1R9TK-Ae-4b1BlxS-pGiw
+TQID: 'https://experienceleague.adobe.com/VrZVKKoEj-0Fs2Z5LUfM9N1R9TK-Ae-4b1BlxS-pGiw'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 feature_v2:
   - id: a658c786-869b-4194-a780-2594d663adda
     internal-label: Data management

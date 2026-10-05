@@ -4,6 +4,16 @@ description: With the Breakdown by domains out-of-the-box report, learn about th
 level: Intermediate
 audience: end-user
 exl-id: 9b6126b7-3f9c-4810-9288-33a3f0a034d8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # Breakdown by domains{#breakdown-by-domains}
 

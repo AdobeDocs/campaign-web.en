@@ -4,10 +4,14 @@ description: Ask questions in Campaign Web help popovers
 badge: label="Beta"
 hide: true
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-TQID: https://experienceleague.adobe.com/TM3zkoJ6WmypzgJgCbMLtbRw-gP1iPROc-iOrUswOh4
+TQID: 'https://experienceleague.adobe.com/TM3zkoJ6WmypzgJgCbMLtbRw-gP1iPROc-iOrUswOh4'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
     internal-label: Campaign Email Designer

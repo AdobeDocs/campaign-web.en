@@ -3,10 +3,14 @@ audience: end-user
 title: Get started with content fragments
 description: Learn how to create with content fragments
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-TQID: https://experienceleague.adobe.com/U-EF1-B9KZ1bbmh5Khlw-89zuo5garZiWeC-lHx130k
+TQID: 'https://experienceleague.adobe.com/U-EF1-B9KZ1bbmh5Khlw-89zuo5garZiWeC-lHx130k'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 ---
 # Get started with content fragments {#gs-fragments}
 

@@ -3,10 +3,14 @@ audience: end-user
 title: Edit the email content
 description: Learn how to start building your content using the Email Designer in Campaign Web user interface
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
-TQID: https://experienceleague.adobe.com/E13LxJL9krN2GR4LP2HdvRgxpEohILuNDwUz8YkeNVQ
+TQID: 'https://experienceleague.adobe.com/E13LxJL9krN2GR4LP2HdvRgxpEohILuNDwUz8YkeNVQ'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
