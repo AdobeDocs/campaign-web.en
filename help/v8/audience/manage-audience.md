@@ -3,10 +3,14 @@ audience: end-user
 title: Get started with audiences
 description: Learn how to work with audiences in Adobe Campaign Web
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-TQID: https://experienceleague.adobe.com/KGSuhMYvY3J-PVy6xB-XLHyQOkOvYFen8Lzn4cS0nTQ
+TQID: 'https://experienceleague.adobe.com/KGSuhMYvY3J-PVy6xB-XLHyQOkOvYFen8Lzn4cS0nTQ'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 ---
 # Get started with audiences {#monitor-manage}
 

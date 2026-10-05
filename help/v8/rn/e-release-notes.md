@@ -3,10 +3,14 @@ title: Campaign v8 Web User Interface Early Release Notes
 description: Discover new features coming with the next Campaign Web User Interface release
 hide: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-TQID: https://experienceleague.adobe.com/s1-w6QPAcZkFNzkImCJ5RHds9nhbaghxgQLxh07NFEA
+TQID: 'https://experienceleague.adobe.com/s1-w6QPAcZkFNzkImCJ5RHds9nhbaghxgQLxh07NFEA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 ---
 # Early release notes {#e-release}
 

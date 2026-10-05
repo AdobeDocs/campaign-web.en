@@ -3,10 +3,14 @@ audience: end-user
 title: Manage brand
 description: Learn how to create and manage your brand guidelines
 exl-id: d4d2c6bb-7fd0-49a0-9d73-356f4a24f021
-TQID: https://experienceleague.adobe.com/MAYS264-CrLxRFoLLh8Ph0mujglOSxki7tX5iD2a8rM
+TQID: 'https://experienceleague.adobe.com/MAYS264-CrLxRFoLLh8Ph0mujglOSxki7tX5iD2a8rM'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 feature_v2:
   - id: a4671286-a59f-47e3-b97b-90627a1977d5
     internal-label: Communication channels

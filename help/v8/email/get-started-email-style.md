@@ -3,10 +3,14 @@ audience: end-user
 title: Get started with email style
 description: Discover the different ways you can adjust your email content style
 exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
-TQID: https://experienceleague.adobe.com/QNNQ7G1fQWZqgylyz0MgLLCNctz42vya4fJ9rygUE-8
+TQID: 'https://experienceleague.adobe.com/QNNQ7G1fQWZqgylyz0MgLLCNctz42vya4fJ9rygUE-8'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 ---
 # Get started with email style {#get-started-email-style}
 

@@ -3,10 +3,14 @@ audience: end-user
 title: Prepare and send an email
 description: Learn how to prepare and send an email with Campaign Web user interface
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-TQID: https://experienceleague.adobe.com/C6e0KNg-R2nMDbliQtciQ8-SHRscbxaC91ol0L-cFfM
+TQID: 'https://experienceleague.adobe.com/C6e0KNg-R2nMDbliQtciQ8-SHRscbxaC91ol0L-cFfM'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 ---
 # Prepare and send your email {#prepare-send}
 

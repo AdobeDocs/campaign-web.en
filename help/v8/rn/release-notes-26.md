@@ -2,6 +2,13 @@
 title: Campaign v8 Web User Interface previous Release Notes
 description: 2026 Campaign Web User Interface releases
 exl-id: 40735c57-94ae-4646-8c3d-68197569fbd4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 ---
 # 2026 release notes {#2026-release}
 

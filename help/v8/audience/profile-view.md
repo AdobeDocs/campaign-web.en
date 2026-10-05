@@ -2,10 +2,14 @@
 title: Explore profiles' details
 description: Learn how to explore the details of a profile.
 exl-id: 172dec7d-24c6-4c35-bb45-5dc3ce9fadeb
-TQID: https://experienceleague.adobe.com/llJ2lDbnfxJFqtpOTHQXzghd2OyIsZD5NtORIuRbSKY
+TQID: 'https://experienceleague.adobe.com/llJ2lDbnfxJFqtpOTHQXzghd2OyIsZD5NtORIuRbSKY'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 ---
 # Explore profiles' details {#profile-view}
 

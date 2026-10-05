@@ -4,6 +4,16 @@ description: With the Bounce summary out-of-the-box report, learn about the stat
 audience: end-user
 level: Intermediate
 exl-id: b341edad-aa82-43d8-a5a1-b33a19973a1a
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # Bounce summary{#bounce-summary}
 

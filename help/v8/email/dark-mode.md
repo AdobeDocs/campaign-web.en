@@ -7,10 +7,14 @@ role: User
 level: Beginner, Intermediate
 keywords: dark mode, email, color, editor
 exl-id: 0f1bbaf9-d648-4625-94fa-2e0c240d7264
-TQID: https://experienceleague.adobe.com/QE0TMgusTCuEYsVi2Gf8X2cV7tlvAJJw6-D-b8eXylM
+TQID: 'https://experienceleague.adobe.com/QE0TMgusTCuEYsVi2Gf8X2cV7tlvAJJw6-D-b8eXylM'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
     internal-label: Campaign Email Designer

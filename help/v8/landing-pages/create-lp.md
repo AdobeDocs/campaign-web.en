@@ -3,10 +3,20 @@ title: Create a landing page
 description: Learn how to configure and publish a landing page in Campaign Web
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
-TQID: https://experienceleague.adobe.com/qoRSCg0-BzcmBJ6-NapGqdg2pUrkXq4QXbb2OPx-new
+TQID: 'https://experienceleague.adobe.com/qoRSCg0-BzcmBJ6-NapGqdg2pUrkXq4QXbb2OPx-new'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: d7be2b01-dc9c-40f7-aace-a151707504ed
+    internal-label: Landing pages
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security

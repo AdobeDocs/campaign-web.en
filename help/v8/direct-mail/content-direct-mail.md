@@ -3,10 +3,14 @@ audience: end-user
 title: Design a direct mail delivery
 description: Learn how to design your direct mail delivery with Adobe Campaign Web
 exl-id: aefba651-4125-4b1e-992f-1fe90fd95e4c
-TQID: https://experienceleague.adobe.com/fKC3OQ7C-LxYlcHO3IuQt-dI6Ju3jn8ywPxzLzhfbwg
+TQID: 'https://experienceleague.adobe.com/fKC3OQ7C-LxYlcHO3IuQt-dI6Ju3jn8ywPxzLzhfbwg'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization

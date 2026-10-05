@@ -3,10 +3,14 @@ audience: end-user
 title: Use the Scheduler workflow activity
 description: Learn how to use the Scheduler workflow activity
 exl-id: 84142fbe-fd8a-4329-88a5-cf7a8f4e8b8f
-TQID: https://experienceleague.adobe.com/4-dEr9D64-Lu7eo9M5I937JHRUO5cdKvzXHpTJ1ceKg
+TQID: 'https://experienceleague.adobe.com/4-dEr9D64-Lu7eo9M5I937JHRUO5cdKvzXHpTJ1ceKg'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 ---
 # Scheduler {#scheduler}
 

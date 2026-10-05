@@ -3,10 +3,14 @@ audience: end-user
 title: Use the Extract file workflow activity
 description: Learn how to use the Extract file workflow activity
 exl-id: fa50ab5b-2539-4517-9d7b-93315f1e505c
-TQID: https://experienceleague.adobe.com/gAN2-cZkP5QpQoZ-V5-TyAf-SyWi9l-sH-ZTeGbIAVM
+TQID: 'https://experienceleague.adobe.com/gAN2-cZkP5QpQoZ-V5-TyAf-SyWi9l-sH-ZTeGbIAVM'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization

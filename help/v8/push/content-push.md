@@ -3,10 +3,14 @@ audience: end-user
 title: Design a push notification delivery
 description: Learn how to design a push notification delivery with Adobe Campaign Web
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-TQID: https://experienceleague.adobe.com/G8sMnMSpcXFaVpdkKIkp8Yhmu6fxOiSHdl4icd2z4P8
+TQID: 'https://experienceleague.adobe.com/G8sMnMSpcXFaVpdkKIkp8Yhmu6fxOiSHdl4icd2z4P8'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 ---
 # Design a push delivery {#content-push}
 

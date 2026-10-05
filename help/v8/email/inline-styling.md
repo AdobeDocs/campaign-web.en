@@ -3,10 +3,14 @@ audience: end-user
 title: Add inline styling attributes
 description: Learn how to add inline styling attributes
 exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
-TQID: https://experienceleague.adobe.com/zDt9wDMvygP9NTWF5c36g-7jzikNEaTPegCJMvN4dec
+TQID: 'https://experienceleague.adobe.com/zDt9wDMvygP9NTWF5c36g-7jzikNEaTPegCJMvN4dec'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 ---
 # Add inline styling attributes {#adding-inline-styling-attributes}
 

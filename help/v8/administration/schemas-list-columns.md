@@ -2,6 +2,13 @@
 title: Configure default list columns
 description: Learn how to configure which columns are displayed by default in list views.
 exl-id: 55513ecd-fc3f-4371-93b0-f2c9d01d4db4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 ---
 # Configure list columns {#list-columns}
 

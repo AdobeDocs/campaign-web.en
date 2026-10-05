@@ -2,6 +2,13 @@
 title: Add custom filters
 description: Learn how to add custom filters as quick-access fields in the filters pane of a list view.
 exl-id: 2c3d4e5f-6a7b-4c8d-9e0f-1a2b3c4d5e6f
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 ---
 # Add custom filters {#custom-filters}
 

@@ -3,10 +3,14 @@ audience: end-user
 title: Global reports for the SMS channel
 description: Understand global reports for the SMS channel
 exl-id: 346cf2ff-b6e4-4d8f-ba26-197eadeaf5e6
-TQID: https://experienceleague.adobe.com/I0CK5wcp99rHrQUw6e-dYpHQzms7kS5IW-RY-k4-W24
+TQID: 'https://experienceleague.adobe.com/I0CK5wcp99rHrQUw6e-dYpHQzms7kS5IW-RY-k4-W24'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting

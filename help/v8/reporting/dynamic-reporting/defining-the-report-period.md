@@ -4,6 +4,16 @@ description: The time period of your report allows you to filter your data depen
 audience: end-user
 level: Intermediate
 exl-id: 36506f7d-aeeb-41cf-b971-6e42e1c7cdc8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # Defining the report period{#defining-the-report-period}
 

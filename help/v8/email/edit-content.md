@@ -3,10 +3,14 @@ audience: end-user
 title: Edit the email content
 description: Learn how to edit the email content in Campaign Web user interface
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-TQID: https://experienceleague.adobe.com/G--NwJZpg2lItNE9tWbJrqG83a8jMEzzfQ4MVfvXFyY
+TQID: 'https://experienceleague.adobe.com/G--NwJZpg2lItNE9tWbJrqG83a8jMEzzfQ4MVfvXFyY'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization

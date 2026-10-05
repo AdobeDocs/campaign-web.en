@@ -2,6 +2,13 @@
 title: Create and publish schemas
 description: Learn how to create, extend, and publish schemas.
 exl-id: 1da53fe0-1d64-4907-ba06-206f69e83d7c
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 ---
 # Create and publish schemas {#create-publish}
 

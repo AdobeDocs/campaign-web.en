@@ -3,10 +3,14 @@ audience: end-user
 title: Adjust vertical alignment and padding in Email Designer
 description: Learn how to adjust vertical alignment and padding
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
-TQID: https://experienceleague.adobe.com/5KgmbJc0yXRXl8-jCKBR7evxfcVHEcvQtdMxU-rV28s
+TQID: 'https://experienceleague.adobe.com/5KgmbJc0yXRXl8-jCKBR7evxfcVHEcvQtdMxU-rV28s'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 ---
 # Adjust vertical alignment and padding {#alignment-and-padding}
 

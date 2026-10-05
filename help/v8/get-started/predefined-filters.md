@@ -2,10 +2,14 @@
 title: Work with predefined filters
 description: Learn how to create and manage predefined filters in Adobe Campaign Web
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-TQID: https://experienceleague.adobe.com/KtKT-RQV5D3bLMgzxmMJuwDnMBPTt0JiLsvzvuJhF6E
+TQID: 'https://experienceleague.adobe.com/KtKT-RQV5D3bLMgzxmMJuwDnMBPTt0JiLsvzvuJhF6E'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 ---
 # Work with predefined filters {#predefined-filters}
 
