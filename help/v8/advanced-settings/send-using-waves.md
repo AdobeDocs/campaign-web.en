@@ -57,6 +57,8 @@ To send deliveries using waves, follow the steps below.
     >Make sure the last waves do not exceed the delivery deadline, defined in the [Validity](delivery-settings.md#validity) tab, otherwise some messages might not be sent. A specific typology control rule, **[!UICONTROL Wave scheduling check]**, ensures that the last wave is planned before the delivery validity limit. Learn more about control rules in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html).
     >
     >You must also allow enough time for retries when configuring the last waves. [Learn more](delivery-settings.md#retries)
+    >
+    >Waves are scheduled from the contact date of the delivery. If the delivery starts after the planned time of some waves, those waves are sent together instead of being spaced out.
 
 1. To monitor your sends, go to the [delivery logs](../monitor/delivery-logs.md). You can see the deliveries that were already sent in the processed waves (**[!UICONTROL Sent]** status) and the deliveries to be sent in the remaining waves (**[!UICONTROL Pending]** status).
 
