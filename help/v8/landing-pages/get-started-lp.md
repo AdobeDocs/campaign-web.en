@@ -38,6 +38,10 @@ Landing pages enable you to direct your users to online forms where they can upd
 >
 >Learn more about web forms in the [Campaign v8 (console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
 
+>[!NOTE]
+>
+>Landing pages created in the Campaign Web user interface do not support hidden input fields or custom JavaScript. To compute and store values that are not displayed to visitors, create the form as a web application in the client console instead.
+
 Landing pages key capabilities are listed below:
 
 * Instantly create, design, and share landing pages using ready-to-use **pre-filled templates** matching different use cases. [Learn more](create-lp.md)
