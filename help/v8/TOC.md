@@ -20,7 +20,7 @@ nudge: true
       + [2025 releases](rn/release-notes-25.md)
       + [2024 releases](rn/release-notes-24.md)
   + {hide-from-toc} [Documentation updates](rn/documentation-updates.md)
-+ Get started with Adobe Campaign {#start}
++ Get started {#start}
   + [Get started](get-started/get-started.md)
   + [Connect to Campaign](get-started/connect-to-campaign.md)
   + {hide-from-toc} [Discover the interface](get-started/user-interface.md)
@@ -33,7 +33,7 @@ nudge: true
   + [From Campaign Standard to v8](rn/acs-migration.md)
   + {hide-from-toc} [AI-powered contextual help](get-started/using-ai.md)
   + [FAQ](get-started/faq.md)
-+ Messages and deliveries {#msg}
++ Messages {#msg}
   + [Get started with messages](msg/gs-messages.md)
   + [Access deliveries](msg/gs-deliveries.md)
   + [Create a delivery](msg/create-deliveries.md)
@@ -94,7 +94,7 @@ nudge: true
     + [Get started with delivery alerts](msg/delivery-alerting.md)
     + [Delivery alerting dashboards](msg/delivery-alerting-dashboards.md)
     + [Delivery alerting criteria](msg/delivery-alerting-criteria.md)
-+ Content management {#content}
++ Content & personalization {#content}
   + Create dynamic content {#dynamic-content}
     + [How to make your content dynamic?](personalization/gs-personalization.md)
     + [Add personalization](personalization/personalize.md)
@@ -144,18 +144,7 @@ nudge: true
       + [Personalize your brand](content/brands-personalize.md)
       + [Create and manage generative models](content/generative-models.md)
       + [Evaluate your content](content/brands-score.md)
-+ Landing pages {#landing-pages}
-  + [Get started with landing pages](landing-pages/get-started-lp.md)
-  + [Create and publish a landing page](landing-pages/create-lp.md)
-  + [Design landing page content](landing-pages/lp-content.md)
-  + [Learn through use cases](landing-pages/lp-use-cases.md)
-+ Offer management {#offers}
-  + [Get started with offer management](offers/gs-offer-management.md)
-  + [Review offer environment settings](offers/offer-environment.md)
-  + [Create and manage offer spaces](offers/offer-space.md)
-  + [Create and publish an offer](offers/create-offer.md)
-  + [Add an editable list to the offer schema](offers/offer-editable-list.md)
-+ Profiles and audiences {#audiences}
++ Profiles & audiences {#audiences}
   + [Get started with profiles and audiences](audience/gs-audiences-recipients.md)
   + [Targeting dimensions](audience/targeting-dimensions.md)
   + [Quarantine](audience/quarantine.md)
@@ -177,7 +166,12 @@ nudge: true
   + Work with subscription services {#work-with-services}
     + [Create and manage subscription services](audience/manage-services.md)
     + [Manage subscribers](audience/manage-subscribers.md)
-+ Cross-channel campaigns {#campaigns}
++ Landing pages & forms {#landing-pages}
+  + [Get started with landing pages](landing-pages/get-started-lp.md)
+  + [Create and publish a landing page](landing-pages/create-lp.md)
+  + [Design landing page content](landing-pages/lp-content.md)
+  + [Learn through use cases](landing-pages/lp-use-cases.md)
++ Campaigns {#campaigns}
   + [Get started with campaigns](campaigns/gs-campaigns.md)
   + [Access and manage your campaigns](campaigns/manage-campaigns.md)
   + [Create your first campaign](campaigns/create-campaigns.md)
@@ -225,13 +219,19 @@ nudge: true
     + [Transfer file](workflows/activities/transfer-file.md)
     + [Update data](workflows/activities/update-data.md)
     + [Wait](workflows/activities/wait.md)
-+ Query the database {#query-database}
++ Offers {#offers}
+  + [Get started with offer management](offers/gs-offer-management.md)
+  + [Review offer environment settings](offers/offer-environment.md)
+  + [Create and manage offer spaces](offers/offer-space.md)
+  + [Create and publish an offer](offers/create-offer.md)
+  + [Add an editable list to the offer schema](offers/offer-editable-list.md)
++ Query & data {#query-database}
   + [Work with the query modeler](query/query-modeler-overview.md)
   + [Build your first query](query/build-query.md)
   + [Edit expressions](query/expression-editor.md)
   + {hide-from-toc} [Query samples](query/query-samples.md)
   + [Filter lists](query/filter.md)
-+ Reporting {#reports}
++ Reporting & tracking {#reports}
   + [Audit trail](reporting/audit-trail.md)
   + [Key performance indicators](reporting/kpis.md)
   + Standard reports {#standard-reports}
