@@ -11,6 +11,8 @@ breadcrumb-title: Campaign Adoption Guide
 
 + [Campaign Adoption Guide](home.md)
 + [From Standard to v8](get-started/overview.md)  
++ {hide-from-toc} [Differences between Standard and v8](get-started/acs-v8-differences.md)
++ {hide-from-toc} [Checks after the transition](get-started/post-transition-checks.md)
 + [Get started for Marketers](get-started/marketers.md)  
 + [Get started for Admin/Developer](get-started/admin-developers.md)
 + [User access management](get-started/user-management-acs.md)

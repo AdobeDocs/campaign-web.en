@@ -54,6 +54,8 @@ As a user transitioning from Campaign Standard to Campaign v8, this reference gu
 
 1. Next understand [the experience differences between Adobe Campaign Standard and Adobe Campaign v8 according to your role](#experiences).
 
+<!-- 1. After your transition, review the [checks and troubleshooting](post-transition-checks.md). -->
+
 ## What's new? {#new}
 
 Get a glimpse of the newest enhancements in Adobe Campaign Web user interface in this page. For a comprehensive list of key capabilities and release updates features, check out [this section](../../v8/rn/whats-new.md).
@@ -167,7 +169,7 @@ For you to transition smoothly to Campaign v8, key Campaign Standard capabilitie
 
 * **Rest APIs** - As a Campaign Stardard migrated user, you can use Rest APIs to create integrations for Adobe Campaign and build your own ecosystem by interfacing Adobe Campaign with the panel of technologies that you use. [Learn more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target="_blank"}
 
-* **Landing pages** - Some improvements have been brought to Campaign v8 landing pages to ensure feature parity with Campaign Standard. Learn more in the [release notes](../../v8/rn/release-notes.md#new-24-4) and the landing page [documentation](../../v8/landing-pages/get-started-lp.md).
+* **Landing pages** - Improvements have been brought to Campaign v8 landing pages to align them with Campaign Standard. <!-- Some differences remain, as listed in [Differences between Campaign Standard and Campaign v8](acs-v8-differences.md#channels). --> Learn more in the [release notes](../../v8/rn/release-notes.md#new-24-4) and the landing page [documentation](../../v8/landing-pages/get-started-lp.md).
 
 * **Visual fragments** - Visual fragments are reusable visual components that can be referenced in one or more email deliveries or in content templates. When modifying a fragment, every content using it is updated. This functionality allows to prebuild multiple custom content blocks that can be used by marketing users to quickly assemble message contents in an improved design process. [Learn more](../../v8//content/use-visual-fragments.md)
 
@@ -191,6 +193,8 @@ Also, as an existing Campaign user, note that some concepts have been renamed to
 * Delivery analysis is now the **delivery preparation**. When you need to launch the message preparation, click the **Prepare** button. [Learn more](../../v8/monitor/prepare-send.md).
 * Email Preview is now available throught the **Simulate content** button. [Learn more](../../v8/preview-test/preview-test.md)
 * Lists are now **Audiences**. [Learn more](../../v8/audience/gs-audiences-recipients.md).
+
+<!-- For the other differences that affect your transition, see [Differences between Campaign Standard and Campaign v8](acs-v8-differences.md). -->
 
 
 ## New user experience
