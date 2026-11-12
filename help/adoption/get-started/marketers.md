@@ -227,7 +227,7 @@ Useful links:
 >
 >* Deliveries which are in one of the following status have been migrated as canceled deliveries: For Canceled / Retry in progress. 
 >
->* Tracking links, mirror page URL links, subscription/un-subscription links work as in Campaign Standard. 
+>* Tracking links, mirror page URL links and subscription/unsubscription links of deliveries sent from Campaign v8 follow the Campaign v8 standard. Mirror pages of deliveries sent from Campaign Standard before the transition are not available. See [Differences between Campaign Standard and Campaign v8](acs-v8-differences.md#admin-tracking). 
 >
 >See also the following sections: [Tracking and Monitoring](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking){target="_blank"}, [Branding](../../v8/administration/branding/branding-gs.md) in Adobe Campaign.
 
