@@ -73,16 +73,6 @@ Campaign Standard security groups, roles and organizational units are mapped to 
 | Accessing transactional APIs from the execution instance requires a new product profile. | [Product profile mapping](user-management-acs.md#product-profile-mapping-to-access-rest-apis) |
 | Privacy requests can arrive in both Campaign Standard and Campaign v8 during the period when your Campaign Standard environment remains active. | [Privacy and consent](admin-developers.md#privacy-and-consent) |
 
-## Administration, tracking and mirror pages {#admin-tracking}
-
-These differences affect deliveries sent from Campaign Standard before the transition, and administrative information that is not carried over to Campaign v8.
-
-| What changes | Learn more |
-|---|---|
-| Mirror pages of deliveries sent from Campaign Standard before the transition are not available. Mirror pages of deliveries sent from Campaign v8 work as usual. | [Mirror pages](../../v8/email/mirror-page.md) |
-| Tracking data of real-time transactional deliveries sent from Campaign Standard before the transition is not captured in Campaign v8. The links of these messages still redirect. | [Monitor transactional messages](../../v8/transactional-messaging/monitor-transactional.md) |
-| Geographical units are not available. Access control based on geographical units is lost. | [Access control](../../v8/get-started/connect-to-campaign.md#access-control) |
-
 ## APIs and integrations {#apis-and-integrations}
 
 These differences affect the integrations that call Campaign through its REST API, and the integrations with other Adobe solutions and tools.
@@ -91,5 +81,4 @@ These differences affect the integrations that call Campaign through its REST AP
 |---|---|
 | PKEY values change after the migration. If you store PKEYs outside Campaign, follow the hrefs returned by the API instead. | [REST APIs](admin-developers.md#acs-gs-admin-apis) |
 | Some migrated profile fields, such as time zone and `ccpaOptOut`, are returned only by the `profileAndServicesExt/profile` API. | [REST APIs](admin-developers.md#acs-gs-admin-apis) |
-| The Dreamweaver and Adobe Experience Platform Data Connector integrations of Campaign Standard are not available in Campaign v8. | [Work with Campaign and other Adobe solutions](../../v8/integrations/integration.md) |
 | Adobe migrates your Adobe Analytics and Audience Manager configurations. You must set up the Triggers and Adobe Target integrations again. | [Manage Adobe Campaign integrations](admin-developers.md#acs-gs-integrations) |
