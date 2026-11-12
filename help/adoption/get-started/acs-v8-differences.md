@@ -49,7 +49,7 @@ The steps to create and send messages are similar in both products, as described
 
 ## Audiences, workflows and deliveries {#data-and-workflows}
 
-These differences affect the audiences, workflows and deliveries migrated from Campaign Standard, some options of recurring deliveries and of the **File transfer** activity, and the scope of dynamic reporting.
+These differences affect the audiences and workflows migrated from Campaign Standard, some options of recurring deliveries and of the **File transfer** activity, and the scope of dynamic reporting.
 
 | What changes | Learn more |
 |---|---|
@@ -57,7 +57,6 @@ These differences affect the audiences, workflows and deliveries migrated from C
 | Historical logs of workflows executed in Campaign Standard are not migrated. | [Create a workflow](marketers.md#acs-gs-marketers-wf) |
 | In Campaign Standard, you could select the aggregation period of a recurring email. This option is not available in Campaign v8. | [Channel activities](../../v8/workflows/activities/channels.md) |
 | In Campaign Standard, the **File transfer** activity could sort files alphanumerically. This option is not available in Campaign v8. | [Transfer file](../../v8/workflows/activities/transfer-file.md) |
-| Deliveries that were in progress at the time of the transition are migrated either to be prepared again or as canceled, depending on their status. | [Create and manage deliveries](marketers.md#acs-gs-marketers-deliveries) |
 | Dynamic reporting covers email deliveries, campaigns with email deliveries, and transactional messages. | [Reporting](marketers.md#acs-gs-marketers-reporting) |
 
 ## Access and security {#access}
