@@ -1,6 +1,9 @@
 ---
 title: Differences between Campaign Standard and Campaign v8
 description: Learn what changes when you transition from Campaign Standard to Campaign v8, and where to find the details
+hide: true
+robots: noindex
+googlebot: noindex
 role: User, Admin, Developer
 level: Beginner
 product_v2:

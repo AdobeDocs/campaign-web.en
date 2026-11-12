@@ -1,6 +1,9 @@
 ---
 title: Checks and troubleshooting after the transition to Campaign v8
 description: Learn what to check and how to fix common issues after you transition from Campaign Standard to Campaign v8
+hide: true
+robots: noindex
+googlebot: noindex
 role: User, Admin, Developer
 level: Beginner
 product_v2:
