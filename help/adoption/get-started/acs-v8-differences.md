@@ -46,7 +46,7 @@ The steps to create and send messages are similar in both products, as described
 |---|---|
 | The In-App channel is not available in Campaign v8. | [In-App channel](marketers.md#acs-gs-marketers-in-app) |
 | To transition existing push workflows and deliveries, contact your Adobe Campaign Transition Manager. | [Push notifications](marketers.md#acs-gs-marketers-push) |
-| In Campaign Standard, a test profile could be marked as a **Trap** to receive the final send. In Campaign v8, enable the option to include test profiles in the main audience of the delivery. | [Test deliveries](../../v8/preview-test/test-deliveries.md) |
+| In Campaign Standard, a test profile could be marked as a **Trap** to receive the final send. In Campaign v8, add a **Trap group** in the Audience settings of the delivery. | [Trap group](../../v8/audience/trap-group.md) |
 | Landing pages created in the Campaign Web user interface do not support hidden input fields or custom JavaScript. | [Landing pages](../../v8/landing-pages/get-started-lp.md) |
 | In Campaign Standard, the outbound transition of a direct mail activity also carried the generated file. In Campaign v8, it carries only the targeted population. To send the file to a server, add a **Data extraction** activity, then a **File transfer** activity. | [Direct mail](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
 
@@ -59,7 +59,6 @@ These differences affect the audiences and workflows migrated from Campaign Stan
 | Audiences are transformed during the transition. For example, audiences created with the Query activity become predefined filters, and file-type audiences become List-type audiences without dimensions. | [Manage audiences](marketers.md#acs-gs-marketers-audiences) |
 | Historical logs of workflows executed in Campaign Standard are not migrated. | [Create a workflow](marketers.md#acs-gs-marketers-wf) |
 | In Campaign Standard, you could select the aggregation period of a recurring email. This option is not available in Campaign v8. | [Channel activities](../../v8/workflows/activities/channels.md) |
-| In Campaign Standard, the **File transfer** activity could sort files alphanumerically. This option is not available in Campaign v8. | [Transfer file](../../v8/workflows/activities/transfer-file.md) |
 | Dynamic reporting covers email deliveries, campaigns with email deliveries, and transactional messages. | [Reporting](marketers.md#acs-gs-marketers-reporting) |
 
 ## Access and security {#access}
@@ -82,10 +81,7 @@ These differences affect deliveries sent from Campaign Standard before the trans
 |---|---|
 | Mirror pages of deliveries sent from Campaign Standard before the transition are not available. Mirror pages of deliveries sent from Campaign v8 work as usual. | [Mirror pages](../../v8/email/mirror-page.md) |
 | Tracking data of real-time transactional deliveries sent from Campaign Standard before the transition is not captured in Campaign v8. The links of these messages still redirect. | [Monitor transactional messages](../../v8/transactional-messaging/monitor-transactional.md) |
-| The tracked URL settings of draft deliveries are not kept. After the transition, tracking, mirror page and subscription links follow the Campaign v8 standard, and links are tracked by default. | [Add links and track messages](../../v8/email/message-tracking.md) |
 | Geographical units are not available. Access control based on geographical units is lost. | [Access control](../../v8/get-started/connect-to-campaign.md#access-control) |
-| The **Created by** and **Modified by** information of entities is not available after the transition. | [Audit trail](admin-developers.md#acs-gs-admin-audit-trail) |
-| Branding subdomain URLs are adjusted to the Campaign v8 standard. Non-standard branding configurations are not migrated and are served through the default brand. | [Branding](../../v8/administration/branding/branding-gs.md) |
 
 ## APIs and integrations {#apis-and-integrations}
 
