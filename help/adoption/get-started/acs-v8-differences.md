@@ -37,6 +37,8 @@ Most concepts are the same in Campaign Standard and Campaign v8. This page gathe
 
 ## Channels and content {#channels}
 
+The steps to create and send messages are similar in both products, as described in the [guide for marketers](marketers.md). The differences below concern channel availability, test deliveries, landing pages and direct mail workflows.
+
 | What changes | Learn more |
 |---|---|
 | The In-App channel is not available in Campaign v8. | [In-App channel](marketers.md#acs-gs-marketers-in-app) |
@@ -46,6 +48,8 @@ Most concepts are the same in Campaign Standard and Campaign v8. This page gathe
 | In Campaign Standard, the outbound transition of a direct mail activity also carried the generated file. In Campaign v8, it carries only the targeted population. To send the file to a server, add a **Data extraction** activity, then a **File transfer** activity. | [Direct mail](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
 
 ## Audiences, workflows and deliveries {#data-and-workflows}
+
+These differences affect the audiences, workflows and deliveries migrated from Campaign Standard, some options of recurring deliveries and of the **File transfer** activity, and the scope of dynamic reporting.
 
 | What changes | Learn more |
 |---|---|
@@ -58,6 +62,8 @@ Most concepts are the same in Campaign Standard and Campaign v8. This page gathe
 
 ## Access and security {#access}
 
+Campaign Standard security groups, roles and organizational units are mapped to operator groups, named rights and folder permissions during the transition. Review the points below, in particular if some users have broader or narrower rights than before.
+
 | What changes | Learn more |
 |---|---|
 | Security groups, roles and organizational units are mapped to operator groups, named rights and folder permissions. Custom roles are not migrated. | [User access management](user-management-acs.md) |
@@ -67,6 +73,8 @@ Most concepts are the same in Campaign Standard and Campaign v8. This page gathe
 | Privacy requests can arrive in both Campaign Standard and Campaign v8 during the period when your Campaign Standard environment remains active. | [Privacy and consent](admin-developers.md#privacy-and-consent) |
 
 ## Administration, tracking and mirror pages {#admin-tracking}
+
+These differences affect deliveries sent from Campaign Standard before the transition, and administrative information that is not carried over to Campaign v8.
 
 | What changes | Learn more |
 |---|---|
@@ -78,6 +86,8 @@ Most concepts are the same in Campaign Standard and Campaign v8. This page gathe
 | Branding subdomain URLs are adjusted to the Campaign v8 standard. Non-standard branding configurations are not migrated and are served through the default brand. | [Branding](../../v8/administration/branding/branding-gs.md) |
 
 ## APIs and integrations {#apis-and-integrations}
+
+These differences affect the integrations that call Campaign through its REST API, and the integrations with other Adobe solutions and tools.
 
 | What changes | Learn more |
 |---|---|
