@@ -92,7 +92,7 @@ To ensure a smooth transition to Campaign v8, key Campaign Standard capabilities
 
 * **REST APIs**: Campaign Standard migrated users can use REST APIs to create integrations for Adobe Campaign and build ecosystems by interfacing Adobe Campaign with other technologies. [Learn more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target="_blank"}.
 
-* **Landing Pages**: Campaign v8 landing pages include improvements to align them with Campaign Standard. Some differences remain, as listed in [Differences between Campaign Standard and Campaign v8](../../adoption/get-started/acs-v8-differences.md#channels). Learn more in the [release notes](../rn/release-notes.md#new-24-4) and the landing page [documentation](../landing-pages/get-started-lp.md).
+* **Landing Pages**: Campaign v8 landing pages include improvements to align them with Campaign Standard. <!-- Some differences remain, as listed in [Differences between Campaign Standard and Campaign v8](../../adoption/get-started/acs-v8-differences.md#channels). --> Learn more in the [release notes](../rn/release-notes.md#new-24-4) and the landing page [documentation](../landing-pages/get-started-lp.md).
 
 * **Visual Fragments**: Visual fragments are reusable visual components referenced in one or more email deliveries or content templates. Modifying a fragment updates all content using it. This functionality allows marketing users to prebuild multiple custom content blocks for quick message assembly in an improved design process. [Learn more](../content/use-visual-fragments.md).
 

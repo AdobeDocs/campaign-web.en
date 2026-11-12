@@ -227,7 +227,7 @@ Useful links:
 >
 >* Deliveries which are in one of the following status have been migrated as canceled deliveries: For Canceled / Retry in progress. 
 >
->* Tracking links, mirror page URL links and subscription/unsubscription links of deliveries sent from Campaign v8 follow the Campaign v8 standard. Mirror pages of deliveries sent from Campaign Standard before the transition are not available. See [Differences between Campaign Standard and Campaign v8](acs-v8-differences.md#admin-tracking). 
+>* Tracking links, mirror page URL links and subscription/unsubscription links of deliveries sent from Campaign v8 follow the Campaign v8 standard. Mirror pages of deliveries sent from Campaign Standard before the transition are not available. <!-- See [Differences between Campaign Standard and Campaign v8](acs-v8-differences.md#admin-tracking).-->
 >
 >See also the following sections: [Tracking and Monitoring](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking){target="_blank"}, [Branding](../../v8/administration/branding/branding-gs.md) in Adobe Campaign.
 
@@ -371,7 +371,7 @@ Note that the In-App channel is not available in Campaign v8. If you need to sen
 
 Adobe Campaign v8 web user interface comes with a reimagined user experience for landing pages. Campaign allows you to create, design, and share landing pages. Landing pages enable you to direct your users to online forms where they can update their data, opt-in/out from receiving your communications, or subscribe to a specific service such as a newsletter. 
 
-As a Campaign Standard user transitioning to Campaign v8, your existing landing pages have been migrated to Campaign Web user interface. Some differences apply, as listed in [Differences between Campaign Standard and Campaign v8](acs-v8-differences.md#channels).
+As a Campaign Standard user transitioning to Campaign v8, your existing landing pages have been migrated to Campaign Web user interface. <!-- Some differences apply, as listed in [Differences between Campaign Standard and Campaign v8](acs-v8-differences.md#channels). -->
 
 Learn more about landing pages in the following sections:
 
