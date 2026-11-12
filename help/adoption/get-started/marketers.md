@@ -371,7 +371,7 @@ Note that the In-App channel is not available in Campaign v8. If you need to sen
 
 Adobe Campaign v8 web user interface comes with a reimagined user experience for landing pages. Campaign allows you to create, design, and share landing pages. Landing pages enable you to direct your users to online forms where they can update their data, opt-in/out from receiving your communications, or subscribe to a specific service such as a newsletter. 
 
-As a Campaign Standard user transitoning to Campaign v8, your existing landing pages have been migrated to Campaign Web user interface. You can access the same range of capabilities.
+As a Campaign Standard user transitioning to Campaign v8, your existing landing pages have been migrated to Campaign Web user interface. Some differences apply, as listed in [Differences between Campaign Standard and Campaign v8](acs-v8-differences.md#channels).
 
 Learn more about landing pages in the following sections:
 
