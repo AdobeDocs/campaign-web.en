@@ -73,7 +73,6 @@ Most concepts are the same in Campaign Standard and Campaign v8. This page gathe
 | Mirror pages of deliveries sent from Campaign Standard before the transition are not available. Mirror pages of deliveries sent from Campaign v8 work as usual. | [Mirror pages](../../v8/email/mirror-page.md) |
 | Tracking data of real-time transactional deliveries sent from Campaign Standard before the transition is not captured in Campaign v8. The links of these messages still redirect. | [Monitor transactional messages](../../v8/transactional-messaging/monitor-transactional.md) |
 | The tracked URL settings of draft deliveries are not kept. After the transition, tracking, mirror page and subscription links follow the Campaign v8 standard, and links are tracked by default. | [Add links and track messages](../../v8/email/message-tracking.md) |
-| Billing data is not migrated. Use the billing data of Campaign Standard before the transition to choose your package level. | - |
 | Geographical units are not available. Access control based on geographical units is lost. | [Access control](../../v8/get-started/connect-to-campaign.md#access-control) |
 | The **Created by** and **Modified by** information of entities is not available after the transition. | [Audit trail](admin-developers.md#acs-gs-admin-audit-trail) |
 | Branding subdomain URLs are adjusted to the Campaign v8 standard. Non-standard branding configurations are not migrated and are served through the default brand. | [Branding](../../v8/administration/branding/branding-gs.md) |
