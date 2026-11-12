@@ -45,9 +45,11 @@ Most concepts are similar between Adobe Campaign v8 and Adobe Campaign Standard.
 
 [![image](../v8/assets/do-not-localize/learn-more-button.svg)](get-started/overview.md#experiences)
 
-<!-- Most concepts are similar between Adobe Campaign v8 and Adobe Campaign Standard. Learn about the terminology differences and what changes for channels, audiences, access, and APIs.
+<!--
+Most concepts are similar between Adobe Campaign v8 and Adobe Campaign Standard. Learn about the terminology differences and what changes for channels, audiences, access, and APIs.
 
-[![image](../v8/assets/do-not-localize/learn-more-button.svg)](get-started/acs-v8-differences.md) -->
+[![image](../v8/assets/do-not-localize/learn-more-button.svg)](get-started/acs-v8-differences.md)
+-->
 
 >[!TAB Get started as a marketer]
 
