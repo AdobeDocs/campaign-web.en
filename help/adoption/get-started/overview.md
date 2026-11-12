@@ -192,6 +192,8 @@ Also, as an existing Campaign user, note that some concepts have been renamed to
 * Email Preview is now available throught the **Simulate content** button. [Learn more](../../v8/preview-test/preview-test.md)
 * Lists are now **Audiences**. [Learn more](../../v8/audience/gs-audiences-recipients.md).
 
+For the other differences that affect your transition, see [Differences between Campaign Standard and Campaign v8](acs-v8-differences.md).
+
 
 ## New user experience
 
