@@ -3,7 +3,6 @@ title: Differences between Campaign Standard and Campaign v8
 description: Learn what changes when you transition from Campaign Standard to Campaign v8, and where to find the details
 role: User, Admin, Developer
 level: Beginner
-exl-id: d5a0a8d3-7d16-4c01-a8ba-5484ccf25475
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign

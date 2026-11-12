@@ -3,7 +3,6 @@ title: Checks and troubleshooting after the transition to Campaign v8
 description: Learn what to check and how to fix common issues after you transition from Campaign Standard to Campaign v8
 role: User, Admin, Developer
 level: Beginner
-exl-id: cfca22ca-6f19-4068-9d83-c0ab7a701aeb
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
