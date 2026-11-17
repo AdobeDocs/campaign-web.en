@@ -34,9 +34,32 @@ topic_v2:
 
 Most concepts are the same in Campaign Standard and Campaign v8. This page gathers the differences that affect you after the transition, and links to the page that explains each one. It complements the guides for [marketers](marketers.md) and for [administrators and developers](admin-developers.md).
 
-* For the terminology changes, see [Key differences between Campaign Standard and Campaign v8](overview.md#experiences).
+* For the terminology changes, see [Terminology](#terminology).
 * For the checks to run and the issues reported after a transition, see [Checks and troubleshooting after the transition](post-transition-checks.md).
 * For the capabilities that are available only in the client console, see [Campaign Web and Campaign client console](../../v8/get-started/capability-matrix.md).
+
+## Terminology {#terminology}
+
+Most concepts are similar between Adobe Campaign v8 and Adobe Campaign Standard. However, there are a few differences, starting with the terminology.
+
+| In Campaign Standard | In Campaign v8 |
+|---|---|
+| Custom resources | **Schemas** |
+| Messages | **Deliveries** |
+| Product users | **Operators** |
+| Roles | Configured with **Named Rights** |
+| Security groups | **Operator groups** |
+| Organizational units | Managed through **Folder permissions** |
+
+Also, as an existing Campaign user, note that some concepts have been renamed to align with the latest terminology standards. These changes only apply to the Campaign Web user interface and are not reflected in the client console.
+
+| In Campaign Standard | In Campaign Web | Learn more |
+|---|---|---|
+| Recipients | **Profiles** | [Profiles](../../v8/audience/gs-audiences-recipients.md) |
+| Seed addresses | **Test profiles** | [Test deliveries](../../v8/preview-test/test-deliveries.md) |
+| Delivery analysis | **Delivery preparation**. To launch the message preparation, click the **Prepare** button. | [Prepare and send](../../v8/monitor/prepare-send.md) |
+| Email Preview | Available through the **Simulate content** button. | [Preview and test](../../v8/preview-test/preview-test.md) |
+| Lists | **Audiences** | [Audiences](../../v8/audience/gs-audiences-recipients.md) |
 
 ## Channels and content {#channels}
 
