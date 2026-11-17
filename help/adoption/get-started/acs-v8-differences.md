@@ -141,8 +141,6 @@ For now, the REST APIs listed below are available for use:
 
 >[!AVAILABILITY]
 >
->For now, the **Transactional messages** REST API is not available.
->
 >The REST APIs listed below are deprecated and not available for use:
 >* Marketing history
 >* Organizational units
