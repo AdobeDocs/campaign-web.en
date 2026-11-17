@@ -83,7 +83,7 @@ These differences affect the integrations that call Campaign through its REST AP
 | What changes | Learn more |
 |---|---|
 | PKEY values change after the migration. If you store PKEYs outside Campaign, follow the hrefs returned by the API instead. | [Key usage](#key-usage) |
-| Some migrated profile fields, such as time zone and `ccpaOptOut`, are returned only by the `profileAndServicesExt/profile` API. | [Profile time zone](#profile-timezone) |
+| Some migrated profile fields, such as time zone and `ccpaOptOut`, are returned only by the `profileAndServicesExt/profile` API. | [Profile time zone and ccpaOptOut](#profile-timezone) |
 | Adobe migrates your Adobe Analytics and Audience Manager configurations. You must set up the Triggers and Adobe Target integrations again. | [Manage Adobe Campaign integrations](admin-developers.md#acs-gs-integrations) |
 
 ## REST API recommendations and limitations {#rest-api-limitations}
@@ -189,11 +189,13 @@ The section below lists the differences between Campaign Standard and Campaign v
 |-|500 - RST-360011 An error has occurred - please contact your administrator.|500 - An error has occurred - please contact your administrator.|
 |Insert a profile/service with invalid gender (or anything) enum value|500 - RST-360011 An error has occurred - please contact your administrator. The value 'invalid' is not valid for the 'nms:recipient:gender' enumeration of the '@gender' field|500 -An error has occurred - please contact your administrator.|
 
-### Profile time zone {#profile-timezone}
+### Profile time zone and ccpaOptOut {#profile-timezone}
 
 With Campaign Standard, timezone is displayed as part of the JSON response of **profileAndServices/profile** REST API calls.
 
 With Campaign v8, timezone is only shown to user as part of **profileAndServicesExt/profile** REST API calls. It is not part of **profileAndServices/profile** REST API calls since it is being added in an extended schema.
+
+The same applies to the `ccpaOptOut` field: it is shown only as part of **profileAndServicesExt/profile** REST API calls, not **profileAndServices/profile** calls, since it is added in an extended schema as part of the data migration.
 
 ### Workflow external signals {#workflow-signals}
 
