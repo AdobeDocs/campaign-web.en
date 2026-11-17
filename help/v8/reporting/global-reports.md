@@ -61,3 +61,52 @@ To access and manage your Global reports, follow these steps:
 1. From the **[!UICONTROL URLs and click streams]**, choose the **[!UICONTROL Top visited Links]** or the **[!UICONTROL Time period]**.
 
     The **[!UICONTROL View by]** options allow filtering on URLs, Labels, or Categories.
+
+## Reports for the LINE channel {#line-reports}
+
+The reports available for the LINE channel are described below.
+
+### Delivery overview {#line-delivery-overview}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_line_deliveries_overview"
+>title="LINE delivery overview"
+>abstract="View messages to deliver, delivered messages, and delivery errors for LINE."
+
+The **[!UICONTROL Delivery overview]** report displays the messages to deliver, delivered messages, and delivery errors for LINE.
+
+### Targeted audience {#line-targeted-audience}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_line_targeted_audience"
+>title="LINE targeted audience"
+>abstract="View the audience targeted by the LINE delivery and the resulting delivery outcomes."
+
+The **[!UICONTROL Targeted audience]** graph and table display the audience targeted by the LINE delivery and the resulting delivery outcomes.
+
+### Delivery statistics {#line-delivery-stats}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_line_delivery_stats"
+>title="LINE delivery statistics"
+>abstract="View key delivery results for LINE messages, including messages to deliver, delivered messages, and delivery errors."
+
+The **[!UICONTROL Delivery statistics]** graph and table display key delivery results for LINE messages, including messages to deliver, delivered messages, and delivery errors.
+
+### Causes of exclusion {#line-exclusions}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_line_exclusions"
+>title="LINE causes of exclusion"
+>abstract="View why targeted profiles were excluded from the LINE delivery, such as eligibility, validation, or configuration rules."
+
+The **[!UICONTROL Causes of exclusion]** graph and table display why targeted profiles were excluded from the LINE delivery, such as eligibility, validation, or configuration rules.
+
+### Delivery throughput {#line-delivery-throughput}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_throughput_line"
+>title="LINE delivery throughput"
+>abstract="View the sending rate of LINE messages over time."
+
+The **[!UICONTROL Delivery throughput]** report displays the sending rate of LINE messages over time.
