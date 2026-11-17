@@ -56,7 +56,10 @@ These differences affect the audiences and workflows migrated from Campaign Stan
 
 | What changes | Learn more |
 |---|---|
-| Audiences are transformed during the transition. For example, audiences created with the Query activity become predefined filters, and file-type audiences become List-type audiences without dimensions. | [Manage audiences](marketers.md#acs-gs-marketers-audiences) |
+| Audiences created with the Query activity in Campaign Standard become [predefined filters](../../v8/query/build-query.md) in Campaign v8. Campaign v8 also supports the Query activity. | [Manage audiences](marketers.md#acs-gs-marketers-audiences) |
+| A Read audience activity becomes a Query activity with a predefined filter. | [Manage audiences](marketers.md#acs-gs-marketers-audiences) |
+| A predefined filter takes only the latest value after the audience is migrated. | [Manage audiences](marketers.md#acs-gs-marketers-audiences) |
+| File-type audiences become List-type audiences without dimensions. | [Manage audiences](marketers.md#acs-gs-marketers-audiences) |
 | Historical logs of workflows executed in Campaign Standard are not migrated. | [Create a workflow](marketers.md#acs-gs-marketers-wf) |
 | In Campaign Standard, you could select the aggregation period of a recurring email. This option is not available in Campaign v8. | [Channel activities](../../v8/workflows/activities/channels.md) |
 | Dynamic reporting covers email deliveries, campaigns with email deliveries, and transactional messages. | [Reporting](marketers.md#acs-gs-marketers-reporting) |
