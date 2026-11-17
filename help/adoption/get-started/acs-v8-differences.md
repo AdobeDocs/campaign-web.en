@@ -34,9 +34,32 @@ topic_v2:
 
 Most concepts are the same in Campaign Standard and Campaign v8. This page gathers the differences that affect you after the transition, and links to the page that explains each one. It complements the guides for [marketers](marketers.md) and for [administrators and developers](admin-developers.md).
 
-* For the terminology changes, see [Key differences between Campaign Standard and Campaign v8](overview.md#experiences).
+* For the terminology changes, see [Terminology](#terminology).
 * For the checks to run and the issues reported after a transition, see [Checks and troubleshooting after the transition](post-transition-checks.md).
 * For the capabilities that are available only in the client console, see [Campaign Web and Campaign client console](../../v8/get-started/capability-matrix.md).
+
+## Terminology {#terminology}
+
+Most concepts are similar between Adobe Campaign v8 and Adobe Campaign Standard. However, there are a few differences, starting with the terminology.
+
+| In Campaign Standard | In Campaign v8 |
+|---|---|
+| Custom resources | **Schemas** |
+| Messages | **Deliveries** |
+| Product users | **Operators** |
+| Roles | Configured with **Named Rights** |
+| Security groups | **Operator groups** |
+| Organizational units | Managed through **Folder permissions** |
+
+Also, as an existing Campaign user, note that some concepts have been renamed to align with the latest terminology standards. These changes only apply to the Campaign Web user interface and are not reflected in the client console.
+
+| In Campaign Standard | In Campaign Web | Learn more |
+|---|---|---|
+| Recipients | **Profiles** | [Profiles](../../v8/audience/gs-audiences-recipients.md) |
+| Seed addresses | **Test profiles** | [Test deliveries](../../v8/preview-test/test-deliveries.md) |
+| Delivery analysis | **Delivery preparation**. To launch the message preparation, click the **Prepare** button. | [Prepare and send](../../v8/monitor/prepare-send.md) |
+| Email Preview | Available through the **Simulate content** button. | [Preview and test](../../v8/preview-test/preview-test.md) |
+| Lists | **Audiences** | [Audiences](../../v8/audience/gs-audiences-recipients.md) |
 
 ## Channels and content {#channels}
 
@@ -56,7 +79,10 @@ These differences affect the audiences and workflows migrated from Campaign Stan
 
 | What changes | Learn more |
 |---|---|
-| Audiences are transformed during the transition. For example, audiences created with the Query activity become predefined filters, and file-type audiences become List-type audiences without dimensions. | [Manage audiences](marketers.md#acs-gs-marketers-audiences) |
+| Audiences created with the Query activity in Campaign Standard become [predefined filters](../../v8/query/build-query.md) in Campaign v8. Campaign v8 also supports the Query activity. | [Manage audiences](marketers.md#acs-gs-marketers-audiences) |
+| A Read audience activity becomes a Query activity with a predefined filter. | [Manage audiences](marketers.md#acs-gs-marketers-audiences) |
+| A predefined filter takes only the latest value after the audience is migrated. | [Manage audiences](marketers.md#acs-gs-marketers-audiences) |
+| File-type audiences become List-type audiences without dimensions. | [Manage audiences](marketers.md#acs-gs-marketers-audiences) |
 | Historical logs of workflows executed in Campaign Standard are not migrated. | [Create a workflow](marketers.md#acs-gs-marketers-wf) |
 | In Campaign Standard, you could select the aggregation period of a recurring email. This option is not available in Campaign v8. | [Channel activities](../../v8/workflows/activities/channels.md) |
 | Dynamic reporting covers email deliveries, campaigns with email deliveries, and transactional messages. | [Reporting](marketers.md#acs-gs-marketers-reporting) |
@@ -80,7 +106,7 @@ These differences affect the integrations that call Campaign through its REST AP
 | What changes | Learn more |
 |---|---|
 | PKEY values change after the migration. If you store PKEYs outside Campaign, follow the hrefs returned by the API instead. | [Key usage](#key-usage) |
-| Some migrated profile fields, such as time zone and `ccpaOptOut`, are returned only by the `profileAndServicesExt/profile` API. | [Profile time zone](#profile-timezone) |
+| Some migrated profile fields, such as time zone and `ccpaOptOut`, are returned only by the `profileAndServicesExt/profile` API. | [Profile time zone and ccpaOptOut](#profile-timezone) |
 | Adobe migrates your Adobe Analytics and Audience Manager configurations. You must set up the Triggers and Adobe Target integrations again. | [Manage Adobe Campaign integrations](admin-developers.md#acs-gs-integrations) |
 
 ## REST API recommendations and limitations {#rest-api-limitations}
@@ -186,11 +212,13 @@ The section below lists the differences between Campaign Standard and Campaign v
 |-|500 - RST-360011 An error has occurred - please contact your administrator.|500 - An error has occurred - please contact your administrator.|
 |Insert a profile/service with invalid gender (or anything) enum value|500 - RST-360011 An error has occurred - please contact your administrator. The value 'invalid' is not valid for the 'nms:recipient:gender' enumeration of the '@gender' field|500 -An error has occurred - please contact your administrator.|
 
-### Profile time zone {#profile-timezone}
+### Profile time zone and ccpaOptOut {#profile-timezone}
 
 With Campaign Standard, timezone is displayed as part of the JSON response of **profileAndServices/profile** REST API calls.
 
 With Campaign v8, timezone is only shown to user as part of **profileAndServicesExt/profile** REST API calls. It is not part of **profileAndServices/profile** REST API calls since it is being added in an extended schema.
+
+The same applies to the `ccpaOptOut` field: it is shown only as part of **profileAndServicesExt/profile** REST API calls, not **profileAndServices/profile** calls, since it is added in an extended schema as part of the data migration.
 
 ### Workflow external signals {#workflow-signals}
 
