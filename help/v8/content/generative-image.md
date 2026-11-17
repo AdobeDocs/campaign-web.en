@@ -29,6 +29,10 @@ topic_v2:
 
 Use AI in Adobe Campaign Web to create compelling visual content that enhances your messages across email, landing pages, and push notifications. AI helps you generate and optimize images, ensuring your content is visually engaging and aligned with your brand.
 
+>[!IMPORTANT]
+>
+>The links to AI-generated images are temporary and cannot be used to serve images to your recipients. When you save your delivery, the generated images are saved to your Campaign instance and the links are replaced. Save your delivery before sending it.
+
 ## For Email and Landing Pages {#email-web-channels}
 
 Use AI to generate complete visual experiences for your email deliveries and landing pages. This capability allows you to produce on-brand, attention-grabbing images that resonate with your audience across digital touchpoints.

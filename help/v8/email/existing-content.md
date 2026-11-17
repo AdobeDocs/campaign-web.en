@@ -28,6 +28,10 @@ You can import existing HTML content in the Email Designer. This content can be:
 >
 >There are no constraints on the .zip file structure. However, references must be relative and fit within the tree structure of the .zip folder.
 
+>[!IMPORTANT]
+>
+>Do not use the HTML `<base>` tag in your email content. For security reasons, this tag is not supported and can prevent your content from loading in the content editor. Use absolute URLs for your links and external resources instead.
+
 ➡️ [Discover this feature in video](#video)
 
 To import a file containing HTML content, follow the steps below.

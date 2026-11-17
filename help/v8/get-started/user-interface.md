@@ -42,9 +42,9 @@ topic_v2:
 ---
 # Discover the interface {#user-interface}
 
-The new Adobe Campaign Web interface provides a modern and intuitive user experience to simplify marketing campaign design and delivery. This interface integrates with Adobe Experience Cloud apps and solutions.
+The new Adobe Campaign Web interface provides a modern and intuitive user experience to simplify marketing campaign design and delivery. This interface integrates with [!DNL Adobe CX Enterprise] apps and solutions.
 
-Learn how to connect to Adobe Campaign and explore Experience Cloud navigation basics [in this article](connect-to-campaign.md).
+Learn how to connect to Adobe Campaign and explore [!DNL CX Enterprise] navigation basics [in this article](connect-to-campaign.md).
 
 >[!NOTE]
 >

@@ -181,14 +181,14 @@ You can send offers in your deliveries created in the Adobe Campaign Web user in
 
 Learn how to manage an offer catalog in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
 
-## Integrations with Adobe Experience Cloud solutions {#exc-capabilities}
+## Integrations with [!DNL Adobe CX Enterprise] solutions {#exc-capabilities}
 
 The new Campaign modern UI simplifies marketing campaign design and delivery and brings consistency along with other Adobe solutions, including Adobe Experience Platform and Adobe Experience Manager.
 
 The following integrations are available from the Adobe Campaign client console and not yet available in the Campaign Web user interface. Use the provided links to browse the Campaign v8 (client console) documentation and learn more about these integrations:
 
 * Adobe Analytics data usage and KPI sharing. [Learn more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html){target="_blank"}
-* Audience sharing with Adobe Experience Cloud (Adobe Audience Manager). [Learn more](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html){target="_blank"}
+* Audience sharing with [!DNL Adobe CX Enterprise] (Adobe Audience Manager). [Learn more](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html){target="_blank"}
 * Integration with Adobe Target. [Learn more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-at.html){target="_blank"}
 * Integration with Adobe Experience Cloud Triggers. [Learn more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-triggers.html){target="_blank"}
 

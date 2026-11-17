@@ -23,6 +23,10 @@ Use the **[!UICONTROL Code your own]** mode to import raw HTML and code your ema
 >
 >This method requires knowledge of HTML.
 
+>[!IMPORTANT]
+>
+>Do not use the HTML `<base>` tag in your email content. For security reasons, this tag is not supported and can prevent your content from loading in the content editor. Use absolute URLs for your links and external resources instead.
+
 1. On the [Email Designer](get-started-email-designer.md) home page, select **[!UICONTROL Code your own]**.
 
     ![Screenshot showing the "Code your own" option in the Email Designer home page](assets/code-your-own.png){zoomable="yes"}

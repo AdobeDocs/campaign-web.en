@@ -59,7 +59,7 @@ Then, you need to define the event as profile-based to target data contained in 
     * For an existing event type, select it from the list. 
     * For a new one, add a label and name.
 
-1. Then, choose **Profile RT** in the **Event type** drop-down.
+1. Then, choose **Personalized event** in the **Event type** drop-down.
 
     ![](assets/profile-enrich1.png){zoomable="yes"}
 

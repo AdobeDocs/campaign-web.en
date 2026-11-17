@@ -44,14 +44,14 @@ This new Campaign Web user interface comes with the following capabilities:
 
 **Modern, friendly, and unified experience**
 
-Campaign new Web user interface offers a new user experience, connected with all Adobe Experience Cloud solutions and apps. It offers:
+Campaign new Web user interface offers a new user experience, connected with all [!DNL Adobe CX Enterprise] solutions and apps. It offers:
 
 * Access to the new Campaign interface, and your other Adobe solutions with a single and shared user session
 * New navigation experience, with all menus and folders available from the left rail
 * Solution and organization switchers from the top bar
 * Unified Shell integration, with a direct access to community, help center, and support
 
-Learn how to sign in to Adobe Experience Cloud and connect to Campaign in [this page](../get-started/connect-to-campaign.md).
+Learn how to sign in to [!DNL Adobe CX Enterprise] and connect to Campaign in [this page](../get-started/connect-to-campaign.md).
 
 
 **New powerful capabilities and seamless processes**
@@ -174,7 +174,7 @@ The limitations below apply to this version:
 * The Administration and advanced configuration capabilities are not available in Campaign Web user interface.
 * Reporting metrics (such as opens and tracking data) are updated every hour.
 * Delivery dashboard KPIs are updated every 5 min. - but the Delivery preparation is real-time.
-* Adobe Experience Cloud Notifications and Unified Help available in the top bar are not yet integrated.
+* [!DNL Adobe CX Enterprise] Notifications and Unified Help available in the top bar are not yet integrated.
 
 When working in Campaign Web user interface with workflows created or modified in Campaign client console, specific guardrails and limitations apply. They are listed [in this section](../get-started/guardrails.md).
 

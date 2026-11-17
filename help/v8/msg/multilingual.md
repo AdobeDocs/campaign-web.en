@@ -29,6 +29,10 @@ In a multilingual delivery, the language management is based on variants. Each v
 
 The multilingual capability is currently available for email, push notifications, transactional messages and SMS. 
 
+>[!NOTE]
+>
+>Single-variant multilingual deliveries are not supported. If your message only needs one language, create a standard (single) delivery instead.
+
 To set up multilingual deliveries, follow these main steps:
 
 1. Add a language variant, [read more](#add-variant)

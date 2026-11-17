@@ -120,6 +120,7 @@ The following limitations apply to Generate Content in Adobe Campaign Web:
 * Only available for the email, push, and SMS channels.  
 * GenAI content might not always be accurate. Share your feedback so engineers can refine the models.  
 * You may upload multiple brand assets but can leverage only one for a specific generation.  
+* The links to AI-generated images are temporary and cannot be used to serve images to your recipients. When you save your delivery, the generated images are saved to your Campaign instance and the links are replaced. Save your delivery before sending it.  
 
 ## Generate Content capabilities {#generative-features}
 

@@ -249,7 +249,7 @@ External accounts are used by technical processes such as technical workflows or
 
 **Manage Adobe Campaign integrations**
 
-You can connect your Campaign environment with Adobe Experience Cloud solutions and apps to combine capabilities.<br/>
+You can connect your Campaign environment with [!DNL Adobe CX Enterprise] solutions and apps to combine capabilities.<br/>
 Adobe Campaign comes with several connectors that allow you to communicate with external applications, connect to database engines, and share and synchronize data. These connections are configured by Adobe.
 
 Here are the possible integrations:

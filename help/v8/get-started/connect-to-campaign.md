@@ -18,35 +18,35 @@ topic_v2:
 ---
 # Connect to Adobe Campaign {#connect-to-campaign}
 
-Experience Cloud is Adobe's integrated family of digital marketing applications, products, and services. From its intuitive interface, you can quickly access your cloud applications, product features, and services. Learn how to connect to Adobe Experience Cloud and access the Adobe Campaign Web interface on this page.
+[!DNL Adobe CX Enterprise] is Adobe's integrated family of digital marketing applications, products, and services. From its intuitive interface, you can quickly access your cloud applications, product features, and services. Learn how to connect to [!DNL CX Enterprise] and access the Adobe Campaign Web interface on this page.
 
-## Sign in to Adobe Experience Cloud {#sign-in-to-exc}
+## Sign in to [!DNL Adobe CX Enterprise] {#sign-in-to-exc}
 
-You can only use Single Sign-On (SSO) to connect to Campaign. Typically, Experience Cloud administrators grant access to applications and services. Follow the steps in your email invitation to the Experience Cloud.
+You can only use Single Sign-On (SSO) to connect to Campaign. Typically, [!DNL CX Enterprise] administrators grant access to applications and services. Follow the steps in your email invitation to [!DNL CX Enterprise].
 
-To sign in to Adobe Experience Cloud, follow these basic steps:
+To sign in to [!DNL Adobe CX Enterprise], follow these basic steps:
 
-1. Browse to [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}.
+1. Browse to [[!DNL Adobe CX Enterprise]](https://experience.adobe.com/){target="_blank"}.
 
 1. Log in using your Adobe ID or Enterprise ID. Learn more about identity types at Adobe in [this article](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"}.
 
-    After signing in to Experience Cloud, you can quickly access all your solutions and apps.
+    After signing in to [!DNL CX Enterprise], you can quickly access all your solutions and apps.
 
-    ![Screenshot showing the Adobe Experience Cloud home page](assets/exc-home.png){zoomable="yes"}
+    ![Screenshot showing the Adobe CX Enterprise home page](assets/exc-home.png){zoomable="yes"}
 
 1. Verify that you are in the correct organization.
 
-    ![Screenshot showing organization selection in Adobe Experience Cloud](assets/exc-orgs.png){zoomable="yes"}{width="50%"}
+    ![Screenshot showing organization selection in Adobe CX Enterprise](assets/exc-orgs.png){zoomable="yes"}{width="50%"}
 
-    Learn more about organizations in Adobe Experience Cloud in [this article](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html){target="_blank"}.
+    Learn more about organizations in [!DNL Adobe CX Enterprise] in [this article](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html){target="_blank"}.
 
 ## Access to Adobe Campaign {#access-to-campaign}
 
-To access your Campaign environment, select **Campaign** from the **Quick Access** section of the Adobe Experience Cloud home page.
+To access your Campaign environment, select **Campaign** from the **Quick Access** section of the [!DNL Adobe CX Enterprise] home page.
 
-If you are already connected to another Adobe Experience Cloud solution, browse to your Campaign environment from the solution switcher on the top right of your screen.
+If you are already connected to another [!DNL Adobe CX Enterprise] solution, browse to your Campaign environment from the solution switcher on the top right of your screen.
 
-![Screenshot showing the solution switcher in Adobe Experience Cloud](assets/solution-switcher.png){zoomable="yes"}
+![Screenshot showing the solution switcher in Adobe CX Enterprise](assets/solution-switcher.png){zoomable="yes"}
 
 If you have access to multiple environments, including Campaign Control Panel, click the **Launch** button for the correct instance.
 
@@ -99,17 +99,17 @@ As you browse the Campaign Web user interface, you can access data, objects, and
 
 You can learn how to [view and manage permissions here](permissions.md).
 
-## Adobe Experience Cloud top navigation {#top-bar}
+## [!DNL Adobe CX Enterprise] top navigation {#top-bar}
 
-The top bar of the interface gives you quick access to core Experience Cloud features.
+The top bar of the interface gives you quick access to core [!DNL CX Enterprise] features.
 
-![Screenshot showing the Adobe Experience Cloud top navigation bar](assets/do-not-localize/unified-shell.png){zoomable="yes"}
+![Screenshot showing the Adobe CX Enterprise top navigation bar](assets/do-not-localize/unified-shell.png){zoomable="yes"}
 
 Use the top bar to:
 
 * Share feedback about the Campaign Web user interface.
 * Switch between your organizations.
-* Switch between your Adobe Experience Cloud solutions and apps.
+* Switch between your [!DNL Adobe CX Enterprise] solutions and apps.
 * Search for help on [Adobe Experience League](https://experienceleague.adobe.com/docs/){target="_blank"}.
 * View your product notifications.
 * Edit your Adobe profile and manage settings, such as [updating your preferred language](#language-pref) or [switching between light and dark themes](#dark-theme).

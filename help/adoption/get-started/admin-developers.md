@@ -373,7 +373,7 @@ As an administrator, get familiar with quarantine management in Campaign v8 star
 
 ## Manage Adobe Campaign integrations {#acs-gs-integrations}
 
-You can connect your Campaign instance with Adobe Experience Cloud solutions to combine capabilities. Adobe Campaign comes with several connectors that allow you to communicate with external applications, connect to database engines, share and synchronize data. Learn how to combine your solutions in [this documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/integration){target="_blank"}.
+You can connect your Campaign instance with [!DNL Adobe CX Enterprise] solutions to combine capabilities. Adobe Campaign comes with several connectors that allow you to communicate with external applications, connect to database engines, share and synchronize data. Learn how to combine your solutions in [this documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/integration){target="_blank"}.
 
 As a Campaign Standard user migrating to Campaign v8, the following applies to you:
 
